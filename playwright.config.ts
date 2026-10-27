@@ -13,10 +13,10 @@ export default defineConfig({
   },
   projects: [
     { name: "desktop", use: { ...devices["Desktop Chrome"], viewport: { width: 1280, height: 800 } } },
-    { name: "phone", use: { ...devices["iPhone 14"] } },
+    { name: "phone", use: { ...devices["iPhone 14"], browserName: "chromium" } },
   ],
   webServer: {
-    command: "APEX_DB_DIR=./data/e2e pnpm dev --port 3100",
+    command: "APEX_E2E=1 APEX_DB_DIR=./data/e2e pnpm dev --port 3100",
     url: "http://localhost:3100",
     reuseExistingServer: false,
     timeout: 180_000,
