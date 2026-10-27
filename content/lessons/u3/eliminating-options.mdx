@@ -1,0 +1,58 @@
+---
+id: u3/eliminating-options
+unit: 3
+order: 9
+title: "Eliminating options: is the list complete?"
+summary: "A conclusion that survives by elimination is only as good as the list it survived. The test almost never gives you a complete list."
+checkTags: [eliminating_options]
+minutes: 8
+---
+
+## The pattern
+
+An argument establishes one option (cause, explanation, culprit, course of action) by ruling out the others. The inference is valid only if the list of options was exhaustive and every elimination was earned.
+
+It appears in **Flaw**, **Weaken**, **Strengthen**, **Necessary Assumption**, **Sufficient Assumption**, **Parallel Flaw**, and underlies many **Resolve/Explain** stimuli, where the puzzle exists because the obvious options have been ruled out.
+
+## How to recognize it
+
+Structural tells: *either… or, the only other possibility, since it was not X it must be Y, the only explanation, no other explanation has been proposed, nothing else could account for, the remaining candidate, must have been*. The conclusion is often marked with *must*, because elimination feels deductive.
+
+Two failure points, and the test prefers the first:
+
+1. **The list.** Two options presented as the only two (false dilemma); three causes considered when a fourth exists; "the only explanation anyone has offered" treated as the only explanation there is.
+2. **The eliminations.** An option dismissed on thin grounds, often by a lack-of-evidence move ("there is no sign that the price changed").
+
+A valid version exists. When the stimulus stipulates exhaustiveness ("every entry was classified as either fiction or nonfiction"), elimination is airtight. Check whether the list was given or assumed.
+
+<TagSpotter tag="Eliminating options" items={[
+  { text: "The painting is not a forgery, as the pigments are period-correct. So it must be by the master himself.", present: true, tell: "must be by the master himself", why: "Forgery and master are not the only options. Workshop assistants, pupils, and contemporaries are the missing list entries." },
+  { text: "Every entry was classified as either fiction or nonfiction. This entry was not classified as fiction. So it was classified as nonfiction.", present: false, tell: "Every entry was classified as either", why: "Exhaustiveness is stipulated. Eliminating one of two given options is valid." },
+  { text: "Sales fell last quarter. The product did not get worse and the price did not change, so the decline must be due to the competitor's new advertising campaign.", present: true, tell: "must be due to", why: "Three causes considered: quality, price, rival advertising. The economy, the season, and distribution are unlisted." },
+  { text: "Either the city invests in the stadium or downtown continues to decline. The council will not fund the stadium. So downtown will continue to decline.", present: true, tell: "Either the city invests in the stadium or", why: "Valid from the premise, but the premise is a false dilemma. Flaw answers target it: ‘presents two alternatives as if they were the only ones.’" },
+  { text: "The outage was caused by a faulty transformer: engineers found the transformer scorched and the system recovered as soon as it was replaced.", present: false, tell: "the system recovered as soon as it was replaced", why: "Positive evidence for the cause, not elimination of rivals. Causal reasoning, different tag." },
+  { text: "The sample contains no trace of lead, so lead is not the source of the contamination.", present: false, tell: "so lead is not the source", why: "One option is ruled out and nothing is concluded about a survivor. Elimination alone is not the pattern; the pattern is concluding from it." },
+]} />
+
+## How it is exploited
+
+| Question | What the key does | Abstract language |
+|---|---|---|
+| Flaw | Names the incomplete list or the lazy elimination | "fails to consider other possible explanations" / "treats two alternatives as exhaustive when they may not be" / "infers that an explanation is correct merely because others have been rejected" |
+| Weaken | Supplies the unlisted option, or rehabilitates an eliminated one | "A major distributor dropped the product last quarter" / "The price did change for online buyers" |
+| Strengthen | Closes the list or confirms an elimination | "No factor other than quality, price, and advertising affects the product's sales" |
+| Necessary Assumption | The exhaustiveness premise, weak form | "There is no cause of the decline other than those considered" |
+| Sufficient Assumption | The exhaustive disjunction, outright | "The decline was due to quality, price, or the competitor's campaign" |
+| Resolve / Explain | Adds the option the stimulus overlooked | The puzzle is a dilemma; the answer is the third horn |
+
+## The level-4 variant
+
+The options are never labeled as options. Across four sentences the argument sets aside the weather, the staff, and the equipment one at a time, then concludes about the supplier. You reconstruct the list yourself, and the question tests whether you noticed it was built by the arguer.
+
+Second form: the options are not exclusive. "The decline was caused by the price increase, not by the recession" assumes one cause when both could operate. Elimination of a rival cause is not required when causes can share the work.
+
+Trap: a Weaken answer that offers an alternative the stimulus already eliminated. It feels like the right move and attacks nothing.
+
+<KeyIdea>
+When a conclusion survives by elimination, ask two questions in order. Was the list complete? Was each elimination earned? The stimulus took one of those on faith, almost always the first, and the correct answer is about that one.
+</KeyIdea>

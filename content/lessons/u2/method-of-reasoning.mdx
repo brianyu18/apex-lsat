@@ -1,0 +1,121 @@
+---
+id: u2/method-of-reasoning
+unit: 2
+order: 14
+title: "Method of Reasoning"
+summary: "Describe the move, not the content. Every abstract noun in the right answer has a concrete referent in the text; if one doesn't, the choice describes a different argument."
+checkTags: [method_of_reasoning]
+diagram: AttackMap
+minutes: 9
+---
+
+## The stem and the task
+
+*"The argument proceeds by"* or *"Which one of the following most accurately describes the technique of reasoning used?"* In dialogues: *"[B] responds to [A] by."*
+
+This is Flaw without the error. You describe how the argument gets from premises to conclusion, in the abstract. The discipline is the **referent test**: each noun phrase in a choice ("a general principle," "a counterexample," "an analogy") must point at something specific in the stimulus. One noun with no referent and the choice is describing an argument that isn't there.
+
+## The read: find the move
+
+<AttackMap
+  type="Method of Reasoning"
+  stem="The councillor responds to the opponent by"
+  steps={[
+    {
+      label: "Read",
+      do: "Mark the conclusion. In a dialogue, mark the other speaker's claim too; the method is relative to it.",
+      example: "Councillor: My opponent says the new zoning rule will lower housing costs because it allows taller buildings. But the same rule was adopted in three comparable cities, and in each, housing costs rose faster afterward than before. So the rule is unlikely to lower costs here.\nOpponent's claim: rule will lower costs. Councillor's conclusion: unlikely to lower costs here."
+    },
+    {
+      label: "Find the move",
+      do: "What does the evidence DO to the other claim? Does it deny a premise, attack the inference, offer counter-cases, reframe a term, draw out a consequence?",
+      example: "The councillor doesn't deny that taller buildings are allowed. She cites outcomes in similar cases where the predicted result failed to appear. The move: counter-cases against a prediction."
+    },
+    {
+      label: "Prephrase",
+      do: "Describe the move in one abstract sentence, then check each noun has a referent.",
+      example: "Casts doubt on a prediction by citing similar cases in which the predicted outcome did not occur. Prediction = 'will lower costs.' Similar cases = three comparable cities."
+    },
+    {
+      label: "Judge the choices",
+      do: "Decode each choice; run the referent test; check the verb's strength.",
+      example: "'Showing that a premise of the opponent's argument is false' → which premise? None denied. Out.\n'Demonstrating that the opponent's conclusion leads to a contradiction' → no contradiction anywhere. Out.\n'Appealing to analogous cases to question a predicted outcome' → every noun lands. Keep."
+    },
+    {
+      label: "Confirm",
+      do: "Reread the credited choice with the referents filled in; it should restate the argument.",
+      example: "'Appealing to [three comparable cities] to question [that the rule will lower costs].' That is the argument."
+    }
+  ]}
+/>
+
+## The decoder: common method language
+
+| Answer says | Concretely, the argument… |
+|---|---|
+| "appeals to a general principle" | states a rule and applies it to the case |
+| "offers a counterexample" | gives one case that breaks a universal claim |
+| "argues by analogy" | treats a similar case as evidence for this one |
+| "undermines a premise" | denies a reason the other side gave |
+| "questions the relevance of evidence" | accepts the evidence is true; denies it bears on the conclusion |
+| "shows a claim leads to an unacceptable consequence" | reductio: grants the claim, derives something absurd |
+| "distinguishes two senses of a term" | points out an ambiguity the other side relied on |
+| "rules out alternative explanations" | eliminates rival causes to support one |
+
+## What the right answer looks like
+
+- Every noun has a **referent**; every verb matches the **strength** of what was done (*questions* vs *refutes* vs *proves*).
+- It describes the **move**, with no content words from the topic and no evaluation of whether it worked.
+- In a dialogue, it describes the responder's move **relative to** the first speaker's argument.
+
+## The wrong answers for this type
+
+<TrapCatalog
+  title="Method traps"
+  traps={[
+    {
+      pattern: "wrong_part",
+      setup: "Councillor cites three cities where the rule preceded faster cost growth.",
+      tempting: "Arguing that a policy will have a certain effect because of a feature of the policy.",
+      killer: "That is the opponent's method (taller buildings → lower costs). The stem asks how the councillor responds.",
+      instead: "Describe the speaker the stem names."
+    },
+    {
+      pattern: "half_right",
+      setup: "Same argument.",
+      tempting: "Casting doubt on the claim that the rule permits taller buildings.",
+      killer: "'Casting doubt' is the right verb; the object is wrong. The councillor never questions what the rule permits.",
+      instead: "Check the object of the verb, not just the verb."
+    },
+    {
+      pattern: "extreme",
+      setup: "Same argument.",
+      tempting: "Proving that the zoning rule will raise housing costs.",
+      killer: "'Unlikely to lower' is neither 'proving' nor 'will raise.' Both the verb and the conclusion overshoot.",
+      instead: "Match the strength of the conclusion as stated."
+    },
+    {
+      pattern: "out_of_scope",
+      setup: "Same argument.",
+      tempting: "Pointing out an ambiguity in the opponent's use of a key term.",
+      killer: "Which term? No word is used in two senses. A technique that is common on the test but absent here.",
+      instead: "Referent test: find the ambiguity in the text or discard the choice."
+    }
+  ]}
+/>
+
+## The level-4 version
+
+- **Fully abstract twins.** Right answer: "concluding that a generalization is unlikely to hold in a particular case because it has failed in relevantly similar cases." Best trap: "…because it has failed in *some* cases." One adjective, *relevantly similar*, carries the referent (comparable cities).
+- **The responder shifts the issue.** The second speaker answers a different question than was asked, and the credited answer says so: "responds to a claim about X by addressing a claim about Y."
+- **Method one level up.** Your prephrase is at the level of "cites three cities"; the answer is at the level of "appeals to inductive evidence." Practice translating up a level without losing the referent.
+
+<KeyIdea>
+Method answers are abstract summaries. Prove each abstract noun against a concrete piece of the text and each verb against the actual strength of the move. A noun without a referent means the choice describes a different argument.
+</KeyIdea>
+
+## Before you read the choices
+
+1. Name the conclusion and, in a dialogue, the claim being answered.
+2. Write the move as one abstract sentence.
+3. List the referent for each noun in your sentence; carry that list into the choices.

@@ -99,3 +99,18 @@ test("dashboard shows streak, inbox and ratings after activity", async ({ page }
   await expect(page.getByText(/Skill ratings/)).toBeVisible();
   await expect(page.getByText(/Logical Reasoning/).first()).toBeVisible();
 });
+
+test("unit 2 and 3 lessons render their interactive diagrams", async ({ page }) => {
+  await page.goto("/learn/u2/flaw");
+  await expect(page.getByRole("heading", { name: /^Flaw$/ })).toBeVisible();
+  await expect(page.getByText(/How to attack/)).toBeVisible();
+  await page.getByRole("button", { name: /next step/i }).click();
+  await expect(page.getByRole("button", { name: /2\. / })).toHaveAttribute("aria-current", "step");
+  await page.goto("/learn/u3/sampling");
+  await expect(page.getByText(/Spot it/)).toBeVisible();
+  await page.getByRole("button", { name: /pattern present|not here/i }).first().click();
+  await expect(page.getByRole("button", { name: /^next →$/i })).toBeVisible();
+  await page.goto("/learn");
+  await expect(page.getByRole("heading", { name: /U2/ })).toBeVisible();
+  await expect(page.getByRole("heading", { name: /U3/ })).toBeVisible();
+});

@@ -1,0 +1,57 @@
+---
+id: u3/comparison
+unit: 3
+order: 11
+title: "Comparison: this, that, measured how"
+summary: "Every comparative has three slots. Arguments drop one, swap one, or collapse the whole thing into an absolute. Unit 1 introduced the shift; this lesson covers the full family."
+checkTags: [comparison]
+minutes: 9
+---
+
+## The pattern
+
+A comparative claim (*more, less, better, higher than*) is treated as an absolute claim (*many, good, high*), or a comparison is drawn with one side missing, the wrong baseline, or two things measured differently.
+
+It is the single most common trap in **Most Strongly Supported** and **Must Be True**, and it appears in **Flaw**, **Weaken**, **Strengthen**, **Resolve/Explain**, **Necessary Assumption**, and **Evaluate**.
+
+## How to recognize it
+
+Every comparative fills three slots: *this*, *that*, *measured how*. Check each.
+
+- **Relative to absolute.** "Earns more than" becomes "earns well." Higher than a low bar is still low.
+- **Missing baseline.** *Lasts 30 percent longer, improved significantly, twice as likely.* Longer than what? Twice a trivial risk is trivial.
+- **Wrong comparison class.** Compared with its own past, concluded against competitors. Compared with one rival, concluded against the field.
+- **Different measures.** Hospital A's mortality against Hospital B's, when A takes the critical cases. Same word, different thing measured.
+- **One side missing.** "A is better than B" argued from facts about A alone.
+
+Also watch negative comparatives and superlatives: "no more X than Y" says nothing about whether either is X; "the most common cause" can account for a minority of cases.
+
+<TagSpotter tag="Comparison" items={[
+  { text: "Graduates of the apprenticeship program earn more than graduates of the certificate program. So the apprenticeship program prepares people well for the workforce.", present: true, tell: "prepares people well", why: "Relative to absolute. Both groups could earn poorly; ‘more than’ sets no standard." },
+  { text: "The new battery lasts 30 percent longer. So it is the best choice for anyone who travels.", present: true, tell: "lasts 30 percent longer", why: "Missing baseline (longer than what?) and then a superlative conclusion against a field never compared." },
+  { text: "The new battery lasts 14 hours, and the old one lasted 10 hours. So the new battery lasts longer than the old one.", present: false, tell: "lasts longer than the old one", why: "All three slots filled: both items, same measure, same unit. The conclusion stays relative." },
+  { text: "Hospital A reports a higher mortality rate than Hospital B. Patients should therefore prefer Hospital B.", present: true, tell: "higher mortality rate", why: "Different things measured if the hospitals take different cases. The comparison is not like for like." },
+  { text: "Our customer-satisfaction score rose from 7.1 to 7.4 this year, so our service now compares favorably with our competitors'.", present: true, tell: "compares favorably with our competitors", why: "Comparison class switched. The evidence compares this year with last year; the conclusion compares the firm with rivals." },
+  { text: "The city's population grew faster than the county's. Since the city is part of the county, the rest of the county grew more slowly than the county as a whole.", present: false, tell: "grew more slowly than the county as a whole", why: "Valid. The county's rate is a weighted average of the city's and the rest's; if the city is above the average, the rest is below it. Relative stays relative." },
+]} />
+
+## How it is exploited
+
+| Question | What the key does | Abstract language |
+|---|---|---|
+| Flaw | Names the missing slot | "treats a relative difference as if it established an absolute standard" / "draws a comparative conclusion from evidence about only one of the things compared" / "compares X with Y without establishing that they are comparable" |
+| Weaken | Fills the slot the wrong way | "Both programs' graduates earn below the median" / "Hospital A treats the region's most critical cases" |
+| Strengthen | Shows like for like | "The two hospitals treat patients of similar severity" |
+| Necessary Assumption | Supplies the other side | "[The other item] does not also have [the property]" |
+| MSS / MBT | Keeps direction and class | The trap converts to an absolute, reverses the direction, or swaps the comparison class |
+| Resolve / Explain | Reconciles two baselines | Per capita versus total; this year versus last; rate versus rank |
+
+## The level-4 variant
+
+Two comparisons to a third thing are treated as a comparison with each other. "A outperforms C, and B outperforms C" says nothing about A versus B. Or the class shifts silently between sentences: *than before* in the premise, *than others* in the conclusion, with no marker. Or a rate in one group is compared with a count in another.
+
+The hardest **Must Be True** keys are valid relative-to-relative inferences that look like shifts: the weighted-average move in the spotter above, or "if A is taller than B and B is taller than C" chains. Train the rule, not the reflex: a relative conclusion derived entirely from relative premises on the same measure can be airtight.
+
+<KeyIdea>
+Every comparative is a three-slot claim: this, that, measured how. Confirm all three slots are filled in the premises, then confirm the conclusion keeps the same three or stays relative. A conclusion that drops to an absolute, swaps the class, or changes the measure is the flaw or the trap.
+</KeyIdea>

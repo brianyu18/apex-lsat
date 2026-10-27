@@ -1,0 +1,53 @@
+---
+id: u3/analogy
+unit: 3
+order: 8
+title: "Analogy: the hidden causal claim"
+summary: "An argument from analogy says whatever produced the result over there is also present over here. A difference matters only if it touches that producer."
+checkTags: [analogy]
+minutes: 8
+---
+
+## The pattern
+
+An argument supports a claim about one case by pointing to a similar case where the claim holds. It works only if the two cases share the feature that actually produced the result, and differ in nothing that would block it.
+
+It drives **Weaken** and **Strengthen**, is a named option in **Method of Reasoning** and **Argument Part**, and appears in **Flaw**, **Necessary Assumption**, **Evaluate**, **Parallel Reasoning**, and RC analogy questions.
+
+## How to recognize it
+
+Explicit markers: *like, just as, similarly, likewise, the same is true of, by the same token, consider the case of*. Implicit: a second city, company, species, or era appears in the premises and the conclusion is about the first one. "It worked in Haldane, so it will work in Wrexford" is an analogy with no marker at all.
+
+The test's central move: similarities and differences are not counted, they are weighed for relevance. A list of five shared traits proves nothing if the sixth, unshared trait is the one that produced the outcome. One shared trait proves a lot if it is the mechanism.
+
+A second use: the analogy as a weapon. "By that logic, a hospital that treats more patients is wasteful too." Here the arguer builds a parallel argument with an absurd conclusion to discredit the original.
+
+<TagSpotter tag="Analogy" items={[
+  { text: "Congestion pricing cut traffic in Haldane by 20 percent. Since Wrexford is also a large city with a dense center, congestion pricing will cut Wrexford's traffic too.", present: true, tell: "is also a large city with a dense center", why: "Source case to target case on the strength of shared traits. Whether size and density are what made pricing work is the open question." },
+  { text: "Congestion pricing cut traffic in Haldane by 20 percent. So congestion pricing is capable of reducing urban traffic.", present: false, tell: "is capable of", why: "No analogy. One case supports an existence claim (‘capable of’). There is no second case being reasoned about." },
+  { text: "A chess coach does not need to be a stronger player than her students. Likewise, a writing instructor need not be a better writer than those she teaches.", present: true, tell: "Likewise", why: "Explicit analogy between coaching domains. The relevant difference, if any, is whether writing instruction depends on demonstration in a way chess does not." },
+  { text: "You would not let a stranger read your diary. Your browsing history is just as personal. So you should not let companies track it.", present: true, tell: "just as personal", why: "Analogy plus value judgment. The argument assumes personal-ness is the feature that grounds the verdict in both cases." },
+  { text: "Both of the candidates have served as treasurer, so both meet the experience requirement for the chair.", present: false, tell: "Both of the candidates", why: "A shared property, but no inference from one case to the other. A rule is applied to each candidate separately." },
+  { text: "The senator argues that because the program's budget grew, it must be wasteful. By that logic, a hospital that treats more patients each year is wasteful too.", present: true, tell: "By that logic", why: "Analogy as refutation: a parallel argument with an unacceptable conclusion. Method answers call this ‘showing that the reasoning leads to an absurd result in an analogous case.’" },
+]} />
+
+## How it is exploited
+
+| Question | What the key does | Abstract language |
+|---|---|---|
+| Weaken | Names a difference that touches the mechanism | "Unlike Haldane, Wrexford has no rail alternative for displaced drivers" |
+| Strengthen | Names a shared mechanism, or rules out the obvious difference | "The two cities have comparable transit capacity" |
+| Flaw | Says the cases are not shown to be alike where it matters | "treats two cases as analogous without establishing that they are similar in the relevant respect" |
+| Necessary Assumption | Denies a blocking difference | "The cases do not differ in any way that affects [the outcome]" |
+| Method / Argument Part | Labels the move | "supports a claim about one case by appeal to a relevantly similar case" / "undermines a position by showing that parallel reasoning yields an unacceptable conclusion" |
+| Evaluate | Asks for the mechanism | "Is the factor that produced the result in [source] present in [target]?" |
+
+## The level-4 variant
+
+No marker, and the relevant difference is a *precondition of the mechanism* rather than a surface trait. Haldane's pricing worked because drivers had trains to switch to; the stimulus never mentions trains, and the correct weakener does. Traps for this variant: a difference that is real but does not touch the mechanism (true but irrelevant), and a similarity the stimulus already stated (premise booster).
+
+In **Parallel Reasoning**, "argues by analogy" is a distinct structure from "generalizes from one case." The first reasons case to case; the second reasons case to class. Answers that swap them are wrong even when the flavor matches.
+
+<KeyIdea>
+Translate every analogy into a causal claim: whatever produced the result in the source case is present in the target case. A difference weakens only if it touches that producer; a similarity strengthens only if it is that producer. Everything else is noise.
+</KeyIdea>

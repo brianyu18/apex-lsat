@@ -1,0 +1,109 @@
+---
+id: u2/point-at-issue
+unit: 2
+order: 9
+title: "Point at Issue and Point of Agreement"
+summary: "Two speakers, one proposition: one affirms it, the other denies it. The agree/disagree grid turns every choice into two cells and kills the ones with a question mark."
+checkTags: [point_at_issue, point_of_agreement]
+diagram: AttackMap
+minutes: 9
+---
+
+## The stems and the task
+
+Disagreement: *"[A] and [B] disagree over whether"* or *"The dialogue most supports the claim that [A] and [B] disagree about whether."* Agreement: *"[A] and [B] are committed to agreeing about which one of the following?"*
+
+The task is identical in both: for each choice, determine what **each** speaker would say about it, using only what they said. Disagreement needs one Yes and one No. Agreement needs two of the same. Anything else is out.
+
+## The read: the agree/disagree grid
+
+<AttackMap
+  type="Point at Issue"
+  stem="Mara and Teo disagree over whether"
+  steps={[
+    {
+      label: "Each conclusion",
+      do: "Write each speaker's main claim in one line. The second speaker often doesn't state a conclusion; infer it from what the evidence is for.",
+      example: "Mara: The museum should return the carved panels; they were taken without consent, and such objects should go back.\nTeo: The removal was a century ago; no one living was party to it; returning them would set a precedent that empties museums.\nTeo's line: don't return them."
+    },
+    {
+      label: "Find the engagement",
+      do: "Which of the first speaker's claims does the second speaker actually push against? Not the one you expect, the one the words touch.",
+      example: "Teo never disputes that the panels were taken without consent. He attacks whether that fact, a century on, requires return."
+    },
+    {
+      label: "Prephrase",
+      do: "State the crux as a 'whether' clause in neutral terms both speakers used.",
+      example: "Whether the museum should return the panels. Secondarily: whether long-ago non-consensual removal still obliges return."
+    },
+    {
+      label: "Grid the choices",
+      do: "Two cells per choice: Mara's view, Teo's view. Write Yes, No, or ?. Disagreement = Yes/No. A ? in either cell kills the choice.",
+      example: "'…whether the panels were removed without consent' → Mara: Yes. Teo: ? (never addresses). Out.\n'…whether returning would set a precedent' → Mara: ?. Teo: Yes. Out.\n'…whether the museum should return the panels' → Mara: Yes. Teo: No. Keep."
+    },
+    {
+      label: "Confirm",
+      do: "Point to the words that fill each cell. Tone, plausibility, and what the speaker 'probably thinks' do not fill cells.",
+      example: "Mara's Yes: 'should return.' Teo's No: he offers only reasons against and calls the consequence bad."
+    }
+  ]}
+/>
+
+## What the right answer looks like
+
+- A proposition, phrased neutrally, that one speaker **affirms** and the other **denies** on the record.
+- Usually it is the first speaker's conclusion or the principle under it, because that is what the second speaker engages.
+- For Agreement: typically a background fact or premise both rely on, often one the second speaker silently accepts in order to argue from it.
+- Both cells must be filled from the text. "Would probably agree" is a question mark.
+
+## The wrong answers for this type
+
+<TrapCatalog
+  title="Point at Issue traps"
+  traps={[
+    {
+      pattern: "half_right",
+      setup: "Mara: return the panels, taken without consent. Teo: a century ago, bad precedent.",
+      tempting: "…whether the panels were removed without consent.",
+      killer: "Mara says yes. Teo never speaks to it; if anything he assumes it. One filled cell is not a disagreement.",
+      instead: "Pick the choice where Teo's words supply a No."
+    },
+    {
+      pattern: "out_of_scope",
+      setup: "Same dialogue.",
+      tempting: "…whether the community has formally requested the panels' return.",
+      killer: "Neither speaker mentions a request. Two question marks.",
+      instead: "The crux must be something both actually addressed."
+    },
+    {
+      pattern: "extreme",
+      setup: "Same dialogue.",
+      tempting: "…whether every object removed from its source community should be returned.",
+      killer: "'Every object' overshoots Mara's principle, which is about objects taken without consent. Her cell is ?, not Yes.",
+      instead: "Match the scope of the speaker's actual claim."
+    },
+    {
+      pattern: "shell_game",
+      setup: "Same dialogue.",
+      tempting: "…whether the removal of the panels was legal.",
+      killer: "Mara said 'without consent,' not 'illegal.' Legality is a neighboring concept nobody raised.",
+      instead: "Use the speakers' terms, not a paraphrase that drifts."
+    }
+  ]}
+/>
+
+## The level-4 version
+
+- **The second speaker states no conclusion.** They add a fact or ask a question. You infer their position from what the evidence would be *for*: Teo's facts only make sense as reasons against return.
+- **They agree on the conclusion and disagree about the reasoning.** Both think the panels should go back; one denies that consent is the reason. The credited answer is about the premise, and the conclusion-shaped choice becomes the trap.
+- **Agreement with a twist.** The credited answer is a premise the second speaker never states but must accept to make their reply relevant. Fill the cell by asking: if they denied this, would their reply still make sense?
+
+<KeyIdea>
+A point at issue is a sentence one speaker would affirm and the other would deny, based only on what each said. Fill both grid cells from the text; a question mark in either cell kills the choice, no matter how central the topic feels.
+</KeyIdea>
+
+## Before you read the choices
+
+1. One line per speaker: their claim, inferred if unstated.
+2. Mark what the second speaker's words actually engage.
+3. Draft the crux as a neutral "whether" clause; then grid every choice.

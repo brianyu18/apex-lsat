@@ -1,0 +1,122 @@
+---
+id: u2/parallel-reasoning
+unit: 2
+order: 15
+title: "Parallel Reasoning"
+summary: "Match the skeleton, not the topic: reduce the argument to arrows and quantifiers, match the conclusion's type first, then the premise structure. Order, length, and subject are noise."
+checkTags: [parallel_method]
+diagram: AttackMap
+minutes: 10
+---
+
+## The stem and the task
+
+*"The pattern of reasoning in which one of the following is most similar to that in the argument above?"*
+
+Five arguments on five topics; one shares the original's logical skeleton. Topic similarity is a trap, sentence order is irrelevant, and the credited answer is often the longest and ugliest. The method is abstraction: strip the content until only form remains, then compare forms, conclusion first.
+
+## The abstraction alphabet
+
+| Words | Form |
+|---|---|
+| all, every, any, whenever | A → B |
+| no, none | A → not B |
+| only if, requires, unless (if not) | necessary condition: B ← A |
+| some | A some B |
+| most | A most B |
+| probably, likely | hedged conclusion |
+| should, ought | normative conclusion |
+
+## The read: skeleton first
+
+<AttackMap
+  type="Parallel Reasoning"
+  stem="The pattern of reasoning in which one of the following is most similar to that in the argument above?"
+  steps={[
+    {
+      label: "Type the conclusion",
+      do: "Before anything else, classify the conclusion: quantifier (all/some/most), polarity (affirmative/negative), certainty (must/probably), mode (is/will/should).",
+      example: "All of the firm's senior partners attended the retreat. Anyone who attended received the revised handbook. So every senior partner received the revised handbook.\nConclusion: universal, affirmative, certain, descriptive."
+    },
+    {
+      label: "Abstract the premises",
+      do: "Write each premise in the alphabet. Note how many there are and how they connect.",
+      example: "P → R. R → H. ∴ P → H.\nTwo universals, chained through a shared middle term. Valid."
+    },
+    {
+      label: "Filter by conclusion",
+      do: "Eliminate every choice whose conclusion type differs: 'some,' 'probably,' 'should,' a negative. This usually removes two or three choices in seconds.",
+      example: "'…so some applicants were probably offered positions' → wrong quantifier and certainty. Out.\n'…so the committee should interview every applicant' → normative. Out."
+    },
+    {
+      label: "Match the premises",
+      do: "Among survivors, check the premise structure: same number, same kind, same connection. Reject a shared necessary condition (A → B, C → B) posing as a chain.",
+      example: "'Everyone interviewed had passed the test; everyone interviewed was offered a position; so everyone who passed was offered a position' → I → P, I → O, ∴ P → O. Not a chain. Out."
+    },
+    {
+      label: "Confirm",
+      do: "Map the credited choice term by term, ignoring the order of its sentences.",
+      example: "'Thus every applicant who passed the written test was offered a position, since everyone interviewed was offered a position and every applicant who passed the test was interviewed.' Conclusion first, premises reversed: T → I, I → O, ∴ T → O. Match."
+    }
+  ]}
+/>
+
+## What the right answer looks like
+
+- Same **conclusion type** on all four axes: quantifier, polarity, certainty, mode.
+- Same **premise structure**: count, kind, and the way they connect (chain, shared term, disjunction).
+- Same **validity**. If the original is valid, a flawed copy is out even when every other feature matches, and vice versa: a Parallel Reasoning stimulus can itself be flawed, and then the match must share the flaw.
+- Topic, order, length, and grammatical form (conditional vs categorical sentences) are **noise**.
+
+## The wrong answers for this type
+
+<TrapCatalog
+  title="Parallel Reasoning traps"
+  traps={[
+    {
+      pattern: "reversal",
+      setup: "P → R, R → H, ∴ P → H (valid chain).",
+      tempting: "Everyone who was interviewed had passed the test. Everyone interviewed was offered a position. So everyone who passed the test was offered a position.",
+      killer: "I → P and I → O yield nothing about P → O. One arrow runs the wrong way, and the copy is invalid where the original was valid.",
+      instead: "Check the direction of every arrow, not just the presence of the terms."
+    },
+    {
+      pattern: "wrong_force",
+      setup: "Same original.",
+      tempting: "Every senior associate attended the training. Most who attended passed the certification. So most senior associates probably passed.",
+      killer: "'Most' and 'probably' replace 'every' and certainty. The conclusion type fails on two axes.",
+      instead: "Filter by conclusion type before you look at the premises."
+    },
+    {
+      pattern: "shell_game",
+      setup: "Same original.",
+      tempting: "All of the firm's junior partners received the handbook. Everyone who received the handbook attended the retreat. So every junior partner who attended the retreat received the handbook.",
+      killer: "Same nouns, same firm. The conclusion restates a premise with a redundant condition; no chain is used. Topic match is not form match.",
+      instead: "Abstract the choice before comparing; nouns are not evidence."
+    },
+    {
+      pattern: "half_right",
+      setup: "Same original.",
+      tempting: "All of the clinic's physicians are licensed. All of the clinic's nurses are licensed. So everyone on the clinic's staff who is a physician is licensed.",
+      killer: "Universal conclusion, two universal premises, but they share a predicate (A → L, N → L) rather than chaining through a middle term.",
+      instead: "Match how the premises connect, not just what kind they are."
+    }
+  ]}
+/>
+
+## The level-4 version
+
+- **Hidden contrapositives.** "No one who missed the retreat has the handbook" is H → attended. The skeleton is the same chain, written backwards. Translate before you compare.
+- **Conditional conclusions.** The original concludes "if X then Z" rather than "every X is Z." Same form; different grammar. Don't let surface mode fool the filter.
+- **Non-chain valid forms.** Disjunctive syllogism (A or B; not A; so B), or a chain with a "most" link (A most B, B → C, ∴ A most C). The choices will include a two-universal chain as bait.
+- **Flawed originals.** Parallel Reasoning stems sometimes sit on an invalid argument. Don't assume validity; diagram and see.
+
+<KeyIdea>
+Parallel is matched on skeleton. Write the original in arrows and quantifiers, match the conclusion's type first (quantifier, polarity, certainty, mode), then the premise structure. Topic, order, and length are noise; one reversed arrow is not.
+</KeyIdea>
+
+## Before you read the choices
+
+1. Type the conclusion on four axes.
+2. Write the premises in the alphabet; note the connection.
+3. Plan the two-pass elimination: conclusion filter, then structure.

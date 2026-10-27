@@ -1,0 +1,123 @@
+---
+id: u2/necessary-assumption
+unit: 2
+order: 6
+title: "Necessary Assumption"
+summary: "Find the statement the argument cannot do without. Negate each choice precisely — flip the force, not the content — and keep the one whose negation kills the argument."
+checkTags: [necessary_assumption]
+diagram: AttackMap
+minutes: 10
+---
+
+## The stem and the task
+
+> *The argument depends on assuming which one of the following?* / *Which one of the following is an assumption required by the argument?*
+
+Find a statement the argument **cannot do without**. Not one that would help; not one that proves the conclusion; one whose falsity breaks the argument. That gives you the decisive tool, the **negation test**: negate the choice and reread. If the argument now fails, the choice was required. If it limps along, it wasn't.
+
+## The read
+
+<AttackMap
+  type="Necessary Assumption"
+  stem="The argument depends on assuming which one of the following?"
+  steps={[
+    {
+      label: "Read",
+      do: "Isolate the conclusion and the single premise carrying it. Mark the conclusion’s force — “must have been” is strong, so the argument has a lot to defend.",
+      example: "Historian: The merchant’s ledgers for 1640 record no purchases of imported dyes. So the cloth the merchant sold that year must have been colored with locally produced dyes.\n\nPremise: 1640 ledgers show no purchases of imported dyes.\nConclusion: the 1640 cloth was colored with local dyes.\nShift: no recorded purchase → no use."
+    },
+    {
+      label: "Find the gap",
+      do: "List ways the conclusion could be false while the premise stays true. Each is an objection; the argument depends on each being false.",
+      example: "Imported dye left over from earlier years.\nImported dye obtained without a purchase (barter, gift).\nCloth bought already dyed.\nCloth not dyed at all."
+    },
+    {
+      label: "Prephrase",
+      do: "Phrase each objection’s denial at minimum strength: “did not,” “no,” “at least some.” These are your candidate answers.",
+      example: "The merchant did not use imported dye left over from earlier years.\nThe merchant did not obtain imported dye except by purchase.\nThe cloth was dyed."
+    },
+    {
+      label: "Judge choices",
+      do: "Negate each choice and read the argument again. Dead argument → necessary. Still breathing → not necessary.",
+      example: "“The merchant did not use imported dye acquired before 1640.” Negated: he did. Conclusion collapses. ✓\n“The ledgers record every transaction the merchant made.” Negated: not every. Dye purchases might still be recorded; the argument survives. Out."
+    },
+    {
+      label: "Confirm",
+      do: "Check that the winner isn’t stronger than needed and doesn’t prove the conclusion on its own. Required, not sufficient.",
+      example: "Leftover dye is ruled out; barter and pre-dyed cloth remain open, so the conclusion isn’t guaranteed — fine. The argument needs this plank regardless. Lock it in."
+    }
+  ]}
+/>
+
+## What the right answer looks like
+
+- **Modest.** *At least some*, *not all*, *does not*, *there is no other*. The argument needs a plank, not the whole bridge.
+- Two shapes. A **bridge**: the weakest link between a premise term and the conclusion term. A **defender**: a statement ruling out one specific way the conclusion could fail.
+- It can sound trivial. "The cloth was dyed at all" is a legitimate necessary assumption.
+- Negated, it doesn't merely weaken the argument — it severs it.
+- Never stronger than the argument needs. A choice the author would love but doesn't require is the classic wrong answer.
+
+## Negating correctly
+
+Negate the force, not the content.
+
+| Choice says | Negation |
+|---|---|
+| all / every X are Y | not all X are Y |
+| some X are Y | no X are Y |
+| most X are Y | half or fewer X are Y |
+| X will happen | X will not necessarily happen |
+| X is the only cause | X is not the only cause |
+| if A then B | A can occur without B |
+
+The negation of *all* is not *none*, and the negation of *most* is not *few*. Over-negating makes unnecessary answers look necessary.
+
+## The wrong answers
+
+<TrapCatalog
+  title="Necessary Assumption traps"
+  traps={[
+    {
+      pattern: "extreme",
+      setup: "The merchant’s 1640 ledgers record no purchases of imported dyes, so the cloth sold that year must have been colored with local dyes.",
+      tempting: "The merchant’s ledgers for 1640 record every transaction the merchant made that year.",
+      killer: "Negate: the ledgers miss some transactions. The argument only needs dye purchases to be recorded; it survives. Stronger than required.",
+      instead: "Claims the minimum: imported-dye purchases, if any, would appear in the ledgers."
+    },
+    {
+      pattern: "necessary_v_sufficient",
+      setup: "Same argument.",
+      tempting: "Any cloth not colored with imported dyes is colored with locally produced dyes.",
+      killer: "This would help guarantee the conclusion, but negate it — some such cloth isn’t local — and the argument still stands. Sufficient-shaped, not required.",
+      instead: "Rules out one escape route rather than paving the whole road."
+    },
+    {
+      pattern: "reversal",
+      setup: "Same argument.",
+      tempting: "Merchants who used only locally produced dyes recorded no purchases of imported dyes.",
+      killer: "Runs local → no purchases. The argument needs the other direction: no purchases → no imported dyes used. Negating this reversed claim changes nothing.",
+      instead: "Points from the premise toward the conclusion: absence of a recorded purchase is evidence of absence of use."
+    },
+    {
+      pattern: "out_of_scope",
+      setup: "Same argument.",
+      tempting: "Locally produced dyes were less expensive than imported dyes in 1640.",
+      killer: "Negate: local dyes cost more. The inference from ledgers to dye source is untouched. A motive the argument never relies on.",
+      instead: "Touches the evidential link between the ledgers and what colored the cloth."
+    }
+  ]}
+/>
+
+## The level-4 variant
+
+At level 4 the required assumption rules out a possibility you never thought of — so when your prephrased defenders don't appear, run the negation test instead of hunting for your own words. The assumption may sit between a premise and a sub-conclusion rather than at the main conclusion. The best trap is a sufficient assumption that sounds like a complete bridge; it fails negation because *not all* leaves the argument intact. The second trap uses the right concept with the wrong quantity: *most* where the argument needs only *some*. Expect the correct answer to be a negative sentence that looks too small to matter.
+
+<KeyIdea>
+Necessary means the argument dies without it. Negate the choice precisely — flip the force, not the content — and keep only the one whose negation leaves the conclusion unsupported.
+</KeyIdea>
+
+## Before you read the choices
+
+1. Conclusion and the premise that carries it.
+2. Three ways the conclusion could be false with the premise true — these are the defenders you need.
+3. The conclusion term missing from the premise — the bridge you need, at minimum strength.

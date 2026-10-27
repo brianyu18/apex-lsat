@@ -1,0 +1,116 @@
+---
+id: u2/evaluate
+unit: 2
+order: 18
+title: "Evaluate"
+summary: "Weaken and Strengthen in one question. Find the assumption, then pick the question whose Yes and No answers push the conclusion in opposite directions."
+checkTags: [evaluate]
+diagram: AttackMap
+minutes: 8
+---
+
+## The stem and the task
+
+*"Which one of the following would be most useful to know in evaluating the argument?"*
+
+The choices are questions, or "whether" clauses. The credited one targets the argument's assumption: answer it one way and the argument gets stronger; answer it the other way and it gets weaker. Call this the **both-ways test**. A question whose every answer leaves the argument where it was is noise, however interesting.
+
+## The read: find the gap, then ask about it
+
+<AttackMap
+  type="Evaluate"
+  stem="Which one of the following would be most useful to know in evaluating the argument?"
+  steps={[
+    {
+      label: "Read",
+      do: "Mark the conclusion and the evidence. Note the exact terms of each: who, what was measured, compared to what.",
+      example: "A pharmacy chain reports that after it began offering flu shots without an appointment, the number of flu shots it administered doubled. The chain concludes that removing the appointment requirement caused many more people to be vaccinated.\nEvidence: shots at this chain doubled. Conclusion: more people vaccinated, because of the policy."
+    },
+    {
+      label: "Find the gap",
+      do: "Name the assumptions as you would for Necessary Assumption. Causal claims hide the usual three: alternative cause, reverse direction, coincidence; plus any term shift.",
+      example: "Shift: shots at the chain vs people vaccinated overall (customers may have switched from clinics). Alternative cause: a bad flu season, a publicity campaign, insurance changes in the same period."
+    },
+    {
+      label: "Prephrase the question",
+      do: "Turn the biggest assumption into a question whose answers point opposite ways.",
+      example: "Did total flu shots in the area rise, or did people just move to the chain? Did anything else change at the same time?"
+    },
+    {
+      label: "Judge the choices",
+      do: "Run the both-ways test on each: answer Yes, then No. Keep the choice where the two answers pull the conclusion in opposite directions.",
+      example: "'Whether the chain charges for flu shots' → Yes: nothing. No: nothing. Out.\n'Whether flu shots given by other providers in the area fell during the same period' → Yes: people switched, weakens. No: strengthens. Keep."
+    },
+    {
+      label: "Confirm",
+      do: "Say the weaken and the strengthen out loud. If you can only say one, the question is one-directional and probably not the best.",
+      example: "Fell → the chain captured existing vaccinations. Didn't fall → new vaccinations, policy plausibly responsible."
+    }
+  ]}
+/>
+
+## What the right answer looks like
+
+- A **question** aimed at the assumption, not at a premise's truth and not at whether the conclusion matters.
+- Its answers **swing both ways**; the bigger the swing, the better the choice.
+- It respects the stimulus's **exact terms** and often concerns the hidden **baseline**: compared with what, over what period, among whom.
+- It is not satisfied by information already in the stimulus.
+
+## The wrong answers for this type
+
+<TrapCatalog
+  title="Evaluate traps"
+  traps={[
+    {
+      pattern: "true_but_irrelevant",
+      setup: "Chain's flu shots doubled after dropping appointments; so the policy caused more people to be vaccinated.",
+      tempting: "Whether the shots were administered by pharmacists or by nurses.",
+      killer: "Either answer leaves the inference untouched. Interesting operational detail, zero bearing on the causal claim.",
+      instead: "Run the both-ways test; if neither answer moves the conclusion, discard."
+    },
+    {
+      pattern: "premise_booster",
+      setup: "Same argument.",
+      tempting: "Whether the chain's records of shots administered are accurate.",
+      killer: "This questions the premise. Evaluate, like Weaken, takes the premises as given and tests the step from them to the conclusion.",
+      instead: "Aim at the gap between evidence and conclusion."
+    },
+    {
+      pattern: "comparison_shift",
+      setup: "Same argument.",
+      tempting: "Whether the chain administered more flu shots than any other provider in the area.",
+      killer: "Rank is absolute; the argument is about change over time. Being the largest provider says nothing about why its numbers doubled.",
+      instead: "Match the kind of comparison the argument makes: before/after, not biggest/smallest."
+    },
+    {
+      pattern: "shell_game",
+      setup: "Same argument.",
+      tempting: "Whether the chain's revenue from flu shots doubled over the same period.",
+      killer: "Revenue is a neighbor of the number of shots, not the number of people vaccinated. Either answer is explained by price as easily as by uptake.",
+      instead: "Hold the choice to the stimulus's measured term."
+    },
+    {
+      pattern: "out_of_scope",
+      setup: "Same argument.",
+      tempting: "Whether other pharmacy chains plan to remove their appointment requirements.",
+      killer: "A question about the future and about other chains. The conclusion is about what caused this chain's past increase.",
+      instead: "Keep the question inside the argument's time and subject."
+    }
+  ]}
+/>
+
+## The level-4 version
+
+- **Abstract or quantitative phrasing.** "The proportion of the chain's flu-shot customers who had received a flu shot the previous year." You must compute: high proportion → repeat customers, weak evidence of new vaccinations; low → new people. The swing is there, but you have to work it out.
+- **Two assumptions, two candidates.** One choice tests the term shift, another tests an alternative cause. Pick the one whose answers swing the conclusion further, usually the one closest to the conclusion's own terms.
+- **EXCEPT and "least useful."** Four questions bear on the argument; the odd one fails the both-ways test. Grid all five.
+
+<KeyIdea>
+Evaluate is Weaken and Strengthen in one question. Find the assumption; the credited choice is the question whose Yes and No answers push the conclusion in opposite directions. If both answers leave the argument where it was, the question is noise.
+</KeyIdea>
+
+## Before you read the choices
+
+1. Write the conclusion and the evidence in their exact terms.
+2. Name the top two assumptions (term shift, alternative cause).
+3. Phrase each as a question and plan to run both-ways on every choice.

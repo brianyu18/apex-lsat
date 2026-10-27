@@ -1,0 +1,110 @@
+---
+id: u2/parallel-flaw
+unit: 2
+order: 16
+title: "Parallel Flaw"
+summary: "Two filters in order: name the flaw family, then match the skeleton. A valid choice is out however similar it looks; a same-flaw choice with the wrong conclusion type loses to one that matches both."
+checkTags: [parallel_flaw]
+diagram: AttackMap
+minutes: 10
+---
+
+## The stem and the task
+
+*"The flawed reasoning in which one of the following is most similar to that in the argument above?"*
+
+Parallel Reasoning plus Flaw. The stem tells you the original is broken, so your first job is to name the break using the flaw families from Unit 1. Your second job is the ordinary Parallel work: match the conclusion type and premise structure. Both filters are needed because the test will give you one choice with the same flaw in a different structure and one with the same structure reasoning validly.
+
+## The read: name it, then match it
+
+<AttackMap
+  type="Parallel Flaw"
+  stem="The flawed reasoning in which one of the following is most similar to that in the argument above?"
+  steps={[
+    {
+      label: "Read and type",
+      do: "Mark the conclusion and classify it: quantifier, polarity, certainty, mode.",
+      example: "Every award-winning novel the committee reviewed this year had a first-person narrator. The manuscript I am reviewing has a first-person narrator. So it will probably win an award.\nConclusion: particular, affirmative, hedged ('probably'), predictive."
+    },
+    {
+      label: "Name the flaw",
+      do: "Abstract the premises and say the error in family terms.",
+      example: "Award → FirstPerson. This one: FirstPerson. ∴ Award (probably).\nFamily: necessary treated as sufficient; the shared feature of winners is taken as a predictor of winning."
+    },
+    {
+      label: "Filter by flaw",
+      do: "Eliminate choices that reason validly and choices whose flaw is a different family (sampling, part/whole, denying the antecedent).",
+      example: "'All cited restaurants had open kitchens; this cafe has no open kitchen; so it probably won't be cited' → A → B, not B, ∴ not A. Valid contrapositive. Out."
+    },
+    {
+      label: "Filter by structure",
+      do: "Among same-flaw survivors, match conclusion type and premise count. 'Probably' versus 'certainly' is a legitimate kill.",
+      example: "'All cited restaurants had open kitchens; this bistro has one; so it will certainly be cited' → same flaw, certainty mismatch. Weaker match."
+    },
+    {
+      label: "Confirm",
+      do: "Map the credited choice term by term and say the flaw in the same words.",
+      example: "'Every restaurant in this district that received a health citation last year had an open kitchen. The new bistro has an open kitchen, so it will probably receive a citation.' Cited → Open. Open. ∴ Cited (probably). Same flaw, same hedge."
+    }
+  ]}
+/>
+
+## What the right answer looks like
+
+- Same **flaw family**, committed in the same **direction** (affirming the consequent is not denying the antecedent, even though both are conditional errors).
+- Same **conclusion type**: a hedged prediction matches a hedged prediction.
+- Same **premise structure**: one universal plus one particular, not two universals.
+- Not valid. Ever. A choice that happens to reason correctly is out before you check anything else.
+
+## The wrong answers for this type
+
+<TrapCatalog
+  title="Parallel Flaw traps"
+  traps={[
+    {
+      pattern: "opposite",
+      setup: "Original: Award → FP; FP; ∴ probably Award.",
+      tempting: "Every restaurant with an open kitchen in this district was cited last year. The new bistro has an open kitchen, so it will probably be cited.",
+      killer: "Open → Cited; Open; ∴ Cited. That is modus ponens, valid. Same nouns as the credited answer, with the first premise flipped so the reasoning works.",
+      instead: "Diagram every choice; nouns and shape can disguise a valid argument."
+    },
+    {
+      pattern: "half_right",
+      setup: "Same original.",
+      tempting: "Every restaurant with an open kitchen was cited last year. The cafe has no open kitchen, so it probably will not be cited.",
+      killer: "Conditional, hedged, flawed, same topic. But Open → Cited; not Open; ∴ not Cited is denying the antecedent, a different error from affirming the consequent. Same family label, wrong direction.",
+      instead: "Match the specific error, not the fact that conditionals are involved."
+    },
+    {
+      pattern: "shell_game",
+      setup: "Same original.",
+      tempting: "Of the twelve novels the committee honored, nine were written by debut authors. So most award-winning novels are by debut authors.",
+      killer: "Novels and awards again, but the flaw is a sampling generalization from twelve cases. Same topic, different family.",
+      instead: "Name the family first; topic is noise."
+    },
+    {
+      pattern: "wrong_force",
+      setup: "Same original.",
+      tempting: "All cited restaurants had open kitchens. The bistro has an open kitchen, so it will certainly be cited.",
+      killer: "Right flaw, wrong hedge. 'Certainly' versus 'probably' is a conclusion-type mismatch, and when another choice matches both, this one loses.",
+      instead: "Hold out for the choice that matches flaw and conclusion type."
+    }
+  ]}
+/>
+
+## The level-4 version
+
+- **Subtle families.** Equivocation, part/whole, percentage versus number. The structure is long and the flaw is a single shifted word. Name the shift precisely ("rate" became "count") so you can look for the same shift.
+- **Same family, different mechanism.** Two choices both commit a sampling flaw; one from a biased sample, one from a tiny sample. Match the mechanism the original used.
+- **Sub-conclusions.** The original reaches an intermediate claim and then overreaches. The match must have the same two-step shape, with the flaw at the same step.
+- **Conclusion stronger than premises.** "Some" became "all," or "can" became "will." The kill word in the trap is often the quantifier alone.
+
+<KeyIdea>
+Parallel Flaw is two filters in order: name the flaw family and its direction, then match the skeleton (conclusion type, premise structure). A valid choice is out no matter how similar it looks; a same-flaw choice with a different conclusion type loses to one that matches both.
+</KeyIdea>
+
+## Before you read the choices
+
+1. Diagram the original and say the flaw in family terms.
+2. Type the conclusion on four axes.
+3. Plan the order: kill valid choices and wrong families first, then compare structure.

@@ -1,0 +1,110 @@
+---
+id: u2/strengthen
+unit: 2
+order: 3
+title: "Strengthen"
+summary: "Same gap as Weaken, opposite direction: add the fact that closes the biggest hole between premises and conclusion. You raise support; you don't have to prove."
+checkTags: [strengthen]
+diagram: AttackMap
+minutes: 9
+---
+
+## The stem and the task
+
+> *Which one of the following, if true, most strengthens the argument?* / *…most supports the [person]'s claim?*
+
+Same gap as Weaken, opposite direction. You add a true fact that raises the support the premises give the conclusion. You do not need to prove it; a modest fact that lands on the gap beats a sweeping fact that lands beside it. The best answer closes the biggest hole.
+
+## The read
+
+<AttackMap
+  type="Strengthen"
+  stem="Which one of the following, if true, most strengthens the argument?"
+  steps={[
+    {
+      label: "Read",
+      do: "Isolate the conclusion and mark its force. “Helps prevent” is causal and modest: breakfast is claimed as one contributing cause, not the only one.",
+      example: "Nutritionist: People who eat breakfast every day have markedly lower rates of obesity than people who regularly skip it. Eating breakfast therefore helps prevent obesity.\n\nConclusion: eating breakfast helps prevent obesity. (Causal, contributory.)\nPremise: breakfast-eaters have lower obesity rates. (Correlation.)"
+    },
+    {
+      label: "Find the gap",
+      do: "List the rival stories. Each is something the argument must beat; the denial of each is a candidate strengthener.",
+      example: "Other cause: breakfast-eaters also exercise more, sleep more, eat less at night.\nReverse: people who are already heavier skip breakfast to cut calories.\nData: small or unrepresentative sample."
+    },
+    {
+      label: "Prephrase",
+      do: "Name the category of fact you want: a controlled comparison, a rival eliminated, or reverse causation ruled out.",
+      example: "Best: people assigned to eat breakfast, otherwise similar, end up less obese.\nGood: eaters and skippers don’t differ in exercise or total calories.\nGood: heavier people are no more likely to start skipping."
+    },
+    {
+      label: "Judge choices",
+      do: "Accept each as true; ask whether the conclusion is now more likely than before, and whether it got there through the gap.",
+      example: "“In a two-year trial, adults randomly assigned to eat breakfast gained less weight than those assigned to skip it.” Randomization removes the rivals. ✓\n“Breakfast-eaters tend to exercise more than skippers.” Hands the argument a rival cause — weakens.\n“Many breakfast-eaters are not obese.” Already in the premise."
+    },
+    {
+      label: "Confirm",
+      do: "Check that the winner adds support to the link, not to a premise, and that its scope matches the conclusion’s.",
+      example: "The trial speaks to causation (the link), not to the correlation (the premise). It supports “helps prevent,” which is all the conclusion claims. Lock it in."
+    }
+  ]}
+/>
+
+## What the right answer looks like
+
+- A new fact that **closes a specific hole**: removes an alternative explanation, rules out reverse causation, shows the sample is representative, or supplies the bridge between the premise's term and the conclusion's.
+- Causal conclusions: the strongest strengtheners show the cause varying with the effect under control — no cause, no effect; cause introduced, effect appears — or eliminate a named rival.
+- Non-causal conclusions: a fact tying X to Y ("at this school, test scores closely track independent measures of understanding").
+- Stating a necessary assumption *is* strengthening. If the argument needs "the ledgers are complete," a choice confirming it helps.
+- Restating the premise never helps. The premise was already granted.
+
+## The wrong answers
+
+<TrapCatalog
+  title="Strengthen traps"
+  traps={[
+    {
+      pattern: "premise_booster",
+      setup: "Daily breakfast-eaters have lower obesity rates than skippers. So eating breakfast helps prevent obesity.",
+      tempting: "A second, larger study also found lower obesity rates among people who eat breakfast daily.",
+      killer: "More correlation is still correlation. The premise was already accepted; the gap between correlation and cause is untouched.",
+      instead: "Adds a fact about the link: a control, a mechanism, or a rival eliminated."
+    },
+    {
+      pattern: "opposite",
+      setup: "Same argument.",
+      tempting: "People who eat breakfast daily also tend to exercise more regularly than those who skip it.",
+      killer: "It reads like a healthy-habits package, but it hands the argument an alternative cause: exercise, not breakfast, may explain the lower rates. That weakens.",
+      instead: "Denies a rival: eaters and skippers exercise about equally."
+    },
+    {
+      pattern: "out_of_scope",
+      setup: "Same argument.",
+      tempting: "Breakfast foods are among the most heavily advertised products in the food industry.",
+      killer: "Advertising has no bearing on whether breakfast affects obesity. There is no path from this fact to the conclusion.",
+      instead: "Connects to the causal claim itself."
+    },
+    {
+      pattern: "wrong_force",
+      setup: "Same argument.",
+      tempting: "Some people who regularly skip breakfast are not obese.",
+      killer: "The conclusion says “helps prevent,” not “is necessary to prevent.” Non-obese skippers are fully compatible with it — the fact neither helps nor hurts.",
+      instead: "Matches force to the conclusion: raises the probability that breakfast contributes, which is all “helps” claims."
+    }
+  ]}
+/>
+
+## The level-4 variant
+
+At level 4 the strengthener is often a principle or a general conditional you must apply yourself: *Habits formed in childhood are rarely abandoned when their health effects become known* strengthens an argument you would never have phrased that way. Or it rules out a rival you hadn't listed — so prephrase the *category* ("eliminates another cause") rather than one fact. Between two helpers, "most strengthens" prefers the one that addresses the conclusion's actual scope: if the conclusion says *helps prevent*, a choice establishing *is the main preventive factor* is more than needed but still strengthens; a choice restating the correlation does nothing.
+
+Watch for the choice that only makes a premise more credible. Premises are already true; supporting them leaves the gap untouched.
+
+<KeyIdea>
+Find the gap, name the kind of fact that would close it, then pick the choice that closes the most of it. A right answer on Strengthen is the denial of a right answer on Weaken.
+</KeyIdea>
+
+## Before you read the choices
+
+1. Conclusion with its force word (*helps*, *is the cause*, *should*).
+2. The biggest hole: alternative cause, reverse cause, unrepresentative data, or term shift.
+3. The fact that would plug it: "It would help if ___."

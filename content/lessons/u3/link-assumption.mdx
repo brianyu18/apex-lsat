@@ -1,0 +1,59 @@
+---
+id: u3/link-assumption
+unit: 3
+order: 1
+title: "Link assumption: the term-shift bridge"
+summary: "The premise is about X, the conclusion is about Y, and nothing in the argument says X gets you Y. The missing bridge is the most common assumption on the test."
+checkTags: [link_assumption]
+minutes: 9
+---
+
+## The pattern
+
+A premise establishes one thing; the conclusion asserts a different thing; the argument never says how the first gets you the second. The bridge "X is enough for Y" is assumed.
+
+It is the engine of **Sufficient Assumption** and **Principle (Justify)**, the most common **Necessary Assumption**, and a staple of **Flaw**, **Weaken**, and **Strengthen**. Even **Fill in the Blank** often wants the bridge.
+
+## How to recognize it
+
+Count concepts. List every noun and adjective in the conclusion, then find each one in a premise. Any term that appears *only* in the conclusion is one end of the bridge; the premise term it replaced is the other end.
+
+Tells:
+
+- An evaluative word in the conclusion (*safe, effective, justified, the best, well written*) over descriptive premises.
+- A near-synonym that isn't one: *profitable* for *successful*, *popular* for *good*, *approved* for *best*, *legal* for *ethical*.
+- A modal upgrade: premise *can*, conclusion *will*; premise *most*, conclusion *all*.
+
+<TagSpotter tag="Link assumption" items={[
+  { text: "The new filtration system removes 99 percent of microplastics from the water. So installing it will make the city's drinking water safe.", present: true, tell: "safe", why: "The premise is about microplastics; the conclusion is about safety in general. Bridge: removing microplastics is enough to make water safe." },
+  { text: "All of the museum's bronze pieces were cast after 1900. This statue is one of the museum's bronze pieces. So it was cast after 1900.", present: false, tell: "bronze pieces", why: "Every conclusion term already appears in a premise. No bridge needed; the argument is valid." },
+  { text: "Readers who finish the novel overwhelmingly rate it highly. So the novel is well written.", present: true, tell: "well written", why: "‘Rate it highly’ becomes ‘well written.’ Readers can love a badly written book. The bridge is assumed." },
+  { text: "The procedure is approved by the national medical board. Therefore it is the best available treatment for the condition.", present: true, tell: "best available treatment", why: "Approved is a floor; best is a superlative. Nothing links board approval to being the best." },
+  { text: "Any candidate who misses the filing deadline is disqualified. Oduya missed the deadline, so Oduya is disqualified.", present: false, tell: "disqualified", why: "Same terms, premise to conclusion. A plain rule application with no gap." },
+  { text: "Every entry submitted after noon is late, and late entries receive no prize. Mara's entry arrived at 2 p.m., so Mara's entry receives no prize.", present: false, tell: "receives no prize", why: "After noon, late, no prize: the chain is complete. 2 p.m. is after noon, so no link is missing." },
+]} />
+
+## How it is exploited
+
+| Question | What the key does | Abstract language |
+|---|---|---|
+| Sufficient Assumption | States the bridge at full force | "Anything that is X is Y" / "If X, then Y" |
+| Principle (Justify) | Same bridge, as a rule | "Any X ought to be regarded as Y" |
+| Necessary Assumption | Weakest bridge, or denies a blocker | "At least some X are Y" / "Being X is not incompatible with being Y" |
+| Flaw | Names the gap | "takes for granted that X suffices for Y" / "fails to consider that something could be X without being Y" |
+| Weaken | A case of X without Y, or Y depends on something absent | "Many X are not Y" |
+| Strengthen | X tends to come with Y | "X is generally accompanied by Y" |
+
+Direction matters. The bridge runs premise-term to conclusion-term. An answer that runs conclusion-term to premise-term ("Anything Y is X") is the reversal trap and proves nothing.
+
+## The level-4 variant
+
+Three disguises:
+
+1. **The near-synonym.** The shifted term reads as a restatement (*costly* / *wasteful*, *unusual* / *suspicious*), so the gap never registers. Rule: identical meaning or it is a shift.
+2. **The staged shift.** The term moves across a sub-conclusion: premise A, so B; B, so C. Each hop looks small; the bridge from A to C is the one the answers test.
+3. **The contrapositive key.** The correct Sufficient Assumption is phrased "Nothing that is not Y is X." Translate before judging; students reject the right answer because it looks reversed.
+
+<KeyIdea>
+Write the conclusion's content words and hunt each one in the premises. Any word you cannot find is the far end of the bridge, and the premise word it replaced is the near end. The correct answer, whatever the question type, lives on that bridge, and runs in that direction.
+</KeyIdea>

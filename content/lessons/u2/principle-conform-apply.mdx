@@ -1,0 +1,125 @@
+---
+id: u2/principle-conform-apply
+unit: 2
+order: 11
+title: "Principle (Conform) and Rule Application"
+summary: "Two directions of the same skill: name the rule a situation instantiates, or apply a stated rule to a case. Every slot of the rule must be filled; silence is not a judgment."
+checkTags: [principle, psa_application]
+diagram: AttackMap
+minutes: 10
+---
+
+## The stems and the tasks
+
+**Conform** (specific → general): *"Which one of the following principles, if valid, most helps to justify the reasoning above?"* and the plain form, *"The situation described above most closely conforms to which one of the following principles?"* The stimulus is a case or a short argument; the answer is the general rule it instantiates.
+
+**Apply** (general → specific): *"Which one of the following judgments conforms most closely to the principle stated above?"* The stimulus is the rule; the answer is a case in which every condition of the rule is met and the rule's own verdict is reached.
+
+Both are rule-matching. The direction tells you which side is fixed.
+
+## The read: diagram the rule into slots
+
+<AttackMap
+  type="Rule Application"
+  stem="Which one of the following judgments conforms most closely to the principle stated above?"
+  steps={[
+    {
+      label: "Diagram the rule",
+      do: "Split the principle into trigger, verdict, and any exception. Each is a slot the case must fill.",
+      example: "Rule: A reviewer should decline to evaluate a manuscript if the reviewer has collaborated with any of its authors within the past five years, unless no other qualified reviewer is available.\nTrigger: collaborated + within five years. Verdict: should decline. Exception: no other qualified reviewer."
+    },
+    {
+      label: "Map the silence",
+      do: "Note what the rule does NOT say. It says when to decline; it says nothing about when one must accept.",
+      example: "No collaboration → rule is silent. Exception applies → the duty to decline is lifted, not replaced by a duty to accept."
+    },
+    {
+      label: "Prephrase the fit",
+      do: "A conforming judgment fills every slot and states the rule's verdict. Expect the test to vary one slot per choice.",
+      example: "Need: someone who collaborated, recently, with another reviewer available → should decline."
+    },
+    {
+      label: "Judge the choices",
+      do: "Check slots in order: collaboration, timing, exception, verdict. The first unfilled slot kills the choice.",
+      example: "'Dr. Park collaborated seven years ago; should decline' → timing slot fails.\n'Dr. Chen never collaborated; should accept' → trigger absent; the rule is silent on accepting."
+    },
+    {
+      label: "Confirm",
+      do: "Read the credited case against the rule clause by clause.",
+      example: "'Dr. Ruiz co-authored a paper with the lead author three years ago and should decline even though two other qualified reviewers are available.' Collaboration, timing, exception not triggered, verdict matches."
+    }
+  ]}
+/>
+
+## Conform: the case must fill the rule, not the reverse
+
+<Example label="Conform">
+A hospital let a nurse who had reported a safety violation transfer departments at her request, although her department was short-staffed. Credited principle: *An institution should accommodate reasonable requests from employees who report safety violations, even at some cost to the institution.* Every element (report, reasonable request, cost, accommodation) has a referent in the case.
+</Example>
+
+The principle may be broader than the case, but it may not contain an element the case lacks, and it may not reach a different verdict.
+
+## What the right answer looks like
+
+- **Apply**: every slot filled, including timing and exceptions; the verdict is the rule's own verdict, in the rule's strength (*should*, *may*, *required*).
+- **Conform**: a general statement whose every element appears in the case, reaching the case's actual outcome.
+- Neither direction ever adds a judgment the rule does not make. A case the trigger misses gets no verdict.
+
+## The wrong answers for this type
+
+<TrapCatalog
+  title="Conform and Apply traps"
+  traps={[
+    {
+      pattern: "reversal",
+      setup: "Apply: decline if collaborated within five years, unless no other reviewer.",
+      tempting: "Dr. Chen, who has never collaborated with the authors, should accept the manuscript.",
+      killer: "The rule gives a condition for declining, not a condition for accepting. No collaboration leaves the rule silent.",
+      instead: "Only judgments the rule actually issues can conform to it."
+    },
+    {
+      pattern: "necessary_v_sufficient",
+      setup: "Same rule.",
+      tempting: "Because no other qualified reviewer is available, Dr. Oyelaran, who collaborated last year, is required to accept.",
+      killer: "The exception removes the duty to decline. It does not create a duty to accept. 'Required' is invented.",
+      instead: "An exception lifts a verdict; it does not supply a new one."
+    },
+    {
+      pattern: "shell_game",
+      setup: "Same rule.",
+      tempting: "Dr. Park, who collaborated with one of the authors seven years ago, should decline.",
+      killer: "'Within the past five years' quietly became 'ever.' The timing slot is empty.",
+      instead: "Check every qualifier in the trigger, not just the main noun."
+    },
+    {
+      pattern: "out_of_scope",
+      setup: "Same rule.",
+      tempting: "Journal editors should not assign manuscripts to reviewers who have collaborated with the authors.",
+      killer: "The rule governs reviewers' decisions. Editors are a different agent; the rule says nothing about them.",
+      instead: "Match the agent the rule addresses."
+    },
+    {
+      pattern: "extreme",
+      setup: "Conform: hospital accommodated a nurse's reasonable transfer request after she reported a violation.",
+      tempting: "An institution should grant any request made by an employee who reports a safety violation.",
+      killer: "'Any request' goes beyond the one reasonable request in the case. The case does not exhibit that much.",
+      instead: "The principle should be as general as the case supports and no more."
+    }
+  ]}
+/>
+
+## The level-4 version
+
+- **Apply, exception as the answer.** The credited choice is the case where the exception fires, so the verdict is *may evaluate*, not *should decline*. Students who prephrased only the main verdict skip it.
+- **Two rules, one case.** The stimulus gives two principles; the choice must satisfy both. The trap satisfies one.
+- **Conform in the abstract.** The principle is written as "an agent who … incurs an obligation to …" or in the contrapositive. Translate to slots before matching.
+
+<KeyIdea>
+Principles are conditionals with slots: trigger, qualifiers, exception, verdict. Conform: the case fills every slot of the rule. Apply: the choice fills every slot and reaches exactly the rule's verdict. Where the trigger is unmet the rule is silent, and silence is not a judgment.
+</KeyIdea>
+
+## Before you read the choices
+
+1. Write the rule as slots: trigger (with every qualifier), exception, verdict.
+2. Note what the rule is silent about.
+3. Check choices slot by slot; stop at the first empty one.

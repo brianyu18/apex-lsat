@@ -4,6 +4,9 @@ import { format, parseISO } from "date-fns";
 import { BookOpen, Inbox, Target, Flame, Timer } from "lucide-react";
 import { dashboardData, daysToTest } from "@/lib/data/dashboard";
 import { getLessonsWithProgress } from "@/lib/data/lessons";
+import { currentBottlenecks } from "@/lib/data/bottleneck";
+import { typeLabel } from "@/lib/content/labels";
+import { LOGIC_TAG_LABELS, type LogicTag } from "@/lib/content/taxonomy";
 import { PHASE_LABELS, type Phase } from "@/lib/planner/generate";
 import { Badge, Card, CardTitle, Progress } from "@/components/ui/primitives";
 import { Button } from "@/components/ui/button";
@@ -14,6 +17,7 @@ export default async function Home() {
   const d = await dashboardData();
   if (!d.settings.onboarded) redirect("/onboarding");
   const { lessons } = await getLessonsWithProgress();
+  const bottlenecks = await currentBottlenecks();
   const nextLesson = lessons.find((l) => l.progress?.status !== "complete");
   const left = daysToTest(d.settings.testDate);
   const lr = d.sectionSkills.LR;
@@ -42,6 +46,33 @@ export default async function Home() {
           </Badge>
         </div>
       </header>
+
+      {bottlenecks.length > 0 && (
+        <Card className="border-warn" data-testid="bottleneck-card">
+          <div className="flex flex-wrap items-start justify-between gap-3">
+            <div>
+              <CardTitle>Bottleneck: {bottlenecks[0].dimension === "type" ? typeLabel(bottlenecks[0].key) : LOGIC_TAG_LABELS[bottlenecks[0].key as LogicTag]}</CardTitle>
+              <p className="mt-1 text-sm text-ink-2">
+                {Math.round(bottlenecks[0].share * 100)}% of your counted misses in the last two weeks ({bottlenecks[0].misses}). Drill it untimed until you&apos;re above 85% over 20 —{" "}
+                {bottlenecks[0].rollingN ? `currently ${Math.round((bottlenecks[0].rollingAccuracy ?? 0) * 100)}% over the last ${bottlenecks[0].rollingN}.` : "no counted attempts yet."}
+              </p>
+            </div>
+            <Button asChild>
+              <Link
+                href={`/drill/session?s=${encodeURIComponent(
+                  JSON.stringify(
+                    bottlenecks[0].dimension === "type"
+                      ? { types: [bottlenecks[0].key], count: 10, sources: ["bank", "due", "inbox"] }
+                      : { tags: [bottlenecks[0].key], count: 10, sources: ["bank", "due", "inbox"] },
+                  ),
+                )}`}
+              >
+                Focus block
+              </Link>
+            </Button>
+          </div>
+        </Card>
+      )}
 
       {/* Big actions */}
       <div className="grid gap-3 sm:grid-cols-3">

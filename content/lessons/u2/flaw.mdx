@@ -1,0 +1,110 @@
+---
+id: u2/flaw
+unit: 2
+order: 1
+title: "Flaw"
+summary: "Describe the gap. The right answer names something the argument actually does, and that something has to be the reason the conclusion doesn't follow."
+checkTags: [flaw]
+diagram: AttackMap
+minutes: 9
+---
+
+## The stem and the task
+
+> *The reasoning in the argument is most vulnerable to criticism on the grounds that it…* / *The argument is flawed in that it…* / *Which one of the following most accurately describes a flaw in the argument's reasoning?*
+
+Flaw is the most common LR type — about four per section. You are not adding a fact and not disproving the conclusion. You are **describing the gap**, in the abstract vocabulary the test uses for gaps. Every right answer passes a two-part test: (1) the argument actually does this, and (2) doing this is why the premises fail to establish the conclusion.
+
+## The read
+
+<AttackMap
+  type="Flaw"
+  stem="The reasoning in the argument is most vulnerable to criticism on the grounds that it"
+  steps={[
+    {
+      label: "Read",
+      do: "Find the conclusion and strip it to its claim. List the premises. Then check the conclusion’s nouns: any noun missing from the premises is where the flaw lives.",
+      example: "Columnist: Of the readers who wrote to the newspaper about the proposed parking ordinance, 80 percent opposed it. So most residents of the city oppose the ordinance.\n\nConclusion: most residents oppose the ordinance.\nPremise: 80% of readers who wrote in opposed it.\nNew noun in the conclusion: residents (the premise has letter-writers)."
+    },
+    {
+      label: "Find the gap",
+      do: "Name the move from premise to conclusion and ask what has to be true for it to work.",
+      example: "Move: self-selected letter-writers → all residents.\nNeeds: people who write in are representative of the city.\nWhy they might not be: people angry about a change write letters; satisfied people don’t."
+    },
+    {
+      label: "Prephrase",
+      do: "Say the flaw two ways: concretely, and in the abstract vocabulary the answers use.",
+      example: "Concrete: assumes the letter-writers represent residents.\nAbstract: generalizes from a sample likely to be unrepresentative of the population."
+    },
+    {
+      label: "Judge choices",
+      do: "Apply the two-part test to each answer: does the argument do this? Is doing it a flaw? Kill on either failure.",
+      example: "“relies on the opinion of an unqualified authority” — the argument cites no authority. Doesn’t do it.\n“fails to consider that some residents have no car” — it does fail to consider this, but car ownership doesn’t change whether they oppose. Not a flaw.\n“bases a conclusion about a population on a sample whose members chose to participate” — does it, and it’s the gap. ✓"
+    },
+    {
+      label: "Confirm",
+      do: "Map every noun in the chosen answer back onto the stimulus. A noun with no referent means the answer describes a different argument.",
+      example: "Population → city residents ✓\nSample → readers who wrote in ✓\nChose to participate → wrote letters ✓\nNothing in the answer lacks a referent. Lock it in."
+    }
+  ]}
+/>
+
+## What the right answer looks like
+
+- A description, usually abstract: *takes for granted that…*, *fails to consider the possibility that…*, *infers from … that …*, *treats … as if it were …*.
+- Translated back into the stimulus, every noun in it maps onto something that is actually there.
+- It names the **gap** — not a premise, not the conclusion. "Presumes that most residents oppose the ordinance" restates the conclusion; restating is not a flaw.
+- A *fails to consider that X* answer is right only when X, if true, would damage the argument. The argument fails to consider a thousand things; one of them matters.
+- Force is calibrated. "Takes for granted that letter-writers are representative" matches what the argument did; "assumes every letter-writer is a resident" is more than it did.
+
+## The wrong answers
+
+<TrapCatalog
+  title="Flaw traps"
+  traps={[
+    {
+      pattern: "wrong_part",
+      setup: "Of the readers who wrote in about the parking ordinance, 80 percent opposed it. So most residents oppose the ordinance.",
+      tempting: "relies on the testimony of readers whose expertise regarding parking policy has not been established",
+      killer: "The argument never treats the letter-writers as experts; it counts their opinions. An answer describing something the argument didn’t do fails part one of the test.",
+      instead: "Describes the actual move: inferring residents’ views from a self-selected group."
+    },
+    {
+      pattern: "out_of_scope",
+      setup: "Same argument.",
+      tempting: "fails to consider that the ordinance might be amended before it takes effect",
+      killer: "True, the argument doesn’t consider it — but amendment has no bearing on whether residents currently oppose the ordinance. Fails part two.",
+      instead: "A “fails to consider” answer is right only if the overlooked possibility would undermine the conclusion."
+    },
+    {
+      pattern: "shell_game",
+      setup: "Same argument.",
+      tempting: "mistakes a correlation between writing letters and opposing the ordinance for a causal relationship",
+      killer: "“causal” — the argument makes no causal claim. A real flaw name attached to the wrong argument.",
+      instead: "Matches the named flaw to the argument’s actual structure: this is a sampling move, not a causal one."
+    },
+    {
+      pattern: "extreme",
+      setup: "Same argument.",
+      tempting: "takes for granted that every reader who wrote in is a resident of the city",
+      killer: "“every” — the argument needs the writers to be roughly representative, not that each one is a resident. Overstates what was assumed.",
+      instead: "Calibrates force to what the argument needs: the letter-writers are treated as representative of residents."
+    }
+  ]}
+/>
+
+## The level-4 variant
+
+Hard Flaw questions do two things. First, the gap hides in a near-synonym shift — *approved of* becomes *benefited from*, *reported* becomes *experienced* — so the stimulus reads as valid until you line up the conclusion's nouns against the premises'. Second, the right answer is phrased one level more abstract than your prephrase: not "assumes the sample is representative" but *draws a conclusion about a population from a group whose members selected themselves into it*. The best trap is a textbook flaw name (*correlation and causation*, *necessary and sufficient*) that this argument doesn't commit.
+
+Run two passes. First, kill every answer that describes something the argument doesn't do. Second, among the survivors, pick the one whose "something" is the reason the conclusion doesn't follow.
+
+<KeyIdea>
+A Flaw answer is a true description of the argument that is also an explanation of why it fails. Translate each abstract choice back into the stimulus's own nouns; if a noun has no referent, or the described move isn't the gap, it's out.
+</KeyIdea>
+
+## Before you read the choices
+
+1. Conclusion in your own words; premises in one line.
+2. The gap in one sentence: "It assumes ___."
+3. The gap's abstract name, if it has one: sampling, causation, conditional, term shift, part–whole.

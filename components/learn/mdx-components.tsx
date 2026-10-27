@@ -4,6 +4,8 @@ import { ConditionalChain } from "@/components/diagrams/conditional-chain";
 import { SetSandbox } from "@/components/diagrams/set-sandbox";
 import { CausalModel } from "@/components/diagrams/causal-model";
 import { TrapCatalog } from "@/components/diagrams/trap-catalog";
+import { AttackMap } from "@/components/diagrams/attack-map";
+import { TagSpotter } from "@/components/diagrams/tag-spotter";
 import { Callout, Example, KeyIdea, Steps } from "./blocks";
 
 export const mdxComponents: MDXComponents = {
@@ -12,6 +14,8 @@ export const mdxComponents: MDXComponents = {
   SetSandbox,
   CausalModel,
   TrapCatalog,
+  AttackMap,
+  TagSpotter,
   Callout,
   Example,
   KeyIdea,

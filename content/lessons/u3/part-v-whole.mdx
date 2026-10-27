@@ -1,0 +1,50 @@
+---
+id: u3/part-v-whole
+unit: 3
+order: 3
+title: "Part vs whole: composition and division"
+summary: "What is true of every member need not be true of the group, and what is true of the group need not be true of any member. The test hides this in teams, mixtures, firms, and averages."
+checkTags: [part_v_whole]
+minutes: 8
+---
+
+## The pattern
+
+An argument transfers a property between a whole and its parts without a premise saying the property transfers. Parts to whole is **composition** ("every player is excellent, so the team is"); whole to parts is **division** ("the orchestra is the best, so its oboist is").
+
+It appears in **Flaw**, **Parallel Flaw**, **Weaken**, **Necessary Assumption**, and as the trap in **Most Strongly Supported** and **Must Be True**.
+
+## How to recognize it
+
+Look for a collective noun and its members in the same argument: *team / players, company / employees, committee / members, mixture / ingredients, city / residents, procedure / steps, policy / provisions*. Then look for the words that do the transferring: *each, every, as a whole, collectively, in combination, on average*.
+
+Then ask what kind of property is moving. Some properties add up: weight, cost, headcount, area. If every part weighs under a kilogram and there are five parts, the whole weighs under five. Others emerge from arrangement: strength, quality, safety, speed, coherence, danger. Those never transfer without an argument. Even additive properties transfer only if you know how many parts there are.
+
+<TagSpotter tag="Part vs whole" items={[
+  { text: "Every player on the roster is among the league's top performers at her position. So the team will be among the league's top teams.", present: true, tell: "Every player on the roster", why: "Composition. Team quality depends on how players combine; individual excellence does not add up automatically." },
+  { text: "The orchestra is the finest in the country. So its principal oboist must be the finest oboist in the country.", present: true, tell: "its principal oboist", why: "Division. A property of the ensemble is handed to one member." },
+  { text: "The committee voted 7 to 2 to approve the plan. So a majority of the committee approved the plan.", present: false, tell: "a majority of the committee", why: "Whole to whole. A claim about the committee's vote supports a claim about the committee's vote. No transfer." },
+  { text: "The sculpture weighs more than 200 kilograms. So at least one of its four pieces weighs more than 50 kilograms.", present: false, tell: "at least one of its four pieces", why: "Whole to part, but valid: weight is additive, the part count is given, and the conclusion claims only ‘at least one.’ Not every whole-to-part move is a flaw." },
+  { text: "Sodium reacts violently with water and chlorine is toxic, so table salt, which is made of both, is dangerous.", present: true, tell: "which is made of both", why: "Composition. Danger is a property of the arrangement; the compound behaves nothing like its elements." },
+  { text: "No individual on the panel has authority to issue a subpoena. So the panel's chair cannot issue a subpoena on her own.", present: false, tell: "the panel's chair", why: "Every member to one member is instantiating a universal, not dividing a whole. The chair is an individual, and the premise covers every individual." },
+]} />
+
+## How it is exploited
+
+| Question | What the key does | Abstract language |
+|---|---|---|
+| Flaw | Names the direction | "infers that what is true of each member is true of the group as a whole" / "presumes that a characteristic of a whole must be shared by each of its parts" |
+| Parallel Flaw | Matches the direction | composition pairs with composition, division with division; an answer in the other direction is the trap |
+| Weaken | Shows the property depends on arrangement | "The players have never practiced together" / "The compound's structure neutralizes…" |
+| Necessary Assumption | Licenses the transfer | "The quality in question does not depend on how the parts interact" |
+| MSS / MBT | Keeps the level | Facts about a group support claims about the group; the trap answer says "each" or "every member" |
+
+## The level-4 variant
+
+The whole and its parts are not labeled as such. *The industry* versus *a firm*; *the economy* versus *households*; *the species* versus *an individual*; *the regimen* versus *each dose*; *the decade* versus *each year*. The hard version buries composition inside a causal story: "Each dose is harmless, so the course of treatment is harmless." Or inside time: "In every year the fund beat the index, so over the period it beat the index" (that one is valid; test your rule, do not pattern-match).
+
+Division hides in statistics: "The district has the region's highest average income, so this resident of the district is wealthy." Averages are whole-level facts.
+
+<KeyIdea>
+When an argument moves between a collection and its members, name the property and ask whether it adds up (weight, cost, count) or emerges from arrangement (quality, safety, strength). Only additive properties transfer, and only when you know the parts.
+</KeyIdea>

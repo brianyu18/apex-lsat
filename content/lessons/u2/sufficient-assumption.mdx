@@ -1,0 +1,125 @@
+---
+id: u2/sufficient-assumption
+unit: 2
+order: 7
+title: "Sufficient Assumption"
+summary: "Find the premise that, once added, forces the conclusion. Formalize, chain, find the orphan term, and supply the arrow that reaches it — overkill is fine, a mere help is not."
+checkTags: [sufficient_assumption]
+diagram: AttackMap
+minutes: 10
+---
+
+## The stem and the task
+
+> *The conclusion follows logically if which one of the following is assumed?* / *Which one of the following, if assumed, enables the conclusion to be properly drawn?*
+
+Find a statement that, added to the premises, makes the conclusion **follow with certainty**. Not probable — guaranteed. This is a validity task, so treat the argument as formal logic: premises are terms linked by arrows, the conclusion introduces a new term, and the answer is the arrow from the premises' last term to that new term.
+
+## The read
+
+<AttackMap
+  type="Sufficient Assumption"
+  stem="The conclusion follows logically if which one of the following is assumed?"
+  steps={[
+    {
+      label: "Read",
+      do: "Formalize every statement. Universals become arrows; the specific case becomes a term.",
+      example: "Any policy that reduces commute times improves worker productivity. The proposed transit line would reduce commute times for thousands of residents. Therefore, the proposed transit line should be built.\n\nP1: reduces commutes (RC) → improves productivity (IP).\nP2: transit line (TL) → RC.\nC: TL → should be built (SB)."
+    },
+    {
+      label: "Find the gap",
+      do: "Chain the premises as far as they go. The conclusion term the chain never reaches is the gap.",
+      example: "Chain: TL → RC → IP.\nConclusion wants: TL → SB.\nOrphan term: SB. Nothing connects IP (or RC) to SB."
+    },
+    {
+      label: "Prephrase",
+      do: "Write the bridge from the chain’s end to the orphan term, and its contrapositive. Either form can appear.",
+      example: "Bridge: IP → SB. “Any policy that improves worker productivity should be built.”\nContrapositive: not SB → not IP.\nAlso sufficient: RC → SB (skips a step, still bridges)."
+    },
+    {
+      label: "Judge choices",
+      do: "Plug each in and derive. If the conclusion follows with nothing left over, it’s sufficient. If any gap remains, eliminate — even if the choice helps.",
+      example: "“Any policy that improves worker productivity should be adopted.” TL → RC → IP → SB. ✓\n“The transit line has no drawbacks that outweigh its benefits.” Add it: TL → IP, plus no outweighing drawbacks. Still no SB. Out.\n“Any policy that should be built improves productivity.” SB → IP. Wrong direction. Out."
+    },
+    {
+      label: "Confirm",
+      do: "Check direction and strength once more. The winner points from the premises toward the conclusion and uses a universal, not “some” or “most.”",
+      example: "IP → SB: starts at the chain’s end, lands on the orphan term, and “any” makes it universal. Lock it in."
+    }
+  ]}
+/>
+
+## What the right answer looks like
+
+- A **conditional or universal** linking a premise term to the conclusion term: *any*, *all*, *every*, *no*, *whenever* — or its contrapositive.
+- At least as strong as the gap. Stronger is fine; overkill still guarantees. A choice broader than the argument is not "out of scope" if it covers the case.
+- Plug-in test: premises + choice → conclusion, with nothing left over. If a second assumption is still needed, it isn't sufficient.
+- In quantified arguments, *some* conclusions need *all* bridges. *Some A are B* plus *all B are C* yields *some A are C*; plus *most B are C* yields nothing.
+- Direction matters. The arrow must run from what the premises establish to what the conclusion claims.
+
+## Sufficient versus Necessary
+
+| | Sufficient | Necessary |
+|---|---|---|
+| Test | add it: is the conclusion forced? | negate it: is the argument dead? |
+| Strength | strong, often broad | weak, often negative |
+| Trap for the other type | the required plank (too weak) | the full bridge (too strong) |
+
+Many wrong answers on one type are right answers on the other.
+
+## The wrong answers
+
+<TrapCatalog
+  title="Sufficient Assumption traps"
+  traps={[
+    {
+      pattern: "necessary_v_sufficient",
+      setup: "Policies that reduce commutes improve productivity. The transit line would reduce commutes. So the transit line should be built.",
+      tempting: "The proposed transit line would not have drawbacks that outweigh its productivity benefits.",
+      killer: "Required, perhaps — but add it and “should be built” still doesn’t follow; nothing yet links productivity to what should be built. The plug-in test fails.",
+      instead: "Supplies the universal link from the chain’s last term to the conclusion’s term."
+    },
+    {
+      pattern: "reversal",
+      setup: "Same argument.",
+      tempting: "Any policy that should be built improves worker productivity.",
+      killer: "SB → IP. The chain delivers IP; this arrow starts at SB, so it can’t carry you there. Affirming the necessary.",
+      instead: "Runs IP → SB, or its contrapositive: a policy that doesn’t improve productivity shouldn’t be built."
+    },
+    {
+      pattern: "premise_booster",
+      setup: "Same argument.",
+      tempting: "The proposed transit line would reduce commute times more than any alternative proposal.",
+      killer: "Strengthens P2, which was never in doubt. The orphan term SB is still unconnected.",
+      instead: "Ignores the premises’ credibility and closes the structural gap."
+    },
+    {
+      pattern: "shell_game",
+      setup: "Same argument.",
+      tempting: "Any policy that improves the productivity of thousands of workers is worth serious consideration.",
+      killer: "“worth serious consideration” — the conclusion says should be built. A near-synonym for the orphan term is not the orphan term.",
+      instead: "Lands on the conclusion’s exact term."
+    },
+    {
+      pattern: "wrong_force",
+      setup: "Same argument.",
+      tempting: "Most policies that improve worker productivity should be built.",
+      killer: "“Most” — the transit line could be among the exceptions. The conclusion becomes likely, not guaranteed, and the stem says follows logically.",
+      instead: "Uses any, all, every, or no, so that no exception can be the case at hand."
+    }
+  ]}
+/>
+
+## The level-4 variant
+
+Level-4 SA moves the gap. The missing link may sit between two premises rather than at the conclusion, so chain first and look for the term that never connects. The correct answer is often a contrapositive with negated terms — *Nothing that fails to improve productivity should be built* — or so broad it sounds off-topic (*Any measure that benefits thousands of residents should be adopted*). Quantifier SAs require *all* in the bridge even when the conclusion is *some*. The best trap is a necessary assumption dressed as a bridge: it uses *can*, *may*, *some*, or *most*, and the plug-in test exposes it because the conclusion still doesn't follow.
+
+<KeyIdea>
+Formalize, chain, and find the orphan term in the conclusion. The answer is the arrow from the chain's end to that term — strong enough that, once added, no other outcome is possible.
+</KeyIdea>
+
+## Before you read the choices
+
+1. Notation: each premise as an arrow; the conclusion as an arrow.
+2. Chain the premises; name the conclusion term the chain never reaches.
+3. Write the bridge — last premise term → conclusion term — and its contrapositive.

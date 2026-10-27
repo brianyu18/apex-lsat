@@ -1,0 +1,58 @@
+---
+id: u3/rule-application
+unit: 3
+order: 13
+title: "Rule application: trigger, exception, output"
+summary: "A rule is a machine. Run the case through it: every input condition present, every exception absent, and the conclusion no stronger than the output. Any shortcut is where the question lives."
+checkTags: [rule_application]
+minutes: 10
+---
+
+## The pattern
+
+A general rule (principle, policy, statute, definition) is applied to a particular case. The application is sound only if the case satisfies the rule's trigger, falls inside the rule's domain, escapes its exceptions, and the conclusion claims exactly the rule's output.
+
+It is the whole of **Rule Application** and **Principle (Conform)**, half of **Principle (Justify)**, and a frequent structure in **Must Be True**, **Must Be False**, **Flaw**, **Sufficient Assumption**, and **Parallel Reasoning**.
+
+## How to recognize it
+
+A rule has four parts. Mark each in the stimulus:
+
+1. **Domain.** Who the rule covers: *employees, students, members, property owners*.
+2. **Trigger.** The sufficient condition, often with several conjuncts: *who work more than 40 hours in a week*.
+3. **Exception.** *Unless, except when, provided that, other than* — a clause that switches the rule off.
+4. **Output.** The consequence, with its modality: *must be paid, may remove, is eligible, is not permitted*.
+
+Then four checks on the case: Is it in the domain? Does it meet every conjunct of the trigger? Is the exception ruled out? Does the conclusion match the output's modality, without upgrading *may* to *must*, or *eligible* to *entitled*?
+
+One more: a rule states a sufficient condition. A case that fails the trigger is not thereby outside the output. "Course completers are eligible" says nothing about non-completers.
+
+<TagSpotter tag="Rule application" items={[
+  { text: "Employees who work more than 40 hours in a week must be paid overtime. Dario is an independent contractor who worked 50 hours last week, so he must be paid overtime.", present: true, tell: "independent contractor", why: "Domain failure. The rule covers employees; a contractor is outside it no matter how many hours he worked." },
+  { text: "Any student who submits a late paper loses one letter grade, unless the student has a documented medical excuse. Chen submitted her paper late. So Chen loses a letter grade.", present: true, tell: "unless", why: "The exception is never ruled out. Trigger met, exception open, conclusion unearned." },
+  { text: "Any student who submits a late paper loses one letter grade, unless the student has a documented medical excuse. Chen submitted her paper late and has no documented excuse. So Chen loses a letter grade.", present: false, tell: "has no documented excuse", why: "Trigger met, exception closed, output matched. Valid application." },
+  { text: "Drivers who complete the safety course are eligible for the discount. Ms. Ruiz did not complete the course, so she is not eligible for the discount.", present: true, tell: "did not complete the course", why: "Sufficient treated as necessary. The rule says completers are eligible; it is silent about everyone else." },
+  { text: "The code permits property owners to remove trees that pose a hazard. The oak on the Sorensen lot is diseased and leaning toward the road. So the Sorensens are required to remove it.", present: true, tell: "are required to remove it", why: "Output modality upgraded. The rule permits; the conclusion requires." },
+  { text: "Members of the committee may not vote on contracts in which they have a financial interest. Hale has a financial interest in this contract and is a committee member. So Hale may not vote on it.", present: false, tell: "may not vote on it", why: "Domain, trigger, and output all line up, and there is no exception to clear. Valid." },
+]} />
+
+## How it is exploited
+
+| Question | What the key does | Abstract language |
+|---|---|---|
+| Rule Application | Picks the case that satisfies every conjunct, clears the exception, and ends with the rule's exact output | Traps: the output without the trigger (reversal); the trigger with a stronger output; a case sitting in the exception |
+| Principle (Conform) | Abstracts the case's trigger and verdict first, then finds the rule with both | A rule with the right verdict and the wrong trigger is the standard trap |
+| Principle (Justify) | Finds the rule whose trigger is the stated premises and whose output is the stated conclusion | Reversed rules and "only if" rules are traps |
+| MBT / MBF | Chains the case through the rule and stops | What must follow is the output, nothing about cases that miss the trigger |
+| Flaw | Names the failed check | "applies a rule to a case it does not cover" / "treats a sufficient condition as necessary" / "overlooks an exception the rule provides" |
+| NA / SA | NA: "The case does not fall under the exception"; SA: the full trigger, asserted of the case | |
+
+## The level-4 variant
+
+The rule is written in prose with its trigger split across two sentences, or with a nested exception: "unless the student has an excuse, in which case the penalty applies only if the paper is more than a week late." The case description then includes a detail that activates an exception without naming it ("Chen's note from the clinic").
+
+Modality is the other hard axis. *Need not* versus *must not*; *ought not be condemned* versus *ought to be praised*; *is permitted* versus *is required*. In **Principle (Conform)**, two answer choices routinely differ only in whether the output is permissive or obligatory, and only one matches the case's verdict.
+
+<KeyIdea>
+Treat every rule as a machine: domain, trigger, exception, output. Run the case through mechanically. Every input condition present, every exception absent, the conclusion no stronger than the output, and nothing concluded about cases that miss the trigger. Whichever step the argument skipped is the answer.
+</KeyIdea>

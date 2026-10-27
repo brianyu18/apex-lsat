@@ -1,0 +1,119 @@
+---
+id: u2/must-be-true
+unit: 2
+order: 5
+title: "Must Be True, Must Be False, and Inference"
+summary: "Three deductive stems, one test: can you build a world where the facts hold and the choice fails? The answer is the choice you cannot break."
+checkTags: [must_be_true, must_be_false, inference]
+diagram: AttackMap
+minutes: 10
+---
+
+## The stems and the task
+
+> *If the statements above are true, which one of the following must also be true?* — Must Be True
+> *If the statements above are true, which one of the following CANNOT be true?* — Must Be False
+> *Which one of the following can be properly inferred from the statements above?* — Inference
+
+All three are deductive. **Must be true**: the choice holds in every situation consistent with the facts. **Must be false**: the choice fails in every such situation — its negation must be true. **Properly inferred** means validly deduced; treat it as Must Be True. Probable, plausible, and likely do not count. The test for any choice is the counter-scenario: can you build a world where the facts hold and the choice doesn't?
+
+## The read
+
+<AttackMap
+  type="Must Be True"
+  stem="If the statements above are true, which one of the following must also be true?"
+  steps={[
+    {
+      label: "Read",
+      do: "Translate each statement into notation. Conditionals get arrows and contrapositives; quantities keep their exact word.",
+      example: "Every grant proposal the foundation funded last year included a community-outreach component. Some of the funded proposals came from first-time applicants. No proposal from a first-time applicant requested more than $50,000.\n\nS1: Funded → Outreach. (No outreach → not funded.)\nS2: Some Funded are FirstTime.\nS3: FirstTime → requested ≤ $50,000."
+    },
+    {
+      label: "Find the link",
+      do: "Chain through shared terms. “Some” statements are the bridge: the members that are both X and Y inherit every rule about X and every rule about Y.",
+      example: "The funded first-time proposals (S2) are Funded, so Outreach (S1); and FirstTime, so ≤ $50,000 (S3).\nDerived: some proposals with outreach requested ≤ $50,000."
+    },
+    {
+      label: "Prephrase",
+      do: "Write what follows, in the weakest honest form. For a CANNOT stem, also write what is now impossible.",
+      example: "MBT: at least one proposal that included outreach requested $50,000 or less.\nMBF: a funded first-time proposal without outreach; a funded first-time proposal requesting $80,000."
+    },
+    {
+      label: "Judge choices",
+      do: "Run the counter-scenario test. MBT: can the choice be false with all facts true? MBF: can it be true? If yes, eliminate.",
+      example: "“Most funded proposals came from first-time applicants.” World: 100 funded, 3 first-time. Facts hold, choice false. Out.\n“Every proposal with outreach was funded.” World: an unfunded proposal with outreach. Out.\n“Some proposals with outreach requested $50,000 or less.” No world without one. ✓"
+    },
+    {
+      label: "Confirm",
+      do: "Trace the winner back to the statements that produce it. If you can name them, it’s a deduction; if you’re appealing to what’s reasonable, it isn’t.",
+      example: "S2 gives the members; S1 gives them outreach; S3 caps their request. Three statements, one deduction. Lock it in."
+    }
+  ]}
+/>
+
+## What the right answer looks like
+
+- A valid deduction, usually from two or more statements chained through a shared term — frequently a contrapositive.
+- Often weaker than you expect: *some*, *at least one*, *not all*. Never reject a choice for being weak.
+- No new terms. A word without a referent in the facts can't be deduced.
+- For Must Be False, the right answer contradicts something derivable. Strong wording in the choice is fine, because the facts rule it out.
+- Quantifier arithmetic: *all* + *some* gives *some*; *most* + *most* on the same group gives *some*; *some* + *some* gives nothing.
+
+## The wrong answers
+
+<TrapCatalog
+  title="Must Be True / Must Be False traps"
+  traps={[
+    {
+      pattern: "reversal",
+      setup: "Every funded proposal included outreach. Some funded proposals came from first-time applicants. No first-time proposal requested more than $50,000.",
+      tempting: "Every proposal that included a community-outreach component was funded.",
+      killer: "S1 runs funded → outreach. The choice runs outreach → funded. A world with one unfunded outreach proposal breaks it.",
+      instead: "Uses the arrow as given, or its contrapositive: no outreach → not funded."
+    },
+    {
+      pattern: "wrong_force",
+      setup: "Same facts.",
+      tempting: "Most of the proposals the foundation funded came from first-time applicants.",
+      killer: "“Most” — S2 says some. Three first-time proposals among a hundred satisfies every fact and falsifies the choice.",
+      instead: "Keeps the quantity the facts deliver: some, at least one."
+    },
+    {
+      pattern: "extreme",
+      setup: "Same facts.",
+      tempting: "The foundation funded no proposal that requested more than $50,000.",
+      killer: "The cap applies to first-time applicants only. A funded repeat applicant asking $200,000 breaks no fact.",
+      instead: "Applies each rule to exactly the group it governs."
+    },
+    {
+      pattern: "opposite",
+      setup: "Same facts; the stem asks which one CANNOT be true.",
+      tempting: "Some proposals the foundation funded requested $50,000 or less.",
+      killer: "This must be true — which makes it the worst possible answer to a CANNOT stem. Readers who skim the stem pick it.",
+      instead: "On Must Be False, the answer contradicts a deduction: a funded first-time proposal that requested $75,000."
+    },
+    {
+      pattern: "out_of_scope",
+      setup: "Same facts; stem asks what must be true.",
+      tempting: "Including a community-outreach component improves a proposal’s chances of being funded.",
+      killer: "“improves chances” — nothing in the facts compares funded with unfunded proposals or says anything causal. Reasonable, not deducible.",
+      instead: "Stays inside the given terms and relations: no causation, no comparison the facts don’t make."
+    }
+  ]}
+/>
+
+## The level-4 variant
+
+Level-4 Must Be True buries the chain: four or five statements, two of them irrelevant, the key link written as *unless* or *except*, and the answer stated as a contrapositive with negated terms — *No proposal lacking an outreach component was funded* rather than *Every funded proposal had one*. Hard Must Be False choices are compounds (*a funded proposal from a first-time applicant that requested $60,000*), where only the conjunction is impossible. Hard Inference stems mix quantities with conditionals: *most* of a group satisfies a rule that triggers a second rule. Diagram, chain, and run the counter-scenario test on the two finalists.
+
+Keep the MSS line clear: on Most Strongly Supported one counter-scenario does not kill a well-supported choice. Here it does.
+
+<KeyIdea>
+The only test is the counter-scenario. For Must Be True, try to make the choice false while every fact stays true; for Must Be False, try to make it true. If you can, it's out. The answer is the choice you cannot break.
+</KeyIdea>
+
+## Before you read the choices
+
+1. Diagram every conditional and its contrapositive; mark quantities.
+2. Chain through shared terms; write the two or three things that follow.
+3. Reread the stem — *must be true*, *CANNOT be true*, or *properly inferred* — and hold the matching test in mind.

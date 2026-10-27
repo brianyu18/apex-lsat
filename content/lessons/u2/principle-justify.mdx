@@ -1,0 +1,116 @@
+---
+id: u2/principle-justify
+unit: 2
+order: 10
+title: "Principle (Justify)"
+summary: "The argument has a gap; the answer is a general rule whose IF side is met by the premises and whose THEN side is the conclusion. Direction and trigger decide everything."
+checkTags: [pseudo_sufficient_assumption]
+diagram: AttackMap
+minutes: 9
+---
+
+## The stem and the task
+
+*"Which one of the following principles, if valid, most helps to justify the [person]'s reasoning?"* or *"…most helps to justify the conclusion drawn?"*
+
+This is Sufficient Assumption wearing a general rule. The stimulus moves from facts to a conclusion, usually a judgment: *irresponsible*, *should*, *justified*. Nothing in the premises carries that judgment word. The credited principle is a conditional that fires on the facts given and lands on the conclusion. "Most helps" means it need not be airtight, but the winner nearly always is.
+
+## The read: build the bridge before you shop for it
+
+<AttackMap
+  type="Principle (Justify)"
+  stem="Which one of the following principles, if valid, most helps to justify the editorial's reasoning?"
+  steps={[
+    {
+      label: "Read",
+      do: "Mark the conclusion and the premises. Note whether the conclusion is factual or normative.",
+      example: "Editorial: The council approved the stadium subsidy even though its own commissioned study concluded the subsidy would not pay for itself. Therefore, the council acted irresponsibly.\nConclusion: acted irresponsibly (normative). Premise: approved an expenditure against its own study."
+    },
+    {
+      label: "Find the gap",
+      do: "Name the term in the conclusion that appears nowhere in the premises. That is the term the rule must deliver.",
+      example: "'Irresponsibly' is new. The premises describe what the council did; nothing says doing that is irresponsible."
+    },
+    {
+      label: "Prephrase the rule",
+      do: "Write: IF [premise situation, in general terms] THEN [conclusion]. Keep the IF side no stronger than the facts you were given.",
+      example: "If a public body approves an expenditure that its own study found will not pay for itself, it acts irresponsibly."
+    },
+    {
+      label: "Judge the choices",
+      do: "Two checks, in order. Trigger: do the stated facts satisfy the IF side? Landing: is the THEN side the conclusion, judgment word included? Reject reversed rules and rules whose trigger demands more than the facts give.",
+      example: "'Any council that acts irresponsibly disregards its own studies' → reversed. Out.\n'A council acts irresponsibly if it approves a subsidy it knows will cause a deficit' → 'knows,' 'deficit' not established. Out."
+    },
+    {
+      label: "Confirm",
+      do: "Read the credited rule with the facts plugged in. It should read as the argument itself.",
+      example: "'A public body acts irresponsibly whenever it approves an expenditure that its own commissioned analysis has found will not pay for itself.' Trigger met word for word; lands on 'irresponsibly.'"
+    }
+  ]}
+/>
+
+## What the right answer looks like
+
+- A **conditional**, general in form: premise-situation on the IF side, conclusion on the THEN side.
+- The IF side may be **broader** than the facts (a broad rule still fires) but never **narrower** or **stronger** (it then fails to fire).
+- A normative conclusion needs a normative THEN side. *Should*, *ought*, *wrong*, *justified* must appear there.
+- Direction is not negotiable. The converse justifies nothing.
+
+## The wrong answers for this type
+
+<TrapCatalog
+  title="Principle (Justify) traps"
+  traps={[
+    {
+      pattern: "reversal",
+      setup: "Council approved a subsidy against its own study; therefore it acted irresponsibly.",
+      tempting: "Any council that acts irresponsibly disregards the findings of studies it has commissioned.",
+      killer: "'Irresponsibly' sits on the IF side. The rule tells you what irresponsible councils do, not when a council is irresponsible. You cannot reach the conclusion from it.",
+      instead: "The conclusion term belongs on the THEN side."
+    },
+    {
+      pattern: "necessary_v_sufficient",
+      setup: "Same argument.",
+      tempting: "A council acts responsibly only if it considers the findings of its own studies.",
+      killer: "'Only if' states what responsibility requires. The council may well have considered the study and overridden it; the rule never fires.",
+      instead: "Pick the rule that is sufficient for the conclusion, not one that is necessary for its opposite."
+    },
+    {
+      pattern: "shell_game",
+      setup: "Same argument.",
+      tempting: "A council acts irresponsibly if it approves a subsidy that it knows will cause a budget deficit.",
+      killer: "'Will not pay for itself' became 'will cause a budget deficit,' and 'knows' was added. The trigger demands facts the stimulus never gave.",
+      instead: "Hold the IF side to the stimulus's own terms."
+    },
+    {
+      pattern: "half_right",
+      setup: "Same argument.",
+      tempting: "Whenever a council approves an expenditure against its own study's findings, it should explain its reasons publicly.",
+      killer: "The trigger fires perfectly and then lands on 'should explain,' not 'acted irresponsibly.' Right door, wrong room.",
+      instead: "Check the landing as carefully as the trigger."
+    },
+    {
+      pattern: "out_of_scope",
+      setup: "Same argument.",
+      tempting: "Public bodies should never subsidize private sports facilities.",
+      killer: "Lands on 'should not subsidize' and ignores the study entirely. It would condemn the council for a reason the editorial never gave.",
+      instead: "The rule must use the premises the author actually offered."
+    }
+  ]}
+/>
+
+## The level-4 version
+
+- **Contrapositive phrasing.** "Unless a body's expenditures are supported by its own analysis, it cannot be said to act responsibly." Translate before judging: not supported → not responsible. Same rule, hidden.
+- **Two gaps, one rule.** A long stimulus has a sub-conclusion; only one of the two inferences needs bridging. The trap bridges the other.
+- **"Most helps" with no perfect fit.** When no rule closes the gap completely, prefer the rule whose trigger is fully met over a stronger rule whose trigger is not. A rule that doesn't fire helps zero.
+
+<KeyIdea>
+A justifying principle is a general conditional: premise-situation on the IF side, conclusion on the THEN side. Check that the trigger fires on the facts exactly as stated, then check that it lands on the conclusion's own judgment word.
+</KeyIdea>
+
+## Before you read the choices
+
+1. Circle the conclusion's new term (the judgment word).
+2. Write your IF → THEN rule in the stimulus's vocabulary.
+3. Plan to test trigger first, landing second, on every choice.

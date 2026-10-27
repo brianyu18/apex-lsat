@@ -1,0 +1,120 @@
+---
+id: u2/argument-part
+unit: 2
+order: 13
+title: "Argument Part"
+summary: "Two questions fix any sentence's role: is it supported, and does it support? Answer both from the text, then decode the choices' abstract language into those answers plus a target."
+checkTags: [argument_part]
+diagram: AttackMap
+minutes: 9
+---
+
+## The stem and the task
+
+*"The claim that [X] plays which one of the following roles in the argument?"*
+
+You are asked about one quoted claim. The answers describe roles in abstract language: *evidence offered in support of*, *an intermediate conclusion*, *a position the argument is directed against*. The task is to label the claim yourself first, then translate each choice and see which one says what you said.
+
+## The read: the two-question role test
+
+<AttackMap
+  type="Argument Part"
+  stem="The claim that most students handle everyday inferences competently plays which one of the following roles in the argument?"
+  steps={[
+    {
+      label: "Locate and map",
+      do: "Find the quoted claim in the stimulus. Mark the main conclusion so you know where the arrows end.",
+      example: "Critics argue that formal logic instruction in secondary schools is pointless, since students already reason well informally. It is true that most students handle everyday inferences competently. But everyday competence does not transfer to structured problems: students who took a logic course outperformed matched peers on such problems. Formal logic therefore belongs in the curriculum.\nMain conclusion: formal logic belongs in the curriculum."
+    },
+    {
+      label: "Question one",
+      do: "Is the quoted claim supported by anything in the text?",
+      example: "'Most students handle everyday inferences competently.' Nothing is offered as a reason for it. Supported: No."
+    },
+    {
+      label: "Question two",
+      do: "Does the quoted claim support anything? Follow its arrow, if any, and name the target.",
+      example: "It is introduced with 'It is true that' and answered with 'But.' The author grants it and moves past it. Supports: No. No/No with a 'but' after it: a concession."
+    },
+    {
+      label: "Prephrase",
+      do: "State the role in LSAT language, including who holds the claim and what it does.",
+      example: "A point the argument concedes to the opposing view, then argues is not decisive."
+    },
+    {
+      label: "Judge the choices",
+      do: "Decode each choice into supported?/supports?/target. Kill any that mismatch on a single cell.",
+      example: "'Evidence for the main conclusion' → supports: Yes, target MC. Mismatch.\n'A claim the argument seeks to refute' → the author accepts it. Mismatch.\n'A consideration the argument acknowledges but discounts' → No/No, conceded. Match."
+    }
+  ]}
+/>
+
+## The decoder: answer language → role
+
+| Answer language | Supported? | Supports? | Role |
+|---|---|---|---|
+| "evidence offered in support of the main conclusion" | No | Yes → MC | premise |
+| "an intermediate conclusion that in turn supports…" | Yes | Yes | sub-conclusion |
+| "the overall conclusion" / "the position the argument defends" | Yes | No | main conclusion |
+| "a position the argument as a whole is directed against" | No | No | opposing view |
+| "a consideration the argument acknowledges but discounts" | No | No | concession |
+| "a general principle from which the conclusion is derived" | No | Yes → MC | premise (rule) |
+| "an example offered to illustrate a general claim" | No | Yes → a premise | supporting premise |
+
+## What the right answer looks like
+
+- It gets **both** questions right and, when it names a target ("supports the claim that…"), the target is the claim the quoted sentence actually feeds.
+- It describes a **relation**, not content. The best choices could be true of a thousand arguments.
+- It attributes the claim to the right **holder**: the author, or the opponent.
+
+## The wrong answers for this type
+
+<TrapCatalog
+  title="Argument Part traps"
+  traps={[
+    {
+      pattern: "wrong_part",
+      setup: "Quoted claim: most students handle everyday inferences competently (a concession).",
+      tempting: "It is evidence offered in direct support of the argument's main conclusion.",
+      killer: "That describes the study result, a different sentence. The quoted claim, if anything, cuts against the conclusion.",
+      instead: "Label the quoted sentence before you read a single choice."
+    },
+    {
+      pattern: "opposite",
+      setup: "Same argument.",
+      tempting: "It is a claim that the argument seeks to refute.",
+      killer: "'It is true that' is acceptance, not rejection. The author refutes the inference drawn from the claim, not the claim.",
+      instead: "Distinguish rejecting a claim from rejecting what someone concludes from it."
+    },
+    {
+      pattern: "half_right",
+      setup: "Same argument.",
+      tempting: "It is a claim the argument accepts and then uses to support its main conclusion.",
+      killer: "'Accepts' is right. 'Uses to support' is wrong: the next word is 'But.' One wrong cell kills the choice.",
+      instead: "Check both questions, not just the one the choice gets right."
+    },
+    {
+      pattern: "shell_game",
+      setup: "Same argument.",
+      tempting: "It is the conclusion of the position the argument opposes.",
+      killer: "The critics' conclusion is 'formal logic instruction is pointless.' The quoted claim is their premise, which the author happens to grant.",
+      instead: "Keep the opponent's premise and the opponent's conclusion separate."
+    }
+  ]}
+/>
+
+## The level-4 version
+
+- **Two-layer arguments.** The quoted claim supports a sub-conclusion, which supports the main conclusion. The credited answer says "supports a claim that is itself offered as support for the main conclusion." The trap says "supports the main conclusion." One target word decides.
+- **The same claim, two holders.** The opponent states it as a premise; the author grants it as a concession. The role is fixed by how the *author* uses it.
+- **Fully abstract choices.** "A phenomenon the argument offers a hypothesis to explain" versus "a hypothesis the argument offers to explain a phenomenon." Decode direction: which one is explained, which one explains.
+
+<KeyIdea>
+Two questions fix any sentence's role: Is it supported? Does it support, and what? Answer both from the text, then translate each choice into those two answers plus a target. A choice that misses on any one cell is wrong.
+</KeyIdea>
+
+## Before you read the choices
+
+1. Mark the main conclusion.
+2. For the quoted claim, write supported?/supports?/target.
+3. Note the holder: author's claim, or the opponent's.

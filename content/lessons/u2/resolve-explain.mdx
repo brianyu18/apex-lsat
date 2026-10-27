@@ -1,0 +1,111 @@
+---
+id: u2/resolve-explain
+unit: 2
+order: 8
+title: "Resolve / Explain"
+summary: "Two facts that shouldn't both be true are. Find the third fact that lets both stand — the one that explains both halves, not one."
+checkTags: [resolve_explain]
+diagram: AttackMap
+minutes: 9
+---
+
+## The stem and the task
+
+*"Which one of the following, if true, most helps to explain the discrepancy described above?"* or *"…most helps to resolve the apparent paradox?"*
+
+There is no argument here. The stimulus gives two facts that sit uneasily together: you expected X, you got Y. Your job is not to decide which fact is wrong. Both are true. You supply a third fact that makes the pairing unsurprising.
+
+## The read: expected ___, got ___
+
+<AttackMap
+  type="Resolve / Explain"
+  stem="Which one of the following, if true, most helps to explain the discrepancy described above?"
+  steps={[
+    {
+      label: "Find both halves",
+      do: "Split the stimulus into the two facts in tension. Write each in its exact terms: count or rate, reported or actual, which group, which period.",
+      example: "Half A: the city doubled its miles of bike lanes over five years.\nHalf B: reported cyclist injuries rose 40 percent over the same period."
+    },
+    {
+      label: "State the tension",
+      do: "Say it as a sentence: 'I expected ___, but got ___.' If you can't state the expectation, you haven't found the paradox yet.",
+      example: "Expected: more lanes → fewer injuries.\nGot: more lanes and more injuries."
+    },
+    {
+      label: "Prephrase the shape",
+      do: "Don't guess one story. Name the kinds of fact that would reconcile the halves: a changed denominator, a changed way of counting, a hidden difference between the two situations, a mechanism that links them.",
+      example: "Shapes that work: many more people cycling (denominator); injuries now reported that weren't before (counting); lanes built on the most dangerous roads (hidden difference)."
+    },
+    {
+      label: "Judge the choices",
+      do: "For each choice ask: with this added, are both halves still true, and is their pairing now expected? Kill anything that denies a half, touches only one half, or makes the pairing stranger.",
+      example: "'The city received a federal grant for bike lanes' → explains A only. Out.\n'The new lanes were physically separated from traffic' → makes B stranger. Out."
+    },
+    {
+      label: "Confirm",
+      do: "Reread the credited choice against the exact terms of both halves.",
+      example: "'The number of residents commuting by bicycle tripled over the period.' Lanes doubled (true), injuries rose (true), and with three times the riders the injury rate actually fell. Both halves stand."
+    }
+  ]}
+/>
+
+## What the right answer looks like
+
+- It **adds** a fact; it never contradicts either half. "The injury figures were miscounted" is not an explanation, it's a denial.
+- It touches **both** halves, or supplies a mechanism that connects them.
+- It respects the exact terms: *reported* injuries, the *number* of injuries, *this* city, *this* period. A fact about a different group or a static fact about the city cannot explain a change.
+- New information is fine. "Out of scope" is not a kill on Explain; "doesn't connect" is.
+
+## The wrong answers for this type
+
+<TrapCatalog
+  title="Explain traps"
+  traps={[
+    {
+      pattern: "half_right",
+      setup: "Lanes doubled; reported cyclist injuries rose 40 percent.",
+      tempting: "The city's bike-lane program was funded by a one-time federal grant.",
+      killer: "Tells you why the lanes were built. Says nothing about why injuries rose. One half explained is zero halves resolved.",
+      instead: "Pick the fact that makes B expected given A."
+    },
+    {
+      pattern: "opposite",
+      setup: "Same stimulus.",
+      tempting: "The new lanes were separated from car traffic by concrete barriers.",
+      killer: "Safer lanes make the injury increase more surprising, not less. This deepens the paradox.",
+      instead: "After adding the choice, ask: is the pairing now less strange? If it's stranger, the choice is doing the opposite job."
+    },
+    {
+      pattern: "shell_game",
+      setup: "Same stimulus.",
+      tempting: "Collisions between motorists in the city increased over the same period.",
+      killer: "The discrepancy concerns cyclist injuries. Motorist collisions are a neighboring concept, not the one at issue.",
+      instead: "Match the group named in the stimulus exactly."
+    },
+    {
+      pattern: "true_but_irrelevant",
+      setup: "Same stimulus.",
+      tempting: "The city's residents are older on average than those of neighboring cities.",
+      killer: "A static comparison cannot explain a change over five years. Nothing in the choice differs between year one and year five.",
+      instead: "To explain a trend, the choice must name something that changed."
+    }
+  ]}
+/>
+
+## The level-4 version
+
+Three ways the hard version differs:
+
+1. **The expectation is unstated.** The stimulus reports one result with "surprisingly" or "nevertheless," and you must reconstruct what was expected before you can see what needs explaining.
+2. **The credited answer looks like it deepens the paradox.** "The lanes made cycling feel safer" sounds like it should reduce injuries, until you see it draws out cautious new riders. Read each choice to its consequence, not its first impression.
+3. **EXCEPT stems.** "Each of the following, if true, helps to explain… EXCEPT." Four choices explain; the odd one is irrelevant or touches one half. Grid them: explains / doesn't.
+
+<KeyIdea>
+An Explain answer is a third fact that lets both halves stand and makes their pairing expected. If you must deny a half, or the fact touches only one half, it is wrong, however plausible it sounds.
+</KeyIdea>
+
+## Before you read the choices
+
+1. Write the tension: "expected ___, got ___."
+2. Underline the exact terms of each half (count vs rate, reported vs actual, which group, which period).
+3. Prephrase two or three *shapes* of explanation, not one story.

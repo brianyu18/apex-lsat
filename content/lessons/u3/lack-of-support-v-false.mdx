@@ -1,0 +1,57 @@
+---
+id: u3/lack-of-support-v-false
+unit: 3
+order: 10
+title: "Lack of support is not falsity"
+summary: "Supported, unsupported, refuted: three states. \"No one has shown X\" lands in the middle and proves nothing about X, unless the stimulus says the proof would have turned up."
+checkTags: [lack_of_support_v_false]
+minutes: 9
+---
+
+## The pattern
+
+An argument treats the absence of evidence for a claim, or the weakness of an argument for it, as evidence that the claim is false; or treats the failure to disprove a claim as evidence that it is true.
+
+It is a classic **Flaw** and **Parallel Flaw** structure, appears in **Method of Reasoning**, shapes the standard for **Weaken** and **Strengthen**, and sets traps in **Most Strongly Supported**, **Must Be True**, and **Point at Issue**.
+
+## How to recognize it
+
+Tells: *no evidence that, has never been shown, no one has proven, the study failed to find, has not been demonstrated, despite extensive searching, the argument for X is flawed, the source is unreliable*, followed by a conclusion that X is false (or, for the mirror image, true).
+
+Three sub-forms:
+
+1. **Absence of evidence.** No study found it, so it is not so.
+2. **Bad argument, false conclusion.** The case for X rests on an anecdote, so X is false.
+3. **Bad source, false claim.** The witness has lied before, so her account is false.
+
+The valid cousin: when the evidence *would* exist if the claim were true, its absence is evidence. "If the pipe were leaking, the gauge would have dropped; it has not" is modus tollens. The flaw lives in the missing premise "we would have found it," not in reasoning from absence as such.
+
+<TagSpotter tag="Lack of support vs false" items={[
+  { text: "No study has ever shown that the supplement improves memory. So the supplement does not improve memory.", present: true, tell: "No study has ever shown", why: "Absence of a finding to a negative finding. Nothing says the studies were capable of detecting an effect, or that any were run." },
+  { text: "If the pipe were leaking, the pressure gauge would have dropped. The gauge has not dropped. So the pipe is not leaking.", present: false, tell: "would have dropped", why: "The expected-evidence premise is stated. Denying the consequent is valid; this is absence used correctly." },
+  { text: "The columnist's argument that the tax harms small businesses rests on a single anecdote. So the tax does not harm small businesses.", present: true, tell: "rests on a single anecdote", why: "A bad argument for X leaves X exactly where it was. Rejecting the argument is fine; rejecting the claim is the flaw." },
+  { text: "Despite decades of searching, no one has found any flaw in the proof. The proof must therefore be correct.", present: true, tell: "no one has found any flaw", why: "Not disproven to proven. The strength depends entirely on how capable the searchers were, which is not given." },
+  { text: "The report claims the bridge is safe, but the report's author was paid by the contractor. So we should not accept the report's conclusion without independent review.", present: false, tell: "we should not accept the report's conclusion without independent review", why: "The conclusion is about withholding acceptance, not about falsity. Questioning a source to suspend judgment is legitimate." },
+  { text: "The witness has been caught lying before, so her account of the accident is false.", present: true, tell: "so her account of the accident is false", why: "Source to falsity. An unreliable witness can still be telling the truth this time." },
+]} />
+
+## How it is exploited
+
+| Question | What the key does | Abstract language |
+|---|---|---|
+| Flaw | Names the slide | "treats the absence of evidence for a claim as evidence against it" / "concludes that a claim is false because an argument for it is inadequate" / "rejects a claim on the basis of its source rather than its merits" / "takes a failure to disprove a claim as establishing it" |
+| Strengthen | Supplies the expected-evidence premise | "Had the supplement improved memory, the studies conducted would have detected it" |
+| Weaken, as a task | Sets the standard | You make the conclusion less likely; you do not have to prove it false. Answers are not wrong for failing to refute |
+| MSS / MBT | Holds the middle | "It has not been established that X" supports neither X nor not-X; the trap answer concludes not-X |
+| Point at Issue | Checks for a real disagreement | "Unproven" and "true" are compatible positions; "unproven" and "false" are too |
+| Method | Labels the legitimate version | "argues that a claim is unsupported, without claiming it is false" |
+
+## The level-4 variant
+
+The stimulus reports failed confirmation and the tempting answer treats it as refutation. "The theory predicted a particle that the experiment did not detect" supports "the prediction was not confirmed," and nothing stronger unless the experiment was sensitive enough to detect it. The hard **Must Be True** rewards the answer that says *it is not known whether*; the hard **Flaw** has a stimulus that omits the "we would have found it" premise and an attractive wrong answer that attacks something else entirely.
+
+Mirror case to keep straight: "the prediction failed" (the opposite was observed) does refute. "The prediction was not confirmed" (nothing was observed) does not.
+
+<KeyIdea>
+Three states: supported, unsupported, refuted. Unsupported sits in the middle and licenses nothing about truth, unless the stimulus tells you the support would have appeared if the claim were true. Look for that premise. If it is missing, the argument is the flaw; if it is present, the argument is fine.
+</KeyIdea>

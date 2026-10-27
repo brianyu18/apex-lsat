@@ -1,0 +1,128 @@
+---
+id: u2/fill-in-the-blank
+unit: 2
+order: 17
+title: "Fill in the Blank"
+summary: "The word before the blank sets the task: after 'therefore' you supply the modest conclusion the premises support; after 'since' you supply the premise that makes the conclusion follow."
+checkTags: [fill_in_blank]
+diagram: AttackMap
+minutes: 8
+---
+
+## The stem and the task
+
+The stimulus ends with `____.` and the stem reads *"Which one of the following most logically completes the argument?"*
+
+This is not its own kind of reasoning. It is one of two familiar tasks in disguise, and the connective right before the blank tells you which:
+
+| Word before the blank | The blank is | The task is |
+|---|---|---|
+| therefore, so, thus, it follows that, hence | the conclusion | Most Strongly Supported: what do these premises establish? |
+| since, because, for, given that | a premise | Sufficient Assumption: what makes the stated conclusion follow? |
+
+Read that word first. Everything else depends on it.
+
+## The read: conclusion blank
+
+<AttackMap
+  type="Fill in the Blank"
+  stem="Which one of the following most logically completes the argument?"
+  steps={[
+    {
+      label: "Read the connective",
+      do: "Look at the word immediately before the blank and classify the blank as conclusion or premise.",
+      example: "Grant reviewers scored proposals before and after the applicants' institutions were hidden. Scores for proposals from well-known institutions fell when the institution was hidden; scores for proposals from lesser-known institutions rose. Since the proposals themselves were unchanged, it follows that ____.\n'It follows that' → conclusion blank."
+    },
+    {
+      label: "Collect the premises",
+      do: "List every fact. All of them should bear on the completion; a good answer uses the last premise especially.",
+      example: "(1) Scores shifted with institution visibility. (2) Direction: famous down, obscure up. (3) Proposals unchanged."
+    },
+    {
+      label: "Prephrase modestly",
+      do: "Say what the facts establish, no more. Descriptive premises support a descriptive conclusion.",
+      example: "Reviewers' scores were influenced by institutional reputation, not only by the proposals' content."
+    },
+    {
+      label: "Judge the choices",
+      do: "Kill prescriptions, overreach, restated premises, and new explanations the facts don't pick out.",
+      example: "'Agencies should hide applicants' institutions' → 'should' from descriptive facts. Out.\n'Reputation is the only factor reviewers weigh' → overshoots. Out.\n'Scores for famous institutions fell when hidden' → premise (2). Out."
+    },
+    {
+      label: "Confirm",
+      do: "Read the completed sentence; it should follow from all three facts and from nothing else.",
+      example: "'…it follows that the reviewers' scores were influenced by the reputation of the applicants' institutions.' Facts (1)–(3) make this hard to deny."
+    }
+  ]}
+/>
+
+## Premise blank: run the SA method
+
+<Example label="Premise blank">
+*"The lizards on the island are genetically identical to a mainland population, yet the channel between them has strong currents and no lizard has ever been observed swimming it. The species therefore cannot have reached the island by swimming, since ____."* The blank must rule out swimming: *no animal can cross a channel with such currents by swimming*. Bridge the conclusion's new idea back to the facts, exactly as you would for a Sufficient Assumption.
+</Example>
+
+## What the right answer looks like
+
+- **Conclusion blank**: cautious, uses the stimulus's own terms, follows from all the premises, descriptive if the premises are descriptive.
+- **Premise blank**: the missing link that, added to the stated premises, makes the conclusion follow; usually a general statement connecting a premise term to the conclusion term.
+- In both: it obeys the connective. "Nevertheless, ____" demands a claim that cuts against the concession before it; "for example, ____" demands an instance.
+
+## The wrong answers for this type
+
+<TrapCatalog
+  title="Fill in the Blank traps"
+  traps={[
+    {
+      pattern: "extreme",
+      setup: "Scores shifted with institution visibility; proposals unchanged; it follows that ____.",
+      tempting: "institutional reputation is the only factor reviewers consider when scoring proposals.",
+      killer: "The facts show influence, not exclusivity. 'Only' asks the premises for something they never gave.",
+      instead: "Fill the blank with the weakest claim the facts force."
+    },
+    {
+      pattern: "wrong_force",
+      setup: "Same stimulus.",
+      tempting: "funding agencies should conceal applicants' institutions from reviewers.",
+      killer: "A prescription needs a value premise. There is none; every premise is a description of what happened.",
+      instead: "Descriptive premises complete to a descriptive conclusion."
+    },
+    {
+      pattern: "premise_booster",
+      setup: "Same stimulus.",
+      tempting: "proposals from well-known institutions received lower scores once their institutions were hidden.",
+      killer: "This is premise (2) restated. A conclusion that repeats a premise follows from nothing.",
+      instead: "The completion must be new relative to the facts."
+    },
+    {
+      pattern: "shell_game",
+      setup: "Same stimulus.",
+      tempting: "proposals from lesser-known institutions were of higher quality than those from well-known ones.",
+      killer: "The facts are about scores; this is about quality. Nothing in the stimulus measures quality, and the proposals were unchanged either way.",
+      instead: "Stay inside the terms the stimulus actually measured."
+    },
+    {
+      pattern: "half_right",
+      setup: "Same stimulus.",
+      tempting: "reviewers deliberately favored proposals from well-known institutions.",
+      killer: "'Favored' is supported; 'deliberately' adds a mental state no fact addresses.",
+      instead: "Strip any word the premises don't license."
+    }
+  ]}
+/>
+
+## The level-4 version
+
+- **The premise blank in disguise.** The blank follows "for" or "because," and the choices all look like conclusions. The credited one is a bridging conditional, and the MSS-style modest claim is the trap.
+- **A blank after a concession.** "Admittedly X. Nevertheless, ____." The completion must be the conclusion the concession tried to block, in the author's force.
+- **A blank inside a dialogue.** The second speaker's reply ends in the blank; complete it as a response to the first speaker's point, not as a free-standing claim.
+
+<KeyIdea>
+The word before the blank tells you the task. After *therefore*, *so*, *it follows that*: supply the modest conclusion the premises support. After *since*, *because*, *for*: supply the premise that makes the stated conclusion follow.
+</KeyIdea>
+
+## Before you read the choices
+
+1. Read the connective; label the blank conclusion or premise.
+2. Conclusion blank: prephrase the weakest claim all the facts force. Premise blank: name the term in the conclusion that needs a bridge.
+3. Note whether the premises are descriptive or normative; the completion must match.

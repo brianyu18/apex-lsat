@@ -1,0 +1,71 @@
+---
+id: u2/lr-capstone
+unit: 2
+order: 19
+title: "LR capstone: one read, every stem"
+summary: "The read never changes: conclusion, support, gap. The stem only picks which operation to run on the gap. Plus the triage order that keeps a 35-minute section under control."
+checkTags: [flaw, necessary_assumption, parallel_flaw, most_strongly_supported]
+diagram: ArgumentMap
+minutes: 12
+---
+
+## One read
+
+Every LR type in this unit starts the same way: find the conclusion, find what supports it, name the gap. The stem decides what you do with the gap. Map this argument once, then watch six stems reuse the map.
+
+<ArgumentMap
+  title="The one read"
+  sentences={[
+    { text: "Many commentators insist that remote work has made employees less productive.", role: "context", why: "The view the author will argue against; the author never relies on it." },
+    { text: "Yet at one mid-sized accounting firm, output per employee rose 12 percent in the two years after the firm went fully remote.", role: "premise", why: "The single piece of evidence; 'yet' turns against the commentators." },
+    { text: "During the same period, the firm's employees reported higher job satisfaction in its annual surveys.", role: "premise", why: "A second observation from the same firm, offered alongside the first." },
+    { text: "The firm's experience thus shows that remote work can raise output.", role: "sub_conclusion", why: "'Thus' draws it from the two observations; it is then used to reach the final claim." },
+    { text: "It is clear, then, that the commentators are wrong: remote work does not reduce productivity.", role: "conclusion", why: "Supported by the sub-conclusion; supports nothing. Note the scope: one firm became a claim about remote work generally." }
+  ]}
+/>
+
+**The gap, in plain words:** one firm's two-year rise is treated as proof about remote work in general, and the rise is attributed to remote work with no other cause considered.
+
+## Six stems, one gap
+
+| Stem | Operation on the gap | What the credited answer does |
+|---|---|---|
+| Flaw | **name** it | "generalizes from a single case" or "overlooks other explanations for the increase" |
+| Necessary Assumption | **protect** it | "the firm is not atypical" / "nothing else explains the rise." Negate: the argument collapses |
+| Weaken | **attack** it | a fact: the firm cut its lowest-performing third of staff the year it went remote |
+| Strengthen | **patch** it | a fact: comparable firms that stayed in-office saw flat output over the same two years |
+| Most Strongly Supported | **stay below** it | "at least one firm's output rose after it went remote." Far weaker than the author's own conclusion, which is the point |
+| Parallel Flaw | **copy** it | "One patient improved after taking the herb, so the herb can help; so the herb is not ineffective." Single case, sub-conclusion, overreach |
+
+Nothing changed but the operation. Argument Part and Main Conclusion use the same map: sentence 4 is the sub-conclusion, sentence 5 the main conclusion.
+
+## Triage: where the minutes go
+
+Twenty-five questions in 35 minutes is 84 seconds each. Questions get harder toward the end, so bank time early and spend it late. Type is a rough guide to cost:
+
+| Cost | Types | Why |
+|---|---|---|
+| Fast (under a minute) | Main Conclusion, Argument Part, Point at Issue, short MSS/MBT, Explain | structural read, short choices |
+| Medium (one to two minutes) | Flaw, Weaken, Strengthen, NA, SA, Principle, Method, Fill in the Blank, Evaluate | need a prephrase; five choices to test |
+| Slow (two minutes plus) | Parallel Reasoning, Parallel Flaw, long Rule Application, abstract Method | five arguments to diagram, not one |
+
+The rules:
+
+1. **Work in order, defer by cost.** First pass: skip Parallel questions with long choices, and any question you have read twice without a prephrase. Mark it; move on.
+2. **Never skip on type alone.** A short Parallel with simple conditionals is a 60-second question. Glance at the choices' length first.
+3. **Return with a plan.** Restart from your prephrase, not from choice A.
+4. **The last five minutes go to deferred questions,** not to rereading answers you already chose.
+
+## The level-4 section
+
+Hard sections hide the cost. A level-4 Flaw with five fully abstract choices costs more than an easy Parallel. Judge by the choices, not the stem: long, abstract, twisted choices mean slow, whatever the type.
+
+<KeyIdea>
+The read never changes: conclusion, support, gap. The stem only picks the operation to run on the gap: name it (Flaw), protect it (NA), attack it (Weaken), patch it (Strengthen), stay below it (MSS), or copy it (Parallel Flaw). One read, every stem.
+</KeyIdea>
+
+## Before you read the choices, on every question
+
+1. Conclusion, support, gap, in that order, in your own words.
+2. Say which operation the stem asks for.
+3. Prephrase in the form that operation requires: a description, a negatable statement, a fact, a modest claim, or a skeleton.

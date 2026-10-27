@@ -7,6 +7,7 @@ import { Badge } from "@/components/ui/primitives";
 import { Button } from "@/components/ui/button";
 import { TRAP_LABELS, type LRType, type TrapPattern } from "@/lib/content/taxonomy";
 import { typeLabel } from "@/lib/content/labels";
+import { QuickClassify } from "./quick-classify";
 import type { Confidence, SafeQuestion, SubmitResponse } from "./types";
 
 const LETTERS = ["A", "B", "C", "D", "E"] as const;
@@ -281,8 +282,22 @@ export function QuestionCard({
             )}
           </details>
 
+          {(missed || (result.correct && result.guessFlag)) && (
+            <QuickClassify
+              attemptId={result.attemptId}
+              correct={result.correct}
+              guessFlag={result.guessFlag}
+              seconds={(Date.now() - start.current) / 1000}
+              confidence={confidence}
+              changedFrom={firstPick && firstPick !== selected ? firstPick : null}
+              changedFromWasCorrect={!!firstPick && firstPick !== selected && firstPick === key}
+              myTrap={selected && !result.correct ? (result.trapPatterns?.[selected] ?? null) : null}
+              difficulty={question.difficulty}
+            />
+          )}
+
           <div className="mt-5 flex items-center justify-between gap-3">
-            <p className="text-xs text-ink-3">{missed ? "Added to your Review Inbox." : result.guessFlag ? "Guessed right — added to Review Inbox." : ""}</p>
+            <p className="text-xs text-ink-3">{missed ? "In your Review Inbox." : result.guessFlag ? "Guessed right — in your Review Inbox." : ""}</p>
             <Button onClick={onNext} disabled={readLock > 0} aria-disabled={readLock > 0}>
               {readLock > 0 ? `Read the explanation… ${readLock}` : "Next"}
             </Button>

@@ -1,0 +1,58 @@
+---
+id: u3/math-percent
+unit: 3
+order: 7
+title: "Numbers and percentages: find the denominator"
+summary: "Every percentage, rate, and average is a fraction. The test moves between fractions and counts, and the move is only valid when you know the denominator."
+checkTags: [math_percent]
+minutes: 9
+---
+
+## The pattern
+
+An argument moves between a proportion (percent, rate, share, average) and an absolute quantity (number, total, amount), or between two proportions with different bases, without the information that makes the move valid.
+
+It owns a large share of **Resolve/Explain** and appears in **Flaw**, **Weaken**, **Strengthen**, **Necessary Assumption**, **Evaluate**, and as a trap in **Must Be True**.
+
+## How to recognize it
+
+Five shapes:
+
+1. **Share versus number.** A smaller percent of a larger total can be a larger number.
+2. **Count versus rate.** "More accidents in clear weather" ignores how much driving happens in clear weather. Any count needs an exposure base before it says anything about risk.
+3. **Base rate.** "Most crashes happen near home" because most driving does.
+4. **Average versus individual.** A mean describes a distribution, not a member, and says nothing about the median or the spread.
+5. **Percent versus percentage points.** From 2 percent to 3 percent is one point and a 50 percent rise. Both are true; the argument picks the one that sounds right.
+
+Tell-tale words: *percent, proportion, share, rate, per, incidence, average, typical, likelihood* on one side; *number, total, more, fewer, doubled, cases* on the other.
+
+<TagSpotter tag="Numbers and percentages" items={[
+  { text: "Last year 40 percent of the museum's visitors were tourists; this year only 30 percent are. So fewer tourists are visiting the museum.", present: true, tell: "fewer tourists", why: "Share to number. If total attendance rose enough, 30 percent is more tourists than 40 percent was." },
+  { text: "More collisions occur in clear weather than in fog. So fog does not make driving more dangerous.", present: true, tell: "More collisions occur", why: "Count without exposure. Far more miles are driven in clear weather; the per-mile rate could be much higher in fog." },
+  { text: "Of the 500 applicants, 125 were admitted, so the admission rate was 25 percent.", present: false, tell: "admission rate was 25 percent", why: "Numerator and denominator both given. Plain arithmetic, no gap." },
+  { text: "The average household in the district has 2.4 cars. So any household there with one car has fewer cars than most of its neighbors.", present: true, tell: "fewer cars than most", why: "Mean to median. A few households with many cars can pull the mean above 2 while most households have one." },
+  { text: "The firm's revenue rose by 10 percent while its costs rose by 10 percent. Since costs were lower than revenue to begin with, the firm's profit rose.", present: false, tell: "profit rose", why: "Valid. Scaling both by 1.1 scales the difference by 1.1, and the difference was positive. Check the arithmetic before calling the flaw." },
+  { text: "The number of complaints about the airline doubled after it merged with its rival. So service has deteriorated since the merger.", present: true, tell: "doubled", why: "Count without base. The merger roughly doubled the passengers; complaints per passenger may be unchanged." },
+]} />
+
+## How it is exploited
+
+| Question | What the key does | Abstract language |
+|---|---|---|
+| Flaw | Names the missing base | "confuses a proportion with an absolute number" / "fails to consider that the total may have changed" / "treats an average as if it described each individual" |
+| Weaken | Supplies a denominator that flips the inference | "Total attendance tripled" / "Several times as many miles are driven in clear weather" |
+| Strengthen | Fixes the denominator | "Total attendance was unchanged" / "Mileage was equal in both conditions" |
+| Resolve / Explain | Dissolves a paradox with a base | share down, number up; rate up, count down; every subgroup improved, the total fell |
+| Necessary Assumption | Rules out the compensating change | "The total number of visitors did not rise enough to offset the fall in share" |
+| Evaluate | Asks for the base | "Did total attendance change?" |
+| MSS / MBT | Only base-proof inferences | percent plus total gives a number; two percents of the same base compare; a percent alone supports nothing about counts |
+
+## The level-4 variant
+
+The base shifts inside the wording of the population. "The failure rate among inspected units" versus "among all units." "Among those who applied" versus "among those admitted." Two rates with different denominators are compared as if they shared one.
+
+The hardest Resolve is the composition shift: every subgroup's average improved while the overall average fell, because the mix of subgroups changed. If a stimulus gives you subgroup figures and a total that seems to contradict them, look for a change in group sizes before anything else.
+
+<KeyIdea>
+Write every percentage, rate, or average as a fraction with a named numerator and denominator. Then ask which of the two the stimulus told you nothing about. The right answer, whatever the type, is about that one.
+</KeyIdea>

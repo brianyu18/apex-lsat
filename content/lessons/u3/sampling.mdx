@@ -1,0 +1,56 @@
+---
+id: u3/sampling
+unit: 3
+order: 2
+title: "Sampling: who got into the data"
+summary: "A sample tells you about the population only if the doorway into the sample is unrelated to the thing being measured. Size is the least of it."
+checkTags: [sampling]
+minutes: 9
+---
+
+## The pattern
+
+An argument measures some group (a survey, a study, "the cases we have seen") and concludes about a larger population; the step holds only if the group represents that population in the respect the conclusion cares about.
+
+It drives **Flaw**, **Weaken**, **Strengthen**, **Necessary Assumption**, and **Evaluate**, and sets the ceiling on **Most Strongly Supported** answers.
+
+## How to recognize it
+
+Four ways a sample fails, in rough order of how often the LSAT uses them:
+
+1. **Representativeness.** The sample differs from the population on the measured variable (surveying gym members about exercise habits).
+2. **Self-selection.** People chose to be in the sample: respondents, volunteers, those who returned, those who complained. Choosing is correlated with having something to say.
+3. **Instrument.** The question was leading, the answer was self-reported, or respondents had a reason to misreport.
+4. **Size.** Anecdotes and handfuls. Least important: a large biased sample is still biased, so "small sample" is rarely the best answer when a selection mechanism is available.
+
+A sample need not be random to be representative. It needs only to have been assembled by a doorway uncorrelated with the conclusion's property.
+
+<TagSpotter tag="Sampling" items={[
+  { text: "In a poll on the station's website, 78 percent of respondents said they would pay for ad-free listening. So most of the station's listeners would pay.", present: true, tell: "respondents", why: "Website poll, self-selected respondents. People motivated to answer are not the listeners at large." },
+  { text: "Every one of the 212 bridges in the county was inspected last year, and 40 were rated deficient. So roughly one in five county bridges is deficient.", present: false, tell: "Every one of the 212 bridges", why: "A census, not a sample. The whole population was measured; there is no generalization step." },
+  { text: "Of the patients who returned for a follow-up visit, 90 percent reported that the therapy had helped. The therapy is therefore effective for most patients.", present: true, tell: "who returned for a follow-up visit", why: "Patients who return differ from those who gave up. The doorway (returning) is correlated with the outcome (helped)." },
+  { text: "Asked whether they ‘support wasteful spending on the stadium,’ 70 percent of residents said no. So residents oppose the stadium.", present: true, tell: "support wasteful spending", why: "Instrument failure: the wording decides the answer. Opposing wasteful spending is not opposing the stadium." },
+  { text: "Sales of the device fell 20 percent after the price increase, while sales of the company's other devices held steady. So the price increase, rather than market conditions, likely caused the decline.", present: false, tell: "rather than market conditions", why: "No subset-to-population step; the claim is about this device's own sales. Causal reasoning with a comparison group, a different tag." },
+  { text: "Three of my colleagues who switched to the standing desk reported less back pain. Standing desks reduce back pain.", present: true, tell: "Three of my colleagues", why: "Tiny, self-selected, self-reported, and the conclusion is universal. Every failure mode at once." },
+]} />
+
+## How it is exploited
+
+| Question | What the key does | Abstract language |
+|---|---|---|
+| Flaw | Names the doorway | "generalizes from a sample that is unlikely to be representative" / "relies on respondents' reports, which may be inaccurate" |
+| Weaken | Shows the doorway is correlated with the measured property | "Those who responded were disproportionately…" / "The survey was conducted at…" |
+| Strengthen | Shows the sample matches the population on what matters, or adds an independent sample that agrees | "Participants were selected without regard to…" |
+| Necessary Assumption | Denies the specific skew | "Those who did not respond do not differ from those who did with respect to…" |
+| Evaluate | Asks how the sample was built | "What proportion of those contacted responded?" |
+| MSS / MBT | Stays inside the sample | "Some of those surveyed…"; any answer that reaches the population is the trap |
+
+## The level-4 variant
+
+The word *survey* never appears. The sample is the record itself: *the complaints the agency received*, *the fossils that have been found*, *the cases that reached trial*, *the firms still in business after ten years*. Each record exists because something selected it, and the selection is the flaw. Expect the correct weakener to name the mechanism ("most dissatisfied customers simply stop buying rather than complain"), not to say the sample was small.
+
+Second form: two samples compared, each fine on its own, but assembled by different doorways, so the comparison is between selection effects, not between populations.
+
+<KeyIdea>
+Ask who got into the data and how. If the doorway is correlated with the property being measured, the generalization fails no matter how large the sample. If it is not, size becomes a secondary worry, and "small sample" is rarely the strongest attack on offer.
+</KeyIdea>

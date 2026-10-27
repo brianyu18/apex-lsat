@@ -1,0 +1,55 @@
+---
+id: u3/weighing-factors
+unit: 3
+order: 5
+title: "Weighing factors: the half-filled scale"
+summary: "\"Outweighs,\" \"on balance,\" \"worth it\" are claims about a whole ledger. Arguments that cite one entry and announce the total are missing the other pan."
+checkTags: [weighing_factors]
+minutes: 8
+---
+
+## The pattern
+
+An argument concludes that an option is better, worth it, or net harmful on the strength of one consideration (or one side's considerations), without accounting for what sits in the other pan.
+
+It drives **Weaken** and **Strengthen** above all, plus **Flaw**, **Necessary Assumption**, **Evaluate**, and **Principle (Justify)**. It is a close cousin of value judgments, but the issue here is not that facts cannot reach an *ought*; it is that the ledger is incomplete.
+
+## How to recognize it
+
+The conclusion is comparative-evaluative: *should adopt, is preferable, is worth it, on balance, net benefit, outweighs, the advantages justify, the risk is unacceptable*. The premises list entries on one side only.
+
+Three ledgers to check:
+
+1. **The other pan.** A benefit cited, costs ignored; or a cost cited, benefits ignored.
+2. **The alternative's ledger.** "A has drawback D, so choose B" assumes B lacks D. The status quo is also an option with costs.
+3. **The units.** "Three thousand hectares against two million homes" is not a weighing until something converts the two into one measure. Counting entries is not weighing them.
+
+<TagSpotter tag="Weighing factors" items={[
+  { text: "The new route cuts the average commute by ten minutes. The city should therefore make it the default bus route.", present: true, tell: "should therefore", why: "One benefit, no costs. Fare, coverage, and reliability are all unmentioned pans." },
+  { text: "If a route is faster and no more expensive, the authority's guidelines require adopting it. The new route is faster and no more expensive. So the guidelines require adopting it.", present: false, tell: "the guidelines require", why: "The rule fixes the scale in advance. This is rule application, not weighing; the conclusion is about what the guidelines say." },
+  { text: "Because the surgery carries a one-in-two-hundred risk of serious complication, patients should decline it.", present: true, tell: "should decline it", why: "A cost with no benefit beside it. Whether to decline depends on what the surgery prevents." },
+  { text: "Pesticide-free farming yields smaller harvests. So abandoning pesticides would, on balance, harm consumers.", present: true, tell: "on balance", why: "‘On balance’ announces a total from one entry. Health effects, prices, and long-run soil yield are absent." },
+  { text: "The repair will cost 4,000 and the car's resale value is 3,000. So the repair costs more than the car is worth.", present: false, tell: "costs more than the car is worth", why: "An arithmetic comparison in one unit, with no claim about what to do. Nothing is being weighed." },
+  { text: "Although the dam will flood 3,000 hectares of farmland, it will generate electricity for two million homes. The benefits clearly outweigh the costs.", present: true, tell: "clearly outweigh", why: "Both pans are named but never converted to a common measure. ‘Clearly’ marks a weighing asserted, not performed." },
+]} />
+
+## How it is exploited
+
+| Question | What the key does | Abstract language |
+|---|---|---|
+| Weaken | Adds a heavy entry to the other pan, or shrinks the cited one | "The new route bypasses the hospital" / "The ten-minute saving applies only off-peak" |
+| Strengthen | Closes the ledger | "No other effect of the change is significant" / "The alternative has the same drawback" |
+| Flaw | Names the missing pan | "fails to consider the possible disadvantages of…" / "concludes that an option is preferable on the basis of a single consideration" |
+| Necessary Assumption | Weak form only | "The benefit is not offset by any disadvantage of comparable size"; not "there are no disadvantages" |
+| Evaluate | Asks for the other pan | "What would the alternative cost?" / "How large is the risk the policy would reduce?" |
+| Principle (Justify) | Fixes the scale by fiat | "An option should be adopted whenever it [cited factor], regardless of its other effects" |
+
+## The level-4 variant
+
+The stimulus names both sides, so the ledger looks complete, and the gap is in the units or the alternative. "The program costs 2 million a year and has reduced recidivism by 4 percent; it is not worth continuing." Worth compared with what? Prisons cost something too. Or the argument tallies: "three advantages against one disadvantage," treating a count as a weight.
+
+Necessary Assumption traps split on force: "has no drawbacks" is too strong for an "on balance" conclusion; "its drawbacks do not outweigh" is right. Flip it for an absolute conclusion ("is harmless"), where the strong form becomes necessary.
+
+<KeyIdea>
+An "on balance" conclusion is a claim about the entire scale. Ask three things: what is missing from the other pan, what the alternative's pan holds, and whether the two pans are measured in the same units. The correct answer almost always fills one of those three.
+</KeyIdea>

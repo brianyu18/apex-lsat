@@ -1,0 +1,108 @@
+---
+id: u2/weaken
+unit: 2
+order: 2
+title: "Weaken"
+summary: "Accept the choice as true and pick the one that most reduces the support the premises give the conclusion — through the gap, never through a premise."
+checkTags: [weaken]
+diagram: AttackMap
+minutes: 9
+---
+
+## The stem and the task
+
+> *Which one of the following, if true, most seriously weakens the argument?* / *…most calls into question…*
+
+"If true" means you don't get to doubt the choice. "Weakens the argument" means you lower the support the premises give the conclusion. You are not asked to prove the conclusion false, and you cannot attack a premise — premises are given. Every weakener works by widening the gap between evidence and conclusion.
+
+## The read
+
+<AttackMap
+  type="Weaken"
+  stem="Which one of the following, if true, most seriously weakens the argument?"
+  steps={[
+    {
+      label: "Read",
+      do: "Isolate the conclusion and classify it. Causal conclusions (deters, causes, leads to, is responsible for) get the causal checklist; everything else gets the term-shift check.",
+      example: "After the city installed brighter streetlights in the riverside district, reported burglaries there fell 30 percent over the next year. Clearly the brighter lighting deters burglars.\n\nConclusion: brighter lighting deters burglars. (Causal.)\nPremise: lights installed, then reported burglaries fell 30%.\nEvidence type: before/after in one district."
+    },
+    {
+      label: "Find the gap",
+      do: "List every story that fits the premises but not the conclusion. For a causal claim: another cause, reversed cause, trend or coincidence, measurement problem.",
+      example: "Other cause: patrols increased the same year.\nTrend: burglaries fell citywide.\nMeasurement: “reported” — fewer reports, same burglaries.\nReverse: no (the lights came first)."
+    },
+    {
+      label: "Prephrase",
+      do: "Pick the two or three most damaging stories and state the fact that would make each true. That is your target list.",
+      example: "Want: a fact showing the drop happened without the lights, or that something else explains it, or that reporting changed."
+    },
+    {
+      label: "Judge choices",
+      do: "For each choice: accept it as true; ask whether the conclusion is now less likely; ask whether it got there through the gap. Keep the one that does most.",
+      example: "“Burglaries fell 32% that year in districts whose lighting was unchanged.” Trend story confirmed — the lights explain nothing. ✓\n“Residents report feeling safer.” Perception, not burglaries. Misses the gap.\n“The new lights cost more than projected.” True, irrelevant."
+    },
+    {
+      label: "Confirm",
+      do: "Check that the winner leaves the premises intact. If it works only by denying that burglaries fell, it attacks a premise, and that is never the answer.",
+      example: "The 30% drop still happened. The lights still went in. The conclusion that lighting caused the drop just lost its support. Lock it in."
+    }
+  ]}
+/>
+
+## What the right answer looks like
+
+- A **new fact**, not a critique of reasoning. "The author overlooks other explanations" is a Flaw answer; on Weaken, the choice *is* the other explanation.
+- It leaves every premise standing and makes the conclusion less likely anyway.
+- Causal conclusions: an alternative cause, a reversed cause, the effect occurring without the cause (or the cause without the effect), or a problem with how the data were gathered.
+- Non-causal conclusions: find the term that shifts between premise and conclusion and show the two come apart — the premise is about X, the conclusion about Y, and the choice shows X without Y.
+- Force can be modest. *Some* or *often* is enough if it lands on the gap; *always* is useless if it lands beside it.
+
+## The wrong answers
+
+<TrapCatalog
+  title="Weaken traps"
+  traps={[
+    {
+      pattern: "opposite",
+      setup: "After brighter streetlights went in, reported burglaries in the district fell 30 percent. So the lighting deters burglars.",
+      tempting: "In a neighboring district where lighting was dimmed to save money, reported burglaries rose over the same year.",
+      killer: "Cause removed, effect reversed — that is covariation, and it supports the causal claim. The task word is weakens; this strengthens.",
+      instead: "Supplies the rival story: the same drop happened where lighting was unchanged."
+    },
+    {
+      pattern: "true_but_irrelevant",
+      setup: "Same argument.",
+      tempting: "The brighter streetlights consumed considerably more electricity than the ones they replaced.",
+      killer: "Cost says nothing about whether lighting deters burglars. The conclusion is about deterrence, not whether the program was worth it.",
+      instead: "Stays on the conclusion’s own claim: lighting → fewer burglaries."
+    },
+    {
+      pattern: "comparison_shift",
+      setup: "Same argument.",
+      tempting: "Even after the decline, the riverside district still had more burglaries than any other district in the city.",
+      killer: "The argument is about a change (a 30% drop), not a level. Being highest after a drop is fully compatible with the lights causing the drop.",
+      instead: "Attacks the change: shows the same change occurred without the cause, or that another cause produced it."
+    },
+    {
+      pattern: "shell_game",
+      setup: "Same argument.",
+      tempting: "Rates of vandalism and car theft in the riverside district did not decline during the year.",
+      killer: "“vandalism and car theft” — the conclusion is about burglars. Other crimes holding steady doesn’t weaken a claim about burglary; if anything it suggests something burglary-specific changed.",
+      instead: "Keeps the same effect (burglaries) and the same place, and varies only the cause."
+    }
+  ]}
+/>
+
+## The level-4 variant
+
+Hard Weaken questions hide the conclusion's scope. A proposal argument ("this plan will achieve its goal") is weakened by a fact about *the goal*, not about the plan's cost or popularity. A comparative conclusion ("X is more effective than Y") is weakened by a fact about Y as readily as one about X. And the right answer may be stated as a general principle rather than a fact about the case — *Districts that publicize a crime-prevention measure typically see reporting drop for a year* — which you must apply yourself. When two choices both hurt, "most seriously" picks the one aimed at the main conclusion rather than a sub-point, and the one that removes support rather than adding noise.
+
+<KeyIdea>
+Prephrase the gap, then prephrase the kind of fact that would exploit it. Read every choice asking one question: with this added and the premises untouched, is the conclusion less likely than it was?
+</KeyIdea>
+
+## Before you read the choices
+
+1. Conclusion, exactly — including its scope words (*most*, *will*, *more than*).
+2. Causal or not? If causal, list the alternatives in three words each.
+3. The sentence that would hurt most: "It would hurt if ___."

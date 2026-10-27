@@ -1,0 +1,118 @@
+---
+id: u2/most-strongly-supported
+unit: 2
+order: 4
+title: "Most Strongly Supported"
+summary: "You draw the conclusion. The standard is well supported, not guaranteed — but every word of the answer must be paid for by a sentence in the stimulus."
+checkTags: [most_strongly_supported]
+diagram: AttackMap
+minutes: 10
+---
+
+## The stem and the task
+
+> *Which one of the following is most strongly supported by the information above?* / *The statements above, if true, most strongly support which one of the following?*
+
+Usually no argument — a set of facts, and you draw the conclusion. The standard is **well supported**, not guaranteed: the answer the facts make clearly probable, with no step the facts don't license. In practice the right answer is anchored in the text and the wrong answers are unsupported, not merely "less supported." Hold a text standard, not a plausibility standard.
+
+## The read
+
+<AttackMap
+  type="Most Strongly Supported"
+  stem="Which one of the following is most strongly supported by the information above?"
+  steps={[
+    {
+      label: "Read",
+      do: "Inventory the facts rather than hunting for a conclusion. Mark conditionals and quantity words.",
+      example: "Botanist: The leaves of the silverleaf shrub turn red only when nighttime temperatures stay below 5°C for at least a week. In the coastal valley, nighttime temperatures rarely stay below 5°C for more than two nights running; inland, they often do so for weeks.\n\nF1: red leaves → a week of nights below 5°C (necessary condition).\nF2: coastal valley rarely gets more than two such nights in a row.\nF3: inland often gets weeks of them."
+    },
+    {
+      label: "Find the link",
+      do: "Find the term two facts share and chain through it. Also write down what the conditional does NOT give you.",
+      example: "Shared term: a week below 5°C.\nF1 + F2: coastal shrubs rarely meet the necessary condition → rarely turn red.\nNot given: cold → red. Inland shrubs meet the condition; whether they turn red is open."
+    },
+    {
+      label: "Prephrase",
+      do: "State the chained result using the weakest force word in the chain.",
+      example: "Silverleaf shrubs in the coastal valley rarely have red leaves.\nForce: “rarely,” inherited from F2. Not “never.”"
+    },
+    {
+      label: "Judge choices",
+      do: "For each choice, find the sentence that pays for each of its words. A word with no sentence behind it kills the choice.",
+      example: "“Coastal silverleaf shrubs seldom turn red.” F1 + F2. ✓\n“Most inland silverleaf shrubs turn red each winter.” Needs cold → red; F1 points the other way.\n“Coastal silverleaf shrubs never turn red.” “never” unpaid — F2 says rarely."
+    },
+    {
+      label: "Confirm",
+      do: "Reread the winner as a skeptic: is there a natural reading of the facts under which it is probably false? If not, lock it.",
+      example: "Could coastal shrubs often turn red? Only if the cold spell were often met, and F2 says it rarely is. Supported. Lock it in."
+    }
+  ]}
+/>
+
+## What the right answer looks like
+
+- It **combines** two or more statements that share a term. One statement alone rarely supports anything new.
+- Its force matches the weakest fact it rests on: *rarely* in, *rarely* (or *seldom*, *usually not*) out — never *never*.
+- It introduces no new concept. A noun with no referent in the stimulus disqualifies the choice.
+- It often sounds underwhelming. The hedged, cautious answer you'd call obvious is usually right.
+- Conditionals are honored exactly: *only when* gives a necessary condition and its contrapositive, nothing more.
+
+## MSS versus Must Be True
+
+| | Must Be True | Most Strongly Supported |
+|---|---|---|
+| Standard | true in every world where the facts hold | clearly probable given the facts |
+| What kills a choice | one consistent counter-scenario | a step the text doesn't license |
+| Typical answer | a deduction, often a contrapositive | a cautious combination, often hedged |
+
+A choice supported by *rarely* and *often* can be right on MSS and would not be right on MBT. A choice that needs an outside fact fails both.
+
+## The wrong answers
+
+<TrapCatalog
+  title="Most Strongly Supported traps"
+  traps={[
+    {
+      pattern: "extreme",
+      setup: "Silverleaf leaves turn red only after a week of nights below 5°C. The coastal valley rarely gets more than two such nights in a row.",
+      tempting: "Silverleaf shrubs growing in the coastal valley never have red leaves.",
+      killer: "“never” — the stimulus says the cold spell is rare, not impossible. One unpaid word.",
+      instead: "Carries the stimulus’s own hedge: rarely, seldom, usually not."
+    },
+    {
+      pattern: "necessary_v_sufficient",
+      setup: "Same facts, plus: inland, nights below 5°C often last for weeks.",
+      tempting: "Most silverleaf shrubs growing inland have red leaves for at least part of the winter.",
+      killer: "“only when” makes cold necessary for red, not sufficient. Inland shrubs meet the condition; nothing says meeting it produces red leaves.",
+      instead: "Runs the conditional the licensed way: no cold spell → no red leaves."
+    },
+    {
+      pattern: "out_of_scope",
+      setup: "Same facts.",
+      tempting: "Silverleaf shrubs grow more vigorously inland than in the coastal valley.",
+      killer: "“grow more vigorously” — there is no sentence about growth. Plausible-sounding, unanchored.",
+      instead: "Uses only the concepts the stimulus contains: temperature, duration, leaf color, location."
+    },
+    {
+      pattern: "shell_game",
+      setup: "Same facts.",
+      tempting: "Daytime temperatures in the coastal valley are higher than those inland.",
+      killer: "“daytime” — every fact is about nighttime temperatures. A neighboring concept has been swapped for the one at issue.",
+      instead: "Keeps the stimulus’s terms exactly: nighttime temperatures, consecutive nights."
+    }
+  ]}
+/>
+
+## The level-4 variant
+
+At level 4 the stimulus is a mini-argument and the supported claim is the conclusion the author stopped short of stating — or a negative one: *not all X are Y*, *at least some X fail to Z*. Quantifier chains appear: *most A are B* and *most A are C* support *some B are C*; *some* and *some* support nothing. The best trap is supported by common sense rather than by the text; it reads as obvious and has no sentence behind it. The second-best trap is right except for one force word. When two choices both seem supported, pick the one with fewer added steps — the one closer to the page.
+
+<KeyIdea>
+Every word in the right answer must be paid for by a sentence in the stimulus. "Most strongly supported" relaxes certainty, not anchoring: the answer may be probable rather than guaranteed, but it may not be imported.
+</KeyIdea>
+
+## Before you read the choices
+
+1. Inventory the facts; note which pairs share a term.
+2. Chain the pair that shares a term; state what follows, with the weaker force word.
+3. Note the one thing the facts tempt you to conclude but don't — usually the reversed conditional.
