@@ -1,0 +1,69 @@
+---
+id: u1/arguments-2
+unit: 1
+order: 2
+title: "The spectrum of support"
+summary: "Valid, strong, weak — how much the premises actually give the conclusion, and why \"true\" and \"well-supported\" are different questions."
+checkTags: [main_conclusion, argument_part]
+diagram: ArgumentMap
+minutes: 9
+---
+
+## Two separate questions
+
+When you read an argument, keep two questions apart:
+
+1. **Are the premises true?** On the LSAT you almost always accept them. The stimulus says "the survey found X" — fine, it found X.
+2. **If the premises are true, how much do they support the conclusion?** This is the only thing most LR questions test.
+
+A conclusion can be true and badly argued. A conclusion can be false and perfectly argued from false premises. You're grading the *link*, not the claim.
+
+## The spectrum
+
+Support isn't on/off. Picture a dial:
+
+| Level | Meaning | Example |
+|---|---|---|
+| **Valid** | If premises are true, the conclusion *cannot* be false | "All tenured faculty have doctorates. Ruiz is tenured. So Ruiz has a doctorate." |
+| **Strong** | Premises make the conclusion very likely, not certain | "In 40 of 40 trials the alloy failed at 300°C. It will probably fail at 300°C." |
+| **Weak** | Premises are relevant but leave big room | "The restaurant was busy on Friday. It must be profitable." |
+| **None** | Premises don't bear on the conclusion | "The CEO is charismatic. Therefore the merger is legal." |
+
+<KeyIdea>
+Every argument question is asking where on this dial the argument sits and what would move it. Weaken turns the dial down. Strengthen turns it up. Sufficient Assumption turns it all the way to *valid*. Flaw names why it isn't there already.
+</KeyIdea>
+
+## Validity is about form
+
+The valid example above works because of its *shape*: all A are B; x is A; so x is B. Swap in nonsense and it still holds. This is why Unit 1 spends four lessons on conditional and quantifier logic: the hardest LSAT questions are won by seeing the shape under the words.
+
+Conversely, these feel convincing but aren't valid:
+
+- *All A are B. x is B. So x is A.* (All cats are mammals; Rex is a mammal; so Rex is a cat.)
+- *Most A are B. Most B are C. So some A are C.* (Possible, not guaranteed — the two "most" groups can miss each other.)
+
+You'll meet both again as named flaws.
+
+## Conclusion strength has to match premise strength
+
+A premise about "some" can't deliver a conclusion about "most." A premise about what happened "in the past decade" can't deliver a conclusion about "always." Watch the words that set the dial:
+
+- **Certainty words:** must, cannot, always, never, all, none, guarantees
+- **Probability words:** likely, probably, tends to, usually, most
+- **Possibility words:** can, may, some, at least one
+
+A conclusion stronger than its premises is the single most common LSAT gap. The right answer to a Flaw question often just says so in abstract language: *"draws a conclusion that is stronger than its premises warrant."*
+
+## Practice the read
+
+<ArgumentMap
+  title="Roles, and how strong is the link?"
+  sentences={[
+    { text: "A ten-year study tracked 2,000 adults who took up regular gardening.", role: "context", why: "Sets up the evidence; describes the study rather than giving a reason." },
+    { text: "Participants reported lower stress than a matched group of non-gardeners.", role: "premise", why: "The finding offered as evidence." },
+    { text: "Gardening, therefore, reduces stress.", role: "sub_conclusion", why: "Drawn from the finding, then used to support the final claim — a conclusion that is also a premise." },
+    { text: "So every hospital should install a patient garden.", role: "conclusion", why: "The ultimate claim; everything else leads here. Note the jump from 'reduces stress' to 'every hospital should.'" }
+  ]}
+/>
+
+After mapping it, notice the two gaps: correlation treated as cause (sentence 2 to 3), and a factual claim stretched into a universal recommendation (3 to 4). Both are flaws you'll name precisely later. For now, just see that the dial is low and *where* it drops.

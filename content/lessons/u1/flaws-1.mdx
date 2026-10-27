@@ -1,0 +1,84 @@
+---
+id: u1/flaws-1
+unit: 1
+order: 14
+title: "The flaw families"
+summary: "Twelve patterns account for nearly every flawed LSAT argument. Learn them as shapes, with the one question that exposes each."
+checkTags: [flaw]
+diagram: TrapCatalog
+minutes: 11
+---
+
+## Flaws are shapes, not topics
+
+A flawed argument has a gap of a recognizable kind. The test reuses the same dozen kinds across thousands of stimuli. Learn them as *shapes* and you'll see the gap before you finish reading.
+
+| Family | Shape | Exposing question |
+|---|---|---|
+| **Correlation → causation** | A and B occur together, so A causes B | Could something else cause both? Could B cause A? Coincidence? |
+| **Sampling** | This sample shows X, so the population does | Is the sample representative? Self-selected? Small? |
+| **Part / whole** | Each part has X, so the whole does (or vice versa) | Does the property survive composition or division? |
+| **Necessary / sufficient** | A requires B; B is present; so A | Is B merely required, or does it guarantee? |
+| **Equivocation** | A word changes meaning mid-argument | Is "natural / free / value / success" used the same way twice? |
+| **Appeal to authority / popularity** | Experts (or most people) believe X, so X | Is the authority relevant? Is popularity evidence? |
+| **False dilemma** | Not A, so B | Are A and B really the only options? |
+| **Percentage / number** | Share rose, so count rose | What happened to the total? |
+| **Absence of evidence** | No proof of X, so not-X | Was anyone looking? Would evidence exist if X were true? |
+| **Circular** | X, because X (restated) | Does the premise just restate the conclusion? |
+| **Ad hominem** | The person is bad, so their claim is false | Does the source's character bear on the claim's truth? |
+| **Straw man / mental state** | Attacks a distorted version; or infers reality from belief/intent | Is this what they said? Does believing make it so? |
+
+Add two from earlier lessons: **relative → absolute** (grammar-3) and **conclusion stronger than premises** (arguments-2).
+
+## See four of them
+
+<TrapCatalog
+  title="Four flaw families as they appear on the test"
+  traps={[
+    {
+      pattern: "true_but_irrelevant",
+      setup: "Students who eat breakfast score higher on morning exams. The district should therefore provide free breakfast to raise scores.",
+      tempting: "The flaw: fails to consider that some students may not like the breakfast provided.",
+      killer: "Preference is irrelevant to the causal gap. The real flaw is treating a correlation as a cause — breakfast-eaters may differ in other ways (sleep, household stability).",
+      instead: "Name the gap in the argument's logic, not a practical objection to the policy."
+    },
+    {
+      pattern: "out_of_scope",
+      setup: "In a survey of readers of a cycling magazine, 80% said they would support a new bike-lane levy. Clearly the city's residents favor the levy.",
+      tempting: "The flaw: relies on a survey whose questions may have been poorly worded.",
+      killer: "Nothing in the stimulus concerns wording. The flaw is the sample: magazine readers are not the city's residents.",
+      instead: "Sampling flaw: 'generalizes from a sample unlikely to be representative of the population.'"
+    },
+    {
+      pattern: "wrong_part",
+      setup: "Every component of the device has been tested and found reliable. So the device as a whole is reliable.",
+      tempting: "The flaw: assumes without justification that the components were tested under realistic conditions.",
+      killer: "Attacks a premise rather than the inference. The gap is part-to-whole: reliable parts can interact unreliably.",
+      instead: "Composition flaw: 'infers that a whole has a property because each of its parts has that property.'"
+    },
+    {
+      pattern: "shell_game",
+      setup: "The city claims its downtown is safe, citing a 20% drop in reported crime. But residents report feeling less safe than ever. So the city's claim is false.",
+      tempting: "The flaw: overlooks the possibility that the drop in reported crime was caused by the city's safety measures.",
+      killer: "The argument isn't about what caused the drop. It equivocates: 'safe' (crime rate) vs 'feeling safe' (perception).",
+      instead: "Equivocation: 'relies on two different senses of a key term.'"
+    }
+  ]}
+/>
+
+## The method
+
+<Steps>
+1. Find the conclusion; find the premises.
+2. Say the gap in plain words: "goes from ___ to ___."
+3. Match the gap to a family.
+4. Read the choices looking for *that* family in abstract words. Reject answers that describe a different gap, attack a premise, or raise a practical objection.
+</Steps>
+
+<KeyIdea>
+A Flaw answer must describe something the argument *actually did*. "Fails to consider X" is correct only if considering X would matter to this conclusion. The most tempting wrong answers describe real flaws that this argument didn't commit.
+</KeyIdea>
+
+## What's next
+
+The next lesson decodes the abstract answer language family by family, so that *"infers from the fact that an outcome is possible that it is likely"* reads as naturally as "jumps from can to will."

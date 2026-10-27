@@ -1,0 +1,1653 @@
+[
+  {
+    "id": "lr-main-conclusion-printing-press-literacy",
+    "section": "LR",
+    "type": "main_conclusion",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 1,
+    "stimulus": "Many historians claim that the printing press caused the rapid spread of literacy in sixteenth-century Europe. This claim is mistaken, however. Literacy rates rose just as quickly in several regions where printed books remained scarce and expensive for another century, and in those regions the rise coincided instead with the founding of municipal schools.",
+    "stem": "Which one of the following most accurately expresses the main conclusion of the argument?",
+    "choices": {
+      "A": "The printing press was not responsible for the rapid spread of literacy in sixteenth-century Europe.",
+      "B": "Literacy rates rose quickly in some regions where printed books were scarce and expensive.",
+      "C": "Municipal schools, rather than the printing press, were the cause of rising literacy in sixteenth-century Europe.",
+      "D": "Historians have generally overestimated the influence of new technologies on social change in early modern Europe.",
+      "E": "Printed books remained scarce and expensive in parts of Europe for a century after the printing press was invented."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "The structure is 'Many claim X. This claim is mistaken, because Y.' The main conclusion is the rebuttal: the historians' causal claim is wrong. Everything after 'however' is support.",
+      "B": "Wrong part: this is the first premise ('rose just as quickly in several regions'), offered as the evidence, not the point being argued for.",
+      "C": "Shell game: the argument says the rise 'coincided' with municipal schools; it never concludes that schools were 'the cause.' Attributing a positive causal claim overreaches what the author commits to.",
+      "D": "Extreme: 'generally overestimated' and 'new technologies' broaden one claim about the printing press into a sweeping verdict on historians that nothing in the passage supports.",
+      "E": "Wrong part: this is a detail inside the premise, not what the premises are marshaled to show."
+    },
+    "trapPatterns": {
+      "B": "wrong_part",
+      "C": "shell_game",
+      "D": "extreme",
+      "E": "wrong_part"
+    },
+    "keyTakeaway": "When an argument opens with 'Many claim X' and pivots with 'however,' the main conclusion is the denial of X, not the evidence that follows.",
+    "predictionHint": "The printing press did not cause the spread of literacy."
+  },
+  {
+    "id": "lr-main-conclusion-museum-admission-fee",
+    "section": "LR",
+    "type": "main_conclusion",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 1,
+    "stimulus": "Museum director: Our attendance has fallen by a third over the past five years, and some trustees attribute the decline to our admission fee. Even so, the fee should not be reduced. Museums that have cut their fees have seen only brief surges in attendance, and the lost revenue has forced several of them to shorten their hours, which depresses attendance further.",
+    "stem": "Which one of the following most accurately expresses the main conclusion of the museum director's argument?",
+    "choices": {
+      "A": "The museum's attendance has fallen by a third over the past five years.",
+      "B": "The museum's admission fee is not the cause of its declining attendance.",
+      "C": "The museum should not reduce its admission fee.",
+      "D": "Museums that cut their admission fees experience only brief increases in attendance.",
+      "E": "Reducing an admission fee always forces a museum to shorten its hours."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Wrong part: this is background that sets up the trustees' view; it is not something the director argues for.",
+      "B": "Shell game: the director never denies that the fee caused the decline; the argument is about what should be done, not about what caused the drop.",
+      "C": "'Even so, the fee should not be reduced' is the recommendation, and the sentences about other museums' experience are offered as reasons for it. That makes it the main conclusion.",
+      "D": "Wrong part: this is a premise, the evidence from other museums used to support the recommendation.",
+      "E": "Extreme: the premise says lost revenue forced 'several' museums to shorten hours; 'always' is unsupported, and this is in any case a premise, not the conclusion."
+    },
+    "trapPatterns": {
+      "A": "wrong_part",
+      "B": "shell_game",
+      "D": "wrong_part",
+      "E": "extreme"
+    },
+    "keyTakeaway": "A recommendation ('should') stated mid-paragraph is usually the conclusion; the sentences that follow it are the reasons.",
+    "predictionHint": "Don't cut the fee."
+  },
+  {
+    "id": "lr-main-conclusion-unwritten-languages-grammar",
+    "section": "LR",
+    "type": "main_conclusion",
+    "logicTags": [
+      "comparison"
+    ],
+    "difficulty": 2,
+    "stimulus": "Linguist: It is often said that languages with no written form are grammatically simpler than those with long literary traditions. In fact, the opposite is closer to the truth. Field studies of unwritten languages routinely document systems of verbal inflection more intricate than any found in the literary languages of Europe, and the apparent simplicity reported by early observers reflected those observers' limited exposure rather than any property of the languages themselves.",
+    "stem": "Which one of the following most accurately expresses the main conclusion of the linguist's argument?",
+    "choices": {
+      "A": "Early observers of unwritten languages had only limited exposure to the languages they described.",
+      "B": "Languages without a written form are, if anything, grammatically more complex than languages with long literary traditions.",
+      "C": "Unwritten languages have systems of verbal inflection more intricate than those of Europe's literary languages.",
+      "D": "Languages with no written form are never, in any respect, grammatically simpler than languages that have long literary traditions.",
+      "E": "The development of a writing system tends to simplify a language's grammar over time."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Wrong part: this is part of the explanation for why early reports were misleading, a premise supporting the conclusion.",
+      "B": "'The opposite is closer to the truth' rebuts the common view that unwritten languages are simpler. The field-study evidence and the account of early observers both support this reversal, so it is the main conclusion.",
+      "C": "Wrong part: this is the field-study evidence, a premise. It is the most tempting trap because it is specific and strongly asserted, but it is offered to support the claim about overall grammatical complexity.",
+      "D": "Extreme: 'never' overstates 'closer to the truth,' which is a hedged comparative claim, not an exceptionless one.",
+      "E": "Out of scope: the argument compares languages with and without writing; it says nothing about change over time within a language."
+    },
+    "trapPatterns": {
+      "A": "wrong_part",
+      "C": "wrong_part",
+      "D": "extreme",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "'In fact, the opposite is closer to the truth' is a conclusion marker; the specific findings that follow are its support, however vivid.",
+    "predictionHint": "Unwritten languages are not simpler; if anything they're more complex."
+  },
+  {
+    "id": "lr-main-conclusion-carbon-tax-rebates",
+    "section": "LR",
+    "type": "main_conclusion",
+    "logicTags": [
+      "math_percent",
+      "comparison"
+    ],
+    "difficulty": 2,
+    "stimulus": "Economist: Critics of the proposed carbon tax argue that it will fall hardest on low-income households, which spend a larger share of their income on energy. The critics are correct about the pattern of spending. Yet because the proposal returns all of its revenue to households as equal per-person rebates, and because low-income households use less energy in absolute terms than wealthier ones, most low-income households would end up receiving more in rebates than they pay in tax. The proposal would therefore not burden them disproportionately.",
+    "stem": "Which one of the following most accurately expresses the main conclusion of the economist's argument?",
+    "choices": {
+      "A": "Low-income households spend a larger share of their income on energy than wealthier households do.",
+      "B": "Most low-income households would receive more in rebates than they would pay under the proposed carbon tax.",
+      "C": "The critics of the carbon tax proposal are mistaken about how low-income households spend their money.",
+      "D": "The proposed carbon tax would benefit low-income households more than any other group.",
+      "E": "The proposed carbon tax would not place a disproportionate burden on low-income households."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Wrong part: this is a concession ('the critics are correct about the pattern of spending'), not the conclusion.",
+      "B": "Wrong part: this is the intermediate conclusion, supported by the rebate and usage facts and then used to support the final claim. 'Therefore' in the last sentence marks what it supports.",
+      "C": "Opposite: the economist explicitly agrees with the critics about spending patterns; the disagreement is about the burden, not the spending.",
+      "D": "Extreme: the argument shows low-income households would not be disproportionately burdened; 'more than any other group' is a comparison the argument never makes.",
+      "E": "The 'therefore' sentence states the point the whole argument builds to: the critics' burden claim fails. The rebate calculation is a sub-conclusion in service of this."
+    },
+    "trapPatterns": {
+      "A": "wrong_part",
+      "B": "wrong_part",
+      "C": "opposite",
+      "D": "extreme"
+    },
+    "keyTakeaway": "When one claim is supported by premises and then itself supports a 'therefore' claim, the 'therefore' claim is the main conclusion.",
+    "predictionHint": "The tax wouldn't burden low-income households disproportionately."
+  },
+  {
+    "id": "lr-main-conclusion-harlow-creek-dating",
+    "section": "LR",
+    "type": "main_conclusion",
+    "logicTags": [
+      "lack_of_support_v_false"
+    ],
+    "difficulty": 2,
+    "stimulus": "Archaeologist: The stone tools found at the Harlow Creek site have been dated to 14,000 years ago, which would make the site the oldest known human settlement in the region. The dating, however, was performed on charcoal from a hearth near the tools, not on the tools themselves. Because the hearth may have been disturbed by later flooding, the age of the site remains unestablished. Certainly the charcoal is 14,000 years old; what is in doubt is whether the tools and the charcoal were deposited at the same time.",
+    "stem": "Which one of the following most accurately expresses the main conclusion of the archaeologist's argument?",
+    "choices": {
+      "A": "The charcoal from the hearth at the Harlow Creek site is 14,000 years old.",
+      "B": "The Harlow Creek site is not the oldest known human settlement in the region.",
+      "C": "The hearth at the Harlow Creek site was disturbed by flooding after the charcoal was deposited.",
+      "D": "It has not been established how old the Harlow Creek site is.",
+      "E": "The stone tools and the charcoal at the Harlow Creek site were not deposited at the same time."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Wrong part: this is a concession ('Certainly the charcoal is 14,000 years old') that narrows the doubt, not the claim being argued for.",
+      "B": "Extreme: the archaeologist says the site's age is 'unestablished,' not that the site is not the oldest. Lack of proof is not disproof.",
+      "C": "Wrong force: the premise says the hearth 'may have been' disturbed; asserting that it 'was' disturbed overstates a possibility that functions as a premise.",
+      "D": "'The age of the site remains unestablished' is what the dating problem and the possible flooding are offered to show, and the final sentence clarifies the scope of that doubt. It is the main conclusion.",
+      "E": "Shell game: the final sentence says this is 'what is in doubt'; the argument does not assert that the deposits were separate, only that we cannot tell."
+    },
+    "trapPatterns": {
+      "A": "wrong_part",
+      "B": "extreme",
+      "C": "wrong_force",
+      "E": "shell_game"
+    },
+    "keyTakeaway": "A conclusion that something is 'unestablished' or 'in doubt' is weaker than a conclusion that it is false; match the force exactly.",
+    "predictionHint": "We don't know how old the site is."
+  },
+  {
+    "id": "lr-main-conclusion-moral-intuition-variation",
+    "section": "LR",
+    "type": "main_conclusion",
+    "logicTags": [
+      "analogy",
+      "lack_of_support_v_false"
+    ],
+    "difficulty": 3,
+    "stimulus": "Philosopher: It is frequently argued that because moral intuitions vary widely across cultures, there can be no objective moral truths. Perceptual judgments also vary across individuals, as the disagreements among witnesses to a single event attest, yet no one concludes from this that there are no objective facts about what occurred. Variation in intuition no more undermines moral objectivity than variation in perception undermines factual objectivity. The argument from cultural variation thus fails to establish its conclusion.",
+    "stem": "Which one of the following most accurately expresses the main conclusion of the philosopher's argument?",
+    "choices": {
+      "A": "There are objective moral truths.",
+      "B": "The variability of moral intuitions across cultures does not show that there are no objective moral truths.",
+      "C": "Disagreement among witnesses to an event does not show that there are no objective facts about what occurred.",
+      "D": "Moral intuitions are a form of perception.",
+      "E": "Variation in moral intuition is no more significant than variation in perceptual judgment."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Extreme: the philosopher concludes only that one argument 'fails to establish' its conclusion, not that the opposite conclusion is true. Showing an argument fails does not prove its conclusion false.",
+      "B": "'Thus' marks the conclusion: the argument from cultural variation fails. Restated, cultural variation in intuitions does not show the absence of objective moral truths. The analogy to perception is the support.",
+      "C": "Wrong part: this is the perceptual half of the analogy, a premise used to support the parallel claim about morality.",
+      "D": "Out of scope: the argument draws an analogy between intuition and perception; it never claims that intuitions are perceptions.",
+      "E": "Wrong part: this restates the analogical premise ('no more undermines... than'). It is the step immediately before 'thus,' which is what it supports, not the conclusion itself."
+    },
+    "trapPatterns": {
+      "A": "extreme",
+      "C": "wrong_part",
+      "D": "out_of_scope",
+      "E": "wrong_part"
+    },
+    "keyTakeaway": "'This argument fails' is weaker than 'this argument's conclusion is false'; the main conclusion must preserve that difference.",
+    "predictionHint": "Cultural variation doesn't prove there are no objective moral truths."
+  },
+  {
+    "id": "lr-main-conclusion-downtown-parking-housing",
+    "section": "LR",
+    "type": "main_conclusion",
+    "logicTags": [
+      "causation",
+      "value_judgment"
+    ],
+    "difficulty": 3,
+    "stimulus": "Columnist: Several city council members have proposed replacing the downtown parking garages with housing, reasoning that fewer parking spaces will mean fewer cars. Downtown businesses object that their customers need somewhere to park. The businesses' concern is understandable but misplaced. Cities that have removed downtown parking have generally seen retail sales rise rather than fall, as foot traffic from new residents more than offsets the loss of driving customers. Indeed, the businesses themselves stand to gain from the proposal.",
+    "stem": "Which one of the following most accurately expresses the main conclusion of the columnist's argument?",
+    "choices": {
+      "A": "Replacing the downtown parking garages with housing would reduce the number of cars downtown.",
+      "B": "Cities that have removed downtown parking have generally seen retail sales rise.",
+      "C": "Downtown businesses stand to gain more from the proposal than anyone else does.",
+      "D": "Downtown businesses are wrong to object to the proposal to replace the parking garages with housing.",
+      "E": "The city council should adopt the proposal to replace the downtown parking garages with housing for new downtown residents."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Wrong part: this is the council members' reasoning, reported as background. The columnist neither endorses nor argues for it.",
+      "B": "Wrong part: this is the evidence from other cities, the premise that supports the verdict on the businesses' objection.",
+      "C": "Shell game: the closing sentence is offered as a further reason the objection is misplaced, and it never compares businesses with 'anyone else.' It is support, not the conclusion.",
+      "D": "'The businesses' concern is understandable but misplaced' is the claim the retail-sales evidence and the 'Indeed' sentence both support. It is the main conclusion, buried in the middle of the paragraph.",
+      "E": "Extreme: the columnist argues only that the businesses' objection is misplaced; nothing in the passage endorses adopting the proposal."
+    },
+    "trapPatterns": {
+      "A": "wrong_part",
+      "B": "wrong_part",
+      "C": "shell_game",
+      "E": "extreme"
+    },
+    "keyTakeaway": "Rebutting an objection is not the same as endorsing the proposal objected to; keep the conclusion as narrow as the author's actual verdict.",
+    "predictionHint": "The businesses' objection is misplaced."
+  },
+  {
+    "id": "lr-argument-part-late-night-eating",
+    "section": "LR",
+    "type": "argument_part",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 1,
+    "stimulus": "Nutritionist: Many people believe that eating late at night causes weight gain. But the body does not process calories differently depending on the hour at which they are consumed. What matters is total daily intake. People who eat late at night tend to gain weight simply because late-night eating usually consists of additional snacks on top of a full day's meals, not because of the timing itself.",
+    "stem": "The claim that the body does not process calories differently depending on the hour at which they are consumed plays which one of the following roles in the nutritionist's argument?",
+    "choices": {
+      "A": "It is the main conclusion of the argument.",
+      "B": "It is a claim that the argument sets out to refute.",
+      "C": "It is a premise offered in support of the argument's main conclusion.",
+      "D": "It is an example used to illustrate a general principle stated elsewhere in the argument.",
+      "E": "It is a concession that the popular belief is partly correct."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Wrong part: the main conclusion is that late-night eating does not itself cause weight gain (the belief is mistaken); this claim is a reason for that conclusion.",
+      "B": "Opposite: the claim the argument refutes is the popular belief in the first sentence. This claim is the nutritionist's own, introduced with 'But.'",
+      "C": "The nutritionist rejects the popular belief, and the fact that the body processes calories the same way at any hour is given as a reason for that rejection. It is a supporting premise.",
+      "D": "Shell game: the claim is a general physiological fact, not an 'example' of anything; the argument contains no principle it illustrates.",
+      "E": "Out of scope: the nutritionist grants nothing to the popular belief; the sentence directly contradicts it rather than conceding part of it."
+    },
+    "trapPatterns": {
+      "A": "wrong_part",
+      "B": "opposite",
+      "D": "shell_game",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "A sentence introduced with 'But' right after a reported popular belief is usually the author's first premise against that belief.",
+    "predictionHint": "It's a reason for rejecting the popular belief."
+  },
+  {
+    "id": "lr-argument-part-novelist-late-works",
+    "section": "LR",
+    "type": "argument_part",
+    "logicTags": [
+      "value_judgment"
+    ],
+    "difficulty": 2,
+    "stimulus": "Some critics contend that the novelist's late works are inferior to her early ones because they abandon the tightly plotted structure that made her famous. It is true that the late works are loosely structured. But loose structure is not a defect in itself; it was the deliberate choice of a writer who had come to regard plot as a distraction from character. The late works should therefore be judged by what they attempt, not by what they decline to attempt.",
+    "stem": "The claim that the late works are loosely structured plays which one of the following roles in the argument?",
+    "choices": {
+      "A": "It is the main conclusion the argument seeks to establish.",
+      "B": "It is the position that the argument as a whole is directed against.",
+      "C": "It is evidence that the argument accepts as establishing that the late works are inferior to the early ones.",
+      "D": "It is a premise that, together with the claim that loose structure is not a defect, is used to show that plot is a distraction from character.",
+      "E": "It is a concession that grants part of the critics' case while the argument denies their conclusion."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Wrong part: the main conclusion is the 'therefore' sentence about how the late works should be judged.",
+      "B": "Opposite: the argument is directed against the critics' conclusion that the late works are inferior, not against the factual claim about structure, which the author accepts.",
+      "C": "Half right: the argument does accept the claim as true, but it denies that it establishes inferiority ('loose structure is not a defect in itself'). 'Establishing' is the killing word.",
+      "D": "Wrong part: the claim that plot is a distraction is offered as the writer's reason for the choice, not as something this claim is used to prove. The direction of support is reversed.",
+      "E": "'It is true that...' followed by 'But' is the classic concession form: the author grants the critics' factual premise and then denies that their conclusion follows from it."
+    },
+    "trapPatterns": {
+      "A": "wrong_part",
+      "B": "opposite",
+      "C": "half_right",
+      "D": "wrong_part"
+    },
+    "keyTakeaway": "'It is true that X. But...' marks a concession: X is accepted, and the fight is over what X supports.",
+    "predictionHint": "A concession: granted, but it doesn't prove what the critics think."
+  },
+  {
+    "id": "lr-argument-part-bus-rapid-transit",
+    "section": "LR",
+    "type": "argument_part",
+    "logicTags": [
+      "weighing_factors"
+    ],
+    "difficulty": 2,
+    "stimulus": "Urban planner: Residents oppose the new bus rapid transit line because they fear it will increase congestion during construction. Construction will indeed be disruptive for about eighteen months. Once complete, however, the line will remove an estimated 4,000 car trips per day from the corridor, so the long-term effect will be a substantial reduction in congestion. Since temporary disruption is a reasonable price for a lasting improvement, the line should be built.",
+    "stem": "The claim that the long-term effect of the line will be a substantial reduction in congestion plays which one of the following roles in the urban planner's argument?",
+    "choices": {
+      "A": "It is an intermediate conclusion that is supported by one premise and in turn supports the main conclusion.",
+      "B": "It is the main conclusion of the argument.",
+      "C": "It is a premise for which the argument offers no support.",
+      "D": "It is a claim that the argument attributes to the residents who oppose the line and then goes on to reject as mistaken.",
+      "E": "It is a concession made in response to the residents' objection about construction."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "The 4,000-trips estimate supports this claim ('so'), and this claim is then combined with the 'reasonable price' principle to support 'the line should be built.' Supported and supporting: an intermediate conclusion.",
+      "B": "Wrong part: the main conclusion is the final sentence, 'the line should be built,' which this claim is used to support.",
+      "C": "Half right: it does function as a premise for the final conclusion, but 'no support' is false; the preceding clause about 4,000 car trips supports it.",
+      "D": "Opposite: the residents' claim is that congestion will increase; this is the planner's own counterclaim, not something attributed to the residents.",
+      "E": "Wrong part: the concession is the sentence 'Construction will indeed be disruptive,' not the congestion-reduction claim."
+    },
+    "trapPatterns": {
+      "B": "wrong_part",
+      "C": "half_right",
+      "D": "opposite",
+      "E": "wrong_part"
+    },
+    "keyTakeaway": "A claim preceded by 'so' and followed by 'since... should' is both supported and supporting: an intermediate conclusion.",
+    "predictionHint": "A sub-conclusion: proven by the trip estimate, then used to justify building."
+  },
+  {
+    "id": "lr-argument-part-poison-frog-coloration",
+    "section": "LR",
+    "type": "argument_part",
+    "logicTags": [
+      "causation",
+      "eliminating_options"
+    ],
+    "difficulty": 3,
+    "stimulus": "Biologist: It has been suggested that the bright coloration of the poison frog evolved primarily to attract mates. If that were so, we would expect males to be more brightly colored than females, as is the case in nearly every species in which coloration serves a mating function. Yet in poison frogs the sexes are colored identically. The coloration is far more likely to have evolved as a warning to predators, a function for which identical coloration in both sexes is exactly what one would expect.",
+    "stem": "The claim that in poison frogs the sexes are colored identically plays which one of the following roles in the biologist's argument?",
+    "choices": {
+      "A": "It is the hypothesis that the argument ultimately rejects.",
+      "B": "It is a general principle from which the argument's conclusion is derived.",
+      "C": "It is presented as a consequence that would follow if the mate-attraction hypothesis were correct.",
+      "D": "It is offered as evidence against one hypothesis and as evidence for the hypothesis the argument favors.",
+      "E": "It is a premise that lends some support to the mate-attraction hypothesis but is outweighed by other evidence that the argument cites."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Wrong part: the rejected hypothesis is that coloration evolved to attract mates; identical coloration is an observation, not a hypothesis.",
+      "B": "Shell game: the general principle is the one about males being brighter in species where color serves mating; identical coloration in poison frogs is a specific observation, not a principle.",
+      "C": "Opposite: the consequence that would follow from the mating hypothesis is that males would be brighter. Identical coloration is the observation that this predicted consequence fails.",
+      "D": "The observation is introduced with 'Yet' to contradict the prediction of the mating hypothesis, and the last sentence says it is 'exactly what one would expect' under the warning hypothesis. It plays both roles.",
+      "E": "Opposite: the observation counts against the mate-attraction hypothesis, not for it; 'supports' reverses its direction."
+    },
+    "trapPatterns": {
+      "A": "wrong_part",
+      "B": "shell_game",
+      "C": "opposite",
+      "E": "opposite"
+    },
+    "keyTakeaway": "An observation introduced with 'Yet' after 'we would expect' is a failed prediction: evidence against one hypothesis, and often for its rival.",
+    "predictionHint": "Evidence that kills the mating hypothesis and fits the warning hypothesis."
+  },
+  {
+    "id": "lr-argument-part-reservoir-consumption",
+    "section": "LR",
+    "type": "argument_part",
+    "logicTags": [
+      "math_percent"
+    ],
+    "difficulty": 3,
+    "stimulus": "Editorial: The legislature's decision to fund the new reservoir is being defended on the grounds that it will secure the region's water supply for fifty years. That projection assumes current rates of consumption, but consumption has fallen by a fifth over the past decade as households and farms have adopted more efficient equipment, and the trend shows no sign of reversing. The reservoir may therefore be unnecessary. Even if it is needed, however, the legislature acted hastily, since no study of cheaper alternatives such as groundwater recharge was ever commissioned.",
+    "stem": "The claim that consumption has fallen by a fifth over the past decade plays which one of the following roles in the editorial's argument?",
+    "choices": {
+      "A": "It is offered as the principal reason for concluding that the legislature acted hastily.",
+      "B": "It is a premise offered in support of a subsidiary conclusion that the reservoir may be unnecessary.",
+      "C": "It is an assumption on which the fifty-year projection depends.",
+      "D": "It is the main conclusion of the editorial.",
+      "E": "It is presented as evidence that the fifty-year projection was deliberately exaggerated by the reservoir's defenders."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Wrong part: the reason given for 'acted hastily' is that no study of alternatives was commissioned. The consumption claim supports a different conclusion.",
+      "B": "The consumption decline, with the no-reversal trend, leads directly to 'The reservoir may therefore be unnecessary,' which is itself subordinate to the editorial's overall criticism ('Even if it is needed, however...'). Premise for a subsidiary conclusion.",
+      "C": "Opposite: the projection assumes 'current rates'; the falling-consumption claim is the fact that undermines that assumption, not the assumption itself.",
+      "D": "Wrong part: the editorial's main point is a criticism of the legislature's decision, not a statistic about consumption.",
+      "E": "Extreme: 'deliberately exaggerated' attributes intent that the editorial never alleges; it says only that the projection relies on an assumption that may be outdated."
+    },
+    "trapPatterns": {
+      "A": "wrong_part",
+      "C": "opposite",
+      "D": "wrong_part",
+      "E": "extreme"
+    },
+    "keyTakeaway": "Track which 'therefore' a premise feeds; an argument with two conclusions ('may be unnecessary'; 'acted hastily') assigns each premise to one of them.",
+    "predictionHint": "Support for 'the reservoir may be unnecessary,' not for 'acted hastily.'"
+  },
+  {
+    "id": "lr-argument-part-deathbed-promise",
+    "section": "LR",
+    "type": "argument_part",
+    "logicTags": [
+      "conditional",
+      "value_judgment"
+    ],
+    "difficulty": 4,
+    "stimulus": "Ethicist: Some hold that a promise creates an obligation only if the person to whom it was made still wants it kept. On this view, a promise made to someone who has since died creates no obligation at all. One might reply that the dead retain interests, so that a deathbed promise still answers to a present want. But this reply concedes too much: it accepts that obligation depends on the promisee's wants and merely disputes whether those wants persist. The better response is that the obligation arises from the act of promising itself, whatever the promisee later comes to want.",
+    "stem": "The claim that the dead retain interests plays which one of the following roles in the ethicist's argument?",
+    "choices": {
+      "A": "It is part of a response to the view under discussion that the argument considers and then sets aside as inadequate.",
+      "B": "It is a premise offered in support of the argument's main conclusion.",
+      "C": "It is the position that the argument is principally concerned to refute.",
+      "D": "It is a claim that the argument rejects as false.",
+      "E": "It is a consequence of the view under discussion that the argument uses to show that the view under discussion is ultimately untenable."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "The claim appears inside 'One might reply that...,' a possible response to the wants-based view. The ethicist then says this reply 'concedes too much' and offers a 'better response.' The claim is thus part of a rejected alternative reply.",
+      "B": "Wrong part: the main conclusion is that obligation arises from the act of promising; the claim that the dead retain interests is not used to support that. It belongs to the reply the ethicist declines to make.",
+      "C": "Shell game: the view the argument principally opposes is that obligation depends on the promisee's current wants. The 'dead retain interests' reply is a flawed attempt to answer that view, not the main target.",
+      "D": "Half right: the argument does set the reply aside, but not 'as false.' The objection is strategic: the reply 'concedes too much.' The ethicist never says the dead lack interests.",
+      "E": "Wrong part: the consequence drawn from the view is that promises to the dead create no obligation. 'The dead retain interests' is a reply to that consequence, not the consequence itself."
+    },
+    "trapPatterns": {
+      "B": "wrong_part",
+      "C": "shell_game",
+      "D": "half_right",
+      "E": "wrong_part"
+    },
+    "keyTakeaway": "Setting a claim aside as unhelpful or as conceding too much is not the same as rejecting it as false; read the author's exact objection.",
+    "predictionHint": "Part of a reply the author considers and declines, not the author's own premise."
+  },
+  {
+    "id": "lr-parallel-flaw-zoning-variance",
+    "section": "LR",
+    "type": "parallel_flaw",
+    "logicTags": [
+      "conditional"
+    ],
+    "difficulty": 2,
+    "stimulus": "If the council approves the zoning variance, the developer will build the apartment complex on the riverside lot. But at last night’s meeting the council rejected the variance by a wide margin. So the apartment complex will not be built on the riverside lot.",
+    "stem": "The flawed reasoning in which one of the following is most similar to that in the argument above?",
+    "choices": {
+      "A": "If it rains on the day of the match, the match will be postponed. The match was postponed. So it must have rained on the day of the match.",
+      "B": "If the planning board approves the permit, the builder will begin the project this spring. The board has approved the permit. So the builder will begin the project this spring.",
+      "C": "All members who paid their dues received the newsletter. Marta did not receive the newsletter. So Marta did not pay her dues.",
+      "D": "If the museum receives the foundation grant, it will extend its weekend hours. The museum did not receive the grant. Therefore, it will not extend its weekend hours.",
+      "E": "Whenever the river floods, the coastal road is closed. The coastal road was closed yesterday. So the river must have flooded yesterday."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Shell game: this affirms the consequent (postponed, so it rained). The stimulus denies the antecedent; a different conditional flaw.",
+      "B": "Half right: it matches the stimulus's topic and 'if... approves' structure, but it affirms the antecedent and is valid. There is no flaw to parallel.",
+      "C": "Opposite: this is a valid contrapositive (no newsletter, so no dues paid). The stimulus's reasoning is invalid.",
+      "D": "Stimulus: A → B; not A; therefore not B (denying the antecedent). This choice: grant → extend hours; no grant; therefore no extended hours. Same flaw, same shape.",
+      "E": "Wrong part: 'whenever' sets up flood → closed, and the argument affirms the consequent (closed, so flood). The stimulus negates the sufficient condition, not affirms the necessary one."
+    },
+    "trapPatterns": {
+      "A": "shell_game",
+      "B": "half_right",
+      "C": "opposite",
+      "E": "wrong_part"
+    },
+    "keyTakeaway": "Name the flaw abstractly first (here, denying the antecedent); then ignore topic and match only the shape.",
+    "predictionHint": "A → B; not A; so not B. Find denying the antecedent."
+  },
+  {
+    "id": "lr-parallel-flaw-innovation-grant-exports",
+    "section": "LR",
+    "type": "parallel_flaw",
+    "logicTags": [
+      "quantifiers"
+    ],
+    "difficulty": 3,
+    "stimulus": "Most of the firms that received the regional innovation grant are located in the capital region. Most firms located in the capital region export the majority of their output. It follows that most of the firms that received the innovation grant export the majority of their output.",
+    "stem": "The flawed reasoning in which one of the following is most similar to that in the argument above?",
+    "choices": {
+      "A": "Most of the students who joined the debate club this year are seniors. Most seniors have already applied to a university. So most of the students who joined the debate club this year have already applied to a university.",
+      "B": "Most of the paintings in the collection are landscapes. Most of the landscapes in the collection were painted before 1900. So some of the paintings in the collection were painted before 1900.",
+      "C": "Most residents of the valley commute to the city. Anyone who commutes to the city pays the bridge toll. So most residents of the valley pay the bridge toll.",
+      "D": "Most of the delegates voted for the amendment. Most of the delegates also voted for the budget. So most of the delegates voted for both the amendment and the budget.",
+      "E": "Most of the firms that received the regional innovation grant are located in the capital region, and every firm located in the capital region is subject to the regional business levy. So most of the firms that received the grant are subject to the regional business levy."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Stimulus: most A are B; most B are C; therefore most A are C. Two 'most' statements do not chain, because the A's within B may all fall in the minority of B that are not C. This choice has exactly that structure: most club members are seniors; most seniors applied; so most club members applied.",
+      "B": "Half right: it uses 'most... most' but the second 'most' is about landscapes 'in the collection,' a subset of the first group, and the conclusion is only 'some.' That inference is valid.",
+      "C": "Opposite: 'anyone who' is a universal, so most A are B and all B are C does yield most A are C. Valid.",
+      "D": "Shell game: this is a different quantifier error, overlapping two 'most' claims about the same group to conclude 'most' overlap, when only 'some' overlap is guaranteed. The stimulus chains across different groups.",
+      "E": "Half right: it matches the stimulus's topic, but 'every firm' is universal, so the chain is valid."
+    },
+    "trapPatterns": {
+      "B": "half_right",
+      "C": "opposite",
+      "D": "shell_game",
+      "E": "half_right"
+    },
+    "keyTakeaway": "Most + most does not chain; most + all does. Check whether the second quantifier is 'most' or a universal before matching.",
+    "predictionHint": "Most A are B, most B are C, so most A are C: an invalid 'most' chain."
+  },
+  {
+    "id": "lr-parallel-flaw-aircraft-engine-components",
+    "section": "LR",
+    "type": "parallel_flaw",
+    "logicTags": [
+      "part_v_whole"
+    ],
+    "difficulty": 3,
+    "stimulus": "Engineer: Every component of the new aircraft engine has been individually tested under a wide range of operating conditions and found to be reliable. So the engine as a whole, once those components have been assembled, will be reliable in service.",
+    "stem": "The flawed reasoning in which one of the following is most similar to that in the argument above?",
+    "choices": {
+      "A": "The committee as a whole reached a sound decision. So each member of the committee must have reasoned soundly.",
+      "B": "Each brick in the garden wall weighs more than two kilograms. So the garden wall as a whole, which is built entirely from those bricks, weighs more than two kilograms.",
+      "C": "Every sentence in the essay is grammatically correct. So the essay contains no grammatical errors.",
+      "D": "The engine's most critical component has never failed in testing. So the engine will not fail in service.",
+      "E": "Each of the firm's attorneys is highly persuasive. So the firm's legal team will be highly persuasive when it argues the case together."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Reversal: this infers from the whole to each part (division). The stimulus infers from each part to the whole (composition).",
+      "B": "Half right: it moves from each part to the whole, but weight is additive, so the inference is valid. Reliability, like persuasiveness, is not additive.",
+      "C": "Opposite: a grammatical error is an error in some sentence, so if every sentence is correct the essay has none. Valid.",
+      "D": "Wrong part: this reasons from one component, not from every component, and from past testing to future service. Its flaw is a hasty generalization, not composition.",
+      "E": "Stimulus: every part has property P, so the whole has P, where P (reliability) depends on how the parts interact. This choice: each attorney is persuasive, so the team is persuasive, a property that depends on how the attorneys work together. Same composition flaw."
+    },
+    "trapPatterns": {
+      "A": "reversal",
+      "B": "half_right",
+      "C": "opposite",
+      "D": "wrong_part"
+    },
+    "keyTakeaway": "Part-to-whole is only a flaw when the property is not additive; check the direction (part to whole vs whole to part) and the property.",
+    "predictionHint": "Composition: every part is X, so the whole is X, with an interaction-dependent X."
+  },
+  {
+    "id": "lr-parallel-flaw-research-budget-profit",
+    "section": "LR",
+    "type": "parallel_flaw",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 3,
+    "stimulus": "Business columnist: A recent survey of the nation’s largest firms found that companies with large research budgets tend to be highly profitable, whereas companies that spend little on research tend to be less profitable. Hence, spending heavily on research makes a company highly profitable.",
+    "stem": "The flawed reasoning in which one of the following is most similar to that in the argument above?",
+    "choices": {
+      "A": "Spending heavily on research makes a company highly profitable. Vellum Industries does not spend heavily on research. Hence, Vellum Industries is not highly profitable.",
+      "B": "Of the twenty highly profitable companies surveyed, most had large research budgets. Hence, most companies with large research budgets are highly profitable.",
+      "C": "Towns with many public parks tend to have low rates of crime. Hence, building public parks in a town lowers its crime rate.",
+      "D": "Companies that spend heavily on research tend to be profitable, and Orrin Chemical spends heavily on research. Hence, Orrin Chemical is probably profitable.",
+      "E": "Students who sit in the front row tend to receive higher grades than those at the back. Hence, where a student sits must be the only factor that determines the student's grades."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Shell game: this treats a cause as necessary for its effect (no research spending, so no profit), a conditional error, not an inference from correlation to causation.",
+      "B": "Reversal: this is a sampling and proportion error, inferring 'most B are A' from 'most of the surveyed A are B.' It draws no causal conclusion.",
+      "C": "Stimulus: A and B are correlated ('tend to'), therefore A causes B, ignoring that profit might fund research or that a third factor drives both. This choice: parks correlate with low crime, therefore parks lower crime. Same correlation-to-causation leap.",
+      "D": "Opposite: applying a tendency to a particular case with 'probably' is a reasonable statistical inference, not a flaw.",
+      "E": "Half right: it starts from a correlation, but its error is the word 'only,' an overstatement about exclusivity, rather than the simple inference that the correlate is a cause."
+    },
+    "trapPatterns": {
+      "A": "shell_game",
+      "B": "reversal",
+      "D": "opposite",
+      "E": "half_right"
+    },
+    "keyTakeaway": "Correlation-to-causation parallels must both start from 'tend to' or 'are associated with' and end with 'makes' or 'causes'; extra words like 'only' change the flaw.",
+    "predictionHint": "X correlates with Y, therefore X causes Y."
+  },
+  {
+    "id": "lr-parallel-flaw-desalination-proposal",
+    "section": "LR",
+    "type": "parallel_flaw",
+    "logicTags": [
+      "conditional"
+    ],
+    "difficulty": 4,
+    "stimulus": "A proposal will be funded by the agency only if it is both technically feasible and endorsed by the review panel. The desalination proposal is technically feasible, and the panel has endorsed it. Therefore the desalination proposal will be funded by the agency.",
+    "stem": "The flawed reasoning in which one of the following is most similar to that in the argument above?",
+    "choices": {
+      "A": "A proposal will be funded by the agency only if it is technically feasible and endorsed by the review panel. The recycling proposal is not technically feasible. Therefore the panel will not endorse the recycling proposal.",
+      "B": "A student may enroll in the seminar only if she has completed the prerequisite course and obtained the instructor's permission. Dana has completed the prerequisite and obtained the instructor's permission. Therefore Dana may enroll in the seminar.",
+      "C": "A contract is enforceable only if it has been signed by both parties. The lease was not signed by both parties. Therefore the lease is not enforceable.",
+      "D": "A proposal will be funded by the agency only if it is technically feasible and endorsed by the review panel. The transit proposal was funded by the agency. Therefore the review panel endorsed the transit proposal.",
+      "E": "A plant of this species will flower only if it receives at least six hours of light daily and is watered regularly. This plant receives six hours of light daily but is not watered regularly. Therefore it will not flower."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Shell game: it matches the topic but commits a different error, treating two separately necessary conditions as if one depended on the other. The stimulus's error is treating necessary conditions as jointly sufficient.",
+      "B": "Stimulus: 'only if' gives two necessary conditions; both are satisfied; the argument concludes the outcome follows. That mistakes necessary for sufficient. This choice: 'only if' gives two necessary conditions; Dana meets both; so she may enroll. Identical flaw.",
+      "C": "Opposite: this denies a necessary condition and concludes the outcome fails. That is valid.",
+      "D": "Half right: same 'only if... and' setup and same topic, but it affirms the outcome and infers a necessary condition, which is valid.",
+      "E": "Wrong part: it matches the two-condition 'only if' form, but one condition fails and the conclusion is negative. Denying a necessary condition is valid; the stimulus affirms both conditions."
+    },
+    "trapPatterns": {
+      "A": "shell_game",
+      "C": "opposite",
+      "D": "half_right",
+      "E": "wrong_part"
+    },
+    "keyTakeaway": "With 'only if' conditions, satisfying all of them proves nothing; failing any one proves the outcome fails. Match which move the argument makes.",
+    "predictionHint": "Necessary conditions met, so outcome follows: necessary mistaken for sufficient."
+  },
+  {
+    "id": "lr-parallel-flaw-workshop-lead-pigment",
+    "section": "LR",
+    "type": "parallel_flaw",
+    "logicTags": [
+      "quantifiers",
+      "conditional"
+    ],
+    "difficulty": 4,
+    "stimulus": "None of the paintings attributed to the Marrow workshop uses lead-based white pigment. Some of the paintings in the Hallam collection do not use lead-based white pigment. Therefore some of the paintings in the Hallam collection were produced by the Marrow workshop.",
+    "stem": "The flawed reasoning in which one of the following is most similar to that in the argument above?",
+    "choices": {
+      "A": "No member of the hiking club owns a car. Some residents of the dormitory own cars. Therefore some residents of the dormitory are not members of the hiking club.",
+      "B": "No employee of the clinic is permitted to accept gifts from suppliers. Everyone on the purchasing committee is an employee of the clinic. Therefore no one on the purchasing committee is permitted to accept gifts from suppliers.",
+      "C": "No graduate of the academy was hired by the firm this year. Some of the applicants this year were not graduates of the academy. Therefore some of the applicants this year were hired by the firm.",
+      "D": "None of the paintings attributed to the Marrow workshop uses lead-based white pigment. Some of the paintings in the Hallam collection use lead-based white pigment. Therefore some of the paintings in the Hallam collection were not produced by the Marrow workshop.",
+      "E": "No member of the choir reads music fluently. Some of the people at the rehearsal do not read music fluently. Therefore some of the people at the rehearsal are members of the choir."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Opposite: no A are B; some C are B; so some C are not A. That is valid, since anything with B cannot be an A.",
+      "B": "Opposite: no A are B; all C are A; so no C are B. A valid chain.",
+      "C": "Shell game: no A are B; some C are not A; so some C are B. This denies the antecedent (not an academy graduate, so hired). The stimulus instead affirms a shared property: lacking lead white is what workshop paintings have, and the Hallam paintings also lack it.",
+      "D": "Half right: identical topic and premises in form, but the second premise says the Hallam paintings 'use' lead white and the conclusion is negative. That is the valid inference the stimulus should have drawn.",
+      "E": "Stimulus: no A are B; some C are not B; therefore some C are A. Sharing the absence of a property with all A's does not make something an A. This choice: no choir member reads fluently; some attendees do not read fluently; so some attendees are choir members. Exact match."
+    },
+    "trapPatterns": {
+      "A": "opposite",
+      "B": "opposite",
+      "C": "shell_game",
+      "D": "half_right"
+    },
+    "keyTakeaway": "Write the stimulus as symbols, including negations, before comparing; 'some C are not B' and 'some C are not A' are different premises.",
+    "predictionHint": "No A are B; some C are not B; so some C are A: affirming a shared absence."
+  },
+  {
+    "id": "lr-parallel-method-liquor-license-sprinklers",
+    "section": "LR",
+    "type": "parallel_method",
+    "logicTags": [
+      "conditional"
+    ],
+    "difficulty": 2,
+    "stimulus": "Any restaurant that wants to obtain a liquor license must pass a fire inspection, and no restaurant passes a fire inspection without installing a sprinkler system. The Corner Bistro has not installed a sprinkler system. So the Corner Bistro will not obtain a liquor license.",
+    "stem": "The pattern of reasoning in which one of the following is most similar to that in the argument above?",
+    "choices": {
+      "A": "Anyone who wishes to practice law in this province must pass the bar examination, and no one passes the bar examination without completing a law degree. Teodor has completed a law degree. So Teodor will pass the bar examination.",
+      "B": "Anyone who wishes to practice law in this province must pass the bar examination. Teodor has passed the bar examination. So Teodor wishes to practice law in this province.",
+      "C": "Anyone who wishes to practice law in this province must pass the bar examination, and no one passes the bar examination without completing a law degree. Teodor has not completed a law degree. So Teodor will not practice law in this province.",
+      "D": "No restaurant passes a fire inspection without installing a sprinkler system. The Harbor Grill has not installed a sprinkler system. So the Harbor Grill has not passed a fire inspection.",
+      "E": "Most restaurants that want a liquor license pass a fire inspection, and most that pass a fire inspection have sprinkler systems. The Corner Bistro has no sprinkler system. So it probably will not obtain a liquor license."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Shell game: it has the same two-link chain but then affirms the final necessary condition (degree) and concludes an earlier one (passing the bar). That is invalid; the stimulus is valid.",
+      "B": "Reversal: this affirms the necessary condition (passed the bar) and concludes the sufficient one (wishes to practice). The stimulus denies the last necessary condition.",
+      "C": "Stimulus: license → inspection → sprinklers; no sprinklers; therefore no license. A two-step contrapositive. This choice: practice → bar → degree; no degree; therefore no practice. Same valid chain.",
+      "D": "Half right: this is a valid contrapositive, but it uses only one conditional. The stimulus chains two conditionals before applying the contrapositive.",
+      "E": "Wrong force: 'most' replaces the universal conditions, so the chain does not hold and the conclusion is hedged with 'probably.' The stimulus is deductive."
+    },
+    "trapPatterns": {
+      "A": "shell_game",
+      "B": "reversal",
+      "D": "half_right",
+      "E": "wrong_force"
+    },
+    "keyTakeaway": "Count the links: a two-conditional chain followed by a contrapositive must be matched by a two-conditional chain, not a single step.",
+    "predictionHint": "A → B → C; not C; therefore not A."
+  },
+  {
+    "id": "lr-parallel-method-bridge-collapse-causes",
+    "section": "LR",
+    "type": "parallel_method",
+    "logicTags": [
+      "eliminating_options"
+    ],
+    "difficulty": 3,
+    "stimulus": "The bridge collapsed either because of a design error, because of substandard materials, or because of overloading. Tests show that the materials met every specification, and records show that the bridge was carrying less than half its rated load at the time. So the collapse was caused by a design error.",
+    "stem": "The pattern of reasoning in which one of the following is most similar to that in the argument above?",
+    "choices": {
+      "A": "The manuscript was produced either in the twelfth century, the thirteenth century, or the fourteenth century. Its binding uses a technique not developed until the thirteenth century, and its ink is of a type that ceased to be produced before 1300. So the manuscript was produced in the thirteenth century.",
+      "B": "The missing ledger was probably taken by the bookkeeper, the night clerk, or the courier. The bookkeeper and the night clerk were both out of town that week. So the courier took the ledger.",
+      "C": "The bridge collapsed either because of a design error, because of substandard materials, or because of overloading. Tests show that the materials met every specification. So the collapse was caused by a design error.",
+      "D": "The tower collapsed in the earthquake just as the older tower across the river did in the earthquake of 1912, and that collapse was traced to a design error. So this collapse was also caused by a design error.",
+      "E": "The patient's symptoms are caused either by an infection or by an allergy. Laboratory tests have confirmed an infection. So the patient's symptoms are not caused by an allergy."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Stimulus: exactly three possibilities are stated; two are ruled out by separate pieces of evidence; the third is concluded. This choice: three centuries; the binding rules out the twelfth, the ink rules out the fourteenth; the thirteenth is concluded. Same elimination structure.",
+      "B": "Wrong force: 'probably' means the three options are not stated as exhaustive, so eliminating two does not establish the third with the certainty the conclusion claims. The stimulus's disjunction is exhaustive ('either... or').",
+      "C": "Half right: identical topic and setup, but it eliminates only one of three options and still concludes a single remaining cause. That is a flaw the stimulus does not commit.",
+      "D": "Out of scope: this reasons by analogy from a similar past event, not by eliminating alternatives.",
+      "E": "Shell game: this confirms one disjunct and concludes the other is false, which is invalid unless the options are exclusive. The stimulus eliminates alternatives to affirm what remains."
+    },
+    "trapPatterns": {
+      "B": "wrong_force",
+      "C": "half_right",
+      "D": "out_of_scope",
+      "E": "shell_game"
+    },
+    "keyTakeaway": "Elimination arguments are valid only when the option list is exhaustive and every alternative but one is removed; check both the count and the certainty.",
+    "predictionHint": "Exhaustive three-way disjunction; two eliminated by evidence; third concluded."
+  },
+  {
+    "id": "lr-parallel-method-greenhouse-flowering",
+    "section": "LR",
+    "type": "parallel_method",
+    "logicTags": [
+      "conditional",
+      "causation"
+    ],
+    "difficulty": 3,
+    "stimulus": "Plants of this species flower only when nighttime temperatures stay above ten degrees for at least two weeks. In the greenhouse, nighttime temperatures have stayed above ten degrees for the past month, yet the plants have not flowered. So some factor other than temperature must be preventing them from flowering.",
+    "stem": "The pattern of reasoning in which one of the following is most similar to that in the argument above?",
+    "choices": {
+      "A": "This engine starts only when the battery holds a charge of at least twelve volts. The battery currently holds nine volts. So the engine will not start.",
+      "B": "Whenever the battery holds a charge of at least twelve volts, this engine starts. The battery has held thirteen volts all week, yet the engine has not started. So the battery gauge must be faulty.",
+      "C": "This engine starts only when the battery holds a charge of at least twelve volts. The engine started this morning. So the battery held at least twelve volts this morning.",
+      "D": "This engine starts only when the battery holds a charge of at least twelve volts. The battery has held thirteen volts all week, yet the engine has not started. So something other than the battery's charge must be preventing the engine from starting.",
+      "E": "Plants of this species flower only when nighttime temperatures stay above ten degrees for at least two weeks. In the greenhouse, nighttime temperatures have stayed above ten degrees for the past month. So the plants will flower soon."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Wrong part: this denies the necessary condition and concludes the outcome fails. The stimulus's necessary condition is satisfied.",
+      "B": "Shell game: 'whenever' makes the charge sufficient, so the engine's failure contradicts the premises and the argument rejects a measurement. The stimulus's condition is merely necessary, so no premise is rejected.",
+      "C": "Reversal of the move: this affirms the outcome and infers the necessary condition, a valid but different inference. The stimulus starts from a failed outcome.",
+      "D": "Stimulus: condition N is necessary for outcome O; N holds; O fails; therefore some other necessary condition is unmet. This choice: twelve volts is necessary; thirteen volts held; engine did not start; so something else is preventing it. Same structure.",
+      "E": "Necessary vs sufficient: same topic, but it treats the satisfied necessary condition as sufficient and predicts flowering. The stimulus explicitly refuses that inference."
+    },
+    "trapPatterns": {
+      "A": "wrong_part",
+      "B": "shell_game",
+      "C": "reversal",
+      "E": "necessary_v_sufficient"
+    },
+    "keyTakeaway": "'Only when' is necessary, not sufficient; when the necessary condition holds and the outcome still fails, the valid inference is that another condition is missing.",
+    "predictionHint": "Necessary condition met, outcome absent, so another factor is blocking it."
+  },
+  {
+    "id": "lr-parallel-method-reproducible-art",
+    "section": "LR",
+    "type": "parallel_method",
+    "logicTags": [
+      "quantifiers"
+    ],
+    "difficulty": 3,
+    "stimulus": "Some claim that any work of art that can be reproduced mechanically loses its value as art. But photographs can be reproduced mechanically, and several photographs are widely and rightly regarded as great works of art. So the claim is false.",
+    "stem": "The pattern of reasoning in which one of the following is most similar to that in the argument above?",
+    "choices": {
+      "A": "Some claim that most works of art that can be reproduced mechanically lose their value as art. But this photograph can be reproduced mechanically and has not lost its value as art. So the claim is false.",
+      "B": "It has been argued that no species can survive the complete loss of its native habitat. But Pell's finch has lost its native habitat entirely, and it continues to thrive in city parks. So the argument's generalization is mistaken.",
+      "C": "Photographs can be reproduced mechanically, and most photographs are not regarded as works of art at all. So works of art that can be reproduced mechanically generally lose their value as art.",
+      "D": "Leading critics deny that mechanical reproducibility diminishes a work's value as art. Since those critics are the best judges of artistic value, reproducibility does not diminish a work's value as art.",
+      "E": "Some claim that any work of art that can be reproduced mechanically loses its value as art. But paintings cannot be reproduced mechanically, and paintings retain their value as art. So the claim is confirmed."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Wrong force: the claim attacked is a 'most' claim, and a single counterexample cannot refute a 'most' generalization. The stimulus refutes an 'any' (universal) claim, which a counterexample does defeat.",
+      "B": "Stimulus: a universal claim (any reproducible work loses value) is refuted by an instance that satisfies the antecedent (reproducible) but not the consequent (retains value). This choice: a universal (no species survives habitat loss) is refuted by a species that lost its habitat and survives. Same counterexample method.",
+      "C": "Opposite: this argues toward a generalization from examples, the reverse of refuting one.",
+      "D": "Shell game: this appeals to the authority of experts rather than producing a counterexample.",
+      "E": "Half right: identical topic and opening, but paintings do not satisfy the antecedent (they cannot be reproduced), so they neither confirm nor refute the claim. The reasoning is flawed and different."
+    },
+    "trapPatterns": {
+      "A": "wrong_force",
+      "C": "opposite",
+      "D": "shell_game",
+      "E": "half_right"
+    },
+    "keyTakeaway": "A counterexample refutes a universal only if it satisfies the antecedent and fails the consequent; it does nothing against a 'most' claim.",
+    "predictionHint": "Universal claim; a case with the condition but not the result; claim rejected."
+  },
+  {
+    "id": "lr-parallel-method-treasury-figures",
+    "section": "LR",
+    "type": "parallel_method",
+    "logicTags": [
+      "conditional"
+    ],
+    "difficulty": 4,
+    "stimulus": "If the treasury's figures are accurate, then the region's exports grew last year. But if the treasury's figures are accurate, then regional factory output fell last year, and exports cannot grow in a year when factory output falls. So the treasury's figures are not accurate.",
+    "stem": "The pattern of reasoning in which one of the following is most similar to that in the argument above?",
+    "choices": {
+      "A": "If the witness is telling the truth, the car was parked on Elm Street at midnight. But the car was not parked on Elm Street at midnight. So the witness is not telling the truth.",
+      "B": "If the witness is telling the truth, the car was parked on Elm Street at midnight. If the car was parked on Elm Street at midnight, the attendant would have logged it. The witness is telling the truth. So the attendant logged the car.",
+      "C": "If the witness is telling the truth, the car was parked on Elm Street at midnight. If the witness is telling the truth, the car's engine was warm when police arrived. The car was parked on Elm Street at midnight, and its engine was warm when police arrived. So the witness is telling the truth.",
+      "D": "If the witness is telling the truth, the car was parked on Elm Street at midnight. But the street was closed for repaving that night, and no car can be parked on a street that is closed for repaving. So the witness is not telling the truth.",
+      "E": "If the witness is telling the truth, the car was parked on Elm Street at midnight. But if the witness is telling the truth, the car's engine was still warm when police arrived at one o'clock, and an engine cannot remain warm after an hour parked on a winter night. So the witness is not telling the truth."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Half right: it ends with the same conclusion by modus tollens, but the denial of the consequent is supplied as a flat fact. The stimulus derives the denial from a second consequence of the same hypothesis.",
+      "B": "Wrong part: this is a forward chain that affirms the antecedent; nothing is rejected.",
+      "C": "Reversal: this affirms both consequents and concludes the antecedent, which is invalid. The stimulus validly rejects the antecedent.",
+      "D": "Shell game: the second premise ('street was closed') is independent of the hypothesis; it is an outside fact that contradicts the consequent. In the stimulus, both incompatible consequences flow from the same hypothesis, so the hypothesis is self-undermining.",
+      "E": "Stimulus: H → A; H → B; B rules out A; therefore not H. This choice: truthful → parked at midnight; truthful → engine warm at one; warm engine rules out parked at midnight; therefore not truthful. Same structure of deriving incompatible consequences from one hypothesis."
+    },
+    "trapPatterns": {
+      "A": "half_right",
+      "B": "wrong_part",
+      "C": "reversal",
+      "D": "shell_game"
+    },
+    "keyTakeaway": "When a hypothesis implies two things that cannot both be true, the hypothesis is rejected; a parallel must draw both consequences from the same hypothesis.",
+    "predictionHint": "H implies A and H implies B, but A and B conflict, so not H."
+  },
+  {
+    "id": "lr-parallel-method-port-customs-inspection",
+    "section": "LR",
+    "type": "parallel_method",
+    "logicTags": [
+      "quantifiers"
+    ],
+    "difficulty": 4,
+    "stimulus": "Most of the grant applications submitted this year came from early-career researchers. Every application from an early-career researcher was reviewed by the junior panel. No application reviewed by the junior panel was funded in full. So most of this year's grant applications were not funded in full.",
+    "stem": "The pattern of reasoning in which one of the following is most similar to that in the argument above?",
+    "choices": {
+      "A": "Most of the ships that docked at the port last month were registered abroad. Every ship registered abroad was inspected by customs. No ship inspected by customs was permitted to unload the same day. So no ship that docked at the port last month was permitted to unload the same day.",
+      "B": "Most of the ships that docked at the port last month were registered abroad. Most ships registered abroad were inspected by customs. No ship inspected by customs was permitted to unload the same day. So most of the ships that docked at the port last month were not permitted to unload the same day.",
+      "C": "Most of the ships that docked at the port last month were registered abroad. Every ship registered abroad was inspected by customs. No ship inspected by customs was permitted to unload the same day. So most of the ships that docked at the port last month were not permitted to unload the same day.",
+      "D": "Every ship that docked at the port last month was registered abroad. Most ships registered abroad were inspected by customs. No ship inspected by customs was permitted to unload the same day. So most of the ships that docked at the port last month were not permitted to unload the same day.",
+      "E": "Most of the ships that docked at the port last month were registered abroad. Every ship registered abroad was inspected by customs. Some ships inspected by customs were not permitted to unload the same day. So some of the ships that docked at the port last month were not permitted to unload the same day."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Extreme: identical premises, but the conclusion is 'no ship' rather than 'most.' The premises say nothing about the minority of ships not registered abroad, so 'no' is unsupported.",
+      "B": "Half right: the second premise is 'most' instead of 'every,' so the chain from docked ships to inspected ships breaks; most of a most need not be most.",
+      "C": "Stimulus: most A are B; all B are C; no C are D; therefore most A are not D. Each step preserves the 'most' because the later premises are universal. This choice has exactly that shape: most docked ships were foreign; all foreign ships were inspected; no inspected ship unloaded; so most docked ships did not unload.",
+      "D": "Shell game: it swaps the quantifiers, 'every' in the first premise and 'most' in the second. The conclusion happens to be valid, but the structure differs from the stimulus, whose 'most' is in the first premise.",
+      "E": "Wrong force: 'some ships inspected... were not permitted' does not guarantee any of those were docked ships, so the conclusion does not follow. The stimulus's third premise is universal ('no')."
+    },
+    "trapPatterns": {
+      "A": "extreme",
+      "B": "half_right",
+      "D": "shell_game",
+      "E": "wrong_force"
+    },
+    "keyTakeaway": "In quantifier parallels, match the position of every 'most,' 'every,' and 'no'; moving a quantifier changes the structure even when validity survives.",
+    "predictionHint": "Most A are B; all B are C; no C are D; so most A are not D."
+  },
+  {
+    "id": "lr-point-at-issue-red-light-cameras",
+    "section": "LR",
+    "type": "point_at_issue",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 1,
+    "stimulus": "Mayor: The city should install cameras at every major intersection. The cameras reduce red-light violations, and fewer violations mean fewer collisions.\n\nCouncil member: Red-light cameras do reduce violations. But studies show that drivers stop abruptly to avoid tickets, causing rear-end collisions. Installing the cameras would not make our intersections safer.",
+    "stem": "The dialogue most supports the claim that the mayor and the council member disagree about whether",
+    "choices": {
+      "A": "red-light cameras reduce red-light violations",
+      "B": "installing red-light cameras would make the city's intersections safer",
+      "C": "the city can afford to install cameras at every major intersection",
+      "D": "reducing red-light violations should be the primary goal of the city's traffic policy",
+      "E": "drivers stop abruptly at camera-equipped intersections to avoid tickets"
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Opposite: both speakers affirm this; the council member says 'cameras do reduce violations.' It is a point of agreement.",
+      "B": "The mayor argues cameras mean fewer collisions, that is, safer intersections; the council member concludes they 'would not make our intersections safer.' One affirms, one denies.",
+      "C": "Out of scope: neither speaker mentions cost.",
+      "D": "Shell game: it borrows the word 'violations,' but neither speaker says what the 'primary goal' of traffic policy should be.",
+      "E": "Out of scope: only the council member addresses this; the mayor takes no position on abrupt stopping."
+    },
+    "trapPatterns": {
+      "A": "opposite",
+      "C": "out_of_scope",
+      "D": "shell_game",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "The point at issue must be something both speakers have taken a stand on; a claim only one speaker mentions cannot be it.",
+    "predictionHint": "Whether the cameras make intersections safer."
+  },
+  {
+    "id": "lr-point-at-issue-elementary-homework",
+    "section": "LR",
+    "type": "point_at_issue",
+    "logicTags": [
+      "value_judgment"
+    ],
+    "difficulty": 1,
+    "stimulus": "Teacher: Homework should be abolished in elementary school. Young children learn best through play, and homework takes time away from it.\n\nParent: I agree that young children learn best through play. But a small amount of homework teaches children to manage their time, a skill that play alone does not develop.",
+    "stem": "The teacher and the parent disagree over whether",
+    "choices": {
+      "A": "young children learn best through play",
+      "B": "a small amount of homework teaches children to manage their time",
+      "C": "children can learn to manage their time without being assigned any homework",
+      "D": "homework should be abolished in elementary school",
+      "E": "elementary schools currently assign too much homework"
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Opposite: the parent explicitly says 'I agree' with this claim. It is common ground.",
+      "B": "Out of scope: only the parent asserts this; the teacher says nothing about time management.",
+      "C": "Out of scope: the parent denies this ('play alone does not develop' it), but the teacher never addresses time management at all.",
+      "D": "The teacher's first sentence asserts it; the parent's 'But' and defense of 'a small amount of homework' deny it. This is the point at issue.",
+      "E": "Shell game: neither speaker discusses how much homework is currently assigned; the teacher wants none, the parent wants a small amount, but 'too much' is a different question."
+    },
+    "trapPatterns": {
+      "A": "opposite",
+      "B": "out_of_scope",
+      "C": "out_of_scope",
+      "E": "shell_game"
+    },
+    "keyTakeaway": "'I agree that...' flags a shared premise; the disagreement is the conclusion the 'But' leads away from.",
+    "predictionHint": "Whether elementary homework should be abolished."
+  },
+  {
+    "id": "lr-point-at-issue-hanseatic-decline",
+    "section": "LR",
+    "type": "point_at_issue",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 2,
+    "stimulus": "Historian: The decline of the Hanseatic trading league was caused primarily by the rise of centralized nation-states, which could enforce trade monopolies the league could not match.\n\nEconomist: The nation-states' monopolies certainly hurt the league. But the league was already in decline before those monopolies were established, because its merchants had failed to adopt the double-entry bookkeeping that gave their Italian rivals a decisive advantage.",
+    "stem": "The dialogue most supports the claim that the historian and the economist disagree about whether",
+    "choices": {
+      "A": "the rise of centralized nation-states was the primary cause of the Hanseatic league's decline",
+      "B": "the trade monopolies enforced by nation-states harmed the Hanseatic league",
+      "C": "the league's merchants failed to adopt double-entry bookkeeping",
+      "D": "the Hanseatic league would have survived into the modern era if its merchants had adopted double-entry bookkeeping",
+      "E": "the league's decline had begun before the nation-states established their trade monopolies"
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "The historian asserts the nation-states were the 'primary' cause. The economist, by locating the decline's onset before the monopolies and attributing it to bookkeeping, denies that they were primary. Affirmed by one, denied by the other.",
+      "B": "Opposite: the economist says the monopolies 'certainly hurt the league,' agreeing with the historian.",
+      "C": "Out of scope: only the economist makes this claim; the historian neither affirms nor denies it.",
+      "D": "Extreme: the economist says the failure caused decline, not that adopting bookkeeping would have guaranteed survival; the historian says nothing about it.",
+      "E": "Out of scope: the economist asserts this, but the historian's claim about the 'primary' cause does not commit the historian to denying that decline had begun earlier."
+    },
+    "trapPatterns": {
+      "B": "opposite",
+      "C": "out_of_scope",
+      "D": "extreme",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "When one speaker says 'primarily' and the other offers a different, earlier cause, the disagreement is over primacy, not over whether the first cause mattered at all.",
+    "predictionHint": "Whether the nation-states were the main cause."
+  },
+  {
+    "id": "lr-point-at-issue-open-source-code",
+    "section": "LR",
+    "type": "point_at_issue",
+    "logicTags": [
+      "weighing_factors"
+    ],
+    "difficulty": 2,
+    "stimulus": "Software developer: Our company should release the source code of our scheduling application. Outside programmers will find and fix errors faster than our own team can, and the resulting improvements will benefit our customers.\n\nProduct manager: Outside programmers would indeed find errors faster. But they would also find errors faster than we could fix them, and publicly known but unfixed errors would expose our customers to harm. Releasing the code would therefore not benefit our customers.",
+    "stem": "The software developer and the product manager disagree over whether",
+    "choices": {
+      "A": "outside programmers would find errors in the application faster than the company's own team would",
+      "B": "the company's own team could never fix errors as quickly as outside programmers could find them",
+      "C": "publicly known but unfixed errors would expose the company's customers to harm",
+      "D": "the scheduling application currently contains errors that are harming customers",
+      "E": "releasing the application's source code would benefit the company's customers"
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Opposite: the product manager says outside programmers 'would indeed find errors faster'; both agree.",
+      "B": "Extreme: 'never' overstates the product manager's claim, which concerns this release, and the developer takes no stand on the team's fixing speed versus outsiders' finding speed.",
+      "C": "Out of scope: only the product manager raises this; the developer does not address unfixed errors.",
+      "D": "Out of scope: neither speaker discusses whether current errors are harming customers.",
+      "E": "The developer says improvements 'will benefit our customers'; the product manager concludes releasing the code 'would therefore not benefit our customers.' Direct contradiction."
+    },
+    "trapPatterns": {
+      "A": "opposite",
+      "B": "extreme",
+      "C": "out_of_scope",
+      "D": "out_of_scope"
+    },
+    "keyTakeaway": "Look for the clause one speaker asserts and the other negates almost word for word; concessions ('would indeed') mark agreement, not dispute.",
+    "predictionHint": "Whether releasing the code benefits customers."
+  },
+  {
+    "id": "lr-point-at-issue-poetry-translation",
+    "section": "LR",
+    "type": "point_at_issue",
+    "logicTags": [
+      "definition_scope",
+      "value_judgment"
+    ],
+    "difficulty": 3,
+    "stimulus": "Critic: A translation that departs from the literal meaning of the original in order to preserve its rhythm has failed as a translation, whatever its merits as a poem. The translator's first duty is fidelity to meaning.\n\nTranslator: Rhythm is part of a poem's meaning. A rendering that conveys the words but loses the music has preserved less of the original's meaning than one that adjusts the words to keep the music.",
+    "stem": "The dialogue most supports the claim that the critic and the translator disagree about whether",
+    "choices": {
+      "A": "a translator's first duty is fidelity to the meaning of the original",
+      "B": "a translation that departs from the literal meaning of the original can have merit as a poem",
+      "C": "a translation can be faithful to a poem's meaning while departing from the literal sense of its words",
+      "D": "preserving a poem's rhythm is more important than preserving the meaning of its words",
+      "E": "most translations of poetry fail to preserve the rhythm of the original"
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Opposite: the translator accepts fidelity to meaning as the standard and argues about what meaning includes. Both endorse the duty.",
+      "B": "Opposite: the critic concedes such translations may have 'merits as a poem,' and the translator certainly agrees. Not disputed.",
+      "C": "The critic holds that departing from literal meaning is a failure of fidelity. The translator holds that adjusting the words to keep the rhythm preserves more meaning, so such a translation can be faithful. One denies, one affirms.",
+      "D": "Shell game: the translator does not rank rhythm above meaning; the claim is that rhythm is part of meaning. Neither speaker asserts this priority.",
+      "E": "Out of scope: neither speaker makes any claim about how many translations succeed or fail."
+    },
+    "trapPatterns": {
+      "A": "opposite",
+      "B": "opposite",
+      "D": "shell_game",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "When speakers share a principle but define a key term differently, the point at issue is the application the definition changes, not the principle itself.",
+    "predictionHint": "Whether altering the words to keep rhythm can still be faithful to meaning."
+  },
+  {
+    "id": "lr-point-at-issue-treatment-statistics",
+    "section": "LR",
+    "type": "point_at_issue",
+    "logicTags": [
+      "value_judgment",
+      "mental_state_v_reality"
+    ],
+    "difficulty": 3,
+    "stimulus": "Physician: Patients should not be told the statistical likelihood that a treatment will succeed. Such figures describe populations, not individuals, and patients routinely misread them as predictions about their own cases.\n\nEthicist: Patients do often misread such figures. That is a reason to explain the figures carefully, not to withhold them. Withholding information a patient would want in order to decide is incompatible with respecting the patient's autonomy.",
+    "stem": "The physician and the ethicist disagree over whether",
+    "choices": {
+      "A": "patients should be told the statistical likelihood that a treatment will succeed",
+      "B": "patients often misinterpret statistical information about the likelihood of a treatment's success",
+      "C": "statistical figures about treatment success describe populations rather than individuals",
+      "D": "respecting a patient's autonomy requires providing every piece of information the patient requests",
+      "E": "physicians are able to explain statistical figures clearly enough to prevent patients from misreading them"
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "The physician says patients 'should not be told'; the ethicist says the misreading problem is a reason to explain the figures, 'not to withhold them.' Denied by one, affirmed by the other.",
+      "B": "Opposite: the ethicist opens with 'Patients do often misread such figures,' agreeing with the physician.",
+      "C": "Out of scope: the physician asserts this; the ethicist never disputes it.",
+      "D": "Extreme: the ethicist's principle concerns information 'a patient would want in order to decide,' not 'every piece of information the patient requests.' The physician does not address autonomy at all.",
+      "E": "Out of scope: the ethicist recommends careful explanation but does not claim it always prevents misreading, and the physician does not discuss physicians' explanatory ability."
+    },
+    "trapPatterns": {
+      "B": "opposite",
+      "C": "out_of_scope",
+      "D": "extreme",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "The second speaker often concedes the first speaker's premise and disputes only the recommendation; the recommendation is the point at issue.",
+    "predictionHint": "Whether patients should be given the statistics."
+  },
+  {
+    "id": "lr-must-be-true-bellweather-balconies",
+    "section": "LR",
+    "type": "must_be_true",
+    "logicTags": [
+      "conditional",
+      "quantifiers"
+    ],
+    "difficulty": 1,
+    "stimulus": "All of the apartments in the Bellweather building have balconies. None of the apartments with balconies in that building is rented to tenants who keep pets, a rule the building’s management enforces strictly. Some of the apartments in the Bellweather building are rented to students.",
+    "stem": "If the statements above are true, which one of the following must also be true?",
+    "choices": {
+      "A": "Most of the apartments in the Bellweather building are rented to students.",
+      "B": "Some apartments without balconies are rented to tenants who keep pets.",
+      "C": "Tenants who keep pets are not permitted in any building whose apartments have balconies.",
+      "D": "Some of the students who rent apartments in the Bellweather building have no balcony.",
+      "E": "No student who rents an apartment in the Bellweather building keeps a pet."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Extreme: 'some' apartments are rented to students; 'most' goes beyond the premises.",
+      "B": "Out of scope: the statements say nothing about apartments without balconies anywhere.",
+      "C": "Extreme: the rule concerns one building; 'any building' generalizes beyond it.",
+      "D": "Opposite: every apartment in the building has a balcony, so no student renter there lacks one.",
+      "E": "Every Bellweather apartment has a balcony, and no balcony apartment there goes to a pet-keeping tenant. Student renters in the building are tenants of balcony apartments, so none keeps a pet."
+    },
+    "trapPatterns": {
+      "A": "extreme",
+      "B": "out_of_scope",
+      "C": "extreme",
+      "D": "opposite"
+    },
+    "keyTakeaway": "Chain the universals first (all → none), then apply the 'some' group to the chain.",
+    "predictionHint": "Students there have balcony apartments, so no pets."
+  },
+  {
+    "id": "lr-must-be-true-forklift-certificate",
+    "section": "LR",
+    "type": "must_be_true",
+    "logicTags": [
+      "conditional"
+    ],
+    "difficulty": 2,
+    "stimulus": "Every employee who completed the safety course received a certificate. Only employees who received a certificate were permitted to operate the forklift. Raúl operated the forklift last week, and he was permitted to do so. Mei did not complete the safety course.",
+    "stem": "If the statements above are true, which one of the following must also be true?",
+    "choices": {
+      "A": "Raúl completed the safety course.",
+      "B": "Raúl received a certificate.",
+      "C": "Mei did not receive a certificate.",
+      "D": "Mei was not permitted to operate the forklift.",
+      "E": "Every employee who received a certificate was permitted to operate the forklift."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Reversal: the course guarantees a certificate, not the other way around; Raúl may have obtained his certificate another way.",
+      "B": "'Only' makes a certificate necessary for permission. Raúl was permitted, so he received a certificate.",
+      "C": "Reversal: not completing the course does not rule out a certificate, since the course is sufficient, not necessary, for one.",
+      "D": "Necessary vs sufficient: Mei's permission depends on a certificate, which she may still have. Nothing forbids it.",
+      "E": "Extreme: 'only' certificate holders were permitted does not mean all of them were; some may have been denied for other reasons."
+    },
+    "trapPatterns": {
+      "A": "reversal",
+      "C": "reversal",
+      "D": "necessary_v_sufficient",
+      "E": "extreme"
+    },
+    "keyTakeaway": "'Only X were permitted' makes X necessary for permission; it does not make permission follow from X, and 'every X got Y' does not make X the only route to Y.",
+    "predictionHint": "Permitted → certificate; Raúl was permitted."
+  },
+  {
+    "id": "lr-must-be-true-exhibition-insurance",
+    "section": "LR",
+    "type": "must_be_true",
+    "logicTags": [
+      "quantifiers"
+    ],
+    "difficulty": 2,
+    "stimulus": "Most of the paintings in the exhibition were lent by private collectors. All of the paintings lent by private collectors are insured by the gallery. Some of the paintings in the exhibition are on loan from museums, and none of those is insured by the gallery.",
+    "stem": "If the statements above are true, which one of the following must also be true?",
+    "choices": {
+      "A": "Most of the paintings insured by the gallery are in the exhibition.",
+      "B": "Some paintings lent by private collectors are not in the exhibition.",
+      "C": "All of the paintings in the exhibition that are insured by the gallery were lent by private collectors.",
+      "D": "Most of the paintings in the exhibition are insured by the gallery.",
+      "E": "Most paintings on loan from museums are not insured by the gallery."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Reversal: this flips the direction; the gallery may insure many paintings that are not in the exhibition.",
+      "B": "Out of scope: nothing is said about collector-lent paintings outside the exhibition.",
+      "C": "Reversal: all collector-lent paintings are insured, but other insured paintings in the exhibition could come from some third source.",
+      "D": "Most exhibition paintings came from private collectors, and all collector-lent paintings are insured; so more than half the exhibition paintings are insured.",
+      "E": "Shell game: the premise concerns museum loans 'in the exhibition,' not museum loans in general."
+    },
+    "trapPatterns": {
+      "A": "reversal",
+      "B": "out_of_scope",
+      "C": "reversal",
+      "E": "shell_game"
+    },
+    "keyTakeaway": "Most A are B plus all B are C yields most A are C; keep the scope ('in the exhibition') attached to every term.",
+    "predictionHint": "Most in the exhibition → collector-lent → insured."
+  },
+  {
+    "id": "lr-must-be-true-budget-auditor-objection",
+    "section": "LR",
+    "type": "must_be_true",
+    "logicTags": [
+      "conditional"
+    ],
+    "difficulty": 3,
+    "stimulus": "The committee will approve the budget unless the auditor files an objection. The auditor files an objection only if the budget includes unfunded commitments. The budget includes unfunded commitments only if the housing proposal is included in it. The housing proposal has been removed from the budget.",
+    "stem": "If the statements above are true, which one of the following must also be true?",
+    "choices": {
+      "A": "If the auditor had filed an objection, the committee would have rejected the budget.",
+      "B": "The budget would have included unfunded commitments if the housing proposal had remained in it.",
+      "C": "The committee will approve the budget.",
+      "D": "The auditor would have filed an objection if the budget had included unfunded commitments.",
+      "E": "The committee will approve the budget only because the housing proposal was removed."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Necessary vs sufficient: 'unless' says no objection guarantees approval; it does not say an objection guarantees rejection.",
+      "B": "Reversal: 'only if' makes the housing proposal necessary for unfunded commitments, not sufficient for them.",
+      "C": "No housing proposal → no unfunded commitments → no objection → (by 'unless') approval. Each link is the contrapositive of a stated conditional.",
+      "D": "Reversal: the auditor objects 'only if' there are unfunded commitments; unfunded commitments do not guarantee an objection.",
+      "E": "Extreme: 'only because' claims the removal was the sole reason; the premises establish approval, not its exclusive cause."
+    },
+    "trapPatterns": {
+      "A": "necessary_v_sufficient",
+      "B": "reversal",
+      "D": "reversal",
+      "E": "extreme"
+    },
+    "keyTakeaway": "'X unless Y' means not-Y → X; chain the contrapositives of the 'only if' statements back to it.",
+    "predictionHint": "No housing → no unfunded → no objection → approve."
+  },
+  {
+    "id": "lr-must-be-true-conference-stipends",
+    "section": "LR",
+    "type": "must_be_true",
+    "logicTags": [
+      "conditional",
+      "quantifiers"
+    ],
+    "difficulty": 4,
+    "stimulus": "At the conference, every presenter who was not also a session chair received a travel stipend. No one who received a travel stipend was reimbursed for meals. Some session chairs were reimbursed for meals, and every session chair was a presenter.",
+    "stem": "If the statements above are true, which one of the following must also be true?",
+    "choices": {
+      "A": "Every presenter who was reimbursed for meals was a session chair.",
+      "B": "Every session chair who did not receive a travel stipend was reimbursed for meals.",
+      "C": "No session chair received a travel stipend.",
+      "D": "Some presenters who were not session chairs were reimbursed for meals.",
+      "E": "Most presenters received a travel stipend."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "A presenter reimbursed for meals received no stipend (second statement). Any presenter without a stipend must be a session chair, since every non-chair presenter got one. So every meal-reimbursed presenter was a chair.",
+      "B": "Reversal: lacking a stipend is necessary for meal reimbursement, not sufficient. A chair might get neither.",
+      "C": "Extreme: the chairs who got meals did not get stipends, but other chairs may have; the stipend rule names only non-chairs as guaranteed recipients, not chairs as excluded.",
+      "D": "Opposite: non-chair presenters all received stipends, so none was reimbursed for meals.",
+      "E": "Wrong force: the number of chairs versus non-chairs is unknown, so 'most' cannot be established."
+    },
+    "trapPatterns": {
+      "B": "reversal",
+      "C": "extreme",
+      "D": "opposite",
+      "E": "wrong_force"
+    },
+    "keyTakeaway": "Contrapose through the chain: meals → no stipend → not (presenter and non-chair); combine with 'presenter' to force 'chair.'",
+    "predictionHint": "Meal reimbursement blocks the stipend, so a reimbursed presenter must be a chair."
+  },
+  {
+    "id": "lr-fill-in-blank-background-noise",
+    "section": "LR",
+    "type": "fill_in_blank",
+    "logicTags": [
+      "comparison"
+    ],
+    "difficulty": 1,
+    "stimulus": "Many people assume that the best way to improve concentration is to eliminate all background noise. Yet studies consistently find that people performing routine tasks make fewer errors with moderate background noise than in complete silence, and that only those performing highly complex tasks benefit from silence. For most office workers, whose tasks are routine, it follows that ____.",
+    "stem": "Which one of the following most logically completes the argument?",
+    "choices": {
+      "A": "complete silence will worsen their performance on highly complex tasks",
+      "B": "moderate background noise will eliminate errors entirely",
+      "C": "concentration cannot be improved by any change to the work environment",
+      "D": "a completely silent workspace would not be the best way to improve concentration",
+      "E": "loud background noise would improve concentration more than moderate noise would"
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Opposite: the premises say silence helps with complex tasks; this contradicts them and concerns the wrong task type.",
+      "B": "Extreme: 'fewer errors' does not support 'eliminate errors entirely.'",
+      "C": "Extreme: the studies show a change (moderate noise) does help; 'cannot be improved by any change' contradicts the premises.",
+      "D": "Routine-task workers do better with moderate noise than with silence, so for them silence is not the best approach. This is exactly what the premises license, and it answers the opening assumption.",
+      "E": "Out of scope: the studies compare moderate noise with silence; nothing addresses loud noise."
+    },
+    "trapPatterns": {
+      "A": "opposite",
+      "B": "extreme",
+      "C": "extreme",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "The completion should rebut the opening assumption using only the comparison the premises actually make.",
+    "predictionHint": "Silence isn't the best option for routine workers."
+  },
+  {
+    "id": "lr-fill-in-blank-ironwood-seeds",
+    "section": "LR",
+    "type": "fill_in_blank",
+    "logicTags": [
+      "conditional",
+      "causation"
+    ],
+    "difficulty": 2,
+    "stimulus": "Botanist: Ironwood seeds germinate only after their hard coating has been worn down, which in nature occurs when the seeds pass through the digestive tract of a large herbivore. The only large herbivore in the ironwood's range, the forest tapir, has been extinct there for forty years, and ironwood seeds remain viable for at most five years. Yet ironwood seedlings are still found in the forest, though in small numbers. So ____.",
+    "stem": "Which one of the following most logically completes the argument?",
+    "choices": {
+      "A": "the forest tapir is not actually extinct in the ironwood's range",
+      "B": "ironwood trees will disappear from the forest within a few decades",
+      "C": "some process other than passage through a tapir's digestive tract is now wearing down the coating of some ironwood seeds",
+      "D": "ironwood seeds can germinate without their coating being worn down",
+      "E": "the seedlings now found in the forest grew from seeds that passed through tapirs more than forty years ago"
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Opposite: the premise states the tapir has been extinct there for forty years; a completion cannot contradict a premise.",
+      "B": "Extreme: the premises say seedlings are few, not that the species is doomed; no trend is given.",
+      "C": "Germination requires a worn coating; tapirs cannot have worn it (gone forty years, seeds viable five); seedlings exist. So something else must be wearing down some seeds' coatings.",
+      "D": "Opposite: this denies the first premise ('only after their hard coating has been worn down').",
+      "E": "Shell game: this would reconcile the facts if seeds lasted, but the premise that seeds remain viable 'at most five years' rules it out."
+    },
+    "trapPatterns": {
+      "A": "opposite",
+      "B": "extreme",
+      "D": "opposite",
+      "E": "shell_game"
+    },
+    "keyTakeaway": "When a necessary condition is met but its usual cause is absent, the valid completion posits another cause for the condition, never a denial of a premise.",
+    "predictionHint": "Something besides tapirs must be wearing down the seed coats."
+  },
+  {
+    "id": "lr-fill-in-blank-steel-tariff-employment",
+    "section": "LR",
+    "type": "fill_in_blank",
+    "logicTags": [
+      "weighing_factors",
+      "math_percent"
+    ],
+    "difficulty": 2,
+    "stimulus": "Economist: A tariff on imported steel is intended to protect domestic steelmakers, who employ about 80,000 workers. But domestic industries that use steel as an input, such as automobile and appliance manufacturing and construction, employ more than two million workers, and a tariff raises the price those industries pay for steel, which reduces their output and their hiring. If protecting employment is the goal, then ____.",
+    "stem": "Which one of the following most logically completes the argument?",
+    "choices": {
+      "A": "domestic steelmakers should be protected by some means other than a tariff",
+      "B": "a steel tariff will eliminate more than two million jobs in steel-using industries",
+      "C": "domestic steelmakers employ too few workers to merit any protection at all",
+      "D": "steel-using industries would pay lower prices if no steel were imported",
+      "E": "a steel tariff is more likely to reduce total employment than to increase it"
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Out of scope: the argument never claims steelmakers should be protected; it only weighs the tariff's effect on jobs.",
+      "B": "Extreme: 'reduces hiring' in industries employing two million does not mean all two million jobs vanish.",
+      "C": "Extreme: 'too few to merit any protection' is a value judgment the premises do not make; the argument is about the net employment effect.",
+      "D": "Opposite: the premises say a tariff raises prices; removing imports would not lower them.",
+      "E": "The tariff protects 80,000 jobs but reduces hiring in industries with over two million workers. Weighing the two, the net effect on employment is more likely negative than positive, which is what 'if protecting employment is the goal' sets up."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "extreme",
+      "C": "extreme",
+      "D": "opposite"
+    },
+    "keyTakeaway": "A 'weighing' argument licenses a hedged comparative conclusion, not a recommendation or an absolute number.",
+    "predictionHint": "On net, the tariff probably costs more jobs than it saves."
+  },
+  {
+    "id": "lr-fill-in-blank-treaty-eastern-provinces",
+    "section": "LR",
+    "type": "fill_in_blank",
+    "logicTags": [
+      "link_assumption",
+      "definition_scope"
+    ],
+    "difficulty": 3,
+    "stimulus": "Historian: The treaty of 1648 is usually said to have ended the war. Yet fighting continued in the eastern provinces for another six years, and the treaty's own text mentions those provinces only in a clause deferring their status to a later settlement. A treaty cannot be said to have ended a war whose issues it explicitly left unresolved. So, since ____, the treaty of 1648 did not end the war.",
+    "stem": "Which one of the following most logically completes the argument?",
+    "choices": {
+      "A": "fighting in the eastern provinces continued for six years after the treaty was signed",
+      "B": "the status of the eastern provinces was one of the issues over which the war was fought",
+      "C": "the later settlement referred to in the treaty was never actually concluded",
+      "D": "historians have generally misread the text of the treaty",
+      "E": "the treaty of 1648 was never ratified by the eastern provinces"
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Premise booster: this restates a premise already given; the blank needs the missing link, not a repetition.",
+      "B": "The principle says a treaty fails to end a war whose issues it leaves unresolved. We know the treaty deferred the provinces' status; what is missing is that this status was one of the war's issues. With that link, the conclusion follows.",
+      "C": "Out of scope: whether the later settlement happened does not bear on whether the 1648 treaty itself left a war issue unresolved.",
+      "D": "Out of scope: the reading habits of historians do nothing to connect the deferral clause to the war's issues.",
+      "E": "Shell game: ratification is a different concept from leaving an issue unresolved; the principle turns on the treaty's content, not on who ratified it."
+    },
+    "trapPatterns": {
+      "A": "premise_booster",
+      "C": "out_of_scope",
+      "D": "out_of_scope",
+      "E": "shell_game"
+    },
+    "keyTakeaway": "When the blank follows 'since,' it is a premise: find the term in the principle that no stated premise yet connects.",
+    "predictionHint": "Need: the provinces' status was an issue of the war."
+  },
+  {
+    "id": "lr-fill-in-blank-better-than-average-drivers",
+    "section": "LR",
+    "type": "fill_in_blank",
+    "logicTags": [
+      "definition_scope",
+      "math_percent"
+    ],
+    "difficulty": 3,
+    "stimulus": "Psychologist: People tend to rate their own driving as better than average, and this is often cited as evidence of self-serving bias. But 'better than average' is ambiguous. If drivers interpret it as 'better than the typical driver,' and if most driving errors are committed by a small minority of very poor drivers, then most drivers really are better than average in the sense of making fewer errors than the mean. The usual inference to self-serving bias is therefore ____.",
+    "stem": "Which one of the following most logically completes the argument?",
+    "choices": {
+      "A": "unwarranted unless it can be shown that drivers are not interpreting the phrase in this way",
+      "B": "correct, since most drivers overestimate their own abilities",
+      "C": "mistaken, because self-serving bias does not exist",
+      "D": "unwarranted, because most drivers make fewer errors than the mean",
+      "E": "valid only when applied to the small minority of very poor drivers"
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "The psychologist shows a possible innocent reading under which the ratings are accurate. That does not prove the bias inference wrong; it shows the inference needs the innocent reading ruled out. 'Unwarranted unless' captures exactly that conditional force.",
+      "B": "Opposite: this asserts the very conclusion the psychologist is questioning.",
+      "C": "Extreme: the argument questions one piece of evidence for the bias, not the existence of the bias.",
+      "D": "Wrong force: the psychologist says only 'if... then most drivers really are better'; stating it flatly as a fact converts a hypothetical into a premise the argument never asserted.",
+      "E": "Shell game: nothing in the argument makes the inference valid for poor drivers; the minority is mentioned only to explain the skewed mean."
+    },
+    "trapPatterns": {
+      "B": "opposite",
+      "C": "extreme",
+      "D": "wrong_force",
+      "E": "shell_game"
+    },
+    "keyTakeaway": "An argument built on 'if... then' can conclude only that an inference is unwarranted conditionally; watch for completions that drop the 'if.'",
+    "predictionHint": "The bias inference doesn't hold unless the innocent reading is excluded."
+  },
+  {
+    "id": "lr-method-of-reasoning-detergent-test",
+    "section": "LR",
+    "type": "method_of_reasoning",
+    "logicTags": [
+      "comparison"
+    ],
+    "difficulty": 1,
+    "stimulus": "Advertiser: Our competitor claims that its detergent removes stains that ours cannot. But in an independent test of thirty common stains, our detergent removed every stain that the competitor's detergent removed, and two that the competitor's did not. So the competitor's claim is false.",
+    "stem": "The advertiser's argument proceeds by",
+    "choices": {
+      "A": "questioning the motives of the competitor that made the claim under dispute",
+      "B": "citing empirical evidence that is incompatible with the claim under dispute",
+      "C": "showing that the claim under dispute is internally inconsistent",
+      "D": "appealing to an analogy between the two detergents",
+      "E": "arguing that the claim under dispute, even if true, would be irrelevant"
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Out of scope: the advertiser says nothing about why the competitor made the claim.",
+      "B": "The advertiser cites a test whose results (ours removed everything theirs did) directly contradict the competitor's claim. That is refutation by contrary evidence.",
+      "C": "Shell game: the claim is contradicted by outside test results, not shown to contradict itself.",
+      "D": "Out of scope: no analogy is drawn; the two products are compared directly in a test.",
+      "E": "Opposite: the advertiser argues the claim is false, not that it is irrelevant."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "C": "shell_game",
+      "D": "out_of_scope",
+      "E": "opposite"
+    },
+    "keyTakeaway": "Match the abstract description to what the argument actually does: here, offering data that conflict with the claim.",
+    "predictionHint": "Refutes a claim with test results that contradict it."
+  },
+  {
+    "id": "lr-method-of-reasoning-murals-carvings",
+    "section": "LR",
+    "type": "method_of_reasoning",
+    "logicTags": [
+      "rule_application",
+      "analogy"
+    ],
+    "difficulty": 2,
+    "stimulus": "Some argue that because the city's murals were painted without permission, they should be removed. But by this reasoning, the city would also have to remove the century-old carvings on the courthouse steps, which were made by stonemasons without any authorization and are now protected as landmarks. Since no one proposes removing the carvings, the mere lack of permission cannot be sufficient grounds for removal.",
+    "stem": "Which one of the following most accurately describes the technique of reasoning used in the argument?",
+    "choices": {
+      "A": "drawing an analogy between the murals and the carvings in order to show that the murals should be protected as landmarks",
+      "B": "pointing out that those who favor removing the murals have an ulterior motive",
+      "C": "arguing that the murals are of greater artistic value than the carvings",
+      "D": "showing that a principle, if applied consistently, would require a conclusion that its proponents would not accept",
+      "E": "conceding that the murals were painted without permission while denying that they should be removed"
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Shell game: the carvings are used to test the principle, not to argue that the murals deserve landmark status. The conclusion is about grounds for removal, not protection.",
+      "B": "Out of scope: no motives are attributed to anyone.",
+      "C": "Out of scope: artistic value is never compared.",
+      "D": "The argument takes the proponents' principle (unauthorized, therefore remove), applies it to the carvings, and notes that nobody accepts that result. It rejects the principle on that basis.",
+      "E": "Half right: the argument does accept that the murals were unauthorized, but its conclusion is that lack of permission is not sufficient grounds, not that the murals should stay. 'Denying that they should be removed' overstates it."
+    },
+    "trapPatterns": {
+      "A": "shell_game",
+      "B": "out_of_scope",
+      "C": "out_of_scope",
+      "E": "half_right"
+    },
+    "keyTakeaway": "'By this reasoning, you would also have to...' signals a consistency test: the principle is rejected because of an unacceptable application.",
+    "predictionHint": "Applies the principle to a parallel case its proponents won't accept."
+  },
+  {
+    "id": "lr-method-of-reasoning-novelist-village",
+    "section": "LR",
+    "type": "method_of_reasoning",
+    "logicTags": [
+      "lack_of_support_v_false"
+    ],
+    "difficulty": 3,
+    "stimulus": "Critic: The novelist's defenders say that her portrayal of the village is accurate because she lived there for a decade. But residence is no guarantee of accuracy: a visitor who stays a decade may see only what confirms the impressions formed in the first week. Whether the portrayal is accurate must be judged by comparing it with the village itself, not by consulting the author's biography.",
+    "stem": "The critic's argument proceeds by",
+    "choices": {
+      "A": "showing that the novelist's portrayal of the village is inaccurate",
+      "B": "offering a counterexample that shows the defenders' generalization to be false",
+      "C": "arguing that the length of the novelist's residence in the village has been exaggerated",
+      "D": "conceding that residence provides some evidence of accuracy while denying that it is conclusive",
+      "E": "arguing that the evidence offered for a claim is not the kind of evidence that could establish it"
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Opposite: the critic takes no position on whether the portrayal is accurate, only on how accuracy should be judged.",
+      "B": "Shell game: the 'visitor who stays a decade' is a hypothetical possibility, not an actual counterexample, and the defenders stated no generalization to refute.",
+      "C": "Out of scope: the critic accepts the decade of residence.",
+      "D": "Half right: the critic does deny that residence is conclusive, but goes further, saying accuracy must be judged by comparison with the village, 'not by consulting the author's biography.' That rejects biography as the relevant kind of evidence rather than granting it 'some' weight.",
+      "E": "The critic argues that biographical facts about the author cannot settle a question that only comparison with the village can settle. The evidence is dismissed as the wrong kind, not as insufficient in degree."
+    },
+    "trapPatterns": {
+      "A": "opposite",
+      "B": "shell_game",
+      "C": "out_of_scope",
+      "D": "half_right"
+    },
+    "keyTakeaway": "Distinguish 'this evidence is too weak' from 'this evidence is the wrong kind'; the final sentence's 'not by' decides which.",
+    "predictionHint": "Rejects the defenders' evidence as irrelevant to the question."
+  },
+  {
+    "id": "lr-method-of-reasoning-animal-beliefs-language",
+    "section": "LR",
+    "type": "method_of_reasoning",
+    "logicTags": [
+      "definition_scope"
+    ],
+    "difficulty": 4,
+    "stimulus": "Philosopher: Those who deny that animals have beliefs argue that beliefs require language, since a belief has a content that can be specified only in a sentence. But the content of a belief can be specified in a sentence by the person attributing the belief; it does not follow that the believer must itself possess the sentence. The argument slides from a fact about how we describe beliefs to a conclusion about what having a belief requires.",
+    "stem": "The philosopher's argument proceeds by",
+    "choices": {
+      "A": "showing that animals do in fact have beliefs",
+      "B": "denying that the content of a belief can be specified in a sentence",
+      "C": "contending that an argument illegitimately infers a feature of a phenomenon from a feature of the way the phenomenon is described",
+      "D": "arguing that language is not required for belief by citing examples of creatures that have beliefs without language",
+      "E": "pointing out that the argument's conclusion is inconsistent with one of its own premises"
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Extreme: the philosopher undermines one argument against animal belief; that does not establish that animals have beliefs, and no such claim is made.",
+      "B": "Opposite: the philosopher accepts that belief content can be specified in a sentence; the dispute is over who must possess the sentence.",
+      "C": "The last sentence names the move exactly: the opponents go from 'we describe belief contents in sentences' (a fact about description) to 'believers must have language' (a fact about belief). The philosopher identifies this as an illegitimate slide.",
+      "D": "Out of scope: no examples of nonlinguistic believers are offered.",
+      "E": "Shell game: the philosopher says the conclusion 'does not follow' from the premise, a charge of non sequitur, not of inconsistency between premise and conclusion."
+    },
+    "trapPatterns": {
+      "A": "extreme",
+      "B": "opposite",
+      "D": "out_of_scope",
+      "E": "shell_game"
+    },
+    "keyTakeaway": "'Does not follow' charges a gap, not a contradiction; and refuting an argument for not-P is not proving P.",
+    "predictionHint": "Identifies a slide from how we describe X to what X requires."
+  },
+  {
+    "id": "lr-inference-archive-manuscripts",
+    "section": "LR",
+    "type": "inference",
+    "logicTags": [
+      "conditional",
+      "quantifiers"
+    ],
+    "difficulty": 2,
+    "stimulus": "Every manuscript in the archive has been catalogued, and every catalogued manuscript has been assigned a shelf number. Some manuscripts with shelf numbers have been digitized, but no manuscript acquired after 1990 has been digitized. The archive acquired several manuscripts after 1990, and all of them remain in the archive.",
+    "stem": "Which one of the following can be properly inferred from the statements above?",
+    "choices": {
+      "A": "Some of the digitized manuscripts are not in the archive.",
+      "B": "Most of the manuscripts in the archive have been digitized.",
+      "C": "Every manuscript with a shelf number is in the archive.",
+      "D": "Some of the manuscripts in the archive have not been digitized.",
+      "E": "Every manuscript the archive acquired before 1990 has been digitized."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Out of scope: nothing says where the digitized manuscripts are held.",
+      "B": "Wrong force: 'some' shelved manuscripts are digitized; no proportion of the archive is given.",
+      "C": "Reversal: archive manuscripts have shelf numbers; shelf-numbered manuscripts need not be in the archive.",
+      "D": "Manuscripts acquired after 1990 are in the archive and none has been digitized; the archive has several. So some archive manuscripts are undigitized.",
+      "E": "Extreme: the restriction on post-1990 acquisitions says nothing about whether all pre-1990 ones were digitized."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "wrong_force",
+      "C": "reversal",
+      "E": "extreme"
+    },
+    "keyTakeaway": "An 'inference' key is often a modest 'some' statement produced by combining an existence claim with a universal prohibition.",
+    "predictionHint": "Post-1990 manuscripts are in the archive and not digitized."
+  },
+  {
+    "id": "lr-must-be-false-expedition-medal",
+    "section": "LR",
+    "type": "must_be_false",
+    "logicTags": [
+      "conditional",
+      "quantifiers"
+    ],
+    "difficulty": 3,
+    "stimulus": "Every member of the expedition either reached the summit or turned back below it. Every member who reached the summit carried supplemental oxygen. Some members who carried supplemental oxygen turned back below the summit. No member who turned back below the summit was awarded the expedition medal, and at least one member was awarded the medal.",
+    "stem": "If the statements above are true, which one of the following CANNOT be true?",
+    "choices": {
+      "A": "Some member who carried supplemental oxygen was awarded the expedition medal.",
+      "B": "Some member who was awarded the expedition medal did not carry supplemental oxygen.",
+      "C": "Most of the members who carried supplemental oxygen turned back below the summit.",
+      "D": "Some member who reached the summit was not awarded the expedition medal.",
+      "E": "Every member who was awarded the expedition medal reached the summit."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Opposite: this must be true. A medal holder did not turn back, so reached the summit, so carried oxygen.",
+      "B": "Medal → did not turn back → (by the exhaustive first statement) reached the summit → carried oxygen. A medal holder without oxygen contradicts this chain.",
+      "C": "Wrong force: 'some' oxygen carriers turned back; whether 'most' did is left open, so this could be true.",
+      "D": "Out of scope: nothing says every summiteer received a medal, so this could be true.",
+      "E": "Opposite: this must be true, since medal holders did not turn back and the two outcomes are exhaustive."
+    },
+    "trapPatterns": {
+      "A": "opposite",
+      "C": "wrong_force",
+      "D": "out_of_scope",
+      "E": "opposite"
+    },
+    "keyTakeaway": "For CANNOT-be-true, derive what must be true from the chain, then find the choice that negates it; 'must be true' choices are the classic traps.",
+    "predictionHint": "Medal → summit → oxygen; so a medalist without oxygen is impossible."
+  },
+  {
+    "id": "lr-point-of-agreement-naming-suspects",
+    "section": "LR",
+    "type": "point_of_agreement",
+    "logicTags": [
+      "value_judgment",
+      "weighing_factors"
+    ],
+    "difficulty": 2,
+    "stimulus": "Journalist: Newspapers should not publish the names of crime suspects before charges are filed. A person named as a suspect suffers lasting reputational harm even if never charged.\n\nEditor: Readers have a legitimate interest in knowing whom the police are investigating, and withholding names invites rumor that may harm the innocent even more. Still, the harm you describe is real, and we should publish a correction as prominently as the original story whenever a named suspect is cleared.",
+    "stem": "The journalist and the editor are committed to agreeing about which one of the following?",
+    "choices": {
+      "A": "Newspapers should not publish the names of crime suspects before charges are filed.",
+      "B": "Readers have a legitimate interest in knowing whom the police are investigating.",
+      "C": "A correction should be published as prominently as the original story when a named suspect is cleared.",
+      "D": "Rumor harms innocent people more than publication of their names does.",
+      "E": "A person publicly named as a suspect can suffer reputational harm even if never charged."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Opposite: this is the point of disagreement; the editor defends publishing names.",
+      "B": "Out of scope: only the editor asserts this; the journalist says nothing about readers' interests.",
+      "C": "Out of scope: the editor proposes this; the journalist, who wants names withheld entirely, takes no position on corrections.",
+      "D": "Extreme: the editor says rumor 'may harm the innocent even more,' a possibility, and the journalist does not address rumor at all.",
+      "E": "The journalist asserts it directly, and the editor says 'the harm you describe is real.' Both are committed to it."
+    },
+    "trapPatterns": {
+      "A": "opposite",
+      "B": "out_of_scope",
+      "C": "out_of_scope",
+      "D": "extreme"
+    },
+    "keyTakeaway": "In agreement questions, look for the concession ('the harm you describe is real'); it marks the one claim both speakers endorse.",
+    "predictionHint": "Both accept that being named causes reputational harm."
+  }
+]

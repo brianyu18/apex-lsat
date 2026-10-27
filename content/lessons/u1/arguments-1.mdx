@@ -1,0 +1,55 @@
+---
+id: u1/arguments-1
+unit: 1
+order: 1
+title: "Arguments: premise and conclusion"
+summary: "What makes a passage an argument, how to find the conclusion every time, and why the indicator words are only a start."
+checkTags: [main_conclusion]
+diagram: ArgumentMap
+minutes: 10
+---
+
+## What an argument is
+
+An **argument** is a set of statements where some (the **premises**) are offered as reasons to believe another (the **conclusion**). If nothing is being supported — just a list of facts — it isn't an argument, and the question will ask you what *follows* rather than what's *wrong*.
+
+The whole of Logical Reasoning rests on one move: find the conclusion, find what's offered for it, and ask whether the one actually gets you to the other.
+
+## Finding the conclusion
+
+Three tests, in order of reliability:
+
+1. **The "because" test.** Put the candidate sentence first and attach "because" to another sentence. *"Bike lanes make cycling more dangerous, because injuries rose after they were added."* If that reads naturally, the first part is the conclusion. Reverse it and it sounds absurd.
+2. **Indicator words.** *Therefore, thus, so, hence, consequently, it follows that, clearly* signal conclusions. *Because, since, for, after all, given that* signal premises. Reliable, but the LSAT often omits them or buries the conclusion mid-paragraph.
+3. **The rebuttal pattern.** *"Some claim X. But Y, because Z."* The conclusion is the "But" sentence — the author's position against someone else's. The opening claim is **context**, not the conclusion.
+
+<KeyIdea>
+The conclusion is whatever the rest of the passage is trying to make you believe. Indicator words point at it; the "because" test proves it.
+</KeyIdea>
+
+## Try it
+
+<ArgumentMap
+  title="Map this argument"
+  sentences={[
+    { text: "Many city planners argue that widening roads reduces congestion.", role: "context", why: "This is someone else's view, introduced to be rejected — the setup, not the author's claim." },
+    { text: "But every major road widening in the region over the past decade was followed within three years by traffic levels higher than before.", role: "premise", why: "Introduced with 'But', it's the evidence the author offers against the planners." },
+    { text: "Wider roads attract drivers who previously avoided the route.", role: "premise", why: "An explanation offered as a further reason — it supports the author's claim, so it's a premise." },
+    { text: "Widening roads therefore does not reduce congestion.", role: "conclusion", why: "'Therefore' flags it, and the 'because' test works: it does not reduce congestion *because* traffic rose and wider roads attract drivers." }
+  ]}
+/>
+
+## Two things that are not the conclusion
+
+- **The first sentence.** Often it's background or an opposing view.
+- **A premise with a strong word in it.** *"Clearly, the committee met twice"* can be a premise if it's offered as a reason for something else. Strength of tone isn't structure.
+
+## Why this matters for every question type
+
+- *Main Conclusion* questions test it directly.
+- *Flaw, Weaken, Strengthen, Assumption* questions are about the gap between premises and conclusion — mis-identify the conclusion and you attack the wrong gap.
+- *Most Strongly Supported* and *Must Be True* stimuli usually have **no** conclusion; noticing that tells you the task before you read the stem.
+
+<Callout tone="info" title="Habit to build">
+Before reading the answer choices on any argument question, say the conclusion to yourself in your own words. If you can't, you haven't finished reading.
+</Callout>

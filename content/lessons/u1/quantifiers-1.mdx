@@ -1,0 +1,71 @@
+---
+id: u1/quantifiers-1
+unit: 1
+order: 12
+title: "Some, most, all: what chains"
+summary: "Quantified statements have strict combination rules. Learn the four that produce valid inferences and the ones that produce nothing."
+checkTags: [quantifiers]
+diagram: SetSandbox
+minutes: 10
+---
+
+## Three quantities
+
+| Word | Logical meaning | Reverses? |
+|---|---|---|
+| **all** (every, any, no…) | 100% — a conditional, A → B | no |
+| **most** | more than half | no |
+| **some** | at least one (could be all) | **yes** — "some A are B" = "some B are A" |
+
+"Some" is the only one that reverses. "Most A are B" says nothing about what share of B are A. "All A are B" certainly doesn't mean all B are A.
+
+## The inference table
+
+Two statements that share a term can sometimes combine. The complete list of valid combinations:
+
+| Statement 1 | Statement 2 | Conclusion |
+|---|---|---|
+| All A are B | All B are C | **All A are C** |
+| Some A are B | All B are C | **Some A are C** |
+| Most A are B | All B are C | **Most A are C** |
+| All A are B | No B are C | **No A are C** |
+| Most B are A | Most B are C | **Some A are C** |
+| All B are A | Most B are C | **Some A are C** |
+| All B are A | All B are C | **Some A are C** (if any B exist) |
+
+And the combinations that yield **nothing**:
+
+- Some + some (any arrangement)
+- Most A are B + Most B are C
+- All A are B + Most B are C (the "most" B that are C may be none of the A)
+- Some A are B + Some B are C
+
+<KeyIdea>
+To chain through a shared term, the shared term needs to be the *subject* of a "most" or inside an "all." "Some" + "some" never chains. "Most" + "most" chains only when both have the same subject.
+</KeyIdea>
+
+## Experiment
+
+Set the two statements and watch what follows. Try *most A are B, most B are C* (nothing), then *most B are A, most B are C* (some A are C).
+
+<SetSandbox />
+
+## Why "most + most about the same subject" works
+
+If more than half of B are A, and more than half of B are C, the two groups must overlap: you can't fit two majorities of the same set into disjoint halves. So some B are both A and C — hence some A are C. This shows up in Must Be True questions as a level-3 or level-4 item and in Parallel Reasoning constantly.
+
+## Why "all A are B + most B are C" fails
+
+All A sit inside B, but they could all be in the minority of B that aren't C. Picture B as 100 people, 10 of them A, 60 of them C: the 10 A's can sit among the 40 non-C's. No inference.
+
+## In argument form
+
+> *Most of the museum's acquisitions last year were donations. Donated works are all exempt from the acquisition tax. So most of last year's acquisitions were tax-exempt.*
+
+Most acquisitions → donations; donations → exempt. **Most + all = most.** Valid.
+
+> *Most of the museum's acquisitions were donations. Most donations were sculptures. So most acquisitions were sculptures.*
+
+Most + most, different subjects (acquisitions, donations). **Nothing follows** — not even "some." Flaw language: *"draws a conclusion about a group from two claims that each concern a majority of a different group."*
+
+Next: negating quantified statements — what "not all" and "not most" actually deny.

@@ -1,0 +1,1205 @@
+[
+  {
+    "id": "lr-flaw-sleep-grades-start-times",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 1,
+    "stimulus": "Educator: A recent study found that high school students who sleep at least eight hours on school nights earn higher grades, on average, than students who sleep less. Clearly, then, if schools want to raise student achievement, they should adopt later start times so that students can get more sleep.",
+    "stem": "The reasoning in the argument is most vulnerable to criticism on the grounds that it",
+    "choices": {
+      "A": "relies on a study whose sample of students was too small to justify any generalization about high school students as a group",
+      "B": "overlooks the possibility that some factor other than amount of sleep accounts for both the longer sleep and the higher grades",
+      "C": "presumes, without providing any justification, that adopting later start times is the only way in which students could get more sleep",
+      "D": "takes for granted that the grades students earn are a reliable measure of what those students have actually learned",
+      "E": "fails to consider that students who sleep more on school nights may have less time available for studying"
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Out of scope: the stimulus says nothing about the study's sample size, so 'too small' is an invented criticism rather than a flaw in the reasoning given.",
+      "B": "Correct. The argument moves from a correlation (more sleep, higher grades) to a causal recommendation. A third factor such as a stable home environment or lighter extracurricular load could produce both, so the inference is unwarranted.",
+      "C": "Extreme: the educator says schools 'should' adopt later start times, not that it is the 'only way'; the argument never needs that claim.",
+      "D": "Shell game: it swaps 'grades' for 'what students have actually learned.' The study and the conclusion both speak of achievement in terms of grades, so no gap exists there.",
+      "E": "True but irrelevant: the study already reports that students who sleep more earn higher grades, so any effect on study time is already reflected in the data."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "C": "extreme",
+      "D": "shell_game",
+      "E": "true_but_irrelevant"
+    },
+    "keyTakeaway": "When a correlation becomes a policy recommendation, the first thing to check is whether a hidden third factor could drive both variables.",
+    "predictionHint": "Correlation to cause: something else could explain both more sleep and better grades."
+  },
+  {
+    "id": "lr-flaw-multivitamin-popular-belief",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "lack_of_support_v_false"
+    ],
+    "difficulty": 1,
+    "stimulus": "Columnist: Surveys consistently show that a large majority of adults believe that taking a daily multivitamin improves overall health. Pharmacists, who speak with such adults every day, confirm that this belief is widespread. Since so many people cannot all be mistaken about something so central to their own well-being, daily multivitamins must improve overall health.",
+    "stem": "The argument is flawed in that it",
+    "choices": {
+      "A": "relies on the testimony of pharmacists, who have a financial interest in the continued sale of multivitamins",
+      "B": "fails to specify precisely what is meant by the phrase 'overall health'",
+      "C": "draws a conclusion about all adults on the basis of surveys that may have reached only some adults",
+      "D": "treats the fact that a belief is widely held as sufficient to establish that the belief is true",
+      "E": "presumes that a claim about health must be false if it has not been confirmed by scientific testing"
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Out of scope: nothing in the stimulus says pharmacists have a 'financial interest,' and they confirm only that the belief is widespread, not that it is correct.",
+      "B": "True but irrelevant: vagueness in 'overall health' does not explain why the argument's inference fails; the problem is the move from belief to fact.",
+      "C": "Wrong part: the conclusion is about multivitamins, not about 'all adults,' so a sampling criticism misdescribes the argument.",
+      "D": "Correct. The only support for the conclusion is that many people hold the belief. Popularity of a belief is not evidence of its truth, which is exactly the move 'so many people cannot all be mistaken' makes.",
+      "E": "Opposite: the argument never mentions scientific testing and does not conclude that anything is 'false.'"
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "true_but_irrelevant",
+      "C": "wrong_part",
+      "E": "opposite"
+    },
+    "keyTakeaway": "An appeal to how many people believe something is never evidence that the thing believed is true.",
+    "predictionHint": "Popularity of a belief is being treated as proof of the belief."
+  },
+  {
+    "id": "lr-flaw-zoning-economist-hired",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "lack_of_support_v_false"
+    ],
+    "difficulty": 1,
+    "stimulus": "City council member: The economist who testified against the proposed zoning ordinance argued that it would reduce the supply of affordable housing. But that economist was hired by a developers' association that stands to profit if the ordinance is defeated. We can therefore dismiss her argument and proceed with the ordinance confident that it will not reduce the supply of affordable housing.",
+    "stem": "Which one of the following most accurately describes a flaw in the argument's reasoning?",
+    "choices": {
+      "A": "It rejects an argument on the basis of the circumstances of the person advancing it rather than on the basis of its content.",
+      "B": "It assumes without evidence that the developers' association would profit from the defeat of the ordinance.",
+      "C": "It fails to consider that the ordinance might have benefits that are unrelated to the supply of affordable housing.",
+      "D": "It generalizes from the testimony of a single economist to the views held by economists as a whole.",
+      "E": "It concludes that the ordinance should be adopted merely because one objection to it has been conclusively refuted by independent evidence."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. The council member never engages with the economist's reasoning; the argument is dismissed solely because of who 'hired' her. That is a classic source attack, and it cannot show that her conclusion is false.",
+      "B": "Premise booster: the stimulus states as a premise that the association 'stands to profit,' so this is not an unsupported assumption.",
+      "C": "Out of scope: possible unrelated benefits have no bearing on whether the economist's argument was properly dismissed.",
+      "D": "Wrong part: the argument makes no claim about 'economists as a whole'; it concerns one economist's testimony.",
+      "E": "Half right: the argument does endorse the ordinance, but the objection was never 'conclusively refuted by independent evidence'; it was merely dismissed."
+    },
+    "trapPatterns": {
+      "B": "premise_booster",
+      "C": "out_of_scope",
+      "D": "wrong_part",
+      "E": "half_right"
+    },
+    "keyTakeaway": "Attacking a speaker's motives says nothing about whether the speaker's argument is sound.",
+    "predictionHint": "Ad hominem: the economist's funding is used to dismiss her reasoning."
+  },
+  {
+    "id": "lr-flaw-chronicle-preface-circular",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "lack_of_support_v_false"
+    ],
+    "difficulty": 1,
+    "stimulus": "Historian: Some scholars doubt that the Varenne Chronicle was written in the twelfth century, as it claims. But the chronicle's own preface states that it was composed by a monk of the abbey at Varenne in the year 1140, and a document of that period would not contain false statements about its own origin. So the chronicle is authentic, and its account of its twelfth-century origin can be trusted.",
+    "stem": "The reasoning in the argument is most vulnerable to criticism on the grounds that it",
+    "choices": {
+      "A": "relies on the testimony of a single monk whose identity cannot be independently verified by historians",
+      "B": "fails to consider that the chronicle might have been written in the twelfth century by someone other than a monk",
+      "C": "dismisses the doubts of other scholars without explaining what evidence originally prompted those doubts",
+      "D": "assumes that documents written in later centuries never make accurate statements about their own origins",
+      "E": "presupposes the truth of the very claim it sets out to establish"
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Shell game: the problem is not that one monk is unverified but that the argument assumes the document is twelfth-century in order to prove it is.",
+      "B": "True but irrelevant: whether the author was a monk has no bearing on whether the chronicle's claimed date is authentic.",
+      "C": "Out of scope: an arguer is not obligated to recount the opposing evidence; this does not identify an error in the inference.",
+      "D": "Extreme and not assumed: the argument says nothing about what documents from 'later centuries' do; 'never' is unsupported by the text.",
+      "E": "Correct. The premise 'a document of that period would not contain false statements' applies only if the chronicle is from that period, which is exactly what is in dispute. The argument is circular."
+    },
+    "trapPatterns": {
+      "A": "shell_game",
+      "B": "true_but_irrelevant",
+      "C": "out_of_scope",
+      "D": "extreme"
+    },
+    "keyTakeaway": "If a premise is only true when the conclusion is already true, the argument is circular.",
+    "predictionHint": "The 'of that period' premise assumes the chronicle is of that period."
+  },
+  {
+    "id": "lr-flaw-bistro-repeat-customers",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "conditional"
+    ],
+    "difficulty": 1,
+    "stimulus": "Business consultant: No new restaurant can survive its first year without a steady base of repeat customers. Delmar's Bistro, which opened last month, has already built a steady base of repeat customers through its loyalty program. Therefore, Delmar's Bistro will survive its first year.",
+    "stem": "The argument is flawed in that it",
+    "choices": {
+      "A": "relies on evidence about a single restaurant to draw a general conclusion about new restaurants",
+      "B": "overlooks the possibility that the loyalty program will prove too costly for the bistro to sustain",
+      "C": "treats a condition that is necessary for a restaurant's survival as though it were sufficient to guarantee it",
+      "D": "fails to specify how many repeat customers are required for a customer base to count as steady",
+      "E": "confuses a claim about a restaurant's first year of operation with a claim about its long-term profitability and growth"
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Wrong part: the general claim is a premise, and the conclusion is about one restaurant, so the direction of inference is the reverse of what this describes.",
+      "B": "Half right: this names one specific way the bistro could still fail, but the flaw is structural, and this choice does not identify it.",
+      "C": "Correct. 'No restaurant can survive without X' makes X necessary for survival. Having X does not guarantee survival, yet the conclusion treats it as if it did.",
+      "D": "True but irrelevant: the premise and conclusion use 'steady' in the same way, so precision about the term would not repair the inference.",
+      "E": "Shell game: both the premise and the conclusion concern the 'first year'; nothing about 'long-term profitability' appears in the argument."
+    },
+    "trapPatterns": {
+      "A": "wrong_part",
+      "B": "half_right",
+      "D": "true_but_irrelevant",
+      "E": "shell_game"
+    },
+    "keyTakeaway": "'Cannot X without Y' makes Y necessary for X; meeting Y never guarantees X.",
+    "predictionHint": "Necessary condition treated as sufficient."
+  },
+  {
+    "id": "lr-flaw-library-survey-tax",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "sampling"
+    ],
+    "difficulty": 2,
+    "stimulus": "A survey distributed at the main branch of the city library asked patrons whether they would support a modest property tax increase to expand library hours. Eighty-two percent of respondents said they would. Since library patrons are residents of the city, we can conclude that a proposal to increase property taxes for expanded library hours would be approved by a large majority of the city's residents if it were put to a vote.",
+    "stem": "The reasoning in the argument is most vulnerable to criticism on the grounds that it",
+    "choices": {
+      "A": "generalizes from a sample that is likely to be unrepresentative of the population about which the conclusion is drawn",
+      "B": "fails to consider that some of the respondents may not have answered the survey question honestly",
+      "C": "does not specify how large an increase in property taxes would still count as a modest one",
+      "D": "confuses the proportion of library patrons who favor the proposal with the number of city residents who would vote for it",
+      "E": "presumes, without providing justification, that expanding library hours is the best possible use of additional tax revenue"
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. People at the main library branch are far more likely than residents generally to value library hours. 'Library patrons are residents' does not make them representative of residents, so the generalization to 'a large majority of the city's residents' is unwarranted.",
+      "B": "Out of scope: nothing suggests dishonesty, and even honest answers from a skewed sample would not support the conclusion.",
+      "C": "True but irrelevant: the vagueness of 'modest' affects both the survey and the proposal equally and does not explain the faulty inference.",
+      "D": "Shell game: the conclusion is stated as 'a large majority,' a proportion, so no proportion-to-number confusion occurs.",
+      "E": "Out of scope: the argument predicts how residents would vote; it makes no claim about the 'best possible use' of revenue."
+    },
+    "trapPatterns": {
+      "B": "out_of_scope",
+      "C": "true_but_irrelevant",
+      "D": "shell_game",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "Ask where the sample came from; a sample drawn at the place being funded is self-selected.",
+    "predictionHint": "Library patrons are not a representative sample of all residents."
+  },
+  {
+    "id": "lr-flaw-hospital-mortality-rates",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "math_percent",
+      "causation",
+      "comparison"
+    ],
+    "difficulty": 2,
+    "stimulus": "Last year, 4 percent of patients admitted to Westbrook Hospital died during their stay, whereas only 1.5 percent of patients admitted to Linden Hospital did. Both hospitals serve the same metropolitan area and have similar numbers of beds. Clearly, patients at Westbrook receive worse care than patients at Linden, and anyone needing hospital care in the area should choose Linden.",
+    "stem": "Which one of the following most accurately describes a flaw in the argument's reasoning?",
+    "choices": {
+      "A": "It relies on data from a single year, which may not accurately reflect either hospital's typical performance.",
+      "B": "It compares the percentages of patients who died rather than the actual numbers of patients who died at each hospital.",
+      "C": "It assumes that the two hospitals are similar in size without offering any evidence for that assumption.",
+      "D": "It overlooks the possibility that the two hospitals differ in the kinds of patients they admit.",
+      "E": "It presumes that the quality of care a patient receives is the only factor affecting whether that patient survives a hospital stay."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Wrong force: a single year is a weak objection to the data, but even multi-year data would not fix the inference from mortality rate to quality of care.",
+      "B": "Comparison shift in reverse: percentages are the appropriate comparison here, and raw 'numbers' would be less informative given similar bed counts. This is the trap for test takers who reflexively flag percentages.",
+      "C": "Premise booster: the stimulus states that the hospitals 'have similar numbers of beds,' so similarity in size is given, not assumed.",
+      "D": "Correct. If Westbrook admits more trauma, cardiac, or terminal patients, a higher mortality rate says nothing about the quality of its care. The argument ignores this alternative explanation.",
+      "E": "Extreme: the argument need not assume care is the 'only' factor, merely that it explains this difference; 'only' overstates the assumption."
+    },
+    "trapPatterns": {
+      "A": "wrong_force",
+      "B": "comparison_shift",
+      "C": "premise_booster",
+      "E": "extreme"
+    },
+    "keyTakeaway": "When two groups' outcome rates differ, check whether the groups were comparable to begin with.",
+    "predictionHint": "Different patient mix could explain the mortality gap."
+  },
+  {
+    "id": "lr-flaw-composite-bridge-weight",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "part_v_whole"
+    ],
+    "difficulty": 2,
+    "stimulus": "Engineer: Each of the structural components in the new pedestrian bridge design is made of a composite material that is lighter than the steel traditionally used. Therefore, the bridge as a whole will be lighter than a traditional steel bridge of the same span. And since the load a bridge places on its foundations depends on its total weight, the foundations can be built to a smaller specification.",
+    "stem": "The argument is flawed in that it",
+    "choices": {
+      "A": "relies on a comparison between materials without specifying how much lighter the composite material is than steel",
+      "B": "infers that a whole has a certain property from the fact that each of its parts has that property",
+      "C": "takes for granted that a lighter bridge places less load on its foundations than a heavier bridge does",
+      "D": "fails to consider that composite materials may be considerably more expensive than steel",
+      "E": "generalizes from the properties of one bridge design to the properties of all bridges built from composites"
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Wrong force: the degree of weight difference is a detail; even a precise figure would not license the move from lighter parts to a lighter whole.",
+      "B": "Correct. Each component is lighter than its steel counterpart, but a composite design may require more components, or larger ones, so the whole bridge need not be lighter. This is the composition error.",
+      "C": "Premise booster: the stimulus states that foundation load 'depends on its total weight,' so this is given, not an unwarranted assumption.",
+      "D": "Out of scope: cost is never at issue; the conclusion concerns weight and foundation specification.",
+      "E": "Wrong part: the conclusion is about 'the bridge as a whole,' this specific design, not 'all bridges built from composites.'"
+    },
+    "trapPatterns": {
+      "A": "wrong_force",
+      "C": "premise_booster",
+      "D": "out_of_scope",
+      "E": "wrong_part"
+    },
+    "keyTakeaway": "A property of every part does not automatically transfer to the whole, especially when the number of parts can change.",
+    "predictionHint": "Lighter parts do not guarantee a lighter whole if more parts are needed."
+  },
+  {
+    "id": "lr-flaw-natural-sweetener-ambiguity",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "definition_scope"
+    ],
+    "difficulty": 2,
+    "stimulus": "Nutritionist: Consumers are right to prefer natural sweeteners to artificial ones. Human physiology has adapted over many millennia to the substances that occur in nature, and so-called natural sweeteners are, by definition, those derived from plant sources rather than synthesized in a laboratory. Therefore, natural sweeteners are better suited to human physiology than artificial sweeteners are.",
+    "stem": "The reasoning in the argument is most vulnerable to criticism on the grounds that it",
+    "choices": {
+      "A": "assumes that consumers' preferences are a reliable guide to what is physiologically beneficial",
+      "B": "overlooks the possibility that human physiology has continued to change significantly in recent centuries",
+      "C": "relies on a definition of 'natural sweetener' that most consumers would be unlikely to accept",
+      "D": "presumes, without justification, that any substance to which human physiology has adapted is beneficial",
+      "E": "relies on an ambiguity in the term 'natural'"
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Reversal: the argument uses physiology to justify the preference, not the preference to establish anything about physiology.",
+      "B": "Out of scope: whether physiology has changed 'in recent centuries' does not bear on the shift in meaning that drives the argument.",
+      "C": "Out of scope: the stimulus provides no information about which definitions consumers accept, and the flaw does not depend on consumer opinion.",
+      "D": "Shell game: 'adapted to' and 'better suited to' are used nearly synonymously; the argument does not need the stronger claim that adapted substances are 'beneficial.'",
+      "E": "Correct. The premise concerns substances that 'occur in nature,' but the definition offered makes 'natural' mean 'derived from plant sources,' which includes refined and concentrated extracts that never occur in nature. The conclusion depends on sliding between these senses."
+    },
+    "trapPatterns": {
+      "A": "reversal",
+      "B": "out_of_scope",
+      "C": "out_of_scope",
+      "D": "shell_game"
+    },
+    "keyTakeaway": "When an argument hinges on a loaded word, check whether the word means the same thing in each premise.",
+    "predictionHint": "'Occurs in nature' is not the same as 'derived from plants.'"
+  },
+  {
+    "id": "lr-flaw-tarmouth-no-trade",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "lack_of_support_v_false"
+    ],
+    "difficulty": 2,
+    "stimulus": "Archaeologist: Excavations at the coastal settlement of Tarmouth have uncovered pottery, tools, and ornaments, all of which were produced from materials available within a day's walk of the site. No objects of distant origin have been found. We may therefore conclude that Tarmouth's inhabitants did not engage in long-distance trade.",
+    "stem": "The argument is flawed in that it",
+    "choices": {
+      "A": "assumes that the inhabitants of Tarmouth themselves produced all of the objects that were found at the site",
+      "B": "overlooks the possibility that Tarmouth's inhabitants traded with settlements located nearby",
+      "C": "treats the absence of evidence for a practice as conclusive evidence that the practice did not occur",
+      "D": "generalizes from the objects found at a single settlement to the trading practices of an entire region",
+      "E": "relies on the findings of a single excavation rather than on findings from several sites in the surrounding area"
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Out of scope: the argument does not need the inhabitants to have made the objects; it needs only that the objects were local in origin, which is given.",
+      "B": "True but irrelevant: the conclusion concerns 'long-distance' trade, so trade with 'nearby' settlements is compatible with it.",
+      "C": "Correct. That no distant objects 'have been found' does not establish that none existed; traded goods may have been perishable, consumed, or simply not yet excavated. Absence of evidence is treated as proof of absence.",
+      "D": "Wrong part: the conclusion is about 'Tarmouth's inhabitants' only, not an 'entire region.'",
+      "E": "Wrong force: more sites would be more evidence, but the conclusion is about Tarmouth, and the error lies in how the evidence is used, not in how much there is."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "true_but_irrelevant",
+      "D": "wrong_part",
+      "E": "wrong_force"
+    },
+    "keyTakeaway": "'No evidence has been found' supports only 'we have no evidence,' never 'it did not happen.'",
+    "predictionHint": "Absence of evidence mistaken for evidence of absence."
+  },
+  {
+    "id": "lr-flaw-testing-proposal-straw-man",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "definition_scope"
+    ],
+    "difficulty": 2,
+    "stimulus": "Editorial: Some educators have proposed that the district reduce the number of standardized tests students take each year, arguing that the time spent on testing could be better spent on instruction. But these educators apparently want to eliminate all assessment of student learning. Without any assessment, teachers would have no way of knowing whether their students are learning. The proposal should therefore be rejected.",
+    "stem": "The reasoning in the argument is most vulnerable to criticism on the grounds that it",
+    "choices": {
+      "A": "attacks a position that is more extreme than the one actually held by the proposal's supporters",
+      "B": "fails to consider that instruction time could be increased without reducing the number of tests",
+      "C": "assumes, without justification, that teachers need some form of assessment to know whether their students are learning",
+      "D": "takes for granted that the proposal's supporters are motivated by a desire to avoid being held accountable",
+      "E": "treats the fact that a proposal would have one undesirable consequence as sufficient reason to reject it entirely"
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. The educators proposed to 'reduce the number' of tests; the editorial recasts this as wanting to 'eliminate all assessment' and then refutes that invented position. This is a straw man.",
+      "B": "Out of scope: alternative ways to increase instruction time do not address the editorial's misrepresentation of the proposal.",
+      "C": "Premise booster: the editorial states outright that 'without any assessment, teachers would have no way of knowing,' so this is a stated premise, not a hidden assumption.",
+      "D": "Out of scope: the editorial says nothing about the supporters' motives or 'accountability.'",
+      "E": "Half right: the editorial does reject the proposal because of a consequence, but that consequence belongs to the distorted version of the proposal, not the real one, so this misses the actual error."
+    },
+    "trapPatterns": {
+      "B": "out_of_scope",
+      "C": "premise_booster",
+      "D": "out_of_scope",
+      "E": "half_right"
+    },
+    "keyTakeaway": "Compare what was actually proposed with what is being refuted; a quiet upgrade from 'reduce' to 'eliminate' is a straw man.",
+    "predictionHint": "'Reduce the number of tests' became 'eliminate all assessment.'"
+  },
+  {
+    "id": "lr-flaw-judges-sincere-self-report",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "mental_state_v_reality"
+    ],
+    "difficulty": 2,
+    "stimulus": "Psychologist: In a recent study, judges were asked whether their sentencing decisions were ever influenced by a defendant's physical appearance. Nearly all of the judges stated, with evident sincerity, that appearance never affected their decisions. Because judges are trained to be self-aware about their reasoning, we can conclude that defendants' physical appearance plays no role in sentencing.",
+    "stem": "Which one of the following most accurately describes a flaw in the argument's reasoning?",
+    "choices": {
+      "A": "It relies on a study whose participants may have had a strong incentive to misrepresent their actual views.",
+      "B": "It fails to consider that physical appearance might legitimately be relevant to some sentencing decisions.",
+      "C": "It treats the sincerity of the judges' statements as evidence that those statements were made voluntarily.",
+      "D": "It takes for granted that people are reliably aware of the factors that influence their own decisions.",
+      "E": "It assumes that because appearance does not influence sentencing, it does not influence any other judicial decision."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Shell game: the stimulus says the judges spoke 'with evident sincerity,' so the issue is not deliberate misrepresentation but whether sincere self-reports are accurate.",
+      "B": "Out of scope: whether appearance should matter has nothing to do with whether the judges' reports show that it does not.",
+      "C": "Out of scope: voluntariness of the statements is never at issue in the argument.",
+      "D": "Correct. Sincerity shows what the judges believe about their decisions, not what actually influences them. Being 'trained to be self-aware' does not guarantee that unconscious influences are detected, so belief is mistaken for reality.",
+      "E": "Extreme: the conclusion is limited to 'sentencing'; the argument makes no claim about 'any other judicial decision.'"
+    },
+    "trapPatterns": {
+      "A": "shell_game",
+      "B": "out_of_scope",
+      "C": "out_of_scope",
+      "E": "extreme"
+    },
+    "keyTakeaway": "A sincere report of one's own mental state is evidence of the belief, not of the fact believed.",
+    "predictionHint": "Judges believing they are unbiased does not make them unbiased."
+  },
+  {
+    "id": "lr-flaw-deficit-two-options",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "eliminating_options"
+    ],
+    "difficulty": 2,
+    "stimulus": "Economist: Raising taxes during an economic slowdown would discourage investment and thereby deepen the slowdown. So, since reducing the deficit is essential and the current slowdown shows no sign of ending, the government has no choice but to cut spending on public services.",
+    "stem": "The argument is flawed in that it",
+    "choices": {
+      "A": "assumes that reducing the deficit is more important than maintaining the current level of public services",
+      "B": "presumes, without justification, that cutting spending and raising taxes are the only ways to reduce the deficit",
+      "C": "takes for granted that discouraging investment would necessarily deepen an economic slowdown",
+      "D": "overlooks the possibility that the current economic slowdown will end on its own before any deficit-reduction measure takes effect",
+      "E": "treats a claim about what would happen during a slowdown as if it applied under all economic conditions"
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Out of scope: the premise 'reducing the deficit is essential' already grants its priority; the error is not a hidden value ranking.",
+      "B": "Correct. The argument never establishes that taxes and spending cuts are the only two routes to a smaller deficit; it simply treats ruling out one as forcing the other. Economic growth, asset sales, or closing loopholes could also reduce a deficit.",
+      "C": "Premise booster: the stimulus asserts that higher taxes 'would discourage investment and thereby deepen the slowdown'; questioning that attacks a premise, not the reasoning.",
+      "D": "Out of scope. The stimulus says the slowdown shows no sign of ending, and even if it ended, the argument's leap from 'not taxes' to 'must cut spending' would be untouched.",
+      "E": "Shell game: the argument is explicitly about the present 'slowdown' and never extends its claim to 'all economic conditions.'"
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "C": "premise_booster",
+      "D": "out_of_scope",
+      "E": "shell_game"
+    },
+    "keyTakeaway": "'Either A or B; not B; therefore A' is only as good as the claim that A and B are the only options.",
+    "predictionHint": "False dilemma: other ways to cut a deficit are ignored."
+  },
+  {
+    "id": "lr-flaw-csr-profit-association",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 3,
+    "stimulus": "Business analyst: Firms that have formal corporate social responsibility programs report, on average, higher profit margins than firms that lack such programs. Executives who dismiss such programs as a drain on resources are therefore mistaken: investing in a social responsibility program is an effective way for a firm to increase its profit margins.",
+    "stem": "The reasoning in the argument is most vulnerable to criticism on the grounds that it",
+    "choices": {
+      "A": "relies on firms' own reports of their profit margins rather than on independently audited financial figures",
+      "B": "presumes, without providing justification, that executives who dismiss such programs are unaware of the data on profit margins",
+      "C": "overlooks the possibility that some firms with social responsibility programs have lower profit margins than some firms without such programs",
+      "D": "draws a conclusion about what firms ought to do from premises that describe only what firms actually do",
+      "E": "infers from an association between two factors that one of them is responsible for the other"
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Shell game: 'report' is seized on as if it meant unreliability, but the argument's failure does not depend on whether the figures are accurate.",
+      "B": "Out of scope: the argument calls the executives 'mistaken' about an effect; it says nothing about what they are 'aware' of.",
+      "C": "True but irrelevant: the premise is explicitly about averages ('on average'), which tolerate individual exceptions, so this does not identify an error.",
+      "D": "Wrong part: the conclusion is the causal claim that programs are 'an effective way to increase' margins, not a claim about what firms 'ought to do.'",
+      "E": "Correct. Higher margins might cause firms to adopt such programs (profitable firms can afford them), or a third factor such as firm size might drive both. The argument treats the correlation as proof that the program produces the profit."
+    },
+    "trapPatterns": {
+      "A": "shell_game",
+      "B": "out_of_scope",
+      "C": "true_but_irrelevant",
+      "D": "wrong_part"
+    },
+    "keyTakeaway": "A difference 'on average' between two groups is a correlation; always ask whether the arrow could point the other way.",
+    "predictionHint": "Reverse causation: profitable firms may be the ones that can afford CSR programs."
+  },
+  {
+    "id": "lr-flaw-physicist-language-origin",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "lack_of_support_v_false"
+    ],
+    "difficulty": 3,
+    "stimulus": "A renowned physicist, in a widely read essay, has argued that all human languages descend from a single ancestral language spoken roughly 100,000 years ago. The physicist's work on the thermodynamics of complex systems has been honored with the discipline's highest awards, and her essay is written with great clarity and rigor. There is thus good reason to accept that all human languages share a single common ancestor.",
+    "stem": "Which one of the following most accurately describes a flaw in the argument's reasoning?",
+    "choices": {
+      "A": "It takes the wide readership of the essay as evidence of the truth of the essay's central thesis.",
+      "B": "It fails to consider that the ancestral language might have been spoken considerably more or less than 100,000 years ago.",
+      "C": "It treats expertise in one field as though it conferred authority in an unrelated field.",
+      "D": "It relies on the opinion of a single expert when the consensus of experts in the relevant field is not reported.",
+      "E": "It infers that a hypothesis is true from the fact that it has not been refuted by professional linguists."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Wrong part: 'widely read' is background description; the argument's stated reasons are the physicist's awards and the essay's clarity, not its readership.",
+      "B": "True but irrelevant: the conclusion drops the date entirely and asserts only a 'single common ancestor,' so imprecision about timing does not affect it.",
+      "C": "Correct. The credentials cited are in 'thermodynamics of complex systems.' Distinction there provides no reason to trust a claim about the history of human languages, so the appeal to authority is misplaced.",
+      "D": "Shell game: the problem is not that one expert is cited rather than many, but that the person cited is not an expert in the relevant field at all. Even a dozen physicists would not fix it.",
+      "E": "Out of scope: the stimulus never mentions whether linguists have responded, so no lack-of-refutation inference is made."
+    },
+    "trapPatterns": {
+      "A": "wrong_part",
+      "B": "true_but_irrelevant",
+      "D": "shell_game",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "An appeal to authority is only as good as the match between the authority's field and the claim.",
+    "predictionHint": "A physicist's awards say nothing about linguistics."
+  },
+  {
+    "id": "lr-flaw-land-contract-statute",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "conditional",
+      "rule_application"
+    ],
+    "difficulty": 3,
+    "stimulus": "Legal commentator: Under the new statute, a contract for the sale of land is enforceable only if it is in writing and signed by the party against whom enforcement is sought. The agreement between Orlov and the Pell Corporation was in writing and was signed by both parties. Hence, when the Pell Corporation sought to avoid its obligations, the court was right to hold that the agreement was enforceable against it.",
+    "stem": "The reasoning in the argument is most vulnerable to criticism on the grounds that it",
+    "choices": {
+      "A": "treats a condition that must be met for a contract to be enforceable as a condition that ensures that it is enforceable",
+      "B": "fails to establish that the Pell Corporation was the party against whom enforcement of the agreement was sought",
+      "C": "assumes that a statute governing contracts for the sale of land applies equally to all written contracts",
+      "D": "overlooks the possibility that the agreement was signed before the new statute took effect",
+      "E": "infers that a court's decision was correct merely because that decision was consistent with the requirements of the governing statute"
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. 'Enforceable only if' makes writing and signature necessary for enforceability. The argument then treats satisfying those conditions as establishing enforceability, which they cannot do; the contract could still fail for fraud, incapacity, or other defects.",
+      "B": "Premise booster: the stimulus says Pell 'sought to avoid its obligations' and the holding was 'against it,' so Pell's role as the resisting party is given.",
+      "C": "Shell game: the agreement is a land contract and the statute is applied only to it; nothing extends the statute to 'all written contracts.'",
+      "D": "Out of scope: timing is never raised, and even an agreement signed after the statute took effect would leave the necessary-versus-sufficient error intact.",
+      "E": "Shell game: the argument never shows the decision was 'consistent with the statute'; it shows only that one of the statute's necessary conditions was met. This misdescribes what the argument actually does."
+    },
+    "trapPatterns": {
+      "B": "premise_booster",
+      "C": "shell_game",
+      "D": "out_of_scope",
+      "E": "shell_game"
+    },
+    "keyTakeaway": "'Only if' introduces a necessary condition; satisfying it rules nothing in, it merely avoids one way of being ruled out.",
+    "predictionHint": "Writing and signature are necessary, not sufficient, for enforceability."
+  },
+  {
+    "id": "lr-flaw-museum-exit-survey",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "sampling",
+      "comparison"
+    ],
+    "difficulty": 3,
+    "stimulus": "Museum director: Our exit survey asked visitors to the recent exhibition of contemporary sculpture to rate it on a five-point scale. The exhibition received an average rating of 4.6, higher than the 4.1 average that last year's exhibition of Renaissance drawings received from its visitors. This shows that the public's appreciation of contemporary sculpture now exceeds its appreciation of Renaissance drawing.",
+    "stem": "The argument is flawed in that it",
+    "choices": {
+      "A": "presumes that a difference of half a point on a five-point scale is large enough to be meaningful",
+      "B": "fails to consider that the number of visitors to the two exhibitions may have differed considerably",
+      "C": "overlooks the possibility that the public's appreciation of Renaissance drawing has increased considerably since last year's exhibition",
+      "D": "draws a conclusion about the public from the ratings of two groups, each likely predisposed in favor of what it rated",
+      "E": "relies on a survey in which respondents may have been reluctant to rate an exhibition unfavorably"
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Wrong force: the size of the gap is a quibble about the data; the reasoning would be flawed even if the gap were two full points.",
+      "B": "True but irrelevant: the comparison is between averages, which are not distorted by unequal group sizes.",
+      "C": "Out of scope: a change in Renaissance appreciation since last year would still not let visitor ratings stand in for 'the public.'",
+      "D": "Correct. People who choose to attend a sculpture exhibition already like sculpture, and the same holds for the drawings exhibition. Each group rated what it came to see, so comparing the two tells us nothing about how 'the public' ranks the two art forms.",
+      "E": "Half right: a reluctance to rate unfavorably would affect both exhibitions equally and cannot explain why the comparison fails to support the conclusion."
+    },
+    "trapPatterns": {
+      "A": "wrong_force",
+      "B": "true_but_irrelevant",
+      "C": "out_of_scope",
+      "E": "half_right"
+    },
+    "keyTakeaway": "Two self-selected samples cannot be compared to reach a conclusion about a population neither of them represents.",
+    "predictionHint": "Each exhibition's visitors already favored what they came to see."
+  },
+  {
+    "id": "lr-flaw-tortoise-population-division",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "part_v_whole"
+    ],
+    "difficulty": 3,
+    "stimulus": "Ecologist: The desert tortoise population of the Kessler Basin has persisted through several severe droughts over the past century, which shows that the population is well adapted to drought. Consequently, the tortoise that died of drought-related dehydration near the basin's eastern edge last month cannot have been a member of the Kessler Basin population; a member of a population well adapted to drought would not have succumbed to it.",
+    "stem": "The reasoning in the argument is most vulnerable to criticism on the grounds that it",
+    "choices": {
+      "A": "fails to consider that the tortoise might have died from a cause other than the drought",
+      "B": "infers that what is true of a population as a whole must be true of each of its members",
+      "C": "presumes that a population that has survived past droughts will necessarily survive future droughts",
+      "D": "relies on a characterization of the population's adaptation that is based solely on the population's survival",
+      "E": "overlooks the possibility that the tortoise was found outside the boundaries within which the population normally ranges"
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Out of scope: the stimulus stipulates the tortoise 'died of drought-related dehydration,' so an alternative cause of death is ruled out by the premises.",
+      "B": "Correct. A population is 'well adapted' when it persists, which is compatible with many individuals dying in each drought. Treating population-level adaptation as a guarantee for every individual is the division error.",
+      "C": "Wrong part: the conclusion concerns a past death and the tortoise's membership, not whether the population will survive 'future droughts.'",
+      "D": "Half right: one could question how adaptation is inferred, but surviving several severe droughts is reasonable evidence of adaptation; the fatal move comes afterward, when that adaptation is applied to one tortoise.",
+      "E": "True but irrelevant: where the tortoise was found does not bear on the inference from population adaptation to individual survival."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "C": "wrong_part",
+      "D": "half_right",
+      "E": "true_but_irrelevant"
+    },
+    "keyTakeaway": "A group-level property such as 'adapted' or 'successful' need not hold for any particular member of the group.",
+    "predictionHint": "Population adapted does not mean every tortoise survives."
+  },
+  {
+    "id": "lr-flaw-painting-value-senses",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "definition_scope"
+    ],
+    "difficulty": 3,
+    "stimulus": "Art critic: Museums justify the enormous sums they spend acquiring paintings by pointing to the value of the works. But the value of a painting lies in the aesthetic experience it affords viewers, and that experience is no greater when an original hangs in a gallery than when a high-quality reproduction hangs there instead. Thus museums could obtain the full value of the paintings they covet for a tiny fraction of what they now pay.",
+    "stem": "Which one of the following most accurately describes a flaw in the argument's reasoning?",
+    "choices": {
+      "A": "It takes for granted that the aesthetic experience afforded by a painting is identical for every viewer who encounters it.",
+      "B": "It presumes, without providing justification, that high-quality reproductions are less costly to produce than the original paintings were.",
+      "C": "It overlooks the possibility that viewers who know they are looking at a reproduction will have a diminished aesthetic experience.",
+      "D": "It generalizes from the acquisition practices of a few museums to the practices of museums in general.",
+      "E": "It fails to distinguish between two different senses in which a painting can be said to have value."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Extreme: the argument needs only that reproductions and originals afford comparable experiences, not that the experience is 'identical for every viewer.'",
+      "B": "True but irrelevant: whether reproductions are cheap to make is a side issue; the conclusion fails for a different reason.",
+      "C": "Wrong part: this attacks the premise that the experience is 'no greater' for an original, which the argument asserts. A flaw question asks about the inference, not whether a premise is true.",
+      "D": "Out of scope: no generalization from 'a few museums' is made; the argument speaks of museums throughout.",
+      "E": "Correct. Museums justify prices by the works' value in a market or collectible sense; the critic redefines 'value' as aesthetic experience and then concludes about what museums 'pay.' The conclusion trades on this shift between senses of 'value.'"
+    },
+    "trapPatterns": {
+      "A": "extreme",
+      "B": "true_but_irrelevant",
+      "C": "wrong_part",
+      "D": "out_of_scope"
+    },
+    "keyTakeaway": "Watch for a key term that is defined one way in a premise and then used in another sense in the conclusion.",
+    "predictionHint": "'Value' shifts from market value to aesthetic value."
+  },
+  {
+    "id": "lr-flaw-screening-test-positive-predictive",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "math_percent",
+      "conditional"
+    ],
+    "difficulty": 4,
+    "stimulus": "Physician: The new screening test for Hadley's syndrome correctly identifies 99 percent of patients who have the condition and correctly clears 95 percent of those who do not. The test is therefore highly reliable, and a patient who tests positive should be told that there is roughly a 95 percent chance that he or she has Hadley's syndrome.",
+    "stem": "The reasoning in the argument is most vulnerable to criticism on the grounds that it",
+    "choices": {
+      "A": "presumes that a test that correctly identifies most patients who have a condition will also correctly clear most patients who do not have it",
+      "B": "fails to consider that the 5 percent of patients who are incorrectly cleared by the test may suffer serious harm as a result",
+      "C": "overlooks the fact that the proportion of positive results that are accurate depends on how prevalent the condition is among those tested",
+      "D": "confuses the proportion of patients with the condition who test positive with the proportion of all patients tested who test positive",
+      "E": "relies on the test's accuracy among patients who have the condition while ignoring its accuracy among those who do not"
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Premise booster: both figures are stated separately in the stimulus, so neither is inferred from the other.",
+      "B": "Out of scope and misread: the 5 percent figure concerns healthy patients wrongly flagged, not sick patients 'incorrectly cleared,' and harm is not at issue.",
+      "C": "Correct. If the syndrome is rare, most positive results come from the 5 percent of healthy patients who are wrongly flagged, and the chance that a positive patient actually has the condition can be far below 95 percent. The argument reads a 95 percent figure about healthy patients as if it were the probability that a positive result is correct.",
+      "D": "Shell game: the physician's 95 percent claim is about the chance a positive patient has the condition. The argument never confuses that with 'the proportion of all patients tested who test positive,' so this names the wrong pair of quantities.",
+      "E": "Opposite: the argument explicitly uses the figure for patients 'who do not' have the condition; it ignores neither."
+    },
+    "trapPatterns": {
+      "A": "premise_booster",
+      "B": "out_of_scope",
+      "D": "shell_game",
+      "E": "opposite"
+    },
+    "keyTakeaway": "The chance that a positive test is correct depends on the base rate, not just on the test's accuracy figures.",
+    "predictionHint": "Base rate neglect: a positive result's reliability depends on prevalence."
+  },
+  {
+    "id": "lr-flaw-honors-scholarship-conditional",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "conditional",
+      "quantifiers"
+    ],
+    "difficulty": 4,
+    "stimulus": "Every student who completes the university's honors program is guaranteed a merit scholarship, and no student on academic probation is permitted to complete the honors program. Most of the students who received merit scholarships last year were never on academic probation at any point during their studies. It follows that most of last year's merit scholarship recipients had completed the honors program.",
+    "stem": "The argument is flawed in that it",
+    "choices": {
+      "A": "takes for granted that students who satisfied a condition necessary for completing the honors program must have completed it",
+      "B": "takes for granted that every student who received a merit scholarship last year had applied to enter the honors program",
+      "C": "fails to consider that some students who completed the honors program may have declined the scholarship they were offered",
+      "D": "draws a conclusion about most scholarship recipients from a premise that applies to only some of them",
+      "E": "overlooks the possibility that some students were placed on academic probation only after they had completed the honors program"
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. 'No student on probation may complete the program' makes staying off probation necessary for completion. The argument's only route to its conclusion is the premise that 'most' recipients were never on probation, so it treats that necessary condition as if it were sufficient for having completed the program.",
+      "B": "Out of scope. Applying to the program is never mentioned, and the argument's inference does not depend on it; the gap is treating 'never on probation' (merely required for honors) as if it established completion.",
+      "C": "Out of scope: students who declined scholarships are not among 'last year's merit scholarship recipients,' so they do not affect the conclusion.",
+      "D": "Wrong force: the premise is explicitly about 'most' recipients, not 'only some,' so this misstates the quantifier the argument uses.",
+      "E": "True but irrelevant: the premise says recipients were 'never on academic probation at any point,' which already excludes this scenario."
+    },
+    "trapPatterns": {
+      "B": "out_of_scope",
+      "C": "out_of_scope",
+      "D": "wrong_force",
+      "E": "true_but_irrelevant"
+    },
+    "keyTakeaway": "Trace which premise actually carries the inference; the flaw lives in the step that is doing the work.",
+    "predictionHint": "Not being on probation is required for honors, not a guarantee of it."
+  },
+  {
+    "id": "lr-flaw-tolan-deposits-rival-hypothesis",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "lack_of_support_v_false",
+      "eliminating_options"
+    ],
+    "difficulty": 4,
+    "stimulus": "Geologist: Specialists agree that mineral deposits of the kind found in the Tolan Valley form either through hydrothermal activity or through purely sedimentary processes. The strongest evidence offered for the hydrothermal account is the presence of certain sulfide minerals, but those minerals can also form through sedimentary processes. Thus the hydrothermal account is unsupported, and we should conclude that the deposits were formed by sedimentary processes.",
+    "stem": "Which one of the following most accurately describes a flaw in the argument's reasoning?",
+    "choices": {
+      "A": "It takes for granted that the sulfide minerals could not have formed through hydrothermal and sedimentary processes acting together.",
+      "B": "It fails to consider that evidence consistent with two hypotheses may nevertheless support one of them more strongly than the other.",
+      "C": "It rejects a hypothesis on the grounds that the evidence for that hypothesis was offered by the hypothesis's own proponents.",
+      "D": "It treats the lack of adequate support for one hypothesis as though it were positive evidence for a competing hypothesis.",
+      "E": "It overlooks the possibility that the sulfide minerals are not the only evidence relevant to the hydrothermal account."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Out of scope: the specialists' premise establishes the two processes as alternatives, and the argument makes no claim about them 'acting together.'",
+      "B": "Wrong part: this targets the intermediate step ('unsupported') and has some merit, but even if the hydrothermal account were truly unsupported, the main conclusion would still not follow. The decisive error is in the final move.",
+      "C": "Out of scope: nothing in the argument turns on who 'offered' the evidence.",
+      "D": "Correct. Showing that the evidence for the hydrothermal account is inconclusive leaves the question open; it does not make the sedimentary account any more likely. The argument slides from 'not shown' to 'false' and then to 'the rival is true.'",
+      "E": "True but irrelevant: the stimulus calls the sulfides 'the strongest evidence,' conceding other evidence exists, and the flaw does not depend on this."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "wrong_part",
+      "C": "out_of_scope",
+      "E": "true_but_irrelevant"
+    },
+    "keyTakeaway": "Undercutting the support for one hypothesis is not evidence for its rival, even when only two hypotheses are on the table.",
+    "predictionHint": "Lack of support for A is being used as proof of B."
+  },
+  {
+    "id": "lr-weaken-time-management-app",
+    "section": "LR",
+    "type": "weaken",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 1,
+    "stimulus": "Manager: Six months ago, our company began requiring all employees to use a new time-management application. Since then, the number of projects completed on schedule has risen by 30 percent. The application has clearly improved our employees' productivity, so we should renew our license for it next year.",
+    "stem": "Which one of the following, if true, most seriously weakens the argument?",
+    "choices": {
+      "A": "Several employees have complained that the application is difficult to learn to use.",
+      "B": "Four months ago, the company hired additional staff to reduce the workload of its existing project teams.",
+      "C": "The application is considerably more expensive than comparable applications offered by other software vendors.",
+      "D": "Projects that are completed on schedule are not always completed within their allotted budgets.",
+      "E": "Several of the company's competitors have also begun requiring their employees to use time-management applications."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Out of scope: difficulty learning the application does not challenge the claim that it improved productivity once adopted.",
+      "B": "Correct. Added staff during the same period is an alternative explanation for the rise in on-schedule completions, so the improvement need not be due to the application at all.",
+      "C": "Shell game: price bears on whether renewal is worth the money, not on the causal claim that the application 'improved productivity,' which is what supports the recommendation.",
+      "D": "True but irrelevant: budgets are never at issue; the measure of productivity used is on-schedule completion.",
+      "E": "Out of scope: what competitors do has no bearing on whether this application caused this company's improvement."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "C": "shell_game",
+      "D": "true_but_irrelevant",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "To weaken 'X caused Y because Y rose after X,' look for something else that changed in the same window.",
+    "predictionHint": "Alternative cause for more on-time projects."
+  },
+  {
+    "id": "lr-weaken-plastic-bag-ban-litter",
+    "section": "LR",
+    "type": "weaken",
+    "logicTags": [
+      "causation",
+      "analogy"
+    ],
+    "difficulty": 1,
+    "stimulus": "Environmentalist: The city should ban single-use plastic shopping bags. Such bags make up a significant share of the litter collected from the city's beaches, and in cities that have enacted similar bans, the volume of plastic bag litter on beaches has dropped sharply. Banning the bags would therefore substantially reduce the total amount of litter on our beaches.",
+    "stem": "Which one of the following, if true, most seriously weakens the argument?",
+    "choices": {
+      "A": "Some retailers in the city have already voluntarily stopped offering single-use plastic bags to their customers.",
+      "B": "Plastic bags that are reused several times have a smaller overall environmental impact than paper bags do.",
+      "C": "In cities that have enacted similar bans, the total volume of beach litter of all kinds has declined in the years since the ban.",
+      "D": "Most of the litter collected from the city's beaches is left there by visitors from outside the city rather than by the city's own residents.",
+      "E": "In cities that banned plastic bags, the decline in plastic bag litter was offset by an equal rise in litter from other disposable bags."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Wrong force: a few voluntary withdrawals might slightly shrink the ban's marginal effect but do not challenge the claim that a ban would reduce total litter.",
+      "B": "Out of scope: environmental impact of reuse is a different issue from the volume of beach litter.",
+      "C": "Opposite: a decline in 'total' litter after similar bans is exactly what the environmentalist predicts, so this strengthens rather than weakens.",
+      "D": "Out of scope: who leaves the litter does not matter; a ban on bags sold in the city could still affect visitors who shop there.",
+      "E": "Correct. The conclusion is about 'the total amount of litter.' If banned plastic bags are simply replaced one for one by other disposable bags, total litter does not fall, even though plastic bag litter does."
+    },
+    "trapPatterns": {
+      "A": "wrong_force",
+      "B": "out_of_scope",
+      "C": "opposite",
+      "D": "out_of_scope"
+    },
+    "keyTakeaway": "Read the conclusion's exact target ('total litter'); evidence about one component does not settle the whole.",
+    "predictionHint": "Substitution: other litter replaces the plastic bags."
+  },
+  {
+    "id": "lr-weaken-bakery-second-location",
+    "section": "LR",
+    "type": "weaken",
+    "logicTags": [
+      "analogy"
+    ],
+    "difficulty": 1,
+    "stimulus": "The Maple Street bakery has thrived for a decade by selling a small menu of high-quality breads at premium prices. The owners now plan to open a second location in the Riverside neighborhood using exactly the same menu and prices. Since the formula has proven successful on Maple Street, the Riverside location will succeed as well.",
+    "stem": "Which one of the following, if true, most seriously weakens the argument?",
+    "choices": {
+      "A": "The owners of the bakery have never before managed more than one location at a time.",
+      "B": "The Maple Street location has experienced a slight decline in sales over the past year.",
+      "C": "Household incomes in Riverside are far lower than on Maple Street, and Riverside residents rarely buy premium-priced foods.",
+      "D": "A new bakery offering a much larger menu recently opened two blocks from the Maple Street location.",
+      "E": "Many of the Maple Street bakery's regular customers have said that they would be willing to travel to the Riverside neighborhood to shop."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Wrong force: inexperience with multiple locations is a risk, but it does not show that the formula itself will fail in Riverside.",
+      "B": "Out of scope: a 'slight decline' at Maple Street does not break the analogy; the formula still 'thrived for a decade.'",
+      "C": "Correct. The argument assumes Riverside is relevantly similar to Maple Street. If Riverside residents rarely buy premium-priced foods, the key feature of the formula, premium pricing, is exactly what will not transfer.",
+      "D": "Out of scope: competition near the Maple Street location says nothing about conditions in Riverside.",
+      "E": "Opposite: customers willing to travel to Riverside would, if anything, help the new location succeed."
+    },
+    "trapPatterns": {
+      "A": "wrong_force",
+      "B": "out_of_scope",
+      "D": "out_of_scope",
+      "E": "opposite"
+    },
+    "keyTakeaway": "To weaken an analogy, find the difference that matters to the very feature the argument relies on.",
+    "predictionHint": "Riverside differs from Maple Street in a way that defeats premium pricing."
+  },
+  {
+    "id": "lr-weaken-gratitude-journal-volunteers",
+    "section": "LR",
+    "type": "weaken",
+    "logicTags": [
+      "causation",
+      "sampling"
+    ],
+    "difficulty": 2,
+    "stimulus": "Psychologist: People who keep a daily journal of things they are grateful for report higher levels of life satisfaction than people who do not. In a recent study, participants who volunteered to keep a gratitude journal for eight weeks scored, on average, 20 percent higher on a life satisfaction scale at the end of the study than participants who did not volunteer. Keeping a gratitude journal thus increases life satisfaction.",
+    "stem": "Which one of the following, if true, most seriously weakens the argument?",
+    "choices": {
+      "A": "At the start of the study, participants who volunteered to keep a journal already scored substantially higher on the satisfaction scale than nonvolunteers.",
+      "B": "Some participants who volunteered to keep the journal did not write in it every day during the eight weeks.",
+      "C": "Scores on life satisfaction scales are known to vary somewhat depending on the time of day at which the scale is administered.",
+      "D": "Participants who did not volunteer to keep a journal were, on average, slightly older than those who did.",
+      "E": "Many of the participants who kept the journal reported that they found the exercise tedious."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. If the volunteers were already more satisfied before journaling began, the end-of-study gap reflects who chose to volunteer, not any effect of journaling. The causal conclusion loses its support.",
+      "B": "Wrong force: inconsistent journaling would, if anything, understate the effect, so it does not undermine the conclusion.",
+      "C": "Out of scope: time-of-day variation would affect both groups alike and cannot explain a 20 percent gap between them.",
+      "D": "Half right: an age difference is a potential confound, but it is 'slightly' older and no link between age and satisfaction is given, so it weakens far less than a documented head start.",
+      "E": "Out of scope: finding the exercise tedious is compatible with it raising satisfaction; the scores already reflect any such feelings."
+    },
+    "trapPatterns": {
+      "B": "wrong_force",
+      "C": "out_of_scope",
+      "D": "half_right",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "When participants self-select into a treatment, check whether the groups differed before the treatment began.",
+    "predictionHint": "Volunteers may have been happier to begin with."
+  },
+  {
+    "id": "lr-weaken-coffee-longevity-study",
+    "section": "LR",
+    "type": "weaken",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 2,
+    "stimulus": "A large study tracked adults for twenty years and found that those who drank three or more cups of coffee a day were 15 percent less likely to die during the study period than those who drank no coffee. The researchers controlled for age, smoking, and body weight. It is reasonable to conclude that drinking coffee regularly helps people live longer.",
+    "stem": "Which one of the following, if true, most seriously weakens the argument?",
+    "choices": {
+      "A": "The study did not distinguish between participants who drank caffeinated coffee and those who drank decaffeinated coffee.",
+      "B": "Participants who drank three or more cups of coffee a day were considerably more likely than other participants to also drink tea regularly.",
+      "C": "Coffee consumption has been shown to raise blood pressure temporarily in some people.",
+      "D": "Physicians commonly advise patients with serious chronic illnesses to stop drinking coffee, and most such patients follow that advice.",
+      "E": "The participants who drank no coffee were, on average, the same age as those who drank three or more cups a day."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Out of scope: whether the coffee was caffeinated does not challenge the link between drinking coffee and living longer.",
+      "B": "Wrong force: tea drinking is offered as a possible confound, but nothing connects tea to longevity, so it does little to undermine the inference.",
+      "C": "True but irrelevant: a temporary rise in blood pressure in 'some people' does not address the observed survival difference.",
+      "D": "Correct. If seriously ill people stop drinking coffee, the non-coffee group is disproportionately made up of people already likely to die. The correlation would then be caused by illness driving abstention, not by coffee extending life.",
+      "E": "Premise booster: the study already 'controlled for age,' so this adds nothing and if anything supports the comparison."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "wrong_force",
+      "C": "true_but_irrelevant",
+      "E": "premise_booster"
+    },
+    "keyTakeaway": "Ask whether the outcome could be shaping the exposure: sick people may quit the habit, not the other way around.",
+    "predictionHint": "Reverse causation: illness causes people to stop drinking coffee."
+  },
+  {
+    "id": "lr-weaken-ashby-manuscript-comet",
+    "section": "LR",
+    "type": "weaken",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 2,
+    "stimulus": "Historian: The Ashby manuscript has traditionally been dated to around 1450 on the basis of its handwriting style. However, the manuscript contains a reference to a comet that, according to astronomical calculations, would have been visible in the region only in 1472. The manuscript cannot have been written before the event it describes, so it must have been written in or after 1472.",
+    "stem": "Which one of the following, if true, most seriously weakens the argument?",
+    "choices": {
+      "A": "Handwriting styles that were common in the mid-fifteenth century often persisted among scribes for several decades afterward.",
+      "B": "The passage referring to the comet is written in a different ink and a different hand from the rest of the manuscript.",
+      "C": "Several other comets were visible in the region between 1440 and 1460.",
+      "D": "Astronomical calculations of past comet visibility are generally accurate to within a few months.",
+      "E": "The manuscript's author is known to have been born in 1430 and would have been elderly by 1472."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Opposite: this makes a post-1472 date more compatible with the handwriting evidence, which supports the historian.",
+      "B": "Correct. If the comet passage was added later by a different hand, the manuscript proper could still date from 1450; the dating argument rests on the assumption that the reference was part of the original composition.",
+      "C": "Wrong part: the stimulus specifies that the comet referred to was visible 'only in 1472,' so other comets in earlier decades do not bear on that identification.",
+      "D": "Premise booster: precision in the calculations supports the 1472 date rather than undermining the argument.",
+      "E": "Wrong force: an elderly author could still write; this does not make a post-1472 date implausible."
+    },
+    "trapPatterns": {
+      "A": "opposite",
+      "C": "wrong_part",
+      "D": "premise_booster",
+      "E": "wrong_force"
+    },
+    "keyTakeaway": "A dating argument from internal content assumes the content was original; a later insertion breaks the inference.",
+    "predictionHint": "The comet reference might not be part of the original text."
+  },
+  {
+    "id": "lr-weaken-minimum-wage-restaurant-jobs",
+    "section": "LR",
+    "type": "weaken",
+    "logicTags": [
+      "math_percent",
+      "definition_scope"
+    ],
+    "difficulty": 2,
+    "stimulus": "Economist: Critics of the recent increase in the regional minimum wage predicted that it would cause widespread layoffs among low-wage workers. Yet in the year since the increase took effect, total employment in the region's restaurant industry, which employs more minimum-wage workers than any other industry, has actually grown by 3 percent. The critics' prediction has thus been shown to be wrong.",
+    "stem": "Which one of the following, if true, most calls into question the economist's conclusion?",
+    "choices": {
+      "A": "The increase in the regional minimum wage was smaller than increases recently enacted in several neighboring regions.",
+      "B": "Many restaurant owners in the region raised their menu prices shortly after the increase took effect.",
+      "C": "In each of the five years before the increase, restaurant employment in the region grew by between 2 and 4 percent.",
+      "D": "Several large restaurant chains opened new locations in the region during the past year.",
+      "E": "Nearly all of the past year's growth in restaurant employment occurred in salaried management positions, while the number of hourly positions fell by 7 percent."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Out of scope: the size of other regions' increases has no bearing on whether this one caused layoffs.",
+      "B": "Out of scope: price increases are a different response from layoffs and do not show that low-wage workers lost jobs.",
+      "C": "Opposite: steady 2 to 4 percent growth before the increase shows the post-increase 3 percent is normal, which if anything supports the economist's claim that no damage occurred.",
+      "D": "Wrong force: new chain openings help explain the growth but do not indicate that minimum-wage workers were laid off, which is what the critics predicted.",
+      "E": "Correct. The critics predicted layoffs 'among low-wage workers.' If hourly positions, where minimum-wage workers are concentrated, fell by 7 percent while management grew, total employment can rise even as the predicted layoffs occurred."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "out_of_scope",
+      "C": "opposite",
+      "D": "wrong_force"
+    },
+    "keyTakeaway": "An aggregate total can rise while the specific subgroup the prediction was about shrinks; match the evidence to the group named.",
+    "predictionHint": "Total employment up, but low-wage jobs specifically could still be down."
+  },
+  {
+    "id": "lr-weaken-dunmore-drought-abandonment",
+    "section": "LR",
+    "type": "weaken",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 2,
+    "stimulus": "Archaeologist: The hilltop settlement at Dunmore was abandoned abruptly around 900 B.C. Sediment cores from a nearby lake show that the regional climate became markedly drier at roughly that time. Since the settlement had no permanent water source of its own and depended on seasonal rainfall, the drought must have been what drove the inhabitants to abandon Dunmore.",
+    "stem": "Which one of the following, if true, most seriously weakens the argument?",
+    "choices": {
+      "A": "Several lowland settlements in the same region that also depended entirely on seasonal rainfall remained continuously occupied for centuries after 900 B.C.",
+      "B": "The sediment cores indicate that the drier regional climate persisted for at least two centuries after 900 B.C.",
+      "C": "Pottery fragments found at Dunmore show that its inhabitants traded regularly with settlements in the lowlands.",
+      "D": "The inhabitants of Dunmore stored rainwater in large cisterns carved into the hilltop rock.",
+      "E": "Archaeologists have found no evidence indicating where the inhabitants of Dunmore went after abandoning the settlement."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. If other rain-dependent settlements in the same region survived the same drought for centuries, the drought alone was evidently not enough to force abandonment, so some other cause likely drove Dunmore's inhabitants away.",
+      "B": "Premise booster: a long-lasting drought makes the archaeologist's explanation more, not less, plausible.",
+      "C": "Out of scope: trade with the lowlands says nothing about why the site was abandoned.",
+      "D": "Wrong force: cisterns store rainfall, so the settlement still 'depended on seasonal rainfall'; this does not break the link between drought and water shortage.",
+      "E": "Out of scope: where the inhabitants went has no bearing on why they left."
+    },
+    "trapPatterns": {
+      "B": "premise_booster",
+      "C": "out_of_scope",
+      "D": "wrong_force",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "A proposed cause is undermined when the same cause was present elsewhere without producing the effect.",
+    "predictionHint": "Cause without effect: other rain-dependent sites survived the drought."
+  },
+  {
+    "id": "lr-weaken-corvish-vowel-shift-printing",
+    "section": "LR",
+    "type": "weaken",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 3,
+    "stimulus": "Linguist: In the Corvish language, a sound change in which long vowels became diphthongs appears in written records beginning around 1600. Printed books in Corvish became widely available only after 1580, and printers standardized spelling to reflect the pronunciation of the capital, where the change originated. It is therefore likely that the spread of printed books caused the sound change to spread from the capital to the rest of the Corvish-speaking region.",
+    "stem": "Which one of the following, if true, most seriously weakens the argument?",
+    "choices": {
+      "A": "The standardized spellings adopted by Corvish printers did not always accurately reflect the pronunciation of the capital.",
+      "B": "Literacy rates outside the capital remained below 10 percent until well into the eighteenth century.",
+      "C": "Private letters written in provincial towns before 1580 contain spellings indicating that long vowels had already become diphthongs there.",
+      "D": "Sound changes in other languages have typically spread through face-to-face contact between speakers rather than through writing.",
+      "E": "Most of the printers who produced Corvish books in the late sixteenth century were themselves natives of the capital."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Half right: imperfect spellings would weaken the mechanism somewhat, but 'not always' leaves most spellings accurate and the books still capable of spreading the change.",
+      "B": "Wrong force: low literacy makes the mechanism less efficient, but books could still reach the literate few, who in turn speak to others; it does not rule out the causal story.",
+      "C": "Correct. If the diphthongs were already present in provincial towns before 1580, the sound change had spread before printed books were widely available. An effect that precedes its supposed cause cannot have been caused by it.",
+      "D": "True but irrelevant: what has 'typically' happened in other languages does not show it did not happen differently in Corvish.",
+      "E": "Premise booster: printers being from the capital supports the claim that their spellings reflected the capital's pronunciation."
+    },
+    "trapPatterns": {
+      "A": "half_right",
+      "B": "wrong_force",
+      "D": "true_but_irrelevant",
+      "E": "premise_booster"
+    },
+    "keyTakeaway": "The most decisive weakener of a causal claim shows that the effect was already present before the proposed cause.",
+    "predictionHint": "Timeline: the change spread before books existed."
+  },
+  {
+    "id": "lr-weaken-community-sentencing-reoffense",
+    "section": "LR",
+    "type": "weaken",
+    "logicTags": [
+      "causation",
+      "math_percent"
+    ],
+    "difficulty": 3,
+    "stimulus": "Policy analyst: Two years ago, the province replaced mandatory prison sentences for first-time nonviolent drug offenses with supervised community programs. Since then, the proportion of such offenders who are convicted of a new offense within one year of sentencing has fallen from 31 percent to 19 percent. The community programs are therefore more effective than imprisonment at preventing reoffending among first-time nonviolent drug offenders.",
+    "stem": "Which one of the following, if true, most seriously weakens the argument?",
+    "choices": {
+      "A": "The community programs cost the province considerably less per offender than imprisonment did.",
+      "B": "Reconviction rates among violent offenders in the province have also declined over the past two years.",
+      "C": "Offenders sentenced to prison under the old system were typically released after serving about six months.",
+      "D": "When the sentencing change took effect, the province also reclassified several common drug offenses so that they are no longer prosecuted as crimes.",
+      "E": "The community programs require offenders to attend weekly supervised sessions for a full year after sentencing."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Out of scope: cost has nothing to do with whether the programs prevent reoffending.",
+      "B": "Wrong force: a decline among a different group hints at a general trend, but it neither explains the specific drop nor shows the programs were not responsible for it.",
+      "C": "Opposite: if prisoners were at liberty for only six of the twelve months in the window and still reoffended at 31 percent, the programs' 19 percent over a full year looks even better.",
+      "D": "Correct. If conduct that used to count as a new offense is no longer prosecuted, reconviction rates would fall regardless of offender behavior. The measured drop may reflect the change in what counts as an offense, not any effect of the programs.",
+      "E": "Out of scope: the length of supervision describes the program; it does not bear on whether the comparison with prison is valid."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "wrong_force",
+      "C": "opposite",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "When a measured rate drops, ask whether the measurement itself changed before crediting the intervention.",
+    "predictionHint": "The definition of 'new offense' changed at the same time."
+  },
+  {
+    "id": "lr-weaken-vos-lace-attribution",
+    "section": "LR",
+    "type": "weaken",
+    "logicTags": [
+      "lack_of_support_v_false"
+    ],
+    "difficulty": 3,
+    "stimulus": "Art historian: The unsigned portrait recently acquired by the Hollis Museum has been attributed to the seventeenth-century painter Anneke Vos. The attribution rests on the portrait's distinctive treatment of lace, which matches the technique seen in Vos's signed works, and on chemical analysis showing that its pigments were available in Vos's city during her lifetime. Since no other painter of the period is known to have used this lace technique, the attribution is almost certainly correct.",
+    "stem": "Which one of the following, if true, most calls into question the art historian's conclusion?",
+    "choices": {
+      "A": "Vos's signed works vary considerably in their treatment of fabrics other than lace.",
+      "B": "Vos ran a large workshop whose apprentices were trained to reproduce her signature techniques, and unsigned workshop pieces were commonly sold under her name.",
+      "C": "The pigments identified in the portrait remained in common use in Vos's city for a century after her death.",
+      "D": "Several works previously attributed to Vos on the basis of her lace technique have since been authenticated by other methods.",
+      "E": "Relatively few of the portraits painted in Vos's city during the seventeenth century have survived to the present day."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Out of scope: variation in other fabrics does not affect the distinctiveness of the lace technique, which is the basis of the attribution.",
+      "B": "Correct. The argument's key premise is that no one else used the technique. If apprentices were trained to reproduce it and their unsigned work circulated under Vos's name, the lace technique no longer points uniquely to Vos.",
+      "C": "Wrong force: this neutralizes the pigment evidence but leaves the lace argument, which the historian calls decisive, untouched.",
+      "D": "Opposite: prior successful attributions by the same method support the reliability of the lace criterion.",
+      "E": "Half right: low survival rates make 'no other painter is known' weaker evidence, but this only questions how much we know, whereas B supplies a concrete alternative source for the technique."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "C": "wrong_force",
+      "D": "opposite",
+      "E": "half_right"
+    },
+    "keyTakeaway": "Attack the premise that does the real work; here the uniqueness claim, not the supporting pigment evidence.",
+    "predictionHint": "Someone else could have produced the lace technique."
+  },
+  {
+    "id": "lr-weaken-reforestation-rainfall-direction",
+    "section": "LR",
+    "type": "weaken",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 4,
+    "stimulus": "Climatologist: Over the past thirty years, the Varga Highlands have been extensively reforested, and annual rainfall in the highlands has increased by 12 percent over the same period. Forests release large amounts of water vapor through transpiration, and this vapor can form clouds that produce rain locally. It is therefore likely that the reforestation is responsible for the increased rainfall in the highlands.",
+    "stem": "Which one of the following, if true, most seriously weakens the argument?",
+    "choices": {
+      "A": "Rainfall in the highlands fluctuated considerably from one year to the next throughout the thirty-year period.",
+      "B": "Most of the water vapor released by the highland forests is carried by prevailing winds beyond the highlands before it condenses.",
+      "C": "The tree species planted in the highlands transpire less water than most other forest species do.",
+      "D": "Lowland areas adjacent to the highlands that were not reforested experienced no increase in rainfall over the same period.",
+      "E": "The reforestation program was undertaken in response to a shift in regional weather patterns that began thirty-five years ago and brought steadily increasing moisture."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Wrong force: year-to-year fluctuation is compatible with a 12 percent rise over thirty years and does not touch the causal claim.",
+      "B": "Half right: this weakens the proposed mechanism, but 'most' leaves some vapor to condense locally, so the forests could still account for part of the increase.",
+      "C": "Wrong force: lower transpiration per tree reduces the effect's size but does not show that the forests are not the cause.",
+      "D": "Opposite: a nearby control area with no reforestation and no rain increase is exactly what would support the climatologist.",
+      "E": "Correct. If increasing moisture began before the planting and prompted it, then the rainfall trend predates and explains the reforestation. The causal direction is reversed, and a prior common driver accounts for both facts."
+    },
+    "trapPatterns": {
+      "A": "wrong_force",
+      "B": "half_right",
+      "C": "wrong_force",
+      "D": "opposite"
+    },
+    "keyTakeaway": "Weakening a mechanism's efficiency is less powerful than showing the effect began before the proposed cause.",
+    "predictionHint": "The rain came first and prompted the planting."
+  },
+  {
+    "id": "lr-weaken-peer-tutoring-required",
+    "section": "LR",
+    "type": "weaken",
+    "logicTags": [
+      "causation",
+      "sampling",
+      "conditional"
+    ],
+    "difficulty": 4,
+    "stimulus": "School administrator: Students at our school who receive at least ten hours of peer tutoring in a semester pass the end-of-semester mathematics examination at nearly twice the rate of students who receive none. Peer tutoring is free and open to any student who signs up. Therefore, if the school required every student who failed last semester's examination to attend ten hours of peer tutoring, the pass rate among those students would rise substantially.",
+    "stem": "Which one of the following, if true, most seriously weakens the argument?",
+    "choices": {
+      "A": "Nearly all students who currently receive ten or more hours of peer tutoring sign up because they are already strong in mathematics.",
+      "B": "Students who failed last semester's examination are, on average, less likely than other students to attend school regularly.",
+      "C": "Some students who receive ten or more hours of peer tutoring nonetheless fail the end-of-semester examination.",
+      "D": "The peer tutors at the school are themselves students who passed the examination with high scores.",
+      "E": "Students who are required to attend tutoring sessions typically benefit less from them than students who attend voluntarily."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. If the tutored group consists of students who were already doing well, the higher pass rate reflects who signs up, not what tutoring does. The evidence then gives no reason to expect tutoring to raise pass rates among students who failed.",
+      "B": "Wrong force: irregular attendance might limit how fully the requirement is carried out, but it does not challenge the claim that tutoring, once received, raises pass rates.",
+      "C": "Wrong force: 'some' failures are fully consistent with a pass rate 'nearly twice' as high.",
+      "D": "Out of scope: who the tutors are has no bearing on whether the correlation supports the prediction.",
+      "E": "Half right: this is the strongest trap, since it questions extending voluntary results to a required program. But 'benefit less' still concedes a benefit, so the pass rate could still rise 'substantially,' whereas A removes the evidence that tutoring helps at all."
+    },
+    "trapPatterns": {
+      "B": "wrong_force",
+      "C": "wrong_force",
+      "D": "out_of_scope",
+      "E": "half_right"
+    },
+    "keyTakeaway": "Before extending a correlation to a new group, ask whether the original correlation was produced by who chose to participate.",
+    "predictionHint": "Self-selection: the tutored students were already the strong ones."
+  }
+]

@@ -1,0 +1,1189 @@
+[
+  {
+    "id": "lr-most-strongly-supported-coastal-pottery",
+    "section": "LR",
+    "type": "most_strongly_supported",
+    "logicTags": [],
+    "difficulty": 1,
+    "stimulus": "Archaeologists excavating a coastal settlement found pottery fragments bearing a distinctive green glaze. Chemical analysis shows that the clay in these fragments came from a riverbed more than 200 kilometers inland. No kilns capable of producing the glaze have been found at the coastal site, but several such kilns have been excavated near the inland riverbed.",
+    "stem": "Which one of the following is most strongly supported by the information above?",
+    "choices": {
+      "A": "All of the pottery used at the coastal settlement was manufactured in the inland region near the riverbed.",
+      "B": "The green-glazed pottery found at the coastal settlement was probably not manufactured at that settlement.",
+      "C": "Pottery manufactured at the coastal settlement was regularly transported to the region near the inland riverbed.",
+      "D": "The inhabitants of the coastal settlement obtained the green-glazed pottery in exchange for goods produced on the coast.",
+      "E": "Potters near the inland riverbed produced more green-glazed pottery than potters in any other region."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Extreme. The evidence concerns only the fragments with the distinctive green glaze; 'all of the pottery used' sweeps in every other vessel at the site, about which nothing is said.",
+      "B": "Correct. The clay is inland clay and the only kilns able to produce the glaze are inland, while none have been found on the coast. Together these facts make local manufacture unlikely, which is all the hedged 'probably not' claims.",
+      "C": "Reversal. The facts point to inland materials and kilns reaching the coast; nothing suggests any flow of pottery in the opposite direction, from the coast 'to the region near the inland riverbed.'",
+      "D": "Out of scope. How the settlement acquired the pottery, 'in exchange for goods,' is never addressed; trade, gift, migration, and conquest are all equally consistent with the evidence.",
+      "E": "Comparison shift. Finding 'several' kilns near the riverbed says nothing about production volume relative to 'any other region'; no comparison of output is made."
+    },
+    "trapPatterns": {
+      "A": "extreme",
+      "C": "reversal",
+      "D": "out_of_scope",
+      "E": "comparison_shift"
+    },
+    "keyTakeaway": "On MSS, the key usually hedges ('probably,' 'not likely') and stays inside the exact objects the facts describe.",
+    "predictionHint": "The pottery's clay and glaze both trace inland, so it likely wasn't made on the coast."
+  },
+  {
+    "id": "lr-most-strongly-supported-supplement-labels",
+    "section": "LR",
+    "type": "most_strongly_supported",
+    "logicTags": [],
+    "difficulty": 1,
+    "stimulus": "Nutritionist: Dietary supplements sold in this country are not required to undergo testing for purity or potency before they are sold. Independent laboratories that have tested popular supplements have repeatedly found that the amount of active ingredient in a capsule differs from the amount listed on the label, sometimes by more than half, in either direction.",
+    "stem": "Which one of the following is most strongly supported by the information above?",
+    "choices": {
+      "A": "No dietary supplement sold in this country contains the amount of active ingredient stated on its label.",
+      "B": "Dietary supplements are less effective than prescription medications that contain the same active ingredients.",
+      "C": "Supplements that have been tested by independent laboratories are more popular than supplements that have not been tested.",
+      "D": "Consumers who rely on supplement labels may ingest substantially more or less of an active ingredient than they intend to.",
+      "E": "Manufacturers list inaccurate amounts of active ingredient on their labels because they are not required to conduct testing."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Extreme. Laboratories 'repeatedly found' discrepancies in the supplements they tested; 'no' supplement is accurate goes far beyond repeated findings in a sample of popular products.",
+      "B": "Out of scope. Nothing compares supplements with prescription medications or addresses effectiveness; the passage is about label accuracy only.",
+      "C": "Comparison shift. The laboratories tested 'popular' supplements; the passage never compares the popularity of tested and untested products.",
+      "D": "Correct. If labels are sometimes off 'by more than half, in either direction,' then a consumer dosing by the label may take far more or far less than intended. The modest 'may' matches the evidence exactly.",
+      "E": "Reversal of the direction of explanation. The passage reports that testing is not required and that labels are inaccurate; it never says the missing requirement is the reason, 'because,' for the inaccuracy."
+    },
+    "trapPatterns": {
+      "A": "extreme",
+      "B": "out_of_scope",
+      "C": "comparison_shift",
+      "E": "reversal"
+    },
+    "keyTakeaway": "When a fact set gives a range of error, the supported inference is about what that error could do, not why it exists.",
+    "predictionHint": "Labels can be off by a lot, so people trusting them may get the wrong dose."
+  },
+  {
+    "id": "lr-most-strongly-supported-reef-bleaching",
+    "section": "LR",
+    "type": "most_strongly_supported",
+    "logicTags": [
+      "conditional"
+    ],
+    "difficulty": 1,
+    "stimulus": "Corals expel the algae living in their tissues when water temperatures remain unusually high for several weeks, a process called bleaching. Bleached coral can recover if temperatures fall soon afterward, but coral that remains bleached for more than a few months usually dies. In Tamar Bay, water temperatures have remained above the bleaching threshold continuously for the past five months.",
+    "stem": "The statements above, if true, most strongly support which one of the following?",
+    "choices": {
+      "A": "Much of the coral in Tamar Bay is unlikely to recover from bleaching.",
+      "B": "All of the coral in Tamar Bay has died as a result of bleaching.",
+      "C": "The expulsion of algae from coral tissues in Tamar Bay has caused water temperatures there to rise.",
+      "D": "Coral in Tamar Bay is more susceptible to bleaching than coral in bays with cooler water.",
+      "E": "Fish populations in Tamar Bay have declined along with the bay's coral."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. Five continuous months above the threshold means the bay's coral has likely been bleached for 'more than a few months,' and such coral 'usually dies.' 'Much' and 'unlikely' track 'usually' precisely.",
+      "B": "Extreme. 'Usually dies' allows exceptions; 'all ... has died' erases them and asserts an outcome the passage says is only typical.",
+      "C": "Reversal. High temperatures cause the expulsion of algae; this choice makes the expulsion the cause of the temperatures.",
+      "D": "Comparison shift. The passage describes conditions in one bay; it never compares the susceptibility of Tamar Bay's coral to that of coral elsewhere.",
+      "E": "Out of scope. Fish are never mentioned; any effect on them would require information the passage does not supply."
+    },
+    "trapPatterns": {
+      "B": "extreme",
+      "C": "reversal",
+      "D": "comparison_shift",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "Match the strength of your inference to the quantifier in the rule: 'usually' supports 'much' and 'likely,' never 'all.'",
+    "predictionHint": "Five months bleached is past the recovery window, so most of the coral probably won't make it."
+  },
+  {
+    "id": "lr-most-strongly-supported-loyalty-cards",
+    "section": "LR",
+    "type": "most_strongly_supported",
+    "logicTags": [
+      "math_percent"
+    ],
+    "difficulty": 1,
+    "stimulus": "Retail analyst: Grocery stores that introduced loyalty-card programs saw an immediate rise in the number of customers who shopped at the store at least once a week. The average amount those weekly customers spent per visit fell, however, and a year after the programs began, the stores' total revenue was essentially unchanged.",
+    "stem": "Which one of the following is most strongly supported by the information above?",
+    "choices": {
+      "A": "Loyalty-card programs never produce an increase in a grocery store's total revenue.",
+      "B": "Grocery stores without loyalty-card programs earned less total revenue than stores that introduced such programs.",
+      "C": "The decline in average spending per visit led more customers to shop at the stores weekly.",
+      "D": "Customers enrolled in the loyalty-card programs were more satisfied with the stores than customers who were not enrolled.",
+      "E": "The rise in the number of weekly customers did not result in higher total revenue for the stores."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Extreme. The analyst reports on stores that introduced programs and found revenue unchanged; 'never' generalizes to every program everywhere.",
+      "B": "Comparison shift. Stores without programs are never discussed; the passage compares each store's revenue before and after, not stores with and without programs.",
+      "C": "Reversal. The passage presents more weekly customers and lower spending per visit as parallel effects; it does not say lower spending 'led' to more weekly shopping.",
+      "D": "Out of scope. Satisfaction is never measured or mentioned; shopping frequency is not the same as satisfaction.",
+      "E": "Correct. More weekly customers paired with 'essentially unchanged' total revenue a year later means the added customers did not translate into higher revenue. This stays within the figures given."
+    },
+    "trapPatterns": {
+      "A": "extreme",
+      "B": "comparison_shift",
+      "C": "reversal",
+      "D": "out_of_scope"
+    },
+    "keyTakeaway": "When a fact set gives an input (more customers) and an outcome (flat revenue), the safe inference connects those two numbers and nothing more.",
+    "predictionHint": "More shoppers, less spent each, same revenue: the extra customers didn't raise the total."
+  },
+  {
+    "id": "lr-most-strongly-supported-dialect-leveling",
+    "section": "LR",
+    "type": "most_strongly_supported",
+    "logicTags": [],
+    "difficulty": 2,
+    "stimulus": "Linguist: In regions where many people have moved from rural villages to a single industrial city, the distinctive features of the villagers' dialects tend to disappear within two generations. The children of migrants rarely acquire the features that distinguish one village dialect from another; instead they adopt a leveled variety containing only features shared by most of the village dialects. Yet a feature unique to a single village dialect sometimes survives in the city when speakers of that dialect settle together in one neighborhood.",
+    "stem": "Which one of the following is most strongly supported by the information above?",
+    "choices": {
+      "A": "A dialect feature that is not shared by most village dialects cannot survive in an industrial city beyond one generation.",
+      "B": "Migrants who settle together in a single neighborhood do so because they share a distinctive village dialect.",
+      "C": "Whether a distinctive dialect feature survives in the city depends in part on how the speakers of that dialect are distributed within it.",
+      "D": "Migrants to industrial cities generally regard their village dialects as less prestigious than the leveled variety.",
+      "E": "The leveled variety spoken in the city contains fewer features than any of the village dialects from which it is drawn."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Extreme. The last sentence says a unique feature 'sometimes survives'; 'cannot survive' contradicts that exception outright.",
+      "B": "Reversal. The passage says settling together helps a feature survive; it does not say shared dialect is the reason, 'because,' migrants settle together.",
+      "C": "Correct. Unique features usually vanish, but 'sometimes survive' when their speakers 'settle together in one neighborhood.' Residential concentration therefore partly determines survival, which is exactly what 'depends in part on how the speakers ... are distributed' says.",
+      "D": "Out of scope. Attitudes toward prestige are never mentioned; the passage explains leveling by acquisition patterns, not by speakers' opinions.",
+      "E": "Comparison shift. The leveled variety contains 'only features shared by most' dialects, but that does not establish that it has fewer features than 'any' single village dialect."
+    },
+    "trapPatterns": {
+      "A": "extreme",
+      "B": "reversal",
+      "D": "out_of_scope",
+      "E": "comparison_shift"
+    },
+    "keyTakeaway": "An exception clause ('yet ... sometimes') is the richest source of MSS inferences: it tells you what variable makes the difference.",
+    "predictionHint": "Features die out unless their speakers cluster, so where speakers live matters to survival."
+  },
+  {
+    "id": "lr-most-strongly-supported-highway-toll",
+    "section": "LR",
+    "type": "most_strongly_supported",
+    "logicTags": [
+      "math_percent"
+    ],
+    "difficulty": 2,
+    "stimulus": "When a toll was introduced on the main highway into Corvan, traffic on that highway fell by 30 percent during the first month. Traffic on the two untolled secondary roads into the city rose during the same month, but the combined increase on those roads amounted to less than half of the decrease on the highway. Ridership on public transit into the city did not change appreciably.",
+    "stem": "Which one of the following is most strongly supported by the information above?",
+    "choices": {
+      "A": "Most of the drivers who stopped using the highway after the toll was introduced stopped traveling into Corvan altogether.",
+      "B": "Fewer vehicles entered Corvan on the highway and the two secondary roads combined in the first month after the toll than before it.",
+      "C": "During the first month after the toll was introduced, more vehicles entered Corvan on the secondary roads than on the highway.",
+      "D": "The increase in traffic on the secondary roads led some drivers to abandon the highway in favor of those roads.",
+      "E": "Revenue from the toll during its first month was sufficient to cover the cost of maintaining the highway."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Extreme. Drivers who left the highway may have carpooled, used other routes, or changed destinations; nothing supports 'most' stopping 'altogether.'",
+      "B": "Correct. The highway lost a given number of vehicles; the secondary roads gained less than half that number; so the three roads together carried fewer vehicles. This follows from the figures alone.",
+      "C": "Comparison shift. A 30 percent drop on the highway and a rise on the secondary roads says nothing about which carried 'more vehicles' in absolute terms; the starting volumes are unknown.",
+      "D": "Reversal. The toll caused drivers to leave the highway, and that shift raised secondary-road traffic; this choice makes the secondary-road increase the cause ('led') of the highway exodus.",
+      "E": "Out of scope. Toll revenue and maintenance costs are never mentioned."
+    },
+    "trapPatterns": {
+      "A": "extreme",
+      "C": "comparison_shift",
+      "D": "reversal",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "When an MSS stimulus gives quantities, do the arithmetic: a decrease that is only partly offset remains a net decrease.",
+    "predictionHint": "Highway lost X; side roads gained less than half of X; transit flat. Net vehicles on the roads fell."
+  },
+  {
+    "id": "lr-most-strongly-supported-testing-effect",
+    "section": "LR",
+    "type": "most_strongly_supported",
+    "logicTags": [
+      "mental_state_v_reality"
+    ],
+    "difficulty": 2,
+    "stimulus": "Psychologist: Students who were tested on material shortly after studying it recalled that material better a week later than did students who spent an equal amount of time restudying the material. This advantage appeared even when the tested students received no feedback on their answers. Nevertheless, when asked to predict their own performance a week later, the tested students expected to do worse than the restudying students expected to do.",
+    "stem": "The statements above, if true, most strongly support which one of the following?",
+    "choices": {
+      "A": "Receiving feedback on test answers has no effect on how well students later recall the tested material.",
+      "B": "Students who expect to perform poorly on a later test tend, as a result, to recall material better than students who expect to perform well.",
+      "C": "Restudying material does not improve students' recall of that material a week later.",
+      "D": "Students may underestimate the benefit that being tested on material has for their later recall of it.",
+      "E": "Most students prefer restudying material to being tested on it shortly after studying."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Extreme. The advantage appeared 'even when' there was no feedback, which shows feedback is not required; it does not show feedback has 'no effect.'",
+      "B": "Reversal. The passage reports low expectations and high recall in the same group; it gives no basis for saying the expectations caused the recall, 'as a result.'",
+      "C": "Comparison shift. Restudying students recalled less than tested students; that relative finding does not show restudying gave no improvement in absolute terms.",
+      "D": "Correct. Tested students recalled more yet 'expected to do worse,' so their predictions undervalued what testing did for them. 'May underestimate' is as modest as the finding requires.",
+      "E": "Out of scope. Preferences are never measured; expecting to do worse is not the same as preferring a different method."
+    },
+    "trapPatterns": {
+      "A": "extreme",
+      "B": "reversal",
+      "C": "comparison_shift",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "When a stimulus contrasts what people believe with what actually happened, the supported inference is about the gap between belief and reality.",
+    "predictionHint": "Testing helped more than students thought it would: people misjudge the benefit of testing."
+  },
+  {
+    "id": "lr-most-strongly-supported-madder-lake",
+    "section": "LR",
+    "type": "most_strongly_supported",
+    "logicTags": [],
+    "difficulty": 2,
+    "stimulus": "Art conservator: The red pigment known as madder lake fades noticeably when exposed to light for long periods. Several seventeenth-century paintings that now appear to depict figures in pale pink garments were described, in inventories written during the painters' lifetimes, as depicting figures in deep crimson garments. Chemical analysis has confirmed that the garments in these paintings were painted with madder lake.",
+    "stem": "Which one of the following is most strongly supported by the information above?",
+    "choices": {
+      "A": "Some seventeenth-century paintings look markedly different today from the way they looked when they were new.",
+      "B": "Every painting in which madder lake was used has faded significantly since it was painted.",
+      "C": "Seventeenth-century paintings described in contemporary inventories as depicting crimson garments were generally painted with madder lake.",
+      "D": "Seventeenth-century painters did not know that madder lake fades when exposed to light.",
+      "E": "Madder lake fades more quickly than any other red pigment that seventeenth-century painters used."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. Paintings once described as 'deep crimson' now appear 'pale pink,' and they were painted with a pigment known to fade. That supports the modest claim that some such paintings look different now than when new.",
+      "B": "Extreme. The passage documents fading in 'several' paintings; 'every painting' with the pigment extends the finding to works that may have been kept in the dark.",
+      "C": "Reversal. The facts run from madder-lake paintings to crimson descriptions; this choice runs from crimson descriptions to madder lake, which other red pigments could also have produced.",
+      "D": "Out of scope. The painters' knowledge is never discussed; the passage concerns the pigment's behavior, not what anyone believed about it.",
+      "E": "Comparison shift. No other red pigment is mentioned, so no comparison of fading rates with 'any other red pigment' can be supported."
+    },
+    "trapPatterns": {
+      "B": "extreme",
+      "C": "reversal",
+      "D": "out_of_scope",
+      "E": "comparison_shift"
+    },
+    "keyTakeaway": "A documented 'then versus now' difference supports a 'some things changed' inference and nothing about how typical the change is.",
+    "predictionHint": "These paintings used to be crimson and are now pink: they don't look the way they originally did."
+  },
+  {
+    "id": "lr-most-strongly-supported-jury-instruction",
+    "section": "LR",
+    "type": "most_strongly_supported",
+    "logicTags": [
+      "causation",
+      "mental_state_v_reality"
+    ],
+    "difficulty": 2,
+    "stimulus": "Legal scholar: Jurors in this jurisdiction are instructed not to treat a defendant's decision not to testify as evidence of guilt. In mock trials in which the defendant did not testify, however, jurors who received this instruction voted to convict more often than jurors who received no instruction on the matter. When interviewed afterward, jurors in both groups maintained that the defendant's silence had played no role in their decisions.",
+    "stem": "Which one of the following is most strongly supported by the information above?",
+    "choices": {
+      "A": "Jurors who are instructed not to consider a defendant's silence invariably treat that silence as evidence of guilt.",
+      "B": "Defendants who choose not to testify are more likely to be guilty than defendants who do testify.",
+      "C": "Jurors who receive no instruction about a defendant's silence are unlikely to convict a defendant who does not testify.",
+      "D": "Jurors who are already inclined to convict pay closer attention to instructions concerning a defendant's silence.",
+      "E": "The instruction may have an effect on jurors' verdicts opposite to the effect it is intended to have."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Extreme. Higher conviction rates in a group show a tendency, not that each instructed juror 'invariably' treated silence as guilt.",
+      "B": "Out of scope. Actual guilt is never discussed; the mock trials measured verdicts, not whether the defendants were guilty.",
+      "C": "Comparison shift. Uninstructed jurors convicted less often than instructed jurors; that relative result does not make conviction 'unlikely' in absolute terms.",
+      "D": "Reversal. The study varied the instruction and observed verdicts; this choice makes a prior inclination to convict the cause of attention to the instruction, which the design cannot support.",
+      "E": "Correct. The instruction is meant to prevent silence from counting toward guilt, yet instructed jurors convicted more often. 'May have' an opposite effect is exactly as strong as that finding allows."
+    },
+    "trapPatterns": {
+      "A": "extreme",
+      "B": "out_of_scope",
+      "C": "comparison_shift",
+      "D": "reversal"
+    },
+    "keyTakeaway": "When an intervention's measured result runs against its purpose, the supported inference is that it may backfire, not that it always does.",
+    "predictionHint": "Telling jurors to ignore silence seems to make silence count more: the instruction may backfire."
+  },
+  {
+    "id": "lr-most-strongly-supported-cave-fish",
+    "section": "LR",
+    "type": "most_strongly_supported",
+    "logicTags": [
+      "quantifiers",
+      "conditional"
+    ],
+    "difficulty": 3,
+    "stimulus": "Biologist: Most fish species that live exclusively in caves have lost their eyes over evolutionary time, and every cave fish species that has lost its eyes has also lost most of its skin pigmentation. Some cave fish species that retain full skin pigmentation have highly developed lateral-line organs, which detect movement in the surrounding water, and no species with highly developed lateral-line organs relies on vision to locate food.",
+    "stem": "Which one of the following is most strongly supported by the information above?",
+    "choices": {
+      "A": "No cave fish species that retains its eyes relies on vision to locate food.",
+      "B": "Every cave fish species that has lost most of its skin pigmentation has also lost its eyes.",
+      "C": "Some cave fish species that retain their eyes do not rely on vision to locate food.",
+      "D": "Cave fish species that have lost their eyes have more highly developed lateral-line organs than cave fish species that retain their eyes.",
+      "E": "Fish species that inhabit caves but also live in surface waters have generally retained their eyes."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Extreme. The chain yields 'some' eyed species that do not rely on vision; 'no' eyed species does would require a universal claim the passage never makes.",
+      "B": "Reversal. The passage says lost eyes guarantee lost pigmentation; this choice says lost pigmentation guarantees lost eyes, reversing the conditional.",
+      "C": "Correct. Full pigmentation entails that eyes were not lost (contrapositive of the second claim). Some fully pigmented species have developed lateral lines, and no such species relies on vision. So some eyed species do not rely on vision.",
+      "D": "Comparison shift. Lateral-line development is mentioned only for some pigmented species; nothing compares the organs of eyed and eyeless species.",
+      "E": "Out of scope. The passage is restricted to species living 'exclusively' in caves; species that also live in surface waters are never addressed."
+    },
+    "trapPatterns": {
+      "A": "extreme",
+      "B": "reversal",
+      "D": "comparison_shift",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "On quantifier MSS questions, chain 'some' through 'all' statements and take contrapositives; the key is usually a 'some' claim.",
+    "predictionHint": "Fully pigmented means eyes intact; some of those use lateral lines and not vision. So some eyed species don't use vision."
+  },
+  {
+    "id": "lr-most-strongly-supported-tutoring-center",
+    "section": "LR",
+    "type": "most_strongly_supported",
+    "logicTags": [
+      "quantifiers"
+    ],
+    "difficulty": 3,
+    "stimulus": "Most students who attend the university's tutoring center for a course do so only after receiving a failing grade on an examination in that course. Students who attend the tutoring center regularly for a course almost never fail that course. The center's records show, however, that the majority of students who attend it for a course attend only once or twice.",
+    "stem": "The statements above, if true, most strongly support which one of the following?",
+    "choices": {
+      "A": "Students who attend the tutoring center only once or twice for a course usually fail that course.",
+      "B": "Some students who attend the tutoring center only after failing an examination attend it no more than twice for that course.",
+      "C": "Most students who receive a failing grade on an examination attend the tutoring center for that course.",
+      "D": "The tutoring center is more effective for some courses than for others.",
+      "E": "Students who attend the tutoring center regularly are more likely to have failed an examination than students who attend only once or twice."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Extreme. The passage says regular attendees almost never fail; it says nothing about the failure rate of infrequent attendees, so 'usually fail' is unsupported.",
+      "B": "Correct. Two 'most' claims about the same group (attendees for a course) must overlap: more than half attend only after failing, and more than half attend once or twice, so some students fall into both groups.",
+      "C": "Reversal. 'Most attendees had failed' does not entail 'most who failed attend'; the first is about attendees, the second about everyone who failed.",
+      "D": "Out of scope. Nothing distinguishes courses from one another.",
+      "E": "Comparison shift. The passage never compares the exam histories of regular and infrequent attendees; both 'most' claims concern attendees as a whole."
+    },
+    "trapPatterns": {
+      "A": "extreme",
+      "C": "reversal",
+      "D": "out_of_scope",
+      "E": "comparison_shift"
+    },
+    "keyTakeaway": "Two 'most' statements about the same group guarantee a 'some' overlap; a 'most' about group A never flips into a 'most' about group B.",
+    "predictionHint": "Most attendees failed first; most attend once or twice; so some who failed first attend once or twice."
+  },
+  {
+    "id": "lr-most-strongly-supported-security-patches",
+    "section": "LR",
+    "type": "most_strongly_supported",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 3,
+    "stimulus": "Software engineer: Security vulnerabilities in widely used software are usually discovered by independent researchers, who typically notify the developer privately and wait until a patch is released before publishing any details. Attackers rarely exploit a vulnerability before its details are published. Once a patch is released, however, attackers can often reconstruct the vulnerability by analyzing the patch itself, and many users do not install patches until weeks after release.",
+    "stem": "Which one of the following is most strongly supported by the information above?",
+    "choices": {
+      "A": "Users who install patches as soon as they are released are never exposed to attacks exploiting the vulnerabilities those patches address.",
+      "B": "Developers should delay releasing patches until most users are prepared to install them immediately.",
+      "C": "Independent researchers wait to publish details of a vulnerability because attackers rarely exploit vulnerabilities whose details are unpublished.",
+      "D": "For some users, the release of a patch can increase the risk that the vulnerability it addresses will be exploited.",
+      "E": "Vulnerabilities discovered by independent researchers are less dangerous than vulnerabilities discovered by attackers."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Extreme. 'Never' is unsupported; attackers 'rarely,' not never, exploit vulnerabilities before publication, and prompt installers are still exposed in that window.",
+      "B": "Out of scope. A fact set about what happens cannot support a recommendation about what developers 'should' do; the costs of delay are never weighed.",
+      "C": "Reversal. The passage implies that researchers' waiting is part of why attackers rarely exploit before publication; this choice makes the attackers' restraint the reason, 'because,' researchers wait.",
+      "D": "Correct. Before a patch, exploitation is rare. After release, attackers can reconstruct the vulnerability, and many users remain unpatched for weeks. For those users, risk rises after release. 'Some users' and 'can increase' match the facts.",
+      "E": "Comparison shift. Vulnerabilities discovered by attackers are never discussed, so no comparison of danger is possible."
+    },
+    "trapPatterns": {
+      "A": "extreme",
+      "B": "out_of_scope",
+      "C": "reversal",
+      "E": "comparison_shift"
+    },
+    "keyTakeaway": "Look for the counterintuitive consequence the facts jointly produce; the MSS key is often the surprising-but-careful statement, not the obvious one.",
+    "predictionHint": "Patch release tips attackers off while many users are still unpatched: the patch itself can raise risk for laggards."
+  },
+  {
+    "id": "lr-most-strongly-supported-guild-apprentices",
+    "section": "LR",
+    "type": "most_strongly_supported",
+    "logicTags": [
+      "quantifiers"
+    ],
+    "difficulty": 4,
+    "stimulus": "Historian: The medieval city's records show that every craftsman admitted to a guild had completed an apprenticeship, and that most apprenticeships were completed under a master who was a relative of the apprentice. Apprentices who completed their training under a nonrelative were far more likely than other apprentices to leave the city before being admitted to a guild. Nonetheless, some of the city's most prominent guild masters had trained under nonrelatives.",
+    "stem": "Which one of the following is most strongly supported by the information above?",
+    "choices": {
+      "A": "Most of the craftsmen admitted to the city's guilds had completed their apprenticeships under a relative.",
+      "B": "Most apprentices who completed their training under a nonrelative left the city before being admitted to a guild.",
+      "C": "Every apprentice who completed training under a relative was eventually admitted to one of the city's guilds.",
+      "D": "Guild masters preferred to train relatives because relatives were less likely to leave the city.",
+      "E": "All of the city's most prominent guild masters had completed their apprenticeships under nonrelatives."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. Most completed apprenticeships were under relatives, and the nonrelative-trained were disproportionately filtered out before admission. Among those admitted, the relative-trained share can only be larger than it was among apprentices generally, and it was already a majority.",
+      "B": "Comparison shift. 'Far more likely than other apprentices' is a relative claim; if few apprentices of any kind left, the nonrelative-trained could still be a minority who left. Nothing supports 'most.'",
+      "C": "Reversal and overreach. Admission requires a completed apprenticeship; this choice makes a completed apprenticeship (under a relative) guarantee admission.",
+      "D": "Out of scope. Masters' motives for choosing apprentices are never discussed.",
+      "E": "Extreme. 'Some' prominent masters trained under nonrelatives; 'all' contradicts the passage's point that relative training was the norm."
+    },
+    "trapPatterns": {
+      "B": "comparison_shift",
+      "C": "reversal",
+      "D": "out_of_scope",
+      "E": "extreme"
+    },
+    "keyTakeaway": "A 'far more likely' comparison never yields a 'most' about the compared group, but it can shift an existing majority further in the same direction.",
+    "predictionHint": "Relative-trained were the majority of apprentices and were less likely to be filtered out, so they dominate the admitted."
+  },
+  {
+    "id": "lr-most-strongly-supported-antibiotic-requests",
+    "section": "LR",
+    "type": "most_strongly_supported",
+    "logicTags": [
+      "quantifiers",
+      "conditional"
+    ],
+    "difficulty": 4,
+    "stimulus": "Physician: Most patients who come to our clinic requesting antibiotics for a sore throat do not have a bacterial infection, and antibiotics provide no benefit to a patient who lacks a bacterial infection. Our physicians prescribe antibiotics to every patient whose throat culture is positive for bacteria, but only some patients with sore throats are given a culture. In the end, most patients who request antibiotics for a sore throat leave with a prescription for them.",
+    "stem": "The statements above, if true, most strongly support which one of the following?",
+    "choices": {
+      "A": "Most patients at the clinic who are prescribed antibiotics for a sore throat receive no benefit from them.",
+      "B": "Every patient at the clinic who is prescribed antibiotics for a sore throat has had a positive throat culture.",
+      "C": "Patients who are given a throat culture are more likely to have a bacterial infection than patients who are not given one.",
+      "D": "Physicians at the clinic prescribe antibiotics primarily in order to satisfy patients who request them.",
+      "E": "Some patients at the clinic who are prescribed antibiotics for a sore throat receive no benefit from them."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Extreme. Two 'most' claims about requesters guarantee only that 'some' prescribed patients lack an infection; 'most' of those prescribed would require knowing how large the overlap is.",
+      "B": "Reversal. A positive culture guarantees a prescription; this choice makes a prescription guarantee a positive culture, which fails given that only some patients are cultured yet most requesters are prescribed.",
+      "C": "Comparison shift. Who gets cultured is never tied to likelihood of infection; the passage compares no such groups.",
+      "D": "Out of scope. Physicians' motives are never mentioned.",
+      "E": "Correct. Most requesters lack a bacterial infection and most requesters receive a prescription, so some requesters both lack an infection and are prescribed. Antibiotics provide 'no benefit' to such patients."
+    },
+    "trapPatterns": {
+      "A": "extreme",
+      "B": "reversal",
+      "C": "comparison_shift",
+      "D": "out_of_scope"
+    },
+    "keyTakeaway": "Overlapping 'most' claims about one group support a 'some' conclusion; the near-miss trap upgrades that 'some' to 'most.'",
+    "predictionHint": "Most requesters have no infection; most requesters get a prescription; so some prescribed patients gain nothing."
+  },
+  {
+    "id": "lr-necessary-assumption-cafe-second-location",
+    "section": "LR",
+    "type": "necessary_assumption",
+    "logicTags": [],
+    "difficulty": 1,
+    "stimulus": "The owner of Marigold Cafe plans to open a second location on the other side of town next spring. Since the original location has been profitable in each of the past five years, the owner concludes that the second location will be profitable as well.",
+    "stem": "The argument depends on assuming which one of the following?",
+    "choices": {
+      "A": "Any cafe that has been profitable for five consecutive years will be profitable at every additional location it opens.",
+      "B": "Marigold Cafe's original location has been more profitable in each of the past five years than in the year before.",
+      "C": "The original location's profitability is not due to factors unique to its particular site.",
+      "D": "No competing cafe will open on the other side of town before the second Marigold location opens.",
+      "E": "The owner of Marigold Cafe has previously managed more than one business at the same time."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Sufficient but not necessary. If this universal rule held, the conclusion would follow, but the argument does not need 'any cafe' and 'every additional location'; it needs only something about this second location.",
+      "B": "Premise booster. Growing profits would make the original location sound even stronger, but the argument already grants five profitable years; the gap is whether that success transfers across town.",
+      "C": "Correct. The argument projects one site's record onto another. Negate it: the original's profitability is due to factors unique to its site. Then the five-year record says nothing about the new location, and the argument collapses.",
+      "D": "Too strong to be required. Negate it: a competitor opens first. The second location could still be profitable, so the argument does not depend on the absence of all competition.",
+      "E": "Out of scope. The owner's management experience bears on whether the owner can run two businesses, not on whether the record of one site predicts the profitability of another."
+    },
+    "trapPatterns": {
+      "A": "wrong_force",
+      "B": "premise_booster",
+      "D": "extreme",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "When an argument extends one case's track record to a new case, the required assumption is that the first case's success was not site-specific.",
+    "predictionHint": "Whatever made the first cafe profitable must not be exclusive to its location."
+  },
+  {
+    "id": "lr-necessary-assumption-marsh-birds",
+    "section": "LR",
+    "type": "necessary_assumption",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 1,
+    "stimulus": "Ecologist: The number of migratory birds stopping at Hartwell Marsh each autumn has fallen by half over the past decade. During the same decade, a housing development was built along the marsh's northern edge. Clearly, the housing development is responsible for the decline in migratory birds at the marsh.",
+    "stem": "Which one of the following is an assumption required by the argument?",
+    "choices": {
+      "A": "The decline in migratory birds at Hartwell Marsh is not entirely attributable to factors unrelated to the housing development.",
+      "B": "Housing developments built along the edges of marshes always cause declines in the number of migratory birds that stop at those marshes.",
+      "C": "The number of migratory birds stopping at Hartwell Marsh has been counted carefully each autumn for the past decade.",
+      "D": "Residents of the housing development have shown little interest in protecting the migratory birds that use the marsh.",
+      "E": "Migratory birds never return to a stopover site once a housing development has been built nearby."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. The argument moves from timing to causation. Negate it: the decline is entirely attributable to unrelated factors. Then the development is not responsible at all, and the conclusion is false.",
+      "B": "Sufficient but not necessary. The ecologist needs the development to have caused this decline, not for every such development 'always' to cause declines.",
+      "C": "Premise booster. Careful counting supports the reported figure, but the argument treats the halving as given; the gap is the leap from coincidence in time to cause.",
+      "D": "Out of scope. Residents' attitudes are irrelevant to whether the development itself caused the birds to stop coming.",
+      "E": "Too strong to be required. Negate it: birds sometimes return. The development could still be responsible for this decade's decline, so the argument survives."
+    },
+    "trapPatterns": {
+      "B": "wrong_force",
+      "C": "premise_booster",
+      "D": "out_of_scope",
+      "E": "extreme"
+    },
+    "keyTakeaway": "A 'this happened, then that happened, so this caused that' argument always requires that an alternative cause does not fully explain the effect.",
+    "predictionHint": "Something other than the development is not the whole story behind the decline."
+  },
+  {
+    "id": "lr-necessary-assumption-homework-grades",
+    "section": "LR",
+    "type": "necessary_assumption",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 1,
+    "stimulus": "Principal: At our school, students who complete all of their assigned homework earn higher grades, on average, than students who do not complete it. Therefore, if we require teachers to assign more homework than they currently do, our students' grades will improve.",
+    "stem": "The argument depends on assuming which one of the following?",
+    "choices": {
+      "A": "Any increase in the amount of homework assigned will produce a corresponding increase in students' grades.",
+      "B": "The difference in average grades between students who complete all of their homework and those who do not is large.",
+      "C": "Most students at the school currently fail to complete all of their assigned homework.",
+      "D": "Completing homework contributes to the higher grades earned by students who complete it.",
+      "E": "Earning high grades does not cause students to complete more of their assigned homework."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Sufficient but not necessary. This rule would guarantee the conclusion, but the principal needs only that homework helps grades, not that every increase yields a 'corresponding' gain.",
+      "B": "Premise booster. A larger gap makes the correlation more striking but does nothing to show that homework causes grades rather than merely accompanying them.",
+      "C": "Not required. Negate it: most students already complete all their homework. More homework could still raise grades under the principal's reasoning, so the argument does not depend on current completion rates.",
+      "D": "Correct. The premise is a correlation; the conclusion needs causation. Negate it: completing homework contributes nothing to those higher grades. Then assigning more homework has no reason to improve grades, and the argument fails.",
+      "E": "Too strong to be required. Negate it: high grades do cause more homework completion. Both directions could hold at once, so the argument survives as long as homework also helps grades."
+    },
+    "trapPatterns": {
+      "A": "wrong_force",
+      "B": "premise_booster",
+      "C": "out_of_scope",
+      "E": "extreme"
+    },
+    "keyTakeaway": "For a correlation-to-causation argument, the necessary assumption is that the proposed cause does some causal work, not that no other direction of causation exists.",
+    "predictionHint": "Doing homework has to actually help grades, not just travel with them."
+  },
+  {
+    "id": "lr-necessary-assumption-keros-ingots",
+    "section": "LR",
+    "type": "necessary_assumption",
+    "logicTags": [
+      "link_assumption"
+    ],
+    "difficulty": 2,
+    "stimulus": "Archaeologist: The bronze ingots recovered from the shipwreck bear stamped marks identical to those on ingots found at a smelting site on the island of Keros. Since bronze was smelted on Keros only during the two centuries before the island was abandoned, the ship must have sunk before Keros was abandoned.",
+    "stem": "Which one of the following is an assumption required by the argument?",
+    "choices": {
+      "A": "The ship sank within a few years of the time at which the ingots it carried were smelted.",
+      "B": "Ingots bearing the stamped marks found on the shipwreck's ingots were not produced anywhere other than Keros.",
+      "C": "The ship was sailing from Keros when it sank.",
+      "D": "Most of the bronze ingots that circulated in the region during the period were smelted on Keros.",
+      "E": "The stamped marks on the shipwreck's ingots are clearly legible and match the Keros marks in every detail."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Stronger than needed. Sinking 'within a few years' of smelting would help, but the ship could have sunk decades after smelting and still before the abandonment; the argument does not require this tight window.",
+      "B": "Correct. The argument treats identical marks as proof of Keros origin. Negate it: such ingots were also produced elsewhere, perhaps after Keros was abandoned. Then the marks no longer date the wreck, and the conclusion fails.",
+      "C": "Out of scope. Where the ship was sailing from is irrelevant; Keros-made ingots could have been loaded at any port.",
+      "D": "Shell game. Whether 'most' ingots in the region came from Keros does not matter; the argument concerns only ingots with these particular marks.",
+      "E": "Premise booster. The premise already states the marks are 'identical'; confirming legibility supports that premise without closing the gap between identical marks and Keros manufacture."
+    },
+    "trapPatterns": {
+      "A": "wrong_force",
+      "C": "out_of_scope",
+      "D": "shell_game",
+      "E": "premise_booster"
+    },
+    "keyTakeaway": "When an argument identifies an object's origin from a shared feature, it must assume the feature is exclusive to that origin.",
+    "predictionHint": "Those marks have to mean 'made on Keros' and nothing else."
+  },
+  {
+    "id": "lr-necessary-assumption-coffee-headaches",
+    "section": "LR",
+    "type": "necessary_assumption",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 2,
+    "stimulus": "Researcher: In a recent study, participants who reported drinking three or more cups of coffee a day were twice as likely as other participants to report frequent headaches. Caffeine is known to constrict blood vessels in the brain. Thus heavy coffee consumption probably causes frequent headaches.",
+    "stem": "The argument depends on assuming which one of the following?",
+    "choices": {
+      "A": "Everyone who drinks three or more cups of coffee a day experiences frequent headaches.",
+      "B": "The study included a large number of participants drawn from a variety of backgrounds.",
+      "C": "Frequent headaches are more debilitating than occasional headaches.",
+      "D": "Most of the participants who reported frequent headaches drank three or more cups of coffee a day.",
+      "E": "The participants who reported frequent headaches did not take up heavy coffee drinking in response to those headaches."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Sufficient-style overreach. A universal link is not needed; 'probably causes' is compatible with many heavy drinkers never getting headaches.",
+      "B": "Premise booster. A larger, more varied sample strengthens the correlation but does not address whether the correlation reflects coffee causing headaches.",
+      "C": "Out of scope. How debilitating headaches are has nothing to do with what causes them.",
+      "D": "Comparison shift. The premise is about relative likelihood within coffee drinkers; the argument does not require that 'most' headache sufferers are heavy coffee drinkers.",
+      "E": "Correct. The correlation could reflect reverse causation. Negate it: headache sufferers took up heavy coffee drinking because of their headaches. Then the correlation is explained without coffee causing anything, and the conclusion loses its support."
+    },
+    "trapPatterns": {
+      "A": "wrong_force",
+      "B": "premise_booster",
+      "C": "out_of_scope",
+      "D": "comparison_shift"
+    },
+    "keyTakeaway": "Every correlation-to-cause argument requires that the arrow does not run the other way; look for the answer that rules out reverse causation.",
+    "predictionHint": "Headaches must not be the reason these people drink so much coffee."
+  },
+  {
+    "id": "lr-necessary-assumption-speed-cameras",
+    "section": "LR",
+    "type": "necessary_assumption",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 2,
+    "stimulus": "City official: Since automated speed cameras were installed on Elm Avenue two years ago, the number of collisions on that street has dropped by 40 percent. The cameras should therefore be installed on all of the city's major streets in order to reduce collisions citywide.",
+    "stem": "Which one of the following is an assumption required by the argument?",
+    "choices": {
+      "A": "Automated speed cameras reduce the number of collisions on every street on which they are installed.",
+      "B": "The number of collisions on Elm Avenue had been rising in the years before the cameras were installed.",
+      "C": "The decrease in collisions on Elm Avenue was due at least in part to the speed cameras.",
+      "D": "Drivers who are ticketed by automated speed cameras rarely contest the tickets in court.",
+      "E": "Speeding is the sole cause of collisions on the city's major streets."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Sufficient but not necessary. The official does not need cameras to work on 'every street'; cameras that reduce collisions on most major streets would still support the proposal.",
+      "B": "Premise booster. A rising trend before installation would make the drop more impressive, but the argument already takes the 40 percent drop as given.",
+      "C": "Correct. The proposal rests on the Elm Avenue drop being the cameras' doing. Negate it: the decrease was not due to the cameras at all. Then the only evidence for installing them vanishes.",
+      "D": "Out of scope. Whether tickets are contested concerns enforcement administration, not whether cameras reduce collisions.",
+      "E": "Too strong to be required. Negate it: collisions have other causes too. Cameras could still reduce the speeding-related share, so the argument survives."
+    },
+    "trapPatterns": {
+      "A": "wrong_force",
+      "B": "premise_booster",
+      "D": "out_of_scope",
+      "E": "extreme"
+    },
+    "keyTakeaway": "A proposal based on one success story requires that the success was actually caused by the measure being proposed.",
+    "predictionHint": "The cameras must deserve at least some credit for Elm Avenue's drop."
+  },
+  {
+    "id": "lr-necessary-assumption-vertu-manuscript",
+    "section": "LR",
+    "type": "necessary_assumption",
+    "logicTags": [
+      "link_assumption"
+    ],
+    "difficulty": 2,
+    "stimulus": "Literary scholar: The anonymous manuscript uses the spelling 'vertu' throughout, a spelling that the poet Alys Marren adopted in all of her known works written after 1612. Since the manuscript also treats themes central to Marren's later poetry, it was almost certainly written by Marren.",
+    "stem": "The argument depends on assuming which one of the following?",
+    "choices": {
+      "A": "The spelling 'vertu' was not in common use among poets writing after 1612.",
+      "B": "No poet other than Marren wrote about the themes central to Marren's later poetry.",
+      "C": "Marren used the spelling 'vertu' consistently in every work she wrote after 1612.",
+      "D": "The anonymous manuscript was written in the region where Marren spent most of her life.",
+      "E": "Marren did not use the spelling 'vertu' in any work she wrote before 1612."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. The spelling is offered as a fingerprint. Negate it: 'vertu' was in common use among poets after 1612. Then the spelling points to no one in particular, leaving only shared themes, which cannot support 'almost certainly.'",
+      "B": "Stronger than needed. If no one else treated those themes, the case would be nearly closed, but the argument can survive other poets sharing Marren's themes as long as the spelling remains distinctive.",
+      "C": "Premise booster. The passage already says Marren adopted the spelling in all her known later works; repeating that does not show the spelling was distinctive to her.",
+      "D": "Out of scope. Geographic origin is never part of the argument; a manuscript by Marren could have been written anywhere.",
+      "E": "Shell game. Whether Marren used 'vertu' before 1612 affects when she might have written the manuscript, not whether she wrote it."
+    },
+    "trapPatterns": {
+      "B": "wrong_force",
+      "C": "premise_booster",
+      "D": "out_of_scope",
+      "E": "shell_game"
+    },
+    "keyTakeaway": "Evidence used as a signature is only as good as its rarity; the argument must assume the trait is not widely shared.",
+    "predictionHint": "'Vertu' has to be unusual enough to point to Marren specifically."
+  },
+  {
+    "id": "lr-necessary-assumption-wage-survey",
+    "section": "LR",
+    "type": "necessary_assumption",
+    "logicTags": [
+      "sampling"
+    ],
+    "difficulty": 2,
+    "stimulus": "Economist: Opponents of the proposed increase in the minimum wage claim that it will lead employers to hire fewer workers. But in a survey of employers in the restaurant industry, fewer than 10 percent said they would reduce hiring if the increase took effect. So the increase will not substantially reduce hiring.",
+    "stem": "Which one of the following is an assumption required by the argument?",
+    "choices": {
+      "A": "No employer will reduce hiring if the proposed minimum wage increase takes effect.",
+      "B": "The survey of restaurant employers was conducted by an organization with no stake in the outcome of the debate.",
+      "C": "Most workers in the restaurant industry currently earn more than the proposed minimum wage.",
+      "D": "Employers outside the restaurant industry are not substantially more likely than restaurant employers to reduce hiring in response to the increase.",
+      "E": "Employers' hiring decisions are never affected by changes in the minimum wage."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Sufficient but not necessary. The conclusion is that hiring will not be 'substantially' reduced, which tolerates some employers cutting back; a universal 'no employer' is far more than the argument needs.",
+      "B": "Premise booster. A disinterested sponsor makes the survey more credible, but the argument's gap is generalizing from restaurants to all employers, not the survey's honesty.",
+      "C": "Opposite. If most restaurant workers already earn above the proposed minimum, the increase barely touches restaurants, and the survey tells us nothing about affected employers. The argument needs this to be false, not true.",
+      "D": "Correct. The evidence covers one industry; the conclusion covers hiring generally. Negate it: other employers are substantially more likely to cut hiring. Then the restaurant survey fails to support the general conclusion.",
+      "E": "Too strong to be required. Negate it: wage changes sometimes affect hiring. The argument's point that this increase will not substantially reduce hiring survives."
+    },
+    "trapPatterns": {
+      "A": "wrong_force",
+      "B": "premise_booster",
+      "C": "opposite",
+      "E": "extreme"
+    },
+    "keyTakeaway": "When evidence comes from one group and the conclusion covers a larger one, the argument depends on the sample not differing from the whole in the relevant respect.",
+    "predictionHint": "Restaurants have to be typical of employers generally when it comes to hiring responses."
+  },
+  {
+    "id": "lr-necessary-assumption-honeybee-fanning",
+    "section": "LR",
+    "type": "necessary_assumption",
+    "logicTags": [
+      "part_v_whole"
+    ],
+    "difficulty": 3,
+    "stimulus": "Entomologist: Honeybee colonies keep the temperature of their brood chambers within a narrow range by fanning their wings when the chamber grows too warm. In our experiment, colonies in which the fanning behavior of individual bees was disrupted failed to regulate brood temperature. Therefore, each individual honeybee must possess the ability to detect when the brood chamber is too warm.",
+    "stem": "The argument depends on assuming which one of the following?",
+    "choices": {
+      "A": "Every honeybee in a colony fans its wings whenever the brood chamber grows too warm.",
+      "B": "Honeybees that fan their wings when the brood chamber is warm are not merely responding to signals from other bees that detected the warmth.",
+      "C": "Colonies whose fanning behavior was not disrupted maintained brood temperature within the normal range throughout the experiment.",
+      "D": "Honeybees also regulate brood temperature by clustering together when the chamber grows too cold.",
+      "E": "Disrupting the fanning behavior of individual bees does not also impair their ability to detect temperature."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Sufficient-style overreach. The conclusion concerns detection, not fanning; the argument does not require that 'every' bee fans, only that each can detect warmth.",
+      "B": "Correct. The argument leaps from a colony-level behavior to an individual-level ability. Negate it: fanning bees merely respond to signals from a few bees that detected the warmth. Then most bees need no detection ability, and the conclusion fails.",
+      "C": "Premise booster. A control group strengthens the experimental finding but does not bridge the gap from 'fanning is needed' to 'each bee detects warmth.'",
+      "D": "Out of scope. Responses to cold are irrelevant to whether each bee can detect excess warmth.",
+      "E": "Shell game. Even if disrupting fanning also impaired detection, the conclusion that each bee can detect warmth would be unaffected; the negation does not damage the argument."
+    },
+    "trapPatterns": {
+      "A": "wrong_force",
+      "C": "premise_booster",
+      "D": "out_of_scope",
+      "E": "shell_game"
+    },
+    "keyTakeaway": "When a conclusion attributes an ability to 'each individual' based on group behavior, the required assumption rules out a few individuals doing the detecting for the rest.",
+    "predictionHint": "No division of labor: the fanners must be sensing the heat themselves."
+  },
+  {
+    "id": "lr-necessary-assumption-museum-spending",
+    "section": "LR",
+    "type": "necessary_assumption",
+    "logicTags": [
+      "math_percent",
+      "comparison"
+    ],
+    "difficulty": 3,
+    "stimulus": "Museum director: Since we eliminated our admission fee last year, annual attendance has risen from 200,000 to 320,000 visitors. Revenues from our gift shop and cafe, however, have risen by only 15 percent. Evidently, the visitors we have attracted by eliminating the fee spend considerably less in the shop and cafe, on average, than our previous visitors did.",
+    "stem": "Which one of the following is an assumption required by the argument?",
+    "choices": {
+      "A": "None of the visitors attracted by eliminating the admission fee make any purchases in the gift shop or cafe.",
+      "B": "The 15 percent rise in shop and cafe revenues is the largest such increase the museum has ever recorded.",
+      "C": "Most of the visitors attracted by eliminating the admission fee live in the area surrounding the museum.",
+      "D": "The number of visitors who make a purchase in the shop or cafe has not increased since the fee was eliminated.",
+      "E": "Visitors who came to the museum before the fee was eliminated have not substantially reduced their average spending in the shop and cafe."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Sufficient but not necessary. If new visitors spent nothing, the conclusion would hold, but the director needs only that they spend 'considerably less,' not 'none' and 'any.'",
+      "B": "Premise booster. Whether 15 percent is a record does not bear on how the increase is divided between old and new visitors.",
+      "C": "Out of scope. Where new visitors live says nothing about how much they spend.",
+      "D": "Shell game. The argument concerns average spending, not the 'number' of purchasers. Negate it: more visitors now make purchases. New visitors could still spend far less on average, so the argument survives.",
+      "E": "Correct. Attendance rose 60 percent while revenue rose 15 percent. That implies new visitors spend less only if old visitors kept spending as before. Negate it: old visitors cut their spending sharply. Then new visitors could be spending as much as the old ones once did, and the conclusion no longer follows."
+    },
+    "trapPatterns": {
+      "A": "wrong_force",
+      "B": "premise_booster",
+      "C": "out_of_scope",
+      "D": "shell_game"
+    },
+    "keyTakeaway": "When an average is split between an old group and a new group, blaming the new group requires that the old group's behavior stayed constant.",
+    "predictionHint": "The old visitors must still be spending the way they used to."
+  },
+  {
+    "id": "lr-necessary-assumption-encryption-review",
+    "section": "LR",
+    "type": "necessary_assumption",
+    "logicTags": [
+      "lack_of_support_v_false"
+    ],
+    "difficulty": 3,
+    "stimulus": "Technology analyst: The new encryption standard has been publicly reviewed by hundreds of cryptographers over three years, and none has found a method of breaking it faster than trying every possible key. Because trying every possible key would take thousands of years even on computers far faster than any projected for the foreseeable future, data encrypted under the new standard will remain secure for the foreseeable future.",
+    "stem": "The argument depends on assuming which one of the following?",
+    "choices": {
+      "A": "Any encryption standard that is publicly reviewed for three years without being broken will remain secure for the foreseeable future.",
+      "B": "The cryptographers who reviewed the new standard are among the most skilled in the field.",
+      "C": "A method of breaking the standard faster than trying every possible key is unlikely to be discovered in the foreseeable future.",
+      "D": "Data encrypted under the previous standard will not remain secure for the foreseeable future.",
+      "E": "Every cryptographer who reviewed the standard attempted to find a method of breaking it faster than trying every key."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Sufficient but not necessary. A general rule covering 'any' standard would settle the matter, but the analyst needs a claim only about this standard.",
+      "B": "Premise booster. Skilled reviewers make the failure to find a shortcut more meaningful, but the argument already treats that failure as strong evidence; the gap is what the future holds.",
+      "C": "Correct. The argument infers from 'no shortcut found so far' to 'secure for the foreseeable future.' Negate it: a faster method is likely to be discovered. Then the data will likely not remain secure, and the conclusion fails.",
+      "D": "Out of scope. The previous standard's security has no bearing on whether the new one will hold.",
+      "E": "Too strong to be required. Negate it: some reviewers did not attempt to break it. Hundreds of others still did, so the evidence stands and the argument survives 'every' being false."
+    },
+    "trapPatterns": {
+      "A": "wrong_force",
+      "B": "premise_booster",
+      "D": "out_of_scope",
+      "E": "extreme"
+    },
+    "keyTakeaway": "An argument from 'no one has found a flaw' to 'there is no flaw' requires that future searching will not turn one up either.",
+    "predictionHint": "Not finding a shortcut so far must mean one isn't coming soon."
+  },
+  {
+    "id": "lr-necessary-assumption-parole-boards",
+    "section": "LR",
+    "type": "necessary_assumption",
+    "logicTags": [
+      "causation",
+      "comparison"
+    ],
+    "difficulty": 4,
+    "stimulus": "Criminologist: Parole boards grant early release only to prisoners they judge unlikely to reoffend. Among prisoners released on parole last year, 20 percent were convicted of a new offense within two years, whereas among prisoners who served their full sentences and were then released, 45 percent were. Clearly, parole boards are reasonably good at identifying which prisoners are unlikely to reoffend.",
+    "stem": "Which one of the following is an assumption required by the argument?",
+    "choices": {
+      "A": "The lower reoffending rate among parolees is not primarily a result of the supervision and conditions imposed during parole.",
+      "B": "Prisoners released on parole did not differ from those who served full sentences in any respect other than the parole board's judgment of them.",
+      "C": "Parole boards review each prisoner's disciplinary record and criminal history before deciding whether to grant early release.",
+      "D": "Prisoners who are denied parole are more likely to reoffend than prisoners who never apply for it.",
+      "E": "Most prisoners whom parole boards judged unlikely to reoffend were in fact granted early release."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. The argument credits the boards' judgment for the lower rate. Negate it: the lower rate is primarily a result of parole supervision itself. Then the figures show the effect of supervision, not of accurate selection, and the conclusion is unsupported.",
+      "B": "Sufficient but not necessary. Ruling out every other difference, 'any respect,' would secure the conclusion, but the groups may differ in many irrelevant ways; the argument needs only that the relevant alternative explanations are not doing the work.",
+      "C": "Premise booster. Describing the boards' process makes their judgments sound careful, but careful process is not evidence of accurate outcomes, which is what the figures are meant to show.",
+      "D": "Out of scope. The comparison in the argument is between parolees and full-term prisoners; those denied parole versus those who never applied is a different comparison.",
+      "E": "Reversal. The premise says parole is granted only to those judged unlikely to reoffend; whether 'most' of those so judged were actually released is irrelevant to the boards' accuracy."
+    },
+    "trapPatterns": {
+      "B": "wrong_force",
+      "C": "premise_booster",
+      "D": "out_of_scope",
+      "E": "reversal"
+    },
+    "keyTakeaway": "When two groups differ in both selection and treatment, concluding that selection worked requires assuming the treatment did not produce the difference.",
+    "predictionHint": "Being on parole must not itself be what keeps parolees from reoffending."
+  },
+  {
+    "id": "lr-necessary-assumption-exoplanet-water",
+    "section": "LR",
+    "type": "necessary_assumption",
+    "logicTags": [
+      "conditional",
+      "quantifiers"
+    ],
+    "difficulty": 4,
+    "stimulus": "Astronomer: Spectral analysis has revealed water vapor in the atmospheres of several planets orbiting other stars. Planets with water vapor in their atmospheres often have liquid water on their surfaces, and life as we know it requires liquid water. So at least some of the planets with water vapor in their atmospheres are likely to harbor life.",
+    "stem": "The argument depends on assuming which one of the following?",
+    "choices": {
+      "A": "Any planet that has liquid water on its surface is likely to harbor life.",
+      "B": "Most planets with water vapor in their atmospheres have liquid water on their surfaces.",
+      "C": "The spectral analysis used is reliable at detecting even small amounts of water vapor in a planet's atmosphere.",
+      "D": "Some planets with liquid water on their surfaces also meet whatever other conditions life as we know it requires.",
+      "E": "No form of life that does not require liquid water has ever been observed."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Sufficient but not necessary. If liquid water alone made life likely, the conclusion would follow, but the argument does not need 'any' such planet to be likely to harbor life; some sufficing would do.",
+      "B": "Too strong to be required. The premise says 'often'; negate this choice ('not most') and the argument is unaffected, since some planets with liquid water would still exist.",
+      "C": "Premise booster. Reliability of detection supports the premise that water vapor is present but says nothing about whether liquid water leads to life.",
+      "D": "Correct. The argument treats a necessary condition (liquid water) as if it made life likely. Negate it: no planet with liquid water meets the other conditions life requires. Then no such planet can harbor life, and the conclusion is false.",
+      "E": "Out of scope. The argument concerns 'life as we know it'; whether other forms of life exist does not affect whether these planets are likely to harbor the familiar kind."
+    },
+    "trapPatterns": {
+      "A": "wrong_force",
+      "B": "extreme",
+      "C": "premise_booster",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "When an argument moves from a necessary condition to a likely outcome, it must assume the remaining conditions can also be met.",
+    "predictionHint": "Water is required, not enough: the other requirements must also be satisfiable on some of these planets."
+  },
+  {
+    "id": "lr-sufficient-assumption-refund-policy",
+    "section": "LR",
+    "type": "sufficient_assumption",
+    "logicTags": [
+      "conditional"
+    ],
+    "difficulty": 1,
+    "stimulus": "Any store that offers full refunds on returned merchandise will attract customers who are reluctant to shop at stores without such a policy. Bellhaven Books offers full refunds on all returned merchandise. Therefore, Bellhaven Books will see its sales increase this year.",
+    "stem": "The conclusion follows logically if which one of the following is assumed?",
+    "choices": {
+      "A": "Bellhaven Books will not see its sales increase this year unless it attracts customers who are reluctant to shop at stores without a full-refund policy.",
+      "B": "Any store that attracts customers who are reluctant to shop at stores without a full-refund policy will see its sales increase this year.",
+      "C": "Any store whose sales increase in a given year attracts customers who are reluctant to shop at stores without a full-refund policy.",
+      "D": "Any store that offers full refunds on returned merchandise will see customers return merchandise more frequently.",
+      "E": "Bellhaven Books has offered full refunds on returned merchandise for many years."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Necessary, not sufficient. 'Unless' makes attracting such customers a requirement for rising sales; a requirement being met does not guarantee the result.",
+      "B": "Correct. The premises establish that Bellhaven attracts these customers. This choice says any store that does so sees sales rise this year, so the conclusion follows.",
+      "C": "Reversal. This runs from rising sales to attracting customers; the argument needs the opposite direction, from attracting customers to rising sales.",
+      "D": "Half right. It starts from the right trigger (full refunds) but ends at 'return merchandise more frequently,' not at increased sales, so it never reaches the conclusion.",
+      "E": "Out of scope. How long the policy has existed adds nothing linking the policy to this year's sales."
+    },
+    "trapPatterns": {
+      "A": "necessary_v_sufficient",
+      "C": "reversal",
+      "D": "half_right",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "Map the chain, find the endpoint the premises reach, and pick the answer that takes you from that endpoint to the conclusion.",
+    "predictionHint": "Attracting reluctant customers leads to a sales increase this year."
+  },
+  {
+    "id": "lr-sufficient-assumption-delacroix-contract",
+    "section": "LR",
+    "type": "sufficient_assumption",
+    "logicTags": [
+      "conditional"
+    ],
+    "difficulty": 2,
+    "stimulus": "A contract is enforceable only if each party received something of value under it. In the dispute over the Delacroix agreement, the court found that Delacroix received nothing of value. Furthermore, an agreement that is not enforceable cannot be the basis for an award of damages. Thus Fenwick's suit for damages against Delacroix will fail.",
+    "stem": "The conclusion follows logically if which one of the following is assumed?",
+    "choices": {
+      "A": "Fenwick's suit for damages is based at least in part on the Delacroix agreement.",
+      "B": "Any agreement under which each party received something of value is enforceable.",
+      "C": "A suit for damages based on an unenforceable agreement will fail unless the court finds that both parties acted in good faith.",
+      "D": "The court's finding that Delacroix received nothing of value will not be overturned on appeal.",
+      "E": "Fenwick's suit for damages rests entirely on the Delacroix agreement."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Necessary, not sufficient. If the suit is based only 'in part' on the agreement, another basis might sustain it, so failure is not guaranteed.",
+      "B": "Reversal. The premise says enforceability requires value to each party; this choice says value to each party guarantees enforceability. Neither version helps, since Delacroix received nothing anyway.",
+      "C": "Half right. It links unenforceable agreements to failed suits, but the 'unless' clause adds a good-faith exception the premises cannot rule out, so the conclusion is not secured.",
+      "D": "Out of scope. The argument concerns whether the suit will fail given the finding, not whether the finding will survive appeal.",
+      "E": "Correct. The agreement is unenforceable (Delacroix received nothing), and unenforceable agreements cannot ground damages. If the suit 'rests entirely' on that agreement, it has no basis and must fail."
+    },
+    "trapPatterns": {
+      "A": "necessary_v_sufficient",
+      "B": "reversal",
+      "C": "half_right",
+      "D": "out_of_scope"
+    },
+    "keyTakeaway": "On SA questions, the key often supplies the one fact tying the specific case to the general rule; 'entirely' or 'only' is what makes it sufficient.",
+    "predictionHint": "The suit must depend on nothing but the Delacroix agreement."
+  },
+  {
+    "id": "lr-sufficient-assumption-lake-phosphorus",
+    "section": "LR",
+    "type": "sufficient_assumption",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 2,
+    "stimulus": "Environmental scientist: Algal blooms in Lake Orrin have become more frequent over the past decade. The lake's phosphorus levels have risen sharply over the same period, and phosphorus is the nutrient that most limits algal growth in freshwater lakes. Since nearly all of the phosphorus entering the lake comes from fertilizer runoff from surrounding farms, reducing fertilizer use on those farms would reduce the frequency of algal blooms.",
+    "stem": "Which one of the following, if assumed, enables the conclusion to be properly drawn?",
+    "choices": {
+      "A": "The increase in algal blooms in Lake Orrin was not caused by any factor other than rising phosphorus levels.",
+      "B": "Reducing fertilizer use on the surrounding farms would reduce the amount of phosphorus entering Lake Orrin.",
+      "C": "Reducing fertilizer use on the surrounding farms would lower phosphorus levels in Lake Orrin enough to limit algal growth.",
+      "D": "Freshwater lakes in which algal blooms are frequent typically have elevated phosphorus levels.",
+      "E": "Farms surrounding Lake Orrin use more fertilizer per acre than other farms in the region."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Necessary-flavored, not sufficient. Even if phosphorus is the only cause, nothing here shows that cutting fertilizer would actually bring the lake's phosphorus levels down.",
+      "B": "Half right. Less phosphorus 'entering' is the first step, but phosphorus already stored in the lake could keep levels high; the choice stops short of lower levels and fewer blooms.",
+      "C": "Correct. If reduced fertilizer use lowers the lake's phosphorus enough to limit algal growth, and phosphorus is the limiting nutrient, then blooms become less frequent. The conclusion follows.",
+      "D": "Reversal. This describes blooms predicting phosphorus; the argument needs a change in phosphorus to produce a change in blooms.",
+      "E": "Out of scope. Comparative fertilizer use across farms says nothing about what would happen if use were reduced."
+    },
+    "trapPatterns": {
+      "A": "necessary_v_sufficient",
+      "B": "half_right",
+      "D": "reversal",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "A causal SA key completes the whole chain from intervention to outcome; the half-right trap completes only the first link.",
+    "predictionHint": "Cut fertilizer, lake phosphorus falls enough, algae limited, fewer blooms."
+  },
+  {
+    "id": "lr-sufficient-assumption-hadley-scholarship",
+    "section": "LR",
+    "type": "sufficient_assumption",
+    "logicTags": [
+      "conditional"
+    ],
+    "difficulty": 2,
+    "stimulus": "To be eligible for the Hadley Scholarship, a student must have completed at least two years of study at the college and must be nominated by a faculty member. Every student nominated by a faculty member has a grade average above 3.5. Teodora is eligible for the Hadley Scholarship. It follows that Teodora will be admitted to the honors program.",
+    "stem": "The conclusion follows logically if which one of the following is assumed?",
+    "choices": {
+      "A": "Every student with a grade average above 3.5 who has completed at least two years of study is admitted to the honors program.",
+      "B": "Only students with a grade average above 3.5 are admitted to the honors program.",
+      "C": "Every student admitted to the honors program is eligible for the Hadley Scholarship.",
+      "D": "Any student with a grade average above 3.5 is admitted to the honors program if nominated by at least two faculty members.",
+      "E": "Teodora has completed more than two years of study at the college."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. Eligibility gives Teodora two years of study and a nomination; the nomination gives a grade average above 3.5. This choice turns those two established facts into admission, so the conclusion follows.",
+      "B": "Necessary, not sufficient. 'Only' makes a 3.5 average a requirement for admission; Teodora meeting a requirement does not guarantee she is admitted.",
+      "C": "Reversal. This runs from honors admission to scholarship eligibility; the argument needs the opposite direction.",
+      "D": "Half right. The 3.5 average is established, but the premises show only one nomination, not 'at least two,' so the condition is not met.",
+      "E": "Out of scope. More than two years adds nothing; the premises already give at least two, and no rule links years of study to the honors program."
+    },
+    "trapPatterns": {
+      "B": "necessary_v_sufficient",
+      "C": "reversal",
+      "D": "half_right",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "Collect every fact the premises prove about the subject, then choose the rule whose trigger uses only those facts.",
+    "predictionHint": "Teodora has 2+ years, a nomination, and a 3.5+ average. Need those facts to yield honors admission."
+  },
+  {
+    "id": "lr-sufficient-assumption-rourke-deception",
+    "section": "LR",
+    "type": "sufficient_assumption",
+    "logicTags": [
+      "conditional",
+      "value_judgment"
+    ],
+    "difficulty": 3,
+    "stimulus": "Ethicist: An act is morally wrong if it treats another person merely as a means to the actor's own ends. Whenever one person deceives another in order to gain an advantage, the deceiver treats the deceived person merely as a means. Rourke's statement to the investors was made in order to gain an advantage for Rourke. Hence Rourke's statement was morally wrong.",
+    "stem": "Which one of the following, if assumed, enables the conclusion to be properly drawn?",
+    "choices": {
+      "A": "Rourke's statement to the investors would not have been morally wrong had it not been made in order to gain an advantage.",
+      "B": "In making the statement to the investors, Rourke deceived them.",
+      "C": "Any act that is morally wrong treats another person merely as a means to the actor's own ends.",
+      "D": "Rourke's statement to the investors was misleading, though Rourke believed it to be true.",
+      "E": "The investors suffered financial losses as a result of Rourke's statement."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Necessary, not sufficient. This says gaining an advantage was required for the act to be wrong; it does not say the act was wrong.",
+      "B": "Correct. The premises give the chain: deceiving to gain advantage treats the other as a mere means, which makes the act wrong. Rourke's advantage-seeking is given; all that is missing is deception, which this supplies.",
+      "C": "Reversal. The premise says treating someone as a mere means makes an act wrong; this choice says wrongness entails such treatment, which cannot generate the conclusion.",
+      "D": "Half right. A 'misleading' statement the speaker 'believed to be true' is not deception, which requires intent; the premises never make misleading someone sufficient for wrongness.",
+      "E": "Out of scope. Harm to the investors appears nowhere in the ethicist's principles, so it cannot complete the chain."
+    },
+    "trapPatterns": {
+      "A": "necessary_v_sufficient",
+      "C": "reversal",
+      "D": "half_right",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "Identify which trigger term the premises leave unestablished and choose the answer that asserts exactly that term for the case at hand.",
+    "predictionHint": "We have 'to gain an advantage'; we need 'deceived' to fire the rule."
+  },
+  {
+    "id": "lr-sufficient-assumption-veltrax-trials",
+    "section": "LR",
+    "type": "sufficient_assumption",
+    "logicTags": [
+      "conditional"
+    ],
+    "difficulty": 3,
+    "stimulus": "Health official: A new drug should be approved for general use only if its benefits to patients have been clearly shown to outweigh its risks, and such a showing can be made only through large controlled trials. The manufacturer of Veltrax has conducted only small observational studies of the drug. Therefore, Veltrax should not be approved for general use.",
+    "stem": "The conclusion follows logically if which one of the following is assumed?",
+    "choices": {
+      "A": "A new drug should be approved for general use if its benefits have been clearly shown to outweigh its risks.",
+      "B": "Veltrax should not be approved for general use unless large controlled trials of it have been conducted.",
+      "C": "The small observational studies conducted by the manufacturer of Veltrax did not show that its benefits outweigh its risks.",
+      "D": "Small observational studies cannot clearly show that a drug's benefits outweigh its risks.",
+      "E": "No large controlled trials of Veltrax have been conducted by anyone other than its manufacturer."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Reversal. The premise makes a clear showing necessary for approval; this makes it sufficient. Neither version addresses whether such a showing exists for Veltrax.",
+      "B": "Necessary, not sufficient. This restates what the premises already imply: approval requires large trials. It does not establish that no large trials of Veltrax have been conducted.",
+      "C": "Half right. It addresses 'the manufacturer's' studies, but the gap is other researchers' studies; large trials run by a university could have made the required showing.",
+      "D": "Premise booster. The premises already state that only large controlled trials can make the showing; this adds nothing about who has or has not run such trials.",
+      "E": "Correct. The premise covers only the manufacturer's small studies. Add that no one else has run large trials, and no large trials exist, so no clear showing exists, so approval is not warranted."
+    },
+    "trapPatterns": {
+      "A": "reversal",
+      "B": "necessary_v_sufficient",
+      "C": "half_right",
+      "D": "premise_booster"
+    },
+    "keyTakeaway": "When a premise is narrower than it looks ('the manufacturer has conducted'), the SA key widens it to cover the whole field.",
+    "predictionHint": "Nobody else ran large trials either."
+  },
+  {
+    "id": "lr-sufficient-assumption-forgery-value",
+    "section": "LR",
+    "type": "sufficient_assumption",
+    "logicTags": [
+      "conditional"
+    ],
+    "difficulty": 4,
+    "stimulus": "Critic: A painting has aesthetic value only if it rewards sustained attention, and whether a painting rewards sustained attention depends on its visible qualities alone. A forgery that is visually indistinguishable from an original has exactly the visible qualities the original has. Therefore, if an original painting has aesthetic value, a visually indistinguishable forgery of it has aesthetic value as well.",
+    "stem": "The conclusion follows logically if which one of the following is assumed?",
+    "choices": {
+      "A": "A painting that does not reward sustained attention lacks aesthetic value.",
+      "B": "A forgery has aesthetic value only if the original it copies has aesthetic value.",
+      "C": "Any painting that rewards sustained attention has aesthetic value.",
+      "D": "A visually indistinguishable forgery rewards sustained attention whenever the original it copies does.",
+      "E": "The aesthetic value of a painting does not depend on the identity of the artist who produced it."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Premise booster. This is the contrapositive of the first premise, so it adds nothing; it still gives only a necessary condition for aesthetic value, not a sufficient one.",
+      "B": "Necessary, not sufficient. It says the original's value is required for the forgery's; it never says the forgery has value when the original does.",
+      "C": "Correct. The premises show that if the original rewards attention, so does the forgery (same visible qualities). But the first premise makes rewarding attention 'only' necessary for value. This choice makes it sufficient, so the forgery's value follows.",
+      "D": "Half right. The premises already yield this; it carries the forgery to 'rewards sustained attention' but not past the gap to 'has aesthetic value.'",
+      "E": "Shell game. The argument's chain runs through visible qualities, not 'the identity of the artist'; a forgery and original can differ in history and intention even if artist identity is irrelevant, so this does not secure the conclusion."
+    },
+    "trapPatterns": {
+      "A": "premise_booster",
+      "B": "necessary_v_sufficient",
+      "D": "half_right",
+      "E": "shell_game"
+    },
+    "keyTakeaway": "When a premise gives 'only if,' the SA key often supplies the missing 'if' for the same pair of terms.",
+    "predictionHint": "Rewarding sustained attention has to be enough for aesthetic value, not just required."
+  },
+  {
+    "id": "lr-sufficient-assumption-tariff-steel",
+    "section": "LR",
+    "type": "sufficient_assumption",
+    "logicTags": [
+      "conditional"
+    ],
+    "difficulty": 4,
+    "stimulus": "Economist: No industry that receives tariff protection becomes more efficient. Any industry that does not become more efficient eventually loses its export markets. Thus, if the government extends tariff protection to the domestic steel industry, domestic steel producers will eventually go out of business.",
+    "stem": "Which one of the following, if assumed, enables the conclusion to be properly drawn?",
+    "choices": {
+      "A": "Any industry that loses its export markets has failed to become more efficient.",
+      "B": "Domestic steel producers will go out of business only if the steel industry loses its export markets.",
+      "C": "Industries that lose their export markets cannot survive unless they receive tariff protection.",
+      "D": "No domestic steel producer can remain in business once the industry has lost its export markets.",
+      "E": "The domestic steel industry currently depends on export markets for most of its revenue."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Reversal. The premises run from inefficiency to lost exports; this choice runs from lost exports back to inefficiency and never reaches 'out of business.'",
+      "B": "Necessary, not sufficient. 'Only if' makes losing exports a requirement for going out of business, not a guarantee; producers could lose exports and survive.",
+      "C": "Half right. It links lost exports to failure, but the 'unless' clause means tariff protection would save them, and the argument's antecedent grants exactly that protection. The conclusion is blocked, not secured.",
+      "D": "Correct. Tariff protection prevents efficiency gains, which guarantees lost export markets. This choice adds that no producer can remain in business once export markets are lost, so every producer goes out of business.",
+      "E": "Too weak. Depending on exports for 'most' revenue makes failure plausible but not certain; a producer could survive on the remaining revenue."
+    },
+    "trapPatterns": {
+      "A": "reversal",
+      "B": "necessary_v_sufficient",
+      "C": "half_right",
+      "E": "wrong_force"
+    },
+    "keyTakeaway": "Trace the chain to its last established term and insist on an answer whose trigger is that exact term; a near-synonym or an 'unless' clause leaves the gap open.",
+    "predictionHint": "Tariff, then no efficiency, then lost exports. Need: lost exports means out of business."
+  }
+]

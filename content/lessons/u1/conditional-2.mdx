@@ -1,0 +1,97 @@
+---
+id: u1/conditional-2
+unit: 1
+order: 9
+title: "The indicator groups: unless, without, only, no"
+summary: "Four families of words that encode conditionals in disguise. One rule per family, and you'll never diagram one wrong."
+checkTags: [conditional]
+diagram: ConditionalChain
+minutes: 10
+---
+
+## Four groups
+
+Every conditional indicator on the LSAT falls into one of four groups. Each group has a single translation rule.
+
+### Group 1 — introduces the sufficient condition
+**if, when, whenever, every, all, any, each, in order to, people who**
+
+The thing right after the word goes on the **left** of the arrow.
+
+> *Every member who attended received a certificate.* → attended → certificate
+
+### Group 2 — introduces the necessary condition
+**only, only if, only when, must, requires, needs, depends on, essential, precondition**
+
+The thing right after the word goes on the **right** of the arrow.
+
+> *The grant is awarded only to projects with a public component.* → grant → public component
+> *Admission requires a portfolio.* → admission → portfolio
+
+### Group 3 — "unless / until / without / except": negate the other side
+**unless, until, without, except, besides**
+
+Take the clause introduced by the word and put it on the **right** of the arrow. Take the *other* clause, **negate** it, and put it on the left.
+
+> *No refund unless you have a receipt.* → refund → receipt
+> *The bridge cannot open without an inspection.* → open → inspection
+> *Everyone except staff must register.* → ¬staff → register
+
+Mnemonic: *unless* = *if not*. "No refund unless receipt" = "if no receipt, no refund" = refund → receipt.
+
+### Group 4 — "no / none / never / cannot": negate the necessary
+**no, none, never, cannot, not both**
+
+The sufficient is whatever follows the word; the necessary is the *negation* of the other side.
+
+> *No employee may hold two offices.* → employee → ¬two offices
+> *Reptiles never nurse their young.* → reptile → ¬nurse
+
+<KeyIdea>
+Groups 1 and 2 place a condition. Groups 3 and 4 place a condition *and flip a sign*. The flip is what people forget under time.
+</KeyIdea>
+
+## Practice the translations
+
+<ConditionalChain
+  initial={["grant -> public component", "open -> inspection", "employee -> not two offices"]}
+  title="Translations from the examples above"
+  quiz={[
+    {
+      given: "not inspection",
+      options: [
+        { text: "not open", valid: true, why: "Contrapositive: no inspection → bridge does not open." },
+        { text: "open", valid: false, why: "The inspection is necessary; without it the bridge can't open." }
+      ]
+    },
+    {
+      given: "public component",
+      options: [
+        { text: "grant", valid: false, why: "Affirming the necessary. Having a public component doesn't guarantee the grant." },
+        { text: "nothing follows", valid: true, why: "A necessary condition being met triggers no rule." }
+      ]
+    }
+  ]}
+/>
+
+## Two sentences that look alike
+
+- *"Only members may vote."* → vote → member (Group 2: "only" marks the necessary).
+- *"The only people who vote are members."* → vote → member. Same thing — "the only" still marks the necessary, which is what comes *after* it: being a member is required.
+
+But:
+
+- *"Members are the only people who vote."* → vote → member again. The necessary condition is *member* regardless of word order. Ask: what is required for what? Voting requires membership.
+
+## Common pairings that trip people
+
+| Phrase | Arrow |
+|---|---|
+| A is necessary for B | B → A |
+| A is sufficient for B | A → B |
+| A guarantees B | A → B |
+| A depends on B | A → B |
+| Not A unless B | A → B |
+| A if and only if B | A → B and B → A |
+
+The next lesson chains these together and handles *and*, *or*, and their negations.

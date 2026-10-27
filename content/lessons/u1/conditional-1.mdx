@@ -1,0 +1,89 @@
+---
+id: u1/conditional-1
+unit: 1
+order: 8
+title: "Sufficient and necessary"
+summary: "The arrow, what sits on each side, and the one inference it licenses. Everything in formal logic on the LSAT builds on this."
+checkTags: [conditional]
+diagram: ConditionalChain
+minutes: 10
+---
+
+## The arrow
+
+A **conditional** statement says: if one thing is true, another must be. We write it with an arrow.
+
+> *If it rains, the match is cancelled.* → **rain → cancelled**
+
+Left of the arrow is the **sufficient** condition: enough, by itself, to guarantee the right side. Right of the arrow is the **necessary** condition: required for the left side to hold — if it's absent, the left side can't be true.
+
+Rain is *sufficient* for cancellation. Cancellation is *necessary* for rain (in this world, you can't have rain without a cancelled match).
+
+## The only two valid moves
+
+Given **A → B**:
+
+| You learn… | You may conclude… | Name |
+|---|---|---|
+| A is true | B is true | following the arrow |
+| B is false | A is false | the **contrapositive** (¬B → ¬A) |
+
+And the two moves that feel valid but aren't:
+
+| You learn… | You may conclude… | Error |
+|---|---|---|
+| B is true | *nothing* | affirming the necessary |
+| A is false | *nothing* | denying the sufficient |
+
+The match being cancelled doesn't tell you it rained — it could be lightning or a flood. No rain doesn't mean the match is on.
+
+<KeyIdea>
+A conditional only fires in two directions: forward from the sufficient, or backward from the *denial* of the necessary. Every other move is a flaw with a name.
+</KeyIdea>
+
+## See it fire
+
+Type a fact in the box and watch which rules trigger. Try *rain*, then *not cancelled*, then *cancelled*.
+
+<ConditionalChain
+  initial={["rain -> cancelled", "cancelled -> refunds issued"]}
+  title="Follow the arrows"
+  quiz={[
+    {
+      given: "not refunds issued",
+      options: [
+        { text: "not cancelled", valid: true, why: "Contrapositive of the second rule: no refunds → not cancelled." },
+        { text: "not rain", valid: true, why: "Chain the contrapositives: no refunds → not cancelled → not rain." },
+        { text: "rain", valid: false, why: "Nothing supports rain; in fact the chain proves the opposite." },
+        { text: "cancelled", valid: false, why: "Refunds are necessary for cancellation; without refunds there was no cancellation." }
+      ]
+    },
+    {
+      given: "cancelled",
+      options: [
+        { text: "refunds issued", valid: true, why: "Follow the second arrow forward." },
+        { text: "rain", valid: false, why: "Affirming the necessary. Cancellation doesn't require rain." }
+      ]
+    }
+  ]}
+/>
+
+## Translating English into arrows
+
+The sufficient condition isn't always first in the sentence. Learn the shapes:
+
+| English | Arrow |
+|---|---|
+| If A, then B | A → B |
+| B if A | A → B |
+| A only if B | A → B |
+| All A are B / Every A is B | A → B |
+| No A is B | A → ¬B |
+| A requires B / B is needed for A | A → B |
+| Whenever A, B | A → B |
+
+The trap is **"only if"**: it introduces the *necessary* condition. *"You may enter only if you have a ticket"* is **enter → ticket**, not ticket → enter.
+
+## Why this matters beyond formal questions
+
+Most Sufficient Assumption questions are conditional chains with one link missing. Many Flaw questions describe a conditional error in abstract language. Must Be True stimuli are chains you follow. And in Reading Comprehension, an author's "X is essential for Y" is a conditional you'll be asked to infer from. The next three lessons add the indicator words, the chaining rules, and the formal flaws — but the arrow and its two valid moves are 80% of the value.

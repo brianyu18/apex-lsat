@@ -1,0 +1,90 @@
+---
+id: u1/conditional-4
+unit: 1
+order: 11
+title: "Formal flaws: the four conditional errors"
+summary: "The errors that have names — and the abstract language Flaw and Parallel Flaw answers use for them."
+checkTags: [flaw, parallel_flaw]
+diagram: TrapCatalog
+minutes: 9
+---
+
+## The errors
+
+Given a rule **A → B**, an argument that makes any of these moves is invalid:
+
+| Error | Argument does | Looks like |
+|---|---|---|
+| **Affirming the necessary** | B is true, so A is true | "Cancelled matches follow rain; the match was cancelled, so it rained." |
+| **Denying the sufficient** | A is false, so B is false | "It didn't rain, so the match wasn't cancelled." |
+| **Reversal** | states B → A as if it were A → B | "Since all experts are careful, careful people must be experts." |
+| **Necessary ≠ sufficient** | treats a requirement as a guarantee | "A degree is required for the job, so with a degree she'll get it." |
+
+The last two are the same mistake described from different ends. The LSAT describes all four in abstract language — recognizing the description is the skill.
+
+## How the answers phrase it
+
+- *"takes a condition that is necessary for X to be a condition that is sufficient for X"*
+- *"confuses a sufficient condition with a necessary one"*
+- *"infers that something is true of the whole because of a condition that merely guarantees it is possible"*
+- *"concludes that an outcome will not occur merely because one way of bringing it about is absent"* — denying the sufficient
+- *"treats the fact that a result occurred as evidence that a particular cause occurred"* — affirming the necessary, often with causal dressing
+- *"mistakes a claim that something is required for a claim that it is enough"*
+
+<KeyIdea>
+Translate the abstract answer back into arrows, then check the argument's arrows. If the answer says the argument "treated necessary as sufficient," find the rule, find which side the argument started from, and confirm it started from the wrong one.
+</KeyIdea>
+
+## See the traps
+
+<TrapCatalog
+  title="Conditional errors in the wild"
+  traps={[
+    {
+      pattern: "necessary_v_sufficient",
+      setup: "To be eligible for the fellowship, a candidate must have published in a peer-reviewed journal. Dana has published in two such journals.",
+      tempting: "Therefore Dana is eligible for the fellowship.",
+      killer: "\"must have\" — publication is required, not enough. Other requirements may exist.",
+      instead: "The valid inference runs the other way: a candidate with no publications is not eligible."
+    },
+    {
+      pattern: "reversal",
+      setup: "Every bridge that passed the new inspection regime was built after 1990.",
+      tempting: "So any bridge built after 1990 passed the inspection.",
+      killer: "The rule is passed → post-1990. The answer asserts post-1990 → passed.",
+      instead: "Only the contrapositive is licensed: a pre-1990 bridge did not pass."
+    },
+    {
+      pattern: "opposite",
+      setup: "If the reservoir drops below 40% capacity, water restrictions take effect. The reservoir did not drop below 40%.",
+      tempting: "Therefore no water restrictions took effect.",
+      killer: "Denying the sufficient: other triggers for restrictions may exist.",
+      instead: "Nothing follows about restrictions from the reservoir staying above 40%."
+    },
+    {
+      pattern: "shell_game",
+      setup: "Any product that meets the safety standard carries the certification mark. This product carries a mark that resembles the certification mark.",
+      tempting: "So this product meets the safety standard.",
+      killer: "\"resembles\" — the premise is about the mark, the argument swaps in a look-alike; and even the real mark would only be a necessary condition.",
+      instead: "Two gaps: term shift (resembles ≠ is) and affirming the necessary (mark → standard is not given)."
+    }
+  ]}
+/>
+
+## Parallel Flaw: matching the shape
+
+Parallel Flaw questions ask you to find another argument with the *same* error. Reduce both to arrows:
+
+> Stimulus: "Successful startups all have strong founders. This startup has strong founders, so it will succeed." — **affirming the necessary** (success → strong founders; strong founders ∴ success).
+
+Now scan choices for the same shape, ignoring topic:
+
+- *"All dolphins are mammals. This animal is a mammal, so it's a dolphin."* — same shape. ✓
+- *"All dolphins are mammals. This animal is not a mammal, so it's not a dolphin."* — valid contrapositive. ✗
+- *"All dolphins are mammals. This animal is not a dolphin, so it's not a mammal."* — denying the sufficient. Wrong flaw. ✗
+
+Topic similarity is the trap: the choice about startups is almost never the answer.
+
+## Drill target
+
+By the end of Unit 1 you should be able to classify any conditional argument as valid, affirming-the-necessary, or denying-the-sufficient in under ten seconds. The check below mixes Flaw and Parallel Flaw questions where the error is conditional.

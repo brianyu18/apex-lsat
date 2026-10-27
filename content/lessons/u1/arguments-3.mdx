@@ -1,0 +1,60 @@
+---
+id: u1/arguments-3
+unit: 1
+order: 3
+title: "Sub-conclusions, context, and concessions"
+summary: "The three roles that aren't premise-or-conclusion, how to spot each, and the exact language Argument Part answers use for them."
+checkTags: [argument_part]
+diagram: ArgumentMap
+minutes: 9
+---
+
+## Beyond premise and conclusion
+
+Real LSAT arguments have more moving parts. Four roles cover almost everything:
+
+| Role | What it does | Typical signal |
+|---|---|---|
+| **Premise** | supports something | because, since, for, after all |
+| **Main conclusion** | supported, supports nothing further | therefore, thus, so; survives the "because" test |
+| **Sub-conclusion** | supported *and* then used as support | a "so" sentence that is followed by another "so" |
+| **Context / concession** | sets the scene or grants a point, supports nothing | "Some argue…", "Admittedly…", "It is true that…" |
+
+## Sub-conclusions: the two-step argument
+
+*The lab's results could not be replicated. **So the finding is unreliable.** Unreliable findings should not guide policy. **Therefore the proposed regulation should be withdrawn.***
+
+"The finding is unreliable" is concluded from the first sentence and then used, with the third, to reach the last. It is a **sub-conclusion** — the hinge of the argument. Argument Part answers describe it as *"a claim that is supported by one premise and in turn supports the main conclusion"* or *"an intermediate conclusion."*
+
+Why it matters: gaps live on both sides of a hinge. The argument could fail getting *to* the sub-conclusion or *from* it.
+
+## Context: the setup
+
+*Many economists expect the tariff to raise prices.* On its own this is a claim; in an argument that goes on to disagree, it's the view being rejected — **context**. The author doesn't rely on it; the author argues against it. Argument Part answers: *"a position the argument as a whole is directed against,"* *"a claim the argument seeks to undermine."*
+
+A subtle variant: the author may *accept* the context and build on it. *"Economists expect the tariff to raise prices. Since higher prices reduce demand, the tariff will reduce imports."* Here the first sentence is a premise. Test it: does the author *use* it as a reason? If yes, premise. If the author argues against or around it, context.
+
+## Concessions: granting a point
+
+*"Admittedly, the new transit line is expensive. But the long-term savings justify the cost."* The author grants something unfavorable to the conclusion and then overrides it. The concession supports nothing — it's there to be answered. Answer language: *"a consideration the argument acknowledges but discounts,"* *"an objection the argument concedes is partly valid."*
+
+<KeyIdea>
+To find a sentence's role, ask two questions: *Does anything support it?* and *Does it support anything?* Yes/yes → sub-conclusion. No/yes → premise. Yes/no → main conclusion. No/no → context or concession.
+</KeyIdea>
+
+## Map a four-role argument
+
+<ArgumentMap
+  title="Four roles"
+  sentences={[
+    { text: "It is often said that handwriting instruction is obsolete now that children type from an early age.", role: "context", why: "A view presented to be argued against; the author never relies on it." },
+    { text: "Granted, few adults write by hand for work.", role: "context", why: "A concession — the author admits a point that favors the opposing view, then moves past it." },
+    { text: "Children who learn cursive, however, show stronger recall of material they have written than of material they have typed.", role: "premise", why: "Evidence introduced with 'however' to push back against the opening view." },
+    { text: "Handwriting thus trains memory in a way typing does not.", role: "sub_conclusion", why: "Drawn from the recall finding, and then used to support the final claim." },
+    { text: "Schools should therefore keep teaching it.", role: "conclusion", why: "Supported by the sub-conclusion; supports nothing further. The 'because' test confirms it." }
+  ]}
+/>
+
+## The trap in Argument Part questions
+
+The most common wrong answer describes the right structure for the **wrong sentence** — calling a premise "the main conclusion," or the sub-conclusion "a claim the argument rejects." Before reading choices, label the quoted sentence yourself using the two questions above. Then match language, not vibes.

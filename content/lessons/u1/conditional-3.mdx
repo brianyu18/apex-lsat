@@ -1,0 +1,94 @@
+---
+id: u1/conditional-3
+unit: 1
+order: 10
+title: "Chains, and/or, and what you can't infer"
+summary: "Linking conditionals end to end, handling compound conditions, and the De Morgan flips that answer choices love to get wrong."
+checkTags: [conditional]
+diagram: ConditionalChain
+minutes: 10
+---
+
+## Chaining
+
+If the necessary condition of one rule is the sufficient condition of another, they link:
+
+> A → B, B → C  ⟹  A → C
+
+And the contrapositive of the whole chain runs backwards: ¬C → ¬B → ¬A.
+
+> *Anyone who qualifies for the final must have won a regional. Regional winners all trained at an accredited club.*
+> qualify → won regional → accredited club
+> So: not accredited → didn't win regional → didn't qualify.
+
+Chains are the engine of Must Be True and Sufficient Assumption questions. The missing link in an SA question is almost always the rule that would connect the chain's loose end to the conclusion.
+
+## And / or on each side
+
+Compound conditions follow fixed rules:
+
+| Statement | Split into |
+|---|---|
+| A → (B **and** C) | A → B, and A → C |
+| (A **or** B) → C | A → C, and B → C |
+| (A **and** B) → C | *cannot* be split — you need both A and B to trigger C |
+| A → (B **or** C) | *cannot* be split — A guarantees at least one of B, C |
+
+> *Applicants must submit transcripts and two references.* → apply → transcripts, and apply → references.
+> *A permit or a waiver suffices for entry.* → permit → entry; waiver → entry.
+
+## Negating compounds (De Morgan)
+
+When you take a contrapositive, *and* becomes *or*, and *or* becomes *and*.
+
+- ¬(B and C) = ¬B **or** ¬C
+- ¬(B or C) = ¬B **and** ¬C
+
+> apply → (transcripts and references). Contrapositive: (¬transcripts **or** ¬references) → ¬apply. Missing *either* document is enough to sink the application.
+
+> (permit or waiver) → entry. Contrapositive: ¬entry → (¬permit **and** ¬waiver). No entry means you had neither.
+
+<KeyIdea>
+"Not both" means at least one is missing — not that both are. "Neither" means both are missing. Answer choices that swap these are wrong.
+</KeyIdea>
+
+## "Or" on the LSAT is inclusive
+
+*"A or B"* means at least one, possibly both — unless the stimulus says "but not both." And a plain *"either A or B"* is treated the same: if you learn ¬A, you get B; if you learn A, you get **nothing** about B.
+
+## Build a chain
+
+<ConditionalChain
+  initial={["qualify -> won regional", "won regional -> accredited club", "accredited club -> insured"]}
+  title="Three-link chain"
+  quiz={[
+    {
+      given: "not insured",
+      options: [
+        { text: "not qualify", valid: true, why: "Run the contrapositives all the way back: no insurance → not accredited → no regional win → doesn't qualify." },
+        { text: "won regional", valid: false, why: "The chain gives the opposite." }
+      ]
+    },
+    {
+      given: "accredited club",
+      options: [
+        { text: "insured", valid: true, why: "One step forward." },
+        { text: "qualify", valid: false, why: "Going backwards up the chain is affirming the necessary." }
+      ]
+    }
+  ]}
+/>
+
+## What you still can't infer
+
+Even a long chain only licenses the forward and contrapositive directions. From A → B → C you cannot conclude:
+
+- C → A (reversal)
+- ¬A → ¬C (negation of both — denying the sufficient)
+- anything about things not in the chain
+
+When a Must Be True answer mentions a term that appears in no rule, it's out — no matter how plausible it sounds.
+
+## Bi-conditionals
+
+*"If and only if"*, *"when and only when"*, *"X exactly when Y"* give both directions: A → B and B → A. These are rare but show up in level-4 Parallel Reasoning. Treat them as two rules.
