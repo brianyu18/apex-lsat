@@ -1,0 +1,2086 @@
+[
+  {
+    "id": "lr-strengthen-afternoon-nap-errors",
+    "section": "LR",
+    "type": "strengthen",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 1,
+    "stimulus": "Occupational health researcher: A software firm began allowing employees a 20-minute nap break each afternoon. Over the following three months, the number of coding errors detected in afternoon work fell by nearly a third. Brief naps are known to restore alertness, so the nap policy was probably responsible for the decline in afternoon errors.",
+    "stem": "Which one of the following, if true, most strengthens the argument?",
+    "choices": {
+      "A": "Employees at the firm reported that they enjoyed the nap breaks and hoped the policy would continue.",
+      "B": "Studies in several other industries have found that brief afternoon naps improve measured alertness for several hours afterward.",
+      "C": "During the three months, the firm made no other changes to its work schedule, staffing, or code-review procedures.",
+      "D": "The number of coding errors detected in morning work also fell by nearly a third over the same three months.",
+      "E": "Most of the firm's employees had never taken afternoon naps before the policy was introduced."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Out of scope: whether employees 'enjoyed' the breaks says nothing about what caused errors to fall.",
+      "B": "Premise booster: it adds support to the premise that naps 'restore alertness' but leaves open whether something else at this firm reduced the errors.",
+      "C": "The argument moves from 'errors fell after the policy' to 'the policy caused the fall.' The gap is a rival cause operating over the same three months; ruling out other changes to 'schedule, staffing, or code-review procedures' closes it.",
+      "D": "Opposite: if morning errors 'also fell by nearly a third,' something other than afternoon naps is probably driving the decline.",
+      "E": "True but irrelevant: whether employees had napped 'before' does not bear on what caused the drop in errors."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "premise_booster",
+      "D": "opposite",
+      "E": "true_but_irrelevant"
+    },
+    "keyTakeaway": "A before-and-after causal claim is strengthened by ruling out other changes made during the same period.",
+    "predictionHint": "Nothing else changed at the firm during those three months."
+  },
+  {
+    "id": "lr-strengthen-moss-north-trunks",
+    "section": "LR",
+    "type": "strengthen",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 1,
+    "stimulus": "Botanist: In the dense forest of the Arlen valley, moss grows far more thickly on the north-facing sides of tree trunks than on the south-facing sides. The north sides of the trunks receive the least direct sunlight of any side. The difference in sunlight is therefore what causes the uneven growth of moss on the trunks.",
+    "stem": "Which one of the following, if true, most strengthens the argument?",
+    "choices": {
+      "A": "In nearby clearings where trunks receive direct sunlight on all sides, moss grows equally thinly on every side of the trunks.",
+      "B": "Moss grows thickly on the north-facing sides of large boulders in the Arlen valley as well as on tree trunks.",
+      "C": "Some species of moss in the Arlen valley are found only on fallen logs, which lie entirely in shade.",
+      "D": "Prevailing winds in the Arlen valley strike the north-facing sides of the trunks and deposit moisture there throughout the entire year.",
+      "E": "Moss is an important source of nesting material for several species of birds that live in the Arlen valley."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "The argument infers that sunlight differences cause the moss pattern. A supplies the no-cause, no-effect case: where the sunlight difference is absent, the moss difference is absent too ('equally thinly on every side'), which is exactly what the causal claim predicts.",
+      "B": "Premise booster: it extends the same correlation to boulders but does nothing to rule out whatever else differs between north and south sides.",
+      "C": "Out of scope: which logs certain species prefer does not address why moss on standing trunks is uneven.",
+      "D": "Opposite: winds that 'deposit moisture' on the north side supply a rival cause for the thick growth there.",
+      "E": "True but irrelevant: what birds use moss for has no bearing on what causes its growth pattern."
+    },
+    "trapPatterns": {
+      "B": "premise_booster",
+      "C": "out_of_scope",
+      "D": "opposite",
+      "E": "true_but_irrelevant"
+    },
+    "keyTakeaway": "Removing the proposed cause and finding the effect gone is strong support for a causal claim.",
+    "predictionHint": "Where sunlight is even, moss is even."
+  },
+  {
+    "id": "lr-strengthen-kessel-valley-plow",
+    "section": "LR",
+    "type": "strengthen",
+    "logicTags": [
+      "causation",
+      "eliminating_options"
+    ],
+    "difficulty": 1,
+    "stimulus": "Historian: Within a single decade in the 1340s, farmers throughout the Kessel valley abandoned their traditional plows for a design with a curved iron blade. Records show that an itinerant smith from the northern provinces, where such blades had long been used, worked in the valley during that decade. The smith was almost certainly the source of the new design.",
+    "stem": "Which one of the following, if true, most strengthens the argument?",
+    "choices": {
+      "A": "Curved iron blades turn the heavy clay soil of the Kessel valley far more efficiently than the straight blades of traditional plows do.",
+      "B": "The smith also repaired carts, barrels, and household tools during his years in the Kessel valley.",
+      "C": "Several merchants who traded regularly between the northern provinces and the Kessel valley sold farm tools in both regions.",
+      "D": "Farmers in the northern provinces had used plows with curved iron blades for at least a century before the 1340s.",
+      "E": "The curved blades on surviving Kessel valley plows from the 1340s bear a maker's mark identical to one the smith used in the north."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "True but irrelevant: efficiency explains why farmers adopted the design, not where they got it.",
+      "B": "Out of scope: the smith's other work has no bearing on whether he introduced the plow design.",
+      "C": "Opposite: merchants who 'sold farm tools in both regions' are a rival route by which the design could have arrived.",
+      "D": "Premise booster: it confirms the north used such blades 'long' before, which the argument already states, without tying the valley's plows to this smith.",
+      "E": "The gap is whether the design reached the valley through this particular smith rather than some other channel. A maker's mark 'identical to one the smith used' directly links the valley's blades to him."
+    },
+    "trapPatterns": {
+      "A": "true_but_irrelevant",
+      "B": "out_of_scope",
+      "C": "opposite",
+      "D": "premise_booster"
+    },
+    "keyTakeaway": "When the conclusion names a specific source, strengthen by evidence that links the effect to that source and not merely to the region it came from.",
+    "predictionHint": "Something physically ties the valley's new plows to this smith."
+  },
+  {
+    "id": "lr-strengthen-elm-street-lighting",
+    "section": "LR",
+    "type": "strengthen",
+    "logicTags": [
+      "causation",
+      "link_assumption"
+    ],
+    "difficulty": 1,
+    "stimulus": "City council member: To reduce nighttime burglaries on Elm Street, the city should install additional streetlights there. Burglars strongly prefer to operate on dark streets, where they are unlikely to be seen, and Elm Street is currently among the most poorly lit streets in the city.",
+    "stem": "Which one of the following, if true, most strengthens the argument?",
+    "choices": {
+      "A": "Residents of Elm Street have repeatedly petitioned the city council for additional streetlights over the past several years.",
+      "B": "Burglars who are seen by witnesses are considerably more likely to be arrested than burglars who are not seen.",
+      "C": "Installing additional streetlights on Elm Street would cost less than the city's annual budget for routine street maintenance.",
+      "D": "When similarly dark streets elsewhere in the city were given additional lighting, nighttime burglaries on those streets declined markedly.",
+      "E": "Nighttime burglaries on Elm Street are most often committed by entering through unlit rear yards that additional streetlights would not illuminate."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Out of scope: residents' petitions show demand for lights, not that lights would reduce burglaries.",
+      "B": "Premise booster: it explains why burglars 'prefer' dark streets but does not show that lighting Elm Street would change burglary rates there.",
+      "C": "True but irrelevant: cost bears on whether the plan is affordable, not on whether it would reduce burglaries.",
+      "D": "The recommendation assumes that adding light will actually reduce burglaries. D supplies direct evidence that the intervention produced the predicted effect on 'similarly dark streets.'",
+      "E": "Opposite: if burglars enter through 'unlit rear yards that streetlights would not illuminate,' the proposed lights would not address how the burglaries happen."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "premise_booster",
+      "C": "true_but_irrelevant",
+      "E": "opposite"
+    },
+    "keyTakeaway": "To strengthen a recommendation, show that the proposed action has produced the intended result in comparable cases.",
+    "predictionHint": "Lighting has cut burglaries on streets like this one."
+  },
+  {
+    "id": "lr-strengthen-reef-sediment-diversity",
+    "section": "LR",
+    "type": "strengthen",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 2,
+    "stimulus": "Marine ecologist: Coral reefs located near the mouths of rivers that carry heavy loads of sediment support fewer fish species than reefs farther from such rivers. Sediment settling on coral smothers the polyps and reduces the structural complexity on which many fish depend. Sediment from rivers is thus probably a major cause of the lower fish diversity near river mouths.",
+    "stem": "Which one of the following, if true, most strengthens the argument?",
+    "choices": {
+      "A": "Reefs near river mouths are also exposed to pulses of fresh water, which many reef fish cannot tolerate.",
+      "B": "Across reefs in the region, the number of fish species declines steadily as the measured sediment load of the nearest river increases.",
+      "C": "Many of the fish species found on reefs far from river mouths are also found on reefs near them.",
+      "D": "Coral polyps that are covered by even a thin layer of sediment die within a few days unless strong currents clear the sediment away quickly.",
+      "E": "Reefs near river mouths are visited by far fewer recreational divers than reefs located farther offshore."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Opposite: 'fresh water, which many reef fish cannot tolerate' is a rival explanation for low diversity near river mouths.",
+      "B": "The premise is a two-group comparison that leaves room for coincidence or a third factor. A graded relationship in which diversity 'declines steadily' as sediment load rises is the dose-response pattern that a genuine causal link predicts.",
+      "C": "True but irrelevant: overlap in which species occur says nothing about why the count is lower near rivers.",
+      "D": "Premise booster: it elaborates how sediment harms polyps, which the argument already asserts, without showing that sediment accounts for the diversity difference.",
+      "E": "Out of scope: diver traffic is not connected to fish diversity by anything in the argument."
+    },
+    "trapPatterns": {
+      "A": "opposite",
+      "C": "true_but_irrelevant",
+      "D": "premise_booster",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "More cause, more effect: a dose-response relationship strengthens a causal claim beyond a simple two-group comparison.",
+    "predictionHint": "The more sediment, the fewer species."
+  },
+  {
+    "id": "lr-strengthen-parental-leave-retention",
+    "section": "LR",
+    "type": "strengthen",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 2,
+    "stimulus": "Economist: Companies that offer paid parental leave retain their employees, on average, for significantly longer than companies that do not. Paid leave reduces the financial pressure that leads many new parents to leave the workforce. It is therefore likely that offering paid parental leave causes companies to retain employees longer.",
+    "stem": "Which one of the following, if true, most strengthens the argument?",
+    "choices": {
+      "A": "Companies that offer paid parental leave also tend to pay higher salaries and to offer more flexible work schedules than companies that do not.",
+      "B": "Many new parents who leave the workforce cite financial pressure as the primary reason for their decision.",
+      "C": "Employees who remain with a company for many years are generally more productive than newly hired employees.",
+      "D": "Companies that began offering paid parental leave had retention no better than competitors' before the policy and markedly better afterward.",
+      "E": "Paid parental leave is required by law in several countries but not in the country whose companies the economist studied."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Opposite: 'higher salaries' and 'flexible schedules' are rival causes of the longer retention.",
+      "B": "Premise booster: it supports the stated mechanism about financial pressure but does not show that the leave policy, rather than something about the companies, drives retention.",
+      "C": "True but irrelevant: the value of retention is not at issue; its cause is.",
+      "D": "A correlation between leave and retention could arise because companies with loyal workforces adopt such policies. D establishes temporal order: retention was 'no better' before the policy and 'markedly better afterward,' which fits leave causing retention and not the reverse.",
+      "E": "Out of scope: legal requirements elsewhere have no bearing on the causal claim."
+    },
+    "trapPatterns": {
+      "A": "opposite",
+      "B": "premise_booster",
+      "C": "true_but_irrelevant",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "Showing that the effect appeared only after the proposed cause was introduced rules out reverse causation.",
+    "predictionHint": "Retention improved after leave was introduced, not before."
+  },
+  {
+    "id": "lr-strengthen-harrow-gallery-free-admission",
+    "section": "LR",
+    "type": "strengthen",
+    "logicTags": [
+      "link_assumption",
+      "definition_scope"
+    ],
+    "difficulty": 2,
+    "stimulus": "Museum director: Since the Harrow Gallery eliminated its admission fee two years ago, annual attendance has risen by 60 percent. Our goal in eliminating the fee was to make the gallery's collection accessible to the city's lower-income residents, and the attendance figures show that the policy has achieved that goal.",
+    "stem": "Which one of the following, if true, most strengthens the argument?",
+    "choices": {
+      "A": "Visitor surveys conducted since the fee was eliminated show that most first-time visitors come from the city's lowest-income neighborhoods.",
+      "B": "Admission fees at comparable galleries in other cities have risen steadily over the past two years.",
+      "C": "Since the fee was eliminated, many visitors who previously came to the gallery only once a year now visit it several times each year.",
+      "D": "The gallery's annual attendance had been declining for several years before the admission fee was eliminated.",
+      "E": "Lower-income residents of the city are considerably less likely than wealthier residents to own cars."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "The evidence is about attendance; the conclusion is about access for lower-income residents. A bridges that shift by showing the new visitors are drawn from 'the lowest-income neighborhoods.'",
+      "B": "Out of scope: other cities' fees do not tell us who is visiting Harrow.",
+      "C": "Opposite: if the increase comes from existing visitors who 'now visit it several times,' the attendance figures do not show that new, lower-income audiences were reached.",
+      "D": "Premise booster: it suggests the fee change caused the attendance rise, but the argument's gap is about who the added visitors are, not whether the fee caused the increase.",
+      "E": "True but irrelevant: car ownership has no stated connection to gallery attendance."
+    },
+    "trapPatterns": {
+      "B": "out_of_scope",
+      "C": "opposite",
+      "D": "premise_booster",
+      "E": "true_but_irrelevant"
+    },
+    "keyTakeaway": "When the premise measures one thing and the conclusion claims another, the strengthener connects the two terms.",
+    "predictionHint": "The new visitors are actually lower-income residents."
+  },
+  {
+    "id": "lr-strengthen-firefly-outdoor-lighting",
+    "section": "LR",
+    "type": "strengthen",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 2,
+    "stimulus": "Entomologist: Firefly populations in suburban areas have declined sharply over the past two decades. Fireflies locate mates by exchanging flashing light signals, and bright artificial lighting at night can obscure these signals. The spread of bright outdoor lighting in suburbs is therefore most likely the primary cause of the decline.",
+    "stem": "Which one of the following, if true, most strengthens the argument?",
+    "choices": {
+      "A": "Fireflies kept in laboratory enclosures flash less frequently when they are exposed to bright artificial light.",
+      "B": "Suburban lawns are frequently treated with pesticides that are lethal to firefly larvae, which live in the soil for up to two years.",
+      "C": "Several species of fireflies produce light signals that are visible to humans from more than fifty meters away.",
+      "D": "Outdoor lighting in suburbs is used primarily for security and for illuminating streets and driveways.",
+      "E": "In otherwise similar suburbs that strictly limit outdoor lighting, firefly populations have remained stable."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Premise booster: it supports the mechanism that light disrupts signaling but does not show that lighting, rather than something else, drove the population decline.",
+      "B": "Opposite: pesticides 'lethal to firefly larvae' are a rival cause for the decline.",
+      "C": "True but irrelevant: how far signals are visible does not bear on what caused populations to fall.",
+      "D": "Out of scope: the purposes of outdoor lighting are irrelevant to its effect on fireflies.",
+      "E": "The argument needs to show that lighting, not some other suburban feature, is responsible. 'Otherwise similar' suburbs without bright lighting that kept their fireflies isolate lighting as the difference that matters."
+    },
+    "trapPatterns": {
+      "A": "premise_booster",
+      "B": "opposite",
+      "C": "true_but_irrelevant",
+      "D": "out_of_scope"
+    },
+    "keyTakeaway": "A controlled comparison that removes only the suspected cause and finds no effect is strong causal support.",
+    "predictionHint": "Dark suburbs kept their fireflies."
+  },
+  {
+    "id": "lr-strengthen-surgical-checklist-adoption",
+    "section": "LR",
+    "type": "strengthen",
+    "logicTags": [
+      "link_assumption",
+      "causation"
+    ],
+    "difficulty": 2,
+    "stimulus": "Hospital administrator: Our hospital should adopt the standardized surgical checklist developed by the national surgeons' association. At hospitals that have adopted the checklist, the rate of serious complications following surgery has fallen by an average of 25 percent, and the checklist requires only a few minutes to complete before each operation.",
+    "stem": "Which one of the following, if true, most strengthens the argument?",
+    "choices": {
+      "A": "Most hospitals that adopted the checklist did so only after their complication rates had already begun to decline for other reasons.",
+      "B": "The national surgeons' association has formally recommended that the checklist be used in every hospital in the country.",
+      "C": "Most serious post-surgical complications at our hospital result from omitted routine steps of the kind the checklist catches.",
+      "D": "The checklist takes less time to complete than most of the other pre-operative procedures our hospital already uses.",
+      "E": "Patients at our hospital are, on average, considerably older than patients at the hospitals that adopted the checklist."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Opposite: if rates 'had already begun to decline for other reasons,' the checklist may not have caused the improvement elsewhere.",
+      "B": "True but irrelevant: an association's endorsement is not evidence that the checklist will reduce complications here.",
+      "C": "The recommendation assumes the results at other hospitals will transfer to this one. C shows that this hospital's complications arise from exactly the problem the checklist addresses, 'omitted routine steps,' so the benefit should apply here.",
+      "D": "Premise booster: it reinforces that the checklist is quick, which the argument already states, but says nothing about whether it would help this hospital.",
+      "E": "Opposite: a patient population 'considerably older' than at the adopting hospitals makes it less clear that the results would transfer."
+    },
+    "trapPatterns": {
+      "A": "opposite",
+      "B": "true_but_irrelevant",
+      "D": "premise_booster",
+      "E": "opposite"
+    },
+    "keyTakeaway": "A recommendation based on others' results is strengthened by showing the recommending party's situation matches the conditions under which those results occurred.",
+    "predictionHint": "Our complications are the kind a checklist prevents."
+  },
+  {
+    "id": "lr-strengthen-vellan-hot-springs",
+    "section": "LR",
+    "type": "strengthen",
+    "logicTags": [
+      "causation",
+      "eliminating_options"
+    ],
+    "difficulty": 2,
+    "stimulus": "Geologist: Over the past year, the temperature of the Vellan hot springs has risen by nearly ten degrees. Either magma has moved closer to the surface beneath the springs, or drought has reduced the inflow of cool groundwater that normally mixes with the hot water. Since rainfall in the region has been normal throughout the year, the magma explanation is the more likely one.",
+    "stem": "Which one of the following, if true, most strengthens the argument?",
+    "choices": {
+      "A": "Several other hot springs in the region have temperatures well above that of the Vellan springs.",
+      "B": "Dissolved gases characteristic of magma, such as sulfur dioxide, have increased sharply in the springs' water over the past year.",
+      "C": "The rate at which water flows from the Vellan hot springs has decreased noticeably over the past year, according to monitoring records.",
+      "D": "Rainfall records for the region surrounding the Vellan hot springs have been kept continuously for more than eighty years.",
+      "E": "Hot springs heated by shallow bodies of magma are found in many volcanically active regions throughout the world."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Out of scope: other springs' temperatures say nothing about why this one warmed.",
+      "B": "The argument favors magma mainly by discounting drought. B adds positive evidence for the magma mechanism itself: gases 'characteristic of magma' rising 'sharply' over the same year is what the magma explanation predicts and the groundwater explanation does not.",
+      "C": "Opposite: a decreased flow rate is what reduced groundwater inflow would produce, so it supports the rival explanation.",
+      "D": "Premise booster: it bolsters the reliability of the rainfall data but does not add support for magma over any other explanation.",
+      "E": "True but irrelevant: that magma heats springs elsewhere does not show it is responsible for this temperature change."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "C": "opposite",
+      "D": "premise_booster",
+      "E": "true_but_irrelevant"
+    },
+    "keyTakeaway": "An argument that reaches a cause by eliminating a rival is strengthened most by independent evidence for the favored cause.",
+    "predictionHint": "Some signature of magma showed up at the same time."
+  },
+  {
+    "id": "lr-strengthen-marlow-logic-course",
+    "section": "LR",
+    "type": "strengthen",
+    "logicTags": [
+      "causation",
+      "sampling"
+    ],
+    "difficulty": 3,
+    "stimulus": "Education researcher: Students at Marlow College who enroll in the optional course in formal logic score, on average, well above other students on a reasoning test given at graduation. Although students choose whether to take the course, it is reasonable to conclude that the course itself improves reasoning ability, since the test measures precisely the skills that the course teaches.",
+    "stem": "Which one of the following, if true, most strengthens the argument?",
+    "choices": {
+      "A": "Students who take the logic course report that they found it more demanding than most other courses at Marlow College.",
+      "B": "Students who enroll in the logic course have higher average grades in their first-year courses than students who choose not to enroll in it.",
+      "C": "The skills measured by the reasoning test are among those the logic course's syllabus explicitly lists as learning objectives.",
+      "D": "Applicants excluded from the logic course by lottery when it was oversubscribed scored no higher on the test than students who never applied.",
+      "E": "Most students who take the logic course do so in their final year, shortly before the reasoning test is given."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Out of scope: how demanding students found the course does not bear on whether it improved their reasoning.",
+      "B": "Opposite: stronger first-year grades among enrollees suggest the course attracts abler students, which is the self-selection worry the argument must overcome.",
+      "C": "Premise booster: it restates that the test measures what the course teaches, which the argument already asserts, without separating the course's effect from the kind of student who takes it.",
+      "D": "The gap is self-selection: perhaps students who choose logic were already better reasoners. Applicants 'excluded by lottery' share whatever traits lead students to choose the course, yet they scored 'no higher' than nonapplicants. That isolates the course itself as the source of the difference.",
+      "E": "True but irrelevant: when students take the course does not address whether the course or the students' prior ability explains the scores."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "opposite",
+      "C": "premise_booster",
+      "E": "true_but_irrelevant"
+    },
+    "keyTakeaway": "When participants self-select, the strongest support compares them with people who wanted to participate but could not.",
+    "predictionHint": "People who wanted the course but didn't get it did no better than anyone else."
+  },
+  {
+    "id": "lr-strengthen-marrish-varnic-loanwords",
+    "section": "LR",
+    "type": "strengthen",
+    "logicTags": [
+      "eliminating_options",
+      "comparison"
+    ],
+    "difficulty": 3,
+    "stimulus": "Linguist: The coastal dialect of Marrish contains hundreds of words borrowed from Old Varnic. Some scholars attribute these borrowings to the brief Varnic conquest of the coast in the ninth century. But the borrowed words are overwhelmingly terms for goods, weights, and commercial transactions, so the borrowings more likely entered through trade with Varnic merchants than through the conquest.",
+    "stem": "Which one of the following, if true, most strengthens the argument?",
+    "choices": {
+      "A": "Languages whose borrowings resulted from conquest typically show heavy borrowing of administrative and military terms, which the coastal dialect of Marrish lacks.",
+      "B": "During the ninth-century conquest, Varnic administrators conducted all official business on the Marrish coast in Old Varnic.",
+      "C": "Many of the Old Varnic commercial terms borrowed into Marrish had themselves been borrowed earlier from other languages.",
+      "D": "The ninth-century Varnic conquest of the Marrish coast lasted less than a decade before Varnic forces withdrew.",
+      "E": "Terms for goods and commercial transactions are among the words most frequently borrowed between any two languages in contact, whatever the nature of that contact."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "The argument infers the channel of borrowing from the kind of words borrowed. A validates that inference by supplying the contrast case: conquest leaves a different vocabulary signature, 'administrative and military terms,' and Marrish 'lacks' it.",
+      "B": "Opposite: pervasive official use of Old Varnic during the conquest makes the conquest a more plausible source of borrowings, not less.",
+      "C": "True but irrelevant: the earlier history of the Varnic words says nothing about how they reached Marrish.",
+      "D": "Premise booster: it elaborates 'brief,' which the argument already grants, without showing that trade rather than conquest was the channel.",
+      "E": "Opposite: if commercial terms are borrowed 'whatever the nature of that contact,' then their predominance in Marrish cannot distinguish trade from conquest, which undercuts the argument's only evidence."
+    },
+    "trapPatterns": {
+      "B": "opposite",
+      "C": "true_but_irrelevant",
+      "D": "premise_booster",
+      "E": "opposite"
+    },
+    "keyTakeaway": "An inference from a pattern of evidence to its source is strengthened by showing that the rival source would have left a different pattern.",
+    "predictionHint": "Conquest would have left different kinds of words behind."
+  },
+  {
+    "id": "lr-strengthen-pharmacy-access-hypertension",
+    "section": "LR",
+    "type": "strengthen",
+    "logicTags": [
+      "causation",
+      "comparison"
+    ],
+    "difficulty": 3,
+    "stimulus": "Public health official: Cities with more pharmacies per resident have lower rates of untreated high blood pressure than cities with fewer pharmacies per resident. Pharmacists in most cities offer free blood-pressure screening and advice about treatment. Greater access to pharmacies therefore probably reduces the rate at which high blood pressure goes untreated.",
+    "stem": "Which one of the following, if true, most strengthens the argument?",
+    "choices": {
+      "A": "Cities with many pharmacies per resident also tend to have many physicians per resident.",
+      "B": "Blood-pressure screening offered by pharmacists detects high blood pressure as accurately as the screening that is routinely performed in physicians' offices.",
+      "C": "Untreated high blood pressure is a leading cause of stroke and heart disease in the cities studied.",
+      "D": "Pharmacies in the cities studied are more likely to be located in commercial districts than in residential neighborhoods.",
+      "E": "Within each city, residents living nearest a pharmacy have less untreated high blood pressure than equally affluent residents living farther away."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Opposite: more physicians per resident is a rival explanation for why such cities have less untreated hypertension.",
+      "B": "Premise booster: accurate screening supports the plausibility of the mechanism but does not show that pharmacy access, rather than some feature of pharmacy-rich cities, explains the difference.",
+      "C": "True but irrelevant: the consequences of untreated hypertension are not in question; its relationship to pharmacy access is.",
+      "D": "Out of scope: where pharmacies sit within a city does not bear on whether access to them affects treatment rates.",
+      "E": "The city-level correlation could reflect wealth or other city-wide differences. E reproduces the relationship within cities and among 'equally affluent' residents, which removes the most likely confounders and leaves proximity to a pharmacy as the operative difference."
+    },
+    "trapPatterns": {
+      "A": "opposite",
+      "B": "premise_booster",
+      "C": "true_but_irrelevant",
+      "D": "out_of_scope"
+    },
+    "keyTakeaway": "A correlation across large units is strengthened by finding the same relationship within those units while holding confounders fixed.",
+    "predictionHint": "Same pattern inside each city, controlling for income."
+  },
+  {
+    "id": "lr-strengthen-department-rotation-handoffs",
+    "section": "LR",
+    "type": "strengthen",
+    "logicTags": [
+      "link_assumption",
+      "causation"
+    ],
+    "difficulty": 3,
+    "stimulus": "Operations manager: Most processing errors at our firm occur when work is handed from one department to another, and these errors nearly always arise because the employee handing off the work is unfamiliar with the receiving department's procedures. Rotating employees through several departments early in their careers would therefore substantially reduce processing errors.",
+    "stem": "Which one of the following, if true, most strengthens the argument?",
+    "choices": {
+      "A": "Employees who make errors during handoffs are rarely the same employees who make errors within their own departments.",
+      "B": "Departments at the firm revise their internal procedures frequently, often several times in a single year.",
+      "C": "Employees who have worked in a department remain familiar with its procedures for many years after they leave it.",
+      "D": "Most processing errors at the firm are discovered and corrected before they have any effect on customers.",
+      "E": "Employees at the firm who have been rotated through several departments report greater confidence in handling handoffs."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Out of scope: which employees make which errors does not bear on whether rotation would reduce handoff errors.",
+      "B": "Opposite: if procedures change 'several times in a single year,' familiarity gained during an early rotation would quickly become obsolete.",
+      "C": "The proposal assumes that time spent in a department 'early in their careers' yields familiarity that persists when employees later hand off work. C supplies exactly that premise: familiarity lasts 'for many years.'",
+      "D": "True but irrelevant: whether errors reach customers has nothing to do with whether rotation would prevent them.",
+      "E": "Shell game: 'greater confidence' is a mental state, not a lower error rate; confident employees can still be unfamiliar with current procedures."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "opposite",
+      "D": "true_but_irrelevant",
+      "E": "shell_game"
+    },
+    "keyTakeaway": "A proposal that relies on a benefit lasting over time is strengthened by evidence that the benefit does not fade.",
+    "predictionHint": "What employees learn in a rotation sticks."
+  },
+  {
+    "id": "lr-strengthen-taleth-star-dimming",
+    "section": "LR",
+    "type": "strengthen",
+    "logicTags": [
+      "causation",
+      "eliminating_options"
+    ],
+    "difficulty": 3,
+    "stimulus": "Astronomer: The star Taleth dims by about 2 percent at intervals of 37 days. Such dimming could result either from an orbiting cloud of dust that periodically passes between the star and Earth or from pulsations within the star itself. Because the dimming episodes are nearly identical in depth and duration, the dust-cloud explanation is more likely correct.",
+    "stem": "Which one of the following, if true, most strengthens the argument?",
+    "choices": {
+      "A": "Dust clouds orbiting other stars have been observed to produce periodic dimming of between 1 and 3 percent.",
+      "B": "A star's pulsations typically vary in strength from cycle to cycle, whereas an orbiting cloud blocks the same fraction of light on each pass.",
+      "C": "Taleth's surface temperature, as measured from changes in its spectrum, drops slightly during each of the dimming episodes that have been recorded.",
+      "D": "Taleth is located in a region of the sky where interstellar dust is unusually sparse.",
+      "E": "The 37-day interval between Taleth's dimming episodes has remained constant since observations began."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Wrong force: it shows dust clouds can produce dimming of this size but does nothing to show pulsations cannot, so it does not favor one explanation over the other.",
+      "B": "The argument's evidence is the uniformity of the episodes. B establishes that uniformity discriminates between the two hypotheses: pulsations 'vary noticeably' while an orbiting cloud 'blocks the same fraction' each time, so uniform episodes point to dust.",
+      "C": "Opposite: a change in the star's own temperature during dimming is what internal pulsation would produce; a passing dust cloud would not alter the star's surface.",
+      "D": "Out of scope: interstellar dust between stars is not the orbiting cloud the hypothesis proposes.",
+      "E": "Premise booster: a constant interval is consistent with both an orbit and regular pulsations, so it adds nothing that separates them."
+    },
+    "trapPatterns": {
+      "A": "wrong_force",
+      "C": "opposite",
+      "D": "out_of_scope",
+      "E": "premise_booster"
+    },
+    "keyTakeaway": "When an argument picks one of two explanations from a piece of evidence, strengthen it by showing the evidence is expected under one explanation but not the other.",
+    "predictionHint": "Pulsations would not be this uniform; an orbiting cloud would."
+  },
+  {
+    "id": "lr-strengthen-community-gardens-surveillance",
+    "section": "LR",
+    "type": "strengthen",
+    "logicTags": [
+      "causation",
+      "link_assumption"
+    ],
+    "difficulty": 4,
+    "stimulus": "Sociologist: Urban neighborhoods with community gardens have lower rates of street crime than otherwise comparable neighborhoods without them. Gardens bring residents outdoors at varied hours, and the presence of residents who know one another deters would-be offenders. So community gardens reduce street crime by increasing informal surveillance of public spaces.",
+    "stem": "Which one of the following, if true, most strengthens the argument?",
+    "choices": {
+      "A": "In neighborhoods with community gardens, the reduction in street crime is concentrated on blocks visible from the gardens and in hours when gardeners are present.",
+      "B": "Neighborhoods where community gardens were established on formerly vacant lots saw street crime begin to decline in the very season the gardens first opened.",
+      "C": "Residents of neighborhoods with community gardens report feeling safer on their streets than do residents of neighborhoods without such gardens.",
+      "D": "Neighborhoods with community gardens tend to have more residents who are retired and therefore at home during the day.",
+      "E": "Most community gardens in the neighborhoods studied are enclosed by fences and kept locked when no gardeners are present."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "The conclusion makes two claims: that gardens reduce crime and that they do so 'by increasing informal surveillance.' A supports both at once, since a reduction concentrated where gardens are 'visible' and when 'gardeners are present' is the signature of surveillance rather than of some other effect of gardens.",
+      "B": "Half right: timing supports the claim that gardens cause lower crime, but it says nothing about the mechanism. Replacing 'vacant lots' could cut crime for reasons unrelated to surveillance, so B leaves the 'by increasing informal surveillance' part unsupported.",
+      "C": "Shell game: 'feeling safer' is a perception, not a lower crime rate, and tells us nothing about how gardens affect actual crime.",
+      "D": "Opposite: more residents 'at home during the day' is a rival source of surveillance that would lower crime whether or not the gardens exist.",
+      "E": "True but irrelevant: whether gardens are locked when empty does not bear on their effect while gardeners are present."
+    },
+    "trapPatterns": {
+      "B": "half_right",
+      "C": "shell_game",
+      "D": "opposite",
+      "E": "true_but_irrelevant"
+    },
+    "keyTakeaway": "When a conclusion specifies a mechanism, the best strengthener supports the mechanism, not merely the bare causal link.",
+    "predictionHint": "Crime drops exactly where and when people from the garden are watching."
+  },
+  {
+    "id": "lr-strengthen-delmont-free-day-members",
+    "section": "LR",
+    "type": "strengthen",
+    "logicTags": [
+      "link_assumption",
+      "definition_scope"
+    ],
+    "difficulty": 4,
+    "stimulus": "Columnist: Critics claim that the Delmont Museum's monthly free-admission day fails to attract new audiences, since most visitors on free days are already members. But membership has nearly doubled in the three years since free days were introduced. Clearly the free days are bringing in new audiences after all.",
+    "stem": "Which one of the following, if true, most strengthens the columnist's argument?",
+    "choices": {
+      "A": "Most people who joined the museum in the past three years had attended at least one free-admission day before they decided to join.",
+      "B": "The museum began an aggressive membership marketing campaign in the same year that it introduced free-admission days.",
+      "C": "Members of the Delmont Museum visit it, on average, considerably more often than nonmembers do.",
+      "D": "Most people who joined the museum in the past three years first visited it on a free-admission day and had never visited before.",
+      "E": "Museums in several other cities have recently introduced free-admission days modeled on Delmont's."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Half right: attending a free day 'before deciding to join' does not make someone a new audience; longtime visitors could have attended a free day and then joined. The missing piece is that these people were new to the museum.",
+      "B": "Opposite: a simultaneous 'marketing campaign' offers a rival explanation for the doubling of membership.",
+      "C": "True but irrelevant: it explains why members dominate free-day crowds but does nothing to show that free days reach new people.",
+      "D": "The columnist needs the membership growth to consist of people the museum was not already reaching. D supplies both links: new members 'first visited' on a free day and 'had never visited before,' so the free days did bring in new audiences, and the members seen on free days are plausibly those very people.",
+      "E": "Out of scope: what other museums do has no bearing on whether Delmont's free days attract new audiences."
+    },
+    "trapPatterns": {
+      "A": "half_right",
+      "B": "opposite",
+      "C": "true_but_irrelevant",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "A near-miss strengthener often supplies one link in a chain and omits the word that supplies the other.",
+    "predictionHint": "New members were people who had never been to the museum before a free day."
+  },
+  {
+    "id": "lr-strengthen-tlr9-parasite-resistance",
+    "section": "LR",
+    "type": "strengthen",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 4,
+    "stimulus": "Geneticist: A variant of the gene TLR9 is far more common in human populations living where the parasite Trichonema is endemic than in populations elsewhere. Carriers of the variant are rarely infected by Trichonema. The variant therefore probably confers resistance to Trichonema, which would explain why natural selection has made it common where the parasite is endemic.",
+    "stem": "Which one of the following, if true, most strengthens the argument?",
+    "choices": {
+      "A": "In regions where Trichonema is endemic, people who are rarely infected are more likely than others to carry the TLR9 variant.",
+      "B": "The TLR9 variant arose by mutation roughly 10,000 years ago, around the time that Trichonema is believed to have first begun infecting human populations.",
+      "C": "Under controlled exposure to Trichonema, variant carriers from regions where the parasite is absent resist infection, while noncarriers from those regions do not.",
+      "D": "Several other gene variants are also far more common in populations where Trichonema is endemic than in populations elsewhere.",
+      "E": "Trichonema infection is rarely fatal but causes chronic fatigue that reduces its victims' capacity to work."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Premise booster: it restates the correlation between carrying the variant and avoiding infection, which could still be due to other traits of the populations where carriers are concentrated.",
+      "B": "Wrong force: coincident timing is consistent with the selection story but gives no evidence that the variant itself does anything against the parasite.",
+      "C": "Carriers might avoid infection because of other traits common in endemic-region populations. C tests carriers 'from regions where the parasite is absent,' who lack that population history, under 'controlled exposure,' and finds the resistance tracks the variant alone. That is direct evidence that the variant confers resistance.",
+      "D": "Opposite: if many variants are concentrated in endemic regions, the TLR9 variant's distribution may reflect population ancestry rather than selection for resistance.",
+      "E": "Out of scope: the severity of the infection has no bearing on whether the variant confers resistance."
+    },
+    "trapPatterns": {
+      "A": "premise_booster",
+      "B": "wrong_force",
+      "D": "opposite",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "To show a trait causes an effect, test the trait in people who lack the background that could otherwise explain the effect.",
+    "predictionHint": "Carriers resist even when they come from populations with no parasite exposure."
+  },
+  {
+    "id": "lr-resolve-explain-snow-shovel-prices",
+    "section": "LR",
+    "type": "resolve_explain",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 1,
+    "stimulus": "A hardware store raised the price of its snow shovels by 20 percent at the start of last winter, and no competing store in the area lowered its prices on shovels. Yet the store sold nearly twice as many snow shovels last winter as it had sold the winter before.",
+    "stem": "Which one of the following, if true, most helps to explain the discrepancy described above?",
+    "choices": {
+      "A": "The store's snow shovels are manufactured by a company that is well known for making durable products.",
+      "B": "Last winter brought the area three major snowstorms, whereas the previous winter had brought none at all.",
+      "C": "Several customers complained to the store's manager about the higher prices of the snow shovels.",
+      "D": "The store's total sales of all merchandise were about the same last winter as they had been the winter before.",
+      "E": "A competing store in the area had stopped selling snow shovels three years earlier."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Out of scope: the shovels were presumably just as durable the previous winter, so durability cannot explain a change in sales.",
+      "B": "The puzzle is higher sales at a higher price. B supplies a change in demand large enough to swamp the price increase: three storms versus 'none at all' the year before.",
+      "C": "Opposite: complaints about price make the jump in sales more puzzling, not less.",
+      "D": "True but irrelevant: flat overall sales say nothing about why shovel sales in particular doubled.",
+      "E": "Half right: a competitor's exit could shift sales to this store, but 'three years earlier' means that shift was already in place the previous winter and cannot explain last winter's increase."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "C": "opposite",
+      "D": "true_but_irrelevant",
+      "E": "half_right"
+    },
+    "keyTakeaway": "To explain a change between two periods, the explanation must itself be something that differed between those periods.",
+    "predictionHint": "Something made people need far more shovels last winter."
+  },
+  {
+    "id": "lr-resolve-explain-airline-legroom-complaints",
+    "section": "LR",
+    "type": "resolve_explain",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 1,
+    "stimulus": "Last year an airline increased the legroom in the economy cabins of all its planes by removing two rows of seats from each. Surveys conducted afterward show that passengers' complaints about seating comfort rose sharply, even though insufficient legroom had been the most common subject of seating complaints before the change.",
+    "stem": "Which one of the following, if true, most helps to resolve the apparent paradox?",
+    "choices": {
+      "A": "Passengers in the airline's business-class cabins reported no change in their comfort after the economy cabins were reconfigured.",
+      "B": "Most passengers were aware that the airline had removed rows of seats from its economy cabins to increase legroom.",
+      "C": "The airline's fares for economy seats rose by about 5 percent after the cabins were reconfigured.",
+      "D": "To offset the lost rows, the airline replaced the remaining economy seats with narrower seats that are considerably less padded.",
+      "E": "The airline's planes are, on average, several years older than those operated by its main competitors."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Out of scope: business-class passengers were not affected by the change and cannot account for economy complaints.",
+      "B": "Opposite: if passengers knew legroom had increased, their rising complaints about comfort become harder to explain.",
+      "C": "Half right: higher fares might generate complaints, but not complaints 'about seating comfort,' which is what rose.",
+      "D": "Legroom improved, but seating comfort has other dimensions. 'Narrower' and 'less padded' seats introduce a new source of discomfort that outweighs the legroom gain, explaining both the change made and the complaints that followed.",
+      "E": "True but irrelevant: the age of the planes did not change with the reconfiguration and so cannot explain a rise in complaints."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "opposite",
+      "C": "half_right",
+      "E": "true_but_irrelevant"
+    },
+    "keyTakeaway": "When an improvement in one factor is followed by worse outcomes, look for a second factor that the change made worse.",
+    "predictionHint": "Something else about the seats got worse at the same time."
+  },
+  {
+    "id": "lr-resolve-explain-ashcombe-digitized-manuscripts",
+    "section": "LR",
+    "type": "resolve_explain",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 1,
+    "stimulus": "The Ashcombe Library digitized its twenty most frequently requested medieval manuscripts and made high-resolution images of every page freely available online. Librarians expected in-person requests to view those manuscripts to fall. Instead, in the two years since, in-person requests to view these particular manuscripts have more than doubled.",
+    "stem": "Which one of the following, if true, most helps to explain the discrepancy described above?",
+    "choices": {
+      "A": "The online images drew scholars' attention to features, such as faint erasures and binding structures, that can be studied adequately only in person.",
+      "B": "In-person requests to view the library's many manuscripts that were not digitized have remained steady over the same two-year period.",
+      "C": "The library charges no fee for in-person viewing of any of the manuscripts in its collection.",
+      "D": "Many scholars prefer to consult high-resolution digital images rather than travel long distances to a library to examine the original documents.",
+      "E": "The twenty manuscripts were selected for digitization precisely because they were already the most frequently requested."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "The expectation was that images would substitute for the originals. A explains why they did the reverse: the images 'drew many scholars' attention' to features that require handling the originals, so wider online access generated more in-person demand.",
+      "B": "Half right: it confirms the increase is specific to the digitized manuscripts but offers no reason why digitization would increase visits.",
+      "C": "True but irrelevant: viewing was presumably free before digitization as well, so it cannot explain a change.",
+      "D": "Opposite: a preference for digital images predicts fewer in-person requests, which deepens the puzzle.",
+      "E": "Premise booster: it explains why these manuscripts were chosen, not why requests for them doubled afterward."
+    },
+    "trapPatterns": {
+      "B": "half_right",
+      "C": "true_but_irrelevant",
+      "D": "opposite",
+      "E": "premise_booster"
+    },
+    "keyTakeaway": "A substitute can increase demand for the original when it advertises something the substitute cannot provide.",
+    "predictionHint": "Seeing the images made people want to see the real thing."
+  },
+  {
+    "id": "lr-resolve-explain-hargrove-orchard-insecticide",
+    "section": "LR",
+    "type": "resolve_explain",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 1,
+    "stimulus": "Five years ago, the Hargrove orchard cut its use of insecticide sprays by more than half. Insecticide sprays kill the moths whose larvae damage the orchard's apples. Yet the proportion of the orchard's apples damaged by moth larvae is now lower than it was before the reduction in spraying.",
+    "stem": "Which one of the following, if true, most helps to resolve the apparent paradox?",
+    "choices": {
+      "A": "The orchard's apples have sold at higher prices since the reduction in spraying, because buyers prefer fruit grown with fewer chemicals.",
+      "B": "Moth larvae damage apples by boring into the fruit shortly after it begins to form in early summer.",
+      "C": "Neighboring orchards that did not reduce their spraying have seen no change in the proportion of their apples damaged by moth larvae.",
+      "D": "The moths that damage the orchard's apples have become more numerous throughout the region over the past five years.",
+      "E": "The sprays the orchard formerly used also killed wasps that prey on the moths' larvae, and these wasps have since returned."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Out of scope: prices have nothing to do with how many apples the larvae damage.",
+      "B": "Premise booster: it describes how the damage occurs but gives no reason why less spraying would mean less damage.",
+      "C": "Half right: the contrast with neighbors confirms something changed at Hargrove but does not say what reduced the damage.",
+      "D": "Opposite: more moths in the region makes the decline in damage harder to explain.",
+      "E": "The sprays had two effects: killing moths and killing the wasps that 'prey on the moths' larvae.' Cutting the sprays let the wasps return, and their predation now controls the larvae better than the spraying did."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "premise_booster",
+      "C": "half_right",
+      "D": "opposite"
+    },
+    "keyTakeaway": "An intervention that seems purely beneficial may also suppress something that was helping; removing it can improve the outcome.",
+    "predictionHint": "The sprays were also killing something that eats the larvae."
+  },
+  {
+    "id": "lr-resolve-explain-corvia-civil-trial-wait",
+    "section": "LR",
+    "type": "resolve_explain",
+    "logicTags": [
+      "causation",
+      "math_percent"
+    ],
+    "difficulty": 2,
+    "stimulus": "In Corvia, the number of practicing lawyers has doubled over the past fifteen years, and the number of judges has risen proportionally. Legal observers expected that the increased availability of lawyers would shorten the average time it takes for a civil case to reach trial. Instead, the average wait has lengthened considerably.",
+    "stem": "Which one of the following, if true, most helps to explain the discrepancy described above?",
+    "choices": {
+      "A": "Civil trials in Corvia are typically decided by a judge sitting alone rather than by a jury.",
+      "B": "Many of Corvia's new lawyers practice in fields, such as tax law and estate planning, that rarely involve taking a case to trial.",
+      "C": "Greater availability of lawyers made filing suit affordable for many more people, so the number of civil cases filed more than tripled.",
+      "D": "Judges in Corvia now resolve a considerably larger share of civil cases before trial than they did fifteen years ago.",
+      "E": "The average length of a civil trial in Corvia has remained roughly constant over the past fifteen years."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Out of scope: how trials are decided has no bearing on how long cases wait to reach them.",
+      "B": "Half right: it would explain why the wait did not shorten, but not why it 'lengthened considerably.'",
+      "C": "Observers assumed more lawyers meant more capacity for a fixed caseload. C shows the caseload itself grew faster than capacity: filings 'more than tripled' while lawyers and judges merely doubled, so queues got longer.",
+      "D": "Opposite: resolving more cases before trial should relieve the trial calendar and shorten waits.",
+      "E": "True but irrelevant: the length of trials is a different quantity from the time cases wait to reach trial."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "half_right",
+      "D": "opposite",
+      "E": "true_but_irrelevant"
+    },
+    "keyTakeaway": "When more capacity fails to reduce a backlog, check whether the added capacity also increased demand.",
+    "predictionHint": "More lawyers meant far more lawsuits."
+  },
+  {
+    "id": "lr-resolve-explain-dunmere-paper-mill-river",
+    "section": "LR",
+    "type": "resolve_explain",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 2,
+    "stimulus": "Residents of Dunmere feared that a paper mill built just upstream of their town would pollute the river from which the town draws its drinking water. Since the mill opened, however, tests show that the river water reaching Dunmere's intake contains lower concentrations of bacteria and nitrates than it did before the mill was built.",
+    "stem": "Which one of the following, if true, most helps to explain the discrepancy described above?",
+    "choices": {
+      "A": "The pollutants that paper mills typically release into rivers are industrial chemical compounds rather than bacteria or nitrates of the kind tested for.",
+      "B": "Under its permit, the mill built a treatment plant that also processes sewage that upstream villages had previously discharged untreated into the river.",
+      "C": "Dunmere's residents have reduced their household water consumption since the mill opened.",
+      "D": "The mill draws large quantities of water from the river for use in its manufacturing operations.",
+      "E": "The tests of the river water at Dunmere's intake were conducted by an independent laboratory."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Half right: it explains why bacteria and nitrates did not rise, but not why they fell below their pre-mill levels.",
+      "B": "The decline needs a source of removal. B supplies one tied to the mill: its treatment plant now processes sewage that was 'previously discharged untreated,' which is exactly the kind of source that produces bacteria and nitrates.",
+      "C": "Out of scope: the town's consumption does not affect the concentration of contaminants in the river upstream of the intake.",
+      "D": "Opposite: withdrawing river water leaves less water to dilute whatever contaminants remain, which would tend to raise concentrations.",
+      "E": "True but irrelevant: who ran the tests bears on their reliability, not on why the readings fell."
+    },
+    "trapPatterns": {
+      "A": "half_right",
+      "C": "out_of_scope",
+      "D": "opposite",
+      "E": "true_but_irrelevant"
+    },
+    "keyTakeaway": "An answer that explains why things did not get worse does not explain why they got better.",
+    "predictionHint": "The mill's arrival removed a pollution source that was already there."
+  },
+  {
+    "id": "lr-resolve-explain-early-finishers-exam-scores",
+    "section": "LR",
+    "type": "resolve_explain",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 2,
+    "stimulus": "Professor: Students who hand in their final examination well before the time limit consistently earn higher scores than students who use the full period. Yet when I advised a struggling class to work more quickly and finish early, their scores on the next examination were lower, not higher, than on the previous one.",
+    "stem": "Which one of the following, if true, most helps to resolve the apparent paradox?",
+    "choices": {
+      "A": "Students who use the full examination period often spend the final minutes rechecking answers that they had already gotten right the first time.",
+      "B": "The students in the struggling class had scored below the class average on every examination that semester.",
+      "C": "Some students who finish their examinations early earn the lowest scores in the class.",
+      "D": "Students who finish early do so because they have mastered the material, and students who lack mastery make more errors when they hurry.",
+      "E": "Most students in the struggling class did finish the next examination earlier than they had finished the previous one."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Opposite: if the extra minutes are wasted anyway, working quickly should cost nothing, which makes the drop in scores more puzzling.",
+      "B": "Premise booster: it restates that the class was 'struggling' without explaining why speeding up hurt them.",
+      "C": "Half right: it disputes the professor's generalization but does not explain why the advice lowered this class's scores.",
+      "D": "The professor treated finishing early as a cause of high scores. D reverses the direction: mastery produces both early finishing and high scores, and for students without mastery, hurrying 'produces more errors,' which explains the decline.",
+      "E": "Half right: it confirms the students followed the advice but gives no reason why doing so lowered their scores."
+    },
+    "trapPatterns": {
+      "A": "opposite",
+      "B": "premise_booster",
+      "C": "half_right",
+      "E": "half_right"
+    },
+    "keyTakeaway": "When imitating a correlate of success backfires, the correlate was probably an effect of the real cause, not the cause itself.",
+    "predictionHint": "Fast finishers are fast because they know the material; rushing without knowing it hurts."
+  },
+  {
+    "id": "lr-resolve-explain-chickadee-feeder-counts",
+    "section": "LR",
+    "type": "resolve_explain",
+    "logicTags": [
+      "sampling",
+      "causation"
+    ],
+    "difficulty": 2,
+    "stimulus": "Volunteers who count birds at backyard feeders across the northern provinces recorded 30 percent fewer chickadees this winter than last. Yet systematic surveys by ornithologists, which sample woodland habitats directly, indicate that the region's chickadee population was slightly larger this winter than it was last winter.",
+    "stem": "Which one of the following, if true, most helps to explain the discrepancy described above?",
+    "choices": {
+      "A": "Chickadees are among the birds most easily and reliably identified by volunteer counters.",
+      "B": "Volunteer feeder counts are used by ornithologists mainly to track long-term trends rather than yearly fluctuations.",
+      "C": "Chickadees in the region do not migrate but remain in the same territories throughout the year.",
+      "D": "Several other seed-eating species that commonly visit backyard feeders were also counted in smaller numbers at feeders this winter than last.",
+      "E": "An unusually large forest seed crop this year left chickadees with abundant natural food, so fewer of them visited feeders."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Opposite: reliable identification rules out one innocent explanation for the low feeder count, making the gap harder to explain.",
+      "B": "Out of scope: how the counts are used does not explain why the two measures diverged this year.",
+      "C": "True but irrelevant: year-round residence applies to both winters and so cannot account for a change between them.",
+      "D": "Half right: it suggests a general cause affecting feeder visits but does not say what that cause is or why populations nonetheless grew.",
+      "E": "Feeder counts measure visits, not birds. E explains why visits fell while the population rose: with 'abundant natural food,' the same or more chickadees simply had less reason to come to feeders."
+    },
+    "trapPatterns": {
+      "A": "opposite",
+      "B": "out_of_scope",
+      "C": "true_but_irrelevant",
+      "D": "half_right"
+    },
+    "keyTakeaway": "When two measures of the same thing disagree, ask what each one actually counts.",
+    "predictionHint": "The birds are there; they just are not coming to feeders."
+  },
+  {
+    "id": "lr-resolve-explain-bicycle-gear-supplier",
+    "section": "LR",
+    "type": "resolve_explain",
+    "logicTags": [
+      "math_percent",
+      "causation"
+    ],
+    "difficulty": 2,
+    "stimulus": "Last year a bicycle manufacturer switched to a new supplier whose gears cost 15 percent less per unit than those of the previous supplier. The manufacturer produced the same number of bicycles this year as it did last year. Nevertheless, its total spending on gears this year was higher than last year's.",
+    "stem": "Which one of the following, if true, most helps to resolve the apparent paradox?",
+    "choices": {
+      "A": "Gears from the new supplier fail quality inspection far more often, so the manufacturer must buy many more gears to obtain enough usable ones.",
+      "B": "The new supplier is located considerably farther from the manufacturer's assembly plant than the previous supplier was, in a neighboring country.",
+      "C": "The manufacturer's total spending on all components combined was lower this year than last year.",
+      "D": "The new supplier's gears are lighter and more durable than those made by the previous supplier.",
+      "E": "The manufacturer paid the new supplier in full at the time of each order rather than in installments."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Spending equals price times quantity. The price fell 15 percent, so the quantity must have risen by more than that. A explains why: a high failure rate forces the manufacturer to buy 'many more gears' for the same number of usable ones.",
+      "B": "Half right: a more distant supplier might raise shipping costs, but the puzzle concerns 'spending on gears,' and distance alone does not establish any increase in that figure.",
+      "C": "Out of scope: lower spending overall says nothing about why gear spending in particular rose.",
+      "D": "Opposite: more durable gears would, if anything, reduce the number needed.",
+      "E": "True but irrelevant: the timing of payments changes when money is spent, not how much."
+    },
+    "trapPatterns": {
+      "B": "half_right",
+      "C": "out_of_scope",
+      "D": "opposite",
+      "E": "true_but_irrelevant"
+    },
+    "keyTakeaway": "When a lower unit price coincides with higher total spending, the explanation must raise the quantity purchased.",
+    "predictionHint": "They had to buy a lot more gears."
+  },
+  {
+    "id": "lr-resolve-explain-orvan-hessari-coins",
+    "section": "LR",
+    "type": "resolve_explain",
+    "logicTags": [
+      "causation",
+      "eliminating_options"
+    ],
+    "difficulty": 2,
+    "stimulus": "Archaeologists excavating a settlement on the Orvan plateau have recovered more than four hundred silver coins minted by the distant Hessari empire. Yet the site has yielded none of the pottery, glassware, or textiles that Hessari merchants are known to have traded wherever they established direct commercial contact with another people.",
+    "stem": "Which one of the following, if true, most helps to explain the discrepancy described above?",
+    "choices": {
+      "A": "Hessari coins have been found at several other excavated sites on the Orvan plateau, some of them quite far from the settlement.",
+      "B": "Hessari merchants typically insisted on receiving payment for their goods in silver coin rather than in local goods of equivalent value.",
+      "C": "The settlement's inhabitants obtained the coins from neighbors who traded with the Hessari, valuing the coins as silver for jewelry.",
+      "D": "The Hessari empire minted silver coins in very large quantities over a period of several centuries.",
+      "E": "The settlement on the Orvan plateau was continuously occupied for several centuries before it was abandoned."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Half right: it shows the coins were not unique to this site but leaves the absence of trade goods unexplained.",
+      "B": "Opposite: if merchants collected coin as payment, direct trade would move silver toward the Hessari, making a hoard of their coins here even harder to explain without their goods.",
+      "C": "The coins seem to imply direct contact; the missing goods imply none. C severs the link: the coins arrived indirectly 'from neighboring peoples' and were valued as raw silver, so there was never direct trade to bring Hessari goods.",
+      "D": "Out of scope: the volume of Hessari minting does not explain why coins but not goods reached this settlement.",
+      "E": "True but irrelevant: a long occupation gives more time for both coins and goods to arrive and does not account for the difference between them."
+    },
+    "trapPatterns": {
+      "A": "half_right",
+      "B": "opposite",
+      "D": "out_of_scope",
+      "E": "true_but_irrelevant"
+    },
+    "keyTakeaway": "When evidence of contact is missing except for one portable item, consider whether that item traveled through intermediaries.",
+    "predictionHint": "The coins came secondhand, not from Hessari traders."
+  },
+  {
+    "id": "lr-resolve-explain-veraxin-glaucoma-diagnoses",
+    "section": "LR",
+    "type": "resolve_explain",
+    "logicTags": [
+      "causation",
+      "sampling"
+    ],
+    "difficulty": 3,
+    "stimulus": "In clinical trials, the drug Veraxin reduced by half the rate at which patients with early-stage glaucoma progressed to vision loss. Since Veraxin's approval five years ago, it has been widely prescribed. Nevertheless, the number of people newly diagnosed with glaucoma-related vision loss each year nationwide has risen steadily over those five years.",
+    "stem": "Which one of the following, if true, most helps to resolve the apparent paradox?",
+    "choices": {
+      "A": "Veraxin must be taken daily for the rest of a patient's life in order to remain effective.",
+      "B": "Publicity about Veraxin's approval led many people to seek eye examinations, producing diagnoses of vision loss that would previously have gone unrecorded.",
+      "C": "Veraxin has no effect on the progression of glaucoma once vision loss has already begun.",
+      "D": "The clinical trials of Veraxin enrolled patients who were, on average, considerably younger and healthier than typical glaucoma patients are.",
+      "E": "Most ophthalmologists now prescribe Veraxin as soon as early-stage glaucoma is diagnosed."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "True but irrelevant: a lifelong regimen does not by itself imply that patients stop taking it, and the stimulus says the drug is widely used.",
+      "B": "The count is of new 'diagnoses,' not of new cases. If publicity brought in people whose vision loss 'would previously have gone unrecorded,' recorded diagnoses can rise even as the drug reduces actual progression.",
+      "C": "Out of scope: the measured outcome is new diagnoses of vision loss, which the drug is meant to prevent, so its ineffectiveness afterward does not explain a rise in new cases.",
+      "D": "Half right: a younger trial population might mean the drug works less well in practice, but weaker effectiveness explains a smaller decline, not a steady increase.",
+      "E": "Opposite: prompt and widespread prescribing should make the rise in vision loss more surprising, not less."
+    },
+    "trapPatterns": {
+      "A": "true_but_irrelevant",
+      "C": "out_of_scope",
+      "D": "half_right",
+      "E": "opposite"
+    },
+    "keyTakeaway": "A rise in recorded cases can reflect more detection rather than more disease; check what the statistic counts.",
+    "predictionHint": "More people are getting diagnosed, not more people losing vision."
+  },
+  {
+    "id": "lr-resolve-explain-varga-translation-sales",
+    "section": "LR",
+    "type": "resolve_explain",
+    "logicTags": [
+      "comparison",
+      "causation"
+    ],
+    "difficulty": 3,
+    "stimulus": "Translations of the poet Ilse Varga into Dorian sell far better than translations of her work into Kettish, even though Kettish has three times as many speakers as Dorian and Varga's style is far closer to the Kettish poetic tradition than to the Dorian one.",
+    "stem": "Which one of the following, if true, most helps to explain the discrepancy described above?",
+    "choices": {
+      "A": "Translations of poetry generally sell poorly in both Dorian-speaking and Kettish-speaking countries.",
+      "B": "Several prominent Dorian poets have written essays praising Varga's influence on their own work.",
+      "C": "The Kettish translations of Varga's poetry were produced by a translator who is widely regarded as among the finest working in Kettish today.",
+      "D": "Varga has given public readings in Dorian-speaking cities more often than in Kettish-speaking ones over the past decade.",
+      "E": "Varga's native language is taught in nearly all Kettish secondary schools, so most Kettish poetry readers read her in the original."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Out of scope: a general weakness in poetry sales does not explain the difference between the two languages.",
+      "B": "Half right: it suggests why Dorian readers are interested but does nothing to explain why the much larger and stylistically closer Kettish audience buys so few translations.",
+      "C": "Opposite: an excellent Kettish translation makes its poor sales more puzzling.",
+      "D": "Half right: readings might raise Dorian interest, but the puzzle is why Kettish readers, who have more reasons to be interested, do not buy translations.",
+      "E": "The comparison assumes Kettish readers who want Varga must buy a translation. E removes that assumption: they 'read her work in the original,' so the Kettish translation market is small despite the larger, more receptive readership."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "half_right",
+      "C": "opposite",
+      "D": "half_right"
+    },
+    "keyTakeaway": "Low sales of a product do not mean low interest in what it provides if the audience can get that thing another way.",
+    "predictionHint": "Kettish readers don't need the translation."
+  },
+  {
+    "id": "lr-resolve-explain-lannis-honeybee-colonies",
+    "section": "LR",
+    "type": "resolve_explain",
+    "logicTags": [
+      "causation",
+      "sampling"
+    ],
+    "difficulty": 3,
+    "stimulus": "Entomologist: In the Lannis farming district, populations of wild bees have fallen by more than half over the past decade, a decline attributed largely to pesticide exposure. Yet the number of honeybee colonies in the district, which forage on the same pesticide-treated crops, has remained steady throughout the same period.",
+    "stem": "Which one of the following, if true, most helps to resolve the apparent paradox?",
+    "choices": {
+      "A": "Honeybees and wild bees are affected in much the same way by the pesticides most commonly used in the district.",
+      "B": "Wild bees in the district belong to more than two hundred species, whereas all of the district's honeybees belong to a single species.",
+      "C": "Honeybee colonies in the district produce noticeably less honey per colony than they did a decade ago.",
+      "D": "Beekeepers in the district routinely replace colonies lost during the year by purchasing new ones from breeders outside the district.",
+      "E": "The district's farmers rent honeybee colonies from local beekeepers each spring to pollinate their crops."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Opposite: equal susceptibility makes the honeybees' steady numbers harder to explain.",
+      "B": "Out of scope: species diversity has no stated bearing on vulnerability to pesticides or on colony counts.",
+      "C": "Half right: lower honey yields hint that honeybees are also harmed but do not explain why the number of colonies has not fallen.",
+      "D": "The colony count is steady because it is managed, not because honeybees are unharmed: colonies that die are replaced 'by purchasing new ones' from outside. Wild bees have no such replenishment, so their population reflects the full toll.",
+      "E": "True but irrelevant: who uses the colonies for pollination does not explain why their number holds steady under pesticide exposure."
+    },
+    "trapPatterns": {
+      "A": "opposite",
+      "B": "out_of_scope",
+      "C": "half_right",
+      "E": "true_but_irrelevant"
+    },
+    "keyTakeaway": "A stable count of a managed population may reflect replacement, not survival.",
+    "predictionHint": "Dead honeybee colonies get replaced; dead wild bees don't."
+  },
+  {
+    "id": "lr-resolve-explain-print-coating-fading",
+    "section": "LR",
+    "type": "resolve_explain",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 3,
+    "stimulus": "Conservator: A protective coating marketed for photographic prints has been shown in laboratory tests to cut fading from light exposure by 80 percent. Yet the prints in our museum's collection that were treated with the coating have faded more quickly over the past decade than the untreated prints displayed beside them under identical lighting.",
+    "stem": "Which one of the following, if true, most helps to resolve the apparent paradox?",
+    "choices": {
+      "A": "The coating blocks ultraviolet light but traps heat against the print, and the gallery's lighting emits little ultraviolet light but considerable heat.",
+      "B": "The laboratory tests exposed coated prints to light far more intense than any lighting used in the museum's galleries, for much shorter periods.",
+      "C": "The coating was applied to the museum's prints by conservators who had been trained by the coating's manufacturer.",
+      "D": "Visitors to the museum frequently ask the staff why some of the displayed prints appear duller than others.",
+      "E": "Photographic prints generally fade more quickly in humid conditions than they do in dry conditions."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Both facts can be true if the coating protects against one cause of fading and worsens another. In the gallery, the cause it blocks (ultraviolet) is minor and the cause it aggravates (heat) is major, so coated prints fade faster there even though the lab result is accurate.",
+      "B": "Half right: more intense test lighting might explain why the lab benefit does not appear in the gallery, but not why coated prints fade faster than untreated ones.",
+      "C": "Opposite: proper application rules out a tempting explanation and leaves the paradox intact.",
+      "D": "Out of scope: visitors' questions describe the symptom without explaining it.",
+      "E": "True but irrelevant: both sets of prints hang under 'identical' conditions, so humidity cannot account for a difference between them."
+    },
+    "trapPatterns": {
+      "B": "half_right",
+      "C": "opposite",
+      "D": "out_of_scope",
+      "E": "true_but_irrelevant"
+    },
+    "keyTakeaway": "When a protection fails in the field, ask whether it guards against a cause that is minor there while worsening one that is major.",
+    "predictionHint": "The coating helps with one thing and hurts with another, and the gallery has the other."
+  },
+  {
+    "id": "lr-resolve-explain-valdoria-small-claims-reform",
+    "section": "LR",
+    "type": "resolve_explain",
+    "logicTags": [
+      "sampling",
+      "causation"
+    ],
+    "difficulty": 3,
+    "stimulus": "Ten years ago, Valdoria simplified its small-claims procedure, eliminating filing fees and allowing claims to be submitted without a lawyer. Officials predicted that plaintiffs would fare better under the new system, since they would no longer be burdened by legal costs. Yet the proportion of small-claims cases won by plaintiffs has fallen substantially since the reform.",
+    "stem": "Which one of the following, if true, most helps to explain the discrepancy described above?",
+    "choices": {
+      "A": "The number of judges assigned to hear small-claims cases in Valdoria has not increased since the reform took effect.",
+      "B": "The maximum amount that can be sought in Valdoria's small-claims court was raised at the time of the reform.",
+      "C": "Before the reform, lawyers advised most prospective plaintiffs with weak cases not to file, and such plaintiffs now file in large numbers.",
+      "D": "Plaintiffs who win small-claims cases in Valdoria now collect their awards more quickly than they did before the reform.",
+      "E": "Judges in Valdoria's small-claims court now routinely provide detailed procedural guidance to plaintiffs who appear before them without lawyers."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Out of scope: the number of judges affects how long cases take, not what proportion plaintiffs win.",
+      "B": "Half right: a higher ceiling changes which disputes are eligible, but nothing in B says those added disputes are ones plaintiffs tend to lose.",
+      "C": "The win rate is a proportion, and the reform changed who files. Lawyers once screened out 'weak cases'; now those cases 'file in large numbers,' so the pool of cases contains far more losers even if any given strong case fares as well as before.",
+      "D": "True but irrelevant: faster collection concerns what happens after a win, not how often plaintiffs win.",
+      "E": "Opposite: guidance for unrepresented plaintiffs should help them win, deepening the puzzle."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "half_right",
+      "D": "true_but_irrelevant",
+      "E": "opposite"
+    },
+    "keyTakeaway": "When a rate falls after a barrier is removed, consider that the barrier was filtering out the cases that would have lowered the rate.",
+    "predictionHint": "Weaker cases that used to be screened out now get filed."
+  },
+  {
+    "id": "lr-resolve-explain-payment-task-enjoyment",
+    "section": "LR",
+    "type": "resolve_explain",
+    "logicTags": [
+      "mental_state_v_reality",
+      "causation"
+    ],
+    "difficulty": 4,
+    "stimulus": "Psychologist: Participants in a study spent an hour performing a monotonous sorting task. Afterward, half were paid a substantial sum and half a trivial sum for their participation; all were then asked to rate how enjoyable the task had been. Those paid the trivial sum rated the task significantly more enjoyable than those paid the substantial sum did.",
+    "stem": "Which one of the following, if true, most helps to explain the discrepancy described above?",
+    "choices": {
+      "A": "Participants paid the trivial sum completed the sorting task somewhat more slowly than did those paid the substantial sum.",
+      "B": "People who lack an adequate external reason for having done something unpleasant tend to revise their view of the activity to justify their conduct.",
+      "C": "People generally rate activities as more enjoyable when they are performed in exchange for payment than when they are performed for free.",
+      "D": "Monotonous tasks are generally rated as less enjoyable than varied tasks, regardless of how much participants are paid for performing them.",
+      "E": "People who are paid generously for an activity tend to attribute their participation to the payment rather than to genuine interest in the activity itself."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Out of scope: the pace at which participants worked does not bear on how enjoyable they later judged the task.",
+      "B": "The oddity is that less reward produced a more favorable rating. B explains it: a trivial payment is not 'an adequate external reason' for an hour of tedium, so those participants 'revise their view of the activity' upward, while the well-paid participants have no such need.",
+      "C": "Opposite: this generalization predicts the well-paid group would rate the task more enjoyable, the reverse of what occurred.",
+      "D": "True but irrelevant: both groups did the same monotonous task, so a general dislike of monotony cannot produce a difference between them.",
+      "E": "Half right: it explains why the well-paid group did not credit the task with any appeal, but it gives no reason why the poorly paid group would rate a monotonous task as positively enjoyable rather than merely dull."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "C": "opposite",
+      "D": "true_but_irrelevant",
+      "E": "half_right"
+    },
+    "keyTakeaway": "In a two-group paradox, the explanation must account for the group whose behavior is surprising, not just the group whose behavior is expected.",
+    "predictionHint": "The poorly paid group talked themselves into liking it."
+  },
+  {
+    "id": "lr-resolve-explain-kerrin-island-cat-eradication",
+    "section": "LR",
+    "type": "resolve_explain",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 4,
+    "stimulus": "Ecologist: On Kerrin Island, feral cats preyed heavily on a native ground-nesting bird. Conservationists eradicated the cats, expecting the bird population to rebound. Instead, within three years the bird population had fallen to less than half its size before the eradication, even though no new predator had arrived on the island.",
+    "stem": "Which one of the following, if true, most helps to resolve the apparent paradox?",
+    "choices": {
+      "A": "Ground-nesting birds on islands that lack predators typically lay fewer eggs per clutch than do those on islands where predators are present.",
+      "B": "The feral cats on Kerrin Island preyed primarily on adult birds rather than on their eggs or nestlings.",
+      "C": "The bird population on Kerrin Island had been declining slowly for a decade before the cats were eradicated.",
+      "D": "The cats had also suppressed the island's rats, and rats, unlike cats, consume the birds' eggs and nestlings as well as adults.",
+      "E": "Several other species of native birds on Kerrin Island increased markedly in number after the cats were eradicated."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Out of scope: a long-run evolutionary difference between island populations cannot explain a collapse within three years on one island.",
+      "B": "Half right: it hints that something other than adult predation now limits the birds, but it names no agent and so leaves the decline unexplained.",
+      "C": "Wrong force: a slow prior decline cannot account for a drop of more than half in three years immediately following the eradication.",
+      "D": "'No new predator' arrived, but an old one was released. The cats had been holding down rats, which attack the birds at every life stage; removing the cats let the rats surge, and the net effect on the birds was worse than the cats had been.",
+      "E": "Opposite: other birds thriving after the eradication makes this species' collapse more puzzling."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "half_right",
+      "C": "wrong_force",
+      "E": "opposite"
+    },
+    "keyTakeaway": "Removing one harmful factor can unleash another that it had been suppressing; 'no new' cause does not mean no released cause.",
+    "predictionHint": "The cats were keeping something else in check."
+  },
+  {
+    "id": "lr-resolve-explain-dalan-millet-income",
+    "section": "LR",
+    "type": "resolve_explain",
+    "logicTags": [
+      "math_percent",
+      "causation"
+    ],
+    "difficulty": 4,
+    "stimulus": "Agronomist: Farmers throughout the Dalan basin adopted a new variety of millet that yields 40 percent more grain per hectare than the traditional variety. The following year's harvest was correspondingly larger. Yet the basin's farmers earned less in total from millet that year than they had in any of the preceding five years, although their growing costs did not rise.",
+    "stem": "Which one of the following, if true, most helps to explain the discrepancy described above?",
+    "choices": {
+      "A": "Millet prices in regions outside the Dalan basin were essentially unchanged during the year of the larger harvest.",
+      "B": "The new millet variety requires more careful storage than the traditional variety, and some of the harvest spoiled before it could be sold.",
+      "C": "Farmers in the basin had earned more from millet in each of the preceding five years than from any other crop they grew.",
+      "D": "The grain of the new variety is considered by many buyers to be superior in taste to that of the traditional variety.",
+      "E": "Nearly all millet grown in the basin is sold within the basin, where the quantity buyers purchase changes little regardless of price."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Half right: stable outside prices suggest the problem was local but do not say what happened to prices or earnings inside the basin.",
+      "B": "Wrong force: 'some of the harvest spoiled' cannot by itself turn a 40 percent larger crop into the lowest earnings in five years; the harvest sold could still exceed earlier years' totals.",
+      "C": "Out of scope: how millet compared with other crops in past years does not explain why millet earnings fell.",
+      "D": "Opposite: a grain buyers prefer should command a higher price, making lower earnings more surprising.",
+      "E": "If the basin's buyers purchase 'about the same quantity regardless of price,' a 40 percent larger supply can be absorbed only through a steep price collapse, one large enough that total revenue (price times quantity) falls below previous years despite the bigger harvest."
+    },
+    "trapPatterns": {
+      "A": "half_right",
+      "B": "wrong_force",
+      "C": "out_of_scope",
+      "D": "opposite"
+    },
+    "keyTakeaway": "More output can mean less income when the buyers cannot absorb more; a paradox about totals often hides a price effect.",
+    "predictionHint": "The extra grain crashed the local price."
+  },
+  {
+    "id": "lr-pseudo-sufficient-assumption-submission-system-outage",
+    "section": "LR",
+    "type": "pseudo_sufficient_assumption",
+    "logicTags": [
+      "rule_application",
+      "conditional"
+    ],
+    "difficulty": 1,
+    "stimulus": "Teacher: Jonah submitted his essay two days after the deadline, and course policy calls for a penalty for late work. But I will not penalize him. Jonah completed the essay on time, and the delay occurred only because the school's electronic submission system was out of service for the two days in question.",
+    "stem": "Which one of the following principles, if valid, most helps to justify the teacher's reasoning?",
+    "choices": {
+      "A": "A teacher should penalize late work only when the course policy explicitly calls for a penalty for it.",
+      "B": "A student who is penalized for submitting work late should be given an opportunity to appeal the penalty.",
+      "C": "A student should not be penalized for lateness that results from circumstances entirely beyond the student's control.",
+      "D": "If a student is responsible for a delay in submitting an assignment, the student should be penalized for the delay.",
+      "E": "A school should ensure that its electronic submission system is reliable before adopting a policy of penalizing late work."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Opposite: the policy does call for a penalty, so this principle would permit penalizing Jonah rather than excuse him.",
+      "B": "Wrong force: an appeal process presupposes a penalty; it gives no reason not to impose one.",
+      "C": "The premise is that the delay was due to a system outage, a circumstance 'entirely beyond the student's control,' and C makes that sufficient for no penalty, which is the teacher's conclusion.",
+      "D": "Reversal: it says when to penalize, not when to refrain, so Jonah's lack of responsibility yields nothing under it.",
+      "E": "Shell game: it concerns what the school should do about its system, not whether this student should be penalized."
+    },
+    "trapPatterns": {
+      "A": "opposite",
+      "B": "wrong_force",
+      "D": "reversal",
+      "E": "shell_game"
+    },
+    "keyTakeaway": "A principle justifies a decision not to act only if it states a condition under which one should not act, and the facts meet that condition.",
+    "predictionHint": "No penalty for delays the student could not control."
+  },
+  {
+    "id": "lr-pseudo-sufficient-assumption-larkspur-local-produce",
+    "section": "LR",
+    "type": "pseudo_sufficient_assumption",
+    "logicTags": [
+      "rule_application",
+      "value_judgment"
+    ],
+    "difficulty": 1,
+    "stimulus": "Food critic: The Larkspur Café's food is excellent, and its prices are fair. Nonetheless, the café deserves the harsh criticism it has received, because its menu describes several dishes as made from locally grown produce when in fact the produce is shipped in from overseas.",
+    "stem": "Which one of the following principles, if valid, most helps to justify the food critic's reasoning?",
+    "choices": {
+      "A": "Any business that misrepresents the origin of its products deserves criticism, however good those products may be.",
+      "B": "A restaurant deserves criticism only if it misrepresents the origin of the products it serves.",
+      "C": "A restaurant that serves excellent food at fair prices deserves to be praised for doing so.",
+      "D": "A business should disclose where its products originate whenever a customer asks about their origin.",
+      "E": "A restaurant that serves produce shipped from overseas deserves criticism if comparable local produce is available."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "The premises are that the café misrepresents the origin of its produce and that its food is excellent. A makes misrepresentation sufficient for deserving criticism 'however good those products may be,' which yields the conclusion despite the food's quality.",
+      "B": "Reversal: 'only if' makes misrepresentation necessary for deserved criticism, not sufficient, so it cannot establish that the café deserves it.",
+      "C": "Opposite: it supports praise, the consideration the critic sets aside.",
+      "D": "Wrong force: it says what a business should do when asked; it does not say that failing to do so deserves criticism, and the café's menu made an affirmative claim.",
+      "E": "Shell game: it criticizes serving imported produce, but the critic's complaint is the false description, not the sourcing."
+    },
+    "trapPatterns": {
+      "B": "reversal",
+      "C": "opposite",
+      "D": "wrong_force",
+      "E": "shell_game"
+    },
+    "keyTakeaway": "When a conclusion holds 'nonetheless' despite a conceded merit, the justifying principle must explicitly override that merit.",
+    "predictionHint": "Misrepresentation deserves criticism no matter how good the food is."
+  },
+  {
+    "id": "lr-pseudo-sufficient-assumption-mill-street-bridge-priority",
+    "section": "LR",
+    "type": "pseudo_sufficient_assumption",
+    "logicTags": [
+      "rule_application",
+      "weighing_factors"
+    ],
+    "difficulty": 1,
+    "stimulus": "City engineer: The Mill Street bridge carries only a fraction of the traffic that the Harbor bridge carries. Even so, the city should repair the Mill Street bridge first, because inspections show that it is far more likely than the Harbor bridge to fail within the next few years.",
+    "stem": "Which one of the following principles, if valid, most helps to justify the city engineer's reasoning?",
+    "choices": {
+      "A": "A city should repair the bridges that carry the most traffic before it repairs any of the bridges that carry less traffic.",
+      "B": "A city should repair any bridge that inspections show is likely to fail within the next few years.",
+      "C": "If a bridge is the first to be repaired, it must be the bridge that is most likely to fail.",
+      "D": "A city should immediately close to all traffic any bridge that inspections show is likely to fail within the next few years.",
+      "E": "In deciding which structures to repair first, a city should give priority by likelihood of failure rather than by amount of use."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Opposite: this principle ranks the Harbor bridge first.",
+      "B": "Wrong force: it says the Mill Street bridge should be repaired, but the conclusion is about repairing it 'first,' and the Harbor bridge may also be likely to fail.",
+      "C": "Reversal: it states a condition that must hold if a bridge is repaired first, which cannot be used to conclude that the Mill Street bridge should be first.",
+      "D": "Shell game: closing a bridge is a different action from repairing it before another bridge.",
+      "E": "The engineer weighs likelihood of failure against traffic volume and lets the former win. E states exactly that priority rule, and the facts (higher failure likelihood, lower use) place the Mill Street bridge first under it."
+    },
+    "trapPatterns": {
+      "A": "opposite",
+      "B": "wrong_force",
+      "C": "reversal",
+      "D": "shell_game"
+    },
+    "keyTakeaway": "A conclusion about ordering ('first') needs a principle about priority, not a principle that merely says the action should be taken.",
+    "predictionHint": "Rank by risk of failure, not by traffic."
+  },
+  {
+    "id": "lr-pseudo-sufficient-assumption-judge-appointment-correction",
+    "section": "LR",
+    "type": "pseudo_sufficient_assumption",
+    "logicTags": [
+      "rule_application",
+      "value_judgment"
+    ],
+    "difficulty": 2,
+    "stimulus": "Editor: Last week's article misstated the year in which a local judge was first appointed to the bench. Very few readers are likely to have noticed the error, and it had no bearing on the article's main points. We should nonetheless publish a prominent correction, because the error concerned a factual claim about a named individual.",
+    "stem": "Which one of the following principles, if valid, most helps to justify the editor's reasoning?",
+    "choices": {
+      "A": "A newspaper should publish a prominent correction only if the error in question concerned a factual claim about a named individual.",
+      "B": "A newspaper should prominently correct any factual error about a named individual, however few readers noticed it or however minor it was.",
+      "C": "A newspaper should promptly and prominently correct any error that bears on the main points of the article in which it appeared.",
+      "D": "A newspaper need not correct an error that very few of its readers are likely to have noticed.",
+      "E": "A newspaper that publishes an error about a named individual should apologize privately to that individual."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Reversal: 'only if' makes concerning a named individual a requirement for a prominent correction, not a reason to publish one.",
+      "B": "The facts are a factual error about a named individual, few readers noticing, and no bearing on the main points. B makes the first fact sufficient and expressly sets aside the other two, which is precisely the editor's reasoning.",
+      "C": "Shell game: this error had 'no bearing' on the main points, so the principle's condition is not met.",
+      "D": "Opposite: it would excuse the newspaper from correcting this error.",
+      "E": "Wrong force: a private apology is a different remedy from a prominent published correction."
+    },
+    "trapPatterns": {
+      "A": "reversal",
+      "C": "shell_game",
+      "D": "opposite",
+      "E": "wrong_force"
+    },
+    "keyTakeaway": "The justifying principle must track the reason the speaker actually gives and neutralize the considerations the speaker explicitly sets aside.",
+    "predictionHint": "Errors about named people get corrected prominently, no matter how small."
+  },
+  {
+    "id": "lr-pseudo-sufficient-assumption-fabricated-data-retraction",
+    "section": "LR",
+    "type": "pseudo_sufficient_assumption",
+    "logicTags": [
+      "rule_application",
+      "conditional"
+    ],
+    "difficulty": 2,
+    "stimulus": "Research director: The laboratory must retract the paper it published last year. The paper's central conclusions are probably still correct, since they have since been confirmed by other research groups. However, it has now come to light that one of the paper's coauthors fabricated a portion of the data on which the paper relied.",
+    "stem": "Which one of the following principles, if valid, most helps to justify the research director's reasoning?",
+    "choices": {
+      "A": "A published paper should be retracted only if its central conclusions have been shown to be false.",
+      "B": "If a published paper is retracted, its authors should be barred from publishing in the same journal in the future.",
+      "C": "A researcher who is found to have fabricated data should be dismissed from the laboratory that employs the researcher.",
+      "D": "A paper that relies on fabricated data should be retracted even if its conclusions are likely to be correct.",
+      "E": "A paper that has been retracted must have relied on data that were fabricated by at least one of its authors."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Opposite: the conclusions are probably correct, so under this principle the paper should not be retracted.",
+      "B": "Wrong force: it describes a consequence of retraction, not a ground for it.",
+      "C": "Shell game: it prescribes a penalty for the person, not an action regarding the paper.",
+      "D": "The premises are fabricated data and probably correct conclusions. D makes the former sufficient for retraction 'even if' the latter holds, which yields the director's conclusion.",
+      "E": "Reversal: it states what must be true of a retracted paper, which cannot be used to show that this paper should be retracted."
+    },
+    "trapPatterns": {
+      "A": "opposite",
+      "B": "wrong_force",
+      "C": "shell_game",
+      "E": "reversal"
+    },
+    "keyTakeaway": "A principle of the form 'retracted papers must have X' never justifies retracting a paper that has X; the direction of the conditional matters.",
+    "predictionHint": "Fabrication alone requires retraction, correct conclusions or not."
+  },
+  {
+    "id": "lr-pseudo-sufficient-assumption-refund-waiver-fine-print",
+    "section": "LR",
+    "type": "pseudo_sufficient_assumption",
+    "logicTags": [
+      "rule_application",
+      "conditional"
+    ],
+    "difficulty": 2,
+    "stimulus": "Judge: Both parties signed the agreement, and ordinarily a signed term is binding. But the clause waiving the buyer's right to a refund was printed in type so small, and placed so inconspicuously, that no reasonable person reading the agreement would have noticed it. The clause is therefore not enforceable against the buyer.",
+    "stem": "Which one of the following principles, if valid, most helps to justify the judge's reasoning?",
+    "choices": {
+      "A": "A term in a signed agreement is enforceable only if a reasonable person reading the agreement would have noticed it.",
+      "B": "A term in a signed agreement is enforceable if the party against whom it is being enforced actually read the term before signing.",
+      "C": "A seller should print all terms that limit a buyer's rights in type that is conspicuous and easy to read.",
+      "D": "A term in a signed agreement is not enforceable against a party who did not understand the term's meaning.",
+      "E": "A signed agreement is binding on both parties unless one of the parties was coerced into signing it."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "The judge's premise is that no reasonable reader would have noticed the clause. A makes being noticeable to a reasonable reader a necessary condition for enforceability, so the premise's failure yields the conclusion that the clause is not enforceable.",
+      "B": "Reversal: it gives a condition under which a term is enforceable; it says nothing about when one is not.",
+      "C": "Wrong force: it says what sellers should do but does not say what follows for enforceability when they do not.",
+      "D": "Shell game: the judge's finding concerns whether a reasonable person would have 'noticed' the clause, not whether the buyer 'understood' it.",
+      "E": "Opposite: no coercion occurred, so this principle would make the whole agreement, clause included, binding."
+    },
+    "trapPatterns": {
+      "B": "reversal",
+      "C": "wrong_force",
+      "D": "shell_game",
+      "E": "opposite"
+    },
+    "keyTakeaway": "To justify a 'not enforceable' conclusion, the principle must state a necessary condition for enforceability that the facts fail.",
+    "predictionHint": "Unnoticeable to a reasonable reader, therefore not enforceable."
+  },
+  {
+    "id": "lr-pseudo-sufficient-assumption-team-captain-rani",
+    "section": "LR",
+    "type": "pseudo_sufficient_assumption",
+    "logicTags": [
+      "rule_application",
+      "weighing_factors"
+    ],
+    "difficulty": 2,
+    "stimulus": "Coach: Theo is the most skilled player on the team, but I am naming Rani captain instead. Whenever the team is under pressure, the other players look to Rani for direction, and she settles them. The captain's job is to lead under pressure, and skill at the game is no substitute for that.",
+    "stem": "Which one of the following principles, if valid, most helps to justify the coach's reasoning?",
+    "choices": {
+      "A": "A coach should name as captain the player whom the other players on the team most respect.",
+      "B": "The most skilled player on a team should never be named captain of that team.",
+      "C": "A coach should name a player captain only if that player has demonstrated the ability to lead teammates when the team is under pressure.",
+      "D": "A coach should consult the players on the team before deciding whom to name captain.",
+      "E": "In choosing a captain, a coach should weigh ability to lead teammates under pressure more heavily than skill at the game."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Shell game: the coach's evidence is that players 'look to Rani for direction,' not that they most respect her; respect is a different quality.",
+      "B": "Extreme: it would rule out Theo but gives no reason to choose Rani, and it is far broader than anything the coach says.",
+      "C": "Necessary versus sufficient: 'only if' sets a requirement Rani meets, but it does not say that leadership outweighs skill, so it cannot justify choosing Rani over Theo.",
+      "D": "Wrong force: consulting the players is a procedure, not a basis for the choice the coach made.",
+      "E": "The coach faces a trade-off between Theo's skill and Rani's leadership under pressure and chooses leadership. E states that priority, and the facts place Rani ahead under it."
+    },
+    "trapPatterns": {
+      "A": "shell_game",
+      "B": "extreme",
+      "C": "necessary_v_sufficient",
+      "D": "wrong_force"
+    },
+    "keyTakeaway": "When a conclusion picks one option over another on competing criteria, the principle must rank the criteria, not just impose a threshold.",
+    "predictionHint": "Leadership under pressure outweighs skill."
+  },
+  {
+    "id": "lr-pseudo-sufficient-assumption-general-memoir-retreat",
+    "section": "LR",
+    "type": "pseudo_sufficient_assumption",
+    "logicTags": [
+      "rule_application",
+      "weighing_factors"
+    ],
+    "difficulty": 3,
+    "stimulus": "Historian: The general's memoir states that the retreat was ordered before the river crossing, whereas the official campaign record places the order afterward. On this point we should trust the memoir. The general, writing privately decades later, had nothing to gain from misstating the sequence, while the officers who compiled the record were anxious to deflect blame for the crossing's heavy losses.",
+    "stem": "Which one of the following principles, if valid, most helps to justify the historian's reasoning?",
+    "choices": {
+      "A": "If one account of an event should be preferred over a conflicting account, its author must have had no motive whatever to misrepresent the event.",
+      "B": "An account of an event written by a participant in the event is more reliable than an account compiled by others afterward.",
+      "C": "When two accounts conflict, the account whose author had no motive to misrepresent the event should be preferred over one whose author did.",
+      "D": "Historians should take into account the motives of an author when assessing the reliability of that author's account.",
+      "E": "If the author of an account had a motive to misrepresent an event, that account should be disregarded entirely."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Reversal: it states a condition that must hold if an account is preferred; it does not say that meeting the condition makes an account preferable.",
+      "B": "Shell game: the officers who compiled the record were also participants, and the historian's reasoning turns on motive, not participation.",
+      "C": "The premises are a conflict between two accounts, no motive on the general's side, and a motive on the officers' side. C converts exactly those facts into the conclusion that the memoir should be preferred.",
+      "D": "Wrong force: 'take into account' calls for a consideration; it does not say which account to trust.",
+      "E": "Half right: it would discard the official record, but discarding one account does not by itself establish that the other should be trusted."
+    },
+    "trapPatterns": {
+      "A": "reversal",
+      "B": "shell_game",
+      "D": "wrong_force",
+      "E": "half_right"
+    },
+    "keyTakeaway": "A comparative conclusion ('trust X over Y') needs a comparative principle that uses the contrast the argument draws.",
+    "predictionHint": "Prefer the account from the writer with no reason to lie."
+  },
+  {
+    "id": "lr-pseudo-sufficient-assumption-osei-diagnosis-confidentiality",
+    "section": "LR",
+    "type": "pseudo_sufficient_assumption",
+    "logicTags": [
+      "rule_application",
+      "conditional"
+    ],
+    "difficulty": 3,
+    "stimulus": "Physician: Mr. Osei's adult children have asked me to tell them his diagnosis. They are plainly worried about him and want to help. But Mr. Osei, who fully understands his condition and its implications, has asked me not to discuss it with anyone, so I will not tell them.",
+    "stem": "Which one of the following principles, if valid, most helps to justify the physician's reasoning?",
+    "choices": {
+      "A": "A physician should disclose a patient's diagnosis to family members who are in a position to help the patient.",
+      "B": "A physician may disclose the diagnosis of a patient who understands his or her condition only with that patient's consent.",
+      "C": "A physician may withhold a patient's diagnosis from family members if the patient is unable to understand the condition or its implications.",
+      "D": "A physician must disclose a patient's diagnosis to anyone the patient designates to receive it.",
+      "E": "A physician should weigh a patient's request for confidentiality against the concerns of the patient's family."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Opposite: the children want to help, so this principle would require disclosure.",
+      "B": "The facts are a patient who 'fully understands his condition' and has refused consent. B makes consent necessary for disclosure in exactly that case, so the refusal yields the physician's conclusion.",
+      "C": "Shell game: its condition is a patient 'unable to understand,' but Mr. Osei fully understands, so the principle does not apply.",
+      "D": "Reversal: it says what the physician must do when the patient designates someone; it is silent about what to do when the patient refuses.",
+      "E": "Wrong force: weighing the two considerations does not determine that confidentiality wins."
+    },
+    "trapPatterns": {
+      "A": "opposite",
+      "C": "shell_game",
+      "D": "reversal",
+      "E": "wrong_force"
+    },
+    "keyTakeaway": "Check that the principle's antecedent matches the facts stated, especially a qualifier like 'understands' that the stimulus goes out of its way to include.",
+    "predictionHint": "No consent from a competent patient, no disclosure."
+  },
+  {
+    "id": "lr-pseudo-sufficient-assumption-sloped-green-space",
+    "section": "LR",
+    "type": "pseudo_sufficient_assumption",
+    "logicTags": [
+      "rule_application",
+      "definition_scope"
+    ],
+    "difficulty": 3,
+    "stimulus": "Planning commissioner: The proposed development includes more green space than our regulations require, yet the commission should reject it. Nearly all of the green space lies on a steep slope behind a retaining wall, where no resident could use it. The purpose of the green-space requirement is to give residents places to walk and gather, and this proposal does not serve that purpose.",
+    "stem": "Which one of the following principles, if valid, most helps to justify the planning commissioner's reasoning?",
+    "choices": {
+      "A": "A proposal that provides more than the required amount of green space should be approved if that green space is usable by the development's residents.",
+      "B": "The commission should amend its regulations to require that green space be located on level ground.",
+      "C": "A development proposal should be approved only if it includes at least the amount of green space that the regulations require.",
+      "D": "A proposal should be rejected if it satisfies the letter of a requirement without serving the purpose for which the requirement was adopted.",
+      "E": "Regulations should be rewritten whenever developers find ways to satisfy them without serving their underlying purpose."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Reversal: it gives a sufficient condition for approval, and its condition is unmet here anyway, so it yields nothing about rejection.",
+      "B": "Wrong force: amending the regulations is a different action from rejecting this proposal under the current ones.",
+      "C": "Necessary versus sufficient: the proposal meets this requirement, so the principle gives no ground to reject it.",
+      "D": "The premises are that the proposal meets the quantity requirement (the letter) but provides no usable space (fails the purpose). D makes that combination sufficient for rejection, which is the conclusion.",
+      "E": "Shell game: it concerns what to do about the regulations, not what to do about this proposal."
+    },
+    "trapPatterns": {
+      "A": "reversal",
+      "B": "wrong_force",
+      "C": "necessary_v_sufficient",
+      "E": "shell_game"
+    },
+    "keyTakeaway": "When a speaker rejects something that meets a stated rule, the justifying principle must elevate the rule's purpose over its letter.",
+    "predictionHint": "Meeting the rule's letter but not its purpose is grounds for rejection."
+  },
+  {
+    "id": "lr-pseudo-sufficient-assumption-central-bank-rate-decision",
+    "section": "LR",
+    "type": "pseudo_sufficient_assumption",
+    "logicTags": [
+      "rule_application",
+      "value_judgment"
+    ],
+    "difficulty": 4,
+    "stimulus": "Economist: Critics fault the central bank for raising interest rates last spring, since inflation fell sharply over the following months for reasons unrelated to the increase, and the higher rates slowed growth. But the bank's decision was the right one. Every reliable indicator available in the spring pointed to accelerating inflation, and raising rates is the appropriate response to such indicators.",
+    "stem": "Which one of the following principles, if valid, most helps to justify the economist's reasoning?",
+    "choices": {
+      "A": "Whether a policy decision was right depends on the evidence available when it was made, not on what later occurred.",
+      "B": "A central bank should raise interest rates only when reliable indicators point to accelerating inflation.",
+      "C": "A policy decision that produces worse outcomes than the alternative would have cannot be considered the right decision.",
+      "D": "A central bank that has correctly read the available indicators should not be blamed if its policies slow growth.",
+      "E": "If a policy decision was the right one, then it was based on the best evidence available at the time it was made."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "The critics judge by outcomes; the economist judges by the evidence in the spring. A makes the economist's standard the correct one and excludes the critics' ('not on what later occurred'), so the facts about the indicators yield 'the decision was the right one.'",
+      "B": "Necessary versus sufficient: 'only when' permits raising rates in these conditions but does not make doing so right.",
+      "C": "Opposite: it adopts the critics' outcome-based standard and would condemn the decision.",
+      "D": "Shell game: 'should not be blamed' is weaker than 'was the right one,' and D excuses only the slowing of growth, not the decision as a whole given that inflation fell anyway.",
+      "E": "Reversal: it states what must be true of a right decision; it cannot be used to show that this decision was right."
+    },
+    "trapPatterns": {
+      "B": "necessary_v_sufficient",
+      "C": "opposite",
+      "D": "shell_game",
+      "E": "reversal"
+    },
+    "keyTakeaway": "When a speaker defends a decision against hindsight, the principle must fix the standard of evaluation, not merely excuse one consequence.",
+    "predictionHint": "Judge the decision by what was known then, not by what happened later."
+  },
+  {
+    "id": "lr-pseudo-sufficient-assumption-marguerite-report-honesty",
+    "section": "LR",
+    "type": "pseudo_sufficient_assumption",
+    "logicTags": [
+      "rule_application",
+      "mental_state_v_reality"
+    ],
+    "difficulty": 4,
+    "stimulus": "Ethicist: When Marguerite told her colleague that the quarterly report had been finished, the report was in fact still incomplete. Yet Marguerite was not being dishonest. Her assistant had told her that morning that the report was done, and she had no reason to doubt him.",
+    "stem": "Which one of the following principles, if valid, most helps to justify the ethicist's reasoning?",
+    "choices": {
+      "A": "A person who relies on an assistant's word is not responsible for any errors that the assistant makes.",
+      "B": "If a person believes a statement to be false when making it, then the person is being dishonest in making it.",
+      "C": "A person should verify any information received from a subordinate before repeating it to others as fact.",
+      "D": "A person who makes a statement that is in fact true is not being dishonest, whatever the person believes about it.",
+      "E": "A person who makes a false statement is being dishonest only if the person believes the statement to be false."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Shell game: not being 'responsible for errors' is a different matter from not being dishonest.",
+      "B": "Reversal: it says believing a statement false makes one dishonest; it does not say that lacking that belief makes one honest, which is what the ethicist needs.",
+      "C": "Wrong force: it says what Marguerite should have done, which if anything counts against her rather than clearing her of dishonesty.",
+      "D": "Shell game: its antecedent is a statement that is 'in fact true,' but Marguerite's statement was false, so the principle does not apply.",
+      "E": "Marguerite's statement was false, but she believed it true on her assistant's word. E makes believing the statement false a necessary condition of dishonesty; since that condition fails, she was not dishonest."
+    },
+    "trapPatterns": {
+      "A": "shell_game",
+      "B": "reversal",
+      "C": "wrong_force",
+      "D": "shell_game"
+    },
+    "keyTakeaway": "To justify 'not X,' find the principle that makes a missing fact necessary for X; a principle giving a sufficient condition for X cannot do it.",
+    "predictionHint": "Dishonesty requires believing you are saying something false."
+  },
+  {
+    "id": "lr-principle-brake-warning-refusal",
+    "section": "LR",
+    "type": "principle",
+    "logicTags": [
+      "rule_application",
+      "value_judgment"
+    ],
+    "difficulty": 1,
+    "stimulus": "A customer asked a mechanic to disconnect the warning system that alerts a driver when the car's brakes are failing, because the customer found its frequent alerts annoying. The mechanic refused, even though the customer insisted and offered to pay extra for the work. The mechanic acted correctly.",
+    "stem": "Which one of the following principles, if valid, most helps to justify the reasoning above?",
+    "choices": {
+      "A": "A service provider should perform any lawful service that a customer requests and is willing to pay for.",
+      "B": "A service provider should explain to a customer why a requested service is inadvisable before performing it.",
+      "C": "A service provider may refuse to perform a requested service if the provider finds the customer's request or manner annoying.",
+      "D": "A service provider should refuse a requested service if performing it would create a serious risk to the safety of others.",
+      "E": "If a service provider refuses a customer's request, the provider must have had concerns about safety."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Opposite: it would require the mechanic to do the work.",
+      "B": "Wrong force: it calls for an explanation before performing the service, not for refusing it.",
+      "C": "Shell game: it was the customer who found the alerts annoying, and annoyance is not the basis on which the mechanic refused.",
+      "D": "Disabling a brake-failure warning creates a serious safety risk to the driver and others on the road. D makes refusing such a request the correct course, which justifies the judgment that the mechanic acted correctly.",
+      "E": "Reversal: it describes what must be true when a provider refuses; it cannot be used to show that refusing was correct."
+    },
+    "trapPatterns": {
+      "A": "opposite",
+      "B": "wrong_force",
+      "C": "shell_game",
+      "E": "reversal"
+    },
+    "keyTakeaway": "A conform principle must make the action taken the right one given the stated facts; a principle about what must be true after the fact does not.",
+    "predictionHint": "Refuse work that endangers people, whatever the customer wants."
+  },
+  {
+    "id": "lr-principle-coerced-witness-exclusion",
+    "section": "LR",
+    "type": "principle",
+    "logicTags": [
+      "rule_application",
+      "value_judgment"
+    ],
+    "difficulty": 2,
+    "stimulus": "Jurist: The witness's account was obtained after the police threatened to charge her brother unless she cooperated. Her account is probably accurate, since it matches physical evidence found at the scene. Nevertheless, the court should have excluded it from the trial.",
+    "stem": "Which one of the following principles, if valid, most helps to justify the reasoning above?",
+    "choices": {
+      "A": "Testimony should be excluded from a trial only if it was obtained by means of threats against the witness.",
+      "B": "Testimony obtained by means of threats should be excluded from trial regardless of whether the testimony is accurate.",
+      "C": "Testimony that is corroborated by physical evidence found at the scene should be admitted at trial.",
+      "D": "Courts should take into account the circumstances under which testimony was obtained when deciding how much weight to give it.",
+      "E": "Testimony obtained by means of threats is unlikely to be accurate and should therefore be regarded with suspicion."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Reversal: 'only if' makes threats a necessary condition for exclusion, not a reason to exclude.",
+      "B": "The facts are testimony obtained by threats and probable accuracy. B makes threats sufficient for exclusion 'regardless of' accuracy, which is exactly the jurist's 'nevertheless.'",
+      "C": "Opposite: the account is corroborated, so this principle would admit it.",
+      "D": "Wrong force: adjusting the 'weight' given to testimony is not excluding it.",
+      "E": "Shell game: it rests exclusion on inaccuracy, but the jurist concedes the account is probably accurate, and 'suspicion' is not exclusion."
+    },
+    "trapPatterns": {
+      "A": "reversal",
+      "C": "opposite",
+      "D": "wrong_force",
+      "E": "shell_game"
+    },
+    "keyTakeaway": "When the speaker concedes a point that cuts the other way, the principle must explicitly override that point.",
+    "predictionHint": "Coerced testimony is out, accurate or not."
+  },
+  {
+    "id": "lr-principle-wexford-panel-return",
+    "section": "LR",
+    "type": "principle",
+    "logicTags": [
+      "rule_application",
+      "value_judgment"
+    ],
+    "difficulty": 2,
+    "stimulus": "The Wexford Museum purchased a carved panel at a public auction thirty years ago, and the purchase was entirely lawful. It has recently been established that the panel had been smuggled out of its country of origin in violation of that country's laws decades before the auction. The museum has decided to return the panel, and it is right to do so.",
+    "stem": "Which one of the following principles, if valid, most helps to justify the reasoning above?",
+    "choices": {
+      "A": "An institution that acquires an object lawfully is entitled to retain it regardless of the object's earlier history.",
+      "B": "An institution should return an object to its country of origin only if the institution's own acquisition of that object was itself unlawful.",
+      "C": "An institution should return an object that was unlawfully removed from its country of origin, even if it acquired the object lawfully.",
+      "D": "An institution should thoroughly investigate the history of an object before it purchases the object.",
+      "E": "An institution that returns an object to its country of origin should be compensated for the price it originally paid."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Opposite: it would entitle the museum to keep the panel.",
+      "B": "Reversal: 'only if' sets a necessary condition for return that the museum's lawful purchase fails, so it would count against returning the panel.",
+      "C": "The facts are unlawful removal from the country of origin and a lawful later purchase. C makes the first sufficient for return 'even if' the second holds, which yields the judgment that returning the panel is right.",
+      "D": "Wrong force: a duty to investigate before buying says nothing about what to do with an object already owned.",
+      "E": "Shell game: compensation is a separate question from whether return is the right course."
+    },
+    "trapPatterns": {
+      "A": "opposite",
+      "B": "reversal",
+      "D": "wrong_force",
+      "E": "shell_game"
+    },
+    "keyTakeaway": "Look for the principle whose 'even if' clause neutralizes the fact that seems to point the other way.",
+    "predictionHint": "Unlawfully removed objects go back, lawful purchase notwithstanding."
+  },
+  {
+    "id": "lr-principle-software-flaw-disclosure",
+    "section": "LR",
+    "type": "principle",
+    "logicTags": [
+      "rule_application",
+      "weighing_factors"
+    ],
+    "difficulty": 3,
+    "stimulus": "A software company discovered a flaw in its product that could allow intruders to gain access to customers' data. No fix was yet available, and announcing the flaw would alert potential intruders to it. The company announced it immediately anyway, so that customers could disconnect affected systems until a fix was ready. The company acted properly.",
+    "stem": "Which one of the following principles, if valid, most helps to justify the reasoning above?",
+    "choices": {
+      "A": "People exposed to a risk should be told of it whenever knowing enables them to protect themselves, even if disclosure increases the risk for some.",
+      "B": "A company should disclose a flaw in one of its products only after a fix for that flaw has become available to customers.",
+      "C": "A company that discovers a flaw in one of its products should develop and distribute a fix for the flaw as quickly as possible.",
+      "D": "A company is not responsible for harm resulting from a flaw in its product if it has told its customers how to avoid that harm.",
+      "E": "If a company acted properly in disclosing a product flaw, then its customers were able to protect themselves as a result of that disclosure."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "The facts are that disclosure let customers 'disconnect affected systems' (protect themselves) but also alerted intruders (increased risk for some). A makes the first consideration decisive 'even if' the second holds, so announcing immediately was proper.",
+      "B": "Opposite: no fix was available, so this principle would condemn the announcement.",
+      "C": "Wrong force: a duty to fix quickly says nothing about whether to disclose before the fix exists.",
+      "D": "Shell game: not being 'responsible for harm' is a different judgment from having 'acted properly,' and D concerns liability after harm rather than the decision to disclose.",
+      "E": "Reversal: it states a consequence of having acted properly and so cannot establish that the company did."
+    },
+    "trapPatterns": {
+      "B": "opposite",
+      "C": "wrong_force",
+      "D": "shell_game",
+      "E": "reversal"
+    },
+    "keyTakeaway": "When a decision trades one risk against another, the justifying principle must say which consideration wins, and the facts must fall on the winning side.",
+    "predictionHint": "Warn people when warning lets them protect themselves, even at some cost."
+  },
+  {
+    "id": "lr-psa-application-landlord-entry-notice",
+    "section": "LR",
+    "type": "psa_application",
+    "logicTags": [
+      "rule_application",
+      "conditional"
+    ],
+    "difficulty": 1,
+    "stimulus": "Principle: A landlord may enter a tenant's apartment without giving notice only in an emergency that threatens the safety of persons or serious damage to property; in all other cases, the landlord must give the tenant at least 24 hours' notice before entering.",
+    "stem": "Which one of the following judgments conforms most closely to the principle stated above?",
+    "choices": {
+      "A": "A landlord entered an apartment without notice to repair a dripping faucet that the tenant had reported a week earlier.",
+      "B": "A landlord entered an apartment without notice after seeing water pouring from beneath its door into the hallway and stairwell below.",
+      "C": "A landlord gave a tenant 12 hours' notice before entering to conduct a routine annual inspection, reasoning that the tenant would be at home anyway.",
+      "D": "A landlord entered an apartment without notice to show it to a prospective tenant who was able to visit only that afternoon.",
+      "E": "A landlord entered an apartment without notice to retrieve a tool he had left behind during a repair the previous day."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Shell game: a repair is a legitimate reason to enter, but a faucet reported 'a week earlier' is not an emergency, so notice was required.",
+      "B": "Water 'pouring' into the hallway and stairwell threatens serious damage to property, which is the one condition under which entry without notice is permitted. The landlord's action fits the principle exactly.",
+      "C": "Half right: notice was given, but '12 hours' falls short of the required 24, and the tenant's presence is not an exception the principle recognizes.",
+      "D": "Shell game: the prospective tenant's schedule creates urgency, but urgency is not an 'emergency that threatens the safety of persons or serious damage to property.'",
+      "E": "Opposite: retrieving a forgotten tool is a nonemergency entry without any notice, the plainest violation of the principle."
+    },
+    "trapPatterns": {
+      "A": "shell_game",
+      "C": "half_right",
+      "D": "shell_game",
+      "E": "opposite"
+    },
+    "keyTakeaway": "An exception stated with 'only in' is narrow; a case must match its exact terms, not merely be pressing or convenient.",
+    "predictionHint": "No notice is fine only for a genuine emergency."
+  },
+  {
+    "id": "lr-psa-application-journal-critique-response",
+    "section": "LR",
+    "type": "psa_application",
+    "logicTags": [
+      "rule_application",
+      "conditional"
+    ],
+    "difficulty": 2,
+    "stimulus": "Principle: A scholarly journal should publish a critique of an article that it previously published only if the critique's author has first given the article's author an opportunity to respond to the critique, and any response that is made must be published alongside the critique.",
+    "stem": "Which one of the following judgments conforms most closely to the principle stated above?",
+    "choices": {
+      "A": "A journal published a critique together with a response that the journal's editors had solicited from the article's author after accepting the critique.",
+      "B": "A journal published a critique its author had sent to the article's author in advance; that author declined to respond, so the critique appeared alone.",
+      "C": "A journal published a critique whose author had first given the article's author an opportunity to respond, then printed that response in the following issue.",
+      "D": "A journal published a critique without contacting the article's author because the critique concerned only a minor point of methodology.",
+      "E": "A journal published a critique alongside a response written by a colleague of the article's author, whom the critique's author had contacted instead."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Half right: a response appeared alongside the critique, but the opportunity to respond must come from 'the critique's author' and must come 'first,' not from the editors after acceptance.",
+      "B": "The critique's author gave the article's author an advance opportunity to respond, satisfying the first condition. The second condition governs 'any response'; since none was made, publishing the critique alone violates nothing.",
+      "C": "Half right: the opportunity was given, but the response was printed 'in the following issue' rather than 'alongside the critique.'",
+      "D": "Out of scope: the principle contains no exception for minor points, so skipping the opportunity to respond violates it.",
+      "E": "Shell game: the opportunity must go to 'the article's author,' not to a colleague."
+    },
+    "trapPatterns": {
+      "A": "half_right",
+      "C": "half_right",
+      "D": "out_of_scope",
+      "E": "shell_game"
+    },
+    "keyTakeaway": "A condition on 'any response' is satisfied vacuously when there is no response; do not read it as requiring one.",
+    "predictionHint": "Offered a chance to respond, and published whatever response came alongside."
+  },
+  {
+    "id": "lr-psa-application-physician-override-capacity",
+    "section": "LR",
+    "type": "psa_application",
+    "logicTags": [
+      "rule_application",
+      "conditional"
+    ],
+    "difficulty": 3,
+    "stimulus": "Principle: A physician may override a patient's stated treatment preference only when the patient lacks the capacity to understand the consequences of that preference, and even in such a case the physician may override the preference only to the extent necessary to prevent serious harm to the patient.",
+    "stem": "Which one of the following judgments conforms most closely to the principle stated above?",
+    "choices": {
+      "A": "A physician administered a transfusion to a patient who had refused one after calmly explaining that she understood she might die without it.",
+      "B": "A physician, finding a delirious patient refusing all treatment, gave antibiotics for a life-threatening infection and also performed a nonurgent procedure the patient had declined.",
+      "C": "A physician, finding a delirious patient refusing all treatment, administered fluids for severe dehydration but postponed an elective procedure the patient had earlier declined.",
+      "D": "A physician sedated an agitated but lucid patient who kept refusing a routine blood test, reasoning that the refusal was irrational.",
+      "E": "A physician overrode a confused patient's refusal of a bandage change to spare the patient minor discomfort, since the patient could not understand its purpose."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Opposite: the patient understood the consequences, so the first condition fails and the override is forbidden.",
+      "B": "Half right: the patient lacked capacity, and the antibiotics were necessary, but the 'nonurgent procedure' exceeds 'the extent necessary to prevent serious harm.'",
+      "C": "The patient is delirious (lacks capacity), fluids for 'severe dehydration' prevent serious harm, and the physician stopped there by postponing the elective procedure. Both conditions are met and the limit is respected.",
+      "D": "Shell game: 'irrational' is not the same as lacking 'the capacity to understand the consequences,' and the patient is described as lucid; a routine test also does not involve serious harm.",
+      "E": "Half right: the capacity condition is met, but 'minor discomfort' is not 'serious harm,' so the override exceeds what the principle permits."
+    },
+    "trapPatterns": {
+      "A": "opposite",
+      "B": "half_right",
+      "D": "shell_game",
+      "E": "half_right"
+    },
+    "keyTakeaway": "A two-part rule with 'and even then only' requires the case to satisfy the trigger and respect the limit; the best trap satisfies one and not the other.",
+    "predictionHint": "Incapacitated patient, serious harm prevented, nothing extra done."
+  },
+  {
+    "id": "lr-psa-application-official-recusal-ethics-ruling",
+    "section": "LR",
+    "type": "psa_application",
+    "logicTags": [
+      "rule_application",
+      "conditional"
+    ],
+    "difficulty": 3,
+    "stimulus": "Principle: A public official should recuse himself or herself from any decision from which the official or a member of the official's immediate family stands to gain financially. A merely speculative future gain does not require recusal, but an official who is uncertain whether a potential gain is speculative should obtain an ethics ruling before participating.",
+    "stem": "Which one of the following judgments conforms most closely to the principle stated above?",
+    "choices": {
+      "A": "An official whose spouse owns shares in a company bidding on a contract helped award it, since the shares were few and the gain trivial.",
+      "B": "An official unsure whether a zoning decision would affect her brother's property value voted on it anyway, reasoning that any effect was probably speculative.",
+      "C": "An official who stood to gain personally from a licensing decision obtained an ethics ruling and participated after the ruling approved his doing so.",
+      "D": "An official who could not determine whether his sister's consulting firm would benefit from a proposed regulation requested an ethics ruling before taking part.",
+      "E": "An official voted on a stadium subsidy although his daughter's company held the concessions contract there, because the contract predated his election."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Shell game: a 'small' gain is still a definite gain to immediate family, not a 'speculative' one, so recusal was required.",
+      "B": "Half right: the official correctly recognized uncertainty, but the principle requires an ethics ruling in that case, not the official's own guess that the gain was 'probably speculative.'",
+      "C": "Half right: the ethics-ruling procedure applies only to uncertain cases; an official who definitely stands to gain 'should recuse,' and a ruling does not substitute for that.",
+      "D": "The official is uncertain whether a potential gain to immediate family (his sister) is speculative, which is exactly the situation in which the principle directs obtaining an ethics ruling before participating.",
+      "E": "Out of scope: when the contract was signed is irrelevant to the principle; the daughter's definite financial stake required recusal."
+    },
+    "trapPatterns": {
+      "A": "shell_game",
+      "B": "half_right",
+      "C": "half_right",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "Match the case to the right branch of a multi-branch rule: a definite gain, a speculative gain, and an uncertain gain each call for a different action.",
+    "predictionHint": "Uncertain about the gain, so get the ruling first."
+  },
+  {
+    "id": "lr-evaluate-advertising-campaign-sales",
+    "section": "LR",
+    "type": "evaluate",
+    "logicTags": [
+      "causation",
+      "comparison"
+    ],
+    "difficulty": 2,
+    "stimulus": "Marketing director: Our company's sales rose 15 percent in the six months after we launched our new advertising campaign. The campaign was expensive, but these results show that it was worth the cost, since it clearly brought in substantial new business.",
+    "stem": "Which one of the following would be most useful to know in evaluating the argument?",
+    "choices": {
+      "A": "Whether the sales of competing companies that ran no new advertising rose by a comparable amount over the same six months",
+      "B": "Whether the company's sales did in fact rise by a full 15 percent during the six months after the campaign was launched",
+      "C": "Whether the company plans to continue running the advertising campaign for an additional six months",
+      "D": "Whether the 15 percent increase was the largest six-month increase in sales in the company's entire history",
+      "E": "Whether customers who made purchases during the six months found the campaign's advertisements entertaining"
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "The argument attributes the rise to the campaign. If competitors without new advertising rose comparably, the increase was probably market-wide and the campaign gets no credit; if they did not, the campaign is the likely cause. The two answers push in opposite directions.",
+      "B": "Premise booster: confirming the premise does not test the inference from the sales rise to the campaign's effect.",
+      "C": "Out of scope: future plans do not bear on whether the past campaign caused the increase.",
+      "D": "Wrong force: how the increase ranks historically says nothing about what caused it.",
+      "E": "Shell game: whether customers were entertained is a reaction to the advertisements, not evidence about whether they drove purchases."
+    },
+    "trapPatterns": {
+      "B": "premise_booster",
+      "C": "out_of_scope",
+      "D": "wrong_force",
+      "E": "shell_game"
+    },
+    "keyTakeaway": "For a before-and-after causal claim, the most useful question asks what happened to a comparable group that did not get the treatment.",
+    "predictionHint": "Did everyone's sales go up?"
+  },
+  {
+    "id": "lr-evaluate-brevik-house-building",
+    "section": "LR",
+    "type": "evaluate",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 3,
+    "stimulus": "Historian: Tax rolls from the town of Brevik show that the number of new houses built each decade fell steadily during the century before the plague arrived. Since people build new houses when new households are being formed, Brevik's population must have been declining well before the plague.",
+    "stem": "Which one of the following would be most useful to know in evaluating the argument?",
+    "choices": {
+      "A": "Whether the plague caused a greater decline in Brevik's population than in the populations of neighboring towns",
+      "B": "Whether the tax rolls of Brevik from the century before the plague have survived intact",
+      "C": "Whether, during that century, Brevik's authorities restricted new construction within the town walls",
+      "D": "Whether the houses built in Brevik during that century were constructed primarily for wealthy residents",
+      "E": "Whether most of the new houses in Brevik were built by couples who had recently married"
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Out of scope: what the plague did afterward does not bear on the population trend before it.",
+      "B": "Wrong force: even perfectly preserved rolls leave open whether fewer houses means fewer households, which is the inference at issue.",
+      "C": "The argument reads fewer new houses as fewer new households. If construction was restricted, the decline in building reflects regulation rather than population and the argument collapses; if it was not, the inference stands. The answers cut opposite ways.",
+      "D": "Out of scope: the wealth of those who built does not affect whether declining construction tracks declining population.",
+      "E": "Premise booster: it elaborates the premise that house building accompanies household formation but does not test whether the decline in building had another cause."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "wrong_force",
+      "D": "out_of_scope",
+      "E": "premise_booster"
+    },
+    "keyTakeaway": "When an argument uses one quantity as a proxy for another, the most useful question asks whether something else could have moved the proxy.",
+    "predictionHint": "Was there some other reason people stopped building?"
+  },
+  {
+    "id": "lr-evaluate-vellman-orchid-ban",
+    "section": "LR",
+    "type": "evaluate",
+    "logicTags": [
+      "causation",
+      "definition_scope"
+    ],
+    "difficulty": 3,
+    "stimulus": "Conservationist: Five years ago, the collection of the rare Vellman orchid from the wild was banned. Yet the number of Vellman orchids sold each year in the country's flower markets is as high as it was before the ban. The ban, therefore, has failed to protect wild populations of the orchid.",
+    "stem": "Which one of the following would be most useful to know in evaluating the argument?",
+    "choices": {
+      "A": "Whether the penalties for violating the ban on collecting the Vellman orchid are severe enough to deter most would-be collectors",
+      "B": "Whether the ban on collecting the Vellman orchid was supported by most of the country's botanists",
+      "C": "How many people are employed in selling orchids in the country's flower markets",
+      "D": "Whether the Vellman orchid is more difficult to cultivate than other orchids sold in the markets",
+      "E": "Whether the Vellman orchids now sold in flower markets are grown from cultivated stock rather than collected from the wild"
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Wrong force: deterrence bears only indirectly on what is happening; strong penalties could still be evaded, and weak penalties could still go unexploited, so neither answer settles where the orchids come from.",
+      "B": "True but irrelevant: expert support for the ban does not tell us whether it has worked.",
+      "C": "Out of scope: the size of the orchid trade workforce has no bearing on the origin of the orchids sold.",
+      "D": "Shell game: difficulty of cultivation hints at origin but does not establish it; difficult plants can still be cultivated commercially.",
+      "E": "The argument equates steady market sales with continued wild collection. If the orchids sold are cultivated, sales can stay high while wild populations are protected, and the argument fails; if they are wild-collected, the argument is strongly supported."
+    },
+    "trapPatterns": {
+      "A": "wrong_force",
+      "B": "true_but_irrelevant",
+      "C": "out_of_scope",
+      "D": "shell_game"
+    },
+    "keyTakeaway": "When an argument treats a market statistic as a proxy for an illegal activity, ask whether the market could be supplied another way.",
+    "predictionHint": "Where are the orchids in the markets coming from?"
+  },
+  {
+    "id": "lr-evaluate-menu-calorie-labels",
+    "section": "LR",
+    "type": "evaluate",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 4,
+    "stimulus": "Columnist: Since the law requiring chain restaurants to post calorie counts on their menus took effect, the average number of calories in orders placed at those restaurants has fallen by 5 percent. Clearly the posted counts have led diners to choose lower-calorie meals than they otherwise would have chosen.",
+    "stem": "Which one of the following would be most useful to know in evaluating the argument?",
+    "choices": {
+      "A": "Whether most diners at chain restaurants are aware that the posting of calorie counts is required by law",
+      "B": "Whether chain restaurants reformulated or replaced their highest-calorie menu items after the law took effect",
+      "C": "Whether the calorie counts posted by chain restaurants are accurate within a reasonable margin of error",
+      "D": "Whether diners who saw the posted calorie counts report that the counts influenced their choices",
+      "E": "Whether diners at chain restaurants tend to be more health-conscious than diners at independent restaurants not covered by the law"
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Out of scope: why the counts are posted has no bearing on whether they changed choices.",
+      "B": "The conclusion is that diners chose differently. If restaurants cut calories from the items themselves, the average per order can fall 5 percent with diners choosing exactly as before, which undermines the argument; if menus were unchanged, the drop must reflect different choices, which supports it.",
+      "C": "True but irrelevant: diners respond to the numbers they see, so the inference about their choices does not depend on whether those numbers are accurate.",
+      "D": "Wrong force: self-reports about influence are weak evidence either way, and even diners who credit the counts could have ordered the same items if the items simply had fewer calories, so this question does not settle the alternative explanation.",
+      "E": "Shell game: a standing difference between diner populations cannot explain a change over time at chain restaurants."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "C": "true_but_irrelevant",
+      "D": "wrong_force",
+      "E": "shell_game"
+    },
+    "keyTakeaway": "When a conclusion attributes an average change to people's choices, ask whether the options themselves changed.",
+    "predictionHint": "Did the food change, or did the choices?"
+  }
+]

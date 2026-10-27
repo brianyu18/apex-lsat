@@ -1,0 +1,2494 @@
+[
+  {
+    "id": "lr-most-strongly-supported-kelso-volcanic-soil",
+    "section": "LR",
+    "type": "most_strongly_supported",
+    "logicTags": [],
+    "difficulty": 1,
+    "stimulus": "Soil scientist: Soils derived from recently deposited volcanic ash are unusually rich in the minerals that crops need, but they drain so quickly that they retain little water during dry periods. Farmers in the Kelso valley, whose soils are derived from volcanic ash deposited only a few centuries ago, achieve high yields in years of regular rainfall. In the past decade, however, the valley has experienced three growing seasons with almost no rain.",
+    "stem": "Which one of the following is most strongly supported by the information above?",
+    "choices": {
+      "A": "Soils derived from volcanic ash cannot support crops in regions that receive little rainfall.",
+      "B": "Crop yields in the Kelso valley were probably lower in the recent dry seasons than in years of regular rainfall.",
+      "C": "Farmers in the Kelso valley could have maintained their yields in the dry seasons by installing irrigation systems.",
+      "D": "Any soil that retains little water during dry periods is derived from volcanic ash deposited within the past few centuries.",
+      "E": "The Kelso valley's soils are richer in minerals than any other soils in the region."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Extreme. The passage says such soils retain little water in dry periods, not that they 'cannot support crops' anywhere rainfall is low.",
+      "B": "Correct. Kelso's soils retain little water in dry periods, and high yields are tied to 'years of regular rainfall.' Three nearly rainless seasons therefore probably produced lower yields.",
+      "C": "Out of scope. Irrigation is never mentioned; nothing tells us whether it was available or would have worked.",
+      "D": "Reversal. The passage says volcanic soils drain quickly; it does not say that 'any' quick-draining soil is volcanic.",
+      "E": "Comparison shift. 'Richer than any other soils in the region' compares Kelso with neighbors the passage never discusses."
+    },
+    "trapPatterns": {
+      "A": "extreme",
+      "C": "out_of_scope",
+      "D": "reversal",
+      "E": "comparison_shift"
+    },
+    "keyTakeaway": "In MSS, combine the general property with the specific case and claim only what the hedge ('probably') allows.",
+    "predictionHint": "Quick-draining soil plus no rain means those dry seasons probably had worse yields."
+  },
+  {
+    "id": "lr-most-strongly-supported-loanword-adaptation",
+    "section": "LR",
+    "type": "most_strongly_supported",
+    "logicTags": [],
+    "difficulty": 1,
+    "stimulus": "Linguist: When speakers of one language borrow a word from another, they typically adapt its pronunciation to the sound patterns of their own language. Words borrowed long ago have usually been adapted so thoroughly that speakers no longer recognize them as foreign. Recent borrowings, by contrast, often retain sounds that do not otherwise occur in the borrowing language, and speakers tend to perceive such words as foreign.",
+    "stem": "The statements above, if true, most strongly support which one of the following?",
+    "choices": {
+      "A": "Every word that contains a sound not otherwise found in a language was borrowed into that language recently.",
+      "B": "Speakers adapt the pronunciation of a borrowed word only after they have ceased to perceive it as foreign.",
+      "C": "Languages that borrow many words eventually lose some of their own distinctive sound patterns.",
+      "D": "A word that speakers perceive as foreign is more likely to be a recent borrowing than a borrowing from long ago.",
+      "E": "Speakers borrow words more frequently from languages with similar sound patterns than from languages with dissimilar ones."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Extreme. 'Every' and 'recently' overreach; the passage says recent borrowings 'often' retain such sounds, not that every such sound marks a recent borrowing.",
+      "B": "Reversal. Adaptation leads to words no longer seeming foreign; this choice makes ceasing to seem foreign the precondition for adaptation.",
+      "C": "Out of scope. The passage concerns how borrowed words change, not whether the borrowing language's own sound patterns erode.",
+      "D": "Correct. Old borrowings are 'usually' no longer recognized as foreign, while recent ones 'tend' to be perceived as foreign, so a word perceived as foreign is more likely recent.",
+      "E": "Comparison shift. Nothing addresses how often speakers borrow from one kind of language versus another."
+    },
+    "trapPatterns": {
+      "A": "extreme",
+      "B": "reversal",
+      "C": "out_of_scope",
+      "E": "comparison_shift"
+    },
+    "keyTakeaway": "Two hedged tendencies pointing in opposite directions support a 'more likely' comparison, never an 'every.'",
+    "predictionHint": "Old loans sound native, new loans sound foreign; so sounding foreign points toward a recent loan."
+  },
+  {
+    "id": "lr-most-strongly-supported-extended-warranties",
+    "section": "LR",
+    "type": "most_strongly_supported",
+    "logicTags": [
+      "mental_state_v_reality"
+    ],
+    "difficulty": 1,
+    "stimulus": "Consumer advocate: Manufacturers of household appliances offer extended warranties at the point of sale. The price of an extended warranty is typically set well above the expected cost to the manufacturer of the repairs it covers, and most appliances never require a covered repair during the extended period. Yet surveys show that most purchasers who buy extended warranties believe the warranty is likely to save them money.",
+    "stem": "Which one of the following is most strongly supported by the information above?",
+    "choices": {
+      "A": "Most purchasers of extended warranties hold a belief about those warranties that is probably mistaken.",
+      "B": "No purchaser of an extended warranty ever recovers in covered repairs more than the warranty's price.",
+      "C": "Manufacturers set warranty prices in order to exploit purchasers' ignorance of repair costs.",
+      "D": "Extended warranties are more profitable for manufacturers than the sale of the appliances themselves.",
+      "E": "Purchasers who believe a warranty will save them money are more likely than others to need a covered repair."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. Prices exceed expected repair costs and most appliances need no covered repair, so for most buyers the warranty is unlikely to save money; yet most buyers believe it is likely to.",
+      "B": "Extreme. 'No purchaser ever' is contradicted by 'most appliances never require' a repair, which leaves room for some that do.",
+      "C": "Out of scope. Manufacturers' motives are never discussed.",
+      "D": "Comparison shift. Nothing compares warranty profits with appliance-sale profits.",
+      "E": "Reversal. The passage links belief to purchase, not to the likelihood of needing a repair; no such correlation is given."
+    },
+    "trapPatterns": {
+      "B": "extreme",
+      "C": "out_of_scope",
+      "D": "comparison_shift",
+      "E": "reversal"
+    },
+    "keyTakeaway": "When facts about reality and facts about beliefs diverge, the supported inference is that the belief is probably mistaken.",
+    "predictionHint": "Warranties rarely pay off, but most buyers think they will; so most buyers are probably wrong."
+  },
+  {
+    "id": "lr-most-strongly-supported-tarn-shell-middens",
+    "section": "LR",
+    "type": "most_strongly_supported",
+    "logicTags": [],
+    "difficulty": 1,
+    "stimulus": "Archaeologist: Shell middens, the refuse heaps left by ancient coastal communities, consist mostly of discarded mollusk shells. The species of mollusk found in a midden reflect which species were available in nearby waters when that part of the midden formed. In the middens along the Tarn estuary, the lowest and therefore oldest layers contain almost exclusively oyster shells, whereas the uppermost layers contain almost exclusively mussel shells.",
+    "stem": "The statements above, if true, most strongly support which one of the following?",
+    "choices": {
+      "A": "The waters near the Tarn estuary became too cold for oysters to survive by the time the uppermost layers formed.",
+      "B": "Mussel shells are found only in the uppermost layers of shell middens along coasts.",
+      "C": "The people who formed the Tarn middens preferred the taste of mussels to that of oysters.",
+      "D": "Oysters were more abundant in the Tarn estuary than in any other estuary of the region when the lowest layers formed.",
+      "E": "The kinds of mollusks available in the waters near the Tarn estuary probably changed over the period during which the middens formed."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Extreme. Nothing in the passage mentions temperature or says oysters could no longer 'survive'; the change in availability is given no cause.",
+      "B": "Extreme. 'Only' generalizes to all coastal middens from one estuary's pattern.",
+      "C": "Out of scope. Taste preferences are never mentioned, and the passage ties shell species to availability, not preference.",
+      "D": "Comparison shift. 'More abundant than in any other estuary' compares the Tarn with places the passage never discusses.",
+      "E": "Correct. Midden species reflect what was available when each layer formed, and the oldest and newest layers differ sharply, so availability probably changed."
+    },
+    "trapPatterns": {
+      "A": "extreme",
+      "B": "extreme",
+      "C": "out_of_scope",
+      "D": "comparison_shift"
+    },
+    "keyTakeaway": "Apply the stated rule ('shells reflect availability') to the observed change and stop there; do not supply a cause the passage omits.",
+    "predictionHint": "Different shells over time plus 'shells track availability' means availability changed."
+  },
+  {
+    "id": "lr-most-strongly-supported-free-books-reading",
+    "section": "LR",
+    "type": "most_strongly_supported",
+    "logicTags": [],
+    "difficulty": 1,
+    "stimulus": "Children who are read to regularly before they enter school typically begin school with larger vocabularies than children who are not. Vocabulary size at school entry is one of the strongest predictors of reading ability in the third grade. Nevertheless, several programs that distributed free books to families with young children produced no measurable increase in how often parents read to their children.",
+    "stem": "Which one of the following is most strongly supported by the information above?",
+    "choices": {
+      "A": "Children whose parents do not read to them will not become able readers by the third grade.",
+      "B": "Parents who do not read to their children are generally unaware of the benefits of doing so.",
+      "C": "Providing families with free books does not by itself ensure that parents will read to their children more often.",
+      "D": "Children with strong reading ability in the third grade were read to regularly before they entered school.",
+      "E": "Vocabulary size at school entry is a stronger predictor of third-grade reading ability than any other factor."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Extreme. 'Will not become able readers' turns a predictor ('one of the strongest') into a guarantee.",
+      "B": "Out of scope. Parents' awareness of benefits is never discussed; the programs' failure is not explained.",
+      "C": "Correct. Several free-book programs produced 'no measurable increase' in reading frequency, so free books alone do not ensure more reading.",
+      "D": "Reversal. Being read to predicts later ability; this choice infers being read to from later ability.",
+      "E": "Comparison shift. 'One of the strongest' predictors is not 'stronger than any other.'"
+    },
+    "trapPatterns": {
+      "A": "extreme",
+      "B": "out_of_scope",
+      "D": "reversal",
+      "E": "comparison_shift"
+    },
+    "keyTakeaway": "A reported null result supports exactly one modest claim: the intervention alone did not produce the effect.",
+    "predictionHint": "Giving books did not change reading frequency, so books alone are not enough."
+  },
+  {
+    "id": "lr-most-strongly-supported-lithium-recycling-volume",
+    "section": "LR",
+    "type": "most_strongly_supported",
+    "logicTags": [],
+    "difficulty": 2,
+    "stimulus": "Engineer: Recycling the lithium in spent batteries currently costs more than mining new lithium, so almost no battery lithium is recycled. The cost of recycling falls sharply as the volume of batteries processed increases, because the largest expenses are for equipment that must be built regardless of volume. The number of batteries reaching the end of their useful life is expected to grow tenfold over the next decade.",
+    "stem": "Which one of the following is most strongly supported by the information above?",
+    "choices": {
+      "A": "Within a decade, recycling lithium will be less expensive than mining new lithium.",
+      "B": "Governments will need to subsidize battery recycling until the volume of spent batteries increases.",
+      "C": "The cost of building recycling equipment will fall as the number of spent batteries grows.",
+      "D": "The economic case for recycling battery lithium is likely to become stronger over the next decade than it is now.",
+      "E": "Recyclers that currently process the largest volumes of batteries are profitable, whereas smaller ones are not."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Extreme. Falling recycling costs do not establish that they 'will be less' than mining costs, which could also change.",
+      "B": "Out of scope. Subsidies and what governments 'need' to do are never raised.",
+      "C": "Reversal. Volume lowers the cost per unit recycled by spreading fixed equipment costs; it does not lower the cost of building the equipment itself.",
+      "D": "Correct. Recycling costs fall sharply with volume, and volume is expected to grow tenfold, so the case for recycling is likely to strengthen.",
+      "E": "Comparison shift. Nothing is said about the profitability of particular recyclers, large or small."
+    },
+    "trapPatterns": {
+      "A": "extreme",
+      "B": "out_of_scope",
+      "C": "reversal",
+      "E": "comparison_shift"
+    },
+    "keyTakeaway": "A trend plus a mechanism supports 'likely to improve,' not a specific crossover point.",
+    "predictionHint": "More volume, lower per-unit cost; so recycling should look better economically in ten years."
+  },
+  {
+    "id": "lr-most-strongly-supported-small-claims-arguments",
+    "section": "LR",
+    "type": "most_strongly_supported",
+    "logicTags": [],
+    "difficulty": 2,
+    "stimulus": "Legal analyst: In this jurisdiction, parties in small-claims court may not be represented by lawyers. Judges in small-claims court are nonetheless required to apply the same substantive law that applies in ordinary civil courts, where parties are usually represented. Studies find that unrepresented parties in ordinary civil courts frequently fail to raise legal arguments that would have benefited them, even when those arguments are well established.",
+    "stem": "The statements above, if true, most strongly support which one of the following?",
+    "choices": {
+      "A": "Some parties in small-claims court probably fail to raise legal arguments that would benefit them.",
+      "B": "Parties in small-claims court never receive outcomes as favorable as those they would receive in ordinary civil courts.",
+      "C": "Judges in small-claims court should be permitted to raise legal arguments on behalf of the parties before them.",
+      "D": "Parties who fail to raise well-established legal arguments in civil courts are usually unrepresented.",
+      "E": "Unrepresented parties are more likely to lose in small-claims court than they are in ordinary civil courts."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. All small-claims parties are unrepresented, the same law applies, and unrepresented parties 'frequently' miss beneficial arguments; so some small-claims parties probably do too.",
+      "B": "Extreme. 'Never' is unsupported; the passage addresses missed arguments, not every outcome.",
+      "C": "Out of scope. A recommendation about what judges 'should' be permitted to do goes beyond the stated facts.",
+      "D": "Reversal. Unrepresented parties often miss arguments; it does not follow that those who miss arguments are usually unrepresented.",
+      "E": "Comparison shift. No comparison of loss rates between the two courts is given."
+    },
+    "trapPatterns": {
+      "B": "extreme",
+      "C": "out_of_scope",
+      "D": "reversal",
+      "E": "comparison_shift"
+    },
+    "keyTakeaway": "Transfer a finding about a group to a setting where everyone is in that group, keeping the original hedge.",
+    "predictionHint": "Everyone in small claims is unrepresented; unrepresented people often miss arguments; so some small-claims parties miss arguments."
+  },
+  {
+    "id": "lr-most-strongly-supported-vane-wax-models",
+    "section": "LR",
+    "type": "most_strongly_supported",
+    "logicTags": [],
+    "difficulty": 2,
+    "stimulus": "Art historian: Renaissance bronzes were cast using molds made from a wax model, and the wax model was destroyed in the casting process. A sculptor who wished to produce several casts of one work therefore had to prepare a new wax model for each cast. Workshop records show that the sculptor Albrecht Vane produced at least four casts of his Seated Hunter, yet only one wax model is listed among the materials purchased for that work.",
+    "stem": "Which one of the following is most strongly supported by the information above?",
+    "choices": {
+      "A": "Vane could not have produced the four casts of Seated Hunter himself.",
+      "B": "The workshop records of purchases are probably not a complete account of the materials used for Seated Hunter.",
+      "C": "Vane's assistants, rather than Vane, prepared most of the wax models used in his workshop.",
+      "D": "Any sculptor who purchased only one wax model for a work produced only one cast of it.",
+      "E": "Vane produced more casts of Seated Hunter than of any other work he created."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Extreme. Who did the casting is never addressed; the puzzle concerns materials, not labor.",
+      "B": "Correct. Four casts required at least four wax models, but only one is listed, so the purchase records probably omit some materials.",
+      "C": "Out of scope. Assistants are never mentioned.",
+      "D": "Reversal. The passage shows that one listed model did not limit Vane to one cast; this choice asserts the opposite as a rule.",
+      "E": "Comparison shift. Nothing compares Seated Hunter with Vane's other works."
+    },
+    "trapPatterns": {
+      "A": "extreme",
+      "C": "out_of_scope",
+      "D": "reversal",
+      "E": "comparison_shift"
+    },
+    "keyTakeaway": "When a stated rule conflicts with a record, the supported conclusion is that the record is incomplete, not that the rule was broken.",
+    "predictionHint": "Four casts need four models; one is listed; the list is missing something."
+  },
+  {
+    "id": "lr-most-strongly-supported-dorrin-street-trees",
+    "section": "LR",
+    "type": "most_strongly_supported",
+    "logicTags": [],
+    "difficulty": 2,
+    "stimulus": "Urban forester: Street trees reduce summer air temperatures in cities by shading pavement and releasing water vapor. Young trees provide little shade, and most of a tree's cooling effect is reached only after twenty years of growth. In Dorrin, half of the mature street trees were lost to disease over the past five years, and the city has replaced each lost tree with a sapling.",
+    "stem": "The statements above, if true, most strongly support which one of the following?",
+    "choices": {
+      "A": "Dorrin will experience higher summer temperatures in each of the next twenty years than it did before the disease.",
+      "B": "The saplings planted in Dorrin are likely to be lost to the same disease that killed the mature trees.",
+      "C": "Most of the cooling that Dorrin's saplings will eventually provide will come from shading rather than from releasing water vapor.",
+      "D": "The disease that killed Dorrin's mature trees was spread by higher temperatures caused by the loss of shade.",
+      "E": "Dorrin's street trees probably provide less summer cooling now than they did five years ago."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Extreme. 'Each of the next twenty years' and 'higher temperatures' go beyond a claim about the trees' cooling contribution; weather varies.",
+      "B": "Out of scope. The saplings' susceptibility to disease is never discussed.",
+      "C": "Comparison shift. The passage names two cooling mechanisms without ranking their contributions.",
+      "D": "Reversal. The disease caused the loss of shade; this choice makes lost shade the cause of the disease.",
+      "E": "Correct. Half the mature trees are gone, replaced by saplings that provide little shade for about twenty years, so the trees' total cooling is probably lower now."
+    },
+    "trapPatterns": {
+      "A": "extreme",
+      "B": "out_of_scope",
+      "C": "comparison_shift",
+      "D": "reversal"
+    },
+    "keyTakeaway": "A replacement that does not yet deliver the original's function supports a modest 'less now than before' claim.",
+    "predictionHint": "Big trees cool, saplings do not; half the big trees are gone; less cooling now."
+  },
+  {
+    "id": "lr-most-strongly-supported-eyewitness-confidence",
+    "section": "LR",
+    "type": "most_strongly_supported",
+    "logicTags": [
+      "mental_state_v_reality"
+    ],
+    "difficulty": 2,
+    "stimulus": "Psychologist: Eyewitnesses who express high confidence in an identification at the moment they first make it are considerably more accurate, on average, than witnesses who express low confidence at that moment. Over the following weeks, however, witnesses' confidence tends to rise regardless of whether their identification was accurate, particularly when they learn that a suspect has been charged. Jurors typically see a witness only at trial, months after the identification.",
+    "stem": "Which one of the following is most strongly supported by the information above?",
+    "choices": {
+      "A": "Jurors cannot distinguish accurate eyewitness identifications from inaccurate ones.",
+      "B": "Witnesses who learn that a suspect has been charged usually become convinced that the suspect is guilty.",
+      "C": "A witness's confidence at trial is a less reliable guide to accuracy than the witness's initial confidence.",
+      "D": "Witnesses whose identifications were accurate become more confident over time than witnesses whose identifications were inaccurate.",
+      "E": "Most witnesses who express low confidence initially have made inaccurate identifications."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Extreme. 'Cannot distinguish' overstates; jurors may have other evidence, and the passage addresses only confidence as a cue.",
+      "B": "Out of scope. Beliefs about guilt are never mentioned, only confidence in the identification.",
+      "C": "Correct. Initial confidence tracks accuracy, but later confidence rises 'regardless' of accuracy, so confidence months later at trial is a weaker guide.",
+      "D": "Opposite. The passage says confidence rises 'regardless of whether' the identification was accurate, which denies the difference this choice asserts.",
+      "E": "Comparison shift. Low-confidence witnesses are less accurate on average than high-confidence ones; that does not make most of them inaccurate."
+    },
+    "trapPatterns": {
+      "A": "extreme",
+      "B": "out_of_scope",
+      "D": "opposite",
+      "E": "comparison_shift"
+    },
+    "keyTakeaway": "A signal that is informative at one time and then drifts 'regardless' of truth becomes less reliable later; say exactly that.",
+    "predictionHint": "Early confidence means something; late confidence inflates for everyone; so trial confidence is a weaker cue."
+  },
+  {
+    "id": "lr-most-strongly-supported-iron-meteorite-finds",
+    "section": "LR",
+    "type": "most_strongly_supported",
+    "logicTags": [
+      "sampling"
+    ],
+    "difficulty": 2,
+    "stimulus": "Planetary scientist: Meteorites that reach Earth's surface are classified as falls if they were observed falling and as finds if they were discovered later. Iron meteorites make up only about five percent of falls but more than a third of finds. Iron meteorites resist weathering far better than stony meteorites do, and they are easily distinguished from ordinary terrestrial rocks, whereas many stony meteorites are not.",
+    "stem": "Which one of the following is most strongly supported by the information above?",
+    "choices": {
+      "A": "The proportion of iron meteorites among finds overstates their proportion among all meteorites that reach Earth.",
+      "B": "Nearly all stony meteorites that reach Earth's surface weather away before they are discovered.",
+      "C": "Iron meteorites originate from a different kind of parent body than stony meteorites do.",
+      "D": "Meteorites that are easily distinguished from terrestrial rocks are more likely to be observed falling than those that are not.",
+      "E": "More iron meteorites than stony meteorites have been discovered on Earth's surface."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. Irons survive weathering and are easy to recognize, so they are overrepresented among finds; falls, which do not depend on later discovery, show irons at only five percent.",
+      "B": "Extreme. 'Nearly all' is unsupported; stony meteorites still make up most finds.",
+      "C": "Out of scope. The origin of meteorites is never discussed.",
+      "D": "Reversal. Recognizability affects whether a meteorite is found later, not whether its fall is observed.",
+      "E": "Comparison shift. 'More than a third' of finds are iron, which leaves stony meteorites as the majority of finds."
+    },
+    "trapPatterns": {
+      "B": "extreme",
+      "C": "out_of_scope",
+      "D": "reversal",
+      "E": "comparison_shift"
+    },
+    "keyTakeaway": "When one sample depends on survival and recognition, the facts support that this sample is biased, not any claim about the true totals.",
+    "predictionHint": "Irons survive and stand out, so finds overcount irons relative to what actually lands."
+  },
+  {
+    "id": "lr-most-strongly-supported-grade-inflation-ratings",
+    "section": "LR",
+    "type": "most_strongly_supported",
+    "logicTags": [],
+    "difficulty": 2,
+    "stimulus": "Professor: At our university, instructors are evaluated partly on the ratings students give them at the end of each course. Studies at comparable universities show that students give higher ratings to instructors who assign higher grades, independent of how much the students learned. Average grades at our university have risen steadily over the past fifteen years, while scores on standardized exit examinations have remained flat.",
+    "stem": "The statements above, if true, most strongly support which one of the following?",
+    "choices": {
+      "A": "Instructors at the university assign high grades solely in order to receive favorable student ratings.",
+      "B": "The rise in average grades at the university is probably not attributable to improved student learning.",
+      "C": "Students at the university are less able to judge instructional quality than students at comparable universities.",
+      "D": "Standardized exit examinations measure student learning more accurately than course grades do.",
+      "E": "Instructors who receive favorable evaluations subsequently assign higher grades than they did before."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Extreme. 'Solely' attributes a single motive the passage never establishes.",
+      "B": "Correct. Grades rose while exit-exam scores stayed flat, so the grade increase probably does not reflect improved learning.",
+      "C": "Out of scope. Nothing compares the judgment of this university's students with others'.",
+      "D": "Comparison shift. The passage uses exam scores as evidence but never ranks exams against grades for accuracy.",
+      "E": "Reversal. The studies show grades influence ratings; this choice makes ratings influence later grades."
+    },
+    "trapPatterns": {
+      "A": "extreme",
+      "C": "out_of_scope",
+      "D": "comparison_shift",
+      "E": "reversal"
+    },
+    "keyTakeaway": "A rising measure paired with a flat independent measure supports 'probably not due to' the shared cause, not a motive.",
+    "predictionHint": "Grades up, learning flat; so grades are not rising because students learn more."
+  },
+  {
+    "id": "lr-most-strongly-supported-cod-minimum-size",
+    "section": "LR",
+    "type": "most_strongly_supported",
+    "logicTags": [],
+    "difficulty": 2,
+    "stimulus": "Fisheries biologist: Commercial trawlers in the Northern Shelf fishery are permitted to land cod only above a certain minimum size, and smaller cod caught in their nets must be returned to the sea. Most cod returned in this way do not survive. Over the past thirty years, the average size at which Northern Shelf cod reach maturity has declined markedly, and cod that mature at smaller sizes produce fewer eggs.",
+    "stem": "Which one of the following is most strongly supported by the information above?",
+    "choices": {
+      "A": "The minimum-size rule is the cause of the decline in the size at which Northern Shelf cod mature.",
+      "B": "Trawlers in the Northern Shelf fishery should be required to use nets that allow small cod to escape.",
+      "C": "Cod that produce fewer eggs tend to mature at smaller sizes than cod that produce more eggs.",
+      "D": "The minimum-size rule has not prevented the deaths of many cod smaller than the minimum size.",
+      "E": "Northern Shelf cod now produce fewer eggs in total than cod in fisheries that have no minimum-size rule."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Extreme. The passage reports the rule and the decline side by side without saying the rule 'is the cause.'",
+      "B": "Out of scope. A policy recommendation about what 'should' be required goes beyond the facts.",
+      "C": "Reversal. Smaller maturation size leads to fewer eggs; this choice runs the relationship from egg count back to size.",
+      "D": "Correct. Small cod must be returned, and 'most' returned cod die, so the rule has not kept many undersized cod from dying.",
+      "E": "Comparison shift. No other fishery's egg production is mentioned."
+    },
+    "trapPatterns": {
+      "A": "extreme",
+      "B": "out_of_scope",
+      "C": "reversal",
+      "E": "comparison_shift"
+    },
+    "keyTakeaway": "The safest MSS answer often restates a consequence of two adjacent facts; the tempting one invents the causal story.",
+    "predictionHint": "Returned small cod mostly die, so the rule does not save them."
+  },
+  {
+    "id": "lr-most-strongly-supported-harlan-fund-revenue",
+    "section": "LR",
+    "type": "most_strongly_supported",
+    "logicTags": [
+      "quantifiers"
+    ],
+    "difficulty": 3,
+    "stimulus": "Most companies that received funding from the Harlan venture fund were founded by people who had previously started at least one other company. Every Harlan-funded company founded by such experienced founders had revenue within its first year of operation. Some Harlan-funded companies, however, had no revenue at all in their first year, and the fund's managers regard first-year revenue as the best early sign that a company will survive.",
+    "stem": "The statements above, if true, most strongly support which one of the following?",
+    "choices": {
+      "A": "Every Harlan-funded company that had revenue in its first year was founded by an experienced founder.",
+      "B": "Most companies founded by experienced founders survive their first year of operation.",
+      "C": "Harlan-funded companies founded by experienced founders are more likely to survive than those founded by first-time founders.",
+      "D": "Harlan's managers fund a company only if its founders have previously started another company.",
+      "E": "Most companies that received Harlan funding had revenue within their first year of operation."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Reversal. Experienced founders guaranteed revenue; this choice makes revenue guarantee experienced founders, which the passage does not support.",
+      "B": "Out of scope. The passage concerns Harlan-funded companies only, not experienced founders in general, and says nothing about survival rates.",
+      "C": "Comparison shift. Revenue is called a 'sign' of survival; that does not establish that one group is 'more likely to survive' than the other.",
+      "D": "Extreme. 'Only if' contradicts 'most,' which implies some funded companies had first-time founders.",
+      "E": "Correct. Most funded companies had experienced founders, and every such company had first-year revenue, so most funded companies had first-year revenue."
+    },
+    "trapPatterns": {
+      "A": "reversal",
+      "B": "out_of_scope",
+      "C": "comparison_shift",
+      "D": "extreme"
+    },
+    "keyTakeaway": "'Most A are B' plus 'all B (among A) are C' yields 'most A are C'; the traps reverse the 'all' or stretch 'sign' into 'likely.'",
+    "predictionHint": "Most funded firms had experienced founders; all of those had revenue; so most funded firms had revenue."
+  },
+  {
+    "id": "lr-most-strongly-supported-renwick-permit-exits",
+    "section": "LR",
+    "type": "most_strongly_supported",
+    "logicTags": [
+      "conditional"
+    ],
+    "difficulty": 3,
+    "stimulus": "In Renwick, a building permit is issued only if the plans have either been approved by the fire marshal or been exempted from fire marshal review. The fire marshal approves plans only if they include a second exit from every floor above the ground floor, and only plans for buildings with no floors above the ground floor are exempted from review. The Orley warehouse received a building permit last year, and its plans include no second exit from any floor.",
+    "stem": "Which one of the following is most strongly supported by the information above?",
+    "choices": {
+      "A": "Any building in Renwick whose plans include a second exit from every upper floor will receive a building permit.",
+      "B": "The fire marshal did not review the plans for the Orley warehouse.",
+      "C": "The Orley warehouse has no floors above the ground floor.",
+      "D": "The Orley warehouse was issued a building permit in error.",
+      "E": "Buildings with no floors above the ground floor receive permits in Renwick more readily than taller buildings do."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Reversal. Second exits are necessary for the marshal's approval, not sufficient for a permit.",
+      "B": "Reversal. 'Only' single-story plans are exempted does not mean all such plans are exempted; the Orley plans could have been reviewed and approved, since a single-story building has no upper floors needing exits.",
+      "C": "Correct. If Orley had an upper floor, its plans could not be approved (no second exit) or exempted (not single-story), so no permit; since it got a permit, it has no upper floors.",
+      "D": "Out of scope. Nothing suggests the rules were misapplied; the facts are consistent with a lawful permit.",
+      "E": "Comparison shift. The passage gives rules, not rates at which permits are granted."
+    },
+    "trapPatterns": {
+      "A": "reversal",
+      "B": "reversal",
+      "D": "out_of_scope",
+      "E": "comparison_shift"
+    },
+    "keyTakeaway": "Run the contrapositive through every route to the outcome; the surviving route tells you the fact about the case.",
+    "predictionHint": "A permit needs approval or exemption; no second exits blocks approval for any upper floor; so no upper floor."
+  },
+  {
+    "id": "lr-most-strongly-supported-marrow-symphony-manuscripts",
+    "section": "LR",
+    "type": "most_strongly_supported",
+    "logicTags": [
+      "conditional",
+      "quantifiers"
+    ],
+    "difficulty": 3,
+    "stimulus": "Music historian: Every symphony that the composer Ilse Marrow completed was performed during her lifetime, and most of those performances were conducted by Marrow herself. Several of Marrow's symphonies survive only in manuscripts that lack a final movement. No symphony of hers was performed during her lifetime unless she considered it finished, and she considered no symphony finished until its final movement had been written.",
+    "stem": "The statements above, if true, most strongly support which one of the following?",
+    "choices": {
+      "A": "Any symphony of Marrow's that she completed but that now survives without a final movement once had a final movement that is now lost.",
+      "B": "None of the symphonies that survive without a final movement was performed during Marrow's lifetime.",
+      "C": "Every symphony whose final movement Marrow wrote was performed during her lifetime.",
+      "D": "Marrow conducted every performance of her symphonies that took place during her lifetime.",
+      "E": "Marrow was more reluctant than other composers of her era to allow performances of unfinished works."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. Completed means performed, performed means she considered it finished, and finished means the final movement was written; a completed symphony now lacking one must have lost it.",
+      "B": "Extreme. A surviving manuscript may lack a movement that once existed, so such a symphony could have been completed and performed.",
+      "C": "Reversal. Completion guarantees performance; writing a final movement does not guarantee completion of the whole work.",
+      "D": "Extreme. 'Most' performances were conducted by Marrow, not 'every' one.",
+      "E": "Comparison shift. Other composers of her era are never mentioned."
+    },
+    "trapPatterns": {
+      "B": "extreme",
+      "C": "reversal",
+      "D": "extreme",
+      "E": "comparison_shift"
+    },
+    "keyTakeaway": "A conditional chain applied to a case with a missing piece supports 'the piece once existed,' not 'the case never happened.'",
+    "predictionHint": "Completed leads to performed leads to finished leads to final movement written; so a completed symphony had one."
+  },
+  {
+    "id": "lr-most-strongly-supported-restaurant-repeat-violations",
+    "section": "LR",
+    "type": "most_strongly_supported",
+    "logicTags": [
+      "quantifiers",
+      "conditional"
+    ],
+    "difficulty": 3,
+    "stimulus": "Health inspector: Most restaurants in the district that failed their most recent inspection were cited for a violation for which they had also been cited at some earlier inspection. Any restaurant cited for the same violation at two consecutive inspections must close until it passes a follow-up inspection. Yet most restaurants that failed their most recent inspection have remained open, and none of these has ever been required to close.",
+    "stem": "Which one of the following is most strongly supported by the information above?",
+    "choices": {
+      "A": "Most restaurants in the district have been cited for the same violation at more than one inspection.",
+      "B": "Some restaurants that failed their most recent inspection had been cited for the same violation at an inspection other than the one immediately preceding it.",
+      "C": "Any restaurant that has been required to close was cited for the same violation at two consecutive inspections.",
+      "D": "No restaurant that remained open after failing its most recent inspection had ever been cited for a violation before.",
+      "E": "Restaurants that have been required to close are more likely to fail later inspections than restaurants that have not."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Out of scope. The 'most' claims concern restaurants that failed their most recent inspection, not all restaurants in the district.",
+      "B": "Correct. Two 'most' claims about the same group overlap: some failing restaurants both had an earlier citation for the same violation and were never required to close, so that earlier citation was not at the immediately preceding inspection.",
+      "C": "Reversal. Consecutive citations require closure; the passage does not say closure happens only for that reason.",
+      "D": "Extreme. The overlap of the two 'most' groups guarantees that some open restaurants had earlier citations.",
+      "E": "Comparison shift. No likelihood of future failure is given for either group."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "C": "reversal",
+      "D": "extreme",
+      "E": "comparison_shift"
+    },
+    "keyTakeaway": "Two 'most' claims about one group guarantee an overlap; then apply the rule's contrapositive to the overlap.",
+    "predictionHint": "Some failing restaurants had a repeat citation yet were never closed, so the repeat was not consecutive."
+  },
+  {
+    "id": "lr-most-strongly-supported-corvel-license-redistribution",
+    "section": "LR",
+    "type": "most_strongly_supported",
+    "logicTags": [
+      "conditional"
+    ],
+    "difficulty": 3,
+    "stimulus": "Software published under the Corvel license may be redistributed only if the redistributor makes the source code available to recipients. Any program that incorporates Corvel-licensed code is itself subject to the Corvel license, whatever other terms its author attaches. The Pell Group redistributes a program that incorporates Corvel-licensed code, but the Pell Group has never made any source code available to anyone.",
+    "stem": "Which one of the following is most strongly supported by the information above?",
+    "choices": {
+      "A": "Any program whose redistributor makes the source code available is subject to the Corvel license.",
+      "B": "The Pell Group has violated every term of the Corvel license.",
+      "C": "The Pell Group will be required to stop redistributing the program.",
+      "D": "The Pell Group's redistribution of the program is not permitted under the terms of the Corvel license.",
+      "E": "Programs that incorporate Corvel-licensed code are redistributed without their source code more often than programs under other licenses are."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Reversal. Making source available is required for redistribution; it does not make a program subject to the license.",
+      "B": "Extreme. One requirement was unmet; 'every term' is unsupported.",
+      "C": "Out of scope. What the Pell Group 'will be required' to do is a consequence the passage never states.",
+      "D": "Correct. The program incorporates Corvel code, so it is subject to the license; redistribution is permitted only with source available, and Pell has made none available.",
+      "E": "Comparison shift. No frequency comparison across licenses is given."
+    },
+    "trapPatterns": {
+      "A": "reversal",
+      "B": "extreme",
+      "C": "out_of_scope",
+      "E": "comparison_shift"
+    },
+    "keyTakeaway": "Chain the membership rule into the conduct rule, then deny the necessary condition; the result is 'not permitted,' not a prediction about enforcement.",
+    "predictionHint": "Incorporates Corvel code, so Corvel rules apply; no source shared, so redistribution is not allowed."
+  },
+  {
+    "id": "lr-most-strongly-supported-bilingual-third-language",
+    "section": "LR",
+    "type": "most_strongly_supported",
+    "logicTags": [
+      "quantifiers",
+      "conditional"
+    ],
+    "difficulty": 3,
+    "stimulus": "Most children raised in households where two languages are spoken become fluent in both before the age of six, and every child who becomes fluent in two languages before age six acquires a third language later in life more easily than monolingual children do. Some children raised in two-language households, however, are exposed to one of the languages so rarely that they never become fluent in it.",
+    "stem": "The statements above, if true, most strongly support which one of the following?",
+    "choices": {
+      "A": "Any child who acquires a third language more easily than monolingual children do became fluent in two languages before age six.",
+      "B": "Every child raised in a two-language household who fails to become fluent in both languages was rarely exposed to one of them.",
+      "C": "Children from two-language households who become fluent in only one language acquire a third language no more easily than monolingual children do.",
+      "D": "Children raised in two-language households become fluent in each language later than monolingual children become fluent in their one language.",
+      "E": "Most children raised in two-language households acquire a third language later in life more easily than monolingual children do."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Reversal. Early bilingual fluency guarantees easier third-language learning; it is not the only route to it.",
+      "B": "Extreme. 'Some' children fail through rare exposure; 'every' child who fails is not shown to have that cause.",
+      "C": "Out of scope. The passage says nothing about children who become fluent in only one language.",
+      "D": "Comparison shift. No comparison of when fluency is reached is made with monolingual children.",
+      "E": "Correct. Most such children become fluent in both before six, and every such child acquires a third language more easily, so most such children do."
+    },
+    "trapPatterns": {
+      "A": "reversal",
+      "B": "extreme",
+      "C": "out_of_scope",
+      "D": "comparison_shift"
+    },
+    "keyTakeaway": "'Most' feeding into 'every' preserves 'most'; the exception clause is there to tempt an 'every' about the exceptions.",
+    "predictionHint": "Most become bilingual early; all early bilinguals learn a third language more easily; so most do."
+  },
+  {
+    "id": "lr-most-strongly-supported-thaw-fly-pollination",
+    "section": "LR",
+    "type": "most_strongly_supported",
+    "logicTags": [
+      "quantifiers",
+      "conditional"
+    ],
+    "difficulty": 4,
+    "stimulus": "Ecologist: In the Marren highlands, every plant species pollinated exclusively by a single insect species is at risk of extinction if that insect declines. Most of the highlands' plant species that flower before the spring thaw are pollinated exclusively by the thaw fly, which is in sharp decline. Some plant species that flower before the thaw are also pollinated by wind, and no wind-pollinated species is pollinated exclusively by any insect.",
+    "stem": "Which one of the following is most strongly supported by the information above?",
+    "choices": {
+      "A": "Most of the highlands' plant species that flower before the spring thaw are at risk of extinction.",
+      "B": "The plant species that flower before the thaw and are wind-pollinated are not at risk of extinction.",
+      "C": "Every plant species that flowers before the spring thaw and is not pollinated by wind is pollinated exclusively by the thaw fly.",
+      "D": "The thaw fly's decline is caused by changes in the timing of the spring thaw.",
+      "E": "Plant species that flower before the spring thaw are at greater risk of extinction than those that flower after it."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. Most pre-thaw species depend exclusively on the thaw fly, any such species is at risk if that insect declines, and the thaw fly is declining; so most pre-thaw species are at risk.",
+      "B": "Reversal. Exclusive insect pollination is sufficient for risk, not necessary; wind-pollinated species could be at risk for other reasons.",
+      "C": "Extreme. 'Most' pre-thaw species rely on the thaw fly; a non-wind-pollinated species could rely on some other insect or on several.",
+      "D": "Out of scope. No cause of the fly's decline is given.",
+      "E": "Comparison shift. Species that flower after the thaw are never discussed."
+    },
+    "trapPatterns": {
+      "B": "reversal",
+      "C": "extreme",
+      "D": "out_of_scope",
+      "E": "comparison_shift"
+    },
+    "keyTakeaway": "Denying a sufficient condition proves nothing about the outcome; the wind-pollinated species are a decoy for exactly that error.",
+    "predictionHint": "Most pre-thaw plants need only the thaw fly; the fly is declining; so most pre-thaw plants are at risk."
+  },
+  {
+    "id": "lr-most-strongly-supported-varga-hearsay-exclusion",
+    "section": "LR",
+    "type": "most_strongly_supported",
+    "logicTags": [
+      "conditional"
+    ],
+    "difficulty": 4,
+    "stimulus": "Jurist: Under the rules of this court, hearsay testimony is admissible only if it falls within a recognized exception, and no testimony falling within such an exception may be excluded unless its prejudicial effect substantially outweighs its probative value. In the Varga trial, the judge, applying these rules, excluded a witness's hearsay testimony while explicitly finding that its probative value was considerable and its prejudicial effect slight.",
+    "stem": "Which one of the following is most strongly supported by the information above?",
+    "choices": {
+      "A": "Any hearsay testimony that falls within a recognized exception is admissible in this court.",
+      "B": "No hearsay testimony with considerable probative value may be excluded in this court.",
+      "C": "The testimony excluded in the Varga trial did not fall within a recognized hearsay exception.",
+      "D": "The witness whose testimony was excluded in the Varga trial was not a credible witness.",
+      "E": "Hearsay testimony is excluded in this court more often for lack of a recognized exception than for prejudicial effect."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Reversal. Falling within an exception is necessary for admissibility; the passage does not make it sufficient.",
+      "B": "Extreme. Probative value matters only for testimony within an exception; testimony outside any exception can be excluded regardless.",
+      "C": "Correct. Testimony within an exception may be excluded only if prejudice substantially outweighs probative value; here it did not, so a rule-following exclusion means the testimony was outside any exception.",
+      "D": "Out of scope. Credibility is never mentioned.",
+      "E": "Comparison shift. One case cannot establish how often each ground for exclusion is used."
+    },
+    "trapPatterns": {
+      "A": "reversal",
+      "B": "extreme",
+      "D": "out_of_scope",
+      "E": "comparison_shift"
+    },
+    "keyTakeaway": "When an outcome occurs but the only permitted trigger for it (within a category) is absent, the case falls outside that category.",
+    "predictionHint": "Within an exception, exclusion needed heavy prejudice; prejudice was slight; so it was not within an exception."
+  },
+  {
+    "id": "lr-most-strongly-supported-online-only-newspapers",
+    "section": "LR",
+    "type": "most_strongly_supported",
+    "logicTags": [
+      "quantifiers"
+    ],
+    "difficulty": 4,
+    "stimulus": "Media analyst: Most newspapers that converted to online-only publication in the past decade lost more than half of their subscribers within a year of converting. Every newspaper that lost more than half of its subscribers within a year has since either ceased publication or been acquired by a larger company. Some newspapers that converted and suffered such a loss nonetheless continue to publish today.",
+    "stem": "The statements above, if true, most strongly support which one of the following?",
+    "choices": {
+      "A": "Most newspapers that converted to online-only publication have ceased publication.",
+      "B": "Some newspapers that converted to online-only publication have been acquired by larger companies.",
+      "C": "Every newspaper that converted to online-only publication and continues to publish today was acquired by a larger company.",
+      "D": "Newspapers that converted to online-only publication did so primarily because they were already losing subscribers.",
+      "E": "Newspapers acquired by larger companies retained more subscribers than newspapers that were not acquired."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Extreme. The 'ceased or acquired' disjunction never tells us how many fell on the 'ceased' side.",
+      "B": "Correct. Some converted papers lost over half their subscribers yet still publish; such papers either ceased or were acquired, and they did not cease, so they were acquired.",
+      "C": "Extreme. Papers that converted without losing half their subscribers are not covered by the disjunction and could publish independently.",
+      "D": "Out of scope. Motives for converting are never discussed.",
+      "E": "Comparison shift. No subscriber comparison between acquired and non-acquired papers is given."
+    },
+    "trapPatterns": {
+      "A": "extreme",
+      "C": "extreme",
+      "D": "out_of_scope",
+      "E": "comparison_shift"
+    },
+    "keyTakeaway": "An 'either/or' plus the denial of one side proves the other side for exactly the cases that satisfy the trigger.",
+    "predictionHint": "Lost half but still publishing means not ceased, so acquired."
+  },
+  {
+    "id": "lr-most-strongly-supported-sorrel-river-compact",
+    "section": "LR",
+    "type": "most_strongly_supported",
+    "logicTags": [
+      "conditional",
+      "quantifiers"
+    ],
+    "difficulty": 4,
+    "stimulus": "Hydrologist: Under the Sorrel River compact, a municipality may draw water from the river in a drought year only if its per-capita consumption is below the compact's benchmark. Most municipalities along the river have brought consumption below the benchmark, but every municipality that has done so relied on restrictions that the compact's own rules prohibit in drought years, and no municipality can keep consumption below the benchmark without such restrictions.",
+    "stem": "Which one of the following is most strongly supported by the information above?",
+    "choices": {
+      "A": "Any municipality whose consumption is below the benchmark may draw water from the river in a drought year.",
+      "B": "Most municipalities along the Sorrel River will violate the compact's rules in the next drought year.",
+      "C": "The compact's benchmark was set without regard to the restrictions municipalities would need to meet it.",
+      "D": "In a drought year, no municipality that complies with all of the compact's rules will be permitted to draw water from the river.",
+      "E": "Municipalities that have not reduced consumption below the benchmark are more likely to comply with the compact than those that have."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Reversal. Being below the benchmark is necessary for drawing water, not sufficient.",
+      "B": "Extreme. The passage shows a dilemma, not what municipalities 'will' choose to do.",
+      "C": "Out of scope. How the benchmark was set is never discussed.",
+      "D": "Correct. In a drought year a compliant municipality cannot use the prohibited restrictions, so it cannot keep consumption below the benchmark, so it fails the only route to permission.",
+      "E": "Comparison shift. Nothing compares compliance rates between the two groups."
+    },
+    "trapPatterns": {
+      "A": "reversal",
+      "B": "extreme",
+      "C": "out_of_scope",
+      "E": "comparison_shift"
+    },
+    "keyTakeaway": "When the only way to satisfy a requirement is itself forbidden, the supported claim is about what compliant actors cannot do, not about what they will do.",
+    "predictionHint": "Permission needs low consumption; low consumption needs banned restrictions; so rule-followers get no permission."
+  },
+  {
+    "id": "lr-must-be-true-hale-gallery-postcards",
+    "section": "LR",
+    "type": "must_be_true",
+    "logicTags": [
+      "conditional"
+    ],
+    "difficulty": 1,
+    "stimulus": "All of the sculptures in the Hale Gallery's east wing are on loan from the Ostrander estate. None of the works on loan from the Ostrander estate may be photographed by visitors. Several of the sculptures in the east wing were created by the sculptor Dagny Moss, and the gallery sells postcards of every work by Moss that it displays.",
+    "stem": "If the statements above are true, which one of the following must also be true?",
+    "choices": {
+      "A": "Every work the gallery displays that may not be photographed is on loan from the Ostrander estate.",
+      "B": "None of the works by Moss that the gallery displays may be photographed by visitors.",
+      "C": "Most of the works of which the gallery sells postcards are on loan from the Ostrander estate.",
+      "D": "The Ostrander estate prohibits photography in order to protect the gallery's postcard sales.",
+      "E": "Some works of which the gallery sells postcards may not be photographed by visitors."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Reversal. Ostrander loans cannot be photographed; other works might also be restricted for other reasons.",
+      "B": "Extreme. Only Moss works in the east wing are shown to be Ostrander loans; Moss works displayed elsewhere are unconstrained.",
+      "C": "Wrong force. 'Several' Moss sculptures cannot support 'most' of all postcard works.",
+      "D": "Out of scope. No reason for the photography rule is given.",
+      "E": "Correct. The Moss sculptures in the east wing are Ostrander loans (no photography) and displayed Moss works (postcards sold), so some postcard works cannot be photographed."
+    },
+    "trapPatterns": {
+      "A": "reversal",
+      "B": "extreme",
+      "C": "wrong_force",
+      "D": "out_of_scope"
+    },
+    "keyTakeaway": "Find the specific items that satisfy two chains at once; the 'must be true' is the 'some' statement about them.",
+    "predictionHint": "East-wing Moss works: no photos, yes postcards; so some postcard works are unphotographable."
+  },
+  {
+    "id": "lr-must-be-true-thornbury-fellowship-letters",
+    "section": "LR",
+    "type": "must_be_true",
+    "logicTags": [
+      "conditional"
+    ],
+    "difficulty": 1,
+    "stimulus": "Every applicant to the Thornbury fellowship must submit two letters of recommendation. Applicants who submit at least one letter from outside their own department are interviewed by the full committee; all other applicants are interviewed instead by a subcommittee. Mireille applied to the fellowship and was interviewed by a subcommittee.",
+    "stem": "If the statements above are true, which one of the following must also be true?",
+    "choices": {
+      "A": "Mireille was probably not a strong candidate for the fellowship.",
+      "B": "No applicant interviewed by a subcommittee has ever received the fellowship.",
+      "C": "Both of the letters Mireille submitted came from within her own department.",
+      "D": "Applicants whose letters come from within their own department are less likely to receive the fellowship.",
+      "E": "Any applicant who was not interviewed by a subcommittee submitted two letters from outside the department."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Out of scope. Nothing links interview format to candidate strength.",
+      "B": "Extreme. The passage says nothing about who receives the fellowship.",
+      "C": "Correct. An outside letter would have sent Mireille to the full committee 'instead'; she went to a subcommittee, so neither of her two letters came from outside.",
+      "D": "Comparison shift. No likelihood of receiving the fellowship is given for any group.",
+      "E": "Extreme. Full-committee applicants submitted 'at least one' outside letter, not necessarily 'two.'"
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "extreme",
+      "D": "comparison_shift",
+      "E": "extreme"
+    },
+    "keyTakeaway": "An exclusive 'instead' lets you run the contrapositive: the outcome that did not occur rules out its trigger.",
+    "predictionHint": "Subcommittee means no outside letter; two letters total; so both were internal."
+  },
+  {
+    "id": "lr-must-be-true-pell-orchestra-chorus",
+    "section": "LR",
+    "type": "must_be_true",
+    "logicTags": [
+      "conditional",
+      "quantifiers"
+    ],
+    "difficulty": 2,
+    "stimulus": "No member of the Pell orchestra who plays a string instrument also sings in the chorus. Every member of the orchestra who does not play a string instrument plays a wind or percussion instrument. Some members of the chorus are members of the orchestra, and all of the percussionists in the orchestra are paid soloists.",
+    "stem": "If the statements above are true, which one of the following must also be true?",
+    "choices": {
+      "A": "Some members of the chorus play a wind or percussion instrument.",
+      "B": "Every member of the chorus who is in the orchestra is a paid soloist.",
+      "C": "Every orchestra member who plays a wind instrument sings in the chorus.",
+      "D": "Most of the orchestra's wind players are members of the chorus.",
+      "E": "Paid soloists in the orchestra are not permitted to sing in the chorus."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. Chorus members in the orchestra cannot be string players, so they play wind or percussion.",
+      "B": "Extreme. Only percussionists are guaranteed to be paid soloists; a chorus member could be a wind player.",
+      "C": "Reversal. Non-string players may sing in the chorus; nothing says every wind player does.",
+      "D": "Wrong force. 'Some' chorus members are in the orchestra; 'most' wind players is unsupported.",
+      "E": "Out of scope. No rule about soloists and the chorus is stated."
+    },
+    "trapPatterns": {
+      "B": "extreme",
+      "C": "reversal",
+      "D": "wrong_force",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "Start from the 'some' overlap and push it through the exclusions; what remains is the guaranteed 'some.'",
+    "predictionHint": "Chorus-and-orchestra members are not strings, so they are wind or percussion."
+  },
+  {
+    "id": "lr-must-be-true-ashgrove-library-vote",
+    "section": "LR",
+    "type": "must_be_true",
+    "logicTags": [
+      "conditional",
+      "math_percent"
+    ],
+    "difficulty": 2,
+    "stimulus": "A proposal before the Ashgrove council is adopted only if it receives the votes of at least five of the seven council members. Councillor Rhee votes against every proposal that would increase the council's budget, and Councillor Odum votes against every proposal that Rhee votes against. The proposal to expand the library would increase the council's budget.",
+    "stem": "If the statements above are true, which one of the following must also be true?",
+    "choices": {
+      "A": "The proposal to expand the library will not be adopted.",
+      "B": "The proposal to expand the library will be adopted only if every other council member votes for it.",
+      "C": "Any proposal that Odum votes against is one that Rhee also votes against.",
+      "D": "If the five council members other than Rhee and Odum all vote for the library proposal, it will be adopted.",
+      "E": "Councillor Rhee opposes expanding the library for reasons unrelated to its cost."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Extreme. Five votes remain possible if all other members support the proposal.",
+      "B": "Correct. Rhee and Odum will both vote against, leaving exactly five members; adoption needs at least five votes, so all five must vote for it.",
+      "C": "Reversal. Rhee's opposition guarantees Odum's; Odum may also oppose proposals Rhee supports.",
+      "D": "Necessary versus sufficient. Five votes are required for adoption ('only if'), not guaranteed to produce it.",
+      "E": "Out of scope. Rhee's reasons are never given beyond the budget rule."
+    },
+    "trapPatterns": {
+      "A": "extreme",
+      "C": "reversal",
+      "D": "necessary_v_sufficient",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "Count the guaranteed 'no' votes, then state the remaining requirement as a requirement, never as a guarantee.",
+    "predictionHint": "Two sure no votes leave five; adoption needs five; so all five must say yes."
+  },
+  {
+    "id": "lr-must-be-true-lindqvist-map-collection",
+    "section": "LR",
+    "type": "must_be_true",
+    "logicTags": [
+      "quantifiers",
+      "conditional"
+    ],
+    "difficulty": 2,
+    "stimulus": "Most of the antique maps in the Lindqvist collection were printed in Amsterdam. All of the maps in the collection that were printed in Amsterdam are hand-colored. None of the hand-colored maps in the collection has been exhibited in the past decade, though every map in the collection that is not hand-colored has been exhibited during that time.",
+    "stem": "If the statements above are true, which one of the following must also be true?",
+    "choices": {
+      "A": "Every hand-colored map in the collection was printed in Amsterdam.",
+      "B": "No map in the collection has been exhibited in the past decade.",
+      "C": "Most of the hand-colored maps printed in Amsterdam are in the Lindqvist collection.",
+      "D": "Most of the maps in the collection have not been exhibited in the past decade.",
+      "E": "Some maps in the collection that were not printed in Amsterdam have been exhibited in the past decade."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Reversal. Amsterdam maps are all hand-colored; hand-colored maps need not all be from Amsterdam.",
+      "B": "Extreme. Any map that is not hand-colored has been exhibited, so 'no map' fails if such maps exist.",
+      "C": "Out of scope. The passage concerns maps in the collection, not Amsterdam maps worldwide.",
+      "D": "Correct. Most maps are from Amsterdam, all of those are hand-colored, and no hand-colored map was exhibited; so most maps were not exhibited.",
+      "E": "Wrong force. The non-Amsterdam maps might all be hand-colored and therefore unexhibited; this could be true but need not be."
+    },
+    "trapPatterns": {
+      "A": "reversal",
+      "B": "extreme",
+      "C": "out_of_scope",
+      "E": "wrong_force"
+    },
+    "keyTakeaway": "Carry 'most' through a chain of 'all' statements; it stays 'most' and never becomes 'all' or 'some of the rest.'",
+    "predictionHint": "Most Amsterdam, all those hand-colored, none of those exhibited; so most not exhibited."
+  },
+  {
+    "id": "lr-must-be-true-danvers-bridge-trucks",
+    "section": "LR",
+    "type": "must_be_true",
+    "logicTags": [
+      "conditional"
+    ],
+    "difficulty": 3,
+    "stimulus": "The Danvers bridge will be closed to trucks next month unless the inspection scheduled for this week finds the main span sound. If the inspection finds the main span sound, the planned resurfacing of the bridge will be postponed. The resurfacing will not be postponed if the county receives the state grant, and the county will receive the grant.",
+    "stem": "If the statements above are true, which one of the following must also be true?",
+    "choices": {
+      "A": "If the bridge is closed to trucks next month, the inspection will have found the main span unsound.",
+      "B": "The main span of the Danvers bridge is not sound.",
+      "C": "The resurfacing of the bridge will take place next month.",
+      "D": "The inspection scheduled for this week will not take place.",
+      "E": "The Danvers bridge will be closed to trucks next month."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Reversal. Not finding the span sound is not the same as finding it 'unsound,' and the 'unless' runs the other way.",
+      "B": "Extreme. The inspection's not finding the span sound says nothing about whether the span is in fact sound.",
+      "C": "Out of scope. 'Not postponed' does not fix a date; nothing says resurfacing happens next month.",
+      "D": "Wrong force. The inspection can occur and simply fail to find the span sound.",
+      "E": "Correct. The grant means resurfacing is not postponed, so the inspection does not find the span sound, so the bridge is closed to trucks."
+    },
+    "trapPatterns": {
+      "A": "reversal",
+      "B": "extreme",
+      "C": "out_of_scope",
+      "D": "wrong_force"
+    },
+    "keyTakeaway": "Translate 'unless' as 'if not,' then chain contrapositives from the one fact that is asserted outright.",
+    "predictionHint": "Grant, so no postponement, so no 'sound' finding, so closed to trucks."
+  },
+  {
+    "id": "lr-must-be-true-tallis-foundation-grants",
+    "section": "LR",
+    "type": "must_be_true",
+    "logicTags": [
+      "quantifiers",
+      "conditional"
+    ],
+    "difficulty": 3,
+    "stimulus": "Every grant awarded by the Tallis Foundation last year went to a project in either marine biology or public health. Most of the foundation's grants went to projects led by researchers who had never previously received a Tallis grant. None of the public-health projects that received a grant was led by such a first-time recipient. Some marine-biology projects that received grants employed no graduate students.",
+    "stem": "If the statements above are true, which one of the following must also be true?",
+    "choices": {
+      "A": "Most of the grants awarded last year went to projects in marine biology.",
+      "B": "Every marine-biology project that received a grant was led by a first-time recipient.",
+      "C": "Every project led by a researcher who had previously received a Tallis grant was in public health.",
+      "D": "Some public-health projects that received grants employed graduate students.",
+      "E": "Some projects led by first-time recipients employed no graduate students."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. Most grants went to first-time recipients; none of those were public health; every grant was marine biology or public health; so most grants were marine biology.",
+      "B": "Extreme. Repeat recipients could also lead marine-biology projects.",
+      "C": "Reversal. Public health implies repeat recipient; repeat recipient does not imply public health.",
+      "D": "Wrong force. Graduate-student employment is stated only for some marine-biology projects.",
+      "E": "Wrong force. The 'some' marine projects without graduate students might all be led by repeat recipients; no overlap is guaranteed."
+    },
+    "trapPatterns": {
+      "B": "extreme",
+      "C": "reversal",
+      "D": "wrong_force",
+      "E": "wrong_force"
+    },
+    "keyTakeaway": "Eliminate one branch of an exhaustive 'either/or' for the 'most' group, and the 'most' lands on the other branch.",
+    "predictionHint": "Most are first-timers; first-timers are not public health; so most are marine biology."
+  },
+  {
+    "id": "lr-must-be-true-corwin-seminar-waiver",
+    "section": "LR",
+    "type": "must_be_true",
+    "logicTags": [
+      "conditional"
+    ],
+    "difficulty": 4,
+    "stimulus": "At Corwin Academy, a student may enroll in the advanced seminar only if the student has completed the research methods course or has received a faculty waiver. Faculty waivers are granted only to students in their final year, and most students in their final year have completed the research methods course. No student who has completed that course may enroll in it again. Tomas is enrolled this term in both the advanced seminar and the research methods course.",
+    "stem": "If the statements above are true, which one of the following must also be true?",
+    "choices": {
+      "A": "Any final-year student who has not completed the research methods course has received a faculty waiver.",
+      "B": "Tomas is in his final year at Corwin Academy.",
+      "C": "Most students enrolled in the advanced seminar have completed the research methods course.",
+      "D": "Tomas will not be permitted to complete the research methods course this term.",
+      "E": "Every student who has received a faculty waiver is enrolled in the advanced seminar."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Reversal. Final year is required for a waiver; it does not guarantee one.",
+      "B": "Correct. Tomas is enrolled in the methods course, so he has not completed it; his seminar enrollment therefore required a waiver, and waivers go only to final-year students.",
+      "C": "Wrong force. The 'most' claim concerns final-year students, not seminar enrollees.",
+      "D": "Extreme. Nothing prevents Tomas from completing the course he is currently taking.",
+      "E": "Reversal. A waiver permits seminar enrollment; it does not require it."
+    },
+    "trapPatterns": {
+      "A": "reversal",
+      "C": "wrong_force",
+      "D": "extreme",
+      "E": "reversal"
+    },
+    "keyTakeaway": "Use the 'no re-enrollment' rule to eliminate one disjunct, then follow the surviving disjunct's own requirement.",
+    "predictionHint": "In methods now, so not completed; so waiver; so final year."
+  },
+  {
+    "id": "lr-must-be-true-regulator-compliance-program",
+    "section": "LR",
+    "type": "must_be_true",
+    "logicTags": [
+      "quantifiers",
+      "conditional"
+    ],
+    "difficulty": 4,
+    "stimulus": "Among the firms audited by the regulator last year, most were found to have at least one reporting violation. Every firm found to have a reporting violation was fined, and no firm that was fined was eligible for the regulator's voluntary-compliance program this year. Most of the audited firms, however, applied to the voluntary-compliance program this year.",
+    "stem": "If the statements above are true, which one of the following must also be true?",
+    "choices": {
+      "A": "Most firms that applied to the voluntary-compliance program this year were ineligible for it because they had been fined.",
+      "B": "Every firm that was ineligible for the voluntary-compliance program had been fined.",
+      "C": "Some firms that applied to the voluntary-compliance program this year were not eligible for it.",
+      "D": "Some audited firms that were not fined applied to the voluntary-compliance program.",
+      "E": "The regulator should have informed fined firms that they were ineligible before they applied."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Extreme. The applicant pool includes firms that were never audited; 'most' of all applicants cannot be established.",
+      "B": "Reversal. Being fined guarantees ineligibility; other grounds for ineligibility may exist.",
+      "C": "Correct. Most audited firms were fined and so ineligible, and most audited firms applied; the two 'most' groups overlap, so some applicants were ineligible.",
+      "D": "Wrong force. The applying audited firms could all be among the fined; no unfined applicant is guaranteed.",
+      "E": "Out of scope. What the regulator 'should' have done is not a factual consequence of the statements."
+    },
+    "trapPatterns": {
+      "A": "extreme",
+      "B": "reversal",
+      "D": "wrong_force",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "Two 'most' claims about the same base group force an overlap; the conclusion is 'some' within that group, never 'most' of a wider group.",
+    "predictionHint": "Most audited were fined and ineligible; most audited applied; so some applicants were ineligible."
+  },
+  {
+    "id": "lr-must-be-false-harrow-market-stalls",
+    "section": "LR",
+    "type": "must_be_false",
+    "logicTags": [
+      "conditional"
+    ],
+    "difficulty": 2,
+    "stimulus": "Every vendor at the Harrow market sells either produce or crafts, and no vendor sells both. All vendors who sell produce rent their stalls by the season rather than by the day, whereas vendors who sell crafts may rent either by the season or by the day. Some vendors who rent by the day accept only cash.",
+    "stem": "If the statements above are true, which one of the following CANNOT be true?",
+    "choices": {
+      "A": "Some vendors who sell crafts rent their stalls by the season.",
+      "B": "Every vendor who accepts only cash sells crafts.",
+      "C": "No vendor who sells produce accepts only cash.",
+      "D": "Some vendors who sell produce rent their stalls by the day.",
+      "E": "Most vendors at the market rent their stalls by the day."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Could be true. Craft vendors 'may rent either by the season or by the day.'",
+      "B": "Could be true. Only some day-renters are known to be cash-only; nothing prevents all cash-only vendors from being craft sellers.",
+      "C": "Could be true. Payment methods of produce vendors are never restricted either way.",
+      "D": "Correct. All produce vendors rent 'by the season rather than by the day,' so a produce vendor renting by the day is impossible.",
+      "E": "Could be true. If most vendors sell crafts and rent daily, this holds."
+    },
+    "trapPatterns": {
+      "A": "wrong_force",
+      "B": "reversal",
+      "C": "extreme",
+      "E": "wrong_force"
+    },
+    "keyTakeaway": "For CANNOT be true, find the choice that directly contradicts an 'all' or 'no' statement; everything merely unmentioned could be true.",
+    "predictionHint": "Produce means seasonal rental, so any produce vendor renting by the day is out."
+  },
+  {
+    "id": "lr-must-be-false-vance-archive-letters",
+    "section": "LR",
+    "type": "must_be_false",
+    "logicTags": [
+      "conditional"
+    ],
+    "difficulty": 3,
+    "stimulus": "In the Vance archive, every letter written before 1850 has been transcribed, and no transcribed letter is available to visitors in its original form. Letters not written before 1850 are available to visitors in their original form only if they have been conserved. Some letters in the archive that have been conserved are available to visitors only as transcriptions.",
+    "stem": "If the statements above are true, which one of the following CANNOT be true?",
+    "choices": {
+      "A": "Some letters in the archive written before 1850 are available to visitors in their original form.",
+      "B": "Some letters in the archive written after 1850 have been transcribed even though they have also been conserved.",
+      "C": "Every conserved letter in the archive was written before 1850.",
+      "D": "No letter in the archive is available to visitors in its original form.",
+      "E": "Some letters written after 1850 that have not been conserved have been transcribed."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. Pre-1850 letters are all transcribed, and no transcribed letter is available in original form; so no pre-1850 letter can be.",
+      "B": "Could be true. Transcription is required for pre-1850 letters but not forbidden for later ones, conserved or not.",
+      "C": "Could be true. Conservation is not restricted by date; the 'only if' concerns availability, not conservation.",
+      "D": "Could be true. Conservation is necessary, not sufficient, for original-form access, so none might be available.",
+      "E": "Could be true. Unconserved later letters simply cannot be shown in original form; transcription remains open to them."
+    },
+    "trapPatterns": {
+      "B": "wrong_force",
+      "C": "reversal",
+      "D": "extreme",
+      "E": "wrong_force"
+    },
+    "keyTakeaway": "Chain two universals to find the one combination the rules exclude; 'only if' clauses never exclude anything by themselves.",
+    "predictionHint": "Before 1850 means transcribed means not in original form; that is the impossibility."
+  },
+  {
+    "id": "lr-must-be-false-brightwater-attendance-bonus",
+    "section": "LR",
+    "type": "must_be_false",
+    "logicTags": [
+      "conditional"
+    ],
+    "difficulty": 3,
+    "stimulus": "No employee of Brightwater Consulting who works remotely attends the weekly staff meeting in person. Every employee who does not attend the weekly meeting in person submits a written report instead. Employees who submit written reports are not eligible for the quarterly attendance bonus, and no employee who is ineligible for that bonus has ever received it. All employees who received the bonus last quarter work in the Hadley office.",
+    "stem": "If the statements above are true, which one of the following CANNOT be true?",
+    "choices": {
+      "A": "Some employees who work in the Hadley office work remotely.",
+      "B": "Every employee who attends the weekly staff meeting in person works in the Hadley office rather than remotely.",
+      "C": "Some employees who do not work remotely submit written reports.",
+      "D": "No employee of Brightwater has ever received the quarterly attendance bonus.",
+      "E": "An employee who works remotely received the quarterly attendance bonus last quarter."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Could be true. Working in the Hadley office and working remotely are never made exclusive.",
+      "B": "Could be true. Nothing restricts where in-person attendees work.",
+      "C": "Could be true. Non-remote employees might still miss the meeting and submit reports.",
+      "D": "Could be true. The statements describe eligibility, not that anyone actually received the bonus.",
+      "E": "Correct. Remote means no in-person attendance, so a written report, so ineligible, and no ineligible employee has ever received the bonus."
+    },
+    "trapPatterns": {
+      "A": "wrong_force",
+      "B": "reversal",
+      "C": "wrong_force",
+      "D": "extreme"
+    },
+    "keyTakeaway": "Follow the longest chain to its final 'never'; the CANNOT answer is the case that chain forbids.",
+    "predictionHint": "Remote, so report, so ineligible, so never received; a remote bonus recipient is impossible."
+  },
+  {
+    "id": "lr-must-be-false-committee-external-reviewers",
+    "section": "LR",
+    "type": "must_be_false",
+    "logicTags": [
+      "conditional",
+      "quantifiers"
+    ],
+    "difficulty": 4,
+    "stimulus": "Every proposal the committee approved received at least one vote from an external reviewer, and no proposal that an external reviewer voted for was rated lower than 'satisfactory' by the internal panel. Most proposals rated 'satisfactory' or higher by the internal panel were nonetheless rejected by the committee. Some proposals the committee rejected received no vote from any external reviewer.",
+    "stem": "If the statements above are true, which one of the following CANNOT be true?",
+    "choices": {
+      "A": "Most proposals that received an external reviewer's vote were rejected by the committee.",
+      "B": "Some proposals that the internal panel rated lower than 'satisfactory' were approved by the committee.",
+      "C": "Every proposal rated 'satisfactory' or higher received at least one vote from an external reviewer.",
+      "D": "Most of the proposals the committee approved were rated 'satisfactory' or higher by the internal panel.",
+      "E": "No proposal that received an external reviewer's vote was rejected by the committee."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Could be true. External votes are necessary for approval, not sufficient, so many externally supported proposals could still be rejected.",
+      "B": "Correct. Approval requires an external vote, and an external vote guarantees a rating of at least 'satisfactory'; a lower-rated approved proposal is impossible.",
+      "C": "Could be true. Nothing limits how many satisfactory proposals drew external votes.",
+      "D": "Could be true; in fact it must be, since every approved proposal was rated at least 'satisfactory.'",
+      "E": "Could be true. If few proposals drew external votes, 'most satisfactory proposals rejected' can hold while all externally supported ones were approved."
+    },
+    "trapPatterns": {
+      "A": "wrong_force",
+      "C": "reversal",
+      "D": "wrong_force",
+      "E": "extreme"
+    },
+    "keyTakeaway": "A 'most ... rejected' fact tempts you to call strong claims about approval impossible; only the chained universals create a genuine impossibility.",
+    "predictionHint": "Approved needs external vote; external vote needs satisfactory; so approved and below satisfactory cannot coexist."
+  },
+  {
+    "id": "lr-inference-tessaro-riserva-oak",
+    "section": "LR",
+    "type": "inference",
+    "logicTags": [
+      "conditional"
+    ],
+    "difficulty": 1,
+    "stimulus": "All of the wines produced by the Tessaro vineyard are aged in oak barrels, and wines aged in oak barrels acquire a vanilla aroma. The vineyard's most expensive wine, the Riserva, is produced entirely from grapes grown on the estate's north slope, which receives more sun than the rest of the estate.",
+    "stem": "Which one of the following can be properly inferred from the statements above?",
+    "choices": {
+      "A": "Any wine with a vanilla aroma was aged in oak barrels.",
+      "B": "All wines produced from north-slope grapes are aged in oak barrels.",
+      "C": "The Riserva has a vanilla aroma.",
+      "D": "The Riserva's vanilla aroma is what makes it the vineyard's most expensive wine.",
+      "E": "Most of Tessaro's wines are produced from north-slope grapes."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Reversal. Oak aging produces vanilla aroma; the passage does not say vanilla aroma comes only from oak.",
+      "B": "Extreme. The rule covers Tessaro's wines; north-slope grapes could be used by others.",
+      "C": "Correct. The Riserva is a Tessaro wine, so it is oak-aged, so it has a vanilla aroma.",
+      "D": "Out of scope. No cause of the Riserva's price is given.",
+      "E": "Wrong force. Only the Riserva is tied to the north slope; 'most' is unsupported."
+    },
+    "trapPatterns": {
+      "A": "reversal",
+      "B": "extreme",
+      "D": "out_of_scope",
+      "E": "wrong_force"
+    },
+    "keyTakeaway": "Place the specific item inside the universal, then follow the chain one step; ignore the decorative detail.",
+    "predictionHint": "Riserva is Tessaro, so oak, so vanilla."
+  },
+  {
+    "id": "lr-inference-marston-sabbatical-okafor",
+    "section": "LR",
+    "type": "inference",
+    "logicTags": [
+      "conditional"
+    ],
+    "difficulty": 2,
+    "stimulus": "In the Marston school district, any teacher who has taught for more than ten years is eligible for a sabbatical, and only eligible teachers may apply for one. Every teacher who applied for a sabbatical this year was granted one. Ms. Okafor, who has taught in the district for twelve years, did not receive a sabbatical this year.",
+    "stem": "Which one of the following can be properly inferred from the statements above?",
+    "choices": {
+      "A": "Every teacher eligible for a sabbatical has taught for more than ten years.",
+      "B": "Ms. Okafor was not eligible for a sabbatical this year.",
+      "C": "Most teachers who applied for sabbaticals this year had taught for more than ten years.",
+      "D": "Ms. Okafor will apply for a sabbatical next year.",
+      "E": "Ms. Okafor did not apply for a sabbatical this year."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Reversal. More than ten years guarantees eligibility; eligibility might also arise other ways.",
+      "B": "Opposite. Twelve years of teaching makes her eligible by the stated rule.",
+      "C": "Reversal. Applicants are eligible, but eligibility need not come from ten years' service, so 'most' cannot be inferred.",
+      "D": "Out of scope. Future intentions are never addressed.",
+      "E": "Correct. Every applicant was granted a sabbatical; she received none, so she did not apply."
+    },
+    "trapPatterns": {
+      "A": "reversal",
+      "B": "opposite",
+      "C": "reversal",
+      "D": "out_of_scope"
+    },
+    "keyTakeaway": "'Every applicant was granted one' plus 'she got none' is a clean contrapositive; the eligibility facts are a distraction.",
+    "predictionHint": "All applicants got one; she did not; so she did not apply."
+  },
+  {
+    "id": "lr-inference-lauwers-smalt-pigment",
+    "section": "LR",
+    "type": "inference",
+    "logicTags": [
+      "conditional",
+      "quantifiers"
+    ],
+    "difficulty": 2,
+    "stimulus": "Some of the paintings attributed to the workshop of Hendrik Lauwers contain the blue pigment smalt, which was not available to painters in the region until 1540. Every painting attributed to the Lauwers workshop was completed in that region before Lauwers's death, and the attributions are not in dispute.",
+    "stem": "Which one of the following can be properly inferred from the statements above?",
+    "choices": {
+      "A": "Lauwers did not die before 1540.",
+      "B": "Most paintings attributed to the Lauwers workshop were completed after 1540.",
+      "C": "Any painting from the region that contains smalt was completed in the Lauwers workshop.",
+      "D": "Paintings attributed to the Lauwers workshop that lack smalt were completed before 1540.",
+      "E": "No painting attributed to the Lauwers workshop was completed before 1540."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. Smalt paintings were completed no earlier than 1540, and all workshop paintings were completed before Lauwers died; so his death came after 1540 began.",
+      "B": "Wrong force. 'Some' paintings contain smalt; nothing supports 'most' being late.",
+      "C": "Reversal. Smalt availability constrains dates, not which workshop used it.",
+      "D": "Reversal. Lacking smalt does not imply an early date; a painter after 1540 could simply omit it.",
+      "E": "Extreme. Only the smalt paintings are dated to 1540 or later; others could be earlier."
+    },
+    "trapPatterns": {
+      "B": "wrong_force",
+      "C": "reversal",
+      "D": "reversal",
+      "E": "extreme"
+    },
+    "keyTakeaway": "A 'some' that carries a date floor, combined with a universal ceiling, pins down the ceiling, not the rest of the group.",
+    "predictionHint": "Some paintings are 1540 or later; all predate his death; so he died after 1540 began."
+  },
+  {
+    "id": "lr-inference-calder-wetland-frogs",
+    "section": "LR",
+    "type": "inference",
+    "logicTags": [
+      "conditional"
+    ],
+    "difficulty": 3,
+    "stimulus": "Every species of frog native to the Calder wetlands breeds only in standing water that persists for at least six weeks each spring. In each of the past three springs, the only standing water in the wetlands that persisted that long was in the two artificial ponds dug by the conservancy. Several native frog species have bred successfully in the wetlands during each of the past three springs.",
+    "stem": "Which one of the following can be properly inferred from the statements above?",
+    "choices": {
+      "A": "Every native frog species in the wetlands bred in the artificial ponds during the past three springs.",
+      "B": "Any standing water that persists for six weeks is suitable for breeding by native frogs.",
+      "C": "Native frog species bred more successfully in the artificial ponds than they had in natural pools in earlier years.",
+      "D": "During each of the past three springs, some native frog species bred in the artificial ponds.",
+      "E": "The conservancy dug the ponds in order to provide breeding habitat for native frogs."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Extreme. 'Several' species bred, not 'every' native species.",
+      "B": "Reversal. Persistent water is required for breeding; it is not shown to be sufficient.",
+      "C": "Comparison shift. Earlier years and natural pools are never compared.",
+      "D": "Correct. Breeding requires six-week standing water, the only such water was in the ponds, and several species bred each spring; so some species bred in the ponds each spring.",
+      "E": "Out of scope. The conservancy's purpose is never stated."
+    },
+    "trapPatterns": {
+      "A": "extreme",
+      "B": "reversal",
+      "C": "comparison_shift",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "'Only in X' plus 'the only X was Y' plus 'it happened' yields 'it happened in Y' for the ones that happened, not for all.",
+    "predictionHint": "Breeding needs persistent water; only the ponds had it; breeding occurred; so breeding was in the ponds."
+  },
+  {
+    "id": "lr-necessary-assumption-grafton-streetlights",
+    "section": "LR",
+    "type": "necessary_assumption",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 1,
+    "stimulus": "Editorial: Since the city installed brighter streetlights along Grafton Avenue last year, reported burglaries on that street have dropped by a third. Clearly, the brighter lighting is responsible for the decline. The city would therefore do well to install similar lighting on other residential streets.",
+    "stem": "The argument depends on assuming which one of the following?",
+    "choices": {
+      "A": "The new streetlights on Grafton Avenue are noticeably brighter than the ones they replaced.",
+      "B": "The decline in reported burglaries on Grafton Avenue is not entirely due to a change in how often burglaries are reported.",
+      "C": "Brighter streetlights would reduce burglaries in other cities at least as effectively as they have on Grafton Avenue.",
+      "D": "Brighter lighting is the only measure that can effectively deter would-be burglars from a residential street at night.",
+      "E": "Residents of Grafton Avenue approve of the brighter streetlights."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Premise booster. The stimulus already states the lights are brighter; restating it does not close the gap between correlation and cause.",
+      "B": "Correct. Negate it: the decline is entirely a reporting change. Then burglaries did not actually fall, and the lighting cannot be 'responsible for the decline.'",
+      "C": "Out of scope. The recommendation concerns other streets in this city, not other cities.",
+      "D": "Wrong force. The argument needs lighting to be a cause here, not the 'only' possible deterrent anywhere.",
+      "E": "Out of scope. Residents' approval has no bearing on whether lighting caused the decline."
+    },
+    "trapPatterns": {
+      "A": "premise_booster",
+      "C": "out_of_scope",
+      "D": "wrong_force",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "A causal claim from 'reported' data requires that the reported change reflects a real change.",
+    "predictionHint": "Need: the drop is real and not caused by something other than the lights."
+  },
+  {
+    "id": "lr-necessary-assumption-empathy-training-ratings",
+    "section": "LR",
+    "type": "necessary_assumption",
+    "logicTags": [
+      "link_assumption"
+    ],
+    "difficulty": 1,
+    "stimulus": "Manager: Our customer-service representatives who completed the new empathy training this spring received higher satisfaction ratings from customers last quarter than did representatives who had not yet completed it. So completing the training improves a representative's ability to resolve customer problems.",
+    "stem": "Which one of the following is an assumption required by the argument?",
+    "choices": {
+      "A": "Representatives who completed the training resolve every customer problem they encounter.",
+      "B": "The representatives who completed the training received higher ratings than they had received before the training.",
+      "C": "The empathy training was more expensive than previous training programs offered to representatives.",
+      "D": "Customers prefer representatives who show empathy over representatives who resolve problems quickly.",
+      "E": "Customer satisfaction ratings reflect, at least in part, how well representatives resolve customer problems."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Wrong force. 'Every' problem is far more than the argument needs; it only claims improved ability.",
+      "B": "Premise booster. A before-and-after comparison would add evidence, but the argument is built on a between-group comparison and does not require this one.",
+      "C": "Out of scope. Cost is irrelevant to whether the training improves problem resolution.",
+      "D": "Out of scope. A preference for empathy over speed does not connect ratings to problem resolution.",
+      "E": "Correct. The evidence is about ratings; the conclusion is about resolving problems. Negate it: ratings reflect nothing about problem resolution. Then higher ratings say nothing about the conclusion."
+    },
+    "trapPatterns": {
+      "A": "wrong_force",
+      "B": "premise_booster",
+      "C": "out_of_scope",
+      "D": "out_of_scope"
+    },
+    "keyTakeaway": "When the premise measures one thing and the conclusion names another, the required assumption links the two terms.",
+    "predictionHint": "Ratings must have something to do with resolving problems."
+  },
+  {
+    "id": "lr-necessary-assumption-library-branch-literacy",
+    "section": "LR",
+    "type": "necessary_assumption",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 1,
+    "stimulus": "Sociologist: In our national survey, towns that have a public library branch reported markedly higher rates of adult literacy than towns of similar size that do not. It follows that opening a library branch in a town that lacks one would raise that town's adult literacy rate.",
+    "stem": "The argument depends on assuming which one of the following?",
+    "choices": {
+      "A": "Literate populations being more likely to establish libraries does not entirely explain the higher literacy in library towns.",
+      "B": "Towns with library branches also tend to have more bookstores than towns without them.",
+      "C": "Access to a public library is the most important factor determining a town's adult literacy rate.",
+      "D": "Most adults in towns with library branches make use of the library's collections or services at least occasionally.",
+      "E": "Towns of similar size that lack library branches were included in the survey."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. Negate it: the correlation is entirely explained by literate towns building libraries. Then opening a branch would not raise literacy, and the conclusion collapses.",
+      "B": "Out of scope. Bookstores are never mentioned and would, if anything, suggest an alternative cause.",
+      "C": "Wrong force. The argument needs libraries to raise literacy somewhat, not to be 'the most important' factor.",
+      "D": "Out of scope. A library could raise literacy even if most adults rarely use it; 'most' is not required.",
+      "E": "Premise booster. The stimulus already says the comparison towns were 'of similar size'; this restates the evidence."
+    },
+    "trapPatterns": {
+      "B": "out_of_scope",
+      "C": "wrong_force",
+      "D": "out_of_scope",
+      "E": "premise_booster"
+    },
+    "keyTakeaway": "Correlation-to-cause arguments require that the causal arrow does not run the other way.",
+    "predictionHint": "Need: libraries cause literacy, rather than literacy causing libraries."
+  },
+  {
+    "id": "lr-necessary-assumption-hollis-prize-sales",
+    "section": "LR",
+    "type": "necessary_assumption",
+    "logicTags": [
+      "link_assumption"
+    ],
+    "difficulty": 1,
+    "stimulus": "Critic: The Hollis Prize is awarded each year to the novel that the prize committee judges to be the year's finest. This year's prize went to a novel that has sold fewer than two thousand copies. Clearly, then, the novel judged finest this year has been largely ignored by the reading public.",
+    "stem": "Which one of the following is an assumption required by the argument?",
+    "choices": {
+      "A": "The reading public never buys the novels that critics consider the finest.",
+      "B": "The Hollis Prize committee consists of experienced literary critics.",
+      "C": "Novels that win the Hollis Prize usually see increased sales after the award is announced.",
+      "D": "A novel that has sold fewer than two thousand copies has not been read by a large part of the reading public.",
+      "E": "This year's winning novel received little attention from reviewers before the prize was announced."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Wrong force. 'Never' is a sweeping claim about all prize-winning novels; the argument concerns one novel this year.",
+      "B": "Premise booster. The committee's expertise supports the premise that the winner was judged finest; it does not bear on whether the public ignored the book.",
+      "C": "Out of scope. Future sales are irrelevant to whether the book has been ignored so far.",
+      "D": "Correct. Sales is the evidence; being ignored by readers is the conclusion. Negate it: a book selling under two thousand copies may still be widely read (through libraries, for instance). Then low sales do not show the public ignored it.",
+      "E": "Out of scope. Reviewers' attention is not the reading public's attention."
+    },
+    "trapPatterns": {
+      "A": "wrong_force",
+      "B": "premise_booster",
+      "C": "out_of_scope",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "Watch for a quiet shift from a measurable proxy (sales) to the thing concluded about (readership).",
+    "predictionHint": "Low sales must mean few readers."
+  },
+  {
+    "id": "lr-necessary-assumption-grain-free-coat",
+    "section": "LR",
+    "type": "necessary_assumption",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 1,
+    "stimulus": "Veterinarian: In our clinic's records from the past year, dogs that are fed the new grain-free diet have noticeably shinier coats than dogs fed conventional diets. The grain-free diet must therefore contain some nutrient, important for coat health, that conventional diets lack.",
+    "stem": "The argument depends on assuming which one of the following?",
+    "choices": {
+      "A": "Any nutrient that improves coat health is absent from conventional dog diets.",
+      "B": "The clinic's records accurately describe the diets of the dogs they cover.",
+      "C": "The shinier coats are not the result of the grain-free diet's lacking an ingredient that conventional diets contain.",
+      "D": "Dogs fed the grain-free diet are healthier overall than dogs fed conventional diets.",
+      "E": "Most dog owners consider a shiny coat to be a sign of good health."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Wrong force. The argument needs only that some coat-relevant nutrient is missing from conventional diets, not 'any' such nutrient.",
+      "B": "Premise booster. Record accuracy shores up the evidence but does not address the leap to a specific explanation.",
+      "C": "Correct. Negate it: the shine comes from what the grain-free diet omits, not from any added nutrient. Then the conclusion about a nutrient 'that conventional diets lack' fails.",
+      "D": "Out of scope. Overall health is a different question from coat shine.",
+      "E": "Out of scope. Owners' beliefs do not affect what explains the shine."
+    },
+    "trapPatterns": {
+      "A": "wrong_force",
+      "B": "premise_booster",
+      "D": "out_of_scope",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "An argument that picks one explanation for a difference must rule out the mirror-image explanation.",
+    "predictionHint": "Need: the effect comes from something present in the new diet, not something absent."
+  },
+  {
+    "id": "lr-necessary-assumption-aldric-eclipse-coronation",
+    "section": "LR",
+    "type": "necessary_assumption",
+    "logicTags": [
+      "link_assumption"
+    ],
+    "difficulty": 2,
+    "stimulus": "Historian: The chronicle attributed to the monk Aldric records that a solar eclipse occurred in the year King Osbert was crowned. Osbert is known to have ruled during the ninth century, and astronomical calculations show that only one solar eclipse, in 847, was visible within Osbert's kingdom during that century. Therefore, Osbert was crowned in 847.",
+    "stem": "Which one of the following is an assumption required by the argument?",
+    "choices": {
+      "A": "Aldric's chronicle is accurate in every detail it records about Osbert's reign.",
+      "B": "Astronomical calculations of the dates of past eclipses are reliable for the ninth century.",
+      "C": "Aldric was alive at the time of Osbert's coronation.",
+      "D": "No other chronicle from the period mentions an eclipse during Osbert's reign.",
+      "E": "The eclipse that Aldric's chronicle records was one observed within Osbert's kingdom."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Wrong force. Accuracy 'in every detail' far exceeds what is needed; only the eclipse entry matters.",
+      "B": "Premise booster. The reliability of the calculations supports a stated premise rather than bridging the chronicle to that premise.",
+      "C": "Out of scope. A later chronicler relying on earlier sources could still record the eclipse correctly.",
+      "D": "Out of scope. Other chronicles' silence neither helps nor hurts the dating.",
+      "E": "Correct. Negate it: the chronicle's eclipse was one seen elsewhere and reported to Aldric. Then the 847 calculation, which covers only eclipses visible in the kingdom, no longer fixes the coronation year."
+    },
+    "trapPatterns": {
+      "A": "wrong_force",
+      "B": "premise_booster",
+      "C": "out_of_scope",
+      "D": "out_of_scope"
+    },
+    "keyTakeaway": "When a premise is scoped ('visible within the kingdom'), the argument assumes the evidence falls inside that same scope.",
+    "predictionHint": "The chronicle's eclipse must be the one the calculation is about."
+  },
+  {
+    "id": "lr-necessary-assumption-lisbon-accounting-standards",
+    "section": "LR",
+    "type": "necessary_assumption",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 2,
+    "stimulus": "Economist: In each of the twelve countries that adopted the Lisbon accounting standards during the past decade, foreign investment rose substantially over the five years following adoption, in several cases more than doubling. Adopting the standards therefore attracts foreign investment.",
+    "stem": "The argument depends on assuming which one of the following?",
+    "choices": {
+      "A": "The rise in foreign investment in those countries was not wholly the result of factors other than the adoption of the standards.",
+      "B": "Foreign investment never rises substantially in a country that has not adopted the Lisbon standards.",
+      "C": "The Lisbon standards are more rigorous than the standards they replaced in those countries.",
+      "D": "Domestic investment also rose in the countries that adopted the Lisbon standards.",
+      "E": "The Lisbon standards require companies to disclose more financial information than other standards do."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. Negate it: the rise was wholly due to other factors. Then adoption played no role, and 'adopting the standards attracts investment' is unsupported.",
+      "B": "Wrong force. The argument does not need adoption to be the only way investment rises; 'never' is far too strong.",
+      "C": "Out of scope. Rigor relative to prior standards is not part of the argument.",
+      "D": "Out of scope. Domestic investment is a different quantity from foreign investment.",
+      "E": "Premise booster. A disclosure mechanism would make the causal story plausible, but the argument does not require this particular feature."
+    },
+    "trapPatterns": {
+      "B": "wrong_force",
+      "C": "out_of_scope",
+      "D": "out_of_scope",
+      "E": "premise_booster"
+    },
+    "keyTakeaway": "A 'what followed was caused by' argument requires that other causes do not account for the whole effect.",
+    "predictionHint": "Need: adoption did at least some of the work."
+  },
+  {
+    "id": "lr-necessary-assumption-ancient-history-enrollment",
+    "section": "LR",
+    "type": "necessary_assumption",
+    "logicTags": [
+      "link_assumption"
+    ],
+    "difficulty": 2,
+    "stimulus": "Columnist: Over the past five years, enrollment in university courses on ancient Greek and Roman history has doubled nationwide, even though total university enrollment has barely changed over the same period. Clearly, interest in the ancient world among young people is growing.",
+    "stem": "Which one of the following is an assumption required by the argument?",
+    "choices": {
+      "A": "Every student who enrolls in a course on ancient history is interested in the ancient world.",
+      "B": "At least some students who enroll in courses on ancient history do so partly because of an interest in the ancient world.",
+      "C": "Enrollment in courses on medieval history has not doubled over the same period.",
+      "D": "Universities have not increased the number of ancient-history courses they offer over the past five years.",
+      "E": "The total number of university students has remained roughly constant over the past five years."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Wrong force. 'Every' student is unnecessary; the conclusion survives if only some enrollments reflect interest.",
+      "B": "Correct. Negate it: no student enrolls because of interest in the ancient world. Then doubled enrollment says nothing about interest, and the conclusion fails.",
+      "C": "Out of scope. Trends in other fields do not bear on whether interest in the ancient world is growing.",
+      "D": "Out of scope. More course offerings filled by students would still be consistent with growing interest; the argument does not need offerings to be flat.",
+      "E": "Premise booster. This restates the 'barely changed' premise rather than linking enrollment to interest."
+    },
+    "trapPatterns": {
+      "A": "wrong_force",
+      "C": "out_of_scope",
+      "D": "out_of_scope",
+      "E": "premise_booster"
+    },
+    "keyTakeaway": "Behavior-to-attitude conclusions require that the behavior is at least partly motivated by the attitude.",
+    "predictionHint": "Enrolling must have something to do with being interested."
+  },
+  {
+    "id": "lr-necessary-assumption-knee-surgery-analgesic",
+    "section": "LR",
+    "type": "necessary_assumption",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 2,
+    "stimulus": "Physician: Patients who were given the new anti-inflammatory drug after knee surgery reported less pain during recovery than patients who were given the standard drug. The new drug must therefore be a more effective pain reliever than the standard drug.",
+    "stem": "The argument depends on assuming which one of the following?",
+    "choices": {
+      "A": "The new drug relieves pain more effectively than the standard drug in every patient who takes it after any kind of surgery.",
+      "B": "The patients' reports of their pain during recovery were honest.",
+      "C": "The new drug has fewer side effects than the standard drug.",
+      "D": "The patients given the new drug did not, on average, undergo less extensive surgery than those given the standard drug.",
+      "E": "The new drug costs no more than the standard drug."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Wrong force. 'Every patient' is not required; a difference on average would suffice for the conclusion.",
+      "B": "Premise booster. Honesty shores up the pain reports but does not address whether the groups were comparable.",
+      "C": "Out of scope. Side effects are a separate question from pain relief.",
+      "D": "Correct. Negate it: the new-drug patients had less extensive surgery. Then their lower pain is explained by the surgery, not the drug, and the comparison of effectiveness collapses.",
+      "E": "Out of scope. Cost has nothing to do with effectiveness."
+    },
+    "trapPatterns": {
+      "A": "wrong_force",
+      "B": "premise_booster",
+      "C": "out_of_scope",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "A two-group comparison assumes the groups did not differ in some other way that would explain the result.",
+    "predictionHint": "Need: the groups were otherwise comparable."
+  },
+  {
+    "id": "lr-necessary-assumption-tarsodon-tooth-wear",
+    "section": "LR",
+    "type": "necessary_assumption",
+    "logicTags": [
+      "link_assumption"
+    ],
+    "difficulty": 2,
+    "stimulus": "Zoologist: The fossilized teeth of the extinct mammal Tarsodon, recovered from several sites, show wear patterns identical to those on the teeth of modern grazing animals, which feed primarily on grasses. Tarsodon, then, like those modern animals, fed primarily on grasses.",
+    "stem": "Which one of the following is an assumption required by the argument?",
+    "choices": {
+      "A": "Every animal whose teeth show such wear patterns feeds exclusively on grasses.",
+      "B": "The fossilized teeth attributed to Tarsodon have been correctly identified as belonging to that species.",
+      "C": "Wear patterns like those of modern grazers are not also produced by diets consisting mainly of foods other than grasses.",
+      "D": "Grasses were the most abundant plants in the environment Tarsodon inhabited.",
+      "E": "Tarsodon's teeth were similar in overall size and shape to those of the modern grazing animals with which they were compared."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Wrong force. 'Exclusively' overshoots the conclusion, which says only 'primarily.'",
+      "B": "Premise booster. Correct attribution supports the evidence but does not connect wear patterns to diet.",
+      "C": "Correct. Negate it: such wear patterns are also produced by other diets. Then the patterns no longer point to grasses, and the conclusion is unsupported.",
+      "D": "Out of scope. Abundance of grasses would be independent evidence, not something the tooth-wear inference requires.",
+      "E": "Out of scope. Size and shape are not part of the argument, which rests on wear patterns alone."
+    },
+    "trapPatterns": {
+      "A": "wrong_force",
+      "B": "premise_booster",
+      "D": "out_of_scope",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "Inferring a cause from a signature assumes the signature is not also produced by rival causes.",
+    "predictionHint": "Need: only grass diets wear teeth this way."
+  },
+  {
+    "id": "lr-necessary-assumption-meridian-math-curriculum",
+    "section": "LR",
+    "type": "necessary_assumption",
+    "logicTags": [
+      "link_assumption",
+      "causation"
+    ],
+    "difficulty": 2,
+    "stimulus": "Education researcher: Schools that adopted the Meridian mathematics curriculum saw their students' average scores on the state mathematics exam rise over the following two years. Schools that kept their previous curricula saw no comparable rise. The Meridian curriculum therefore improves students' mathematical ability.",
+    "stem": "The argument depends on assuming which one of the following?",
+    "choices": {
+      "A": "Any curriculum that raises students' scores on the state exam improves their mathematical ability.",
+      "B": "The state mathematics exam was not made easier during the two years following adoption.",
+      "C": "Students at schools using the Meridian curriculum enjoy mathematics more than students at other schools.",
+      "D": "Schools that kept their previous curricula did not change their mathematics teaching in other ways.",
+      "E": "The Meridian curriculum did not raise scores primarily by familiarizing students with the format of the state exam."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Wrong force. A universal rule about 'any curriculum' is sufficient for the conclusion but not required; the argument needs the link only for Meridian.",
+      "B": "Out of scope. The comparison schools saw no rise, so an easier exam is already controlled for; the argument does not depend on this.",
+      "C": "Out of scope. Enjoyment is not ability.",
+      "D": "Premise booster. Whatever the comparison schools did, their scores did not rise; this adds nothing the argument needs.",
+      "E": "Correct. Negate it: Meridian raised scores mainly by teaching the exam's format. Then higher scores do not show greater mathematical ability, and the conclusion fails."
+    },
+    "trapPatterns": {
+      "A": "wrong_force",
+      "B": "out_of_scope",
+      "C": "out_of_scope",
+      "D": "premise_booster"
+    },
+    "keyTakeaway": "When evidence is a test score and the conclusion is an underlying ability, the argument assumes the score gain is not an artifact of test familiarity.",
+    "predictionHint": "Need: higher scores mean more math ability, not just better test-taking."
+  },
+  {
+    "id": "lr-necessary-assumption-dam-flooding-responsibility",
+    "section": "LR",
+    "type": "necessary_assumption",
+    "logicTags": [
+      "conditional",
+      "link_assumption"
+    ],
+    "difficulty": 2,
+    "stimulus": "Ethicist: A person is responsible for an outcome only if that person could have acted so as to prevent it. The flooding of the lower valley could not have been prevented by any action the dam's operators might have taken. Hence, no one is responsible for the flooding.",
+    "stem": "Which one of the following is an assumption required by the argument?",
+    "choices": {
+      "A": "No one other than the dam's operators could have acted so as to prevent the flooding.",
+      "B": "Any person who could have acted so as to prevent an outcome is at least partly responsible for that outcome.",
+      "C": "The dam's operators followed all required procedures before the flooding.",
+      "D": "The flooding of the lower valley caused no loss of life.",
+      "E": "The dam's operators are not responsible for the flooding."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. The premise clears only the operators, but the conclusion clears everyone. Negate it: someone else could have prevented the flood. Then that person might be responsible, and 'no one' fails.",
+      "B": "Reversal. The principle makes preventability necessary for responsibility; this choice makes it sufficient, which the argument neither states nor needs.",
+      "C": "Premise booster. Following procedures bears on the operators' conduct, which the argument has already settled by saying they could not have prevented the flood.",
+      "D": "Out of scope. The severity of the flood does not affect who is responsible.",
+      "E": "Premise booster. This follows directly from the stated premises; it is an intermediate step, not an unstated assumption."
+    },
+    "trapPatterns": {
+      "B": "reversal",
+      "C": "premise_booster",
+      "D": "out_of_scope",
+      "E": "premise_booster"
+    },
+    "keyTakeaway": "When a conclusion is about 'no one' but the evidence covers one party, the required assumption extends the evidence to everyone else.",
+    "predictionHint": "Nobody else could have prevented it either."
+  },
+  {
+    "id": "lr-necessary-assumption-downtown-parking-bus",
+    "section": "LR",
+    "type": "necessary_assumption",
+    "logicTags": [
+      "causation",
+      "comparison"
+    ],
+    "difficulty": 3,
+    "stimulus": "Transportation planner: After the city began charging for parking downtown, the number of cars entering downtown on weekdays fell by about 15 percent, while weekday bus ridership into downtown rose by nearly the same number of trips. Clearly, the parking charge induced many former drivers to switch to the bus.",
+    "stem": "The argument depends on assuming which one of the following?",
+    "choices": {
+      "A": "Every former driver who stopped driving downtown began taking the bus instead.",
+      "B": "The additional bus trips into downtown were not made mainly by people who had not previously been traveling downtown at all.",
+      "C": "The decline in cars entering downtown began immediately after the parking charge took effect.",
+      "D": "Bus fares into downtown did not rise after the parking charge was introduced.",
+      "E": "The number of cars entering downtown on weekends did not fall after the charge was introduced."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Wrong force. The conclusion says 'many' switched, not 'every' one.",
+      "B": "Correct. The matching numbers are the argument's whole case. Negate it: the new riders were mainly people new to downtown. Then the ridership rise does not show former drivers switched, and the conclusion loses its support.",
+      "C": "Premise booster. Timing details would strengthen the causal story but are not required; a lagged decline would still fit the conclusion.",
+      "D": "Out of scope. Whatever happened to fares, ridership rose; the argument does not depend on fares holding steady.",
+      "E": "Out of scope. Weekend traffic is not part of the weekday comparison."
+    },
+    "trapPatterns": {
+      "A": "wrong_force",
+      "C": "premise_booster",
+      "D": "out_of_scope",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "When two changes of matching size are treated as the same people moving, the argument assumes they are not two unrelated groups.",
+    "predictionHint": "The new bus riders have to be the old drivers."
+  },
+  {
+    "id": "lr-necessary-assumption-varden-novel-chapters",
+    "section": "LR",
+    "type": "necessary_assumption",
+    "logicTags": [
+      "part_v_whole",
+      "link_assumption"
+    ],
+    "difficulty": 3,
+    "stimulus": "Literary critic: Each chapter of Varden's new novel, read on its own, is tightly constructed and emotionally compelling, and several chapters have been published separately to acclaim. So, however unconventional its structure may be, the novel as a whole must be a compelling work.",
+    "stem": "Which one of the following is an assumption required by the argument?",
+    "choices": {
+      "A": "Any novel whose chapters are each compelling on their own is a compelling novel.",
+      "B": "Varden constructed each chapter so that it could be read independently of the others.",
+      "C": "Most readers of Varden's novel find its unconventional structure appealing.",
+      "D": "Varden's earlier novels, which had conventional structures, were also compelling.",
+      "E": "The way Varden's chapters are arranged does not undermine the compelling quality each possesses on its own."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Wrong force. This universal rule would guarantee the conclusion, but the argument needs the part-to-whole step only for this novel; the rule is sufficient, not required.",
+      "B": "Premise booster. Whether Varden intended chapters to stand alone does not affect whether the whole is compelling.",
+      "C": "Out of scope. Readers' reactions to structure are not what the argument rests on.",
+      "D": "Out of scope. Earlier books tell us nothing about how this one's parts combine.",
+      "E": "Correct. Negate it: the arrangement does undermine each chapter's effect. Then compelling parts need not yield a compelling whole, and the conclusion fails."
+    },
+    "trapPatterns": {
+      "A": "wrong_force",
+      "B": "premise_booster",
+      "C": "out_of_scope",
+      "D": "out_of_scope"
+    },
+    "keyTakeaway": "A part-to-whole argument assumes that combining the parts does not destroy the property they have individually.",
+    "predictionHint": "Putting the chapters together must not spoil them."
+  },
+  {
+    "id": "lr-necessary-assumption-night-shift-hypertension",
+    "section": "LR",
+    "type": "necessary_assumption",
+    "logicTags": [
+      "causation",
+      "sampling"
+    ],
+    "difficulty": 3,
+    "stimulus": "Sleep researcher: In a study of nurses, those who had worked rotating night shifts for more than five years had a significantly higher incidence of hypertension than those who had never worked night shifts. Therefore, long-term night-shift work raises the risk of hypertension.",
+    "stem": "The argument depends on assuming which one of the following?",
+    "choices": {
+      "A": "Night-shift work is the primary cause of hypertension among nurses.",
+      "B": "The nurses in the study who had never worked night shifts had rates of hypertension typical for people of their age.",
+      "C": "The higher incidence of hypertension among long-term night-shift nurses is not wholly attributable to characteristics those nurses had before beginning night-shift work.",
+      "D": "Nurses who had worked night shifts for fewer than five years had rates of hypertension between those of the other two groups.",
+      "E": "The study's blood-pressure measurements were taken under uniform conditions for all participants."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Wrong force. 'Primary cause' is far stronger than 'raises the risk.'",
+      "B": "Comparison shift. Even if the comparison group were unusually healthy, a within-study difference could still reflect night-shift effects; typicality is not required.",
+      "C": "Correct. Negate it: the difference is wholly due to pre-existing characteristics. Then night-shift work did not raise anyone's risk, and the conclusion fails.",
+      "D": "Out of scope. A dose-response pattern would strengthen the argument but is not something it depends on.",
+      "E": "Premise booster. Uniform measurement supports the reported incidence figures but does not address whether night shifts caused the difference."
+    },
+    "trapPatterns": {
+      "A": "wrong_force",
+      "B": "comparison_shift",
+      "D": "out_of_scope",
+      "E": "premise_booster"
+    },
+    "keyTakeaway": "Observational comparisons assume the exposed group was not already different in a way that explains the outcome.",
+    "predictionHint": "Need: the night-shift nurses were not already headed for hypertension."
+  },
+  {
+    "id": "lr-necessary-assumption-cleaner-ingredient-labels",
+    "section": "LR",
+    "type": "necessary_assumption",
+    "logicTags": [
+      "link_assumption",
+      "definition_scope"
+    ],
+    "difficulty": 3,
+    "stimulus": "Policy analyst: The new regulation requires manufacturers to list every ingredient in household cleaners. Consumers who know what a product contains can avoid ingredients to which they are sensitive. So the regulation will reduce the number of allergic reactions to household cleaners.",
+    "stem": "Which one of the following is an assumption required by the argument?",
+    "choices": {
+      "A": "All consumers read the ingredient lists of the household cleaners they purchase.",
+      "B": "Manufacturers will comply fully with every requirement of the new regulation.",
+      "C": "Allergic reactions to household cleaners are more common than allergic reactions to cosmetics.",
+      "D": "Some consumers who have had allergic reactions to household cleaners can identify, from an ingredient list, the ingredients to which they are sensitive.",
+      "E": "Manufacturers will reformulate their cleaners to remove ingredients that commonly cause allergic reactions."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Wrong force. 'All consumers' is unnecessary; a reduction requires only that some use the lists.",
+      "B": "Extreme. 'Fully' and 'every requirement' overshoot; partial compliance could still reduce reactions.",
+      "C": "Comparison shift. How cleaners compare with cosmetics is irrelevant to whether reactions to cleaners fall.",
+      "D": "Correct. Negate it: no sensitive consumer can tell from a list which ingredients affect them. Then knowing the contents cannot help anyone avoid a reaction, and the regulation's effect disappears.",
+      "E": "Out of scope. Reformulation is a different mechanism from the one the argument describes."
+    },
+    "trapPatterns": {
+      "A": "wrong_force",
+      "B": "extreme",
+      "C": "comparison_shift",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "'Knowing what a product contains' is not the same as 'knowing what to avoid'; the argument assumes the gap is bridged for at least some people.",
+    "predictionHint": "Someone must be able to use the list to avoid their trigger."
+  },
+  {
+    "id": "lr-necessary-assumption-sarn-basin-ridges",
+    "section": "LR",
+    "type": "necessary_assumption",
+    "logicTags": [
+      "eliminating_options",
+      "lack_of_support_v_false"
+    ],
+    "difficulty": 3,
+    "stimulus": "Geologist: The unusual ridges on the floor of the Sarn basin were formed either by glacial movement or by ancient river currents. Glaciers leave behind deposits of unsorted rock debris, but no such deposits have been found anywhere in the basin. Therefore, the ridges were formed by river currents.",
+    "stem": "The argument depends on assuming which one of the following?",
+    "choices": {
+      "A": "If glacial deposits had once been present in the Sarn basin, at least some would have been found by now.",
+      "B": "Ridges formed by river currents are never accompanied by deposits of unsorted rock debris.",
+      "C": "The ridges in the Sarn basin are similar in shape to ridges in other basins known to have been formed by rivers.",
+      "D": "Glacial movement never occurs without leaving deposits of unsorted rock debris.",
+      "E": "The Sarn basin has been thoroughly surveyed for evidence of ancient river channels."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. The argument treats 'none found' as 'none existed.' Negate it: deposits could have been present without being found. Then their absence from the record proves nothing, and glaciers are not eliminated.",
+      "B": "Wrong force. Whether river ridges come with debris is irrelevant; the argument eliminates glaciers, it does not need to positively confirm rivers this way.",
+      "C": "Out of scope. Independent evidence for rivers is not something the elimination argument depends on.",
+      "D": "Premise booster. The stimulus already asserts that glaciers leave deposits; restating it as 'never without' does not address whether deposits would have been found.",
+      "E": "Out of scope. Surveying for river channels does not bear on the glacial-elimination step."
+    },
+    "trapPatterns": {
+      "B": "wrong_force",
+      "C": "out_of_scope",
+      "D": "premise_booster",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "Eliminating an option because its evidence was not found assumes the evidence would have been found if it existed.",
+    "predictionHint": "Absence of deposits must mean absence of glaciers, so deposits must have been findable."
+  },
+  {
+    "id": "lr-necessary-assumption-electronic-prescribing-errors",
+    "section": "LR",
+    "type": "necessary_assumption",
+    "logicTags": [
+      "causation",
+      "math_percent"
+    ],
+    "difficulty": 3,
+    "stimulus": "Hospital administrator: Since we introduced the electronic prescribing system, the number of prescription errors detected by our pharmacists has risen by 20 percent. The new system has evidently made prescribing less accurate than it was under the old paper system.",
+    "stem": "Which one of the following is an assumption required by the argument?",
+    "choices": {
+      "A": "Prescription errors at the hospital are never made by the pharmacists themselves.",
+      "B": "The electronic system did not make it substantially easier for pharmacists to detect prescription errors.",
+      "C": "The number of prescriptions written at the hospital did not decrease after the system was introduced.",
+      "D": "Any prescribing system that increases the number of detected errors has made prescribing less accurate.",
+      "E": "Pharmacists at the hospital report that the new system is difficult to use."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Out of scope. Who makes the errors does not affect whether more errors are being made.",
+      "B": "Correct. Negate it: the system made errors much easier to detect. Then more detected errors is consistent with the same or fewer actual errors, and the conclusion fails.",
+      "C": "Comparison shift. A decrease in prescriptions would make the error rise more alarming, not less; the argument does not depend on volume staying constant.",
+      "D": "Wrong force. This universal would guarantee the conclusion, but the argument needs the link only for this system; it is sufficient, not necessary.",
+      "E": "Premise booster. Complaints about usability would support the conclusion but are not required by it."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "C": "comparison_shift",
+      "D": "wrong_force",
+      "E": "premise_booster"
+    },
+    "keyTakeaway": "A rise in detected or reported cases supports a rise in actual cases only if detection itself did not improve.",
+    "predictionHint": "Need: more caught errors means more errors, not better catching."
+  },
+  {
+    "id": "lr-necessary-assumption-infant-knowledge-evidence",
+    "section": "LR",
+    "type": "necessary_assumption",
+    "logicTags": [
+      "conditional",
+      "link_assumption"
+    ],
+    "difficulty": 4,
+    "stimulus": "Philosopher: Knowledge requires justified true belief, and a belief is justified only if the believer possesses evidence for it. Infants hold many true beliefs, about the location of hidden objects, for instance, but they cannot cite evidence for any of them. It follows that, whatever cognitive achievements infants display, they cannot be credited with knowledge.",
+    "stem": "The argument depends on assuming which one of the following?",
+    "choices": {
+      "A": "Any belief for which the believer can cite evidence is justified.",
+      "B": "Infants' beliefs about the location of hidden objects are typically true.",
+      "C": "Infants are incapable of possessing justified beliefs of any kind.",
+      "D": "A believer who cannot cite evidence for a belief does not possess evidence for it.",
+      "E": "Knowledge cannot be attributed to any being that lacks language."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Reversal. The principle makes evidence necessary for justification; this choice makes citing evidence sufficient, which the argument never uses.",
+      "B": "Premise booster. The stimulus already grants that infants hold true beliefs; truth is not where the argument's gap lies.",
+      "C": "Wrong force. This would be enough to reach the conclusion, but it is not required: the argument needs only that the inability to cite evidence shows a lack of evidence, not a blanket incapacity.",
+      "D": "Correct. The premise says infants cannot 'cite' evidence; the principle requires that they 'possess' evidence. Negate it: one can possess evidence one cannot cite. Then infants might have justified beliefs, and the conclusion fails.",
+      "E": "Out of scope. Language is never mentioned."
+    },
+    "trapPatterns": {
+      "A": "reversal",
+      "B": "premise_booster",
+      "C": "wrong_force",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "Match the exact verb in the premise to the exact verb in the rule; 'cite' and 'possess' are different, and the bridge is the assumption.",
+    "predictionHint": "Cannot cite must mean does not possess."
+  },
+  {
+    "id": "lr-necessary-assumption-export-firms-wages",
+    "section": "LR",
+    "type": "necessary_assumption",
+    "logicTags": [
+      "causation",
+      "link_assumption"
+    ],
+    "difficulty": 4,
+    "stimulus": "Economist: Firms in the region that export most of their output pay wages 20 percent higher, on average, than firms that sell mainly domestically. Exporting exposes firms to intense competition, which forces them to become more productive, and more productive firms can afford to pay higher wages. Thus, if the government's program succeeds in inducing more firms to export, average wages in the region will rise.",
+    "stem": "Which one of the following is an assumption required by the argument?",
+    "choices": {
+      "A": "Every firm that becomes more productive raises its workers' wages.",
+      "B": "Firms that export most of their output are more productive than firms that sell mainly domestically.",
+      "C": "The government's program will induce most of the region's firms to export.",
+      "D": "The wage gap between exporting and domestic firms is not explained by differences in the industries in which they operate.",
+      "E": "At least some of the firms induced to export will pay higher wages than they would otherwise have paid."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Wrong force. 'Every firm' is far more than needed; the conclusion concerns an average.",
+      "B": "Premise booster. The stimulus already supplies the productivity mechanism; restating it does not close the gap between 'can afford' and 'will pay.'",
+      "C": "Extreme. 'Most' firms is not required; a rise in the average needs only enough firms to move it.",
+      "D": "Out of scope. The argument rests on a stated mechanism, not on the wage gap alone, so an industry-mix explanation of the gap does not undercut it.",
+      "E": "Correct. The premises end at 'can afford to pay higher wages.' Negate it: none of the newly exporting firms pays more than it otherwise would. Then average wages do not rise through this route, and the conclusion fails."
+    },
+    "trapPatterns": {
+      "A": "wrong_force",
+      "B": "premise_booster",
+      "C": "extreme",
+      "D": "out_of_scope"
+    },
+    "keyTakeaway": "'Can afford to' is a capacity, not an action; a conclusion about what will happen assumes at least some actors act on the capacity.",
+    "predictionHint": "Being able to pay more must turn into actually paying more for someone."
+  },
+  {
+    "id": "lr-necessary-assumption-keld-arsenic-bronze",
+    "section": "LR",
+    "type": "necessary_assumption",
+    "logicTags": [
+      "causation",
+      "lack_of_support_v_false"
+    ],
+    "difficulty": 4,
+    "stimulus": "Archaeologist: Every bronze artifact recovered from the Keld site contains traces of arsenic, a signature characteristic of bronze made from ore of the Vostran mines, and no other known ore source in the region yields bronze with these traces. Therefore, the inhabitants of Keld obtained their bronze, directly or through intermediaries, from the Vostran region.",
+    "stem": "The argument depends on assuming which one of the following?",
+    "choices": {
+      "A": "Every bronze object in the region that contains traces of arsenic was made from Vostran ore.",
+      "B": "The Vostran mines were the largest source of arsenic-bearing copper ore in the region.",
+      "C": "The arsenic traces in the Keld bronzes were not introduced by some process other than the use of arsenic-bearing ore.",
+      "D": "The inhabitants of Keld did not produce bronze objects for trade with other settlements.",
+      "E": "All bronze artifacts recovered from sites near Keld also contain traces of arsenic."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Wrong force. The argument needs the inference only for the Keld artifacts; a claim about 'every' object in the region is sufficient but not required.",
+      "B": "Out of scope. The size of the Vostran mines relative to others does not affect whether the signature points to them.",
+      "C": "Correct. The premises cover ore sources only. Negate it: the arsenic came from a smelting additive or another process. Then the traces no longer indicate Vostran ore, and the conclusion fails.",
+      "D": "Out of scope. What Keld did with its bronze is irrelevant to where the bronze came from.",
+      "E": "Premise booster. Neighboring sites would add context but are not something this argument about Keld depends on."
+    },
+    "trapPatterns": {
+      "A": "wrong_force",
+      "B": "out_of_scope",
+      "D": "out_of_scope",
+      "E": "premise_booster"
+    },
+    "keyTakeaway": "Ruling out all other 'known ore sources' leaves open causes that are not ore sources at all; the argument assumes those are absent too.",
+    "predictionHint": "The arsenic has to come from the ore, not from something done to the metal."
+  },
+  {
+    "id": "lr-sufficient-assumption-design-review-panel",
+    "section": "LR",
+    "type": "sufficient_assumption",
+    "logicTags": [
+      "conditional"
+    ],
+    "difficulty": 1,
+    "stimulus": "City ordinance provides that all residents of the city who are licensed architects are eligible to serve on the design review panel. Dana is a licensed architect who has designed several buildings in the city. Therefore, Dana is eligible to serve on the design review panel.",
+    "stem": "The conclusion follows logically if which one of the following is assumed?",
+    "choices": {
+      "A": "Only licensed architects are eligible to serve on the design review panel.",
+      "B": "Anyone eligible to serve on the design review panel is a resident of the city.",
+      "C": "Most licensed architects who have designed buildings in the city are residents of the city.",
+      "D": "Dana is a resident of the city.",
+      "E": "The design review panel currently has a vacancy that has not been filled."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Necessary versus sufficient. 'Only' makes licensure a requirement for eligibility; it does not make Dana eligible.",
+      "B": "Reversal. This runs from eligibility to residency, the wrong direction for proving eligibility.",
+      "C": "Wrong force. 'Most' leaves open that Dana is among the non-resident architects.",
+      "D": "Correct. The ordinance's rule has two triggers, resident and licensed architect; Dana's licensure is given, so adding residency guarantees eligibility.",
+      "E": "Out of scope. Vacancies concern appointment, not eligibility."
+    },
+    "trapPatterns": {
+      "A": "necessary_v_sufficient",
+      "B": "reversal",
+      "C": "wrong_force",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "List every trigger in the rule and supply the one the premises omit; designing buildings is not residency.",
+    "predictionHint": "Rule needs resident plus architect; architect is given; need resident."
+  },
+  {
+    "id": "lr-sufficient-assumption-tomato-nitrogen",
+    "section": "LR",
+    "type": "sufficient_assumption",
+    "logicTags": [
+      "conditional",
+      "eliminating_options"
+    ],
+    "difficulty": 1,
+    "stimulus": "Gardener: The tomato plants in the east bed have yellowing leaves, a condition that in tomato plants is caused either by overwatering or by a nitrogen deficiency in the soil. The east bed has not been overwatered. So I should add nitrogen fertilizer to the east bed.",
+    "stem": "Which one of the following, if assumed, enables the conclusion to be properly drawn?",
+    "choices": {
+      "A": "Whenever yellowing in tomato plants is caused by a nitrogen deficiency, nitrogen fertilizer should be added to the soil.",
+      "B": "Nitrogen fertilizer should be added to a bed only if its soil is deficient in nitrogen.",
+      "C": "Whenever the soil in a bed is deficient in nitrogen, any tomato plants growing in that bed develop yellowing leaves.",
+      "D": "Overwatering can be ruled out as the cause of yellowing whenever a bed has been watered only on a regular schedule.",
+      "E": "Nitrogen fertilizer is inexpensive and readily available at most garden suppliers."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. The premises establish a nitrogen deficiency by elimination; this rule converts that diagnosis into the recommended action.",
+      "B": "Necessary versus sufficient. 'Only if' makes a deficiency a precondition for fertilizing; it never says fertilizing is what should be done.",
+      "C": "Reversal. This runs from deficiency to yellowing; the argument already has yellowing and needs to reach the remedy.",
+      "D": "Premise booster. The stimulus already states the bed was not overwatered; this adds nothing toward the recommendation.",
+      "E": "Out of scope. Cost and availability do not establish that fertilizer 'should' be added."
+    },
+    "trapPatterns": {
+      "B": "necessary_v_sufficient",
+      "C": "reversal",
+      "D": "premise_booster",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "When the premises end in a diagnosis and the conclusion is a prescription, the sufficient assumption is 'diagnosis, therefore prescription.'",
+    "predictionHint": "Deficiency established; need: deficiency means add fertilizer."
+  },
+  {
+    "id": "lr-sufficient-assumption-vault-background-check",
+    "section": "LR",
+    "type": "sufficient_assumption",
+    "logicTags": [
+      "conditional"
+    ],
+    "difficulty": 2,
+    "stimulus": "Any employee who has access to the company's vault must undergo an annual background check. Employees in the accounting department have access to the vault only if they have been with the company for at least five years. Priya, an accountant, has been with the company for six years. Therefore, Priya must undergo an annual background check.",
+    "stem": "The conclusion follows logically if which one of the following is assumed?",
+    "choices": {
+      "A": "Only employees who have access to the vault must undergo annual background checks.",
+      "B": "Every employee in the accounting department who has been with the company for at least five years has access to the vault.",
+      "C": "Any employee who undergoes an annual background check has access to the vault.",
+      "D": "Accountants with at least five years at the company must undergo annual background checks unless they lack access to the vault.",
+      "E": "Priya has never failed a background check during her time at the company."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Necessary versus sufficient. 'Only' restricts who gets checked; it does not establish that Priya has vault access.",
+      "B": "Correct. Five years is stated as necessary for access, not sufficient; this choice makes it sufficient for accountants, so Priya has access and must be checked.",
+      "C": "Reversal. The premise runs from access to background check; this choice runs the other way and never reaches Priya.",
+      "D": "Half right. The 'unless' clause leaves open exactly the possibility at issue, that Priya lacks access.",
+      "E": "Out of scope. Her past results do not determine whether she is required to be checked."
+    },
+    "trapPatterns": {
+      "A": "necessary_v_sufficient",
+      "C": "reversal",
+      "D": "half_right",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "An 'only if' premise gives you a requirement; to use it forward you must assume the requirement is also enough.",
+    "predictionHint": "Need: tenure plus accounting means vault access."
+  },
+  {
+    "id": "lr-sufficient-assumption-lena-broken-promise",
+    "section": "LR",
+    "type": "sufficient_assumption",
+    "logicTags": [
+      "conditional",
+      "value_judgment"
+    ],
+    "difficulty": 2,
+    "stimulus": "Ethicist: It is wrong to break a promise unless keeping it would cause serious harm to someone. Lena promised to attend her colleague's presentation, but attending would have meant missing her train and arriving home late, so she did not attend. Hence, Lena acted wrongly in breaking her promise.",
+    "stem": "Which one of the following, if assumed, enables the conclusion to be properly drawn?",
+    "choices": {
+      "A": "Breaking a promise is never wrong when keeping it would cause serious harm to someone.",
+      "B": "An act is wrong only if it involves breaking a promise.",
+      "C": "Lena could have attended the presentation without missing her train had she left early.",
+      "D": "Arriving home late is usually only a minor inconvenience.",
+      "E": "Missing her train and arriving home late would not have caused serious harm to anyone."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Reversal. The principle says serious harm is the only excuse; this choice says serious harm always excuses, which does not help show Lena had no excuse.",
+      "B": "Necessary versus sufficient. Making promise-breaking a requirement for wrongness does not show this instance was wrong.",
+      "C": "Out of scope. Whether she could have done both is irrelevant once the principle's exception is the only issue.",
+      "D": "Wrong force. 'Usually' leaves open that this case involved serious harm.",
+      "E": "Correct. The principle permits breaking a promise only to avoid serious harm; if keeping this promise would not have caused serious harm, the exception fails and the act was wrong."
+    },
+    "trapPatterns": {
+      "A": "reversal",
+      "B": "necessary_v_sufficient",
+      "C": "out_of_scope",
+      "D": "wrong_force"
+    },
+    "keyTakeaway": "With an 'unless' principle, the sufficient assumption denies the exception for the specific case, with no hedge.",
+    "predictionHint": "Need: no serious harm from keeping the promise."
+  },
+  {
+    "id": "lr-sufficient-assumption-electricians-guild-exam",
+    "section": "LR",
+    "type": "sufficient_assumption",
+    "logicTags": [
+      "conditional"
+    ],
+    "difficulty": 2,
+    "stimulus": "Anyone who completes the certification course is qualified to inspect residential wiring, and no one who is qualified to inspect residential wiring may be denied membership in the Guild of Electricians. Marcus was denied membership in the Guild last month. Therefore, Marcus did not pass the certification examination.",
+    "stem": "The conclusion follows logically if which one of the following is assumed?",
+    "choices": {
+      "A": "Anyone who has completed the certification course has passed the certification examination.",
+      "B": "Only those who pass the certification examination are qualified to inspect residential wiring.",
+      "C": "Anyone who passes the certification examination has completed the certification course.",
+      "D": "Marcus applied for Guild membership before he had completed the certification course.",
+      "E": "Most people who are denied Guild membership have not passed the certification examination."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Reversal. The premises show Marcus did not complete the course; to conclude he did not pass the exam, we need 'pass implies complete,' not 'complete implies pass.'",
+      "B": "Necessary versus sufficient. This gives 'qualified implies passed'; from 'not qualified' it yields nothing about the exam.",
+      "C": "Correct. Denied membership means not qualified, which means the course was not completed; if passing the exam requires completing the course, Marcus did not pass.",
+      "D": "Out of scope. Timing of his application does not connect to the examination.",
+      "E": "Wrong force. 'Most' cannot guarantee anything about Marcus."
+    },
+    "trapPatterns": {
+      "A": "reversal",
+      "B": "necessary_v_sufficient",
+      "D": "out_of_scope",
+      "E": "wrong_force"
+    },
+    "keyTakeaway": "Work backward from the denied term: you have 'not X,' so you need a rule whose consequent is X and whose antecedent is the conclusion's term.",
+    "predictionHint": "Chain gives 'did not complete course'; need: pass exam implies completed course."
+  },
+  {
+    "id": "lr-sufficient-assumption-greenhouse-orchids-heating",
+    "section": "LR",
+    "type": "sufficient_assumption",
+    "logicTags": [
+      "conditional",
+      "causation"
+    ],
+    "difficulty": 2,
+    "stimulus": "Botanist: The orchids in the greenhouse have failed to flower this year. Orchids of this variety flower only if nighttime temperatures fall below 15 degrees for at least two weeks in autumn. Therefore, the greenhouse's new heating system, installed last summer, is responsible for the failure to flower.",
+    "stem": "Which one of the following, if assumed, enables the conclusion to be properly drawn?",
+    "choices": {
+      "A": "The orchids would certainly have flowered this year if nighttime temperatures had fallen below 15 degrees for two weeks last autumn.",
+      "B": "The new heating system raised the greenhouse's average temperature last autumn.",
+      "C": "The orchids flowered in every year before the heating system was installed.",
+      "D": "Because of the new heating system, greenhouse nighttime temperatures did not fall below 15 degrees for two weeks last autumn.",
+      "E": "Heating systems like the new one usually prevent greenhouse temperatures from falling below 15 degrees."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Reversal. This makes cold sufficient for flowering, but the argument needs to show the heating system removed the cold that was necessary.",
+      "B": "Half right. A higher average says nothing about whether nighttime lows stayed above 15 degrees for the critical two weeks.",
+      "C": "Out of scope. Past flowering suggests a change occurred but does not tie the failure to the heater.",
+      "D": "Correct. Flowering requires the two-week cold spell; if the heater prevented it, the heater caused the failure.",
+      "E": "Wrong force. 'Usually' does not guarantee what happened in this greenhouse."
+    },
+    "trapPatterns": {
+      "A": "reversal",
+      "B": "half_right",
+      "C": "out_of_scope",
+      "E": "wrong_force"
+    },
+    "keyTakeaway": "To blame a cause for the absence of an outcome, the assumption must say the cause removed the outcome's necessary condition in this case.",
+    "predictionHint": "Need: the heater kept nights above 15 degrees."
+  },
+  {
+    "id": "lr-sufficient-assumption-corvin-sculpture-loans",
+    "section": "LR",
+    "type": "sufficient_assumption",
+    "logicTags": [
+      "conditional",
+      "quantifiers"
+    ],
+    "difficulty": 3,
+    "stimulus": "Most of the sculptures in the Corvin collection were acquired before 1950, and any sculpture acquired before 1950 was acquired without documentation of provenance, since the collection kept no such records then. Therefore, most of the sculptures in the Corvin collection cannot be lent to foreign museums.",
+    "stem": "The conclusion follows logically if which one of the following is assumed?",
+    "choices": {
+      "A": "No sculpture acquired without documentation of provenance can be lent to foreign museums.",
+      "B": "Any sculpture that cannot be lent to foreign museums lacks documentation of provenance.",
+      "C": "Sculptures acquired after 1950 can be lent to foreign museums only if they have documentation of provenance.",
+      "D": "Most sculptures that lack documentation of provenance cannot be lent to foreign museums.",
+      "E": "No sculpture acquired before 1950 has since had its provenance documented."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. Most sculptures lack documentation (via the pre-1950 chain); if no undocumented sculpture can be lent, most cannot be lent.",
+      "B": "Reversal. This runs from 'cannot be lent' to 'undocumented,' which cannot deliver 'cannot be lent.'",
+      "C": "Out of scope. A rule about post-1950 acquisitions never touches the pre-1950 majority.",
+      "D": "Wrong force. 'Most' of the undocumented combined with 'most' of the collection does not guarantee 'most' of the collection.",
+      "E": "Half right. Keeping the pre-1950 works undocumented is consistent with the premises but still provides no link to lending."
+    },
+    "trapPatterns": {
+      "B": "reversal",
+      "C": "out_of_scope",
+      "D": "wrong_force",
+      "E": "half_right"
+    },
+    "keyTakeaway": "To carry 'most' through to the conclusion, the bridging rule must be universal; 'most' stacked on 'most' breaks.",
+    "predictionHint": "Most undocumented; need: undocumented means cannot be lent."
+  },
+  {
+    "id": "lr-sufficient-assumption-speed-limiters-liberty",
+    "section": "LR",
+    "type": "sufficient_assumption",
+    "logicTags": [
+      "conditional",
+      "value_judgment"
+    ],
+    "difficulty": 3,
+    "stimulus": "Any policy that reduces overall traffic fatalities is justified, provided it does not infringe on citizens' basic liberties. Requiring speed limiters in all new cars would reduce overall traffic fatalities. Therefore, requiring speed limiters in new cars is a justified policy.",
+    "stem": "Which one of the following, if assumed, enables the conclusion to be properly drawn?",
+    "choices": {
+      "A": "A policy is justified only if it reduces overall traffic fatalities.",
+      "B": "Restricting how fast a person may drive a car is not an infringement of any basic liberty.",
+      "C": "Any justified policy that reduces traffic fatalities does not infringe on citizens' basic liberties.",
+      "D": "Speed limiters would reduce fatalities without infringing on the liberties of most drivers.",
+      "E": "Policies that reduce traffic fatalities are generally regarded as justified by the public."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Necessary versus sufficient. This makes fatality reduction a requirement for justification, not a guarantee of it.",
+      "B": "Correct. The principle's proviso is the only missing piece; if limiting speed infringes no basic liberty, the policy meets both conditions and is justified.",
+      "C": "Reversal. It describes justified policies rather than establishing that this one is justified.",
+      "D": "Half right. 'Most drivers' leaves some liberties infringed, which the proviso does not allow.",
+      "E": "Out of scope. Public opinion is not the principle's standard."
+    },
+    "trapPatterns": {
+      "A": "necessary_v_sufficient",
+      "C": "reversal",
+      "D": "half_right",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "A 'provided that' clause is a second trigger; the sufficient assumption satisfies it completely, not for 'most.'",
+    "predictionHint": "Need: no basic liberty is infringed."
+  },
+  {
+    "id": "lr-sufficient-assumption-pension-bill-secrecy",
+    "section": "LR",
+    "type": "sufficient_assumption",
+    "logicTags": [
+      "conditional"
+    ],
+    "difficulty": 3,
+    "stimulus": "Columnist: No legislation that is drafted in secret can receive adequate public scrutiny, and legislation that does not receive adequate public scrutiny is likely to contain provisions that serve narrow interests. The pension reform bill is likely to contain such provisions, since it was drafted by a committee whose meetings were closed to the press.",
+    "stem": "The conclusion follows logically if which one of the following is assumed?",
+    "choices": {
+      "A": "Any legislation that is not drafted in secret receives adequate public scrutiny.",
+      "B": "Legislation can be drafted in secret only if the drafting committee's meetings are closed to the press.",
+      "C": "Legislation likely to contain provisions serving narrow interests has not received adequate public scrutiny.",
+      "D": "Most legislation drafted by committees meeting behind closed doors contains provisions serving narrow interests.",
+      "E": "Legislation drafted by a committee whose meetings are closed to the press is drafted in secret."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Reversal. This concerns legislation not drafted in secret; the bill's status as secret is what needs establishing.",
+      "B": "Necessary versus sufficient. Closed meetings become a requirement for secrecy, not a guarantee of it.",
+      "C": "Reversal. It runs from the conclusion's term back to scrutiny, which cannot help derive the conclusion.",
+      "D": "Wrong force. 'Most' does not establish that this bill is 'likely' to contain such provisions through the stated chain, and it bypasses the premises entirely.",
+      "E": "Correct. Closed meetings become sufficient for secret drafting; secrecy blocks scrutiny; lack of scrutiny makes narrow-interest provisions likely."
+    },
+    "trapPatterns": {
+      "A": "reversal",
+      "B": "necessary_v_sufficient",
+      "C": "reversal",
+      "D": "wrong_force"
+    },
+    "keyTakeaway": "Find the term the premises start from and the term the chain begins with; the sufficient assumption is 'former implies latter,' in that direction.",
+    "predictionHint": "Need: closed to press means drafted in secret."
+  },
+  {
+    "id": "lr-sufficient-assumption-ridgeline-documentary",
+    "section": "LR",
+    "type": "sufficient_assumption",
+    "logicTags": [
+      "conditional",
+      "quantifiers"
+    ],
+    "difficulty": 3,
+    "stimulus": "Critic: A documentary film is successful as a documentary only if it changes how its audience understands its subject. Surveys show that most viewers of Ridgeline understood its subject no differently after seeing it than before. So Ridgeline, whatever its artistic merits, is not successful as a documentary.",
+    "stem": "Which one of the following, if assumed, enables the conclusion to be properly drawn?",
+    "choices": {
+      "A": "Any documentary that changes how its audience understands its subject is successful as a documentary.",
+      "B": "Only films that change how most viewers understand their subject have genuine artistic merit.",
+      "C": "A film does not change how its audience understands its subject if most viewers understand it no differently after seeing it.",
+      "D": "Ridgeline changed how some viewers understood its subject, but not how most did.",
+      "E": "Surveys of viewers are generally reliable indicators of the effect a documentary has on how its audience understands the film's subject."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Reversal. This makes changing understanding sufficient for success; the argument needs to show Ridgeline fails the necessary condition.",
+      "B": "Out of scope. Artistic merit is explicitly set aside by the conclusion.",
+      "C": "Correct. The survey shows most viewers unchanged; this rule converts that into 'does not change how its audience understands,' which triggers the contrapositive of the principle.",
+      "D": "Premise booster. It restates the survey finding without bridging 'most viewers' to 'its audience.'",
+      "E": "Wrong force. 'Generally reliable' does not make this survey decisive, and it does not define what counts as changing the audience's understanding."
+    },
+    "trapPatterns": {
+      "A": "reversal",
+      "B": "out_of_scope",
+      "D": "premise_booster",
+      "E": "wrong_force"
+    },
+    "keyTakeaway": "When the evidence is about 'most viewers' and the rule is about 'the audience,' the sufficient assumption equates the two.",
+    "predictionHint": "Need: most viewers unchanged means the audience's understanding was not changed."
+  },
+  {
+    "id": "lr-sufficient-assumption-aldous-coinage-silver",
+    "section": "LR",
+    "type": "sufficient_assumption",
+    "logicTags": [
+      "conditional"
+    ],
+    "difficulty": 4,
+    "stimulus": "Historian: Any ruler who debased the coinage was regarded by contemporaries as untrustworthy, and no ruler regarded as untrustworthy was able to borrow from foreign bankers. King Aldous borrowed heavily from foreign bankers throughout his reign. Thus, the silver content of coins minted under Aldous never fell during his reign.",
+    "stem": "The conclusion follows logically if which one of the following is assumed?",
+    "choices": {
+      "A": "A ruler debased the coinage only if the silver content of that ruler's coins fell.",
+      "B": "A ruler could borrow from foreign bankers only if contemporaries regarded that ruler as trustworthy.",
+      "C": "No coins minted under Aldous were regarded by contemporaries as debased.",
+      "D": "Any reduction in the silver content of a ruler's coins constitutes a debasement of the coinage.",
+      "E": "Rulers who did not debase the coinage generally maintained the silver content of their coins."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Reversal. This gives 'debased implies silver fell'; the chain delivers 'did not debase,' which yields nothing from that direction.",
+      "B": "Premise booster. This restates the second premise's contrapositive and leaves the silver-content gap untouched.",
+      "C": "Half right. It speaks of what contemporaries 'regarded,' not of actual silver content, and it does not connect to the premises' chain.",
+      "D": "Correct. Borrowing means not regarded untrustworthy, so Aldous did not debase; if any fall in silver content is a debasement, the silver content never fell.",
+      "E": "Wrong force. 'Generally' cannot guarantee what happened under Aldous."
+    },
+    "trapPatterns": {
+      "A": "reversal",
+      "B": "premise_booster",
+      "C": "half_right",
+      "E": "wrong_force"
+    },
+    "keyTakeaway": "When the chain ends in 'not X' and the conclusion is 'not Y,' you need 'Y implies X'; the reversal 'X implies Y' is the trap built to look identical.",
+    "predictionHint": "Chain gives 'did not debase'; need: silver fall implies debasement."
+  },
+  {
+    "id": "lr-sufficient-assumption-late-returns-reaudit",
+    "section": "LR",
+    "type": "sufficient_assumption",
+    "logicTags": [
+      "conditional",
+      "quantifiers"
+    ],
+    "difficulty": 4,
+    "stimulus": "Tax official: Most of the firms audited by this office last year had filed at least one late return. Any firm that files a late return is assessed a penalty unless it can show that the delay was beyond its control, and none of the firms audited last year made such a showing. Therefore, most of the firms audited last year will be audited again next year.",
+    "stem": "Which one of the following, if assumed, enables the conclusion to be properly drawn?",
+    "choices": {
+      "A": "Most firms that are assessed a penalty are audited again the following year.",
+      "B": "Every firm that will be audited next year was assessed a penalty last year.",
+      "C": "A firm is audited in consecutive years only if it was assessed a penalty in the first of those years.",
+      "D": "Every firm audited last year that filed a late return will be audited again next year unless it has since paid the penalty.",
+      "E": "Every firm assessed a penalty last year will be audited again next year."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Wrong force. 'Most' penalized firms re-audited, applied to the 'most' audited firms that were penalized, does not guarantee most audited firms overall.",
+      "B": "Reversal. This runs from being re-audited to having been penalized, which cannot establish who will be re-audited.",
+      "C": "Necessary versus sufficient. A penalty becomes a requirement for a repeat audit, not a guarantee of one.",
+      "D": "Half right. The 'unless' clause reopens the gap; firms that paid would escape, so 'most' is no longer secured.",
+      "E": "Correct. Most audited firms filed late and none showed cause, so most were penalized; if every penalized firm is re-audited, most audited firms are re-audited."
+    },
+    "trapPatterns": {
+      "A": "wrong_force",
+      "B": "reversal",
+      "C": "necessary_v_sufficient",
+      "D": "half_right"
+    },
+    "keyTakeaway": "An 'unless' in the premises is closed by the facts; an 'unless' in an answer choice reopens a gap and disqualifies it.",
+    "predictionHint": "Most penalized; need: penalized means re-audited, with no exceptions."
+  }
+]
