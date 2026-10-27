@@ -1,8 +1,6 @@
 {
-  "agree": 152,
-  "total": 153,
-  "rate": 0.9934640522875817,
-  "disagreements": [
-    "  lr-flaw-deficit-two-options: key=B solver=D"
-  ]
+  "agree": 258,
+  "total": 258,
+  "rate": 1,
+  "disagreements": []
 }

@@ -317,7 +317,7 @@
     "stem": "The reasoning in the argument is most vulnerable to criticism on the grounds that it",
     "choices": {
       "A": "fails to consider that customers may be reluctant to adopt any new interface, however intuitive",
-      "B": "relies on the reports of participants who may have been reluctant to criticize a product developed by their own company",
+      "B": "relies on participants' descriptions of the interface rather than on measurements of how quickly they completed the tasks",
       "C": "draws a conclusion about a population from a sample whose members differ from that population in a relevant respect",
       "D": "takes for granted that an interface that is intuitive is also one that enables users to complete tasks quickly",
       "E": "presumes that forty participants constitute a sample large enough to support a generalization"
@@ -325,14 +325,14 @@
     "answer": "C",
     "explanations": {
       "A": "Out of scope: the conclusion is that customers will 'find the interface intuitive,' not that they will adopt it.",
-      "B": "Half right: bias in the engineers' self-reports is a real worry, but the argument also has objective evidence that they 'completed every task quickly.' The deeper problem is who the testers were, not what they said.",
+      "B": "Wrong part: the stimulus reports both the completion speed and the descriptions, so the evidence is not merely self-report. The gap is who the participants were, not what was measured.",
       "C": "Correct. Software engineers, who build such tools for a living, are far more adept with interfaces than 'small-business owners.' That difference is exactly the one that matters for whether an interface feels intuitive.",
       "D": "Reversal: the argument uses quick completion as evidence of intuitiveness, not the other way around, and never needs this link.",
       "E": "Wrong force: the issue is not how many engineers were tested but that they were engineers; four hundred would not help."
     },
     "trapPatterns": {
       "A": "out_of_scope",
-      "B": "half_right",
+      "B": "wrong_part",
       "D": "reversal",
       "E": "wrong_force"
     },
@@ -690,12 +690,12 @@
       "conditional"
     ],
     "difficulty": 3,
-    "stimulus": "Physician: Prolonged psychological stress is known to produce insomnia in otherwise healthy adults, and the effect has been documented across many populations. My patient Oyelaran, who has no diagnosed physical illness, has suffered from persistent insomnia for the past several months. The most reasonable conclusion is that Oyelaran has been experiencing prolonged psychological stress, and the appropriate course is to treat that stress rather than the insomnia itself.",
+    "stimulus": "Physician: Prolonged psychological stress is known to produce insomnia in otherwise healthy adults, and the effect has been documented across many populations. My patient Oyelaran, who has been thoroughly examined and has no physical illness, has suffered from persistent insomnia for the past several months. The most reasonable conclusion is that Oyelaran has been experiencing prolonged psychological stress, and the appropriate course is to treat that stress rather than the insomnia itself.",
     "stem": "The reasoning in the argument is most vulnerable to criticism on the grounds that it",
     "choices": {
       "A": "infers that a particular factor is responsible for an effect merely from the fact that the factor is capable of producing that effect",
       "B": "treats a condition that must be present for an effect to occur as though it were by itself sufficient to produce that effect",
-      "C": "presumes that insomnia cannot be caused by a physical illness that has not yet been diagnosed",
+      "C": "presumes that insomnia in otherwise healthy adults is always more harmful than the stress that produces it",
       "D": "relies on evidence drawn from many populations to draw a conclusion about a single individual",
       "E": "fails to consider that treating the insomnia directly might also alleviate the patient's stress"
     },
@@ -703,13 +703,13 @@
     "explanations": {
       "A": "Correct. The premise establishes that stress can cause insomnia, not that insomnia is caused only by stress. Caffeine, noise, medication, or an undiagnosed condition could be responsible, so 'stress' is not 'the most reasonable conclusion' without ruling them out.",
       "B": "Reversal: the premise makes stress sufficient for insomnia, and the error is treating it as if it were necessary. This choice describes the mirror-image mistake and gets the direction wrong.",
-      "C": "Half right: an undiagnosed illness is one overlooked alternative, but even if every physical illness were excluded, the inference would still ignore other causes. The flaw is more general than this.",
+      "C": "Out of scope: the relative harm of insomnia and stress is never compared, and the conclusion about cause does not depend on it.",
       "D": "Shell game: applying a well-documented general effect to an individual is not itself an error; the problem is which direction the inference runs.",
       "E": "Out of scope: the treatment recommendation is downstream of the diagnosis, and this does not address how the diagnosis was reached."
     },
     "trapPatterns": {
       "B": "reversal",
-      "C": "half_right",
+      "C": "out_of_scope",
       "D": "shell_game",
       "E": "out_of_scope"
     },

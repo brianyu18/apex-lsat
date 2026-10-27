@@ -544,7 +544,7 @@
       "weighing_factors"
     ],
     "difficulty": 2,
-    "stimulus": "Judge: Some of my colleagues hold that sentencing guidelines should be abolished because they prevent judges from tailoring sentences to individual circumstances. Whatever the merits of that complaint, abolition is the wrong remedy. Before the guidelines were adopted, defendants convicted of identical offenses received sentences that varied widely from one courtroom to the next. Abolishing the guidelines would restore that inconsistency, which is a greater injustice than any the guidelines create.",
+    "stimulus": "Judge: Some of my colleagues hold that sentencing guidelines should be abolished because they prevent judges from tailoring sentences to individual circumstances. Whatever the merits of that complaint, abolition is the wrong remedy. Before the guidelines were adopted, defendants convicted of identical offenses received sentences that varied widely from one courtroom to the next. Abolishing the guidelines would restore that inconsistency, which would be a far greater injustice than any the guidelines might create.",
     "stem": "The claim that sentencing guidelines prevent judges from tailoring sentences to individual circumstances plays which one of the following roles in the judge's argument?",
     "choices": {
       "A": "It is the main conclusion of the argument.",
@@ -990,7 +990,7 @@
       "A": "Most of the paintings in the gallery's permanent collection are landscapes, and most of the paintings in the gallery's permanent collection were painted within the last decade. So at least one of the landscapes in the gallery's permanent collection was painted within the last decade.",
       "B": "Most of the students in the seminar are history majors, and most history majors at the college have studied Latin. So most of the students in the seminar have studied Latin.",
       "C": "Most of the firm's partners are graduates of Linden Law School, and most of the firm's partners specialize in tax law. So most of the firm's partners are Linden graduates who specialize in tax law.",
-      "D": "Most of the farms in the county grow wheat, and most of the farms in the county are family owned. So it is likely that most family-owned farms in the county grow wheat.",
+      "D": "Most of the farms in the county grow wheat, and every farm in the county that grows wheat is family owned. So most farms in the county are family owned.",
       "E": "Most of the novels on the prize shortlist were written in the past five years, and most of the novels on the shortlist were published by small presses. Hence most novels published by small presses were written in the past five years."
     },
     "answer": "E",
@@ -998,14 +998,14 @@
       "A": "Opposite: two 'most' claims about the same group guarantee overlap, so 'at least one' follows validly.",
       "B": "Shell game: this is a most-most chain (most A are B; most B are C; so most A are C). It is invalid, but the two 'most' claims have different subjects, unlike the stimulus, where both are about the council.",
       "C": "Half right: both premises are about the same group, as in the stimulus, but the conclusion stays within that group and merely overstates the overlap; it does not transfer a 'most' to a possibly much larger second group.",
-      "D": "Wrong force: the structure matches exactly, but 'it is likely that' hedges the conclusion, whereas the stimulus asserts 'it follows that.' The hedge changes the claim.",
+      "D": "Valid, not flawed: most farms grow wheat and all wheat farms are family owned, so most farms are family owned. A valid argument cannot parallel a flawed one.",
       "E": "Stimulus: most A are B; most A are C; therefore most C are B. The council could be a tiny fraction of the association. This choice: most shortlisted novels are recent; most shortlisted novels are small-press; therefore most small-press novels are recent. Identical transfer of a majority from A to the possibly far larger group C, asserted without hedge."
     },
     "trapPatterns": {
       "A": "opposite",
       "B": "shell_game",
       "C": "half_right",
-      "D": "wrong_force"
+      "D": "opposite"
     },
     "keyTakeaway": "With two 'most' premises, note whether they share a subject and where the conclusion's subject comes from; a majority of A says nothing about a majority of C.",
     "predictionHint": "Most A are B; most A are C; so most C are B."

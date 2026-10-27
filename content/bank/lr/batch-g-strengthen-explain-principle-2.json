@@ -910,7 +910,7 @@
     "stem": "Which one of the following, if true, most helps to resolve the apparent paradox?",
     "choices": {
       "A": "Gears from the new supplier fail quality inspection far more often, so the manufacturer must buy many more gears to obtain enough usable ones.",
-      "B": "The new supplier is located considerably farther from the manufacturer's assembly plant than the previous supplier was, in a neighboring country.",
+      "B": "The new supplier is located considerably farther from the manufacturer's assembly plant, so deliveries take longer to arrive.",
       "C": "The manufacturer's total spending on all components combined was lower this year than last year.",
       "D": "The new supplier's gears are lighter and more durable than those made by the previous supplier.",
       "E": "The manufacturer paid the new supplier in full at the time of each order rather than in installments."
@@ -918,13 +918,13 @@
     "answer": "A",
     "explanations": {
       "A": "Spending equals price times quantity. The price fell 15 percent, so the quantity must have risen by more than that. A explains why: a high failure rate forces the manufacturer to buy 'many more gears' for the same number of usable ones.",
-      "B": "Half right: a more distant supplier might raise shipping costs, but the puzzle concerns 'spending on gears,' and distance alone does not establish any increase in that figure.",
+      "B": "Out of scope: delivery time has no bearing on the amount spent on gears; nothing links distance to the per-unit price or to the number of gears bought.",
       "C": "Out of scope: lower spending overall says nothing about why gear spending in particular rose.",
       "D": "Opposite: more durable gears would, if anything, reduce the number needed.",
       "E": "True but irrelevant: the timing of payments changes when money is spent, not how much."
     },
     "trapPatterns": {
-      "B": "half_right",
+      "B": "out_of_scope",
       "C": "out_of_scope",
       "D": "opposite",
       "E": "true_but_irrelevant"

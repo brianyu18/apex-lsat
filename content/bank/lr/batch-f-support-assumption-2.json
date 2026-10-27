@@ -1533,7 +1533,7 @@
     "stem": "Which one of the following is an assumption required by the argument?",
     "choices": {
       "A": "Aldric's chronicle is accurate in every detail it records about Osbert's reign.",
-      "B": "Astronomical calculations of the dates of past eclipses are reliable for the ninth century.",
+      "B": "Astronomical calculations are the most reliable method available for dating events in the ninth century.",
       "C": "Aldric was alive at the time of Osbert's coronation.",
       "D": "No other chronicle from the period mentions an eclipse during Osbert's reign.",
       "E": "The eclipse that Aldric's chronicle records was one observed within Osbert's kingdom."
@@ -1541,14 +1541,14 @@
     "answer": "E",
     "explanations": {
       "A": "Wrong force. Accuracy 'in every detail' far exceeds what is needed; only the eclipse entry matters.",
-      "B": "Premise booster. The reliability of the calculations supports a stated premise rather than bridging the chronicle to that premise.",
+      "B": "Too strong: the argument needs the calculation to be accurate here, not that calculations are the single most reliable dating method. Negate it (some other method is more reliable) and the argument stands.",
       "C": "Out of scope. A later chronicler relying on earlier sources could still record the eclipse correctly.",
       "D": "Out of scope. Other chronicles' silence neither helps nor hurts the dating.",
       "E": "Correct. Negate it: the chronicle's eclipse was one seen elsewhere and reported to Aldric. Then the 847 calculation, which covers only eclipses visible in the kingdom, no longer fixes the coronation year."
     },
     "trapPatterns": {
       "A": "wrong_force",
-      "B": "premise_booster",
+      "B": "extreme",
       "C": "out_of_scope",
       "D": "out_of_scope"
     },
@@ -1635,7 +1635,7 @@
     "stem": "The argument depends on assuming which one of the following?",
     "choices": {
       "A": "The new drug relieves pain more effectively than the standard drug in every patient who takes it after any kind of surgery.",
-      "B": "The patients' reports of their pain during recovery were honest.",
+      "B": "Patients given the new drug reported their pain at exactly the same points in recovery as those given the standard drug.",
       "C": "The new drug has fewer side effects than the standard drug.",
       "D": "The patients given the new drug did not, on average, undergo less extensive surgery than those given the standard drug.",
       "E": "The new drug costs no more than the standard drug."
@@ -1643,14 +1643,14 @@
     "answer": "D",
     "explanations": {
       "A": "Wrong force. 'Every patient' is not required; a difference on average would suffice for the conclusion.",
-      "B": "Premise booster. Honesty shores up the pain reports but does not address whether the groups were comparable.",
+      "B": "Too strong: comparable timing matters, but 'exactly the same points' is far more than the argument needs. Negate it (timing differed slightly) and the comparison survives.",
       "C": "Out of scope. Side effects are a separate question from pain relief.",
       "D": "Correct. Negate it: the new-drug patients had less extensive surgery. Then their lower pain is explained by the surgery, not the drug, and the comparison of effectiveness collapses.",
       "E": "Out of scope. Cost has nothing to do with effectiveness."
     },
     "trapPatterns": {
       "A": "wrong_force",
-      "B": "premise_booster",
+      "B": "extreme",
       "C": "out_of_scope",
       "E": "out_of_scope"
     },
@@ -1742,7 +1742,7 @@
       "B": "Any person who could have acted so as to prevent an outcome is at least partly responsible for that outcome.",
       "C": "The dam's operators followed all required procedures before the flooding.",
       "D": "The flooding of the lower valley caused no loss of life.",
-      "E": "The dam's operators are not responsible for the flooding."
+      "E": "Responsibility for an outcome is sometimes shared among several people who each could have prevented it."
     },
     "answer": "A",
     "explanations": {
@@ -1750,13 +1750,13 @@
       "B": "Reversal. The principle makes preventability necessary for responsibility; this choice makes it sufficient, which the argument neither states nor needs.",
       "C": "Premise booster. Following procedures bears on the operators' conduct, which the argument has already settled by saying they could not have prevented the flood.",
       "D": "Out of scope. The severity of the flood does not affect who is responsible.",
-      "E": "Premise booster. This follows directly from the stated premises; it is an intermediate step, not an unstated assumption."
+      "E": "Out of scope: whether responsibility can be shared is never at issue; the argument concludes that no one at all is responsible, and this choice neither helps nor is required for that conclusion."
     },
     "trapPatterns": {
       "B": "reversal",
       "C": "premise_booster",
       "D": "out_of_scope",
-      "E": "premise_booster"
+      "E": "out_of_scope"
     },
     "keyTakeaway": "When a conclusion is about 'no one' but the evidence covers one party, the required assumption extends the evidence to everyone else.",
     "predictionHint": "Nobody else could have prevented it either."
@@ -1916,7 +1916,7 @@
       "A": "If glacial deposits had once been present in the Sarn basin, at least some would have been found by now.",
       "B": "Ridges formed by river currents are never accompanied by deposits of unsorted rock debris.",
       "C": "The ridges in the Sarn basin are similar in shape to ridges in other basins known to have been formed by rivers.",
-      "D": "Glacial movement never occurs without leaving deposits of unsorted rock debris.",
+      "D": "Ancient river currents never leave behind deposits of unsorted rock debris.",
       "E": "The Sarn basin has been thoroughly surveyed for evidence of ancient river channels."
     },
     "answer": "A",
@@ -1924,13 +1924,13 @@
       "A": "Correct. The argument treats 'none found' as 'none existed.' Negate it: deposits could have been present without being found. Then their absence from the record proves nothing, and glaciers are not eliminated.",
       "B": "Wrong force. Whether river ridges come with debris is irrelevant; the argument eliminates glaciers, it does not need to positively confirm rivers this way.",
       "C": "Out of scope. Independent evidence for rivers is not something the elimination argument depends on.",
-      "D": "Premise booster. The stimulus already asserts that glaciers leave deposits; restating it as 'never without' does not address whether deposits would have been found.",
+      "D": "Not required: the argument eliminates glaciers by the absence of deposits; it does not need rivers to be incapable of leaving them. Negate it and the elimination still works.",
       "E": "Out of scope. Surveying for river channels does not bear on the glacial-elimination step."
     },
     "trapPatterns": {
       "B": "wrong_force",
       "C": "out_of_scope",
-      "D": "premise_booster",
+      "D": "out_of_scope",
       "E": "out_of_scope"
     },
     "keyTakeaway": "Eliminating an option because its evidence was not found assumes the evidence would have been found if it existed.",

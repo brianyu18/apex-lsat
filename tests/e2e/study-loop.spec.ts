@@ -11,7 +11,7 @@ async function onboard(page: Page) {
 /** Answer the current question; returns whether it was marked correct. */
 async function answerOne(page: Page, letter: "A" | "B" | "C" | "D" | "E", confidence: "sure" | "leaning" | "guess" = "leaning") {
   const choices = page.getByRole("list", { name: "Answer choices" });
-  await expect(choices).toBeVisible({ timeout: 20_000 });
+  await expect(choices).toBeVisible({ timeout: 60_000 });
   // dwell so the auto-guess rule doesn't fire
   await page.waitForTimeout(1_100);
   await choices.getByRole("button", { name: new RegExp(`^${letter}\\b`) }).first().click();
@@ -30,7 +30,7 @@ test.beforeAll(async ({ request }) => {
 test("validation: cannot check without an answer and a confidence", async ({ page }) => {
   await onboard(page);
   await page.goto(`/drill/session?s=${encodeURIComponent(JSON.stringify({ count: 1, levels: [1] }))}`);
-  await expect(page.getByRole("list", { name: "Answer choices" })).toBeVisible({ timeout: 20_000 });
+  await expect(page.getByRole("list", { name: "Answer choices" })).toBeVisible({ timeout: 60_000 }); // first request compiles the API routes in dev
   await page.getByRole("button", { name: /check answer/i }).click();
   await expect(page.getByRole("region", { name: "Question" }).getByRole("alert")).toContainText(/pick an answer/i);
   await page.getByRole("list", { name: "Answer choices" }).getByRole("button", { name: /^A\b/ }).first().click();
