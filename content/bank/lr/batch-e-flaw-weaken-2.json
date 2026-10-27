@@ -1,0 +1,1955 @@
+[
+  {
+    "id": "lr-flaw-desk-lunch-afternoon-errors",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 1,
+    "stimulus": "Office manager: An internal review found that employees who regularly eat lunch away from their desks make fewer errors in the afternoon than employees who eat at their desks. Therefore, requiring all employees to take their lunch breaks away from their desks would reduce the number of afternoon errors made in this office.",
+    "stem": "The reasoning in the argument is most vulnerable to criticism on the grounds that it",
+    "choices": {
+      "A": "fails to consider that errors made in the morning may be at least as costly to the office as errors made in the afternoon",
+      "B": "relies on an internal review rather than on a study conducted by independent researchers",
+      "C": "overlooks the possibility that employees who make fewer errors are the ones who choose to eat away from their desks",
+      "D": "presumes that eating lunch away from one's desk is the only way to reduce afternoon errors",
+      "E": "generalizes from the employees of one office to employees in general"
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Out of scope: the conclusion concerns only 'afternoon errors,' so the cost of morning errors has no bearing on whether the inference holds.",
+      "B": "Wrong force: who conducted the review is a quibble about the data; even an independent study showing the same correlation would leave the causal leap unsupported.",
+      "C": "Correct. The review shows only a correlation. Careful, low-error employees may simply be the ones who choose to leave their desks, in which case forcing everyone out would change nothing. The argument assumes the direction of causation.",
+      "D": "Extreme: the manager says the requirement 'would reduce' errors, not that it is the 'only way' to do so; the argument never needs that claim.",
+      "E": "Wrong part: the conclusion is explicitly about 'this office,' so no generalization to 'employees in general' is made."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "wrong_force",
+      "D": "extreme",
+      "E": "wrong_part"
+    },
+    "keyTakeaway": "When a correlation becomes a mandate, ask whether the people who already have the good outcome are the ones choosing the behavior.",
+    "predictionHint": "Correlation to cause: low-error employees may self-select into eating away from their desks."
+  },
+  {
+    "id": "lr-flaw-letters-editor-stadium",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "sampling"
+    ],
+    "difficulty": 1,
+    "stimulus": "Newspaper editor: Over the past month, our paper has received more than three hundred letters concerning the proposed downtown stadium, and nearly nine out of ten of them oppose the project. Our readership is drawn from every neighborhood in the city. It is clear, therefore, that the great majority of this city's residents oppose the stadium.",
+    "stem": "The argument is flawed in that it",
+    "choices": {
+      "A": "assumes that residents who oppose the stadium will vote against the officials who support it",
+      "B": "bases a conclusion about the city's residents on the views of people who chose to write letters, who may not be typical",
+      "C": "fails to consider that the newspaper's readers may not be distributed equally across every neighborhood of the city",
+      "D": "overlooks the possibility that a substantial number of the letters opposing the stadium were written by the same few individuals",
+      "E": "treats the fact that most residents oppose the stadium as showing that the stadium should not be built"
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Out of scope: the conclusion is about what residents think, not about how they will 'vote.'",
+      "B": "Correct. People who take the trouble to write letters are self-selected and tend to be those with strong feelings, usually opposition. Three hundred letter writers tell us little about 'the great majority of this city's residents.'",
+      "C": "Shell game: this swaps the real problem (self-selection of letter writers) for an unevenness in readership that the premise 'drawn from every neighborhood' already addresses and that would not fix the inference anyway.",
+      "D": "Wrong force: even if every letter came from a different person, three hundred self-selected writers would still not represent the city, so this is not the argument's central weakness.",
+      "E": "Wrong part: the editor concludes only that residents 'oppose the stadium,' not that it 'should not be built.'"
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "C": "shell_game",
+      "D": "wrong_force",
+      "E": "wrong_part"
+    },
+    "keyTakeaway": "People who volunteer their opinions are a self-selected sample; the silent majority may feel differently.",
+    "predictionHint": "Letter writers are not a representative sample of residents."
+  },
+  {
+    "id": "lr-flaw-orchestra-excellent-musicians",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "part_v_whole"
+    ],
+    "difficulty": 1,
+    "stimulus": "Music director: Every musician in the newly formed Castellan Chamber Orchestra was selected from among the finest players in the region, and each has an outstanding record as a soloist. The orchestra's first concert is therefore certain to be an outstanding performance.",
+    "stem": "Which one of the following most accurately describes a flaw in the argument's reasoning?",
+    "choices": {
+      "A": "It presumes that an orchestra made up of excellent soloists will perform excellently as a group.",
+      "B": "It takes for granted that the musicians were selected by a fair and impartial process.",
+      "C": "It fails to consider that audiences may judge a performance by standards other than technical excellence.",
+      "D": "It infers that because the musicians have performed well in the past, each will perform well in the first concert.",
+      "E": "It relies on the opinion of the music director, who has an interest in the orchestra's success."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. Playing well together requires balance, blend, and ensemble rehearsal, none of which follows from each member's excellence 'as a soloist.' The argument moves from a property of each part to a property of the whole.",
+      "B": "Out of scope: how the players were chosen does not matter; the premise grants that they are the finest, and the gap remains.",
+      "C": "True but irrelevant: the conclusion is about whether the performance will be 'outstanding,' and nothing in the argument turns on how audiences judge it.",
+      "D": "Shell game: the problem is not projecting each individual's past success into the future but assuming that individual success translates into group success.",
+      "E": "Out of scope: the director's interest does not identify an error in the reasoning offered; the premises are granted as true."
+    },
+    "trapPatterns": {
+      "B": "out_of_scope",
+      "C": "true_but_irrelevant",
+      "D": "shell_game",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "Excellence of each member does not guarantee excellence of the group when the group's performance depends on how the members work together.",
+    "predictionHint": "Composition: great soloists do not automatically make a great ensemble."
+  },
+  {
+    "id": "lr-flaw-agency-approval-safety-trials",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "conditional"
+    ],
+    "difficulty": 1,
+    "stimulus": "Every medication that the national health agency has approved for sale has passed a full series of safety trials. Dorelin, a new medication for treating migraines, has just passed a full series of safety trials. Therefore, Dorelin has been approved by the agency for sale.",
+    "stem": "The reasoning in the argument is most vulnerable to criticism on the grounds that it",
+    "choices": {
+      "A": "fails to consider that medications may be approved for sale by agencies in other countries",
+      "B": "takes for granted that the safety trials Dorelin passed were as rigorous as those required by the agency",
+      "C": "treats a condition that all approved medications satisfy as though satisfying it guaranteed approval",
+      "D": "overlooks the possibility that Dorelin may not be effective in treating migraines",
+      "E": "presumes that a medication that has passed safety trials is safe for all patients"
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Out of scope: the conclusion concerns approval by 'the agency,' so what other countries do is irrelevant.",
+      "B": "Shell game: both premises speak of 'a full series of safety trials,' so rigor is not where the argument breaks; even identical trials would not entail approval.",
+      "C": "Correct. 'Every approved medication has passed trials' makes passing trials necessary for approval, not sufficient. Dorelin could have passed and still await, or be denied, approval.",
+      "D": "True but irrelevant: effectiveness is never at issue; the conclusion is about whether approval 'has been' granted.",
+      "E": "Extreme: the argument makes no claim that Dorelin is 'safe for all patients'; it concludes only that it has been approved."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "shell_game",
+      "D": "true_but_irrelevant",
+      "E": "extreme"
+    },
+    "keyTakeaway": "'All A are B' never licenses 'this B is an A'; satisfying a necessary condition does not establish the outcome.",
+    "predictionHint": "Mistaken reversal: passing trials is required for approval, not a guarantee of it."
+  },
+  {
+    "id": "lr-flaw-nutritionist-dessert-advice",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "lack_of_support_v_false"
+    ],
+    "difficulty": 1,
+    "stimulus": "Radio host: A prominent nutritionist recently published a book urging people to reduce the amount of refined sugar in their diets, citing studies linking high sugar intake to several chronic diseases. Yet the nutritionist was photographed last week enjoying an elaborate dessert at a restaurant. Readers should therefore disregard her advice about reducing their sugar intake.",
+    "stem": "The argument is flawed in that it",
+    "choices": {
+      "A": "relies on a single photograph as evidence of the nutritionist's habitual eating patterns",
+      "B": "rejects a recommendation on the grounds that the person making it does not appear to follow it",
+      "C": "assumes that the studies the nutritionist cited were conducted by the nutritionist herself",
+      "D": "fails to consider that eating an occasional dessert may be entirely compatible with a diet that is low in refined sugar",
+      "E": "treats the popularity of the nutritionist's book as evidence that its advice is unsound"
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Shell game: even if the nutritionist ate dessert every night, her own habits would say nothing about whether the studies she cites support her advice.",
+      "B": "Correct. The host attacks the advisor's conduct rather than the advice, which rests on 'studies linking high sugar intake to several chronic diseases.' Whether she practices what she preaches is beside the point.",
+      "C": "Out of scope: nothing in the argument depends on who conducted the studies.",
+      "D": "Half right: this is a fair observation, but it concedes the host's framing. Even if the dessert were inconsistent with her advice, the advice would still stand or fall on the evidence.",
+      "E": "Wrong part: the book's popularity is never mentioned, let alone used as a reason to reject the advice."
+    },
+    "trapPatterns": {
+      "A": "shell_game",
+      "C": "out_of_scope",
+      "D": "half_right",
+      "E": "wrong_part"
+    },
+    "keyTakeaway": "An advisor's failure to follow her own advice is a fact about the advisor, not a defect in the advice.",
+    "predictionHint": "Ad hominem: the dessert says nothing about the studies."
+  },
+  {
+    "id": "lr-flaw-herbal-remedy-no-harm-shown",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "lack_of_support_v_false"
+    ],
+    "difficulty": 1,
+    "stimulus": "Advertisement: Some physicians have expressed concern about Tranquilex, an herbal sleep remedy. But Tranquilex has been sold in this country for over fifteen years, and in all that time not one scientific study has demonstrated that it causes any harm. Consumers can therefore be confident that Tranquilex is completely safe.",
+    "stem": "Which one of the following most accurately describes a flaw in the argument's reasoning?",
+    "choices": {
+      "A": "It treats the absence of evidence that a product is harmful as proof that the product is safe.",
+      "B": "It fails to consider that Tranquilex may be less effective than other sleep remedies.",
+      "C": "It assumes that physicians' concerns about a product are motivated by hostility toward herbal remedies.",
+      "D": "It overlooks the fact that a product can be sold for many years without being popular.",
+      "E": "It infers that a product is safe merely because government regulators have permitted it to be sold for a long time."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. 'Not one study has demonstrated' harm is compatible with no one having studied the remedy at all. Lack of evidence of harm is not evidence of safety, let alone of being 'completely safe.'",
+      "B": "Out of scope: effectiveness is never at issue; the conclusion concerns safety.",
+      "C": "Out of scope: the advertisement says nothing about why physicians are concerned.",
+      "D": "True but irrelevant: popularity plays no role in the argument, which relies on the absence of studies showing harm.",
+      "E": "Shell game: regulators are never mentioned; the premise is that the product 'has been sold,' not that it has been approved."
+    },
+    "trapPatterns": {
+      "B": "out_of_scope",
+      "C": "out_of_scope",
+      "D": "true_but_irrelevant",
+      "E": "shell_game"
+    },
+    "keyTakeaway": "'No study has shown X' supports only 'X has not been shown,' never 'not-X is true.'",
+    "predictionHint": "Absence of evidence of harm is treated as proof of safety."
+  },
+  {
+    "id": "lr-flaw-sales-growth-percent-units",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "math_percent"
+    ],
+    "difficulty": 1,
+    "stimulus": "Business reporter: Last year, sales of electric scooters made by Vantor rose by 60 percent, while sales of scooters made by its rival Brightline rose by only 8 percent. So Vantor must now sell more electric scooters each year than Brightline does.",
+    "stem": "The argument is flawed in that it",
+    "choices": {
+      "A": "fails to establish that the two companies' sales were measured over the same period",
+      "B": "overlooks the possibility that a percentage increase in sales can be large even when the starting number of sales is small",
+      "C": "takes for granted that the growth in Vantor's sales will continue at the same rate in future years as it did last year",
+      "D": "confuses the number of scooters sold with the revenue earned from those sales",
+      "E": "assumes that Brightline's lower growth rate was caused by Vantor's higher growth rate"
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Premise booster: the stimulus says both figures are for 'last year,' so the period is already fixed.",
+      "B": "Correct. A 60 percent rise from 1,000 scooters is 600 units; an 8 percent rise from 100,000 is 8,000. Growth rates say nothing about absolute totals, so Vantor may still sell far fewer scooters.",
+      "C": "Wrong part: the conclusion is about what Vantor sells 'now,' not about future growth.",
+      "D": "Shell game: the argument speaks consistently of 'sales' as units sold; revenue never enters.",
+      "E": "Out of scope: no causal relationship between the two companies' growth rates is asserted or needed."
+    },
+    "trapPatterns": {
+      "A": "premise_booster",
+      "C": "wrong_part",
+      "D": "shell_game",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "A percentage change tells you nothing about absolute size without the base it was computed from.",
+    "predictionHint": "Percent versus number: a big percentage rise from a small base can still be a small total."
+  },
+  {
+    "id": "lr-flaw-right-to-opinion-equivocation",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "definition_scope"
+    ],
+    "difficulty": 1,
+    "stimulus": "Commentator: Everyone agrees that in a free society people have a right to hold and express whatever opinions they wish. A newspaper columnist who recently expressed the opinion that the city's new transit plan will fail was therefore right to do so, and her critics, who claim her judgment was mistaken, must themselves be in error.",
+    "stem": "The reasoning in the argument is most vulnerable to criticism on the grounds that it",
+    "choices": {
+      "A": "relies on the claim that everyone agrees with a principle in order to establish that the principle is correct",
+      "B": "fails to consider that the columnist might have had good reasons to believe the transit plan will fail",
+      "C": "trades on two different meanings of the word 'right'",
+      "D": "assumes that anyone who criticizes an opinion is thereby attempting to suppress the expression of that opinion",
+      "E": "treats the columnist's expertise on transit matters as sufficient to settle the question of the plan's prospects"
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Wrong part: even granting the principle outright, the conclusion would not follow; the failure lies in how 'right' is used, not in how the principle is supported.",
+      "B": "Out of scope: whether the columnist had good reasons is irrelevant, since the argument never appeals to her reasons.",
+      "C": "Correct. The premise concerns a 'right' in the sense of an entitlement to speak; the conclusion that she was 'right' and her critics 'in error' uses 'right' to mean correct. Having permission to say something does not make it true.",
+      "D": "Shell game: the critics are described as claiming 'her judgment was mistaken,' not as trying to suppress her; the argument does not rely on this.",
+      "E": "Out of scope: the columnist's expertise is never mentioned."
+    },
+    "trapPatterns": {
+      "A": "wrong_part",
+      "B": "out_of_scope",
+      "D": "shell_game",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "When a conclusion repeats a word from the premise, check that the word still means the same thing.",
+    "predictionHint": "'Right' as entitlement versus 'right' as correct."
+  },
+  {
+    "id": "lr-flaw-optimism-recovery-reverse",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 2,
+    "stimulus": "Medical researcher: In a study of patients recovering from knee surgery, those who scored high on a measure of optimism administered two weeks after surgery regained full mobility sooner than those who scored low. Since the optimistic patients recovered more quickly, optimism evidently speeds recovery, and surgeons should encourage knee-surgery patients to cultivate a positive outlook before their operations.",
+    "stem": "Which one of the following most accurately describes a flaw in the argument's reasoning?",
+    "choices": {
+      "A": "It relies on a measure of optimism that may not accurately capture patients' actual outlook.",
+      "B": "It generalizes from patients recovering from knee surgery to patients recovering from all types of surgery.",
+      "C": "It overlooks the possibility that some patients who scored low on the optimism measure regained full mobility sooner than some who scored high.",
+      "D": "It fails to consider that patients who were already recovering well two weeks after surgery may for that reason have been more optimistic.",
+      "E": "It takes for granted that regaining full mobility is the only measure of recovery relevant to patients."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Wrong force: doubting the measure attacks the data rather than the inference; even a perfect measure of optimism would leave the direction of causation unsettled.",
+      "B": "Wrong part: the recommendation is addressed to 'knee-surgery patients,' so no generalization to 'all types of surgery' is made.",
+      "C": "True but irrelevant: the finding is a group-level comparison, which tolerates individual exceptions.",
+      "D": "Correct. Optimism was measured 'two weeks after surgery,' when some patients were already healing faster. Good early recovery could produce optimism rather than the reverse, so the recommendation to cultivate optimism beforehand is unsupported.",
+      "E": "Extreme: the argument does not need mobility to be the 'only' relevant measure, just a reasonable one."
+    },
+    "trapPatterns": {
+      "A": "wrong_force",
+      "B": "wrong_part",
+      "C": "true_but_irrelevant",
+      "E": "extreme"
+    },
+    "keyTakeaway": "When the supposed cause is measured after the effect has begun, suspect that the arrow runs the other way.",
+    "predictionHint": "Reverse causation: recovering well may make patients optimistic."
+  },
+  {
+    "id": "lr-flaw-interface-tested-engineers",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "sampling"
+    ],
+    "difficulty": 2,
+    "stimulus": "Software executive: Before releasing the redesigned interface for our accounting application, we asked forty of our own engineers to complete a set of common tasks using it. All forty completed every task quickly and described the interface as intuitive. We can therefore expect that our customers, most of whom are small-business owners, will also find the redesigned interface intuitive.",
+    "stem": "The reasoning in the argument is most vulnerable to criticism on the grounds that it",
+    "choices": {
+      "A": "fails to consider that customers may be reluctant to adopt any new interface, however intuitive",
+      "B": "relies on the reports of participants who may have been reluctant to criticize a product developed by their own company",
+      "C": "draws a conclusion about a population from a sample whose members differ from that population in a relevant respect",
+      "D": "takes for granted that an interface that is intuitive is also one that enables users to complete tasks quickly",
+      "E": "presumes that forty participants constitute a sample large enough to support a generalization"
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Out of scope: the conclusion is that customers will 'find the interface intuitive,' not that they will adopt it.",
+      "B": "Half right: bias in the engineers' self-reports is a real worry, but the argument also has objective evidence that they 'completed every task quickly.' The deeper problem is who the testers were, not what they said.",
+      "C": "Correct. Software engineers, who build such tools for a living, are far more adept with interfaces than 'small-business owners.' That difference is exactly the one that matters for whether an interface feels intuitive.",
+      "D": "Reversal: the argument uses quick completion as evidence of intuitiveness, not the other way around, and never needs this link.",
+      "E": "Wrong force: the issue is not how many engineers were tested but that they were engineers; four hundred would not help."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "half_right",
+      "D": "reversal",
+      "E": "wrong_force"
+    },
+    "keyTakeaway": "A sample fails not only by being small but by differing from the target group in the very trait being measured.",
+    "predictionHint": "Engineers are not representative of small-business owners when it comes to using software."
+  },
+  {
+    "id": "lr-flaw-national-growth-typical-household",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "part_v_whole",
+      "math_percent"
+    ],
+    "difficulty": 2,
+    "stimulus": "Economist: Critics claim that the past decade of economic policy has failed ordinary citizens. But during that decade, the nation's total economic output grew by nearly 30 percent after adjusting for inflation. Since the nation as a whole became considerably wealthier, it follows that the typical household is considerably wealthier now than it was a decade ago.",
+    "stem": "The argument is flawed in that it",
+    "choices": {
+      "A": "assumes that growth in total economic output is the only legitimate measure of a policy's success",
+      "B": "fails to consider that inflation may have been higher during the decade than official figures indicate",
+      "C": "overlooks the possibility that the critics are concerned with matters other than household wealth",
+      "D": "treats a claim about a change in wealth over a decade as if it were a claim about current levels of wealth",
+      "E": "infers that what is true of a nation as a whole must be true of a typical member of that nation"
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Extreme: the economist uses output growth as evidence, not as the 'only legitimate measure' of anything.",
+      "B": "Premise booster: the figure is stated to be 'after adjusting for inflation,' so this challenges a premise rather than the reasoning.",
+      "C": "Out of scope: what the critics care about does not affect whether the inference from national output to household wealth is valid.",
+      "D": "Shell game: both the premise and the conclusion compare wealth 'now' with a decade ago; no shift to 'current levels' occurs.",
+      "E": "Correct. Total output can grow 30 percent while the gains accrue to a small share of households, leaving the 'typical household' no better off. An aggregate increase does not distribute itself evenly."
+    },
+    "trapPatterns": {
+      "A": "extreme",
+      "B": "premise_booster",
+      "C": "out_of_scope",
+      "D": "shell_game"
+    },
+    "keyTakeaway": "What is true of a total or an average need not be true of the typical member; distribution matters.",
+    "predictionHint": "Division: national growth does not mean every household grew."
+  },
+  {
+    "id": "lr-flaw-warehouse-seismic-code",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "conditional"
+    ],
+    "difficulty": 2,
+    "stimulus": "Structural engineer: Any building that fully complies with the current seismic code will withstand a moderate earthquake without structural damage. The Harlan Street warehouse, built decades before the current code was adopted, does not fully comply with it. We must therefore conclude that the warehouse would suffer structural damage in a moderate earthquake.",
+    "stem": "Which one of the following most accurately describes a flaw in the argument's reasoning?",
+    "choices": {
+      "A": "It takes for granted that buildings constructed before the current code was adopted cannot be brought into compliance with it.",
+      "B": "It treats a condition that guarantees a building's withstanding a moderate earthquake as a condition required for doing so.",
+      "C": "It fails to specify what distinguishes a moderate earthquake from a severe one.",
+      "D": "It overlooks the possibility that the warehouse would suffer structural damage in a severe earthquake.",
+      "E": "It assumes that a building that complies with the current code will withstand any earthquake, however severe."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Out of scope: whether the warehouse could be upgraded is irrelevant; the conclusion concerns its present condition.",
+      "B": "Correct. Compliance is sufficient for withstanding a moderate quake, but nothing says it is necessary. A sturdy old building might survive without complying. Denying the sufficient condition tells us nothing.",
+      "C": "True but irrelevant: 'moderate' is used consistently in premise and conclusion, so vagueness does not create the gap.",
+      "D": "Out of scope: the conclusion concerns a 'moderate' earthquake; what a severe one would do is beside the point.",
+      "E": "Extreme: the premise is limited to 'a moderate earthquake'; the argument never extends it to 'any earthquake.'"
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "C": "true_but_irrelevant",
+      "D": "out_of_scope",
+      "E": "extreme"
+    },
+    "keyTakeaway": "From 'if A then B,' not-A tells you nothing about B; only not-B lets you infer not-A.",
+    "predictionHint": "Mistaken negation: not complying does not mean not surviving."
+  },
+  {
+    "id": "lr-flaw-theory-speculation-equivocation",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "definition_scope"
+    ],
+    "difficulty": 2,
+    "stimulus": "Letter to the editor: Our schools should not present the geological account of continental drift as established fact. Geologists themselves describe it as a theory, and a theory is, after all, merely a conjecture that has yet to be confirmed. Students deserve to be told that the movement of continents remains an unconfirmed speculation.",
+    "stem": "The reasoning in the argument is most vulnerable to criticism on the grounds that it",
+    "choices": {
+      "A": "assumes that students are incapable of evaluating scientific evidence for themselves",
+      "B": "equivocates between a technical use of the word 'theory' and its everyday use",
+      "C": "fails to consider that geologists may disagree among themselves about the details of continental drift",
+      "D": "treats the fact that an account has not been proven with certainty as showing that it is probably false",
+      "E": "presumes that whatever geologists say about their own discipline must be accurate"
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Out of scope: nothing in the argument concerns students' abilities.",
+      "B": "Correct. When geologists call continental drift a 'theory,' they mean a well-supported explanatory framework. The letter substitutes the everyday sense, 'merely a conjecture,' and draws its conclusion from that switch.",
+      "C": "True but irrelevant: disagreement about details does not bear on whether the account as a whole is 'unconfirmed speculation.'",
+      "D": "Shell game: the letter concludes that the account is 'unconfirmed,' not that it is 'probably false'; this misdescribes the conclusion.",
+      "E": "Wrong part: the argument does rely on what geologists say, but its error is in misreading them, not in trusting them."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "C": "true_but_irrelevant",
+      "D": "shell_game",
+      "E": "wrong_part"
+    },
+    "keyTakeaway": "A word borrowed from experts may carry a technical meaning that the everyday sense does not share.",
+    "predictionHint": "'Theory' in science is not 'theory' as mere guess."
+  },
+  {
+    "id": "lr-flaw-textbook-endowed-chair",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "lack_of_support_v_false"
+    ],
+    "difficulty": 2,
+    "stimulus": "Reviewer: Several historians have challenged the account of the causes of the Brennic War given in Alder's widely used textbook. Their challenge is misguided. Alder holds an endowed chair in history at one of the most respected universities in the country, and his textbook has been adopted by hundreds of schools. His account of the war's causes is therefore the correct one.",
+    "stem": "The argument is flawed in that it",
+    "choices": {
+      "A": "attacks the historians who challenge Alder's account rather than addressing the substance of their challenge",
+      "B": "presumes that a textbook adopted by hundreds of schools cannot contain any factual errors",
+      "C": "fails to consider that the causes of a war may be too complex to be adequately captured by any single historian's account",
+      "D": "treats the standing of the author and the popularity of the book as establishing the truth of a specific claim in the book",
+      "E": "assumes that historians who challenge an established account must have an ulterior motive"
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Shell game: the reviewer does not attack the challengers at all; the argument simply ignores their reasons and cites Alder's credentials.",
+      "B": "Extreme: the reviewer need not assume the book is free of 'any' error, only that this account is correct; 'cannot contain any' overstates the assumption.",
+      "C": "Out of scope: complexity of causes is a general observation that does not identify how the reviewer's inference fails.",
+      "D": "Correct. An endowed chair and wide adoption are evidence of reputation, not of the accuracy of one contested claim. Credentials and popularity cannot settle a dispute among qualified historians about a specific question.",
+      "E": "Out of scope: the reviewer says nothing about the challengers' motives."
+    },
+    "trapPatterns": {
+      "A": "shell_game",
+      "B": "extreme",
+      "C": "out_of_scope",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "Reputation and popularity are reasons to take a source seriously, not proof that any particular claim it makes is true.",
+    "predictionHint": "Appeal to authority and popularity in place of evidence about the contested claim."
+  },
+  {
+    "id": "lr-flaw-mirenian-collapse-two-causes",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "eliminating_options"
+    ],
+    "difficulty": 2,
+    "stimulus": "Historian: The collapse of the Mirenian kingdom in the fifth century was brought about either by the incursions of neighboring peoples or by the decay of its own political institutions. Recently analyzed records show that the incursions of that period were sporadic raids that never threatened the kingdom's major cities. It follows that the decay of Mirenia's political institutions caused its collapse.",
+    "stem": "The reasoning in the argument is most vulnerable to criticism on the grounds that it",
+    "choices": {
+      "A": "relies on recently analyzed records whose accuracy regarding the scale of the incursions has not been independently verified",
+      "B": "fails to consider that sporadic raids, if sufficiently prolonged, could have weakened the kingdom's political institutions",
+      "C": "presumes, without justification, that the two causes it considers are the only ones that could have brought about the collapse",
+      "D": "takes for granted that a kingdom whose major cities are not threatened cannot collapse",
+      "E": "concludes that one explanation is correct merely because it has not been shown to be incorrect"
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Out of scope: doubts about the records attack a premise; the reasoning would still fail even if the records were perfectly accurate.",
+      "B": "Half right: this interaction is possible, but it would still leave institutional decay as the proximate cause, so it does not undermine the conclusion.",
+      "C": "Correct. The opening 'either...or' is asserted, not established. Plague, famine, climate, or economic collapse could have ended the kingdom. Eliminating one option forces the other only if the two really exhaust the possibilities.",
+      "D": "Shell game: the argument uses the raids' limited scale to rule them out as the cause, not to claim the kingdom could not collapse.",
+      "E": "Wrong part: the historian offers a positive argument by elimination, not a mere lack of refutation; this misdescribes the structure."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "half_right",
+      "D": "shell_game",
+      "E": "wrong_part"
+    },
+    "keyTakeaway": "An argument by elimination is only as good as the claim that the listed options are the only options.",
+    "predictionHint": "False dilemma: other causes of collapse are never ruled out."
+  },
+  {
+    "id": "lr-flaw-parks-budget-share",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "math_percent"
+    ],
+    "difficulty": 2,
+    "stimulus": "Columnist: Ten years ago, the city devoted 5 percent of its annual budget to the maintenance of public parks; this year it devotes only 3 percent. The city council's claim that it has not reduced park maintenance funding is thus plainly false.",
+    "stem": "The argument is flawed in that it",
+    "choices": {
+      "A": "overlooks the possibility that the total size of the city's budget has grown substantially over the decade",
+      "B": "presumes that maintaining public parks is a more important use of city funds than other uses",
+      "C": "fails to consider that the cost of maintaining parks may have risen over the decade",
+      "D": "confuses the percentage of the budget devoted to parks with the percentage of parks that are adequately maintained",
+      "E": "relies on figures from only two years rather than on figures from every year of the decade"
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. If the budget doubled, 3 percent of it today exceeds 5 percent of it ten years ago. A falling share is compatible with rising funding, so the council's claim is not shown to be false.",
+      "B": "Out of scope: the columnist makes a factual claim about funding, not a value claim about priorities.",
+      "C": "Opposite: rising costs would mean the same dollars buy less maintenance, which would support the columnist's complaint rather than expose a flaw.",
+      "D": "Shell game: the argument never mentions how well parks are maintained; both figures concern budget shares.",
+      "E": "Wrong force: more years of data would not change the fact that a share is not an amount."
+    },
+    "trapPatterns": {
+      "B": "out_of_scope",
+      "C": "opposite",
+      "D": "shell_game",
+      "E": "wrong_force"
+    },
+    "keyTakeaway": "A smaller percentage of a larger total can be a larger amount; never read a share as an amount.",
+    "predictionHint": "Percent of budget fell, but the budget itself may have grown."
+  },
+  {
+    "id": "lr-flaw-impartial-observer-tax-unjust",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "lack_of_support_v_false",
+      "mental_state_v_reality"
+    ],
+    "difficulty": 2,
+    "stimulus": "Activist: The newly enacted tax on home heating fuel is unjust. Any impartial observer who examined the tax without prejudice would recognize its unfairness. Those who have spoken in its defense have therefore shown that they are not impartial, and the views of partial observers carry no weight on questions of justice.",
+    "stem": "Which one of the following most accurately describes a flaw in the argument's reasoning?",
+    "choices": {
+      "A": "It attacks the character of the tax's defenders instead of responding to the arguments they have offered.",
+      "B": "It fails to consider that a tax can be unfair to some people while being fair to the population as a whole.",
+      "C": "It takes for granted that the opinions of impartial observers are always correct on questions of justice.",
+      "D": "It generalizes from the views of a few defenders of the tax to the views of all who support it.",
+      "E": "It presupposes the truth of the claim that it is attempting to establish."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Half right: the activist does dismiss the defenders, but the dismissal is not a bare character attack; it is derived from the assumption that the tax is unfair, which is the deeper error.",
+      "B": "Out of scope: the fair-to-some distinction has nothing to do with how the argument reaches its conclusion.",
+      "C": "Premise booster: the argument states that impartial observers 'would recognize its unfairness,' so this is close to a stated premise, not a hidden gap.",
+      "D": "Wrong part: the argument makes no claim about 'all who support' the tax; it concerns 'those who have spoken in its defense.'",
+      "E": "Correct. The only way to know that the defenders are 'not impartial' is to already know that the tax is unfair, since their partiality is inferred from their failure to see that unfairness. The conclusion is assumed in order to discredit its opponents."
+    },
+    "trapPatterns": {
+      "A": "half_right",
+      "B": "out_of_scope",
+      "C": "premise_booster",
+      "D": "wrong_part"
+    },
+    "keyTakeaway": "If the only evidence that opponents are biased is that they disagree with the conclusion, the argument is circular.",
+    "predictionHint": "Disagreement is taken as proof of bias, which assumes the conclusion."
+  },
+  {
+    "id": "lr-flaw-tram-extension-proposer-fraud",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "lack_of_support_v_false"
+    ],
+    "difficulty": 2,
+    "stimulus": "Council member: The proposal to extend the tram line to the eastern districts was first put forward three years ago by Councillor Dray, who has since been convicted of accepting bribes in connection with an unrelated contract. A proposal that originated with someone so demonstrably corrupt should be rejected, and the council should therefore vote against the extension.",
+    "stem": "The reasoning in the argument is most vulnerable to criticism on the grounds that it",
+    "choices": {
+      "A": "fails to consider that extending the tram line to the eastern districts might cost more than alternative transportation projects would",
+      "B": "assumes that Councillor Dray's conviction was justified",
+      "C": "rejects a proposal on the basis of the character of its originator rather than on the basis of its merits",
+      "D": "overlooks the possibility that Councillor Dray accepted bribes in connection with the tram proposal as well",
+      "E": "treats the fact that a proposal was made three years ago as a reason to doubt its current relevance"
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Out of scope: the council member never discusses cost; the argument's only reason is Dray's corruption.",
+      "B": "Premise booster: the stimulus states as fact that Dray 'has since been convicted,' so this challenges a premise rather than the inference.",
+      "C": "Correct. The bribery concerned 'an unrelated contract,' and nothing about the extension's costs, benefits, or feasibility is discussed. Who proposed a plan has no bearing on whether it is a good plan.",
+      "D": "Opposite: if true, this would give the council member a somewhat better reason for suspicion, so it describes no flaw.",
+      "E": "Wrong part: the three-year gap is background; the argument does not use the passage of time as a reason."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "premise_booster",
+      "D": "opposite",
+      "E": "wrong_part"
+    },
+    "keyTakeaway": "The origin of a proposal, however disreputable, is not evidence about the proposal's merits.",
+    "predictionHint": "Genetic fallacy: the proposer's corruption is not a reason against the proposal."
+  },
+  {
+    "id": "lr-flaw-sustainable-line-willing-to-pay",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "mental_state_v_reality"
+    ],
+    "difficulty": 2,
+    "stimulus": "Marketing director: In a survey of a representative sample of our customers, 68 percent said they would be willing to pay at least 20 percent more for clothing that is certified as sustainably produced. We should therefore introduce a line of certified sustainable clothing priced 20 percent above our standard line, confident that roughly two-thirds of our customers will buy it.",
+    "stem": "The argument is flawed in that it",
+    "choices": {
+      "A": "assumes that the sample of customers surveyed was representative of the company's customers as a whole",
+      "B": "fails to consider that certification as sustainably produced may itself add to the cost of producing the clothing",
+      "C": "overlooks the possibility that some customers would be willing to pay even more than 20 percent extra",
+      "D": "takes for granted that customers who say they would pay more for a product will actually do so",
+      "E": "presumes that customers who are unwilling to pay more for sustainable clothing would not buy it at the standard price"
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Premise booster: the stimulus stipulates 'a representative sample,' so representativeness is given, not assumed.",
+      "B": "Out of scope: production cost bears on profit, not on the conclusion that two-thirds of customers 'will buy it.'",
+      "C": "True but irrelevant: customers willing to pay even more would still be buyers; this does not threaten the prediction.",
+      "D": "Correct. A stated willingness in a survey is a report of attitude, not a purchase. People routinely say they would pay more for ethical goods and then do not, so 'roughly two-thirds will buy' does not follow.",
+      "E": "Out of scope: the conclusion is about who will buy the sustainable line; what the unwilling third would do is never at issue."
+    },
+    "trapPatterns": {
+      "A": "premise_booster",
+      "B": "out_of_scope",
+      "C": "true_but_irrelevant",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "Survey responses report what people say they would do; behavior must be inferred separately.",
+    "predictionHint": "Saying one would pay more is not the same as paying more."
+  },
+  {
+    "id": "lr-flaw-anesthetic-fewer-side-effects",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "comparison"
+    ],
+    "difficulty": 2,
+    "stimulus": "Anesthesiologist: The newly developed anesthetic Somnarol produces significantly fewer side effects than the anesthetic that has been standard for the past two decades, and it has been approved for use in all the procedures for which the standard anesthetic is used. Patients scheduled for surgery under Somnarol therefore have no reason to be concerned about side effects.",
+    "stem": "The reasoning in the argument is most vulnerable to criticism on the grounds that it",
+    "choices": {
+      "A": "takes for granted that patients' concerns about anesthesia are limited to concerns about side effects",
+      "B": "fails to consider that the standard anesthetic may have been improved during the past two decades",
+      "C": "presumes that an anesthetic approved for use in a procedure is appropriate for every patient who undergoes that procedure",
+      "D": "relies on the testimony of an anesthesiologist who may have a professional interest in the adoption of new anesthetics",
+      "E": "infers that something is good in some respect from the fact that it is better than an alternative in that respect"
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Out of scope: the conclusion is explicitly limited to concern 'about side effects,' so other concerns are not at issue.",
+      "B": "True but irrelevant: whatever the standard anesthetic's history, the comparison is with it as it now is, and the gap would remain.",
+      "C": "Shell game: approval is background in the argument; the inference to 'no reason to be concerned' rests on the comparison of side effects, not on approval.",
+      "D": "Out of scope: the speaker's interests do not bear on whether the stated premises support the conclusion.",
+      "E": "Correct. 'Fewer side effects than the standard' is a relative claim. If the standard anesthetic has many serious side effects, Somnarol could still have plenty, so 'no reason to be concerned' does not follow."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "true_but_irrelevant",
+      "C": "shell_game",
+      "D": "out_of_scope"
+    },
+    "keyTakeaway": "'Better than X' is relative; it never establishes 'good' or 'safe' in absolute terms.",
+    "predictionHint": "Fewer side effects than the standard does not mean no side effects worth worrying about."
+  },
+  {
+    "id": "lr-flaw-insomnia-stress-sufficient-cause",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "causation",
+      "conditional"
+    ],
+    "difficulty": 3,
+    "stimulus": "Physician: Prolonged psychological stress is known to produce insomnia in otherwise healthy adults, and the effect has been documented across many populations. My patient Oyelaran, who has no diagnosed physical illness, has suffered from persistent insomnia for the past several months. The most reasonable conclusion is that Oyelaran has been experiencing prolonged psychological stress, and the appropriate course is to treat that stress rather than the insomnia itself.",
+    "stem": "The reasoning in the argument is most vulnerable to criticism on the grounds that it",
+    "choices": {
+      "A": "infers that a particular factor is responsible for an effect merely from the fact that the factor is capable of producing that effect",
+      "B": "treats a condition that must be present for an effect to occur as though it were by itself sufficient to produce that effect",
+      "C": "presumes that insomnia cannot be caused by a physical illness that has not yet been diagnosed",
+      "D": "relies on evidence drawn from many populations to draw a conclusion about a single individual",
+      "E": "fails to consider that treating the insomnia directly might also alleviate the patient's stress"
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. The premise establishes that stress can cause insomnia, not that insomnia is caused only by stress. Caffeine, noise, medication, or an undiagnosed condition could be responsible, so 'stress' is not 'the most reasonable conclusion' without ruling them out.",
+      "B": "Reversal: the premise makes stress sufficient for insomnia, and the error is treating it as if it were necessary. This choice describes the mirror-image mistake and gets the direction wrong.",
+      "C": "Half right: an undiagnosed illness is one overlooked alternative, but even if every physical illness were excluded, the inference would still ignore other causes. The flaw is more general than this.",
+      "D": "Shell game: applying a well-documented general effect to an individual is not itself an error; the problem is which direction the inference runs.",
+      "E": "Out of scope: the treatment recommendation is downstream of the diagnosis, and this does not address how the diagnosis was reached."
+    },
+    "trapPatterns": {
+      "B": "reversal",
+      "C": "half_right",
+      "D": "shell_game",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "'X can cause Y' does not license 'Y, therefore X'; a sufficient cause is not the only cause.",
+    "predictionHint": "Stress is sufficient for insomnia, not necessary; the argument treats it as necessary."
+  },
+  {
+    "id": "lr-flaw-long-lived-firms-debt",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "sampling",
+      "causation"
+    ],
+    "difficulty": 3,
+    "stimulus": "Business historian: I examined every manufacturing firm in the region that has remained in continuous operation for at least seventy-five years and found that each of them, throughout its history, kept its borrowing well below the industry average. Clearly, keeping borrowing low is what enables a manufacturing firm to survive over the long term, and firms in the region seeking longevity should adopt the same policy.",
+    "stem": "Which one of the following most accurately describes a flaw in the argument's reasoning?",
+    "choices": {
+      "A": "It generalizes from manufacturing firms in one region to manufacturing firms in all regions.",
+      "B": "It overlooks the possibility that the industry average level of borrowing has changed considerably over seventy-five years.",
+      "C": "It takes for granted that what has enabled firms to survive in the past will enable firms to survive in the future.",
+      "D": "It fails to consider that low borrowing may be a consequence of a firm's long-term survival rather than its cause.",
+      "E": "It draws a causal conclusion without considering cases in which the supposed cause was present but the effect did not occur."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Wrong part: the recommendation is addressed to 'firms in the region,' so no generalization to 'all regions' is made.",
+      "B": "True but irrelevant: 'throughout its history' already measures each firm against the average of its own time, so changes in the average do not disturb the premise.",
+      "C": "Half right: the past-to-future assumption is a secondary gap in the recommendation, but the causal claim itself is unsupported before any projection into the future is made.",
+      "D": "Reversal: the premise says borrowing was low 'throughout its history,' including before longevity was achieved, so survival cannot have caused the low borrowing.",
+      "E": "Correct. The historian looked only at survivors. If many low-borrowing firms also went out of business, low borrowing would be no explanation of longevity at all. Without the failed firms, the sample cannot support a causal conclusion."
+    },
+    "trapPatterns": {
+      "A": "wrong_part",
+      "B": "true_but_irrelevant",
+      "C": "half_right",
+      "D": "reversal"
+    },
+    "keyTakeaway": "A trait shared by all the winners proves nothing unless you also know how many losers shared it.",
+    "predictionHint": "Survivorship: where are the low-borrowing firms that failed?"
+  },
+  {
+    "id": "lr-flaw-individually-negligible-cuts",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "part_v_whole"
+    ],
+    "difficulty": 3,
+    "stimulus": "Hospital administrator: The consulting firm has proposed fourteen separate cost-saving measures, ranging from reducing the frequency of linen changes to consolidating two outpatient clinics. Our clinical staff reviewed each measure and concluded that none of them, taken by itself, would have any appreciable effect on the quality of patient care. We can therefore adopt all fourteen measures without any appreciable effect on the quality of patient care.",
+    "stem": "The argument is flawed in that it",
+    "choices": {
+      "A": "relies on the judgment of clinical staff members, who may lack the expertise needed to assess the financial consequences of the measures",
+      "B": "infers that a set of changes will have a certain property from the fact that each change considered individually has that property",
+      "C": "fails to consider that measures with no effect on patient care may nevertheless be unpopular with patients",
+      "D": "presumes that measures that do not affect the quality of patient care will produce significant cost savings",
+      "E": "overlooks the possibility that some of the fourteen measures would, taken individually, have an appreciable effect on patient care"
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Out of scope: the staff assessed effects on 'patient care,' not finances, so financial expertise is beside the point.",
+      "B": "Correct. Fourteen individually negligible reductions can add up to a substantial one, and measures can interact. 'None by itself' does not establish 'all together,' which is the composition error.",
+      "C": "Out of scope: popularity is never at issue; the conclusion concerns the 'quality of patient care.'",
+      "D": "Shell game: the conclusion is about patient care, not about whether the measures will save money.",
+      "E": "Premise booster: the stimulus states that staff found 'none of them, taken by itself' would have an effect; this simply denies a premise."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "C": "out_of_scope",
+      "D": "shell_game",
+      "E": "premise_booster"
+    },
+    "keyTakeaway": "Effects that are negligible one at a time can be large in combination; 'each' does not imply 'all.'",
+    "predictionHint": "Composition: fourteen small cuts can add up."
+  },
+  {
+    "id": "lr-flaw-levee-raised-flooding",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "conditional"
+    ],
+    "difficulty": 3,
+    "stimulus": "Civil engineer: Unless the river levee is raised by at least two meters before the next major storm season, the low-lying districts of Marlow will be flooded. The regional authority has now approved funding to raise the levee by two and a half meters, and the work will be completed well before the storm season begins. The residents of the low-lying districts can therefore rest assured that their neighborhoods will not be flooded.",
+    "stem": "The reasoning in the argument is most vulnerable to criticism on the grounds that it",
+    "choices": {
+      "A": "takes for granted that the approved funding will be sufficient to complete the work as planned",
+      "B": "fails to consider that raising the levee may increase the risk of flooding in districts downstream of Marlow",
+      "C": "presumes that the low-lying districts are the only parts of Marlow at risk of flooding",
+      "D": "treats a measure whose omission would ensure an outcome as a measure whose adoption will prevent that outcome",
+      "E": "relies on a prediction about the severity of future storms that cannot be known in advance"
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Premise booster: the stimulus states that 'the work will be completed,' so adequacy of funding is given.",
+      "B": "Out of scope: the conclusion concerns 'the low-lying districts of Marlow,' not districts downstream.",
+      "C": "Extreme: the argument says nothing about other parts of Marlow and does not need them to be safe.",
+      "D": "Correct. 'Unless raised, flooded' means that failing to raise the levee guarantees flooding. It does not say that raising the levee guarantees no flooding; the districts could flood from storm drains or a breach elsewhere. Necessary is treated as sufficient.",
+      "E": "Wrong force: the engineer makes no prediction about storm severity; the premise is conditional on a 'major storm season,' whatever its severity."
+    },
+    "trapPatterns": {
+      "A": "premise_booster",
+      "B": "out_of_scope",
+      "C": "extreme",
+      "E": "wrong_force"
+    },
+    "keyTakeaway": "'Unless A, B' makes A necessary to avoid B; doing A does not guarantee that B is avoided.",
+    "predictionHint": "Raising the levee is required to avoid flooding, not a guarantee against it."
+  },
+  {
+    "id": "lr-flaw-public-interest-celebrity",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "definition_scope"
+    ],
+    "difficulty": 3,
+    "stimulus": "Media critic: Journalists rightly insist that a newspaper's first obligation is to publish what is in the public interest. Yet the same journalists deride papers that devote extensive coverage to the private lives of celebrities. This is inconsistent. Readership surveys consistently show that stories about celebrities' private lives are among those the public is most interested in reading. Extensive celebrity coverage therefore fulfills, rather than betrays, a newspaper's first obligation.",
+    "stem": "Which one of the following most accurately describes a flaw in the argument's reasoning?",
+    "choices": {
+      "A": "It assumes that readership surveys accurately measure what readers are interested in.",
+      "B": "It allows a key phrase to shift in meaning between the statement of the journalists' principle and the conclusion drawn from it.",
+      "C": "It infers that journalists are inconsistent from the fact that they hold two positions that merely appear to conflict.",
+      "D": "It takes for granted that whatever the public most wants to read about is something that the public ought to be reading about.",
+      "E": "It fails to consider that a newspaper may have obligations other than its first obligation."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Wrong force: doubting the surveys attacks a premise; even perfectly accurate surveys would leave the shift in meaning intact.",
+      "B": "Correct. 'In the public interest' in the journalists' principle means beneficial to the public; 'the public is most interested in' means popular with readers. The conclusion treats the second as if it satisfied the first.",
+      "C": "Half right: the charge of inconsistency is indeed unfounded, but this choice only restates that it is; it does not identify why, which is the equivocation.",
+      "D": "Shell game: the argument never claims the public 'ought to' read anything; it moves from what the public is interested in to what is in its interest, which is a different step.",
+      "E": "True but irrelevant: the argument concerns only the 'first obligation,' and other obligations do not affect whether that one is met."
+    },
+    "trapPatterns": {
+      "A": "wrong_force",
+      "C": "half_right",
+      "D": "shell_game",
+      "E": "true_but_irrelevant"
+    },
+    "keyTakeaway": "'Interesting to the public' and 'in the public interest' are different concepts that share words.",
+    "predictionHint": "Equivocation on 'public interest.'"
+  },
+  {
+    "id": "lr-flaw-no-mechanism-headache-reports",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "lack_of_support_v_false",
+      "causation"
+    ],
+    "difficulty": 3,
+    "stimulus": "Toxicologist: Residents living near the Corwin chemical plant report a markedly higher incidence of severe headaches than residents of comparable neighborhoods elsewhere in the city. However, the only substance the plant releases is a compound for which no plausible biological mechanism of producing headaches has ever been proposed. The headaches reported by the residents therefore cannot be caused by anything the plant releases.",
+    "stem": "The argument is flawed in that it",
+    "choices": {
+      "A": "treats the absence of a known explanation for how something could occur as evidence that it does not occur",
+      "B": "fails to consider that severe headaches may have many causes unrelated to industrial pollution",
+      "C": "overlooks the possibility that the plant releases substances in quantities too small to be detected",
+      "D": "relies on a comparison with neighborhoods that may differ from the plant's neighborhood in ways other than proximity to the plant",
+      "E": "generalizes from the residents of a single neighborhood to the population of the city as a whole"
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. That no mechanism 'has ever been proposed' shows only that scientists have not yet explained how the compound might cause headaches, not that it does not. Many effects were observed long before their mechanisms were understood.",
+      "B": "Opposite: other possible causes would support the toxicologist's denial, not expose a weakness in it.",
+      "C": "Premise booster: the stimulus says the compound is 'the only substance the plant releases,' so undetected substances are ruled out by the premises.",
+      "D": "Wrong part: doubting the comparison would undermine the correlation itself, which the toxicologist concedes; it does not describe the error in the inference drawn.",
+      "E": "Wrong part: the conclusion is confined to 'the residents' near the plant; nothing is claimed about the city as a whole."
+    },
+    "trapPatterns": {
+      "B": "opposite",
+      "C": "premise_booster",
+      "D": "wrong_part",
+      "E": "wrong_part"
+    },
+    "keyTakeaway": "Not knowing how something could happen is not evidence that it does not happen.",
+    "predictionHint": "No known mechanism is treated as proof of no effect."
+  },
+  {
+    "id": "lr-flaw-flood-barrier-not-eliminate",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "definition_scope"
+    ],
+    "difficulty": 3,
+    "stimulus": "Editorial: Supporters of the proposed storm-surge barrier claim that it would substantially reduce the damage that coastal storms inflict on the harbor district. But even the barrier's engineers concede that in a storm of unprecedented severity, water would overtop the barrier and flood the district. A barrier that cannot keep the district dry in every storm offers only an illusion of protection, and the claims of its supporters are therefore unfounded.",
+    "stem": "The reasoning in the argument is most vulnerable to criticism on the grounds that it",
+    "choices": {
+      "A": "assumes that the barrier's engineers are the most reliable source of information about its performance",
+      "B": "presumes that a storm of unprecedented severity is likely to occur within the lifetime of the barrier",
+      "C": "fails to consider that the harbor district might be protected by means other than a barrier",
+      "D": "criticizes a proposal for failing to achieve a result that its supporters did not claim it would achieve",
+      "E": "treats the fact that a proposal has a limitation as sufficient reason to reject every argument in its favor"
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Wrong force: the engineers' concession is used against the barrier, and questioning their reliability would not repair the editorial's inference in any case.",
+      "B": "Wrong part: the editorial does not rely on such a storm being likely; its error is in the standard it applies, not in any probability claim.",
+      "C": "Out of scope: alternative protections have no bearing on whether the supporters' actual claim has been refuted.",
+      "D": "Correct. The supporters claimed the barrier would 'substantially reduce' damage. The editorial refutes a different claim, that it would 'keep the district dry in every storm,' and then declares the original claim unfounded. The target has been quietly upgraded.",
+      "E": "Half right: the editorial does over-reject, but 'every argument in its favor' overstates what it does, and this misses that the 'limitation' is not a limitation relative to what was actually claimed."
+    },
+    "trapPatterns": {
+      "A": "wrong_force",
+      "B": "wrong_part",
+      "C": "out_of_scope",
+      "E": "half_right"
+    },
+    "keyTakeaway": "Check the exact claim being refuted against the exact claim that was made; 'reduce' is not 'eliminate.'",
+    "predictionHint": "Straw man: 'substantially reduce' became 'keep dry in every storm.'"
+  },
+  {
+    "id": "lr-flaw-advertisement-intent-mislead",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "mental_state_v_reality"
+    ],
+    "difficulty": 3,
+    "stimulus": "Company spokesperson: The consumer agency has charged that our advertisement for the Brisa air purifier misled consumers into believing that the device removes airborne viruses. But the team that produced the advertisement has testified that it never intended to suggest anything about viruses, and internal documents from the campaign's planning confirm that no such suggestion was ever discussed. The agency's charge is therefore baseless.",
+    "stem": "Which one of the following most accurately describes a flaw in the argument's reasoning?",
+    "choices": {
+      "A": "It relies on the testimony of the very people whose conduct is being called into question.",
+      "B": "It assumes that the consumer agency has no evidence beyond the content of the advertisement itself.",
+      "C": "It fails to consider that the Brisa air purifier may in fact remove airborne viruses.",
+      "D": "It takes for granted that an advertisement cannot mislead consumers unless it makes an explicit false statement.",
+      "E": "It treats evidence about what a message was intended to convey as settling what the message actually conveyed."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Wrong force: the testimony is corroborated by 'internal documents,' and even wholly sincere testimony about intent would not answer a charge about effect.",
+      "B": "Out of scope: what other evidence the agency holds is never discussed and is not needed to expose the gap.",
+      "C": "Opposite: if the device did remove viruses, consumers would not have been misled, which would help the spokesperson rather than reveal a flaw.",
+      "D": "Shell game: the argument never invokes explicit false statements; it relies on intent, so this misdescribes the reasoning.",
+      "E": "Correct. The charge is that the advertisement 'misled consumers,' a claim about its effect on an audience. Evidence that the makers 'never intended' such a suggestion leaves open whether consumers nonetheless drew it."
+    },
+    "trapPatterns": {
+      "A": "wrong_force",
+      "B": "out_of_scope",
+      "C": "opposite",
+      "D": "shell_game"
+    },
+    "keyTakeaway": "What a speaker meant and what an audience understood are separate questions; intent does not settle effect.",
+    "predictionHint": "Intent versus effect: not meaning to mislead is not the same as not misleading."
+  },
+  {
+    "id": "lr-flaw-complication-risk-doubled",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "comparison",
+      "math_percent"
+    ],
+    "difficulty": 3,
+    "stimulus": "Health columnist: A large randomized study has found that patients who undergo the new laser procedure for correcting nearsightedness are twice as likely to experience a serious complication as patients who undergo the conventional procedure. Twice the risk of serious complication is an alarming difference. Anyone considering the laser procedure should therefore recognize that it is a dangerous one and opt for the conventional procedure instead.",
+    "stem": "The argument is flawed in that it",
+    "choices": {
+      "A": "takes for granted that patients value the avoidance of complications more than they value the benefits of the procedure",
+      "B": "overlooks the possibility that the conventional procedure has risks of a kind not measured by the study",
+      "C": "treats a claim about how one risk compares to another as if it established that the risk is large in absolute terms",
+      "D": "fails to consider that the patients who chose the laser procedure may have been more prone to complications to begin with",
+      "E": "relies on a single study rather than on a review of all the available evidence"
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Out of scope: the argument's central claim is that the procedure 'is a dangerous one,' and this choice concerns a value trade-off the argument never makes.",
+      "B": "Wrong part: unmeasured risks of the conventional procedure might affect the final recommendation but do not address why 'dangerous' was inferred.",
+      "C": "Correct. 'Twice as likely' is a ratio. If the conventional procedure's complication rate is one in ten thousand, the laser procedure's is two in ten thousand, which hardly makes it 'dangerous.' A relative risk says nothing about the absolute level.",
+      "D": "Shell game: the study is described as 'randomized,' which rules out patients choosing their procedure; this names a problem the stimulus has already excluded.",
+      "E": "Wrong force: the argument's problem is how it reads the study's result, not how many studies it cites."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "wrong_part",
+      "D": "shell_game",
+      "E": "wrong_force"
+    },
+    "keyTakeaway": "A doubled risk can still be tiny; relative comparisons do not establish absolute magnitude.",
+    "predictionHint": "Relative versus absolute: twice a small risk is still small."
+  },
+  {
+    "id": "lr-flaw-grain-reserve-policy-conditions",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "analogy",
+      "causation"
+    ],
+    "difficulty": 3,
+    "stimulus": "Agricultural economist: In the 1950s, the national grain reserve successfully stabilized bread prices during two consecutive years of poor harvests, releasing stored grain whenever prices began to rise. Bread prices have again become volatile, and critics of the reserve argue that it is no longer needed. They are mistaken: since the reserve stabilized prices before, maintaining it at its 1950s level will stabilize prices now.",
+    "stem": "The reasoning in the argument is most vulnerable to criticism on the grounds that it",
+    "choices": {
+      "A": "fails to consider that the critics may have reasons for opposing the reserve other than doubts about its effectiveness",
+      "B": "takes for granted that stabilizing bread prices is a more important goal than reducing the cost of maintaining the reserve",
+      "C": "infers that the reserve caused prices to stabilize in the 1950s merely because prices stabilized after grain was released",
+      "D": "presumes, without justification, that a measure that was effective under certain conditions will be effective under conditions that may differ significantly",
+      "E": "overlooks the possibility that the reserve's release of grain in the 1950s was followed several years later by a period of sharply rising prices"
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Out of scope: the economist's conclusion is about whether the reserve will work, and the critics' other reasons do not bear on that inference.",
+      "B": "Out of scope: no cost comparison is made or needed; the conclusion is about effectiveness.",
+      "C": "Premise booster: the stimulus states that the reserve 'successfully stabilized' prices, so the causal claim about the 1950s is a given premise, not a post hoc inference.",
+      "D": "Correct. The 1950s success occurred under conditions of poor harvests; today's volatility may stem from different causes, and the market, population, and trade may have changed. A reserve 'at its 1950s level' need not have the same effect now.",
+      "E": "True but irrelevant: what happened years after the 1950s release does not affect whether the 1950s success can be projected onto today."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "out_of_scope",
+      "C": "premise_booster",
+      "E": "true_but_irrelevant"
+    },
+    "keyTakeaway": "A remedy that worked once is evidence only for conditions like those in which it worked.",
+    "predictionHint": "Different conditions now: the 1950s success may not transfer."
+  },
+  {
+    "id": "lr-flaw-hallam-partners-first-attempt",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "quantifiers",
+      "conditional"
+    ],
+    "difficulty": 4,
+    "stimulus": "Most of the senior partners at the law firm of Greer and Tull attended Hallam Law School, and every attorney who attended Hallam passed the bar examination on the first attempt. It follows that most of the firm's attorneys who passed the bar examination on their first attempt are senior partners.",
+    "stem": "The argument is flawed in that it",
+    "choices": {
+      "A": "infers from the fact that most of one group belong to a second group that most of the second group belong to the first",
+      "B": "takes for granted that every attorney who passed the bar examination on the first attempt attended Hallam",
+      "C": "takes for granted that attorneys who attended Hallam are more capable than attorneys who attended other law schools",
+      "D": "overlooks the possibility that some senior partners did not attend Hallam",
+      "E": "draws a conclusion about the majority of a group on the basis of premises that provide information about only some members of that group"
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. The premises establish that most senior partners are first-attempt passers. But the firm may have many junior attorneys who also passed on the first attempt, in which case senior partners could be a small minority of that group. 'Most A are B' does not give 'most B are A.'",
+      "B": "Reversal: the argument never needs this converse, and even if every first-attempt passer attended Hallam, junior Hallam graduates could still outnumber the senior partners.",
+      "C": "Out of scope: capability plays no role in the argument.",
+      "D": "Premise booster: the premise says 'most,' not all, senior partners attended Hallam, so the argument already allows for this.",
+      "E": "Wrong force: the premises use 'most' and 'every,' not 'some'; this misstates the quantifiers that are actually in play."
+    },
+    "trapPatterns": {
+      "B": "reversal",
+      "C": "out_of_scope",
+      "D": "premise_booster",
+      "E": "wrong_force"
+    },
+    "keyTakeaway": "'Most' statements do not reverse; most A being B says nothing about what share of B is A.",
+    "predictionHint": "Illicit reversal of 'most': junior attorneys may dominate the first-attempt passers."
+  },
+  {
+    "id": "lr-flaw-older-drivers-accident-share",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "math_percent",
+      "comparison"
+    ],
+    "difficulty": 4,
+    "stimulus": "Traffic safety official: Twenty years ago, drivers over the age of seventy were involved in 6 percent of the collisions reported in this province. Last year, they were involved in 11 percent. Since the proportion of collisions involving older drivers has nearly doubled, older drivers today must be considerably more dangerous behind the wheel than older drivers were twenty years ago, and the province should require them to retake the driving test every two years.",
+    "stem": "Which one of the following most accurately describes a flaw in the argument's reasoning?",
+    "choices": {
+      "A": "It fails to consider that collisions may be reported more frequently now than they were twenty years ago.",
+      "B": "It confuses the number of collisions involving older drivers with the proportion of all collisions that involve older drivers.",
+      "C": "It presumes that older drivers were at fault in the collisions in which they were involved.",
+      "D": "It takes for granted that requiring older drivers to retake the driving test would reduce the number of collisions.",
+      "E": "It overlooks the possibility that the share of the province's drivers who are over seventy has grown over the twenty-year period."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "True but irrelevant: a change in reporting rates would affect collisions involving drivers of all ages alike and would not alter older drivers' share.",
+      "B": "Shell game: the argument speaks consistently of proportions ('6 percent,' '11 percent') and never slips into raw numbers.",
+      "C": "Half right: involvement and fault do differ, but the conclusion compares older drivers now with older drivers then, and the involvement-fault gap would have to have changed over time to matter.",
+      "D": "Wrong part: this targets the recommendation, but the central inference, that older drivers 'must be considerably more dangerous,' fails before the recommendation is reached.",
+      "E": "Correct. If drivers over seventy made up 6 percent of all drivers twenty years ago and 11 percent today, their share of collisions would nearly double even if each older driver were exactly as safe as before. A group's share of an outcome tracks its share of the population."
+    },
+    "trapPatterns": {
+      "A": "true_but_irrelevant",
+      "B": "shell_game",
+      "C": "half_right",
+      "D": "wrong_part"
+    },
+    "keyTakeaway": "A group's rising share of bad outcomes may only reflect its rising share of the population; look for a per-person rate.",
+    "predictionHint": "Share of collisions rose because the share of older drivers rose."
+  },
+  {
+    "id": "lr-flaw-department-salaries-overall",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "part_v_whole",
+      "math_percent"
+    ],
+    "difficulty": 4,
+    "stimulus": "Consultant: Critics allege that Dunbar Industries pays its employees less than its competitor Searle Manufacturing does. The allegation is baseless. Dunbar and Searle each have the same four departments, and in every one of those departments the average salary of Dunbar's employees is higher than the average salary of Searle's employees in the corresponding department. Therefore, the average salary of Dunbar's employees overall is higher than that of Searle's employees overall.",
+    "stem": "The reasoning in the argument is most vulnerable to criticism on the grounds that it",
+    "choices": {
+      "A": "relies on average salaries rather than on the salaries actually paid to individual employees",
+      "B": "takes for granted that the critics' allegation concerns average salaries rather than the salaries of the lowest-paid employees",
+      "C": "overlooks the possibility that Searle offers its employees benefits that compensate for lower salaries",
+      "D": "fails to consider that the two companies may differ in the proportion of their employees who work in each department",
+      "E": "presumes that a comparison that holds for each department at one time will continue to hold in the future"
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Wrong force: averages are the appropriate measure for the claim being made; individual salaries would not change the structure of the inference.",
+      "B": "Shell game: how the critics' allegation should be read is a side issue; the consultant's own inference from departmental averages to the overall average is what fails.",
+      "C": "Out of scope: benefits are never at issue; both the allegation and the conclusion concern pay.",
+      "D": "Correct. If Searle's workforce is concentrated in its highest-paying department and Dunbar's in its lowest-paying one, Searle's overall average can exceed Dunbar's even though Dunbar wins every department-by-department comparison. The whole is a weighted combination of the parts.",
+      "E": "Wrong part: the argument makes no claim about the future; both premise and conclusion are about current salaries."
+    },
+    "trapPatterns": {
+      "A": "wrong_force",
+      "B": "shell_game",
+      "C": "out_of_scope",
+      "E": "wrong_part"
+    },
+    "keyTakeaway": "Winning every subgroup comparison does not guarantee winning the overall comparison when the subgroups are weighted differently.",
+    "predictionHint": "Weighting: departmental averages do not combine into an overall average without headcounts."
+  },
+  {
+    "id": "lr-flaw-orchard-fungicide-bee-decline",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 4,
+    "stimulus": "Agronomist: Some beekeepers blame the new orchard fungicide Veridan for the recent decline in honeybee colonies in the valley, since the decline began shortly after orchards there started using it. But colonies in the neighboring Toll Valley, where no orchards have ever used Veridan, have declined over the same period by nearly the same proportion. The fungicide therefore cannot be responsible for the decline in the valley's honeybee colonies.",
+    "stem": "The argument is flawed in that it",
+    "choices": {
+      "A": "takes the occurrence of an effect where a suspected cause is absent as showing that the suspected cause does not contribute to the effect",
+      "B": "presumes that the honeybee colonies in the two valleys were equally healthy before the decline began",
+      "C": "takes for granted that wherever Veridan is used, honeybee colonies will decline",
+      "D": "treats the fact that the decline in the valley began shortly after Veridan was introduced there as evidence that Veridan caused that decline",
+      "E": "overlooks the possibility that Veridan has harmed insect species other than honeybees"
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. The Toll Valley decline shows only that something other than Veridan can cause colonies to decline. It does not show that Veridan is not contributing in the valley where it is used; two different causes can produce similar declines in two places.",
+      "B": "Out of scope: the argument compares rates of decline, and nothing in it depends on the colonies' prior health.",
+      "C": "Reversal: the argument's hidden assumption is that the decline requires Veridan (that Veridan is necessary), not that Veridan always produces decline (that it is sufficient). This names the wrong direction.",
+      "D": "Opposite: that is the beekeepers' reasoning, which the agronomist rejects; it is not a flaw in the agronomist's argument.",
+      "E": "Out of scope: effects on other insects have no bearing on whether Veridan caused the honeybee decline."
+    },
+    "trapPatterns": {
+      "B": "out_of_scope",
+      "C": "reversal",
+      "D": "opposite",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "An effect appearing without a suspected cause shows the cause is not necessary for the effect, not that it never produces it.",
+    "predictionHint": "Toll Valley's decline has another cause; that does not clear Veridan."
+  },
+  {
+    "id": "lr-flaw-warning-label-more-likely",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "quantifiers",
+      "comparison"
+    ],
+    "difficulty": 4,
+    "stimulus": "Consumer researcher: In our study, participants who were randomly assigned to read the warning label on the pesticide container before using the product were significantly more likely to handle it safely than participants who were not. Pesticide manufacturers who make warning labels more prominent, so that nearly all users read them, can therefore expect that most users of their products will handle them safely.",
+    "stem": "Which one of the following most accurately describes a flaw in the argument's reasoning?",
+    "choices": {
+      "A": "It overlooks the possibility that participants who read the label were already more careful in general than those who did not read it.",
+      "B": "It takes a difference between two groups in the likelihood of an outcome as establishing that the outcome is likely within one of those groups.",
+      "C": "It presumes that making a label more prominent will cause users to read it.",
+      "D": "It generalizes from the handling of a single pesticide to the handling of products of all kinds.",
+      "E": "It fails to consider that reading a warning label is more likely to produce safe handling when the label is clearly written."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Shell game: participants were 'randomly assigned' to read the label, so pre-existing carefulness was balanced across groups; this names a problem the design has already excluded.",
+      "B": "Correct. 'More likely' is comparative. If 10 percent of non-readers and 25 percent of readers handled the pesticide safely, readers are far more likely to be safe, yet most readers are not. The conclusion that 'most users' will be safe needs an absolute figure the study does not supply.",
+      "C": "Premise booster: the conclusion is conditioned on labels being made prominent 'so that nearly all users read them,' so this is stipulated.",
+      "D": "Wrong part: the conclusion is addressed to 'pesticide manufacturers' about 'their products,' so no leap to products of all kinds is made.",
+      "E": "Out of scope: label clarity is never discussed and does not affect the move from 'more likely' to 'most.'"
+    },
+    "trapPatterns": {
+      "A": "shell_game",
+      "C": "premise_booster",
+      "D": "wrong_part",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "'More likely than' compares two rates; it never tells you whether either rate is above 50 percent.",
+    "predictionHint": "Comparative to absolute: 'more likely to' is not 'most will.'"
+  },
+  {
+    "id": "lr-flaw-reviewers-dialogue-contradictory",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "part_v_whole"
+    ],
+    "difficulty": 4,
+    "stimulus": "Novelist: Reviewers of my latest novel complained that its dialogue was stilted and unrealistic throughout. Yet reviewers of the same novel also praised its dialogue as natural-sounding throughout, indeed as the most natural to appear in recent fiction. Since reviewers both condemned and praised the very same dialogue, it is clear that the judgments of the novel's reviewers are self-contradictory.",
+    "stem": "The reasoning in the argument is most vulnerable to criticism on the grounds that it",
+    "choices": {
+      "A": "fails to consider that dialogue can be stilted in some passages of a novel and natural in others",
+      "B": "presumes that a judgment about a novel's dialogue cannot be both accurate and unfavorable",
+      "C": "takes for granted that reviewers who praised the dialogue had read the novel more carefully than those who complained",
+      "D": "relies on the reviews of a single novel to draw a conclusion about the reliability of reviewers in general",
+      "E": "treats judgments made by different individuals as though they were the judgments of a single individual"
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Premise booster: both the complaint and the praise are stated to apply 'throughout,' so the passages explanation is excluded by the stimulus.",
+      "B": "Out of scope: the argument says nothing about whether the unfavorable judgment was accurate.",
+      "C": "Out of scope: the novelist makes no claim about which reviewers read more carefully.",
+      "D": "Wrong part: the conclusion is confined to 'the novel's reviewers,' not reviewers in general.",
+      "E": "Correct. A judgment is self-contradictory only if one judge holds both halves. If some reviewers found the dialogue stilted and others found it natural, that is disagreement among people, not contradiction within anyone's judgment. 'Reviewers' names a group, not a person."
+    },
+    "trapPatterns": {
+      "A": "premise_booster",
+      "B": "out_of_scope",
+      "C": "out_of_scope",
+      "D": "wrong_part"
+    },
+    "keyTakeaway": "Opposed views held by different members of a group are disagreement, not self-contradiction.",
+    "predictionHint": "Different reviewers said different things; no single reviewer contradicted himself."
+  },
+  {
+    "id": "lr-weaken-streetlights-burglary-patrols",
+    "section": "LR",
+    "type": "weaken",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 1,
+    "stimulus": "Police chief: Eighteen months ago, the city replaced the dim streetlights in the Fairmont district with much brighter ones. Since then, the number of nighttime burglaries reported in Fairmont has fallen by nearly a quarter. The brighter lighting has clearly deterred burglars, and the city should therefore install similar lighting in its other districts.",
+    "stem": "Which one of the following, if true, most seriously weakens the argument?",
+    "choices": {
+      "A": "The brighter streetlights consume more electricity than the dim ones they replaced.",
+      "B": "Shortly after the new lights were installed, the police department doubled its nighttime patrols in Fairmont.",
+      "C": "Some residents of Fairmont have complained that the brighter lights make it difficult to sleep.",
+      "D": "The number of daytime burglaries reported in Fairmont has remained unchanged over the past eighteen months.",
+      "E": "Several other cities have also replaced dim streetlights with brighter ones in recent years."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "True but irrelevant: electricity cost bears on whether the lights are worth it, not on whether they 'deterred burglars.'",
+      "B": "Correct. Doubled patrols during the same period are an alternative explanation for the drop in nighttime burglaries, so the decline cannot be attributed to the lighting.",
+      "C": "Out of scope: residents' sleep has nothing to do with the causal claim about burglaries.",
+      "D": "Opposite: an unchanged daytime rate alongside a falling nighttime rate suggests that something nighttime-specific, such as lighting, is at work; this supports the chief.",
+      "E": "Out of scope: what other cities have done says nothing about what caused Fairmont's decline."
+    },
+    "trapPatterns": {
+      "A": "true_but_irrelevant",
+      "C": "out_of_scope",
+      "D": "opposite",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "When 'Y fell after X,' look for anything else that changed in the same window.",
+    "predictionHint": "Alternative cause: something besides the lights changed in Fairmont."
+  },
+  {
+    "id": "lr-weaken-arena-survey-season-ticket",
+    "section": "LR",
+    "type": "weaken",
+    "logicTags": [
+      "sampling"
+    ],
+    "difficulty": 1,
+    "stimulus": "City official: A survey conducted last month shows that 74 percent of the city's residents favor using public funds to build a new arena for the city's professional hockey team. Since the arena would cost each household only a modest amount in additional taxes, the council should approve the funding; doing so would simply be carrying out the wishes of the city's residents.",
+    "stem": "Which one of the following, if true, most seriously weakens the argument?",
+    "choices": {
+      "A": "The survey was distributed only to people who had purchased tickets to a hockey game during the past season.",
+      "B": "A new arena would also be used for concerts and other events that do not involve the hockey team.",
+      "C": "The additional taxes needed to pay for the arena would be collected over a period of twenty years.",
+      "D": "Residents of a neighboring city voted five years ago against using public funds to build a similar arena for their own team.",
+      "E": "Some of the residents surveyed said they would favor the arena only if it were built downtown."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. Ticket buyers are precisely the people most likely to want an arena. A survey confined to them cannot show what 'the city's residents' want, so the claim that funding would carry out residents' wishes collapses.",
+      "B": "Out of scope: additional uses might make the arena more attractive but do not bear on whether residents actually support it.",
+      "C": "True but irrelevant: the payment schedule does not affect what residents want or whether the survey measured it.",
+      "D": "Out of scope: a different city's vote tells us nothing about this city's residents.",
+      "E": "Wrong force: 'some' residents attaching a condition leaves the 74 percent figure essentially intact."
+    },
+    "trapPatterns": {
+      "B": "out_of_scope",
+      "C": "true_but_irrelevant",
+      "D": "out_of_scope",
+      "E": "wrong_force"
+    },
+    "keyTakeaway": "To weaken a survey-based claim, show that the people surveyed are not the people the conclusion is about.",
+    "predictionHint": "Biased sample: who was actually surveyed?"
+  },
+  {
+    "id": "lr-weaken-highway-lane-congestion",
+    "section": "LR",
+    "type": "weaken",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 1,
+    "stimulus": "Transportation planner: Traffic on the Route 9 corridor is badly congested during rush hour, with average speeds falling below twenty kilometers per hour. Adding a third lane in each direction would increase the corridor's capacity by 50 percent. The regional authority should therefore widen Route 9, since doing so would relieve rush-hour congestion on the corridor.",
+    "stem": "Which one of the following, if true, most seriously weakens the argument?",
+    "choices": {
+      "A": "Widening Route 9 would require the regional authority to purchase land from several dozen property owners along the corridor.",
+      "B": "Average rush-hour speeds on Route 9 were even lower five years ago than they are today.",
+      "C": "Most of the vehicles on Route 9 during rush hour carry only a single occupant.",
+      "D": "When a congested highway is widened, drivers who had been using other routes or traveling at other times soon shift to it.",
+      "E": "A third lane in each direction would increase the corridor's capacity by somewhat less than 50 percent."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Out of scope: land acquisition is a cost of the plan, not a reason to doubt that it would 'relieve rush-hour congestion.'",
+      "B": "True but irrelevant: past speeds do not bear on whether widening would reduce current congestion.",
+      "C": "Out of scope: occupancy might suggest a different remedy but does not show that widening would fail.",
+      "D": "Correct. If new capacity attracts drivers who currently avoid the corridor, the added lanes fill up and rush-hour congestion persists. The plan would not achieve its stated goal.",
+      "E": "Wrong force: 'somewhat less than 50 percent' is still a large capacity increase and would still be expected to relieve congestion."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "true_but_irrelevant",
+      "C": "out_of_scope",
+      "E": "wrong_force"
+    },
+    "keyTakeaway": "A plan is weakened by showing that the system will respond in a way that defeats the plan's goal.",
+    "predictionHint": "Induced demand: more lanes attract more drivers."
+  },
+  {
+    "id": "lr-weaken-drought-wheat-other-country",
+    "section": "LR",
+    "type": "weaken",
+    "logicTags": [
+      "analogy"
+    ],
+    "difficulty": 1,
+    "stimulus": "Agronomist: A new variety of drought-tolerant wheat has doubled yields on the arid plains of Keshan over the past three growing seasons. The highlands of neighboring Orvia also suffer from frequent drought, and Orvian farmers struggle with low wheat yields. Introducing the new variety in Orvia would therefore substantially increase the wheat yields of Orvian farmers.",
+    "stem": "Which one of the following, if true, most seriously weakens the argument?",
+    "choices": {
+      "A": "The new variety of wheat was developed by researchers at an agricultural institute in Keshan.",
+      "B": "The new variety of wheat fails to mature during the short, cool growing season of highland regions such as Orvia's.",
+      "C": "Wheat yields in Keshan were already somewhat higher than those in Orvia even before the new variety was introduced there.",
+      "D": "Orvian farmers grow several crops in addition to wheat.",
+      "E": "The new variety of wheat produces grain that is somewhat lower in protein than that of traditional varieties."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Out of scope: where the variety was developed has no bearing on whether it would thrive in Orvia.",
+      "B": "Correct. The analogy rests on drought being the shared problem. If Orvia's 'highlands' have a short, cool season in which the variety cannot mature, the relevant difference between the two regions defeats the comparison.",
+      "C": "True but irrelevant: a pre-existing gap in yields does not affect whether the new variety would raise Orvia's yields.",
+      "D": "Out of scope: other crops have nothing to do with wheat yields.",
+      "E": "Shell game: protein content concerns grain quality, while the conclusion concerns yield."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "C": "true_but_irrelevant",
+      "D": "out_of_scope",
+      "E": "shell_game"
+    },
+    "keyTakeaway": "To weaken an analogy, find a difference between the two cases that matters for the outcome predicted.",
+    "predictionHint": "Relevant difference: highlands are not arid plains."
+  },
+  {
+    "id": "lr-weaken-meetings-team-conflict-reverse",
+    "section": "LR",
+    "type": "weaken",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 1,
+    "stimulus": "Management consultant: A study of two hundred project teams found that teams whose managers hold frequent meetings experience significantly more interpersonal conflict than teams whose managers hold meetings only occasionally. Frequent meetings evidently generate friction among team members. Managers who want to reduce conflict on their teams should therefore hold meetings less often.",
+    "stem": "Which one of the following, if true, most seriously weakens the argument?",
+    "choices": {
+      "A": "Team members generally prefer short meetings to long ones.",
+      "B": "Some of the teams in the study worked on projects that lasted less than one month.",
+      "C": "Teams whose managers hold frequent meetings complete their projects on time more often than other teams.",
+      "D": "Interpersonal conflict on project teams is often caused by unclear assignment of responsibilities.",
+      "E": "Managers typically schedule additional meetings in response to conflicts that have already arisen among team members."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Out of scope: meeting length is never at issue; the argument concerns frequency and conflict.",
+      "B": "True but irrelevant: project duration does not affect the relationship between meeting frequency and conflict.",
+      "C": "Shell game: on-time completion is a different outcome from conflict and does not challenge the causal claim.",
+      "D": "Half right: this names another cause of conflict, but it does not explain why frequent-meeting teams in particular have more conflict, so the correlation remains unexplained.",
+      "E": "Correct. If conflict prompts managers to call more meetings, then conflict causes frequent meetings rather than the reverse, and holding fewer meetings would not reduce conflict."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "true_but_irrelevant",
+      "C": "shell_game",
+      "D": "half_right"
+    },
+    "keyTakeaway": "Ask whether the supposed effect could be producing the supposed cause.",
+    "predictionHint": "Reverse causation: conflict leads to meetings."
+  },
+  {
+    "id": "lr-weaken-iron-truss-bridge-dating",
+    "section": "LR",
+    "type": "weaken",
+    "logicTags": [
+      "conditional"
+    ],
+    "difficulty": 2,
+    "stimulus": "Local historian: County records show that every bridge built in this county before 1900 was constructed with iron trusses, because steel was not available locally until that year. The Miller's Creek bridge, whose construction date is unrecorded, has iron trusses. It was therefore almost certainly built before 1900.",
+    "stem": "Which one of the following, if true, most calls into question the historian's conclusion?",
+    "choices": {
+      "A": "Several bridges in the county that were built before 1900 have since been replaced.",
+      "B": "The county records from before 1900 are known to be incomplete and do not list every bridge that was built in the county.",
+      "C": "Because iron remained considerably cheaper than steel, iron trusses continued to be used for small bridges in the county until about 1930.",
+      "D": "The Miller's Creek bridge was extensively repaired in the 1950s using steel components.",
+      "E": "Steel trusses are stronger than iron trusses of the same size."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Out of scope: the fate of other bridges has nothing to do with when this one was built.",
+      "B": "Wrong part: incomplete records might cast doubt on the premise that every pre-1900 bridge used iron, but the conclusion depends on whether post-1900 bridges also used iron, which this does not address.",
+      "C": "Correct. The historian needs iron trusses to indicate a pre-1900 date, but if iron continued in use for three more decades, an iron-truss bridge could easily date from 1900 to 1930. The conditional runs only one way.",
+      "D": "True but irrelevant: later repairs do not change the material of the original trusses or when they were built.",
+      "E": "Out of scope: relative strength says nothing about when either material was used."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "wrong_part",
+      "D": "true_but_irrelevant",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "'All pre-1900 bridges are iron' does not mean 'all iron bridges are pre-1900'; weaken by showing the trait persisted.",
+    "predictionHint": "Show that iron trusses were also used after 1900."
+  },
+  {
+    "id": "lr-weaken-attendance-bonus-absenteeism",
+    "section": "LR",
+    "type": "weaken",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 2,
+    "stimulus": "Human resources director: Absenteeism at our packaging plant has risen sharply over the past year, forcing us to pay large amounts of overtime to cover for absent workers. To address this, we will begin paying a substantial bonus to every worker who completes a quarter without missing a single shift. Since workers will not want to forfeit the bonus, absenteeism, and with it our overtime costs, will decline.",
+    "stem": "Which one of the following, if true, most seriously weakens the argument?",
+    "choices": {
+      "A": "Some workers at the plant have never missed a shift and would receive the bonus without changing their behavior.",
+      "B": "The bonus would cost the plant more than it currently pays in overtime.",
+      "C": "Workers at a nearby plant that offers no attendance bonus have a lower rate of absenteeism.",
+      "D": "Most absences at the plant are caused by contagious illnesses that spread quickly when infected workers report for their shifts.",
+      "E": "The plant's overtime rate is one and a half times the regular hourly wage."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Wrong force: paying some workers who were already present costs money but does not prevent absenteeism from declining among the rest.",
+      "B": "Shell game: the conclusion is that absenteeism and overtime costs 'will decline,' not that the plant will save money overall; this attacks a claim the director did not make.",
+      "C": "Out of scope: another plant's rate, with no information about why it is lower, says nothing about whether this bonus will work here.",
+      "D": "Correct. If the bonus induces sick workers to come in, they infect coworkers, and total absences could rise rather than fall. The plan's incentive would undermine its own goal.",
+      "E": "True but irrelevant: the overtime rate explains why overtime is costly but has no bearing on whether absenteeism will decline."
+    },
+    "trapPatterns": {
+      "A": "wrong_force",
+      "B": "shell_game",
+      "C": "out_of_scope",
+      "E": "true_but_irrelevant"
+    },
+    "keyTakeaway": "A plan is weakened when the behavior it rewards produces the very problem it targets.",
+    "predictionHint": "Overlooked consequence: rewarding attendance brings sick workers in."
+  },
+  {
+    "id": "lr-weaken-graffiti-coating-brick-facade",
+    "section": "LR",
+    "type": "weaken",
+    "logicTags": [
+      "analogy"
+    ],
+    "difficulty": 2,
+    "stimulus": "City maintenance supervisor: Three years ago we applied a protective coating to the concrete retaining walls along the riverfront, and since then graffiti has been removed from those walls easily and without damage. The historic brick facade of the Caldwell Building has been repeatedly defaced with graffiti. Applying the same coating to the facade would therefore allow graffiti to be removed from it just as easily.",
+    "stem": "Which one of the following, if true, most seriously weakens the argument?",
+    "choices": {
+      "A": "The coating, once applied, must be reapplied every five years to remain effective.",
+      "B": "Graffiti has appeared on the riverfront retaining walls less frequently since the coating was applied.",
+      "C": "Removing graffiti from the Caldwell Building's facade currently requires the use of abrasive techniques that damage the brick.",
+      "D": "The Caldwell Building's facade is defaced with graffiti more often than the retaining walls are.",
+      "E": "The coating forms an effective barrier only on dense, nonporous surfaces, and the facade's century-old brick is highly porous."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Out of scope: a maintenance schedule does not affect whether the coating would work on brick.",
+      "B": "Out of scope: how often graffiti appears is a different matter from how easily it can be removed.",
+      "C": "Opposite: the difficulty of current removal makes the coating more desirable; it gives no reason to think the coating would fail.",
+      "D": "True but irrelevant: frequency of defacement does not bear on ease of removal once the coating is applied.",
+      "E": "Correct. The analogy from concrete to brick depends on the coating performing the same way on both. If it works only on nonporous surfaces and the brick is porous, the relevant difference breaks the comparison."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "out_of_scope",
+      "C": "opposite",
+      "D": "true_but_irrelevant"
+    },
+    "keyTakeaway": "An analogy between two materials or cases is only as strong as their similarity in the respect that matters.",
+    "predictionHint": "Relevant difference: brick is not concrete."
+  },
+  {
+    "id": "lr-weaken-small-business-hiring-poll",
+    "section": "LR",
+    "type": "weaken",
+    "logicTags": [
+      "sampling"
+    ],
+    "difficulty": 2,
+    "stimulus": "Economist: A recent poll of small-business owners in the province found that 61 percent plan to hire additional employees within the next six months. Since small businesses account for the majority of the province's private-sector jobs, we can expect a significant rise in private-sector employment in the province over the coming half year.",
+    "stem": "Which one of the following, if true, most seriously weakens the argument?",
+    "choices": {
+      "A": "Fewer than one in five of the owners contacted answered the poll, and those who declined were mostly owners of struggling businesses.",
+      "B": "Large corporations in the province have announced plans to expand their operations over the next year.",
+      "C": "Small-business owners in the province are, on average, considerably more optimistic about the economy than are small-business owners in neighboring provinces.",
+      "D": "Most of the small-business owners polled plan to hire only one additional employee.",
+      "E": "Many of the province's small businesses operate in the retail sector, where employment fluctuates seasonally."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. If struggling owners, the ones least likely to hire and most likely to lay off, declined to answer, the 61 percent figure overstates hiring plans across small businesses generally, and the forecast loses its basis.",
+      "B": "Opposite: corporate expansion would add to private-sector employment, supporting the forecast.",
+      "C": "Out of scope: comparison with other provinces says nothing about whether this province's owners will actually hire.",
+      "D": "Wrong force: one new employee at most small businesses in a province would still be a large number of jobs; this does not show the rise would be insignificant.",
+      "E": "True but irrelevant: seasonal fluctuation is a general fact that does not undercut the poll's result or its link to employment."
+    },
+    "trapPatterns": {
+      "B": "opposite",
+      "C": "out_of_scope",
+      "D": "wrong_force",
+      "E": "true_but_irrelevant"
+    },
+    "keyTakeaway": "Low response rates matter when those who do not respond differ systematically from those who do.",
+    "predictionHint": "Nonresponse bias: who did not answer the poll?"
+  },
+  {
+    "id": "lr-weaken-migraine-drug-enrollment",
+    "section": "LR",
+    "type": "weaken",
+    "logicTags": [
+      "causation",
+      "sampling"
+    ],
+    "difficulty": 2,
+    "stimulus": "Neurologist: In a trial of the new migraine medication Cefalin, participants recorded the number of migraines they experienced during the month before beginning treatment and again during the third month of treatment. On average, participants experienced 35 percent fewer migraines in the third month of treatment than in the month before treatment began. Cefalin is therefore effective in reducing the frequency of migraines.",
+    "stem": "Which one of the following, if true, most seriously weakens the argument?",
+    "choices": {
+      "A": "Some participants reported mild nausea during the first two weeks of treatment.",
+      "B": "Participants in the trial ranged in age from nineteen to sixty-four.",
+      "C": "Participants were admitted to the trial only during a month in which they had experienced an unusually high number of migraines.",
+      "D": "The frequency of migraines varies considerably from one person to another.",
+      "E": "Several migraine medications that are already on the market reduce the frequency of migraines by considerably more than 35 percent."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Out of scope: side effects do not bear on whether migraine frequency fell because of the drug.",
+      "B": "True but irrelevant: the age range does not affect the before-and-after comparison.",
+      "C": "Correct. If the baseline month was unusually bad by design, participants would be expected to have fewer migraines in a later month with or without treatment. The 35 percent drop may be a return to normal, not an effect of Cefalin.",
+      "D": "Wrong force: variation between people does not matter in a design that compares each participant with himself or herself.",
+      "E": "Comparison shift: the conclusion is that Cefalin is 'effective,' not that it is the most effective; other drugs' performance is beside the point."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "true_but_irrelevant",
+      "D": "wrong_force",
+      "E": "comparison_shift"
+    },
+    "keyTakeaway": "A before-and-after improvement is suspect when subjects were selected at their worst.",
+    "predictionHint": "Regression to the mean: the baseline month was unusually bad."
+  },
+  {
+    "id": "lr-weaken-antipoaching-patrols-elephants",
+    "section": "LR",
+    "type": "weaken",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 2,
+    "stimulus": "Wildlife official: Five years ago, the Mbeya Reserve began deploying armed anti-poaching patrols. Since then, the reserve's elephant population has grown by 40 percent. The patrols have clearly been effective in protecting the reserve's elephants from poachers, and the government should fund similar patrols in the country's other reserves.",
+    "stem": "Which one of the following, if true, most seriously weakens the argument?",
+    "choices": {
+      "A": "The anti-poaching patrols in the Mbeya Reserve cost considerably more each year than was originally budgeted for them.",
+      "B": "Poachers who were active in the Mbeya Reserve five years ago have been arrested in other parts of the country.",
+      "C": "The elephant population of the Mbeya Reserve had declined steadily throughout the ten years before the patrols were first deployed.",
+      "D": "Over the same five years, elephant populations in the country's reserves without anti-poaching patrols have also grown by about 40 percent.",
+      "E": "Elephants in the Mbeya Reserve are now more frequently observed near the reserve's boundaries than they were five years ago."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Out of scope: cost overruns do not bear on whether the patrols caused the population growth.",
+      "B": "Out of scope: arrests elsewhere neither confirm nor deny that patrols at Mbeya caused the increase.",
+      "C": "Opposite: a steady decline that reversed when patrols began supports the official's causal claim.",
+      "D": "Correct. If reserves without patrols grew just as much, the growth at Mbeya is explained by whatever is happening nationwide, and the patrols get no credit. The same effect without the supposed cause undercuts the inference.",
+      "E": "True but irrelevant: where elephants are seen says nothing about why their numbers grew."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "out_of_scope",
+      "C": "opposite",
+      "E": "true_but_irrelevant"
+    },
+    "keyTakeaway": "A comparison group that got the same result without the treatment is the sharpest weakener of a causal claim.",
+    "predictionHint": "Effect without the cause: unpatrolled reserves grew too."
+  },
+  {
+    "id": "lr-weaken-orchid-collecting-ban",
+    "section": "LR",
+    "type": "weaken",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 2,
+    "stimulus": "Conservation official: The Marsden slipper orchid, which grows only in the wetlands of the Tarn River basin, has declined by half over the past decade. Because the orchid's showy flowers make it highly prized by collectors, the wildlife agency is proposing a strict ban on collecting the plant from the wild. If enacted and enforced, the ban will halt the orchid's decline.",
+    "stem": "Which one of the following, if true, most seriously weakens the argument?",
+    "choices": {
+      "A": "Several other orchid species that grow in the Tarn River basin are not prized by collectors.",
+      "B": "Collectors who are caught taking the orchid from the wild currently face only small fines.",
+      "C": "Nearly half of the Tarn basin's wetlands have been drained for agriculture during the decade of the orchid's decline.",
+      "D": "The orchid's flowers are at their most showy only during a brief period in late spring, when the wetlands are nearly impossible to reach.",
+      "E": "Some botanical gardens maintain collections of the Marsden slipper orchid."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Out of scope: other species' appeal to collectors tells us nothing about what is driving this orchid's decline.",
+      "B": "Opposite: weak current penalties make a strict ban look more promising, not less.",
+      "C": "Correct. The plan assumes collecting is the cause of the decline. If half the orchid's only habitat was drained over the same decade, habitat loss is a competing cause that a collecting ban would not touch, so the ban would not halt the decline.",
+      "D": "Wrong force: difficulty of access might reduce collecting somewhat, but it does not show that collecting is not the cause or that the ban would fail.",
+      "E": "Out of scope: cultivated collections do not affect whether the wild population will keep declining."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "opposite",
+      "D": "wrong_force",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "A remedy aimed at one cause fails if a different cause is doing the damage.",
+    "predictionHint": "The plan targets collecting, but habitat loss may be the real cause."
+  },
+  {
+    "id": "lr-weaken-bike-lanes-cyclist-safety",
+    "section": "LR",
+    "type": "weaken",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 3,
+    "stimulus": "Urban planner: Among the forty largest cities in the country, those with the most extensive networks of protected bicycle lanes have the fewest cyclist fatalities per kilometer cycled. Protected lanes thus make cycling safer, and cities that want to reduce cyclist fatalities should build more of them.",
+    "stem": "Which one of the following, if true, most seriously weakens the argument?",
+    "choices": {
+      "A": "Cities that have the most extensive networks of protected bicycle lanes also have many more cyclists on their streets than other large cities do.",
+      "B": "Building protected bicycle lanes typically requires removing on-street parking, which business owners often oppose.",
+      "C": "Cyclist fatalities in the forty largest cities have declined overall during the past decade.",
+      "D": "In most cities, the majority of cyclist fatalities occur at intersections, where protected lanes end.",
+      "E": "The cities with the most extensive networks of protected lanes have for decades enforced citywide speed limits far lower than those elsewhere."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Shell game: the planner's measure is fatalities 'per kilometer cycled,' which already adjusts for the number of cyclists; more riders do not explain a lower per-kilometer rate.",
+      "B": "Out of scope: political obstacles to building lanes do not bear on whether lanes make cycling safer.",
+      "C": "True but irrelevant: a general decline across all cities does not explain the difference between cities with and without lanes.",
+      "D": "Wrong force: this suggests lanes have a limit, but it does not explain away the correlation; lane-rich cities still have the fewest deaths.",
+      "E": "Correct. Long-standing low speed limits are an alternative explanation for both the low fatality rate and, plausibly, the city's investment in cycling. The lanes may be a marker of a safety-minded city rather than the cause of its safety."
+    },
+    "trapPatterns": {
+      "A": "shell_game",
+      "B": "out_of_scope",
+      "C": "true_but_irrelevant",
+      "D": "wrong_force"
+    },
+    "keyTakeaway": "Check what the rate is normalized by before accepting an answer that attacks the denominator.",
+    "predictionHint": "Third factor: safety-minded cities both build lanes and have slower traffic."
+  },
+  {
+    "id": "lr-weaken-four-day-week-district",
+    "section": "LR",
+    "type": "weaken",
+    "logicTags": [
+      "analogy",
+      "causation"
+    ],
+    "difficulty": 3,
+    "stimulus": "School board member: Three years ago, the rural Pinecrest district moved to a four-day school week with longer school days, and its students' scores on the state assessment have risen steadily since. Our district faces the same budget pressures that prompted Pinecrest's change. Adopting a four-day week with longer days here would therefore raise our students' assessment scores as well.",
+    "stem": "Which one of the following, if true, most seriously weakens the argument?",
+    "choices": {
+      "A": "Pinecrest's students spent most of the fifth weekday in free tutoring funded by a grant unavailable to other districts.",
+      "B": "Assessment scores in most of the state's rural districts have remained flat over the past three years.",
+      "C": "Many parents in the board member's district have expressed concern about the difficulty of arranging child care on the fifth weekday.",
+      "D": "The board member's district has considerably more students than Pinecrest does.",
+      "E": "Pinecrest's assessment scores before the change were among the lowest in the state."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. If Pinecrest's gains came from grant-funded tutoring on the fifth day, then the four-day schedule itself was not the cause, and a district without that grant cannot expect the same result. Both the causal claim and the analogy fail.",
+      "B": "Opposite: flat scores elsewhere make Pinecrest's rise look more like a result of its change, strengthening the argument.",
+      "C": "Out of scope: parental concern about child care does not bear on whether scores would rise.",
+      "D": "Wrong force: a size difference is a difference, but nothing shows it is relevant to the effect of a four-day week.",
+      "E": "Half right: low starting scores hint at room to improve, but a 'steady' three-year rise is not easily dismissed as a statistical bounce, and this does not identify any other cause."
+    },
+    "trapPatterns": {
+      "B": "opposite",
+      "C": "out_of_scope",
+      "D": "wrong_force",
+      "E": "half_right"
+    },
+    "keyTakeaway": "When a policy succeeded elsewhere, ask what else came with the policy that will not come with it here.",
+    "predictionHint": "Relevant difference: Pinecrest had something else that made the difference."
+  },
+  {
+    "id": "lr-weaken-license-buyback-overfishing",
+    "section": "LR",
+    "type": "weaken",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 3,
+    "stimulus": "Fisheries minister: The cod stocks off our northern coast have been depleted by overfishing. To reduce the catch, the ministry will purchase and permanently retire one-third of the commercial fishing licenses currently held by the fleet. With a third fewer vessels fishing the northern grounds, the total annual catch of cod will fall substantially, allowing the stocks to recover.",
+    "stem": "Which one of the following, if true, most seriously weakens the argument?",
+    "choices": {
+      "A": "Cod stocks in other regions have recovered within a decade when fishing was curtailed.",
+      "B": "The purchase of the licenses will cost the ministry more than it has budgeted.",
+      "C": "Some of the vessel owners whose licenses are retired under the program will seek employment in industries unrelated to fishing.",
+      "D": "The owners most likely to accept the offer are those whose vessels are the oldest and least productive in the fleet.",
+      "E": "The total annual catch of cod has already fallen in recent years as the stocks have declined."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Opposite: recovery elsewhere after curtailment supports the minister's expectation.",
+      "B": "Out of scope: cost does not bear on whether the catch will fall.",
+      "C": "True but irrelevant: what retired owners do next has no effect on the catch of the remaining fleet.",
+      "D": "Correct. The plan equates a third fewer vessels with a substantially smaller catch. If the vessels retired are the least productive, removing a third of the licenses removes far less than a third of the catch, and the remaining fleet may continue to overfish.",
+      "E": "Wrong force: a catch that is already falling because stocks are depleted does not show that the buyback will fail to reduce it further."
+    },
+    "trapPatterns": {
+      "A": "opposite",
+      "B": "out_of_scope",
+      "C": "true_but_irrelevant",
+      "E": "wrong_force"
+    },
+    "keyTakeaway": "A plan that counts units (vessels, licenses) is weakened by showing the units are not equal in what matters (catch).",
+    "predictionHint": "Fewer boats is not fewer fish if the boats that leave caught little."
+  },
+  {
+    "id": "lr-weaken-consumer-complaints-online-retailers",
+    "section": "LR",
+    "type": "weaken",
+    "logicTags": [
+      "sampling",
+      "math_percent"
+    ],
+    "difficulty": 3,
+    "stimulus": "Consumer advocate: Of the complaints about retailers filed with the provincial consumer protection office last year, 70 percent concerned online retailers, even though online retailers account for only about 20 percent of retail sales in the province. Online retailers are therefore far more likely than conventional retailers to treat their customers unfairly.",
+    "stem": "Which one of the following, if true, most seriously weakens the argument?",
+    "choices": {
+      "A": "Online retailers in the province have grown rapidly over the past several years.",
+      "B": "Many of the complaints that were filed about online retailers concerned delays in shipping rather than the quality of the goods purchased.",
+      "C": "Complaints can be filed with the office only through its website, which online shoppers encounter far more often than other shoppers do.",
+      "D": "Conventional retailers in the province are required to post the office's contact information in their stores.",
+      "E": "The office received fewer complaints of all kinds last year than it did the year before."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Out of scope: growth does not explain why online retailers' share of complaints exceeds their share of sales.",
+      "B": "Shell game: shipping delays are still a way of treating customers unfairly, so the subject of the complaints does not blunt the conclusion.",
+      "C": "Correct. If complaints can be filed only online, shoppers who already buy online are far more likely to file them. The 70 percent figure reflects who finds the complaint channel, not who was treated unfairly, so the inference collapses.",
+      "D": "Opposite: making the office easier for conventional shoppers to reach would, if anything, inflate complaints against conventional retailers, making the online share more striking.",
+      "E": "True but irrelevant: the total number of complaints does not affect the comparison between the two kinds of retailer."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "shell_game",
+      "D": "opposite",
+      "E": "true_but_irrelevant"
+    },
+    "keyTakeaway": "A count of reports measures who reports as much as what happened; check the reporting channel.",
+    "predictionHint": "Reporting bias: the complaint channel favors online shoppers."
+  },
+  {
+    "id": "lr-weaken-statue-temple-foundation",
+    "section": "LR",
+    "type": "weaken",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 3,
+    "stimulus": "Archaeologist: The stone statue unearthed at Velmora must have been carved before the adjacent temple was built. The temple's foundation stones were laid directly around the base of the statue in a way that would have been impossible had the statue not already been standing when the foundation was constructed. Since the temple was built in the fourth century, the statue dates from the fourth century or earlier.",
+    "stem": "Which one of the following, if true, most calls into question the archaeologist's conclusion?",
+    "choices": {
+      "A": "The statue is carved from a type of stone that was quarried near Velmora throughout antiquity.",
+      "B": "The temple's foundation was completely rebuilt in the seventh century after an earthquake destroyed the original structure.",
+      "C": "Statues of the same style as the Velmora statue have been found at several sites dating from the third century.",
+      "D": "Inscriptions on the temple's walls were added in the sixth century.",
+      "E": "The statue's base shows signs of having been recut at some point after the statue was carved."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "True but irrelevant: a stone available 'throughout antiquity' is consistent with any date.",
+      "B": "Correct. The evidence shows only that the statue predates the foundation stones now in place. If that foundation was rebuilt in the seventh century, the statue need only predate the seventh century, and the fourth-century date no longer follows.",
+      "C": "Opposite: third-century parallels support an early date for the statue.",
+      "D": "Half right: later work on the temple sounds relevant, but inscriptions on the 'walls' say nothing about when the 'foundation' around the statue was laid.",
+      "E": "Shell game: recutting the base after carving does not tell us when the statue was placed relative to the foundation, so it leaves the archaeologist's inference intact."
+    },
+    "trapPatterns": {
+      "A": "true_but_irrelevant",
+      "C": "opposite",
+      "D": "half_right",
+      "E": "shell_game"
+    },
+    "keyTakeaway": "Physical evidence dates the thing it touches; make sure that thing is the one the conclusion is about.",
+    "predictionHint": "The foundation around the statue may not be the original foundation."
+  },
+  {
+    "id": "lr-weaken-training-turnover-reverse",
+    "section": "LR",
+    "type": "weaken",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 3,
+    "stimulus": "Business journalist: Firms that spend heavily on training their employees have markedly lower rates of employee turnover than firms that spend little on training. Training evidently makes employees more loyal, presumably because it signals that the firm values them. Firms struggling with high turnover should therefore increase their spending on training.",
+    "stem": "Which one of the following, if true, most seriously weakens the argument?",
+    "choices": {
+      "A": "Employees who have received extensive training frequently leave their firms for better-paying positions at competing firms that offer less training.",
+      "B": "Firms that spend heavily on training also tend to have more formal procedures for evaluating employee performance.",
+      "C": "Training programs vary widely in quality from one firm to another.",
+      "D": "Firms generally invest heavily in training only when they expect their employees to remain long enough for the investment to pay off.",
+      "E": "Some firms with high turnover have recently increased their spending on training."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Half right: this seems to cut against training, but 'frequently' leaving is compatible with the premise that such firms still have lower turnover overall, so it neither explains the correlation nor overturns it.",
+      "B": "Out of scope: evaluation procedures are not linked to turnover by anything in the choice.",
+      "C": "True but irrelevant: variation in quality does not explain why heavy spenders have lower turnover.",
+      "D": "Correct. If firms train heavily because they already expect low turnover, then low turnover leads to training rather than the reverse, and a high-turnover firm that spends more on training has no reason to expect its turnover to fall.",
+      "E": "Wrong force: without any information about what happened to those firms' turnover, this neither supports nor undermines the recommendation."
+    },
+    "trapPatterns": {
+      "A": "half_right",
+      "B": "out_of_scope",
+      "C": "true_but_irrelevant",
+      "E": "wrong_force"
+    },
+    "keyTakeaway": "Firms choose their investments; ask whether the outcome drove the choice rather than the choice driving the outcome.",
+    "predictionHint": "Reverse causation: expected retention drives training spending."
+  },
+  {
+    "id": "lr-weaken-surgical-volume-outcomes",
+    "section": "LR",
+    "type": "weaken",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 4,
+    "stimulus": "Medical administrator: Hospitals that perform a given complex operation frequently have markedly lower complication rates for that operation than hospitals that perform it rarely. The explanation is clear: surgeons who perform an operation often become more skilled at it. A low-volume hospital that wants to reduce its complication rate for such an operation should therefore perform the operation more frequently.",
+    "stem": "Which one of the following, if true, most seriously weakens the argument?",
+    "choices": {
+      "A": "High-volume hospitals typically own more advanced surgical equipment, which they purchased with the revenue generated by performing the operation so frequently.",
+      "B": "Referring physicians send patients to hospitals with the best outcomes, so hospitals typically become high-volume only after achieving low complication rates.",
+      "C": "Complication rates for complex operations vary considerably from one surgeon to another within the same hospital.",
+      "D": "Some low-volume hospitals have complication rates as low as those of the best high-volume hospitals.",
+      "E": "Patients at high-volume hospitals tend to be sicker on average than patients at low-volume hospitals."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Shell game: this looks like an alternative cause, but the equipment was 'purchased with the revenue generated by performing the operation so frequently,' so volume still produces the lower complication rate, just through a different mechanism. The recommendation survives.",
+      "B": "Correct. If low complication rates come first and attract volume, the correlation reflects outcomes causing volume rather than volume causing outcomes. A low-volume hospital that simply performs more operations has no reason to expect its complication rate to fall.",
+      "C": "True but irrelevant: variation among surgeons within a hospital does not bear on the hospital-level relationship between volume and outcomes.",
+      "D": "Wrong force: 'some' exceptions are compatible with the 'markedly lower' average rates the premise reports.",
+      "E": "Opposite: if high-volume hospitals achieve lower complication rates despite sicker patients, the case for a volume effect is stronger, not weaker."
+    },
+    "trapPatterns": {
+      "A": "shell_game",
+      "C": "true_but_irrelevant",
+      "D": "wrong_force",
+      "E": "opposite"
+    },
+    "keyTakeaway": "An alternative mechanism that still runs from the same cause does not weaken; a reversed arrow does.",
+    "predictionHint": "Reverse causation: good outcomes attract volume."
+  },
+  {
+    "id": "lr-weaken-electric-buses-operations-emissions",
+    "section": "LR",
+    "type": "weaken",
+    "logicTags": [
+      "causation",
+      "definition_scope"
+    ],
+    "difficulty": 4,
+    "stimulus": "Transit director: Replacing our diesel buses with battery-electric buses will reduce the greenhouse gas emissions produced by the agency's operations. Electric buses emit no exhaust at all, and the diesel buses they replace currently account for over 90 percent of the emissions our operations produce. Even allowing for the electricity the new buses will consume, the switch will therefore cut our operational emissions substantially.",
+    "stem": "Which one of the following, if true, most seriously weakens the argument?",
+    "choices": {
+      "A": "Manufacturing the batteries for electric buses produces more greenhouse gas emissions than manufacturing an entire diesel bus does.",
+      "B": "Electric buses have a shorter range than diesel buses and must be recharged during the day.",
+      "C": "The agency's diesel buses are newer and more fuel-efficient than those of most other transit agencies.",
+      "D": "The agency plans to expand its total bus service by about 15 percent during the same period in which the electric buses are being introduced.",
+      "E": "The regional grid is coal-fired, and generating the electricity an electric bus uses per kilometer emits more greenhouse gas than a diesel bus's exhaust does."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Shell game: manufacturing emissions are not emissions 'produced by the agency's operations,' which is the only quantity the conclusion is about.",
+      "B": "Out of scope: range and recharging schedules affect logistics, not the emissions comparison.",
+      "C": "True but irrelevant: the diesel buses' efficiency relative to other agencies' does not change the fact that they produce 90 percent of this agency's emissions or how the switch compares.",
+      "D": "Half right: expanded service could raise total emissions, but the conclusion is about what 'the switch' does; a larger fleet would emit even more had it stayed diesel.",
+      "E": "Correct. The director has 'allowed for' the electricity but assumed it costs less in emissions than diesel exhaust. If generating each bus's electricity emits more than the diesel bus did, the switch raises operational emissions rather than cutting them."
+    },
+    "trapPatterns": {
+      "A": "shell_game",
+      "B": "out_of_scope",
+      "C": "true_but_irrelevant",
+      "D": "half_right"
+    },
+    "keyTakeaway": "Pin down the exact scope of the conclusion ('operational emissions') and reject answers that attack a broader quantity.",
+    "predictionHint": "The electricity itself may carry more emissions than the diesel it replaces."
+  },
+  {
+    "id": "lr-weaken-central-bank-reform-inflation",
+    "section": "LR",
+    "type": "weaken",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 4,
+    "stimulus": "Economist: In the eighteen countries that granted their central banks formal independence from elected officials during the past three decades, average inflation in the ten years following the reform was less than half what it had been in the ten years preceding it. Granting a central bank independence is thus an effective means of reducing inflation, and countries now struggling with high inflation should adopt the reform.",
+    "stem": "Which one of the following, if true, most seriously weakens the argument?",
+    "choices": {
+      "A": "In most of the eighteen countries, inflation had already been falling sharply for several years when the reform was enacted.",
+      "B": "Some countries whose central banks have been formally independent for many decades have nonetheless experienced extended periods of high inflation.",
+      "C": "Central bank independence is more easily established in countries with stable political institutions.",
+      "D": "In two of the eighteen countries, the reform was accompanied by large reductions in government spending.",
+      "E": "Average inflation worldwide has fluctuated considerably over the past three decades."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. If inflation was already falling sharply before the reform in most of the countries, the lower post-reform average is the continuation of a trend that predates the supposed cause. The before-and-after comparison then provides no evidence that the reform did anything.",
+      "B": "Wrong force: 'some' countries having high-inflation 'periods' despite independence is compatible with the reform tending to reduce inflation.",
+      "C": "Half right: this hints at a confounding factor, but it never connects political stability to inflation, so it does not explain the observed drop.",
+      "D": "Wrong force: an alternative cause in 'two of the eighteen' countries leaves the pattern in the other sixteen unexplained.",
+      "E": "True but irrelevant: general fluctuation, with no direction or timing, does not account for a consistent fall after the reform."
+    },
+    "trapPatterns": {
+      "B": "wrong_force",
+      "C": "half_right",
+      "D": "wrong_force",
+      "E": "true_but_irrelevant"
+    },
+    "keyTakeaway": "A before-and-after comparison is only evidence of causation if the trend was not already under way before the change.",
+    "predictionHint": "The decline predated the reform."
+  }
+]
