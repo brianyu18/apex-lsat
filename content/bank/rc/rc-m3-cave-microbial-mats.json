@@ -1,0 +1,176 @@
+{
+  "id": "rc-m3-cave-microbial-mats",
+  "style": "phenomenon_hypothesis",
+  "topic": "natural_science",
+  "comparative": false,
+  "title": "What Feeds the Mats of Scarrow Cave",
+  "paragraphs": [
+    "The deeper galleries of the Scarrow cave system lie beneath several hundred meters of limestone, receive no light, and are sealed from the surface by sumps that have been flooded for at least ten thousand years. By the conventional reckoning of cave ecology they should be nearly sterile, supporting at most a sparse community that subsists on whatever organic carbon trickles down with percolating water. Instead their walls are coated with microbial mats of a density and taxonomic diversity more typical of nutrient-rich surface sediments. The discrepancy is not unique to Scarrow—comparable mats have since been reported from isolated systems on three continents—but Scarrow is the best studied, and it has become the test case for competing accounts of what sustains such communities.",
+    "The first account requires no new biology: the mats live on dissolved organic carbon carried from the surface, and the galleries are simply less isolated than their hydrology suggests. The second holds that the mats are chemolithoautotrophic—that they derive energy not from organic carbon at all but from the oxidation of reduced inorganic compounds, principally sulfides, that are present in the bedrock and in seeping groundwater. A third proposes that methane migrating upward from deeper strata supplies the base of the food web. Each predicts a different signature in the carbon of the mats themselves.",
+    "The isotopic work of Amadou Dellacroix and colleagues has largely settled the first question. Carbon fixed by surface plants carries a characteristic ratio of its stable isotopes, and organic carbon that descends from the surface retains it; the Scarrow mats do not. Their carbon is depleted in the heavier isotope to a degree that surface input cannot produce but that is consistent with fixation from inorganic carbon within the cave. Genetic surveys of the mats, moreover, find the enzymatic machinery for sulfide oxidation in abundance. What they do not find is enough of it. Dellacroix's own estimates of the sulfide flux available in the galleries yield an energy budget sufficient for perhaps a fifth of the observed biomass, and the methane signature that the third hypothesis predicts is absent.",
+    "The shortfall has prompted a search for additional inorganic energy sources, and the most promising candidate is manganese. The Scarrow limestone is unusually rich in reduced manganese, and laboratory cultures drawn from the mats have been shown to grow on manganese oxidation alone, a metabolism that until recently was thought not to exist. Whether manganese closes the budget in the cave itself has not been demonstrated, and it may be that several minor sources together make up the balance. But the general shape of the answer is now reasonably clear: the mats are not relics of the surface, and the question is no longer whether they feed on the rock but on which part of it."
+  ],
+  "roleMap": {
+    "paragraphs": ["context", "counterpoint", "support", "main_point"],
+    "viewpoints": [
+      { "who": "Surface-input hypothesis", "position": "The mats live on dissolved organic carbon from the surface", "authorAgrees": false },
+      { "who": "Chemolithoautotrophy hypothesis", "position": "The mats oxidize reduced inorganic compounds, principally sulfides", "authorAgrees": true },
+      { "who": "Methane hypothesis", "position": "Deep methane supplies the base of the food web", "authorAgrees": false },
+      { "who": "Dellacroix and colleagues", "position": "Isotopes rule out surface carbon; sulfide alone covers about a fifth of the biomass", "authorAgrees": true }
+    ],
+    "tone": "measured, provisionally confident"
+  },
+  "lowResSummary": "Author rejects surface carbon and methane as food for isolated cave mats, favoring rock-derived energy with manganese likely supplementing sulfide.",
+  "questions": [
+    {
+      "id": "rc-m3-cave-microbial-mats-q1",
+      "type": "main_point",
+      "logicTags": ["causation"],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately expresses the main point of the passage?",
+      "choices": {
+        "A": "Evidence indicates that the Scarrow mats derive their energy from inorganic compounds in the rock rather than from surface carbon, although which compounds supply the full budget remains unsettled.",
+        "B": "The discovery that microbes can grow on manganese oxidation alone has resolved the question of what sustains microbial mats in isolated caves.",
+        "C": "Isotopic analysis has shown that the galleries of the Scarrow cave system are more isolated from the surface than their hydrology suggested.",
+        "D": "Sulfide oxidation cannot be what sustains the Scarrow mats, because the sulfide flux available in the galleries supports only about a fifth of the observed biomass.",
+        "E": "Microbial communities in isolated caves are more diverse than those in nutrient-rich surface sediments."
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. Paragraph 4: 'the mats are not relics of the surface, and the question is no longer whether they feed on the rock but on which part of it,' with manganese 'not demonstrated' in situ.",
+        "B": "Extreme. 'Whether manganese closes the budget in the cave itself has not been demonstrated.'",
+        "C": "Shell game. The isotopes show the carbon is not surface-derived; the passage never revises the hydrological picture of isolation.",
+        "D": "Wrong part. Sulfide is insufficient alone, but the author still treats it as part of the answer; this is a finding, not the thesis.",
+        "E": "Comparison shift. The mats are 'more typical of' surface sediments in diversity, not more diverse than them."
+      },
+      "trapPatterns": { "B": "extreme", "C": "shell_game", "D": "wrong_part", "E": "comparison_shift" },
+      "keyTakeaway": "The main point of a hypothesis passage includes the author's residual uncertainty when the author states it explicitly.",
+      "evidence": [2, 3]
+    },
+    {
+      "id": "rc-m3-cave-microbial-mats-q2",
+      "type": "stated",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "According to the passage, the carbon in the Scarrow mats",
+      "choices": {
+        "A": "carries the isotopic ratio characteristic of carbon fixed by surface plants.",
+        "B": "is derived primarily from methane migrating upward from deeper strata.",
+        "C": "is depleted in the heavier stable isotope to a degree inconsistent with surface input.",
+        "D": "is enriched in the heavier isotope relative to dissolved organic carbon in percolating water.",
+        "E": "cannot be distinguished isotopically from carbon in the surrounding limestone."
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "Opposite. 'The Scarrow mats do not' carry that ratio.",
+        "B": "Opposite. 'The methane signature that the third hypothesis predicts is absent.'",
+        "C": "Correct. Paragraph 3: 'depleted in the heavier isotope to a degree that surface input cannot produce.'",
+        "D": "Reversal. The mats are depleted, not enriched, in the heavier isotope.",
+        "E": "Out of scope. No comparison with the limestone's own carbon is made."
+      },
+      "trapPatterns": { "A": "opposite", "B": "opposite", "D": "reversal", "E": "out_of_scope" },
+      "keyTakeaway": "Direction words ('depleted' versus 'enriched') are the easiest detail to flip in a distractor.",
+      "evidence": [2]
+    },
+    {
+      "id": "rc-m3-cave-microbial-mats-q3",
+      "type": "purpose_in_context",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The author mentions that the methane signature predicted by the third hypothesis is absent primarily in order to",
+      "choices": {
+        "A": "show that the shortfall in the energy budget cannot be made up by any inorganic source other than sulfide.",
+        "B": "explain why Dellacroix turned to manganese as a candidate energy source.",
+        "C": "suggest that the deeper strata beneath Scarrow contain no methane.",
+        "D": "eliminate one of the three competing accounts, leaving the shortfall in the second to be explained.",
+        "E": "demonstrate that genetic surveys are more reliable than isotopic measurements."
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "Extreme. Paragraph 4 immediately proposes manganese as another inorganic source.",
+        "B": "Wrong part. The search for manganese is prompted by 'the shortfall,' not by methane's absence.",
+        "C": "Extreme. Absence of a methane signature in the mats does not establish absence of methane at depth.",
+        "D": "Correct. Having ruled out surface input and found sulfide insufficient, the author disposes of methane so that only a supplement to the inorganic account remains to be found.",
+        "E": "Out of scope. No comparison of methods' reliability is made."
+      },
+      "trapPatterns": { "A": "extreme", "B": "wrong_part", "C": "extreme", "E": "out_of_scope" },
+      "keyTakeaway": "In an elimination structure, a clause that disposes of a hypothesis serves to narrow the field, not to explain the next step.",
+      "evidence": [2, 3]
+    },
+    {
+      "id": "rc-m3-cave-microbial-mats-q4",
+      "type": "author_perspective",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "The passage most strongly suggests that the author would agree with which one of the following?",
+      "choices": {
+        "A": "The microbial mats reported from isolated caves on other continents have been shown to rely on the same energy sources as the Scarrow mats.",
+        "B": "A metabolism demonstrated in laboratory culture need not account for the biomass observed in the environment from which the culture was drawn.",
+        "C": "The conventional reckoning of cave ecology has been shown to be incorrect for all deep limestone systems.",
+        "D": "Genetic surveys of the mats would have been sufficient to rule out the surface-input hypothesis even without isotopic data.",
+        "E": "The observed density of the mats is better explained by surface input than by any single inorganic source."
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "Out of scope. Other systems are mentioned only as reporting comparable mats; nothing is said about their energy sources.",
+        "B": "Correct. Cultures 'grow on manganese oxidation alone,' yet 'whether manganese closes the budget in the cave itself has not been demonstrated.'",
+        "C": "Extreme. The author discusses Scarrow and comparable systems, not 'all' deep limestone systems.",
+        "D": "Out of scope. The author credits the isotopic work with settling the first question and makes no counterfactual about genetics alone.",
+        "E": "Opposite. Surface input is ruled out by the isotopic evidence."
+      },
+      "trapPatterns": { "A": "out_of_scope", "C": "extreme", "D": "out_of_scope", "E": "opposite" },
+      "keyTakeaway": "The author's hedge about laboratory versus in-cave results expresses a general principle about extrapolating from culture to field.",
+      "evidence": [3]
+    },
+    {
+      "id": "rc-m3-cave-microbial-mats-q5",
+      "type": "weaken_strengthen_evaluate",
+      "logicTags": ["causation"],
+      "difficulty": 3,
+      "stem": "Which one of the following, if true, would most undermine the author's suggestion that manganese oxidation makes up the energy shortfall?",
+      "choices": {
+        "A": "Microbes capable of manganese oxidation have been found in nutrient-rich surface sediments as well as in isolated cave systems.",
+        "B": "The laboratory cultures grown on manganese oxidation grew more slowly than cultures grown on sulfide.",
+        "C": "The reduced manganese in the Scarrow limestone is also found in the surrounding regional bedrock.",
+        "D": "Genetic surveys of the mats have not yet searched for the enzymes involved in manganese oxidation.",
+        "E": "Mats of comparable density occur in galleries of the Scarrow system whose limestone contains almost no reduced manganese."
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "True but irrelevant. Where else the metabolism occurs says nothing about whether it feeds the Scarrow mats.",
+        "B": "Wrong force. Slower growth in culture does not show that manganese fails to supply the missing energy in the cave.",
+        "C": "Out of scope. Regional distribution of manganese does not bear on its role in the galleries.",
+        "D": "Wrong force. Absence of a search is lack of evidence, not evidence against the suggestion.",
+        "E": "Correct. If equally dense mats thrive where manganese is nearly absent, manganese cannot be what makes up the shortfall, and some other source must."
+      },
+      "trapPatterns": { "A": "true_but_irrelevant", "B": "wrong_force", "C": "out_of_scope", "D": "wrong_force" },
+      "keyTakeaway": "The strongest undermining evidence dissociates the proposed cause from the effect within the same system.",
+      "evidence": [3]
+    },
+    {
+      "id": "rc-m3-cave-microbial-mats-q6",
+      "type": "meaning_in_context",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "Which one of the following most accurately expresses the meaning of 'closes the budget' as it is used in the passage?",
+      "choices": {
+        "A": "eliminates the need for further research funding",
+        "B": "prevents organic carbon from entering the galleries",
+        "C": "supplies the energy that the other identified sources leave unaccounted for",
+        "D": "limits the growth of the mats to the level the sulfide flux can sustain",
+        "E": "reconciles the isotopic data with the genetic surveys"
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "Shell game. 'Budget' here is the energy budget of paragraph 3, not a financial one.",
+        "B": "Out of scope. Nothing about blocking carbon is at issue.",
+        "C": "Correct. The 'energy budget' covers 'perhaps a fifth of the observed biomass'; closing it means covering the rest.",
+        "D": "Opposite. Closing the budget means exceeding, not being confined to, what sulfide sustains.",
+        "E": "Shell game. The isotopic and genetic results are not in tension; the shortfall is quantitative."
+      },
+      "trapPatterns": { "A": "shell_game", "B": "out_of_scope", "D": "opposite", "E": "shell_game" },
+      "keyTakeaway": "Trace a metaphor back to the literal term it echoes—here 'energy budget' in the previous paragraph.",
+      "evidence": [2, 3]
+    }
+  ]
+}

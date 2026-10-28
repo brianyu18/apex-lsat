@@ -1,0 +1,202 @@
+{
+  "id": "rc-m3-bilingual-outcomes",
+  "style": "problem_analysis",
+  "topic": "social_science",
+  "comparative": true,
+  "title": "Why Bilingual Programs Diverge: Two Angles",
+  "paragraphs": [
+    "Evaluations of bilingual education programs for language-minority children have long yielded results that seem to contradict one another: a program design that produces strong outcomes in one district produces weak ones in the next, and advocates on every side can cite a study that favors them. Much of the public debate has fixed on a single variable—whether children are first taught in their home language or in the majority language—and the contradictory findings have been read as evidence that the variable does not matter. The reading is premature. The studies disagree largely because they compare programs that share a label but differ in the dimension that actually drives outcomes: the duration of support in the home language.",
+    "When programs are sorted by that dimension, as Folasade Oyelaran has done for several dozen evaluations, the contradictions largely dissolve. 'Transitional' programs, which withdraw home-language instruction after two or three years, produce early gains in the majority language that fade by the upper grades; 'maintenance' programs, which continue home-language instruction through at least the sixth year, produce slower initial gains and stronger ones later, in both languages. The question that has dominated the policy debate—the language of initial instruction—is poorly specified; what should be asked is how long the first language is sustained."
+  ],
+  "paragraphsB": [
+    "The outcomes of bilingual programs vary not only with their design but with the standing of the minority language in the community that surrounds the school. Where that language is spoken by a numerous and economically established population, carries prestige in local commerce, and is encountered by children outside the classroom in print and broadcast, a program of almost any design tends to produce balanced bilingual competence. Where the language is confined to the home, associated with poverty, and absent from public life, the same program—same curriculum, same duration, often the same teachers—tends to produce children who shift rapidly to the majority language and retain the minority language only passively.",
+    "This should not surprise. Schooling is a few hours a day; the remaining hours are spent in a linguistic environment the school does not control, and children are acute readers of which language is worth their effort. Program evaluations that compare designs across communities without recording the status of the minority language in each are therefore measuring an unknown mixture of effects, and the inconsistency of their results is exactly what one should expect. The practical lesson is not that design is irrelevant but that it is secondary: a district that wishes to produce bilinguals will do more by raising the public visibility of the minority language than by adjusting the number of years it is taught."
+  ],
+  "roleMap": {
+    "paragraphs": ["context", "main_point"],
+    "viewpoints": [
+      { "who": "Author of passage A / Oyelaran", "position": "Duration of home-language support, not language of initial instruction, drives outcomes and explains inconsistent evaluations", "authorAgrees": null },
+      { "who": "Author of passage B", "position": "The minority language's community status drives outcomes; design is secondary and unrecorded status explains inconsistency", "authorAgrees": null },
+      { "who": "Public debate (as described in A)", "position": "The decisive variable is the language of initial instruction", "authorAgrees": false }
+    ],
+    "tone": "A corrective; B explanatory"
+  },
+  "lowResSummary": "Both passages explain inconsistent bilingual-program results: A by unmeasured duration of home-language support, B by the minority language's community status.",
+  "questions": [
+    {
+      "id": "rc-m3-bilingual-outcomes-q1",
+      "type": "main_point",
+      "logicTags": ["causation"],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately expresses the main point of passage A?",
+      "choices": {
+        "A": "Bilingual programs that teach children first in their home language produce better long-term outcomes than programs that do not.",
+        "B": "The contradictory results of bilingual program evaluations show that the design of such programs has little effect on children's eventual outcomes in either language.",
+        "C": "Maintenance programs are superior to transitional programs because they produce faster initial gains in the majority language.",
+        "D": "Evaluations of bilingual programs appear contradictory because they overlook the duration of home-language support, which is the variable that actually determines outcomes.",
+        "E": "The policy debate over bilingual education should be resolved by comparing programs across several dozen districts."
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "Shell game. Language of initial instruction is the variable A says is 'poorly specified'; A's variable is duration.",
+        "B": "Opposite. A calls that reading 'premature' and argues a design dimension does drive outcomes.",
+        "C": "Reversal. Maintenance programs 'produce slower initial gains and stronger ones later.'",
+        "D": "Correct. A: the studies 'differ in the dimension that actually drives outcomes: the duration of support in the home language,' and sorting by it makes 'the contradictions largely dissolve.'",
+        "E": "Out of scope. Oyelaran's reanalysis is evidence, not a procedural recommendation for resolving the debate."
+      },
+      "trapPatterns": { "A": "shell_game", "B": "opposite", "C": "reversal", "E": "out_of_scope" },
+      "keyTakeaway": "A's thesis is a diagnosis of why evaluations conflict; the answer must name both the confusion and the variable that resolves it.",
+      "evidence": [0, 1]
+    },
+    {
+      "id": "rc-m3-bilingual-outcomes-q2",
+      "type": "relationship",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately describes the relationship between the two passages?",
+      "choices": {
+        "A": "Both passages attribute the inconsistency of program evaluations to a variable the evaluations fail to record, but they identify different variables.",
+        "B": "Passage B rejects the explanation offered in passage A and proposes that program design is irrelevant to outcomes.",
+        "C": "Passage A describes a research finding whose practical implications passage B draws out.",
+        "D": "Passage B supplies the community-level evidence that passage A's statistical reanalysis of program evaluations was unable to provide.",
+        "E": "The passages agree that the duration of home-language instruction is the principal determinant of outcomes."
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. A blames programs that 'share a label but differ' in duration; B blames evaluations that compare designs 'without recording the status of the minority language.' Same diagnosis, different variable.",
+        "B": "Extreme. B says 'The practical lesson is not that design is irrelevant but that it is secondary.'",
+        "C": "Opposite. B's practical lesson points away from A's variable ('than by adjusting the number of years it is taught').",
+        "D": "Shell game. B does not supplement A's analysis; it offers a rival explanatory variable.",
+        "E": "Opposite. B ranks duration as secondary to community status."
+      },
+      "trapPatterns": { "B": "extreme", "C": "opposite", "D": "shell_game", "E": "opposite" },
+      "keyTakeaway": "Two-angle pairs share a problem and a diagnostic form; the relationship answer names the shared form and the divergent content.",
+      "evidence": [0, 1]
+    },
+    {
+      "id": "rc-m3-bilingual-outcomes-q3",
+      "type": "approach",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "Passage A and passage B differ in that only passage B",
+      "choices": {
+        "A": "acknowledges that evaluations of bilingual programs have produced inconsistent results.",
+        "B": "distinguishes between transitional and maintenance programs.",
+        "C": "considers the influence of children's experience outside school.",
+        "D": "recommends a change in how programs are evaluated.",
+        "E": "argues that bilingual programs should be abandoned where the minority language lacks prestige."
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "Half right. B acknowledges inconsistency, but A opens with it.",
+        "B": "Opposite. Only A draws that distinction.",
+        "C": "Correct. Only B discusses 'the remaining hours... spent in a linguistic environment the school does not control.'",
+        "D": "Half right. B implies evaluations should record language status, but A also says the question asked of programs is 'poorly specified' and should be reframed.",
+        "E": "Out of scope. B recommends raising the language's visibility, not abandoning programs."
+      },
+      "trapPatterns": { "A": "half_right", "B": "opposite", "D": "half_right", "E": "out_of_scope" },
+      "keyTakeaway": "Items both passages do in some form (acknowledge inconsistency, reframe evaluation) fail an 'only passage B' test.",
+      "evidence": [1]
+    },
+    {
+      "id": "rc-m3-bilingual-outcomes-q4",
+      "type": "stated",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "According to passage B, in communities where the minority language is confined to the home, bilingual programs tend to produce children who",
+      "choices": {
+        "A": "acquire the majority language more slowly than their peers.",
+        "B": "shift quickly to the majority language while retaining the minority language only passively.",
+        "C": "develop balanced competence in both languages.",
+        "D": "retain the minority language actively but fail to acquire literacy in it.",
+        "E": "remain in bilingual programs for more years than other children."
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "Opposite. Such children 'shift rapidly to the majority language.'",
+        "B": "Correct. B: the same program 'tends to produce children who shift rapidly to the majority language and retain the minority language only passively.'",
+        "C": "Opposite. Balanced competence is the outcome in high-status communities.",
+        "D": "Shell game. Retention is described as passive, not active, and literacy is not mentioned.",
+        "E": "Out of scope. Years of enrollment are not discussed."
+      },
+      "trapPatterns": { "A": "opposite", "C": "opposite", "D": "shell_game", "E": "out_of_scope" },
+      "keyTakeaway": "B's two community types are mirror images; stated questions test which outcome belongs to which.",
+      "evidence": [0]
+    },
+    {
+      "id": "rc-m3-bilingual-outcomes-q5",
+      "type": "author_perspective",
+      "logicTags": ["causation"],
+      "difficulty": 3,
+      "stem": "The author of passage B would be most likely to agree with which one of the following statements about the reanalysis described in passage A?",
+      "choices": {
+        "A": "It demonstrates that duration of home-language support is the principal determinant of bilingual outcomes.",
+        "B": "Its findings are invalid because the evaluations it sorts were conducted in different districts.",
+        "C": "It confirms that the language of initial instruction does not affect outcomes.",
+        "D": "It would have reached substantially different conclusions had it compared programs of differing duration within a single community rather than across many.",
+        "E": "Its sorting of programs by duration may capture differences in community language status that happened to coincide with program duration."
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "Opposite. B holds that design is 'secondary' to community status.",
+        "B": "Extreme. B says such comparisons measure 'an unknown mixture of effects,' not that they are invalid.",
+        "C": "Out of scope. B takes no position on the language of initial instruction.",
+        "D": "Out of scope. B does not predict what a within-community analysis would show, only that cross-community comparisons are confounded.",
+        "E": "Correct. B's claim that evaluations across communities 'without recording the status of the minority language' measure 'an unknown mixture of effects' applies directly to Oyelaran's cross-district sort."
+      },
+      "trapPatterns": { "A": "opposite", "B": "extreme", "C": "out_of_scope", "D": "out_of_scope" },
+      "keyTakeaway": "Apply B's general methodological criticism to A's specific evidence; the result is a confound worry, not a verdict.",
+      "evidence": [1]
+    },
+    {
+      "id": "rc-m3-bilingual-outcomes-q6",
+      "type": "purpose_in_context",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "The author of passage A mentions that advocates on every side can cite a study that favors them primarily in order to",
+      "choices": {
+        "A": "illustrate the inconsistency of the evaluation literature that the passage goes on to explain.",
+        "B": "criticize advocates for selectively reporting research findings.",
+        "C": "suggest that the policy debate cannot be resolved by empirical research.",
+        "D": "show that transitional and maintenance programs have each been supported by evidence.",
+        "E": "explain why the duration of home-language support has been neglected."
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. The sentence elaborates results that 'seem to contradict one another,' the problem A then diagnoses.",
+        "B": "Out of scope. No charge of selective reporting is made; the studies genuinely conflict.",
+        "C": "Opposite. A argues the conflict dissolves once the right variable is used.",
+        "D": "Half right. The distinction between program types arrives later and is A's solution, not what the opening sentence illustrates.",
+        "E": "Wrong part. The neglect of duration is attributed to the debate's fixation on initial language, not to advocates' citations."
+      },
+      "trapPatterns": { "B": "out_of_scope", "C": "opposite", "D": "half_right", "E": "wrong_part" },
+      "keyTakeaway": "Opening-sentence details usually dramatize the problem; their purpose is illustrative, not evaluative.",
+      "evidence": [0]
+    },
+    {
+      "id": "rc-m3-bilingual-outcomes-q7",
+      "type": "application",
+      "logicTags": ["causation"],
+      "difficulty": 4,
+      "stem": "Which one of the following findings would the authors of both passages most likely regard as consistent with their respective views?",
+      "choices": {
+        "A": "A transitional program in a community where the minority language carries high prestige produces children with balanced bilingual competence by the upper grades.",
+        "B": "Two maintenance programs in communities of differing language status produce identical outcomes.",
+        "C": "A maintenance program in a low-prestige community produces children who shift rapidly to the majority language.",
+        "D": "In a community where the minority language carries prestige, a maintenance program produces stronger long-term outcomes than a transitional program in the same community.",
+        "E": "Evaluations that carefully record community language status find no difference in outcomes between transitional and maintenance programs."
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "Half right. B would expect this; A would not, since transitional gains 'fade by the upper grades.'",
+        "B": "Wrong part. Consistent with A's variable alone; B predicts status differences should produce different outcomes.",
+        "C": "Opposite. B would expect this, but A predicts maintenance programs yield 'stronger' later outcomes.",
+        "D": "Correct. Status is held constant, so A's duration effect can appear; B says design is secondary, 'not... irrelevant,' so a within-community design difference is consistent with B as well.",
+        "E": "Extreme. A would reject 'no difference,' and B never claims design has no effect."
+      },
+      "trapPatterns": { "A": "half_right", "B": "wrong_part", "C": "opposite", "E": "extreme" },
+      "keyTakeaway": "A finding consistent with two angles must hold the second author's variable fixed while letting the first author's variable operate.",
+      "evidence": [1]
+    }
+  ]
+}

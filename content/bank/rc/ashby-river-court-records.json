@@ -56,7 +56,7 @@
         "A": "relies on judgments about which anomalies are significant that are difficult to verify.",
         "B": "treats the court records solely as evidence of colonial legal procedure.",
         "C": "has so far produced no genuine discoveries about highland social practice.",
-        "D": "assumes that the deponents deliberately falsified their testimony before the courts.",
+        "D": "assumes that the deponents deliberately falsified their testimony in order to mislead the colonial courts.",
         "E": "disregards the terms that the colonial clerks left untranslated in the records."
       },
       "answer": "A",
@@ -129,10 +129,10 @@
       "stem": "The author's preferred method, as described in the final paragraph, is most analogous to which one of the following?",
       "choices": {
         "A": "A translator consults a bilingual dictionary in order to render each term of an ancient text into a modern language.",
-        "B": "An astronomer measures the distortion a telescope's lens introduces by observing stars of known position, then corrects images of stars whose positions are unknown.",
+        "B": "An astronomer measures a lens's distortion using stars of known position, then corrects images of stars whose positions are unknown.",
         "C": "A detective disregards a witness's testimony entirely upon learning that the witness had a motive to lie.",
         "D": "An archaeologist infers the function of a tool from the wear patterns its surface exhibits.",
-        "E": "A court excludes a translated deposition because the translator was employed by one of the parties."
+        "E": "A court excludes a translated deposition from evidence upon learning that the translator who prepared it was employed by one of the parties to the dispute."
       },
       "answer": "B",
       "explanations": {
@@ -156,7 +156,7 @@
         "A": "appreciation for its results combined with the judgment that its restraint is itself costly.",
         "B": "unreserved approval of its methodological modesty in the face of unreliable sources.",
         "C": "contempt for its failure to engage with the highland communities directly.",
-        "D": "agreement that the court records cannot reveal anything about highland social practice.",
+        "D": "agreement that the court records cannot reveal anything reliable about highland social practice before 1900.",
         "E": "suspicion that its practitioners have misread the procedures of the colonial courts."
       },
       "answer": "A",

@@ -42,7 +42,7 @@
         "D": "The author grants the conventional account is 'formally accurate' and corresponds to the plea rolls; the complaint is that formal accuracy obscures practice.",
         "E": "Correct. Paragraph 2 states the thesis ('shaped the law as surely as any judge') and the mechanism; paragraph 4 defends it."
       },
-      "trapPatterns": { "A": "opposite", "B": "opposite", "C": "extreme", "D": "opposite" },
+      "trapPatterns": { "A": "opposite", "B": "opposite", "C": "extreme", "D": "shell_game" },
       "keyTakeaway": "A single-position passage announces its thesis with a first-person signal ('I want to suggest'); the main point lives there.",
       "evidence": [1, 3]
     },

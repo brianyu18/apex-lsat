@@ -28,7 +28,7 @@
       "difficulty": 2,
       "stem": "Which one of the following most accurately expresses the main point of the passage?",
       "choices": {
-        "A": "Commercial arbitration should be curtailed because it has starved the common law of the disputes that doctrine needs in order to develop.",
+        "A": "Commercial arbitration should be sharply curtailed because it has starved the common law of the steady flow of disputes that commercial doctrine needs in order to develop.",
         "B": "Mandatory publication of redacted awards would preserve confidentiality while restoring the flow of reported decisions to the courts.",
         "C": "Because parties who arbitrate value finality above confidentiality, expanded judicial review of awards would be widely accepted by them.",
         "D": "Of the proposed responses to arbitration's effect on commercial law, an optional mechanism for referring legal questions to courts is the most promising.",
@@ -42,7 +42,7 @@
         "D": "Correct. Paragraph 4 calls the third proposal 'more promising' and explains why it feeds the common law 'more usefully.'",
         "E": "Paragraph 1 says courts see 'a shrinking and unrepresentative fraction'; the author accepts the problem."
       },
-      "trapPatterns": { "A": "extreme", "B": "opposite", "C": "opposite", "E": "opposite" },
+      "trapPatterns": { "A": "extreme", "B": "opposite", "C": "shell_game", "E": "opposite" },
       "keyTakeaway": "Problem-analysis passages end with an assessment; the main point names the preferred remedy and its comparative standing.",
       "evidence": [3]
     },
@@ -53,7 +53,7 @@
       "difficulty": 1,
       "stem": "According to the passage, redaction of published awards would fail to protect confidentiality because",
       "choices": {
-        "A": "parties to arbitration are generally unwilling to consent to publication of any kind.",
+        "A": "the parties to commercial arbitration are generally unwilling to consent to publication of their awards in any form.",
         "B": "the reasoning of an award often allows those in the relevant trade to identify the parties.",
         "C": "courts reviewing the awards would in any case have access to the unredacted versions.",
         "D": "redaction removes the legal reasoning together with the parties' identities.",
@@ -81,7 +81,7 @@
         "A": "explain why commercial parties prefer confidential awards to published ones.",
         "B": "suggest that arbitration is less expensive than litigation only in exceptional cases.",
         "C": "point out that the second remedy would sacrifice the very advantages that make arbitration attractive.",
-        "D": "argue that reported decisions have a monetary value that courts have failed to recognize.",
+        "D": "argue that reported judicial decisions have a monetary value that courts and commentators have consistently failed to recognize.",
         "E": "concede that expanded review would generate a larger number of reported decisions."
       },
       "answer": "C",
@@ -106,7 +106,7 @@
         "A": "Arbitral tribunals would refer questions of law to courts in most cases if they were permitted to do so.",
         "B": "Courts that review arbitral awards generally restate the governing doctrine in full.",
         "C": "Commercial parties choose arbitration primarily in order to keep their disputes confidential.",
-        "D": "Mandatory publication is objectionable chiefly because it would discourage parties from arbitrating at all.",
+        "D": "Mandatory publication is objectionable chiefly because it would discourage commercial parties from choosing arbitration over litigation in the first place.",
         "E": "A small number of reasoned decisions on genuinely unsettled questions could benefit commercial law more than comprehensive publication of awards."
       },
       "answer": "E",
@@ -130,7 +130,7 @@
       "choices": {
         "A": "A hospital allows physicians to submit anonymized descriptions of unusual cases to a medical journal while keeping the patients' records private.",
         "B": "A company requires all employees to publish their annual performance reviews with their names removed.",
-        "C": "A university permits students to appeal their grades to an external examiner whose decision replaces the instructor's.",
+        "C": "A university permits students to appeal their grades to an external examiner whose decision replaces the instructor's and is recorded on the student's transcript.",
         "D": "A library restricts access to its rare manuscripts to scholars who agree not to publish their findings.",
         "E": "A newspaper publishes the outcomes of private negotiations once both parties have consented to disclosure."
       },

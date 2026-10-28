@@ -67,7 +67,7 @@
         "D": "The eighteenth century found his artisans 'beside the point'; no explicit rejection is described.",
         "E": "Ashgrove 'never withdrew the framework of Books One and Two.'"
       },
-      "trapPatterns": { "A": "opposite", "B": "opposite", "D": "shell_game", "E": "opposite" },
+      "trapPatterns": { "A": "opposite", "B": "reversal", "D": "shell_game", "E": "opposite" },
       "keyTakeaway": "Neglect and rejection are different claims; stated questions exploit the gap.",
       "evidence": [0]
     },
@@ -128,8 +128,8 @@
       "difficulty": 3,
       "stem": "The author's statement that the historians \"are wrong about which two\" most nearly means that",
       "choices": {
-        "A": "the historians have correctly identified Ashgrove as a transitional figure but have misdated the transition he represents.",
-        "B": "Ashgrove stood between the sensation-based philosophy of his time and a much later skill-based philosophy, not between his predecessors and his immediate successors.",
+        "A": "the historians have correctly identified Ashgrove as a transitional figure but have misdated, by roughly two generations, the particular transition he represents.",
+        "B": "Ashgrove stood between the philosophy of his time and a much later skill-based philosophy, not between his predecessors and his immediate successors.",
         "C": "Ashgrove's two settlements were Books One and Two on the one hand and Books Three and Four on the other.",
         "D": "the historians have misunderstood which of Ashgrove's two frameworks he ultimately endorsed.",
         "E": "Ashgrove's Treatise was in fact two separate works that were later bound together."

@@ -116,7 +116,7 @@
         "D": "Paragraph 4 says reproducing the 'now-meaningless legal terms' would 'illuminate nothing.'",
         "E": "The reviewer's praise is quoted as a symptom of the practice the author condemns."
       },
-      "trapPatterns": { "A": "opposite", "C": "extreme", "D": "opposite", "E": "opposite" },
+      "trapPatterns": { "A": "wrong_force", "C": "extreme", "D": "opposite", "E": "opposite" },
       "keyTakeaway": "The meaning/surface distinction in the last paragraph is the generalizable commitment.",
       "evidence": [1, 3]
     },

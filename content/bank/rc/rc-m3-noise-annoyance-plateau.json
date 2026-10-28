@@ -1,0 +1,175 @@
+{
+  "id": "rc-m3-noise-annoyance-plateau",
+  "style": "phenomenon_hypothesis",
+  "topic": "social_science",
+  "comparative": false,
+  "title": "The Annoyance Plateau in Urban Noise Surveys",
+  "paragraphs": [
+    "Surveys of residents' reactions to environmental noise have produced, with some regularity, a result that their designers did not expect. Reported annoyance rises with measured noise exposure across most of the range, as one would predict, but in the most heavily exposed districts—those bordering freight corridors, airports, and industrial zones—it levels off and in some studies declines, so that residents of the loudest neighborhoods report less disturbance than residents of neighborhoods that are merely loud. The pattern, sometimes called the annoyance plateau, has been replicated across cities with different housing stocks and regulatory regimes, and it cannot be dismissed as an artifact of any one survey instrument.",
+    "Three explanations have been offered. The first, and the most intuitive, is habituation: prolonged exposure dulls the perceptual and emotional response to noise, so that residents of the loudest districts genuinely are less disturbed. The second is self-selection: those most sensitive to noise move away when they can, leaving behind a population that was never much bothered, while moderately noisy districts retain a mixed population whose sensitive members drive up the average. The third, less flattering to the respondents, is adaptive reinterpretation: residents who cannot leave, and who know they cannot, come to describe their circumstances as tolerable because the alternative is to acknowledge a harm they are powerless to escape.",
+    "The Halvorsen cohort study, which followed households for six years after they moved into districts of varying exposure, bears on all three. Habituation predicts that newcomers' annoyance should decline over time; it did, but by an amount too small to produce a plateau, and it declined no faster in the loudest districts than elsewhere. Self-selection fares somewhat better: departures from the loudest districts were indeed concentrated among households that had reported high annoyance on arrival, and their removal lowers the district average. But the effect accounts for less than half of the plateau in the study's own estimate. The most striking finding concerned the households that remained. Among long-term residents of the loudest districts who reported low annoyance, measures of sleep disruption and stress hormones were elevated to the same degree as among residents who reported high annoyance, and both groups exceeded the levels found in moderately exposed districts.",
+    "That dissociation between what residents say and what their bodies register is difficult to reconcile with either habituation or self-selection, both of which assume that low reported annoyance reflects low actual disturbance. It is exactly what adaptive reinterpretation predicts. Some caution is warranted—the physiological measures are themselves imperfect, and the cohort was drawn from a single metropolitan region—but the balance of evidence suggests that the plateau is largely a feature of reporting rather than of experience. If so, the practice of calibrating noise regulation to surveyed annoyance systematically understates the burden borne by the most exposed, and does so most severely precisely where that burden is greatest."
+  ],
+  "roleMap": {
+    "paragraphs": ["context", "counterpoint", "support", "main_point"],
+    "viewpoints": [
+      { "who": "Habituation hypothesis", "position": "Prolonged exposure genuinely reduces disturbance", "authorAgrees": false },
+      { "who": "Self-selection hypothesis", "position": "Sensitive residents leave the loudest districts, lowering reported annoyance", "authorAgrees": null },
+      { "who": "Adaptive reinterpretation hypothesis", "position": "Residents who cannot leave describe their circumstances as tolerable despite real harm", "authorAgrees": true }
+    ],
+    "tone": "cautiously conclusive"
+  },
+  "lowResSummary": "Author weighs three explanations of the noise-annoyance plateau and, on cohort and physiological evidence, favors adaptive reinterpretation.",
+  "questions": [
+    {
+      "id": "rc-m3-noise-annoyance-plateau-q1",
+      "type": "main_point",
+      "logicTags": ["causation"],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately expresses the main point of the passage?",
+      "choices": {
+        "A": "The annoyance plateau is an artifact of survey design that would disappear if noise exposure and resident reactions were measured with greater precision.",
+        "B": "The evidence best supports the view that the annoyance plateau reflects how the most exposed residents report their circumstances rather than any genuine reduction in disturbance.",
+        "C": "Because sensitive residents leave the loudest districts, surveys of those who remain understate the harm that noise causes.",
+        "D": "Habituation to noise occurs too slowly and too uniformly to explain why residents of the loudest districts report less annoyance than those in moderately noisy areas.",
+        "E": "Noise regulation should be based on physiological measures of stress rather than on surveys of resident annoyance."
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "Opposite. Paragraph 1 says the plateau 'cannot be dismissed as an artifact of any one survey instrument.'",
+        "B": "Correct. Paragraph 4: 'the balance of evidence suggests that the plateau is largely a feature of reporting rather than of experience.'",
+        "C": "Half right. Self-selection is partly credited but 'accounts for less than half of the plateau'; the author's conclusion favors reinterpretation.",
+        "D": "Wrong part. This is one finding against one hypothesis, not the passage's conclusion.",
+        "E": "Extreme. The author notes the physiological measures 'are themselves imperfect' and draws a cautionary implication, not a replacement policy."
+      },
+      "trapPatterns": { "A": "opposite", "C": "half_right", "D": "wrong_part", "E": "extreme" },
+      "keyTakeaway": "In phenomenon/hypothesis passages, the main point is the author's verdict among the hypotheses, stated with the author's own hedge.",
+      "evidence": [2, 3]
+    },
+    {
+      "id": "rc-m3-noise-annoyance-plateau-q2",
+      "type": "stated",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "According to the passage, the Halvorsen cohort study found that households that left the loudest districts",
+      "choices": {
+        "A": "had reported low annoyance when they first arrived in the district.",
+        "B": "accounted for more than half of the annoyance plateau in the study's own estimate.",
+        "C": "moved to districts with moderate rather than low noise exposure.",
+        "D": "showed signs of habituation before deciding to leave.",
+        "E": "were disproportionately those that had reported high annoyance on arrival."
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "Opposite. Departures 'were indeed concentrated among households that had reported high annoyance on arrival.'",
+        "B": "Shell game. The effect 'accounts for less than half of the plateau.'",
+        "C": "Out of scope. The destinations of departing households are not described.",
+        "D": "Out of scope. No habituation among departing households is reported.",
+        "E": "Correct. Paragraph 3: departures were 'concentrated among households that had reported high annoyance on arrival.'"
+      },
+      "trapPatterns": { "A": "opposite", "B": "shell_game", "C": "out_of_scope", "D": "out_of_scope" },
+      "keyTakeaway": "Numeric details ('less than half') are prime targets for quantity-swapped distractors.",
+      "evidence": [2]
+    },
+    {
+      "id": "rc-m3-noise-annoyance-plateau-q3",
+      "type": "purpose_in_context",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The author mentions measures of sleep disruption and stress hormones primarily in order to",
+      "choices": {
+        "A": "present evidence that low reported annoyance among long-term residents does not indicate low actual disturbance.",
+        "B": "show that the physiological effects of noise are more severe than survey respondents realize.",
+        "C": "demonstrate that habituation reduces annoyance without reducing physiological stress.",
+        "D": "explain why households that reported high annoyance were more likely to leave.",
+        "E": "establish that the cohort study's measures were more reliable than earlier surveys."
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. The measures show a 'dissociation between what residents say and what their bodies register,' undermining the assumption that low reports mean low disturbance.",
+        "B": "Shell game. The point is the mismatch between report and harm, not respondents' awareness of severity; reinterpretation may be knowing.",
+        "C": "Half right. The dissociation is real, but the author uses it against habituation, which 'assumes that low reported annoyance reflects low actual disturbance.'",
+        "D": "Wrong part. Departures are addressed in the self-selection discussion, before the physiological findings.",
+        "E": "Out of scope. The author calls the physiological measures 'imperfect' and makes no reliability comparison with surveys."
+      },
+      "trapPatterns": { "B": "shell_game", "C": "half_right", "D": "wrong_part", "E": "out_of_scope" },
+      "keyTakeaway": "A 'most striking finding' introduced before the verdict paragraph is the evidence that decides between hypotheses.",
+      "evidence": [2, 3]
+    },
+    {
+      "id": "rc-m3-noise-annoyance-plateau-q4",
+      "type": "author_perspective",
+      "logicTags": ["mental_state_v_reality"],
+      "difficulty": 3,
+      "stem": "The passage most strongly suggests that the author would agree with which one of the following?",
+      "choices": {
+        "A": "Residents of the loudest districts who report low annoyance are deliberately misrepresenting their experience.",
+        "B": "Self-selection plays no role in producing the annoyance plateau.",
+        "C": "A survey measure can be a poor guide to the harm it is meant to track even when respondents answer sincerely.",
+        "D": "The annoyance plateau would be eliminated if residents of the loudest districts were given the means to relocate.",
+        "E": "Physiological measures of stress are a sufficient basis for setting noise regulations."
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "Extreme. Adaptive reinterpretation is described as coming 'to describe their circumstances as tolerable,' a coping response, not deliberate deceit.",
+        "B": "Opposite. The author concedes self-selection 'fares somewhat better' and explains part of the plateau.",
+        "C": "Correct. The author concludes the plateau is 'a feature of reporting rather than of experience' and that surveyed annoyance 'systematically understates the burden,' without alleging insincerity.",
+        "D": "Out of scope. The passage never predicts what relocation would do to the plateau.",
+        "E": "Extreme. The author calls the physiological measures 'imperfect.'"
+      },
+      "trapPatterns": { "A": "extreme", "B": "opposite", "D": "out_of_scope", "E": "extreme" },
+      "keyTakeaway": "The author's view sits between 'residents lie' and 'surveys are fine': sincere reports can still mismeasure harm.",
+      "evidence": [3]
+    },
+    {
+      "id": "rc-m3-noise-annoyance-plateau-q5",
+      "type": "weaken_strengthen_evaluate",
+      "logicTags": ["causation"],
+      "difficulty": 3,
+      "stem": "Which one of the following, if true, would most strengthen the author's preferred explanation of the annoyance plateau?",
+      "choices": {
+        "A": "Residents of moderately noisy districts report levels of annoyance that correlate closely with their measured exposure to noise from all sources.",
+        "B": "Noise-sensitive individuals are more likely than others to develop elevated stress hormones at any level of exposure.",
+        "C": "Long-term residents of the loudest districts show less sleep disruption than newcomers to those districts.",
+        "D": "Among long-term residents of the loudest districts, reported annoyance is lowest among those who report having no realistic prospect of moving.",
+        "E": "Survey respondents in all districts tend to understate annoyance when interviewed in their homes."
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "Premise booster. This restates the expected pattern outside the plateau and does not discriminate among explanations of the plateau.",
+        "B": "Out of scope. Individual sensitivity to stress does not connect low reports to inability to leave.",
+        "C": "Opposite. Declining physiological disturbance over time supports habituation.",
+        "D": "Correct. Adaptive reinterpretation posits that residents 'who cannot leave, and who know they cannot' report tolerance; a link between perceived inability to move and low reports is its distinctive prediction.",
+        "E": "True but irrelevant. A uniform understatement across districts cannot explain a plateau that appears only at the top of the exposure range."
+      },
+      "trapPatterns": { "A": "premise_booster", "B": "out_of_scope", "C": "opposite", "E": "true_but_irrelevant" },
+      "keyTakeaway": "Strengthen the favored hypothesis by confirming its unique mechanism—here, the role of perceived powerlessness to escape.",
+      "evidence": [1, 3]
+    },
+    {
+      "id": "rc-m3-noise-annoyance-plateau-q6",
+      "type": "organization",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately describes the organization of the passage?",
+      "choices": {
+        "A": "A phenomenon is described; a single explanation is proposed and defended against two objections; a policy is recommended.",
+        "B": "Three competing theories are presented; each is shown to be inadequate; a fourth theory is introduced.",
+        "C": "A survey result is questioned; the methods that produced it are criticized; a more reliable method is proposed.",
+        "D": "A phenomenon is described; three explanations are offered; evidence is presented that supports all three equally; the author withholds judgment.",
+        "E": "A phenomenon is described; competing explanations are presented; evidence is evaluated against each; one is tentatively favored and its implications noted."
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "Shell game. Three explanations are weighed, not one defended, and the ending is an implication, not a recommendation.",
+        "B": "Opposite. No fourth theory appears; the third of the original three is favored.",
+        "C": "Opposite. The result is accepted as robust ('cannot be dismissed as an artifact').",
+        "D": "Half right. The structure is correct until the evidence, which the author says favors one explanation.",
+        "E": "Correct. Paragraphs 1–4 follow exactly this sequence, with 'Some caution is warranted' marking the tentative verdict."
+      },
+      "trapPatterns": { "A": "shell_game", "B": "opposite", "C": "opposite", "D": "half_right" },
+      "keyTakeaway": "Organization answers must match both the number of views considered and the strength of the author's final commitment.",
+      "evidence": [0, 1, 2, 3]
+    }
+  ]
+}

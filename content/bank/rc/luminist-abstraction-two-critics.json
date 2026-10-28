@@ -1,0 +1,203 @@
+{
+  "id": "rc-luminist-abstraction-two-critics",
+  "style": "critique_debate",
+  "topic": "humanities",
+  "comparative": true,
+  "title": "Two Critics on Luminist Abstraction",
+  "paragraphs": [
+    "The painters grouped under the label \"Luminist Abstraction\"—a loose association active in the port cities of the northern coast between roughly 1928 and 1941—are commonly described as having abandoned the depicted object in favor of light itself. The description is accurate as far as it goes, but it mistakes the effect for the program. What united these painters was not an interest in light as a subject but a shared conviction that the picture plane should register the duration of looking: the slow accumulation of thin glazes, each applied after the last had dried, was meant to make visible the time the painter had spent before the canvas, and to solicit a corresponding slowness from the viewer.",
+    "This commitment explains features of the work that the \"light\" account leaves unaccounted for. It explains why the Luminists rejected impasto, which declares itself at a glance; why their canvases were small, since a large surface could not be glazed evenly within the working life of the medium; and why they resisted, almost to a person, the reproduction of their paintings in the illustrated press, where the layered surface collapsed into a flat field of color. The movement's dissolution after 1941 owed less to the war than to the arrival of fast-drying synthetic media, which made the discipline of patient layering a choice rather than a necessity—and a choice, it turned out, that few were willing to go on making."
+  ],
+  "paragraphsB": [
+    "The case of Hesper Calloway complicates any tidy account of Luminist Abstraction. Calloway exhibited with the group from 1931 and is represented in every retrospective survey of the movement, yet her practice departed from the Luminist norm in nearly every particular that critics have taken to define it. She worked large; her canvases from the mid-1930s exceed two meters on a side. She used impasto freely in her underlayers, glazing only the final passages. And she not only permitted but actively sought the reproduction of her paintings in illustrated magazines, writing in 1936 that a picture \"which cannot survive the printer's screen has not yet found its form.\"",
+    "It would be convenient to treat Calloway as an outlier whose inclusion in the group was a matter of social affiliation rather than artistic principle, and some critics have done so. But her own statements suggest a different conclusion. Calloway described her aim in terms nearly identical to those of her colleagues: she wished, she said, to paint \"the length of time it takes to see.\" She simply did not believe that this aim dictated any particular technique. Glazing was one way to make duration visible; scale was another, since a large canvas cannot be taken in at once; and reproduction, far from flattening the work, tested whether its slowness survived translation. If Calloway was a Luminist—and she certainly thought she was—then the movement is better defined by its aim than by the procedures through which most of its members pursued it."
+  ],
+  "roleMap": {
+    "paragraphs": ["main_point", "support"],
+    "viewpoints": [
+      { "who": "The conventional 'light' account", "position": "The Luminists abandoned the depicted object in favor of light as a subject", "authorAgrees": null },
+      { "who": "Author of passage A", "position": "The movement was united by a commitment to registering the duration of looking, realized through patient glazing", "authorAgrees": null },
+      { "who": "Critics who treat Calloway as an outlier", "position": "Calloway's membership was social rather than artistic", "authorAgrees": null },
+      { "who": "Author of passage B", "position": "Calloway shared the Luminist aim but not its procedures, so the movement should be defined by aim", "authorAgrees": null }
+    ],
+    "tone": "A confident; B qualifying and case-driven"
+  },
+  "lowResSummary": "Generalization/instance: A defines Luminist Abstraction by its glazing discipline; B uses Calloway, who shared the aim but not the methods, to redefine it.",
+  "questions": [
+    {
+      "id": "rc-luminist-abstraction-two-critics-q1",
+      "type": "relationship",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately describes the relationship between the two passages?",
+      "choices": {
+        "A": "Passage B rejects the central claim of passage A and proposes an unrelated definition of the movement.",
+        "B": "Passage B provides biographical support for the generalization that passage A advances.",
+        "C": "Passage B presents a case that accepts passage A's account of the movement's aim while challenging the features passage A treats as defining.",
+        "D": "Passage A explains the dissolution of a movement whose origins passage B describes.",
+        "E": "Passage A and passage B agree that Calloway's inclusion in the movement was a matter of social affiliation."
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "B keeps A's aim ('the length of time it takes to see'); its definition is related, not unrelated.",
+        "B": "B's case cuts against A's procedural account rather than supporting it.",
+        "C": "Correct. Calloway shares the aim of making duration visible but violates the small-canvas, no-impasto, no-reproduction features A lists.",
+        "D": "B says nothing about the movement's origins.",
+        "E": "A never mentions Calloway, and B rejects the social-affiliation view."
+      },
+      "trapPatterns": { "A": "extreme", "B": "opposite", "D": "out_of_scope", "E": "opposite" },
+      "keyTakeaway": "Generalization/instance sets usually turn on which part of the generalization the instance confirms and which it strains.",
+      "evidence": [0, 1]
+    },
+    {
+      "id": "rc-luminist-abstraction-two-critics-q2",
+      "type": "main_point",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately expresses the main point of passage A?",
+      "choices": {
+        "A": "Luminist Abstraction is best understood as a movement devoted to the depiction of light rather than of objects.",
+        "B": "The Luminists' rejection of impasto, their preference for small canvases, and their resistance to reproduction were each imposed by the technical limitations of their chosen medium.",
+        "C": "The arrival of fast-drying synthetic media, rather than the war, was responsible for the dissolution of Luminist Abstraction.",
+        "D": "Critics have consistently overstated the unity of the painters grouped under the Luminist label.",
+        "E": "The Luminists were united not by an interest in light but by a commitment to making the duration of looking visible, which accounts for their characteristic practices."
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "A calls this description one that 'mistakes the effect for the program.'",
+        "B": "A derives these features from the commitment to duration; only canvas size is tied to the medium's working life.",
+        "C": "A closing detail, not the thesis.",
+        "D": "A asserts a strong unity ('what united these painters'); it does not question it.",
+        "E": "Correct. Paragraph 1 states the thesis; paragraph 2 opens 'This commitment explains features of the work.'"
+      },
+      "trapPatterns": { "A": "opposite", "B": "half_right", "C": "half_right", "D": "out_of_scope" },
+      "keyTakeaway": "A main point for one passage of a pair should cover that passage's thesis and the role of its supporting paragraph.",
+      "evidence": [0, 1]
+    },
+    {
+      "id": "rc-luminist-abstraction-two-critics-q3",
+      "type": "stated",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "According to passage B, Calloway differed from most Luminist painters in that she",
+      "choices": {
+        "A": "described her aim as painting the length of time it takes to see.",
+        "B": "welcomed the reproduction of her paintings in illustrated magazines.",
+        "C": "began exhibiting with the group only after its dissolution in 1941.",
+        "D": "applied glazes to her underlayers and reserved impasto for the final passages.",
+        "E": "regarded her own membership in the group as a matter of social affiliation."
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "B says her aim was stated 'in terms nearly identical to those of her colleagues'; this is a similarity.",
+        "B": "Correct. She 'not only permitted but actively sought the reproduction of her paintings in illustrated magazines.'",
+        "C": "She exhibited with the group from 1931.",
+        "D": "Reversed: 'impasto freely in her underlayers, glazing only the final passages.'",
+        "E": "That is the view of some critics, which B rejects; Calloway 'certainly thought she was' a Luminist on principle."
+      },
+      "trapPatterns": { "A": "opposite", "C": "opposite", "D": "reversal", "E": "wrong_part" },
+      "keyTakeaway": "Stated questions about differences plant the similarities as traps.",
+      "evidence": [0]
+    },
+    {
+      "id": "rc-luminist-abstraction-two-critics-q4",
+      "type": "approach",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "Both passages are primarily concerned with",
+      "choices": {
+        "A": "explaining why Luminist Abstraction dissolved after 1941.",
+        "B": "evaluating the artistic merit of Calloway's large canvases.",
+        "C": "defending the Luminists against the charge that they abandoned the depicted object.",
+        "D": "determining what properly defines membership in an artistic movement.",
+        "E": "establishing which painting techniques are most effective at conveying duration."
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "Only A addresses dissolution, and only in its final sentence.",
+        "B": "Neither passage assesses the merit of her work.",
+        "C": "A does not deny the charge; it says the description is 'accurate as far as it goes.'",
+        "D": "Correct. A asks 'what united these painters'; B asks whether the movement is 'better defined by its aim than by the procedures.'",
+        "E": "Neither ranks techniques by effectiveness; B says several techniques can serve the aim."
+      },
+      "trapPatterns": { "A": "wrong_part", "B": "out_of_scope", "C": "shell_game", "E": "shell_game" },
+      "keyTakeaway": "For 'both passages are primarily concerned with', find the question each passage is answering, then abstract to the common one.",
+      "evidence": [0, 1]
+    },
+    {
+      "id": "rc-luminist-abstraction-two-critics-q5",
+      "type": "other_perspective",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "The author of passage A would be most likely to respond to passage B's account of Calloway by arguing that",
+      "choices": {
+        "A": "an aim as general as making duration visible cannot by itself distinguish the Luminists from painters outside the movement.",
+        "B": "Calloway's statements about her aims should be disregarded because they were written for publication.",
+        "C": "large canvases cannot convey the duration of looking because they cannot be glazed evenly within the working life of the medium.",
+        "D": "Calloway's free use of impasto shows that she was primarily interested in light rather than in time.",
+        "E": "the movement dissolved because painters like Calloway abandoned its procedures."
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. A ties the movement's identity to a specific discipline ('the slow accumulation of thin glazes'); the natural rejoinder is that a shared aim is too thin to define membership.",
+        "B": "A gives no reason to distrust artists' statements; A's own account of the Luminists' 'conviction' relies on them.",
+        "C": "A says large surfaces cannot be glazed evenly, not that they cannot convey duration; B's point is about the viewer's time.",
+        "D": "A associates impasto with declaring itself 'at a glance', not with an interest in light.",
+        "E": "A attributes the dissolution to synthetic media, not to defectors."
+      },
+      "trapPatterns": { "B": "out_of_scope", "C": "half_right", "D": "shell_game", "E": "wrong_part" },
+      "keyTakeaway": "Model the first author's commitments and ask which reply those commitments generate; do not import new objections.",
+      "evidence": [0, 1]
+    },
+    {
+      "id": "rc-luminist-abstraction-two-critics-q6",
+      "type": "purpose_in_context",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Passage B quotes Calloway's remark about \"the printer's screen\" primarily in order to",
+      "choices": {
+        "A": "show that Calloway regarded reproduction as a threat to the layered surface of her paintings.",
+        "B": "illustrate the hostility of the illustrated press toward Luminist painting.",
+        "C": "suggest that Calloway's paintings were more widely known than those of her colleagues.",
+        "D": "establish that Calloway's aims differed fundamentally from those of the other Luminists.",
+        "E": "document one respect in which Calloway's practice diverged from the Luminist norm."
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "The remark expresses the opposite: a picture that cannot survive reproduction 'has not yet found its form.'",
+        "B": "Nothing about the press's attitude is mentioned.",
+        "C": "Her fame is never compared with her colleagues'.",
+        "D": "B's second paragraph insists her aims were 'nearly identical' to her colleagues'; the difference lies in practice.",
+        "E": "Correct. The quotation closes a list of departures from the norm ('She worked large... She used impasto... And she...')."
+      },
+      "trapPatterns": { "A": "reversal", "B": "out_of_scope", "C": "out_of_scope", "D": "opposite" },
+      "keyTakeaway": "A quotation at the end of a list of examples serves the list's function.",
+      "evidence": [0]
+    },
+    {
+      "id": "rc-luminist-abstraction-two-critics-q7",
+      "type": "weaken_strengthen_evaluate",
+      "logicTags": [],
+      "difficulty": 4,
+      "stem": "Which one of the following, if true, would most strengthen passage B's argument that the movement is better defined by its aim than by its procedures?",
+      "choices": {
+        "A": "Several Luminist painters besides Calloway privately expressed admiration for her large canvases.",
+        "B": "Two other painters consistently included in surveys of the movement used fast-drying media and large formats while describing their aim as making the time of looking visible.",
+        "C": "Calloway's large canvases were, by her own account, completed more quickly than her smaller works.",
+        "D": "The retrospective surveys that include Calloway were organized by her former students.",
+        "E": "Calloway abandoned glazing entirely after 1941 and ceased to describe herself as a Luminist."
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "Private admiration says nothing about whether procedure or aim defines membership.",
+        "B": "Correct. B's argument generalizes from one member; further recognized members who share the aim but not the procedures make Calloway a pattern rather than an exception.",
+        "C": "This bears on the duration of making, not on how the movement is defined, and if anything undercuts her claim that scale conveys duration.",
+        "D": "This supports the social-affiliation explanation of her inclusion, which B opposes.",
+        "E": "Her later career is beside the point; the argument concerns her practice while she identified as a Luminist."
+      },
+      "trapPatterns": { "A": "out_of_scope", "C": "wrong_force", "D": "opposite", "E": "true_but_irrelevant" },
+      "keyTakeaway": "An argument from a single instance is strengthened most by additional instances of the same kind.",
+      "evidence": [1]
+    }
+  ]
+}

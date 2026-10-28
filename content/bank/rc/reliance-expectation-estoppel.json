@@ -80,7 +80,7 @@
       "choices": {
         "A": "concede that Marrow's survey accurately describes the outcomes of estoppel litigation.",
         "B": "show that Venn's remedial rule was never applied consistently by the courts.",
-        "C": "argue that expectation damages systematically overcompensate promisees in estoppel cases.",
+        "C": "argue that awarding expectation damages systematically overcompensates promisees whose actual reliance was slight or speculative.",
         "D": "explain why forgone opportunities should not be counted as reliance.",
         "E": "offer an explanation of the expectation awards that does not require Marrow's doctrinal conclusion."
       },
@@ -129,7 +129,7 @@
       "stem": "The passage suggests that Marrow would be most likely to agree that",
       "choices": {
         "A": "the reliance requirement should be eliminated from promissory estoppel entirely.",
-        "B": "courts award expectation damages chiefly because reliance is difficult to measure.",
+        "B": "courts award expectation damages chiefly because the reliance interest is, in most cases, too difficult to measure with confidence.",
         "C": "a promise that induced no reliance should nonetheless be enforced if it was seriously made.",
         "D": "the function of the reliance requirement is to distinguish promises worth enforcing from those that are not.",
         "E": "Venn correctly identified the rationale for estoppel but drew the wrong remedial conclusion."
@@ -142,7 +142,7 @@
         "D": "Correct. Paragraph 2: the requirement is 'an evidentiary device for identifying promises serious enough to warrant enforcement.'",
         "E": "This is the author's position in paragraph 4; Marrow rejects reliance as the rationale altogether."
       },
-      "trapPatterns": { "A": "extreme", "B": "wrong_part", "C": "extreme", "E": "wrong_part" },
+      "trapPatterns": { "A": "extreme", "B": "wrong_part", "C": "out_of_scope", "E": "wrong_part" },
       "keyTakeaway": "For other-perspective questions, quarantine the author's response and answer only from the scholar's stated view.",
       "evidence": [1]
     },
@@ -154,7 +154,7 @@
       "stem": "The author's attitude toward Marrow's empirical findings can most accurately be described as",
       "choices": {
         "A": "acceptance of their accuracy combined with doubt about the conclusion drawn from them.",
-        "B": "skepticism about their accuracy owing to the limited number of jurisdictions surveyed.",
+        "B": "skepticism about their accuracy owing to the limited number of jurisdictions and decades that her survey covered.",
         "C": "enthusiastic endorsement of both the findings and their doctrinal implications.",
         "D": "indifference, since the author regards questions of remedy as settled by Venn.",
         "E": "concern that the findings will encourage courts to abandon the reliance requirement."
@@ -179,7 +179,7 @@
       "stem": "Which one of the following, if true, would most strengthen the author's response to Marrow in the third paragraph?",
       "choices": {
         "A": "In the surveyed cases, courts awarding expectation damages typically described the promises as having been seriously made.",
-        "B": "Several of the surveyed jurisdictions have statutes requiring that all damages for breach of contract be measured by expectation.",
+        "B": "Several of the surveyed jurisdictions have enacted statutes requiring that all damages for breach of contract be measured by the expectation interest.",
         "C": "Reliance-limited awards were most common in cases where the promisee's reliance had consisted chiefly of forgone opportunities.",
         "D": "Marrow's survey excluded cases in which the estoppel claim was ultimately unsuccessful.",
         "E": "In the minority of cases awarding reliance damages, the promisee's reliance had consisted of documented out-of-pocket expenditures."

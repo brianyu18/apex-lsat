@@ -42,7 +42,7 @@
         "D": "The author grants this 'appeal' but goes on to reject the reading; it is not the main point.",
         "E": "Correct. Paragraph 4: 'This is not satire... and it is not naive pastoral'; the irony lies in 'keeping the forms for want of the faith.'"
       },
-      "trapPatterns": { "A": "opposite", "B": "opposite", "C": "half_right", "D": "half_right" },
+      "trapPatterns": { "A": "opposite", "B": "opposite", "C": "wrong_part", "D": "half_right" },
       "keyTakeaway": "When an author rejects two readings, the main point is the third position, not a verdict favoring one of the two.",
       "evidence": [2, 3]
     },
@@ -107,7 +107,7 @@
         "B": "dismissal on the ground that it ignores the poems' consolatory effect.",
         "C": "respect for its evidentiary basis combined with the judgment that it oversimplifies the poems.",
         "D": "suspicion that it was motivated by a desire to make Vessey fashionable.",
-        "E": "agreement with its conclusions but not with the evidence adduced for them."
+        "E": "agreement with its conclusions about the poems but not with the manuscript and epistolary evidence adduced for them."
       },
       "answer": "C",
       "explanations": {
@@ -142,7 +142,7 @@
         "D": "The author credits Delorme with 'considerable evidence' from the letters.",
         "E": "The cause of the form's obsolescence is never adjudicated."
       },
-      "trapPatterns": { "A": "opposite", "C": "out_of_scope", "D": "opposite", "E": "out_of_scope" },
+      "trapPatterns": { "A": "opposite", "C": "out_of_scope", "D": "opposite", "E": "shell_game" },
       "keyTakeaway": "The author's third position implies a general claim: conventions can be used in a mode that is neither sincere nor mocking.",
       "evidence": [3]
     },
@@ -156,7 +156,7 @@
         "A": "a stance of confident detachment from the conventions being mocked",
         "B": "a settled reputation among a poet's literary contemporaries",
         "C": "a safe physical distance from the events of the war",
-        "D": "a belief in the consolations that the pastoral conventions offer",
+        "D": "a settled belief in the consolations that the pastoral conventions have traditionally offered",
         "E": "a textual passage whose meaning is beyond scholarly dispute"
       },
       "answer": "A",

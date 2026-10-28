@@ -1,0 +1,200 @@
+{
+  "id": "rc-m4-folding-paradox",
+  "style": "problem_analysis",
+  "topic": "natural_science",
+  "comparative": false,
+  "title": "The Protein Search Problem",
+  "paragraphs": [
+    "A chain of a few hundred amino acids can, in principle, adopt an astronomical number of spatial arrangements, and if a protein were to find its functional shape by sampling them one after another, the search would outlast the universe. Yet many small proteins fold to that shape in milliseconds, reliably and without assistance, from a disordered state. The disparity, long known to specialists as the search problem, is not a paradox in the strict sense, since the folding plainly happens; it is rather a demand for an account of how a process that cannot be a random search is nonetheless so fast.",
+    "The earliest answer proposed a pathway. On this view a protein folds as a sequence of defined intermediate states, each more structured than the last, much as a chemical synthesis proceeds through isolable products. The search problem dissolves because the chain never searches: it is channeled, from the first local contacts onward, along a single route. Liam Halloran's kinetic studies of several small enzymes seemed to vindicate the picture, detecting partly folded species that accumulated and decayed in orderly succession. The difficulty was that other proteins, examined with the same methods, showed no such intermediates, and that the intermediates Halloran did detect were sometimes found to lie off the route to the native state rather than on it.",
+    "The alternative that has since prevailed abandons the route altogether. Teresa Lindgren and others describe folding as the descent of an ensemble of molecules down an energy landscape shaped like a funnel: conformations that are more native-like are, on average, lower in energy, so that a chain moving under thermal agitation drifts toward the native state by many routes at once, none privileged. The search problem does not arise because the search is biased at every step. Halloran's intermediates become, on this account, local irregularities in the funnel's surface, traps in which some fraction of the ensemble pauses, and their presence or absence in a given protein is a matter of how rugged its particular landscape happens to be.",
+    "The funnel picture is, I think, the correct frame, and its reconciliation of the kinetic data is more than a convenience. But it is worth noticing what kind of explanation it offers. That the native state lies at the bottom of a funnel is a restatement of the fact that proteins fold, not an account of why this chain, with this sequence, has a landscape smooth enough to be traversed in milliseconds when a random sequence of the same length would not. The explanatory burden thus shifts to the features of particular sequences that make their landscapes funnel-shaped, and here the landscape vocabulary, with its appeal to averages over conformations, can obscure the specific contacts and local structures that do the work. The pathway theorists, whatever their errors, were at least asking about those."
+  ],
+  "roleMap": {
+    "paragraphs": ["context", "counterpoint", "counterpoint", "main_point"],
+    "viewpoints": [
+      { "who": "Pathway theorists (Liam Halloran)", "position": "Proteins fold along a single route through defined intermediates, so no search occurs.", "authorAgrees": false },
+      { "who": "Teresa Lindgren and others", "position": "Folding is the descent of an ensemble down a funnel-shaped energy landscape by many routes; intermediates are local traps.", "authorAgrees": null },
+      { "who": "The author", "position": "The funnel is the right frame but restates rather than explains rapid folding; the burden shifts to sequence-specific features the landscape vocabulary obscures.", "authorAgrees": true }
+    ],
+    "tone": "qualified endorsement with a pointed caveat"
+  },
+  "lowResSummary": "Author accepts the energy-funnel solution to the protein search problem but argues it relocates rather than discharges the explanatory burden.",
+  "questions": [
+    {
+      "id": "rc-m4-folding-paradox-q1",
+      "type": "main_point",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "Which one of the following most accurately expresses the main point of the passage?",
+      "choices": {
+        "A": "The pathway model of protein folding, though discredited by later kinetic evidence, correctly identified the sequence-specific contacts that drive folding.",
+        "B": "The search problem in protein folding is not a genuine paradox and therefore requires no special explanation beyond the observation that folding occurs.",
+        "C": "The funnel model of protein folding has prevailed because it reconciles kinetic data that the pathway model was unable to accommodate.",
+        "D": "Neither the pathway model nor the funnel model can explain why proteins fold faster than a random search of conformations would allow.",
+        "E": "The funnel model rightly supersedes the pathway model but describes rapid folding more than it explains it, leaving the question about particular sequences open."
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "Half right. The author credits pathway theorists with asking the right question, not with identifying the contacts; and 'discredited' overstates paragraph 2's 'difficulty.'",
+        "B": "Opposite. Paragraph 1 says the problem is 'a demand for an account,' and the passage proceeds to evaluate accounts.",
+        "C": "Wrong part. True as far as it goes (paragraph 3), but it omits the author's critique in paragraph 4, which is the point of the passage.",
+        "D": "Opposite. The author calls the funnel 'the correct frame' and says the search problem 'does not arise' on it.",
+        "E": "Correct. Paragraph 4: the funnel is 'the correct frame,' but the bottom-of-the-funnel claim is 'a restatement of the fact that proteins fold,' and 'the explanatory burden thus shifts' to particular sequences."
+      },
+      "trapPatterns": { "A": "half_right", "B": "opposite", "C": "wrong_part", "D": "opposite" },
+      "keyTakeaway": "In a problem-analysis passage, the main point is the assessment, not the winning solution; here the assessment is 'right frame, burden merely relocated.'",
+      "evidence": [3]
+    },
+    {
+      "id": "rc-m4-folding-paradox-q2",
+      "type": "stated",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "According to the passage, Halloran's kinetic studies detected",
+      "choices": {
+        "A": "proteins that reached the native state without passing through any intermediate",
+        "B": "a funnel-shaped energy landscape in several small enzymes",
+        "C": "partly folded species that accumulated and decayed in sequence",
+        "D": "random sampling of conformations prior to the onset of folding",
+        "E": "intermediates that were identical across all of the proteins he studied"
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "Opposite. Proteins without intermediates were found by others 'examined with the same methods,' and this counted against Halloran.",
+        "B": "Wrong part. The funnel landscape is Lindgren's framework in paragraph 3.",
+        "C": "Correct. His studies detected 'partly folded species that accumulated and decayed in orderly succession.'",
+        "D": "Opposite. Paragraph 1 establishes that folding 'cannot be a random search.'",
+        "E": "Extreme. The passage says only that intermediates were found in 'several small enzymes' and absent in others."
+      },
+      "trapPatterns": { "A": "opposite", "B": "wrong_part", "D": "opposite", "E": "extreme" },
+      "keyTakeaway": "The finding and its later complication sit in the same paragraph; the stem asks only for the finding.",
+      "evidence": [1]
+    },
+    {
+      "id": "rc-m4-folding-paradox-q3",
+      "type": "purpose_in_context",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The author mentions a chemical synthesis primarily in order to",
+      "choices": {
+        "A": "suggest that proteins can be folded artificially by a sequence of controlled laboratory reactions",
+        "B": "clarify the pathway model by comparing folding to a process that proceeds through isolable products",
+        "C": "show that Halloran's intermediates were products of chemical reactions rather than conformational changes",
+        "D": "illustrate the kind of random search that the search problem rules out",
+        "E": "explain why the funnel model regards intermediates as local irregularities in the landscape"
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "Out of scope. The passage says nothing about artificial folding.",
+        "B": "Correct. 'A sequence of defined intermediate states... much as a chemical synthesis proceeds through isolable products.'",
+        "C": "Out of scope. The comparison is structural, not a claim about the chemistry of intermediates.",
+        "D": "Opposite. A synthesis through defined steps is the opposite of a random search; the analogy illustrates channeling.",
+        "E": "Wrong part. The funnel reading of intermediates appears in paragraph 3, after the analogy."
+      },
+      "trapPatterns": { "A": "out_of_scope", "C": "out_of_scope", "D": "opposite", "E": "wrong_part" },
+      "keyTakeaway": "'Much as' introduces an illustrative analogy for the view just stated; its function is clarification of that view.",
+      "evidence": [1]
+    },
+    {
+      "id": "rc-m4-folding-paradox-q4",
+      "type": "author_perspective",
+      "logicTags": [],
+      "difficulty": 4,
+      "stem": "The passage most strongly suggests that the author would agree with which one of the following?",
+      "choices": {
+        "A": "An explanation that successfully reconciles all of the available data should for that reason be accepted as complete.",
+        "B": "The intermediates that Halloran detected were artifacts of the kinetic methods he employed.",
+        "C": "A random sequence of amino acids would fold as rapidly as a natural protein if its energy landscape were sufficiently rugged.",
+        "D": "A description that applies equally to every protein cannot by itself explain a property that proteins possess in virtue of their differences.",
+        "E": "The pathway model should be revived and adopted in place of the funnel model."
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "Opposite. The author grants the reconciliation 'is more than a convenience' and still finds the explanation incomplete.",
+        "B": "Out of scope. The funnel model treats the intermediates as real traps; the author never calls them artifacts.",
+        "C": "Opposite. Ruggedness slows folding by creating traps; smoothness is what permits milliseconds.",
+        "D": "Correct. Paragraph 4: the funnel 'is a restatement of the fact that proteins fold, not an account of why this chain, with this sequence' folds fast 'when a random sequence of the same length would not.'",
+        "E": "Extreme. The author credits pathway theorists only with 'asking about' the right features, 'whatever their errors.'"
+      },
+      "trapPatterns": { "A": "opposite", "B": "out_of_scope", "C": "opposite", "E": "extreme" },
+      "keyTakeaway": "The author's complaint is that a universal description cannot explain a differential fact; D states that principle without the protein vocabulary.",
+      "evidence": [3]
+    },
+    {
+      "id": "rc-m4-folding-paradox-q5",
+      "type": "meaning_in_context",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately expresses the meaning of 'rugged' as it is used in the passage?",
+      "choices": {
+        "A": "marked by local energy minima in which molecules may pause",
+        "B": "resistant to disruption by the thermal agitation of the surrounding medium",
+        "C": "steep enough to channel molecules along a single privileged route",
+        "D": "too complex to be investigated by means of kinetic methods",
+        "E": "lacking a well-defined native state at its lowest point"
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. The word follows directly on 'local irregularities in the funnel's surface, traps in which some fraction of the ensemble pauses.'",
+        "B": "Shell game. Thermal agitation is what drives the descent; ruggedness concerns the surface, not resistance to motion.",
+        "C": "Opposite. A single route is the pathway model, which the funnel 'abandons.'",
+        "D": "Out of scope. Nothing concerns the limits of kinetic methods.",
+        "E": "Opposite. The native state remains at the bottom; ruggedness refers to irregularities on the way down."
+      },
+      "trapPatterns": { "B": "shell_game", "C": "opposite", "D": "out_of_scope", "E": "opposite" },
+      "keyTakeaway": "A technical adjective is defined by the appositive phrase immediately before it; 'traps... pauses' tells you what rugged means.",
+      "evidence": [2]
+    },
+    {
+      "id": "rc-m4-folding-paradox-q6",
+      "type": "purpose_of_paragraph",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "The primary function of the final paragraph is to",
+      "choices": {
+        "A": "reject the funnel model on the ground that it cannot account for the intermediates Halloran detected",
+        "B": "propose a third model of protein folding that combines features of the pathway and funnel models",
+        "C": "summarize the kinetic evidence that led to the abandonment of the pathway model",
+        "D": "argue that the search problem was never a genuine difficulty for theories of folding",
+        "E": "endorse the prevailing model while specifying what it leaves unexplained and crediting its predecessor's focus"
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "Opposite. The author says the funnel's 'reconciliation of the kinetic data is more than a convenience.'",
+        "B": "Out of scope. No third model is proposed; the author redirects attention to sequence features.",
+        "C": "Wrong part. That evidence is in paragraph 2.",
+        "D": "Shell game. Paragraph 1 already said the problem is 'not a paradox in the strict sense' but still 'a demand for an account'; paragraph 4 does not revisit this.",
+        "E": "Correct. 'The funnel picture is, I think, the correct frame... But it is worth noticing what kind of explanation it offers... The pathway theorists... were at least asking about those.'"
+      },
+      "trapPatterns": { "A": "opposite", "B": "out_of_scope", "C": "wrong_part", "D": "shell_game" },
+      "keyTakeaway": "A paragraph with 'is the correct frame... But...' plus a closing nod to the loser has three moves; the right answer names all three.",
+      "evidence": [3]
+    },
+    {
+      "id": "rc-m4-folding-paradox-q7",
+      "type": "analogy",
+      "logicTags": [],
+      "difficulty": 4,
+      "stem": "The author's criticism of the funnel picture in the final paragraph is most analogous to which one of the following?",
+      "choices": {
+        "A": "A critic objects that a theory of economic growth has been confirmed only in wealthy countries and may not hold where capital is scarce.",
+        "B": "A critic objects that a map of a mountainous region is drawn at too large a scale to be carried conveniently by hikers.",
+        "C": "A critic objects that saying a species survived because it was fittest restates the survival and leaves unexplained which traits made it fit.",
+        "D": "A critic objects that a theory of planetary motion predicts the orbits accurately but was derived from assumptions now known to be false.",
+        "E": "A critic objects that a model of traffic flow, though accurate for highways, fails to describe the congestion found on city streets at rush hour."
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "Out of scope. This is a sampling objection, not a charge that the explanation restates the fact to be explained.",
+        "B": "Out of scope. A practical complaint about presentation, not about explanatory content.",
+        "C": "Correct. The author says the funnel 'is a restatement of the fact that proteins fold' and shifts the burden to 'the features of particular sequences,' exactly as 'fittest' restates survival and leaves the traits unexplained.",
+        "D": "Shell game. The author does not say the funnel rests on false assumptions; he calls it 'the correct frame.'",
+        "E": "Half right. A scope limitation resembles a gap, but the author's objection is not that the funnel fails for some proteins; it is that it explains too little about any of them."
+      },
+      "trapPatterns": { "A": "out_of_scope", "B": "out_of_scope", "D": "shell_game", "E": "half_right" },
+      "keyTakeaway": "Abstract the criticism first: 'restates the explanandum in general terms and leaves the specific causes unexplained.' Only C has that shape.",
+      "evidence": [3]
+    }
+  ]
+}

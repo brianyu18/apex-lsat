@@ -42,7 +42,7 @@
         "D": "Correct. Paragraph 4: 'neither autobiography nor correction but an extension of the quartet's expressive means.'",
         "E": "The passage identifies the rests, not harmonic language, as the defining difference."
       },
-      "trapPatterns": { "A": "opposite", "B": "opposite", "C": "out_of_scope", "E": "opposite" },
+      "trapPatterns": { "A": "opposite", "B": "half_right", "C": "out_of_scope", "E": "opposite" },
       "keyTakeaway": "The author's verdict paragraph typically negates the rejected hypotheses by name; match that sentence.",
       "evidence": [3]
     },
@@ -103,7 +103,7 @@
       "difficulty": 3,
       "stem": "It can be inferred from the passage that the author would be most likely to agree with which one of the following?",
       "choices": {
-        "A": "An explanation that accounts for the placement of a musical feature is thereby an adequate explanation of that feature.",
+        "A": "An explanation that accounts for the placement of a musical feature is thereby an adequate explanation of that feature's presence in the work.",
         "B": "The performers who shortened the rests in 1953 were justified in doing so given the confusion of early audiences.",
         "C": "Ostrander's performance notes have been ignored by analysts chiefly because they contradict Moreau's analysis.",
         "D": "The emotional appeal of a biographical explanation is a reliable indication that the explanation is correct.",
@@ -117,7 +117,7 @@
         "D": "The author says the biographical account 'has the appeal of pathos, but it fits the chronology poorly.'",
         "E": "Correct. The author's entire reading rests on performance notes that 'insist on this point repeatedly.'"
       },
-      "trapPatterns": { "A": "opposite", "B": "out_of_scope", "C": "out_of_scope", "D": "opposite" },
+      "trapPatterns": { "A": "extreme", "B": "out_of_scope", "C": "out_of_scope", "D": "opposite" },
       "keyTakeaway": "What kind of evidence the author relies on reveals a methodological commitment you can infer.",
       "evidence": [3]
     },
@@ -156,7 +156,7 @@
         "A": "were to be played so softly that the audience could not hear them.",
         "B": "were to be treated by performers as music to be shaped rather than as interruptions.",
         "C": "lasted exactly as long as the sustained tones that immediately preceded them.",
-        "D": "resulted from Ostrander's inability to hear quiet passages in her later years.",
+        "D": "resulted from Ostrander's growing inability to hear quiet passages during the years of the late quartets.",
         "E": "were notated in the manuscripts without any indication of tempo or duration."
       },
       "answer": "B",
@@ -178,7 +178,7 @@
       "difficulty": 4,
       "stem": "Which one of the following, if true, would most weaken the author's interpretation of the long rests?",
       "choices": {
-        "A": "Ostrander's performance notes for her earlier quartets contain no instructions concerning rests of any length.",
+        "A": "Ostrander's performance notes for her earlier chamber works contain no instructions whatsoever concerning the manner in which rests of any length were to be executed.",
         "B": "Moreau has publicly acknowledged that her analysis does not account for the duration of the rests.",
         "C": "Several ensembles that follow the performance notes report that audiences still find the rests disconcerting.",
         "D": "Ostrander's hearing loss was somewhat more advanced in 1949 than she acknowledged in her letters.",

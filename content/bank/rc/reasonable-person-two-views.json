@@ -1,0 +1,202 @@
+{
+  "id": "rc-reasonable-person-two-views",
+  "style": "critique_debate",
+  "topic": "law",
+  "comparative": true,
+  "title": "Two Views of the Reasonable Person",
+  "paragraphs": [
+    "The \"reasonable person\" against whom negligence is measured is, by design, nobody in particular. When a court asks whether a defendant exercised reasonable care, it does not ask what this defendant, with her particular limitations and distractions, could have managed; it asks what a person of ordinary prudence would have done in the circumstances. Critics have long found this abstraction troubling, since it holds the clumsy, the slow, and the inexperienced to a standard they may be constitutionally unable to meet. The objection is humane but misconceived. Tort law is not a system of moral grading; it is a mechanism for allocating the costs of accidents between parties, neither of whom may be at fault in any deep sense.",
+    "Seen in that light, the objective standard has two virtues that an individualized inquiry could not replicate. First, it gives potential victims a stable expectation: a pedestrian need not estimate the competence of each approaching driver to know what degree of care she may count upon. Second, it spares courts an inquiry they are poorly equipped to conduct. A defendant's actual capacities are known chiefly to the defendant, and a rule that turned liability on them would reward the convincing self-portrait of incapacity. The law accommodates the genuinely incapable through categorical exceptions—children, the physically disabled—precisely because it cannot accommodate them individually without unraveling the standard."
+  ],
+  "paragraphsB": [
+    "Defenders of the objective standard of care commonly present it as the price of administrability: individualizing the inquiry, they say, would invite endless litigation over the defendant's capacities and would leave victims unable to predict the care they are owed. Both claims deserve scrutiny. The predictive argument assumes that victims actually form expectations by reference to the legal standard, when there is little reason to think they do; a pedestrian's confidence in approaching traffic derives from experience of how drivers behave, not from knowledge of how courts will judge them.",
+    "The administrability argument is stronger but proves less than its proponents suppose. Courts already inquire into a defendant's particular knowledge when it exceeds the ordinary—the physician is held to the standard of a physician, the expert to that of an expert. If superior capacity can be attributed to the defendant without destabilizing the standard, it is not obvious why inferior capacity cannot be, at least where the incapacity is verifiable and was not itself the product of a choice. The asymmetry suggests that the objective standard is not, in truth, a response to the limits of judicial inquiry, but a substantive judgment that the inexperienced should bear the costs of their inexperience. That judgment may be defensible, but it should be defended as such rather than disguised as a concession to practicality."
+  ],
+  "roleMap": {
+    "paragraphs": ["main_point", "support"],
+    "viewpoints": [
+      { "who": "Author of passage A", "position": "The objective standard is justified because tort law allocates accident costs, gives victims stable expectations, and spares courts an inquiry they cannot conduct well", "authorAgrees": null },
+      { "who": "Critics of the objective standard (described in A)", "position": "The standard unfairly holds the incapable to a level of care they cannot meet", "authorAgrees": null },
+      { "who": "Author of passage B", "position": "The practical justifications for the objective standard fail; it rests on an unacknowledged substantive judgment that should be defended openly", "authorAgrees": null }
+    ],
+    "tone": "A assured; B skeptical and probing"
+  },
+  "lowResSummary": "Point/counterpoint: A defends the objective negligence standard; B dismantles its practical justifications and exposes a hidden value judgment.",
+  "questions": [
+    {
+      "id": "rc-reasonable-person-two-views-q1",
+      "type": "relationship",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately describes the relationship between the two passages?",
+      "choices": {
+        "A": "Passage B provides empirical evidence for the claim that passage A advances on purely theoretical grounds.",
+        "B": "Passage B challenges the justifications that passage A offers for the position passage A defends.",
+        "C": "Passage A and passage B reach the same conclusion about the standard of care by different routes.",
+        "D": "Passage B applies to a specific category of defendants a general principle that passage A articulates.",
+        "E": "Passage A traces the history of a legal doctrine whose abolition passage B then proposes."
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "B offers no empirical evidence and argues against A's conclusion, not for it.",
+        "B": "Correct. B's first sentence lists the 'price of administrability' arguments A makes, then says 'Both claims deserve scrutiny' and attacks each.",
+        "C": "A endorses the objective standard; B concludes it rests on an undefended judgment and may warrant individualizing for verifiable incapacity.",
+        "D": "B's physician example is used to expose an asymmetry in A's reasoning, not to apply A's principle.",
+        "E": "A contains no history, and B stops short of proposing abolition: the judgment 'may be defensible.'"
+      },
+      "trapPatterns": { "A": "opposite", "C": "opposite", "D": "shell_game", "E": "extreme" },
+      "keyTakeaway": "Relationship answers must match both the direction (agree/oppose) and the level (conclusion vs. justification) of the exchange.",
+      "evidence": [0, 1]
+    },
+    {
+      "id": "rc-reasonable-person-two-views-q2",
+      "type": "main_point",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately expresses the main point of passage B?",
+      "choices": {
+        "A": "The objective standard of care should be replaced by an inquiry into each defendant's actual capacities.",
+        "B": "Victims of negligence do not form their expectations about care by reference to the legal standard.",
+        "C": "Courts are considerably better equipped to assess defendants' individual capacities than is commonly assumed.",
+        "D": "The usual practical justifications for the objective standard do not withstand scrutiny, and the standard in fact rests on an unacknowledged substantive judgment.",
+        "E": "Because physicians and experts are held to a higher standard of care, the inexperienced should be held to a correspondingly lower one."
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "Too strong: B says only that it is 'not obvious why' inferior capacity cannot be considered, and that the objective standard 'may be defensible.'",
+        "B": "True, but it is only B's response to the first of two arguments; the main point covers both and the conclusion drawn from them.",
+        "C": "B never claims courts are well equipped; it argues the asymmetry shows administrability is not the real reason.",
+        "D": "Correct. B scrutinizes both claims and concludes the standard 'is not, in truth, a response to the limits of judicial inquiry, but a substantive judgment.'",
+        "E": "B draws a conditional observation about asymmetry, not a prescription for lowering the standard."
+      },
+      "trapPatterns": { "A": "extreme", "B": "half_right", "C": "shell_game", "E": "wrong_force" },
+      "keyTakeaway": "In a comparative set, each passage has its own main point; read the stem for which passage is being asked about.",
+      "evidence": [0, 1]
+    },
+    {
+      "id": "rc-reasonable-person-two-views-q3",
+      "type": "stated",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "According to passage A, the law accommodates the genuinely incapable by",
+      "choices": {
+        "A": "creating categorical exceptions for groups such as children and the physically disabled.",
+        "B": "permitting defendants to prove that their incapacity was not the product of a choice.",
+        "C": "holding them to the standard of a person with their own particular limitations.",
+        "D": "shifting the costs of the accidents they cause onto the potential victims of those accidents.",
+        "E": "allowing courts to inquire into their actual capacities on a case-by-case basis."
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. A's final sentence: 'through categorical exceptions—children, the physically disabled.'",
+        "B": "The 'product of a choice' qualification is passage B's, not A's.",
+        "C": "This is the individualized inquiry A rejects.",
+        "D": "A describes tort law as allocating costs but never says incapacity is accommodated by shifting costs to victims.",
+        "E": "A says the law 'cannot accommodate them individually without unraveling the standard.'"
+      },
+      "trapPatterns": { "B": "wrong_part", "C": "opposite", "D": "shell_game", "E": "opposite" },
+      "keyTakeaway": "In comparative sets, stated questions often plant a detail from the other passage as a trap.",
+      "evidence": [1]
+    },
+    {
+      "id": "rc-reasonable-person-two-views-q4",
+      "type": "approach",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "Passage A and passage B differ in that only passage A",
+      "choices": {
+        "A": "considers whether the objective standard treats inexperienced or clumsy defendants unfairly by demanding more than they can give.",
+        "B": "discusses the standard of care applied to defendants with specialized expertise.",
+        "C": "characterizes tort law as a mechanism for allocating accident costs rather than for assessing fault.",
+        "D": "questions whether potential victims form their expectations by reference to the legal standard.",
+        "E": "proposes that the standard be modified for defendants whose incapacity can be verified."
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "Both do: A raises the critics' objection; B's conclusion concerns whether 'the inexperienced should bear the costs of their inexperience.'",
+        "B": "Only B mentions physicians and experts.",
+        "C": "Correct. Only A says 'Tort law is not a system of moral grading; it is a mechanism for allocating the costs of accidents.'",
+        "D": "Only B does this, in its first paragraph.",
+        "E": "Only B gestures at this, and tentatively; A rejects individual accommodation."
+      },
+      "trapPatterns": { "A": "comparison_shift", "B": "opposite", "D": "opposite", "E": "wrong_part" },
+      "keyTakeaway": "'Only passage A' requires checking that B does not do it too; the hardest trap is something both passages do.",
+      "evidence": [0]
+    },
+    {
+      "id": "rc-reasonable-person-two-views-q5",
+      "type": "other_perspective",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "The author of passage B would be most likely to respond to passage A's claim about stable expectations by arguing that",
+      "choices": {
+        "A": "pedestrians cannot be expected to know the legal standard of care in every jurisdiction they visit.",
+        "B": "stable expectations are less important than the fair treatment of incapable defendants.",
+        "C": "the objective standard in fact produces unstable expectations because it varies with the circumstances.",
+        "D": "courts already individualize the standard for physicians and experts, so the expectations of potential victims are already unstable.",
+        "E": "the expectations that potential victims actually hold are shaped by observed behavior rather than by the legal standard."
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "B's point is about the source of expectations, not about variation across jurisdictions, which is never mentioned.",
+        "B": "B does not weigh fairness against predictability; it denies that the predictability argument describes reality.",
+        "C": "B never claims the standard produces instability; it claims the standard is not what expectations are built from.",
+        "D": "B uses the expert example against the administrability argument, not the expectations argument.",
+        "E": "Correct. B: confidence 'derives from experience of how drivers behave, not from knowledge of how courts will judge them.'"
+      },
+      "trapPatterns": { "A": "shell_game", "B": "out_of_scope", "C": "opposite", "D": "half_right" },
+      "keyTakeaway": "Match the specific objection to the specific argument; B answers A's two arguments with two different replies.",
+      "evidence": [0]
+    },
+    {
+      "id": "rc-reasonable-person-two-views-q6",
+      "type": "author_perspective",
+      "logicTags": ["value_judgment"],
+      "difficulty": 2,
+      "stem": "Passage A most strongly suggests that its author would agree with which one of the following?",
+      "choices": {
+        "A": "A defendant who is morally blameless should never be held liable in negligence.",
+        "B": "The objective standard is justified primarily because it accurately identifies those who are at fault.",
+        "C": "Individualized standards are appropriate whenever the defendant's incapacity can be verified.",
+        "D": "A legal rule may be justified even if it holds some people to a standard they cannot personally satisfy.",
+        "E": "The categorical exceptions for children and the disabled are inconsistent with the rationale for the objective standard."
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "A says tort law allocates costs between parties 'neither of whom may be at fault'; blamelessness does not bar liability.",
+        "B": "A expressly denies that tort law is 'a system of moral grading.'",
+        "C": "This is B's suggestion; A says individual accommodation would unravel the standard.",
+        "D": "Correct. A calls the unfairness objection 'humane but misconceived' and defends the standard anyway.",
+        "E": "A presents the exceptions as the way the law accommodates incapacity consistently with the standard."
+      },
+      "trapPatterns": { "A": "extreme", "B": "opposite", "C": "wrong_part", "E": "opposite" },
+      "keyTakeaway": "An author who calls an objection 'humane but misconceived' accepts its premise and denies its conclusion.",
+      "evidence": [0, 1]
+    },
+    {
+      "id": "rc-reasonable-person-two-views-q7",
+      "type": "meaning_in_context",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "Which one of the following most accurately expresses the meaning of \"disguised as a concession to practicality\" as it is used in passage B?",
+      "choices": {
+        "A": "presented as a reluctant compromise between the demands of fairness to defendants and the interests of victims",
+        "B": "presented as though it were required by administrative constraints rather than chosen on the merits",
+        "C": "concealed from the courts that must apply the standard in negligence cases",
+        "D": "justified by reference to the needs of victims rather than those of defendants",
+        "E": "defended on the ground that it is the simplest standard for juries to understand"
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "B's point is the opposite: the standard is a judgment dressed up as a practical necessity, not a compromise with fairness.",
+        "B": "Correct. The sentence contrasts defending the judgment 'as such' with presenting it as a response to 'the limits of judicial inquiry.'",
+        "C": "Nothing is hidden from courts; B is criticizing how the standard's defenders argue.",
+        "D": "The victim-based argument is the predictive one, which B treats separately.",
+        "E": "Juries and simplicity of understanding are never mentioned."
+      },
+      "trapPatterns": { "A": "shell_game", "C": "out_of_scope", "D": "wrong_part", "E": "out_of_scope" },
+      "keyTakeaway": "Meaning-in-context keys come from the contrast the sentence itself sets up.",
+      "evidence": [1]
+    }
+  ]
+}
