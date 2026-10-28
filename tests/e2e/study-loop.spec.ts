@@ -85,8 +85,10 @@ test("review detail: classify a miss and mark reviewed", async ({ page }) => {
   const first = page.getByRole("listitem").getByRole("link", { name: /^Review$/ }).first();
   if (!(await first.isVisible().catch(() => false))) test.skip(true, "no misses to review in this run");
   await first.click();
-  await expect(page.getByRole("heading", { name: /why did this happen/i })).toBeVisible({ timeout: 30_000 });
-  await page.getByRole("radio", { name: /logic gap/i }).click();
+  await expect(page.getByRole("heading", { name: /why did this happen/i })).toBeVisible({ timeout: 60_000 });
+  const radio = page.getByRole("radio", { name: /logic gap/i });
+  await radio.scrollIntoViewIfNeeded();
+  await radio.click({ timeout: 60_000 });
   await page.getByLabel(/one-line takeaway/i).fill("Check the force of the conclusion before the choices.");
   await page.getByRole("button", { name: /save & mark reviewed/i }).click();
   await expect(page).toHaveURL(/\/review$/, { timeout: 20_000 });

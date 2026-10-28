@@ -33,7 +33,7 @@ test("onboarding builds a plan and re-planning preserves history", async ({ page
 
   // Re-plan to June 9 2027
   await page.getByRole("button", { name: /change date or hours/i }).click();
-  await page.getByLabel("Test date").fill("2027-06-09");
+  await page.getByLabel("Test date").selectOption("2027-06-09");
   await page.getByRole("button", { name: /^re-plan$/i }).click();
   await expect(page.getByRole("heading", { name: /Test day Jun 9, 2027/ })).toBeVisible({ timeout: 30_000 });
   await expect(page.getByText(/Final week — protect the score: .*Jun 8/)).toBeVisible();

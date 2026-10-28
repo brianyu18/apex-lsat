@@ -32,8 +32,17 @@ test("RC drill: read passage, unlock questions, answer one, see passage summary"
   test.setTimeout(180_000);
   await onboard(page);
   await page.goto("/drill");
-  await page.getByRole("button", { name: /reading comprehension/i }).click();
-  await expect(page).toHaveURL(/\/drill\/rc/);
+  // the quick-start button needs hydration in dev; retry the click until the route changes
+  await expect
+    .poll(
+      async () => {
+        await page.getByRole("button", { name: /reading comprehension/i }).click();
+        await page.waitForTimeout(500);
+        return page.url();
+      },
+      { timeout: 60_000 },
+    )
+    .toMatch(/\/drill\/rc/);
   // Questions are locked until the passage is read
   await expect(page.getByText(/questions follow\. they unlock/i)).toBeVisible({ timeout: 60_000 });
   await page.getByRole("button", { name: /show questions/i }).click();
