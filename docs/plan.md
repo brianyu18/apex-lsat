@@ -245,6 +245,19 @@ Builds the personal LSAT study tool from the spec in five phases, each ending in
 
 **Phase 3 batch verification** → report; commit `phase-3`.
 
+#### Phase 3 — as built (2026-10-28)
+| Task | Status | Where |
+|---|---|---|
+| 3.1 RC schema + PassageMap | ✅ | `lib/content/schema.ts` (RCPassageSchema, roleMap/viewpoints/lowResSummary ≤160), `components/diagrams/passage-map.tsx` |
+| 3.2 Unit 4 lessons | ✅ 12 lessons, 65 total | `content/lessons/u4/*.mdx` |
+| 3.3 RC bank | ✅ 48 sets / 313 Qs, 10 comparative, topics 12×4, styles per spec; blind solvers 313/313 | `content/bank/rc/*.json`, `scripts/gen/qa-rc.ts`, `scripts/gen/prompts/rc-spec.md` (generate-rc.ts deferred: bank authored in-session, same as LR) |
+| 3.4 RC drill + RC section | ✅ | `app/drill/rc`, `components/drill/{rc-session,passage-panel}.tsx`, `lib/data/rc.ts` (assembleRcSection), `/test/section?kind=RC` |
+| 3.5 Timing heatmap | ✅ | `components/test/timing-heatmap.tsx`, `/test/timing`, `timingGrid()` in `lib/data/sections.ts` (per-question vs `lrTargetCumulative`, thirds summary, slowest types) |
+| 3.6 Skip trainer | ✅ | `lib/engine/skip-policy.ts`, `components/test/skip-trainer.tsx`, `/test/skip-trainer` (10 s gate, return pass, decision score) |
+| 3.7 PT simulator | ✅ | `lib/data/pt.ts`, `components/test/{lawhub-section,pt-runner}.tsx`, `/test/pt` (random experimental, 10-min break, single BR, scaled) |
+| 3.8 LawHub import | ✅ | `lib/import/lawhub.ts` (grid + CSV), `lib/data/import.ts`, `/test/import` |
+| 3.9 Cloud switch | ⏸ deferred until Brian asks (DATABASE_URL swap already supported) | — |
+
 ---
 
 ## Phase 4 — Analytics + AI tutor (week 8–10)
