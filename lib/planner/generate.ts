@@ -34,6 +34,8 @@ export interface PlanInput {
   diagnosticScaled?: number | null;
   /** which weekday indexes (0=Sun) are rest days; derived from daysPerWeek if omitted */
   restDays?: number[];
+  /** extra days granted to a phase (planner v2 extension); later flex phases absorb it when the date is fixed */
+  extraDays?: Partial<Record<Phase, number>>;
 }
 
 export interface PlanPhase {
@@ -82,7 +84,6 @@ export function generatePlan(input: PlanInput): GeneratedPlan {
   const provisional = !input.testDate;
   const testDate = input.testDate ? startOfDay(parseISO(input.testDate)) : addDays(start, DEFAULT_UNDECIDED_WEEKS * 7);
   const totalDays = Math.max(7, differenceInCalendarDays(testDate, start)); // days of prep before test day
-  const totalWeeks = totalDays / 7;
 
   // Phase lengths in days
   const shares = { ...SHARES };
@@ -111,6 +112,33 @@ export function generatePlan(input: PlanInput): GeneratedPlan {
   // Give any rounding remainder to mixed.
   lengths.mixed += totalDays - sum;
 
+  // Planner v2: extend phases whose exit criteria weren't met. With a fixed test
+  // date the later flex phases (never protect) give the days back, proportionally;
+  // with no date the plan simply gets longer.
+  let extendedTotal = totalDays;
+  for (const p of PHASES) {
+    const extra = input.extraDays?.[p] ?? 0;
+    if (extra <= 0) continue;
+    lengths[p] += extra;
+    if (provisional) {
+      extendedTotal += extra;
+      continue;
+    }
+    const later = PHASES.slice(PHASES.indexOf(p) + 1).filter((q) => q !== "protect");
+    const laterTotal = later.reduce((a, q) => a + lengths[q], 0);
+    let toTake = Math.min(extra, Math.max(0, laterTotal - later.length * 7)); // never squeeze a phase under a week
+    for (const q of later) {
+      if (toTake <= 0) break;
+      const take = Math.min(toTake, Math.round((lengths[q] / laterTotal) * extra), Math.max(0, lengths[q] - 7));
+      lengths[q] -= take;
+      toTake -= take;
+    }
+    // any remainder that could not be absorbed comes off the extended phase itself
+    lengths[p] -= toTake;
+  }
+  const finalTest = provisional ? addDays(start, extendedTotal) : testDate;
+  const finalTotalDays = extendedTotal;
+
   const phases: PlanPhase[] = [];
   let cursor = start;
   for (const p of PHASES) {
@@ -126,7 +154,7 @@ export function generatePlan(input: PlanInput): GeneratedPlan {
 
   const days: PlanDay[] = [];
   let weekdayCounter = 0; // counts study days to place weekly PTs
-  for (let i = 0; i < totalDays; i++) {
+  for (let i = 0; i < finalTotalDays; i++) {
     const d = addDays(start, i);
     const phase = phases.find((p) => fmt(d) >= p.start && fmt(d) <= p.end)?.phase ?? "mixed";
     if (rest.has(d.getDay())) {
@@ -134,14 +162,14 @@ export function generatePlan(input: PlanInput): GeneratedPlan {
       continue;
     }
     weekdayCounter++;
-    const blocks = blocksFor(phase, minutesPerStudyDay, weekdayCounter, studyDaysPerWeek, i === totalDays - 1);
+    const blocks = blocksFor(phase, minutesPerStudyDay, weekdayCounter, studyDaysPerWeek, i === finalTotalDays - 1);
     days.push({ day: fmt(d), phase, blocks, minutes: blocks.reduce((s, b) => s + b.minutes, 0) });
   }
 
   return {
-    testDate: fmt(testDate),
+    testDate: fmt(finalTest),
     provisional,
-    totalWeeks: Math.round(totalWeeks * 10) / 10,
+    totalWeeks: Math.round((finalTotalDays / 7) * 10) / 10,
     phases,
     days,
     totalMinutes: days.reduce((s, d) => s + d.minutes, 0),

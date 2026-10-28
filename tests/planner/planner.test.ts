@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { addDays, differenceInCalendarDays, parseISO, format } from "date-fns";
 import { DEFAULT_UNDECIDED_WEEKS, defaultRestDays, generatePlan, PHASES } from "@/lib/planner/generate";
-import { replan } from "@/lib/planner/replan";
+import { registrationAdvice, replan } from "@/lib/planner/replan";
 
 const START = "2026-10-27";
 const HOURS = 12;
@@ -86,5 +86,61 @@ describe("replan", () => {
     expect(next.days[0].day).toBe(START);
     expect(next.days[next.days.length - 1].day).toBe("2027-06-08");
     expect(next.phases[next.phases.length - 1].phase).toBe("protect");
+  });
+});
+
+describe("planner v2 — exit criteria", () => {
+  const input = { testDate: "2027-04-08", hoursPerWeek: 12, daysPerWeek: 6 };
+  it("unmet LR criteria at phase end → LR extended 1 week, later phases compressed, final week preserved", () => {
+    const base = generatePlan({ ...input, startDate: START });
+    const lr = base.phases.find((p) => p.phase === "lr")!;
+    const today = lr.end; // last day of LR
+    const done = base.days.filter((d) => d.day < today);
+    const next = replan(input, { today, completedDays: done, startDate: START, signals: { lrReady: false } });
+    expect(next.extended).toBe("lr");
+    expect(next.extraDays).toEqual({ lr: 7 });
+    const lr2 = next.phases.find((p) => p.phase === "lr")!;
+    expect(differenceInCalendarDays(parseISO(lr2.end), parseISO(lr.end))).toBe(7);
+    // date fixed → same test date, protect still ≥ 7 days and same length
+    expect(next.testDate).toBe("2027-04-08");
+    const prot = next.phases.find((p) => p.phase === "protect")!;
+    const prot0 = base.phases.find((p) => p.phase === "protect")!;
+    expect(differenceInCalendarDays(parseISO(prot.end), parseISO(prot.start))).toBe(differenceInCalendarDays(parseISO(prot0.end), parseISO(prot0.start)));
+    // later flex phases gave the week back
+    const later = (p: typeof base) => p.phases.filter((x) => x.phase === "rc" || x.phase === "mixed").reduce((a, x) => a + differenceInCalendarDays(parseISO(x.end), parseISO(x.start)) + 1, 0);
+    expect(later(base) - later(next)).toBe(7);
+    // completed days untouched, every day still present once
+    expect(next.days.filter((d) => d.day < today)).toEqual(done);
+    expect(new Set(next.days.map((d) => d.day)).size).toBe(next.days.length);
+  });
+  it("met or unknown criteria → no extension; mid-phase → no extension", () => {
+    const base = generatePlan({ ...input, startDate: START });
+    const lr = base.phases.find((p) => p.phase === "lr")!;
+    expect(replan(input, { today: lr.end, completedDays: [], startDate: START, signals: { lrReady: true } }).extended).toBeNull();
+    expect(replan(input, { today: lr.end, completedDays: [], startDate: START, signals: {} }).extended).toBeNull();
+    expect(replan(input, { today: lr.start, completedDays: [], startDate: START, signals: { lrReady: false } }).extended).toBeNull();
+  });
+  it("undecided date → extension lengthens the plan instead of compressing", () => {
+    const und = { testDate: null, hoursPerWeek: 12, daysPerWeek: 6 };
+    const base = generatePlan({ ...und, startDate: START });
+    const f = base.phases.find((p) => p.phase === "foundations")!;
+    const next = replan(und, { today: f.end, completedDays: [], startDate: START, signals: { foundationsPassed: false } });
+    expect(next.extended).toBe("foundations");
+    expect(differenceInCalendarDays(parseISO(next.testDate), parseISO(base.testDate))).toBe(7);
+  });
+  it("prior extensions carry forward", () => {
+    const next = replan(input, { today: "2026-12-01", completedDays: [], startDate: START, priorExtraDays: { lr: 7 }, signals: {} });
+    expect(next.extraDays).toEqual({ lr: 7 });
+  });
+});
+
+describe("registrationAdvice", () => {
+  it("floor within 2 of goal → register", () => {
+    expect(registrationAdvice({ n: 3, low: 173, high: 177, mean: 175 }, 175, null).verdict).toBe("register");
+  });
+  it("too few tests → wait; goal inside range → keep; far below with little time → postpone", () => {
+    expect(registrationAdvice({ n: 1, low: 160, high: 168, mean: 164 }, 175, null).verdict).toBe("wait");
+    expect(registrationAdvice({ n: 3, low: 170, high: 176, mean: 173 }, 175, "2027-04-08", "2026-12-01").verdict).toBe("keep");
+    expect(registrationAdvice({ n: 3, low: 160, high: 166, mean: 163 }, 175, "2026-12-10", "2026-12-01").verdict).toBe("postpone");
   });
 });

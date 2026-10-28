@@ -2,7 +2,7 @@ import Link from "next/link";
 import { redirect } from "next/navigation";
 import { format, parseISO, differenceInCalendarDays } from "date-fns";
 import { getSettings } from "@/lib/data/settings";
-import { getActivePlan, getPlanDays } from "@/lib/data/plan";
+import { getActivePlan, getPlanDays, phaseSignals, registrationStatus } from "@/lib/data/plan";
 import { PHASE_LABELS, type Phase } from "@/lib/planner/generate";
 import { Badge, Card, CardDescription, CardTitle } from "@/components/ui/primitives";
 import { Button } from "@/components/ui/button";
@@ -27,8 +27,10 @@ export default async function PlanPage() {
   if (!s.onboarded) redirect("/onboarding");
   const plan = await getActivePlan();
   if (!plan) redirect("/onboarding");
-  const days = await getPlanDays(plan.id);
+  const [days, signals, reg] = await Promise.all([getPlanDays(plan.id), phaseSignals(), registrationStatus()]);
   const today = format(new Date(), "yyyy-MM-dd");
+  const extra = (plan.extraDays ?? {}) as Record<string, number>;
+  const regTone = reg.advice.verdict === "register" ? "ok" : reg.advice.verdict === "postpone" ? "bad" : reg.advice.verdict === "keep" ? "warn" : "neutral";
   const todayRow = days.find((d) => d.day === today);
   const currentPhase = todayRow?.phase ?? plan.phases[0]?.phase;
   const daysLeft = plan.testDate ? differenceInCalendarDays(parseISO(plan.testDate), parseISO(today)) : null;
@@ -83,6 +85,31 @@ export default async function PlanPage() {
         </div>
       </Card>
 
+      {/* Readiness: exit criteria + registration */}
+      <div className="grid gap-4 lg:grid-cols-2" data-testid="readiness">
+        <Card>
+          <CardTitle>Phase exit criteria</CardTitle>
+          <CardDescription>Each phase has a bar to clear. If the data says it isn&apos;t cleared in the phase&apos;s final week, re-planning extends that phase by a week and the later phases absorb it.</CardDescription>
+          <ul className="mt-3 space-y-2 text-sm">
+            <Criterion label="Foundations" met={signals.foundationsPassed} text="≥ 80% of Unit 1 lesson checks passed" extra={extra.foundations} />
+            <Criterion label="Logical Reasoning" met={signals.lrReady} text="≥ 75% of LR types (≥ 10 attempts each) rated at level 3+" extra={extra.lr} />
+            <Criterion label="Reading Comprehension" met={signals.rcReady} text="RC rating at level 3+ over ≥ 30 attempts" extra={extra.rc} />
+          </ul>
+        </Card>
+        <Card className={reg.advice.verdict === "register" ? "border-ok" : reg.advice.verdict === "postpone" ? "border-bad" : ""}>
+          <div className="flex items-start justify-between gap-3">
+            <CardTitle>Registration</CardTitle>
+            <Badge tone={regTone}>{reg.advice.verdict}</Badge>
+          </div>
+          <p className="mt-2 text-sm text-ink-2">{reg.advice.reason}</p>
+          {reg.range.n > 0 && (
+            <p className="mt-2 text-xs text-ink-3">
+              Range {reg.range.low}–{reg.range.high} over {reg.range.n} full-length test{reg.range.n > 1 ? "s" : ""} · goal {reg.goal}. Rule: register when the floor is within 2 of the goal.
+            </p>
+          )}
+        </Card>
+      </div>
+
       {/* Today */}
       <Card>
         <div className="flex items-start justify-between gap-4">
@@ -114,5 +141,20 @@ export default async function PlanPage() {
 
       <PlanCalendar days={days.map((d) => ({ day: d.day, phase: d.phase, minutes: d.minutes, completed: d.completed, blocks: d.blocks }))} today={today} testDate={plan.testDate} />
     </div>
+  );
+}
+
+function Criterion({ label, met, text, extra }: { label: string; met: boolean | null | undefined; text: string; extra?: number }) {
+  return (
+    <li className="flex items-start gap-2">
+      <span aria-hidden className={met ? "text-ok" : met === false ? "text-bad" : "text-ink-3"}>
+        {met ? "✓" : met === false ? "✗" : "○"}
+      </span>
+      <span>
+        <span className="font-medium">{label}</span> <span className="text-ink-2">— {text}</span>
+        {met == null && <span className="ml-1 text-xs text-ink-3">(not enough data yet)</span>}
+        {extra ? <span className="ml-1 text-xs text-warn">extended +{extra} days</span> : null}
+      </span>
+    </li>
   );
 }

@@ -237,6 +237,9 @@ export const plan = pgTable("plan", {
   phases: jsonb("phases")
     .$type<{ phase: string; start: string; end: string; weeks: number }[]>()
     .notNull(),
+  /** planner v2: days granted to phases whose exit criteria weren't met */
+  extraDays: jsonb("extra_days").$type<Record<string, number> | null>(),
+  startDate: date("start_date"),
   generatedAt: timestamp("generated_at", { withTimezone: true }).notNull().defaultNow(),
   active: boolean("active").notNull().default(true),
 });
