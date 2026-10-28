@@ -1,0 +1,200 @@
+{
+  "id": "rc-m4-hearsay-rule-origins",
+  "style": "critique_debate",
+  "topic": "law",
+  "comparative": false,
+  "title": "Two Rationales for the Hearsay Rule",
+  "paragraphs": [
+    "Few doctrines of Anglo-American evidence law have attracted as much historical speculation as the rule against hearsay, which, in its canonical form, excludes an out-of-court statement offered to prove the truth of what it asserts. The account that long prevailed in the treatises holds that the rule crystallized in the late seventeenth century as a response to the perceived frailties of the lay jury: judges, having only recently ceased to punish jurors for verdicts against the evidence, substituted a prophylactic exclusion for the supervision they had lost. On this view the rule is fundamentally epistemic, a judgment that untrained fact finders cannot be trusted to discount secondhand reports appropriately, and its many exceptions are best understood as categories in which such discounting is thought unnecessary.",
+    "Margaret Ostrow's recent study challenges this chronology and, with it, the epistemic reading. Drawing on assize records and printed accounts of trials, Ostrow argues that the exclusion of hearsay did not become routine until the middle decades of the eighteenth century, roughly coincident with the admission of defense counsel to felony trials. Once advocates were permitted to cross-examine prosecution witnesses, she contends, the trial reorganized itself around that confrontation, and evidence that could not be tested by it came to seem anomalous. The hearsay rule, in short, was a procedural artifact: it followed the rise of the adversarial trial rather than any prior theory about juror competence. Ostrow is accordingly skeptical of modern reformers who defend the rule's exceptions by appeal to the reliability of particular classes of statement, since on her account reliability was never the rule's animating concern.",
+    "Ostrow's archival work is formidable, and her dating of routine exclusion is difficult to resist. Yet the inference she draws from it is less secure than she allows. Civil litigation, in which counsel had long been active, produced articulated objections to hearsay well before the felony trial was transformed, and these objections were framed not in terms of what counsel could test but in terms of what a jury could safely weigh. It has also been observed that the earliest reported exclusions concern precisely those statements, such as deathbed accusations, whose emotional force on a jury was thought disproportionate to their probative value.",
+    "The more fruitful conclusion, I would suggest, is that the two rationales Ostrow treats as rivals were in practice mutually constitutive. Cross-examination acquired its centrality because it supplied the one procedural remedy for the juror's acknowledged inability to assess an absent declarant; the jury's limitations, conversely, were made visible and actionable only once a mechanism existed for exposing them. If that is right, the historical question cannot settle the contemporary one that Ostrow hopes it will. A reformer who grounds an exception in the reliability of a class of statements is not misreading the rule's history but drawing on one strand of a rationale that was always double."
+  ],
+  "roleMap": {
+    "paragraphs": ["context", "counterpoint", "concession", "main_point"],
+    "viewpoints": [
+      { "who": "Traditional treatise writers", "position": "The hearsay rule arose in the late seventeenth century from judicial distrust of lay jurors' ability to weigh secondhand evidence; it is fundamentally epistemic.", "authorAgrees": null },
+      { "who": "Margaret Ostrow", "position": "Routine exclusion dates from the mid-eighteenth century and was a procedural byproduct of cross-examination by defense counsel, not a theory of juror competence; reliability-based defenses of exceptions misread the rule.", "authorAgrees": false },
+      { "who": "Modern reformers", "position": "Hearsay exceptions can be justified by the reliability of particular classes of statement.", "authorAgrees": true }
+    ],
+    "tone": "respectful but firmly qualified disagreement"
+  },
+  "lowResSummary": "Author accepts Ostrow's dating of the hearsay rule but rejects her inference that procedure displaced the juror-competence rationale; the two grew together.",
+  "questions": [
+    {
+      "id": "rc-m4-hearsay-rule-origins-q1",
+      "type": "main_point",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately expresses the main point of the passage?",
+      "choices": {
+        "A": "Ostrow's archival research establishes that the hearsay rule arose in the mid-eighteenth century as a byproduct of adversarial felony trials rather than from distrust of the competence of lay juries.",
+        "B": "Although Ostrow's dating of the hearsay rule is persuasive, her conclusion that the rule was procedural rather than epistemic is unwarranted, because the two rationales developed together.",
+        "C": "Modern reformers who justify hearsay exceptions by appeal to the reliability of certain statements have fundamentally misunderstood the rule's historical origins.",
+        "D": "The traditional account of the hearsay rule as a response to juror incompetence is confirmed by evidence drawn from civil litigation that predates the transformation of the felony trial.",
+        "E": "Historical inquiry into the origins of evidentiary rules is of little use in resolving contemporary debates about how those rules should be reformed."
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "Half right. The author accepts Ostrow's dating ('difficult to resist') but the second half states the inference the author rejects in paragraphs 3 and 4 ('less secure than she allows').",
+        "B": "Correct. Paragraph 3 grants the chronology and disputes the inference; paragraph 4 states the author's own conclusion that the rationales were 'mutually constitutive.'",
+        "C": "Opposite. This is Ostrow's position (end of paragraph 2); the author's final sentence says such a reformer 'is not misreading the rule's history.'",
+        "D": "Wrong force. The civil-litigation evidence in paragraph 3 is used to undermine Ostrow's inference, not to 'confirm' the traditional account, which the author also declines to endorse wholesale.",
+        "E": "Extreme. The author says only that 'the historical question cannot settle the contemporary one' in this instance, not that history is 'of little use' for reform generally."
+      },
+      "trapPatterns": { "A": "half_right", "C": "opposite", "D": "wrong_force", "E": "extreme" },
+      "keyTakeaway": "When an author grants a scholar's evidence but rejects her inference, the main point lives in that split; answers that swallow the inference whole or deny the evidence are both wrong.",
+      "evidence": [2, 3]
+    },
+    {
+      "id": "rc-m4-hearsay-rule-origins-q2",
+      "type": "stated",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "According to the passage, Ostrow bases her dating of the hearsay rule's routine application on",
+      "choices": {
+        "A": "treatises written by judges in the seventeenth century",
+        "B": "records of objections raised in civil litigation",
+        "C": "reports of cases involving deathbed accusations",
+        "D": "assize records and printed accounts of trials",
+        "E": "the writings of modern reformers of evidence law"
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "Shell game. Treatises are the source of the traditional account in paragraph 1, not of Ostrow's dating.",
+        "B": "Wrong part. Civil litigation is the author's counterevidence in paragraph 3, not Ostrow's source.",
+        "C": "Wrong part. Deathbed accusations are cited in paragraph 3 as part of the author's objection, not as Ostrow's basis.",
+        "D": "Correct. Paragraph 2: 'Drawing on assize records and printed accounts of trials, Ostrow argues...'",
+        "E": "Out of scope. Modern reformers are the target of Ostrow's skepticism, not a source for her chronology."
+      },
+      "trapPatterns": { "A": "shell_game", "B": "wrong_part", "C": "wrong_part", "E": "out_of_scope" },
+      "keyTakeaway": "Detail questions about a named scholar are answered where that scholar's work is introduced; sources cited by the author against her belong to a different paragraph.",
+      "evidence": [1]
+    },
+    {
+      "id": "rc-m4-hearsay-rule-origins-q3",
+      "type": "author_perspective",
+      "logicTags": [],
+      "difficulty": 4,
+      "stem": "The passage most strongly suggests that the author would agree with which one of the following statements about cross-examination?",
+      "choices": {
+        "A": "Its importance in the eighteenth-century trial depended in part on a prior recognition that jurors could not adequately evaluate statements by absent declarants.",
+        "B": "It was introduced into felony trials chiefly in order to give effect to an already established rule against hearsay.",
+        "C": "It became available in civil litigation only after it had transformed the conduct of felony trials.",
+        "D": "It provides the only reliable means by which the accuracy of any class of out-of-court statements can be tested.",
+        "E": "Its centrality to the modern trial makes reliability-based exceptions to the hearsay rule difficult to justify, since reliability was never the rule's animating concern."
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. Paragraph 4: cross-examination 'acquired its centrality because it supplied the one procedural remedy for the juror's acknowledged inability to assess an absent declarant.'",
+        "B": "Reversal. Neither Ostrow nor the author says counsel was admitted to enforce a hearsay rule; Ostrow says the rule followed cross-examination, and the author says the two developed together.",
+        "C": "Opposite. Paragraph 3 says civil litigation was one 'in which counsel had long been active' before the felony trial was transformed.",
+        "D": "Extreme. The author calls cross-examination 'the one procedural remedy' for a juror's limitation, not the 'only reliable means' of testing any statement; the final sentence endorses reliability as a separate ground.",
+        "E": "Wrong part. This is Ostrow's view (end of paragraph 2), which the author's final sentence rejects."
+      },
+      "trapPatterns": { "B": "reversal", "C": "opposite", "D": "extreme", "E": "wrong_part" },
+      "keyTakeaway": "The author's own account of cross-examination appears only in the final paragraph; the tempting wrong answers restate Ostrow's framing, which the author has just rejected.",
+      "evidence": [2, 3]
+    },
+    {
+      "id": "rc-m4-hearsay-rule-origins-q4",
+      "type": "purpose_in_context",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The author mentions deathbed accusations primarily in order to",
+      "choices": {
+        "A": "illustrate a category of statement that modern reformers have sought to admit under a reliability exception",
+        "B": "provide an example of evidence that could not be tested by cross-examination in eighteenth-century felony trials",
+        "C": "show that the earliest exclusions of hearsay occurred in civil rather than criminal proceedings",
+        "D": "demonstrate that Ostrow's dating of the routine exclusion of hearsay is mistaken",
+        "E": "suggest that early exclusions were motivated by concern about the effect of certain statements on jurors"
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "Out of scope. The passage never connects deathbed accusations to modern reformers or to any exception.",
+        "B": "Wrong part. That framing belongs to Ostrow's procedural account in paragraph 2; the author's point in paragraph 3 is about jurors, not counsel.",
+        "C": "Half right. Paragraph 3 does discuss civil litigation, but the deathbed example is offered for a different reason, the 'emotional force on a jury.'",
+        "D": "Opposite. The author calls Ostrow's dating 'difficult to resist'; the example attacks her inference, not her chronology.",
+        "E": "Correct. The sentence says the earliest exclusions concern statements 'whose emotional force on a jury was thought disproportionate to their probative value.'"
+      },
+      "trapPatterns": { "A": "out_of_scope", "B": "wrong_part", "C": "half_right", "D": "opposite" },
+      "keyTakeaway": "Read the clause that follows the example; here 'emotional force on a jury' tells you the example supports the juror-competence rationale.",
+      "evidence": [2]
+    },
+    {
+      "id": "rc-m4-hearsay-rule-origins-q5",
+      "type": "other_perspective",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "The passage suggests that Ostrow would be most likely to agree with which one of the following?",
+      "choices": {
+        "A": "The hearsay rule's exceptions should be expanded to admit any class of statement that can be shown to be reliable.",
+        "B": "Seventeenth-century judges excluded hearsay because they doubted the competence of lay jurors.",
+        "C": "An account of the hearsay rule that begins from the reliability of evidence misidentifies what the rule was originally for.",
+        "D": "The admission of defense counsel to felony trials was a consequence of the growing routine exclusion of hearsay.",
+        "E": "The objections to hearsay raised in civil litigation, where counsel had long been active, offer the clearest evidence of the rule's procedural origins."
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "Opposite. Ostrow is 'skeptical of modern reformers who defend the rule's exceptions by appeal to the reliability' of statements.",
+        "B": "Wrong part. This is the traditional account Ostrow challenges; she denies the rule reflected 'any prior theory about juror competence.'",
+        "C": "Correct. Paragraph 2 ends: 'on her account reliability was never the rule's animating concern.'",
+        "D": "Reversal. Ostrow says the rule 'followed the rise of the adversarial trial,' not that counsel followed the rule.",
+        "E": "Shell game. Ostrow's evidence is assize records and felony trials; civil litigation is the author's evidence against her in paragraph 3."
+      },
+      "trapPatterns": { "A": "opposite", "B": "wrong_part", "D": "reversal", "E": "shell_game" },
+      "keyTakeaway": "For a named scholar's view, the last sentence of her paragraph often carries the sharpest commitment; here it is the rejection of reliability as the rule's purpose.",
+      "evidence": [1]
+    },
+    {
+      "id": "rc-m4-hearsay-rule-origins-q6",
+      "type": "meaning_in_context",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "Which one of the following most accurately expresses the meaning of 'mutually constitutive' as it is used in the passage?",
+      "choices": {
+        "A": "each depending on the other for its development and significance",
+        "B": "historically simultaneous but causally independent of one another",
+        "C": "given equal emphasis in the earliest treatises on evidence",
+        "D": "difficult to distinguish from one another in the surviving records",
+        "E": "jointly sufficient to explain every recognized exception to the rule"
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. The following sentence spells it out: cross-examination mattered 'because' of the juror's limitations, and those limitations became 'actionable only once a mechanism existed.'",
+        "B": "Opposite. 'Causally independent' contradicts the 'because' and 'only once' that follow.",
+        "C": "Out of scope. The treatises (paragraph 1) emphasize only the epistemic rationale.",
+        "D": "Shell game. The phrase is about how the rationales related in practice, not about the legibility of records.",
+        "E": "Extreme. Nothing in paragraph 4 claims the rationales explain 'every' exception."
+      },
+      "trapPatterns": { "B": "opposite", "C": "out_of_scope", "D": "shell_game", "E": "extreme" },
+      "keyTakeaway": "Define an abstract phrase by the sentence that immediately glosses it; here the gloss is explicitly causal in both directions.",
+      "evidence": [3]
+    },
+    {
+      "id": "rc-m4-hearsay-rule-origins-q7",
+      "type": "principle",
+      "logicTags": [],
+      "difficulty": 4,
+      "stem": "Which one of the following principles underlies the author's reasoning in the third and fourth paragraphs?",
+      "choices": {
+        "A": "A legal rule's original purpose should determine how its exceptions are applied today.",
+        "B": "When two explanations of a rule's origin are both supported by evidence, the explanation that dates the rule earlier should be preferred.",
+        "C": "The reliability of a class of evidence is the only legitimate ground for admitting it despite a rule of exclusion.",
+        "D": "Establishing when a rule became routine does not by itself establish which of several purposes the rule served.",
+        "E": "Procedural mechanisms are adopted only after the problems they remedy have been fully articulated."
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "Opposite. The author concludes that 'the historical question cannot settle the contemporary one.'",
+        "B": "Out of scope. The author does not prefer an earlier dating; he accepts Ostrow's later dating and disputes only what follows from it.",
+        "C": "Extreme. The author defends reliability as 'one strand' of a double rationale, not as the 'only legitimate ground.'",
+        "E": "Reversal. Paragraph 4 says the jury's limitations 'were made visible and actionable only once a mechanism existed,' so the mechanism preceded full articulation of the problem.",
+        "D": "Correct. Paragraph 3 accepts the dating but calls the inference 'less secure'; paragraph 4 shows the dated event is compatible with both rationales. The move depends on separating chronology from purpose."
+      },
+      "trapPatterns": { "A": "opposite", "B": "out_of_scope", "C": "extreme", "E": "reversal" },
+      "keyTakeaway": "A principle question asks what general rule licenses the author's step; here the step is 'accept the date, reject the inference,' which only D captures.",
+      "evidence": [2, 3]
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "id": "rc-m4-documentary-consent",
+  "style": "critique_debate",
+  "topic": "humanities",
+  "comparative": true,
+  "title": "Consent and the Documentary Subject",
+  "paragraphs": [
+    "Debates about the ethics of documentary film tend to founder on a demand that no practice could satisfy. Critics observe that a subject who agrees to be filmed cannot know what the finished work will make of her, and conclude that her agreement is therefore hollow. But the same could be said of anyone who sits for a portrait, gives an interview, or testifies before a tribunal. We do not ordinarily think that the impossibility of foreseeing every consequence of an act of self-disclosure nullifies the act. What consent secures is not control over outcomes but the subject's standing as a participant rather than a specimen, and that standing is secured at the moment of agreement.",
+    "The filmmaker's obligations are accordingly procedural. Nadia Oyelaran's widely adopted protocol sets them out: a subject must be told the film's working premise and its intended audience; must be able to withdraw at any point before the work is locked; and must be shown the sequences in which she appears before release, with an opportunity to object. Beyond this the filmmaker owes the subject honesty, not protection. A documentary that leaves its subject unflattered has not wronged her if she entered it with open eyes, and a code that demanded otherwise would, by making every unwelcome portrait an injury, end by making only welcome portraits possible."
+  ],
+  "paragraphsB": [
+    "The appeal to consent in documentary ethics rests on a confusion about what is being consented to. A subject agrees to be filmed; she does not, and cannot, agree to the film, for the film does not yet exist. Its meaning is produced afterward, in the cutting room, through decisions about sequence, duration, juxtaposition, and omission that the subject neither sees nor shapes. To say that her earlier agreement covers this later object is to treat the footage as if it carried its significance with it, when in fact significance is precisely what editing confers. Even the procedural safeguards now customary, such as preview screenings, come too late to be more than a veto over details.",
+    "This is not to say that consent is worthless; it is a necessary condition of filming anyone at all. It is to say that it cannot be the measure of whether a film has treated its subject justly. That measure must be the portrait itself: whether the person the audience meets is one the subject could recognize as herself, however unwelcome the recognition. The much-discussed case of The Quiet Season, whose subject approved every sequence shown to her and yet found the assembled whole a caricature, makes the point. Her consent was impeccable; the film was not. An ethics that cannot register the difference has mistaken a permission for a justification."
+  ],
+  "roleMap": {
+    "paragraphs": ["main_point", "support"],
+    "viewpoints": [
+      { "who": "Critics cited in passage A", "position": "Because a subject cannot foresee what the film will make of her, her consent is hollow.", "authorAgrees": false },
+      { "who": "Author of passage A (with Oyelaran's protocol)", "position": "Consent secures the subject's standing as a participant; the filmmaker's duties are procedural, and an unwelcome portrait is not a wrong.", "authorAgrees": true },
+      { "who": "Author of passage B", "position": "Consent is necessary but cannot cover meaning produced in editing; the measure of just treatment is whether the subject could recognize herself in the portrait.", "authorAgrees": true }
+    ],
+    "tone": "A assured; B pointedly corrective"
+  },
+  "lowResSummary": "A defends procedural consent as sufficient documentary ethics; B replies consent cannot cover meaning made in editing, so the portrait itself must be judged.",
+  "questions": [
+    {
+      "id": "rc-m4-documentary-consent-q1",
+      "type": "main_point",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately expresses the main point of passage A?",
+      "choices": {
+        "A": "Documentary filmmakers owe their subjects protection from unflattering portrayal as well as honesty about the film's working premise and its intended audience and distribution.",
+        "B": "Because no subject can foresee how footage of her will eventually be used, her consent to being filmed is necessarily hollow.",
+        "C": "Oyelaran's protocol is the only set of procedures that adequately secures a documentary subject's informed consent.",
+        "D": "A subject who sits for a portrait or gives an interview incurs the same risks of misrepresentation as a documentary subject does.",
+        "E": "Consent secures a subject's standing as a participant, so a filmmaker who honors fair procedures has met her obligations even if the resulting portrait is unwelcome."
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "Opposite. Passage A says the filmmaker 'owes the subject honesty, not protection.'",
+        "B": "Opposite. This is the critics' conclusion that passage A's first paragraph rejects.",
+        "C": "Extreme. The protocol is called 'widely adopted,' not the 'only' adequate one.",
+        "D": "Wrong part. The portrait and interview comparisons are a supporting analogy against the critics, not the thesis.",
+        "E": "Correct. Paragraph 1 ends with standing 'secured at the moment of agreement'; paragraph 2 says a subject who 'entered it with open eyes' has not been wronged by an unflattering film."
+      },
+      "trapPatterns": { "A": "opposite", "B": "opposite", "C": "extreme", "D": "wrong_part" },
+      "keyTakeaway": "Passage A's thesis has two parts, what consent secures and what follows for the filmmaker's duties; the main point joins them.",
+      "evidence": [0, 1]
+    },
+    {
+      "id": "rc-m4-documentary-consent-q2",
+      "type": "relationship",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately describes the relationship between the two passages?",
+      "choices": {
+        "A": "Passage B provides empirical support for the ethical standard that passage A defends.",
+        "B": "Passage B argues that the standard passage A defends is necessary but insufficient, and proposes a different measure of ethical treatment.",
+        "C": "Passage B rejects the practice of obtaining consent that passage A describes as essential.",
+        "D": "Passage B applies to a particular film the general protocol that passage A endorses.",
+        "E": "Passage B and passage A agree that the portrait itself is the proper measure of a documentary's ethics but differ about who should judge it."
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "Opposite. B's example, The Quiet Season, is offered to show the inadequacy of A's standard.",
+        "B": "Correct. B: consent 'is a necessary condition' but 'cannot be the measure'; 'That measure must be the portrait itself.'",
+        "C": "Extreme. B says consent is 'a necessary condition of filming anyone at all'; it does not reject the practice.",
+        "D": "Shell game. B's case shows a subject who 'approved every sequence' and was still wronged; it does not apply A's protocol but exposes its limits.",
+        "E": "Half right. Only B takes the portrait as the measure; A locates the decisive moment at agreement."
+      },
+      "trapPatterns": { "A": "opposite", "C": "extreme", "D": "shell_game", "E": "half_right" },
+      "keyTakeaway": "B's 'This is not to say... It is to say' structure announces a necessary-but-not-sufficient relationship to A's standard.",
+      "evidence": [0, 1, 2, 3]
+    },
+    {
+      "id": "rc-m4-documentary-consent-q3",
+      "type": "stated",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "According to passage A, Oyelaran's protocol requires that a documentary subject",
+      "choices": {
+        "A": "approve the final cut of the film before its release",
+        "B": "be compensated for her participation in the film",
+        "C": "be permitted to withdraw at any time after the film's release",
+        "D": "be told the film's working premise and intended audience",
+        "E": "be consulted about decisions of sequence and juxtaposition"
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "Extreme. The subject is 'shown the sequences in which she appears... with an opportunity to object,' which is not approval of the final cut.",
+        "B": "Out of scope. Compensation is never mentioned.",
+        "C": "Opposite. Withdrawal is permitted 'at any point before the work is locked,' not after release.",
+        "D": "Correct. 'A subject must be told the film's working premise and its intended audience.'",
+        "E": "Wrong part. Sequence and juxtaposition are passage B's concern about editing, not part of A's protocol."
+      },
+      "trapPatterns": { "A": "extreme", "B": "out_of_scope", "C": "opposite", "E": "wrong_part" },
+      "keyTakeaway": "The protocol is a three-item list; the right answer is a near-verbatim item, and the traps alter timing or strength.",
+      "evidence": [1]
+    },
+    {
+      "id": "rc-m4-documentary-consent-q4",
+      "type": "stated",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "Passage B states that the subject of The Quiet Season",
+      "choices": {
+        "A": "approved each of the sequences that was shown to her",
+        "B": "withdrew her consent after viewing the assembled film",
+        "C": "was never informed of the film's working premise",
+        "D": "objected to the duration of several of the sequences",
+        "E": "refused to recognize herself in any individual scene"
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. The subject 'approved every sequence shown to her and yet found the assembled whole a caricature.'",
+        "B": "Out of scope. No withdrawal is mentioned.",
+        "C": "Out of scope. Passage B says nothing about the premise; indeed it calls her consent 'impeccable.'",
+        "D": "Shell game. Duration is listed among editing decisions in B's first paragraph, not as an objection she raised.",
+        "E": "Opposite. Her objection was to 'the assembled whole,' not to individual scenes, which she approved."
+      },
+      "trapPatterns": { "B": "out_of_scope", "C": "out_of_scope", "D": "shell_game", "E": "opposite" },
+      "keyTakeaway": "The case turns on the contrast between approved parts and a distorting whole; keep that contrast straight.",
+      "evidence": [3]
+    },
+    {
+      "id": "rc-m4-documentary-consent-q5",
+      "type": "other_perspective",
+      "logicTags": [],
+      "difficulty": 4,
+      "stem": "The author of passage A would be most likely to respond to the case of The Quiet Season by arguing that",
+      "choices": {
+        "A": "the film's subject could not genuinely have consented, because she had not seen the finished work",
+        "B": "the filmmaker should have shown the subject the assembled whole rather than the individual sequences in which she appeared",
+        "C": "a subject who entered the film with open eyes was not wronged merely because the finished portrait was unwelcome",
+        "D": "the subject's inability to foresee the finished film nullified her agreement to appear in it",
+        "E": "the filmmaker was obligated to protect the subject from being portrayed as a caricature"
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "Opposite. This is passage B's position that one cannot consent to a film that 'does not yet exist.'",
+        "B": "Half right. It sounds like a procedural fix in A's spirit, but A's protocol specifies 'the sequences in which she appears,' and A insists that beyond procedure the filmmaker 'owes the subject honesty, not protection.' A would not concede that a further showing was owed.",
+        "C": "Correct. Passage A: 'A documentary that leaves its subject unflattered has not wronged her if she entered it with open eyes.'",
+        "D": "Wrong part. This is the critics' argument that A's first paragraph rejects as a 'demand that no practice could satisfy.'",
+        "E": "Opposite. A denies any duty of protection."
+      },
+      "trapPatterns": { "A": "opposite", "B": "half_right", "D": "wrong_part", "E": "opposite" },
+      "keyTakeaway": "To predict A's response, apply A's rule to B's facts: consent was impeccable, so by A's lights no wrong occurred. B is the trap that quietly concedes B's premise.",
+      "evidence": [1, 3]
+    },
+    {
+      "id": "rc-m4-documentary-consent-q6",
+      "type": "meaning_in_context",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately expresses the meaning of 'locked' as it is used in passage A?",
+      "choices": {
+        "A": "secured against unauthorized copying or distribution",
+        "B": "approved by the subject after a preview screening",
+        "C": "released to the audience for which it was intended",
+        "D": "finalized so that no further editing will occur",
+        "E": "withheld from public view by the filmmaker"
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "Out of scope. Nothing in the protocol concerns copying.",
+        "B": "Shell game. Subject preview is a separate, later step in the protocol ('shown the sequences... before release').",
+        "C": "Shell game. The protocol distinguishes locking from release; the preview occurs after lock and 'before release.'",
+        "D": "Correct. Withdrawal is allowed 'before the work is locked,' and the next step is showing finished sequences, so 'locked' marks the point at which the edit is fixed.",
+        "E": "Opposite. Locking precedes release; it is not withholding."
+      },
+      "trapPatterns": { "A": "out_of_scope", "B": "shell_game", "C": "shell_game", "E": "opposite" },
+      "keyTakeaway": "Place the term in the protocol's sequence: withdraw before lock, preview after lock, then release. 'Locked' means the edit is final.",
+      "evidence": [1]
+    },
+    {
+      "id": "rc-m4-documentary-consent-q7",
+      "type": "approach",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "Which one of the following most accurately describes a way in which the two passages differ?",
+      "choices": {
+        "A": "Passage A treats the moment of agreement as decisive for a subject's ethical standing, whereas passage B locates the decisive moment in the editing of the film.",
+        "B": "Passage A relies on a specific case to make its argument, whereas passage B argues from general principles alone.",
+        "C": "Passage A denies that filmmakers owe their subjects honesty, whereas passage B insists that they do.",
+        "D": "Passage A regards preview screenings as unnecessary, whereas passage B regards them as sufficient.",
+        "E": "Passage A addresses the ethics of portraiture, interviews, and testimony in general, whereas passage B confines itself entirely to the ethics of documentary film."
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. A: standing 'is secured at the moment of agreement'; B: meaning 'is produced afterward, in the cutting room,' and the measure is 'the portrait itself.'",
+        "B": "Reversal. It is B that uses a specific case (The Quiet Season); A argues from analogies and a protocol.",
+        "C": "Opposite. A says the filmmaker 'owes the subject honesty.'",
+        "D": "Reversal. A's protocol includes previews; B says they 'come too late to be more than a veto over details,' so B finds them insufficient.",
+        "E": "Shell game. A invokes portraits and interviews only as analogies; both passages are about documentary film."
+      },
+      "trapPatterns": { "B": "reversal", "C": "opposite", "D": "reversal", "E": "shell_game" },
+      "keyTakeaway": "The core difference is temporal: where each passage locates the ethically decisive moment. Everything else is derivative.",
+      "evidence": [0, 2, 3]
+    }
+  ]
+}

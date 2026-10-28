@@ -1,0 +1,176 @@
+{
+  "id": "rc-sociology-varga-latent-ties",
+  "style": "spotlight",
+  "topic": "social_science",
+  "comparative": false,
+  "title": "Zsófia Varga and the Latent Tie",
+  "paragraphs": [
+    "When the sociologist Zsófia Varga published her study of displaced steelworkers in 1974, it was received, insofar as it was received at all, as a provincial confirmation of a theory already in circulation. Conrad Dunmore’s work on “bridging ties” had shown a few years earlier that people more often learn of job openings through acquaintances than through close friends, because acquaintances move in different circles and therefore carry information that one’s intimates already share. Varga’s finding that laid-off workers in the Ózd valley found new employment largely through people they rarely saw seemed to be the same result in a different setting, and for two decades her monograph was cited, when it was cited, as a footnote to Dunmore’s.",
+    "This reading mistook what Varga had actually found. The contacts through whom her workers secured jobs were not acquaintances in Dunmore’s sense—people known slightly and seen occasionally—but former classmates, army companions, and neighbors from childhood villages, many of whom the workers had not spoken to in twenty or thirty years. Varga called these relationships latent ties, and she insisted that they differed from weak ties on two dimensions that Dunmore’s framework had no way to register. A latent tie carried a reservoir of trust accumulated during an earlier period of intense contact, so that a request for help could be made without the elaborate preliminaries an acquaintance would require; and its reactivation was costly, demanding an explanation for the long silence, so that people drew on latent ties only under real need.",
+    "The assimilation of Varga to Dunmore was understandable, since both predicted that useful help would come from outside one’s circle of intimates. But the mechanisms were different in kind. Dunmore’s acquaintances were valuable because of the novelty of what they knew; Varga’s dormant contacts were valuable because of what they remembered. The former theory concerned the structure of a network at a moment in time, the latter its history. Varga’s reviewers, trained to read network diagrams as snapshots, had no vocabulary for a tie that was simultaneously strong in its past and absent in its present, and so they filed her under the nearest available heading.",
+    "The vocabulary has since arrived, though from an unexpected direction. Studies of online reconnection, notably Inés Castellanos’s survey of professionals who had revived dormant contacts through networking platforms, have found that such contacts provide both the novel information associated with weak ties and the willingness to exert effort associated with strong ones—a combination that Dunmore’s framework predicts should not exist and Varga’s predicts should. Castellanos acknowledges the precedent generously. It is nonetheless a reproach to the discipline that Varga’s central idea, which was conceptual rather than technological, had to wait for a technology that made latent ties visible before anyone would take it seriously."
+  ],
+  "roleMap": {
+    "paragraphs": ["context", "main_point", "support", "implication"],
+    "viewpoints": [
+      { "who": "Varga’s early reviewers", "position": "Her study merely confirmed Dunmore’s bridging-tie theory in a new setting", "authorAgrees": false },
+      { "who": "Conrad Dunmore", "position": "Acquaintances are valuable because they carry novel information from other circles", "authorAgrees": null },
+      { "who": "Zsófia Varga", "position": "Latent ties, dormant but trust-bearing, are a distinct resource different in mechanism from weak ties", "authorAgrees": true },
+      { "who": "Author", "position": "Varga made a genuine conceptual contribution that the field wrongly subsumed and only belatedly recognized", "authorAgrees": true }
+    ],
+    "tone": "admiring of Varga, reproachful toward the field"
+  },
+  "lowResSummary": "Author argues Varga’s latent-tie concept was wrongly folded into weak-tie theory and has been vindicated only recently, to the discipline’s discredit.",
+  "questions": [
+    {
+      "id": "rc-sociology-varga-latent-ties-q1",
+      "type": "main_point",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately expresses the main point of the passage?",
+      "choices": {
+        "A": "Online networking platforms have shown that dormant contacts combine the advantages of weak and strong ties.",
+        "B": "Dunmore’s theory of bridging ties was less original than its reputation suggested, since Varga had anticipated its central finding.",
+        "C": "Varga’s study of displaced steelworkers was methodologically superior to Dunmore’s but was neglected because of its provincial setting.",
+        "D": "Network analysis went astray for two decades because its practitioners read network diagrams as snapshots.",
+        "E": "Varga identified a distinct kind of social tie that was wrongly treated as an instance of Dunmore’s theory and has only lately been recognized."
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "This is the recent evidence of paragraph 4, which the passage uses to vindicate Varga; it is support, not the main point.",
+        "B": "The passage never says Varga anticipated Dunmore’s finding; it says her finding was a different one that was mistaken for his.",
+        "C": "No methodological comparison is made, and the neglect is attributed to conceptual blindness, not setting (“provincial” describes the reception, not the cause).",
+        "D": "The snapshot habit explains the misreading, but the passage is about Varga’s contribution, not a general indictment of the field’s methods.",
+        "E": "Correct. Paragraph 2: “This reading mistook what Varga had actually found”; paragraph 4: the idea “had to wait… before anyone would take it seriously.”"
+      },
+      "trapPatterns": { "A": "wrong_part", "B": "shell_game", "C": "out_of_scope", "D": "wrong_part" },
+      "keyTakeaway": "Spotlight passages: the main point is the reassessment claim about the person’s contribution, not the evidence that prompts it.",
+      "evidence": [1, 3]
+    },
+    {
+      "id": "rc-sociology-varga-latent-ties-q2",
+      "type": "stated",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "According to the passage, Varga held that latent ties differ from weak ties in that latent ties",
+      "choices": {
+        "A": "are maintained through occasional contact over many years",
+        "B": "connect people who move in the same social circles",
+        "C": "carry accumulated trust and are costly to reactivate",
+        "D": "are more useful for finding employment than close friendships are",
+        "E": "provide information that one’s intimates do not already possess"
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "Latent ties involve no current contact; the workers “had not spoken to” these people for decades.",
+        "B": "Nothing is said about shared circles; and if anything, former classmates and army companions had dispersed.",
+        "C": "Correct. Paragraph 2 names “two dimensions”: a “reservoir of trust” and reactivation that “was costly.”",
+        "D": "Both Varga and Dunmore found help came from outside the intimate circle; this is a point of similarity, not the stated difference.",
+        "E": "Novel information is Dunmore’s mechanism for weak ties, which the passage contrasts with Varga’s."
+      },
+      "trapPatterns": { "A": "opposite", "B": "out_of_scope", "D": "shell_game", "E": "wrong_part" },
+      "keyTakeaway": "When the passage enumerates (“two dimensions”), the stated key will name both; traps name shared features or the rival’s mechanism.",
+      "evidence": [1]
+    },
+    {
+      "id": "rc-sociology-varga-latent-ties-q3",
+      "type": "purpose_of_passage",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The primary purpose of the passage is to",
+      "choices": {
+        "A": "compare two competing explanations of how people find employment",
+        "B": "correct a longstanding misreading of a scholar’s work and account for its belated vindication",
+        "C": "argue that network analysis should abandon the distinction between weak and strong ties",
+        "D": "describe how online networking platforms have transformed the study of social networks",
+        "E": "defend Dunmore’s theory of bridging ties against the charge that it ignored the history of relationships"
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "Varga and Dunmore are not presented as competing explanations of the same thing; the point is that they described different things.",
+        "B": "Correct. Paragraphs 2–3 correct the misreading; paragraph 4 explains why recognition came late.",
+        "C": "The passage adds a category to the weak/strong distinction rather than abandoning it.",
+        "D": "Online platforms are mentioned only as the occasion for recent studies; the passage is not about their effect on the field.",
+        "E": "The passage neither attacks nor defends Dunmore; it faults his readers for assimilating Varga to him."
+      },
+      "trapPatterns": { "A": "shell_game", "C": "extreme", "D": "wrong_part", "E": "reversal" },
+      "keyTakeaway": "Purpose-of-passage keys describe the author’s action (correct, reassess, defend); verify the verb against what each paragraph does.",
+      "evidence": [1, 2, 3]
+    },
+    {
+      "id": "rc-sociology-varga-latent-ties-q4",
+      "type": "author_attitude",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The author’s attitude toward the sociological discipline’s treatment of Varga’s work can most accurately be described as",
+      "choices": {
+        "A": "sympathetic understanding of an error that was unavoidable at the time",
+        "B": "indignation at a deliberate effort to suppress a rival theory",
+        "C": "amusement at the irony that technology vindicated a conceptual claim",
+        "D": "critical, while acknowledging that the misreading was understandable",
+        "E": "resignation to the inevitability that provincial scholarship will be overlooked"
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "The author calls the assimilation “understandable” but does not call it unavoidable, and the final sentence is a “reproach,” not sympathy.",
+        "B": "Nothing suggests deliberate suppression; the reviewers “had no vocabulary” for the idea.",
+        "C": "The technological route to vindication is called “unexpected,” but the author’s response is reproach, not amusement.",
+        "D": "Correct. “The assimilation of Varga to Dunmore was understandable” (paragraph 3) paired with “It is nonetheless a reproach to the discipline” (paragraph 4).",
+        "E": "The author does not treat neglect as inevitable and attributes it to conceptual habits, not provinciality."
+      },
+      "trapPatterns": { "A": "half_right", "B": "extreme", "C": "shell_game", "E": "out_of_scope" },
+      "keyTakeaway": "Attitude keys often pair a concession with a judgment; find both words (“understandable,” “reproach”).",
+      "evidence": [2, 3]
+    },
+    {
+      "id": "rc-sociology-varga-latent-ties-q5",
+      "type": "author_perspective",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "It can be inferred from the passage that the author would be most likely to agree with which one of the following?",
+      "choices": {
+        "A": "A theory that represents a network only as it exists at one moment will be unable to capture some relationships that matter to people’s outcomes.",
+        "B": "Castellanos’s findings would have been impossible to obtain before the advent of networking platforms.",
+        "C": "Dunmore’s framework correctly predicts that weak ties cannot provide both novel information and willingness to exert effort.",
+        "D": "The steelworkers in Varga’s study would have found employment more quickly had they relied on acquaintances.",
+        "E": "Varga’s reviewers would have recognized her contribution had her study been conducted in a less remote region."
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. Paragraph 3: snapshot readers “had no vocabulary for a tie that was simultaneously strong in its past and absent in its present,” and those ties were how the workers found jobs.",
+        "B": "The author stresses that Varga’s idea “was conceptual rather than technological,” implying it could have been taken seriously earlier; the platforms merely made it visible.",
+        "C": "The author presents Castellanos’s combination as something Dunmore’s framework “predicts should not exist” yet does exist, so the prediction is treated as mistaken.",
+        "D": "No comparison of speed is made, and the passage treats latent ties as what actually worked.",
+        "E": "The explanation given for the misreading is conceptual, not geographic."
+      },
+      "trapPatterns": { "B": "extreme", "C": "opposite", "D": "out_of_scope", "E": "shell_game" },
+      "keyTakeaway": "The key generalizes the author’s diagnosis of the error (snapshot versus history); B tempts by confusing visibility with possibility.",
+      "evidence": [2, 3]
+    },
+    {
+      "id": "rc-sociology-varga-latent-ties-q6",
+      "type": "application",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "Which one of the following would Varga, as her views are described in the passage, most likely consider an example of a latent tie?",
+      "choices": {
+        "A": "A colleague in another department whom one greets at monthly meetings and occasionally consults",
+        "B": "A relative with whom one speaks weekly and who shares most of one’s social circle",
+        "C": "A university roommate with whom one has had no contact for fifteen years",
+        "D": "A stranger encountered at a conference who works in a field one knows little about",
+        "E": "A neighbor one has lived beside for a decade but has never spoken to"
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "This is a weak tie in Dunmore’s sense: known slightly, seen occasionally, with ongoing light contact.",
+        "B": "This is a strong tie: current, frequent, and overlapping circles.",
+        "C": "Correct. Paragraph 2: latent ties arise from “an earlier period of intense contact” followed by long silence; a former roommate unseen for fifteen years fits exactly.",
+        "D": "A stranger has no earlier period of intense contact and therefore no reservoir of trust.",
+        "E": "Proximity without any history of contact supplies no accumulated trust; the tie was never active, so it cannot be dormant."
+      },
+      "trapPatterns": { "A": "shell_game", "B": "wrong_part", "D": "out_of_scope", "E": "half_right" },
+      "keyTakeaway": "Application keys satisfy every element of the definition (past intensity, present absence); E tempts with absence alone.",
+      "evidence": [1]
+    }
+  ]
+}

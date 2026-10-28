@@ -1,0 +1,200 @@
+{
+  "id": "rc-m4-perspective-florence",
+  "style": "phenomenon_hypothesis",
+  "topic": "humanities",
+  "comparative": false,
+  "title": "Why Perspective Became Actual in Florence",
+  "paragraphs": [
+    "That painters in Florence began, in the second and third decades of the fifteenth century, to construct pictorial space according to a single, geometrically consistent system is not in dispute. Why they did so then and there remains one of the more stubborn questions in the history of art. The optical theory on which the method rests had circulated in Latin for two centuries and was studied with greater sophistication in Oxford and Paris than in Tuscany. Surveying instruments capable of fixing a vanishing point were in use wherever land was measured. Whatever made Florentine perspective possible, in short, was available almost everywhere; whatever made it actual was not.",
+    "Celia Brandt has argued that the decisive factor was the recovery, in a Florentine workshop, of a particular optical treatise whose diagrams suggested the practical construction. Her reconstruction of the treatise's movements is careful, but it leaves unexplained why similar texts, in similar hands elsewhere, produced nothing comparable. Arnaud Lefevre's alternative shifts attention from texts to habits of mind. Florentine merchants, he observes, were schooled from childhood in commercial arithmetic, and the perspectival picture, with its proportional diminution of equal intervals, is a visual counterpart to the problems of gauging and partition that filled their textbooks. A city of such merchants, Lefevre concludes, was uniquely prepared to see in a measured picture something true.",
+    "There is much to be said for Lefevre's account, and I accept a good part of it. It explains with real economy why Florentine patrons, once offered constructed space, valued it so highly and so quickly. But an explanation of demand is not an explanation of supply. The merchant's arithmetic tells us why a perspectival altarpiece found eager viewers; it does not tell us why painters, trained in a craft that had for generations achieved spatial effect by intuition and adjustment, should have submitted that intuition to a procedure. The transition from a space that looked right to one that could be shown to be right is a change in the painter's conception of his own activity, and it is this that most requires explanation.",
+    "What distinguished Florence was less its texts or its arithmetic than the institution through which its most consequential commissions were awarded. Public works were assigned by committees of guildsmen who heard competing proposals, compared trial pieces, and, in a city that lived by contract, demanded grounds for preferring one over another. Before such a tribunal a singular effect, however striking, counted for less than a method that could be exhibited, defended, and reproduced by others. Perspective supplied exactly such a method. It became actual in Florence not because Florentines alone could understand it, but because Florence alone had made the demonstrability of a procedure the currency in which painters competed."
+  ],
+  "roleMap": {
+    "paragraphs": ["context", "counterpoint", "concession", "main_point"],
+    "viewpoints": [
+      { "who": "Celia Brandt", "position": "The recovery of a particular optical treatise in a Florentine workshop was the decisive factor.", "authorAgrees": false },
+      { "who": "Arnaud Lefevre", "position": "Florentine merchants' training in commercial arithmetic prepared the city to value measured pictures as true.", "authorAgrees": null },
+      { "who": "The author", "position": "Florence's competitive, committee-judged system of public commissions rewarded demonstrable method, which is why painters adopted perspective there.", "authorAgrees": true }
+    ],
+    "tone": "measured, partly sympathetic, finally assertive"
+  },
+  "lowResSummary": "Author rejects a textual explanation of Florentine perspective, accepts the commercial account only for demand, and credits competitive public commissioning.",
+  "questions": [
+    {
+      "id": "rc-m4-perspective-florence-q1",
+      "type": "main_point",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "Which one of the following most accurately expresses the main point of the passage?",
+      "choices": {
+        "A": "Although merchants' arithmetic helps explain why Florentines valued perspective, painters' adoption of a demonstrable method is best explained by the city's competitive public commissions.",
+        "B": "Lefevre's account of Florentine perspective is superior to Brandt's because it explains both why patrons valued constructed space and why painters were willing to produce it in the first place.",
+        "C": "The emergence of perspective in Florence cannot be explained, since the knowledge it required was available throughout Europe at the time.",
+        "D": "Florentine painters adopted perspective because guild committees required that all public commissions be executed according to geometric rules.",
+        "E": "Historians of art have mistakenly treated the emergence of perspective as a question about texts when it is really a question about habits of mind."
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. Paragraph 3 accepts Lefevre's account of demand ('why Florentine patrons... valued it'); paragraph 4 supplies the author's account of supply.",
+        "B": "Half right. The author prefers Lefevre to Brandt but says explicitly that Lefevre's account 'does not tell us why painters' produced constructed space.",
+        "C": "Extreme. Paragraph 1 poses the question as 'stubborn,' not unanswerable, and paragraph 4 answers it.",
+        "D": "Shell game. Committees 'demanded grounds for preferring one over another'; nothing says they required geometric rules for all commissions.",
+        "E": "Wrong part. This describes Lefevre's shift of attention, which the author accepts only in part."
+      },
+      "trapPatterns": { "B": "half_right", "C": "extreme", "D": "shell_game", "E": "wrong_part" },
+      "keyTakeaway": "When the author's own answer arrives only in the last paragraph, the main point must include it; answers that stop at the best rival view are incomplete.",
+      "evidence": [2, 3]
+    },
+    {
+      "id": "rc-m4-perspective-florence-q2",
+      "type": "stated",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "According to the passage, the optical theory on which perspective rests",
+      "choices": {
+        "A": "was first recovered in a Florentine workshop",
+        "B": "was derived from the practice of land surveying",
+        "C": "had been studied more rigorously in Oxford and Paris than in Tuscany",
+        "D": "was taught to Florentine merchants as part of their commercial training",
+        "E": "was unavailable in Latin until the fifteenth century"
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "Wrong part. Brandt claims a particular treatise was recovered in Florence; the theory itself 'had circulated in Latin for two centuries.'",
+        "B": "Shell game. Surveying instruments are mentioned as a separate prerequisite, not as the source of the theory.",
+        "C": "Correct. Paragraph 1: 'studied with greater sophistication in Oxford and Paris than in Tuscany.'",
+        "D": "Shell game. Merchants were schooled in 'commercial arithmetic,' not optics.",
+        "E": "Opposite. The theory 'had circulated in Latin for two centuries.'"
+      },
+      "trapPatterns": { "A": "wrong_part", "B": "shell_game", "D": "shell_game", "E": "opposite" },
+      "keyTakeaway": "Paragraph 1 lists what was available everywhere; the detail about Oxford and Paris is there to make the Florentine case puzzling.",
+      "evidence": [0]
+    },
+    {
+      "id": "rc-m4-perspective-florence-q3",
+      "type": "purpose_in_context",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The author mentions surveying instruments primarily in order to",
+      "choices": {
+        "A": "identify the means by which Florentine painters first constructed vanishing points",
+        "B": "reinforce the point that the technical prerequisites of perspective were not peculiar to Florence",
+        "C": "suggest that the method of perspective originated in the practical needs of land measurement and surveying",
+        "D": "illustrate the kind of trial piece that guild committees compared when awarding commissions",
+        "E": "support Brandt's claim that a particular treatise's diagrams suggested the practical construction"
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "Out of scope. The passage does not say painters used surveying instruments.",
+        "B": "Correct. The instruments 'were in use wherever land was measured,' leading to the summary that the prerequisites were 'available almost everywhere.'",
+        "C": "Shell game. Availability of instruments is not presented as an origin of the method.",
+        "D": "Wrong part. Trial pieces belong to paragraph 4's account of committees.",
+        "E": "Opposite. Brandt's treatise-based claim is in paragraph 2 and is criticized; the instruments are part of the author's framing in paragraph 1."
+      },
+      "trapPatterns": { "A": "out_of_scope", "C": "shell_game", "D": "wrong_part", "E": "opposite" },
+      "keyTakeaway": "Items in a list that ends 'available almost everywhere' all serve the same function: showing that availability cannot be the explanation.",
+      "evidence": [0]
+    },
+    {
+      "id": "rc-m4-perspective-florence-q4",
+      "type": "author_perspective",
+      "logicTags": [],
+      "difficulty": 4,
+      "stem": "The passage most strongly suggests that the author would agree with which one of the following?",
+      "choices": {
+        "A": "A painter working outside Florence who had read the relevant optical treatise would nonetheless have been unable to construct a perspectival picture.",
+        "B": "Florentine patrons valued perspective chiefly because it could be exhibited, defended, and reproduced by others.",
+        "C": "Intuitive methods of achieving spatial effect produced results that were visibly inferior to those of constructed perspective.",
+        "D": "Brandt's and Lefevre's explanations are incompatible, so that accepting one requires rejecting the other.",
+        "E": "An explanation of why an innovation was welcomed may leave unexplained why practitioners of a craft changed their way of working to produce it."
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "Extreme. The author says what made perspective 'possible' was 'available almost everywhere'; ability is not what was lacking elsewhere.",
+        "B": "Shell game. Demonstrability is what counted before committees of guildsmen (paragraph 4); patrons valued perspective because, per Lefevre, they could 'see in a measured picture something true.'",
+        "C": "Out of scope. The author describes intuitive space as one that 'looked right' and never calls it visibly inferior.",
+        "D": "Out of scope. The author criticizes each on its own terms and never says they exclude one another.",
+        "E": "Correct. Paragraph 3: 'an explanation of demand is not an explanation of supply'; the arithmetic explains eager viewers but not why painters 'submitted that intuition to a procedure.'"
+      },
+      "trapPatterns": { "A": "extreme", "B": "shell_game", "C": "out_of_scope", "D": "out_of_scope" },
+      "keyTakeaway": "The demand/supply distinction in paragraph 3 is the hinge of the passage; B is the trap that fuses what patrons valued with what committees rewarded.",
+      "evidence": [2, 3]
+    },
+    {
+      "id": "rc-m4-perspective-florence-q5",
+      "type": "purpose_of_paragraph",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The primary function of the third paragraph is to",
+      "choices": {
+        "A": "reject Lefevre's account in favor of Brandt's",
+        "B": "summarize the evidence that Lefevre offers in support of his account",
+        "C": "explain why Florentine painters abandoned the intuitive methods of representing space that their craft had relied upon",
+        "D": "grant part of a preceding explanation while identifying what it leaves unexplained",
+        "E": "introduce the author's own explanation of the emergence of perspective"
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "Opposite. The author accepts 'a good part' of Lefevre and has already criticized Brandt.",
+        "B": "Wrong part. Lefevre's evidence is presented in paragraph 2.",
+        "C": "Shell game. The paragraph says this transition 'most requires explanation'; it does not supply the explanation.",
+        "D": "Correct. 'I accept a good part of it... But an explanation of demand is not an explanation of supply.'",
+        "E": "Wrong part. The author's explanation arrives in paragraph 4."
+      },
+      "trapPatterns": { "A": "opposite", "B": "wrong_part", "C": "shell_game", "E": "wrong_part" },
+      "keyTakeaway": "A paragraph built on 'I accept... But... it does not tell us' is a concession that isolates the remaining question.",
+      "evidence": [2]
+    },
+    {
+      "id": "rc-m4-perspective-florence-q6",
+      "type": "other_perspective",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "The passage suggests that Lefevre would be most likely to agree with which one of the following?",
+      "choices": {
+        "A": "The recovery of a particular optical treatise was the decisive factor in the emergence of perspective.",
+        "B": "A viewer's readiness to accept a picture as truthful can depend on skills acquired outside the practice of looking at pictures.",
+        "C": "Painters adopted constructed space because guild committees demanded methods that could be reproduced by others.",
+        "D": "Commercial arithmetic was studied more seriously in Florence than optical theory was studied in Oxford.",
+        "E": "The merchants of Florence were the first Europeans to recognize that the space of a picture could be measured and partitioned like a field."
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "Wrong part. That is Brandt's claim, which Lefevre's account is offered as an alternative to.",
+        "B": "Correct. Lefevre holds that merchants 'schooled from childhood in commercial arithmetic' were 'uniquely prepared to see in a measured picture something true.'",
+        "C": "Wrong part. The committee explanation is the author's, in paragraph 4.",
+        "D": "Comparison shift. The passage compares the study of optics across cities, never arithmetic in Florence against optics in Oxford.",
+        "E": "Extreme. Lefevre says Florentines were prepared to value measured pictures, not that they were 'the first' to recognize measurability."
+      },
+      "trapPatterns": { "A": "wrong_part", "C": "wrong_part", "D": "comparison_shift", "E": "extreme" },
+      "keyTakeaway": "Lefevre's claim is about receptivity formed by non-pictorial training; the right answer abstracts exactly that.",
+      "evidence": [1]
+    },
+    {
+      "id": "rc-m4-perspective-florence-q7",
+      "type": "weaken_strengthen_evaluate",
+      "logicTags": [],
+      "difficulty": 4,
+      "stem": "Which one of the following, if true, would most weaken the explanation the author offers in the final paragraph?",
+      "choices": {
+        "A": "Several of the optical treatises that circulated in Oxford contained diagrams similar to those in the treatise that Brandt identifies.",
+        "B": "The textbooks used to teach Florentine merchants contained more problems of partition than problems of gauging.",
+        "C": "Some of the earliest perspectival paintings in Florence were commissioned by individual patrons for private chapels.",
+        "D": "The guild committees that awarded public commissions in Florence were composed largely of men who had themselves been trained in commercial arithmetic from childhood.",
+        "E": "In several other Italian cities, public commissions were awarded by committees that compared competing trial pieces and required justifications for their choices."
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "True but irrelevant. This reinforces paragraph 1's point that texts were widely available, which the author already grants; it does not touch the committee explanation.",
+        "B": "Out of scope. The relative mix of problems in merchants' textbooks bears on Lefevre's account, not the author's.",
+        "C": "Half right. It looks like a counterexample, but the author's claim concerns 'the most consequential commissions' and the competitive culture they created; some private commissions do not show that culture was absent.",
+        "D": "True but irrelevant. If anything this links the author's institution to Lefevre's habits of mind; it does not undermine the claim that the institution was distinctive.",
+        "E": "Correct. The author's explanation rests on uniqueness: 'Florence alone had made the demonstrability of a procedure the currency in which painters competed.' If other cities had the same institution without producing perspective, the institution cannot explain why Florence did."
+      },
+      "trapPatterns": { "A": "true_but_irrelevant", "B": "out_of_scope", "C": "half_right", "D": "true_but_irrelevant" },
+      "keyTakeaway": "The author's explanation is a 'why here and not elsewhere' claim; the strongest weakener shows the proposed cause was present elsewhere too.",
+      "evidence": [0, 3]
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "id": "rc-m3-salvage-environmental",
+  "style": "problem_analysis",
+  "topic": "law",
+  "comparative": false,
+  "title": "Salvage Law and the Unrewarded Spill",
+  "paragraphs": [
+    "The law of marine salvage rests on an incentive that has changed little in centuries: a volunteer who rescues imperiled property at sea is rewarded with a share of the value of what is saved, and one who saves nothing receives nothing. This principle, commonly styled 'no cure, no pay,' served tolerably well so long as the property at risk—hulls and cargo—was also the thing society most wished to preserve. It serves far less well when the gravest threat posed by a stricken vessel is not the loss of the ship but the escape of what it carries. An aging tanker aground on a reef may be worth little more than scrap, while the coastline it menaces is beyond price; yet a salvor who spends days preventing a spill, and then watches the hull break up, has under the classical rule earned nothing. Salvors, being commercial actors, respond to this arithmetic, and the vessels most in need of attention are precisely those least likely to receive it.",
+    "The first attempt at repair, embodied in Article 12 of the Hallstrom Convention, was a safety net: a salvor who acts to protect the environment and fails to save property may recover expenses, with a modest uplift, from the shipowner. Critics such as Tomasz Reinholt quickly noted the inadequacy of the device. Reimbursement of costs is not profit, and an enterprise that must maintain tugs and crews on standby cannot be sustained on the promise of breaking even. The uplift was made discretionary and was in practice rarely awarded, so that the article became, in Reinholt's phrase, 'an insurance policy against ruin rather than an inducement to act.'",
+    "A more ambitious proposal, associated with Ilse Bramwell, would create a distinct environmental salvage award measured not by the value of property saved but by the magnitude of the harm averted. The proposal has an evident theoretical coherence: it aligns the salvor's reward with the interest society actually holds. Its difficulty is evidentiary. The value of a hull is a matter of market quotation; the value of a spill that did not occur must be reconstructed from counterfactual assumptions about weather, currents, and the fate of cargo that never entered the water. Tribunals asked to fix such awards have produced figures varying by an order of magnitude on comparable facts, and shipowners' insurers, unable to price the exposure, have resisted the proposal with uncommon unanimity.",
+    "The dilemma, then, is between a remedy that is calculable but insufficient and one that is sufficient but incalculable. It is tempting to conclude that the environmental award should simply be refined until tribunals can apply it consistently, but the indeterminacy is not a defect of drafting; it inheres in the attempt to value an event that did not happen. A more modest arrangement—pre-agreed standby tariffs, fixed by industry bodies and supplemented by a bounded premium when environmental measures are undertaken—forgoes the elegance of Bramwell's scheme in exchange for predictability. It is a second-best solution, and should be acknowledged as such; but in a field where the first-best cannot be reliably administered, second-best is not a confession of failure."
+  ],
+  "roleMap": {
+    "paragraphs": ["context", "example", "counterpoint", "main_point"],
+    "viewpoints": [
+      { "who": "Tomasz Reinholt", "position": "The Hallstrom safety net is inadequate because reimbursement without profit is no inducement", "authorAgrees": true },
+      { "who": "Ilse Bramwell", "position": "A separate environmental salvage award measured by harm averted should be created", "authorAgrees": false },
+      { "who": "Shipowners' insurers", "position": "The environmental award cannot be priced and should be resisted", "authorAgrees": null }
+    ],
+    "tone": "pragmatic and measured"
+  },
+  "lowResSummary": "Author shows salvage law fails to reward spill prevention, rejects the environmental award as incalculable, and endorses pre-agreed tariffs as second-best.",
+  "questions": [
+    {
+      "id": "rc-m3-salvage-environmental-q1",
+      "type": "main_point",
+      "logicTags": ["weighing_factors"],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately expresses the main point of the passage?",
+      "choices": {
+        "A": "The classical salvage rule should be abandoned because it rewards salvors for saving property rather than for preventing environmental harm.",
+        "B": "Bramwell's environmental salvage award is theoretically superior to the Hallstrom safety net and should be adopted once tribunals have developed consistent methods for valuing the harm averted.",
+        "C": "Because the value of an averted spill cannot be reliably calculated, salvage law cannot provide salvors with any meaningful incentive to protect the environment.",
+        "D": "Since the most coherent remedy for salvage law's environmental gap cannot be reliably administered, a less elegant but predictable arrangement is the defensible choice.",
+        "E": "The Hallstrom Convention's safety net failed because it reimbursed costs without offering profit, a flaw that pre-agreed standby tariffs would correct."
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "Half right. The problem is correctly stated, but the author's conclusion is a specific second-best arrangement, not abandonment of the rule.",
+        "B": "Opposite. Paragraph 4 denies that refinement can fix the award: 'the indeterminacy is not a defect of drafting; it inheres.'",
+        "C": "Extreme. The author proposes an arrangement that does provide an incentive—tariffs plus a bounded premium.",
+        "D": "Correct. Paragraph 4 frames the dilemma and concludes that 'in a field where the first-best cannot be reliably administered, second-best is not a confession of failure.'",
+        "E": "Wrong part. This describes paragraph 2's diagnosis of one remedy; it omits the Bramwell proposal and the author's reasoning for preferring predictability."
+      },
+      "trapPatterns": { "A": "half_right", "B": "opposite", "C": "extreme", "E": "wrong_part" },
+      "keyTakeaway": "In a problem-analysis passage the main point is the author's assessment of the solutions, including the reason the chosen one is acceptable despite its limits.",
+      "evidence": [2, 3]
+    },
+    {
+      "id": "rc-m3-salvage-environmental-q2",
+      "type": "stated",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "According to the passage, the uplift provided for in Article 12 of the Hallstrom Convention",
+      "choices": {
+        "A": "was calculated as a fixed percentage of the salvor's documented expenses.",
+        "B": "was left to the discretion of the tribunal and was seldom granted.",
+        "C": "was opposed by shipowners' insurers with uncommon unanimity.",
+        "D": "was intended to compensate salvors for property lost after a spill was prevented.",
+        "E": "was sufficient to sustain salvage enterprises that maintained vessels on standby."
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "Out of scope. No formula for the uplift is given; the passage says only that it was 'modest' and 'discretionary.'",
+        "B": "Correct. Paragraph 2: 'the uplift was made discretionary and was in practice rarely awarded.'",
+        "C": "Wrong part. The insurers' unanimous resistance in paragraph 3 is directed at Bramwell's environmental award, not the Hallstrom uplift.",
+        "D": "Shell game. The uplift supplements expense recovery when property is not saved; it does not compensate for lost property.",
+        "E": "Opposite. Reinholt's point is that an enterprise 'cannot be sustained on the promise of breaking even.'"
+      },
+      "trapPatterns": { "A": "out_of_scope", "C": "wrong_part", "D": "shell_game", "E": "opposite" },
+      "keyTakeaway": "When two remedies are discussed in consecutive paragraphs, detail questions test whether you kept their critics and features separate.",
+      "evidence": [1]
+    },
+    {
+      "id": "rc-m3-salvage-environmental-q3",
+      "type": "purpose_of_paragraph",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The primary function of the third paragraph is to",
+      "choices": {
+        "A": "present a proposed remedy, acknowledge its theoretical appeal, and identify the practical obstacle that undermines it.",
+        "B": "demonstrate that tribunals are incapable of valuing environmental harm under any legal standard.",
+        "C": "explain why shipowners' insurers have resisted every reform of the classical salvage rule.",
+        "D": "argue that the environmental salvage award should replace the Hallstrom Convention's safety net.",
+        "E": "illustrate the kind of counterfactual reasoning that tribunals routinely employ when they calculate conventional awards for salvaged property."
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. The paragraph introduces Bramwell's award, grants its 'evident theoretical coherence,' and then says 'Its difficulty is evidentiary.'",
+        "B": "Extreme. The paragraph concerns one standard—harm averted—and does not generalize to 'any legal standard.'",
+        "C": "Extreme. Insurers are mentioned only as resisting Bramwell's proposal, not 'every reform.'",
+        "D": "Opposite. The paragraph sets up the objection that leads the author to reject the award in paragraph 4.",
+        "E": "Shell game. Counterfactual reconstruction is what the environmental award would require; conventional awards rest on 'market quotation.'"
+      },
+      "trapPatterns": { "B": "extreme", "C": "extreme", "D": "opposite", "E": "shell_game" },
+      "keyTakeaway": "A paragraph that praises then pivots ('Its difficulty is...') functions as a qualified presentation, not an endorsement.",
+      "evidence": [2]
+    },
+    {
+      "id": "rc-m3-salvage-environmental-q4",
+      "type": "application",
+      "logicTags": ["rule_application"],
+      "difficulty": 3,
+      "stem": "Which one of the following situations best exemplifies the problem that the author identifies in the first paragraph?",
+      "choices": {
+        "A": "A salvage company refuses to assist a cargo vessel because the owner has not agreed in advance to its standard fee.",
+        "B": "A tribunal awards a salvor a large share of a recovered yacht's value despite the salvor having taken only modest risks.",
+        "C": "A salvage firm declines to respond to a derelict chemical barge drifting toward a fishery because the barge itself is nearly worthless.",
+        "D": "A salvor who saves both a tanker and its cargo receives an award that is reduced because the tanker leaked oil during the operation.",
+        "E": "A coastal state's publicly funded tug prevents a spill but, being a government vessel, is ineligible for any salvage award."
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "Shell game. The problem is not the absence of a fee agreement but the absence of any reward when the property saved is worthless.",
+        "B": "Out of scope. Overcompensation for low risk is a different complaint; the passage concerns undercompensation where property has little value.",
+        "C": "Correct. This is the paragraph's own structure: a vessel 'worth little more than scrap,' a valuable environment at risk, and a salvor who rationally stays away.",
+        "D": "Reversal. The passage describes no reward for harm prevented, not a penalty for harm caused.",
+        "E": "Wrong part. Eligibility of public vessels is never raised; the problem concerns commercial salvors' incentives."
+      },
+      "trapPatterns": { "A": "shell_game", "B": "out_of_scope", "D": "reversal", "E": "wrong_part" },
+      "keyTakeaway": "Application answers must reproduce every structural element of the described problem: low property value, high environmental stake, and a rational decision not to act.",
+      "evidence": [0]
+    },
+    {
+      "id": "rc-m3-salvage-environmental-q5",
+      "type": "author_perspective",
+      "logicTags": ["weighing_factors"],
+      "difficulty": 2,
+      "stem": "The passage most strongly suggests that the author would agree with which one of the following?",
+      "choices": {
+        "A": "A legal remedy that cannot be applied consistently by tribunals is worse than no remedy at all.",
+        "B": "Shipowners' insurers would accept an environmental salvage award if its maximum amount were capped.",
+        "C": "The indeterminacy that afflicts environmental salvage awards could be eliminated if the governing convention were drafted with greater care and specificity.",
+        "D": "Salvors should be expected to protect the environment regardless of whether they are compensated for doing so.",
+        "E": "The predictability of a remedy can justify accepting a reward structure that imperfectly tracks the interest society wishes to protect."
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "Extreme. The author ranks remedies as first- and second-best; nothing suggests an inconsistent remedy is worse than none.",
+        "B": "Out of scope. The author's own proposal uses a bounded premium, but no claim is made about what insurers would accept.",
+        "C": "Opposite. Paragraph 4: 'the indeterminacy is not a defect of drafting; it inheres in the attempt to value an event that did not happen.'",
+        "D": "Out of scope. The author treats salvors as 'commercial actors' who respond to incentives and never imposes a duty to act uncompensated.",
+        "E": "Correct. The author endorses tariffs that 'forgo the elegance of Bramwell's scheme in exchange for predictability,' accepting an imperfect match with the environmental interest."
+      },
+      "trapPatterns": { "A": "extreme", "B": "out_of_scope", "C": "opposite", "D": "out_of_scope" },
+      "keyTakeaway": "The author's acceptance of a 'second-best' encodes a tradeoff principle: predictability can outweigh theoretical alignment.",
+      "evidence": [3]
+    },
+    {
+      "id": "rc-m3-salvage-environmental-q6",
+      "type": "weaken_strengthen_evaluate",
+      "logicTags": ["causation"],
+      "difficulty": 3,
+      "stem": "Which one of the following, if true, would most weaken the author's argument against Bramwell's proposal?",
+      "choices": {
+        "A": "Tribunals applying the classical salvage rule to hulls and cargo also produce awards that vary considerably from one another on closely similar facts.",
+        "B": "In jurisdictions that have adopted standardized spill-modeling protocols, environmental salvage awards on comparable facts have converged within a narrow range.",
+        "C": "Salvors generally prefer a predictable reward to a larger but uncertain one.",
+        "D": "The Hallstrom Convention's safety net has been invoked more frequently in recent years.",
+        "E": "Environmental harm from a single large spill can exceed the value of the vessel many times over."
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "Shell game. The author's objection is not that awards vary but that the variation stems from valuing a non-event; variation under a market-quoted rule has other causes and does not show that averted harm can be priced.",
+        "B": "Correct. If standardized protocols produce convergence, the indeterminacy is a defect of method after all, contradicting the claim that it 'inheres' and cannot be refined away.",
+        "C": "Opposite. A preference for predictability supports the author's second-best tariff.",
+        "D": "True but irrelevant. Frequency of safety-net claims says nothing about whether environmental awards can be calculated.",
+        "E": "Premise booster. This restates the scale of the problem from paragraph 1; it does not touch the evidentiary objection to Bramwell's remedy."
+      },
+      "trapPatterns": { "A": "shell_game", "C": "opposite", "D": "true_but_irrelevant", "E": "premise_booster" },
+      "keyTakeaway": "To weaken, attack the specific premise ('inheres... not a defect of drafting'), not the general phenomenon of variability.",
+      "evidence": [2, 3]
+    }
+  ]
+}

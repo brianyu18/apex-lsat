@@ -1,0 +1,175 @@
+{
+  "id": "rc-m4-martian-valleys",
+  "style": "phenomenon_hypothesis",
+  "topic": "natural_science",
+  "comparative": false,
+  "title": "The Valley Networks of Early Mars",
+  "paragraphs": [
+    "The oldest surfaces of Mars are cut by networks of branching valleys that, in plan, resemble the drainage systems carved by rivers on Earth. Their presence has been taken since they were first imaged as evidence that liquid water once flowed across the planet's surface, and the inference is hard to resist. What has proved far more difficult is to say under what conditions it flowed. The networks are confined to terrain older than about three and a half billion years, a period when, by every available model of stellar evolution, the sun emitted roughly a quarter less energy than it does now. A Mars warm enough for rivers would have had to be warmed by something other than sunlight.",
+    "The hypothesis that first commanded assent, articulated most fully by Dmitri Pavlenko, held that early Mars possessed a thick carbon dioxide atmosphere whose greenhouse effect sustained temperatures above freezing and a hydrological cycle of evaporation, rain, and runoff much like Earth's. The valley networks were the signature of that cycle. The difficulty, which has grown more acute as atmospheric models have improved, is that carbon dioxide alone appears unable to do the work required: at the pressures needed, it condenses into clouds that reflect more sunlight than the gas traps, and the surface remains below freezing. Supplementary greenhouse gases have been proposed, but none has been shown to persist long enough in the quantities needed.",
+    "Elena Castellanos and her colleagues approach the problem from the valleys themselves rather than from the atmosphere. Terrestrial river systems fed by rain develop dense, finely branched tributaries that reach nearly every part of a basin; the Martian networks, by contrast, are sparse, their tributaries few and short, and many terminate abruptly as though their water supply had been intermittent. Castellanos proposes that early Mars was cold, its highlands mantled in ice, and that the valleys were cut during brief episodes, perhaps triggered by volcanic eruptions or large impacts, in which the ice melted and ran off before the cold returned. On this account the networks record not a climate but a series of events.",
+    "The cold-and-icy hypothesis seems to me the stronger, chiefly because it asks nothing of the atmosphere that models cannot supply and because the immaturity of the networks is precisely what intermittent flow would produce. It is not, however, without its own difficulty. Clay minerals of a kind that form only through prolonged contact between rock and liquid water are widespread in the same ancient terrains, and the brief thaws Castellanos envisions seem too short to have produced them. It may be that the clays formed underground, where volcanic heat could keep water liquid regardless of conditions at the surface; if so, the surface may have been cold even while the crust below was wet, and the two lines of evidence need not conflict. That remains, for now, a conjecture."
+  ],
+  "roleMap": {
+    "paragraphs": ["context", "counterpoint", "counterpoint", "main_point"],
+    "viewpoints": [
+      { "who": "Dmitri Pavlenko", "position": "A thick carbon dioxide greenhouse kept early Mars warm and sustained an Earth-like cycle of rain and runoff.", "authorAgrees": false },
+      { "who": "Elena Castellanos and colleagues", "position": "Early Mars was cold and icy; the valleys were cut during brief melting episodes triggered by eruptions or impacts.", "authorAgrees": true },
+      { "who": "The author", "position": "Cold-and-icy is stronger, but the clay minerals remain a difficulty, perhaps resolvable by subsurface formation.", "authorAgrees": true }
+    ],
+    "tone": "cautiously favoring one hypothesis"
+  },
+  "lowResSummary": "Author favors the cold-icy, episodic-melt account of Martian valley networks over the warm-wet one, while flagging clay minerals as unresolved.",
+  "questions": [
+    {
+      "id": "rc-m4-martian-valleys-q1",
+      "type": "main_point",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately expresses the main point of the passage?",
+      "choices": {
+        "A": "The valley networks of Mars demonstrate that liquid water once flowed across the planet's surface beneath a thick carbon dioxide atmosphere that kept temperatures above freezing.",
+        "B": "Episodic melting of highland ice explains the Martian valley networks better than a warm, rainy climate does, though the clay minerals remain to be reconciled with that view.",
+        "C": "Because the young sun was faint, early Mars could not have been warm enough for liquid water to exist anywhere on or beneath its surface.",
+        "D": "The clay minerals found in ancient Martian terrains show that the valley networks were produced by prolonged rather than intermittent flow of water.",
+        "E": "Atmospheric models of early Mars have improved to the point where the warm-wet hypothesis can now be definitively rejected."
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "Half right. Water did flow, but the thick carbon dioxide atmosphere is Pavlenko's hypothesis, which the author finds wanting.",
+        "B": "Correct. Paragraph 4: 'The cold-and-icy hypothesis seems to me the stronger... It is not, however, without its own difficulty,' namely the clays.",
+        "C": "Extreme. The author entertains liquid water underground 'regardless of conditions at the surface.'",
+        "D": "Opposite. The author treats the clays as a difficulty to be explained, not as proof of prolonged surface flow.",
+        "E": "Extreme. The author says the difficulty 'has grown more acute,' not that the hypothesis is 'definitively rejected.'"
+      },
+      "trapPatterns": { "A": "half_right", "C": "extreme", "D": "opposite", "E": "extreme" },
+      "keyTakeaway": "The main point of a hedged verdict includes the hedge: favored hypothesis plus named difficulty.",
+      "evidence": [3]
+    },
+    {
+      "id": "rc-m4-martian-valleys-q2",
+      "type": "stated",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "According to the passage, the Martian valley networks differ from terrestrial rain-fed river systems in that the Martian networks",
+      "choices": {
+        "A": "are found only on terrain younger than three and a half billion years",
+        "B": "reach nearly every part of the basins that they drain",
+        "C": "have tributaries that are fewer and shorter",
+        "D": "were carved by water released during volcanic eruptions",
+        "E": "contain clay minerals formed by prolonged contact with water"
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "Opposite. The networks are confined to terrain 'older than about three and a half billion years.'",
+        "B": "Opposite. Reaching nearly every part of a basin describes the terrestrial systems.",
+        "C": "Correct. 'The Martian networks, by contrast, are sparse, their tributaries few and short.'",
+        "D": "Shell game. Eruptions are a proposed trigger of melting in Castellanos's hypothesis, not a stated contrast with Earth.",
+        "E": "Wrong part. Clays are found in the terrains, and the passage does not present them as a contrast with terrestrial rivers."
+      },
+      "trapPatterns": { "A": "opposite", "B": "opposite", "D": "shell_game", "E": "wrong_part" },
+      "keyTakeaway": "'By contrast' marks the comparison sentence; the correct detail sits right after it.",
+      "evidence": [2]
+    },
+    {
+      "id": "rc-m4-martian-valleys-q3",
+      "type": "purpose_in_context",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The author mentions that carbon dioxide condenses into clouds primarily in order to",
+      "choices": {
+        "A": "explain why the sun's energy output was lower early in the history of Mars",
+        "B": "support Castellanos's claim that the highlands of early Mars were mantled in ice for most of the period in question",
+        "C": "suggest that clouds rather than rain were responsible for cutting the valley networks",
+        "D": "identify a reason that a carbon dioxide atmosphere alone could not have kept early Mars above freezing",
+        "E": "show that supplementary greenhouse gases would have persisted in the early Martian atmosphere"
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "Out of scope. The faint sun is a matter of 'stellar evolution,' unrelated to Martian clouds.",
+        "B": "Wrong part. The cloud point belongs to the critique of Pavlenko, not to Castellanos's evidence, which comes from valley morphology.",
+        "C": "Out of scope. The passage never suggests clouds cut valleys.",
+        "D": "Correct. The clouds 'reflect more sunlight than the gas traps, and the surface remains below freezing,' which is why 'carbon dioxide alone appears unable to do the work.'",
+        "E": "Opposite. Supplementary gases are mentioned next as a possible fix that has not been shown to work."
+      },
+      "trapPatterns": { "A": "out_of_scope", "B": "wrong_part", "C": "out_of_scope", "E": "opposite" },
+      "keyTakeaway": "A mechanism described after 'The difficulty... is that' serves to explain the difficulty.",
+      "evidence": [1]
+    },
+    {
+      "id": "rc-m4-martian-valleys-q4",
+      "type": "other_perspective",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The passage suggests that Castellanos would be most likely to agree with which one of the following?",
+      "choices": {
+        "A": "The form of a drainage network can indicate whether the water that cut it flowed continuously or intermittently.",
+        "B": "Early Mars had a thick atmosphere that kept its surface above freezing for extended periods.",
+        "C": "The clay minerals in ancient Martian terrains were formed underground by volcanic heat.",
+        "D": "The valley networks were formed during a single prolonged period of melting.",
+        "E": "Impacts large enough to melt the highland ice would have destroyed any valley networks that had been formed during earlier episodes."
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. Castellanos reads the sparse, abruptly terminating networks as showing 'their water supply had been intermittent.'",
+        "B": "Opposite. That is Pavlenko's warm-wet picture; Castellanos holds that early Mars 'was cold.'",
+        "C": "Wrong part. Subsurface clay formation is the author's conjecture in paragraph 4, not attributed to Castellanos.",
+        "D": "Opposite. She proposes 'brief episodes,' a 'series of events.'",
+        "E": "Out of scope. Nothing is said about impacts destroying valleys."
+      },
+      "trapPatterns": { "B": "opposite", "C": "wrong_part", "D": "opposite", "E": "out_of_scope" },
+      "keyTakeaway": "Castellanos's method is to read conditions from morphology; the right answer states that inferential link.",
+      "evidence": [2]
+    },
+    {
+      "id": "rc-m4-martian-valleys-q5",
+      "type": "author_perspective",
+      "logicTags": [],
+      "difficulty": 4,
+      "stem": "It can be inferred from the passage that the author would be most likely to agree with which one of the following?",
+      "choices": {
+        "A": "The warm-wet hypothesis would be fully vindicated if a supplementary greenhouse gas were shown to persist in the early atmosphere in sufficient quantities.",
+        "B": "The clay minerals prove that the surface of early Mars was warm for prolonged periods.",
+        "C": "Volcanic eruptions and large impacts were the only possible triggers of melting on early Mars.",
+        "D": "The valley networks must have formed after the clay minerals in the same terrains.",
+        "E": "Evidence that seems to contradict a hypothesis about surface conditions may be compatible with it if the evidence was produced below the surface."
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "Wrong force. A persistent gas would remove one of the author's two reasons, but the other, the 'immaturity of the networks,' would still count against a rainy climate; 'fully vindicated' is too strong.",
+        "B": "Extreme. The author proposes that the clays may have formed underground, so they do not 'prove' a warm surface.",
+        "C": "Extreme. Castellanos says 'perhaps triggered by' eruptions or impacts; neither she nor the author says these were the only triggers.",
+        "D": "Out of scope. No relative chronology of valleys and clays is given.",
+        "E": "Correct. Paragraph 4: if the clays formed underground, 'the surface may have been cold even while the crust below was wet, and the two lines of evidence need not conflict.'"
+      },
+      "trapPatterns": { "A": "wrong_force", "B": "extreme", "C": "extreme", "D": "out_of_scope" },
+      "keyTakeaway": "The author's conjecture about subsurface clays is a general move, separating surface from subsurface evidence; E abstracts it.",
+      "evidence": [3]
+    },
+    {
+      "id": "rc-m4-martian-valleys-q6",
+      "type": "organization",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "Which one of the following most accurately describes the organization of the passage?",
+      "choices": {
+        "A": "A phenomenon is described, two explanations of it are rejected, and a third explanation is proposed by the author.",
+        "B": "A phenomenon and a constraint are set out; one explanation is found wanting; a second is favored, with a remaining difficulty noted.",
+        "C": "A phenomenon is described, and two explanations are shown to be equally consistent with the available evidence.",
+        "D": "An explanation is presented, objections to it are answered one by one, and its broader implications for the history of the planet are drawn out.",
+        "E": "A phenomenon is described, and the author argues that the evidence is insufficient to support any explanation of it."
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "Opposite. The second explanation is favored, not rejected, and no third is proposed; the subsurface clays are a conjecture within the second.",
+        "B": "Correct. Paragraph 1 gives the valleys and the faint-sun constraint; 2 finds Pavlenko wanting; 3 and 4 favor Castellanos and note the clays.",
+        "C": "Opposite. The author says the cold-and-icy hypothesis 'seems to me the stronger.'",
+        "D": "Shell game. This describes a single-position structure; the passage weighs two explanations and does not answer objections to the favored one, it concedes one.",
+        "E": "Extreme. The author favors an explanation while noting a difficulty."
+      },
+      "trapPatterns": { "A": "opposite", "C": "opposite", "D": "shell_game", "E": "extreme" },
+      "keyTakeaway": "Paragraph 1 does double duty here, posing the phenomenon and the constraint any explanation must meet; organization answers should reflect that.",
+      "evidence": [0, 1, 2, 3]
+    }
+  ]
+}

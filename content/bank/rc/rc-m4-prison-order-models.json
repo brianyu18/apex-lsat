@@ -1,0 +1,176 @@
+{
+  "id": "rc-m4-prison-order-models",
+  "style": "phenomenon_hypothesis",
+  "topic": "social_science",
+  "comparative": true,
+  "title": "Where the Inmate Code Comes From",
+  "paragraphs": [
+    "The observation that prisoners everywhere develop an informal normative order, a code governing loyalty, information, and the distribution of scarce goods, invites the question of where that order comes from. Rosalind Mercer's answer, developed from fieldwork in three maximum-security institutions, locates its source inside the walls. Imprisonment, on her account, imposes a set of deprivations that are functionally identical wherever it occurs: the loss of liberty, of goods, of autonomy, of security, of ordinary relationships. The inmate code is a collective adaptation to these losses, a means by which a population stripped of the usual supports of self-respect manufactures a substitute.",
+    "The strongest evidence for this view is the remarkable uniformity of the code across institutions whose populations differ sharply in age, offense, and origin. Prohibitions on informing, injunctions to endure hardship without complaint, and the valuation of self-sufficiency recur in prisons on different continents and in different decades. Mercer argues that such convergence would be inexplicable if the code were carried in from outside by inmates whose outside lives had little in common. The common factor is the institution, and the code is the shape its pressures impress on any population subjected to them. What varies, she allows, is the intensity with which the code is enforced; what does not vary is its content."
+  ],
+  "paragraphsB": [
+    "Teodor Halvorsen's studies begin from a difficulty that Mercer's account does not easily meet: institutions with nearly identical regimes of deprivation often house quite different social orders. In the two prisons he compared most closely, built to the same design and governed by the same rules, one sustained a single code of the kind Mercer describes, while the other was divided among groups whose loyalties, hierarchies, and even vocabularies had been formed in particular neighborhoods before any of their members was confined. The pains of imprisonment, Halvorsen concludes, are real, but they underdetermine the response to them. Prisoners meet those pains with the resources they bring, and what they bring differs.",
+    "Halvorsen does not deny that deprivation shapes the inmate world; he denies that it is the whole explanation. His own formulation is that the institution sets the problems and the imported culture supplies the solutions. Where inmates arrive with few shared affiliations, a code built from the common situation is what remains available, and Mercer's uniformity results. Where they arrive already organized, the prison becomes one more setting in which prior organization is reproduced. The convergence Mercer documents is, on this reading, not evidence that imported culture is irrelevant, but evidence of what prisoners do when they have nothing else to import."
+  ],
+  "roleMap": {
+    "paragraphs": ["main_point", "support"],
+    "viewpoints": [
+      { "who": "Rosalind Mercer (passage A)", "position": "The inmate code is a collective adaptation to deprivations that are identical wherever imprisonment occurs; its uniformity across institutions proves the institution is the source.", "authorAgrees": true },
+      { "who": "Teodor Halvorsen (passage B)", "position": "Deprivation underdetermines the inmate order; the institution sets the problems and imported culture supplies the solutions, so Mercer's uniformity is a special case.", "authorAgrees": true }
+    ],
+    "tone": "expository; B gently corrective"
+  },
+  "lowResSummary": "A gives Mercer's deprivation model of the inmate code; B gives Halvorsen's importation model, which treats Mercer's uniformity evidence as a special case.",
+  "questions": [
+    {
+      "id": "rc-m4-prison-order-models-q1",
+      "type": "main_point",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately expresses the main point of passage B?",
+      "choices": {
+        "A": "Halvorsen has shown that the deprivations of imprisonment play no significant role in shaping the social order that inmates develop.",
+        "B": "Because similar regimes produce different social orders, the inmate code must be explained by what prisoners import, with deprivation setting only the problems to be solved.",
+        "C": "Prisons that house inmates drawn from the same neighborhoods develop more stable social orders than prisons whose inmates lack prior ties to one another.",
+        "D": "Mercer's finding that the inmate code is uniform across institutions is directly contradicted by Halvorsen's comparison of two prisons built to the same design and run by the same rules.",
+        "E": "The inmate code is a collective adaptation to the losses that imprisonment imposes on every population subjected to it."
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "Extreme. B says Halvorsen 'does not deny that deprivation shapes the inmate world'; the pains 'are real.'",
+        "B": "Correct. B's first paragraph gives the difficulty (identical regimes, different orders) and its second gives the formulation: 'the institution sets the problems and the imported culture supplies the solutions.'",
+        "C": "Out of scope. B compares the form of the orders, never their stability.",
+        "D": "Half right. The comparison is B's starting point, but B's conclusion is that Mercer's uniformity is accommodated ('evidence of what prisoners do when they have nothing else to import'), not contradicted.",
+        "E": "Wrong part. This is Mercer's thesis from passage A."
+      },
+      "trapPatterns": { "A": "extreme", "C": "out_of_scope", "D": "half_right", "E": "wrong_part" },
+      "keyTakeaway": "B's main point includes its reconciliation move; an answer that stops at 'Mercer is contradicted' misses the second paragraph.",
+      "evidence": [2, 3]
+    },
+    {
+      "id": "rc-m4-prison-order-models-q2",
+      "type": "relationship",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "Which one of the following most accurately describes the relationship between the two passages?",
+      "choices": {
+        "A": "Passage B rejects the evidence on which passage A relies and substitutes evidence of an entirely different kind drawn from its own comparisons.",
+        "B": "Passage B applies the theory presented in passage A to a case that passage A does not consider.",
+        "C": "Passage A and passage B offer the same explanation of the inmate code but disagree about how strictly it is enforced.",
+        "D": "Passage B presents an alternative explanation that accommodates the central evidence offered in passage A as a special case.",
+        "E": "Passage A describes a phenomenon whose very existence passage B calls into question."
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "Half right. B does add comparative evidence, but it does not reject Mercer's uniformity; it reinterprets it.",
+        "B": "Shell game. B's two-prison comparison is offered as a difficulty for A's theory, not an application of it.",
+        "C": "Opposite. The explanations differ (institution versus imported culture); enforcement intensity is Mercer's concession, not the point of dispute.",
+        "D": "Correct. B's last sentence: the convergence Mercer documents is 'evidence of what prisoners do when they have nothing else to import.'",
+        "E": "Opposite. Both passages take the existence of inmate codes as given."
+      },
+      "trapPatterns": { "A": "half_right", "B": "shell_game", "C": "opposite", "E": "opposite" },
+      "keyTakeaway": "Two-angle pairs often end with one angle subsuming the other's evidence; look for 'special case' language in B's conclusion.",
+      "evidence": [1, 3]
+    },
+    {
+      "id": "rc-m4-prison-order-models-q3",
+      "type": "stated",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "According to passage A, Mercer allows that one feature of the inmate code varies across institutions, namely",
+      "choices": {
+        "A": "the content of its central prohibitions and injunctions",
+        "B": "the prohibition it places on informing to the authorities",
+        "C": "the source from which the code ultimately derives",
+        "D": "the value it places on self-sufficiency among inmates",
+        "E": "the intensity with which the code is enforced"
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "Opposite. 'What does not vary is its content.'",
+        "B": "Wrong part. The prohibition on informing is one of the recurring, invariant elements.",
+        "C": "Shell game. Mercer holds the source constant: 'The common factor is the institution.'",
+        "D": "Wrong part. Self-sufficiency is listed among the elements that 'recur.'",
+        "E": "Correct. 'What varies, she allows, is the intensity with which the code is enforced.'"
+      },
+      "trapPatterns": { "A": "opposite", "B": "wrong_part", "C": "shell_game", "D": "wrong_part" },
+      "keyTakeaway": "'She allows' flags the one concession in Mercer's account; it is the answer to any question about variation.",
+      "evidence": [1]
+    },
+    {
+      "id": "rc-m4-prison-order-models-q4",
+      "type": "purpose_in_context",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The author of passage B notes that the two prisons were 'built to the same design and governed by the same rules' primarily in order to",
+      "choices": {
+        "A": "rule out differences in deprivation as the explanation for differences in their social orders",
+        "B": "show that the physical layout of a prison determines the form that its inmate code will eventually take",
+        "C": "suggest that the two prisons housed populations of similar age and offense",
+        "D": "demonstrate that Mercer's fieldwork was confined to institutions of a single type",
+        "E": "illustrate the uniformity of the inmate code that Mercer documents across institutions"
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. The detail establishes 'nearly identical regimes of deprivation,' so that the different orders cannot be attributed to the regime.",
+        "B": "Opposite. The point is that identical design produced different orders.",
+        "C": "Out of scope. B says nothing about the populations' age or offense; it says their neighborhoods differed.",
+        "D": "Wrong part. Mercer's fieldwork is described in passage A and is not at issue here.",
+        "E": "Opposite. The example shows divergence, not uniformity."
+      },
+      "trapPatterns": { "B": "opposite", "C": "out_of_scope", "D": "wrong_part", "E": "opposite" },
+      "keyTakeaway": "Holding one variable constant is how B isolates the other; the detail is a controlled-comparison move.",
+      "evidence": [2]
+    },
+    {
+      "id": "rc-m4-prison-order-models-q5",
+      "type": "other_perspective",
+      "logicTags": [],
+      "difficulty": 4,
+      "stem": "It can be inferred that Mercer would be most likely to regard the second prison described in passage B, the one divided among neighborhood-based groups, as",
+      "choices": {
+        "A": "evidence that its regime imposed fewer deprivations than that of the first prison",
+        "B": "a confirmation that the inmate code is the shape the institution impresses on any population",
+        "C": "a case in which the common adaptation to deprivation was being enforced with unusually little intensity",
+        "D": "proof that prisoners whose outside lives had little in common cannot develop a shared code of the kind she describes",
+        "E": "an institution whose inmates had been deprived of ordinary relationships to an unusual degree"
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "Opposite. Mercer holds that deprivations are 'functionally identical wherever it occurs,' so she cannot explain divergence by differing deprivation.",
+        "B": "Opposite. A prison divided among imported groups is not an instance of a single institutionally impressed code; Mercer would need to explain it away, not cite it.",
+        "C": "Correct. Mercer's account permits variation in only one dimension: 'What varies, she allows, is the intensity with which the code is enforced; what does not vary is its content.' Her only available reading of the divided prison is weak enforcement of the common code.",
+        "D": "Reversal. Mercer's claim is the opposite: inmates with little in common do develop a shared code, which is her evidence for the institution as source.",
+        "E": "Out of scope. Nothing in either passage suggests unusual deprivation of relationships there."
+      },
+      "trapPatterns": { "A": "opposite", "B": "opposite", "D": "reversal", "E": "out_of_scope" },
+      "keyTakeaway": "To predict how a theorist handles a counterexample, find the one degree of freedom her theory allows; Mercer's is enforcement intensity.",
+      "evidence": [1, 2]
+    },
+    {
+      "id": "rc-m4-prison-order-models-q6",
+      "type": "approach",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Both passages are primarily concerned with",
+      "choices": {
+        "A": "evaluating the methods by which sociologists have studied populations in maximum-security prisons",
+        "B": "explaining the source of the normative order that prisoners develop",
+        "C": "demonstrating that the inmate code is uniform across institutions on different continents",
+        "D": "comparing prisons with identical regimes but populations drawn from different neighborhoods",
+        "E": "describing the deprivations that imprisonment imposes and the adaptations prisoners make to them"
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "Out of scope. Neither passage evaluates research methods.",
+        "B": "Correct. A opens with 'the question of where that order comes from'; B answers the same question differently.",
+        "C": "Wrong part. Uniformity is A's evidence, not B's concern.",
+        "D": "Wrong part. The two-prison comparison is B's evidence only.",
+        "E": "Half right. A does describe deprivations and adaptations, but B's concern is what prisoners import, not the deprivations themselves."
+      },
+      "trapPatterns": { "A": "out_of_scope", "C": "wrong_part", "D": "wrong_part", "E": "half_right" },
+      "keyTakeaway": "For 'both passages' stems, pick the shared question, not either passage's evidence.",
+      "evidence": [0, 2]
+    }
+  ]
+}

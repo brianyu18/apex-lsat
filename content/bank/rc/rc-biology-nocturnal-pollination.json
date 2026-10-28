@@ -1,0 +1,175 @@
+{
+  "id": "rc-biology-nocturnal-pollination",
+  "style": "single_position",
+  "topic": "natural_science",
+  "comparative": false,
+  "title": "Counting Pollinators in the Dark",
+  "paragraphs": [
+    "Field studies of pollination have, for most of their history, been conducted by people who sleep at night, and the consequences for our understanding of which animals actually fertilize flowering plants have been larger than is generally acknowledged. The standard method for ranking a plant’s pollinators is to record visitation: an observer sits beside a patch of flowers, counts the arrivals of each kind of visitor, and infers that the most frequent visitor is the most important. By this measure the thornbush Callistria dumosa, a shrub of the Serrania foothills, is pollinated chiefly by two species of solitary bee that account for more than eighty percent of recorded visits. I want to argue that this conclusion is an artifact of method, and that the plant’s reproduction depends principally on a moth that almost no one has counted.",
+    "Visitation frequency is a defensible proxy for pollination only if visits are roughly equal in what they accomplish, and in Callistria they are not. A visit contributes to reproduction to the extent that it deposits viable pollen from a genetically different individual onto a receptive stigma. Bees foraging on Callistria move between neighboring flowers on the same shrub, so that most of the pollen they carry is the plant’s own, which the species’ self-incompatibility system rejects. The hawkmoth Agrius serranicus, which visits after dusk, feeds at a single flower per shrub and then flies tens or hundreds of meters before feeding again, carrying outcross pollen on a proboscis that contacts the stigma on every insertion. A single moth visit may therefore be worth many bee visits, and the question is whether the moth’s rarity outweighs its efficiency.",
+    "The exclusion experiments conducted by Delphine Rourke answer that question directly. Rourke covered flowers with fine mesh during the day only, during the night only, or not at all, and measured seed set and, using genetic markers, the proportion of seeds sired by pollen from other shrubs. Flowers open only at night set sixty-eight percent as many seeds as unbagged flowers; flowers open only by day set forty-one percent. The disparity in outcrossing was starker still: night-only seeds were almost entirely outcrossed, while nearly half the day-only seeds were sired by near neighbors, which in this species means reduced germination and vigor. The animal responsible for the majority of the plant’s effective reproduction, in other words, is the one that appears in fewer than one visit in ten.",
+    "Defenders of the visitation method, among them Alastair Whitcombe, reply that bees’ sheer numbers must compensate for their inefficiency, and that Rourke’s single-season results may reflect an unusually poor year for bees. The first reply is not an argument but a restatement of the assumption at issue, and Rourke’s data are the test of it. The second deserves a longer study, which is under way. But even a result confined to one season should unsettle a method that has never been validated against outcomes for the great majority of the plants to which it has been applied. What an observer sees at noon is a record of who was present; it is not, without more, a record of who mattered."
+  ],
+  "roleMap": {
+    "paragraphs": ["main_point", "support", "example", "concession"],
+    "viewpoints": [
+      { "who": "Standard visitation method / Alastair Whitcombe", "position": "The most frequent visitor is the most important pollinator; bees’ numbers compensate for inefficiency", "authorAgrees": false },
+      { "who": "Delphine Rourke (exclusion experiments)", "position": "Night-only flowers set more seed and were far more outcrossed than day-only flowers", "authorAgrees": true },
+      { "who": "Author", "position": "Visitation frequency is a poor proxy; the rare hawkmoth is Callistria’s principal effective pollinator", "authorAgrees": true }
+    ],
+    "tone": "assertive, methodologically critical"
+  },
+  "lowResSummary": "Author argues visitation counts mislead: exclusion and genetic data show a rarely counted nocturnal moth, not frequent bees, drives Callistria’s reproduction.",
+  "questions": [
+    {
+      "id": "rc-biology-nocturnal-pollination-q1",
+      "type": "main_point",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately expresses the main point of the passage?",
+      "choices": {
+        "A": "Rourke’s exclusion experiments prove that solitary bees make no meaningful contribution to the reproduction of Callistria dumosa.",
+        "B": "Because visitation frequency ignores what visits accomplish, it has misidentified Callistria’s principal pollinator, which exclusion data show to be a nocturnal moth.",
+        "C": "Pollination biologists should abandon daytime observation in favor of genetic analysis of seed paternity.",
+        "D": "The hawkmoth Agrius serranicus is a more efficient pollinator than solitary bees because it flies long distances between flowers.",
+        "E": "Rourke’s results, though suggestive, cannot be generalized until they have been replicated across multiple seasons."
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "Day-only flowers set forty-one percent of seeds, so bees contribute something; “no meaningful contribution” is too strong.",
+        "B": "Correct. Paragraph 1 announces the thesis (“an artifact of method”), paragraph 2 explains why frequency fails, and paragraph 3 supplies the data.",
+        "C": "The author criticizes an unvalidated method but issues no prescription to abandon observation.",
+        "D": "This is the mechanism from paragraph 2, a supporting step rather than the conclusion about which animal the plant depends on.",
+        "E": "This is Whitcombe’s reservation; the author acknowledges the need for a longer study but says even one season “should unsettle” the method."
+      },
+      "trapPatterns": { "A": "extreme", "C": "out_of_scope", "D": "wrong_part", "E": "wrong_part" },
+      "keyTakeaway": "A thesis announced with “I want to argue” in paragraph 1 is the main point; later paragraphs are mechanism and evidence.",
+      "evidence": [0, 2]
+    },
+    {
+      "id": "rc-biology-nocturnal-pollination-q2",
+      "type": "stated",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "According to the passage, which one of the following is true of the hawkmoth Agrius serranicus?",
+      "choices": {
+        "A": "It feeds at a single flower on a shrub before flying to another shrub.",
+        "B": "It accounts for more than eighty percent of recorded visits to Callistria.",
+        "C": "It carries pollen primarily on its legs and body.",
+        "D": "It was first identified as a pollinator by Whitcombe.",
+        "E": "It visits Callistria during the early morning hours."
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. Paragraph 2: the moth “feeds at a single flower per shrub and then flies tens or hundreds of meters before feeding again.”",
+        "B": "The eighty percent figure belongs to the two bee species.",
+        "C": "The passage says pollen is carried “on a proboscis that contacts the stigma on every insertion.”",
+        "D": "Whitcombe is a defender of the visitation method, not the moth’s discoverer; no discoverer is named.",
+        "E": "The moth “visits after dusk.”"
+      },
+      "trapPatterns": { "B": "wrong_part", "C": "shell_game", "D": "out_of_scope", "E": "opposite" },
+      "keyTakeaway": "For stated questions about a named organism, the key will paraphrase one clause of its description exactly.",
+      "evidence": [1]
+    },
+    {
+      "id": "rc-biology-nocturnal-pollination-q3",
+      "type": "purpose_in_context",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The author mentions the self-incompatibility system of Callistria dumosa primarily in order to",
+      "choices": {
+        "A": "explain why the plant depends on animal pollinators rather than wind",
+        "B": "suggest that the plant evolved its nocturnal flowering in response to moths",
+        "C": "account for the reduced germination of seeds sired by near neighbors",
+        "D": "explain why pollen moved between flowers on the same shrub contributes little to reproduction",
+        "E": "show that bees are physically incapable of contacting the stigma"
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "Wind pollination is never mentioned.",
+        "B": "The passage says nothing about the evolution of flowering time.",
+        "C": "Reduced vigor from near-neighbor siring is a separate point in paragraph 3 and concerns pollen from other, related shrubs, not self-pollen rejected by the incompatibility system.",
+        "D": "Correct. Bees “move between neighboring flowers on the same shrub, so that most of the pollen they carry is the plant’s own, which the species’ self-incompatibility system rejects.”",
+        "E": "The passage faults the origin of the pollen bees carry, not their ability to touch the stigma."
+      },
+      "trapPatterns": { "A": "out_of_scope", "B": "out_of_scope", "C": "shell_game", "E": "extreme" },
+      "keyTakeaway": "A technical term introduced in a relative clause usually explains the consequence stated just before it.",
+      "evidence": [1]
+    },
+    {
+      "id": "rc-biology-nocturnal-pollination-q4",
+      "type": "author_perspective",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "The passage most strongly suggests that the author would agree with which one of the following?",
+      "choices": {
+        "A": "Nocturnal pollinators are the principal pollinators of most plants that have been studied by visitation counts.",
+        "B": "Rourke’s experiment would have been more convincing had it measured visitation as well as seed set.",
+        "C": "Whitcombe is correct that bees’ numbers compensate for the inefficiency of their individual visits.",
+        "D": "The sum of night-only and day-only seed set exceeding one hundred percent shows that Rourke’s measurements were unreliable.",
+        "E": "The visitation method could be sound for a plant whose visitors deposited roughly similar amounts of outcross pollen per visit."
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "The author claims only that the method has not been validated for most plants, not that the Callistria result generalizes to most plants.",
+        "B": "The author’s point is that seed set and paternity are the relevant outcomes; adding visitation would not strengthen the test of whether visitation predicts them.",
+        "C": "The author calls this reply “a restatement of the assumption at issue” and says the data test it unfavorably.",
+        "D": "The author reports the figures without concern; night and day sets can overlap because both periods contribute to unbagged flowers, so no inconsistency is implied.",
+        "E": "Correct. Paragraph 2: visitation frequency “is a defensible proxy for pollination only if visits are roughly equal in what they accomplish,” which allows the method to work where that condition holds."
+      },
+      "trapPatterns": { "A": "extreme", "B": "out_of_scope", "C": "opposite", "D": "shell_game" },
+      "keyTakeaway": "A conditional concession (“defensible only if…”) licenses the inference that the method works when the condition is met; D tempts with a spurious numerical worry.",
+      "evidence": [1, 3]
+    },
+    {
+      "id": "rc-biology-nocturnal-pollination-q5",
+      "type": "weaken_strengthen_evaluate",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "Which one of the following, if true, would most weaken the author’s conclusion about Callistria’s principal pollinator?",
+      "choices": {
+        "A": "Agrius serranicus also visits several other plant species in the Serrania foothills during the same season.",
+        "B": "Solitary bees in the Serrania foothills are most active in the two hours after sunrise.",
+        "C": "In Rourke’s study, the mesh used for daytime bagging also prevented pollination by a wind-borne component that occurs only in daylight hours.",
+        "D": "Callistria flowers remain receptive to pollen for three days after opening.",
+        "E": "A second hawkmoth species, rarer still, occasionally visits Callistria flowers before dawn."
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "Visiting other plants does not reduce the outcross pollen the moth delivers to Callistria; it is irrelevant to the comparison.",
+        "B": "Timing within the day does not change the day-only results, since daytime flowers were open throughout the day.",
+        "C": "Correct. The conclusion attributes the night-only advantage to the moth and the day-only shortfall to bees. If daytime bagging also excluded a daylight-only pollination route, the day-only figure reflects more than bee inefficiency, and the comparison no longer isolates the two animal pollinators.",
+        "D": "Prolonged receptivity applies equally to both treatments and does not alter their relative outcomes.",
+        "E": "Another nocturnal visitor would at most share credit within the night treatment; it does not help bees or undermine the day/night disparity."
+      },
+      "trapPatterns": { "A": "true_but_irrelevant", "B": "out_of_scope", "D": "true_but_irrelevant", "E": "shell_game" },
+      "keyTakeaway": "Weaken an experimental inference by showing the treatment confounded the variable of interest with something else.",
+      "evidence": [2]
+    },
+    {
+      "id": "rc-biology-nocturnal-pollination-q6",
+      "type": "principle",
+      "logicTags": [],
+      "difficulty": 4,
+      "stem": "Which one of the following principles most clearly underlies the author’s reasoning in the final paragraph?",
+      "choices": {
+        "A": "A method that has produced consistent results across many studies should be presumed valid until it is contradicted by a majority of new studies.",
+        "B": "A method of measurement that has not been checked against the outcome it is meant to predict is vulnerable to even a single well-designed contrary result.",
+        "C": "When two explanations of a result are available, the one that requires fewer assumptions should be preferred.",
+        "D": "The contribution of a frequent agent to an outcome should be presumed greater than that of a rare agent unless proven otherwise.",
+        "E": "A single season of field data is sufficient to establish a general conclusion about a plant’s pollinators."
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "This would favor the visitation method; the author argues the opposite, stressing that the method “has never been validated against outcomes.”",
+        "B": "Correct. The final paragraph argues that “even a result confined to one season should unsettle a method that has never been validated against outcomes for the great majority of the plants to which it has been applied.”",
+        "C": "The author appeals to validation against outcomes, not to parsimony.",
+        "D": "This is the assumption the author attacks, calling Whitcombe’s version of it “a restatement of the assumption at issue.”",
+        "E": "The author grants that a longer study is needed; the claim is that one season suffices to unsettle, not to establish."
+      },
+      "trapPatterns": { "A": "opposite", "C": "shell_game", "D": "opposite", "E": "wrong_force" },
+      "keyTakeaway": "Principle keys match the force of the author’s claim (“unsettle,” not “establish”); E is the trap that overstates it.",
+      "evidence": [3]
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "id": "rc-m3-translation-foreignness",
+  "style": "single_position",
+  "topic": "humanities",
+  "comparative": false,
+  "title": "Whose Foreignness? Translation and the Receiving Reader",
+  "paragraphs": [
+    "Few distinctions in translation theory have proved as durable as that between 'domesticating' translation, which renders a foreign text in the fluent idiom of the receiving language so that it reads as if originally written there, and 'foreignizing' translation, which preserves the syntactic and lexical strangeness of the source and so reminds the reader that the text has come from elsewhere. Anneliese Kordt, the most influential advocate of the latter, held that domestication was a kind of appropriation—a refusal to let the foreign be foreign—and that the ethical translator's task was to resist the receiving culture's demand for fluency. The distinction has organized a generation of criticism. I want to suggest that it is nonetheless misconceived, not because either strategy is without merit but because the property it purports to track, the foreignness of a translation, does not belong to the translation at all.",
+    "Consider two English renderings of the Vasalian epic cycle. Edmund Harrowell's version of the 1890s was composed in a deliberately archaic register—inverted syntax, obsolete pronouns, compound epithets modeled on the source—and Harrowell's preface makes plain that he intended the estrangement: the reader was to feel the distance of the original. His contemporaries felt nothing of the kind. Archaizing diction was by then the ordinary dress of serious English verse, and reviewers praised the translation precisely for its familiarity, finding in it the cadences of the poets they already admired. What Harrowell had built as a window onto the foreign functioned as a mirror.",
+    "Petra Lindqvist's translation of the 1970s inverted the design. Rejecting what she called the 'museum voice' of her predecessors, she rendered the cycle in plain contemporary prose, on the theory that the original had been plain to its first audience and that fidelity required plainness now. The reception was almost uniformly hostile. Readers accustomed to meeting antiquity in elevated diction found her flat sentences jarring, even disrespectful; the translation seemed to them not transparent but alien. Lindqvist had aimed at domestication and achieved, by the only measure that matters, its opposite.",
+    "The lesson is not that translators cannot control their effects, though it is partly that. It is that foreignness is a relation between a text and the expectations of its readers at a particular moment, and those expectations are set by the receiving literature, not by the translator. A strategy that estranges one generation furnishes the conventions of the next; a strategy that seeks transparency may violate conventions the translator did not know were in force. Kordt's ethical program thus asks the translator to produce an effect she cannot secure. The more useful question is not whether a translation domesticates or foreignizes but what it adds to, or withholds from, the receiving language's stock of available forms—a question that can be answered by examining the translation itself, rather than by predicting a reception no translator commands."
+  ],
+  "roleMap": {
+    "paragraphs": ["context", "example", "example", "main_point"],
+    "viewpoints": [
+      { "who": "Anneliese Kordt", "position": "Domestication is appropriation; the ethical translator should foreignize and resist fluency", "authorAgrees": false },
+      { "who": "Harrowell's contemporaries", "position": "Harrowell's archaizing translation was familiar and admirable", "authorAgrees": null },
+      { "who": "Petra Lindqvist", "position": "Fidelity to a plain original requires plain contemporary prose", "authorAgrees": null },
+      { "who": "Lindqvist's readers", "position": "Her plain prose was jarring and alien", "authorAgrees": null }
+    ],
+    "tone": "confident and revisionary"
+  },
+  "lowResSummary": "Author argues the domesticating/foreignizing distinction fails because a translation's foreignness depends on readers' conventions, not the translator.",
+  "questions": [
+    {
+      "id": "rc-m3-translation-foreignness-q1",
+      "type": "main_point",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately expresses the main point of the passage?",
+      "choices": {
+        "A": "Kordt's advocacy of foreignizing translation was misguided because readers of any period invariably prefer translations that conform to the established conventions of their own literature.",
+        "B": "The opposition between domesticating and foreignizing translation is misconceived because a translation's foreignness depends on readers' conventions rather than on the translator's strategy.",
+        "C": "The contrasting receptions of Harrowell's and Lindqvist's translations show that translators cannot predict how their work will be received.",
+        "D": "Translators should abandon the attempt to convey the foreignness of a source text and concentrate instead on enriching the receiving language.",
+        "E": "Archaizing diction, which once served to estrange readers from a translated text, has become the conventional idiom for rendering ancient literature."
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "Extreme. 'Invariably prefer' is unsupported, and the author's objection to Kordt is not about reader preference but about where foreignness resides.",
+        "B": "Correct. Paragraph 1 announces the thesis and paragraph 4 states it: foreignness 'is a relation between a text and the expectations of its readers,' set by 'the receiving literature, not by the translator.'",
+        "C": "Half right. Paragraph 4 says the lesson 'is not that translators cannot control their effects, though it is partly that'; unpredictability is subordinate to the thesis.",
+        "D": "Wrong force. The author reframes the critical question; no prescription that translators 'abandon' anything is made.",
+        "E": "Wrong part. This describes the Harrowell example's historical premise, not the passage's conclusion."
+      },
+      "trapPatterns": { "A": "extreme", "C": "half_right", "D": "wrong_force", "E": "wrong_part" },
+      "keyTakeaway": "When the author explicitly downgrades a lesson ('though it is partly that'), the main point is the lesson that follows, not the one demoted.",
+      "evidence": [0, 3]
+    },
+    {
+      "id": "rc-m3-translation-foreignness-q2",
+      "type": "stated",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "According to the passage, Harrowell's contemporaries responded to his translation of the Vasalian cycle by",
+      "choices": {
+        "A": "objecting that its archaic register made the original seem more distant than it was.",
+        "B": "criticizing its use of compound epithets as unidiomatic.",
+        "C": "comparing it unfavorably with earlier translations in plain prose.",
+        "D": "commending it for a familiarity that recalled poets they already admired.",
+        "E": "accepting its archaism as a necessary concession to the elevated subject."
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "Opposite. They 'felt nothing of the kind'—no distance at all.",
+        "B": "Out of scope. The epithets are listed as features of the translation; no criticism of them is reported.",
+        "C": "Out of scope. No earlier plain-prose translation is mentioned.",
+        "D": "Correct. Paragraph 2: 'reviewers praised the translation precisely for its familiarity, finding in it the cadences of the poets they already admired.'",
+        "E": "Shell game. The archaism was not received as a concession but as ordinary and welcome; nothing suggests they saw it as a necessity."
+      },
+      "trapPatterns": { "A": "opposite", "B": "out_of_scope", "C": "out_of_scope", "E": "shell_game" },
+      "keyTakeaway": "Stated questions about reception are answered by the reported reaction, not by what the translator intended.",
+      "evidence": [1]
+    },
+    {
+      "id": "rc-m3-translation-foreignness-q3",
+      "type": "purpose_in_context",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The author discusses Lindqvist's translation primarily in order to",
+      "choices": {
+        "A": "demonstrate that plain contemporary prose is an unsuitable medium for ancient epic.",
+        "B": "show that readers' hostility to a translation is usually a sign of its fidelity.",
+        "C": "provide an example of a translator who successfully resisted the conventions of her period.",
+        "D": "contrast Lindqvist's conception of fidelity as plainness with Kordt's conception of ethical translation as resistance to fluency.",
+        "E": "show that a strategy intended to produce familiarity can produce estrangement, complementing the earlier example."
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "Out of scope. The author passes no judgment on prose as a medium; the point concerns reception.",
+        "B": "Extreme. 'Usually' generalizes from one case, and the author never links hostility to fidelity.",
+        "C": "Half right. Lindqvist did depart from convention, but the author's point is the unintended effect, not her success.",
+        "D": "Wrong part. Kordt is not mentioned in the Lindqvist paragraph; the comparison is with Harrowell.",
+        "E": "Correct. 'Lindqvist's translation... inverted the design': she aimed at domestication and achieved 'its opposite,' mirroring Harrowell's inverse failure."
+      },
+      "trapPatterns": { "A": "out_of_scope", "B": "extreme", "C": "half_right", "D": "wrong_part" },
+      "keyTakeaway": "Paired examples in a single-position passage usually show the same thesis from opposite directions; 'inverted the design' signals the pairing.",
+      "evidence": [2, 3]
+    },
+    {
+      "id": "rc-m3-translation-foreignness-q4",
+      "type": "author_perspective",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "It can be inferred from the passage that the author would be most likely to agree with which one of the following?",
+      "choices": {
+        "A": "A translator who sets out to follow Kordt's program may produce a translation that readers experience as thoroughly domesticated.",
+        "B": "The ethical obligations of a translator are determined by the conventions of the receiving literature.",
+        "C": "A translation's contribution to the receiving language can be assessed only after its reception is known.",
+        "D": "Translators who understand the conventions of their period can reliably control whether their work is read as foreign.",
+        "E": "Kordt's distinction accurately describes translators' intentions but not the texts they produce."
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. Harrowell intended estrangement and produced a 'mirror'; paragraph 4 generalizes that Kordt's program asks for 'an effect she cannot secure.'",
+        "B": "Out of scope. The author says conventions set foreignness, not ethical obligations.",
+        "C": "Opposite. The final sentence says the better question 'can be answered by examining the translation itself, rather than by predicting a reception.'",
+        "D": "Extreme. 'Reliably control' contradicts 'an effect she cannot secure' and conventions 'the translator did not know were in force.'",
+        "E": "Shell game. The author's complaint is that the distinction tracks an effect that is not a property of the translation; Harrowell's text plainly had archaic features."
+      },
+      "trapPatterns": { "B": "out_of_scope", "C": "opposite", "D": "extreme", "E": "shell_game" },
+      "keyTakeaway": "Inference answers should be the generalization the author's own examples already instantiate.",
+      "evidence": [1, 3]
+    },
+    {
+      "id": "rc-m3-translation-foreignness-q5",
+      "type": "principle",
+      "logicTags": ["value_judgment"],
+      "difficulty": 3,
+      "stem": "Which one of the following principles underlies the author's reasoning in the final paragraph?",
+      "choices": {
+        "A": "A translation should be judged by the intentions of its translator rather than by the reactions of its readers.",
+        "B": "The ethical demands placed on translators should be relaxed when readers' expectations are unstable.",
+        "C": "A theory should not evaluate practitioners by reference to an effect that lies outside their control.",
+        "D": "The value of a translation lies in its fidelity to the plainness or elevation of the original.",
+        "E": "Any distinction that has organized a generation of criticism deserves to be preserved in some form."
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "Opposite. The author abandons both intention and reception in favor of examining 'the translation itself.'",
+        "B": "Out of scope. The author does not propose relaxing demands; the argument is that Kordt's demand targets the wrong thing.",
+        "C": "Correct. The complaint that Kordt 'asks the translator to produce an effect she cannot secure' and the turn to 'a question that can be answered by examining the translation itself' both rest on this principle.",
+        "D": "Wrong part. This is Lindqvist's theory of fidelity, which the author neither endorses nor relies on.",
+        "E": "Opposite. The author calls the distinction 'misconceived' and replaces it."
+      },
+      "trapPatterns": { "A": "opposite", "B": "out_of_scope", "D": "wrong_part", "E": "opposite" },
+      "keyTakeaway": "A principle question asks for the rule that would make the author's criticism valid—here, don't judge agents by effects they cannot control.",
+      "evidence": [3]
+    },
+    {
+      "id": "rc-m3-translation-foreignness-q6",
+      "type": "purpose_of_passage",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "The primary purpose of the passage is to",
+      "choices": {
+        "A": "defend Kordt's theory of foreignizing translation against the charge that it is impractical.",
+        "B": "compare the literary merits of two English translations of the Vasalian epic cycle produced in different centuries and registers.",
+        "C": "trace the history of English conventions for translating ancient poetry.",
+        "D": "challenge a widely accepted distinction by showing that the property it relies on is not a feature of translations themselves.",
+        "E": "propose a method by which translators can ensure that their work is received by readers in the manner they intend."
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "Opposite. The author criticizes Kordt's program rather than defending it.",
+        "B": "Shell game. The two translations are evidence for a theoretical claim; their merits are never ranked.",
+        "C": "Out of scope. Conventions are mentioned only as they bear on the two receptions.",
+        "D": "Correct. Paragraph 1: the distinction 'is nonetheless misconceived... because the property it purports to track... does not belong to the translation at all.'",
+        "E": "Opposite. The author denies any such method exists: reception is something 'no translator commands.'"
+      },
+      "trapPatterns": { "A": "opposite", "B": "shell_game", "C": "out_of_scope", "E": "opposite" },
+      "keyTakeaway": "Purpose answers match the thesis sentence's verb—here 'suggest that it is misconceived'—not the examples used to support it.",
+      "evidence": [0, 3]
+    }
+  ]
+}

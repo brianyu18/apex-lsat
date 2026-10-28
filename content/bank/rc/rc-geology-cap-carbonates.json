@@ -1,0 +1,200 @@
+{
+  "id": "rc-geology-cap-carbonates",
+  "style": "critique_debate",
+  "topic": "natural_science",
+  "comparative": false,
+  "title": "The Origin of Cap Carbonates",
+  "paragraphs": [
+    "On every continent where sediments from the Kestrel glaciation survive, the glacial deposits are overlain abruptly by a layer of carbonate rock, typically a few meters to several tens of meters thick, with no intervening transition. These “cap carbonates” are puzzling on their face: carbonate minerals precipitate from warm, alkaline seawater, and their sudden appearance above debris left by ice sheets that may have reached the equator implies a transformation of the ocean’s chemistry and temperature on a scale with no later parallel. Two accounts of that transformation have competed for three decades, and the dispute has turned increasingly on how to read two kinds of evidence—the isotopic composition of the carbon in the caps and the physical structures preserved within them.",
+    "The first account, developed by Ngozi Okafor, follows from the glaciation itself. If ice covered the oceans, volcanic carbon dioxide could not be drawn down by weathering or absorbed by seawater, and it would have accumulated in the atmosphere until the resulting greenhouse effect overwhelmed the reflectivity of the ice. Deglaciation under such an atmosphere would have been violent: rising temperatures and acidic rain would have weathered freshly exposed rock at extraordinary rates, delivering a pulse of dissolved calcium and bicarbonate to a warming ocean that precipitated it as carbonate within a few thousand years. The caps, on this view, are the chemical residue of the atmosphere that ended the ice age, and their thickness records how much carbon dioxide had built up.",
+    "Hendrik Brandt has objected that the carbon in the caps is too strongly depleted in the heavy isotope carbon-13 to have come from volcanic sources, which have a characteristic and much heavier signature. Depletion of the observed magnitude, he argues, is the fingerprint of methane, whose carbon is produced by microbes that discriminate strongly against the heavy isotope. Brandt proposes that the caps formed as warming destabilized methane frozen in sediments beneath the retreating ice, releasing it through seeps on the seafloor where it was oxidized to bicarbonate and precipitated locally—a process that would have taken hundreds of thousands of years and would predict caps thickest where seeps were concentrated.",
+    "The isotopic argument is less decisive than Brandt supposes, since prolonged weathering of organic-rich rocks can also deliver light carbon, but it does identify a real difficulty for Okafor’s original formulation, which assumed a purely volcanic source. The sedimentary evidence, however, points firmly toward rapid deposition. The caps preserve meter-scale wave ripples that form only under long-period storm waves in an open, agitated ocean, together with fans of aragonite crystals that grew directly from the water column at rates measured in centimeters per year. Structures of this kind cannot accumulate over hundreds of thousands of years at quiet seeps; they record a brief interval in which the entire surface ocean was supersaturated. The most defensible position, then, is a meltdown model that admits a secondary methane contribution to the carbon budget—a hybrid neither party has been eager to claim, though the evidence has been pointing to it for some time."
+  ],
+  "roleMap": {
+    "paragraphs": ["context", "counterpoint", "counterpoint", "main_point"],
+    "viewpoints": [
+      { "who": "Ngozi Okafor (meltdown model)", "position": "Caps precipitated rapidly from a weathering pulse during violent deglaciation under a CO2-rich atmosphere", "authorAgrees": true },
+      { "who": "Hendrik Brandt (methane seep model)", "position": "Caps formed slowly from methane released by destabilized sediments, as shown by light carbon isotopes", "authorAgrees": false },
+      { "who": "Author", "position": "Sedimentary structures require rapid deposition; the meltdown model should be amended to admit a secondary methane contribution", "authorAgrees": true }
+    ],
+    "tone": "critical, favoring a qualified hybrid"
+  },
+  "lowResSummary": "Author weighs isotopic against sedimentary evidence on cap carbonates and favors a rapid meltdown model amended to include a secondary methane source.",
+  "questions": [
+    {
+      "id": "rc-geology-cap-carbonates-q1",
+      "type": "main_point",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately expresses the main point of the passage?",
+      "choices": {
+        "A": "The isotopic composition of cap carbonates shows that their carbon came from methane rather than from volcanic carbon dioxide.",
+        "B": "Cap carbonates record the accumulation of atmospheric carbon dioxide during the Kestrel glaciation and its rapid removal afterward.",
+        "C": "Neither the meltdown model nor the methane seep model can be reconciled with the full range of evidence preserved in cap carbonates.",
+        "D": "The sedimentary evidence favors rapid deposition of cap carbonates, so the meltdown model, modified to include some methane-derived carbon, is the best available account.",
+        "E": "Disputes over the origin of cap carbonates have come to depend on which of two kinds of evidence researchers choose to privilege."
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "This is Brandt’s isotopic argument, which the author calls “less decisive than Brandt supposes.”",
+        "B": "This states Okafor’s original model without the amendment the author insists on, and omits the author’s reasoning.",
+        "C": "The author does reconcile a modified meltdown model with the evidence; “neither” is too strong.",
+        "D": "Correct. Paragraph 4: the sedimentary evidence “points firmly toward rapid deposition,” and “the most defensible position… is a meltdown model that admits a secondary methane contribution.”",
+        "E": "This paraphrases the framing of paragraph 1, not the author’s resolution."
+      },
+      "trapPatterns": { "A": "wrong_part", "B": "half_right", "C": "extreme", "E": "wrong_part" },
+      "keyTakeaway": "When the author proposes a hybrid, the main point must include the amendment; B is the trap for readers who stop at the favored side.",
+      "evidence": [3]
+    },
+    {
+      "id": "rc-geology-cap-carbonates-q2",
+      "type": "stated",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "According to the passage, the meter-scale wave ripples preserved in cap carbonates form only",
+      "choices": {
+        "A": "where methane seeps are concentrated on the seafloor",
+        "B": "in water supersaturated with aragonite",
+        "C": "beneath retreating ice sheets",
+        "D": "over periods of hundreds of thousands of years",
+        "E": "under long-period storm waves in an open, agitated ocean"
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "Seeps belong to Brandt’s model, which the author says cannot produce such structures.",
+        "B": "Supersaturation is invoked for the aragonite crystal fans, a different structure.",
+        "C": "The ripples require an open ocean, which is incompatible with ice cover.",
+        "D": "Opposite: the author says such structures “cannot accumulate over hundreds of thousands of years.”",
+        "E": "Correct. Paragraph 4: ripples “that form only under long-period storm waves in an open, agitated ocean.”"
+      },
+      "trapPatterns": { "A": "wrong_part", "B": "shell_game", "C": "opposite", "D": "opposite" },
+      "keyTakeaway": "In dense science passages, stated questions reward matching the specific structure to its specific condition; B swaps a neighboring structure.",
+      "evidence": [3]
+    },
+    {
+      "id": "rc-geology-cap-carbonates-q3",
+      "type": "other_perspective",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The passage suggests that Brandt would be most likely to agree with which one of the following statements?",
+      "choices": {
+        "A": "The thickness of a cap carbonate records how much carbon dioxide had accumulated in the atmosphere during the glaciation.",
+        "B": "Cap carbonates should be thickest in regions where methane escaped from sediments in the greatest quantities.",
+        "C": "Volcanic carbon dioxide could not have accumulated in the atmosphere while the oceans were covered by ice.",
+        "D": "Meter-scale wave ripples can form at quiet seafloor seeps over long intervals.",
+        "E": "Weathering of organic-rich rocks delivered most of the light carbon found in cap carbonates."
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "This is Okafor’s claim about thickness; Brandt ties thickness to seep concentration.",
+        "B": "Correct. Paragraph 3: Brandt’s model “would predict caps thickest where seeps were concentrated.”",
+        "C": "This is a premise of Okafor’s model; Brandt’s objection concerns the isotopes, and nothing indicates he endorses or rejects this premise.",
+        "D": "The passage does not report Brandt addressing the ripples; the author uses them against his model. Attributing this claim to him is unsupported.",
+        "E": "The weathering-of-organic-rocks explanation is the author’s alternative to Brandt’s methane reading, not Brandt’s view."
+      },
+      "trapPatterns": { "A": "wrong_part", "C": "wrong_part", "D": "out_of_scope", "E": "opposite" },
+      "keyTakeaway": "Other-perspective keys come from the explicit predictions attached to that scholar’s model; do not invent rebuttals the passage never reports.",
+      "evidence": [2]
+    },
+    {
+      "id": "rc-geology-cap-carbonates-q4",
+      "type": "purpose_in_context",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The author mentions the weathering of organic-rich rocks primarily in order to",
+      "choices": {
+        "A": "show that the isotopic depletion of the caps does not uniquely indicate a methane source",
+        "B": "explain how aragonite crystal fans could grow at rates of centimeters per year",
+        "C": "identify the primary source of the carbon in cap carbonates",
+        "D": "support Brandt’s claim that volcanic carbon is too heavy to account for the caps",
+        "E": "describe the mechanism by which deglaciation delivered calcium to the ocean"
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. The clause follows “The isotopic argument is less decisive than Brandt supposes, since…”; it offers another route to light carbon.",
+        "B": "Crystal growth rates are a separate line of sedimentary evidence, unrelated to the isotope discussion.",
+        "C": "The author ultimately assigns methane a “secondary” role and does not name organic-rock weathering as the primary source; the mention is to undercut an inference, not to settle the budget.",
+        "D": "The author partly accepts that volcanic carbon alone is a “real difficulty” for Okafor, but the organic-rock point is raised against Brandt’s inference, not in support of it.",
+        "E": "The calcium delivery mechanism is described in paragraph 2 as part of Okafor’s model, without reference to organic-rich rocks."
+      },
+      "trapPatterns": { "B": "shell_game", "C": "extreme", "D": "reversal", "E": "wrong_part" },
+      "keyTakeaway": "A “since” clause after “less decisive than X supposes” exists to weaken X’s inference; that is its purpose.",
+      "evidence": [3]
+    },
+    {
+      "id": "rc-geology-cap-carbonates-q5",
+      "type": "author_perspective",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "It can be inferred from the passage that the author would be most likely to agree with which one of the following?",
+      "choices": {
+        "A": "Okafor’s model, as originally formulated, correctly identified the source of the carbon in cap carbonates.",
+        "B": "Brandt’s model would be confirmed if cap carbonates were found to be thickest near ancient seep sites.",
+        "C": "An account of cap carbonates that cannot explain their rapid deposition should be rejected, whatever it explains about their isotopic composition.",
+        "D": "The carbon in cap carbonates derived mainly from methane, with a secondary contribution from volcanic sources.",
+        "E": "The meter-scale wave ripples could have formed beneath a thin cover of sea ice."
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "The author says the isotopes “identify a real difficulty for Okafor’s original formulation, which assumed a purely volcanic source.”",
+        "B": "Thickness near seeps would be consistent with Brandt, but the author holds that the sedimentary structures rule out slow seep deposition regardless, so this would not confirm his model.",
+        "C": "Correct. The author treats the sedimentary evidence as the decisive gate (“points firmly,” “cannot accumulate”), and rejects Brandt’s slow model on exactly this ground despite its isotopic strength.",
+        "D": "Reversed. The author’s hybrid is a meltdown model with a “secondary methane contribution,” not the other way around.",
+        "E": "The ripples require “an open, agitated ocean”; ice cover is excluded."
+      },
+      "trapPatterns": { "A": "opposite", "B": "wrong_force", "D": "reversal", "E": "opposite" },
+      "keyTakeaway": "The author’s decision rule is implicit in which evidence they call decisive; C states that rule. B tempts by confusing consistency with confirmation.",
+      "evidence": [3]
+    },
+    {
+      "id": "rc-geology-cap-carbonates-q6",
+      "type": "weaken_strengthen_evaluate",
+      "logicTags": [],
+      "difficulty": 4,
+      "stem": "Which one of the following, if true, would most weaken the author’s argument against Brandt’s model?",
+      "choices": {
+        "A": "Carbon isotope measurements from several cap carbonate sections show depletion even greater than Brandt reported.",
+        "B": "Methane seeps on the modern seafloor are frequently found in regions subject to intense storm activity.",
+        "C": "Volcanic emissions during the Kestrel glaciation were lighter in carbon-13 than present-day volcanic emissions.",
+        "D": "Cap carbonates in several regions are thickest where geological evidence indicates ancient methane seeps were concentrated.",
+        "E": "The wave ripples and aragonite fans occur only in the uppermost portion of the caps, above a much thicker lower unit that lacks such structures."
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "Greater depletion strengthens Brandt’s isotopic point, but the author already concedes that point partly and rests the case against Brandt on sedimentary structures; it does not touch that argument.",
+        "B": "Co-location of seeps and storms does not show that structures recording rapid deposition could form over hundreds of thousands of years; the timing problem remains.",
+        "C": "Lighter volcanic carbon would help Okafor, not Brandt, and does not bear on the sedimentary argument.",
+        "D": "This supports one of Brandt’s predictions but leaves intact the author’s claim that the structures require rapid deposition; it is a point for Brandt, not a point against the author’s argument.",
+        "E": "Correct. The author infers rapid deposition of the caps from the ripples and fans. If those structures are confined to a thin upper portion, most of the cap could have accumulated slowly, as Brandt’s model requires, with only a brief rapid interval at the end."
+      },
+      "trapPatterns": { "A": "premise_booster", "B": "true_but_irrelevant", "C": "opposite", "D": "wrong_part" },
+      "keyTakeaway": "To weaken an inference from a feature to the whole, show the feature is not representative of the whole. D tempts because it helps Brandt without hurting the author’s specific argument.",
+      "evidence": [3]
+    },
+    {
+      "id": "rc-geology-cap-carbonates-q7",
+      "type": "meaning_in_context",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately expresses the meaning of “residue” as it is used in the passage?",
+      "choices": {
+        "A": "a material product left behind by a process",
+        "B": "an impurity that contaminates a sample",
+        "C": "a small remaining quantity of a substance",
+        "D": "a sediment deposited by retreating ice",
+        "E": "the portion of a gas that escapes absorption"
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. “The chemical residue of the atmosphere that ended the ice age” means the caps are what that atmosphere left behind once its carbon was precipitated.",
+        "B": "Nothing in the context suggests contamination; the caps are the object of study, not an impurity in it.",
+        "C": "The caps are described as tens of meters thick and as recording the full carbon buildup; “small remaining quantity” misreads the force.",
+        "D": "The glacial deposits beneath the caps are the sediments left by ice; the caps are explicitly distinguished from them.",
+        "E": "The residue is the precipitated carbonate, not any portion of gas that remained unabsorbed."
+      },
+      "trapPatterns": { "B": "out_of_scope", "C": "wrong_force", "D": "shell_game", "E": "reversal" },
+      "keyTakeaway": "Meaning-in-context: substitute each choice into the sentence; D tempts because the adjacent glacial deposits are literally residues of ice.",
+      "evidence": [1]
+    }
+  ]
+}

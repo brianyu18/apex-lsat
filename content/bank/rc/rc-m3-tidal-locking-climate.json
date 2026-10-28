@@ -1,0 +1,199 @@
+{
+  "id": "rc-m3-tidal-locking-climate",
+  "style": "single_position",
+  "topic": "natural_science",
+  "comparative": false,
+  "title": "Tidal Locking as an Output, Not an Input",
+  "paragraphs": [
+    "Most of the stars in the galaxy are red dwarfs, and most of the potentially habitable planets so far detected orbit them. Because such stars are dim, a planet must orbit closely to receive enough warmth for liquid water, and at such distances tidal forces are expected to slow the planet's rotation until one hemisphere faces the star permanently. This prospect has long colored assessments of habitability. A tidally locked planet, on the standard account, presents a dayside scorched under a stationary sun and a nightside cold enough that its atmosphere would freeze out onto the surface, leaving the planet airless and the question of life moot. The account is intuitive, widely repeated, and, I will argue, considerably weaker than its currency suggests.",
+    "Its first weakness is that it treats the atmosphere as a passive blanket rather than as a fluid. Even a modest atmosphere transports heat, and general circulation models that resolve the dynamics of a locked planet consistently produce a dayside-to-nightside flow that carries enough energy to keep the nightside above the condensation point of the major gases. With an ocean the effect is stronger still: the models settle into what has been called an 'eyeball' state, a disc of open water beneath the substellar point surrounded by ice, with temperatures on the dark hemisphere that are severe but not atmosphere-freezing. Collapse occurs in the models only when the atmosphere is very thin to begin with—a condition that would compromise habitability on any rotation.",
+    "The second weakness lies in the premise. Tidal locking is derived from the gravitational torque a star exerts on a planet's tidal bulge, and the derivation assumes that no comparable torque acts in the other direction. On a planet with a substantial atmosphere that assumption fails. Stellar heating raises an atmospheric bulge that is displaced from the substellar point by the atmosphere's thermal inertia, and the star's pull on that displaced mass produces a torque opposing the gravitational one. Sonali Pradhan and Yves Lemoine have shown that for atmospheres of roughly terrestrial density this thermal tide can hold a planet in a slow but genuine rotation, and that the threshold density is well within the range inferred for several known planets.",
+    "Taken together these results suggest a reorientation. The rotation state of a close-in planet is not a boundary condition fixed by orbital mechanics and handed to the climate modeler; it is itself a product of the planet's climate, since the atmosphere that determines surface temperature also determines whether the planet is locked. Habitability assessments that begin by assuming synchronous rotation and then ask whether an atmosphere could survive it have the dependence backwards. The proper procedure is to model atmosphere and rotation jointly—and when that is done, the class of planets written off as uninhabitable by the standard account shrinks considerably."
+  ],
+  "roleMap": {
+    "paragraphs": ["context", "support", "support", "main_point"],
+    "viewpoints": [
+      { "who": "Standard account", "position": "Close-in red-dwarf planets are tidally locked, their atmospheres collapse, and they are uninhabitable", "authorAgrees": false },
+      { "who": "Pradhan and Lemoine", "position": "Thermal tides in terrestrial-density atmospheres can prevent synchronous locking", "authorAgrees": true }
+    ],
+    "tone": "confident and argumentative"
+  },
+  "lowResSummary": "Author argues the standard pessimism about locked red-dwarf planets fails on two counts, so rotation should be modeled jointly with climate, not assumed.",
+  "questions": [
+    {
+      "id": "rc-m3-tidal-locking-climate-q1",
+      "type": "main_point",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately expresses the main point of the passage?",
+      "choices": {
+        "A": "Planets orbiting red dwarfs are more likely to be habitable than planets orbiting stars like the sun.",
+        "B": "General circulation models have demonstrated that tidally locked planets retain their atmospheres in all cases except those in which the atmosphere is initially very thin.",
+        "C": "The thermal tides described by Pradhan and Lemoine prevent most close-in planets from becoming tidally locked.",
+        "D": "The standard account of tidally locked planets is correct about their synchronous rotation but mistaken about the fate of their atmospheres on the nightside.",
+        "E": "The standard case against the habitability of close-in red-dwarf planets fails on two counts, and rotation should be treated as an outcome of climate modeling rather than an assumption."
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "Out of scope. No comparison with sunlike stars is drawn.",
+        "B": "Wrong part. This is the first weakness only and overstates the models as demonstrating 'all cases.'",
+        "C": "Extreme. The threshold density is 'within the range inferred for several known planets,' not most.",
+        "D": "Half right. Paragraph 3 attacks the locking premise itself, so the author does not concede synchronous rotation.",
+        "E": "Correct. Paragraphs 2 and 3 give the two weaknesses; paragraph 4 says rotation 'is itself a product of the planet's climate' and should be modeled 'jointly.'"
+      },
+      "trapPatterns": { "A": "out_of_scope", "B": "wrong_part", "C": "extreme", "D": "half_right" },
+      "keyTakeaway": "A single-position passage announced as 'I will argue' has its thesis in the first paragraph and its methodological payoff in the last; both belong in the main point.",
+      "evidence": [1, 2, 3]
+    },
+    {
+      "id": "rc-m3-tidal-locking-climate-q2",
+      "type": "stated",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "According to the passage, the 'eyeball' state produced in some climate models consists of",
+      "choices": {
+        "A": "a region of open water beneath the substellar point surrounded by ice.",
+        "B": "a frozen dayside surrounded by a ring of liquid water.",
+        "C": "an atmosphere that has condensed onto the nightside surface.",
+        "D": "a slowly rotating planet whose ice cap migrates around the surface as the substellar point moves.",
+        "E": "a dayside ocean whose heat is prevented from reaching the nightside."
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. Paragraph 2: 'a disc of open water beneath the substellar point surrounded by ice.'",
+        "B": "Reversal. The open water is at the center and the ice surrounds it, not the other way around.",
+        "C": "Opposite. The eyeball state is one in which the atmosphere does not freeze out.",
+        "D": "Shell game. Slow rotation belongs to paragraph 3's thermal-tide discussion, not to the eyeball state.",
+        "E": "Opposite. In the models heat is transported to the nightside, keeping it 'not atmosphere-freezing.'"
+      },
+      "trapPatterns": { "B": "reversal", "C": "opposite", "D": "shell_game", "E": "opposite" },
+      "keyTakeaway": "A defined term's answer is the appositive that follows it; spatial arrangements are easily reversed in distractors.",
+      "evidence": [1]
+    },
+    {
+      "id": "rc-m3-tidal-locking-climate-q3",
+      "type": "purpose_of_paragraph",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The primary function of the third paragraph is to",
+      "choices": {
+        "A": "explain the mechanism by which tidal forces slow a planet's rotation.",
+        "B": "offer additional support for the claim that locked planets can retain their atmospheres despite nightside cold.",
+        "C": "challenge an assumption underlying the standard account by describing a counteracting torque.",
+        "D": "introduce the work of Pradhan and Lemoine as the basis for a new definition of habitability.",
+        "E": "concede that the standard account is correct for planets with thin atmospheres."
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "Half right. The mechanism is sketched only to identify the assumption ('no comparable torque acts in the other direction') that the paragraph then attacks.",
+        "B": "Wrong part. Atmospheric retention is paragraph 2's topic; paragraph 3 questions whether the planet is locked at all.",
+        "C": "Correct. 'The second weakness lies in the premise'; the thermal tide 'produces a torque opposing the gravitational one.'",
+        "D": "Out of scope. No definition of habitability is proposed.",
+        "E": "Shell game. The thin-atmosphere concession appears at the end of paragraph 2, and concerns collapse, not locking."
+      },
+      "trapPatterns": { "A": "half_right", "B": "wrong_part", "D": "out_of_scope", "E": "shell_game" },
+      "keyTakeaway": "The opening sentence of a paragraph ('The second weakness lies in the premise') names its function.",
+      "evidence": [2]
+    },
+    {
+      "id": "rc-m3-tidal-locking-climate-q4",
+      "type": "author_perspective",
+      "logicTags": ["causation"],
+      "difficulty": 3,
+      "stem": "It can be inferred from the passage that the author would be most likely to agree with which one of the following?",
+      "choices": {
+        "A": "A planet with a very thin atmosphere orbiting a red dwarf would nonetheless be habitable if only it were not tidally locked.",
+        "B": "The gravitational torque exerted by a star on a planet's tidal bulge is weaker than has been assumed.",
+        "C": "Most climate modelers have deliberately ignored the dynamics of planetary atmospheres.",
+        "D": "Two quantities that have been treated as independent in habitability assessments are in fact mutually dependent.",
+        "E": "Planets lacking oceans cannot sustain an atmosphere if they are tidally locked."
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "Opposite. A very thin atmosphere 'would compromise habitability on any rotation.'",
+        "B": "Shell game. The author says a second torque opposes the gravitational one, not that the gravitational torque is weaker.",
+        "C": "Extreme. The author cites circulation models that do resolve atmospheric dynamics; no charge of deliberate neglect is made.",
+        "D": "Correct. Paragraph 4: 'the atmosphere that determines surface temperature also determines whether the planet is locked'; treating rotation as a fixed input 'has the dependence backwards.'",
+        "E": "Opposite. 'Even a modest atmosphere transports heat' enough to prevent collapse; an ocean makes the effect 'stronger still,' not necessary."
+      },
+      "trapPatterns": { "A": "opposite", "B": "shell_game", "C": "extreme", "E": "opposite" },
+      "keyTakeaway": "The author's reorientation is a claim about dependence between variables; abstract inference answers restate that structure.",
+      "evidence": [3]
+    },
+    {
+      "id": "rc-m3-tidal-locking-climate-q5",
+      "type": "principle",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "Which one of the following principles most closely underlies the author's reasoning in the final paragraph?",
+      "choices": {
+        "A": "A climate model ought to incorporate as many distinct physical processes as the available computational resources will permit.",
+        "B": "When one variable in a system helps determine another, the first should not be fixed in advance when modeling the second.",
+        "C": "Assessments of habitability should favor conclusions that enlarge the class of candidate planets.",
+        "D": "The predictions of a widely repeated account should be rejected when they rest on intuition.",
+        "E": "Orbital mechanics should take precedence over atmospheric dynamics in determining a planet's rotation state."
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "Out of scope. The author's point is about dependence between two specific variables, not about model complexity in general.",
+        "B": "Correct. Because the atmosphere 'also determines whether the planet is locked,' assuming locking first 'has the dependence backwards'; joint modeling follows.",
+        "C": "Wrong force. The enlarged class is a result of the procedure, not a criterion for choosing it.",
+        "D": "Extreme. The author rejects the account because of specific physical weaknesses, not because it is intuitive.",
+        "E": "Opposite. The author argues that atmospheric dynamics help set the rotation state."
+      },
+      "trapPatterns": { "A": "out_of_scope", "C": "wrong_force", "D": "extreme", "E": "opposite" },
+      "keyTakeaway": "A principle answer generalizes the author's inference rule—here, do not treat a dependent quantity as a boundary condition.",
+      "evidence": [3]
+    },
+    {
+      "id": "rc-m3-tidal-locking-climate-q6",
+      "type": "stated",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "The passage states that the thermal tide described by Pradhan and Lemoine arises because",
+      "choices": {
+        "A": "the planet's ocean is displaced toward the star by gravitational attraction.",
+        "B": "tidal forces are weaker for atmospheres of terrestrial density.",
+        "C": "the atmosphere freezes onto the nightside and shifts the planet's center of mass.",
+        "D": "the gravitational bulge of the solid planet lags behind the substellar point because of internal friction.",
+        "E": "heating raises an atmospheric bulge that thermal inertia displaces from the substellar point."
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "Shell game. The displaced mass is atmospheric, not oceanic.",
+        "B": "Out of scope. The passage sets a density threshold for the thermal tide; it never says tidal forces weaken with density.",
+        "C": "Opposite. The thermal tide operates in a retained atmosphere, not a frozen one.",
+        "D": "Shell game. The gravitational tidal bulge produces the locking torque; the opposing torque comes from the atmospheric bulge.",
+        "E": "Correct. Paragraph 3: 'Stellar heating raises an atmospheric bulge that is displaced from the substellar point by the atmosphere's thermal inertia.'"
+      },
+      "trapPatterns": { "A": "shell_game", "B": "out_of_scope", "C": "opposite", "D": "shell_game" },
+      "keyTakeaway": "Two bulges are in play; the stated question tests which one the thermal tide involves.",
+      "evidence": [2]
+    },
+    {
+      "id": "rc-m3-tidal-locking-climate-q7",
+      "type": "application",
+      "logicTags": ["causation"],
+      "difficulty": 4,
+      "stem": "Which one of the following, if discovered, would the author most likely regard as supporting the reorientation proposed in the final paragraph?",
+      "choices": {
+        "A": "A close-in planet with a thin atmosphere is found to be tidally locked and airless on its nightside.",
+        "B": "A close-in planet with a thick atmosphere is found to be synchronously locked and nonetheless to maintain a stable eyeball climate with open water.",
+        "C": "Two close-in planets of similar mass and orbit are found to differ in rotation state, and the one that is not synchronously locked has the denser atmosphere.",
+        "D": "A planet orbiting a sunlike star at a great distance is found to rotate slowly despite having no atmosphere.",
+        "E": "General circulation models are found to overestimate heat transport on planets with thin atmospheres."
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "True but irrelevant. Both the standard account and the author expect this; it does not distinguish rotation-as-output from rotation-as-input.",
+        "B": "Half right. This supports paragraph 2's point about retention but keeps rotation as a given, which is what the reorientation rejects.",
+        "C": "Correct. Holding mass and orbit fixed, rotation state covaries with atmospheric density—exactly what follows if the atmosphere 'also determines whether the planet is locked.'",
+        "D": "Out of scope. A distant planet with no atmosphere involves neither tidal locking nor thermal tides.",
+        "E": "Opposite. This would weaken the first leg of the author's argument."
+      },
+      "trapPatterns": { "A": "true_but_irrelevant", "B": "half_right", "D": "out_of_scope", "E": "opposite" },
+      "keyTakeaway": "Support for 'rotation depends on climate' requires rotation to vary with atmosphere while orbital factors are held constant.",
+      "evidence": [2, 3]
+    }
+  ]
+}

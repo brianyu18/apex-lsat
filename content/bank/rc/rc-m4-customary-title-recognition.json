@@ -1,0 +1,202 @@
+{
+  "id": "rc-m4-customary-title-recognition",
+  "style": "problem_analysis",
+  "topic": "law",
+  "comparative": true,
+  "title": "Recognizing Customary Land Tenure",
+  "paragraphs": [
+    "The recognition of customary land tenure by a national legal system is usually presented as an act of restitution, yet Tomas Reinholt has argued that it conceals a problem of translation that restitution cannot solve. Customary tenure, in the systems Reinholt studies, is relational: a person's entitlement to cultivate a plot, harvest a grove, or speak for a tract of land derives from standing within a kin group and from obligations owed to ancestors, neighbors, and the place itself. State property law, by contrast, is proprietary: it defines an interest by what its holder may exclude others from doing and by whether the interest may be sold. To recognize customary tenure by assigning the community a registrable title is therefore to describe it in a vocabulary that has no word for obligation.",
+    "Reinholt's alternative is what he calls jurisdictional recognition. Rather than specifying what rights the community holds, the state would acknowledge the authority of the community's own law to determine who may do what on the land, and would confine itself to policing the boundary between that law and its own. He concedes that this arrangement leaves third parties, from lenders to neighboring landholders, uncertain about whom they must deal with and on what terms, and that such uncertainty is itself a cost borne disproportionately by the poor. But he regards this cost as preferable to a recognition that, however generous in extent, dissolves the thing it names."
+  ],
+  "paragraphsB": [
+    "The Estuary Settlement, concluded two decades ago between a coastal fishing people and the national government, offers an unusually well-documented test of what happens when customary tenure is recorded as proprietary title. The settlement vested in the community a registrable communal title, inalienable except to the state, and left internal allocation to the community's council of elders. Studies by Ilse Marren and others trace what followed: disputes over allocation that had formerly been settled through negotiation among lineages increasingly reached state courts, which, lacking any other vocabulary, resolved them by asking which lineage had been 'in possession'; and younger members came to treat their allocations as holdings they might lease or mortgage, a practice the elders proved unable to prevent.",
+    "It would be too simple, however, to read the Estuary case as a cautionary tale alone. The same proprietary form that eroded internal practice gave the community, for the first time, a standing to exclude that the courts were obliged to enforce. When a mineral concession was granted over part of the estuary, the council's suit succeeded on the ordinary ground that a titleholder may bar trespass, a remedy no appeal to customary authority had previously secured. The settlement thus displays, in a single instance, both the distortion that recognition in proprietary form produces and the leverage that only such form appears to confer."
+  ],
+  "roleMap": {
+    "paragraphs": ["context", "main_point"],
+    "viewpoints": [
+      { "who": "Tomas Reinholt (passage A)", "position": "Proprietary recognition mistranslates relational tenure and dissolves it; the state should instead recognize the community's own jurisdiction, accepting the cost of third-party uncertainty.", "authorAgrees": null },
+      { "who": "Ilse Marren and others (passage B)", "position": "After the Estuary Settlement, allocation disputes migrated to state courts and younger members treated allocations as individual holdings.", "authorAgrees": true },
+      { "who": "Author of passage B", "position": "The Estuary case confirms the distortion Reinholt predicts but also shows that proprietary form confers an enforceable power to exclude that customary authority lacked.", "authorAgrees": true }
+    ],
+    "tone": "A expository; B measured and qualifying"
+  },
+  "lowResSummary": "A gives Reinholt's principle that proprietary recognition distorts customary tenure; B's Estuary case confirms the distortion but finds the form also useful.",
+  "questions": [
+    {
+      "id": "rc-m4-customary-title-recognition-q1",
+      "type": "main_point",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately expresses the main point of passage B?",
+      "choices": {
+        "A": "The Estuary Settlement demonstrates that Reinholt's jurisdictional model of recognition would have served the coastal community better than the title it received.",
+        "B": "The Estuary Settlement failed because the state courts that heard allocation disputes lacked a vocabulary suited to customary practice.",
+        "C": "The Estuary Settlement shows that recording customary tenure as proprietary title both distorts internal practice and confers an enforceable power to exclude outsiders.",
+        "D": "For the Estuary community, the capacity to exclude mineral concessionaires ultimately outweighed the erosion of its internal practices of allocation among lineages.",
+        "E": "Scholars who have studied the Estuary Settlement have been too preoccupied with its cautionary aspects to notice the benefits it conferred."
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "Out of scope. Passage B never evaluates what jurisdictional recognition would have achieved; it says only that customary authority had not 'previously secured' a remedy.",
+        "B": "Half right. The courts' lack of vocabulary is one detail of the first paragraph, but the second paragraph insists the case is not 'a cautionary tale alone.'",
+        "C": "Correct. The final sentence: the settlement 'displays, in a single instance, both the distortion... and the leverage.'",
+        "D": "Comparison shift. Passage B presents both effects but never weighs one against the other or says which 'outweighed' the other.",
+        "E": "Shell game. B says reading the case as cautionary 'would be too simple'; it does not criticize Marren or other scholars for doing so."
+      },
+      "trapPatterns": { "A": "out_of_scope", "B": "half_right", "D": "comparison_shift", "E": "shell_game" },
+      "keyTakeaway": "In a two-paragraph passage that pivots on 'however,' the main point must hold both sides; answers that keep only the first paragraph or add a weighing are wrong.",
+      "evidence": [2, 3]
+    },
+    {
+      "id": "rc-m4-customary-title-recognition-q2",
+      "type": "relationship",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "Which one of the following most accurately describes the relationship between the two passages?",
+      "choices": {
+        "A": "Passage B examines a case that confirms the concern articulated in passage A while suggesting that the concern is not the only relevant consideration.",
+        "B": "Passage B presents empirical evidence that refutes the central claim made in passage A.",
+        "C": "Passage B proposes a solution to a problem that passage A identifies but leaves unresolved.",
+        "D": "Passage B describes the historical circumstances that gave rise to the theory presented in passage A.",
+        "E": "Passage B applies the theoretical framework of passage A to a particular case and concludes that the framework is correct in every respect that the case tests."
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. B's first paragraph documents the distortion A predicts; B's second paragraph adds 'leverage that only such form appears to confer,' a consideration A's principle does not weigh.",
+        "B": "Extreme. B confirms rather than refutes the translation problem; it qualifies A's conclusion, not its central claim.",
+        "C": "Shell game. Passage A does propose a solution (jurisdictional recognition); B proposes none.",
+        "D": "Out of scope. B is a test case concluded 'two decades ago,' not an account of how Reinholt's theory arose.",
+        "E": "Wrong force. 'Correct in every respect' ignores B's 'however' and its finding that proprietary form confers a benefit A's framework does not anticipate."
+      },
+      "trapPatterns": { "B": "extreme", "C": "shell_game", "D": "out_of_scope", "E": "wrong_force" },
+      "keyTakeaway": "Principle/application pairs usually end with the application qualifying the principle; look for the answer that captures both the confirmation and the qualification.",
+      "evidence": [0, 1, 2, 3]
+    },
+    {
+      "id": "rc-m4-customary-title-recognition-q3",
+      "type": "stated",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "According to passage A, Reinholt concedes that jurisdictional recognition would",
+      "choices": {
+        "A": "dissolve the very customary tenure that it purports to recognize and restore",
+        "B": "require the state to specify which rights the community holds",
+        "C": "be of little value to communities that lack a council of elders",
+        "D": "deprive the community of standing to exclude trespassers",
+        "E": "leave outsiders uncertain about whom to deal with and on what terms"
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "Opposite. Dissolving the thing it names is what Reinholt says proprietary recognition does, and what jurisdictional recognition avoids.",
+        "B": "Reversal. Jurisdictional recognition is defined as the state declining to specify rights ('rather than specifying what rights the community holds').",
+        "C": "Out of scope. Councils of elders appear only in passage B.",
+        "D": "Wrong part. Standing to exclude is passage B's observation about proprietary title, not a concession in passage A.",
+        "E": "Correct. 'He concedes that this arrangement leaves third parties... uncertain about whom they must deal with and on what terms.'"
+      },
+      "trapPatterns": { "A": "opposite", "B": "reversal", "C": "out_of_scope", "D": "wrong_part" },
+      "keyTakeaway": "A 'concedes' stem points to the sentence beginning 'He concedes'; match it word for word.",
+      "evidence": [1]
+    },
+    {
+      "id": "rc-m4-customary-title-recognition-q4",
+      "type": "stated",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "Passage B states that the state courts resolved allocation disputes among lineages by",
+      "choices": {
+        "A": "deferring to the decisions of the council of elders",
+        "B": "asking which lineage had been in possession of the land",
+        "C": "applying the express terms of the Estuary Settlement",
+        "D": "treating allocations as individual holdings that could be leased or mortgaged",
+        "E": "consulting the customary law documented by Ilse Marren"
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "Opposite. The disputes reached the courts precisely because they were no longer settled within the community.",
+        "B": "Correct. The courts, 'lacking any other vocabulary, resolved them by asking which lineage had been in possession.'",
+        "C": "Shell game. The settlement is the background instrument; the passage says the courts used the possession test, not the settlement's terms.",
+        "D": "Wrong part. Treating allocations as leasable holdings was the practice of 'younger members,' not the courts.",
+        "E": "Out of scope. Marren is a scholar who studied the aftermath, not a source the courts consulted."
+      },
+      "trapPatterns": { "A": "opposite", "C": "shell_game", "D": "wrong_part", "E": "out_of_scope" },
+      "keyTakeaway": "Keep the actors straight: courts used 'possession,' younger members leased, elders could not prevent it.",
+      "evidence": [2]
+    },
+    {
+      "id": "rc-m4-customary-title-recognition-q5",
+      "type": "author_perspective",
+      "logicTags": [],
+      "difficulty": 4,
+      "stem": "It can be inferred that the author of passage B would be most likely to agree with which one of the following?",
+      "choices": {
+        "A": "Jurisdictional recognition would have given the Estuary community no means whatever of resisting the mineral concession.",
+        "B": "The erosion of internal allocation practices was caused primarily by the younger members' desire to lease their holdings.",
+        "C": "The council of elders should have been granted authority to overrule state courts in disputes over allocation.",
+        "D": "A form of recognition can alter a community's internal practices in ways that the recognizing agreement did not direct.",
+        "E": "Reinholt's distinction between relational and proprietary tenure does not apply to coastal fishing peoples."
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "Extreme. B says customary authority had not 'previously secured' such a remedy and that proprietary form 'appears' to confer leverage; 'no means whatever' overstates a hedged claim.",
+        "B": "Shell game. The leasing is presented as a symptom of the proprietary form, alongside the migration of disputes to courts, not as the primary cause of erosion.",
+        "C": "Out of scope. B describes what happened; it makes no recommendation about the elders' powers.",
+        "D": "Correct. The settlement 'left internal allocation to the community's council of elders,' yet allocation practice changed anyway through the courts and the younger members. The form reshaped what the agreement did not address.",
+        "E": "Opposite. B treats the Estuary case as 'a test' of exactly the translation Reinholt describes, and finds the distortion he predicts."
+      },
+      "trapPatterns": { "A": "extreme", "B": "shell_game", "C": "out_of_scope", "E": "opposite" },
+      "keyTakeaway": "The inference comes from juxtaposing two facts: allocation was reserved to the elders, yet allocation practice changed. Only D states the general lesson of that gap.",
+      "evidence": [2, 3]
+    },
+    {
+      "id": "rc-m4-customary-title-recognition-q6",
+      "type": "purpose_in_context",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The author of passage B mentions the mineral concession primarily in order to",
+      "choices": {
+        "A": "illustrate the kind of third-party uncertainty that Reinholt regards as an unavoidable cost of jurisdictional recognition",
+        "B": "show that state courts were willing to apply customary law when the community's interests were at stake",
+        "C": "demonstrate that the community's communal title was in practice alienable despite the settlement's terms",
+        "D": "explain why younger members of the community came to treat their allocations as individual holdings",
+        "E": "provide an instance in which the proprietary form of the title secured a result that customary authority could not"
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "Wrong part. Third-party uncertainty is Reinholt's concession in passage A; the concession episode in B is about the community's power, not outsiders' uncertainty.",
+        "B": "Opposite. The suit succeeded 'on the ordinary ground that a titleholder may bar trespass,' that is, on state property law, not customary law.",
+        "C": "Shell game. The title was 'inalienable except to the state'; the concession episode concerns exclusion, not sale.",
+        "D": "Out of scope. The younger members' behavior is described in the first paragraph and is not linked to the concession.",
+        "E": "Correct. The suit secured 'a remedy no appeal to customary authority had previously secured,' which is B's evidence of 'leverage.'"
+      },
+      "trapPatterns": { "A": "wrong_part", "B": "opposite", "C": "shell_game", "D": "out_of_scope" },
+      "keyTakeaway": "An example introduced after 'however' serves the qualification, not the original concern; the concession is B's evidence for the upside of proprietary form.",
+      "evidence": [3]
+    },
+    {
+      "id": "rc-m4-customary-title-recognition-q7",
+      "type": "analogy",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "Which one of the following is most analogous to the 'problem of translation' described in passage A?",
+      "choices": {
+        "A": "A government funds a traditional musical ensemble on the condition that it perform only at official state ceremonies.",
+        "B": "A museum catalogues a ritual object as a sculpture, so that visitors admire its form but have no way of learning the uses that gave it meaning.",
+        "C": "A city designates a neighborhood market as a historic landmark, which prevents the vendors from altering their stalls as their trades change.",
+        "D": "An encyclopedia summarizes a philosophical system so briefly that readers cannot reconstruct its central arguments or the objections it answered.",
+        "E": "A government recognizes an unofficial holiday by declaring it a national day off work, after which most people stop observing its rituals."
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "Out of scope. This is control through conditions, not a redescription in a vocabulary that lacks the thing's defining category.",
+        "B": "Correct. The object is recognized, but in a category ('sculpture') that has no place for what defines it (its uses), just as title has 'no word for obligation.'",
+        "C": "Shell game. Landmark status freezes the market; the translation problem is about misdescribing, not about preventing change.",
+        "D": "Half right. Something is lost, but through compression, not through placing the thing in a category that cannot express its defining feature.",
+        "E": "Half right. Recognition here changes behavior, but the holiday is not recorded in a category lacking the term for what defines it; the mechanism is different."
+      },
+      "trapPatterns": { "A": "out_of_scope", "C": "shell_game", "D": "half_right", "E": "half_right" },
+      "keyTakeaway": "Abstract the mechanism before matching: recognition that recategorizes the thing in terms that omit its defining feature. Only B has that structure.",
+      "evidence": [0]
+    }
+  ]
+}

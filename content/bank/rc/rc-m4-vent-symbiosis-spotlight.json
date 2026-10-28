@@ -1,0 +1,176 @@
+{
+  "id": "rc-m4-vent-symbiosis-spotlight",
+  "style": "spotlight",
+  "topic": "natural_science",
+  "comparative": false,
+  "title": "Solberg and the Gutless Worm",
+  "paragraphs": [
+    "The discovery of hydrothermal vents on the deep ocean floor, and of the dense animal communities clustered around them, posed an immediate question of nourishment. No sunlight reaches such depths, and the fall of organic material from above is far too sparse to support the biomass observed. Most striking were the giant tubeworms of the genus Thermovestis, which possess neither mouth nor gut. The geologists who first described the vents proposed, reasonably enough, that the animals filtered bacteria from the mineral-rich fluid, and this remained the working assumption for several years. It had the merit of requiring nothing new.",
+    "Marit Solberg, then a comparative physiologist with no prior work on marine invertebrates, argued instead that the worm did not eat bacteria but housed them. Sectioning preserved specimens, she identified a spongy internal organ, which she called the trophic body, packed with bacterial cells and richly supplied with blood, and she proposed that these bacteria oxidized the hydrogen sulfide dissolved in vent fluid to produce the energy by which they fixed carbon, passing a share of the product to their host. The proposal was received with some reserve. Symbioses with photosynthetic algae were well known, but a symbiosis founded on sulfide, a potent respiratory poison, seemed to require the host to carry through its own blood the very compound that would kill it.",
+    "It is this objection that Solberg turned to advantage. If the worm could not survive free sulfide in its blood, and if the bacteria nonetheless received sulfide, then the blood must bind the compound in a form that was both harmless to the host and deliverable to the symbionts. She predicted, on physiological grounds alone, a hemoglobin with separate binding sites for oxygen and sulfide, and she was able, with collaborators, to isolate a protein of extraordinary size that behaved exactly so. The prediction was not a lucky guess; it followed from her having reframed the question from how the worm fed to how it avoided poisoning itself.",
+    "Standard accounts of vent biology nevertheless assign the central discovery to the expedition geologists and treat Solberg's work as confirmation of what the setting implied. This seems to me a misreading of the order of events. Nothing in the setting implied an internal symbiosis; the filter-feeding hypothesis was the natural one, and it was Solberg's willingness to ask a physiological question of an ecological puzzle that displaced it. Her record is not without error. She believed the symbionts were inherited through the egg, and it was left to others to show that each generation of larvae acquires them anew from the surrounding water. But the error concerns the maintenance of the symbiosis, not its existence, and it does nothing to diminish the conceptual step on which the field was built."
+  ],
+  "roleMap": {
+    "paragraphs": ["context", "counterpoint", "support", "main_point"],
+    "viewpoints": [
+      { "who": "Expedition geologists", "position": "The tubeworms filter bacteria from vent fluid.", "authorAgrees": false },
+      { "who": "Early skeptics of Solberg", "position": "A sulfide-based symbiosis is implausible because the host would have to carry a respiratory poison in its blood.", "authorAgrees": false },
+      { "who": "Marit Solberg", "position": "The worm houses sulfide-oxidizing bacteria in a trophic body and carries sulfide bound to a specialized hemoglobin; symbionts are inherited through the egg.", "authorAgrees": null },
+      { "who": "Standard accounts of vent biology", "position": "The central discovery belongs to the geologists; Solberg merely confirmed what the setting implied.", "authorAgrees": false }
+    ],
+    "tone": "admiring, with a candid caveat"
+  },
+  "lowResSummary": "Author argues Solberg's physiological reframing of the tubeworm puzzle, not the geologists' discovery, founded vent biology despite her inheritance error.",
+  "questions": [
+    {
+      "id": "rc-m4-vent-symbiosis-spotlight-q1",
+      "type": "main_point",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately expresses the main point of the passage?",
+      "choices": {
+        "A": "Solberg's hypothesis that vent tubeworms house chemosynthetic bacteria was confirmed only when a hemoglobin with separate binding sites for oxygen and sulfide was finally isolated by her collaborators.",
+        "B": "Standard accounts of vent biology are right to credit the expedition geologists, since their discovery of the vents was what made Solberg's physiological work possible.",
+        "C": "Solberg's mistaken belief that the symbionts are inherited through the egg shows that her contribution to vent biology has been considerably overstated.",
+        "D": "Vent biology was founded less by the geologists' discovery than by Solberg's physiological reframing of the tubeworm puzzle, an achievement her later error does not diminish.",
+        "E": "The filter-feeding hypothesis was abandoned because the fall of organic material to the deep sea floor is too sparse to support the vent communities."
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "Wrong part. The hemoglobin is the supporting evidence of paragraph 3, not the thesis; 'only when' also overstates.",
+        "B": "Opposite. Paragraph 4 calls the standard account 'a misreading of the order of events.'",
+        "C": "Opposite. The author says the error 'does nothing to diminish the conceptual step.'",
+        "D": "Correct. Paragraph 4: 'it was Solberg's willingness to ask a physiological question of an ecological puzzle that displaced' filter feeding, and her error 'does nothing to diminish the conceptual step on which the field was built.'",
+        "E": "Shell game. Sparse organic fall is the reason filter feeding of bacteria was proposed in the first place, not why it was abandoned."
+      },
+      "trapPatterns": { "A": "wrong_part", "B": "opposite", "C": "opposite", "E": "shell_game" },
+      "keyTakeaway": "A spotlight that corrects the record has a two-part thesis: who deserves credit, and why the acknowledged error does not change that.",
+      "evidence": [3]
+    },
+    {
+      "id": "rc-m4-vent-symbiosis-spotlight-q2",
+      "type": "stated",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "According to the passage, the expedition geologists initially proposed that the tubeworms",
+      "choices": {
+        "A": "filtered bacteria from the vent fluid",
+        "B": "housed bacteria in a specialized internal organ",
+        "C": "absorbed dissolved organic material directly through their skin",
+        "D": "fed on organic material that fell from the surface waters",
+        "E": "acquired their bacteria from the surrounding water as larvae"
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. The geologists 'proposed, reasonably enough, that the animals filtered bacteria from the mineral-rich fluid.'",
+        "B": "Wrong part. Housing bacteria is Solberg's hypothesis.",
+        "C": "Out of scope. Absorption through the skin is never mentioned.",
+        "D": "Opposite. Paragraph 1 says the fall of organic material 'is far too sparse to support the biomass observed.'",
+        "E": "Wrong part. Larval acquisition is the later finding that corrected Solberg."
+      },
+      "trapPatterns": { "B": "wrong_part", "C": "out_of_scope", "D": "opposite", "E": "wrong_part" },
+      "keyTakeaway": "Keep the three accounts of nourishment distinct: filtering (geologists), housing (Solberg), larval acquisition (later researchers).",
+      "evidence": [0]
+    },
+    {
+      "id": "rc-m4-vent-symbiosis-spotlight-q3",
+      "type": "purpose_in_context",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The author mentions symbioses with photosynthetic algae primarily in order to",
+      "choices": {
+        "A": "provide an example of the kind of symbiosis that Solberg proposed for the tubeworm",
+        "B": "indicate why a symbiosis based on sulfide, unlike familiar symbioses, struck researchers as implausible",
+        "C": "explain how Solberg first came to suspect that the worm housed bacteria internally",
+        "D": "suggest that the geologists' filter-feeding hypothesis was modeled on a well-known biological case of nutrition",
+        "E": "show that comparative physiologists had long been studying marine invertebrates"
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "Opposite. The algal symbioses are the familiar contrast; Solberg's proposal differed in being 'founded on sulfide, a potent respiratory poison.'",
+        "B": "Correct. 'Symbioses with photosynthetic algae were well known, but a symbiosis founded on sulfide... seemed to require the host to carry... the very compound that would kill it.'",
+        "C": "Out of scope. Solberg's suspicion came from sectioning specimens, not from algal analogies.",
+        "D": "Out of scope. Nothing links the algal cases to the geologists' hypothesis.",
+        "E": "Extreme. The passage says Solberg had 'no prior work on marine invertebrates'; the algal reference says nothing about physiologists generally."
+      },
+      "trapPatterns": { "A": "opposite", "C": "out_of_scope", "D": "out_of_scope", "E": "extreme" },
+      "keyTakeaway": "'Were well known, but' sets up a contrast; the familiar case exists to make the novel one look strange.",
+      "evidence": [1]
+    },
+    {
+      "id": "rc-m4-vent-symbiosis-spotlight-q4",
+      "type": "stated",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "The passage states that later researchers showed that the tubeworm's symbionts are",
+      "choices": {
+        "A": "inherited by each worm through the egg",
+        "B": "capable of surviving free sulfide in the host's blood",
+        "C": "identical to the bacteria the geologists observed in vent fluid",
+        "D": "transmitted from adult worms to larvae by direct physical contact",
+        "E": "acquired by each generation of larvae from the surrounding water"
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "Opposite. Inheritance through the egg was Solberg's mistaken belief.",
+        "B": "Out of scope. The passage discusses the host's tolerance, not the symbionts'.",
+        "C": "Out of scope. No comparison between symbionts and free-living bacteria is made.",
+        "D": "Shell game. Transmission by contact is a plausible-sounding third option the passage never mentions.",
+        "E": "Correct. 'It was left to others to show that each generation of larvae acquires them anew from the surrounding water.'"
+      },
+      "trapPatterns": { "A": "opposite", "B": "out_of_scope", "C": "out_of_scope", "D": "shell_game" },
+      "keyTakeaway": "The correction to Solberg is stated in one sentence of paragraph 4; the wrong answers include her own error.",
+      "evidence": [3]
+    },
+    {
+      "id": "rc-m4-vent-symbiosis-spotlight-q5",
+      "type": "author_perspective",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "It can be inferred from the passage that the author would be most likely to agree with which one of the following?",
+      "choices": {
+        "A": "A hypothesis that requires nothing new is for that reason unlikely to be correct.",
+        "B": "Solberg would not have identified the trophic body had she been trained in marine biology.",
+        "C": "A scientist's errors about the details of a mechanism need not detract from credit for establishing that the mechanism exists.",
+        "D": "The geologists' discovery of the vents was of little scientific importance compared with Solberg's work.",
+        "E": "Predictions made on physiological grounds alone are more reliable than those made from ecological observation of an animal's habitat."
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "Extreme. The author calls the filter-feeding hypothesis 'reasonably enough' proposed and 'natural'; requiring nothing new is a merit, not a defect.",
+        "B": "Out of scope. The author notes her outsider status but makes no counterfactual claim about training.",
+        "C": "Correct. Paragraph 4: the error 'concerns the maintenance of the symbiosis, not its existence, and it does nothing to diminish the conceptual step.'",
+        "D": "Comparison shift. The author disputes who made the central biological discovery, not the importance of discovering the vents.",
+        "E": "Extreme. One successful physiological prediction does not support a general ranking of methods."
+      },
+      "trapPatterns": { "A": "extreme", "B": "out_of_scope", "D": "comparison_shift", "E": "extreme" },
+      "keyTakeaway": "The author's handling of Solberg's error, maintenance versus existence, is a general principle about credit; C states it.",
+      "evidence": [3]
+    },
+    {
+      "id": "rc-m4-vent-symbiosis-spotlight-q6",
+      "type": "author_attitude",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The author's attitude toward the standard accounts of vent biology mentioned in the final paragraph can most accurately be described as",
+      "choices": {
+        "A": "disagreement with their assignment of credit, based on a reading of the sequence of events",
+        "B": "acceptance of their conclusions despite reservations about the evidence they cite",
+        "C": "approval of their emphasis on the geologists' willingness to ask new questions",
+        "D": "suspicion that they were written in order to diminish Solberg's reputation among her colleagues",
+        "E": "agreement that Solberg's work merely confirmed what the vent setting implied"
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. 'This seems to me a misreading of the order of events,' followed by the author's own sequence.",
+        "B": "Opposite. The author rejects the conclusion, not merely the evidence.",
+        "C": "Shell game. Asking new questions is the author's praise of Solberg, not of the geologists.",
+        "D": "Out of scope. No motive is attributed to the standard accounts.",
+        "E": "Opposite. 'Nothing in the setting implied an internal symbiosis.'"
+      },
+      "trapPatterns": { "B": "opposite", "C": "shell_game", "D": "out_of_scope", "E": "opposite" },
+      "keyTakeaway": "'Misreading of the order of events' names both the attitude (disagreement) and its basis (chronology).",
+      "evidence": [3]
+    }
+  ]
+}

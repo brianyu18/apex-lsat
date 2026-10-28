@@ -104,7 +104,7 @@
       "difficulty": 3,
       "stem": "The passage most strongly suggests that the author would agree with which one of the following?",
       "choices": {
-        "A": "The microbial mats reported from isolated caves on other continents have been shown to rely on the same energy sources as the Scarrow mats.",
+        "A": "The microbial mats reported from isolated caves on other continents have been shown to rely on precisely the same energy sources as the Scarrow mats.",
         "B": "A metabolism demonstrated in laboratory culture need not account for the biomass observed in the environment from which the culture was drawn.",
         "C": "The conventional reckoning of cave ecology has been shown to be incorrect for all deep limestone systems.",
         "D": "Genetic surveys of the mats would have been sufficient to rule out the surface-input hypothesis even without isotopic data.",
@@ -157,7 +157,7 @@
         "A": "eliminates the need for further research funding",
         "B": "prevents organic carbon from entering the galleries",
         "C": "supplies the energy that the other identified sources leave unaccounted for",
-        "D": "limits the growth of the mats to the level the sulfide flux can sustain",
+        "D": "limits the growth of the mats to the level that the available sulfide flux alone can sustain",
         "E": "reconciles the isotopic data with the genetic surveys"
       },
       "answer": "C",

@@ -28,7 +28,7 @@
       "difficulty": 3,
       "stem": "Which one of the following most accurately expresses the main point of the passage?",
       "choices": {
-        "A": "The pathway model of protein folding, though discredited by later kinetic evidence, correctly identified the sequence-specific contacts that drive folding.",
+        "A": "The pathway model of protein folding, though discredited by later kinetic evidence, correctly identified the sequence-specific contacts and local structures that drive folding.",
         "B": "The search problem in protein folding is not a genuine paradox and therefore requires no special explanation beyond the observation that folding occurs.",
         "C": "The funnel model of protein folding has prevailed because it reconciles kinetic data that the pathway model was unable to accommodate.",
         "D": "Neither the pathway model nor the funnel model can explain why proteins fold faster than a random search of conformations would allow.",
@@ -103,7 +103,7 @@
       "difficulty": 4,
       "stem": "The passage most strongly suggests that the author would agree with which one of the following?",
       "choices": {
-        "A": "An explanation that successfully reconciles all of the available data should for that reason be accepted as complete.",
+        "A": "An explanation that successfully reconciles all of the available data should for that reason be accepted as complete and no longer in need of supplementation.",
         "B": "The intermediates that Halloran detected were artifacts of the kinetic methods he employed.",
         "C": "A random sequence of amino acids would fold as rapidly as a natural protein if its energy landscape were sufficiently rugged.",
         "D": "A description that applies equally to every protein cannot by itself explain a property that proteins possess in virtue of their differences.",
@@ -153,7 +153,7 @@
       "difficulty": 3,
       "stem": "The primary function of the final paragraph is to",
       "choices": {
-        "A": "reject the funnel model on the ground that it cannot account for the intermediates Halloran detected",
+        "A": "reject the funnel model on the ground that it cannot account for the kinetic intermediates that Halloran detected in small enzymes",
         "B": "propose a third model of protein folding that combines features of the pathway and funnel models",
         "C": "summarize the kinetic evidence that led to the abandonment of the pathway model",
         "D": "argue that the search problem was never a genuine difficulty for theories of folding",

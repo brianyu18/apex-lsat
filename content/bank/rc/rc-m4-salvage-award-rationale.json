@@ -1,0 +1,175 @@
+{
+  "id": "rc-m4-salvage-award-rationale",
+  "style": "single_position",
+  "topic": "law",
+  "comparative": false,
+  "title": "What Salvage Awards Are For",
+  "paragraphs": [
+    "The maritime law of salvage rewards those who, under no prior obligation, voluntarily rescue a vessel or its cargo from peril at sea. The award is fixed by a court after the fact, and its size depends on factors, among them the degree of danger, the value of the property saved, and the skill displayed, that bear no fixed relation to the salvor's expenditure. Several features of the doctrine have long puzzled commentators. A salvor who labors heroically but fails to save anything receives nothing, under the rule of 'no cure, no pay.' A salvor who succeeds may receive an award far exceeding the market value of the services rendered. And members of the imperiled vessel's own crew, whatever their exertions, are ordinarily barred from recovering at all.",
+    "One influential explanation, developed most fully by Dorian Peck, treats salvage as an implied contract: the owner of property in peril would, if asked, agree to pay for its rescue, and the law simply enforces the bargain the parties would have struck. The account has an obvious appeal, since it assimilates salvage to the familiar law of agreements. But it strains against the doctrine it seeks to explain. A hypothetical bargain would presumably compensate effort even when it failed, as construction contracts do; it would not routinely yield payments several times the value of the work; and it offers no reason why crew members, who are as capable of striking bargains as anyone, should be excluded.",
+    "These anomalies dissolve once salvage is seen for what I believe it is: not a device for correcting an imbalance between two parties but an instrument of public policy, designed to induce strangers to undertake rescues that the law cannot compel. On this view the generosity of awards is not a windfall but a price, set high because the alternative, a vessel and crew lost for want of assistance, is costlier still. 'No cure, no pay' concentrates the inducement where it is wanted, on results. And the exclusion of crew follows directly, since those already bound to the vessel need no inducement the law must supply; to pay them would purchase nothing.",
+    "The incentive reading also makes sense of the doctrine's most significant recent development. Under conventions adopted in several maritime nations, a salvor who prevents or minimizes environmental damage from a stricken tanker may recover special compensation even where the vessel itself is lost, a result the traditional rule would have forbidden. Critics have called this an abandonment of salvage principle. It is better understood as its extension: the public now wishes to induce a kind of rescue, of coastlines rather than cargoes, that the old measure of success did not reward, and the law has adjusted the price accordingly."
+  ],
+  "roleMap": {
+    "paragraphs": ["context", "counterpoint", "main_point", "implication"],
+    "viewpoints": [
+      { "who": "Dorian Peck", "position": "Salvage is an implied contract: the law enforces the bargain the owner would have struck.", "authorAgrees": false },
+      { "who": "Critics of environmental salvage conventions", "position": "Special compensation where the vessel is lost abandons salvage principle.", "authorAgrees": false },
+      { "who": "The author", "position": "Salvage awards are a public-policy inducement to rescue, which explains the doctrine's anomalies and its environmental extension.", "authorAgrees": true }
+    ],
+    "tone": "confident advocacy"
+  },
+  "lowResSummary": "Author rejects the implied-contract account of salvage awards, arguing they are a public inducement to rescue that also explains environmental-salvage pay.",
+  "questions": [
+    {
+      "id": "rc-m4-salvage-award-rationale-q1",
+      "type": "main_point",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately expresses the main point of the passage?",
+      "choices": {
+        "A": "The law of salvage should be reformed so that salvors are compensated for their efforts regardless of whether a rescue succeeds.",
+        "B": "Peck's implied-contract theory of salvage, though widely accepted among commentators, cannot adequately account for the exclusion of crew members from salvage awards.",
+        "C": "Recent conventions permitting special compensation for environmental salvage mark a decisive break with traditional salvage doctrine.",
+        "D": "Salvage awards are best understood as a public inducement to rescue, a view that explains the doctrine's puzzling features and its recent environmental extension.",
+        "E": "The size of a salvage award is determined by the degree of danger and the value of the property saved rather than by the salvor's expenditure."
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "Out of scope. The author explains 'no cure, no pay' as sensible inducement design and never proposes reform.",
+        "B": "Half right. The crew exclusion is one of three anomalies in paragraph 2, and the passage goes on to advance its own theory, not merely to critique Peck.",
+        "C": "Opposite. Paragraph 4 says the conventions are 'better understood as its extension,' not a break.",
+        "D": "Correct. Paragraph 3 states the thesis ('an instrument of public policy, designed to induce strangers'); paragraph 4 extends it to the environmental conventions.",
+        "E": "Wrong part. This is background detail from paragraph 1, not the argument."
+      },
+      "trapPatterns": { "A": "out_of_scope", "B": "half_right", "C": "opposite", "E": "wrong_part" },
+      "keyTakeaway": "A single-position passage's main point is the thesis sentence plus its reach; here that is paragraph 3's 'instrument of public policy' and paragraph 4's extension.",
+      "evidence": [2, 3]
+    },
+    {
+      "id": "rc-m4-salvage-award-rationale-q2",
+      "type": "stated",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "According to the passage, under the rule of 'no cure, no pay,' a salvor who",
+      "choices": {
+        "A": "is a member of the imperiled vessel's crew receives a reduced award",
+        "B": "fails to save any property receives no award regardless of the effort expended",
+        "C": "saves property receives an award equal to the market value of the services rendered",
+        "D": "acts under a prior contractual obligation receives compensation only for successful efforts",
+        "E": "succeeds in a rescue must share the award with the owner of the vessel"
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "Shell game. Crew members are 'barred from recovering at all,' and that bar is a separate feature from 'no cure, no pay.'",
+        "B": "Correct. Paragraph 1: 'A salvor who labors heroically but fails to save anything receives nothing, under the rule of no cure, no pay.'",
+        "C": "Opposite. Paragraph 1 says a successful salvor 'may receive an award far exceeding the market value of the services rendered.'",
+        "D": "Out of scope. Salvage by definition concerns rescuers 'under no prior obligation'; the passage says nothing about contractual salvors.",
+        "E": "Out of scope. The passage never mentions sharing awards with owners."
+      },
+      "trapPatterns": { "A": "shell_game", "C": "opposite", "D": "out_of_scope", "E": "out_of_scope" },
+      "keyTakeaway": "The quoted phrase is defined in the same sentence it appears in; the answer is that sentence restated.",
+      "evidence": [0]
+    },
+    {
+      "id": "rc-m4-salvage-award-rationale-q3",
+      "type": "purpose_in_context",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The author mentions construction contracts primarily in order to",
+      "choices": {
+        "A": "illustrate the kind of agreement that owners of imperiled property typically enter into with salvors",
+        "B": "suggest that salvage law was historically modeled on the law of commercial agreements",
+        "C": "show that contracts routinely yield payments far exceeding the value of the work performed",
+        "D": "provide an example of a public policy instrument comparable to salvage",
+        "E": "indicate what a genuine bargain for services would provide, in contrast to what salvage law provides"
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "Opposite. Salvors act 'under no prior obligation'; there is no actual agreement, which is why Peck must posit an implied one.",
+        "B": "Out of scope. The passage makes no historical claim about the origins of salvage law.",
+        "C": "Opposite. Construction contracts are cited for compensating failed effort; the excessive-payment point is a separate anomaly the author says a bargain 'would not' produce.",
+        "D": "Wrong part. Public policy is the author's own theory in paragraph 3; construction contracts appear in the critique of Peck in paragraph 2.",
+        "E": "Correct. 'A hypothetical bargain would presumably compensate effort even when it failed, as construction contracts do,' unlike 'no cure, no pay.'"
+      },
+      "trapPatterns": { "A": "opposite", "B": "out_of_scope", "C": "opposite", "D": "wrong_part" },
+      "keyTakeaway": "An 'as X do' comparison inside a critique shows what the criticized theory would predict; the point is the mismatch with the doctrine.",
+      "evidence": [1]
+    },
+    {
+      "id": "rc-m4-salvage-award-rationale-q4",
+      "type": "author_perspective",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "It can be inferred from the passage that the author would be most likely to agree with which one of the following?",
+      "choices": {
+        "A": "A salvage award should never exceed the value of the property that the salvor saved.",
+        "B": "Crew members who rescue their own vessel are entitled to compensation under ordinary contract principles.",
+        "C": "If a class of rescuers were already legally obligated to attempt rescues, offering them salvage awards would serve no purpose.",
+        "D": "The implied-contract theory would be adequate if it were modified so as to exclude crew members from the class of those entitled to awards.",
+        "E": "Courts set salvage awards primarily by estimating what the owner would have agreed to pay."
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "Extreme. The author defends generous awards as 'a price' and sets no ceiling at the property's value.",
+        "B": "Opposite. The author endorses the exclusion of crew: 'to pay them would purchase nothing.'",
+        "C": "Correct. Paragraph 3 generalizes directly: 'those already bound to the vessel need no inducement the law must supply.' Any pre-obligated class fits the same reasoning.",
+        "D": "Half right. The crew exclusion is only one of three anomalies; failed effort and excessive payment would remain unexplained.",
+        "E": "Wrong part. That is Peck's account, which the author rejects."
+      },
+      "trapPatterns": { "A": "extreme", "B": "opposite", "D": "half_right", "E": "wrong_part" },
+      "keyTakeaway": "Generalize the author's stated reasoning: inducements are pointless for those already obligated. The crew case is an instance of that rule.",
+      "evidence": [2]
+    },
+    {
+      "id": "rc-m4-salvage-award-rationale-q5",
+      "type": "purpose_of_paragraph",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "Which one of the following most accurately describes the function of the final paragraph?",
+      "choices": {
+        "A": "It shows that a development some regard as a departure from the doctrine is consistent with the author's account of the doctrine's purpose.",
+        "B": "It concedes that the incentive reading cannot account for one recent development in salvage law.",
+        "C": "It introduces a second theory of salvage that supplements the one defended earlier.",
+        "D": "It summarizes the objections that critics have raised against the incentive reading of salvage and offers a response to each of them in turn.",
+        "E": "It argues that the traditional measure of success in salvage should be abandoned."
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. Critics call the conventions 'an abandonment of salvage principle'; the author replies they are 'better understood as its extension' on the incentive view.",
+        "B": "Opposite. The paragraph opens by saying the incentive reading 'also makes sense of' the development.",
+        "C": "Shell game. No new theory appears; the same inducement logic is applied to a new case.",
+        "D": "Wrong part. The critics object to the conventions, not to the author's reading.",
+        "E": "Extreme. The author says the law 'has adjusted the price' to reward a new kind of rescue, not that the old measure should be abandoned."
+      },
+      "trapPatterns": { "B": "opposite", "C": "shell_game", "D": "wrong_part", "E": "extreme" },
+      "keyTakeaway": "A final paragraph that opens with 'also makes sense of' is extending the thesis to a further case, typically against critics who read that case differently.",
+      "evidence": [3]
+    },
+    {
+      "id": "rc-m4-salvage-award-rationale-q6",
+      "type": "author_attitude",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "The author's attitude toward Peck's implied-contract account can most accurately be described as",
+      "choices": {
+        "A": "unqualified rejection of both its premises and its conclusions",
+        "B": "enthusiastic endorsement tempered by minor reservations",
+        "C": "acknowledgment of its appeal combined with a judgment that it fails to fit the doctrine",
+        "D": "indifference to its merits as a description of salvage practice",
+        "E": "suspicion that it was devised primarily in order to justify the exclusion of crew members from awards"
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "Extreme. The author grants that the account 'has an obvious appeal'; rejection is not 'unqualified.'",
+        "B": "Opposite. The author says the account 'strains against the doctrine it seeks to explain.'",
+        "C": "Correct. 'The account has an obvious appeal... But it strains against the doctrine.'",
+        "D": "Opposite. The author engages the account's merits in detail across paragraph 2.",
+        "E": "Out of scope. Nothing suggests a motive; the account 'offers no reason' for the crew exclusion."
+      },
+      "trapPatterns": { "A": "extreme", "B": "opposite", "D": "opposite", "E": "out_of_scope" },
+      "keyTakeaway": "Attitude answers should mirror the passage's own concession-plus-pivot: 'obvious appeal... But.'",
+      "evidence": [1]
+    }
+  ]
+}

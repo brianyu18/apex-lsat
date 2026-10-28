@@ -1,0 +1,202 @@
+{
+  "id": "rc-m3-jury-instructions",
+  "style": "critique_debate",
+  "topic": "law",
+  "comparative": true,
+  "title": "Pattern Jury Instructions: Accuracy or Intelligibility",
+  "paragraphs": [
+    "Until the middle of the twentieth century, the instructions a trial judge delivered to a jury were largely the judge's own composition, assembled for each case from precedent, treatise, and habit. The resulting charges were often eloquent and occasionally lucid, but they were also idiosyncratic, and their idiosyncrasies were a principal engine of appellate reversal. The movement toward 'pattern' instructions—standardized formulations drafted by committees of judges and practitioners and approved for general use—was a response to this instability, and by any measure it succeeded. In jurisdictions that adopted pattern charges, reversals for instructional error fell sharply within a decade.",
+    "The success has not gone unchallenged. A line of criticism, drawing on comprehension studies, holds that pattern instructions are written for appellate courts rather than for jurors, and that lay fact-finders understand little of what is read to them. The criticism mistakes the function of the charge. Jurors do not reason from the instructions as from a code; they reason from the evidence, guided by a general sense of what the law requires, and that sense is shaped as much by the trial itself as by the judge's summation. A charge need not be fully understood to be effective; it need only be accurate and not misleading. Pattern instructions deliver accuracy at scale, and their critics have yet to show that any alternative does so without reviving the disorder they replaced."
+  ],
+  "paragraphsB": [
+    "Defenders of pattern jury instructions point to the decline in appellate reversals that followed their adoption as proof that the charges work. The inference is unwarranted. Reversals declined because appellate courts, having approved the pattern language in advance, became unwilling to find error in its use; a charge that is reversal-proof is not for that reason comprehensible, and the decline measures judicial deference rather than juror understanding. The drafting committees themselves were candid about their priorities: the published commentary to the earliest pattern sets speaks repeatedly of 'defensibility on appeal' and almost never of the juror.",
+    "What jurors actually understand is now an empirical question, and the answer is unflattering. In the Marchetti comprehension studies, mock jurors who heard standard pattern instructions on burden of proof and circumstantial evidence performed no better on tests of those concepts than jurors who had heard no instruction at all; a plain-language revision of the same instructions, holding legal content constant, produced marked improvement. It is sometimes replied that jurors reason from the evidence rather than from the charge. But that is precisely the problem: a juror who does not understand what the law requires will supply a standard of her own, and the charge will have failed in the one task that justifies its existence. Revision toward intelligibility sacrifices nothing in accuracy; it merely requires that accuracy be stated in a language the audience speaks."
+  ],
+  "roleMap": {
+    "paragraphs": ["context", "main_point"],
+    "viewpoints": [
+      { "who": "Author of passage A", "position": "Pattern instructions succeeded in reducing reversals; comprehension matters less because jurors reason from evidence and a charge need only be accurate", "authorAgrees": null },
+      { "who": "Author of passage B", "position": "The reversal decline reflects deference, jurors demonstrably misunderstand pattern charges, and plain-language revision costs nothing in accuracy", "authorAgrees": null },
+      { "who": "Comprehension critics (as described in A)", "position": "Pattern instructions are written for appellate courts and jurors understand little of them", "authorAgrees": null }
+    ],
+    "tone": "A confidently dismissive; B pointedly rebutting"
+  },
+  "lowResSummary": "A defends pattern jury instructions by reversal decline and jurors' reliance on evidence; B rebuts both with deference and comprehension evidence.",
+  "questions": [
+    {
+      "id": "rc-m3-jury-instructions-q1",
+      "type": "main_point",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately expresses the main point of passage B?",
+      "choices": {
+        "A": "The usual evidence for pattern instructions does not show that jurors understand them, comprehension studies show they do not, and the instructions should be revised for intelligibility.",
+        "B": "Pattern jury instructions were drafted to withstand appellate review rather than to inform jurors, and should therefore be abandoned in favor of case-specific charges.",
+        "C": "Because jurors reason primarily from the evidence rather than from the charge, the comprehensibility of pattern instructions is of less consequence than its critics suppose.",
+        "D": "The decline in appellate reversals after pattern instructions were adopted is attributable to judicial deference rather than to any improvement in the accuracy of the charges delivered to juries.",
+        "E": "The Marchetti comprehension studies demonstrate that jurors who receive no instruction at all perform as well as those who receive plain-language instructions."
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. Passage B's two paragraphs discredit the reversal evidence, report the comprehension findings, and conclude that 'Revision toward intelligibility sacrifices nothing in accuracy.'",
+        "B": "Half right. B does say the drafters prioritized appeal, but it proposes plain-language revision, not a return to case-specific charges.",
+        "C": "Opposite. This is passage A's position, which B explicitly rejects: 'that is precisely the problem.'",
+        "D": "Wrong part. This is B's first paragraph only; it omits the comprehension evidence and the recommendation.",
+        "E": "Shell game. The studies found no-instruction jurors matched pattern-instruction jurors; plain-language revision 'produced marked improvement.'"
+      },
+      "trapPatterns": { "B": "half_right", "C": "opposite", "D": "wrong_part", "E": "shell_game" },
+      "keyTakeaway": "A rebuttal passage's main point includes both the negative case against the opponent's evidence and the positive recommendation that follows.",
+      "evidence": [0, 1]
+    },
+    {
+      "id": "rc-m3-jury-instructions-q2",
+      "type": "relationship",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately describes the relationship between the two passages?",
+      "choices": {
+        "A": "Passage B proposes a solution to a problem that passage A identifies but does not resolve.",
+        "B": "Passage A and passage B reach the same conclusion about pattern instructions by different routes.",
+        "C": "Passage B offers empirical support for a claim that passage A advances on theoretical grounds.",
+        "D": "Passage B challenges both the evidence and the reasoning that passage A offers in defense of pattern instructions.",
+        "E": "Passage A describes the history of a reform whose subsequent application in contemporary trials passage B evaluates."
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "Reversal. Passage A denies that there is a problem; it is B that identifies one.",
+        "B": "Opposite. A defends pattern instructions as they are; B calls for their revision.",
+        "C": "Opposite. B's evidence cuts against A's claims, not in their favor.",
+        "D": "Correct. B's first paragraph attacks A's reversal evidence ('The inference is unwarranted'); its second attacks A's jurors-reason-from-evidence argument ('that is precisely the problem').",
+        "E": "Half right. A does recount history, but it also argues a position, and B evaluates that argument rather than the reform's application."
+      },
+      "trapPatterns": { "A": "reversal", "B": "opposite", "C": "opposite", "E": "half_right" },
+      "keyTakeaway": "In a point/counterpoint pair, check whether the second passage answers each specific move of the first; here it answers two.",
+      "evidence": [0, 1]
+    },
+    {
+      "id": "rc-m3-jury-instructions-q3",
+      "type": "approach",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "Passage A and passage B differ in that only passage B",
+      "choices": {
+        "A": "acknowledges that pattern instructions reduced the frequency of appellate reversals.",
+        "B": "cites the stated priorities of those who drafted the pattern instructions.",
+        "C": "considers how jurors arrive at their verdicts when they do not understand the charge.",
+        "D": "refers to empirical studies of juror comprehension.",
+        "E": "proposes that pattern instructions be replaced by charges composed for each case."
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "Half right. B does acknowledge the decline, but so does A, which calls it proof of success.",
+        "B": "Correct. Only B cites the committees' 'published commentary,' which 'speaks repeatedly of defensibility on appeal.'",
+        "C": "Half right. A also addresses this—jurors 'reason from the evidence, guided by a general sense of what the law requires.'",
+        "D": "Shell game. A mentions critics 'drawing on comprehension studies'; B is the only one to report results, but both refer to the studies.",
+        "E": "Out of scope. Neither passage proposes a return to case-specific charges; B proposes plain-language revision."
+      },
+      "trapPatterns": { "A": "half_right", "C": "half_right", "D": "shell_game", "E": "out_of_scope" },
+      "keyTakeaway": "'Only passage B' answers fail if passage A so much as mentions the item; A's passing reference to comprehension studies eliminates the tempting choice.",
+      "evidence": [0, 1]
+    },
+    {
+      "id": "rc-m3-jury-instructions-q4",
+      "type": "stated",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "According to passage B, the published commentary accompanying the earliest sets of pattern instructions",
+      "choices": {
+        "A": "recommended that judges supplement the pattern language with case-specific explanations.",
+        "B": "reported the results of early comprehension studies conducted with mock jurors.",
+        "C": "frequently invoked defensibility on appeal and rarely mentioned the juror.",
+        "D": "was drafted jointly by appellate judges and trial practitioners.",
+        "E": "was withdrawn after appellate courts declined to approve it."
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "Out of scope. No such recommendation appears anywhere in B.",
+        "B": "Shell game. The comprehension studies (Marchetti) are B's own evidence, not something the commentary reported.",
+        "C": "Correct. B: the commentary 'speaks repeatedly of defensibility on appeal and almost never of the juror.'",
+        "D": "Wrong part. Committees 'of judges and practitioners' is A's description of who drafted the instructions, not B's description of the commentary.",
+        "E": "Out of scope. B says appellate courts approved the pattern language in advance, not that they declined."
+      },
+      "trapPatterns": { "A": "out_of_scope", "B": "shell_game", "D": "wrong_part", "E": "out_of_scope" },
+      "keyTakeaway": "Keep the two passages' details segregated; A's description of the drafters is not B's description of their commentary.",
+      "evidence": [0]
+    },
+    {
+      "id": "rc-m3-jury-instructions-q5",
+      "type": "other_perspective",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "The author of passage A would be most likely to respond to the Marchetti findings described in passage B by arguing that",
+      "choices": {
+        "A": "mock jurors are unrepresentative of the jurors who actually decide cases.",
+        "B": "the plain-language revisions tested in the studies would not have survived appellate review.",
+        "C": "improved performance on tests of legal concepts does not translate into more accurate verdicts.",
+        "D": "the studies measured comprehension of concepts that pattern instructions were never designed to convey.",
+        "E": "the studies measure something that is not necessary for a charge to perform its function."
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "Out of scope. Nothing in A questions the representativeness of study subjects.",
+        "B": "Shell game. A worries that alternatives may revive 'disorder,' but says nothing about appellate survival of specific revisions.",
+        "C": "Wrong force. A does not claim comprehension fails to improve verdicts; it claims comprehension is not necessary, a weaker position.",
+        "D": "Out of scope. A never suggests pattern instructions were not meant to convey burden of proof or circumstantial evidence.",
+        "E": "Correct. A's stated view is that 'a charge need not be fully understood to be effective; it need only be accurate and not misleading.'"
+      },
+      "trapPatterns": { "A": "out_of_scope", "B": "shell_game", "C": "wrong_force", "D": "out_of_scope" },
+      "keyTakeaway": "Attribute to an author only the response the author's own text licenses; A's position is about necessity, not about effects on verdicts.",
+      "evidence": [1]
+    },
+    {
+      "id": "rc-m3-jury-instructions-q6",
+      "type": "meaning_in_context",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "Which one of the following most accurately expresses the meaning of 'reversal-proof' as it is used in passage B?",
+      "choices": {
+        "A": "drafted so as to make the jury's verdict final",
+        "B": "accurate enough in its statement of the law that no appellate court could find fault with its content",
+        "C": "written in language that jurors cannot misunderstand",
+        "D": "unlikely to be held erroneous on appeal because its language was approved in advance",
+        "E": "immune from challenge by the parties at trial"
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "Shell game. The term describes the charge's status on appeal, not the verdict's finality.",
+        "B": "Half right. B's point is that approval, not accuracy, explains the decline; it does not concede the charges were unimpeachably accurate.",
+        "C": "Opposite. B's entire argument is that reversal-proof charges are often not comprehensible.",
+        "D": "Correct. The sentence explains: appellate courts, 'having approved the pattern language in advance, became unwilling to find error in its use.'",
+        "E": "Out of scope. Trial-level challenges by parties are never discussed."
+      },
+      "trapPatterns": { "A": "shell_game", "B": "half_right", "C": "opposite", "E": "out_of_scope" },
+      "keyTakeaway": "The preceding clause defines the term; the author's contrast ('not for that reason comprehensible') rules out any reading involving clarity.",
+      "evidence": [0]
+    },
+    {
+      "id": "rc-m3-jury-instructions-q7",
+      "type": "application",
+      "logicTags": ["causation"],
+      "difficulty": 4,
+      "stem": "Which one of the following findings, if true, would most strengthen the position of passage B against the response offered in the second paragraph of passage A?",
+      "choices": {
+        "A": "Jurors who receive pattern instructions report substantially greater confidence in the correctness of their verdicts than do jurors who receive plain-language instructions on the same points.",
+        "B": "Appellate courts in several jurisdictions have begun to approve plain-language instructions for general use as readily as they once approved pattern instructions.",
+        "C": "In trials where jurors misunderstood the burden of proof, verdicts diverged from those of judges hearing the same evidence more often than in trials where jurors understood it.",
+        "D": "Mock jurors given no instruction at all reach verdicts more quickly than those given pattern instructions.",
+        "E": "Judges who compose their own charges produce instructions that jurors understand no better than pattern instructions."
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "Out of scope. Confidence is not accuracy, and A's response concerns whether understanding is needed for the charge to function.",
+        "B": "Wrong part. This answers A's closing worry about 'disorder,' not the second-paragraph claim that a charge 'need not be fully understood to be effective.'",
+        "C": "Correct. A says jurors reason from evidence and need not understand the charge; evidence that misunderstanding changes outcomes shows that understanding does matter, which is B's reply.",
+        "D": "Out of scope. Speed of deliberation bears on neither comprehension nor accuracy.",
+        "E": "Opposite. This supports A's suggestion that alternatives to pattern instructions fare no better."
+      },
+      "trapPatterns": { "A": "out_of_scope", "B": "wrong_part", "D": "out_of_scope", "E": "opposite" },
+      "keyTakeaway": "Identify the exact claim under attack—'need not be understood to be effective'—and pick the finding that links understanding to outcomes.",
+      "evidence": [1]
+    }
+  ]
+}

@@ -28,7 +28,7 @@
       "difficulty": 3,
       "stem": "Which one of the following most accurately expresses the main point of the passage?",
       "choices": {
-        "A": "Ferreira's dependency account of remittances is correct for highland communities but does not apply to villages that have access to credit.",
+        "A": "Ferreira's dependency account of remittances is correct for highland communities but does not apply to villages that enjoy access to functioning credit markets.",
         "B": "Remittances are developmental over the long run, as Lindqvist's surveys of small business formation in migrant-sending villages demonstrate.",
         "C": "Because both camps rely on the same household spending data, the debate over the effects of remittances cannot be resolved empirically.",
         "D": "The effects of remittances depend on the local institutions that receive them, so the debate over whether remittances are developmental is misconceived.",
@@ -79,7 +79,7 @@
       "stem": "The passage most strongly suggests that the author would agree with which one of the following?",
       "choices": {
         "A": "Households in remittance-receiving communities generally spend their income irrationally.",
-        "B": "Lindqvist's surveys are more reliable than Ferreira's studies because they cover a longer period of time.",
+        "B": "Lindqvist's surveys are more reliable than Ferreira's studies because they cover a longer period of time after remittances begin to arrive.",
         "C": "A pattern of expenditure that appears to cause a community's stagnation may instead be an effect of the same conditions that cause it.",
         "D": "Remittances would have no economic effect whatever in a community that lacked both credit markets and secure land title.",
         "E": "The dependency Ferreira describes could be eliminated by increasing the amount of money that migrants send home."
@@ -131,7 +131,7 @@
         "A": "Expenditure on housing and ceremonies is a symptom of a community's economic decline.",
         "B": "The effects of remittances depend chiefly on whether land can be readily bought and sold.",
         "C": "Communities that receive remittances rarely develop small businesses within a generation.",
-        "D": "Household spending data are an unreliable guide to the effects of remittances.",
+        "D": "Household spending data are an unreliable guide to the effects of remittances on the communities that receive them over time.",
         "E": "Judgments about the effects of remittances formed within a few years of their arrival are likely to be premature."
       },
       "answer": "E",
@@ -154,7 +154,7 @@
       "stem": "As it is used in the passage, the phrase 'nursery for emigrants' most nearly refers to a community that",
       "choices": {
         "A": "provides schooling that prepares its children for employment abroad",
-        "B": "receives more remittance income than it is able to invest productively",
+        "B": "receives more remittance income than it is able to invest productively in local enterprise",
         "C": "raises each generation under conditions that leave it little option but to leave",
         "D": "is sustained by the care that migrants continue to provide for relatives at home",
         "E": "has grown prosperous by exporting its agricultural goods to other regions"
@@ -178,10 +178,10 @@
       "difficulty": 4,
       "stem": "Which one of the following, if true, would most weaken the author's argument in the final paragraph?",
       "choices": {
-        "A": "In several regions with functioning credit markets and secure land title, remittance-receiving households spend on housing and ceremonies and local agriculture contracts as Ferreira describes.",
+        "A": "In several regions with functioning credit and secure title, remittance-receiving households spend on housing and ceremonies and local agriculture contracts as Ferreira describes.",
         "B": "Ferreira's highland communities had been losing population for several decades before remittances began to arrive in significant amounts.",
         "C": "Households in Ferreira's highland communities spend a larger share of their remittances on ceremonies than on housing.",
-        "D": "Many of the small businesses formed in Lindqvist's villages failed within a few years of their founding.",
+        "D": "Many of the small businesses formed in Lindqvist's remittance-receiving villages failed within a few years of their founding, leaving their owners with debts that they were unable to repay.",
         "E": "Migrants who send remittances frequently return home with skills they acquired while working abroad."
       },
       "answer": "A",

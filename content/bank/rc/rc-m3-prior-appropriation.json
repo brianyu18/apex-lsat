@@ -1,0 +1,201 @@
+{
+  "id": "rc-m3-prior-appropriation",
+  "style": "critique_debate",
+  "topic": "law",
+  "comparative": false,
+  "title": "Aridity and the Doctrine of Prior Appropriation",
+  "paragraphs": [
+    "Among historians of American water law, the doctrine of prior appropriation—under which the first party to divert water from a stream and put it to 'beneficial use' acquires a right superior to those of all later claimants, whether or not the claimant owns streamside land—has long been explained as an adaptation to scarcity. In the influential account of Harlan Weiss, the riparian doctrine inherited from English common law, which confined water rights to owners of land abutting a watercourse and obliged each to leave the flow undiminished, was simply unworkable in the arid territories of the West. Mining and irrigation carried water miles from its source and consumed it, and courts, confronting these realities, discarded riparianism in favor of a rule that rewarded diversion. On this view the doctrine is a rational response to climate, and its persistence reflects its continuing fit with environmental conditions.",
+    "Recent scholars have found this account too tidy. Margarethe Ostrander has observed that the geographic correlation on which it rests is weaker than is usually supposed: several arid jurisdictions retained substantial riparian elements for decades, while at least two well-watered states adopted appropriation wholesale. More tellingly, she argues, the doctrine did not emerge from judicial deliberation about scarcity but from the customary rules of mining camps, where claimants policed one another's diversions long before any court had spoken. When courts eventually ratified those customs, they did so, in Ostrander's telling, less because the rules suited the climate than because judges were reluctant to unsettle the expectations of an extractive industry on which territorial economies depended. Climate thus becomes a retrospective rationalization—a story the doctrine told about itself once it had already prevailed.",
+    "The revisionist critique is, I think, largely correct in what it denies and less persuasive in what it affirms. Ostrander is right that aridity cannot have been a sufficient cause of the doctrine; the counterexamples she assembles are difficult to explain away, and the priority of custom over adjudication is now well documented. Yet it does not follow that climate played no causal role. Mining customs arose wherever miners gathered, including in humid regions, but only in arid ones did they harden into a durable law of water. The more defensible claim is that aridity functioned not as the origin of the doctrine but as the condition under which an improvised custom could survive the transition from camp to courthouse. Where water was plentiful, the costs of appropriation's rigidity were quickly felt and the rule eroded; where it was scarce, those costs were tolerable and the rule endured.",
+    "The distinction matters beyond historiography. Contemporary reformers who would replace appropriation with more flexible regimes frequently cite the revisionist literature as proof that the doctrine was never more than a historical accident, and hence that nothing of value would be lost in abandoning it. But a rule that survived because it was tolerable under scarcity is not for that reason arbitrary, and the conditions that made it tolerable have not disappeared. Reform may well be warranted; the case for it, however, must be made on present terms rather than by discrediting the doctrine's past."
+  ],
+  "roleMap": {
+    "paragraphs": ["context", "counterpoint", "main_point", "implication"],
+    "viewpoints": [
+      { "who": "Harlan Weiss (traditional account)", "position": "Prior appropriation was a rational judicial response to aridity, which made riparianism unworkable", "authorAgrees": false },
+      { "who": "Margarethe Ostrander (negative claim)", "position": "Aridity was not a sufficient cause; the doctrine came from mining custom ratified by deferential courts", "authorAgrees": true },
+      { "who": "Margarethe Ostrander (positive claim)", "position": "Climate is merely a retrospective rationalization with no causal role", "authorAgrees": false },
+      { "who": "Contemporary reformers", "position": "The doctrine was a historical accident, so nothing of value is lost in abandoning it", "authorAgrees": false }
+    ],
+    "tone": "qualified agreement with the revisionists"
+  },
+  "lowResSummary": "Author accepts revisionists' denial that aridity caused prior appropriation but insists aridity explains why mining custom survived as law.",
+  "questions": [
+    {
+      "id": "rc-m3-prior-appropriation-q1",
+      "type": "main_point",
+      "logicTags": ["causation"],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately expresses the main point of the passage?",
+      "choices": {
+        "A": "Prior appropriation arose from the customary rules of mining camps rather than from judicial reasoning about scarcity, and the climatic explanation offered by earlier historians should therefore be abandoned.",
+        "B": "Although recent scholars have shown that the climatic account of prior appropriation is incomplete, the doctrine remains the allocation regime best suited to arid regions.",
+        "C": "Revisionists rightly deny that aridity sufficed to produce prior appropriation but wrongly deny it any role, since aridity explains why mining custom endured as law.",
+        "D": "Because prior appropriation survived only where water was scarce, its persistence demonstrates that the traditional climatic account was essentially correct.",
+        "E": "Contemporary reformers misread the historical scholarship on prior appropriation, and their proposals for more flexible allocation regimes should be rejected."
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "Half right. The first clause is Ostrander's claim, which the author accepts, but 'should therefore be abandoned' contradicts paragraph 3: 'it does not follow that climate played no causal role.'",
+        "B": "Out of scope. The author never says the doctrine is 'best suited' to anything; paragraph 4 concedes 'Reform may well be warranted.'",
+        "C": "Correct. Paragraph 3 states the critique is 'correct in what it denies and less persuasive in what it affirms,' then recasts aridity as 'the condition under which an improvised custom could survive.'",
+        "D": "Opposite. The author rejects the traditional account as stated ('aridity cannot have been a sufficient cause'); survival under scarcity is offered as a modified claim, not a vindication of Weiss.",
+        "E": "Wrong part. Reformers appear only in the implication paragraph, and the author says reform 'may well be warranted'; the objection is to their historical inference, not their proposals."
+      },
+      "trapPatterns": { "A": "half_right", "B": "out_of_scope", "D": "opposite", "E": "wrong_part" },
+      "keyTakeaway": "In a critique passage, the main point is the author's verdict on the dispute, which here splits the revisionist claim into an accepted denial and a rejected affirmation.",
+      "evidence": [2, 3]
+    },
+    {
+      "id": "rc-m3-prior-appropriation-q2",
+      "type": "stated",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "According to the passage, Ostrander maintains that courts ratified the customary water rules of mining camps primarily because",
+      "choices": {
+        "A": "judges were unwilling to disturb the expectations of an industry on which territorial economies depended.",
+        "B": "the customary rules were better suited than riparianism to the climate of the arid territories.",
+        "C": "the rules had already been adopted in several comparatively well-watered states.",
+        "D": "litigation between rival claimants had become too frequent for the camps to resolve on their own.",
+        "E": "miners had petitioned the territorial legislatures to codify the rules they had developed."
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. Paragraph 2: courts ratified the customs 'because judges were reluctant to unsettle the expectations of an extractive industry on which territorial economies depended.'",
+        "B": "Opposite. This is the climatic explanation Ostrander rejects: 'less because the rules suited the climate.'",
+        "C": "Wrong part. The well-watered states are part of Ostrander's separate attack on the geographic correlation, not her account of why courts ratified the customs.",
+        "D": "Out of scope. The passage never mentions the frequency of litigation.",
+        "E": "Shell game. The passage speaks of courts ratifying customs; legislatures and petitions are never mentioned."
+      },
+      "trapPatterns": { "B": "opposite", "C": "wrong_part", "D": "out_of_scope", "E": "shell_game" },
+      "keyTakeaway": "Stated questions about a named scholar's reasoning are answered by the sentence that attributes the motive, not by adjacent evidence the scholar uses for a different point.",
+      "evidence": [1]
+    },
+    {
+      "id": "rc-m3-prior-appropriation-q3",
+      "type": "purpose_in_context",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The author mentions that mining customs arose in humid regions primarily in order to",
+      "choices": {
+        "A": "concede that Ostrander's counterexamples cannot be explained away.",
+        "B": "show that the riparian doctrine was never fully displaced in such regions.",
+        "C": "suggest that Weiss underestimated the geographic reach of the mining industry.",
+        "D": "establish that custom, rather than judicial adjudication, was the original source of prior appropriation.",
+        "E": "argue that custom alone cannot account for the doctrine's survival where it did survive."
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "Wrong part. The concession about counterexamples is a separate sentence; the humid-regions point comes after 'Yet' and works against Ostrander, not for her.",
+        "B": "Out of scope. The passage says nothing about whether riparianism persisted in humid regions.",
+        "C": "Shell game. The sentence concerns where customs arose, not Weiss's view of the industry's reach.",
+        "D": "Wrong part. That custom preceded adjudication is Ostrander's point, already granted; the humid-regions sentence is about why custom hardened into law only in arid places.",
+        "E": "Correct. Customs arose everywhere 'but only in arid ones did they harden into a durable law,' so something beyond custom—aridity—explains the survival."
+      },
+      "trapPatterns": { "A": "wrong_part", "B": "out_of_scope", "C": "shell_game", "D": "wrong_part" },
+      "keyTakeaway": "A detail introduced after a pivot word ('Yet') serves the author's qualification, not the view being qualified.",
+      "evidence": [2]
+    },
+    {
+      "id": "rc-m3-prior-appropriation-q4",
+      "type": "author_perspective",
+      "logicTags": ["causation"],
+      "difficulty": 4,
+      "stem": "It can be inferred from the passage that the author would be most likely to agree with which one of the following?",
+      "choices": {
+        "A": "A legal doctrine whose origins lie in private custom rather than judicial reasoning cannot be justified by appeal to present conditions.",
+        "B": "The persistence of a rule under particular conditions can indicate its fit with those conditions even if the rule did not originate as a response to them.",
+        "C": "Historians who explain legal doctrines by reference to climate generally mistake the consequences of a rule for its causes.",
+        "D": "A doctrine that is shown to have originated as a historical accident ought nevertheless to be retained unless reformers can demonstrate that its present costs exceed its benefits.",
+        "E": "Customary rules that develop among private parties are more likely to endure than rules imposed by courts."
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "Opposite. Paragraph 4 insists the case for or against the doctrine 'must be made on present terms.'",
+        "B": "Correct. Paragraph 3 distinguishes origin from survival, and paragraph 4 says a rule 'that survived because it was tolerable under scarcity is not for that reason arbitrary.'",
+        "C": "Extreme. 'Generally' turns a judgment about one account into a claim about historians at large; the author also preserves a causal role for climate.",
+        "D": "Half right. The author denies the doctrine was an accident and never assigns reformers a burden of cost-benefit proof.",
+        "E": "Comparison shift. The passage compares arid and humid conditions, not custom-made and court-made rules."
+      },
+      "trapPatterns": { "A": "opposite", "C": "extreme", "D": "half_right", "E": "comparison_shift" },
+      "keyTakeaway": "The author's abstract principle is the one that licenses the move from 'not the cause' to 'still not arbitrary'—survival as evidence of fit.",
+      "evidence": [2, 3]
+    },
+    {
+      "id": "rc-m3-prior-appropriation-q5",
+      "type": "other_perspective",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The passage suggests that Ostrander would be most likely to agree with which one of the following statements about the traditional account of prior appropriation?",
+      "choices": {
+        "A": "It correctly identifies the sequence in which custom and adjudication contributed to the doctrine.",
+        "B": "It overstates the degree to which miners' customary rules differed from riparian principles.",
+        "C": "It is accurate as applied to the arid territories but fails to explain why the doctrine was also adopted in comparatively well-watered states.",
+        "D": "It mistakes a justification that courts supplied after the fact for the actual cause of the doctrine's adoption.",
+        "E": "It underestimates the influence of appellate judges in shaping territorial water law."
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "Opposite. Ostrander holds that custom came first and courts followed; the traditional account has courts 'discarding' riparianism.",
+        "B": "Out of scope. Nothing in the passage concerns how far mining rules differed from riparian ones.",
+        "C": "Half right. Ostrander denies the account even for arid jurisdictions, several of which 'retained substantial riparian elements for decades.'",
+        "D": "Correct. Paragraph 2: for Ostrander, climate is 'a retrospective rationalization—a story the doctrine told about itself once it had already prevailed.'",
+        "E": "Shell game. Ostrander's point is that judges deferred to industry, not that their influence has been underestimated."
+      },
+      "trapPatterns": { "A": "opposite", "B": "out_of_scope", "C": "half_right", "E": "shell_game" },
+      "keyTakeaway": "Other-perspective answers must stay inside the named view; a partial concession the view does not make (C) is a classic half-right trap.",
+      "evidence": [1]
+    },
+    {
+      "id": "rc-m3-prior-appropriation-q6",
+      "type": "meaning_in_context",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "Which one of the following most accurately expresses the meaning of 'retrospective rationalization' as it is used in the passage?",
+      "choices": {
+        "A": "an explanation constructed after the fact to justify an outcome that was reached on other grounds",
+        "B": "a reinterpretation of past events in light of later legal developments",
+        "C": "an argument that a rule should be preserved because of its historical pedigree",
+        "D": "a deliberate effort by judges to conceal the economic motives behind their decisions",
+        "E": "a reasoned justification that courts offered for abandoning riparian doctrine"
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. The gloss follows immediately: 'a story the doctrine told about itself once it had already prevailed'—the real grounds were industry expectations.",
+        "B": "Shell game. 'Retrospective' is read literally as historical reinterpretation; the passage means a justification invented after the outcome.",
+        "C": "Wrong part. Appeals to pedigree belong to the reform debate in paragraph 4, not to Ostrander's account of the climate story.",
+        "D": "Extreme. The passage says nothing about deliberate concealment; a rationalization can be sincere.",
+        "E": "Opposite. Treating the climate story as genuine reasoning is precisely what Ostrander denies."
+      },
+      "trapPatterns": { "B": "shell_game", "C": "wrong_part", "D": "extreme", "E": "opposite" },
+      "keyTakeaway": "For meaning-in-context, use the appositive that the author supplies right after the phrase; it is usually the definition.",
+      "evidence": [1]
+    },
+    {
+      "id": "rc-m3-prior-appropriation-q7",
+      "type": "author_attitude",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "The author's attitude toward contemporary reformers who cite the revisionist literature can most accurately be described as",
+      "choices": {
+        "A": "unqualified opposition to the reforms they propose",
+        "B": "enthusiasm for their reading of the historical evidence",
+        "C": "indifference to the practical consequences of reform",
+        "D": "sympathy for their goals combined with doubt that reform is feasible",
+        "E": "skepticism about a particular inference they draw from history"
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "Extreme. 'Reform may well be warranted' rules out unqualified opposition.",
+        "B": "Opposite. The author says the reformers treat the literature as 'proof' of something it does not prove.",
+        "C": "Out of scope. The author's final sentences are precisely about how the practical case should be argued.",
+        "D": "Half right. The author is open to reform but says nothing about feasibility; the objection is to an inference, not to practicality.",
+        "E": "Correct. The author objects to the inference that 'nothing of value would be lost' because the doctrine was an 'accident.'"
+      },
+      "trapPatterns": { "A": "extreme", "B": "opposite", "C": "out_of_scope", "D": "half_right" },
+      "keyTakeaway": "Attitude answers are calibrated to the exact object of the author's judgment—here an inference, not a policy.",
+      "evidence": [3]
+    }
+  ]
+}

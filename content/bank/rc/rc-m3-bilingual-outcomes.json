@@ -31,7 +31,7 @@
       "stem": "Which one of the following most accurately expresses the main point of passage A?",
       "choices": {
         "A": "Bilingual programs that teach children first in their home language produce better long-term outcomes than programs that do not.",
-        "B": "The contradictory results of bilingual program evaluations show that the design of such programs has little effect on children's eventual outcomes in either language.",
+        "B": "The contradictory results of bilingual program evaluations show that the design of such programs has little effect on children's eventual outcomes in either the minority or the majority language.",
         "C": "Maintenance programs are superior to transitional programs because they produce faster initial gains in the majority language.",
         "D": "Evaluations of bilingual programs appear contradictory because they overlook the duration of home-language support, which is the variable that actually determines outcomes.",
         "E": "The policy debate over bilingual education should be resolved by comparing programs across several dozen districts."
@@ -108,7 +108,7 @@
         "A": "acquire the majority language more slowly than their peers.",
         "B": "shift quickly to the majority language while retaining the minority language only passively.",
         "C": "develop balanced competence in both languages.",
-        "D": "retain the minority language actively but fail to acquire literacy in it.",
+        "D": "retain the minority language actively in speech but fail to acquire literacy in it or in the majority language.",
         "E": "remain in bilingual programs for more years than other children."
       },
       "answer": "B",
@@ -156,7 +156,7 @@
       "stem": "The author of passage A mentions that advocates on every side can cite a study that favors them primarily in order to",
       "choices": {
         "A": "illustrate the inconsistency of the evaluation literature that the passage goes on to explain.",
-        "B": "criticize advocates for selectively reporting research findings.",
+        "B": "criticize advocates for selectively reporting research findings that favor their preferred program design.",
         "C": "suggest that the policy debate cannot be resolved by empirical research.",
         "D": "show that transitional and maintenance programs have each been supported by evidence.",
         "E": "explain why the duration of home-language support has been neglected."
@@ -180,7 +180,7 @@
       "difficulty": 4,
       "stem": "Which one of the following findings would the authors of both passages most likely regard as consistent with their respective views?",
       "choices": {
-        "A": "A transitional program in a community where the minority language carries high prestige produces children with balanced bilingual competence by the upper grades.",
+        "A": "A transitional program in a community where the minority language carries high prestige produces children with balanced bilingual competence that persists through the upper grades.",
         "B": "Two maintenance programs in communities of differing language status produce identical outcomes.",
         "C": "A maintenance program in a low-prestige community produces children who shift rapidly to the majority language.",
         "D": "In a community where the minority language carries prestige, a maintenance program produces stronger long-term outcomes than a transitional program in the same community.",

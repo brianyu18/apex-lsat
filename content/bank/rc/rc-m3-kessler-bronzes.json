@@ -1,0 +1,177 @@
+{
+  "id": "rc-m3-kessler-bronzes",
+  "style": "spotlight",
+  "topic": "natural_science",
+  "comparative": false,
+  "title": "Ruth Kessler and the Tin of the Varnic Hoard",
+  "paragraphs": [
+    "When Ruth Kessler published her analyses of the Varnic hoard in the 1950s, she was working at the limit of what the chemistry of her day could tell her about ancient metal. Her wet-assay measurements of some two hundred bronzes—axes, sickles, mirrors, and ornaments recovered from a single riverine deposit—showed tin contents ranging from under three percent to nearly fifteen, and Kessler drew from this spread a bold conclusion: the Varnic smiths had controlled the composition of their alloys deliberately, adding tin in proportion to the hardness each class of object required. Edged tools clustered at the high end, ornaments at the low, and Kessler took the pattern as evidence of a metallurgical understanding that scholars had not been prepared to grant a Bronze Age workshop.",
+    "The reception was skeptical, and for a generation the skepticism prevailed. Critics observed that the variation Kessler described could arise without any intention at all. Bronze was routinely recycled, and a smith melting down a miscellany of broken objects would produce an alloy whose tin content reflected the accident of what lay to hand. Kessler's clusters, on this view, were the residue of scrap streams: edged tools happened to be made in batches from other edged tools. Her further inference—that the smiths understood tin's effect on hardness—was dismissed as a modern conceit projected onto craftsmen who could have had no such concept.",
+    "The lead-isotope and trace-element studies of Benedicta Ilunga and Nils Sørensen have now reopened the question, and on the central point they have vindicated her. Lead isotopes record the ore body from which copper was smelted, and the Varnic objects turn out to derive from at least four distinct sources. Yet objects of the same functional class share the same narrow tin range regardless of their copper's origin, and objects of different classes made from copper of the same origin do not. Scrap recycling cannot produce that pattern; a batch of melted axes from mixed sources would scatter in tin, not converge. Tin was being added, or withheld, at the point of casting, and it was being added according to what the object was to become.",
+    "Vindication on the first inference does not, however, carry the second with it, and Kessler's admirers have been too quick to assume that it does. That the smiths controlled tin content according to function is now established; that they did so because they understood tin as the agent of hardness is a different claim, and the isotopic evidence is silent on it. A workshop can follow a recipe—so many parts of this to so many of that for an axe—with perfect fidelity and no theory whatever, and such recipes, transmitted by apprenticeship, are the ordinary mode of craft knowledge. Kessler saw a pattern that her critics could not, and she deserves the credit for it. What she saw in the pattern remains, for now, hers to assert and ours to withhold."
+  ],
+  "roleMap": {
+    "paragraphs": ["context", "counterpoint", "support", "main_point"],
+    "viewpoints": [
+      { "who": "Ruth Kessler (first inference)", "position": "Varnic smiths deliberately controlled tin content by object function", "authorAgrees": true },
+      { "who": "Ruth Kessler (second inference)", "position": "The smiths understood tin as the agent of hardness", "authorAgrees": null },
+      { "who": "Kessler's critics", "position": "The tin variation is the accidental residue of scrap recycling; the understanding claim is a modern conceit", "authorAgrees": false },
+      { "who": "Ilunga and Sørensen", "position": "Isotopes show tin was adjusted at casting by functional class, not by scrap source", "authorAgrees": true },
+      { "who": "Kessler's admirers", "position": "Vindication of control also vindicates the understanding claim", "authorAgrees": false }
+    ],
+    "tone": "admiring but measured"
+  },
+  "lowResSummary": "Author credits Kessler's now-vindicated claim that Varnic smiths controlled tin by function but withholds assent from her inference that they understood why.",
+  "questions": [
+    {
+      "id": "rc-m3-kessler-bronzes-q1",
+      "type": "main_point",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately expresses the main point of the passage?",
+      "choices": {
+        "A": "Recent isotopic studies have vindicated Kessler's analysis of the Varnic hoard in every respect, decisively refuting the critics who attributed its alloy variation to scrap recycling.",
+        "B": "Although new evidence confirms Kessler's claim that Varnic smiths controlled tin content by function, her further claim that they understood tin's effect remains unsupported.",
+        "C": "Kessler's critics were right to doubt her conclusions, since the smiths could have followed inherited recipes without any understanding of metallurgy.",
+        "D": "Lead-isotope analysis has shown that the Varnic bronzes were made from copper drawn from at least four distinct ore sources.",
+        "E": "Bronze Age craft knowledge was transmitted by apprenticeship in the form of recipes rather than theoretical understanding."
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "Extreme. 'In every respect' contradicts paragraph 4: 'Vindication on the first inference does not... carry the second with it.'",
+        "B": "Correct. Paragraph 3 vindicates control; paragraph 4 says the understanding claim is one on which 'the isotopic evidence is silent.'",
+        "C": "Half right. The critics were wrong about recycling; only their doubt about understanding survives, and the author withholds rather than endorses.",
+        "D": "Wrong part. This is a premise within the vindication argument, not the conclusion.",
+        "E": "Extreme. The author says recipes are 'the ordinary mode of craft knowledge' to show the second inference is unproven, not to assert a general thesis about the Bronze Age."
+      },
+      "trapPatterns": { "A": "extreme", "C": "half_right", "D": "wrong_part", "E": "extreme" },
+      "keyTakeaway": "When a spotlight passage splits a figure's claim into two inferences, the main point tracks the author's different verdicts on each.",
+      "evidence": [2, 3]
+    },
+    {
+      "id": "rc-m3-kessler-bronzes-q2",
+      "type": "stated",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "According to the passage, Kessler's critics explained the clustering of tin content by functional class as the result of",
+      "choices": {
+        "A": "smiths adding tin in proportion to the hardness each object required.",
+        "B": "differences in the ore bodies from which the copper in each class of object was smelted.",
+        "C": "the deliberate sorting of objects by later collectors.",
+        "D": "objects of one class being melted down in batches to make others of the same class.",
+        "E": "the limitations of the wet-assay methods Kessler employed."
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "Opposite. This is Kessler's own explanation, which the critics rejected.",
+        "B": "Shell game. Ore sources enter with the later isotope studies, not the critics' account.",
+        "C": "Out of scope. Collectors are never mentioned.",
+        "D": "Correct. Paragraph 2: 'edged tools happened to be made in batches from other edged tools.'",
+        "E": "Out of scope. The critics questioned Kessler's inference, not her measurements."
+      },
+      "trapPatterns": { "A": "opposite", "B": "shell_game", "C": "out_of_scope", "E": "out_of_scope" },
+      "keyTakeaway": "The critics' mechanism is stated in one concrete sentence; match it rather than a plausible alternative from another paragraph.",
+      "evidence": [1]
+    },
+    {
+      "id": "rc-m3-kessler-bronzes-q3",
+      "type": "author_attitude",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The author's attitude toward Kessler can most accurately be described as",
+      "choices": {
+        "A": "respect for her perceptiveness combined with reservation about one of her inferences",
+        "B": "agreement that her critics were justified in dismissing her analyses",
+        "C": "confidence that her account of the smiths' theoretical understanding will eventually be confirmed by further isotopic work",
+        "D": "regret that her methods were inadequate to the conclusions she drew",
+        "E": "unqualified endorsement of both of her principal conclusions"
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. 'Kessler saw a pattern that her critics could not, and she deserves the credit for it'; yet her second inference is 'ours to withhold.'",
+        "B": "Opposite. The author says the isotopic work 'vindicated her' on the central point.",
+        "C": "Out of scope. The author says the evidence 'is silent' and offers no prediction.",
+        "D": "Shell game. The passage notes she worked 'at the limit' of her era's chemistry but expresses no regret; her central result survived.",
+        "E": "Extreme. The second conclusion is explicitly withheld."
+      },
+      "trapPatterns": { "B": "opposite", "C": "out_of_scope", "D": "shell_game", "E": "extreme" },
+      "keyTakeaway": "'Deserves the credit' plus 'ours to withhold' is the two-part attitude an answer must capture whole.",
+      "evidence": [3]
+    },
+    {
+      "id": "rc-m3-kessler-bronzes-q4",
+      "type": "purpose_in_context",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The author mentions that objects of different classes made from copper of the same origin do not share a tin range primarily in order to",
+      "choices": {
+        "A": "show that the Varnic smiths obtained copper from at least four sources.",
+        "B": "suggest that Kessler's wet-assay measurements of tin content were considerably more accurate than her critics had been willing to allow.",
+        "C": "demonstrate that the smiths understood the relationship between tin and hardness.",
+        "D": "explain why ornaments cluster at the low end of the tin range.",
+        "E": "rule out the possibility that the clustering reflects the source of the copper rather than a decision at casting."
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "Wrong part. The number of sources is established by the isotopes in the preceding sentence.",
+        "B": "Out of scope. The accuracy of Kessler's measurements is never at issue.",
+        "C": "Opposite. The author insists the isotopic evidence 'is silent' on understanding.",
+        "D": "Out of scope. The sentence concerns the independence of tin from copper source, not why any class sits where it does.",
+        "E": "Correct. Same source, different tin by class—and same class, same tin across sources—together show tin was set 'at the point of casting,' not inherited from the copper or the scrap."
+      },
+      "trapPatterns": { "A": "wrong_part", "B": "out_of_scope", "C": "opposite", "D": "out_of_scope" },
+      "keyTakeaway": "A paired observation ('regardless of origin... same origin do not') functions to isolate the variable—here, casting decisions.",
+      "evidence": [2]
+    },
+    {
+      "id": "rc-m3-kessler-bronzes-q5",
+      "type": "other_perspective",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "The passage suggests that Kessler's critics would have been most likely to agree with which one of the following?",
+      "choices": {
+        "A": "The tin content of a recycled bronze object is independent of the objects melted to produce it.",
+        "B": "Bronze Age smiths were incapable of controlling the composition of their alloys.",
+        "C": "Attributing a theoretical understanding of alloys to Bronze Age smiths reflects the assumptions of the modern observer rather than the evidence.",
+        "D": "Edged tools and ornaments in the Varnic hoard were produced in separate workshops that drew their copper from different ore sources.",
+        "E": "The hardness of an object is determined primarily by the source of its copper."
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "Opposite. The critics' whole account depends on tin content reflecting 'the accident of what lay to hand.'",
+        "B": "Extreme. The critics said the variation 'could arise without any intention,' not that control was impossible.",
+        "C": "Correct. Paragraph 2: the understanding claim 'was dismissed as a modern conceit projected onto craftsmen.'",
+        "D": "Out of scope. Separate workshops and ore sources are not part of the critics' account.",
+        "E": "Out of scope. No one in the passage links hardness to copper source."
+      },
+      "trapPatterns": { "A": "opposite", "B": "extreme", "D": "out_of_scope", "E": "out_of_scope" },
+      "keyTakeaway": "Keep a critic's modal claim ('could arise without intention') from hardening into an impossibility claim.",
+      "evidence": [1]
+    },
+    {
+      "id": "rc-m3-kessler-bronzes-q6",
+      "type": "author_perspective",
+      "logicTags": ["lack_of_support_v_false"],
+      "difficulty": 3,
+      "stem": "It can be inferred that the author would be most likely to agree with which one of the following?",
+      "choices": {
+        "A": "Craft practices transmitted by apprenticeship cannot embody accurate knowledge of materials.",
+        "B": "The isotopic evidence makes it unlikely that the Varnic smiths understood the effect of tin on hardness.",
+        "C": "Kessler's critics were correct that the Varnic hoard's variation in tin content was unintentional.",
+        "D": "Consistent practice can be evidence of control without being evidence of the understanding that would explain the practice.",
+        "E": "Kessler's conclusions would have been accepted without controversy had lead-isotope analysis been available to her in the 1950s."
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "Extreme. The author says recipes can be followed 'with perfect fidelity and no theory,' which concerns theory, not accuracy.",
+        "B": "Wrong force. The evidence 'is silent' on understanding; silence is not evidence against.",
+        "C": "Opposite. Scrap recycling 'cannot produce that pattern.'",
+        "D": "Correct. 'That the smiths controlled tin content according to function is now established; that they did so because they understood... is a different claim.'",
+        "E": "Out of scope. Even with isotopes, the second conclusion would remain unsupported, so acceptance of 'her conclusions' does not follow."
+      },
+      "trapPatterns": { "A": "extreme", "B": "wrong_force", "C": "opposite", "E": "out_of_scope" },
+      "keyTakeaway": "The author's distinction between control and understanding is the lack-of-support-is-not-falsity principle applied to craft evidence.",
+      "evidence": [3]
+    }
+  ]
+}
