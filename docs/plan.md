@@ -294,6 +294,17 @@ Builds the personal LSAT study tool from the spec in five phases, each ending in
 
 **Phase 4 batch verification** → report; commit `phase-4`. **Product complete for personal use.**
 
+#### Phase 4 — as built (2026-10-28)
+| Task | Status | Where |
+|---|---|---|
+| 4.1 Priorities + trends | ✅ | `lib/scoring/priorities.ts`, `lib/data/analytics.ts`, `components/analytics/charts.tsx`, `/analytics` (score trend w/ range band, BR gap, accuracy by level, calibration, time right/wrong) — chart pair validated with the dataviz palette checker |
+| 4.2 Study Quality | ✅ | `lib/scoring/quality.ts` (28/27/26/10/9), ring on `/analytics` and the dashboard |
+| 4.3 Planner v2 | ✅ | `generatePlan.extraDays`, `replan()` with `decideExtension`, `phaseSignals()`, `registrationAdvice()`, readiness cards on `/plan`; migration 0001 (`plan.extra_days`, `plan.start_date`) |
+| 4.4 AI tutor | ✅ | `lib/tutor/{prompt,context,provider}.ts`, `/api/tutor` (streams; local `claude -p` or API key), `components/tutor/tutor-panel.tsx` on drill + review; `scripts/tutor-check.ts` 20/20 |
+| 4.5 Units 5–6 | ✅ 8 lessons (73 total) | `content/lessons/u5/*` (checkMode timed → 10-Q/14-min section), `u6/*` (checkMode writing), `components/diagrams/pacing-simulator.tsx`, `components/writing/{outline-builder,writing-runner}.tsx`, `/test/writing`, `lib/writing/prompts.ts` |
+| 4.6 PWA + offline | ✅ | `app/manifest.ts`, `public/sw.js`, `components/shell/pwa.tsx`, `lib/offline/queue.ts` (IndexedDB pack + attempt queue), `/api/offline/{pack,sync}`, drill-session fallback |
+| extra | demo seed | `lib/dev/seed.ts`, `/api/dev/seed`, `scripts/seed-demo.ts` |
+
 ---
 
 ## Known risks

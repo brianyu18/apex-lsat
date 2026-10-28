@@ -16,6 +16,12 @@ pnpm dev
 
 Data lives in a local PGlite database at `./data/apex` by default. Set `DATABASE_URL` to use Postgres (e.g. Supabase) instead.
 
+### AI tutor
+The tutor (on every drill explanation and review page) runs through the local **`claude` CLI** using your subscription login — no API key. Install Claude Code, run `claude` once to sign in, and the tutor works. For a cloud deploy set `ANTHROPIC_API_KEY` and it switches to the Messages API. `APEX_TUTOR_MODEL` (CLI alias, default `sonnet`) / `APEX_TUTOR_API_MODEL` override the model.
+
+### Phone / offline
+The app is installable (PWA). Open **Drill** once while online to cache a 100-question pack; drilling offline grades locally and queues attempts, which sync (with a toast) the next time the app is online. The service worker is registered in production builds (`pnpm build && pnpm start`).
+
 ## Scripts
 
 - `pnpm test` — unit tests (Vitest)
@@ -25,6 +31,8 @@ Data lives in a local PGlite database at `./data/apex` by default. Set `DATABASE
 - `pnpm tsx scripts/mdx-check.ts` — every lesson compiles
 - `pnpm tsx scripts/gen/qa-lr.ts [--solve]` — LR bank QA (schema, key balance, duplicates, blind-solver agreement)
 - `pnpm tsx scripts/gen/qa-rc.ts [--solve]` — RC bank QA (passage length, role map, question-type mix, same solver protocol)
+- `pnpm tsx scripts/tutor-check.ts [--n=20]` — tutor acceptance: no answer on the first turn, ≤ 250 words, key agreement when asked outright
+- `pnpm tsx scripts/seed-demo.ts [--weeks=6]` — fill the DB with a deterministic six-week study history (demo / screenshots; never touches settings or plan)
 - `pnpm tsx scripts/gen/calibrate.ts [--apply]` — re-level questions from your attempt data (needs ≥20 counted attempts per item)
 - `pnpm tsx scripts/gen/generate-lr.ts --type=flaw --difficulty=3 --n=5` — generate more items via the local `claude` CLI, then QA them
 
@@ -45,3 +53,9 @@ Data lives in a local PGlite database at `./data/apex` by default. Set `DATABASE
 | `/test/skip-trainer` | LR section with a 10-second attempt/skip gate per question; scores the decisions against your goal's skip policy |
 | `/test/timing` | Timing heatmap: seconds per question vs pacing target across your last 12 sections |
 | `/test/import` | Paste LawHub results (grid or CSV); creates `official_ref` rows, counts toward score range and inbox |
+| `/test/writing` | Argumentative Writing: 15-min prewrite (outline builder) + 35-min essay, saved for rereading |
+
+## Analytics and planning
+
+- `/analytics` — score range (last 5 full tests, shrinking margin), blind-review gap, **Priorities** = (1 − accuracy) × expected questions per test, accuracy by level, calibration curve (sure / leaning / guess vs. target bands), time on right vs. wrong by type, and **Study Quality** (accuracy 28 / consistency 27 / review 26 / time 10 / variety 9 over 30 days).
+- `/plan` — phase exit criteria (foundations ≥ 80% of U1 checks; LR ≥ 75% of types at level 3+; RC rating at level 3+) and registration advice (register when the range floor is within 2 of the goal). Re-planning extends an uncleared phase by a week; later phases absorb it when the date is fixed.

@@ -70,7 +70,7 @@ test("writing practice: prewrite, write, save; lesson completes", async ({ page 
   await expect(page.getByText(/Complete · 1\/1/)).toBeVisible({ timeout: 30_000 });
 });
 
-test("offline drill: pack cached, answers queued offline, synced when back online", async ({ page, context, request }) => {
+test("offline drill: pack cached, answers queued offline, synced when back online", async ({ page }) => {
   test.setTimeout(180_000);
   // warm the pack
   await page.goto("/drill");
@@ -92,10 +92,9 @@ test("offline drill: pack cached, answers queued offline, synced when back onlin
     return r > 0;
   }, undefined, { timeout: 60_000 });
 
-  const before = (await (await request.get("/api/plan")).json()) as unknown; // any API ping to keep server warm
-  void before;
-  await context.setOffline(true);
-  await page.goto(`/drill/session?s=${encodeURIComponent(JSON.stringify({ count: 2 }))}`).catch(() => {});
+  // No service worker in dev, so the page itself must load online; the session's API calls then fail offline.
+  await page.route("**/api/drill/**", (route) => route.abort("internetdisconnected"));
+  await page.goto(`/drill/session?s=${encodeURIComponent(JSON.stringify({ count: 2 }))}`);
   await expect(page.getByTestId("offline-badge")).toBeVisible({ timeout: 30_000 });
   for (let i = 0; i < 2; i++) {
     const choices = page.getByRole("list", { name: "Answer choices" });
@@ -110,8 +109,8 @@ test("offline drill: pack cached, answers queued offline, synced when back onlin
       await page.getByRole("button", { name: /^next/i }).click();
     });
   }
-  await expect(page.getByText(/session complete|summary/i).first()).toBeVisible({ timeout: 15_000 });
-  await context.setOffline(false);
+  await expect(page.getByText(/^Accuracy$/)).toBeVisible({ timeout: 15_000 });
+  await page.unroute("**/api/drill/**");
   await page.goto("/");
   await expect(page.getByRole("status")).toContainText(/synced 2 offline attempts/i, { timeout: 60_000 });
 });
