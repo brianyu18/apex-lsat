@@ -3,6 +3,7 @@ import { redirect } from "next/navigation";
 import { format, parseISO, differenceInCalendarDays } from "date-fns";
 import { getSettings } from "@/lib/data/settings";
 import { getActivePlan, getPlanDays, phaseSignals, registrationStatus } from "@/lib/data/plan";
+import { officialForDay } from "@/lib/data/official";
 import { PHASE_LABELS, type Phase } from "@/lib/planner/generate";
 import { Badge, Card, CardDescription, CardTitle } from "@/components/ui/primitives";
 import { Button } from "@/components/ui/button";
@@ -27,8 +28,8 @@ export default async function PlanPage() {
   if (!s.onboarded) redirect("/onboarding");
   const plan = await getActivePlan();
   if (!plan) redirect("/onboarding");
-  const [days, signals, reg] = await Promise.all([getPlanDays(plan.id), phaseSignals(), registrationStatus()]);
   const today = format(new Date(), "yyyy-MM-dd");
+  const [days, signals, reg, todaysOfficial] = await Promise.all([getPlanDays(plan.id), phaseSignals(), registrationStatus(), officialForDay(today)]);
   const extra = (plan.extraDays ?? {}) as Record<string, number>;
   const regTone = reg.advice.verdict === "register" ? "ok" : reg.advice.verdict === "postpone" ? "bad" : reg.advice.verdict === "keep" ? "warn" : "neutral";
   const todayRow = days.find((d) => d.day === today);
@@ -104,7 +105,7 @@ export default async function PlanPage() {
           <p className="mt-2 text-sm text-ink-2">{reg.advice.reason}</p>
           {reg.range.n > 0 && (
             <p className="mt-2 text-xs text-ink-3">
-              Range {reg.range.low}–{reg.range.high} over {reg.range.n} full-length test{reg.range.n > 1 ? "s" : ""} · goal {reg.goal}. Rule: register when the floor is within 2 of the goal.
+              Range {reg.range.low}–{reg.range.high} over {reg.range.n} full-length test{reg.range.n > 1 ? "s" : ""} · goal {reg.goal}{reg.goalSource === "targets" ? " (from your target schools)" : ""}. Rule: register when the floor is within 2 of the goal.
             </p>
           )}
         </Card>
@@ -123,7 +124,18 @@ export default async function PlanPage() {
           <ul className="mt-4 divide-y divide-line">
             {todayRow.blocks.map((b, i) => (
               <li key={i} className="flex items-center justify-between py-2.5 text-sm">
-                <span>{b.label}</span>
+                <span>
+                  {b.label}
+                  {b.kind === "pt" && todaysOfficial != null && (
+                    <>
+                      {" "}
+                      — <span className="font-medium text-accent">Official PrepTest {todaysOfficial} in LawHub</span>{" "}
+                      <Link href={`/test/import?pt=${todaysOfficial}`} className="text-xs underline">
+                        import
+                      </Link>
+                    </>
+                  )}
+                </span>
                 <span className="tabular-nums text-ink-3">{b.minutes ? `${b.minutes} min` : ""}</span>
               </li>
             ))}

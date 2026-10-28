@@ -2,7 +2,8 @@ import { ImportForm } from "@/components/test/import-form";
 
 export const metadata = { title: "Import a LawHub test" };
 
-export default function ImportPage() {
+export default async function ImportPage({ searchParams }: { searchParams: Promise<{ pt?: string }> }) {
+  const { pt } = await searchParams;
   return (
     <div className="mx-auto max-w-3xl space-y-6">
       <header>
@@ -12,7 +13,7 @@ export default function ImportPage() {
           Take official tests in LawHub, then bring the results here so they count toward your score range, analytics and review inbox. Only your answers and the keys are stored — never the questions.
         </p>
       </header>
-      <ImportForm />
+      <ImportForm initialPt={pt ?? ""} />
     </div>
   );
 }

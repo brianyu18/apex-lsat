@@ -12,9 +12,9 @@ S2 RC: 1 B B, 2 C C, 3 A D, 4 E E, 5 D D, 6 A A, 7 C C, 8 B B, 9 E E, 10 D D, 11
 S3 LR (experimental): 1 A A, 2 B B
 S4 LR: 1 A A, 2 B B, 3 C C, 4 D D, 5 E E, 6 A A, 7 B C, 8 C C, 9 D D, 10 E E, 11 A A, 12 B B, 13 C C, 14 D D, 15 E A, 16 A A, 17 B B, 18 C C, 19 D D, 20 E E, 21 A A, 22 B B, 23 C C, 24 D D, 25 E E`;
 
-export function ImportForm() {
+export function ImportForm({ initialPt = "" }: { initialPt?: string }) {
   const [text, setText] = useState("");
-  const [pt, setPt] = useState("");
+  const [pt, setPt] = useState(initialPt);
   const [scaled, setScaled] = useState("");
   const [takenOn, setTakenOn] = useState("");
   const [preview, previewAction, previewing] = useActionState<ImportState, FormData>(previewImport, undefined);

@@ -21,6 +21,8 @@ export interface TutorQuestion {
   trapPatterns: Record<string, string> | null;
   keyTakeaway?: string | null;
   officialRef?: { pt: number; section: number; number: number } | null;
+  /** official_ref only: the student's own summary */
+  gist?: string | null;
   passage?: { title: string; paragraphs: string[]; paragraphsB: string[] | null } | null;
 }
 
@@ -68,7 +70,7 @@ export function buildGrounding(q: TutorQuestion, attempt: TutorAttempt | null, h
   const parts: string[] = [];
   parts.push(`QUESTION ${q.id} · ${q.section} · type: ${q.type} · difficulty L${q.difficulty}${q.logicTags.length ? ` · logic tags: ${q.logicTags.join(", ")}` : ""}`);
   if (q.source === "official_ref") {
-    parts.push(`This is an OFFICIAL LSAT question (PrepTest ${q.officialRef?.pt ?? "?"}, section ${q.officialRef?.section ?? "?"}, question ${q.officialRef?.number ?? "?"}). Its text is NOT stored here. The student will paste or summarize the stimulus, stem and choices in chat; work only from what they give you, and say so if something is missing.`);
+    parts.push(`This is an OFFICIAL LSAT question (PrepTest ${q.officialRef?.pt ?? "?"}, section ${q.officialRef?.section ?? "?"}, question ${q.officialRef?.number ?? "?"}). Its text is NOT stored here. ${q.gist ? `The student's own gist of it: "${q.gist}".` : "The student has not written a gist yet."} They may paste or summarize the stimulus, stem and choices in chat; work only from what they give you, never reproduce LSAC text from memory, and say so if something is missing.${q.answer ? ` Recorded key: ${q.answer}.` : ""}`);
   } else {
     if (q.passage) {
       parts.push(`PASSAGE${q.passage.title ? ` — ${q.passage.title}` : ""}:\n${q.passage.paragraphs.map((p, i) => `[${i + 1}] ${p}`).join("\n")}${q.passage.paragraphsB ? `\nPASSAGE B:\n${q.passage.paragraphsB.map((p, i) => `[B${i + 1}] ${p}`).join("\n")}` : ""}`);

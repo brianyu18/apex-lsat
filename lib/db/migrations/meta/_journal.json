@@ -15,6 +15,13 @@
       "when": 1793217578336,
       "tag": "0001_silent_blackheart",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1793225396538,
+      "tag": "0002_blue_wither",
+      "breakpoints": true
     }
   ]
 }

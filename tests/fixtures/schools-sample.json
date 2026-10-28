@@ -1,0 +1,5 @@
+[
+  { "id": "sample-elite-university", "name": "Sample Elite University (fictional)", "state": "CA", "year": 2025, "lsat25": 170, "lsat50": 173, "lsat75": 176, "gpa25": 3.85, "gpa50": 3.93, "gpa75": 3.99, "applicants": 5000, "offers": 500, "matriculants": 180, "tags": ["t14", "ca"] },
+  { "id": "sample-state-university", "name": "Sample State University (fictional)", "state": "CA", "year": 2025, "lsat25": 160, "lsat50": 164, "lsat75": 167, "gpa25": 3.5, "gpa50": 3.7, "gpa75": 3.85, "applicants": 3000, "offers": 900, "matriculants": 250, "tags": ["ca"] },
+  { "id": "sample-regional-college", "name": "Sample Regional College (fictional)", "state": "NV", "year": 2025, "lsat25": 152, "lsat50": 156, "lsat75": 159, "gpa25": 3.1, "gpa50": 3.4, "gpa75": 3.6, "applicants": 1200, "offers": 600, "matriculants": 150, "tags": [] }
+]

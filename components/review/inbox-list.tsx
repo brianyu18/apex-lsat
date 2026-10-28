@@ -19,6 +19,11 @@ export type InboxItem = {
   type: string;
   difficulty: number;
   stem: string | null;
+  source?: "original" | "official_ref";
+  pt?: number | null;
+  sectionNumber?: number | null;
+  number?: number | null;
+  gist?: string | null;
   stimulus: string | null;
   answer: string | null;
   correct: boolean | null;
@@ -63,15 +68,26 @@ export function InboxList({ items, reviewed = false }: { items: InboxItem[]; rev
             <Card className="flex flex-col gap-3 p-4 sm:flex-row sm:items-start sm:justify-between">
               <div className="min-w-0 flex-1">
                 <div className="mb-1 flex flex-wrap items-center gap-2 text-xs">
-                  <Badge>{typeLabel(i.type)}</Badge>
-                  <Badge tone="neutral">L{i.difficulty}</Badge>
+                  <Badge>{i.source === "official_ref" ? "Official" : typeLabel(i.type)}</Badge>
+                  {i.source !== "official_ref" && <Badge tone="neutral">L{i.difficulty}</Badge>}
                   {i.guessFlag && i.correct ? <Badge tone="warn">Guessed right</Badge> : <Badge tone="bad">Missed</Badge>}
                   {i.errorType && <Badge tone="info">{ERROR_LABEL[i.errorType] ?? i.errorType}</Badge>}
                   <span className="text-ink-3">{formatDistanceToNow(new Date(i.createdAt), { addSuffix: true })}</span>
                   {!reviewed && i.nextDue && <span className="text-ink-3">· re-drill {i.nextDue}</span>}
                 </div>
-                <p className="lsat-text line-clamp-2 text-sm text-ink-2">{i.stimulus}</p>
-                <p className="mt-1 text-sm font-medium">{i.stem}</p>
+                {i.source === "official_ref" ? (
+                  <>
+                    <p className="text-sm font-medium">
+                      Official · PT {i.pt} · S{i.sectionNumber} · #{i.number}
+                    </p>
+                    <p className="lsat-text line-clamp-2 text-sm text-ink-2">{i.gist ?? "No gist yet — open to write one."}</p>
+                  </>
+                ) : (
+                  <>
+                    <p className="lsat-text line-clamp-2 text-sm text-ink-2">{i.stimulus}</p>
+                    <p className="mt-1 text-sm font-medium">{i.stem}</p>
+                  </>
+                )}
                 {i.takeaway && <p className="mt-1 text-sm text-accent">Takeaway: {i.takeaway}</p>}
               </div>
               <div className="flex shrink-0 gap-2">

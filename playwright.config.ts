@@ -16,7 +16,7 @@ export default defineConfig({
     { name: "phone", use: { ...devices["iPhone 14"], browserName: "chromium" } },
   ],
   webServer: {
-    command: "APEX_E2E=1 APEX_DB_DIR=./data/e2e sh -c 'pnpm content:load && pnpm dev --port 3100'",
+    command: "APEX_E2E=1 APEX_DB_DIR=./data/e2e APEX_SCHOOLS_FILE=./tests/fixtures/schools-sample.json sh -c 'pnpm content:load && pnpm dev --port 3100'",
     url: "http://localhost:3100",
     reuseExistingServer: false,
     timeout: 180_000,

@@ -87,6 +87,8 @@ export const questions = pgTable(
     explanations: jsonb("explanations").$type<Record<string, string> | null>(), // per choice
     keyTakeaway: text("key_takeaway"),
     predictionHint: text("prediction_hint"),
+    /** official_ref only: the student's own summary of the question (never LSAC text) */
+    gist: text("gist"),
     reservedForTimed: boolean("reserved_for_timed").notNull().default(false),
     createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
   },
@@ -224,6 +226,12 @@ export const settings = pgTable("settings", {
     takenOn?: string;
   } | null>(),
   drillPrefs: jsonb("drill_prefs").$type<Record<string, unknown> | null>(),
+  /** undergraduate GPA (LSAC-calculated, 4.33 scale) for school odds */
+  gpa: real("gpa"),
+  /** school ids the student is targeting */
+  targetSchools: jsonb("target_schools").$type<string[] | null>(),
+  /** official PrepTest numbers available to the student in LawHub (free + Advantage) */
+  officialPts: jsonb("official_pts").$type<number[] | null>(),
   onboarded: boolean("onboarded").notNull().default(false),
   updatedAt: timestamp("updated_at", { withTimezone: true }).notNull().defaultNow(),
 });

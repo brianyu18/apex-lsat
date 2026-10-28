@@ -149,10 +149,23 @@ export async function phaseSignals(): Promise<PhaseSignals> {
 export async function registrationStatus() {
   const db = await getDb();
   const s = await getSettings();
+  // The most selective target school's median overrides the bare goal when targets are set.
+  let goal = s.goalScore;
+  let goalSource: "goal" | "targets" = "goal";
+  if (s.targetSchools?.length) {
+    const { loadSchools } = await import("./schools");
+    const { goalFromTargets } = await import("@/lib/schools/odds");
+    const schools = await loadSchools();
+    const g = goalFromTargets(schools.filter((x) => s.targetSchools!.includes(x.id)));
+    if (g != null && g > goal) {
+      goal = g;
+      goalSource = "targets";
+    }
+  }
   const tests = await db
     .select({ scaled: schema.sessions.scoreScaled, brScaled: schema.sessions.brScaled, finishedAt: schema.sessions.finishedAt })
     .from(schema.sessions)
     .where(and(eq(schema.sessions.kind, "pt"), isNotNull(schema.sessions.scoreScaled)));
   const range = scoreRange(tests.filter((t) => t.scaled != null && t.finishedAt).map((t) => ({ scaled: t.scaled!, brScaled: t.brScaled, finishedAt: t.finishedAt! })));
-  return { range, advice: registrationAdvice(range, s.goalScore, s.testDate), goal: s.goalScore, testDate: s.testDate };
+  return { range, advice: registrationAdvice(range, goal, s.testDate), goal, goalSource, testDate: s.testDate };
 }

@@ -31,6 +31,7 @@ The app is installable (PWA). Open **Drill** once while online to cache a 100-qu
 - `pnpm tsx scripts/mdx-check.ts` — every lesson compiles
 - `pnpm tsx scripts/gen/qa-lr.ts [--solve]` — LR bank QA (schema, key balance, duplicates, blind-solver agreement)
 - `pnpm tsx scripts/gen/qa-rc.ts [--solve]` — RC bank QA (passage length, role map, question-type mix, same solver protocol)
+- `pnpm tsx scripts/ingest-509.ts <aba-509.xlsx> --year=2025` — build `content/schools/schools.json` from the ABA Standard 509 compilation (the Schools page is empty until this runs)
 - `pnpm tsx scripts/tutor-check.ts [--n=20]` — tutor acceptance: no answer on the first turn, ≤ 250 words, key agreement when asked outright
 - `pnpm tsx scripts/seed-demo.ts [--weeks=6]` — fill the DB with a deterministic six-week study history (demo / screenshots; never touches settings or plan)
 - `pnpm tsx scripts/gen/calibrate.ts [--apply]` — re-level questions from your attempt data (needs ≥20 counted attempts per item)
@@ -54,6 +55,8 @@ The app is installable (PWA). Open **Drill** once while online to cache a 100-qu
 | `/test/timing` | Timing heatmap: seconds per question vs pacing target across your last 12 sections |
 | `/test/import` | Paste LawHub results (grid or CSV); creates `official_ref` rows, counts toward score range and inbox |
 | `/test/writing` | Argumentative Writing: 15-min prewrite (outline builder) + 35-min essay, saved for rereading |
+| `/test/official` | Official PrepTest track: list the LawHub tests you can access; the app assigns one per PT day (newest saved for the final weeks), links to LawHub and the import, keeps the tally. Official misses get a one-line gist on their review page (your words — never LSAC text) that the tutor uses |
+| `/schools` | Where you stand: every ABA school's LSAT/GPA 25/50/75 vs. your range and GPA, an admission estimate (likely / target / reach / long shot), the LSAT needed to move a band, and a target list that feeds the plan's registration goal |
 
 ## Analytics and planning
 

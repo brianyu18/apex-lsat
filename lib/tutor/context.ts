@@ -28,6 +28,7 @@ export async function tutorContext(questionId: string, attemptId?: string | null
     trapPatterns: q.trapPatterns,
     keyTakeaway: q.keyTakeaway,
     officialRef: q.source === "official_ref" ? { pt: q.pt ?? 0, section: q.sectionNumber ?? 0, number: q.number ?? 0 } : null,
+    gist: q.gist,
     passage,
   };
 

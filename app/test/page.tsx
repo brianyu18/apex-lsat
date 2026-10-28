@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { format } from "date-fns";
-import { Timer, FileText, Upload, SkipForward, Grid3x3, PenLine } from "lucide-react";
+import { Timer, FileText, Upload, SkipForward, Grid3x3, PenLine, ScrollText } from "lucide-react";
 import { recentSections } from "@/lib/data/sections";
 import { Badge, Card, CardDescription, CardTitle } from "@/components/ui/primitives";
 import { Button } from "@/components/ui/button";
@@ -25,6 +25,10 @@ export default async function TestPage() {
         <Link href="/test/pt" className="card focus-ring flex items-start gap-3 p-4 hover:border-line-strong">
           <span className="inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-md bg-bg-sunken text-ink-2"><FileText className="h-5 w-5" /></span>
           <span><span className="block font-semibold">Full practice test</span><span className="block text-sm text-ink-2">4 sections + break · LawHub interface · ~2h40m</span></span>
+        </Link>
+        <Link href="/test/official" className="card focus-ring flex items-start gap-3 border-accent p-4 hover:border-line-strong">
+          <span className="inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-md bg-accent text-accent-ink"><ScrollText className="h-5 w-5" /></span>
+          <span><span className="block font-semibold">Official PrepTest track</span><span className="block text-sm text-ink-2">Which LawHub test to take when · tally · import</span></span>
         </Link>
         <Link href="/test/import" className="card focus-ring flex items-start gap-3 p-4 hover:border-line-strong">
           <span className="inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-md bg-bg-sunken text-ink-2"><Upload className="h-5 w-5" /></span>

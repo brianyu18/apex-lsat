@@ -73,7 +73,7 @@ export function parseLawHub(text: string, opts: { pt?: number; scaled?: number |
     for (const l of lines) {
       const ptm = l.match(/^(?:PT|PrepTest)\s*(\d+)/i);
       if (ptm) {
-        pt = Number(ptm[1]);
+        if (!opts.pt) pt = Number(ptm[1]); // an explicit PT number wins over the pasted header
         continue;
       }
       const sm = l.match(/^S(?:ection)?\s*(\d+)\s*(LR|RC)?\s*(?:\(([^)]*)\))?\s*:\s*(.*)$/i);

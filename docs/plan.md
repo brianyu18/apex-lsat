@@ -304,6 +304,8 @@ Builds the personal LSAT study tool from the spec in five phases, each ending in
 | 4.5 Units 5–6 | ✅ 8 lessons (73 total) | `content/lessons/u5/*` (checkMode timed → 10-Q/14-min section), `u6/*` (checkMode writing), `components/diagrams/pacing-simulator.tsx`, `components/writing/{outline-builder,writing-runner}.tsx`, `/test/writing`, `lib/writing/prompts.ts` |
 | 4.6 PWA + offline | ✅ | `app/manifest.ts`, `public/sw.js`, `components/shell/pwa.tsx`, `lib/offline/queue.ts` (IndexedDB pack + attempt queue), `/api/offline/{pack,sync}`, drill-session fallback |
 | extra | demo seed | `lib/dev/seed.ts`, `/api/dev/seed`, `scripts/seed-demo.ts` |
+| post-4 | Official PT track | `lib/planner/official-track.ts`, `lib/data/official.ts`, `/test/official`, plan "today" hook, `/test/import?pt=`, official-miss gist (`questions.gist`, migration 0002) |
+| post-4 | Schools & odds | `lib/schools/{odds,ingest}.ts`, `lib/data/schools.ts`, `/schools`, `scripts/ingest-509.ts`; settings `gpa`, `target_schools`; registration goal from targets |
 
 ---
 

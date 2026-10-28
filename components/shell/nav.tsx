@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { BookOpen, CalendarDays, Home, Inbox, Target, Timer, BarChart3 } from "lucide-react";
+import { BookOpen, CalendarDays, Home, Inbox, Target, Timer, BarChart3, GraduationCap } from "lucide-react";
 import { cn } from "@/lib/ui/cn";
 
 const items = [
@@ -13,6 +13,7 @@ const items = [
   { href: "/review", label: "Review", icon: Inbox },
   { href: "/analytics", label: "Analytics", icon: BarChart3 },
   { href: "/plan", label: "Plan", icon: CalendarDays },
+  { href: "/schools", label: "Schools", icon: GraduationCap },
 ];
 
 export function SideNav({ signOut = false }: { signOut?: boolean }) {
