@@ -78,7 +78,7 @@ export function DrillSettingsForm({
   return (
     <div className="space-y-5">
       {/* Quick starts */}
-      <div className="grid gap-3 sm:grid-cols-3">
+      <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
         <QuickStart
           title="Smart drill"
           desc={`Auto difficulty around your level (L${skillLevel}), mixed types.`}
@@ -92,6 +92,11 @@ export function DrillSettingsForm({
           desc="Re-drill misses that are due today, paired with similar questions."
           disabled={dueCount === 0}
           onClick={() => router.push(`/drill/session?s=${encodeURIComponent(JSON.stringify({ ...defaults, sources: ["due"], count: 0 }))}`)}
+        />
+        <QuickStart
+          title="Reading Comprehension"
+          desc="One passage at a time: read, map, then the questions. Passage time tracked separately."
+          onClick={() => router.push(`/drill/rc?s=${encodeURIComponent(JSON.stringify({ passages: 2, predictionMode: false }))}`)}
         />
         <QuickStart
           title="Warm-up"

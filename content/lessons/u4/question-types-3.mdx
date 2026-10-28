@@ -1,0 +1,98 @@
+---
+id: u4/question-types-3
+unit: 4
+order: 10
+title: "Question types 3: reasoning about the passage"
+summary: "Analogy, application, weaken and strengthen, principle, organization. These are LR questions with a 450-word stimulus; find the author's argument and run the LR move on it."
+checkTags: [analogy, application, weaken_strengthen_evaluate, principle, organization]
+checkSection: RC
+diagram: TrapCatalog
+minutes: 11
+---
+
+## The stems
+
+> *Which one of the following is most analogous to X as described in the passage?*
+> *Which one of the following would the author most likely consider an example of...?*
+> *Which one of the following, if true, would most weaken the author's argument...?*
+> *Which one of the following principles underlies the author's reasoning...?*
+> *Which one of the following most accurately describes the organization of the passage?*
+
+Four or five per section. Each is an LR skill you already own, applied to an argument you must extract first. The extraction is the work: before the choices, write the author's argument in LR form, conclusion, evidence, and the move between them.
+
+|RC type|LR skill|What you extract|
+|---|---|---|
+|Analogy|Parallel reasoning|the abstract structure of the thing named|
+|Application|Principle application|the author's criterion|
+|Weaken / strengthen / evaluate|Weaken, Strengthen, Evaluate|the conclusion and the fact it rests on|
+|Principle|Principle (identify)|the rule the judgment presupposes|
+|Organization|Argument structure|the sequence of paragraph roles|
+
+## Analogy: match the structure, drop the subject
+
+Reduce the named thing to a relation with the nouns removed. The Varenne fairs: *a two-function institution collapsed when the less visible function was displaced, and observers blamed the visible one.* Now the key can be about a newspaper or a hospital. The trap shares the subject and breaks the relation. The subject is noise.
+
+## Application: run the criterion on a new case
+
+Write the author's test in one sentence first: *a constraint should be justified by the party it serves.* Run each case through it. The trap resembles the passage's examples on the surface and fails the test, or satisfies a different paragraph's claim.
+
+## Weaken and strengthen: target the discriminating fact
+
+The author's argument usually rests on one fact that does the sorting: the chronology, the neighboring islands. A weakener removes or neutralizes that fact. A strengthener adds a prediction the author's view makes and the rival does not. A choice that contradicts the conclusion without touching the reasoning is weak; one about a point the passage never contested is noise. Evaluate asks for the fact whose answer would move your confidence; a fact that comes out the same under both views evaluates nothing.
+
+## Principle: the rule at the author's altitude
+
+General enough to cover the author's judgment, no more general than the text supports. State it from the author's reasons, then match. Traps run both ways: a rule so broad it condemns things the author accepts, and the specific remedy with "should" in front of it.
+
+## Organization: verify every clause
+
+The key is your role map as verbs. Check each clause in order; a choice dies at the first clause that misdescribes a paragraph. Traps get the opening right because the opening is what everyone remembers.
+
+<TrapCatalog
+  title="Traps on the reasoning types"
+  traps={[
+    {
+      pattern: "shell_game",
+      setup: "Analogy to the Varenne fairs as the passage describes them: a two-function institution that collapsed when its less conspicuous function was displaced, while observers blamed the conspicuous one.",
+      tempting: "A regional market that declines after a highway is built around the town that hosts it.",
+      killer: "Same subject, wrong relation. This is the explanation the author rejected: a single function displaced by geography. Nothing hidden, nothing misattributed.",
+      instead: "Keeps the relation and changes the subject: a lending library that closed when its members began meeting elsewhere, which commentators attributed to the rise of cheap books."
+    },
+    {
+      pattern: "wrong_part",
+      setup: "Application, injunctions passage: “Which of the following would the author most likely consider an example of the problem described in the first paragraph?”",
+      tempting: "A defendant who complies with an injunction until it expires and then resumes the enjoined practice.",
+      killer: "That is the objection from paragraph four, which the author answers. The problem in paragraph one is an order persisting after its condition has ended because inertia favors the protected party.",
+      instead: "A case from paragraph one’s description: a decree that still binds an agency decades after the practice it addressed was abandoned."
+    },
+    {
+      pattern: "out_of_scope",
+      setup: "Weaken the author’s preference for predation over warming, skink passage. The author’s reason: rats reached only Perrin, and only Perrin shows the decline.",
+      tempting: "Skinks on Perrin Island feed on a wider variety of insects than skinks on neighboring islands.",
+      killer: "Diet is never a hypothesis in the passage, and the choice does not connect it to body size. It introduces a difference without making it do any work.",
+      instead: "Attacks the discriminating fact: rats colonized a neighboring island in the same decade, and that island’s skinks have not declined."
+    },
+    {
+      pattern: "extreme",
+      setup: "Principle underlying the author’s proposal that injunctions expire unless the protected party shows the condition persists.",
+      tempting: "Courts should never issue an order whose duration is not fixed in advance.",
+      killer: "“Never” and “any order.” The author’s rule is about who bears the burden of justifying a continuing constraint, and the author allows renewal on a showing. This principle would forbid what the author permits.",
+      instead: "States the rule at the author’s altitude: a continuing constraint should be justified by the party it benefits, who has better access to the relevant facts."
+    },
+    {
+      pattern: "half_right",
+      setup: "Organization of the injunctions passage: problem; two remedies dispatched; the author’s remedy with its reason; an objection limited and a principle stated.",
+      tempting: "A problem is described; two remedies are proposed and endorsed; a third remedy is shown to be superior to both.",
+      killer: "“Endorsed.” The two remedies are dispatched in one sentence each for not reaching the cause. The first clause is right and the second contradicts paragraph two.",
+      instead: "Matches every clause: a problem is described, two proposed remedies are found inadequate, an alternative is proposed and defended against an objection, and a general principle is drawn."
+    }
+  ]}
+/>
+
+## The level-4 version
+
+Hard analogy questions name an abstract relation ("the relationship between the manuals and the practice they describe") rather than a thing. Hard weaken questions target a sub-argument in a middle paragraph, so extract the right argument before weakening it. Hard principle questions offer two rules that both fit the conclusion and differ in the reason. Name the conclusion, the evidence, the move, then judge.
+
+<KeyIdea>
+These five types are LR with a long stimulus. Extract the author's argument first, then match structure for analogy, run the criterion for application, hit the discriminating fact for weaken and strengthen, state the rule at the author's altitude for principle, and verify every clause for organization.
+</KeyIdea>

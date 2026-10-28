@@ -31,7 +31,14 @@ export default async function LessonPage({ params }: { params: Promise<{ unit: s
     predictionMode: false,
     count: 5,
   };
-  const checkHref = `/drill/session?lesson=${encodeURIComponent(id)}&s=${encodeURIComponent(JSON.stringify(checkSettings))}`;
+  const rcStyles = ["critique_debate", "single_position", "phenomenon_hypothesis", "problem_analysis", "spotlight"];
+  const rcCheck = { passages: 1, predictionMode: false, styles: l.checkTags.filter((t) => rcStyles.includes(t)), qtypes: l.checkTags.filter((t) => !rcStyles.includes(t)) };
+  if (!rcCheck.styles.length) delete (rcCheck as { styles?: string[] }).styles;
+  if (!rcCheck.qtypes.length) delete (rcCheck as { qtypes?: string[] }).qtypes;
+  const checkHref =
+    l.checkSection === "RC"
+      ? `/drill/rc?lesson=${encodeURIComponent(id)}&s=${encodeURIComponent(JSON.stringify(rcCheck))}`
+      : `/drill/session?lesson=${encodeURIComponent(id)}&s=${encodeURIComponent(JSON.stringify(checkSettings))}`;
 
   return (
     <article className="mx-auto max-w-3xl">
@@ -58,8 +65,8 @@ export default async function LessonPage({ params }: { params: Promise<{ unit: s
       </div>
 
       <Card className="mt-10 border-accent">
-        <h2 className="text-lg font-semibold">Check: five questions</h2>
-        <p className="mt-1 text-sm text-ink-2">Drawn from the bank by this lesson&apos;s tags, untimed. Get 4 of 5 to mark the lesson complete; misses go to your Review Inbox.</p>
+        <h2 className="text-lg font-semibold">{l.checkSection === "RC" ? "Check: one passage" : "Check: five questions"}</h2>
+        <p className="mt-1 text-sm text-ink-2">{l.checkSection === "RC" ? "A full passage set from the bank matching this lesson, untimed. Get 80% to mark the lesson complete; misses go to your Review Inbox." : "Drawn from the bank by this lesson’s tags, untimed. Get 4 of 5 to mark the lesson complete; misses go to your Review Inbox."}</p>
         <div className="mt-4 flex flex-wrap gap-2">
           <Button asChild>
             <Link href={checkHref}>Start the check</Link>

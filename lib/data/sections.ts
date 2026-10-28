@@ -3,6 +3,7 @@ import { and, desc, eq, inArray, isNotNull, sql } from "drizzle-orm";
 import { getDb, schema } from "@/lib/db/client";
 import { newId } from "./ids";
 import { assembleSection, scoreBlindReview, type BRItem, type SectionCandidate } from "@/lib/engine/section";
+import { assembleRcSection } from "./rc";
 import { rawToScaled } from "@/lib/scoring/tables";
 import { nextDue } from "@/lib/engine/srs";
 import { guessFlag } from "@/lib/engine/guess";
@@ -13,11 +14,21 @@ export interface StartSectionInput {
   n: number;
   durationSec: number;
   preferReserved?: boolean;
+  /** Session kind to record; the skip trainer is a section with a triage gate. */
+  kind?: "section" | "skip_trainer";
 }
 
 /** Creates a session and returns the ordered question list (without keys). */
 export async function startTimedSection(input: StartSectionInput) {
   const db = await getDb();
+  if (input.section === "RC") {
+    const sets = await assembleRcSection();
+    if (!sets) return null;
+    const id = newId("sec");
+    const questions = sets.flatMap((s) => s.questions);
+    await db.insert(schema.sessions).values({ id, kind: "section", section: "RC", timed: true, durationSec: input.durationSec, nQuestions: questions.length, settings: { questionIds: questions.map((q) => q.id), passageIds: sets.map((s) => s.passage.id), n: questions.length } });
+    return { sessionId: id, questions, passages: sets.map((s) => s.passage) };
+  }
   const qs = await db
     .select({ id: schema.questions.id, type: schema.questions.type, difficulty: schema.questions.difficulty, reservedForTimed: schema.questions.reservedForTimed })
     .from(schema.questions)
@@ -41,7 +52,7 @@ export async function startTimedSection(input: StartSectionInput) {
   const id = newId("sec");
   await db.insert(schema.sessions).values({
     id,
-    kind: "section",
+    kind: input.kind ?? "section",
     section: input.section,
     timed: true,
     durationSec: input.durationSec,
@@ -64,6 +75,7 @@ export async function startTimedSection(input: StartSectionInput) {
       choices: q.choices,
       passageId: q.passageId,
     })),
+    passages: [] as { id: string; title: string; style: string | null; topic: string | null; comparative: boolean; paragraphs: string[]; paragraphsB: string[] | null }[],
   };
 }
 
@@ -99,7 +111,8 @@ export async function submitTimedSection(sessionId: string, answers: TimedAnswer
   }));
   await db.insert(schema.attempts).values(rows);
   const timedRaw = rows.filter((r) => r.correct).length;
-  await db.update(schema.sessions).set({ elapsedSec, scoreRaw: timedRaw, scoreScaled: rawToScaled(timedRaw, Math.round((77 / 25) * rows.length)) }).where(eq(schema.sessions.id, sessionId));
+  const scale = ses.section === "RC" ? Math.round((77 / 27) * rows.length) : Math.round((77 / 25) * rows.length);
+  await db.update(schema.sessions).set({ elapsedSec, scoreRaw: timedRaw, scoreScaled: rawToScaled(timedRaw, scale) }).where(eq(schema.sessions.id, sessionId));
   const toReview = rows.filter((r) => r.flagged || r.answer == null).map((r) => r.questionId);
   return { timedRaw, toReview };
 }
@@ -138,8 +151,9 @@ export async function submitBlindReview(sessionId: string, brAnswers: Record<str
       }
     }
   }
+  const [ses2] = await db.select().from(schema.sessions).where(eq(schema.sessions.id, sessionId));
   const n = attempts.length;
-  const scale = Math.round((77 / 25) * n);
+  const scale = ses2?.section === "RC" ? Math.round((77 / 27) * n) : Math.round((77 / 25) * n);
   await db
     .update(schema.sessions)
     .set({ brRaw: summary.brRaw, brScaled: rawToScaled(summary.brRaw, scale), finishedAt: new Date() })
@@ -180,16 +194,51 @@ export async function recentSections(limit = 10) {
   return db
     .select()
     .from(schema.sessions)
-    .where(and(inArray(schema.sessions.kind, ["section", "pt"]), isNotNull(schema.sessions.finishedAt)))
+    .where(and(inArray(schema.sessions.kind, ["section", "pt", "skip_trainer"]), isNotNull(schema.sessions.finishedAt)))
     .orderBy(desc(schema.sessions.startedAt))
     .limit(limit);
 }
 
 /** Questions for blind review: full content but still without keys. */
 export async function getQuestionsForReview(ids: string[]) {
-  if (!ids.length) return [];
+  if (!ids.length) return { questions: [], passages: [] };
   const db = await getDb();
   const rows = await db.select().from(schema.questions).where(inArray(schema.questions.id, ids));
   const byId = new Map(rows.map((r) => [r.id, r]));
-  return ids.map((id) => byId.get(id)!).filter(Boolean).map((q) => ({ id: q.id, type: q.type, difficulty: q.difficulty, stimulus: q.stimulus, stem: q.stem, choices: q.choices }));
+  const pids = Array.from(new Set(rows.map((r) => r.passageId).filter(Boolean))) as string[];
+  const ps = pids.length ? await db.select().from(schema.passages).where(inArray(schema.passages.id, pids)) : [];
+  return {
+    questions: ids.map((id) => byId.get(id)!).filter(Boolean).map((q) => ({ id: q.id, type: q.type, difficulty: q.difficulty, stimulus: q.stimulus, stem: q.stem, choices: q.choices, passageId: q.passageId })),
+    passages: ps.map((p) => ({ id: p.id, title: p.title ?? "Passage", style: p.style, topic: p.topic, comparative: p.comparative, paragraphs: p.paragraphs ?? [], paragraphsB: p.paragraphsB ?? null })),
+  };
+}
+
+/** Per-question timing grid for the last N finished LR/RC sections (timed attempts only). */
+export async function timingGrid(limit = 12) {
+  const db = await getDb();
+  const sessions = await db
+    .select()
+    .from(schema.sessions)
+    .where(and(inArray(schema.sessions.kind, ["section", "skip_trainer"]), isNotNull(schema.sessions.finishedAt)))
+    .orderBy(desc(schema.sessions.startedAt))
+    .limit(limit);
+  if (!sessions.length) return [];
+  const rows = await db
+    .select({ sessionId: schema.attempts.sessionId, position: schema.attempts.position, seconds: schema.attempts.seconds, correct: schema.attempts.correct, brCorrect: schema.attempts.brCorrect, flagged: schema.attempts.flagged, type: schema.questions.type, difficulty: schema.questions.difficulty })
+    .from(schema.attempts)
+    .innerJoin(schema.questions, eq(schema.attempts.questionId, schema.questions.id))
+    .where(and(inArray(schema.attempts.sessionId, sessions.map((s) => s.id)), eq(schema.attempts.mode, "timed")))
+    .orderBy(schema.attempts.position);
+  return sessions.map((s) => ({
+    id: s.id,
+    kind: s.kind,
+    section: s.section,
+    startedAt: s.startedAt,
+    durationSec: s.durationSec ?? 35 * 60,
+    scoreRaw: s.scoreRaw,
+    nQuestions: s.nQuestions,
+    cells: rows
+      .filter((r) => r.sessionId === s.id)
+      .map((r) => ({ position: r.position ?? 0, seconds: r.seconds ?? 0, correct: r.correct, brCorrect: r.brCorrect, flagged: r.flagged, type: r.type, difficulty: r.difficulty })),
+  }));
 }

@@ -40,3 +40,7 @@ Direct, second person, no fluff, no "in this lesson we will". Lead with the stem
 3. How it's exploited: as a flaw, as a weakener/strengthener, as an assumption, in MSS/MBT (whichever apply) — short table
 4. Level-4 variant
 5. `<KeyIdea>`
+
+## Unit 4 (RC) additions
+- `<PassageMap passage={{ title, paragraphs: [...], roles: [...], viewpoints: [{who, position, authorAgrees}], tone, lowResSummary }} />` — interactive: the student drags/taps each paragraph to a role, marks viewpoints, writes a ≤ 8-word summary, then compares to the key. Keep passages in lessons to 3–4 short paragraphs (≈60–90 words each) so the lesson stays readable; full-length passages live in the bank.
+- `checkSection: RC` and `checkTags` = RC question type ids (stated, main_point, author_perspective, purpose_in_context, meaning_in_context, other_perspective, purpose_of_passage, weaken_strengthen_evaluate, analogy, application, author_attitude, principle, purpose_of_paragraph, organization, relationship, approach) or RC style ids (critique_debate, single_position, phenomenon_hypothesis, problem_analysis, spotlight).

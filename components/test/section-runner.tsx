@@ -7,10 +7,11 @@
  *         → blind review (flagged + blank reopen untimed, no keys shown)
  *         → results (timed score, BR score, gap, per-question outcomes, pacing).
  */
-import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { useMemo, useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { Flag, Eye, EyeOff, ChevronLeft, ChevronRight } from "lucide-react";
+import { Flag } from "lucide-react";
+import { LawHubSection, type SecAnswer, type SecPassage } from "./lawhub-section";
 import { Button } from "@/components/ui/button";
 import { Badge, Card, CardDescription, CardTitle } from "@/components/ui/primitives";
 import { cn } from "@/lib/ui/cn";
@@ -21,98 +22,54 @@ import { pacingCurve, timeBleeds } from "@/lib/engine/pacing";
 
 const LETTERS = ["A", "B", "C", "D", "E"] as const;
 
-type Q = { id: string; type: string; difficulty: number; stimulus: string | null; stem: string | null; choices: Record<string, string> | null };
+type Q = { id: string; type: string; difficulty: number; stimulus: string | null; stem: string | null; choices: Record<string, string> | null; passageId?: string | null };
 type Answer = { answer: string | null; seconds: number; flagged: boolean; changedFrom: string | null; eliminated: string[] };
 
 type Phase = "setup" | "running" | "submitting" | "br" | "results";
 
-export function SectionRunner({ bankCount }: { bankCount: number }) {
+export function SectionRunner({ bankCount, kind = "LR" }: { bankCount: number; kind?: "LR" | "RC" }) {
   const router = useRouter();
   const [phase, setPhase] = useState<Phase>("setup");
   const [durationSec, setDurationSec] = useState<number>(35 * 60);
   const [n, setN] = useState(25);
   const [sessionId, setSessionId] = useState<string | null>(null);
   const [qs, setQs] = useState<Q[]>([]);
+  const [passages, setPassages] = useState<SecPassage[]>([]);
   const [answers, setAnswers] = useState<Record<string, Answer>>({});
-  const [idx, setIdx] = useState(0);
-  const [remaining, setRemaining] = useState(0);
-  const [hideTimer, setHideTimer] = useState(false);
   const [error, setError] = useState<string | null>(null);
-  const enteredAt = useRef<number>(Date.now());
-  const startedAt = useRef<number>(Date.now());
   const [reviewQs, setReviewQs] = useState<Q[]>([]);
+  const [reviewPs, setReviewPs] = useState<SecPassage[]>([]);
   const [brAnswers, setBrAnswers] = useState<Record<string, string>>({});
   const [brIdx, setBrIdx] = useState(0);
   const [results, setResults] = useState<ResultsPayload | null>(null);
   const [timedRaw, setTimedRaw] = useState<number | null>(null);
 
-  const cur = qs[idx];
-
-  // Timer
-  useEffect(() => {
-    if (phase !== "running") return;
-    const t = setInterval(() => {
-      const left = durationSec - Math.floor((Date.now() - startedAt.current) / 1000);
-      setRemaining(Math.max(0, left));
-      if (left <= 0) void submit(true);
-    }, 500);
-    return () => clearInterval(t);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [phase, durationSec]);
-
-  // Track time on each question
-  const commitTime = useCallback(() => {
-    if (!cur) return;
-    const dt = (Date.now() - enteredAt.current) / 1000;
-    setAnswers((a) => ({ ...a, [cur.id]: { ...(a[cur.id] ?? blank()), seconds: (a[cur.id]?.seconds ?? 0) + dt } }));
-    enteredAt.current = Date.now();
-  }, [cur]);
-
-  function go(i: number) {
-    commitTime();
-    setIdx(Math.max(0, Math.min(qs.length - 1, i)));
-  }
-
   async function start() {
     setError(null);
-    const res = await fetch("/api/section/start", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ section: "LR", n, durationSec }) });
+    const res = await fetch("/api/section/start", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ section: kind, n, durationSec }) });
     if (!res.ok) {
       const j = await res.json().catch(() => ({}));
       setError(j.error ?? `Could not start (${res.status})`);
       return;
     }
-    const data = (await res.json()) as { sessionId: string; questions: Q[] };
+    const data = (await res.json()) as { sessionId: string; questions: Q[]; passages?: SecPassage[] };
     setSessionId(data.sessionId);
     setQs(data.questions);
-    setAnswers(Object.fromEntries(data.questions.map((q) => [q.id, blank()])));
-    setIdx(0);
-    startedAt.current = Date.now();
-    enteredAt.current = Date.now();
-    setRemaining(durationSec);
+    setPassages(data.passages ?? []);
     setPhase("running");
   }
 
-  async function submit(auto = false) {
-    if (phase !== "running") return;
-    if (!auto) {
-      const unanswered = qs.filter((q) => !answers[q.id]?.answer).length;
-      if (unanswered > 0 && !confirm(`${unanswered} unanswered. Submit anyway? (Blanks score zero — guess first.)`)) return;
-    }
-    commitTime();
+  async function onSectionSubmit(secAnswers: SecAnswer[], elapsed: number) {
     setPhase("submitting");
-    const payload = qs.map((q) => {
-      const a = answers[q.id] ?? blank();
-      return { questionId: q.id, answer: a.answer, seconds: Math.round(a.seconds * 10) / 10, flagged: a.flagged, changedFrom: a.changedFrom };
-    });
-    // include the time on the current question
-    const curA = answers[cur?.id ?? ""];
-    if (cur && curA) payload[idx].seconds = Math.round((curA.seconds + (Date.now() - enteredAt.current) / 1000) * 10) / 10;
-    const elapsed = Math.floor((Date.now() - startedAt.current) / 1000);
-    const res = await fetch("/api/section/submit", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ sessionId, answers: payload, elapsedSec: elapsed }) });
-    const data = (await res.json()) as { timedRaw: number; toReview: string[]; reviewQuestions: Q[] };
+    const map: Record<string, Answer> = {};
+    for (const a of secAnswers) map[a.questionId] = { answer: a.answer, seconds: a.seconds, flagged: a.flagged, changedFrom: a.changedFrom, eliminated: [] };
+    setAnswers(map);
+    const res = await fetch("/api/section/submit", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ sessionId, answers: secAnswers, elapsedSec: elapsed }) });
+    const data = (await res.json()) as { timedRaw: number; toReview: string[]; reviewQuestions: Q[]; reviewPassages: SecPassage[] };
     setTimedRaw(data.timedRaw);
     setReviewQs(data.reviewQuestions);
-    setBrAnswers(Object.fromEntries(data.reviewQuestions.map((q) => [q.id, answers[q.id]?.answer ?? ""]).filter(([, v]) => v)));
+    setReviewPs(data.reviewPassages ?? []);
+    setBrAnswers(Object.fromEntries(data.reviewQuestions.map((q) => [q.id, map[q.id]?.answer ?? ""]).filter(([, v]) => v)));
     setBrIdx(0);
     setPhase(data.reviewQuestions.length ? "br" : "results");
     if (!data.reviewQuestions.length) await finishBr({});
@@ -130,9 +87,9 @@ export function SectionRunner({ bankCount }: { bankCount: number }) {
   if (phase === "setup") {
     return (
       <Card>
-        <CardTitle>Timed LR section</CardTitle>
+        <CardTitle>Timed {kind === "RC" ? "RC" : "LR"} section</CardTitle>
         <CardDescription>
-          {n} questions assembled to the real test&apos;s type mix and difficulty curve. Flag anything you&apos;re not certain of — after you submit, flagged and blank questions reopen untimed for blind review before you see a single answer.
+          {kind === "RC" ? "Four passages (one comparative when available), 26–28 questions, in test order." : `${n} questions assembled to the real test\u2019s type mix and difficulty curve.`} Flag anything you&apos;re not certain of — after you submit, flagged and blank questions reopen untimed for blind review before you see a single answer.
         </CardDescription>
         <div className="mt-5 grid gap-4 sm:grid-cols-2">
           <div>
@@ -148,13 +105,13 @@ export function SectionRunner({ bankCount }: { bankCount: number }) {
           <div>
             <p className="mb-1.5 text-sm font-medium text-ink-2">Length</p>
             <div className="flex gap-2">
-              {[24, 25, 26].map((k) => (
+              {(kind === "RC" ? [] : [24, 25, 26]).map((k) => (
                 <button key={k} type="button" onClick={() => setN(k)} className={cn("focus-ring h-10 flex-1 rounded-[var(--radius)] border text-sm", n === k ? "border-accent bg-accent-soft" : "border-line")}>
                   {k}
                 </button>
               ))}
             </div>
-            <p className="mt-3 text-xs text-ink-3">{bankCount} questions in the bank. Each section avoids anything you&apos;ve seen in the last 60 days.</p>
+            <p className="mt-3 text-xs text-ink-3">{bankCount} {kind === "RC" ? "passages" : "questions"} in the bank. Each section avoids anything you&apos;ve seen in the last 60 days.</p>
           </div>
         </div>
         {error && (
@@ -173,125 +130,8 @@ export function SectionRunner({ bankCount }: { bankCount: number }) {
   }
 
   /* ---------------- running ---------------- */
-  if (phase === "running" && cur) {
-    const a = answers[cur.id] ?? blank();
-    const mm = Math.floor(remaining / 60);
-    const ss = String(remaining % 60).padStart(2, "0");
-    const lastFive = remaining <= 300;
-    return (
-      <div className="-mx-4 -mt-6 flex min-h-dvh flex-col bg-bg-elev md:-mx-8" data-testid="section-shell">
-        {/* Top bar */}
-        <div className="flex items-center justify-between border-b border-line bg-bg-sunken px-4 py-2 text-sm">
-          <div className="flex items-center gap-3">
-            <span className="font-semibold">Section 1 · Logical Reasoning</span>
-            <span className="text-ink-3">
-              Question {idx + 1} of {qs.length}
-            </span>
-          </div>
-          <div className="flex items-center gap-2">
-            <button type="button" onClick={() => !lastFive && setHideTimer((h) => !h)} className="focus-ring inline-flex items-center gap-1 rounded-md px-2 py-1 text-ink-2 hover:bg-bg-elev" aria-label={hideTimer ? "Show timer" : "Hide timer"} title={lastFive ? "Timer can't be hidden in the last 5 minutes" : ""}>
-              {hideTimer && !lastFive ? <EyeOff className="h-4 w-4" /> : <Eye className="h-4 w-4" />}
-            </button>
-            <span className={cn("font-mono tabular-nums", lastFive && "font-semibold text-bad")} aria-live={lastFive ? "polite" : "off"} data-testid="timer">
-              {hideTimer && !lastFive ? "––:––" : `${mm}:${ss}`}
-            </span>
-          </div>
-        </div>
-
-        {/* Body */}
-        <div className="grid flex-1 gap-0 lg:grid-cols-2">
-          <div className="border-b border-line p-5 lg:border-b-0 lg:border-r">
-            <p className="lsat-text whitespace-pre-line">{cur.stimulus}</p>
-          </div>
-          <div className="p-5">
-            <p className="lsat-text font-medium">{cur.stem}</p>
-            <ol className="mt-4 space-y-2" aria-label="Answer choices">
-              {LETTERS.map((l) => {
-                const sel = a.answer === l;
-                const struck = a.eliminated.includes(l);
-                return (
-                  <li key={l} className="flex items-stretch gap-2">
-                    <button
-                      type="button"
-                      onClick={() =>
-                        setAnswers((prev) => {
-                          const p = prev[cur.id] ?? blank();
-                          const changedFrom = p.answer && p.answer !== l ? (p.changedFrom ?? p.answer) : p.changedFrom;
-                          return { ...prev, [cur.id]: { ...p, answer: l, changedFrom, eliminated: p.eliminated.filter((x) => x !== l) } };
-                        })
-                      }
-                      aria-pressed={sel}
-                      className={cn("focus-ring flex flex-1 items-start gap-3 rounded-md border px-3 py-2.5 text-left", sel ? "border-ink bg-bg-sunken" : "border-line hover:border-line-strong", struck && "line-through opacity-50")}
-                    >
-                      <span className={cn("mt-0.5 inline-flex h-6 w-6 shrink-0 items-center justify-center rounded-full border text-xs font-semibold", sel ? "border-ink bg-ink text-bg" : "border-line-strong")}>{l}</span>
-                      <span className="lsat-text text-[15px]">{cur.choices?.[l]}</span>
-                    </button>
-                    <button
-                      type="button"
-                      onClick={() => setAnswers((prev) => { const p = prev[cur.id] ?? blank(); return { ...prev, [cur.id]: { ...p, eliminated: struck ? p.eliminated.filter((x) => x !== l) : [...p.eliminated, l] } }; })}
-                      className="focus-ring w-7 shrink-0 rounded-md text-xs text-ink-3 hover:bg-bg-sunken"
-                      aria-label={`${struck ? "Restore" : "Eliminate"} ${l}`}
-                    >
-                      ✕
-                    </button>
-                  </li>
-                );
-              })}
-            </ol>
-            <div className="mt-4 flex items-center gap-2">
-              <Button variant={a.flagged ? "secondary" : "outline"} size="sm" onClick={() => setAnswers((prev) => ({ ...prev, [cur.id]: { ...(prev[cur.id] ?? blank()), flagged: !(prev[cur.id]?.flagged ?? false) } }))} aria-pressed={a.flagged}>
-                <Flag className={cn("h-4 w-4", a.flagged && "fill-current")} /> {a.flagged ? "Flagged for review" : "Flag for review"}
-              </Button>
-              {a.answer && (
-                <Button variant="ghost" size="sm" onClick={() => setAnswers((prev) => ({ ...prev, [cur.id]: { ...(prev[cur.id] ?? blank()), answer: null } }))}>
-                  Reset response
-                </Button>
-              )}
-            </div>
-          </div>
-        </div>
-
-        {/* Bottom bar: question navigator */}
-        <div className="sticky bottom-0 border-t border-line bg-bg-sunken px-3 py-2" style={{ paddingBottom: "calc(0.5rem + env(safe-area-inset-bottom))" }}>
-          <div className="flex items-center gap-2">
-            <Button variant="ghost" size="icon" onClick={() => go(idx - 1)} disabled={idx === 0} aria-label="Previous question">
-              <ChevronLeft />
-            </Button>
-            <ol className="flex flex-1 flex-wrap justify-center gap-1" aria-label="Question navigator">
-              {qs.map((q, i) => {
-                const qa = answers[q.id];
-                return (
-                  <li key={q.id}>
-                    <button
-                      type="button"
-                      onClick={() => go(i)}
-                      aria-label={`Question ${i + 1}${qa?.answer ? ", answered" : ""}${qa?.flagged ? ", flagged" : ""}`}
-                      aria-current={i === idx ? "true" : undefined}
-                      className={cn(
-                        "focus-ring relative h-7 w-7 rounded text-[11px] font-medium tabular-nums",
-                        i === idx ? "bg-ink text-bg" : qa?.answer ? "bg-line text-ink" : "border border-line text-ink-3",
-                      )}
-                    >
-                      {i + 1}
-                      {qa?.flagged && <span className="absolute -right-0.5 -top-0.5 h-2 w-2 rounded-full bg-accent" aria-hidden />}
-                    </button>
-                  </li>
-                );
-              })}
-            </ol>
-            {idx < qs.length - 1 ? (
-              <Button size="sm" onClick={() => go(idx + 1)}>
-                Next <ChevronRight className="h-4 w-4" />
-              </Button>
-            ) : (
-              <Button size="sm" onClick={() => submit(false)}>
-                Submit section
-              </Button>
-            )}
-          </div>
-        </div>
-      </div>
-    );
+  if (phase === "running" && qs.length) {
+    return <LawHubSection title={kind === "RC" ? "Reading Comprehension" : "Logical Reasoning"} sectionLabel={`Section 1 · ${kind === "RC" ? "Reading Comprehension" : "Logical Reasoning"}`} questions={qs} passages={passages} durationSec={durationSec} onSubmit={onSectionSubmit} />;
   }
 
   if (phase === "submitting") return <p className="text-ink-2">Scoring…</p>;
@@ -315,6 +155,17 @@ export function SectionRunner({ bankCount }: { bankCount: number }) {
         </Card>
         {q && (
           <Card>
+            {q.passageId && reviewPs.find((p) => p.id === q.passageId) && (
+              <details className="mb-3 rounded-md border border-line p-3" open data-testid="passage-pane">
+                <summary className="cursor-pointer text-sm font-medium">{reviewPs.find((p) => p.id === q.passageId)!.title}</summary>
+                {reviewPs.find((p) => p.id === q.passageId)!.paragraphs.map((x, i) => (
+                  <p key={i} className="lsat-text mt-2 text-[15px]">{x}</p>
+                ))}
+                {reviewPs.find((p) => p.id === q.passageId)!.paragraphsB?.map((x, i) => (
+                  <p key={`b${i}`} className="lsat-text mt-2 text-[15px]">{i === 0 ? <span className="mr-2 text-[11px] font-semibold uppercase text-ink-3">Passage B</span> : null}{x}</p>
+                ))}
+              </details>
+            )}
             <div className="mb-2 flex items-center gap-2 text-xs text-ink-3">
               <Badge>{typeLabel(q.type)}</Badge>
               <span>
@@ -322,7 +173,7 @@ export function SectionRunner({ bankCount }: { bankCount: number }) {
               </span>
               <span>· timed answer: {answers[q.id]?.answer ?? "blank"}</span>
             </div>
-            <p className="lsat-text whitespace-pre-line">{q.stimulus}</p>
+            {q.stimulus && <p className="lsat-text whitespace-pre-line">{q.stimulus}</p>}
             <p className="lsat-text mt-4 font-medium">{q.stem}</p>
             <ol className="mt-3 space-y-2" aria-label="Answer choices">
               {LETTERS.map((l) => (
@@ -487,8 +338,3 @@ function Stat({ label, value, sub }: { label: string; value: string; sub: string
     </Card>
   );
 }
-
-function blank(): Answer {
-  return { answer: null, seconds: 0, flagged: false, changedFrom: null, eliminated: [] };
-}
-

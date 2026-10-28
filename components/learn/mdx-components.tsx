@@ -6,6 +6,7 @@ import { CausalModel } from "@/components/diagrams/causal-model";
 import { TrapCatalog } from "@/components/diagrams/trap-catalog";
 import { AttackMap } from "@/components/diagrams/attack-map";
 import { TagSpotter } from "@/components/diagrams/tag-spotter";
+import { PassageMap } from "@/components/diagrams/passage-map";
 import { Callout, Example, KeyIdea, Steps } from "./blocks";
 
 export const mdxComponents: MDXComponents = {
@@ -16,6 +17,7 @@ export const mdxComponents: MDXComponents = {
   TrapCatalog,
   AttackMap,
   TagSpotter,
+  PassageMap,
   Callout,
   Example,
   KeyIdea,
