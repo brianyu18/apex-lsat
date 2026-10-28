@@ -1,0 +1,175 @@
+{
+  "id": "rc-linguistics-evidential-contact",
+  "style": "single_position",
+  "topic": "social_science",
+  "comparative": false,
+  "title": "Evidentiality in the Kelamar Basin",
+  "paragraphs": [
+    "Many languages require speakers to indicate grammatically how they know what they assert: whether they witnessed an event, inferred it from evidence, or learned of it from someone else. Linguists call this feature evidentiality, and among its most discussed instances is the three-way system shared by the languages of the Kelamar river basin, in which every finite verb must carry a marker for direct witness, inference, or report. Since the reconstruction proposed by Aurelio Marchetti in the 1960s, the standard view has been that this system is an inheritance: the basin languages descend from a single ancestor, Proto-Kelamaric, which already possessed the three categories, and each daughter language preserved them with the conservatism that grammatical morphology is widely assumed to display.",
+    "I want to suggest that the evidence points instead to diffusion through prolonged contact. The decisive consideration is that the forms expressing evidentiality are not cognate across the basin. In the Tessu languages the inferential marker descends transparently from a verb meaning “to see tracks”; in the Oru-Kelamar group it derives from a quotative particle; in the Vandi languages it is a reduced form of an adjective meaning “apparent.” Each language, that is, built its evidentials from its own native material, while the categories themselves—their number, their boundaries, their obligatory status—are identical. This is precisely the signature that students of language contact have learned to associate with what they term pattern borrowing: a community adopts a neighboring grammar’s distinctions and then expresses them with morphemes it already has. Inherited categories, by contrast, tend to keep their inherited forms.",
+    "The geographic distribution of the system confirms this reading. The three-way evidential system appears in languages belonging to three families whose membership in the basin is their only established link, and it is absent in the relatives of those same languages spoken elsewhere. The Oru languages of the coast, which are closely related to Oru-Kelamar, mark no evidential distinctions at all, and neither do the highland Vandi dialects. Within the basin, moreover, the system is most elaborate in the dialect of Tessu spoken at the confluence where the region’s three trade routes historically met, and least elaborate at the basin’s margins. An inherited feature has no reason to concentrate at a marketplace; a diffused one has every reason to do so.",
+    "Marchetti’s defenders reply that the absence of evidentials outside the basin could reflect independent loss in each family rather than absence in the ancestor, and that possibility cannot be excluded. Yet three parallel losses are a less parsimonious hypothesis than one episode of spread, and the semantic details tell against it: in every basin language, and in none of the outside relatives, the inferential marker doubles as an expression of surprise at newly discovered information, a secondary use too idiosyncratic to have arisen three times. If this is right, the Kelamar case suggests that obligatory grammatical categories, far from being the layer of language most resistant to borrowing, may under the right social conditions be among the most readily transmitted."
+  ],
+  "roleMap": {
+    "paragraphs": ["context", "main_point", "support", "concession"],
+    "viewpoints": [
+      { "who": "Aurelio Marchetti and the standard view", "position": "The shared evidential system is inherited from Proto-Kelamaric", "authorAgrees": false },
+      { "who": "Marchetti’s defenders", "position": "Absence of evidentials outside the basin could reflect independent loss", "authorAgrees": false },
+      { "who": "Author", "position": "The system diffused through contact, as shown by non-cognate forms, geographic distribution, and shared idiosyncratic semantics", "authorAgrees": true }
+    ],
+    "tone": "confident advocacy with measured concession"
+  },
+  "lowResSummary": "Author argues the Kelamar basin’s shared evidential system spread by contact rather than inheritance, citing non-cognate forms, distribution, and semantic detail.",
+  "questions": [
+    {
+      "id": "rc-linguistics-evidential-contact-q1",
+      "type": "main_point",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately expresses the main point of the passage?",
+      "choices": {
+        "A": "The three-way evidential system of the Kelamar basin languages is better explained as the product of contact-induced diffusion than as an inheritance from a common ancestor.",
+        "B": "Marchetti’s reconstruction of Proto-Kelamaric failed because it assumed that grammatical morphology is the most conservative layer of language.",
+        "C": "Because the evidential markers of the Kelamar basin languages are not cognate, those languages cannot descend from a single ancestor.",
+        "D": "Linguists should treat the geographic concentration of a grammatical feature at trade centers as proof that the feature was borrowed.",
+        "E": "The Kelamar basin languages show that obligatory grammatical categories are the features of language most readily transmitted through contact."
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. Paragraph 2 opens with the thesis (“the evidence points instead to diffusion through prolonged contact”), and paragraphs 3 and 4 defend it.",
+        "B": "The passage disputes Marchetti’s conclusion, not the quality of his reconstruction; and the assumption about morphology is attributed to linguists generally, not identified as the cause of his error.",
+        "C": "The author never denies that the languages might be related; the argument concerns whether the evidential system in particular is inherited. Paragraph 3 even calls the basin their “only established link,” leaving relatedness open.",
+        "D": "“Proof” overstates a supporting consideration from paragraph 3, and the passage advances no general methodological rule.",
+        "E": "The final sentence says such categories “may under the right social conditions be among the most readily transmitted”; E drops the hedges and turns an implication into the thesis."
+      },
+      "trapPatterns": { "B": "shell_game", "C": "extreme", "D": "extreme", "E": "wrong_part" },
+      "keyTakeaway": "In a single_position passage the main point is the thesis sentence; closing implications (“if this is right…”) are consequences, not the point.",
+      "evidence": [1, 3]
+    },
+    {
+      "id": "rc-linguistics-evidential-contact-q2",
+      "type": "stated",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "According to the passage, the evidential markers found in the languages of the Kelamar basin",
+      "choices": {
+        "A": "are attached only to verbs describing events the speaker witnessed directly",
+        "B": "descend in every case from verbs of perception",
+        "C": "were first documented by Marchetti in the 1960s",
+        "D": "are optional in the dialects spoken at the basin’s margins",
+        "E": "express the same categories but derive from different source morphemes in different languages"
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "The markers appear on “every finite verb” and distinguish witness from inference and report; they are not limited to witnessed events.",
+        "B": "Only the Tessu marker derives from a perception verb; Oru-Kelamar’s derives from a quotative particle and Vandi’s from an adjective.",
+        "C": "Marchetti proposed a reconstruction; the passage does not say he first documented the markers.",
+        "D": "Paragraph 3 says the system is “least elaborate” at the margins, not optional; paragraph 1 says the marking is obligatory.",
+        "E": "Correct. Paragraph 2: the forms “are not cognate,” yet “the categories themselves… are identical.”"
+      },
+      "trapPatterns": { "A": "half_right", "B": "extreme", "C": "shell_game", "D": "shell_game" },
+      "keyTakeaway": "When a stated answer summarizes a contrast (“same categories, different forms”), check that both halves are in the text.",
+      "evidence": [1]
+    },
+    {
+      "id": "rc-linguistics-evidential-contact-q3",
+      "type": "purpose_in_context",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The author mentions the Oru languages of the coast primarily in order to",
+      "choices": {
+        "A": "illustrate how a quotative particle can develop into an evidential marker",
+        "B": "show that evidential systems are rare outside river basins",
+        "C": "support the claim that relatives of basin languages spoken outside the basin lack the evidential system",
+        "D": "concede that some languages closely related to basin languages may have lost evidential marking independently",
+        "E": "demonstrate that the Oru-Kelamar group is more closely related to coastal languages than to other basin languages"
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "The quotative derivation is mentioned for Oru-Kelamar in paragraph 2, not for the coastal Oru languages, which have no evidentials.",
+        "B": "The passage makes no claim about the frequency of evidentials in the world’s languages.",
+        "C": "Correct. The sentence immediately follows the claim that the system “is absent in the relatives of those same languages spoken elsewhere” and gives the Oru languages as the instance.",
+        "D": "The independent-loss possibility is raised by Marchetti’s defenders in paragraph 4; the Oru example in paragraph 3 is offered as positive support, not as a concession.",
+        "E": "The passage says only that the coastal Oru are “closely related” to Oru-Kelamar; it does not compare degrees of relatedness."
+      },
+      "trapPatterns": { "A": "wrong_part", "B": "out_of_scope", "D": "wrong_part", "E": "comparison_shift" },
+      "keyTakeaway": "An example usually serves the general sentence that precedes it; find that sentence before reading the choices.",
+      "evidence": [2]
+    },
+    {
+      "id": "rc-linguistics-evidential-contact-q4",
+      "type": "meaning_in_context",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately expresses the meaning of “native material” as it is used in the passage?",
+      "choices": {
+        "A": "vocabulary that has no counterpart in neighboring languages",
+        "B": "linguistic elements already present in a language before it adopted the new categories",
+        "C": "words referring to perception, speech, and appearance",
+        "D": "morphemes that are cognate with those of a language’s closest relatives",
+        "E": "the forms reconstructed for a language’s most recent common ancestor"
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "Nothing requires the material to be unique to the language; the contrast is with borrowed forms, not with forms that happen to have counterparts elsewhere.",
+        "B": "Correct. The phrase is glossed in the next sentences: a community “expresses them with morphemes it already has.”",
+        "C": "These are the particular sources in the three examples, not the meaning of the term, which is defined by origin (already possessed) rather than by semantic field.",
+        "D": "Cognacy with relatives is neither required nor implied; the point is that the forms were internal to each language, whatever their deeper history.",
+        "E": "This describes inherited forms, which the passage contrasts with native material used to express borrowed patterns."
+      },
+      "trapPatterns": { "A": "extreme", "C": "shell_game", "D": "out_of_scope", "E": "opposite" },
+      "keyTakeaway": "Meaning-in-context keys are usually paraphrased by the author within a sentence or two of the phrase.",
+      "evidence": [1]
+    },
+    {
+      "id": "rc-linguistics-evidential-contact-q5",
+      "type": "author_perspective",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "The passage most strongly suggests that the author would agree with which one of the following statements?",
+      "choices": {
+        "A": "A grammatical feature that is inherited from a common ancestor will be preserved in every descendant language.",
+        "B": "Marchetti’s defenders have offered no coherent alternative to the diffusion hypothesis.",
+        "C": "The basin languages must have borrowed their evidential categories from the Tessu dialect spoken at the confluence.",
+        "D": "The widespread assumption that grammatical morphology resists borrowing is not reliable in every social setting.",
+        "E": "Pattern borrowing occurs only among languages that are not genetically related."
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "The author concedes in paragraph 4 that independent loss “cannot be excluded,” so inherited features need not be preserved everywhere.",
+        "B": "The author calls the defenders’ alternative possible but less parsimonious; “no coherent alternative” overstates the critique.",
+        "C": "The confluence dialect has the most elaborate system, which fits diffusion, but the passage never identifies it as the source; “must have” is unsupported.",
+        "D": "Correct. Paragraph 1 notes the assumption that morphology is conservative; paragraph 4 concludes such categories “may under the right social conditions be among the most readily transmitted.”",
+        "E": "The passage defines pattern borrowing without restricting it to unrelated languages, and the relatedness of the basin families is left open."
+      },
+      "trapPatterns": { "A": "extreme", "B": "extreme", "C": "extreme", "E": "out_of_scope" },
+      "keyTakeaway": "The hedged final sentence of a single_position passage is the safest source for an inference key; the traps here all remove hedges.",
+      "evidence": [0, 3]
+    },
+    {
+      "id": "rc-linguistics-evidential-contact-q6",
+      "type": "weaken_strengthen_evaluate",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "Which one of the following, if true, would most weaken the author’s argument?",
+      "choices": {
+        "A": "Archaic poetic registers of the coastal Oru languages and the highland Vandi dialects preserve obligatory markers for witness, inference, and report, the inferential marker also expressing surprise.",
+        "B": "Several languages outside the Kelamar basin have developed evidential markers from verbs meaning “to see tracks.”",
+        "C": "Trade at the Tessu confluence declined sharply two centuries before the earliest written records of the basin languages.",
+        "D": "The Tessu, Oru-Kelamar, and Vandi families have been shown to share a small number of cognate kinship terms.",
+        "E": "Some speakers at the basin’s margins use the inferential marker inconsistently in casual speech."
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. The argument’s two strongest supports are that outside relatives lack the system and that the inferential-surprise doubling is too idiosyncratic to arise repeatedly. Traces of the full system, including that doubling, in outside relatives are exactly what inheritance plus later loss predicts.",
+        "B": "An independent parallel elsewhere shows such a development is possible but says nothing about whether the basin’s system is inherited; it does not touch the non-cognacy or distribution evidence.",
+        "C": "The elaborateness at the confluence is one supporting detail; an earlier decline in trade is compatible with earlier diffusion and does not undercut the main lines of evidence.",
+        "D": "The author never denies that the families may be related; shared kinship terms leave the question of the evidential system untouched.",
+        "E": "Inconsistency at the margins is consistent with the passage’s own observation that the system is “least elaborate” there."
+      },
+      "trapPatterns": { "B": "true_but_irrelevant", "C": "wrong_part", "D": "shell_game", "E": "premise_booster" },
+      "keyTakeaway": "The strongest weakener supplies what the rejected hypothesis predicts and the author said was missing; D tempts readers who conflate relatedness of languages with inheritance of a feature.",
+      "evidence": [2, 3]
+    }
+  ]
+}

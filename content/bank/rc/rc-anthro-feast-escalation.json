@@ -1,0 +1,175 @@
+{
+  "id": "rc-anthro-feast-escalation",
+  "style": "phenomenon_hypothesis",
+  "topic": "social_science",
+  "comparative": false,
+  "title": "Escalating Feasts in the Marawe Archipelago",
+  "paragraphs": [
+    "Competitive feasting, in which a host distributes or ostentatiously destroys quantities of food and valuables in order to obligate or humble rivals, is documented across the islands of the Marawe archipelago from the earliest European accounts onward. What distinguishes the Marawe case is the trajectory of the practice. Oral genealogies and the stratified refuse deposits excavated by Imogen Sylvan agree that for several centuries feasts were modest affairs, involving a few dozen pigs and the produce of a single lineage. Beginning roughly two centuries before contact, however, they grew with astonishing speed, until a prominent host might slaughter a thousand pigs, exhaust the yam stores of an entire district, and leave his own dependents hungry through the following season. Why a practice that had been stable for so long should escalate so suddenly, and so ruinously, is the question that has divided students of the region.",
+    "The older explanation, formulated by Patrick Doyle, treats the feast as an ecological device. In an environment where typhoons and drought strike districts unevenly, Doyle argued, a system in which a lineage with surplus feeds its neighbors, and is fed in turn when fortune reverses, functions as insurance; the rivalry is merely the motivational engine of a redistributive machine. On this “buffer hypothesis,” escalation follows from population growth: more mouths produce larger surpluses in good years and larger shortfalls in bad ones, so the volume passing through the buffer rises accordingly. The account has the appeal of explaining a seemingly irrational practice as adaptive, and it fits the observation that feasting networks linked districts with different exposure to storms.",
+    "Lotte Achterberg has countered that the buffer hypothesis cannot account for destruction, which redistributes nothing, nor for the fact that the most lavish hosts were often those who had just absorbed a weaker lineage and needed to advertise the fact. She reads the feast instead as a costly signal of a lineage’s capacity to mobilize labor and allies, credible precisely because it is wasteful. Escalation, in her view, is a matter of inflation: when European traders introduced iron tools, clearing land for yam gardens became far cheaper, and a feast of the old size no longer demonstrated much of anything. Hosts were obliged to give more in order to signal the same thing, and rivals matched them, in a spiral no participant could unilaterally stop.",
+    "Sylvan’s excavations seem to me to settle the matter, at least as regards escalation. The refuse layers show that feast size began to climb within a generation of the first appearance of iron in the archipelago, whereas the pollen and sediment records indicate no change in the frequency of storms or droughts, and the demographic estimates derived from house-site counts show population rising steadily for centuries before any escalation occurred. Doyle’s hypothesis may still describe the function feasting served during its long stable phase; a redistributive network need not be anyone’s intention in order to exist. But the suddenness of the change, and its timing, point to a shift in the cost of signaling rather than in the demands of subsistence. Achterberg’s account explains the departure; Doyle’s, at most, the baseline from which it departed."
+  ],
+  "roleMap": {
+    "paragraphs": ["context", "counterpoint", "counterpoint", "main_point"],
+    "viewpoints": [
+      { "who": "Patrick Doyle (buffer hypothesis)", "position": "Feasting is an ecological insurance mechanism; escalation tracks population growth", "authorAgrees": false },
+      { "who": "Lotte Achterberg (signaling account)", "position": "Feasting is a costly signal; escalation is inflation caused by cheaper production after iron tools arrived", "authorAgrees": true },
+      { "who": "Author", "position": "Archaeological timing supports Achterberg on escalation, though Doyle may describe the function of the earlier stable phase", "authorAgrees": true }
+    ],
+    "tone": "judicious, decisive on the central question"
+  },
+  "lowResSummary": "Author uses archaeological timing to favor a signaling-inflation account of feast escalation over an ecological one, while granting the latter may explain the baseline.",
+  "questions": [
+    {
+      "id": "rc-anthro-feast-escalation-q1",
+      "type": "main_point",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately expresses the main point of the passage?",
+      "choices": {
+        "A": "Competitive feasting in the Marawe archipelago was an adaptive redistributive mechanism that became maladaptive once population outgrew the islands’ resources.",
+        "B": "Sylvan’s excavations demonstrate that European contact, rather than any indigenous practice, was responsible for the ruinous feasts of the Marawe archipelago.",
+        "C": "Because destruction redistributes nothing, the buffer hypothesis cannot explain any aspect of Marawe feasting.",
+        "D": "Archaeological evidence favors the view that Marawe feasting escalated because cheaper production inflated the cost of signaling, though an ecological account may describe its earlier function.",
+        "E": "Scholars of the Marawe archipelago disagree about whether competitive feasting should be understood as an ecological or a political institution."
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "This is Doyle’s view, which the author rejects as an account of escalation; the passage never calls the practice maladaptive.",
+        "B": "The author credits iron tools with changing the cost of signaling, but the feasts remained an indigenous institution; B shifts the claim from mechanism to blame.",
+        "C": "“Any aspect” contradicts the final paragraph, which says Doyle’s hypothesis “may still describe the function feasting served during its long stable phase.”",
+        "D": "Correct. Paragraph 4: the timing points to “a shift in the cost of signaling”; “Achterberg’s account explains the departure; Doyle’s, at most, the baseline.”",
+        "E": "This describes the disagreement set up in paragraph 1, not the author’s resolution of it."
+      },
+      "trapPatterns": { "A": "wrong_part", "B": "shell_game", "C": "extreme", "E": "wrong_part" },
+      "keyTakeaway": "A main point that resolves a debate must carry both the verdict and its scope limit (“at least as regards escalation”).",
+      "evidence": [3]
+    },
+    {
+      "id": "rc-anthro-feast-escalation-q2",
+      "type": "stated",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "According to the passage, Achterberg objects to the buffer hypothesis on the grounds that it cannot account for",
+      "choices": {
+        "A": "the long period during which feasts remained modest",
+        "B": "the steady rise in population before escalation began",
+        "C": "the linking of districts with different exposure to storms",
+        "D": "the timing of escalation relative to the arrival of iron tools",
+        "E": "the deliberate destruction of food and valuables at feasts"
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "The stable phase is a feature the author later allows Doyle’s hypothesis might explain; Achterberg’s objection is not about it.",
+        "B": "The demographic record is cited by the author in paragraph 4, not by Achterberg in paragraph 3.",
+        "C": "This observation is listed as something the buffer hypothesis fits, not something it fails to explain.",
+        "D": "The timing evidence belongs to Sylvan’s excavations in paragraph 4; Achterberg’s own objections are destruction and the behavior of hosts who had absorbed weaker lineages.",
+        "E": "Correct. Paragraph 3: the buffer hypothesis “cannot account for destruction, which redistributes nothing.”"
+      },
+      "trapPatterns": { "A": "wrong_part", "B": "wrong_part", "C": "opposite", "D": "wrong_part" },
+      "keyTakeaway": "When several parties criticize the same view, a stated question will specify whose objection is wanted; match the paragraph.",
+      "evidence": [2]
+    },
+    {
+      "id": "rc-anthro-feast-escalation-q3",
+      "type": "purpose_in_context",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The author mentions pollen and sediment records primarily in order to",
+      "choices": {
+        "A": "rule out a change in environmental conditions as the trigger for escalation",
+        "B": "establish the date at which iron tools first appeared in the archipelago",
+        "C": "show that feasting networks did not in fact link districts with different storm exposure",
+        "D": "support Doyle’s claim that typhoons and drought struck districts unevenly",
+        "E": "demonstrate that Sylvan’s refuse deposits were accurately dated"
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. The records “indicate no change in the frequency of storms or droughts,” which eliminates an environmental shift as the cause of the sudden escalation.",
+        "B": "The date of iron’s appearance is established by the refuse layers, not by the pollen and sediment records.",
+        "C": "The author does not dispute that networks linked such districts; the records concern frequency over time, not geography.",
+        "D": "Uneven exposure is Doyle’s premise and is not what the records are cited for; they address whether conditions changed when feasts escalated.",
+        "E": "Nothing suggests the records were used to check dating; they are independent lines of evidence about climate and population."
+      },
+      "trapPatterns": { "B": "shell_game", "C": "out_of_scope", "D": "wrong_part", "E": "out_of_scope" },
+      "keyTakeaway": "In a verdict paragraph, each piece of evidence typically eliminates one rival prediction; identify which prediction this one targets.",
+      "evidence": [3]
+    },
+    {
+      "id": "rc-anthro-feast-escalation-q4",
+      "type": "analogy",
+      "logicTags": ["analogy"],
+      "difficulty": 3,
+      "stem": "Which one of the following is most analogous to the process by which, according to Achterberg, Marawe feasts escalated?",
+      "choices": {
+        "A": "A city expands its reservoir system as its population grows, so that the volume of water stored rises in proportion to demand.",
+        "B": "After a printing innovation makes elaborate invitations inexpensive, families competing for social standing must send ever more lavish invitations to make the same impression.",
+        "C": "A firm that has acquired a smaller competitor increases its advertising budget in order to announce its new market position.",
+        "D": "Farmers in a flood-prone valley pool their harvests each year so that those whose fields are inundated can be fed by those whose fields are spared.",
+        "E": "A government responds to a sudden crop failure by distributing emergency grain reserves to the hardest-hit districts."
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "This is Doyle’s escalation mechanism: volume rising with population, not a signaling spiral triggered by cheaper production.",
+        "B": "Correct. Achterberg’s mechanism has three parts: a costly signal, an innovation that lowers its cost, and a competitive spiral to restore the signal’s meaning. B contains all three.",
+        "C": "This matches Achterberg’s observation about hosts who absorbed weaker lineages, but it describes a single signal, not the inflationary process that escalated feast size over time.",
+        "D": "This is the buffer hypothesis’s redistributive insurance, with no competition or escalation.",
+        "E": "A one-time response to a crisis involves neither signaling nor an ongoing spiral."
+      },
+      "trapPatterns": { "A": "wrong_part", "C": "half_right", "D": "wrong_part", "E": "out_of_scope" },
+      "keyTakeaway": "Analogy questions test the abstract mechanism; map each component (signal, cost drop, spiral) before checking choices. C is the trap that matches a detail but not the process.",
+      "evidence": [2]
+    },
+    {
+      "id": "rc-anthro-feast-escalation-q5",
+      "type": "author_perspective",
+      "logicTags": [],
+      "difficulty": 4,
+      "stem": "The passage most strongly suggests that the author would agree with which one of the following statements?",
+      "choices": {
+        "A": "A practice can serve an adaptive function only if the people engaged in it recognize that function.",
+        "B": "Had population growth caused escalation, feast size would have begun to climb only after iron tools made larger gardens possible.",
+        "C": "Achterberg’s signaling account explains why Marawe feasting existed before the arrival of European traders.",
+        "D": "The buffer hypothesis would have been confirmed if the pollen record had shown increasing storm frequency during the escalation.",
+        "E": "An explanation of why an institution arose need not be an explanation of why it later changed."
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "Opposite. Paragraph 4: “a redistributive network need not be anyone’s intention in order to exist.”",
+        "B": "Reversed. Under Doyle’s hypothesis escalation should track population, which rose for centuries before iron; that it did not climb then is the author’s evidence against Doyle.",
+        "C": "The author assigns Achterberg “the departure” and Doyle “the baseline”; nothing suggests signaling explains the institution’s origin.",
+        "D": "The author treats the unchanged climate record as eliminating one rival, but increasing storms would merely have been consistent with the buffer hypothesis, not confirmation; and the population timing would still count against it.",
+        "E": "Correct. The passage’s resolution rests on exactly this distinction: Doyle may describe the function of the stable phase while Achterberg explains the change."
+      },
+      "trapPatterns": { "A": "opposite", "B": "reversal", "C": "wrong_part", "D": "wrong_force" },
+      "keyTakeaway": "The hardest inference keys state the principle the author’s resolution silently relies on; here, origin versus change.",
+      "evidence": [3]
+    },
+    {
+      "id": "rc-anthro-feast-escalation-q6",
+      "type": "organization",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately describes the organization of the passage?",
+      "choices": {
+        "A": "A practice is described; a hypothesis about it is advanced; objections are raised; the hypothesis is revised to meet them.",
+        "B": "A puzzle is posed; two incompatible explanations are presented; a third explanation is proposed that supersedes both.",
+        "C": "A phenomenon is described; an explanation is offered and shown to be inadequate; a new body of evidence is introduced that leaves the question unresolved.",
+        "D": "A puzzle is posed; two explanations are presented; evidence is introduced that supports one explanation of the change while leaving the other a limited role.",
+        "E": "A phenomenon is described; the history of its study is traced; the author argues that both existing explanations should be rejected."
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "No hypothesis is revised; the author chooses between two existing accounts.",
+        "B": "No third explanation is proposed.",
+        "C": "The question is resolved “at least as regards escalation,” and the passage presents two explanations, not one.",
+        "D": "Correct. Paragraph 1 poses the puzzle, paragraphs 2–3 present the accounts, and paragraph 4 supports Achterberg on escalation while granting Doyle the baseline.",
+        "E": "Both explanations are not rejected; Doyle’s is limited, Achterberg’s endorsed."
+      },
+      "trapPatterns": { "A": "shell_game", "B": "out_of_scope", "C": "half_right", "E": "extreme" },
+      "keyTakeaway": "Organization keys track the author’s actual moves, including partial verdicts; check the final step most carefully.",
+      "evidence": [0, 1, 2, 3]
+    }
+  ]
+}

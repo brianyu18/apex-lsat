@@ -1,0 +1,261 @@
+{
+  "id": "rc-astronomy-dimming-episodes",
+  "style": "phenomenon_hypothesis",
+  "topic": "natural_science",
+  "comparative": true,
+  "title": "The Dimming of KV 2281",
+  "paragraphs": [
+    "The star catalogued as KV 2281 is, by every spectroscopic measure, an unremarkable main-sequence star slightly more massive than the Sun. What is remarkable is its light curve. Over four years of continuous photometric monitoring, the star dimmed on eleven occasions by between three and twenty-two percent, each episode lasting from two to nine days before recovering. The dips are irregular in spacing and in shape, and most are asymmetric, with a gradual decline followed by a steeper return to full brightness. Nothing in the star’s own spectrum changes during an episode: its temperature, rotation, and surface chemistry are unaffected. Whatever is dimming the star is not the star.",
+    "The most informative property of the dips is their dependence on wavelength. Each episode is deeper in blue light than in red, by a ratio that is nearly constant across episodes. An opaque body—a planet, a companion star—would block all wavelengths equally; a cloud of fine particles scatters short wavelengths preferentially. The ratio observed is consistent with grains a fraction of a micron across, the size produced when icy bodies disintegrate close to a star. The asymmetry of the dips fits the same picture: a clump of debris with a dense head and a trailing tail of dispersing material, passing across the star’s face in orbit. The one serious difficulty is that dust this close to a star should be warmed enough to glow in the infrared, and no infrared excess has been detected."
+  ],
+  "paragraphsB": [
+    "Discussions of KV 2281 have concentrated on its abrupt dips, which are striking, and have largely neglected a second feature that is in some ways more constraining. Comparison of the modern photometry with archival photographic plates reaching back ninety years shows that the star has faded steadily by roughly eleven percent over that interval, with the rate of fading apparently increasing in the last two decades. A satisfactory account must explain both the transient dips and the secular decline, and a hypothesis that explains one while remaining silent on the other has done only half its work.",
+    "Orbiting debris clumps account well for the dips but, as their proponents concede, predict an infrared glow that is not seen, and they offer no natural explanation of a century-long fade. Both difficulties diminish if the obscuring material lies not close to the star but at a great distance from it, in a slowly thickening ring of cold debris left by the disruption of a large icy body in a wide orbit. Grains at such distances would be far too cold to produce a detectable infrared excess; the gradual spreading of the ring along its orbit would dim the star progressively, and dense knots within it, passing in front of the star, would produce dips of the observed depth and asymmetry. The hypothesis is testable: a distant ring should impose a faint, periodic modulation on the fading, on a timescale of decades, which the archival record is only now becoming long enough to reveal."
+  ],
+  "roleMap": {
+    "paragraphs": [
+      "context",
+      "main_point"
+    ],
+    "viewpoints": [
+      {
+        "who": "Author of passage A",
+        "position": "The dips are caused by orbiting clumps of fine debris from disintegrating icy bodies, though the missing infrared excess is a serious difficulty",
+        "authorAgrees": null
+      },
+      {
+        "who": "Author of passage B",
+        "position": "Any account must explain both dips and secular fading; a distant, cold, slowly spreading debris ring does both and removes the infrared problem",
+        "authorAgrees": null
+      }
+    ],
+    "tone": "A: careful inference with acknowledged gap; B: corrective, constructive"
+  },
+  "lowResSummary": "Passage A infers orbiting fine dust from the dips’ color dependence but notes a missing infrared signal; passage B adds secular fading and proposes a distant cold ring.",
+  "questions": [
+    {
+      "id": "rc-astronomy-dimming-episodes-q1",
+      "type": "relationship",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately describes the relationship between the two passages?",
+      "choices": {
+        "A": "Passage B accepts the kind of obscuring material inferred in passage A but relocates it in order to resolve a difficulty passage A acknowledges and to explain an additional observation.",
+        "B": "Passage B rejects passage A’s conclusion that the dimming is caused by something other than the star itself.",
+        "C": "Passage A presents observational data without interpretation, while passage B supplies the interpretation.",
+        "D": "The two passages offer incompatible explanations of the same photometric record and appeal to different kinds of evidence.",
+        "E": "Passage A proposes a hypothesis that passage B argues cannot be tested."
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. B keeps “debris” and “knots” but places them “at a great distance,” removing the infrared problem A calls “the one serious difficulty” and explaining the fading A omits.",
+        "B": "B never disputes that the obscurer is external to the star; it builds on that conclusion.",
+        "C": "Passage A interprets extensively (grain size, debris clumps, orbit); it is not bare data.",
+        "D": "The explanations are not incompatible: B modifies A’s picture rather than replacing it, and B relies on A’s own color-dependence inference.",
+        "E": "B says its own hypothesis “is testable” and does not accuse A’s of being untestable."
+      },
+      "trapPatterns": {
+        "B": "extreme",
+        "C": "shell_game",
+        "D": "opposite",
+        "E": "out_of_scope"
+      },
+      "keyTakeaway": "Two-angle pairs often stand in a refine-and-extend relation; the key names both what B keeps and what B changes.",
+      "evidence": [
+        1
+      ]
+    },
+    {
+      "id": "rc-astronomy-dimming-episodes-q2",
+      "type": "main_point",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately expresses the main point of passage B?",
+      "choices": {
+        "A": "The archival photographic record shows that KV 2281 has faded steadily for ninety years at an accelerating rate.",
+        "B": "Hypotheses that explain the dips of KV 2281 by orbiting debris should be abandoned because they predict an infrared excess that is not observed.",
+        "C": "A distant, slowly spreading ring of cold debris can explain both the dips and the secular fading of KV 2281 while avoiding the infrared difficulty, and it makes a testable prediction.",
+        "D": "The dips of KV 2281 are less important for understanding the star than its long-term fading, which earlier researchers neglected.",
+        "E": "Because grains at great distances from a star are too cold to glow in the infrared, the absence of an infrared excess cannot rule out dust as the cause of dimming."
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "This is the observation B introduces in its first paragraph, not the conclusion drawn from it.",
+        "B": "B does not abandon debris; it relocates it. “Should be abandoned” is the opposite of B’s move.",
+        "C": "Correct. B’s second paragraph: both difficulties “diminish if the obscuring material lies… at a great distance,” and “the hypothesis is testable.”",
+        "D": "B says the fading is “in some ways more constraining” and demands an account of both; it does not rank the dips as less important for understanding the star.",
+        "E": "This is one step in B’s argument, not its main point, which is the specific hypothesis and its explanatory reach."
+      },
+      "trapPatterns": {
+        "A": "wrong_part",
+        "B": "opposite",
+        "D": "comparison_shift",
+        "E": "wrong_part"
+      },
+      "keyTakeaway": "In a comparative set, the main point question names the passage; B’s point is its proposed hypothesis, not the new datum it introduces.",
+      "evidence": [
+        1
+      ]
+    },
+    {
+      "id": "rc-astronomy-dimming-episodes-q3",
+      "type": "stated",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "According to passage A, the author infers that the material dimming KV 2281 consists of fine particles rather than an opaque body because",
+      "choices": {
+        "A": "the dips are irregularly spaced in time",
+        "B": "the star’s spectrum does not change during an episode",
+        "C": "no infrared excess has been detected",
+        "D": "the dips are deeper in blue light than in red",
+        "E": "each episode lasts between two and nine days"
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "Irregular spacing is noted but not used to distinguish particles from opaque bodies.",
+        "B": "The unchanged spectrum shows the obscurer is not the star itself, which is a different inference.",
+        "C": "The missing infrared excess is presented as a difficulty for the dust hypothesis, not as support for it.",
+        "D": "Correct. Passage A: “An opaque body… would block all wavelengths equally; a cloud of fine particles scatters short wavelengths preferentially.”",
+        "E": "Duration is reported as data and is not the basis of the particle inference."
+      },
+      "trapPatterns": {
+        "A": "wrong_part",
+        "B": "shell_game",
+        "C": "opposite",
+        "E": "wrong_part"
+      },
+      "keyTakeaway": "Stated-reason questions: find the sentence that states the contrast the stem names (particles versus opaque body).",
+      "evidence": [
+        1
+      ]
+    },
+    {
+      "id": "rc-astronomy-dimming-episodes-q4",
+      "type": "author_perspective",
+      "logicTags": [],
+      "difficulty": 4,
+      "stem": "Given the reasoning in passage A, its author would be most likely to raise which one of the following questions about the hypothesis in passage B?",
+      "choices": {
+        "A": "Whether a ring of debris could persist for ninety years without being dispersed by the star’s radiation",
+        "B": "Whether archival photographic plates are precise enough to establish an eleven percent fade",
+        "C": "Whether a large icy body could exist in a wide orbit around a star slightly more massive than the Sun",
+        "D": "Whether the star’s rotation might account for the periodic modulation passage B predicts",
+        "E": "Whether grains of the size indicated by the dips’ color dependence would be produced by a disruption occurring far from the star"
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "Nothing in passage A concerns ring longevity or radiation pressure; this is not a question A’s reasoning generates.",
+        "B": "Passage A relies on modern photometry and expresses no view about archival precision; this is a generic worry, not one rooted in A’s inferences.",
+        "C": "Passage A’s reasoning does not address what bodies can exist in wide orbits.",
+        "D": "Passage A reports that the star’s rotation is unaffected during dips and treats stellar properties as irrelevant to the dimming; it would not propose rotation as a rival cause.",
+        "E": "Correct. Passage A ties the inferred grain size to disintegration “close to a star.” B’s distant disruption must still yield the sub-micron grains that A’s color ratio requires, so A’s author would ask whether it can."
+      },
+      "trapPatterns": {
+        "A": "out_of_scope",
+        "B": "out_of_scope",
+        "C": "out_of_scope",
+        "D": "opposite"
+      },
+      "keyTakeaway": "Cross-passage inference at L4: find the premise in A that B’s relocation strains (grain size tied to proximity) rather than a generic objection.",
+      "evidence": [
+        1
+      ]
+    },
+    {
+      "id": "rc-astronomy-dimming-episodes-q5",
+      "type": "purpose_in_context",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The author of passage A mentions that nothing in the star’s spectrum changes during a dimming episode primarily in order to",
+      "choices": {
+        "A": "explain why the dips are deeper in blue light than in red",
+        "B": "establish that the cause of the dimming is external to the star",
+        "C": "show that the star is slightly more massive than the Sun",
+        "D": "account for the asymmetric shape of the dips",
+        "E": "argue that the missing infrared excess is not a serious problem"
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "The color dependence is explained by particle scattering, not by spectral constancy.",
+        "B": "Correct. The sentence is followed immediately by the conclusion it supports: “Whatever is dimming the star is not the star.”",
+        "C": "The star’s mass is established spectroscopically in the opening sentence, independently of the dips.",
+        "D": "Asymmetry is explained by a debris clump’s head and tail in the second paragraph.",
+        "E": "Passage A treats the infrared problem as “serious”; spectral constancy does not address it."
+      },
+      "trapPatterns": {
+        "A": "wrong_part",
+        "C": "shell_game",
+        "D": "wrong_part",
+        "E": "opposite"
+      },
+      "keyTakeaway": "When a detail is followed by a one-line conclusion, the detail’s purpose is to support that conclusion.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "rc-astronomy-dimming-episodes-q6",
+      "type": "approach",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "Both passages are primarily concerned with",
+      "choices": {
+        "A": "demonstrating that the dimming of KV 2281 cannot be caused by an opaque companion",
+        "B": "evaluating whether archival observations can be reconciled with modern photometry",
+        "C": "explaining why dust close to a star would produce a detectable infrared excess",
+        "D": "inferring the nature and location of material obscuring KV 2281 from the properties of its light curve",
+        "E": "proposing observational tests that could distinguish between competing explanations of a star’s variability"
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "Ruling out an opaque body is one step in A and is not addressed in B.",
+        "B": "Reconciliation of records is a concern only of B’s first paragraph.",
+        "C": "The infrared point is a difficulty noted in A and resolved in B, not the central concern of either.",
+        "D": "Correct. A infers grain size and orbiting clumps from color dependence and dip shape; B infers a distant ring from the fading and the dips. Both reason from light-curve properties to the obscurer’s nature and location.",
+        "E": "Only B proposes a test, in its final sentence."
+      },
+      "trapPatterns": {
+        "A": "wrong_part",
+        "B": "wrong_part",
+        "C": "wrong_part",
+        "E": "half_right"
+      },
+      "keyTakeaway": "“Both passages are primarily concerned with” requires a description general enough to cover each passage’s whole argument; traps name a feature of one passage only.",
+      "evidence": [
+        1
+      ]
+    },
+    {
+      "id": "rc-astronomy-dimming-episodes-q7",
+      "type": "weaken_strengthen_evaluate",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "Which one of the following, if true, would most weaken the hypothesis proposed in passage B?",
+      "choices": {
+        "A": "Spectra taken during several dips show absorption features that arise only in gas heated to temperatures found within a few stellar radii of the star.",
+        "B": "The archival plates were taken with several different telescopes over the ninety-year interval.",
+        "C": "A faint infrared excess has recently been detected at wavelengths characteristic of warm dust close to the star.",
+        "D": "The rate of the star’s secular fading has been roughly constant rather than increasing over the last two decades.",
+        "E": "Several other stars in the same region of the sky show irregular dips of similar depth."
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. B’s hypothesis places the obscuring material far from the star precisely so that it stays cold. Evidence that the material producing the dips is hot and within a few stellar radii contradicts the ring’s location directly.",
+        "B": "Instrumental heterogeneity might add uncertainty to the fading measurement, but it does not bear on whether a distant ring is the cause; B’s hypothesis also explains the dips independently.",
+        "C": "This is tempting, but a faint warm excess would revive the near-star picture without refuting a distant ring; warm dust could coexist with it. A, by contrast, ties the dips themselves to hot, near-star gas.",
+        "D": "B says the rate is “apparently increasing,” but a constant rate is still a secular fade a spreading ring could produce; this trims a detail without undermining the hypothesis.",
+        "E": "Similar dips in neighboring stars might suggest a common cause, but B’s hypothesis is not committed to KV 2281 being unique."
+      },
+      "trapPatterns": {
+        "B": "true_but_irrelevant",
+        "C": "half_right",
+        "D": "wrong_part",
+        "E": "out_of_scope"
+      },
+      "keyTakeaway": "The strongest weakener attacks the hypothesis’s load-bearing feature (distance and coldness); C tempts by partially reviving the rival rather than refuting B.",
+      "evidence": [
+        1
+      ]
+    }
+  ]
+}

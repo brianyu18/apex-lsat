@@ -1,0 +1,204 @@
+{
+  "id": "rc-polisci-minipublic-legitimacy",
+  "style": "problem_analysis",
+  "topic": "social_science",
+  "comparative": true,
+  "title": "Citizens’ Assemblies and the Legitimacy Problem",
+  "paragraphs": [
+    "Randomly selected citizens’ assemblies, often called minipublics, have a strong record of producing recommendations that are better informed and more carefully reasoned than those emerging from ordinary legislative debate. Yet they face a difficulty that their admirers have been slow to confront. No one elected their members, no one can remove them, and the citizens they are said to represent had no voice in choosing them. Whatever authority a minipublic possesses must therefore come from somewhere other than the electoral mandate on which democratic institutions ordinarily rely.",
+    "Two responses to this difficulty are common, and both are inadequate. The first makes the assembly purely advisory, which preserves the legislature’s accountability at the cost of guaranteeing that recommendations can be shelved without consequence; assemblies treated this way are quickly perceived as theater. The second binds the legislature to adopt whatever the assembly proposes, which secures uptake but transfers decisive power to a body that answers to nobody, and so reproduces the legitimacy deficit it was meant to cure.",
+    "A third arrangement, which might be called mandated uptake, avoids both failures. The legislature retains the final decision but is obliged, within a fixed period, to respond publicly to each recommendation and to give reasons for any it declines. The assembly’s authority on this model is not electoral but deliberative: it derives from the quality of the reasoning and from the fact that elected officials must engage that reasoning in public rather than ignore it. Two conditions are essential. The assembly’s remit must be set by an elected body, so that the question it answers is one the public’s representatives have chosen to ask, and the reasons given for rejection must be genuine, not pretexts for choices already made."
+  ],
+  "paragraphsB": [
+    "The Brennagh Citizens’ Assembly on coastal retreat, convened in 2019 by the regional parliament of Tirelle, offers an unusually complete test of the response-requirement model. Ninety-nine residents, selected by stratified lottery, met over six weekends to consider how communities along the eroding Brennagh shore should be relocated. The enabling statute required the parliament to publish a response to every recommendation within ninety days and to state its reasons for rejecting any. The assembly ultimately issued eleven recommendations, the most consequential of which was a compensation formula that would have paid displaced households the pre-erosion value of their property.",
+    "The parliament accepted seven recommendations, modified one, and rejected three, including the compensation formula, on the stated ground that it would exhaust the regional budget within a decade. Surveys conducted before and eighteen months after the assembly found that public support for managed retreat rose from 31 to 58 percent, and that respondents who were aware of the parliament’s published reasons were more likely to accept the final policy even when they disagreed with it.",
+    "Not every observer has been impressed. The political scientist Kjell Halvorsen notes that the parliament rejected precisely the recommendation that would have cost it most, and suggests that the response requirement allowed legislators to appear deliberative while reaching the decision they would have reached anyway. It bears noting, too, that the assembly’s remit was drawn to exclude the question of whether retreat should occur at all; participants were asked how to relocate communities, not whether to."
+  ],
+  "roleMap": {
+    "paragraphs": ["context", "counterpoint", "main_point"],
+    "viewpoints": [
+      { "who": "Author of passage A", "position": "Mandated uptake with reason-giving resolves the legitimacy deficit of minipublics, provided the remit is set by elected bodies and reasons are genuine", "authorAgrees": true },
+      { "who": "Author of passage B", "position": "The Brennagh case largely illustrates the model working, but reports critics and notes the restricted remit", "authorAgrees": null },
+      { "who": "Kjell Halvorsen", "position": "Response requirements let legislators appear deliberative while laundering predetermined choices", "authorAgrees": null }
+    ],
+    "tone": "A: confident prescription; B: neutral reportage with a skeptical coda"
+  },
+  "lowResSummary": "Passage A proposes mandated reason-giving as the cure for minipublics’ legitimacy deficit; passage B tests it against a coastal-retreat assembly and notes doubts.",
+  "questions": [
+    {
+      "id": "rc-polisci-minipublic-legitimacy-q1",
+      "type": "relationship",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately describes the relationship between the two passages?",
+      "choices": {
+        "A": "Passage A proposes a solution to a problem that passage B argues does not exist.",
+        "B": "Passage B describes a case that passage A cites as the origin of the model it recommends.",
+        "C": "Passage A articulates an institutional model and the conditions for its success; passage B examines a particular instance in which that model was applied.",
+        "D": "Passage A and passage B defend the same arrangement, but passage B relies on survey data while passage A relies on theoretical argument.",
+        "E": "Passage B rejects the model advanced in passage A on the basis of empirical evidence."
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "Passage B does not deny the legitimacy problem; it tests a response to it.",
+        "B": "Passage A never mentions Brennagh or any particular case.",
+        "C": "Correct. A lays out mandated uptake and its two conditions; B calls Brennagh “an unusually complete test of the response-requirement model.”",
+        "D": "Passage B does not defend the arrangement; it reports results and then gives voice to a critic and a reservation.",
+        "E": "B reports both favorable survey evidence and criticism; it does not reject the model."
+      },
+      "trapPatterns": { "A": "out_of_scope", "B": "out_of_scope", "D": "half_right", "E": "extreme" },
+      "keyTakeaway": "Principle/application pairs: the key names A as the general model and B as the instance, without attributing a verdict B does not give.",
+      "evidence": [2, 0]
+    },
+    {
+      "id": "rc-polisci-minipublic-legitimacy-q2",
+      "type": "main_point",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately expresses the main point of passage A?",
+      "choices": {
+        "A": "Requiring legislatures to respond publicly, with reasons, to a minipublic’s recommendations best addresses the minipublic’s lack of electoral legitimacy, given certain conditions.",
+        "B": "Minipublics produce better-reasoned recommendations than legislatures but should remain purely advisory in order to protect democratic accountability.",
+        "C": "Because no one elects the members of a citizens’ assembly, such assemblies cannot legitimately influence public policy.",
+        "D": "Binding legislatures to adopt the recommendations of citizens’ assemblies is the only way to prevent those recommendations from being ignored.",
+        "E": "The authority of democratic institutions ordinarily derives from an electoral mandate that citizens’ assemblies cannot claim."
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. Paragraph 3 of A: mandated uptake “avoids both failures,” with two “essential” conditions.",
+        "B": "Passage A rejects the purely advisory option as “theater.”",
+        "C": "Passage A’s whole point is that a non-electoral source of authority—deliberative quality plus public engagement—is available.",
+        "D": "The binding option is rejected as reproducing the legitimacy deficit; and “only way” is contradicted by the third arrangement.",
+        "E": "This is the premise of paragraph 1, not the conclusion A reaches."
+      },
+      "trapPatterns": { "B": "opposite", "C": "extreme", "D": "wrong_part", "E": "wrong_part" },
+      "keyTakeaway": "In a problem→analysis passage, the main point is the endorsed solution together with its stated conditions.",
+      "evidence": [2]
+    },
+    {
+      "id": "rc-polisci-minipublic-legitimacy-q3",
+      "type": "stated",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "According to passage B, the Tirelle parliament rejected the Brennagh assembly’s compensation formula on the stated ground that it",
+      "choices": {
+        "A": "exceeded the remit the assembly had been given",
+        "B": "would exhaust the regional budget within a decade",
+        "C": "lacked support among a majority of surveyed residents",
+        "D": "would pay displaced households more than their property was worth",
+        "E": "had been adopted by fewer than two-thirds of the assembly’s members"
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "The remit is discussed in B’s final paragraph as a limitation on the assembly, not as the reason for rejection.",
+        "B": "Correct. B, paragraph 2: rejected “on the stated ground that it would exhaust the regional budget within a decade.”",
+        "C": "Survey results concerned support for managed retreat generally, not the compensation formula.",
+        "D": "The formula paid pre-erosion value; the passage gives no indication the parliament called this excessive relative to worth.",
+        "E": "No voting threshold within the assembly is mentioned."
+      },
+      "trapPatterns": { "A": "wrong_part", "C": "shell_game", "D": "shell_game", "E": "out_of_scope" },
+      "keyTakeaway": "Stated questions in comparative sets specify the passage; locate the exact sentence and ignore adjacent details.",
+      "evidence": [1]
+    },
+    {
+      "id": "rc-polisci-minipublic-legitimacy-q4",
+      "type": "approach",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Passage A and passage B differ in that only passage B",
+      "choices": {
+        "A": "considers the possibility that a legislature might reject a minipublic’s recommendation",
+        "B": "distinguishes deliberative authority from electoral authority",
+        "C": "discusses the conditions under which a response requirement would be legitimate",
+        "D": "argues that minipublics reason more carefully than legislatures",
+        "E": "reports the views of a named critic of the response-requirement model"
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "Passage A explicitly contemplates rejection, requiring reasons “for any it declines.”",
+        "B": "This distinction is drawn in passage A, not B.",
+        "C": "Conditions are set out in A’s third paragraph; B describes a case rather than stating conditions.",
+        "D": "Passage A makes this claim in its opening sentence; B does not argue it.",
+        "E": "Correct. Only B names Halvorsen and reports his criticism."
+      },
+      "trapPatterns": { "A": "opposite", "B": "opposite", "C": "opposite", "D": "opposite" },
+      "keyTakeaway": "For “only passage B” stems, eliminate any feature present in A; the key is a feature B has and A structurally cannot have, such as a named critic of A’s own model.",
+      "evidence": [2]
+    },
+    {
+      "id": "rc-polisci-minipublic-legitimacy-q5",
+      "type": "author_perspective",
+      "logicTags": [],
+      "difficulty": 4,
+      "stem": "The author of passage A would be most likely to regard the Tirelle parliament’s rejection of the compensation formula as",
+      "choices": {
+        "A": "a failure of the model, since the assembly’s most consequential recommendation was not adopted",
+        "B": "evidence that the assembly’s remit had been improperly set by an unelected body",
+        "C": "acceptable only if a majority of the public agreed with the parliament’s budgetary reasoning",
+        "D": "consistent with the model, provided the budgetary reason was the parliament’s genuine ground rather than a pretext",
+        "E": "an indication that the assembly should have been given binding authority over compensation"
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "Passage A’s model retains the legislature’s “final decision”; rejection with reasons is built into it, not a failure of it.",
+        "B": "The remit was set by the regional parliament, an elected body; this satisfies A’s first condition rather than violating it.",
+        "C": "Passage A grounds legitimacy in public reason-giving, not in majority agreement with the reasons.",
+        "D": "Correct. A’s second condition is that “the reasons given for rejection must be genuine, not pretexts for choices already made”; Halvorsen’s worry is precisely about pretext, so A’s author would make acceptability turn on that.",
+        "E": "Passage A rejects binding authority as reproducing the legitimacy deficit."
+      },
+      "trapPatterns": { "A": "opposite", "B": "shell_game", "C": "shell_game", "E": "opposite" },
+      "keyTakeaway": "Cross-passage inference: apply A’s stated conditions to B’s facts. The key tracks the condition B’s critic puts in doubt.",
+      "evidence": [2, 1]
+    },
+    {
+      "id": "rc-polisci-minipublic-legitimacy-q6",
+      "type": "other_perspective",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "Passage B suggests that Halvorsen would be most likely to agree with which one of the following?",
+      "choices": {
+        "A": "A legislature’s compliance with a requirement to give reasons does not by itself show that those reasons determined its decision.",
+        "B": "The Brennagh assembly would have produced better recommendations had its remit included whether retreat should occur.",
+        "C": "Public support for managed retreat rose because residents were persuaded by the assembly’s reasoning.",
+        "D": "Response requirements should be replaced by arrangements that bind legislatures to adopt minipublic recommendations.",
+        "E": "The parliament’s budgetary concern about the compensation formula was unfounded."
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. Halvorsen suggests the requirement “allowed legislators to appear deliberative while reaching the decision they would have reached anyway,” which is to say that stated reasons may not be operative reasons.",
+        "B": "The remit observation is made by B’s author (“It bears noting, too”), not attributed to Halvorsen.",
+        "C": "Halvorsen is not reported as commenting on the survey results, and his skepticism cuts against crediting the process.",
+        "D": "Halvorsen criticizes the response requirement but proposes no alternative; binding authority is not mentioned in B.",
+        "E": "Halvorsen questions whether the reason was the real motive, not whether the budgetary concern was accurate."
+      },
+      "trapPatterns": { "B": "wrong_part", "C": "out_of_scope", "D": "extreme", "E": "shell_game" },
+      "keyTakeaway": "Distinguish a critic’s claim (reasons may be pretextual) from nearby claims by the passage’s author or about the facts.",
+      "evidence": [2]
+    },
+    {
+      "id": "rc-polisci-minipublic-legitimacy-q7",
+      "type": "purpose_in_context",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "The author of passage B mentions that the assembly’s remit excluded the question of whether retreat should occur primarily in order to",
+      "choices": {
+        "A": "explain why the parliament was able to reject the compensation formula",
+        "B": "show that the Brennagh assembly violated one of the conditions for legitimate response requirements",
+        "C": "note a further respect in which the Brennagh case may fall short of a full vindication of the model",
+        "D": "demonstrate that the parliament’s reasons for rejection were pretextual",
+        "E": "support the claim that public support for managed retreat rose after the assembly"
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "The remit restriction concerned the question of retreat itself; the compensation formula was within the remit and rejected on budgetary grounds.",
+        "B": "Passage A requires that the remit be set by an elected body, which it was; narrowing the remit does not violate A’s stated conditions, and B does not claim it does.",
+        "C": "Correct. The remark follows Halvorsen’s criticism and is introduced with “It bears noting, too,” adding a second reservation about how complete a test Brennagh really was.",
+        "D": "The remit point is independent of the reasons given for rejecting recommendations; it concerns what the assembly was permitted to consider.",
+        "E": "The remit point has nothing to do with the survey findings."
+      },
+      "trapPatterns": { "A": "out_of_scope", "B": "wrong_part", "D": "shell_game", "E": "out_of_scope" },
+      "keyTakeaway": "“It bears noting, too” signals an additional reservation parallel to the preceding one; the purpose is cumulative, not evidentiary for a specific claim.",
+      "evidence": [2]
+    }
+  ]
+}
