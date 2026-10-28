@@ -1,0 +1,202 @@
+[
+ {
+  "id": "rc-luminist-abstraction-two-critics-q4",
+  "key": "D",
+  "turn1Words": 121,
+  "turn1Revealed": false,
+  "turn2Key": "D",
+  "ok": true,
+  "turn1": "Since this is your first miss on this type, we'll start with the method rather than the choices. For \"both passages are primarily concerned with,\" find the question each passage is answering, then abstract to the one they share (Lesson: Comparative passages). I can't see which letter you picked, so we'll work from the passages.\n\nPassage A opens by saying the common description of the Luminists \"is accurate as far as it goes, but it mistakes the effect for the program.\" Then it says, \"What united these painters was not an interest in light as a subject but a shared conviction...\"\n\nRead those two sentences again. In your own words, what question is Passage A trying to settle about the Luminists?",
+  "turn2": "The answer is (D).\n\nIt's right because each passage is answering a question about what defines the movement. Passage A asks \"what united these painters,\" and says the answer is the aim of registering duration, not light. Passage B asks whether Calloway counts as a Luminist and concludes the movement is \"better defined by its aim than by the procedures.\" Both are about what properly determines membership in an artistic movement.\n\nI can't see which letter you picked, so I can't say why yours was wrong. If you tell me, I'll go through it with you."
+ },
+ {
+  "id": "lr-strengthen-harrow-gallery-free-admission",
+  "key": "A",
+  "turn1Words": 116,
+  "turn1Revealed": false,
+  "turn2Key": "A",
+  "ok": true,
+  "turn1": "Let's start with the argument's structure. The director's evidence is that \"annual attendance has risen by 60 percent.\" The conclusion is that the policy \"has achieved that goal,\" and the goal was to make the collection \"accessible to the city's lower-income residents.\"\n\nThose two things are not the same. Attendance measures how many people come. The goal is about who comes.\n\nI don't have your pick or your timing, so I can't tell which choice pulled you. Here is the first question. Suppose the 60 percent rise came entirely from wealthy residents who already liked museums. Would the director's conclusion still follow from the evidence? Tell me why or why not, using the director's own words.",
+  "turn2": "The answer is (A).\n\nIt's right because the argument's gap is between \"attendance has risen\" and \"accessible to the city's lower-income residents,\" and (A) bridges it by saying most first-time visitors come from \"the city's lowest-income neighborhoods,\" so the new attendance reflects the group the director cares about.\n\nI don't have your original pick, so I can't say why your choice was wrong. If you tell me which letter you chose, I'll point to the words that sink it."
+ },
+ {
+  "id": "lr-fill-in-blank-job-training-earnings",
+  "key": "C",
+  "turn1Words": 150,
+  "turn1Revealed": false,
+  "turn2Key": "C",
+  "ok": true,
+  "turn1": "Let's start with the last sentence, since the blank sits right after \"Thus, the government's figures ____.\"\n\nPer your lesson, the word before the blank tells you the task: \"Thus\" means the blank is a conclusion, so you're doing a Most Strongly Supported job (Lesson: Fill in the Blank). The blank has to follow from the premises and stay cautious.\n\nNow look at what the economist actually says about the government's evidence. The government notes that participants earned \"twenty percent more\" afterward. The economist replies that \"most people who lose a job see their earnings recover substantially within two years whether or not they receive training.\"\n\nPut those two together. If earnings would have gone up anyway, what does the twenty percent rise tell you about whether the program caused it? Say it in your own words, then tell me which part of the economist's reply made you think so.",
+  "turn2": "The answer is (C).\n\nIt's right because the economist shows that earnings usually recover \"whether or not they receive training,\" so the twenty percent rise is exactly what we'd expect even if the program did nothing. That means the figures \"do not by themselves show\" that the program raised earnings. The conclusion stays at the level of what the evidence fails to establish.\n\nI don't have your original pick in front of me, so I can't say why it was wrong. If you tell me the letter you chose, I'll give you the one-sentence reason it fails."
+ },
+ {
+  "id": "rc-m3-bilingual-outcomes-q5",
+  "key": "E",
+  "turn1Words": 82,
+  "turn1Revealed": false,
+  "turn2Key": "E",
+  "ok": true,
+  "turn1": "Let's start with the question stem, because it sets the job. It asks what the author of passage B would agree with \"about the reanalysis described in passage A.\" That means you're judging Oyelaran's sorting of the evaluations, using B's views.\n\nPassage B makes one specific complaint about evaluations that compare designs across communities. Find the sentence in [B2] where B says what such evaluations are \"therefore measuring,\" and tell me in your own words what B thinks goes wrong with them.",
+  "turn2": "The answer is (E).\n\nPassage B says that evaluations comparing designs across communities \"without recording the status of the minority language in each\" are \"measuring an unknown mixture of effects.\" Oyelaran's sort of \"several dozen evaluations\" by program duration is that kind of cross-community comparison. So B would worry that duration is standing in for differences in community language status that happened to line up with it. That is exactly what (E) says: the sorting \"may capture differences in community language status.\"\n\nYour pick is wrong, but you didn't say which letter you chose, so I can't name the specific flaw in it. If you tell me which one you picked, I'll explain why it fails."
+ },
+ {
+  "id": "lr-necessary-assumption-downtown-parking-bus",
+  "key": "B",
+  "turn1Words": 102,
+  "turn1Revealed": false,
+  "turn2Key": "B",
+  "ok": true,
+  "turn1": "Let's start with the conclusion. The planner says \"the parking charge induced many former drivers to switch to the bus.\" Two facts are offered as support: car trips into downtown fell by about 15 percent, and bus trips rose by \"nearly the same number of trips.\"\n\nThe argument treats those two numbers as one story: people leaving cars and the same people showing up on buses. Before we look at the choices, I'd like to know what you see. Who, besides former drivers, could account for the rise in bus trips into downtown, and what would that do to the planner's conclusion?",
+  "turn2": "The answer is (B).\n\nThe argument rests on the match between the drop in cars and the rise in bus trips. That match only supports \"former drivers switched\" if the new bus riders were mostly people who were already traveling downtown. Negate (B): suppose the added bus trips were made mainly by people who hadn't been going downtown before. Then the ridership rise tells you nothing about former drivers, and the conclusion loses its support. That is the negation test from (Lesson: Necessary Assumption).\n\nYour pick is not in the record, so I can't say why it was wrong. If you tell me which letter you chose, I'll tell you what kills it."
+ },
+ {
+  "id": "lr-must-be-true-thornbury-fellowship-letters",
+  "key": "C",
+  "turn1Words": 75,
+  "turn1Revealed": false,
+  "turn2Key": "C",
+  "ok": true,
+  "turn1": "Let's start with what the stimulus says about Mireille. She \"applied to the fellowship and was interviewed by a subcommittee.\" The passage then gives a rule about who gets interviewed by the full committee and who gets interviewed \"instead\" by a subcommittee.\n\nPut that rule in your own words: what exactly does an applicant have to do to be interviewed by the full committee, and what does \"instead\" tell you about the two interview paths?",
+  "turn2": "The answer is (C).\n\nThe stimulus says anyone who submits \"at least one letter from outside their own department\" is interviewed by the full committee, and everyone else is interviewed \"instead\" by a subcommittee. Mireille was interviewed by a subcommittee, so she did not submit any outside letter. Since every applicant must submit two letters, both of hers came from within her own department.\n\nYour pick, (E), fails because the stimulus only says full-committee applicants submitted \"at least one\" outside letter, not necessarily two. So an applicant with one outside letter and one inside letter would also be interviewed by the full committee, and (E) is not forced."
+ },
+ {
+  "id": "lr-inference-marston-sabbatical-okafor",
+  "key": "E",
+  "turn1Words": 148,
+  "turn1Revealed": false,
+  "turn2Key": "E",
+  "ok": true,
+  "turn1": "Let's start with the stem: \"Which one of the following can be properly inferred.\" (Lesson: Must Be True, Must Be False, and Inference) treats that as Must Be True, so the right choice has to hold in every situation consistent with the facts.\n\nBefore we look at the choices, I want you to pin down what the stimulus says about Ms. Okafor. Two facts apply to her: she \"has taught in the district for twelve years,\" and she \"did not receive a sabbatical this year.\"\n\nNow look at the sentence \"Every teacher who applied for a sabbatical this year was granted one.\" If a teacher applied, what happened to her? And what does that tell you about a teacher who was not granted one?\n\nPut that in your own words as an if-then statement, and then tell me which choice you picked and what made it look right.",
+  "turn2": "The answer is (E).\n\nIt's right because \"Every teacher who applied for a sabbatical this year was granted one,\" and Ms. Okafor \"did not receive a sabbatical this year.\" By contrapositive, if she wasn't granted one, she didn't apply. The facts about eligibility and her twelve years don't change that.\n\nI don't have your pick, so I can't say why yours was wrong. If you tell me which letter you chose, I'll explain what made it tempting and where it fails."
+ },
+ {
+  "id": "lr-must-be-true-conference-stipends",
+  "key": "A",
+  "turn1Words": 112,
+  "turn1Revealed": false,
+  "turn2Key": "A",
+  "ok": true,
+  "turn1": "Let's start with the one statement that does the heavy lifting. Read this sentence again: \"No one who received a travel stipend was reimbursed for meals.\"\n\nThis is a Must Be True question, so (Lesson: Must Be True, Must Be False, and Inference) the test for any choice is whether you can build a world where the facts hold and the choice fails. That means we need to know what the facts force on someone who was reimbursed for meals.\n\nSo pick a person in that group: a presenter who was reimbursed for meals. Using only that sentence about stipends, what must be true about whether that person received a travel stipend?",
+  "turn2": "The answer is (A).\n\nHere's why. Take any presenter who was reimbursed for meals. By \"No one who received a travel stipend was reimbursed for meals,\" that person got no stipend. But \"every presenter who was not also a session chair received a travel stipend,\" so a presenter with no stipend can't be a non-chair. That leaves only one option: they were a session chair.\n\nYour pick was wrong, and I don't have it in front of me, so I can't say which trap it was. If you tell me the letter you chose, I'll give you the one-sentence reason it fails."
+ },
+ {
+  "id": "rc-m4-past-tense-overregularization-q2",
+  "key": "E",
+  "turn1Words": 106,
+  "turn1Revealed": false,
+  "turn2Key": "E",
+  "ok": true,
+  "turn1": "Let's start with the stem: \"According to the passage, Marchetti's account predicts that overregularization errors should be...\" That wording tells you the answer is something the passage says Marchetti's account predicts, so it should be sitting in the text, not something you have to infer.\n\nI don't have your answer choice or your timing for this one, so I'm working from the fact that you missed it. Go to paragraph 2, the one about Marchetti. Her paragraph ends with a sentence that says what her account expects about overregularization. Find that sentence and quote the exact words it uses to describe when errors should be rarer.",
+  "turn2": "The answer is (E).\n\nMarchetti's paragraph says overregularization \"should be rarer for verbs the child hears frequently, since their stored forms are more readily retrieved.\" That is the same claim as (E), \"less frequent for irregular verbs that the child hears often.\"\n\nI don't have the choice you picked, so I can't say why it was wrong. Tell me which one it was and I'll show you the words that rule it out."
+ },
+ {
+  "id": "rc-m3-translation-foreignness-q2",
+  "key": "D",
+  "turn1Words": 126,
+  "turn1Revealed": false,
+  "turn2Key": "D",
+  "ok": true,
+  "turn1": "The stem asks what Harrowell's contemporaries did, which makes this a stated question. The passage reports their reaction directly, so you shouldn't need to infer anything. The trap is answering with what Harrowell intended, or with what you'd expect a reader to feel about an archaic translation.\n\nI don't know which letter you picked, so I can't yet say which trap caught you. For now, go back to paragraph 2 and find the sentence that begins by saying what his contemporaries felt. The author gives their reaction in two steps: first what they did not feel, then what the reviewers actually did.\n\nWhich words in those sentences tell you how the contemporaries and reviewers responded? Quote them exactly, and tell me which letter you originally chose.",
+  "turn2": "The answer is (D).\n\nIt's right because paragraph 2 says \"reviewers praised the translation precisely for its familiarity, finding in it the cadences of the poets they already admired,\" which is exactly what (D) reports.\n\nYou haven't told me which letter you picked, so I can't say why yours was wrong. If you tell me, I'll explain the specific trap. The usual pull on this question is (A). It has the opposite effect from what the passage reports: the contemporaries \"felt nothing of the kind,\" so the translation didn't seem more distant to them at all."
+ },
+ {
+  "id": "lr-point-at-issue-red-light-cameras",
+  "key": "B",
+  "turn1Words": 105,
+  "turn1Revealed": false,
+  "turn2Key": "B",
+  "ok": true,
+  "turn1": "Let's start with what this question type asks for. The stem says the speakers \"disagree about whether\" something. According to (Lesson: Point at Issue and Point of Agreement), the right answer needs one speaker saying Yes and the other saying No, both on the record.\n\nI don't know which letter you picked, and I don't have a history with you on this type yet. So start with the council member's second sentence: \"Red-light cameras do reduce violations. But studies show...\" What does the council member say about the mayor's claim that the cameras \"reduce red-light violations\"? Does the council member accept it or reject it?",
+  "turn2": "The answer is (B).\n\nIt's right because the mayor argues that cameras mean \"fewer collisions,\" which amounts to safer intersections. The council member says installing them \"would not make our intersections safer.\" One speaker affirms it and the other denies it.\n\nI don't know which letter you picked, so I can't say why yours was wrong. If you tell me, I'll go through the specific words that rule it out."
+ },
+ {
+  "id": "lr-weaken-community-sentencing-reoffense",
+  "key": "D",
+  "turn1Words": 62,
+  "turn1Revealed": false,
+  "turn2Key": "D",
+  "ok": true,
+  "turn1": "Let's start with the conclusion. The analyst ends with \"The community programs are therefore more effective than imprisonment at preventing reoffending.\" What is the evidence offered for that, and what exactly is being measured to produce the drop from 31 percent to 19 percent? Put it in your own words, and pay particular attention to the phrase \"convicted of a new offense.\"",
+  "turn2": "The answer is (D).\n\nIt's right because the analyst's evidence is a drop in the rate of \"convicted of a new offense,\" and (D) says the province reclassified several common drug offenses so they are \"no longer prosecuted as crimes.\" That means the conviction rate could fall even if offenders behaved exactly as before. The drop might come from a change in what counts as an offense, not from the programs, so the evidence no longer supports \"more effective than imprisonment.\"\n\nYou didn't tell me which choice you picked, so I can't say why yours was wrong. If you tell me, I'll explain the trap in it.\n\nThe takeaway: when a measured rate drops, ask whether the measurement itself changed before you credit the intervention."
+ },
+ {
+  "id": "lr-parallel-flaw-fellowship-peer-review-chain",
+  "key": "E",
+  "turn1Words": 116,
+  "turn1Revealed": false,
+  "turn2Key": "E",
+  "ok": true,
+  "turn1": "Let's start with the stimulus, since the stem says its reasoning is flawed and we have to name the flaw before we can match it.\n\nStrip the argument down to its skeleton. The first sentence says that to be eligible, an applicant \"must have published.\" Then \"anyone who has published\" has \"had her work reviewed.\" Then the conclusion: Dr. Ines \"has had her work reviewed,\" so she \"is eligible.\"\n\nWrite that as two arrows, eligible → published → reviewed. Now look at which end of the chain the argument starts from and which end it lands on. Does it begin at the front of the chain and move forward, or begin somewhere else and move backward?",
+  "turn2": "The answer is (E).\n\nIt's right because the stimulus runs the chain backward: it affirms the last term (\"reviewed by outside experts\") and concludes the first (\"eligible\"). (E) does the same thing, affirming \"built before the current code\" and concluding \"historic status,\" with a flat, certain conclusion like the original.\n\nYour pick is a different matter, because I don't know which letter you chose. If you tell me, I'll explain why it fails. (Lesson: Parallel Flaw) says the match must commit the same flaw in the same direction and carry the same conclusion strength."
+ },
+ {
+  "id": "lr-necessary-assumption-knee-surgery-analgesic",
+  "key": "D",
+  "turn1Words": 136,
+  "turn1Revealed": false,
+  "turn2Key": "D",
+  "ok": true,
+  "turn1": "Let's start with the conclusion. The physician says \"The new drug must therefore be a more effective pain reliever than the standard drug.\" The evidence is only that patients on the new drug \"reported less pain during recovery\" than patients on the standard drug.\n\nI don't have your answer choice or how confident you were, so I'm working from the stimulus alone. Those two claims aren't the same. Less pain reported is an observation about the patients, and more effective is a claim about the drug. If the drug isn't what caused the difference in pain, the conclusion fails.\n\nSo suppose the new drug is not the reason those patients hurt less. What else about the two groups of patients, besides which drug they received, could have made one group report less pain after knee surgery?",
+  "turn2": "The answer is (D).\n\nIt's right because the physician compares two groups of patients, so the argument needs the groups to be alike in other respects that affect pain. Negate (D): if the new-drug patients \"did\" undergo less extensive surgery, then their lower pain could come from the milder surgery rather than the drug, and the conclusion about effectiveness falls apart.\n\nI don't have the choice you picked, so I can't say why it was wrong. If you tell me which one it was, I'll show you the exact words that rule it out."
+ },
+ {
+  "id": "rc-medicine-remission-cluster-q2",
+  "key": "C",
+  "turn1Words": 87,
+  "turn1Revealed": false,
+  "turn2Key": "C",
+  "ok": true,
+  "turn1": "This is a \"According to the passage\" question, so the answer is stated in the text. You don't need to infer it. The stem asks what the microbial displacement hypothesis \"predicts,\" which means you should find Khoury's predictions, not the author's later complications.\n\nGo to paragraph 3, which is Khoury's. Find the sentences that use the word \"should\" and put them in your own words. What does the paragraph say should happen with antibiotics, and what does it say should happen with febrile illnesses treated without antibiotics?",
+  "turn2": "The answer is (C).\n\nIt's right because paragraph 3 says that on the microbial displacement account, \"febrile illnesses treated without antibiotics should produce no more remissions than would be expected by chance.\" That is nearly word for word what (C) says.\n\nYou didn't tell me which choice you picked, so I can't say why yours was wrong. If you tell me, I'll go through the specific words that rule it out."
+ },
+ {
+  "id": "lr-most-strongly-supported-corvel-license-redistribution",
+  "key": "D",
+  "turn1Words": 98,
+  "turn1Revealed": false,
+  "turn2Key": "D",
+  "ok": true,
+  "turn1": "Let's start with the structure of the passage. It has three statements, and the third is about the Pell Group. Before we look at any choices, take the second sentence: \"Any program that incorporates Corvel-licensed code is itself subject to the Corvel license.\" The Pell Group \"redistributes a program that incorporates Corvel-licensed code.\"\n\nWhat does that pair of statements tell you about the Pell Group's program, and which license rule from the first sentence now applies to it? Put your answer in your own words, and quote the key phrase from the first sentence that you're relying on.",
+  "turn2": "The answer is (D).\n\nHere is why. The second sentence says any program incorporating Corvel-licensed code \"is itself subject to the Corvel license,\" and the Pell Group's program incorporates such code, so the program falls under the license. The first sentence says licensed software \"may be redistributed only if the redistributor makes the source code available.\" The Pell Group has \"never made any source code available to anyone,\" so it fails that necessary condition, which means its redistribution is not permitted under the license.\n\nYour earlier pick was not given, so I can't say why it was wrong. If you chose one of the others, the usual traps here are (A), which reverses the \"only if\" condition, and (C), which predicts a future consequence the passage never states."
+ },
+ {
+  "id": "lr-flaw-tolan-deposits-rival-hypothesis",
+  "key": "D",
+  "turn1Words": 103,
+  "turn1Revealed": false,
+  "turn2Key": "D",
+  "ok": true,
+  "turn1": "Let's start with the conclusion. The geologist ends with \"we should conclude that the deposits were formed by sedimentary processes.\" Look at the sentence just before it: \"Thus the hydrothermal account is unsupported.\"\n\nSuppose that sentence is completely true, and the sulfide minerals give no real backing to the hydrothermal account. Does that, by itself, give you any positive reason to believe the sedimentary account? Or has the geologist only shown that one hypothesis lacks proof?\n\nPut what you think the geologist did between those two steps in your own words, and tell me which choice you picked and how confident you were.",
+  "turn2": "The answer is (D).\n\nIt's right because the geologist only shows that the evidence for the hydrothermal account is inconclusive (\"those minerals can also form through sedimentary processes\"). That leaves the question open, but the argument treats it as if it were positive evidence for the sedimentary account.\n\nYou didn't tell me which choice you picked, so I can't say why yours is wrong. If you tell me, I'll explain the specific trap in it."
+ },
+ {
+  "id": "rc-polisci-minipublic-legitimacy-q3",
+  "key": "B",
+  "turn1Words": 87,
+  "turn1Revealed": false,
+  "turn2Key": "B",
+  "ok": true,
+  "turn1": "Let's start with the stem itself: \"According to passage B, the Tirelle parliament rejected the Brennagh assembly's compensation formula on the stated ground that it...\" The word \"stated\" tells you the answer is a reason the parliament itself gave, in so many words.\n\nSo go back to passage B and find the sentence that reports the parliament's rejection of the compensation formula. Which paragraph is it in, and what exact words follow \"on the stated ground that\"? Quote them to me before you look at any choice.",
+  "turn2": "The answer is (B).\n\nPassage B, paragraph 2, says the parliament rejected the compensation formula \"on the stated ground that it would exhaust the regional budget within a decade,\" and choice (B) restates that almost word for word.\n\nI don't know which choice you picked, because your message didn't say. If you tell me, I can explain why it fails. The traps here were details sitting near the right sentence: the remit, the survey numbers, and the \"pre-erosion value\" wording. None of them is the reason the parliament gave."
+ },
+ {
+  "id": "rc-m4-folding-paradox-q3",
+  "key": "B",
+  "turn1Words": 94,
+  "turn1Revealed": false,
+  "turn2Key": "B",
+  "ok": true,
+  "turn1": "Let's start with the stem itself: \"The author mentions a chemical synthesis primarily in order to...\" This is a purpose-in-context question, so the job is to find where the synthesis appears and ask what the author is doing in that sentence.\n\nGo back to paragraph 2 and find the phrase \"much as a chemical synthesis proceeds through isolable products.\" Look at what comes just before it. What is the author describing in the part of that sentence before \"much as,\" and what does \"much as\" tell you about how the synthesis relates to it?",
+  "turn2": "The answer is (B).\n\nThe sentence says a protein folds \"as a sequence of defined intermediate states... much as a chemical synthesis proceeds through isolable products,\" so \"much as\" introduces an analogy that clarifies the pathway model.\n\nI can't see which letter you picked, so I can't say why yours fails. If you tell me, I'll explain what's wrong with it."
+ },
+ {
+  "id": "rc-chemistry-catalyst-sintering-q5",
+  "key": "B",
+  "turn1Words": 110,
+  "turn1Revealed": false,
+  "turn2Key": "B",
+  "ok": true,
+  "turn1": "I can't see which letter you picked, so we'll start from the passage. The stem asks where the author would recommend anchoring. That means the right answer has to satisfy everything the author says in favor of anchoring and avoid everything the author says against it.\n\nReread paragraph 4, which opens with \"That enthusiasm should be tempered by two considerations.\" The author gives two limits on anchored catalysts. One is about how much material they can process. The other is about what kind of reaction they can work on.\n\nIn your own words, what are those two limits? For each one, quote the phrase from the paragraph that states it.",
+  "turn2": "The answer is (B).\n\nIt's right because it meets every condition the author sets. A small-scale process makes the low metal loading a non-issue, since that limit \"matters little in a laboratory.\" A reaction that proceeds at \"a single metal site\" is one a lone anchored atom can handle. High temperature with sintering within days is where anchoring's durability pays off.\n\nI can't see which letter you picked, so I can't say why yours was wrong. If you tell me, I'll explain the specific flaw. Most of the other choices fail because they pair anchoring with high throughput or a multi-atom active site, which are the two limits in paragraph 4."
+ }
+]

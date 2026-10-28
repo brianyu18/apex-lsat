@@ -118,6 +118,8 @@ export interface SubmitInput {
   changedFrom?: string | null;
   flagged?: boolean;
   skillLevelAtTime?: number;
+  /** when the attempt actually happened (offline sync); defaults to now */
+  at?: string | null;
 }
 
 export interface SubmitResult {
@@ -152,6 +154,7 @@ export async function submitAttempt(input: SubmitInput): Promise<SubmitResult> {
     changedFrom: input.changedFrom ?? null,
     prediction: input.prediction ?? null,
     skillLevelAtTime: input.skillLevelAtTime ?? null,
+    ...(input.at ? { createdAt: new Date(input.at) } : {}),
   });
 
   if (correct != null && !guess && (input.mode === "drill" || input.mode === "check")) {

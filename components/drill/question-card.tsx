@@ -8,6 +8,7 @@ import { Button } from "@/components/ui/button";
 import { TRAP_LABELS, type LRType, type TrapPattern } from "@/lib/content/taxonomy";
 import { typeLabel } from "@/lib/content/labels";
 import { QuickClassify } from "./quick-classify";
+import { TutorPanel } from "@/components/tutor/tutor-panel";
 import type { Confidence, SafeQuestion, SubmitResponse } from "./types";
 
 const LETTERS = ["A", "B", "C", "D", "E"] as const;
@@ -295,6 +296,10 @@ export function QuestionCard({
               difficulty={question.difficulty}
             />
           )}
+
+          <div className="mt-4">
+            <TutorPanel questionId={question.id} attemptId={result.attemptId} outcome={result.correct ? "correct" : "missed"} />
+          </div>
 
           <div className="mt-5 flex items-center justify-between gap-3">
             <p className="text-xs text-ink-3">{missed ? "In your Review Inbox." : result.guessFlag ? "Guessed right — in your Review Inbox." : ""}</p>

@@ -9,6 +9,7 @@ import { DEFAULT_DRILL_SETTINGS } from "@/lib/data/drill-defaults";
 import { QuestionCard } from "./question-card";
 import { typeLabel } from "@/lib/content/labels";
 import type { Confidence, DrillSettings, SafeQuestion, SessionRow, SubmitResponse } from "./types";
+import { offline, type PackQuestion } from "@/lib/offline/queue";
 
 type Phase = "loading" | "question" | "empty" | "summary" | "error";
 
@@ -33,17 +34,40 @@ export function DrillSession() {
   const lessonId = params.get("lesson");
   const [lessonResult, setLessonResult] = useState<{ complete: boolean; score: number; total: number } | null>(null);
   const [errorMsg, setErrorMsg] = useState<string | null>(null);
+  const [offlineMode, setOfflineMode] = useState(false);
+  const offlinePack = useRef<Map<string, PackQuestion>>(new Map());
+  const offlineRows = useRef<SessionRow[]>([]);
   const booted = useRef(false);
+
+  /** Offline fallback: serve from the IndexedDB pack. Returns false if nothing is available. */
+  const nextOffline = useCallback(async (exclude: string[]) => {
+    if (!offline.available()) return false;
+    const q = await offline.nextFromPack(exclude).catch(() => null);
+    if (!q) return false;
+    offlinePack.current.set(q.id, q);
+    setOfflineMode(true);
+    setQuestion({ id: q.id, section: q.section, type: q.type, logicTags: q.logicTags ?? [], difficulty: q.difficulty, stimulus: q.stimulus, stem: q.stem, choices: q.choices as SafeQuestion["choices"], predictionHint: null, passageId: null });
+    setPhase("question");
+    return true;
+  }, []);
 
   const fetchNext = useCallback(
     async (exclude: string[], lt: string | null) => {
       setPhase("loading");
       setResult(null);
-      const res = await fetch("/api/drill/next", {
-        method: "POST",
-        headers: { "content-type": "application/json" },
-        body: JSON.stringify({ settings, excludeIds: exclude, lastType: lt }),
-      });
+      let res: Response;
+      try {
+        res = await fetch("/api/drill/next", {
+          method: "POST",
+          headers: { "content-type": "application/json" },
+          body: JSON.stringify({ settings, excludeIds: exclude, lastType: lt }),
+        });
+      } catch {
+        if (await nextOffline(exclude)) return;
+        setErrorMsg("You're offline and no drill pack is cached. Open the Drill page once while online to cache 100 questions.");
+        setPhase("error");
+        return;
+      }
       if (!res.ok) {
         setErrorMsg(`Could not load a question (${res.status}).`);
         setPhase("error");
@@ -57,26 +81,44 @@ export function DrillSession() {
       setQuestion(data.question);
       setPhase("question");
     },
-    [settings],
+    [settings, nextOffline],
   );
 
   useEffect(() => {
     if (booted.current) return;
     booted.current = true;
     (async () => {
-      const res = await fetch("/api/drill/session", {
-        method: "POST",
-        headers: { "content-type": "application/json" },
-        body: JSON.stringify({ settings, kind: lessonId ? "check" : "drill" }),
-      });
-      const { sessionId } = (await res.json()) as { sessionId: string };
-      setSessionId(sessionId);
-      await fetchNext([], null);
+      try {
+        const res = await fetch("/api/drill/session", {
+          method: "POST",
+          headers: { "content-type": "application/json" },
+          body: JSON.stringify({ settings, kind: lessonId ? "check" : "drill" }),
+        });
+        const { sessionId } = (await res.json()) as { sessionId: string };
+        setSessionId(sessionId);
+        await fetchNext([], null);
+      } catch {
+        if (!(await nextOffline([]))) {
+          setErrorMsg("You're offline and no drill pack is cached. Open the Drill page once while online to cache 100 questions.");
+          setPhase("error");
+        }
+      }
     })();
-  }, [fetchNext, settings, lessonId]);
+  }, [fetchNext, settings, lessonId, nextOffline]);
 
   async function onSubmit(payload: { answer: string; confidence: Confidence; seconds: number; prediction: string | null; changedFrom: string | null }) {
     if (!question) return;
+    if (offlineMode) {
+      // Grade locally from the pack and queue the attempt for sync.
+      const q = offlinePack.current.get(question.id);
+      if (!q) return;
+      const correct = q.answer != null ? payload.answer === q.answer : null;
+      const clientId = `off_${Date.now().toString(36)}${Math.random().toString(36).slice(2, 7)}`;
+      await offline.enqueue({ clientId, questionId: q.id, answer: payload.answer, seconds: payload.seconds, confidence: payload.confidence, changedFrom: payload.changedFrom, at: new Date().toISOString() }).catch(() => {});
+      offlineRows.current.push({ id: clientId, questionId: q.id, answer: payload.answer, correct, seconds: payload.seconds, confidence: payload.confidence, guessFlag: payload.seconds < 10, position: offlineRows.current.length, type: q.type, difficulty: q.difficulty, key: q.answer });
+      setResult({ attemptId: clientId, correct, guessFlag: payload.seconds < 10, answer: q.answer, explanations: q.explanations, keyTakeaway: q.keyTakeaway, trapPatterns: q.trapPatterns } as SubmitResponse);
+      return;
+    }
     const res = await fetch("/api/drill/submit", {
       method: "POST",
       headers: { "content-type": "application/json" },
@@ -97,6 +139,11 @@ export function DrillSession() {
   }
 
   async function finish() {
+    if (offlineMode) {
+      setSummary(offlineRows.current);
+      setPhase("summary");
+      return;
+    }
     if (!sessionId) return;
     const res = await fetch("/api/drill/session", { method: "PATCH", headers: { "content-type": "application/json" }, body: JSON.stringify({ sessionId }) });
     const data = (await res.json()) as { summary: SessionRow[] };
@@ -138,6 +185,7 @@ export function DrillSession() {
             ← {lessonId ? "Lesson" : "Drill setup"}
           </Link>
           {lessonId && <Badge tone="info">Lesson check</Badge>}
+          {offlineMode && <Badge tone="warn" data-testid="offline-badge">Offline · will sync</Badge>}
           <Badge tone="accent">{settings.section}</Badge>
           {settings.pair && <Badge>{settings.pair.replace(/_/g, " ")}</Badge>}
           {settings.types?.[0] && <Badge>{typeLabel(settings.types[0])}</Badge>}

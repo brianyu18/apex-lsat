@@ -5,6 +5,7 @@ import { Badge, Card } from "@/components/ui/primitives";
 import { typeLabel } from "@/lib/content/labels";
 import { TRAP_LABELS, type TrapPattern } from "@/lib/content/taxonomy";
 import { ReviewForm } from "@/components/review/review-form";
+import { TutorPanel } from "@/components/tutor/tutor-panel";
 
 export const dynamic = "force-dynamic";
 
@@ -64,6 +65,9 @@ export default async function ReviewDetail({ params }: { params: Promise<{ attem
               {question.keyTakeaway}
             </p>
           )}
+          <div className="mt-4">
+            <TutorPanel questionId={question.id} attemptId={attempt.id} outcome={attempt.correct ? "correct" : "missed"} official={question.source === "official_ref"} />
+          </div>
         </Card>
         <ReviewForm
           attemptId={attempt.id}
