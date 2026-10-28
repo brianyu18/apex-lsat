@@ -27,11 +27,11 @@ type Answer = { answer: string | null; seconds: number; flagged: boolean; change
 
 type Phase = "setup" | "running" | "submitting" | "br" | "results";
 
-export function SectionRunner({ bankCount, kind = "LR" }: { bankCount: number; kind?: "LR" | "RC" }) {
+export function SectionRunner({ bankCount, kind = "LR", lessonId, presetN, presetMinutes }: { bankCount: number; kind?: "LR" | "RC"; lessonId?: string | null; presetN?: number; presetMinutes?: number }) {
   const router = useRouter();
   const [phase, setPhase] = useState<Phase>("setup");
-  const [durationSec, setDurationSec] = useState<number>(35 * 60);
-  const [n, setN] = useState(25);
+  const [durationSec, setDurationSec] = useState<number>((presetMinutes ?? 35) * 60);
+  const [n, setN] = useState(presetN ?? 25);
   const [sessionId, setSessionId] = useState<string | null>(null);
   const [qs, setQs] = useState<Q[]>([]);
   const [passages, setPassages] = useState<SecPassage[]>([]);
@@ -80,6 +80,10 @@ export function SectionRunner({ bankCount, kind = "LR" }: { bankCount: number; k
     const data = (await res.json()) as ResultsPayload;
     setResults(data);
     setPhase("results");
+    // A lesson check (Unit 5 timed sets): 70% timed accuracy completes the lesson.
+    if (lessonId) {
+      await fetch("/api/lessons/progress", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ lessonId, score: data.timedRaw, total: data.n, threshold: 0.7 }) });
+    }
     router.refresh();
   }
 

@@ -136,6 +136,8 @@ export const LessonFrontmatterSchema = z
     /** bank tags (types or logic tags) the 5-question check draws from */
     checkTags: z.array(z.string()).min(1),
     checkSection: z.enum(["LR", "RC"]).default("LR"),
+    /** untimed = drill check (default); timed = short timed LR section; writing = argumentative-writing practice */
+    checkMode: z.enum(["untimed", "timed", "writing"]).default("untimed"),
     diagram: z.string().optional(),
     minutes: z.number().int().min(3).max(40).default(10),
   })

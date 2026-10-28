@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { format } from "date-fns";
-import { Timer, FileText, Upload, SkipForward, Grid3x3 } from "lucide-react";
+import { Timer, FileText, Upload, SkipForward, Grid3x3, PenLine } from "lucide-react";
 import { recentSections } from "@/lib/data/sections";
 import { Badge, Card, CardDescription, CardTitle } from "@/components/ui/primitives";
 import { Button } from "@/components/ui/button";
@@ -41,6 +41,10 @@ export default async function TestPage() {
         <Link href="/test/timing" className="card focus-ring flex items-start gap-3 p-4 hover:border-line-strong">
           <span className="inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-md bg-bg-sunken text-ink-2"><Grid3x3 className="h-5 w-5" /></span>
           <span><span className="block font-semibold">Timing heatmap</span><span className="block text-sm text-ink-2">Where your minutes go, section by section</span></span>
+        </Link>
+        <Link href="/test/writing" className="card focus-ring flex items-start gap-3 p-4 hover:border-line-strong">
+          <span className="inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-md bg-bg-sunken text-ink-2"><PenLine className="h-5 w-5" /></span>
+          <span><span className="block font-semibold">Argumentative Writing</span><span className="block text-sm text-ink-2">15 min prewrite + 35 min essay · saved for review</span></span>
         </Link>
       </div>
       <Card>

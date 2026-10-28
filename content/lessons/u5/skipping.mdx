@@ -1,0 +1,71 @@
+---
+id: u5/skipping
+unit: 5
+order: 2
+title: "Skipping is a skill"
+summary: "A first pass that banks what you own, a return pass for what you deferred, a skip budget set by your goal score, and a trainer that grades the decision rather than the answer."
+checkTags: [weaken, sufficient_assumption, parallel_flaw, resolve_explain]
+checkSection: LR
+checkMode: timed
+minutes: 10
+---
+
+## The rule
+
+Take every section in two passes. First pass: answer what you can see into; defer what you cannot in ten seconds or less. Return pass: the deferred questions, hardest last. Nothing is left blank.
+
+A skip is not a surrender; it spends that question's time later, when the easy points are banked.
+
+## How many
+
+The program's working policy by goal:
+
+| Goal | First-pass skips per section |
+|---|---|
+| 175+ | 0 to 2 |
+| 170 to 174 | 2 to 4 |
+| Below 170 | 3 to 5 |
+
+The logic is arithmetic. A 170 can miss roughly three or four a section; a 175 about one. A target that allows four misses has no reason to pay 150 seconds for a hard question while four cheaper ones wait behind it. A target that allows one needs nearly every question, so you skip only what would become a bleed.
+
+## What to skip
+
+A candidate has at least one of these:
+
+- A dense stimulus: three or more sentences of conditional or causal structure, or two long speakers.
+- A type that runs slow for you. Your two slowest types on `/test/timing` are candidates by default.
+- A question that needs a diagram (parallel reasoning, a conditional chain, numbers and percentages) when you are already behind a checkpoint.
+
+Not a candidate: a short stimulus, which is almost always cheap, or a type you own. Flaw at 95 percent in 60 seconds does not get skipped for looking wordy.
+
+## The verdicts
+
+`/test/skip-trainer` runs a section where you declare attempt or skip before each question, then scores the decision. "Slow" means more than 1.8 times your median for that section.
+
+| Verdict | What happened | What it means |
+|---|---|---|
+| Clean attempt | Attempted, right, not slow | The system working |
+| Costly attempt | Attempted, right, slow | Right, but paid twice; skip this shape next time |
+| Time bleed | Attempted, wrong, slow | Long and wrong; costs a later question |
+| Good skip | Skipped, right on return | Correct order; point banked |
+| Skipped a gimme | Skipped an easy one, lost it | Skips should be hard-looking, not short |
+
+Two neutral verdicts, an honest miss (fast and wrong) and a reasonable skip still missed, score zero and need no fix.
+
+Two bleeds in a section means the 45-second rule is not yet a reflex. More skips than policy means you are abandoning questions you could bank; trust the first read longer. Fewer than policy is fine if you finished comfortably and a problem if the last five were rushed.
+
+## Protocol
+
+<Steps>
+1. Set your goal score in the trainer so the policy range is yours.
+2. First pass: stem, then stimulus. Structure by 45 seconds: finish it. No structure: pick a survivor, flag, go.
+3. Behind at a checkpoint: lower the threshold. The next dense stimulus is a skip on sight.
+4. Finish the first pass. Note the clock.
+5. Return pass: shortest flagged question first, then your strongest type, then the rest. Reread the stimulus fresh, not your old reasoning.
+6. With 30 seconds left, fill every blank with the same letter.
+7. Read the verdicts before the answer key; costly attempts and skipped gimmes change next week's plan.
+</Steps>
+
+<KeyIdea>
+Skip by policy, not by mood: a budget set by your goal, candidates chosen by density and your own heatmap, and a return pass that pays the deferred price once the cheap points are in the bank.
+</KeyIdea>

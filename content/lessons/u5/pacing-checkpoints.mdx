@@ -1,0 +1,67 @@
+---
+id: u5/pacing-checkpoints
+unit: 5
+order: 1
+title: "Pacing checkpoints"
+summary: "Four clock checks per LR section, a front-loaded curve that matches where the hard questions sit, and a 45-second rule for leaving a question you cannot see into."
+checkTags: [flaw, necessary_assumption, must_be_true, strengthen]
+checkSection: LR
+checkMode: timed
+diagram: PacingSimulator
+minutes: 11
+---
+
+## The rule
+
+Check the clock four times in a Logical Reasoning section, and only at these points:
+
+| After question | Elapsed by | Remaining |
+|---|---|---|
+| 10 | 9:00 | 26:00 |
+| 15 | 15:00 | 20:00 |
+| 20 | 24:00 | 11:00 |
+| 25 | 33:00 | 2:00 |
+
+Ahead: do not look again until the next one. Behind: the next lesson's skip rules apply immediately.
+
+## Why the curve is front-loaded
+
+The targets are not 84 seconds a question. The first ten get 54 seconds each; the next five get 72; the last ten get 108, with two minutes of buffer at the end.
+
+That shape matches the section. LR sections run easy to hard, with the hardest cluster roughly 60 to 85 percent of the way through and a slightly easier close. Eighty seconds on question 3 does not buy a better answer; it spends time question 17 needs. On the `/test/timing` heatmap the red columns should be the middle-late ones; red early columns mean overthinking questions you already own.
+
+## The 45-second rule
+
+By about 45 seconds into a question you should see its structure: the conclusion, the move the argument makes, and what the stem wants. If you do not, flag it, pick the best survivor if one stands out, and move. Do not read the stimulus a third time. A question that has not opened in 45 seconds needs a cold second look, not a longer first one.
+
+The rule is about recognition, not completion: spend 100 seconds on a question you *do* see into, not on one you are staring at.
+
+## See it move
+
+<PacingSimulator />
+
+Take the four presets in order:
+
+1. **Even pace.** 80 seconds everywhere. You finish with 1:40 to spare, but the curve sits above every hollow dot: behind at all four checkpoints, and one slow question breaks it.
+2. **Fast early, slow late.** 50 / 80 / 115. The shape is right: under every checkpoint, done at 34:25. Now drag the hard slider to 130 and watch seven hard questions run the clock out at question 22. Fifteen seconds a question is the whole margin.
+3. **One bleed.** Same speeds plus one four-minute question. A curve that cleared now dies at question 23; the two questions a bleed steals are the easy ones at the end you never saw.
+4. **Skip and return.** 50 / 80 / 130 with three first-pass skips. The first pass ends at 30:10 with every easy question banked; the returns come back at full price and the third does not fit. Skipping buys order, not time. What it bought was question 25.
+
+Now set the sliders to your own medians from `/test/timing`. If the curve does not clear 35:00, the number to change is the hard one.
+
+## RC checkpoints
+
+Reading Comprehension checks at passage ends, reading the clock as it counts down: passage 1 done at 26:00 or later, passage 2 at 17:30, passage 3 at 9:00, every bubble filled by 0:30.
+
+## Protocol
+
+<Steps>
+1. Before the section, say the four numbers once: nine, fifteen, twenty-four, thirty-three.
+2. Glance at the clock only when you submit questions 10, 15, 20, and 25.
+3. Behind by more than a minute: skip the next dense-looking question on sight and return to it last.
+4. At 45 seconds without structure: flag, pick a survivor, move.
+</Steps>
+
+<KeyIdea>
+Four clock checks, targets front-loaded to match where the hard questions live, and one habit that protects them: if a question has not shown you its structure by 45 seconds, flag it and move.
+</KeyIdea>

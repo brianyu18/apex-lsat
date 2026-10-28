@@ -5,6 +5,9 @@ import { BookOpen, Inbox, Target, Flame, Timer } from "lucide-react";
 import { dashboardData, daysToTest } from "@/lib/data/dashboard";
 import { getLessonsWithProgress } from "@/lib/data/lessons";
 import { currentBottlenecks } from "@/lib/data/bottleneck";
+import { studyQualityNow } from "@/lib/data/analytics";
+import { qualityBand } from "@/lib/scoring/quality";
+import { QualityRing } from "@/components/analytics/charts";
 import { typeLabel } from "@/lib/content/labels";
 import { LOGIC_TAG_LABELS, type LogicTag } from "@/lib/content/taxonomy";
 import { PHASE_LABELS, type Phase } from "@/lib/planner/generate";
@@ -17,7 +20,9 @@ export default async function Home() {
   const d = await dashboardData();
   if (!d.settings.onboarded) redirect("/onboarding");
   const { lessons } = await getLessonsWithProgress();
-  const bottlenecks = await currentBottlenecks();
+  const [bottlenecks, quality] = await Promise.all([currentBottlenecks(), studyQualityNow()]);
+  const qBand = qualityBand(quality.total);
+  const weakest = [...quality.parts].sort((a, b) => a.points / a.max - b.points / b.max)[0];
   const nextLesson = lessons.find((l) => l.progress?.status !== "complete");
   const left = daysToTest(d.settings.testDate);
   const lr = d.sectionSkills.LR;
@@ -123,6 +128,14 @@ export default async function Home() {
               Last 14 days: <span className="font-medium text-ink">{accPct}%</span> on {d.acc.n} counted questions
             </p>
           )}
+          <Link href="/analytics" className="mt-4 flex items-center gap-3 rounded-md border border-line p-3 hover:border-line-strong" data-testid="quality-card">
+            <QualityRing total={quality.total} size={56} />
+            <span className="min-w-0">
+              <span className="block text-xs font-medium uppercase tracking-wider text-ink-3">Study quality · 30 days</span>
+              <span className="block text-sm font-semibold">{qBand.label}</span>
+              <span className="block truncate text-xs text-ink-2">{weakest ? `Lowest: ${weakest.label.toLowerCase()} ${weakest.points}/${weakest.max}` : ""}</span>
+            </span>
+          </Link>
         </Card>
       </div>
 

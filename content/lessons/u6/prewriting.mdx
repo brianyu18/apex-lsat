@@ -1,0 +1,74 @@
+---
+id: u6/prewriting
+unit: 6
+order: 2
+title: "The 15 minutes"
+summary: "A minute-by-minute prewrite: read, rank the perspectives, commit, write the thesis as a claim, find two reasons with support, and choose the objection that actually threatens you."
+checkTags: [writing]
+checkSection: LR
+checkMode: writing
+diagram: OutlineBuilder
+minutes: 11
+---
+
+## Why the first clock matters more
+
+The 35 minutes go well or badly according to what you carry into them. A writer with a thesis, two supported reasons, and a chosen objection is transcribing. A writer without them is deciding and writing at once, and the essay drifts. Use the full 15 minutes; `/test/writing` lets you end the clock early, but you should rarely want to.
+
+## The protocol
+
+<Steps>
+1. **Read (2 min).** Context, issue, every perspective. Note what each one wants and what it fears.
+2. **Rank (2 min).** Which perspective is strongest, meaning hardest to argue against? Which is weakest? You will usually argue near the strongest and answer the second strongest.
+3. **Commit (1 min).** One perspective, a combination, or your own. Choose the position you can defend, not the one you believe. Nobody is grading your convictions; they are reading your reasoning.
+4. **Thesis (2 min).** One sentence, written as a claim.
+5. **Two reasons with support (5 min).** Each reason answers "why?"; each support answers "how do you know?"
+6. **Objection and reply (3 min).** Name the perspective that most threatens the thesis, write what it gets right, and write why your position holds anyway.
+</Steps>
+
+## "I think X" is not a thesis
+
+"I think the town should require hosts to live on site" reports your state of mind, and a reader cannot disagree with a report. Delete the frame and state the claim with its grounds: "Pell Harbor should require short-term rental hosts to live on the property, because absentee rentals remove housing from residents and leave no one accountable for guests." Subject, verb, because. The outline check rejects a thesis that opens with "I think," and so should you.
+
+## A reason is not a restatement
+
+| Thesis | Restatement | Reason |
+|---|---|---|
+| Hosts should live on site | Owner-occupancy is the right policy for the town | Absentee rentals convert year-round housing into hotel rooms |
+| Hosts should live on site | The town needs this rule | A resident host answers to neighbors in a way a management company does not |
+
+Test: a reason could be false while the thesis stayed true. A restatement cannot.
+
+## What counts as support
+
+Each reason needs one of three things under it.
+
+- **Example:** a concrete case. *On Tern Street, six of the nine houses sold since 2019 became rentals, and the elementary school lost a classroom's worth of enrollment.*
+- **Mechanism:** why the reason works. *A host who sleeps in the building hears the party at midnight; a host in another state learns of it from a fine three weeks later.*
+- **Consequence:** what follows from acting or not. *Without the rule, the next sale on every block is priced for an investor rather than a family, and prices ratchet up one house at a time.*
+
+Invented details are fine; this tests reasoning, not research. Keep them specific.
+
+## Which objection
+
+Pick the perspective that most threatens your thesis, not the one easiest to knock down. Answering the weak perspective while ignoring the strong one reads as evasion. If Perspective C below solves the same problem with less intrusion, C is your objection, even though B is easier to dismiss.
+
+Run the protocol on this prompt with a timer set to 15 minutes.
+
+<OutlineBuilder
+  prompt={{
+    title: "Short-term rentals",
+    context: "Pell Harbor, a coastal town of 6,000, has seen roughly one house in eight become a short-term vacation rental in the last five years. The town council is debating an ordinance that would permit short-term rentals only where the host lives on the property.",
+    issue: "Should Pell Harbor require short-term rental hosts to live on the property they rent?",
+    perspectives: [
+      { label: "A", text: "Yes. Investor-owned rentals take year-round housing off the market and leave nobody on site to answer for noise and trash. An owner-occupancy rule keeps rentals in the hands of residents." },
+      { label: "B", text: "No. Owners may do with their property what the law otherwise allows, and the rentals bring visitors who sustain the restaurants and shops. Regulate nuisances directly, with fines." },
+      { label: "C", text: "Cap the number of rental permits town-wide and auction them each year. That limits the housing loss without telling anyone where they must sleep." },
+      { label: "D", text: "Allow rentals freely, tax each booking, and dedicate the revenue to building rent-restricted housing. The problem is housing supply, and this pays for it." }
+    ]
+  }}
+/>
+
+<KeyIdea>
+Prewriting is choosing: a defensible position, a thesis that is a claim, two reasons that could each be wrong, support under each, and the objection that actually threatens you. Every choice made now is one you do not make at minute 22.
+</KeyIdea>

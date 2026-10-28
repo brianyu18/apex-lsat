@@ -1,0 +1,70 @@
+---
+id: u5/confidence-calibration
+unit: 5
+order: 3
+title: "Confidence and calibration"
+summary: "Tag every timed answer sure, leaning, or guess; compare the tag to the outcome; and let blind review tell you whether a miss was time pressure or a knowledge gap."
+checkTags: [most_strongly_supported, flaw, principle, main_conclusion]
+checkSection: LR
+checkMode: timed
+minutes: 9
+---
+
+## The rule
+
+Every answer you submit in `/test/section` and `/test/pt` carries one of three tags: **sure**, **leaning**, or **guess**. It takes one second and turns a score into a diagnosis.
+
+## What calibration means
+
+You are calibrated when your confidence predicts your accuracy. The program's working targets:
+
+| Tag | Target accuracy | A miss here means |
+|---|---|---|
+| Sure | 90 percent or higher | A real method error; worth a review card |
+| Leaning | 60 to 75 percent | Expected; the second pass should raise it |
+| Guess | 25 to 40 percent | Chance plus elimination; fine |
+
+The program computes these from your tagged timed answers; its coaching line speaks once a bucket holds about twenty items. Act on the shape of the three numbers, not the overall score.
+
+## Two bad shapes
+
+**Overconfident:** "sure" accuracy in the 70s or low 80s. You are committing to answers that have not earned it, usually by matching a keyword instead of the prephrase. The fix is procedural: on every "sure" tag, name the trap the runner-up would have been. If you cannot, the tag is "leaning." Review every sure-but-wrong item the same day; those misses do not feel like misses, and they repeat.
+
+**Underconfident:** "leaning" accuracy above 85 percent with half the section tagged leaning. You know more than you trust, and the cost is time: every leaning tag brings an unneeded reread. Commit on the first clean match and move.
+
+Both patterns are invisible without tags; a 22/25 looks identical either way.
+
+## The under-10-second flag
+
+Any answer submitted in under 10 seconds is flagged as a guess, whatever tag you chose; you can un-flag a genuine instant read. Guesses count toward the section score but not toward accuracy or rating updates, and a guess that lands right goes to the inbox as "Guessed right" so you review it as a miss. That keeps buzzer fills from flattering your numbers.
+
+## What blind review adds
+
+Blind review redoes every flagged or uncertain question untimed before the key. Each question then has two answers; the pair is the diagnosis:
+
+| Outcome | Timed, then review | Diagnosis | Action |
+|---|---|---|---|
+| right_right | right, right | Known | Nothing |
+| wrong_right | wrong, right | Time pressure | Pacing and skip work, not content |
+| wrong_wrong | wrong, wrong | Knowledge gap | Back to the type lesson; drill untimed |
+| right_wrong | right, wrong | Careless on review, or lucky | If lucky, treat as wrong_wrong |
+| blank_* | never reached | Pacing | Count them; they are what bleeds cost |
+
+The ratio of wrong_right to wrong_wrong sets next week. Mostly wrong_right: you have the content and need the clock; sections and the skip trainer. Mostly wrong_wrong: timing work is premature; back to the unit for those types.
+
+<Callout tone="warn" title="Do not look at the key first">
+A blind review done after seeing the answers produces right_right everywhere and tells you nothing. The inbox puts the untimed pass before the reveal; keep it that way.
+</Callout>
+
+## Protocol
+
+<Steps>
+1. Tag every answer before submitting; default to "leaning" when unsure.
+2. After the section, blind review every flagged, leaning, and guess item before the key.
+3. In the inbox, review sure-but-wrong first, wrong_wrong second.
+4. Once a week, check the three accuracies. Sure under 90: the runner-up-trap habit goes on tomorrow's list.
+</Steps>
+
+<KeyIdea>
+Confidence tags turn a score into a diagnosis: sure-but-wrong is a method error, wrong_right is time pressure, wrong_wrong is a gap, and only one of those is fixed by more timed sections.
+</KeyIdea>

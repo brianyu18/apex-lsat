@@ -36,9 +36,21 @@ export default async function LessonPage({ params }: { params: Promise<{ unit: s
   if (!rcCheck.styles.length) delete (rcCheck as { styles?: string[] }).styles;
   if (!rcCheck.qtypes.length) delete (rcCheck as { qtypes?: string[] }).qtypes;
   const checkHref =
-    l.checkSection === "RC"
-      ? `/drill/rc?lesson=${encodeURIComponent(id)}&s=${encodeURIComponent(JSON.stringify(rcCheck))}`
-      : `/drill/session?lesson=${encodeURIComponent(id)}&s=${encodeURIComponent(JSON.stringify(checkSettings))}`;
+    l.checkMode === "writing"
+      ? `/test/writing?lesson=${encodeURIComponent(id)}`
+      : l.checkMode === "timed"
+        ? `/test/section?lesson=${encodeURIComponent(id)}&n=10&min=14`
+        : l.checkSection === "RC"
+          ? `/drill/rc?lesson=${encodeURIComponent(id)}&s=${encodeURIComponent(JSON.stringify(rcCheck))}`
+          : `/drill/session?lesson=${encodeURIComponent(id)}&s=${encodeURIComponent(JSON.stringify(checkSettings))}`;
+  const checkCopy =
+    l.checkMode === "writing"
+      ? { title: "Check: a timed essay", body: "A full Argumentative Writing prompt: 15 minutes to prewrite, 35 to write. Saving the essay marks the lesson complete; your outline and timings are kept for review." }
+      : l.checkMode === "timed"
+        ? { title: "Check: a 10-question timed set", body: "Ten mixed LR questions in 14 minutes, in the LawHub interface, with blind review after. Score 7 of 10 timed to mark the lesson complete." }
+        : l.checkSection === "RC"
+          ? { title: "Check: one passage", body: "A full passage set from the bank matching this lesson, untimed. Get 80% to mark the lesson complete; misses go to your Review Inbox." }
+          : { title: "Check: five questions", body: "Drawn from the bank by this lesson’s tags, untimed. Get 4 of 5 to mark the lesson complete; misses go to your Review Inbox." };
 
   return (
     <article className="mx-auto max-w-3xl">
@@ -65,8 +77,8 @@ export default async function LessonPage({ params }: { params: Promise<{ unit: s
       </div>
 
       <Card className="mt-10 border-accent">
-        <h2 className="text-lg font-semibold">{l.checkSection === "RC" ? "Check: one passage" : "Check: five questions"}</h2>
-        <p className="mt-1 text-sm text-ink-2">{l.checkSection === "RC" ? "A full passage set from the bank matching this lesson, untimed. Get 80% to mark the lesson complete; misses go to your Review Inbox." : "Drawn from the bank by this lesson’s tags, untimed. Get 4 of 5 to mark the lesson complete; misses go to your Review Inbox."}</p>
+        <h2 className="text-lg font-semibold">{checkCopy.title}</h2>
+        <p className="mt-1 text-sm text-ink-2">{checkCopy.body}</p>
         <div className="mt-4 flex flex-wrap gap-2">
           <Button asChild>
             <Link href={checkHref}>Start the check</Link>

@@ -18,6 +18,9 @@
   --accent: #7a1f2b;
   --accent-ink: #ffffff;
   --accent-soft: #f4e3e5;
+  /* chart series (validated categorical pair: timed vs blind review) */
+  --chart-1: #a3394a;
+  --chart-2: #1f6fb0;
   --ok: #2f6b3a;
   --ok-soft: #e3efe3;
   --warn: #9a6a12;
@@ -43,6 +46,10 @@
     --accent: #d6626f;
     --accent-ink: #1a0b0e;
     --accent-soft: #3a1c21;
+  --chart-1: #d6626f;
+  --chart-2: #3d93e8;
+    --chart-1: #d6626f;
+    --chart-2: #3d93e8;
     --ok: #7fc08a;
     --ok-soft: #1c2e1f;
     --warn: #e2b55a;
@@ -88,6 +95,8 @@
   --color-line-strong: var(--line-strong);
   --color-accent: var(--accent);
   --color-accent-ink: var(--accent-ink);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
   --color-accent-soft: var(--accent-soft);
   --color-ok: var(--ok);
   --color-ok-soft: var(--ok-soft);
