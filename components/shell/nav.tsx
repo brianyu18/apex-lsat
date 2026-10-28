@@ -15,7 +15,7 @@ const items = [
   { href: "/plan", label: "Plan", icon: CalendarDays },
 ];
 
-export function SideNav() {
+export function SideNav({ signOut = false }: { signOut?: boolean }) {
   const path = usePathname();
   return (
     <nav aria-label="Primary" className="hidden md:flex md:w-56 md:shrink-0 md:flex-col md:gap-1 md:border-r md:border-line md:p-4">
@@ -40,6 +40,11 @@ export function SideNav() {
           </Link>
         );
       })}
+      {signOut && (
+        <a href="/auth/signout" className="focus-ring mt-auto px-3 py-2 text-xs text-ink-3 hover:text-ink">
+          Sign out
+        </a>
+      )}
     </nav>
   );
 }

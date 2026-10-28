@@ -55,7 +55,8 @@ export function TutorPanel({ questionId, attemptId, outcome = "missed", official
       if (!acc.trim()) throw new Error("Empty reply from the tutor.");
     } catch (e) {
       if ((e as Error).name !== "AbortError") {
-        setError((e as Error).message.includes("claude CLI") ? "The tutor runs through the local `claude` CLI. Make sure it's installed and logged in on this machine (or set ANTHROPIC_API_KEY)." : (e as Error).message);
+        const msg = (e as Error).message;
+        setError(msg.includes("claude CLI") ? "The tutor runs through the local `claude` CLI. Make sure it's installed and logged in on this machine (or set ANTHROPIC_API_KEY)." : msg);
         setMsgs(next);
       }
     } finally {

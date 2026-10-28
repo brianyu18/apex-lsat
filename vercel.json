@@ -1,0 +1,5 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "regions": ["sfo1"],
+  "functions": { "app/api/tutor/route.ts": { "maxDuration": 60 } }
+}

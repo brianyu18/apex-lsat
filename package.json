@@ -14,7 +14,10 @@
     "db:generate": "drizzle-kit generate",
     "db:migrate": "tsx lib/db/migrate.ts",
     "content:load": "tsx scripts/load-content.ts",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "cloud:setup": "tsx scripts/cloud-setup.ts",
+    "cloud:backup": "tsx scripts/cloud-backup.ts",
+    "cloud:restore": "tsx scripts/cloud-restore.ts"
   },
   "dependencies": {
     "@electric-sql/pglite": "^0.5.12",
@@ -28,9 +31,12 @@
     "@radix-ui/react-switch": "^1.4.1",
     "@radix-ui/react-tabs": "^1.2.1",
     "@radix-ui/react-tooltip": "^1.4.1",
+    "@supabase/ssr": "^0.12.7",
+    "@supabase/supabase-js": "^2.118.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "date-fns": "^4.4.0",
+    "dotenv": "^18.0.9",
     "drizzle-orm": "^0.45.4",
     "gray-matter": "^4.0.3",
     "lucide-react": "^1.61.0",

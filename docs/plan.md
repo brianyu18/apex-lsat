@@ -256,7 +256,7 @@ Builds the personal LSAT study tool from the spec in five phases, each ending in
 | 3.6 Skip trainer | ✅ | `lib/engine/skip-policy.ts`, `components/test/skip-trainer.tsx`, `/test/skip-trainer` (10 s gate, return pass, decision score) |
 | 3.7 PT simulator | ✅ | `lib/data/pt.ts`, `components/test/{lawhub-section,pt-runner}.tsx`, `/test/pt` (random experimental, 10-min break, single BR, scaled) |
 | 3.8 LawHub import | ✅ | `lib/import/lawhub.ts` (grid + CSV), `lib/data/import.ts`, `/test/import` |
-| 3.9 Cloud switch | ⏸ deferred until Brian asks (DATABASE_URL swap already supported) | — |
+| 3.9 Cloud switch | ✅ Supabase project `wvktfgjmwosjtkuxvzrn` (schema, RLS, bank loaded from session); pg client hardened for serverless; Supabase Auth magic-link gate with email allowlist (`middleware.ts`, `/signin`, `/auth/*`); `pnpm cloud:setup/backup/restore`; `vercel.json` (sfo1); tutor falls back to "unavailable" without CLI/API key. Vercel import + DB password are Brian's steps (docs/deploy.md) | `docs/deploy.md` |
 
 ---
 

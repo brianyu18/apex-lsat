@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import { SideNav, BottomNav } from "@/components/shell/nav";
 import { Pwa } from "@/components/shell/pwa";
+import { authEnabled } from "@/lib/auth/config";
 
 export const metadata: Metadata = {
   title: { default: "Apex LSAT", template: "%s · Apex LSAT" },
@@ -23,7 +24,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     <html lang="en" suppressHydrationWarning>
       <body className="min-h-dvh">
         <div className="mx-auto flex min-h-dvh max-w-7xl">
-          <SideNav />
+          <SideNav signOut={authEnabled()} />
           <main className="min-w-0 flex-1 px-4 pb-24 pt-6 md:px-8 md:pb-10">{children}</main>
         </div>
         <BottomNav />

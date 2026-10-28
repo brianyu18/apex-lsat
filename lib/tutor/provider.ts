@@ -9,15 +9,23 @@ export type ChatMessage = { role: "user" | "assistant"; content: string };
  *  - otherwise → the local `claude` CLI in print mode, which uses the
  *    machine's subscription login. Tools disabled, one turn, no session file.
  */
-export function tutorProvider(): "api" | "cli" {
-  return process.env.ANTHROPIC_API_KEY ? "api" : "cli";
+export function tutorProvider(): "api" | "cli" | "none" {
+  if (process.env.ANTHROPIC_API_KEY) return "api";
+  // No CLI on serverless hosts; APEX_TUTOR_CLI=0 disables it explicitly.
+  if (process.env.VERCEL || process.env.APEX_TUTOR_CLI === "0") return "none";
+  return "cli";
 }
+
+/** Shown to the student when no provider is available (cloud deploy without an API key). */
+export const TUTOR_UNAVAILABLE = "The tutor isn't enabled on this deployment. Run the app on your laptop (where `claude` is signed in) for tutor sessions, or add ANTHROPIC_API_KEY to the cloud environment.";
 
 export const TUTOR_MODEL = process.env.APEX_TUTOR_MODEL ?? "sonnet";
 
 /** Streams the tutor's reply as text chunks. */
 export function streamTutor(systemPrompt: string, messages: ChatMessage[], signal?: AbortSignal): ReadableStream<Uint8Array> {
-  return tutorProvider() === "api" ? streamViaApi(systemPrompt, messages, signal) : streamViaCli(systemPrompt, messages, signal);
+  const p = tutorProvider();
+  if (p === "none") throw new Error(TUTOR_UNAVAILABLE);
+  return p === "api" ? streamViaApi(systemPrompt, messages, signal) : streamViaCli(systemPrompt, messages, signal);
 }
 
 /** Non-streaming convenience (QA script, tests). */
@@ -84,13 +92,14 @@ function streamViaCli(systemPrompt: string, messages: ChatMessage[], signal?: Ab
 
 function streamViaApi(systemPrompt: string, messages: ChatMessage[], signal?: AbortSignal): ReadableStream<Uint8Array> {
   const enc = new TextEncoder();
-  const model = process.env.APEX_TUTOR_API_MODEL ?? "claude-sonnet-4-5";
+  const model = process.env.APEX_TUTOR_API_MODEL ?? "claude-sonnet-5-5";
   return new ReadableStream<Uint8Array>({
     async start(controller) {
       const res = await fetch("https://api.anthropic.com/v1/messages", {
         method: "POST",
         headers: { "content-type": "application/json", "x-api-key": process.env.ANTHROPIC_API_KEY!, "anthropic-version": "2023-06-01" },
-        body: JSON.stringify({ model, max_tokens: 600, system: systemPrompt, messages, stream: true }),
+        // The grounding block is identical across a conversation's turns, so cache it (large input discount).
+        body: JSON.stringify({ model, max_tokens: 600, system: [{ type: "text", text: systemPrompt, cache_control: { type: "ephemeral" } }], messages, stream: true }),
         signal,
       });
       if (!res.ok || !res.body) {
