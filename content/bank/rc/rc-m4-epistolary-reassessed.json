@@ -1,0 +1,175 @@
+{
+  "id": "rc-m4-epistolary-reassessed",
+  "style": "spotlight",
+  "topic": "humanities",
+  "comparative": false,
+  "title": "Hester Vane's Novel in Letters",
+  "paragraphs": [
+    "When Hester Vane published The Correspondents in 1912, the novel in letters had been, by general agreement, dead for a century. Its great age had closed with the eighteenth century, and the form survived chiefly as a curiosity, revived now and then for sentimental effect. Reviewers treated Vane's choice as an affectation, and the more generous among them regretted that a writer of her evident gifts had confined herself to a vehicle so plainly incapable of carrying the psychological freight that the modern novel had learned to bear. The book sold modestly, was not reprinted in her lifetime, and for several decades thereafter was mentioned, when at all, as a late and minor instance of a superseded mode.",
+    "What the reviewers passed over, and what strikes any reader who comes to the book now, is how little it resembles the tradition it was accused of imitating. The letters are undated and unsigned, attributable to their writers only by inference from style and circumstance. Several correspondents never meet, and at least two appear to be describing the same events in versions that cannot both be true. There is no editor's preface of the kind the older novels used to vouch for their documents, and no closing letter that gathers the threads. The reader is left to construct a chronology the book declines to supply and to decide which of its voices, if any, is to be believed.",
+    "Julian Ashby's recent study has done most to bring these features into view, and his claim that The Correspondents belongs with the experimental fiction of its decade rather than with the sentimental revivals of the previous one seems to me simply correct. Ashby goes further, however. He reads the novel as an anticipation of the fragmentary and multi-voiced fiction of the following generation, a work that arrived before the vocabulary that would have made it legible, and he treats Vane's choice of letters as, in effect, incidental: a form seized upon because it happened to permit effects she could not otherwise have achieved.",
+    "It is here that the reassessment overreaches. The epistolary novel had always lived on the gaps between its documents, on the reader's awareness that each letter is partial, interested, and written in ignorance of what the next will reveal. The eighteenth-century masters managed these gaps carefully, supplying editors and dates to keep the reader oriented; Vane removed the scaffolding and let the gaps do their work unaided. That is a radicalization of the form's native resources, not a departure from them. To call her a modernist who happened to use letters is to repeat, in reverse, the reviewers' error of supposing that the letters were the least interesting thing about the book."
+  ],
+  "roleMap": {
+    "paragraphs": ["context", "support", "counterpoint", "main_point"],
+    "viewpoints": [
+      { "who": "Contemporary reviewers", "position": "Vane's use of the letter form was an affectation; the form could not carry modern psychological weight.", "authorAgrees": false },
+      { "who": "Julian Ashby", "position": "The Correspondents is experimental fiction anticipating later fragmentary novels, and the letter form was incidental to its effects.", "authorAgrees": null },
+      { "who": "The author", "position": "Vane radicalized the epistolary form's own resources, the gaps between letters, rather than departing from the form.", "authorAgrees": true }
+    ],
+    "tone": "appreciative with a pointed reservation"
+  },
+  "lowResSummary": "Author endorses Ashby's rescue of Vane's novel but argues its innovation radicalized the epistolary form's own resources rather than abandoning them.",
+  "questions": [
+    {
+      "id": "rc-m4-epistolary-reassessed-q1",
+      "type": "main_point",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately expresses the main point of the passage?",
+      "choices": {
+        "A": "Vane's The Correspondents was neglected for decades because its first reviewers mistakenly believed that the epistolary novel could no longer carry psychological weight.",
+        "B": "Ashby's study has demonstrated conclusively that The Correspondents anticipated the fragmentary, multi-voiced fiction of the generation after Vane's.",
+        "C": "Ashby rightly places The Correspondents among the experimental fiction of its time, but its innovation intensifies the epistolary form rather than departing from it.",
+        "D": "The epistolary novel never truly died, since its central device, the gap between documents, continued to be exploited by twentieth-century novelists such as Vane.",
+        "E": "The Correspondents is a difficult novel because its letters are undated, unsigned, and in several instances mutually contradictory."
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "Half right. The reviewers' error is background in paragraph 1; the passage's argument is about Ashby's reassessment.",
+        "B": "Opposite. Paragraph 4 calls this further claim the point where 'the reassessment overreaches.'",
+        "C": "Correct. Paragraph 3 accepts Ashby's placement ('simply correct'); paragraph 4 insists the novel is 'a radicalization of the form's native resources, not a departure.'",
+        "D": "Extreme. The author says the form 'had been, by general agreement, dead for a century' and makes no claim about its continuous life.",
+        "E": "Wrong part. These are descriptive details from paragraph 2, not the thesis."
+      },
+      "trapPatterns": { "A": "half_right", "B": "opposite", "D": "extreme", "E": "wrong_part" },
+      "keyTakeaway": "Spotlight passages that reassess a reassessment split the critic's claim in two; the main point keeps the accepted half and corrects the other.",
+      "evidence": [2, 3]
+    },
+    {
+      "id": "rc-m4-epistolary-reassessed-q2",
+      "type": "stated",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "According to the passage, The Correspondents differs from eighteenth-century epistolary novels in that it",
+      "choices": {
+        "A": "concerns correspondents who exchange letters over a period of many years",
+        "B": "was written chiefly in order to produce a sentimental effect on its readers",
+        "C": "includes a closing letter that finally resolves the chronology of events",
+        "D": "was reprinted frequently in the decades following its first publication",
+        "E": "lacks an editorial preface vouching for the authenticity of its letters"
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "Out of scope. The passage says nothing about the time span of the correspondence.",
+        "B": "Opposite. Sentimental effect is what the revivals aimed at; Ashby and the author place Vane with experimental fiction instead.",
+        "C": "Reversal. Paragraph 2 says there is 'no closing letter that gathers the threads.'",
+        "D": "Opposite. The book 'was not reprinted in her lifetime.'",
+        "E": "Correct. 'There is no editor's preface of the kind the older novels used to vouch for their documents.'"
+      },
+      "trapPatterns": { "A": "out_of_scope", "B": "opposite", "C": "reversal", "D": "opposite" },
+      "keyTakeaway": "Paragraph 2 is a catalogue of absences; the correct detail is one of the things the novel lacks that the older form supplied.",
+      "evidence": [1]
+    },
+    {
+      "id": "rc-m4-epistolary-reassessed-q3",
+      "type": "purpose_in_context",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The author refers to the 'scaffolding' of editors and dates primarily in order to",
+      "choices": {
+        "A": "identify devices by which earlier novelists kept readers oriented, which Vane removed",
+        "B": "show that Vane's novel borrowed its structure directly from eighteenth-century models",
+        "C": "illustrate the sentimental effects for which the epistolary form had periodically been revived",
+        "D": "support Ashby's contention that the letter form was incidental to Vane's purposes",
+        "E": "explain why reviewers in 1912 found the novel impossible to assign to any tradition"
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. 'The eighteenth-century masters... supplying editors and dates to keep the reader oriented; Vane removed the scaffolding.'",
+        "B": "Opposite. The point is that Vane removed what the models supplied.",
+        "C": "Shell game. Sentimental revivals are mentioned in paragraph 1 and have nothing to do with editorial apparatus.",
+        "D": "Opposite. The scaffolding point is the author's argument against Ashby's 'incidental' claim.",
+        "E": "Out of scope. Reviewers assigned the novel confidently, if wrongly, to a superseded mode."
+      },
+      "trapPatterns": { "B": "opposite", "C": "shell_game", "D": "opposite", "E": "out_of_scope" },
+      "keyTakeaway": "The scaffolding metaphor sets up the contrast 'removed... let the gaps do their work unaided,' which is the author's evidence that Vane worked within the form.",
+      "evidence": [3]
+    },
+    {
+      "id": "rc-m4-epistolary-reassessed-q4",
+      "type": "author_perspective",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "It can be inferred from the passage that the author would be most likely to agree with which one of the following?",
+      "choices": {
+        "A": "A work's reception by its first reviewers is generally a reliable guide to its eventual place in literary history.",
+        "B": "Vane could have achieved the same effects in a conventional third-person narrative had she chosen to.",
+        "C": "The experimental fiction of the 1910s derived most of its techniques from the epistolary tradition.",
+        "D": "A critic may correctly identify a work's significance while misdescribing the source of its innovation.",
+        "E": "Vane's contemporaries would have recognized the novel's originality had it appeared a decade later."
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "Opposite. The reviewers 'passed over' what now strikes any reader; the author treats their verdict as an error.",
+        "B": "Opposite. The author's whole point is that the effects came from the letter form's 'native resources.'",
+        "C": "Extreme. The author claims only that Vane's novel radicalized the form, not that the decade's fiction generally derived from it.",
+        "D": "Correct. Ashby's placement is 'simply correct,' yet his account of the letters as 'incidental' is where 'the reassessment overreaches.'",
+        "E": "Out of scope. The passage offers no counterfactual about later reception; Ashby's 'vocabulary' remark is his view, not the author's."
+      },
+      "trapPatterns": { "A": "opposite", "B": "opposite", "C": "extreme", "E": "out_of_scope" },
+      "keyTakeaway": "The author's stance toward Ashby, right about the what and wrong about the why, is itself the general principle the correct answer states.",
+      "evidence": [2, 3]
+    },
+    {
+      "id": "rc-m4-epistolary-reassessed-q5",
+      "type": "purpose_of_paragraph",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The primary function of the second paragraph is to",
+      "choices": {
+        "A": "explain why reviewers in 1912 regarded the epistolary form as exhausted",
+        "B": "describe features of the novel that set it apart from the tradition it was thought to imitate",
+        "C": "present Ashby's argument that the novel belongs with the experimental fiction of its decade",
+        "D": "argue that the novel's difficulties account for its modest sales and long neglect",
+        "E": "demonstrate that none of the novel's letters can be attributed to any of its characters"
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "Wrong part. The reviewers' view is paragraph 1's subject.",
+        "B": "Correct. The paragraph opens by noting 'how little it resembles the tradition it was accused of imitating' and then lists the differences.",
+        "C": "Wrong part. Ashby is introduced in paragraph 3.",
+        "D": "Out of scope. The paragraph never links the features to sales.",
+        "E": "Extreme. The letters are 'attributable to their writers only by inference,' not unattributable."
+      },
+      "trapPatterns": { "A": "wrong_part", "C": "wrong_part", "D": "out_of_scope", "E": "extreme" },
+      "keyTakeaway": "A paragraph that opens 'What the reviewers passed over' is correcting the record with description; its function is support, not argument.",
+      "evidence": [1]
+    },
+    {
+      "id": "rc-m4-epistolary-reassessed-q6",
+      "type": "analogy",
+      "logicTags": [],
+      "difficulty": 4,
+      "stem": "Which one of the following is most analogous to the author's criticism of Ashby in the final paragraph?",
+      "choices": {
+        "A": "A historian praises an architect's building for its originality but attributes that originality to materials the architect never actually used in its construction.",
+        "B": "A critic argues that a composer's symphony is derivative because it employs the sonata form that earlier composers had already perfected.",
+        "C": "A scholar admires a poet's break with convention while overlooking the fact that the poet continued throughout her career to write in rhyme.",
+        "D": "A reviewer dismisses a sculptor's work as old-fashioned because it is carved in marble rather than cast in steel.",
+        "E": "A critic hails a composer's unusual fugue as a forerunner of a later style, overlooking that its novelty comes from intensifying the fugue's own procedures."
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "Shell game. The misattribution is to something absent; Ashby's error is to treat something present (the letters) as incidental.",
+        "B": "Wrong part. This matches the reviewers' error (dismissing the work for its old form), which the author says Ashby repeats 'in reverse,' not Ashby's own.",
+        "C": "Half right. It involves overlooking continuity, but the overlooked rhyme is not the source of the break; in Vane's case the form is the source of the innovation.",
+        "D": "Wrong part. Again the reviewers' error, not Ashby's.",
+        "E": "Correct. Praise for the work as a forerunner, with its traditional form treated as incidental, when the innovation 'is a radicalization of the form's native resources.'"
+      },
+      "trapPatterns": { "A": "shell_game", "B": "wrong_part", "C": "half_right", "D": "wrong_part" },
+      "keyTakeaway": "Map the structure: right about the work's importance, wrong in treating the inherited form as incidental when the form is what was radicalized. B and D are the reviewers' error in disguise.",
+      "evidence": [2, 3]
+    }
+  ]
+}

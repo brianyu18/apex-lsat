@@ -1,0 +1,200 @@
+{
+  "id": "rc-ashgrove-perception",
+  "style": "spotlight",
+  "topic": "humanities",
+  "comparative": false,
+  "title": "The Reputation of Tobias Ashgrove",
+  "paragraphs": [
+    "Tobias Ashgrove occupies an odd place in the history of early modern philosophy. His one substantial work, the Treatise on the Instruments of Knowing (1687), was reprinted five times in his lifetime, cited respectfully by figures far more celebrated than himself, and then, within a generation of his death, consigned to the category of curiosities. The standard explanation of this decline is that Ashgrove was a transitional figure, a thinker who grasped the problems of the new philosophy of perception without possessing the apparatus to solve them, and who was therefore superseded as soon as that apparatus arrived. Historians have tended to read the Treatise as an interesting failure—a set of questions well posed and then abandoned to abler hands.",
+    "This verdict rests on a reading of the Treatise that attends almost exclusively to its first two books, where Ashgrove sets out, in terms that would have been familiar to his contemporaries, the problem of how the mind can know an external world through sensations that resemble nothing outside it. Books Three and Four, which occupy more than half the volume, have been treated as digressive—a miscellany of observations on language, on the training of the senses, and on the practices of craftsmen and musicians. It is in precisely these neglected books, however, that Ashgrove makes the move that distinguishes him from his contemporaries and that, I shall argue, anticipates positions not fully articulated until the twentieth century.",
+    "Ashgrove's move is to deny that perception is primarily a matter of sensation at all. The novice at a loom and the master weaver, he observes, receive the same light upon the eye; what differs is not the sensation but what each is able to do with it, and the master's perception is not a sensation plus an inference but a trained capacity that makes certain features of the cloth available to her and not to the novice. Perception, on this account, is a skill, acquired through practice and embodied in the perceiver's habits, and the question of how sensations \"resemble\" the world is not so much answered as dissolved: the weaver's perception is accurate not because her sensations match the cloth but because her trained responses succeed.",
+    "Why was this not recognized? Partly because Ashgrove himself never withdrew the framework of Books One and Two, so that the Treatise reads as though its author had changed his mind halfway through without saying so. Partly because the skill-based account had no natural successors in the eighteenth century, whose epistemology took the sensation as its atom and found Ashgrove's artisans beside the point. The historians who call him transitional are not wrong that he stood between two settlements; they are wrong about which two. He was not a precursor of the philosophers who succeeded him but of those who, two centuries later, would again ask what the perceiver does rather than what the perceiver receives."
+  ],
+  "roleMap": {
+    "paragraphs": ["context", "transition", "main_point", "implication"],
+    "viewpoints": [
+      { "who": "Standard historians", "position": "Ashgrove was a transitional figure who posed problems he lacked the apparatus to solve and was superseded by his successors", "authorAgrees": false },
+      { "who": "Tobias Ashgrove (Books Three and Four)", "position": "Perception is a trained skill rather than a matter of sensation; the resemblance problem dissolves", "authorAgrees": true },
+      { "who": "Author", "position": "Ashgrove's neglected later books anticipate twentieth-century skill-based accounts of perception", "authorAgrees": true }
+    ],
+    "tone": "revisionist and admiring"
+  },
+  "lowResSummary": "Author argues Ashgrove's neglected later books advance a skill-based theory of perception anticipating twentieth-century views, not a transitional failure.",
+  "questions": [
+    {
+      "id": "rc-ashgrove-perception-q1",
+      "type": "main_point",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately expresses the main point of the passage?",
+      "choices": {
+        "A": "Ashgrove's Treatise was superseded within a generation because its author lacked the philosophical apparatus needed to solve the problems he had posed.",
+        "B": "Books Three and Four of the Treatise are digressions that distract attention from Ashgrove's genuine contribution to the philosophy of perception.",
+        "C": "Ashgrove abandoned the sensation-based framework of his first two books in favor of a theory of perception as a trained skill.",
+        "D": "Eighteenth-century epistemology was mistaken to take the sensation as its basic unit of analysis.",
+        "E": "Ashgrove's neglected later books advance a skill-based account of perception that distinguishes him from his contemporaries and anticipates much later developments."
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "This is the standard explanation the author sets out to overturn.",
+        "B": "Reversed: the later books contain the contribution; the first two are what historians over-read.",
+        "C": "Paragraph 4 says Ashgrove 'never withdrew the framework of Books One and Two.'",
+        "D": "The author describes eighteenth-century epistemology without passing judgment on it.",
+        "E": "Correct. Paragraph 2 announces the thesis ('I shall argue, anticipates positions not fully articulated until the twentieth century'); paragraphs 3 and 4 develop it."
+      },
+      "trapPatterns": { "A": "opposite", "B": "opposite", "C": "half_right", "D": "out_of_scope" },
+      "keyTakeaway": "The 'I shall argue' sentence is the thesis; a main-point key restates it with the passage's qualifications.",
+      "evidence": [1, 2, 3]
+    },
+    {
+      "id": "rc-ashgrove-perception-q2",
+      "type": "stated",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "According to the passage, Ashgrove's Treatise on the Instruments of Knowing",
+      "choices": {
+        "A": "was published in a single edition during its author's lifetime.",
+        "B": "devotes most of its length to the problem of how sensations resemble external objects.",
+        "C": "was cited with respect by philosophers more famous than Ashgrove himself.",
+        "D": "was explicitly rejected by the leading eighteenth-century epistemologists.",
+        "E": "contains a retraction of its first two books in its final pages."
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "It 'was reprinted five times in his lifetime.'",
+        "B": "Books Three and Four 'occupy more than half the volume.'",
+        "C": "Correct. Paragraph 1: 'cited respectfully by figures far more celebrated than himself.'",
+        "D": "The eighteenth century found his artisans 'beside the point'; no explicit rejection is described.",
+        "E": "Ashgrove 'never withdrew the framework of Books One and Two.'"
+      },
+      "trapPatterns": { "A": "opposite", "B": "opposite", "D": "shell_game", "E": "opposite" },
+      "keyTakeaway": "Neglect and rejection are different claims; stated questions exploit the gap.",
+      "evidence": [0]
+    },
+    {
+      "id": "rc-ashgrove-perception-q3",
+      "type": "purpose_in_context",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The author discusses the novice and the master weaver primarily in order to",
+      "choices": {
+        "A": "show that Ashgrove drew his examples from the practices of craftsmen rather than from the natural sciences.",
+        "B": "demonstrate that sensations differ between trained and untrained observers of the same object.",
+        "C": "argue that the problem of resemblance was answered by Ashgrove through an appeal to practical success.",
+        "D": "illustrate Ashgrove's claim that perception is a trained capacity rather than a sensation.",
+        "E": "explain why Ashgrove's contemporaries found his later books digressive and beside the point."
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "The source of examples is incidental; the example's content carries the argument.",
+        "B": "The example says the two 'receive the same light upon the eye'; the sensations do not differ.",
+        "C": "The passage says the problem is 'not so much answered as dissolved.'",
+        "D": "Correct. The example shows that 'what differs is not the sensation' but 'a trained capacity.'",
+        "E": "Contemporaries' reactions are explained in paragraph 4 by their epistemology, not by this example."
+      },
+      "trapPatterns": { "A": "true_but_irrelevant", "B": "opposite", "C": "shell_game", "E": "wrong_part" },
+      "keyTakeaway": "An example illustrates the claim it immediately follows; here, that perception is not primarily sensation.",
+      "evidence": [2]
+    },
+    {
+      "id": "rc-ashgrove-perception-q4",
+      "type": "author_perspective",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "It can be inferred from the passage that the author would be most likely to agree with which one of the following?",
+      "choices": {
+        "A": "A philosopher's reputation can be shaped by which portions of a work later readers choose to emphasize.",
+        "B": "Ashgrove would have been recognized as original much earlier had he withdrawn the framework of his first two books.",
+        "C": "The twentieth-century philosophers who asked what the perceiver does were directly influenced by their reading of Ashgrove.",
+        "D": "Eighteenth-century epistemology was considerably less sophisticated than the account Ashgrove developed.",
+        "E": "The first two books of Ashgrove's Treatise contain nothing of philosophical value."
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. The verdict 'rests on a reading... that attends almost exclusively to its first two books.'",
+        "B": "The author lists this as only part of the explanation ('Partly because'); 'would have been' overstates.",
+        "C": "'Anticipates' is not 'influenced'; no line of influence is claimed.",
+        "D": "No comparative judgment of sophistication is made.",
+        "E": "The first two books are called familiar, not worthless."
+      },
+      "trapPatterns": { "B": "wrong_force", "C": "extreme", "D": "out_of_scope", "E": "extreme" },
+      "keyTakeaway": "'Anticipates' and 'influences' are different relations; inference keys respect the weaker one the author used.",
+      "evidence": [1, 3]
+    },
+    {
+      "id": "rc-ashgrove-perception-q5",
+      "type": "meaning_in_context",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "The author's statement that the historians \"are wrong about which two\" most nearly means that",
+      "choices": {
+        "A": "the historians have correctly identified Ashgrove as a transitional figure but have misdated the transition he represents.",
+        "B": "Ashgrove stood between the sensation-based philosophy of his time and a much later skill-based philosophy, not between his predecessors and his immediate successors.",
+        "C": "Ashgrove's two settlements were Books One and Two on the one hand and Books Three and Four on the other.",
+        "D": "the historians have misunderstood which of Ashgrove's two frameworks he ultimately endorsed.",
+        "E": "Ashgrove's Treatise was in fact two separate works that were later bound together."
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "Close, but 'misdated' misses the point: the historians have the wrong endpoints, not merely the wrong dates.",
+        "B": "Correct. The next sentence spells it out: 'not a precursor of the philosophers who succeeded him but of those who, two centuries later...'",
+        "C": "'Settlements' refers to philosophical positions in history, not divisions of the book.",
+        "D": "The author says Ashgrove never withdrew either framework; endorsement is not the issue.",
+        "E": "Nothing suggests two separate works."
+      },
+      "trapPatterns": { "A": "half_right", "C": "shell_game", "D": "shell_game", "E": "out_of_scope" },
+      "keyTakeaway": "When a sentence is cryptic, the following sentence usually decodes it; read forward.",
+      "evidence": [3]
+    },
+    {
+      "id": "rc-ashgrove-perception-q6",
+      "type": "other_perspective",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The passage suggests that the historians who call Ashgrove a \"transitional figure\" would be most likely to agree that",
+      "choices": {
+        "A": "Books Three and Four contain Ashgrove's most important philosophical arguments.",
+        "B": "Ashgrove anticipated twentieth-century theories of perception as a skill.",
+        "C": "the problems Ashgrove raised were eventually solved by philosophers who came after him.",
+        "D": "perception is a skill acquired through practice rather than a matter of sensation.",
+        "E": "Ashgrove's Treatise was reprinted repeatedly because of the originality of its later books."
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "They treat those books as 'digressive.'",
+        "B": "That is the author's thesis, not theirs.",
+        "C": "Correct. They hold he 'was superseded as soon as that apparatus arrived' and his questions were 'abandoned to abler hands.'",
+        "D": "That is Ashgrove's view as reconstructed by the author.",
+        "E": "The historians give no account of the reprints, and they discount the later books."
+      },
+      "trapPatterns": { "A": "opposite", "B": "wrong_part", "D": "wrong_part", "E": "out_of_scope" },
+      "keyTakeaway": "The 'standard explanation' paragraph contains everything the rival view commits to; answer from there.",
+      "evidence": [0]
+    },
+    {
+      "id": "rc-ashgrove-perception-q7",
+      "type": "application",
+      "logicTags": ["causation"],
+      "difficulty": 4,
+      "stem": "Which one of the following, if true, would most undermine the author's explanation of why Ashgrove's contribution went unrecognized?",
+      "choices": {
+        "A": "Ashgrove's Treatise was translated into three languages during the eighteenth century.",
+        "B": "Later editions of the Treatise omitted Books Three and Four in order to reduce printing costs.",
+        "C": "Ashgrove's contemporaries praised the Treatise chiefly for the clarity of its first two books.",
+        "D": "Several eighteenth-century philosophers developed accounts of perception as a trained capacity, citing craftsmen as examples, without referring to Ashgrove.",
+        "E": "Twentieth-century philosophers of perception were almost entirely unaware of Ashgrove's work."
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "Translation shows the work circulated but does not touch either part of the author's explanation.",
+        "B": "This would reinforce the neglect of the later books, consistent with the author's account.",
+        "C": "This fits the author's claim that readers attended to the first two books.",
+        "D": "Correct. The author says the skill-based account 'had no natural successors in the eighteenth century'; such successors existing, and ignoring Ashgrove, means the climate cannot explain his neglect.",
+        "E": "The author claims anticipation, not influence; later ignorance does not bear on why the eighteenth century neglected him."
+      },
+      "trapPatterns": { "A": "true_but_irrelevant", "B": "opposite", "C": "opposite", "E": "out_of_scope" },
+      "keyTakeaway": "Identify the explanation's premises ('no natural successors') and look for the choice that falsifies one.",
+      "evidence": [3]
+    }
+  ]
+}

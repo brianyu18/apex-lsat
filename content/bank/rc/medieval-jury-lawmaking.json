@@ -1,0 +1,175 @@
+{
+  "id": "rc-medieval-jury-lawmaking",
+  "style": "single_position",
+  "topic": "law",
+  "comparative": false,
+  "title": "Jury Verdicts as Lawmaking in the Medieval Common Law",
+  "paragraphs": [
+    "Legal historians have conventionally portrayed the medieval English jury as a fact-finding body and nothing more: twelve neighbors summoned to say what had happened, leaving the determination of legal consequences to the king's justices. On this account, the development of substantive law was the exclusive work of the bench, and the jury's contribution to doctrine was nil. The account has the merit of corresponding to the formal allocation of functions described in the plea rolls and the treatise literature, and it has been repeated with little variation since the great nineteenth-century syntheses of the subject.",
+    "I want to suggest that this picture, while formally accurate, obscures a mechanism by which juries shaped the law as surely as any judge. The mechanism was the special verdict and, more pervasively, the general verdict rendered in evident disregard of the governing rule. When a jury acquitted a defendant who had plainly committed the act charged, or found for a tenant whose title was formally defective, it did not announce a new rule; but it signaled to the justices, who could not compel a different finding, that the existing rule had outrun the community's sense of what the law was for. Repeated often enough, such verdicts induced the bench to narrow the rule, to multiply the exceptions, or to recast the issue in terms a jury would accept.",
+    "The clearest instance is the doctrine of self-defense in homicide. In the thirteenth century a killing in self-defense was still, in strict law, a felony, mitigated only by the prospect of royal pardon. By the mid-fourteenth century, justices were routinely directing acquittals in such cases. The intervening records show no statute and no reported judicial pronouncement effecting the change; what they show instead is a steady stream of jury verdicts finding, against the evident facts, that the defendant had been cornered, had retreated as far as he could, and had struck only in the last extremity. The justices, confronted with a fiction they could neither disprove nor overrule, eventually absorbed it into the law.",
+    "It will be objected that this is lawmaking only in an attenuated sense, since the jury proposed nothing and the bench remained free to ignore the signal. The objection is fair as far as it goes, but it applies with nearly equal force to the bench itself, whose decisions in this period were binding on no one and became law only by being followed. If precedent made law through repetition and acquiescence, so did the verdict. The distinction between finding facts and declaring law, on which the conventional account rests, was in practice far more porous than the plea rolls admit."
+  ],
+  "roleMap": {
+    "paragraphs": ["context", "main_point", "example", "concession"],
+    "viewpoints": [
+      { "who": "Conventional legal historians", "position": "The medieval jury only found facts; substantive law was made exclusively by the bench", "authorAgrees": false },
+      { "who": "Anticipated objector", "position": "Jury influence counts as lawmaking only in an attenuated sense because the bench could ignore it", "authorAgrees": false },
+      { "who": "Author", "position": "Juries shaped substantive law through verdicts that pressured justices to revise rules the community rejected", "authorAgrees": true }
+    ],
+    "tone": "confident and revisionist"
+  },
+  "lowResSummary": "Author argues medieval juries made law through verdicts that forced justices to revise rules, against the fact-finder-only view.",
+  "questions": [
+    {
+      "id": "rc-medieval-jury-lawmaking-q1",
+      "type": "main_point",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately expresses the main point of the passage?",
+      "choices": {
+        "A": "The medieval English jury was formally a fact-finding body whose contribution to the development of legal doctrine was negligible.",
+        "B": "The doctrine of self-defense in homicide developed through a series of statutes and reported judicial pronouncements in the fourteenth century.",
+        "C": "Because medieval justices were unable to overrule jury verdicts, they had no independent role in the development of the common law.",
+        "D": "The plea rolls and the treatise literature are unreliable guides to the formal allocation of functions between judge and jury.",
+        "E": "Although the medieval jury did not formally declare law, its verdicts shaped substantive doctrine by pressuring justices to revise rules the community rejected."
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "This is the conventional view the author sets out in paragraph 1 in order to reject.",
+        "B": "Paragraph 3 says the records show 'no statute and no reported judicial pronouncement effecting the change.'",
+        "C": "The author says justices narrowed rules and multiplied exceptions in response to verdicts; they clearly had a role.",
+        "D": "The author grants the conventional account is 'formally accurate' and corresponds to the plea rolls; the complaint is that formal accuracy obscures practice.",
+        "E": "Correct. Paragraph 2 states the thesis ('shaped the law as surely as any judge') and the mechanism; paragraph 4 defends it."
+      },
+      "trapPatterns": { "A": "opposite", "B": "opposite", "C": "extreme", "D": "opposite" },
+      "keyTakeaway": "A single-position passage announces its thesis with a first-person signal ('I want to suggest'); the main point lives there.",
+      "evidence": [1, 3]
+    },
+    {
+      "id": "rc-medieval-jury-lawmaking-q2",
+      "type": "purpose_of_paragraph",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "The primary function of the third paragraph is to",
+      "choices": {
+        "A": "concede a weakness in the author's account before responding to it.",
+        "B": "summarize the conventional view that the author intends to challenge.",
+        "C": "provide a historical example that illustrates the mechanism described in the preceding paragraph.",
+        "D": "argue that royal pardons were more important than jury verdicts in mitigating the law of homicide.",
+        "E": "explain why the plea rolls fail to record judicial pronouncements on self-defense."
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "That is the fourth paragraph ('It will be objected').",
+        "B": "That is the first paragraph.",
+        "C": "Correct. 'The clearest instance is' introduces the self-defense case as an example of verdicts inducing doctrinal change.",
+        "D": "Royal pardon is mentioned as the earlier state of the law, not as the more important influence.",
+        "E": "The paragraph says there was no pronouncement to record; it does not explain any failure of the rolls."
+      },
+      "trapPatterns": { "A": "wrong_part", "B": "wrong_part", "D": "opposite", "E": "out_of_scope" },
+      "keyTakeaway": "Opening phrases like 'The clearest instance' label a paragraph's function as example.",
+      "evidence": [2]
+    },
+    {
+      "id": "rc-medieval-jury-lawmaking-q3",
+      "type": "stated",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "According to the passage, by the middle of the fourteenth century justices",
+      "choices": {
+        "A": "had issued a reported pronouncement recognizing self-defense as a complete defense to homicide.",
+        "B": "were regularly directing acquittals in cases of killing in self-defense.",
+        "C": "had lost the power to compel juries to return a particular finding.",
+        "D": "relied on royal pardon as the primary means of mitigating the law of felony.",
+        "E": "were required by statute to accept jury findings of fact without inquiry."
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "The passage says explicitly that there was 'no reported judicial pronouncement effecting the change.'",
+        "B": "Correct. 'By the mid-fourteenth century, justices were routinely directing acquittals in such cases.'",
+        "C": "The passage says justices 'could not compel a different finding'; it never says they once could and lost the power.",
+        "D": "Royal pardon describes the thirteenth-century position, before the change.",
+        "E": "No statute is mentioned; indeed the point is that no statute was involved."
+      },
+      "trapPatterns": { "A": "opposite", "C": "shell_game", "D": "wrong_part", "E": "out_of_scope" },
+      "keyTakeaway": "Stated questions in historical passages hinge on which period a detail belongs to.",
+      "evidence": [2]
+    },
+    {
+      "id": "rc-medieval-jury-lawmaking-q4",
+      "type": "author_perspective",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "It can be inferred from the passage that the author would be most likely to agree with which one of the following?",
+      "choices": {
+        "A": "A body can contribute to the making of law without possessing formal authority to declare it.",
+        "B": "Medieval juries deliberately set out to reform the law of homicide.",
+        "C": "The formal distinction between questions of fact and questions of law has no application to modern legal systems.",
+        "D": "The justices who absorbed the self-defense fiction into the law acted improperly in doing so.",
+        "E": "Judicial decisions in the medieval period were binding precedent in the modern sense."
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. The whole argument is that juries, lacking authority to declare law, nonetheless 'shaped the law as surely as any judge.'",
+        "B": "The author describes verdicts signaling a community sense; nothing establishes a deliberate reform program.",
+        "C": "The passage concerns medieval practice; modern systems are never discussed.",
+        "D": "The author offers no judgment on the propriety of the justices' response.",
+        "E": "Paragraph 4 says decisions 'were binding on no one and became law only by being followed.'"
+      },
+      "trapPatterns": { "B": "extreme", "C": "out_of_scope", "D": "out_of_scope", "E": "opposite" },
+      "keyTakeaway": "The safest inference is the general principle the author's thesis presupposes.",
+      "evidence": [1, 3]
+    },
+    {
+      "id": "rc-medieval-jury-lawmaking-q5",
+      "type": "meaning_in_context",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately expresses the meaning of \"porous\" as it is used in the passage?",
+      "choices": {
+        "A": "absent from the official records of the period",
+        "B": "a matter of dispute among the justices themselves",
+        "C": "of no significance to the parties before the court",
+        "D": "easily and frequently crossed in actual practice",
+        "E": "an invention of nineteenth-century legal historians"
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "The distinction was present in the records; the author says the plea rolls reflect it.",
+        "B": "No disagreement among justices is described.",
+        "C": "The author says nothing about the parties' interest in the distinction.",
+        "D": "Correct. The sentence contrasts the distinction as recorded with how it operated 'in practice', where juries in effect made law.",
+        "E": "The author says the distinction was real and formally accurate, not invented."
+      },
+      "trapPatterns": { "A": "shell_game", "B": "out_of_scope", "C": "extreme", "E": "opposite" },
+      "keyTakeaway": "Metaphorical words take their meaning from the contrast in the sentence: here, formal record versus practice.",
+      "evidence": [3]
+    },
+    {
+      "id": "rc-medieval-jury-lawmaking-q6",
+      "type": "weaken_strengthen_evaluate",
+      "logicTags": ["causation"],
+      "difficulty": 3,
+      "stem": "Which one of the following, if true, would most weaken the author's argument concerning the doctrine of self-defense?",
+      "choices": {
+        "A": "Royal pardons for killings in self-defense continued to be issued occasionally well into the fifteenth century.",
+        "B": "Juries in the thirteenth century were drawn from a narrower social class than those of the fourteenth century.",
+        "C": "A royal ordinance issued early in the fourteenth century, since lost but referred to in several contemporary letters, instructed justices to acquit defendants who had killed in self-defense.",
+        "D": "Jury verdicts in cases of theft during the same period showed no comparable pattern of acquittal against the evidence.",
+        "E": "Justices in the fourteenth century enjoyed greater discretion in sentencing than their thirteenth-century predecessors."
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "Occasional later pardons are compatible with acquittal having become routine; they do not supply an alternative cause.",
+        "B": "A change in jury composition says nothing about whether verdicts or some other source drove the doctrinal change.",
+        "C": "Correct. The author's inference rests on the records showing 'no statute and no reported judicial pronouncement'; a royal instruction supplies the alternative cause the argument excluded.",
+        "D": "The author claims only that self-defense is the clearest instance; a different pattern in theft does not undercut it.",
+        "E": "Sentencing discretion is irrelevant to how acquittals in self-defense cases came to be directed."
+      },
+      "trapPatterns": { "A": "true_but_irrelevant", "B": "out_of_scope", "D": "comparison_shift", "E": "out_of_scope" },
+      "keyTakeaway": "An argument from the absence of alternative causes is weakened most by producing one.",
+      "evidence": [2]
+    }
+  ]
+}

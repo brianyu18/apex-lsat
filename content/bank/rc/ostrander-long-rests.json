@@ -1,0 +1,200 @@
+{
+  "id": "rc-ostrander-long-rests",
+  "style": "phenomenon_hypothesis",
+  "topic": "humanities",
+  "comparative": false,
+  "title": "The Long Rests of Ingrid Ostrander's Late Quartets",
+  "paragraphs": [
+    "The four string quartets that Ingrid Ostrander completed in the last decade of her life (1947–1956) differ from her earlier chamber music in one respect so conspicuous that it has come to define them: they are punctuated by rests of extraordinary length—silences of eight, twelve, in one instance twenty-two measures, marked at the prevailing tempo and scrupulously timed in the manuscripts. Nothing in the earlier quartets, nor in the work of her contemporaries, prepares for them. Audiences at the first performances reportedly took them for lapses, and at least one ensemble, in 1953, quietly shortened them. Why Ostrander wrote them has been debated ever since.",
+    "The explanation most often repeated is biographical. Ostrander's hearing deteriorated sharply after 1945, and it has been suggested that the silences are, in some sense, representations of deafness—the composer inscribing her own experience of sound's withdrawal into the music. The account has the appeal of pathos, but it fits the chronology poorly. Ostrander's hearing loss was most severe in her final two years, when she wrote almost nothing; the longest rests occur in the second quartet of 1949, composed when, by her own account, she could still follow a performance from the back of a hall.",
+    "A second explanation, advanced by the theorist Dagny Moreau, is structural. Moreau observes that each long rest falls at a point where the harmonic argument has reached a cadence that the preceding material has not earned—a resolution arrived at, as it were, too cheaply—and she proposes that the silence functions as a retraction, allowing the unearned cadence to decay before the movement resumes from an earlier harmonic position. The analysis is ingenious and accounts for the placement of the rests with a precision the biographical reading cannot match. What it does not explain is their duration: a retraction would be accomplished in two measures as well as in twenty-two.",
+    "The duration becomes intelligible, I think, only when the rests are heard as Ostrander's performers were instructed to play them—not as absences but as held events, during which the players were to remain in playing position, bows raised. Ostrander's performance notes, preserved with the manuscripts and largely ignored by analysts, insist on this point repeatedly. The silence is not a gap in the music but a sustained tone of zero amplitude, subject to the same demands of phrasing and intensity as any other. On this reading the long rests are neither autobiography nor correction but an extension of the quartet's expressive means into a register her contemporaries had not thought available, and the evidence suggests that Ostrander knew precisely what she was doing."
+  ],
+  "roleMap": {
+    "paragraphs": ["context", "counterpoint", "counterpoint", "main_point"],
+    "viewpoints": [
+      { "who": "Proponents of the biographical reading", "position": "The long rests represent Ostrander's experience of deafness", "authorAgrees": false },
+      { "who": "Dagny Moreau", "position": "Each rest is a structural retraction of an unearned cadence", "authorAgrees": false },
+      { "who": "Author", "position": "The rests are performed, sustained events that extend the quartet's expressive means", "authorAgrees": true }
+    ],
+    "tone": "analytical, finally admiring"
+  },
+  "lowResSummary": "Author rejects biographical and structural explanations of Ostrander's long rests, reading them as performed events that extend expressive means.",
+  "questions": [
+    {
+      "id": "rc-ostrander-long-rests-q1",
+      "type": "main_point",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately expresses the main point of the passage?",
+      "choices": {
+        "A": "The long rests in Ostrander's late quartets are best understood as representations of her progressive loss of hearing in the years after 1945.",
+        "B": "Moreau's structural analysis succeeds in explaining both the placement and the duration of the long rests in Ostrander's late quartets.",
+        "C": "Audiences and performers in the 1950s misunderstood the long rests because they had no access to Ostrander's manuscripts and performance notes.",
+        "D": "In light of Ostrander's performance notes, the long rests are sustained expressive events rather than autobiography or harmonic correction.",
+        "E": "Ostrander's late quartets differ from her earlier chamber music chiefly in the novelty of their harmonic language."
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "This is the biographical reading, which 'fits the chronology poorly.'",
+        "B": "Paragraph 3 says Moreau's analysis 'does not explain' the duration.",
+        "C": "Early reactions are background in paragraph 1; the passage never attributes them to lack of access.",
+        "D": "Correct. Paragraph 4: 'neither autobiography nor correction but an extension of the quartet's expressive means.'",
+        "E": "The passage identifies the rests, not harmonic language, as the defining difference."
+      },
+      "trapPatterns": { "A": "opposite", "B": "opposite", "C": "out_of_scope", "E": "opposite" },
+      "keyTakeaway": "The author's verdict paragraph typically negates the rejected hypotheses by name; match that sentence.",
+      "evidence": [3]
+    },
+    {
+      "id": "rc-ostrander-long-rests-q2",
+      "type": "stated",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "According to the passage, the biographical explanation fits the chronology poorly because",
+      "choices": {
+        "A": "Ostrander's hearing had already begun to deteriorate before she composed any of the late quartets.",
+        "B": "the longest rests appear in a quartet written when Ostrander could still hear performances.",
+        "C": "the ensemble that shortened the rests in 1953 did so without consulting Ostrander about her intentions.",
+        "D": "Ostrander composed her most productive works during the period of her most severe hearing loss.",
+        "E": "the rests become progressively longer across the four quartets as her hearing declined."
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "True in the passage's timeline, but it is not the reason given; if anything it would help the biographical account.",
+        "B": "Correct. Paragraph 2: 'the longest rests occur in the second quartet of 1949, composed when... she could still follow a performance.'",
+        "C": "The 1953 ensemble is mentioned in paragraph 1 and has nothing to do with chronology.",
+        "D": "Reversed: in the period of most severe loss 'she wrote almost nothing.'",
+        "E": "The passage implies the opposite, since the longest rests are in the second quartet."
+      },
+      "trapPatterns": { "A": "true_but_irrelevant", "C": "out_of_scope", "D": "opposite", "E": "opposite" },
+      "keyTakeaway": "A 'because' question asks for the stated reason, not any true fact that happens to be nearby.",
+      "evidence": [1]
+    },
+    {
+      "id": "rc-ostrander-long-rests-q3",
+      "type": "purpose_of_paragraph",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The primary function of the third paragraph is to",
+      "choices": {
+        "A": "present an explanation that improves on its predecessor in one respect while leaving a feature of the phenomenon unexplained.",
+        "B": "introduce the evidence from Ostrander's performance notes on which the author's own account of the rests rests.",
+        "C": "refute the claim that the long rests fall at points of harmonic cadence in the movements that contain them.",
+        "D": "establish that the biographical reading has been definitively abandoned by music theorists.",
+        "E": "describe the reactions of early audiences and ensembles to the unprecedented length of the rests."
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. Moreau's account explains placement 'with a precision the biographical reading cannot match' but 'does not explain' duration.",
+        "B": "The performance notes appear in paragraph 4.",
+        "C": "The author accepts Moreau's observation about placement.",
+        "D": "The paragraph says nothing about theorists abandoning the biographical reading.",
+        "E": "That is paragraph 1."
+      },
+      "trapPatterns": { "B": "wrong_part", "C": "opposite", "D": "extreme", "E": "wrong_part" },
+      "keyTakeaway": "A middle hypothesis in a phenomenon passage is usually 'better but incomplete'; the function answer names both halves.",
+      "evidence": [2]
+    },
+    {
+      "id": "rc-ostrander-long-rests-q4",
+      "type": "author_perspective",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "It can be inferred from the passage that the author would be most likely to agree with which one of the following?",
+      "choices": {
+        "A": "An explanation that accounts for the placement of a musical feature is thereby an adequate explanation of that feature.",
+        "B": "The performers who shortened the rests in 1953 were justified in doing so given the confusion of early audiences.",
+        "C": "Ostrander's performance notes have been ignored by analysts chiefly because they contradict Moreau's analysis.",
+        "D": "The emotional appeal of a biographical explanation is a reliable indication that the explanation is correct.",
+        "E": "Evidence about how a composer intended a work to be performed can bear on how the work's features should be interpreted."
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "The author faults Moreau's account precisely because it explains placement but not duration.",
+        "B": "The author's admiration for Ostrander's intentions implies disapproval, not endorsement, of shortening.",
+        "C": "The notes are described as 'largely ignored' without any reason given.",
+        "D": "The author says the biographical account 'has the appeal of pathos, but it fits the chronology poorly.'",
+        "E": "Correct. The author's entire reading rests on performance notes that 'insist on this point repeatedly.'"
+      },
+      "trapPatterns": { "A": "opposite", "B": "out_of_scope", "C": "out_of_scope", "D": "opposite" },
+      "keyTakeaway": "What kind of evidence the author relies on reveals a methodological commitment you can infer.",
+      "evidence": [3]
+    },
+    {
+      "id": "rc-ostrander-long-rests-q5",
+      "type": "purpose_in_context",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The author's statement that a retraction \"would be accomplished in two measures as well as in twenty-two\" serves primarily to",
+      "choices": {
+        "A": "suggest that Moreau miscounted the length of the rests in the second quartet.",
+        "B": "show that Ostrander's earlier quartets contained brief retractions of the same structural kind.",
+        "C": "identify what Moreau's analysis leaves unexplained.",
+        "D": "argue that the rests are far too long to function as retractions of any kind.",
+        "E": "concede that the biographical reading accounts for the duration of the rests better than the structural one."
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "No counting error is alleged; the lengths come from the manuscripts.",
+        "B": "The earlier quartets are said to contain nothing that 'prepares for' the rests.",
+        "C": "Correct. The sentence follows 'What it does not explain is their duration' and shows why duration is left open.",
+        "D": "The author accepts that the rests fall where retractions would; the objection is that retraction does not require such length.",
+        "E": "The biographical reading is never credited with explaining duration."
+      },
+      "trapPatterns": { "A": "out_of_scope", "B": "out_of_scope", "D": "extreme", "E": "opposite" },
+      "keyTakeaway": "A sentence that follows 'What it does not explain is X' is illustrating the gap, not refuting the whole account.",
+      "evidence": [2]
+    },
+    {
+      "id": "rc-ostrander-long-rests-q6",
+      "type": "meaning_in_context",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "The phrase \"a sustained tone of zero amplitude\" as it is used in the passage is meant to convey that the rests",
+      "choices": {
+        "A": "were to be played so softly that the audience could not hear them.",
+        "B": "were to be treated by performers as music to be shaped rather than as interruptions.",
+        "C": "lasted exactly as long as the sustained tones that immediately preceded them.",
+        "D": "resulted from Ostrander's inability to hear quiet passages in her later years.",
+        "E": "were notated in the manuscripts without any indication of tempo or duration."
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "Nothing is played; 'zero amplitude' is a metaphor for silence treated as a tone.",
+        "B": "Correct. The silence is 'subject to the same demands of phrasing and intensity as any other' tone.",
+        "C": "No equivalence of length is stated.",
+        "D": "This imports the biographical reading the author rejects.",
+        "E": "Paragraph 1 says the rests were 'marked at the prevailing tempo and scrupulously timed.'"
+      },
+      "trapPatterns": { "A": "shell_game", "C": "out_of_scope", "D": "wrong_part", "E": "opposite" },
+      "keyTakeaway": "Read a technical metaphor through the clause that glosses it ('subject to the same demands of phrasing').",
+      "evidence": [3]
+    },
+    {
+      "id": "rc-ostrander-long-rests-q7",
+      "type": "weaken_strengthen_evaluate",
+      "logicTags": [],
+      "difficulty": 4,
+      "stem": "Which one of the following, if true, would most weaken the author's interpretation of the long rests?",
+      "choices": {
+        "A": "Ostrander's performance notes for her earlier quartets contain no instructions concerning rests of any length.",
+        "B": "Moreau has publicly acknowledged that her analysis does not account for the duration of the rests.",
+        "C": "Several ensembles that follow the performance notes report that audiences still find the rests disconcerting.",
+        "D": "Ostrander's hearing loss was somewhat more advanced in 1949 than she acknowledged in her letters.",
+        "E": "The performance notes insisting that players remain in playing position were added to the manuscripts by Ostrander's publisher after her death."
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "The earlier quartets had no long rests, so the absence of instructions is expected and irrelevant.",
+        "B": "This confirms the author's criticism of Moreau; it does not touch the author's own reading.",
+        "C": "Audience reaction does not bear on what Ostrander intended the rests to be.",
+        "D": "This nudges toward the biographical reading but leaves the author's evidence from the performance notes intact.",
+        "E": "Correct. The author's reading rests on notes attributed to Ostrander; if they are not hers, the inference about her intention collapses."
+      },
+      "trapPatterns": { "A": "true_but_irrelevant", "B": "opposite", "C": "out_of_scope", "D": "wrong_force" },
+      "keyTakeaway": "To weaken an interpretation built on a document, attack the document's provenance.",
+      "evidence": [3]
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "id": "rc-reliance-expectation-estoppel",
+  "style": "critique_debate",
+  "topic": "law",
+  "comparative": false,
+  "title": "Reliance, Expectation, and the Promissory Estoppel Debate",
+  "paragraphs": [
+    "For much of the twentieth century, the doctrine of promissory estoppel—under which a promise unsupported by consideration may nonetheless be enforced when the promisee has reasonably and detrimentally relied upon it—was treated by commentators as a modest exception grafted onto the law of contract. The exception, it was assumed, carried its own measure of recovery: because the doctrine's justification lay in the promisee's reliance, the remedy should restore the promisee to the position occupied before the reliance occurred, rather than award the value of the promised performance. This \"reliance measure\" was defended most influentially by Harald Venn, whose 1954 treatise argued that any more generous award would collapse the distinction between bargained-for exchanges and gratuitous undertakings.",
+    "Venn's position has recently been challenged by a group of scholars, prominent among them Ilse Marrow, who contend that courts have in practice awarded expectation damages—the value of the promise itself—in a substantial majority of successful estoppel claims. Marrow surveyed four decades of appellate decisions in three common-law jurisdictions and found that explicit reliance-limited awards appeared in fewer than one case in five. From this she draws a doctrinal conclusion: promissory estoppel is not a reliance-based exception at all but an independent ground of promissory liability, functionally indistinguishable from contract, and the reliance requirement is better understood as an evidentiary device for identifying promises serious enough to warrant enforcement.",
+    "Marrow's empirical findings are difficult to dispute, and they have done lasting damage to the complacent assumption that remedy follows rationale as a matter of course. Yet the inference she draws from them is less secure than it appears. That courts award expectation damages does not establish that they regard expectation as the doctrine's theoretical foundation; it may reflect nothing more than the practical difficulty of valuing reliance, which frequently consists of forgone opportunities whose worth can only be guessed at. Where reliance is unquantifiable and the promised performance is not, a court seeking a workable figure will gravitate toward the latter without thereby endorsing any theory of liability. Marrow, in other words, has mistaken a remedial convenience for a jurisprudential commitment.",
+    "A more defensible reading preserves Venn's rationale while abandoning his remedial rigidity. The reliance interest remains the reason enforcement is justified in the absence of a bargain; but once that justification is satisfied, the measure of recovery may legitimately be set by reference to whichever quantity the court can ascertain with confidence, subject to the constraint that the promisee not recover more than the promise was worth. On this view, the prevalence of expectation awards is neither an embarrassment to reliance theory nor a vindication of its rivals, but simply evidence that courts, like the rest of us, prefer measuring what can be measured."
+  ],
+  "roleMap": {
+    "paragraphs": ["context", "counterpoint", "main_point", "implication"],
+    "viewpoints": [
+      { "who": "Harald Venn", "position": "Reliance justifies enforcement of non-bargained promises and should also cap recovery at the reliance measure", "authorAgrees": null },
+      { "who": "Ilse Marrow and allied scholars", "position": "Because courts award expectation damages, estoppel is an independent ground of liability indistinguishable from contract; reliance is merely evidentiary", "authorAgrees": false },
+      { "who": "Author", "position": "Reliance remains the rationale for enforcement, but the measure of recovery may track whatever quantity courts can reliably ascertain", "authorAgrees": true }
+    ],
+    "tone": "critical but conciliatory"
+  },
+  "lowResSummary": "Author accepts Marrow's data but rejects her inference, keeping reliance as the rationale while treating expectation awards as a measurement convenience.",
+  "questions": [
+    {
+      "id": "rc-reliance-expectation-estoppel-q1",
+      "type": "main_point",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately expresses the main point of the passage?",
+      "choices": {
+        "A": "Harald Venn's reliance-based account of promissory estoppel has been decisively refuted by empirical surveys of appellate decisions.",
+        "B": "Courts should award reliance damages in promissory estoppel cases whenever the promisee's forgone opportunities can be reliably valued.",
+        "C": "The prevalence of expectation awards in estoppel cases, though real, does not show that reliance has ceased to be the doctrine's justification.",
+        "D": "Promissory estoppel is best understood as an independent ground of promissory liability whose reliance requirement serves merely as an evidentiary device for identifying serious promises.",
+        "E": "Because reliance is so often impossible to quantify, courts should abandon the attempt to distinguish promissory estoppel from ordinary contract."
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "Too strong and reversed: the author says Marrow's findings damaged a 'complacent assumption' about remedy, but paragraph 4 explicitly 'preserves Venn's rationale.' Nothing is decisively refuted.",
+        "B": "A detail from the last paragraph, inflated into a thesis the author never states; the author says courts may use 'whichever quantity' is ascertainable, not that reliance must be preferred when it can be valued.",
+        "C": "Correct. Paragraph 3 grants the findings ('difficult to dispute') but calls the inference 'less secure'; paragraph 4 keeps reliance as 'the reason enforcement is justified.'",
+        "D": "This is Marrow's conclusion in paragraph 2, which the author calls a mistake ('mistaken a remedial convenience for a jurisprudential commitment').",
+        "E": "Nobody in the passage proposes abandoning the distinction; the author's constraint that the promisee 'not recover more than the promise was worth' presupposes it."
+      },
+      "trapPatterns": { "A": "extreme", "B": "half_right", "D": "opposite", "E": "out_of_scope" },
+      "keyTakeaway": "In a critique passage, the main point is the author's verdict on the debate, not either disputant's position.",
+      "evidence": [2, 3]
+    },
+    {
+      "id": "rc-reliance-expectation-estoppel-q2",
+      "type": "stated",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "According to the passage, Marrow's survey of appellate decisions found that",
+      "choices": {
+        "A": "explicit reliance-limited awards appeared in fewer than one-fifth of the cases examined.",
+        "B": "expectation damages were awarded in every successful estoppel claim in the jurisdictions studied.",
+        "C": "courts in the three jurisdictions had expressly rejected Venn's treatise as a guide to remedy.",
+        "D": "reliance was unquantifiable in the majority of claims that resulted in expectation awards.",
+        "E": "the reliance requirement had been abandoned by appellate courts as a condition of enforcement."
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. Paragraph 2: 'explicit reliance-limited awards appeared in fewer than one case in five.'",
+        "B": "'Every' overstates 'a substantial majority'; the survey found some reliance-limited awards.",
+        "C": "The passage never says courts addressed Venn's treatise at all; the survey counted award types.",
+        "D": "The difficulty of valuing reliance is the author's hypothesis in paragraph 3, not a finding of Marrow's survey.",
+        "E": "Marrow reinterprets the reliance requirement as evidentiary; she does not report that courts abandoned it."
+      },
+      "trapPatterns": { "B": "extreme", "C": "out_of_scope", "D": "wrong_part", "E": "shell_game" },
+      "keyTakeaway": "Stated questions reward locating the exact sentence; watch for the author's gloss being attributed to the scholar.",
+      "evidence": [1]
+    },
+    {
+      "id": "rc-reliance-expectation-estoppel-q3",
+      "type": "purpose_in_context",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The author mentions the \"practical difficulty of valuing reliance\" primarily in order to",
+      "choices": {
+        "A": "concede that Marrow's survey accurately describes the outcomes of estoppel litigation.",
+        "B": "show that Venn's remedial rule was never applied consistently by the courts.",
+        "C": "argue that expectation damages systematically overcompensate promisees in estoppel cases.",
+        "D": "explain why forgone opportunities should not be counted as reliance.",
+        "E": "offer an explanation of the expectation awards that does not require Marrow's doctrinal conclusion."
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "The concession is made in the paragraph's first sentence; the valuation point comes after 'Yet' and does critical work, not conceding work.",
+        "B": "The author says nothing about consistency of application; the point concerns why courts choose a measure.",
+        "C": "Overcompensation is never alleged; the author actually permits expectation awards up to the promise's value.",
+        "D": "The author treats forgone opportunities as genuine reliance whose 'worth can only be guessed at'; the problem is measurement, not status.",
+        "E": "Correct. The sentence provides an alternative cause—'it may reflect nothing more than'—so that the awards no longer support Marrow's inference."
+      },
+      "trapPatterns": { "A": "wrong_part", "B": "shell_game", "C": "out_of_scope", "D": "opposite" },
+      "keyTakeaway": "After a pivot like 'Yet', a mentioned fact usually functions as an alternative explanation undercutting the opposing inference.",
+      "evidence": [2]
+    },
+    {
+      "id": "rc-reliance-expectation-estoppel-q4",
+      "type": "author_perspective",
+      "logicTags": ["causation"],
+      "difficulty": 3,
+      "stem": "It can be inferred from the passage that the author would be most likely to agree with which one of the following?",
+      "choices": {
+        "A": "The remedy a court awards is generally a reliable guide to the theoretical foundation of the doctrine under which it is awarded.",
+        "B": "A court may award the value of a promised performance in an estoppel case without thereby treating the promise as a contract.",
+        "C": "Reliance that consists of forgone opportunities should be disregarded in determining whether a promise is enforceable.",
+        "D": "Venn's treatise was correct in every respect except its characterization of gratuitous undertakings.",
+        "E": "Marrow's empirical method is unsound because it relies on appellate rather than trial court decisions."
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "The author's whole argument is that remedy does not follow rationale 'as a matter of course'; this states the assumption the author attacks.",
+        "B": "Correct. Paragraph 3: a court may 'gravitate toward' the expectation figure 'without thereby endorsing any theory of liability'; paragraph 4 permits such awards within reliance theory.",
+        "C": "The author treats forgone opportunities as reliance that is hard to value, not as reliance to be ignored.",
+        "D": "The author abandons Venn's 'remedial rigidity', which is a substantial disagreement, not a quibble about one characterization.",
+        "E": "The author calls the findings 'difficult to dispute' and raises no methodological objection."
+      },
+      "trapPatterns": { "A": "opposite", "C": "opposite", "D": "extreme", "E": "out_of_scope" },
+      "keyTakeaway": "Author-perspective keys restate the author's own reasoning in general terms; the best trap states the premise the author rejects.",
+      "evidence": [2, 3]
+    },
+    {
+      "id": "rc-reliance-expectation-estoppel-q5",
+      "type": "other_perspective",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The passage suggests that Marrow would be most likely to agree that",
+      "choices": {
+        "A": "the reliance requirement should be eliminated from promissory estoppel entirely.",
+        "B": "courts award expectation damages chiefly because reliance is difficult to measure.",
+        "C": "a promise that induced no reliance should nonetheless be enforced if it was seriously made.",
+        "D": "the function of the reliance requirement is to distinguish promises worth enforcing from those that are not.",
+        "E": "Venn correctly identified the rationale for estoppel but drew the wrong remedial conclusion."
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "Marrow retains the requirement as 'an evidentiary device'; she reinterprets it rather than eliminating it.",
+        "B": "This is the author's explanation in paragraph 3, offered precisely to resist Marrow's reading.",
+        "C": "Marrow's view uses reliance as the evidence of seriousness; nothing suggests she would enforce promises without it.",
+        "D": "Correct. Paragraph 2: the requirement is 'an evidentiary device for identifying promises serious enough to warrant enforcement.'",
+        "E": "This is the author's position in paragraph 4; Marrow rejects reliance as the rationale altogether."
+      },
+      "trapPatterns": { "A": "extreme", "B": "wrong_part", "C": "extreme", "E": "wrong_part" },
+      "keyTakeaway": "For other-perspective questions, quarantine the author's response and answer only from the scholar's stated view.",
+      "evidence": [1]
+    },
+    {
+      "id": "rc-reliance-expectation-estoppel-q6",
+      "type": "author_attitude",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "The author's attitude toward Marrow's empirical findings can most accurately be described as",
+      "choices": {
+        "A": "acceptance of their accuracy combined with doubt about the conclusion drawn from them.",
+        "B": "skepticism about their accuracy owing to the limited number of jurisdictions surveyed.",
+        "C": "enthusiastic endorsement of both the findings and their doctrinal implications.",
+        "D": "indifference, since the author regards questions of remedy as settled by Venn.",
+        "E": "concern that the findings will encourage courts to abandon the reliance requirement."
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. 'Difficult to dispute' plus 'the inference she draws from them is less secure than it appears.'",
+        "B": "The author never questions the data; the three-jurisdiction scope is reported without criticism.",
+        "C": "The author rejects the doctrinal implication as a mistake.",
+        "D": "The author engages the findings at length and departs from Venn's remedial rule.",
+        "E": "No such worry appears; the author's concern is about scholarly inference, not judicial behavior."
+      },
+      "trapPatterns": { "B": "opposite", "C": "extreme", "D": "opposite", "E": "out_of_scope" },
+      "keyTakeaway": "Attitude answers often have two parts; both must match the text's cues.",
+      "evidence": [2]
+    },
+    {
+      "id": "rc-reliance-expectation-estoppel-q7",
+      "type": "weaken_strengthen_evaluate",
+      "logicTags": ["causation"],
+      "difficulty": 4,
+      "stem": "Which one of the following, if true, would most strengthen the author's response to Marrow in the third paragraph?",
+      "choices": {
+        "A": "In the surveyed cases, courts awarding expectation damages typically described the promises as having been seriously made.",
+        "B": "Several of the surveyed jurisdictions have statutes requiring that all damages for breach of contract be measured by expectation.",
+        "C": "Reliance-limited awards were most common in cases where the promisee's reliance had consisted chiefly of forgone opportunities.",
+        "D": "Marrow's survey excluded cases in which the estoppel claim was ultimately unsuccessful.",
+        "E": "In the minority of cases awarding reliance damages, the promisee's reliance had consisted of documented out-of-pocket expenditures."
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "This fits Marrow's 'evidentiary device' account and tends to support her, not the author.",
+        "B": "The statutes concern contract damages, and the dispute is about estoppel; this does not touch the author's causal explanation.",
+        "C": "This cuts against the author: if courts chose reliance precisely where it was hardest to value, measurement difficulty cannot explain the pattern.",
+        "D": "The survey's scope was already limited to successful claims by description; this adds nothing about why expectation was chosen.",
+        "E": "Correct. The author predicts courts measure 'what can be measured'; reliance awards clustering where reliance was readily quantifiable is exactly that prediction confirmed."
+      },
+      "trapPatterns": { "A": "opposite", "B": "out_of_scope", "C": "opposite", "D": "true_but_irrelevant" },
+      "keyTakeaway": "To strengthen a causal explanation, find the case where the proposed cause varies and the outcome varies with it.",
+      "evidence": [2, 3]
+    }
+  ]
+}

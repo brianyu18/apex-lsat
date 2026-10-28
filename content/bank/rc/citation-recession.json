@@ -1,0 +1,201 @@
+{
+  "id": "rc-citation-recession",
+  "style": "phenomenon_hypothesis",
+  "topic": "law",
+  "comparative": false,
+  "title": "The Vanishing Citation",
+  "paragraphs": [
+    "Among the more curious findings to emerge from the quantitative study of appellate opinions is what Teodora Halvorsen has called the \"citation recession.\" In the intermediate appellate courts of several federated jurisdictions, the average number of prior decisions cited per published opinion rose steadily through the latter half of the twentieth century, then declined sharply—by roughly a third in two decades—beginning in the 1990s. The decline was not accompanied by any reduction in the length of opinions, which if anything grew longer, nor by any change in the formal rules governing the authority of precedent. Something had changed in the way judges built their arguments, and the opinions themselves do not announce what it was.",
+    "The first explanation to gain currency attributed the recession to docket pressure. As caseloads swelled, the argument ran, judges and their clerks had less time to canvass the reported cases and therefore cited fewer of them. The hypothesis has an obvious appeal, but it fits the data poorly. Halvorsen's own figures show that courts with the steepest increases in caseload exhibited no greater decline in citation than courts whose dockets remained flat, and the decline appears with undiminished force in opinions authored by judges with notably light assignments. Pressure of business may explain much about modern adjudication, but it does not explain this.",
+    "A second account, advanced by Pieter Lindgaard, locates the cause in the expansion of statutory and regulatory law. On this view judges cite fewer cases because fewer of the questions before them are governed by case law at all; a court construing a dense administrative code has little occasion to invoke the common-law tradition. Lindgaard's hypothesis accounts for the timing reasonably well, since the period of decline coincides with a marked increase in regulatory litigation. It is less successful in explaining why the recession appears with comparable force in areas of private law—contract, tort, property—that remained largely untouched by codification throughout the period.",
+    "The most persuasive explanation, in my judgment, is also the least dramatic. Beginning in the late 1980s, courts in the jurisdictions studied adopted rules permitting the designation of opinions as \"unpublished\" and forbidding their citation. Halvorsen's dataset counts citations only in published opinions, but the rules changed what a published opinion was for: routine applications of settled law were diverted into the unpublished channel, leaving the published reports to carry a higher proportion of novel questions, for which few directly applicable precedents exist. The citation recession, on this reading, is an artifact of selection rather than a change in judicial method—a conclusion that should give pause to anyone inclined to read the figures as evidence of declining respect for precedent."
+  ],
+  "roleMap": {
+    "paragraphs": ["context", "counterpoint", "counterpoint", "main_point"],
+    "viewpoints": [
+      { "who": "Teodora Halvorsen", "position": "Citations per published appellate opinion fell by about a third over two decades beginning in the 1990s", "authorAgrees": true },
+      { "who": "Proponents of the docket-pressure hypothesis", "position": "Rising caseloads left judges less time to canvass precedent", "authorAgrees": false },
+      { "who": "Pieter Lindgaard", "position": "The growth of statutory and regulatory law left fewer questions governed by case law", "authorAgrees": false },
+      { "who": "Author", "position": "Unpublished-opinion rules diverted routine cases out of the published reports, producing a selection artifact", "authorAgrees": true }
+    ],
+    "tone": "measured, mildly deflationary"
+  },
+  "lowResSummary": "Author surveys two explanations for declining precedent citation, rejects both, and attributes the decline to a selection effect of unpublished-opinion rules.",
+  "questions": [
+    {
+      "id": "rc-citation-recession-q1",
+      "type": "main_point",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately expresses the main point of the passage?",
+      "choices": {
+        "A": "The decline in citations per published opinion is best explained not by a change in judicial practice but by rules that diverted routine cases into unpublished opinions.",
+        "B": "Docket pressure and the expansion of regulatory law together account for the citation recession that Halvorsen documented.",
+        "C": "Halvorsen's dataset is fundamentally unreliable because it fails to include citations appearing in unpublished opinions.",
+        "D": "The citation recession demonstrates that appellate judges have come to accord markedly less respect to precedent than they once did.",
+        "E": "Regulatory litigation increased sharply during the same period in which the citation of precedent declined."
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. Paragraph 4: the recession 'is an artifact of selection rather than a change in judicial method.'",
+        "B": "The author rejects both: the first 'does not explain this' and the second 'is less successful' in private law.",
+        "C": "The author does not fault the dataset; the point is about what the rules did to the population of published opinions.",
+        "D": "This is the reading the author says the conclusion 'should give pause' to.",
+        "E": "A supporting detail credited to Lindgaard's hypothesis, not the passage's conclusion."
+      },
+      "trapPatterns": { "B": "opposite", "C": "shell_game", "D": "opposite", "E": "half_right" },
+      "keyTakeaway": "In phenomenon-hypothesis passages, the main point is the author's preferred explanation plus its implication.",
+      "evidence": [3]
+    },
+    {
+      "id": "rc-citation-recession-q2",
+      "type": "stated",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "According to the passage, the docket-pressure hypothesis fits the data poorly because",
+      "choices": {
+        "A": "the caseloads of the courts studied did not actually increase during the period in which citations declined.",
+        "B": "appellate opinions grew longer rather than shorter during the same period.",
+        "C": "judges with heavy caseloads cited more prior decisions than judges with light assignments.",
+        "D": "regulatory litigation expanded at the same time as the caseloads of the courts.",
+        "E": "the courts with the steepest caseload increases showed no greater decline than courts with flat dockets."
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "The passage says caseloads 'swelled'; the objection is that the decline did not track the swelling.",
+        "B": "Opinion length is mentioned in paragraph 1 as a general feature, not as the author's reason against the docket hypothesis.",
+        "C": "The passage says the decline appears in light-assignment judges' opinions too; it never says heavy-caseload judges cited more.",
+        "D": "That coincidence is cited in support of Lindgaard's hypothesis, not against the docket hypothesis.",
+        "E": "Correct. Paragraph 2: courts 'with the steepest increases in caseload exhibited no greater decline in citation than courts whose dockets remained flat.'"
+      },
+      "trapPatterns": { "A": "opposite", "B": "wrong_part", "C": "reversal", "D": "wrong_part" },
+      "keyTakeaway": "'No greater decline' is a null correlation, not a reverse one; read comparison language precisely.",
+      "evidence": [1]
+    },
+    {
+      "id": "rc-citation-recession-q3",
+      "type": "purpose_in_context",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The author mentions contract, tort, and property primarily in order to",
+      "choices": {
+        "A": "illustrate the areas of law in which the citation of precedent remained stable.",
+        "B": "show that Lindgaard's hypothesis correctly predicts the timing of the citation recession.",
+        "C": "identify the fields that were most affected by the adoption of unpublished-opinion rules.",
+        "D": "identify a body of evidence that Lindgaard's hypothesis has difficulty accommodating.",
+        "E": "suggest that private law has been more heavily codified than is generally recognized."
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "The opposite: the recession 'appears with comparable force' in those areas.",
+        "B": "Timing is credited in the previous sentence; the private-law point introduces a weakness.",
+        "C": "The unpublished-opinion rules are discussed in paragraph 4 without reference to particular fields.",
+        "D": "Correct. 'It is less successful in explaining why the recession appears with comparable force in areas of private law.'",
+        "E": "The author says those areas 'remained largely untouched by codification.'"
+      },
+      "trapPatterns": { "A": "opposite", "B": "half_right", "C": "wrong_part", "E": "opposite" },
+      "keyTakeaway": "A hypothesis that predicts no change where change occurred is undercut; that is what the private-law mention does.",
+      "evidence": [2]
+    },
+    {
+      "id": "rc-citation-recession-q4",
+      "type": "author_perspective",
+      "logicTags": ["sampling"],
+      "difficulty": 3,
+      "stem": "The passage most strongly suggests that the author would agree with which one of the following?",
+      "choices": {
+        "A": "An explanation that accounts well for the timing of a phenomenon is thereby more likely to be correct than one that does not.",
+        "B": "A change in what a dataset measures can produce an apparent trend without any change in the underlying behavior.",
+        "C": "Judges should be permitted to cite unpublished opinions as persuasive authority.",
+        "D": "Quantitative studies of judicial opinions are of little value in understanding adjudication.",
+        "E": "The decline in citation would have been steeper had unpublished opinions been included in Halvorsen's dataset."
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "The author credits Lindgaard's timing yet rejects his hypothesis, so timing alone is not decisive for the author.",
+        "B": "Correct. The published opinions became a different population; the recession is 'an artifact of selection rather than a change in judicial method.'",
+        "C": "The author describes the rules without recommending any change to them.",
+        "D": "The author engages Halvorsen's figures seriously and never disparages the enterprise.",
+        "E": "Reversed: including the routine, precedent-rich unpublished opinions would reduce or erase the apparent decline."
+      },
+      "trapPatterns": { "A": "wrong_force", "C": "out_of_scope", "D": "extreme", "E": "reversal" },
+      "keyTakeaway": "Selection-effect reasoning: when the composition of a sample changes, averages move even if individuals do not.",
+      "evidence": [3]
+    },
+    {
+      "id": "rc-citation-recession-q5",
+      "type": "organization",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately describes the organization of the passage?",
+      "choices": {
+        "A": "A phenomenon is described; a single explanation is proposed and then defended against two objections.",
+        "B": "Two competing explanations of a phenomenon are presented; the author argues that each is partly correct and combines them.",
+        "C": "A phenomenon is described; two explanations are considered and found wanting; a third is advanced as the most persuasive.",
+        "D": "A scholar's findings are summarized; the methodology behind them is criticized; a new study is proposed.",
+        "E": "A phenomenon is described; its causes are declared unknowable; the author cautions against drawing premature conclusions."
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "The two middle paragraphs are rival explanations, not objections to the author's own.",
+        "B": "The author rejects both rivals rather than combining them.",
+        "C": "Correct. Paragraph 1 describes; paragraphs 2 and 3 reject; paragraph 4 advances the author's explanation.",
+        "D": "No methodological criticism of Halvorsen is made and no new study proposed.",
+        "E": "The author does identify a cause; only the final clause's caution is accurate."
+      },
+      "trapPatterns": { "A": "shell_game", "B": "opposite", "D": "out_of_scope", "E": "half_right" },
+      "keyTakeaway": "Map one function per paragraph before reading organization choices; then eliminate by any mismatched step.",
+      "evidence": [0, 1, 2, 3]
+    },
+    {
+      "id": "rc-citation-recession-q6",
+      "type": "other_perspective",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "The passage suggests that Lindgaard would be most likely to agree that",
+      "choices": {
+        "A": "the citation recession is an artifact of how opinions are selected for publication.",
+        "B": "docket pressure is the principal cause of the decline in the citation of precedent.",
+        "C": "courts construing administrative codes cite precedent as frequently as courts deciding common-law questions.",
+        "D": "private law was substantially codified during the period of the citation recession.",
+        "E": "the frequency with which a court cites precedent depends partly on the kind of legal source that governs the question before it."
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "That is the author's explanation, not Lindgaard's.",
+        "B": "That is the first hypothesis, which Lindgaard's account replaces.",
+        "C": "Lindgaard's view is that code-construing courts have 'little occasion' to cite case law.",
+        "D": "Nothing attributes this claim to Lindgaard, and the author says private law stayed uncodified.",
+        "E": "Correct. Lindgaard's hypothesis is precisely that citation falls when questions are 'governed by case law' less often."
+      },
+      "trapPatterns": { "A": "wrong_part", "B": "wrong_part", "C": "opposite", "D": "out_of_scope" },
+      "keyTakeaway": "An other-perspective key generalizes the scholar's own mechanism; it does not import the author's verdict.",
+      "evidence": [2]
+    },
+    {
+      "id": "rc-citation-recession-q7",
+      "type": "application",
+      "logicTags": ["causation"],
+      "difficulty": 4,
+      "stem": "Which one of the following, if true, would most support the explanation the author favors?",
+      "choices": {
+        "A": "In a comparable jurisdiction that never adopted an unpublished-opinion rule, citations per published opinion remained roughly constant throughout the period.",
+        "B": "Unpublished opinions in the jurisdictions studied cite, on average, fewer prior decisions than published opinions do.",
+        "C": "Judges in the jurisdictions studied reported in surveys that they consulted precedent as often as they had before.",
+        "D": "Caseloads in the jurisdictions studied continued to rise after unpublished-opinion rules were adopted.",
+        "E": "Halvorsen has since revised her figures to show a decline of one-quarter rather than one-third."
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. A control case where the proposed cause is absent and the effect is absent supports the causal claim directly.",
+        "B": "This undercuts the author: if diverted opinions cite little, removing them would raise, not lower, the published average.",
+        "C": "Self-reports about consulting precedent are weak evidence and do not bear on the selection mechanism specifically.",
+        "D": "Caseload trends concern the docket hypothesis the author already rejected; they do not test the selection account.",
+        "E": "The size of the decline is irrelevant to which explanation accounts for it."
+      },
+      "trapPatterns": { "B": "opposite", "C": "wrong_force", "D": "true_but_irrelevant", "E": "out_of_scope" },
+      "keyTakeaway": "The strongest support for a causal explanation is a matched case lacking the cause and lacking the effect.",
+      "evidence": [3]
+    }
+  ]
+}

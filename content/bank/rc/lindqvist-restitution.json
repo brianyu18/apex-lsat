@@ -1,0 +1,200 @@
+{
+  "id": "rc-lindqvist-restitution",
+  "style": "spotlight",
+  "topic": "law",
+  "comparative": false,
+  "title": "Reassessing Lindqvist's Theory of Restitution",
+  "paragraphs": [
+    "When Margarethe Lindqvist published The Grammar of Restitution in 1961, the law of unjust enrichment in the common-law world was, by general agreement, a disorder: a collection of remedies—money had and received, quantum meruit, constructive trust—united by nothing more than a shared vocabulary of \"unjustness\" that courts invoked without defining. Lindqvist's achievement, as her admirers saw it, was to supply the missing definition. Enrichment was unjust, she proposed, when and only when it resulted from a transfer that the transferor had not intended to be effective, whether because of mistake, compulsion, or a failed condition. The \"intent-based\" theory, as it came to be called, dominated academic restitution for a generation.",
+    "The theory has since fallen from favor, and the standard account of its decline attributes it to a single flaw: Lindqvist's test cannot accommodate the cases in which a defendant is required to disgorge gains obtained by wrongdoing, since in such cases there is often no transfer from the plaintiff at all, defective or otherwise. The critique is accurate but, I think, mislocates what was valuable in her work. Lindqvist never claimed to explain disgorgement for wrongs; she excluded it from the law of unjust enrichment deliberately, on the ground that it belonged to the law of wrongs and was confused with restitution only because the two happened to share a remedy.",
+    "What her critics have overlooked is the structural insight that outlived the specific test. Before Lindqvist, the question in a restitution case was whether the defendant's retention of the benefit was unjust—an inquiry into the defendant's position that invited open-ended appeals to conscience. Lindqvist relocated the inquiry to the plaintiff's side of the transaction: the question became whether the plaintiff's consent to the transfer was vitiated. This reorientation made the subject teachable, because the grounds on which consent may be vitiated are finite and familiar from the law of contract. The courts that later rejected her test retained her orientation, and continue to ask, in the first instance, what went wrong with the transfer rather than whether the defendant deserves to keep it.",
+    "None of this is to say that the intent-based theory should be revived. It was, in the end, too narrow: it could not explain why a plaintiff who conferred a benefit knowingly, in the reasonable expectation of payment, should recover when the expectation was disappointed, and the strained analyses Lindqvist offered of such cases are the weakest passages in her book. But a theory may be wrong in its boundaries and right in its orientation, and it is the orientation that has proved durable. To read Lindqvist as the author of a discredited test is to mistake the part of her work that was least original for the whole of it."
+  ],
+  "roleMap": {
+    "paragraphs": ["context", "counterpoint", "main_point", "concession"],
+    "viewpoints": [
+      { "who": "Lindqvist (the intent-based test)", "position": "Enrichment is unjust only when it results from a transfer the transferor did not intend to be effective", "authorAgrees": false },
+      { "who": "Lindqvist (the reorientation)", "position": "The restitutionary inquiry should ask whether the plaintiff's consent was vitiated rather than whether the defendant's retention is unjust", "authorAgrees": true },
+      { "who": "Standard critics", "position": "The theory failed because it cannot accommodate disgorgement of gains from wrongdoing", "authorAgrees": false }
+    ],
+    "tone": "sympathetic but not uncritical"
+  },
+  "lowResSummary": "Author argues Lindqvist's critics target the wrong thing: her test was too narrow, but her reorientation of restitution toward the plaintiff's consent endures.",
+  "questions": [
+    {
+      "id": "rc-lindqvist-restitution-q1",
+      "type": "main_point",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately expresses the main point of the passage?",
+      "choices": {
+        "A": "Lindqvist's intent-based theory of restitution should be revived because its critics have misunderstood the scope she intended for it.",
+        "B": "Lindqvist's lasting contribution lies not in her intent-based test, which was too narrow, but in her reorientation of restitution toward defects in the plaintiff's consent.",
+        "C": "The law of unjust enrichment remains a disorder because no theory since Lindqvist's has supplied a workable definition of unjustness.",
+        "D": "Lindqvist deliberately excluded disgorgement for wrongs from the law of unjust enrichment on the ground that it belonged to the law of wrongs.",
+        "E": "Courts have rejected Lindqvist's test chiefly because it could not explain recovery for benefits conferred in the expectation of payment."
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "Paragraph 4 opens: 'None of this is to say that the intent-based theory should be revived.'",
+        "B": "Correct. Paragraph 3 identifies 'the structural insight that outlived the specific test'; paragraph 4 says the theory was 'wrong in its boundaries and right in its orientation.'",
+        "C": "The author says courts retained her orientation; nothing suggests continuing disorder.",
+        "D": "True, but a detail used to answer the critics, not the thesis.",
+        "E": "The expectation-of-payment problem is the author's own criticism; the passage does not say it was the courts' reason."
+      },
+      "trapPatterns": { "A": "opposite", "C": "opposite", "D": "half_right", "E": "wrong_part" },
+      "keyTakeaway": "Spotlight passages reassess; the main point names what survives and what does not.",
+      "evidence": [2, 3]
+    },
+    {
+      "id": "rc-lindqvist-restitution-q2",
+      "type": "stated",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "According to the passage, before Lindqvist's work the central question in a restitution case was",
+      "choices": {
+        "A": "whether the plaintiff's consent to the transfer had been vitiated.",
+        "B": "whether the defendant had obtained the benefit through some wrongdoing.",
+        "C": "whether the defendant's retention of the benefit was unjust.",
+        "D": "whether the plaintiff had reasonably expected to be paid for the benefit.",
+        "E": "which of several available remedies was appropriate to the transaction."
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "That is the question after Lindqvist's reorientation.",
+        "B": "Wrongdoing belongs to the disgorgement cases Lindqvist set aside.",
+        "C": "Correct. Paragraph 3: 'Before Lindqvist, the question in a restitution case was whether the defendant's retention of the benefit was unjust.'",
+        "D": "Expectation of payment is the category the author says her test handled worst.",
+        "E": "The remedies are listed as symptoms of disorder, not as the central question."
+      },
+      "trapPatterns": { "A": "opposite", "B": "shell_game", "D": "wrong_part", "E": "out_of_scope" },
+      "keyTakeaway": "Before/after contrasts are a favorite site for stated questions; keep the timeline straight.",
+      "evidence": [2]
+    },
+    {
+      "id": "rc-lindqvist-restitution-q3",
+      "type": "purpose_in_context",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The author mentions the law of contract primarily in order to",
+      "choices": {
+        "A": "explain why relocating the restitutionary inquiry to the plaintiff's consent made the subject more systematic.",
+        "B": "show that Lindqvist's theory was derived from contractual doctrine rather than from the restitution cases.",
+        "C": "suggest that the law of restitution should ultimately be absorbed into the law of contract.",
+        "D": "illustrate the kind of open-ended appeal to conscience that Lindqvist sought to eliminate.",
+        "E": "identify the source of the examples that Lindqvist analyzed least successfully."
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. 'This reorientation made the subject teachable, because the grounds on which consent may be vitiated are finite and familiar from the law of contract.'",
+        "B": "The passage says the grounds are familiar from contract, not that the theory was derived from it.",
+        "C": "No merger is proposed.",
+        "D": "Contract supplies the finite grounds that replaced open-ended conscience, the opposite role.",
+        "E": "The weak examples concern expectation of payment and are discussed in paragraph 4 without reference to contract."
+      },
+      "trapPatterns": { "B": "shell_game", "C": "extreme", "D": "opposite", "E": "wrong_part" },
+      "keyTakeaway": "'Because' after a claim marks the mentioned item as the reason for that claim.",
+      "evidence": [2]
+    },
+    {
+      "id": "rc-lindqvist-restitution-q4",
+      "type": "other_perspective",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The passage suggests that the critics who offer the \"standard account\" of the theory's decline would be most likely to agree that",
+      "choices": {
+        "A": "Lindqvist's reorientation of the inquiry toward the plaintiff has been retained by the courts.",
+        "B": "disgorgement for wrongs properly belongs to the law of wrongs rather than to the law of restitution.",
+        "C": "the intent-based theory was wrong in its boundaries but right in its orientation.",
+        "D": "an adequate theory of unjust enrichment must account for cases requiring disgorgement of gains from wrongdoing.",
+        "E": "Lindqvist's theory dominated academic restitution only because no rival theory was available."
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "This is the author's claim in paragraph 3, which the critics are said to have 'overlooked.'",
+        "B": "The critics fault the theory for failing to accommodate such cases, so they treat them as within unjust enrichment.",
+        "C": "This is the author's verdict in paragraph 4.",
+        "D": "Correct. Their objection that the test 'cannot accommodate' disgorgement cases presupposes that it should.",
+        "E": "Nothing in the passage attributes any view about rivals to the critics."
+      },
+      "trapPatterns": { "A": "wrong_part", "B": "opposite", "C": "wrong_part", "E": "out_of_scope" },
+      "keyTakeaway": "A critic's objection reveals the standard the critic applies; infer the presupposition.",
+      "evidence": [1]
+    },
+    {
+      "id": "rc-lindqvist-restitution-q5",
+      "type": "author_attitude",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "The author's attitude toward Lindqvist's analyses of benefits conferred in the expectation of payment is best described as",
+      "choices": {
+        "A": "admiration for their ingenuity in extending the reach of the intent-based test.",
+        "B": "uncertainty as to whether Lindqvist intended them to be taken seriously.",
+        "C": "approval qualified by concern that the courts have ignored them.",
+        "D": "indifference, since the author regards such cases as belonging to the law of wrongs.",
+        "E": "disapproval, since the author regards them as the least convincing part of her book."
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "'Strained' is not a term of admiration.",
+        "B": "No doubt about her seriousness is expressed.",
+        "C": "The author disapproves of the analyses and says nothing about courts ignoring them.",
+        "D": "The law of wrongs concerns disgorgement cases, a different category.",
+        "E": "Correct. Paragraph 4: 'the strained analyses Lindqvist offered of such cases are the weakest passages in her book.'"
+      },
+      "trapPatterns": { "A": "opposite", "B": "out_of_scope", "C": "opposite", "D": "shell_game" },
+      "keyTakeaway": "Evaluative adjectives ('strained', 'weakest') settle attitude questions directly.",
+      "evidence": [3]
+    },
+    {
+      "id": "rc-lindqvist-restitution-q6",
+      "type": "author_perspective",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "It can be inferred from the passage that the author would be most likely to agree with which one of the following?",
+      "choices": {
+        "A": "A legal theory that excludes a category of cases from its scope is thereby defective.",
+        "B": "Lindqvist's test was the most original element of her contribution to restitution.",
+        "C": "A theory's framing of the central question can remain influential even after its specific answer has been rejected.",
+        "D": "Courts today ask first whether the defendant deserves to keep a benefit and only then what went wrong with the transfer.",
+        "E": "The confusion between restitution and the law of wrongs arose because the two share a common theory of liability."
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "The author defends Lindqvist's deliberate exclusion of disgorgement cases.",
+        "B": "The final sentence calls the test 'the part of her work that was least original.'",
+        "C": "Correct. 'The courts that later rejected her test retained her orientation'; 'it is the orientation that has proved durable.'",
+        "D": "Reversed: courts ask 'in the first instance, what went wrong with the transfer rather than whether the defendant deserves to keep it.'",
+        "E": "The passage says they 'happened to share a remedy', not a theory of liability."
+      },
+      "trapPatterns": { "A": "opposite", "B": "opposite", "D": "reversal", "E": "shell_game" },
+      "keyTakeaway": "Keys to inference questions often restate the passage's central contrast at one level of abstraction higher.",
+      "evidence": [2, 3]
+    },
+    {
+      "id": "rc-lindqvist-restitution-q7",
+      "type": "principle",
+      "logicTags": ["part_v_whole"],
+      "difficulty": 4,
+      "stem": "Which one of the following principles underlies the author's reassessment of Lindqvist's work?",
+      "choices": {
+        "A": "A scholar should be judged by the claims she actually made rather than by those her admirers made on her behalf.",
+        "B": "The value of a legal theory is measured by the proportion of cases that it correctly decides.",
+        "C": "A theory that makes a subject teachable should be preferred to one that is more accurate.",
+        "D": "A contribution to a field may consist less in the answers it gives than in the way it reframes the questions.",
+        "E": "Critics of a theory are obliged to propose an alternative before they are entitled to reject it."
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "The author does note what Lindqvist 'never claimed', but that answers one critique; the reassessment as a whole turns on orientation versus test.",
+        "B": "By this measure Lindqvist's narrow test would fail, which is the verdict the author resists.",
+        "C": "The author concedes the test was wrong and does not prefer it; teachability is a benefit of the reorientation, not a trump over accuracy.",
+        "D": "Correct. 'A theory may be wrong in its boundaries and right in its orientation'; the durable part is how she relocated the inquiry.",
+        "E": "The author never imposes such a burden on the critics."
+      },
+      "trapPatterns": { "A": "half_right", "B": "opposite", "C": "wrong_force", "E": "out_of_scope" },
+      "keyTakeaway": "A principle question asks for the general rule that would make the author's specific verdict follow; test each candidate against the conclusion.",
+      "evidence": [2, 3]
+    }
+  ]
+}

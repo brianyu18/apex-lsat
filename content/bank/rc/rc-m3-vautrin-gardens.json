@@ -1,0 +1,200 @@
+{
+  "id": "rc-m3-vautrin-gardens",
+  "style": "spotlight",
+  "topic": "humanities",
+  "comparative": false,
+  "title": "Josse Vautrin and the Irregular Baroque Garden",
+  "paragraphs": [
+    "The gardens that Josse Vautrin laid out for a handful of provincial estates in the decades around 1700 have never fitted comfortably into histories of the Baroque garden. The dominant style of the period, exemplified by the great royal parks, subordinated terrain to geometry: a central axis, radiating allées, parterres of clipped box, and water compelled into basins and canals whose edges were as straight as a drafting rule could make them. Vautrin's gardens employ this vocabulary but repeatedly violate its grammar. Axes bend; terraces are of unequal depth; cascades fall in irregular steps rather than in measured tiers. For two centuries the standard explanation was provincial incompetence—Vautrin, it was said, knew the fashion but lacked the means or the skill to execute it—and the gardens were catalogued, when they were noticed at all, as derivative.",
+    "Céline Dubarry's recent monograph makes the strongest case yet for a different reading. Working from estate accounts, survey plats, and Vautrin's own treatise on hydraulics, Dubarry shows that the irregularities correspond with striking consistency to features of the sites: a bent axis follows the line along which water could be brought by gravity from a spring; a shallow terrace sits where bedrock lies close to the surface. The cascade at Montferrand, long cited as the clearest instance of Vautrin's clumsiness, turns out on her analysis to be calibrated to the modest flow of its source—a measured tier would have run dry for most of the year, whereas the irregular steps keep the water visibly moving. What earlier historians read as a failure to impose geometry was, Dubarry argues, a refusal to impose it where the site would not sustain it.",
+    "Dubarry goes further, however, and here the argument strains. The treatise, she notes, contains passages commending the 'pleasing variety' of water that moves as nature moves it, and she takes these as evidence that Vautrin anticipated, by half a century, the picturesque aesthetic that would later displace formal design altogether. But the phrase was a commonplace of hydraulic writing, used by designers whose gardens were rigidly axial, and nothing in Vautrin's work suggests that he valued irregularity for its own sake. His bent axes are as straight as their springs allow. To read the treatise as a picturesque manifesto is to credit Vautrin with a theory he did not need in order to do what he did.",
+    "The two claims should be separated, and the first should be allowed to stand on its own. That Vautrin adapted formal design to difficult sites is now established, and it is enough to remove him from the category of the derivative. That he foresaw the aesthetic that would supersede formal design is a different and more flattering proposition, for which the evidence is an idiom he shared with his most conventional contemporaries. Reassessment is most persuasive when it stops at what the record will bear."
+  ],
+  "roleMap": {
+    "paragraphs": ["context", "support", "counterpoint", "main_point"],
+    "viewpoints": [
+      { "who": "Traditional garden historians", "position": "Vautrin's irregularities reflect provincial incompetence; his gardens are derivative", "authorAgrees": false },
+      { "who": "Céline Dubarry (site-based claim)", "position": "The irregularities are deliberate adaptations to hydraulics and terrain", "authorAgrees": true },
+      { "who": "Céline Dubarry (picturesque claim)", "position": "Vautrin's treatise shows he anticipated the picturesque aesthetic", "authorAgrees": false }
+    ],
+    "tone": "qualified approval"
+  },
+  "lowResSummary": "Author endorses Dubarry's site-based explanation of Vautrin's irregular gardens but rejects her claim that he anticipated the picturesque.",
+  "questions": [
+    {
+      "id": "rc-m3-vautrin-gardens-q1",
+      "type": "main_point",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately expresses the main point of the passage?",
+      "choices": {
+        "A": "Dubarry's monograph has definitively overturned the traditional view of Vautrin as an incompetent provincial by demonstrating that he was a precursor of the picturesque aesthetic.",
+        "B": "Vautrin's gardens, long dismissed as derivative, should be recognized as the earliest examples of picturesque design in the period.",
+        "C": "The irregularities in Vautrin's gardens resulted from the hydraulic limitations of provincial sites rather than from any deliberate design.",
+        "D": "Historians who reassess neglected figures should confine themselves to evidence drawn from estate accounts and survey plats.",
+        "E": "Dubarry's claim that Vautrin adapted formal design to his sites is well supported, but her further claim that he anticipated later aesthetics outruns the evidence."
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "Half right. The traditional view is overturned, but the author rejects the picturesque claim as the means of doing so.",
+        "B": "Opposite. Paragraph 3 denies that Vautrin 'valued irregularity for its own sake' or wrote a 'picturesque manifesto.'",
+        "C": "Opposite. Dubarry's reading, which the author accepts, is that the irregularities were 'a refusal to impose' geometry—deliberate, not merely forced.",
+        "D": "Extreme. The author's methodological remark is that reassessment should stop 'at what the record will bear,' not a restriction to particular document types.",
+        "E": "Correct. Paragraph 4: 'The two claims should be separated'; the first 'is now established,' while the second rests on 'an idiom he shared with his most conventional contemporaries.'"
+      },
+      "trapPatterns": { "A": "half_right", "B": "opposite", "C": "opposite", "D": "extreme" },
+      "keyTakeaway": "Spotlight passages that split a reassessment into an accepted and a rejected claim have that split as their main point.",
+      "evidence": [1, 2, 3]
+    },
+    {
+      "id": "rc-m3-vautrin-gardens-q2",
+      "type": "stated",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "According to the passage, a measured tier at the Montferrand cascade would have",
+      "choices": {
+        "A": "required bringing water by gravity from a more distant spring.",
+        "B": "been without water for much of the year.",
+        "C": "conflicted with the bent axis of the garden.",
+        "D": "exceeded the means available to a provincial estate.",
+        "E": "been indistinguishable from the royal cascades it imitated."
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "Shell game. Gravity-fed water explains the bent axis elsewhere, not the cascade's tiers.",
+        "B": "Correct. Paragraph 2: 'a measured tier would have run dry for most of the year.'",
+        "C": "Out of scope. No relation between the cascade and an axis is described.",
+        "D": "Wrong part. Insufficient means is the traditional explanation the passage rejects, not a claim about measured tiers.",
+        "E": "Out of scope. The passage never compares the Montferrand cascade's appearance to royal cascades."
+      },
+      "trapPatterns": { "A": "shell_game", "C": "out_of_scope", "D": "wrong_part", "E": "out_of_scope" },
+      "keyTakeaway": "Detail questions that name a specific feature are answered by the clause attached to that feature, not by neighboring examples.",
+      "evidence": [1]
+    },
+    {
+      "id": "rc-m3-vautrin-gardens-q3",
+      "type": "author_attitude",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The author's attitude toward Dubarry's monograph can most accurately be described as",
+      "choices": {
+        "A": "unreserved admiration for both its archival method and its conclusions about Vautrin's place in garden history",
+        "B": "doubt that its archival findings can be independently verified",
+        "C": "approval of its central finding tempered by resistance to its most ambitious claim",
+        "D": "suspicion that it exaggerates the difficulty of Vautrin's sites",
+        "E": "agreement that Vautrin's treatise is best read as a picturesque manifesto"
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "Extreme. 'Unreserved' is contradicted by paragraph 3: 'here the argument strains.'",
+        "B": "Out of scope. The author treats the archival findings as 'now established.'",
+        "C": "Correct. The author calls the monograph 'the strongest case yet' for the site-based reading but says the picturesque claim 'strains' and 'outruns' the evidence.",
+        "D": "Out of scope. The author accepts the site evidence without questioning its difficulty.",
+        "E": "Opposite. The author explicitly rejects reading the treatise 'as a picturesque manifesto.'"
+      },
+      "trapPatterns": { "A": "extreme", "B": "out_of_scope", "D": "out_of_scope", "E": "opposite" },
+      "keyTakeaway": "'Strongest case yet' plus 'here the argument strains' is the signature of qualified approval.",
+      "evidence": [1, 2, 3]
+    },
+    {
+      "id": "rc-m3-vautrin-gardens-q4",
+      "type": "purpose_in_context",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "The author mentions that the phrase 'pleasing variety' was a commonplace of hydraulic writing primarily in order to",
+      "choices": {
+        "A": "undermine the evidentiary value Dubarry assigns to its appearance in Vautrin's treatise.",
+        "B": "show that Vautrin's treatise was widely read by his contemporaries.",
+        "C": "suggest that the picturesque aesthetic originated earlier than is usually supposed.",
+        "D": "illustrate the kind of archival source on which Dubarry's site-based argument relies.",
+        "E": "establish that Vautrin's gardens were more conventional than Dubarry allows."
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. If the phrase was used 'by designers whose gardens were rigidly axial,' it cannot show that Vautrin held a picturesque theory.",
+        "B": "Out of scope. The passage says nothing about the treatise's readership.",
+        "C": "Opposite. The author is denying that the treatise is early evidence of the picturesque.",
+        "D": "Wrong part. The treatise is one of Dubarry's sources, but the sentence is about a phrase's weakness as evidence, not about source types.",
+        "E": "Shell game. The author's point concerns the phrase, not the gardens, which the author agrees were adapted to their sites."
+      },
+      "trapPatterns": { "B": "out_of_scope", "C": "opposite", "D": "wrong_part", "E": "shell_game" },
+      "keyTakeaway": "A 'but' sentence in a counterpoint paragraph exists to weaken the evidence just cited.",
+      "evidence": [2]
+    },
+    {
+      "id": "rc-m3-vautrin-gardens-q5",
+      "type": "other_perspective",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "The passage suggests that the historians who regarded Vautrin's gardens as derivative would have been most likely to agree with which one of the following?",
+      "choices": {
+        "A": "A garden that departs from the geometry of the royal parks cannot be considered a Baroque garden.",
+        "B": "Vautrin was unfamiliar with the formal vocabulary employed in the royal parks.",
+        "C": "The irregular features of Vautrin's gardens reflect the limitations of the sites on which he worked.",
+        "D": "Fidelity to the prevailing geometric style is an appropriate measure of a Baroque designer's achievement.",
+        "E": "Vautrin's treatise on hydraulics is of greater interest than the gardens he built."
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "Extreme. They catalogued the gardens as derivative Baroque works, not as non-Baroque.",
+        "B": "Opposite. The traditional view was that Vautrin 'knew the fashion but lacked the means or the skill to execute it.'",
+        "C": "Opposite. Site adaptation is Dubarry's explanation, which the traditional historians did not entertain.",
+        "D": "Correct. Judging Vautrin a failure for not executing the fashion presupposes that executing it is the standard of achievement.",
+        "E": "Out of scope. The traditional historians are not said to have discussed the treatise at all."
+      },
+      "trapPatterns": { "A": "extreme", "B": "opposite", "C": "opposite", "E": "out_of_scope" },
+      "keyTakeaway": "To infer a viewpoint's assumptions, ask what standard would make its verdict ('incompetence') follow from the facts it cites.",
+      "evidence": [0]
+    },
+    {
+      "id": "rc-m3-vautrin-gardens-q6",
+      "type": "analogy",
+      "logicTags": ["analogy"],
+      "difficulty": 4,
+      "stem": "The author's objection to Dubarry's reading of Vautrin's treatise is most analogous to which one of the following?",
+      "choices": {
+        "A": "A critic argues that a novelist's unusual handling of narrative time anticipated the experimental fiction of a later generation, citing passages in which the technique is most pronounced.",
+        "B": "A biographer concludes that a physician who prescribed rest for fevers anticipated germ theory, although rest was the standard prescription among physicians who held no such theory.",
+        "C": "A historian attributes a general's victory to tactical genius when the general's own dispatches credit the weather.",
+        "D": "A reviewer praises an architect for sensitively adapting a building to its sloping site, overlooking that the adaptation was required by the local building code.",
+        "E": "A scholar dismisses a poet's innovations because they resemble the conventions of a later period."
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "Half right. This has the anachronistic inference but lacks the decisive feature: the cited evidence was a commonplace shared by practitioners who held no such theory.",
+        "B": "Correct. Like 'pleasing variety,' the prescription was 'a commonplace... used by designers whose gardens were rigidly axial'; inferring a theory from shared conventional practice is exactly the error the author identifies.",
+        "C": "Out of scope. This concerns ignoring an agent's own stated explanation, which plays no role in the author's objection.",
+        "D": "Wrong part. This is an analogy to the site-adaptation debate of paragraph 2, and it runs the opposite way (crediting as deliberate what was compelled).",
+        "E": "Reversal. The author objects to over-crediting, not to dismissing, on the basis of resemblance to later ideas."
+      },
+      "trapPatterns": { "A": "half_right", "C": "out_of_scope", "D": "wrong_part", "E": "reversal" },
+      "keyTakeaway": "Abstract the objection fully—evidence that is a shared commonplace cannot support a distinctive theory—before matching it to a new domain.",
+      "evidence": [2]
+    },
+    {
+      "id": "rc-m3-vautrin-gardens-q7",
+      "type": "meaning_in_context",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately expresses the meaning of 'grammar' as it is used in the passage?",
+      "choices": {
+        "A": "the technical terminology used by Baroque garden designers",
+        "B": "the hydraulic principles governing the movement of water in a formal garden",
+        "C": "the written conventions of the treatises in which the style was described",
+        "D": "the sequence in which the elements of a garden were constructed",
+        "E": "the rules governing how the elements of the formal style were to be combined"
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "Shell game. Terminology corresponds to the 'vocabulary' Vautrin is said to employ, which the sentence contrasts with grammar.",
+        "B": "Wrong part. Hydraulics enters in paragraph 2 as Dubarry's explanation, not as the meaning of the style's grammar.",
+        "C": "Shell game. 'Grammar' is used metaphorically for the style, not for any written treatise.",
+        "D": "Out of scope. Construction sequence is never discussed.",
+        "E": "Correct. The examples that follow—bent axes, unequal terraces, irregular cascades—are violations of how the style's elements were supposed to be arranged."
+      },
+      "trapPatterns": { "A": "shell_game", "B": "wrong_part", "C": "shell_game", "D": "out_of_scope" },
+      "keyTakeaway": "A vocabulary/grammar metaphor maps elements to vocabulary and combinatory rules to grammar; the following examples confirm which is meant.",
+      "evidence": [0]
+    }
+  ]
+}

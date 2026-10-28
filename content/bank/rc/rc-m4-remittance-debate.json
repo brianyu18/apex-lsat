@@ -1,0 +1,200 @@
+{
+  "id": "rc-m4-remittance-debate",
+  "style": "critique_debate",
+  "topic": "social_science",
+  "comparative": false,
+  "title": "What Remittances Do",
+  "paragraphs": [
+    "In many regions of out-migration, the money sent home by migrants now exceeds both foreign investment and official aid, and in some villages it is the principal source of cash income. The question of what these remittances do to the communities that receive them has accordingly become one of the more contested in development studies, and the contest has settled into two camps whose positions are by now familiar. Each camp can point to careful fieldwork conducted over many years; neither has come close to persuading the other.",
+    "The first camp, whose most forceful exponent is Bruno Ferreira, holds that remittances entrench a cycle of dependency. Ferreira's studies of highland communities document a recurrent sequence: remitted money is spent on housing, ceremonies, and imported goods rather than on productive enterprise; the resulting demand bids up the price of land and labor; local agriculture, unable to compete for workers at the new wage, contracts; and the next generation, finding fewer livelihoods at home than their parents had, migrates in turn. The community becomes, in Ferreira's phrase, a nursery for emigrants, its visible prosperity a symptom of the hollowing out that sustains it.",
+    "The second camp, associated with Ingrid Lindqvist, replies that this reading mistakes the first years of a long process for its whole course. Expenditure on housing and schooling is itself an investment, in health and in human capital; the demand that remittances generate supports local builders and shopkeepers; and the income provides insurance that allows households to undertake risks, such as planting a new crop, that they would otherwise avoid. Lindqvist's surveys find, after a generation, higher rates of small business formation in remittance-receiving villages than in comparable villages without migrants. It has not escaped notice that both camps draw on the same kind of evidence, the household's spending, and that each can find in it what it seeks.",
+    "That coincidence is, I think, the point to press. If identical patterns of expenditure can issue in stagnation in one region and enterprise in another, the explanation lies not in the remittances but in the circumstances that meet them. Where land can be bought but not readily sold, and where no lender will advance capital against a farm, a household that wishes to secure its windfall has little choice but to build and to spend; the dependency Ferreira describes is in such settings a rational response to markets that offer nothing else. Lindqvist's enterprising villages, on inspection, are those with functioning credit and secure title. To ask whether remittances are developmental is therefore to ask the wrong question. They are an inflow of liquidity, and what liquidity does depends on what it can be converted into."
+  ],
+  "roleMap": {
+    "paragraphs": ["context", "counterpoint", "transition", "main_point"],
+    "viewpoints": [
+      { "who": "Bruno Ferreira", "position": "Remittances entrench dependency: consumption spending inflates prices, agriculture contracts, and the next generation must migrate.", "authorAgrees": null },
+      { "who": "Ingrid Lindqvist", "position": "Remittances are developmental over a generation: housing and schooling are investments, demand supports local business, and income insures risk-taking.", "authorAgrees": null },
+      { "who": "The author", "position": "The effects of remittances depend on local land and credit institutions; asking whether remittances are developmental is the wrong question.", "authorAgrees": true }
+    ],
+    "tone": "even-handed, then decisive"
+  },
+  "lowResSummary": "Author argues both the dependency and developmental schools misattribute to remittances effects that actually depend on local land and credit institutions.",
+  "questions": [
+    {
+      "id": "rc-m4-remittance-debate-q1",
+      "type": "main_point",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "Which one of the following most accurately expresses the main point of the passage?",
+      "choices": {
+        "A": "Ferreira's dependency account of remittances is correct for highland communities but does not apply to villages that have access to credit.",
+        "B": "Remittances are developmental over the long run, as Lindqvist's surveys of small business formation in migrant-sending villages demonstrate.",
+        "C": "Because both camps rely on the same household spending data, the debate over the effects of remittances cannot be resolved empirically.",
+        "D": "The effects of remittances depend on the local institutions that receive them, so the debate over whether remittances are developmental is misconceived.",
+        "E": "Remittances now exceed foreign investment and official aid in many regions, which makes their effects a central question in development studies."
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "Half right. The author accepts Ferreira's pattern but reinterprets it as 'a rational response to markets,' which is not an endorsement of his account even for the highlands.",
+        "B": "Wrong part. This is Lindqvist's position, which the author treats as one side of a misconceived debate.",
+        "C": "Extreme. The author uses the shared evidence as 'the point to press' toward a resolution, not as proof the debate is unresolvable.",
+        "D": "Correct. Paragraph 4: 'the explanation lies not in the remittances but in the circumstances that meet them'; 'to ask whether remittances are developmental is therefore to ask the wrong question.'",
+        "E": "Wrong part. This is the opening context, not the argument."
+      },
+      "trapPatterns": { "A": "half_right", "B": "wrong_part", "C": "extreme", "E": "wrong_part" },
+      "keyTakeaway": "When an author says both camps are asking the wrong question, the main point is the reframing, not a verdict for either side.",
+      "evidence": [3]
+    },
+    {
+      "id": "rc-m4-remittance-debate-q2",
+      "type": "stated",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "According to the passage, Ferreira's studies document that remittances lead to",
+      "choices": {
+        "A": "increases in the price of land and labor",
+        "B": "higher rates of small business formation after a generation",
+        "C": "the expansion of local agriculture at the new wage",
+        "D": "a reduction in the number of young people who migrate",
+        "E": "greater household investment in schooling and health"
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. 'The resulting demand bids up the price of land and labor.'",
+        "B": "Shell game. Small business formation is Lindqvist's finding, not Ferreira's.",
+        "C": "Opposite. Agriculture, 'unable to compete for workers at the new wage, contracts.'",
+        "D": "Opposite. The next generation 'migrates in turn.'",
+        "E": "Wrong part. The reinterpretation of spending as investment in health and human capital belongs to Lindqvist."
+      },
+      "trapPatterns": { "B": "shell_game", "C": "opposite", "D": "opposite", "E": "wrong_part" },
+      "keyTakeaway": "Ferreira's sequence is a chain of four links; the correct detail is one link, and the traps come from the rival camp or reverse a link.",
+      "evidence": [1]
+    },
+    {
+      "id": "rc-m4-remittance-debate-q3",
+      "type": "author_perspective",
+      "logicTags": [],
+      "difficulty": 4,
+      "stem": "The passage most strongly suggests that the author would agree with which one of the following?",
+      "choices": {
+        "A": "Households in remittance-receiving communities generally spend their income irrationally.",
+        "B": "Lindqvist's surveys are more reliable than Ferreira's studies because they cover a longer period of time.",
+        "C": "A pattern of expenditure that appears to cause a community's stagnation may instead be an effect of the same conditions that cause it.",
+        "D": "Remittances would have no economic effect whatever in a community that lacked both credit markets and secure land title.",
+        "E": "The dependency Ferreira describes could be eliminated by increasing the amount of money that migrants send home."
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "Opposite. The author calls the dependency pattern 'a rational response to markets that offer nothing else.'",
+        "B": "Comparison shift. The author never ranks the two bodies of evidence; he says both find 'what it seeks' in the same data.",
+        "C": "Correct. In paragraph 4, spending on housing is caused by illiquid land and absent credit, and those same conditions, not the spending, explain why Ferreira's communities stagnate while Lindqvist's prosper.",
+        "D": "Extreme. The author says such communities build and spend, which is an effect; he never says there would be 'no economic effect whatever.'",
+        "E": "Opposite. Since the cause lies in institutions, more liquidity would simply be 'converted into' the same things."
+      },
+      "trapPatterns": { "A": "opposite", "B": "comparison_shift", "D": "extreme", "E": "opposite" },
+      "keyTakeaway": "The author's reframing turns Ferreira's cause into a symptom: institutions drive both the spending and the stagnation. Only C states that structure.",
+      "evidence": [1, 3]
+    },
+    {
+      "id": "rc-m4-remittance-debate-q4",
+      "type": "purpose_in_context",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The author mentions planting a new crop primarily in order to",
+      "choices": {
+        "A": "illustrate the kind of productive enterprise that Ferreira finds absent in remittance-receiving communities",
+        "B": "give an example of a risk that remittance income, functioning as insurance, allows households to take",
+        "C": "show that remittance-receiving households prefer agricultural investment to spending on housing",
+        "D": "demonstrate that the villages Lindqvist studied had access to functioning credit markets",
+        "E": "explain why local agriculture contracts when remittances drive up the wage for labor"
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "Wrong part. The example appears in Lindqvist's paragraph as something remittances enable, not in Ferreira's as something absent.",
+        "B": "Correct. 'The income provides insurance that allows households to undertake risks, such as planting a new crop, that they would otherwise avoid.'",
+        "C": "Opposite. Lindqvist's camp treats housing expenditure as itself an investment; no preference is asserted.",
+        "D": "Wrong part. The credit-market observation is the author's in paragraph 4, not part of Lindqvist's example.",
+        "E": "Shell game. Agricultural contraction is Ferreira's claim; the new-crop example points the other way."
+      },
+      "trapPatterns": { "A": "wrong_part", "C": "opposite", "D": "wrong_part", "E": "shell_game" },
+      "keyTakeaway": "'Such as' introduces an instance of the noun just before it; here the noun is 'risks' enabled by insurance.",
+      "evidence": [2]
+    },
+    {
+      "id": "rc-m4-remittance-debate-q5",
+      "type": "other_perspective",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "The passage suggests that Lindqvist would be most likely to agree with which one of the following?",
+      "choices": {
+        "A": "Expenditure on housing and ceremonies is a symptom of a community's economic decline.",
+        "B": "The effects of remittances depend chiefly on whether land can be readily bought and sold.",
+        "C": "Communities that receive remittances rarely develop small businesses within a generation.",
+        "D": "Household spending data are an unreliable guide to the effects of remittances.",
+        "E": "Judgments about the effects of remittances formed within a few years of their arrival are likely to be premature."
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "Opposite. Lindqvist reads housing expenditure as 'itself an investment.'",
+        "B": "Wrong part. The land-market explanation is the author's, in paragraph 4.",
+        "C": "Extreme and opposite. Her surveys find 'higher rates of small business formation' after a generation.",
+        "D": "Opposite. Lindqvist relies on surveys of household spending; the author, not she, questions what such data can settle.",
+        "E": "Correct. Lindqvist says the dependency reading 'mistakes the first years of a long process for its whole course.'"
+      },
+      "trapPatterns": { "A": "opposite", "B": "wrong_part", "C": "extreme", "D": "opposite" },
+      "keyTakeaway": "Lindqvist's core objection is about time horizon; the right answer generalizes 'first years... whole course.'",
+      "evidence": [2]
+    },
+    {
+      "id": "rc-m4-remittance-debate-q6",
+      "type": "meaning_in_context",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "As it is used in the passage, the phrase 'nursery for emigrants' most nearly refers to a community that",
+      "choices": {
+        "A": "provides schooling that prepares its children for employment abroad",
+        "B": "receives more remittance income than it is able to invest productively",
+        "C": "raises each generation under conditions that leave it little option but to leave",
+        "D": "is sustained by the care that migrants continue to provide for relatives at home",
+        "E": "has grown prosperous by exporting its agricultural goods to other regions"
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "Shell game. 'Nursery' is metaphorical; nothing in Ferreira's sequence concerns schooling for work abroad.",
+        "B": "Shell game. Over-receipt is not the point; the phrase describes the generational consequence of contracting livelihoods.",
+        "C": "Correct. The phrase caps the sequence in which 'the next generation, finding fewer livelihoods at home... migrates in turn.'",
+        "D": "Out of scope. Care for relatives is never mentioned.",
+        "E": "Opposite. Agriculture contracts; the prosperity is 'a symptom of the hollowing out.'"
+      },
+      "trapPatterns": { "A": "shell_game", "B": "shell_game", "D": "out_of_scope", "E": "opposite" },
+      "keyTakeaway": "A coined phrase summarizes the sentence before it; read back one clause to decode the metaphor.",
+      "evidence": [1]
+    },
+    {
+      "id": "rc-m4-remittance-debate-q7",
+      "type": "weaken_strengthen_evaluate",
+      "logicTags": [],
+      "difficulty": 4,
+      "stem": "Which one of the following, if true, would most weaken the author's argument in the final paragraph?",
+      "choices": {
+        "A": "In several regions with functioning credit markets and secure land title, remittance-receiving households spend on housing and ceremonies and local agriculture contracts as Ferreira describes.",
+        "B": "Ferreira's highland communities had been losing population for several decades before remittances began to arrive in significant amounts.",
+        "C": "Households in Ferreira's highland communities spend a larger share of their remittances on ceremonies than on housing.",
+        "D": "Many of the small businesses formed in Lindqvist's villages failed within a few years of their founding.",
+        "E": "Migrants who send remittances frequently return home with skills they acquired while working abroad."
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. The author's claim is that the dependency pattern arises where land is illiquid and credit absent, and that enterprise appears where 'functioning credit and secure title' exist. The same pattern under good institutions breaks that link.",
+        "B": "True but irrelevant. Prior population loss says nothing about whether institutions determine what remittances do.",
+        "C": "Out of scope. The split between two kinds of consumption spending does not bear on the institutional explanation.",
+        "D": "Wrong part. This weakens Lindqvist's optimism, not the author's claim that institutions determine outcomes.",
+        "E": "Out of scope. Returned skills are a separate channel the passage never discusses."
+      },
+      "trapPatterns": { "B": "true_but_irrelevant", "C": "out_of_scope", "D": "wrong_part", "E": "out_of_scope" },
+      "keyTakeaway": "The author's thesis is a conditional about institutions; the weakener is a case where the antecedent (good institutions) holds but the predicted outcome (enterprise) does not.",
+      "evidence": [3]
+    }
+  ]
+}

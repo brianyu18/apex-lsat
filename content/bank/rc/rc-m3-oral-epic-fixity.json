@@ -1,0 +1,177 @@
+{
+  "id": "rc-m3-oral-epic-fixity",
+  "style": "single_position",
+  "topic": "humanities",
+  "comparative": true,
+  "title": "Fixity in Oral Epic: Theory and a Field Case",
+  "paragraphs": [
+    "The theory of oral-formulaic composition, in the form given it by Radomir Vlašić, holds that the singer of traditional epic does not recite a memorized text but composes anew in each performance, drawing on a stock of metrical formulas and narrative themes acquired through long apprenticeship. The formula—a group of words regularly employed under the same metrical conditions to express a given idea—is the singer's unit of thought, and the theme—a recurrent block of narrative such as the arming of a hero or the assembly of a council—is his unit of structure. Fluency in both allows composition at the speed of performance.",
+    "From this it follows that no two performances of 'the same' song will be verbally identical, and that the differences are not corruptions of an original but the ordinary condition of the art. The very notion of a fixed text, Vlašić argued, is foreign to oral tradition; it enters only with writing, which freezes one performance and thereby creates the standard against which later performances come to seem deficient. Singers who claim to repeat a song 'word for word' are, on this view, reporting a felt continuity of theme and formula rather than a literal identity of words, and comparison of recorded performances has repeatedly borne the point out."
+  ],
+  "paragraphsB": [
+    "Among the Kelantar singers of the upland valleys, whose repertoire I recorded across eleven seasons, performances of the narrative episodes of the cycle vary very much as the oral-formulaic model predicts: the arming scenes expand or contract to suit the occasion, speeches are recast, and no two renderings share more than a fraction of their lines. The genealogical catalogues embedded in the same songs behave differently. Across fourteen recordings of the Catalogue of the Founders by six singers, verbal agreement exceeded ninety percent, and the departures were almost all confined to the order of secondary names.",
+    "The singers themselves distinguish the two modes. A narrative episode may be 'sung well or badly'; a catalogue is 'sung rightly or wrongly,' and audiences correct a singer who misplaces an ancestor with an immediacy they never show toward a varied speech. Apprentices are drilled in the catalogues by repetition long before they are permitted to improvise narrative. None of these singers reads, and the catalogues are not derived from any written source that I have been able to trace. Fixity, in this tradition, is not an artifact of writing but a value the tradition itself attaches to a particular genre, and a model that treats all oral composition as recomposition has mistaken one mode of oral art for the whole."
+  ],
+  "roleMap": {
+    "paragraphs": ["context", "main_point"],
+    "viewpoints": [
+      { "who": "Radomir Vlašić (passage A)", "position": "Oral epic is recomposed in each performance; the notion of a fixed text enters only with writing", "authorAgrees": null },
+      { "who": "Author of passage B", "position": "Kelantar genealogical catalogues are fixed without writing, so fixity can be a value within oral tradition and the model needs qualification", "authorAgrees": null },
+      { "who": "Kelantar singers and audiences", "position": "Narrative may vary; catalogues must be sung rightly", "authorAgrees": null }
+    ],
+    "tone": "A expository; B qualifying"
+  },
+  "lowResSummary": "A states the oral-formulaic theory that fixity is foreign to oral tradition; B's field evidence of fixed genealogical catalogues qualifies that generalization.",
+  "questions": [
+    {
+      "id": "rc-m3-oral-epic-fixity-q1",
+      "type": "main_point",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately expresses the main point of passage B?",
+      "choices": {
+        "A": "The narrative episodes performed by the Kelantar singers vary from one performance to the next exactly as the oral-formulaic model would predict.",
+        "B": "Genealogical catalogues in Kelantar epic derive from a written source that the singers themselves no longer remember.",
+        "C": "Because Kelantar singers maintain near-verbatim fixity in one genre without the aid of writing, the oral-formulaic model's account of fixity requires qualification.",
+        "D": "Audiences in oral traditions exercise far greater control over the verbal content of performances than the oral-formulaic model has acknowledged.",
+        "E": "The oral-formulaic model should be abandoned because it cannot account for the behavior of Kelantar singers."
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "Half right. This is B's concession in its first sentence; the passage's point is the exception that follows.",
+        "B": "Opposite. B states that the catalogues 'are not derived from any written source that I have been able to trace.'",
+        "C": "Correct. B's final sentence: fixity 'is not an artifact of writing but a value the tradition itself attaches to a particular genre,' so the model 'has mistaken one mode of oral art for the whole.'",
+        "D": "Out of scope. Audience correction is one piece of evidence, not the thesis, and no general claim about audiences is made.",
+        "E": "Extreme. B says the model is right about narrative and wrong only in treating 'all oral composition as recomposition'—qualification, not abandonment."
+      },
+      "trapPatterns": { "A": "half_right", "B": "opposite", "D": "out_of_scope", "E": "extreme" },
+      "keyTakeaway": "When a passage opens by conceding what a theory gets right, its main point is the limit it then places on the theory.",
+      "evidence": [0, 1]
+    },
+    {
+      "id": "rc-m3-oral-epic-fixity-q2",
+      "type": "relationship",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately describes the relationship between the two passages?",
+      "choices": {
+        "A": "Passage B presents a case that limits the scope of a generalization advanced in passage A.",
+        "B": "Passage B provides field evidence confirming the theory that passage A presents in abstract terms.",
+        "C": "Passage A explains the origin of a practice whose decline passage B documents.",
+        "D": "Passage B rejects the central concept of passage A and proposes an alternative theory of oral composition.",
+        "E": "Passage A and passage B offer competing explanations of the same recorded performances."
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. A generalizes that fixity 'is foreign to oral tradition'; B supplies an instance in which fixity exists without writing and concludes the model took 'one mode... for the whole.'",
+        "B": "Half right. B's narrative evidence confirms the model, but its catalogue evidence is offered as a counterexample to A's claim about fixity.",
+        "C": "Out of scope. Neither passage concerns the decline of any practice.",
+        "D": "Extreme. B keeps the formula-and-theme account for narrative and proposes no alternative theory.",
+        "E": "Shell game. A refers to recorded performances generally; B's recordings are its own, and A does not discuss them."
+      },
+      "trapPatterns": { "B": "half_right", "C": "out_of_scope", "D": "extreme", "E": "shell_game" },
+      "keyTakeaway": "Generalization/instance pairs test whether the instance confirms, extends, or limits the general claim; look for the instance's own verdict sentence.",
+      "evidence": [0, 1]
+    },
+    {
+      "id": "rc-m3-oral-epic-fixity-q3",
+      "type": "approach",
+      "logicTags": [],
+      "difficulty": 4,
+      "stem": "Passage A and passage B differ in that only passage B",
+      "choices": {
+        "A": "distinguishes between the formula and the theme as units of composition.",
+        "B": "considers whether singers' own accounts of their practice are reliable.",
+        "C": "refers to comparisons among recorded performances.",
+        "D": "explains how the notion of a fixed text arises.",
+        "E": "draws on the author's own firsthand observation."
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "Opposite. Only A defines formula and theme.",
+        "B": "Half right. B reports singers' distinctions, but A also assesses singers' claims to repeat 'word for word,' reinterpreting them.",
+        "C": "Shell game. A states that 'comparison of recorded performances has repeatedly borne the point out,' so both refer to such comparisons.",
+        "D": "Opposite. A explains that the notion 'enters only with writing'; B denies this for Kelantar but offers no account of the notion's origin.",
+        "E": "Correct. B's author writes of the repertoire 'I recorded across eleven seasons' and sources 'I have been able to trace'; A reports a theory secondhand."
+      },
+      "trapPatterns": { "A": "opposite", "B": "half_right", "C": "shell_game", "D": "opposite" },
+      "keyTakeaway": "For 'only passage B' items, a single clause in A that touches the topic eliminates the choice; A's reinterpretation of singers' claims defeats B, and its mention of recordings defeats C.",
+      "evidence": [0, 1]
+    },
+    {
+      "id": "rc-m3-oral-epic-fixity-q4",
+      "type": "stated",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "According to passage A, Vlašić held that a singer's claim to repeat a song word for word",
+      "choices": {
+        "A": "is typically accurate for short songs but not for long ones.",
+        "B": "reflects the influence of written versions of the song that the singer has encountered.",
+        "C": "is a deliberate attempt to enhance the singer's prestige.",
+        "D": "expresses a felt continuity of theme and formula rather than literal verbal identity.",
+        "E": "has been confirmed by comparison of recorded performances."
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "Out of scope. Song length is never discussed.",
+        "B": "Shell game. Writing is said to create the notion of a fixed text, not to explain individual singers' claims.",
+        "C": "Out of scope. No motive of prestige is attributed to singers.",
+        "D": "Correct. A: singers 'are, on this view, reporting a felt continuity of theme and formula rather than a literal identity of words.'",
+        "E": "Opposite. Recorded comparisons bore out Vlašić's reinterpretation of the claim, not the claim itself."
+      },
+      "trapPatterns": { "A": "out_of_scope", "B": "shell_game", "C": "out_of_scope", "E": "opposite" },
+      "keyTakeaway": "Read 'on this view' sentences as the theorist's reinterpretation of a claim, which is what stated questions about the theorist will target.",
+      "evidence": [1]
+    },
+    {
+      "id": "rc-m3-oral-epic-fixity-q5",
+      "type": "other_perspective",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "The author of passage B would be most likely to agree with which one of the following statements about Vlašić's theory?",
+      "choices": {
+        "A": "It correctly identifies the units of composition employed by Kelantar singers in their narrative episodes but not in their catalogues.",
+        "B": "Its claim that fixity enters oral tradition only with writing generalizes from one mode of oral art to all of it.",
+        "C": "It should be replaced by a model in which audiences rather than singers determine the content of performances.",
+        "D": "It applies to traditions whose singers are literate but not to those whose singers are not.",
+        "E": "It underestimates the extent to which narrative episodes vary between performances."
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "Half right. B says narrative varies 'as the model predicts' but never discusses formulas or themes as units, so the claim about catalogues' units is unsupported.",
+        "B": "Correct. B's closing sentence: 'a model that treats all oral composition as recomposition has mistaken one mode of oral art for the whole.'",
+        "C": "Extreme. Audience correction is evidence of a value, not grounds for a new model of authorship.",
+        "D": "Shell game. B's singers are nonliterate and the model fits their narrative well; literacy is not the dividing line B draws.",
+        "E": "Opposite. B finds narrative variation matches the model's prediction."
+      },
+      "trapPatterns": { "A": "half_right", "C": "extreme", "D": "shell_game", "E": "opposite" },
+      "keyTakeaway": "An instance-passage author's view of the theory is usually stated in the last sentence—accept its exact scope.",
+      "evidence": [1]
+    },
+    {
+      "id": "rc-m3-oral-epic-fixity-q6",
+      "type": "application",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "Which one of the following, if true of another oral tradition, would most strengthen passage B's challenge to the generalization in passage A?",
+      "choices": {
+        "A": "Singers in the tradition vary their narrative episodes far more widely from performance to performance than the Kelantar singers do.",
+        "B": "The tradition's singers memorize written genealogies supplied by local priests.",
+        "C": "Audiences in the tradition tolerate variation in catalogues as readily as in narrative.",
+        "D": "The tradition's catalogues were first recorded by outsiders within the last decade.",
+        "E": "The tradition's ritual invocations, never written down, are reproduced verbatim across generations and corrected by listeners when varied."
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "Out of scope. Greater narrative variation supports the model's account of narrative and says nothing about fixity.",
+        "B": "Opposite. Fixity derived from written genealogies is exactly what A predicts.",
+        "C": "Opposite. Tolerance of variation in catalogues would remove the kind of counterexample B relies on.",
+        "D": "True but irrelevant. When outsiders recorded the catalogues has no bearing on whether fixity exists without writing.",
+        "E": "Correct. A second unwritten genre maintained verbatim and policed by audiences replicates B's counterexample, strengthening the claim that fixity is a value within oral tradition."
+      },
+      "trapPatterns": { "A": "out_of_scope", "B": "opposite", "C": "opposite", "D": "true_but_irrelevant" },
+      "keyTakeaway": "To strengthen a counterexample-based challenge, add an independent counterexample with the same structure: fixity, no writing, social enforcement.",
+      "evidence": [1]
+    }
+  ]
+}

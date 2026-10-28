@@ -1,0 +1,175 @@
+{
+  "id": "rc-vessey-pastoral-elegies",
+  "style": "critique_debate",
+  "topic": "humanities",
+  "comparative": false,
+  "title": "Irony and Grief in the Pastoral Elegies of Corwin Vessey",
+  "paragraphs": [
+    "The pastoral elegies that Corwin Vessey composed between 1911 and 1919—the sequence published posthumously as The Fallow Year—have long been read as the last serious attempt in English to inhabit a form the twentieth century had rendered obsolete. The shepherds who mourn in these poems, the flower catalogues, the procession of grieving nature: all of it, in the account that held sway for half a century, was offered in earnest by a poet temperamentally unsuited to his moment, who turned to Theocritus and Milton because he could not bear to look at the trenches directly. On this reading the sequence is moving precisely because it is doomed, a monument to a sensibility that the war it refuses to name had already destroyed.",
+    "A revisionist school, led by Annick Delorme, has lately overturned this picture. Delorme reads the conventions not as refuge but as weapon: the flower catalogues are too long, the shepherds' grief too formulaic, the consolations too pat, and the excess is the point. Vessey, on this account, is a satirist of mourning who deploys the apparatus of pastoral in order to expose its inadequacy, and the sequence belongs with the ironic war poetry of his contemporaries rather than against it. Delorme marshals considerable evidence: the manuscripts show Vessey lengthening the catalogues in revision, and his letters of the period speak repeatedly of the \"dreadful comedy\" of public grief.",
+    "Delorme's reading has the appeal of rescuing Vessey from quaintness, and it is certainly closer to the manuscripts than its predecessor. But it purchases its coherence by flattening a tension that the poems themselves refuse to resolve. The catalogues are overlong, but they are also, line by line, exquisite; the consolations are formulaic, but the formulas are rendered with a care that no satirist would bother to lavish on a target. To read the sequence as irony throughout requires us to hear mockery in passages whose chief effect, for most readers before Delorme and many after, has been consolation—and to explain away that effect as naivety on the reader's part.",
+    "A more adequate account would locate the irony not in Vessey's attitude toward the conventions but in his awareness that he could neither trust them nor do without them. The elegies lengthen the catalogues because the catalogues are all that remains when the belief that once animated them has gone; they are performed with care because the performance is the only consolation available. This is not satire, which requires a secure position from which to mock, and it is not naive pastoral, which requires a belief the poems conspicuously lack. It is something closer to what Vessey himself, in a letter Delorme quotes but does not dwell upon, called \"keeping the forms for want of the faith.\""
+  ],
+  "roleMap": {
+    "paragraphs": ["context", "counterpoint", "counterpoint", "main_point"],
+    "viewpoints": [
+      { "who": "Traditional readers (half-century consensus)", "position": "The elegies are earnest pastoral by a poet who could not face the war directly", "authorAgrees": false },
+      { "who": "Annick Delorme and the revisionist school", "position": "The elegies are satire that deploys pastoral excess to expose the inadequacy of conventional mourning", "authorAgrees": false },
+      { "who": "Author", "position": "The elegies knowingly keep conventions the poet can neither believe nor abandon; the irony lies in that dependence", "authorAgrees": true }
+    ],
+    "tone": "appreciative but corrective"
+  },
+  "lowResSummary": "Author rejects both the earnest and the satirical readings of Vessey's elegies, proposing they enact a knowing dependence on forms no longer believed.",
+  "questions": [
+    {
+      "id": "rc-vessey-pastoral-elegies-q1",
+      "type": "main_point",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately expresses the main point of the passage?",
+      "choices": {
+        "A": "Vessey's pastoral elegies are best understood as satires that expose the inadequacy of conventional forms of mourning.",
+        "B": "The traditional reading of The Fallow Year as earnest pastoral is more faithful to the manuscripts than Delorme's revisionist account.",
+        "C": "Vessey's letters of the period demonstrate that he regarded public expressions of grief as a form of dreadful comedy.",
+        "D": "Delorme's reading has succeeded in rescuing Vessey's reputation from the charge of quaintness that long attached to it.",
+        "E": "Neither the earnest nor the satirical reading captures Vessey's elegies, which enact a deliberate reliance on conventions the poet could no longer believe in."
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "This is Delorme's reading, which paragraph 3 says 'purchases its coherence by flattening a tension.'",
+        "B": "Paragraph 3 concedes Delorme's reading is 'closer to the manuscripts than its predecessor.'",
+        "C": "A piece of Delorme's evidence, not the author's thesis.",
+        "D": "The author grants this 'appeal' but goes on to reject the reading; it is not the main point.",
+        "E": "Correct. Paragraph 4: 'This is not satire... and it is not naive pastoral'; the irony lies in 'keeping the forms for want of the faith.'"
+      },
+      "trapPatterns": { "A": "opposite", "B": "opposite", "C": "half_right", "D": "half_right" },
+      "keyTakeaway": "When an author rejects two readings, the main point is the third position, not a verdict favoring one of the two.",
+      "evidence": [2, 3]
+    },
+    {
+      "id": "rc-vessey-pastoral-elegies-q2",
+      "type": "stated",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "According to the passage, the manuscripts of The Fallow Year show that Vessey",
+      "choices": {
+        "A": "made the flower catalogues longer when he revised the poems.",
+        "B": "removed explicit references to the war from his final drafts.",
+        "C": "modeled the shepherds' speeches on specific passages in Theocritus and Milton.",
+        "D": "shortened the consolations in order to make them seem more formulaic.",
+        "E": "described public grief as a \"dreadful comedy\" in a marginal note."
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. Paragraph 2: 'the manuscripts show Vessey lengthening the catalogues in revision.'",
+        "B": "The passage says the war goes unnamed but never describes references being removed.",
+        "C": "Theocritus and Milton are cited by the traditional account as influences, not as something the manuscripts show.",
+        "D": "The manuscripts show lengthening, not shortening, and of catalogues, not consolations.",
+        "E": "The 'dreadful comedy' phrase comes from his letters, not manuscript notes."
+      },
+      "trapPatterns": { "B": "out_of_scope", "C": "wrong_part", "D": "opposite", "E": "shell_game" },
+      "keyTakeaway": "Stated questions often test which source (manuscripts vs. letters) a detail came from.",
+      "evidence": [1]
+    },
+    {
+      "id": "rc-vessey-pastoral-elegies-q3",
+      "type": "purpose_in_context",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The author observes that the consolations are \"rendered with a care that no satirist would bother to lavish on a target\" primarily in order to",
+      "choices": {
+        "A": "concede that Delorme has correctly identified the formulaic character of the consolations.",
+        "B": "demonstrate that Vessey was a more accomplished craftsman than his contemporaries.",
+        "C": "support the traditional view that Vessey offered the pastoral conventions in earnest.",
+        "D": "identify a feature of the poems that the satirical reading cannot easily explain.",
+        "E": "suggest that Vessey revised the consolations more heavily than he revised the catalogues."
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "The concession ('the consolations are formulaic') precedes 'but'; the quoted clause is the counter.",
+        "B": "No comparison with contemporaries' craftsmanship is made.",
+        "C": "The author rejects the traditional view in paragraph 4; the observation serves a third position.",
+        "D": "Correct. Care lavished on a target is inconsistent with satire, so the satirical reading must 'explain away' the effect.",
+        "E": "Revision of the consolations is never discussed."
+      },
+      "trapPatterns": { "A": "half_right", "B": "out_of_scope", "C": "wrong_part", "E": "out_of_scope" },
+      "keyTakeaway": "In 'X, but Y' constructions the author's point rides on Y; purpose questions target it.",
+      "evidence": [2]
+    },
+    {
+      "id": "rc-vessey-pastoral-elegies-q4",
+      "type": "author_attitude",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "The author's attitude toward Delorme's reading can most accurately be described as",
+      "choices": {
+        "A": "unqualified admiration for its fidelity to the manuscripts.",
+        "B": "dismissal on the ground that it ignores the poems' consolatory effect.",
+        "C": "respect for its evidentiary basis combined with the judgment that it oversimplifies the poems.",
+        "D": "suspicion that it was motivated by a desire to make Vessey fashionable.",
+        "E": "agreement with its conclusions but not with the evidence adduced for them."
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "'Unqualified' fails: the author says it flattens a tension.",
+        "B": "'Dismissal' is too strong for a reading the author calls 'certainly closer to the manuscripts.'",
+        "C": "Correct. 'Considerable evidence' and 'closer to the manuscripts', then 'flattening a tension that the poems themselves refuse to resolve.'",
+        "D": "The author imputes no motive.",
+        "E": "Reversed: the author accepts the evidence and rejects the conclusion."
+      },
+      "trapPatterns": { "A": "extreme", "B": "extreme", "D": "out_of_scope", "E": "reversal" },
+      "keyTakeaway": "Calibrate strength: 'oversimplifies' fits a reading the author partly credits; 'dismissal' does not.",
+      "evidence": [1, 2]
+    },
+    {
+      "id": "rc-vessey-pastoral-elegies-q5",
+      "type": "author_perspective",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "It can be inferred from the passage that the author would be most likely to agree with which one of the following?",
+      "choices": {
+        "A": "Readers who found consolation in the elegies before Delorme's work fundamentally misunderstood the poems.",
+        "B": "A poet's use of a literary convention can express neither belief in it nor contempt for it.",
+        "C": "Vessey's elegies would have been stronger had they referred directly to the war.",
+        "D": "The satirical reading of the elegies is less well supported by Vessey's letters than the traditional reading is.",
+        "E": "The pastoral elegy was rendered obsolete by the war rather than by changes in literary taste."
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "The author objects to explaining away the consolatory effect 'as naivety on the reader's part.'",
+        "B": "Correct. Paragraph 4 describes a stance that is 'not satire' and 'not naive pastoral': forms kept 'for want of the faith.'",
+        "C": "No such counterfactual judgment is offered.",
+        "D": "The author credits Delorme with 'considerable evidence' from the letters.",
+        "E": "The cause of the form's obsolescence is never adjudicated."
+      },
+      "trapPatterns": { "A": "opposite", "C": "out_of_scope", "D": "opposite", "E": "out_of_scope" },
+      "keyTakeaway": "The author's third position implies a general claim: conventions can be used in a mode that is neither sincere nor mocking.",
+      "evidence": [3]
+    },
+    {
+      "id": "rc-vessey-pastoral-elegies-q6",
+      "type": "meaning_in_context",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately expresses the meaning of \"a secure position\" as it is used in the passage?",
+      "choices": {
+        "A": "a stance of confident detachment from the conventions being mocked",
+        "B": "a settled reputation among a poet's literary contemporaries",
+        "C": "a safe physical distance from the events of the war",
+        "D": "a belief in the consolations that the pastoral conventions offer",
+        "E": "a textual passage whose meaning is beyond scholarly dispute"
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. Satire 'requires a secure position from which to mock'; Vessey lacks it because he cannot 'do without' the conventions.",
+        "B": "Reputation is never at issue.",
+        "C": "The trenches appear in paragraph 1 as something Vessey avoided looking at, not as a position from which to mock.",
+        "D": "That is the requirement of naive pastoral, named in the next clause as the other thing the poems lack.",
+        "E": "The phrase describes the satirist's attitude, not a text."
+      },
+      "trapPatterns": { "B": "shell_game", "C": "shell_game", "D": "opposite", "E": "out_of_scope" },
+      "keyTakeaway": "Parallel structure ('satire requires X; naive pastoral requires Y') tells you exactly which requirement a phrase names.",
+      "evidence": [3]
+    }
+  ]
+}

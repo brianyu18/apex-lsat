@@ -1,0 +1,200 @@
+{
+  "id": "rc-econ-reciprocity-premium",
+  "style": "critique_debate",
+  "topic": "social_science",
+  "comparative": false,
+  "title": "The Reciprocity Premium in Informal Credit",
+  "paragraphs": [
+    "In many rural economies, credit flows less through banks than through rotating savings and credit associations, in which members contribute to a common pool and take turns drawing on it. Economists have long noted a puzzle: when such associations lend to their own members, the implicit interest rates fall well below those charged by professional moneylenders in the same villages, sometimes by half. Because the funds are scarce and the borrowers are often the same people who would otherwise approach a moneylender, the discount cannot be attributed simply to a more abundant supply of capital. Two explanations have dominated discussion of this “reciprocity premium,” as it has come to be called, and they rest on strikingly different assumptions about what a loan among neighbors actually is.",
+    "The first, associated with the economist Renaud Dessaix, treats the discount as a straightforward reflection of risk. On this account, a member who defaults on an association loan faces not only the loss of future access to the pool but ostracism, the withdrawal of labor exchange, and damage to the marriage prospects of kin—sanctions that a moneylender cannot impose. Lending within the group is therefore cheaper because it is safer, and the premium is simply the risk differential priced into the rate. The elegance of this “social collateral” view lies in its requiring no departure from the standard model of the lender as a maximizer of expected return; community enforcement merely alters the expected losses that the model already contains.",
+    "The anthropologically inclined economist Folasade Olumide has objected that this account mistakes the character of the transaction. Loans among members, she argues, belong to a system of generalized exchange in which a favor extended today creates an obligation that may be discharged in any of a dozen currencies—help at harvest, support in a dispute, a loan returned in kind—and the low rate is the price of entering that system rather than a calculation about default. Olumide points out that associations frequently lend at reduced rates even to members whose repayment histories are poor, which a risk-based account should not predict, and that rates vary with the closeness of kinship rather than with any observable measure of creditworthiness.",
+    "Neither camp, however, has adequately confronted the most detailed evidence available, Ingrid Hallberg’s five-year study of associations in the Tamarind Valley. Hallberg found that the average discount tracked the severity of community sanctions across villages quite closely, as Dessaix’s view predicts, yet within any single village the dispersion of rates among borrowers was explained almost entirely by kinship distance and by the history of prior favors, as Olumide’s view predicts. The two explanations, in other words, appear to operate at different levels: enforcement sets the general level of the premium, while reciprocity allocates it among individuals. Olumide’s insight into the texture of the transaction seems to me the more significant contribution, since it identifies something the standard model cannot absorb. But her stronger claim—that risk plays no role at all—is contradicted by the very data that vindicate her weaker one."
+  ],
+  "roleMap": {
+    "paragraphs": ["context", "counterpoint", "counterpoint", "main_point"],
+    "viewpoints": [
+      { "who": "Renaud Dessaix (social collateral view)", "position": "The discount reflects lower default risk created by community sanctions", "authorAgrees": null },
+      { "who": "Folasade Olumide (reciprocity view)", "position": "The discount is the price of entering a system of generalized exchange, not a risk calculation", "authorAgrees": null },
+      { "who": "Author", "position": "Both views are partly right at different levels; Olumide's insight is more significant, but her strong claim is refuted", "authorAgrees": true }
+    ],
+    "tone": "evaluative, qualified preference for one side"
+  },
+  "lowResSummary": "Author weighs two explanations of cheap intra-group loans, concludes each operates at a different level, and favors Olumide while rejecting her strong claim.",
+  "questions": [
+    {
+      "id": "rc-econ-reciprocity-premium-q1",
+      "type": "main_point",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately expresses the main point of the passage?",
+      "choices": {
+        "A": "The reciprocity premium is best explained as the risk differential created by community sanctions that moneylenders cannot impose.",
+        "B": "Hallberg’s study of the Tamarind Valley shows that neither Dessaix nor Olumide has offered a tenable account of informal lending.",
+        "C": "The two leading explanations of the reciprocity premium each capture a different aspect of the phenomenon, though the reciprocity view is the more important contribution.",
+        "D": "Because loans among association members belong to a system of generalized exchange, economists should abandon the standard model of the lender.",
+        "E": "Economists have overlooked the most detailed evidence available on informal credit associations and should revise their models accordingly."
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "This is Dessaix’s view alone. The final paragraph says enforcement sets only the “general level,” while reciprocity “allocates” the premium—the author does not endorse A as the whole story.",
+        "B": "“Neither… tenable” is too strong. Paragraph 4 says Hallberg’s data vindicate each view at a different level; what is refuted is only Olumide’s “stronger claim.”",
+        "C": "Correct. Paragraph 4: the explanations “operate at different levels,” and Olumide’s insight “seems to me the more significant contribution.”",
+        "D": "The author says the standard model “cannot absorb” Olumide’s insight but never calls for abandoning the model; and the passage is an evaluation of a debate, not a methodological prescription.",
+        "E": "This describes the complaint that opens paragraph 4, not the conclusion the author draws from the evidence. It omits the author’s verdict on the two views."
+      },
+      "trapPatterns": { "A": "wrong_part", "B": "extreme", "D": "extreme", "E": "half_right" },
+      "keyTakeaway": "In a critique_debate passage the main point is the author’s verdict on the dispute, usually located after the final pivot (“however”).",
+      "evidence": [3]
+    },
+    {
+      "id": "rc-econ-reciprocity-premium-q2",
+      "type": "stated",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "According to the passage, Olumide supports her position by observing that associations",
+      "choices": {
+        "A": "sometimes lend at reduced rates to members with poor repayment histories",
+        "B": "charge rates that fall as the severity of community sanctions increases",
+        "C": "lend at rates roughly half those charged by professional moneylenders",
+        "D": "refuse loans to members whose kinship ties to the group are distant",
+        "E": "require that favors be repaid in the same currency in which they were extended"
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. Paragraph 3: Olumide “points out that associations frequently lend at reduced rates even to members whose repayment histories are poor.”",
+        "B": "This is Hallberg’s cross-village finding (paragraph 4), which supports Dessaix, not Olumide.",
+        "C": "The “half” figure appears in paragraph 1 as part of the puzzle itself, not as evidence Olumide offers for her explanation.",
+        "D": "The passage says rates “vary with the closeness of kinship”; it never says distant kin are refused loans.",
+        "E": "Opposite: Olumide says obligations may be discharged “in any of a dozen currencies.”"
+      },
+      "trapPatterns": { "B": "wrong_part", "C": "wrong_part", "D": "extreme", "E": "opposite" },
+      "keyTakeaway": "Stated questions about a named scholar: go to that scholar’s paragraph and match the detail, ignoring facts that appear elsewhere.",
+      "evidence": [2]
+    },
+    {
+      "id": "rc-econ-reciprocity-premium-q3",
+      "type": "other_perspective",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The passage suggests that Dessaix would be most likely to agree with which one of the following statements?",
+      "choices": {
+        "A": "The standard model of the lender must be modified to account for lending among neighbors.",
+        "B": "A borrower’s kinship distance from other members is the best predictor of the rate that borrower will be charged.",
+        "C": "Moneylenders charge higher rates than associations primarily because they have access to less capital.",
+        "D": "Associations that lend to members with poor repayment histories are behaving irrationally.",
+        "E": "In a village where community sanctions were unusually weak, association rates would approach those charged by moneylenders."
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "Opposite. Dessaix’s view is praised for “requiring no departure from the standard model.”",
+        "B": "This is Olumide’s observation, which Dessaix’s risk-based account “should not predict.”",
+        "C": "Paragraph 1 rules out the supply-of-capital explanation before either scholar is introduced.",
+        "D": "Dessaix’s view predicts such lending is less likely, but nothing suggests he would call it irrational; this overreaches from a prediction to a normative judgment.",
+        "E": "Correct. If the premium is “the risk differential priced into the rate” and the risk comes from sanctions, weaker sanctions mean a smaller differential."
+      },
+      "trapPatterns": { "A": "opposite", "B": "wrong_part", "C": "out_of_scope", "D": "extreme" },
+      "keyTakeaway": "Other-perspective questions reward extending the named view’s mechanism to a new condition, not quoting its evidence.",
+      "evidence": [1]
+    },
+    {
+      "id": "rc-econ-reciprocity-premium-q4",
+      "type": "purpose_in_context",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The author mentions damage to the marriage prospects of kin primarily in order to",
+      "choices": {
+        "A": "suggest that the costs of default in rural communities are often exaggerated",
+        "B": "illustrate a kind of sanction available to an association but not to a moneylender",
+        "C": "show that Dessaix’s account neglects the role of kinship in informal lending",
+        "D": "explain why members with poor repayment histories continue to receive loans",
+        "E": "provide an example of the many currencies in which an obligation may be discharged"
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "Nothing in the passage suggests the costs are exaggerated; the examples are offered as real and severe.",
+        "B": "Correct. The list ends with “sanctions that a moneylender cannot impose,” which is the point the examples serve.",
+        "C": "Kinship appears here as part of Dessaix’s own account of sanctions, so the mention cannot show that his account neglects kinship.",
+        "D": "That observation belongs to Olumide in paragraph 3 and cuts against the risk-based account the example supports.",
+        "E": "The “dozen currencies” list is Olumide’s in paragraph 3; this example belongs to Dessaix’s list of sanctions in paragraph 2."
+      },
+      "trapPatterns": { "A": "out_of_scope", "C": "reversal", "D": "wrong_part", "E": "shell_game" },
+      "keyTakeaway": "For purpose-in-context, read the clause that closes the list; it usually states what the examples were for.",
+      "evidence": [1]
+    },
+    {
+      "id": "rc-econ-reciprocity-premium-q5",
+      "type": "author_perspective",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "It can be inferred from the passage that the author would be most likely to agree with which one of the following?",
+      "choices": {
+        "A": "The social collateral view cannot explain any variation in rates among borrowers within a single village.",
+        "B": "Hallberg’s study is flawed because it measured kinship distance rather than creditworthiness.",
+        "C": "Olumide’s weaker claim would be undermined if rates were found to vary with observable creditworthiness.",
+        "D": "The standard economic model of the lender accommodates Dessaix’s view more readily than Olumide’s.",
+        "E": "The reciprocity premium would disappear entirely in a community without norms of generalized exchange."
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "“Cannot explain any” is too strong. The passage says within-village dispersion was explained “almost entirely” by reciprocity factors, leaving room for some risk-based variation.",
+        "B": "The author calls Hallberg’s study “the most detailed evidence available” and relies on it; no flaw is alleged.",
+        "C": "This is a tempting half-truth: the author says the data “vindicate” the weaker claim, so a finding that would undermine it is speculation; and the weaker claim concerns allocation, which could coexist with some creditworthiness effects.",
+        "D": "Correct. Paragraph 2: Dessaix’s view requires “no departure from the standard model”; paragraph 4: Olumide identifies “something the standard model cannot absorb.”",
+        "E": "The author holds that enforcement sets the general level of the premium, so even without reciprocity norms some premium would remain."
+      },
+      "trapPatterns": { "A": "extreme", "B": "out_of_scope", "C": "half_right", "E": "opposite" },
+      "keyTakeaway": "Author-perspective keys often join two remarks from different paragraphs; here “no departure from the standard model” pairs with “cannot absorb.”",
+      "evidence": [1, 3]
+    },
+    {
+      "id": "rc-econ-reciprocity-premium-q6",
+      "type": "weaken_strengthen_evaluate",
+      "logicTags": ["causation"],
+      "difficulty": 4,
+      "stem": "Which one of the following, if true, would most undermine the author’s claim that the two explanations operate at different levels?",
+      "choices": {
+        "A": "In the Tamarind Valley, associations with the largest pools of capital charged the lowest average rates to their members.",
+        "B": "Within each Tamarind Valley village, the kinship distance between a borrower and the other members closely predicts the severity of the sanctions that borrower would face upon default.",
+        "C": "Hallberg found that professional moneylenders in the Tamarind Valley also charged lower rates to borrowers who were their close kin.",
+        "D": "Some Tamarind Valley villages with severe community sanctions had associations that charged rates close to those of moneylenders.",
+        "E": "Members of Tamarind Valley associations rarely described their loans to one another using the language of risk or default."
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "Capital abundance was ruled out as an explanation in paragraph 1, and it bears on neither view’s level; it does not touch the reconciliation.",
+        "B": "Correct. The reconciliation assigns within-village dispersion to reciprocity because it tracks kinship. If kinship distance also tracks sanction severity, the dispersion could be risk-based after all, and the two explanations would compete at the same level rather than divide it.",
+        "C": "A parallel in moneylender behavior is interesting but says nothing about whether, within associations, enforcement and reciprocity operate at distinct levels.",
+        "D": "This weakens Dessaix’s cross-village correlation, not the author’s claim that the two views operate at different levels; it attacks one component rather than the division of labor.",
+        "E": "How borrowers describe loans is evidence about perception, not about what determines rate levels; the author’s claim is about explanatory levels, not vocabulary."
+      },
+      "trapPatterns": { "A": "out_of_scope", "C": "true_but_irrelevant", "D": "wrong_part", "E": "shell_game" },
+      "keyTakeaway": "To weaken a two-level reconciliation, show that the variable assigned to one level is a proxy for the other; D tempts because it attacks a finding rather than the synthesis.",
+      "evidence": [3]
+    },
+    {
+      "id": "rc-econ-reciprocity-premium-q7",
+      "type": "author_attitude",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The author’s attitude toward Olumide’s claim that risk plays no role in setting association rates can most accurately be described as",
+      "choices": {
+        "A": "cautious endorsement tempered by concern about the quality of the available evidence",
+        "B": "indifference, since the claim is peripheral to the debate the passage examines",
+        "C": "admiration for its originality combined with uncertainty about whether it can be tested",
+        "D": "sympathy for its underlying insight but confidence that the data contradict it",
+        "E": "dismissal of the claim as an error that undermines the value of her entire account"
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "The author does not endorse the strong claim and expresses no concern about evidence quality; Hallberg’s study is called “the most detailed evidence available.”",
+        "B": "The claim is addressed in the passage’s final sentence; it is treated as central, not peripheral.",
+        "C": "The author believes the claim has been tested and falsified, so there is no uncertainty about testability.",
+        "D": "Correct. The author calls Olumide’s insight “the more significant contribution” yet says her stronger claim “is contradicted by the very data that vindicate her weaker one.”",
+        "E": "“Undermines the value of her entire account” is the opposite of the author’s view, which preserves the weaker claim."
+      },
+      "trapPatterns": { "A": "half_right", "B": "out_of_scope", "C": "shell_game", "E": "extreme" },
+      "keyTakeaway": "Attitude questions about a specific claim require separating the author’s view of the claim from the author’s view of the scholar.",
+      "evidence": [3]
+    }
+  ]
+}

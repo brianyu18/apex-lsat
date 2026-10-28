@@ -1,0 +1,175 @@
+{
+  "id": "rc-arbitration-starved-common-law",
+  "style": "problem_analysis",
+  "topic": "law",
+  "comparative": false,
+  "title": "Confidential Arbitration and the Starved Common Law",
+  "paragraphs": [
+    "Commercial parties increasingly resolve their disputes through private arbitration rather than public litigation, and the awards that result are, in the great majority of cases, confidential. The consequence for the development of commercial law has been widely remarked: the courts, which once refined the law of sale, carriage, and insurance through a steady diet of reported decisions, now see a shrinking and unrepresentative fraction of the disputes that arise, and the doctrines they administer risk ossifying for want of occasions to revisit them. Renata Oyelaran has called this the \"starvation problem,\" and the label has stuck.",
+    "Three remedies have been proposed. The first, and the most frequently urged, is mandatory publication of arbitral awards in redacted form, so that the reasoning survives while the parties' identities and commercial details do not. The proposal has the virtue of directness, but it misdescribes what parties are purchasing when they arbitrate. Confidentiality is rarely the principal attraction; what parties want is finality and a tribunal of their choosing, and the reasoning of an award, once published, is frequently sufficient to identify the parties to anyone in the trade. Redaction protects anonymity only from those who had no interest in the dispute to begin with.",
+    "The second remedy would expand the grounds on which courts may review arbitral awards, on the theory that more frequent review would generate more reported decisions. This proposal pays for its reported decisions in the currency arbitration was designed to save. Expanded review means delay, expense, and uncertainty, and it would likely drive parties toward seats whose courts remain deferential—exporting the disputes rather than recovering them. It is also unclear that review would produce decisions of the kind the common law needs: a court asked whether an arbitrator erred will typically answer that narrow question rather than restate the governing doctrine.",
+    "The third proposal, advanced by Oyelaran herself, is less ambitious and, perhaps for that reason, more promising. It would permit—not require—arbitral tribunals to refer a discrete question of law to a designated commercial court for an advisory ruling, which would be published, while the award itself remained private. The mechanism separates the public good, which is the reasoning on the point of law, from the private good, which is the resolution of the particular dispute. Its obvious weakness is that tribunals may decline to refer; but even a modest rate of referral, concentrated as it would be on genuinely unsettled questions, might feed the common law more usefully than the undifferentiated mass of awards that mandatory publication would produce."
+  ],
+  "roleMap": {
+    "paragraphs": ["context", "counterpoint", "counterpoint", "main_point"],
+    "viewpoints": [
+      { "who": "Renata Oyelaran", "position": "Confidential arbitration starves commercial law of cases; optional referral of legal questions to courts is the remedy", "authorAgrees": true },
+      { "who": "Advocates of mandatory redacted publication", "position": "Publishing awards without identifying details would restore the flow of reasoning to the public", "authorAgrees": false },
+      { "who": "Advocates of expanded judicial review", "position": "More review of awards would generate more reported decisions", "authorAgrees": false }
+    ],
+    "tone": "evaluative, cautiously favorable"
+  },
+  "lowResSummary": "Author assesses three remedies for arbitration's drain on commercial case law, rejects two, and endorses optional referral of legal questions to courts.",
+  "questions": [
+    {
+      "id": "rc-arbitration-starved-common-law-q1",
+      "type": "main_point",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately expresses the main point of the passage?",
+      "choices": {
+        "A": "Commercial arbitration should be curtailed because it has starved the common law of the disputes that doctrine needs in order to develop.",
+        "B": "Mandatory publication of redacted awards would preserve confidentiality while restoring the flow of reported decisions to the courts.",
+        "C": "Because parties who arbitrate value finality above confidentiality, expanded judicial review of awards would be widely accepted by them.",
+        "D": "Of the proposed responses to arbitration's effect on commercial law, an optional mechanism for referring legal questions to courts is the most promising.",
+        "E": "The starvation problem has been exaggerated, since courts continue to see a representative sample of the commercial disputes that arise."
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "Nobody proposes curtailing arbitration; the passage evaluates remedies that keep it.",
+        "B": "Paragraph 2 says redaction fails because the reasoning 'is frequently sufficient to identify the parties.'",
+        "C": "Paragraph 3 predicts expanded review would 'drive parties toward seats whose courts remain deferential.'",
+        "D": "Correct. Paragraph 4 calls the third proposal 'more promising' and explains why it feeds the common law 'more usefully.'",
+        "E": "Paragraph 1 says courts see 'a shrinking and unrepresentative fraction'; the author accepts the problem."
+      },
+      "trapPatterns": { "A": "extreme", "B": "opposite", "C": "opposite", "E": "opposite" },
+      "keyTakeaway": "Problem-analysis passages end with an assessment; the main point names the preferred remedy and its comparative standing.",
+      "evidence": [3]
+    },
+    {
+      "id": "rc-arbitration-starved-common-law-q2",
+      "type": "stated",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "According to the passage, redaction of published awards would fail to protect confidentiality because",
+      "choices": {
+        "A": "parties to arbitration are generally unwilling to consent to publication of any kind.",
+        "B": "the reasoning of an award often allows those in the relevant trade to identify the parties.",
+        "C": "courts reviewing the awards would in any case have access to the unredacted versions.",
+        "D": "redaction removes the legal reasoning together with the parties' identities.",
+        "E": "arbitral tribunals lack the resources needed to prepare redacted versions of awards."
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "Consent is never discussed; the proposal under consideration is mandatory.",
+        "B": "Correct. Paragraph 2: the reasoning 'is frequently sufficient to identify the parties to anyone in the trade.'",
+        "C": "Judicial review belongs to the second remedy, not to the redaction discussion.",
+        "D": "The proposal is described as one in which 'the reasoning survives.'",
+        "E": "Resources are never mentioned."
+      },
+      "trapPatterns": { "A": "out_of_scope", "C": "shell_game", "D": "opposite", "E": "out_of_scope" },
+      "keyTakeaway": "Locate the 'because' clause in the text and match it; adjacent remedies supply the traps.",
+      "evidence": [1]
+    },
+    {
+      "id": "rc-arbitration-starved-common-law-q3",
+      "type": "purpose_in_context",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The author's reference to \"the currency arbitration was designed to save\" serves primarily to",
+      "choices": {
+        "A": "explain why commercial parties prefer confidential awards to published ones.",
+        "B": "suggest that arbitration is less expensive than litigation only in exceptional cases.",
+        "C": "point out that the second remedy would sacrifice the very advantages that make arbitration attractive.",
+        "D": "argue that reported decisions have a monetary value that courts have failed to recognize.",
+        "E": "concede that expanded review would generate a larger number of reported decisions."
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "The author has just denied that confidentiality is the principal attraction.",
+        "B": "No comparison of expense between arbitration and litigation is drawn.",
+        "C": "Correct. The next sentence cashes out the metaphor: 'delay, expense, and uncertainty' are what arbitration avoids and expanded review restores.",
+        "D": "The 'currency' is a metaphor for speed, cost, and finality, not literal money.",
+        "E": "The author goes on to doubt that review would produce useful decisions at all."
+      },
+      "trapPatterns": { "A": "shell_game", "B": "opposite", "D": "out_of_scope", "E": "half_right" },
+      "keyTakeaway": "Resolve a metaphor by reading the sentence that follows it; that sentence usually states the literal point.",
+      "evidence": [2]
+    },
+    {
+      "id": "rc-arbitration-starved-common-law-q4",
+      "type": "author_perspective",
+      "logicTags": ["weighing_factors"],
+      "difficulty": 3,
+      "stem": "It can be inferred from the passage that the author would be most likely to agree with which one of the following?",
+      "choices": {
+        "A": "Arbitral tribunals would refer questions of law to courts in most cases if they were permitted to do so.",
+        "B": "Courts that review arbitral awards generally restate the governing doctrine in full.",
+        "C": "Commercial parties choose arbitration primarily in order to keep their disputes confidential.",
+        "D": "Mandatory publication is objectionable chiefly because it would discourage parties from arbitrating at all.",
+        "E": "A small number of reasoned decisions on genuinely unsettled questions could benefit commercial law more than comprehensive publication of awards."
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "The author concedes tribunals 'may decline to refer' and speaks of 'a modest rate of referral.'",
+        "B": "Paragraph 3 says a reviewing court 'will typically answer that narrow question rather than restate the governing doctrine.'",
+        "C": "Paragraph 2: 'Confidentiality is rarely the principal attraction.'",
+        "D": "The author's objection is that redaction fails and the proposal misdescribes arbitration, not that it would deter arbitration.",
+        "E": "Correct. Paragraph 4: 'even a modest rate of referral... might feed the common law more usefully than the undifferentiated mass of awards.'"
+      },
+      "trapPatterns": { "A": "extreme", "B": "opposite", "C": "opposite", "D": "shell_game" },
+      "keyTakeaway": "The author's comparative judgments ('more usefully than') license inferences about quality versus quantity.",
+      "evidence": [3]
+    },
+    {
+      "id": "rc-arbitration-starved-common-law-q5",
+      "type": "analogy",
+      "logicTags": ["analogy"],
+      "difficulty": 3,
+      "stem": "Which one of the following is most analogous to Oyelaran's proposed referral mechanism as described in the passage?",
+      "choices": {
+        "A": "A hospital allows physicians to submit anonymized descriptions of unusual cases to a medical journal while keeping the patients' records private.",
+        "B": "A company requires all employees to publish their annual performance reviews with their names removed.",
+        "C": "A university permits students to appeal their grades to an external examiner whose decision replaces the instructor's.",
+        "D": "A library restricts access to its rare manuscripts to scholars who agree not to publish their findings.",
+        "E": "A newspaper publishes the outcomes of private negotiations once both parties have consented to disclosure."
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. Voluntary, selective for the unusual, and separates the public good (general lesson) from the private resolution (the record).",
+        "B": "Mandatory and comprehensive with redaction: this mirrors the first remedy, which the author rejects.",
+        "C": "An external decision that replaces the original mirrors expanded judicial review, the second remedy.",
+        "D": "This suppresses publication altogether, the reverse of feeding the public domain.",
+        "E": "Publishes the particular outcome rather than a general point, and depends on consent of both parties rather than referral by the decision-maker."
+      },
+      "trapPatterns": { "B": "opposite", "C": "shell_game", "D": "reversal", "E": "half_right" },
+      "keyTakeaway": "Abstract the mechanism (voluntary, selective, public-general vs. private-particular) before testing analogies.",
+      "evidence": [3]
+    },
+    {
+      "id": "rc-arbitration-starved-common-law-q6",
+      "type": "author_attitude",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "The author's attitude toward the proposal for mandatory publication can most accurately be described as",
+      "choices": {
+        "A": "qualified endorsement tempered by concern about its administrative cost.",
+        "B": "rejection grounded in a judgment that it misunderstands why parties arbitrate.",
+        "C": "enthusiasm for its directness combined with doubt about its political feasibility.",
+        "D": "neutrality pending further empirical study of its likely effects.",
+        "E": "dismissal on the ground that it would be impossible to enforce."
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "The author does not endorse it and never mentions administrative cost.",
+        "B": "Correct. 'It misdescribes what parties are purchasing when they arbitrate.'",
+        "C": "'Virtue of directness' is acknowledged, but feasibility is not the author's objection.",
+        "D": "The author takes a definite position.",
+        "E": "Enforceability is never raised; the objection is that redaction fails to protect anonymity."
+      },
+      "trapPatterns": { "A": "opposite", "C": "half_right", "D": "opposite", "E": "shell_game" },
+      "keyTakeaway": "Attitude questions test the stated ground of the author's judgment, not just its direction.",
+      "evidence": [1]
+    }
+  ]
+}

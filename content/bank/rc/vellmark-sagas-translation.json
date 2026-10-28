@@ -1,0 +1,174 @@
+{
+  "id": "rc-vellmark-sagas-translation",
+  "style": "single_position",
+  "topic": "humanities",
+  "comparative": false,
+  "title": "Translating the Vellmark Sagas: A Case for Strangeness",
+  "paragraphs": [
+    "Every generation of translators of the Vellmark sagas—the cycle of prose narratives composed in an extinct North Sea vernacular between the eleventh and thirteenth centuries—has had to decide what to do with the texts' most conspicuous feature: a syntax of extreme parataxis, in which clauses are set side by side without subordination, so that cause and consequence, intention and act, arrive in the same flat grammatical register. The dominant practice since the nineteenth century has been to supply what the original withholds. Translators insert the \"because\" and the \"although,\" reorder the clauses into the hierarchy a modern reader expects, and produce a text that reads, as one reviewer approvingly put it, \"as if it had been written yesterday.\"",
+    "I want to argue that this practice, however well-intentioned, destroys the very thing it means to transmit. The parataxis of the sagas is not a deficiency of the language, which possessed subordinating conjunctions and used them freely in legal and devotional prose. It is a choice, and a choice with consequences for meaning. When a saga reports that a man heard an insult and that he struck the speaker, the absence of a connective leaves open whether the blow was retaliation, reflex, or coincidence—and the sagas are, at their most characteristic, narratives in which motive is precisely what cannot be known. To translate the sentence as \"because he was insulted, he struck\" is not to clarify it but to answer a question the text was constructed to leave open.",
+    "The usual defense of smoothing is that readers will not tolerate strangeness, and that a translation nobody finishes transmits nothing at all. The premise deserves more suspicion than it receives. The readers who sustain the market for translated medieval literature are, by the fact of their interest, prepared to encounter the unfamiliar; what they are rarely given is the chance. The evidence from the few paratactic translations that exist—a 1962 version of the shorter sagas, long out of print—suggests that readers adapt within a chapter and thereafter find the flattened syntax not an obstacle but a source of the texts' peculiar tension.",
+    "Fidelity of this kind is not the same as literalism, and it is important to distinguish them. A translation that reproduced the sagas' word order, or their vocabulary of now-meaningless legal terms, would be unreadable and would illuminate nothing. What ought to be preserved is the structure of what is said and what is withheld—the texture of a world in which actions are recorded and their reasons are not. That structure is a feature of the original's meaning, not of its surface, and a translator who removes it has not translated the sagas but written a different, more comfortable book on the same subject."
+  ],
+  "roleMap": {
+    "paragraphs": ["context", "main_point", "support", "implication"],
+    "viewpoints": [
+      { "who": "Dominant translation practice (smoothing translators)", "position": "Supply the connectives and hierarchy the original withholds, because readers will not tolerate strangeness", "authorAgrees": false },
+      { "who": "Author", "position": "Preserve the paratactic withholding of motive because it is part of the sagas' meaning; this fidelity is distinct from literalism", "authorAgrees": true }
+    ],
+    "tone": "polemical but measured"
+  },
+  "lowResSummary": "Author argues translators of the Vellmark sagas must preserve their paratactic withholding of motive, distinguishing this fidelity from mere literalism.",
+  "questions": [
+    {
+      "id": "rc-vellmark-sagas-translation-q1",
+      "type": "main_point",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately expresses the main point of the passage?",
+      "choices": {
+        "A": "Translators of the Vellmark sagas should preserve the texts' paratactic syntax, because it carries meaning that smoothing destroys.",
+        "B": "The Vellmark sagas should be translated as literally as possible, reproducing their original word order and legal vocabulary.",
+        "C": "Readers of translated medieval literature are considerably more tolerant of unfamiliar syntax than translators generally assume.",
+        "D": "The parataxis of the Vellmark sagas reflects the limited grammatical resources of the language in which they were composed.",
+        "E": "Nineteenth-century translators of the sagas were more faithful to the originals than their twentieth-century successors have been."
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. Paragraph 2 states the thesis ('destroys the very thing it means to transmit'); paragraph 4 specifies what must be preserved.",
+        "B": "Paragraph 4 explicitly rejects literalism: such a translation 'would be unreadable and would illuminate nothing.'",
+        "C": "A supporting claim from paragraph 3, not the thesis.",
+        "D": "Paragraph 2 denies this: the language 'possessed subordinating conjunctions and used them freely.'",
+        "E": "The passage says smoothing has dominated 'since the nineteenth century'; no such contrast is drawn."
+      },
+      "trapPatterns": { "B": "opposite", "C": "half_right", "D": "opposite", "E": "out_of_scope" },
+      "keyTakeaway": "The main point of a single-position passage includes the thesis and its key qualification when the author spends a paragraph on it.",
+      "evidence": [1, 3]
+    },
+    {
+      "id": "rc-vellmark-sagas-translation-q2",
+      "type": "stated",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "According to the passage, the language in which the Vellmark sagas were composed",
+      "choices": {
+        "A": "lacked subordinating conjunctions until the thirteenth century.",
+        "B": "was used exclusively for narrative prose.",
+        "C": "survives only in a 1962 translation of the shorter sagas.",
+        "D": "employed subordination freely in legal and devotional writing.",
+        "E": "was reordered by medieval scribes into the hierarchy that modern readers expect."
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "The language 'possessed subordinating conjunctions'; no date of acquisition is given.",
+        "B": "Legal and devotional prose are mentioned as other uses.",
+        "C": "The 1962 text is a translation, not a survival of the language.",
+        "D": "Correct. Paragraph 2: it 'possessed subordinating conjunctions and used them freely in legal and devotional prose.'",
+        "E": "Reordering is what modern translators do, not medieval scribes."
+      },
+      "trapPatterns": { "A": "opposite", "B": "opposite", "C": "shell_game", "E": "wrong_part" },
+      "keyTakeaway": "The author's refutation of the 'deficiency' explanation is where the detail lives.",
+      "evidence": [1]
+    },
+    {
+      "id": "rc-vellmark-sagas-translation-q3",
+      "type": "purpose_in_context",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The author mentions the 1962 translation of the shorter sagas primarily in order to",
+      "choices": {
+        "A": "show that paratactic translations inevitably go out of print.",
+        "B": "provide an example of the literalism the author distinguishes from fidelity.",
+        "C": "illustrate the dominant practice of supplying connectives that the original withholds.",
+        "D": "identify the translation that first drew the author's attention to the problem.",
+        "E": "offer evidence against the claim that readers will not tolerate strangeness."
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "'Long out of print' is a parenthetical aside, not the point of the mention.",
+        "B": "The 1962 version is cited as a paratactic translation readers adapted to, not as an example of unreadable literalism.",
+        "C": "It is one of 'the few paratactic translations', the opposite of the dominant practice.",
+        "D": "The passage says nothing about the author's own history.",
+        "E": "Correct. It is introduced as 'evidence' that readers 'adapt within a chapter', rebutting the smoothing defense."
+      },
+      "trapPatterns": { "A": "shell_game", "B": "wrong_part", "C": "opposite", "D": "out_of_scope" },
+      "keyTakeaway": "An example introduced right after 'The premise deserves more suspicion' is evidence against that premise.",
+      "evidence": [2]
+    },
+    {
+      "id": "rc-vellmark-sagas-translation-q4",
+      "type": "author_perspective",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "It can be inferred from the passage that the author would be most likely to agree with which one of the following?",
+      "choices": {
+        "A": "A translation that is widely read is for that reason superior to one that is not.",
+        "B": "A grammatical feature can be part of a text's meaning rather than merely a feature of its surface.",
+        "C": "The sagas' narrators deliberately concealed motives they knew in order to heighten suspense.",
+        "D": "Translators should retain the sagas' legal vocabulary even when its meaning has been lost.",
+        "E": "Reviewers who praise a translation for reading as if written yesterday have identified a genuine virtue."
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "The author rejects the premise that readability is the measure, and treats the popular smoothed versions as failures.",
+        "B": "Correct. Paragraph 4: the structure of withholding 'is a feature of the original's meaning, not of its surface.'",
+        "C": "The passage says motive 'cannot be known' in these narratives, not that narrators knew and hid it.",
+        "D": "Paragraph 4 says reproducing the 'now-meaningless legal terms' would 'illuminate nothing.'",
+        "E": "The reviewer's praise is quoted as a symptom of the practice the author condemns."
+      },
+      "trapPatterns": { "A": "opposite", "C": "extreme", "D": "opposite", "E": "opposite" },
+      "keyTakeaway": "The meaning/surface distinction in the last paragraph is the generalizable commitment.",
+      "evidence": [1, 3]
+    },
+    {
+      "id": "rc-vellmark-sagas-translation-q5",
+      "type": "meaning_in_context",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The phrase \"a different, more comfortable book\" as it is used in the passage most nearly refers to",
+      "choices": {
+        "A": "a scholarly edition that explains the sagas' legal terminology for modern readers",
+        "B": "an abridged version of the sagas intended for a general readership",
+        "C": "a translation that resolves the ambiguities the original deliberately leaves open",
+        "D": "a modern novel set in the world depicted by the Vellmark sagas",
+        "E": "a paratactic translation that readers find difficult at first"
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "Scholarly apparatus is never discussed.",
+        "B": "Abridgment is not at issue; the complaint is about syntax, not length.",
+        "C": "Correct. The sentence describes 'a translator who removes' the structure of withholding; the result answers questions the text left open.",
+        "D": "The author is describing a translation, not original fiction.",
+        "E": "That is the kind of translation the author favors; 'comfortable' marks its opposite."
+      },
+      "trapPatterns": { "A": "out_of_scope", "B": "shell_game", "D": "out_of_scope", "E": "opposite" },
+      "keyTakeaway": "Track the referent: 'a translator who removes it' identifies the book as the smoothed translation.",
+      "evidence": [3]
+    },
+    {
+      "id": "rc-vellmark-sagas-translation-q6",
+      "type": "principle",
+      "logicTags": ["value_judgment"],
+      "difficulty": 3,
+      "stem": "Which one of the following principles most closely conforms to the author's reasoning?",
+      "choices": {
+        "A": "A translator should reproduce every feature of the original text regardless of its effect on readability.",
+        "B": "The features of a text that are hardest to translate are those that matter most to its meaning.",
+        "C": "A translation should be judged by whether contemporary readers find it as easy to read as its original readers did.",
+        "D": "A translator should preserve a feature of the original when it was chosen by the author and shapes what the text means.",
+        "E": "Readers' initial reactions to a translation are the most reliable guide to its fidelity."
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "Paragraph 4 rejects reproducing word order and dead vocabulary; 'every feature' is too broad.",
+        "B": "The author never links difficulty to importance.",
+        "C": "Ease of reading is the standard the smoothers use and the author disputes.",
+        "D": "Correct. The author stresses that parataxis 'is a choice' with 'consequences for meaning', and that what is chosen and meaningful must be kept.",
+        "E": "The author notes readers adapt 'within a chapter', so initial reactions are precisely not the guide."
+      },
+      "trapPatterns": { "A": "extreme", "B": "out_of_scope", "C": "opposite", "E": "opposite" },
+      "keyTakeaway": "The right principle must both endorse preserving parataxis and license discarding literal word order; only a choice-and-meaning test does both.",
+      "evidence": [1, 3]
+    }
+  ]
+}

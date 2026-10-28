@@ -1,0 +1,200 @@
+{
+  "id": "rc-m3-gift-commodity",
+  "style": "critique_debate",
+  "topic": "social_science",
+  "comparative": false,
+  "title": "Gift and Commodity: A Shared Premise",
+  "paragraphs": [
+    "The anthropology of the gift has for several decades been organized around a quarrel between two readings of the same ethnographic record. On the first, associated with the economist Desmond Larkin, gift exchange in societies without markets is self-interest in ceremonial dress: a gift creates an obligation to return, the obligation is enforced by reputation, and the elaborate etiquette of giving is merely the mechanism by which rational actors secure future advantage in the absence of contract. On the second, articulated most forcefully by Teodora Mbeki-Hale, the gift is not a means to social relations but their substance: to give is to constitute a relationship, and the return is owed not because it is calculated but because the relationship, once constituted, demands it. Larkin's account, Mbeki-Hale argues, explains the gift only by dissolving it into something else.",
+    "Mbeki-Hale's critique has been widely accepted, and much of it is just. Larkin's model predicts that gifts should flow toward those best able to reciprocate, whereas in many of the societies he cites the most lavish gifts are directed to those—the dead, the very young, strangers departing forever—from whom no return is possible. It predicts that givers should minimize cost for a given obligation, whereas givers routinely destroy value, in feasts and ceremonial burnings, that a calculating actor would conserve. The model survives these anomalies only by redescribing every apparent loss as an investment in prestige, at which point it has ceased to predict anything.",
+    "Yet the two positions share a premise that the record does not support, and the premise is more damaging than anything that divides them. Both treat gift and commodity as mutually exclusive categories—objects are one or the other, and a society is characterized by which predominates. Among the Ouarzi of the highland plateau, the named ceremonial cloths that circulate at marriages are gifts in the fullest sense: they carry the histories of their previous holders and cannot be refused. The same cloths are sold for cash at the lowland fairs by Ouarzi traders, and bought back, for cash, by families who need a cloth of suitable lineage for an approaching wedding. Nothing about the object determines its register; what determines it is the transaction's position in a sequence that the participants themselves can narrate.",
+    "If this is right, the interesting question is not whether a society's exchanges are gifts or commodities but what converts one into the other and back again, and a theory of the gift that cannot describe the conversion has mistaken a phase for a kind. Larkin and Mbeki-Hale, for all their mutual hostility, are both theorists of the kind. A better theory would attend less to the motives of givers—the terrain on which the old quarrel was fought—than to the social work performed by the boundary itself, and to who is permitted to move an object across it."
+  ],
+  "roleMap": {
+    "paragraphs": ["context", "concession", "main_point", "implication"],
+    "viewpoints": [
+      { "who": "Desmond Larkin", "position": "Gift exchange is disguised self-interest; obligation enforced by reputation substitutes for contract", "authorAgrees": false },
+      { "who": "Teodora Mbeki-Hale (critique of Larkin)", "position": "Larkin explains the gift only by dissolving it; gifts constitute relationships", "authorAgrees": true },
+      { "who": "Larkin and Mbeki-Hale (shared premise)", "position": "Gift and commodity are mutually exclusive categories of object", "authorAgrees": false }
+    ],
+    "tone": "critical of both sides, constructive"
+  },
+  "lowResSummary": "Author grants Mbeki-Hale's critique of Larkin but faults both for treating gift and commodity as exclusive kinds; Ouarzi cloths move between registers.",
+  "questions": [
+    {
+      "id": "rc-m3-gift-commodity-q1",
+      "type": "main_point",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately expresses the main point of the passage?",
+      "choices": {
+        "A": "Mbeki-Hale's account of the gift is superior to Larkin's because it alone explains why the most lavish gifts flow toward those who can never reciprocate them.",
+        "B": "Larkin's theory of gift exchange fails because it can accommodate the anomalies of the ethnographic record only by redescribing every apparent loss as an investment in prestige.",
+        "C": "The Ouarzi ceremonial cloths demonstrate that the distinction between gifts and commodities has no application to highland societies.",
+        "D": "Though Mbeki-Hale's objections to Larkin are largely sound, both wrongly treat gift and commodity as exclusive kinds rather than phases an object can pass between.",
+        "E": "Theories of the gift should focus on the motives of givers rather than on the objects they exchange."
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "Wrong part. This stays inside the quarrel the author steps outside of; paragraph 3 says the shared premise 'is more damaging than anything that divides them.'",
+        "B": "Wrong part. This is the concession paragraph's content, not the author's own thesis.",
+        "C": "Extreme. The author says the categories are not exclusive, not that the distinction 'has no application'; the cloths are gifts 'in the fullest sense' at one phase.",
+        "D": "Correct. Paragraph 2 grants the critique; paragraph 3 identifies the shared premise; paragraph 4 says both 'mistook a phase for a kind.'",
+        "E": "Opposite. Paragraph 4 says a better theory would attend 'less to the motives of givers.'"
+      },
+      "trapPatterns": { "A": "wrong_part", "B": "wrong_part", "C": "extreme", "E": "opposite" },
+      "keyTakeaway": "A 'Yet the two positions share a premise' pivot marks a critique of the whole debate; the main point must include that shared-premise charge.",
+      "evidence": [1, 2, 3]
+    },
+    {
+      "id": "rc-m3-gift-commodity-q2",
+      "type": "stated",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "According to the passage, Larkin's model predicts that",
+      "choices": {
+        "A": "gifts will be directed toward those most capable of returning them.",
+        "B": "the most lavish gifts will be given to the dead and to departing strangers.",
+        "C": "givers will destroy value in feasts in order to acquire prestige.",
+        "D": "the etiquette of giving will be more elaborate in societies with markets.",
+        "E": "ceremonial cloths will be sold for cash only at lowland fairs."
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. Paragraph 2: 'Larkin's model predicts that gifts should flow toward those best able to reciprocate.'",
+        "B": "Opposite. This is the anomaly that contradicts the model's prediction.",
+        "C": "Shell game. Prestige is the model's after-the-fact redescription of destroyed value, not a prediction; the model predicts givers 'should minimize cost.'",
+        "D": "Out of scope. The model concerns societies without markets; no comparison of etiquette is made.",
+        "E": "Wrong part. The cloths belong to the author's Ouarzi example, not to Larkin's model."
+      },
+      "trapPatterns": { "B": "opposite", "C": "shell_game", "D": "out_of_scope", "E": "wrong_part" },
+      "keyTakeaway": "Distinguish what a model predicts from the anomalies cited against it and from the rescue moves it makes afterward.",
+      "evidence": [0, 1]
+    },
+    {
+      "id": "rc-m3-gift-commodity-q3",
+      "type": "other_perspective",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The passage suggests that Larkin would be most likely to agree with which one of the following?",
+      "choices": {
+        "A": "The obligation to return a gift arises from the relationship that the gift creates.",
+        "B": "Gift exchange persists in societies that have markets because it allocates goods more efficiently than enforceable contracts do.",
+        "C": "The ceremonial conventions surrounding gifts serve to secure future benefits for rational givers in the absence of enforceable contracts.",
+        "D": "Gifts given to the dead represent the purest form of exchange in societies without markets.",
+        "E": "The destruction of valuable goods at feasts refutes the view that givers act from self-interest."
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "Opposite. This is Mbeki-Hale's position: the return is owed because 'the relationship, once constituted, demands it.'",
+        "B": "Out of scope. Larkin's account is explicitly about societies 'without markets.'",
+        "C": "Correct. Paragraph 1: etiquette 'is merely the mechanism by which rational actors secure future advantage in the absence of contract.'",
+        "D": "Shell game. Gifts to the dead are an anomaly for Larkin, not a paradigm he would celebrate.",
+        "E": "Opposite. Larkin would redescribe such destruction as 'an investment in prestige,' not accept it as a refutation."
+      },
+      "trapPatterns": { "A": "opposite", "B": "out_of_scope", "D": "shell_game", "E": "opposite" },
+      "keyTakeaway": "Other-perspective answers paraphrase the view's own defining sentence; anomalies raised against the view are never things it would endorse.",
+      "evidence": [0]
+    },
+    {
+      "id": "rc-m3-gift-commodity-q4",
+      "type": "purpose_in_context",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The author discusses the Ouarzi ceremonial cloths primarily in order to",
+      "choices": {
+        "A": "provide an example of gifts directed toward those from whom no return is possible.",
+        "B": "show that whether an object is a gift or a commodity depends on the transaction rather than on the object.",
+        "C": "demonstrate that Mbeki-Hale's account of the gift applies to highland societies.",
+        "D": "illustrate how reputation enforces the obligation to reciprocate.",
+        "E": "argue that market exchange has eroded the ceremonial practices of the Ouarzi."
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "Wrong part. Gifts to the dead and departing strangers are paragraph 2's examples against Larkin, not the function of the cloths.",
+        "B": "Correct. The paragraph concludes: 'Nothing about the object determines its register; what determines it is the transaction's position in a sequence.'",
+        "C": "Half right. The cloths are gifts 'in the fullest sense' at one point, but the example is deployed against a premise Mbeki-Hale shares.",
+        "D": "Wrong part. Reputation is part of Larkin's mechanism and is not mentioned in the Ouarzi example.",
+        "E": "Out of scope. The cloths are bought back for weddings; no erosion is described."
+      },
+      "trapPatterns": { "A": "wrong_part", "C": "half_right", "D": "wrong_part", "E": "out_of_scope" },
+      "keyTakeaway": "An example placed right after 'Both treat gift and commodity as mutually exclusive' exists to refute that exclusivity.",
+      "evidence": [2]
+    },
+    {
+      "id": "rc-m3-gift-commodity-q5",
+      "type": "author_perspective",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "It can be inferred that the author would be most likely to agree with which one of the following?",
+      "choices": {
+        "A": "A theory that explains every anomaly it encounters is for that reason more powerful than one that does not.",
+        "B": "The motives of givers are irrelevant to the study of gift exchange.",
+        "C": "Societies in which objects move between gift and commodity registers are rare.",
+        "D": "Mbeki-Hale's account of the gift is ultimately indistinguishable from Larkin's.",
+        "E": "An object's status as a gift can be temporary without the object's thereby ceasing to carry social significance."
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "Opposite. The author faults Larkin's model because, having absorbed every anomaly, 'it has ceased to predict anything.'",
+        "B": "Extreme. The author says a better theory would attend 'less' to motives, not that motives are irrelevant.",
+        "C": "Out of scope. The author offers one example and generalizes that the premise is unsupported; no claim about rarity is made.",
+        "D": "Extreme. The author notes their 'mutual hostility' and criticizes a single shared premise, not total equivalence.",
+        "E": "Correct. The cloths are sold for cash and bought back 'for an approaching wedding,' retaining 'the histories of their previous holders' and lineage value throughout."
+      },
+      "trapPatterns": { "A": "opposite", "B": "extreme", "C": "out_of_scope", "D": "extreme" },
+      "keyTakeaway": "Inference answers follow from the example's details: the cloths' significance survives their passage through the commodity phase.",
+      "evidence": [1, 2]
+    },
+    {
+      "id": "rc-m3-gift-commodity-q6",
+      "type": "weaken_strengthen_evaluate",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "Which one of the following, if true, would most weaken the author's argument in the third paragraph?",
+      "choices": {
+        "A": "Ouarzi cloths that have been sold for cash are regarded by the Ouarzi as having lost their histories and are never again used in marriage exchanges.",
+        "B": "Ouarzi traders who sell ceremonial cloths for cash at the lowland fairs are generally of lower social standing than Ouarzi who never do so.",
+        "C": "Mbeki-Hale's fieldwork was conducted among a society that has no cash economy.",
+        "D": "Larkin's model has been applied successfully to the gift practices of several market societies.",
+        "E": "The Ouarzi are the only highland society among whom ceremonial cloths of this kind are both given at marriages and sold for cash at fairs."
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. The argument depends on 'the same cloths' returning to gift status; if sale strips their histories and ends their ceremonial use, the object does not move between registers and the exclusivity premise survives.",
+        "B": "True but irrelevant. The traders' standing says nothing about whether the cloths change register.",
+        "C": "Out of scope. Where Mbeki-Hale worked does not bear on the Ouarzi evidence.",
+        "D": "Wrong part. Larkin's successes elsewhere do not touch the shared-premise argument.",
+        "E": "Wrong force. One genuine case suffices to defeat a claim that the categories are mutually exclusive; uniqueness limits generality but does not break the counterexample."
+      },
+      "trapPatterns": { "B": "true_but_irrelevant", "C": "out_of_scope", "D": "wrong_part", "E": "wrong_force" },
+      "keyTakeaway": "To weaken an example-based refutation, attack the example's crucial feature—here, that the very same object returns to gift status.",
+      "evidence": [2]
+    },
+    {
+      "id": "rc-m3-gift-commodity-q7",
+      "type": "purpose_of_passage",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "The primary purpose of the passage is to",
+      "choices": {
+        "A": "defend Larkin's economic model of the gift against Mbeki-Hale's critique.",
+        "B": "describe the ceremonial marriage exchanges of the Ouarzi highlanders and explain the social significance of the named cloths.",
+        "C": "identify a shared assumption that undermines both sides of a long-standing debate and to propose a different question.",
+        "D": "argue that gift exchange and market exchange in societies without contract are governed by the same underlying principles.",
+        "E": "trace the history of the anthropological study of gift exchange."
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "Opposite. The author endorses much of Mbeki-Hale's critique.",
+        "B": "Wrong part. The Ouarzi material is evidence within a theoretical argument, not the passage's subject.",
+        "C": "Correct. Paragraph 3 names the shared premise and paragraph 4 says 'the interesting question is not whether... but what converts one into the other.'",
+        "D": "Shell game. The author says objects pass between registers, not that the registers are governed by the same principles.",
+        "E": "Out of scope. No history is traced; two positions are stated and criticized."
+      },
+      "trapPatterns": { "A": "opposite", "B": "wrong_part", "D": "shell_game", "E": "out_of_scope" },
+      "keyTakeaway": "Purpose follows structure: debate stated, one side's critique granted, shared premise attacked, new question proposed.",
+      "evidence": [2, 3]
+    }
+  ]
+}

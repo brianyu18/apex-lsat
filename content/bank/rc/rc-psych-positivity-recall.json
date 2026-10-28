@@ -1,0 +1,200 @@
+{
+  "id": "rc-psych-positivity-recall",
+  "style": "phenomenon_hypothesis",
+  "topic": "social_science",
+  "comparative": false,
+  "title": "The Positivity Shift in Late-Life Memory",
+  "paragraphs": [
+    "Among the more robust findings of the psychology of aging is that older adults remember a different world than younger adults do. Shown a mixed series of pleasant, unpleasant, and neutral images and later asked to recall them, adults in their twenties typically retrieve more of the unpleasant images than the pleasant ones, a bias usually attributed to the survival value of attending to threats. Adults past seventy show the reverse pattern, retrieving pleasant images at rates well above their recall of unpleasant ones. This “positivity shift” has now been replicated with words, faces, and autobiographical events, and it appears in cultures with quite different attitudes toward old age. What has not been settled is why it occurs, and the two leading explanations make opposite claims about whether the shift is something older adults do or something that happens to them.",
+    "The first account, developed by Margit Lindqvist, holds that the shift is motivated. As people come to perceive their remaining time as limited, Lindqvist argues, their goals reorganize around present emotional satisfaction rather than the acquisition of information useful for an open-ended future, and attention and memory are redirected accordingly. On this “horizon hypothesis,” older adults are not failing to encode unpleasant material; they are declining, more or less deliberately, to dwell on it. The account predicts that the shift should depend on the availability of cognitive resources, since steering attention away from negative material is itself a form of work, and that it should appear in anyone, of whatever age, who comes to see time as short.",
+    "The second account, associated with Étienne Perrault, treats the shift as a by-product of neural decline. The brain structures most responsive to negative stimuli, Perrault observes, are among those that deteriorate earliest in normal aging, whereas the structures supporting the processing of rewarding stimuli are comparatively spared. Older adults would thus encode unpleasant material less vividly not because they choose to but because the machinery that once flagged it as important has weakened. This account predicts that the shift should be largest in the individuals showing the greatest decline, that it should be insensitive to how much attention a person can spare, and that it should not appear in younger people regardless of their outlook.",
+    "The most informative test to date is a set of divided-attention studies conducted by Haruki Nakashima, in which participants viewed emotional images while simultaneously performing a demanding counting task. Under this load, the positivity shift in older adults disappeared almost entirely: they recalled unpleasant images at the same elevated rate as younger participants. Nakashima also found no relationship between the size of a participant’s shift and performance on standard measures of neural aging. Both results are what the horizon hypothesis predicts and what the decline account forbids, and together they persuade me that the shift is, in the main, something older adults accomplish rather than suffer. It should be acknowledged, however, that a small residual bias survived even the heaviest load in Nakashima’s oldest participants, which suggests that some fraction of the effect may yet have the passive origin Perrault describes."
+  ],
+  "roleMap": {
+    "paragraphs": ["context", "counterpoint", "counterpoint", "main_point"],
+    "viewpoints": [
+      { "who": "Margit Lindqvist (horizon hypothesis)", "position": "The positivity shift is a motivated, resource-dependent redirection of attention driven by a shortened time horizon", "authorAgrees": true },
+      { "who": "Étienne Perrault (decline account)", "position": "The shift is a passive by-product of early deterioration in structures that process negative stimuli", "authorAgrees": false },
+      { "who": "Author", "position": "Nakashima’s divided-attention results favor the horizon hypothesis, though a small residual effect may be passive", "authorAgrees": true }
+    ],
+    "tone": "measured endorsement with explicit caveat"
+  },
+  "lowResSummary": "Author presents two accounts of older adults’ positive recall bias and, citing divided-attention results, endorses the motivational account with a caveat.",
+  "questions": [
+    {
+      "id": "rc-psych-positivity-recall-q1",
+      "type": "main_point",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately expresses the main point of the passage?",
+      "choices": {
+        "A": "Nakashima’s divided-attention studies have shown that the positivity shift is entirely a product of deliberate choices by older adults.",
+        "B": "Experimental evidence indicates that the positivity shift is primarily a motivated redirection of attention, although a small part of it may stem from neural decline.",
+        "C": "The positivity shift in late-life memory has been replicated across stimuli and cultures but remains without a satisfactory explanation.",
+        "D": "Because structures that process negative stimuli deteriorate early in aging, older adults encode unpleasant material less vividly than younger adults.",
+        "E": "The horizon hypothesis and the decline account make opposite predictions about whether the positivity shift depends on cognitive resources."
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "“Entirely” contradicts the final sentence, which allows that “some fraction of the effect” may be passive.",
+        "B": "Correct. Paragraph 4: the results “persuade me that the shift is, in the main, something older adults accomplish rather than suffer,” with the acknowledged residual bias.",
+        "C": "Paragraph 1 says the cause “has not been settled,” but the author goes on to reach a verdict; C stops at the setup.",
+        "D": "This is Perrault’s account, which the author largely rejects.",
+        "E": "True, but this is the framing of the test, not the conclusion the author draws from it."
+      },
+      "trapPatterns": { "A": "extreme", "C": "wrong_part", "D": "wrong_part", "E": "half_right" },
+      "keyTakeaway": "In phenomenon→hypothesis passages, the main point is the author’s verdict plus its qualification, not the phenomenon or the rival predictions.",
+      "evidence": [3]
+    },
+    {
+      "id": "rc-psych-positivity-recall-q2",
+      "type": "stated",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "The passage states that younger adults’ tendency to recall more unpleasant than pleasant images is usually attributed to",
+      "choices": {
+        "A": "the relative immaturity of the brain structures that process rewarding stimuli",
+        "B": "an open-ended time horizon that makes the acquisition of information a priority",
+        "C": "cultural attitudes that encourage vigilance in early adulthood",
+        "D": "the survival value of attending to threats",
+        "E": "the greater cognitive resources available to younger people"
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "The passage says reward-processing structures are “comparatively spared” in aging; it says nothing about their immaturity in the young.",
+        "B": "The open-ended horizon is Lindqvist’s explanation of why younger adults seek information, not the stated reason for their negativity bias.",
+        "C": "Culture is mentioned only to note that the shift appears across cultures with different attitudes toward old age.",
+        "D": "Correct. Paragraph 1: “a bias usually attributed to the survival value of attending to threats.”",
+        "E": "Cognitive resources figure in the horizon hypothesis’s prediction about older adults, not in the explanation of the younger adults’ bias."
+      },
+      "trapPatterns": { "A": "shell_game", "B": "wrong_part", "C": "out_of_scope", "E": "wrong_part" },
+      "keyTakeaway": "Stated questions can target a passing clause in the setup paragraph; the key is a near-verbatim match.",
+      "evidence": [0]
+    },
+    {
+      "id": "rc-psych-positivity-recall-q3",
+      "type": "other_perspective",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The passage suggests that Perrault would be most likely to agree with which one of the following?",
+      "choices": {
+        "A": "A young adult who comes to believe that little time remains will begin to recall pleasant events more readily than unpleasant ones.",
+        "B": "Older adults could recover a negativity bias if they were instructed to attend closely to unpleasant images.",
+        "C": "Among adults of the same age, those showing the most neural deterioration should display the largest positivity shift.",
+        "D": "The positivity shift should weaken when older adults are asked to perform a demanding secondary task.",
+        "E": "The brain structures that process rewarding stimuli deteriorate at the same rate as those that process threats."
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "This is a prediction of the horizon hypothesis; Perrault’s account holds the shift “should not appear in younger people regardless of their outlook.”",
+        "B": "Perrault attributes the shift to weakened machinery, not to a choice that instruction could override; nothing supports recovery through instruction.",
+        "C": "Correct. Paragraph 3: the decline account “predicts that the shift should be largest in the individuals showing the greatest decline.”",
+        "D": "Perrault’s account predicts the shift is “insensitive to how much attention a person can spare.”",
+        "E": "Opposite. Perrault holds that threat-processing structures deteriorate earliest while reward structures are “comparatively spared.”"
+      },
+      "trapPatterns": { "A": "wrong_part", "B": "out_of_scope", "D": "opposite", "E": "opposite" },
+      "keyTakeaway": "When each hypothesis is given explicit predictions, other-perspective keys are the predictions listed under that hypothesis.",
+      "evidence": [2]
+    },
+    {
+      "id": "rc-psych-positivity-recall-q4",
+      "type": "purpose_of_paragraph",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The primary function of the final paragraph is to",
+      "choices": {
+        "A": "present evidence that adjudicates between the two accounts and state the author’s qualified conclusion",
+        "B": "describe a methodological innovation that has made the positivity shift easier to measure",
+        "C": "reconcile the horizon hypothesis with the decline account by assigning each a distinct population",
+        "D": "argue that the positivity shift is smaller than earlier researchers had believed",
+        "E": "summarize the predictions of the two accounts before proposing a third explanation"
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. The paragraph reports Nakashima’s results, notes they match one account and “forbid” the other, states what “persuade[s] me,” and adds a caveat.",
+        "B": "The divided-attention design is used to test explanations, not to improve measurement of the shift itself.",
+        "C": "The author concedes a possible residual passive component but does not assign the accounts to different populations.",
+        "D": "The paragraph concerns the cause of the shift, not its magnitude relative to earlier estimates.",
+        "E": "No third explanation is proposed; the author chooses between the two."
+      },
+      "trapPatterns": { "B": "shell_game", "C": "half_right", "D": "out_of_scope", "E": "out_of_scope" },
+      "keyTakeaway": "A verdict paragraph typically does three things: evidence, judgment, caveat. The key names all three; traps isolate or distort one.",
+      "evidence": [3]
+    },
+    {
+      "id": "rc-psych-positivity-recall-q5",
+      "type": "application",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "Which one of the following findings, if true, would the author most likely regard as additional support for the horizon hypothesis?",
+      "choices": {
+        "A": "Older adults who score highest on measures of neural aging show the largest positivity shift.",
+        "B": "The positivity shift is somewhat larger for autobiographical events than for images of unfamiliar faces.",
+        "C": "Older adults recall neutral images at the same rate as younger adults.",
+        "D": "The positivity shift persists in older adults even when they are told that their recall will be tested for accuracy.",
+        "E": "Adults in their thirties who have recently received a serious medical diagnosis recall pleasant images at rates resembling those of adults past seventy."
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "This is the decline account’s prediction and would count against the horizon hypothesis.",
+        "B": "Differences among stimulus types are not addressed by either account; the finding does not bear on motivation versus decline.",
+        "C": "Both accounts concern emotional material; parity on neutral images distinguishes neither.",
+        "D": "Persistence under an accuracy incentive is ambiguous: it might show the bias is not under deliberate control, which if anything favors Perrault.",
+        "E": "Correct. Paragraph 2: the horizon hypothesis predicts the shift “should appear in anyone, of whatever age, who comes to see time as short,” a prediction Perrault’s account explicitly denies."
+      },
+      "trapPatterns": { "A": "opposite", "B": "out_of_scope", "C": "true_but_irrelevant", "D": "wrong_force" },
+      "keyTakeaway": "Application keys instantiate a prediction the passage states in general terms; the best support is a prediction only one hypothesis makes.",
+      "evidence": [1, 2]
+    },
+    {
+      "id": "rc-psych-positivity-recall-q6",
+      "type": "author_perspective",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "It can be inferred from the passage that the author would be most likely to agree with which one of the following?",
+      "choices": {
+        "A": "Nakashima’s studies have eliminated the possibility that neural decline contributes to the positivity shift.",
+        "B": "A finding that the positivity shift is unaffected by cognitive load would have counted against the horizon hypothesis.",
+        "C": "The negativity bias of younger adults is also a motivated redirection of attention.",
+        "D": "The positivity shift is most pronounced in cultures that hold old age in high esteem.",
+        "E": "The residual bias Nakashima observed under heavy load shows that his participants were not fully engaged by the counting task."
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "The final sentence concedes that “some fraction of the effect may yet have the passive origin Perrault describes.”",
+        "B": "Correct. The author accepts that the horizon hypothesis predicts resource dependence and that the decline account predicts insensitivity to load; load-insensitivity would therefore favor Perrault.",
+        "C": "The younger adults’ bias is attributed to survival value in paragraph 1; the author never calls it motivated in Lindqvist’s sense.",
+        "D": "Paragraph 1 says the shift appears across cultures with different attitudes; no cultural gradient is suggested.",
+        "E": "The author treats the residual bias as possible evidence for a passive component, not as a flaw in the task."
+      },
+      "trapPatterns": { "A": "extreme", "C": "shell_game", "D": "out_of_scope", "E": "opposite" },
+      "keyTakeaway": "If the author uses a prediction to confirm a theory, the author must accept that the prediction’s failure would disconfirm it.",
+      "evidence": [1, 3]
+    },
+    {
+      "id": "rc-psych-positivity-recall-q7",
+      "type": "meaning_in_context",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately expresses the meaning of “forbids” as it is used in the passage?",
+      "choices": {
+        "A": "prohibits researchers from investigating",
+        "B": "renders ethically impermissible",
+        "C": "is incompatible with",
+        "D": "makes unlikely but not impossible",
+        "E": "has historically discouraged"
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "The subject of “forbids” is an account, not a research community, and nothing is said about prohibiting investigation.",
+        "B": "No ethical dimension is at issue; the word describes a logical relationship between a theory and results.",
+        "C": "Correct. The results are what one hypothesis “predicts” and the other “forbids,” i.e., results the decline account cannot accommodate.",
+        "D": "The contrast with “predicts” and the decline account’s explicit prediction of load-insensitivity make the relationship one of incompatibility, not mere improbability.",
+        "E": "The word describes what the account logically allows, not a historical influence."
+      },
+      "trapPatterns": { "A": "shell_game", "B": "out_of_scope", "D": "wrong_force", "E": "out_of_scope" },
+      "keyTakeaway": "Metaphorical verbs applied to theories (“forbids,” “demands,” “tolerates”) name logical relations; match the force.",
+      "evidence": [3]
+    }
+  ]
+}

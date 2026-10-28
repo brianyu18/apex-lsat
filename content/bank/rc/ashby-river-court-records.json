@@ -1,0 +1,175 @@
+{
+  "id": "rc-ashby-river-court-records",
+  "style": "problem_analysis",
+  "topic": "humanities",
+  "comparative": false,
+  "title": "Reading an Oral Culture Through Colonial Court Records",
+  "paragraphs": [
+    "Historians of the Ashby River peoples—the agrarian communities of the interior highlands whose language was unwritten until the early twentieth century—face a documentary predicament that is unusually stark. Almost everything that survives in writing about these communities before 1900 was produced by the colonial magistracy: depositions, judgments, and petitions generated when highland disputes were drawn into the courts of the coastal administration. The records are voluminous and detailed, and they are also, in every case, the product of translation into a legal idiom the deponents did not speak, before officials whose interests the deponents had every reason to anticipate. The problem is not that the records lie; it is that one cannot tell where they do.",
+    "One response, associated with the work of Lucan Fairweather, has been to treat the records as evidence of the colonial encounter alone, abandoning the attempt to recover highland social practice from them. Fairweather's historians study what the courts did with highland testimony, not what the testimony reveals, and they have produced an illuminating account of colonial legal procedure. The cost of their methodological modesty is that it cedes the history of the Ashby River peoples themselves to silence. A source that cannot be read straightforwardly is still a source, and to decline to read it at all is a choice with its own distortions.",
+    "A second response, exemplified by Beatrix Olander's study of highland inheritance, reads the records \"against the grain,\" looking for moments when the legal frame fails to contain the testimony: a deponent's answer that does not fit the question, a term the clerk could not translate and left in the original, a petition that invokes a norm the court does not recognize. These fissures, Olander argues, are where highland categories show through. The method has yielded genuine discoveries, including the first evidence of a matrilineal inheritance rule that the colonial courts systematically misdescribed. But it depends on the historian's judgment about which anomalies are fissures and which are merely clerical error, and that judgment is difficult to check.",
+    "The most promising development combines Olander's method with a control she did not have. Since the 1970s, ethnographers have recorded extensive oral testimony from highland communities, including genealogies and dispute narratives that in several instances describe the very cases that appear in the nineteenth-century records. Where oral and documentary accounts of the same dispute survive, the discrepancies between them map the distortions of the legal frame with a precision that reading against the grain alone cannot achieve—and, having been mapped in the documented cases, those distortions can be corrected for, with appropriate caution, in the many cases for which no oral account exists. The method does not dissolve the predicament; it converts an unknowable bias into an estimable one."
+  ],
+  "roleMap": {
+    "paragraphs": ["context", "counterpoint", "counterpoint", "main_point"],
+    "viewpoints": [
+      { "who": "Lucan Fairweather and his school", "position": "The court records are evidence only of the colonial encounter; highland practice cannot be recovered from them", "authorAgrees": false },
+      { "who": "Beatrix Olander", "position": "Reading the records against the grain reveals highland categories in the fissures of the legal frame", "authorAgrees": true },
+      { "who": "Author", "position": "Olander's method, checked against later oral testimony about the same disputes, turns an unknowable bias into an estimable one", "authorAgrees": true }
+    ],
+    "tone": "judicious, cautiously optimistic"
+  },
+  "lowResSummary": "Author weighs two approaches to colonial court records about an oral culture and favors against-the-grain reading checked by oral testimony.",
+  "questions": [
+    {
+      "id": "rc-ashby-river-court-records-q1",
+      "type": "main_point",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately expresses the main point of the passage?",
+      "choices": {
+        "A": "Colonial court records concerning the Ashby River peoples are too thoroughly distorted by translation and institutional interest to serve as evidence of highland social practice.",
+        "B": "Fairweather's approach to the court records is preferable to Olander's because it avoids speculative judgments about which anomalies in the records are significant.",
+        "C": "The distortions in colonial court records about the Ashby River peoples can be estimated, and partly corrected, by comparing the records with later oral testimony about the same disputes.",
+        "D": "Ethnographic recordings made since the 1970s have rendered the colonial court records unnecessary for the study of highland history before 1900.",
+        "E": "Reading the court records against the grain has revealed a matrilineal inheritance rule that the colonial courts systematically misdescribed."
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "The author rejects this: 'A source that cannot be read straightforwardly is still a source.'",
+        "B": "The author treats Fairweather's restraint as a cost and builds on Olander's method rather than abandoning it.",
+        "C": "Correct. Paragraph 4: discrepancies 'map the distortions', which 'can be corrected for', converting 'an unknowable bias into an estimable one.'",
+        "D": "The oral testimony serves as a control for the records, not a replacement.",
+        "E": "A result of Olander's method, offered as a detail in paragraph 3."
+      },
+      "trapPatterns": { "A": "opposite", "B": "opposite", "D": "extreme", "E": "half_right" },
+      "keyTakeaway": "In problem-analysis passages, the main point is the assessed solution, including its limits ('does not dissolve the predicament').",
+      "evidence": [3]
+    },
+    {
+      "id": "rc-ashby-river-court-records-q2",
+      "type": "stated",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "According to the passage, a weakness of Olander's method is that it",
+      "choices": {
+        "A": "relies on judgments about which anomalies are significant that are difficult to verify.",
+        "B": "treats the court records solely as evidence of colonial legal procedure.",
+        "C": "has so far produced no genuine discoveries about highland social practice.",
+        "D": "assumes that the deponents deliberately falsified their testimony before the courts.",
+        "E": "disregards the terms that the colonial clerks left untranslated in the records."
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. Paragraph 3: it 'depends on the historian's judgment about which anomalies are fissures... and that judgment is difficult to check.'",
+        "B": "That describes Fairweather's approach.",
+        "C": "The method 'has yielded genuine discoveries.'",
+        "D": "No assumption of deliberate falsification is attributed to Olander; the passage says the problem is not that the records lie.",
+        "E": "Untranslated terms are among the fissures the method looks for."
+      },
+      "trapPatterns": { "B": "wrong_part", "C": "opposite", "D": "out_of_scope", "E": "opposite" },
+      "keyTakeaway": "Each method's weakness is stated right after its strength; find the 'But'.",
+      "evidence": [2]
+    },
+    {
+      "id": "rc-ashby-river-court-records-q3",
+      "type": "purpose_in_context",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The author's remark that declining to read a source \"is a choice with its own distortions\" primarily serves to",
+      "choices": {
+        "A": "acknowledge that the court records are more reliable than Fairweather's historians allow.",
+        "B": "suggest that Fairweather's account of colonial legal procedure is itself distorted by his methodological assumptions.",
+        "C": "argue that historians are obliged to read every available source regardless of its provenance.",
+        "D": "explain why Olander's method depends on judgments that are difficult to check.",
+        "E": "point out that methodological restraint is not a neutral option but has consequences of its own."
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "The author never claims the records are reliable; the point is that silence is also a distortion.",
+        "B": "The author calls Fairweather's account 'illuminating'; the distortion lies in what is left unwritten, not in that account.",
+        "C": "'Every available source regardless of provenance' overstates a point about one body of records.",
+        "D": "The remark concludes the Fairweather paragraph and precedes any discussion of Olander.",
+        "E": "Correct. The sentence completes the thought that modesty 'cedes the history of the Ashby River peoples themselves to silence.'"
+      },
+      "trapPatterns": { "A": "shell_game", "B": "shell_game", "C": "extreme", "D": "wrong_part" },
+      "keyTakeaway": "A closing aphorism restates the paragraph's criticism in general terms; match it to the 'cost' sentence.",
+      "evidence": [1]
+    },
+    {
+      "id": "rc-ashby-river-court-records-q4",
+      "type": "author_perspective",
+      "logicTags": ["sampling"],
+      "difficulty": 3,
+      "stem": "It can be inferred from the passage that the author would be most likely to agree with which one of the following?",
+      "choices": {
+        "A": "Oral testimony recorded since the 1970s is free of the distortions that affect the written records.",
+        "B": "The colonial magistracy intentionally misdescribed highland inheritance rules in order to serve administrative ends.",
+        "C": "Fairweather's historians have contributed nothing of value to the understanding of the colonial period.",
+        "D": "A systematic bias in a body of evidence is less damaging when its direction and extent can be estimated.",
+        "E": "The predicament facing historians of the Ashby River peoples has been resolved by the combination of methods the author describes."
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "The author never claims the oral testimony is undistorted, only that discrepancies between sources are informative.",
+        "B": "'Systematically misdescribed' does not entail intent; no motive is attributed.",
+        "C": "The author calls their account of legal procedure 'illuminating.'",
+        "D": "Correct. The final sentence prizes converting 'an unknowable bias into an estimable one.'",
+        "E": "The author says the method 'does not dissolve the predicament.'"
+      },
+      "trapPatterns": { "A": "extreme", "B": "out_of_scope", "C": "opposite", "E": "opposite" },
+      "keyTakeaway": "The final sentence's distinction (unknowable vs. estimable bias) is the author's governing value.",
+      "evidence": [3]
+    },
+    {
+      "id": "rc-ashby-river-court-records-q5",
+      "type": "analogy",
+      "logicTags": ["analogy"],
+      "difficulty": 3,
+      "stem": "The author's preferred method, as described in the final paragraph, is most analogous to which one of the following?",
+      "choices": {
+        "A": "A translator consults a bilingual dictionary in order to render each term of an ancient text into a modern language.",
+        "B": "An astronomer measures the distortion a telescope's lens introduces by observing stars of known position, then corrects images of stars whose positions are unknown.",
+        "C": "A detective disregards a witness's testimony entirely upon learning that the witness had a motive to lie.",
+        "D": "An archaeologist infers the function of a tool from the wear patterns its surface exhibits.",
+        "E": "A court excludes a translated deposition because the translator was employed by one of the parties."
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "A dictionary supplies meanings; it does not calibrate a known bias against independent evidence.",
+        "B": "Correct. Known cases (disputes with oral accounts) calibrate the distortion, which is then corrected in unknown cases (disputes without them).",
+        "C": "Total disregard mirrors Fairweather's approach, which the author criticizes.",
+        "D": "Inferring from internal traces mirrors reading against the grain alone, without a control.",
+        "E": "Exclusion for bias is again the Fairweather move, not calibration."
+      },
+      "trapPatterns": { "A": "out_of_scope", "C": "opposite", "D": "shell_game", "E": "wrong_part" },
+      "keyTakeaway": "Abstract the structure (calibrate on known cases, correct unknown ones) and reject analogies that match only one rejected method.",
+      "evidence": [3]
+    },
+    {
+      "id": "rc-ashby-river-court-records-q6",
+      "type": "author_attitude",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "The author's attitude toward Fairweather's approach can most accurately be described as",
+      "choices": {
+        "A": "appreciation for its results combined with the judgment that its restraint is itself costly.",
+        "B": "unreserved approval of its methodological modesty in the face of unreliable sources.",
+        "C": "contempt for its failure to engage with the highland communities directly.",
+        "D": "agreement that the court records cannot reveal anything about highland social practice.",
+        "E": "suspicion that its practitioners have misread the procedures of the colonial courts."
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. 'An illuminating account' plus 'The cost of their methodological modesty.'",
+        "B": "'Unreserved' is contradicted by the cost the author identifies.",
+        "C": "'Contempt' is far too strong for an approach the author calls illuminating.",
+        "D": "The author insists the records are 'still a source.'",
+        "E": "No misreading of procedure is alleged."
+      },
+      "trapPatterns": { "B": "extreme", "C": "extreme", "D": "opposite", "E": "out_of_scope" },
+      "keyTakeaway": "Praise followed by 'The cost of' signals a two-part attitude: credit plus criticism.",
+      "evidence": [1]
+    }
+  ]
+}
