@@ -5,13 +5,13 @@
   "comparative": true,
   "title": "Citizens’ Assemblies and the Legitimacy Problem",
   "paragraphs": [
-    "Randomly selected citizens’ assemblies, often called minipublics, have a strong record of producing recommendations that are better informed and more carefully reasoned than those emerging from ordinary legislative debate. Yet they face a difficulty that their admirers have been slow to confront. No one elected their members, no one can remove them, and the citizens they are said to represent had no voice in choosing them. Whatever authority a minipublic possesses must therefore come from somewhere other than the electoral mandate on which democratic institutions ordinarily rely.",
-    "Two responses to this difficulty are common, and both are inadequate. The first makes the assembly purely advisory, which preserves the legislature’s accountability at the cost of guaranteeing that recommendations can be shelved without consequence; assemblies treated this way are quickly perceived as theater. The second binds the legislature to adopt whatever the assembly proposes, which secures uptake but transfers decisive power to a body that answers to nobody, and so reproduces the legitimacy deficit it was meant to cure.",
-    "A third arrangement, which might be called mandated uptake, avoids both failures. The legislature retains the final decision but is obliged, within a fixed period, to respond publicly to each recommendation and to give reasons for any it declines. The assembly’s authority on this model is not electoral but deliberative: it derives from the quality of the reasoning and from the fact that elected officials must engage that reasoning in public rather than ignore it. Two conditions are essential. The assembly’s remit must be set by an elected body, so that the question it answers is one the public’s representatives have chosen to ask, and the reasons given for rejection must be genuine, not pretexts for choices already made."
+    "Randomly selected citizens’ assemblies, often called minipublics, have a strong record of producing recommendations better informed and more carefully reasoned than those of ordinary legislative debate. Yet they face a difficulty their admirers have been slow to confront. No one elected their members, no one can remove them, and those they are said to represent had no voice in choosing them. Whatever authority a minipublic possesses must therefore come from somewhere other than the electoral mandate on which democratic institutions rely.",
+    "Two responses are common, and both are inadequate. The first makes the assembly purely advisory, which preserves the legislature’s accountability but guarantees that recommendations can be shelved without consequence; assemblies treated this way are quickly perceived as theater. The second binds the legislature to adopt whatever the assembly proposes, which secures uptake but transfers decisive power to a body that answers to nobody, reproducing the legitimacy deficit it was meant to cure.",
+    "A third arrangement, which might be called mandated uptake, avoids both failures. The legislature retains the final decision but must, within a fixed period, respond publicly to each recommendation and give reasons for any it declines. The assembly’s authority on this model is not electoral but deliberative: it derives from the quality of its reasoning and from the fact that elected officials must engage that reasoning publicly rather than ignore it. Two conditions are essential. The assembly’s remit must be set by an elected body, so that the question it answers is one elected representatives have chosen to ask, and the reasons given for rejection must be genuine, not pretexts for choices already made."
   ],
   "paragraphsB": [
-    "The Brennagh Citizens’ Assembly on coastal retreat, convened in 2019 by the regional parliament of Tirelle, offers an unusually complete test of the response-requirement model. Ninety-nine residents, selected by stratified lottery, met over six weekends to consider how communities along the eroding Brennagh shore should be relocated. The enabling statute required the parliament to publish a response to every recommendation within ninety days and to state its reasons for rejecting any. The assembly ultimately issued eleven recommendations, the most consequential of which was a compensation formula that would have paid displaced households the pre-erosion value of their property.",
-    "The parliament accepted seven recommendations, modified one, and rejected three, including the compensation formula, on the stated ground that it would exhaust the regional budget within a decade. Surveys conducted before and eighteen months after the assembly found that public support for managed retreat rose from 31 to 58 percent, and that respondents who were aware of the parliament’s published reasons were more likely to accept the final policy even when they disagreed with it.",
+    "The Brennagh Citizens’ Assembly on coastal retreat, convened in 2019 by the regional parliament of Tirelle, offers an unusually complete test of the response-requirement model. Ninety-nine residents, selected by lottery, met over six weekends to consider how communities along the eroding Brennagh shore should be relocated. The enabling statute required the parliament to publish a response to every recommendation within ninety days and to state its reasons for rejecting any. The assembly ultimately issued eleven recommendations, the most consequential of which was a compensation formula that would have paid displaced households the pre-erosion value of their property.",
+    "The parliament accepted seven recommendations, modified one, and rejected three, including the compensation formula, on the stated ground that it would exhaust the regional budget within a decade. Surveys of residents conducted before the assembly convened and eighteen months after it reported found that public support for managed retreat rose from 31 to 58 percent, and that respondents who were aware of the parliament’s published reasons were more likely to accept the final policy even when they disagreed with it.",
     "Not every observer has been impressed. The political scientist Kjell Halvorsen notes that the parliament rejected precisely the recommendation that would have cost it most, and suggests that the response requirement allowed legislators to appear deliberative while reaching the decision they would have reached anyway. It bears noting, too, that the assembly’s remit was drawn to exclude the question of whether retreat should occur at all; participants were asked how to relocate communities, not whether to."
   ],
   "roleMap": {
@@ -21,9 +21,9 @@
       { "who": "Author of passage B", "position": "The Brennagh case largely illustrates the model working, but reports critics and notes the restricted remit", "authorAgrees": null },
       { "who": "Kjell Halvorsen", "position": "Response requirements let legislators appear deliberative while laundering predetermined choices", "authorAgrees": null }
     ],
-    "tone": "A: confident prescription; B: neutral reportage with a skeptical coda"
+    "tone": "A: confident prescription; B: neutral, skeptical coda"
   },
-  "lowResSummary": "Passage A proposes mandated reason-giving as the cure for minipublics’ legitimacy deficit; passage B tests it against a coastal-retreat assembly and notes doubts.",
+  "lowResSummary": "A proposes mandated reason-giving as the cure for minipublics’ legitimacy deficit; B tests it against a coastal-retreat assembly and records doubts.",
   "questions": [
     {
       "id": "rc-polisci-minipublic-legitimacy-q1",
@@ -35,7 +35,7 @@
         "A": "Passage A proposes a solution to a problem that passage B argues does not exist.",
         "B": "Passage B describes a case that passage A cites as the origin of the model it recommends.",
         "C": "Passage A articulates an institutional model and the conditions for its success; passage B examines a particular instance in which that model was applied.",
-        "D": "Passage A and passage B defend the same arrangement, but passage B relies on survey data while passage A relies on theoretical argument.",
+        "D": "Passage A and passage B defend the same institutional arrangement, but passage B relies on survey data and a case study while passage A relies entirely on theoretical argument.",
         "E": "Passage B rejects the model advanced in passage A on the basis of empirical evidence."
       },
       "answer": "C",
@@ -58,7 +58,7 @@
       "stem": "Which one of the following most accurately expresses the main point of passage A?",
       "choices": {
         "A": "Requiring legislatures to respond publicly, with reasons, to a minipublic’s recommendations best addresses the minipublic’s lack of electoral legitimacy, given certain conditions.",
-        "B": "Minipublics produce better-reasoned recommendations than legislatures but should remain purely advisory in order to protect democratic accountability.",
+        "B": "Minipublics produce better-reasoned recommendations than legislatures do, but they should remain purely advisory in order to protect the accountability of elected institutions to the public.",
         "C": "Because no one elects the members of a citizens’ assembly, such assemblies cannot legitimately influence public policy.",
         "D": "Binding legislatures to adopt the recommendations of citizens’ assemblies is the only way to prevent those recommendations from being ignored.",
         "E": "The authority of democratic institutions ordinarily derives from an electoral mandate that citizens’ assemblies cannot claim."
@@ -158,7 +158,7 @@
       "stem": "Passage B suggests that Halvorsen would be most likely to agree with which one of the following?",
       "choices": {
         "A": "A legislature’s compliance with a requirement to give reasons does not by itself show that those reasons determined its decision.",
-        "B": "The Brennagh assembly would have produced better recommendations had its remit included whether retreat should occur.",
+        "B": "The Brennagh assembly would have produced better recommendations had its remit included the prior question of whether retreat should occur at all.",
         "C": "Public support for managed retreat rose because residents were persuaded by the assembly’s reasoning.",
         "D": "Response requirements should be replaced by arrangements that bind legislatures to adopt minipublic recommendations.",
         "E": "The parliament’s budgetary concern about the compensation formula was unfounded."

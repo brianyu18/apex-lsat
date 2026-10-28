@@ -29,7 +29,7 @@
       "stem": "Which one of the following most accurately expresses the main point of the passage?",
       "choices": {
         "A": "The isotopic composition of cap carbonates shows that their carbon came from methane rather than from volcanic carbon dioxide.",
-        "B": "Cap carbonates record the accumulation of atmospheric carbon dioxide during the Kestrel glaciation and its rapid removal afterward.",
+        "B": "Cap carbonates record the accumulation of volcanic carbon dioxide in the atmosphere during the Kestrel glaciation and its rapid removal by weathering once the ice retreated.",
         "C": "Neither the meltdown model nor the methane seep model can be reconciled with the full range of evidence preserved in cap carbonates.",
         "D": "The sedimentary evidence favors rapid deposition of cap carbonates, so the meltdown model, modified to include some methane-derived carbon, is the best available account.",
         "E": "Disputes over the origin of cap carbonates have come to depend on which of two kinds of evidence researchers choose to privilege."
@@ -53,7 +53,7 @@
       "difficulty": 1,
       "stem": "According to the passage, the meter-scale wave ripples preserved in cap carbonates form only",
       "choices": {
-        "A": "where methane seeps are concentrated on the seafloor",
+        "A": "where methane seeps are concentrated on the seafloor beneath retreating ice",
         "B": "in water supersaturated with aragonite",
         "C": "beneath retreating ice sheets",
         "D": "over periods of hundreds of thousands of years",
@@ -106,7 +106,7 @@
         "A": "show that the isotopic depletion of the caps does not uniquely indicate a methane source",
         "B": "explain how aragonite crystal fans could grow at rates of centimeters per year",
         "C": "identify the primary source of the carbon in cap carbonates",
-        "D": "support Brandt’s claim that volcanic carbon is too heavy to account for the caps",
+        "D": "support Brandt’s claim that volcanic carbon is too heavy in carbon-13 to account for the composition of the caps",
         "E": "describe the mechanism by which deglaciation delivered calcium to the ocean"
       },
       "answer": "A",
@@ -156,7 +156,7 @@
         "A": "Carbon isotope measurements from several cap carbonate sections show depletion even greater than Brandt reported.",
         "B": "Methane seeps on the modern seafloor are frequently found in regions subject to intense storm activity.",
         "C": "Volcanic emissions during the Kestrel glaciation were lighter in carbon-13 than present-day volcanic emissions.",
-        "D": "Cap carbonates in several regions are thickest where geological evidence indicates ancient methane seeps were concentrated.",
+        "D": "Cap carbonates in several widely separated regions are thickest precisely where independent geological evidence indicates that ancient methane seeps were concentrated.",
         "E": "The wave ripples and aragonite fans occur only in the uppermost portion of the caps, above a much thicker lower unit that lacks such structures."
       },
       "answer": "E",

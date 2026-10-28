@@ -29,9 +29,9 @@
         "authorAgrees": null
       }
     ],
-    "tone": "A: careful inference with acknowledged gap; B: corrective, constructive"
+    "tone": "A: careful, admits a gap; B: corrective, constructive"
   },
-  "lowResSummary": "Passage A infers orbiting fine dust from the dips’ color dependence but notes a missing infrared signal; passage B adds secular fading and proposes a distant cold ring.",
+  "lowResSummary": "A infers orbiting fine dust from the dips’ color dependence but notes a missing infrared signal; B adds secular fading and proposes a distant cold ring.",
   "questions": [
     {
       "id": "rc-astronomy-dimming-episodes-q1",
@@ -43,7 +43,7 @@
         "A": "Passage B accepts the kind of obscuring material inferred in passage A but relocates it in order to resolve a difficulty passage A acknowledges and to explain an additional observation.",
         "B": "Passage B rejects passage A’s conclusion that the dimming is caused by something other than the star itself.",
         "C": "Passage A presents observational data without interpretation, while passage B supplies the interpretation.",
-        "D": "The two passages offer incompatible explanations of the same photometric record and appeal to different kinds of evidence.",
+        "D": "The two passages offer incompatible explanations of the same photometric record, with passage A relying on the color dependence of the dips and passage B relying on the archival record of long-term fading.",
         "E": "Passage A proposes a hypothesis that passage B argues cannot be tested."
       },
       "answer": "A",
@@ -76,7 +76,7 @@
         "B": "Hypotheses that explain the dips of KV 2281 by orbiting debris should be abandoned because they predict an infrared excess that is not observed.",
         "C": "A distant, slowly spreading ring of cold debris can explain both the dips and the secular fading of KV 2281 while avoiding the infrared difficulty, and it makes a testable prediction.",
         "D": "The dips of KV 2281 are less important for understanding the star than its long-term fading, which earlier researchers neglected.",
-        "E": "Because grains at great distances from a star are too cold to glow in the infrared, the absence of an infrared excess cannot rule out dust as the cause of dimming."
+        "E": "Because grains at great distances from a star are too cold to glow detectably in the infrared, the absence of an infrared excess from KV 2281 cannot be used to rule out circumstellar dust as the cause of its dimming."
       },
       "answer": "C",
       "explanations": {
@@ -136,7 +136,7 @@
       "difficulty": 4,
       "stem": "Given the reasoning in passage A, its author would be most likely to raise which one of the following questions about the hypothesis in passage B?",
       "choices": {
-        "A": "Whether a ring of debris could persist for ninety years without being dispersed by the star’s radiation",
+        "A": "Whether a ring of debris in a wide orbit could persist for ninety years or more without being dispersed by the pressure of the star’s radiation",
         "B": "Whether archival photographic plates are precise enough to establish an eleven percent fade",
         "C": "Whether a large icy body could exist in a wide orbit around a star slightly more massive than the Sun",
         "D": "Whether the star’s rotation might account for the periodic modulation passage B predicts",
@@ -172,7 +172,7 @@
         "B": "establish that the cause of the dimming is external to the star",
         "C": "show that the star is slightly more massive than the Sun",
         "D": "account for the asymmetric shape of the dips",
-        "E": "argue that the missing infrared excess is not a serious problem"
+        "E": "argue that the missing infrared excess is not a serious problem for the debris hypothesis"
       },
       "answer": "B",
       "explanations": {
@@ -234,7 +234,7 @@
       "choices": {
         "A": "Spectra taken during several dips show absorption features that arise only in gas heated to temperatures found within a few stellar radii of the star.",
         "B": "The archival plates were taken with several different telescopes over the ninety-year interval.",
-        "C": "A faint infrared excess has recently been detected at wavelengths characteristic of warm dust close to the star.",
+        "C": "A faint infrared excess has recently been detected from KV 2281 at wavelengths characteristic of warm dust orbiting within a few stellar radii of the star’s surface.",
         "D": "The rate of the star’s secular fading has been roughly constant rather than increasing over the last two decades.",
         "E": "Several other stars in the same region of the sky show irregular dips of similar depth."
       },

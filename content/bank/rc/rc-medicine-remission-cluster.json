@@ -1,0 +1,175 @@
+{
+  "id": "rc-medicine-remission-cluster",
+  "style": "phenomenon_hypothesis",
+  "topic": "natural_science",
+  "comparative": false,
+  "title": "Remission After Fever in Hallam’s Arthropathy",
+  "paragraphs": [
+    "Hallam’s arthropathy is a chronic inflammatory disease of the small joints in which the immune system, for reasons not understood, attacks the synovial lining as though it were foreign tissue. The disease rarely resolves on its own, and when it does, clinicians have long noticed that the remission tends to follow an acute infectious illness. Case reports describing patients whose swollen joints quieted within weeks of a bout of pneumonia or a severe influenza have accumulated for a century, but such reports cannot distinguish a genuine effect from coincidence in a disease whose course is already variable. Only recently, with the assembly of a national registry tracking several thousand patients, has it become possible to ask what, if anything, about an infection induces remission.",
+    "Two hypotheses have been offered. On the first, advanced by Constanza Varela, the operative factor is fever itself. Sustained high body temperature, together with the surge of inflammatory signaling molecules that produces it, is known to drive activated T cells toward programmed death, and Varela proposes that the autoreactive T-cell clones sustaining the joint attack are preferentially eliminated during a febrile episode because they are the clones most persistently activated. This “immune reset” account predicts that remission should track the height and duration of fever and should be indifferent to the identity of the infecting organism or to how the infection is treated.",
+    "The second hypothesis, due to Samir Khoury, locates the mechanism in the gut. Khoury observes that most patients with serious infections receive antibiotics, which profoundly disturb the intestinal flora, and he proposes that the joint attack is driven by immune cross-reaction against a protein of some resident gut bacterium that resembles a synovial protein. Eliminate the bacterium, and the stimulus for the autoimmune response disappears. On this “microbial displacement” account, remission should follow antibiotic treatment whether or not fever occurs, and febrile illnesses treated without antibiotics should produce no more remissions than would be expected by chance.",
+    "The registry analysis published by Folake Odunaike allows the two predictions to be compared. Among patients who experienced a febrile illness but received no antibiotics, eighteen percent entered remission within six months; among those who received antibiotics for a non-febrile condition, four percent did; among those who had both fever and antibiotics, twenty-one percent; and among those with neither, three percent. The pattern is difficult to reconcile with microbial displacement and broadly consistent with immune reset. One finding, however, complicates Varela’s account as she stated it. Within the fever-only group, remission was concentrated almost entirely among patients whose fevers were caused by a single family of respiratory viruses; fevers of comparable height from other causes were followed by remission at nearly the baseline rate. Something about these particular infections, rather than fever as such, appears to do the work, and the reset hypothesis survives only in a form that specifies a trigger it did not originally name."
+  ],
+  "roleMap": {
+    "paragraphs": ["context", "counterpoint", "counterpoint", "main_point"],
+    "viewpoints": [
+      { "who": "Constanza Varela (immune reset)", "position": "Fever itself eliminates autoreactive T-cell clones; remission tracks fever magnitude regardless of organism or treatment", "authorAgrees": null },
+      { "who": "Samir Khoury (microbial displacement)", "position": "Antibiotics remove a cross-reacting gut bacterium; remission tracks antibiotic exposure, not fever", "authorAgrees": false },
+      { "who": "Author", "position": "Registry data refute microbial displacement and favor immune reset, but only in a modified form tied to a specific viral trigger", "authorAgrees": true }
+    ],
+    "tone": "analytical, cautiously revisionary"
+  },
+  "lowResSummary": "Registry data favor an immune-reset over a gut-microbe account of post-infection remission, but the author shows reset must be tied to a specific viral trigger.",
+  "questions": [
+    {
+      "id": "rc-medicine-remission-cluster-q1",
+      "type": "main_point",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately expresses the main point of the passage?",
+      "choices": {
+        "A": "Case reports linking remission of Hallam’s arthropathy to infection have been confirmed by a national registry analysis.",
+        "B": "Remission of Hallam’s arthropathy following infection is caused by antibiotic disruption of the gut flora rather than by fever.",
+        "C": "Neither the immune reset hypothesis nor the microbial displacement hypothesis can explain the pattern of remissions recorded in the national registry without substantial modification.",
+        "D": "Fever of sufficient height and duration eliminates the autoreactive T cells responsible for Hallam’s arthropathy.",
+        "E": "Registry data count against the microbial displacement account and support immune reset, but only if that account is revised to specify a particular viral trigger."
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "The registry does more than confirm an association; the passage is about which mechanism explains it. A stops short of the verdict.",
+        "B": "This is Khoury’s hypothesis, which the author says the pattern is “difficult to reconcile with.”",
+        "C": "The author says the data are “broadly consistent with immune reset”; “neither” is too strong.",
+        "D": "This is Varela’s original claim, which the complication in paragraph 4 specifically undermines (“rather than fever as such”).",
+        "E": "Correct. Paragraph 4: the pattern favors reset, yet “the reset hypothesis survives only in a form that specifies a trigger it did not originally name.”"
+      },
+      "trapPatterns": { "A": "wrong_part", "B": "opposite", "C": "extreme", "D": "half_right" },
+      "keyTakeaway": "When a verdict paragraph ends with “however,” the main point includes the qualification introduced after it.",
+      "evidence": [3]
+    },
+    {
+      "id": "rc-medicine-remission-cluster-q2",
+      "type": "stated",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "According to the passage, the microbial displacement hypothesis predicts that",
+      "choices": {
+        "A": "remission should be most common among patients with the highest fevers",
+        "B": "remission should depend on the identity of the infecting respiratory virus",
+        "C": "febrile illnesses treated without antibiotics should not raise the rate of remission above chance",
+        "D": "antibiotic treatment should produce remission only when it is accompanied by a sustained febrile episode",
+        "E": "autoreactive T-cell clones should be eliminated during antibiotic treatment"
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "This is the immune reset prediction.",
+        "B": "Viral identity is the author’s own complication in paragraph 4, not a prediction of Khoury’s.",
+        "C": "Correct. Paragraph 3: “febrile illnesses treated without antibiotics should produce no more remissions than would be expected by chance.”",
+        "D": "Opposite: the hypothesis predicts remission after antibiotics “whether or not fever occurs.”",
+        "E": "T-cell elimination is Varela’s mechanism, not Khoury’s."
+      },
+      "trapPatterns": { "A": "wrong_part", "B": "wrong_part", "D": "opposite", "E": "shell_game" },
+      "keyTakeaway": "Each hypothesis paragraph ends with its predictions; a stated question about a prediction is answered there verbatim.",
+      "evidence": [2]
+    },
+    {
+      "id": "rc-medicine-remission-cluster-q3",
+      "type": "other_perspective",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The passage suggests that Khoury would be most likely to agree with which one of the following?",
+      "choices": {
+        "A": "A treatment that eliminated the relevant gut bacterium without causing any infection could induce remission.",
+        "B": "Patients who experience high fevers without antibiotics should enter remission at elevated rates.",
+        "C": "The autoimmune attack in Hallam’s arthropathy is sustained by persistently activated T-cell clones.",
+        "D": "Remission following infection is most likely a coincidence in a disease with a variable course.",
+        "E": "Infections caused by a particular family of respiratory viruses are especially likely to produce remission regardless of treatment."
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. Khoury’s mechanism is “Eliminate the bacterium, and the stimulus for the autoimmune response disappears”; infection and fever are incidental.",
+        "B": "This is contrary to Khoury’s prediction that fever without antibiotics yields no more remissions than chance.",
+        "C": "This is Varela’s account of the mechanism; Khoury attributes the attack to cross-reaction against a bacterial protein.",
+        "D": "Khoury proposes a real mechanism; the coincidence worry belongs to the author’s remarks on case reports in paragraph 1.",
+        "E": "The viral specificity is the author’s observation and cuts against both original hypotheses; nothing attributes it to Khoury."
+      },
+      "trapPatterns": { "B": "opposite", "C": "wrong_part", "D": "wrong_part", "E": "wrong_part" },
+      "keyTakeaway": "Other-perspective keys extend the scholar’s mechanism to a case the passage did not state; traps borrow from the rival or the author.",
+      "evidence": [2]
+    },
+    {
+      "id": "rc-medicine-remission-cluster-q4",
+      "type": "author_perspective",
+      "logicTags": ["math_percent"],
+      "difficulty": 4,
+      "stem": "It can be inferred from the passage that the author would be most likely to agree with which one of the following statements about Odunaike’s registry data?",
+      "choices": {
+        "A": "The four percent remission rate among patients given antibiotics without fever shows that antibiotics have a modest independent effect on remission.",
+        "B": "The small difference between the fever-only and fever-plus-antibiotics groups indicates that antibiotic exposure contributes little once fever has occurred.",
+        "C": "The eighteen percent remission rate among fever-only patients would have been higher had the analysis excluded fevers caused by respiratory viruses.",
+        "D": "The data confirm that remission tracks the height and duration of fever regardless of its cause.",
+        "E": "The three percent baseline rate indicates that spontaneous remission never occurs in the absence of infection."
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "Four percent against a three percent baseline is a difference the author does not treat as meaningful; the passage says the pattern is “difficult to reconcile” with the antibiotic account, so the author would not read it as an independent effect.",
+        "B": "Correct. Eighteen percent (fever only) versus twenty-one percent (both) is the comparison that isolates antibiotics given fever; the author’s conclusion that the data favor reset over displacement relies on exactly this small increment.",
+        "C": "Reversed. Remission in the fever-only group was “concentrated almost entirely” among patients with those viral fevers; excluding them would lower the rate toward baseline.",
+        "D": "The complication in paragraph 4 denies this: fevers “of comparable height from other causes” yielded near-baseline remission.",
+        "E": "Three percent is a nonzero rate; “never” is contradicted by the number itself."
+      },
+      "trapPatterns": { "A": "wrong_force", "C": "reversal", "D": "opposite", "E": "extreme" },
+      "keyTakeaway": "A 2×2 table in prose: compare the cells that differ in one factor only. The key reads the fever-only versus both comparison; A over-reads a one-point difference.",
+      "evidence": [3]
+    },
+    {
+      "id": "rc-medicine-remission-cluster-q5",
+      "type": "purpose_in_context",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The author mentions that patients whose fevers were caused by a single family of respiratory viruses entered remission at high rates primarily in order to",
+      "choices": {
+        "A": "support Khoury’s claim that the identity of the infecting organism determines remission",
+        "B": "explain why patients with both fever and antibiotics had the highest remission rate",
+        "C": "show that the registry data are too heterogeneous to test either hypothesis",
+        "D": "suggest that case reports were correct to attribute remission to pneumonia and influenza",
+        "E": "identify a finding that Varela’s hypothesis, as originally stated, does not accommodate"
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "Khoury’s hypothesis makes no claim about organism identity; it predicts remission from antibiotics regardless of the infection.",
+        "B": "The viral finding concerns the fever-only group and is not offered to explain the both-fever-and-antibiotics figure.",
+        "C": "The author treats the data as decisive against Khoury and informative about Varela; the finding refines, rather than invalidates, the test.",
+        "D": "Case reports are mentioned in paragraph 1 as unable to distinguish effect from coincidence; the viral finding is not used to rehabilitate them.",
+        "E": "Correct. The finding is introduced with “One finding, however, complicates Varela’s account as she stated it,” and leads to the conclusion that reset needs “a trigger it did not originally name.”"
+      },
+      "trapPatterns": { "A": "shell_game", "B": "wrong_part", "C": "extreme", "D": "wrong_part" },
+      "keyTakeaway": "The sentence that introduces a detail (“One finding, however, complicates…”) states the detail’s purpose.",
+      "evidence": [3]
+    },
+    {
+      "id": "rc-medicine-remission-cluster-q6",
+      "type": "author_attitude",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "The author’s attitude toward Varela’s immune reset hypothesis can most accurately be described as",
+      "choices": {
+        "A": "unreserved endorsement based on its superior fit with the registry data compared with the microbial displacement account",
+        "B": "rejection on the ground that fever as such does not produce remission",
+        "C": "acceptance of its general framework coupled with insistence that its stated mechanism be revised",
+        "D": "skepticism about whether the registry data can test it at all",
+        "E": "neutrality, pending a comparison with the microbial displacement hypothesis"
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "“Unreserved” is contradicted by the “however” that introduces the complication.",
+        "B": "The author says the hypothesis “survives,” albeit in modified form; it is not rejected.",
+        "C": "Correct. The data are “broadly consistent with immune reset,” yet the hypothesis stands “only in a form that specifies a trigger it did not originally name.”",
+        "D": "The author uses the registry to compare the predictions and draws conclusions from it.",
+        "E": "The comparison has been made, and the author takes a position."
+      },
+      "trapPatterns": { "A": "extreme", "B": "half_right", "D": "out_of_scope", "E": "wrong_force" },
+      "keyTakeaway": "Attitude keys that say “accept X but revise Y” match passages that favor a view and then qualify it; B tempts by treating the qualification as refutation.",
+      "evidence": [3]
+    }
+  ]
+}

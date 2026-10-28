@@ -19,7 +19,7 @@
     ],
     "tone": "confident advocacy with measured concession"
   },
-  "lowResSummary": "Author argues the Kelamar basin’s shared evidential system spread by contact rather than inheritance, citing non-cognate forms, distribution, and semantic detail.",
+  "lowResSummary": "Author argues the Kelamar basin’s shared evidential system spread by contact, not inheritance, citing non-cognate forms, distribution, and semantics.",
   "questions": [
     {
       "id": "rc-linguistics-evidential-contact-q1",
@@ -29,7 +29,7 @@
       "stem": "Which one of the following most accurately expresses the main point of the passage?",
       "choices": {
         "A": "The three-way evidential system of the Kelamar basin languages is better explained as the product of contact-induced diffusion than as an inheritance from a common ancestor.",
-        "B": "Marchetti’s reconstruction of Proto-Kelamaric failed because it assumed that grammatical morphology is the most conservative layer of language.",
+        "B": "Marchetti’s reconstruction of Proto-Kelamaric failed because it rested on the widely held assumption that grammatical morphology is the layer of language most resistant to change.",
         "C": "Because the evidential markers of the Kelamar basin languages are not cognate, those languages cannot descend from a single ancestor.",
         "D": "Linguists should treat the geographic concentration of a grammatical feature at trade centers as proof that the feature was borrowed.",
         "E": "The Kelamar basin languages show that obligatory grammatical categories are the features of language most readily transmitted through contact."
@@ -53,7 +53,7 @@
       "difficulty": 1,
       "stem": "According to the passage, the evidential markers found in the languages of the Kelamar basin",
       "choices": {
-        "A": "are attached only to verbs describing events the speaker witnessed directly",
+        "A": "are attached only to finite verbs that describe events the speaker has witnessed directly rather than inferred or heard about",
         "B": "descend in every case from verbs of perception",
         "C": "were first documented by Marchetti in the 1960s",
         "D": "are optional in the dialects spoken at the basin’s margins",
@@ -155,7 +155,7 @@
       "choices": {
         "A": "Archaic poetic registers of the coastal Oru languages and the highland Vandi dialects preserve obligatory markers for witness, inference, and report, the inferential marker also expressing surprise.",
         "B": "Several languages outside the Kelamar basin have developed evidential markers from verbs meaning “to see tracks.”",
-        "C": "Trade at the Tessu confluence declined sharply two centuries before the earliest written records of the basin languages.",
+        "C": "Trade at the Tessu confluence, where the region’s three routes met, declined sharply at least two centuries before the earliest surviving written records of any of the basin languages were made.",
         "D": "The Tessu, Oru-Kelamar, and Vandi families have been shown to share a small number of cognate kinship terms.",
         "E": "Some speakers at the basin’s margins use the inferential marker inconsistently in casual speech."
       },

@@ -31,7 +31,7 @@
         "A": "The reciprocity premium is best explained as the risk differential created by community sanctions that moneylenders cannot impose.",
         "B": "Hallberg’s study of the Tamarind Valley shows that neither Dessaix nor Olumide has offered a tenable account of informal lending.",
         "C": "The two leading explanations of the reciprocity premium each capture a different aspect of the phenomenon, though the reciprocity view is the more important contribution.",
-        "D": "Because loans among association members belong to a system of generalized exchange, economists should abandon the standard model of the lender.",
+        "D": "Because loans among association members belong to a system of generalized exchange rather than a market, economists should abandon the standard model of the lender as a maximizer of expected return.",
         "E": "Economists have overlooked the most detailed evidence available on informal credit associations and should revise their models accordingly."
       },
       "answer": "C",
@@ -107,7 +107,7 @@
         "B": "illustrate a kind of sanction available to an association but not to a moneylender",
         "C": "show that Dessaix’s account neglects the role of kinship in informal lending",
         "D": "explain why members with poor repayment histories continue to receive loans",
-        "E": "provide an example of the many currencies in which an obligation may be discharged"
+        "E": "provide an example of the many different currencies in which an obligation incurred within the group may be discharged"
       },
       "answer": "B",
       "explanations": {
@@ -155,7 +155,7 @@
       "choices": {
         "A": "In the Tamarind Valley, associations with the largest pools of capital charged the lowest average rates to their members.",
         "B": "Within each Tamarind Valley village, the kinship distance between a borrower and the other members closely predicts the severity of the sanctions that borrower would face upon default.",
-        "C": "Hallberg found that professional moneylenders in the Tamarind Valley also charged lower rates to borrowers who were their close kin.",
+        "C": "Hallberg found that professional moneylenders in the Tamarind Valley, who face no community sanctions, also charged lower rates to borrowers who were their close kin than to unrelated borrowers.",
         "D": "Some Tamarind Valley villages with severe community sanctions had associations that charged rates close to those of moneylenders.",
         "E": "Members of Tamarind Valley associations rarely described their loans to one another using the language of risk or default."
       },

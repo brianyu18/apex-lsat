@@ -17,6 +17,9 @@ async function answerAndSubmitSection(page: Page, answer: number) {
     await choices.getByRole("button", { name: /^A\b/ }).first().click();
     await page.getByRole("button", { name: /^next/i }).click();
   }
+  // Submit lives on the last question: jump there via the navigator.
+  const nav = page.getByRole("list", { name: "Question navigator" }).getByRole("button");
+  await nav.last().click();
   page.once("dialog", (d) => d.accept());
   await page.getByRole("button", { name: /submit section/i }).click();
 }
@@ -75,7 +78,8 @@ test("Full practice test: 4 sections with break, BR, final scaled score", async 
   await page.getByRole("button", { name: /extra lr/i }).click();
   await page.getByRole("button", { name: /begin test/i }).click();
   for (let s = 1; s <= 4; s++) {
-    await page.getByRole("button", { name: new RegExp(`start section ${s}`, "i") }).click();
+    // After the break, section 3 starts directly (no intro card), like the real test.
+    if (s !== 3) await page.getByRole("button", { name: new RegExp(`start section ${s}`, "i") }).click();
     await answerAndSubmitSection(page, 3);
     if (s === 2) {
       await expect(page.getByTestId("break-timer")).toBeVisible({ timeout: 30_000 });

@@ -129,9 +129,17 @@ export function RcDrillSession() {
 
   async function finish() {
     if (sessionId) await fetch("/api/drill/session", { method: "PATCH", headers: { "content-type": "application/json" }, body: JSON.stringify({ sessionId }) });
+    // A passage ended early still counts: roll its answered questions into the session totals.
+    let results = allResults;
+    if (passage && (phase === "question" || phase === "reading") && passageResults.length && !allResults.some((r) => r.passageId === passage.id)) {
+      const correct = passageResults.filter((r) => r.correct).length;
+      const questionSeconds = passageResults.reduce((a, r) => a + r.seconds, 0);
+      results = [...allResults, { passageId: passage.id, title: `${passage.title} (partial)`, correct, total: passageResults.length, passageSeconds, questionSeconds }];
+      setAllResults(results);
+    }
     if (lessonId) {
-      const score = allResults.reduce((a, r) => a + r.correct, 0);
-      const total = allResults.reduce((a, r) => a + r.total, 0);
+      const score = results.reduce((a, r) => a + r.correct, 0);
+      const total = results.reduce((a, r) => a + r.total, 0);
       await fetch("/api/lessons/progress", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ lessonId, score, total, threshold: 0.8 }) });
     }
     setPhase("done");

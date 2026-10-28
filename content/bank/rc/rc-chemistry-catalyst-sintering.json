@@ -1,0 +1,200 @@
+{
+  "id": "rc-chemistry-catalyst-sintering",
+  "style": "problem_analysis",
+  "topic": "natural_science",
+  "comparative": false,
+  "title": "Keeping Catalyst Particles Small",
+  "paragraphs": [
+    "Most industrial catalysts consist of metal particles only a few nanometers across dispersed over a porous oxide support, an arrangement that exposes a large fraction of the costly metal’s atoms at surfaces where reactions can occur. The arrangement is also unstable. At the temperatures many reactions require, small particles grow into larger ones, the exposed surface shrinks, and the catalyst loses activity, a process known as sintering that is the leading cause of catalyst replacement in refineries. Sintering proceeds by two distinct routes. In particle migration, whole particles diffuse across the support and merge on contact. In ripening, individual atoms or small volatile metal–oxygen species detach from small particles, whose atoms are weakly bound, and attach to large ones, whose atoms are more strongly bound, so that large particles grow at the expense of small ones without any particle moving at all.",
+    "Three strategies have been pursued against sintering, each addressing the problem at a different point. The oldest alloys the active metal with a second metal of higher melting point, reasoning that stronger metallic bonding will slow both the detachment of atoms and the mobility of particles. Alloying does retard sintering, but the second metal dilutes or alters the active surface, and in many reactions the stabilized catalyst is less active from the outset than the one it was meant to preserve. A second strategy encapsulates each particle in a thin porous shell of oxide, which prevents particles from touching. Encapsulation suppresses migration almost completely, but it is largely ineffective against ripening, since the volatile species responsible pass through the shell’s pores as readily as the reactants do, and the shell itself slows the transport of reactants to the metal.",
+    "The third strategy, developed most fully by Adaeze Nkemelu, abandons particles altogether and anchors individual metal atoms at defect sites on the support, where the atom’s bonding to the oxide is strong enough that it neither migrates nor detaches. Because every atom is exposed, the dispersion of the metal is as complete as it can be, and because no particle exists, neither sintering route can operate. Nkemelu’s anchored catalysts have retained their activity over thousands of hours at temperatures that destroy conventional preparations within days, and the approach has understandably attracted enthusiasm.",
+    "That enthusiasm should be tempered by two considerations. The number of suitable defect sites on any support is limited, so anchored catalysts carry far less metal per gram than particle catalysts and process correspondingly less material per unit time, a constraint that matters little in a laboratory and a great deal in a refinery. More fundamentally, an isolated atom is not a small piece of a particle. Many reactions require an active site composed of several adjacent metal atoms, on which a molecule can be held at two points while a bond between them is broken; a single anchored atom offers no such ensemble and is inert toward these reactions however stable it may be. Anchoring is therefore not a general cure but a tool suited to the subset of reactions that proceed at single sites, and for the remainder the older, imperfect strategies remain the only ones available."
+  ],
+  "roleMap": {
+    "paragraphs": ["context", "counterpoint", "support", "main_point"],
+    "viewpoints": [
+      { "who": "Proponents of alloying and encapsulation", "position": "Stabilize particles by stronger bonding or physical barriers", "authorAgrees": null },
+      { "who": "Adaeze Nkemelu and enthusiasts of anchoring", "position": "Single anchored atoms eliminate both sintering routes while maximizing dispersion", "authorAgrees": null },
+      { "who": "Author", "position": "Anchoring is powerful but limited by metal loading and by reactions requiring multi-atom sites; no strategy is a general cure", "authorAgrees": true }
+    ],
+    "tone": "measured, tempering enthusiasm"
+  },
+  "lowResSummary": "Author surveys three defenses against catalyst sintering and judges single-atom anchoring promising but restricted to reactions that need only isolated sites.",
+  "questions": [
+    {
+      "id": "rc-chemistry-catalyst-sintering-q1",
+      "type": "main_point",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately expresses the main point of the passage?",
+      "choices": {
+        "A": "Although anchoring single atoms eliminates sintering, limits on metal loading and on the kinds of reactions isolated atoms can catalyze mean it cannot replace older strategies for every reaction.",
+        "B": "Sintering proceeds by two routes, migration and ripening, and any effective strategy against it must block both.",
+        "C": "Nkemelu’s anchored catalysts have proven far more durable than alloyed or encapsulated ones and should be adopted wherever possible.",
+        "D": "Alloying and encapsulation have failed because each addresses only one of the two routes by which catalyst particles sinter.",
+        "E": "The enthusiasm surrounding single-atom catalysts is unjustified because the limited number of defect sites on any support means they process far too little material to be useful outside the laboratory."
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. Paragraph 4: anchoring “is therefore not a general cure but a tool suited to the subset of reactions that proceed at single sites.”",
+        "B": "This is the framing of paragraph 1; and alloying is said to slow both routes, so the passage does not make blocking both the criterion.",
+        "C": "“Wherever possible” ignores the author’s central qualification about reactions needing multi-atom ensembles.",
+        "D": "Alloying addresses both routes; its problem is reduced activity. D misdescribes the assessment.",
+        "E": "“Unjustified” is too strong; the author says enthusiasm “should be tempered,” and the loading limit is only one of two considerations."
+      },
+      "trapPatterns": { "B": "wrong_part", "C": "extreme", "D": "half_right", "E": "extreme" },
+      "keyTakeaway": "Problem→analysis main points state the author’s assessment of the solutions, including the scope limit on the favored one.",
+      "evidence": [3]
+    },
+    {
+      "id": "rc-chemistry-catalyst-sintering-q2",
+      "type": "stated",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "According to the passage, encapsulating catalyst particles in porous oxide shells is largely ineffective against ripening because",
+      "choices": {
+        "A": "the shells crack at the temperatures many reactions require",
+        "B": "encapsulated particles continue to migrate across the support",
+        "C": "the second metal in the shell alters the active surface",
+        "D": "the volatile species that drive ripening pass through the shell’s pores",
+        "E": "the shells reduce the number of defect sites on the support that are available for anchoring atoms"
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "No cracking is mentioned.",
+        "B": "Opposite: encapsulation “suppresses migration almost completely.”",
+        "C": "The second metal belongs to the alloying strategy, not encapsulation.",
+        "D": "Correct. Paragraph 2: “the volatile species responsible pass through the shell’s pores as readily as the reactants do.”",
+        "E": "Defect sites are relevant to anchoring in paragraphs 3–4, not to the assessment of encapsulation."
+      },
+      "trapPatterns": { "A": "out_of_scope", "B": "opposite", "C": "shell_game", "E": "wrong_part" },
+      "keyTakeaway": "Each strategy’s weakness is stated in the sentence after it is introduced; traps borrow weaknesses from the other strategies.",
+      "evidence": [1]
+    },
+    {
+      "id": "rc-chemistry-catalyst-sintering-q3",
+      "type": "purpose_in_context",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The author mentions that many reactions require a molecule to be held at two points while a bond between them is broken primarily in order to",
+      "choices": {
+        "A": "explain why alloying with a second metal reduces catalytic activity",
+        "B": "illustrate the mechanism by which ripening transfers atoms between particles",
+        "C": "show that encapsulating shells slow the transport of reactants to the metal",
+        "D": "describe the kind of reaction for which anchored single atoms are best suited",
+        "E": "explain why an isolated anchored atom is inert toward certain reactions"
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "Alloying’s activity loss is attributed to dilution or alteration of the surface, not to site geometry.",
+        "B": "Ripening is described in paragraph 1 in terms of atom detachment, unrelated to two-point binding.",
+        "C": "Transport limitation is a separate point about shells in paragraph 2.",
+        "D": "Reversed. Two-point binding describes reactions anchored atoms cannot catalyze; the suited reactions are those that “proceed at single sites.”",
+        "E": "Correct. The sentence continues: “a single anchored atom offers no such ensemble and is inert toward these reactions however stable it may be.”"
+      },
+      "trapPatterns": { "A": "wrong_part", "B": "wrong_part", "C": "wrong_part", "D": "reversal" },
+      "keyTakeaway": "A mechanism described in the “more fundamentally” sentence of an assessment paragraph exists to justify the limitation that follows.",
+      "evidence": [3]
+    },
+    {
+      "id": "rc-chemistry-catalyst-sintering-q4",
+      "type": "author_perspective",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "It can be inferred from the passage that the author would be most likely to agree with which one of the following?",
+      "choices": {
+        "A": "A strategy that prevented particle migration would suffice to stop sintering in most industrial catalysts.",
+        "B": "Alloyed catalysts are preferable to encapsulated ones for reactions in which ripening is the dominant sintering route.",
+        "C": "A reaction that proceeds readily on anchored single atoms is unlikely to require an active site of several adjacent metal atoms.",
+        "D": "Nkemelu’s durability results were obtained under conditions that do not occur in refineries.",
+        "E": "Catalysts with larger metal particles are generally more active than those with smaller ones."
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "Ripening occurs “without any particle moving at all,” so blocking migration leaves one route open; the author’s treatment of encapsulation makes this explicit.",
+        "B": "Tempting, since encapsulation fails against ripening while alloying slows it, but the author also notes alloying often lowers activity from the outset; no preference between the two is stated for any case.",
+        "C": "Correct. Paragraph 4 says reactions requiring multi-atom ensembles find single atoms “inert”; a reaction that proceeds readily on single atoms therefore is not such a reaction.",
+        "D": "The passage says the temperatures used “destroy conventional preparations within days,” implying they are realistic; the refinery concern is throughput, not conditions.",
+        "E": "Opposite: small particles expose more atoms at surfaces, which is the point of dispersion in paragraph 1."
+      },
+      "trapPatterns": { "A": "half_right", "B": "wrong_force", "D": "shell_game", "E": "opposite" },
+      "keyTakeaway": "The key is the contrapositive of a claim the author states (multi-atom requirement → inert on single atoms); B overreads a comparison the author never makes.",
+      "evidence": [0, 1, 3]
+    },
+    {
+      "id": "rc-chemistry-catalyst-sintering-q5",
+      "type": "application",
+      "logicTags": [],
+      "difficulty": 4,
+      "stem": "The author would most likely recommend an anchored single-atom catalyst over a particle catalyst for which one of the following applications?",
+      "choices": {
+        "A": "A refinery process that must convert very large volumes of feedstock and whose key step breaks a bond by binding the molecule at two adjacent metal atoms",
+        "B": "A small-scale process operating at high temperature in which the reaction proceeds at a single metal site and conventional catalysts sinter within days",
+        "C": "A low-temperature process in which sintering is negligible and the active site consists of several adjacent metal atoms",
+        "D": "An emission-control system whose catalyst must process a high flow of exhaust gas and whose reaction requires a multi-atom ensemble",
+        "E": "A process in which the catalyst is already encapsulated and the dominant sintering route is particle migration"
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "Both of the author’s reservations apply: high throughput is penalized by low loading, and a two-point binding step is inert on single atoms.",
+        "B": "Correct. Small scale neutralizes the loading constraint (“matters little in a laboratory”), the single-site mechanism avoids the ensemble problem, and high temperature with rapid sintering is exactly where anchoring’s durability pays.",
+        "C": "Anchoring solves sintering, which here is negligible, and the multi-atom site makes single atoms inert; there is no reason to prefer anchoring.",
+        "D": "High flow and a multi-atom requirement are the two conditions the author identifies as disqualifying.",
+        "E": "If migration is the dominant route and encapsulation already suppresses it, the existing catalyst addresses the problem; nothing indicates a single-site reaction."
+      },
+      "trapPatterns": { "A": "opposite", "C": "out_of_scope", "D": "opposite", "E": "true_but_irrelevant" },
+      "keyTakeaway": "Application keys satisfy every condition the author states for the favored solution and avoid every stated limitation; build the checklist from the assessment paragraph.",
+      "evidence": [2, 3]
+    },
+    {
+      "id": "rc-chemistry-catalyst-sintering-q6",
+      "type": "meaning_in_context",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately expresses the meaning of “dispersion” as it is used in the passage?",
+      "choices": {
+        "A": "the distance between neighboring metal particles on a support",
+        "B": "the rate at which metal atoms migrate across a support",
+        "C": "the uniformity with which metal particles are distributed across the surface of a porous support",
+        "D": "the fraction of a metal’s atoms exposed at surfaces where reactions can occur",
+        "E": "the extent to which a metal is diluted by alloying with a second metal"
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "Spacing is not what is at issue; paragraph 1 defines the benefit of dispersion in terms of exposed atoms.",
+        "B": "Migration is a sintering mechanism, not dispersion.",
+        "C": "Uniformity of spatial distribution is a plausible everyday sense, but the passage ties dispersion to exposure: anchored atoms achieve complete dispersion “because every atom is exposed.”",
+        "D": "Correct. Paragraph 1 links the arrangement to exposing “a large fraction of the costly metal’s atoms at surfaces,” and paragraph 3 says dispersion is complete when every atom is exposed.",
+        "E": "Dilution by a second metal is the drawback of alloying, unrelated to dispersion."
+      },
+      "trapPatterns": { "A": "out_of_scope", "B": "shell_game", "C": "shell_game", "E": "wrong_part" },
+      "keyTakeaway": "Technical terms get their passage-specific meaning from the sentence that explains their benefit; C is the everyday-sense trap.",
+      "evidence": [0, 2]
+    },
+    {
+      "id": "rc-chemistry-catalyst-sintering-q7",
+      "type": "stated",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The passage states that, in the ripening route of sintering, large particles grow at the expense of small ones because",
+      "choices": {
+        "A": "large particles diffuse across the support more slowly than small ones",
+        "B": "small particles are more likely to be encapsulated by the oxide support",
+        "C": "the defect sites that bind small particles are exhausted at high temperature",
+        "D": "small particles merge on contact with large ones",
+        "E": "atoms in small particles are more weakly bound than atoms in large ones"
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "Diffusion of whole particles belongs to the migration route, and no comparison of diffusion rates is made.",
+        "B": "Encapsulation is a deliberate strategy, not a feature of ripening.",
+        "C": "Defect sites are discussed only in connection with anchoring.",
+        "D": "Merging on contact is the migration route; ripening occurs “without any particle moving at all.”",
+        "E": "Correct. Paragraph 1: species “detach from small particles, whose atoms are weakly bound, and attach to large ones, whose atoms are more strongly bound.”"
+      },
+      "trapPatterns": { "A": "wrong_part", "B": "out_of_scope", "C": "wrong_part", "D": "shell_game" },
+      "keyTakeaway": "When a passage defines two mechanisms side by side, stated questions test whether you kept their features separate.",
+      "evidence": [0]
+    }
+  ]
+}

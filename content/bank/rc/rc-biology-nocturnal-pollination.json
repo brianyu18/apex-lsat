@@ -7,7 +7,7 @@
   "paragraphs": [
     "Field studies of pollination have, for most of their history, been conducted by people who sleep at night, and the consequences for our understanding of which animals actually fertilize flowering plants have been larger than is generally acknowledged. The standard method for ranking a plant’s pollinators is to record visitation: an observer sits beside a patch of flowers, counts the arrivals of each kind of visitor, and infers that the most frequent visitor is the most important. By this measure the thornbush Callistria dumosa, a shrub of the Serrania foothills, is pollinated chiefly by two species of solitary bee that account for more than eighty percent of recorded visits. I want to argue that this conclusion is an artifact of method, and that the plant’s reproduction depends principally on a moth that almost no one has counted.",
     "Visitation frequency is a defensible proxy for pollination only if visits are roughly equal in what they accomplish, and in Callistria they are not. A visit contributes to reproduction to the extent that it deposits viable pollen from a genetically different individual onto a receptive stigma. Bees foraging on Callistria move between neighboring flowers on the same shrub, so that most of the pollen they carry is the plant’s own, which the species’ self-incompatibility system rejects. The hawkmoth Agrius serranicus, which visits after dusk, feeds at a single flower per shrub and then flies tens or hundreds of meters before feeding again, carrying outcross pollen on a proboscis that contacts the stigma on every insertion. A single moth visit may therefore be worth many bee visits, and the question is whether the moth’s rarity outweighs its efficiency.",
-    "The exclusion experiments conducted by Delphine Rourke answer that question directly. Rourke covered flowers with fine mesh during the day only, during the night only, or not at all, and measured seed set and, using genetic markers, the proportion of seeds sired by pollen from other shrubs. Flowers open only at night set sixty-eight percent as many seeds as unbagged flowers; flowers open only by day set forty-one percent. The disparity in outcrossing was starker still: night-only seeds were almost entirely outcrossed, while nearly half the day-only seeds were sired by near neighbors, which in this species means reduced germination and vigor. The animal responsible for the majority of the plant’s effective reproduction, in other words, is the one that appears in fewer than one visit in ten.",
+    "The exclusion experiments conducted by Delphine Rourke answer that question directly. Rourke covered flowers with fine mesh during the day only, during the night only, or not at all, and measured seed set and, using genetic markers, the proportion of seeds sired by pollen from other shrubs. Flowers open only at night set sixty-eight percent as many seeds as unbagged flowers; flowers open only by day set forty-one percent. The disparity in outcrossing was starker still: night-only seeds were almost entirely outcrossed, while nearly half the day-only seeds were sired by near neighbors, which in this species means reduced germination and vigor. The animal responsible for most of the plant’s effective reproduction, in other words, is the one that appears in fewer than one visit in ten.",
     "Defenders of the visitation method, among them Alastair Whitcombe, reply that bees’ sheer numbers must compensate for their inefficiency, and that Rourke’s single-season results may reflect an unusually poor year for bees. The first reply is not an argument but a restatement of the assumption at issue, and Rourke’s data are the test of it. The second deserves a longer study, which is under way. But even a result confined to one season should unsettle a method that has never been validated against outcomes for the great majority of the plants to which it has been applied. What an observer sees at noon is a record of who was present; it is not, without more, a record of who mattered."
   ],
   "roleMap": {
@@ -28,7 +28,7 @@
       "difficulty": 2,
       "stem": "Which one of the following most accurately expresses the main point of the passage?",
       "choices": {
-        "A": "Rourke’s exclusion experiments prove that solitary bees make no meaningful contribution to the reproduction of Callistria dumosa.",
+        "A": "Rourke’s exclusion experiments prove that the solitary bees that dominate daytime visitation in the Serrania foothills make no meaningful contribution to the reproduction of Callistria dumosa.",
         "B": "Because visitation frequency ignores what visits accomplish, it has misidentified Callistria’s principal pollinator, which exclusion data show to be a nocturnal moth.",
         "C": "Pollination biologists should abandon daytime observation in favor of genetic analysis of seed paternity.",
         "D": "The hawkmoth Agrius serranicus is a more efficient pollinator than solitary bees because it flies long distances between flowers.",
@@ -79,7 +79,7 @@
       "stem": "The author mentions the self-incompatibility system of Callistria dumosa primarily in order to",
       "choices": {
         "A": "explain why the plant depends on animal pollinators rather than wind",
-        "B": "suggest that the plant evolved its nocturnal flowering in response to moths",
+        "B": "suggest that the plant evolved its pattern of nocturnal nectar production in response to selection by hawkmoths",
         "C": "account for the reduced germination of seeds sired by near neighbors",
         "D": "explain why pollen moved between flowers on the same shrub contributes little to reproduction",
         "E": "show that bees are physically incapable of contacting the stigma"
@@ -106,7 +106,7 @@
         "A": "Nocturnal pollinators are the principal pollinators of most plants that have been studied by visitation counts.",
         "B": "Rourke’s experiment would have been more convincing had it measured visitation as well as seed set.",
         "C": "Whitcombe is correct that bees’ numbers compensate for the inefficiency of their individual visits.",
-        "D": "The sum of night-only and day-only seed set exceeding one hundred percent shows that Rourke’s measurements were unreliable.",
+        "D": "The fact that night-only and day-only seed set together exceed one hundred percent of the unbagged total shows that Rourke’s measurements were unreliable.",
         "E": "The visitation method could be sound for a plant whose visitors deposited roughly similar amounts of outcross pollen per visit."
       },
       "answer": "E",
@@ -128,7 +128,7 @@
       "difficulty": 3,
       "stem": "Which one of the following, if true, would most weaken the author’s conclusion about Callistria’s principal pollinator?",
       "choices": {
-        "A": "Agrius serranicus also visits several other plant species in the Serrania foothills during the same season.",
+        "A": "Agrius serranicus also visits several other plant species in the Serrania foothills during the same season, including some that flower at the same time as Callistria.",
         "B": "Solitary bees in the Serrania foothills are most active in the two hours after sunrise.",
         "C": "In Rourke’s study, the mesh used for daytime bagging also prevented pollination by a wind-borne component that occurs only in daylight hours.",
         "D": "Callistria flowers remain receptive to pollen for three days after opening.",

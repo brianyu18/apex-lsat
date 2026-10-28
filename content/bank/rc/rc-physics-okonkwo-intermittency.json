@@ -1,0 +1,176 @@
+{
+  "id": "rc-physics-okonkwo-intermittency",
+  "style": "spotlight",
+  "topic": "natural_science",
+  "comparative": false,
+  "title": "Ifeoma Okonkwo and the Geometry of Dissipation",
+  "paragraphs": [
+    "The theory of turbulence that dominated the mid-twentieth century, associated above all with Halvard Brekke, described a turbulent flow as a cascade: energy injected at large scales is handed down through progressively smaller eddies until, at the smallest scales, viscosity converts it to heat. Brekke’s great simplification was to assume that this final conversion, the dissipation, occurs uniformly throughout the fluid, so that every region of a turbulent flow is statistically like every other. From that assumption he derived scaling laws relating the energy at each eddy size to the size itself, and the laws matched experiment well enough that the uniformity assumption was rarely examined. It was in this setting that Ifeoma Okonkwo, working at a small aeronautical institute with equipment of her own design, reported in 1958 that dissipation was not uniform at all.",
+    "Okonkwo’s hot-wire probes, inserted into a wind-tunnel flow, recorded the dissipation rate at a single point over time, and the records were not the gentle fluctuations around a mean that uniformity implied. They were long stretches of near quiescence punctuated by brief, violent bursts in which the local dissipation exceeded the average by factors of hundreds. Okonkwo inferred that dissipation was concentrated in a sparse, filamentary structure threading the flow, and that the fraction of the fluid’s volume it occupied shrank as the scale of observation shrank. She proposed a model in which the energy passed to each smaller eddy is multiplied by a random factor, so that a few lineages of eddies receive nearly all of it, and derived corrections to Brekke’s scaling laws that grew larger at the smallest scales.",
+    "The work was received with something between indifference and suspicion, for two reasons that deserve to be distinguished. The first was instrumental: hot-wire probes were known to be sensitive to temperature drift and vibration, and several reviewers attributed Okonkwo’s bursts to artifacts of a home-built apparatus. The second was theoretical: her multiplicative model contained a random factor whose distribution she could not derive from the equations of fluid motion and had to specify by hand, which to a generation trained on Brekke’s deductive style looked less like physics than like curve fitting. That the model reproduced her data was, on this view, unsurprising, since the data had been used to tune it.",
+    "Direct numerical simulation of the equations of motion, impossible in Okonkwo’s lifetime, has since made the structure of dissipation visible, and it is filamentary, sparse, and increasingly so at small scales, exactly as she described. Her measured corrections to Brekke’s laws agree with simulated values to within the uncertainties of both. It would be a mistake, however, to let this vindication extend to everything she wrote. Her specific multiplicative model predicts corrections that diverge from the simulated values at the highest orders, and later models that preserve her insight while replacing her random factor do considerably better. What has endured is not Okonkwo’s answer but her question: she was the first to treat the location of dissipation as a geometric fact to be measured rather than a statistical convenience to be assumed, and the field has been pursuing that question ever since."
+  ],
+  "roleMap": {
+    "paragraphs": ["context", "support", "counterpoint", "main_point"],
+    "viewpoints": [
+      { "who": "Halvard Brekke and mid-century turbulence theory", "position": "Dissipation is uniform throughout a turbulent flow; scaling laws follow from self-similar cascade", "authorAgrees": false },
+      { "who": "Okonkwo’s reviewers", "position": "Her bursts were instrumental artifacts and her model was curve fitting rather than physics", "authorAgrees": false },
+      { "who": "Ifeoma Okonkwo", "position": "Dissipation is concentrated in sparse filaments; a multiplicative cascade model corrects Brekke’s laws", "authorAgrees": null },
+      { "who": "Author", "position": "Okonkwo’s observations and reframing are vindicated, but her specific model is not; her lasting contribution is the question", "authorAgrees": true }
+    ],
+    "tone": "admiring but deliberately unhagiographic"
+  },
+  "lowResSummary": "Author reassesses Okonkwo’s neglected finding that dissipation is filamentary, crediting her reframing while denying her specific model was correct.",
+  "questions": [
+    {
+      "id": "rc-physics-okonkwo-intermittency-q1",
+      "type": "main_point",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately expresses the main point of the passage?",
+      "choices": {
+        "A": "Okonkwo’s multiplicative model of the turbulent cascade, in which a random factor concentrates energy in a few lineages of eddies, has been confirmed in every particular by direct numerical simulation after decades of unjust neglect.",
+        "B": "Brekke’s scaling laws were accepted for too long because the uniformity assumption on which they rested was never tested experimentally.",
+        "C": "Okonkwo’s observation that dissipation is concentrated in sparse filaments, dismissed in her time, has been vindicated, though her particular model has not, and her lasting contribution is a reframing of the problem.",
+        "D": "The rejection of Okonkwo’s work illustrates how distrust of home-built instruments can delay the acceptance of correct results.",
+        "E": "Later models that replace Okonkwo’s random factor have superseded her work and rendered her contribution largely historical."
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "The author explicitly denies that the specific model is confirmed: it “predicts corrections that diverge… at the highest orders.”",
+        "B": "This describes the setting in paragraph 1, not the passage’s claim about Okonkwo.",
+        "C": "Correct. Paragraph 4: the structure is “exactly as she described,” yet “it would be a mistake… to let this vindication extend to everything she wrote,” and “what has endured is… her question.”",
+        "D": "Instrumental distrust is one of two reasons for rejection in paragraph 3; the passage is a reassessment of her contribution, not a lesson about instruments.",
+        "E": "The author says her question has endured and the field pursues it “ever since”; “largely historical” contradicts this."
+      },
+      "trapPatterns": { "A": "half_right", "B": "wrong_part", "D": "wrong_part", "E": "opposite" },
+      "keyTakeaway": "Spotlight main points often have three parts: what was dismissed, what is vindicated, what is not. A is the trap that vindicates too much.",
+      "evidence": [3]
+    },
+    {
+      "id": "rc-physics-okonkwo-intermittency-q2",
+      "type": "stated",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "According to the passage, Okonkwo’s reviewers regarded her multiplicative model as resembling curve fitting because",
+      "choices": {
+        "A": "it predicted corrections that diverged from measured values at high orders",
+        "B": "the distribution of its random factor was specified from data rather than derived from the equations of motion",
+        "C": "it was based entirely on measurements from home-built hot-wire probes known to be sensitive to temperature drift and vibration",
+        "D": "it contradicted scaling laws that had matched experiment well",
+        "E": "its author worked at a small aeronautical institute rather than a major laboratory"
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "The high-order divergence is the author’s modern criticism in paragraph 4, not the reviewers’ complaint.",
+        "B": "Correct. Paragraph 3: the random factor’s distribution “she could not derive from the equations of fluid motion and had to specify by hand.”",
+        "C": "The probe concern was the instrumental objection, which the author says “deserve[s] to be distinguished” from the theoretical one.",
+        "D": "Conflict with Brekke’s laws is not given as the reason for the curve-fitting charge.",
+        "E": "Her institutional setting is mentioned in paragraph 1 but is not cited as a reason for the theoretical objection."
+      },
+      "trapPatterns": { "A": "wrong_part", "C": "wrong_part", "D": "out_of_scope", "E": "out_of_scope" },
+      "keyTakeaway": "When the author distinguishes two objections, a stated question will ask about one; do not import the other.",
+      "evidence": [2]
+    },
+    {
+      "id": "rc-physics-okonkwo-intermittency-q3",
+      "type": "purpose_in_context",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The author mentions that direct numerical simulation was impossible in Okonkwo’s lifetime primarily in order to",
+      "choices": {
+        "A": "excuse the reviewers who attributed her results to instrumental artifacts",
+        "B": "suggest that her hot-wire measurements were less reliable than simulations",
+        "C": "explain why her multiplicative model required a random factor specified by hand",
+        "D": "indicate why the structure of dissipation she inferred could not be directly confirmed until recently",
+        "E": "argue that experimental methods in turbulence research have now been largely superseded by computational ones"
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "The author does not excuse the reviewers; the remark concerns when confirmation became possible, not whether the reviewers were reasonable.",
+        "B": "The author says the measurements agree with simulation “to within the uncertainties of both,” treating them as comparable.",
+        "C": "The random factor’s hand-specification is explained by the inability to derive it from the equations, not by the absence of simulation.",
+        "D": "Correct. The clause introduces the sentence in which simulation “has since made the structure of dissipation visible,” accounting for the gap between her inference and its confirmation.",
+        "E": "No claim about superseding experiment is made."
+      },
+      "trapPatterns": { "A": "out_of_scope", "B": "comparison_shift", "C": "shell_game", "E": "extreme" },
+      "keyTakeaway": "A parenthetical about timing (“impossible in her lifetime”) usually explains a delay the passage’s narrative needs to account for.",
+      "evidence": [3]
+    },
+    {
+      "id": "rc-physics-okonkwo-intermittency-q4",
+      "type": "author_attitude",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The author’s attitude toward Okonkwo’s specific multiplicative model can most accurately be described as",
+      "choices": {
+        "A": "respectful acknowledgment of its insight combined with recognition that it has been bettered",
+        "B": "agreement with her reviewers that it amounted to curve fitting",
+        "C": "conviction that it is correct in every respect that direct numerical simulation has been able to test",
+        "D": "regret that later researchers abandoned it prematurely",
+        "E": "indifference, since the model is irrelevant to her lasting contribution"
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. Later models “preserve her insight while replacing her random factor” and “do considerably better”; the author credits the insight and notes the improvement.",
+        "B": "The author reports the reviewers’ charge without endorsing it, and credits the model with a genuine insight.",
+        "C": "The author says the model’s high-order predictions “diverge from the simulated values.”",
+        "D": "The author approves of the later models rather than regretting the replacement.",
+        "E": "The author discusses the model’s fate at length and ties later work to its insight; this is engagement, not indifference."
+      },
+      "trapPatterns": { "B": "wrong_part", "C": "extreme", "D": "opposite", "E": "wrong_force" },
+      "keyTakeaway": "Attitude toward a component (the model) can differ from attitude toward the person; read the sentences about that component only.",
+      "evidence": [3]
+    },
+    {
+      "id": "rc-physics-okonkwo-intermittency-q5",
+      "type": "author_perspective",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "It can be inferred from the passage that the author would be most likely to agree with which one of the following?",
+      "choices": {
+        "A": "Brekke’s scaling laws should have been rejected as soon as Okonkwo published her measurements.",
+        "B": "The agreement between a model and the data used to construct it is strong evidence that the model is correct.",
+        "C": "Okonkwo’s bursts were in fact partly produced by vibration in her apparatus.",
+        "D": "The filamentary structure of dissipation implies that Brekke’s cascade picture must be abandoned entirely.",
+        "E": "A scientist’s reconception of what kind of fact a quantity is can outlast the particular theory in which the reconception was first expressed."
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "The author notes Brekke’s laws “matched experiment well enough” and treats Okonkwo’s corrections as refinements; immediate rejection is not suggested.",
+        "B": "The author reports, apparently with some sympathy, the reviewers’ point that fitting one’s own data is “unsurprising”; and in paragraph 4 the author judges the model by independent simulation, not by its fit.",
+        "C": "The author says simulation shows dissipation “exactly as she described,” which vindicates the bursts as real.",
+        "D": "The corrections are to Brekke’s laws, not a replacement of the cascade; “abandoned entirely” overreaches.",
+        "E": "Correct. The final sentences: her model has been replaced, but her treatment of “the location of dissipation as a geometric fact to be measured rather than a statistical convenience to be assumed” endures."
+      },
+      "trapPatterns": { "A": "extreme", "B": "opposite", "C": "opposite", "D": "extreme" },
+      "keyTakeaway": "Spotlight passages often end with a distinction between answer and question; the inference key generalizes that distinction.",
+      "evidence": [3]
+    },
+    {
+      "id": "rc-physics-okonkwo-intermittency-q6",
+      "type": "analogy",
+      "logicTags": ["analogy"],
+      "difficulty": 3,
+      "stem": "As described in the passage, the relationship between Okonkwo’s multiplicative model and the later models that replaced its random factor is most analogous to which one of the following?",
+      "choices": {
+        "A": "A cartographer’s map of a coastline is found to contain errors and is discarded in favor of one drawn from entirely new surveys that owe nothing to the original.",
+        "B": "A physician’s hypothesis that a disease spreads through contaminated water is retained by successors who reject her specific account of the contaminant.",
+        "C": "An architect’s building is demolished, and a different architect designs a new one on the same site.",
+        "D": "A composer’s symphony is performed by later orchestras exactly as written.",
+        "E": "An engineer’s bridge design is adopted unchanged by rivals who had previously criticized it."
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "Discarding in favor of something built from new material loses the continuity the passage stresses: later models “preserve her insight.”",
+        "B": "Correct. The central idea (filamentary, concentrated dissipation) is kept while the specific mechanism (the hand-specified random factor) is replaced, just as the waterborne hypothesis is kept while the account of the contaminant is rejected.",
+        "C": "Demolition and redesign share only a site, not a retained insight.",
+        "D": "Unchanged performance corresponds to full confirmation, which the author denies.",
+        "E": "Adoption “unchanged” contradicts the replacement of the random factor."
+      },
+      "trapPatterns": { "A": "half_right", "C": "shell_game", "D": "opposite", "E": "opposite" },
+      "keyTakeaway": "Analogy keys preserve the structure “core retained, component replaced”; traps collapse it into total rejection or total acceptance.",
+      "evidence": [3]
+    }
+  ]
+}
