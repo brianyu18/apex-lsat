@@ -4,6 +4,9 @@ import { format, parseISO, differenceInCalendarDays } from "date-fns";
 import { getSettings } from "@/lib/data/settings";
 import { getActivePlan, getPlanDays, phaseSignals, registrationStatus } from "@/lib/data/plan";
 import { officialForDay } from "@/lib/data/official";
+import { dateOptions } from "@/lib/data/plan";
+import { INTENSITY_COPY } from "@/lib/planner/intensity";
+import { applyHoursAction, switchTestDateAction } from "./actions";
 import { PHASE_LABELS, type Phase } from "@/lib/planner/generate";
 import { Badge, Card, CardDescription, CardTitle } from "@/components/ui/primitives";
 import { Button } from "@/components/ui/button";
@@ -29,7 +32,8 @@ export default async function PlanPage() {
   const plan = await getActivePlan();
   if (!plan) redirect("/onboarding");
   const today = format(new Date(), "yyyy-MM-dd");
-  const [days, signals, reg, todaysOfficial] = await Promise.all([getPlanDays(plan.id), phaseSignals(), registrationStatus(), officialForDay(today)]);
+  const [days, signals, reg, todaysOfficial, dates] = await Promise.all([getPlanDays(plan.id), phaseSignals(), registrationStatus(), officialForDay(today), dateOptions(today)]);
+  const INT_TONE = { relaxed: "ok", standard: "accent", aggressive: "warn", unrealistic: "bad" } as const;
   const extra = (plan.extraDays ?? {}) as Record<string, number>;
   const regTone = reg.advice.verdict === "register" ? "ok" : reg.advice.verdict === "postpone" ? "bad" : reg.advice.verdict === "keep" ? "warn" : "neutral";
   const todayRow = days.find((d) => d.day === today);
@@ -84,6 +88,87 @@ export default async function PlanPage() {
             </Badge>
           ))}
         </div>
+      </Card>
+
+      {/* Intensity + test-date what-if */}
+      <Card data-testid="intensity-card">
+        <div className="flex flex-wrap items-start justify-between gap-3">
+          <div>
+            <CardTitle>Pace for {dates.current?.admin?.label ?? (plan.provisional ? "a provisional date" : "your date")}</CardTitle>
+            <CardDescription>
+              {dates.estimate.score != null ? `From ${dates.estimate.score} (${dates.estimate.source === "range" ? "your score range" : "your diagnostic"}) to ${dates.goal}` : `No diagnostic yet — modeled from a cold start to ${dates.goal}`}
+              {dates.current ? `: about ${dates.current.pace.hoursNeeded} hours of work over ${dates.current.pace.weeks} weeks.` : "."}
+            </CardDescription>
+          </div>
+          {dates.current && (
+            <Badge tone={INT_TONE[dates.current.pace.label]}>
+              {dates.current.pace.label} · {dates.current.pace.hoursPerWeek} h/week needed
+            </Badge>
+          )}
+        </div>
+        {dates.current && (
+          <div className="mt-3 flex flex-wrap items-center gap-3 text-sm">
+            <p className="text-ink-2">{INTENSITY_COPY[dates.current.pace.label]}</p>
+            {Math.abs(dates.current.pace.hoursPerWeek - dates.hoursPerWeek) >= 1 && (
+              <form action={applyHoursAction}>
+                <input type="hidden" name="hoursPerWeek" value={dates.current.pace.hoursPerWeek} />
+                <Button type="submit" size="sm" variant="outline">
+                  Set {dates.current.pace.hoursPerWeek} h/week (now {dates.hoursPerWeek})
+                </Button>
+              </form>
+            )}
+            {dates.current.pace.expectedGainAtCurrentHours != null && dates.estimate.score != null && (
+              <span className="text-xs text-ink-3">
+                At your current {dates.hoursPerWeek} h/week the model expects ≈ {Math.min(180, dates.estimate.score + dates.current.pace.expectedGainAtCurrentHours)} by test day.
+              </span>
+            )}
+          </div>
+        )}
+        <div className="mt-4 overflow-x-auto">
+          <table className="w-full min-w-[640px] text-sm" data-testid="date-options">
+            <thead className="text-left text-xs text-ink-3">
+              <tr className="border-b border-line">
+                <th className="py-1.5 font-medium">Administration</th>
+                <th className="py-1.5 font-medium">Register by</th>
+                <th className="py-1.5 font-medium">Scores out</th>
+                <th className="py-1.5 font-medium">Weeks</th>
+                <th className="py-1.5 font-medium">Pace</th>
+                <th className="py-1.5" />
+              </tr>
+            </thead>
+            <tbody>
+              {dates.options.map((o) => (
+                <tr key={o.id} className={`border-b border-line last:border-b-0 ${o.selected ? "bg-accent-soft/30" : ""}`}>
+                  <td className="py-1.5 font-medium">
+                    {o.label} <span className="text-xs text-ink-3">{format(parseISO(o.firstDay), "MMM d")}–{format(parseISO(o.lastDay), "d")}</span>
+                  </td>
+                  <td className={`py-1.5 ${o.registrable ? "" : "text-bad"}`}>{format(parseISO(o.registrationDeadline), "MMM d")}{o.registrable ? "" : " · passed"}</td>
+                  <td className="py-1.5 text-ink-2">{format(parseISO(o.scoreRelease), "MMM d")}</td>
+                  <td className="py-1.5 tabular-nums">{o.pace.weeks}</td>
+                  <td className="py-1.5">
+                    <Badge tone={INT_TONE[o.pace.label]}>
+                      {o.pace.label} · {o.pace.hoursPerWeek} h/wk
+                    </Badge>
+                  </td>
+                  <td className="py-1.5 text-right">
+                    {o.selected ? (
+                      <span className="text-xs text-ink-3">current</span>
+                    ) : o.registrable ? (
+                      <form action={switchTestDateAction}>
+                        <input type="hidden" name="testDate" value={o.firstDay} />
+                        <input type="hidden" name="hoursPerWeek" value={o.pace.feasible ? o.pace.hoursPerWeek : ""} />
+                        <button type="submit" className="focus-ring rounded-md border border-line px-2 py-1 text-xs text-ink-2 hover:border-line-strong">
+                          Switch{o.pace.feasible ? ` · ${o.pace.hoursPerWeek} h/wk` : ""}
+                        </button>
+                      </form>
+                    ) : null}
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <p className="mt-2 text-xs text-ink-3">Official dates from LSAC (subject to change; confirm on lsac.org). Pace model: ~10 h per point below 160, 14 in the 160s, 20 at 170+, plus 40 h of foundations from a cold start; the final week is protected, not counted. Switching dates re-plans from today and keeps completed days.</p>
       </Card>
 
       {/* Readiness: exit criteria + registration */}

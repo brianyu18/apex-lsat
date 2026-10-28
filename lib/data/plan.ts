@@ -169,3 +169,25 @@ export async function registrationStatus() {
   const range = scoreRange(tests.filter((t) => t.scaled != null && t.finishedAt).map((t) => ({ scaled: t.scaled!, brScaled: t.brScaled, finishedAt: t.finishedAt! })));
   return { range, advice: registrationAdvice(range, goal, s.testDate), goal, goalSource, testDate: s.testDate };
 }
+
+/* ---------------- test dates & intensity ---------------- */
+
+import { intensityFor } from "@/lib/planner/intensity";
+import { administrationFor, upcomingAdministrations } from "@/lib/planner/lsat-dates";
+
+/** Current ability estimate for intensity: range mean if any full tests, else the diagnostic, else null. */
+export async function abilityEstimate(): Promise<{ score: number | null; source: "range" | "diagnostic" | "none" }> {
+  const reg = await registrationStatus();
+  if (reg.range.mean != null) return { score: Math.round(reg.range.mean), source: "range" };
+  const s = await getSettings();
+  if (s.diagnostic?.scaled) return { score: s.diagnostic.scaled, source: "diagnostic" };
+  return { score: null, source: "none" };
+}
+
+export async function dateOptions(today = format(new Date(), "yyyy-MM-dd")) {
+  const [s, est, reg] = await Promise.all([getSettings(), abilityEstimate(), registrationStatus()]);
+  const goal = reg.goal;
+  const current = s.testDate ? { testDate: s.testDate, admin: administrationFor(s.testDate), pace: intensityFor({ from: est.score, goal, today, testDate: s.testDate, currentHoursPerWeek: s.hoursPerWeek }) } : null;
+  const options = upcomingAdministrations(today).map((a) => ({ ...a, selected: s.testDate != null && s.testDate >= a.firstDay && s.testDate <= a.lastDay, pace: intensityFor({ from: est.score, goal, today, testDate: a.firstDay, currentHoursPerWeek: s.hoursPerWeek }) }));
+  return { current, options, estimate: est, goal, hoursPerWeek: s.hoursPerWeek };
+}

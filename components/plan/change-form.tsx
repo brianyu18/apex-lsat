@@ -3,7 +3,9 @@
 import { useActionState, useState } from "react";
 import { changePlanSettings, type OnboardingState } from "@/app/onboarding/actions";
 import { Button } from "@/components/ui/button";
-import { Dialog, DialogContent, DialogTrigger, Input, Label, Switch } from "@/components/ui/primitives";
+import { Dialog, DialogContent, DialogTrigger, Input, Label, Select, Switch } from "@/components/ui/primitives";
+import { format, parseISO } from "date-fns";
+import { upcomingAdministrations } from "@/lib/planner/lsat-dates";
 
 export function ChangePlanForm({
   testDate,
@@ -18,6 +20,9 @@ export function ChangePlanForm({
 }) {
   const [open, setOpen] = useState(false);
   const [undecided, setUndecided] = useState(provisional);
+  const admins = upcomingAdministrations(new Date().toISOString().slice(0, 10)).filter((a) => a.registrable);
+  const [custom, setCustom] = useState(Boolean(testDate && !provisional && !admins.some((a) => a.firstDay === testDate)));
+  const [date, setDate] = useState(provisional ? (admins[0]?.firstDay ?? "") : (testDate ?? ""));
   const [state, action, pending] = useActionState<OnboardingState, FormData>(async (prev, fd) => {
     const r = await changePlanSettings(prev, fd);
     if (!r?.error) setOpen(false);
@@ -34,7 +39,20 @@ export function ChangePlanForm({
           <p className="text-sm text-ink-2">Days you&apos;ve already completed stay as they are; everything from today is regenerated.</p>
           <div>
             <Label htmlFor="cp-date">Test date</Label>
-            <Input id="cp-date" name="testDate" type="date" defaultValue={provisional ? "" : (testDate ?? "")} disabled={undecided} />
+            {custom ? (
+              <Input id="cp-date" name="testDate" type="date" value={date} onChange={(e) => setDate(e.target.value)} disabled={undecided} />
+            ) : (
+              <Select id="cp-date" name="testDate" value={date} onChange={(e) => setDate(e.target.value)} disabled={undecided}>
+                {admins.map((a) => (
+                  <option key={a.id} value={a.firstDay}>
+                    {a.label} ({format(parseISO(a.firstDay), "MMM d")}–{format(parseISO(a.lastDay), "d")}) · register by {format(parseISO(a.registrationDeadline), "MMM d")}
+                  </option>
+                ))}
+              </Select>
+            )}
+            <button type="button" className="mt-1 text-xs text-accent hover:underline" onClick={() => setCustom((c) => !c)}>
+              {custom ? "Choose an official administration" : "Enter a custom date"}
+            </button>
             <div className="mt-2 flex items-center gap-2">
               <Switch id="cp-undecided" name="undecided" checked={undecided} onCheckedChange={setUndecided} />
               <Label htmlFor="cp-undecided" className="mb-0">

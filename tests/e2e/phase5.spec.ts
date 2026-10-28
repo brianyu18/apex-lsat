@@ -67,3 +67,22 @@ test("schools: standing, odds bands, GPA, targets feed registration goal", async
   await page.goto("/plan");
   await expect(page.getByText(/goal 175\. Rule/)).toBeVisible({ timeout: 30_000 });
 });
+
+test("test dates: official administrations with pace, switch re-plans and keeps the goal", async ({ page }) => {
+  test.setTimeout(120_000);
+  await page.goto("/plan");
+  const card = page.getByTestId("intensity-card");
+  await expect(card).toBeVisible({ timeout: 60_000 });
+  await expect(card.getByText(/h\/week needed/)).toBeVisible();
+  const rows = page.getByTestId("date-options").locator("tbody tr");
+  expect(await rows.count()).toBeGreaterThanOrEqual(3);
+  // a later date must need fewer hours per week than an earlier one
+  const paces = await rows.locator("td:nth-child(5)").allTextContents();
+  const nums = paces.map((t) => Number(t.match(/(\d+(?:\.\d+)?) h\/wk/)![1]));
+  expect(nums[nums.length - 1]).toBeLessThanOrEqual(nums[0]);
+  // switch to the last listed (latest) administration
+  await rows.last().getByRole("button", { name: /^switch/i }).click();
+  await expect(page.getByTestId("date-options").locator("tbody tr").last()).toContainText(/current/, { timeout: 60_000 });
+  await expect(page.getByRole("heading", { name: /Test day/ })).toBeVisible();
+  await expect(card.getByText(/Pace for June 2027/)).toBeVisible();
+});

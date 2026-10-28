@@ -6,12 +6,13 @@ import { Button } from "@/components/ui/button";
 import { Card, CardDescription, CardTitle, Input, Label, Select, Slider, Switch, Badge } from "@/components/ui/primitives";
 import { rawToScaled, percentile } from "@/lib/scoring/tables";
 
-const UPCOMING_TESTS = [
-  { date: "2027-01-13", label: "January 13–16, 2027", deadline: "Dec 1, 2026" },
-  { date: "2027-02-12", label: "February 12–13, 2027", deadline: "Dec 29, 2026" },
-  { date: "2027-04-08", label: "April 8–10, 2027", deadline: "Feb 25, 2027" },
-  { date: "2027-06-09", label: "June 9–12, 2027", deadline: "Apr 29, 2027" },
-];
+import { format, parseISO } from "date-fns";
+import { upcomingAdministrations } from "@/lib/planner/lsat-dates";
+
+const TODAY = new Date().toISOString().slice(0, 10);
+const UPCOMING_TESTS = upcomingAdministrations(TODAY)
+  .filter((a) => a.registrable)
+  .map((a) => ({ date: a.firstDay, label: `${a.label} (${format(parseISO(a.firstDay), "MMM d")}–${format(parseISO(a.lastDay), "d")})`, deadline: format(parseISO(a.registrationDeadline), "MMM d, yyyy") }));
 
 type Defaults = {
   testDate: string | null;
@@ -25,7 +26,9 @@ type Defaults = {
 export function OnboardingForm({ defaults }: { defaults: Defaults }) {
   const [state, action, pending] = useActionState<OnboardingState, FormData>(saveOnboarding, undefined);
   const [undecided, setUndecided] = useState(defaults.onboarded && defaults.testDate == null);
-  const [testDate, setTestDate] = useState(defaults.testDate ?? "2027-04-08");
+  const DEFAULT_DATE = (UPCOMING_TESTS.find((t) => (new Date(t.date).getTime() - Date.now()) / 86400000 >= 140) ?? UPCOMING_TESTS[UPCOMING_TESTS.length - 1])?.date ?? "";
+  const [testDate, setTestDate] = useState(defaults.testDate ?? DEFAULT_DATE);
+  const [custom, setCustom] = useState(Boolean(defaults.testDate && !UPCOMING_TESTS.some((t) => t.date === defaults.testDate)));
   const [hours, setHours] = useState(defaults.hoursPerWeek);
   const [days, setDays] = useState(defaults.daysPerWeek);
   const [goal, setGoal] = useState(defaults.goalScore);
@@ -56,19 +59,20 @@ export function OnboardingForm({ defaults }: { defaults: Defaults }) {
         <div className="mt-4 grid gap-4 sm:grid-cols-2">
           <div>
             <Label htmlFor="testDate">Test date</Label>
-            <Select
-              id="testDate"
-              name="testDate"
-              value={testDate}
-              onChange={(e) => setTestDate(e.target.value)}
-              disabled={undecided}
-            >
-              {UPCOMING_TESTS.map((t) => (
-                <option key={t.date} value={t.date}>
-                  {t.label} · register by {t.deadline}
-                </option>
-              ))}
-            </Select>
+            {custom ? (
+              <Input id="testDate" name="testDate" type="date" value={testDate} onChange={(e) => setTestDate(e.target.value)} disabled={undecided} />
+            ) : (
+              <Select id="testDate" name="testDate" value={testDate} onChange={(e) => setTestDate(e.target.value)} disabled={undecided}>
+                {UPCOMING_TESTS.map((t) => (
+                  <option key={t.date} value={t.date}>
+                    {t.label} · register by {t.deadline}
+                  </option>
+                ))}
+              </Select>
+            )}
+            <button type="button" className="mt-1 text-xs text-accent hover:underline" onClick={() => setCustom((c) => !c)}>
+              {custom ? "Choose an official administration" : "Enter a custom date"}
+            </button>
             <div className="mt-2 flex items-center gap-2">
               <Switch id="undecided" name="undecided" checked={undecided} onCheckedChange={setUndecided} />
               <Label htmlFor="undecided" className="mb-0">
