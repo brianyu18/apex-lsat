@@ -11,11 +11,28 @@
     "The third proposal, advanced by Oyelaran herself, is less ambitious and, perhaps for that reason, more promising. It would permit—not require—arbitral tribunals to refer a discrete question of law to a designated commercial court for an advisory ruling, which would be published, while the award itself remained private. The mechanism separates the public good, which is the reasoning on the point of law, from the private good, which is the resolution of the particular dispute. Its obvious weakness is that tribunals may decline to refer; but even a modest rate of referral, concentrated as it would be on genuinely unsettled questions, might feed the common law more usefully than the undifferentiated mass of awards that mandatory publication would produce."
   ],
   "roleMap": {
-    "paragraphs": ["context", "counterpoint", "counterpoint", "main_point"],
+    "paragraphs": [
+      "context",
+      "counterpoint",
+      "counterpoint",
+      "main_point"
+    ],
     "viewpoints": [
-      { "who": "Renata Oyelaran", "position": "Confidential arbitration starves commercial law of cases; optional referral of legal questions to courts is the remedy", "authorAgrees": true },
-      { "who": "Advocates of mandatory redacted publication", "position": "Publishing awards without identifying details would restore the flow of reasoning to the public", "authorAgrees": false },
-      { "who": "Advocates of expanded judicial review", "position": "More review of awards would generate more reported decisions", "authorAgrees": false }
+      {
+        "who": "Renata Oyelaran",
+        "position": "Confidential arbitration starves commercial law of cases; optional referral of legal questions to courts is the remedy",
+        "authorAgrees": true
+      },
+      {
+        "who": "Advocates of mandatory redacted publication",
+        "position": "Publishing awards without identifying details would restore the flow of reasoning to the public",
+        "authorAgrees": false
+      },
+      {
+        "who": "Advocates of expanded judicial review",
+        "position": "More review of awards would generate more reported decisions",
+        "authorAgrees": false
+      }
     ],
     "tone": "evaluative, cautiously favorable"
   },
@@ -42,9 +59,16 @@
         "D": "Correct. Paragraph 4 calls the third proposal 'more promising' and explains why it feeds the common law 'more usefully.'",
         "E": "Paragraph 1 says courts see 'a shrinking and unrepresentative fraction'; the author accepts the problem."
       },
-      "trapPatterns": { "A": "extreme", "B": "opposite", "C": "shell_game", "E": "opposite" },
+      "trapPatterns": {
+        "A": "extreme",
+        "B": "opposite",
+        "C": "shell_game",
+        "E": "opposite"
+      },
       "keyTakeaway": "Problem-analysis passages end with an assessment; the main point names the preferred remedy and its comparative standing.",
-      "evidence": [3]
+      "evidence": [
+        3
+      ]
     },
     {
       "id": "rc-arbitration-starved-common-law-q2",
@@ -67,9 +91,16 @@
         "D": "The proposal is described as one in which 'the reasoning survives.'",
         "E": "Resources are never mentioned."
       },
-      "trapPatterns": { "A": "out_of_scope", "C": "shell_game", "D": "opposite", "E": "out_of_scope" },
+      "trapPatterns": {
+        "A": "out_of_scope",
+        "C": "shell_game",
+        "D": "opposite",
+        "E": "out_of_scope"
+      },
       "keyTakeaway": "Locate the 'because' clause in the text and match it; adjacent remedies supply the traps.",
-      "evidence": [1]
+      "evidence": [
+        1
+      ]
     },
     {
       "id": "rc-arbitration-starved-common-law-q3",
@@ -92,14 +123,23 @@
         "D": "The 'currency' is a metaphor for speed, cost, and finality, not literal money.",
         "E": "The author goes on to doubt that review would produce useful decisions at all."
       },
-      "trapPatterns": { "A": "shell_game", "B": "opposite", "D": "out_of_scope", "E": "half_right" },
+      "trapPatterns": {
+        "A": "shell_game",
+        "B": "opposite",
+        "D": "out_of_scope",
+        "E": "half_right"
+      },
       "keyTakeaway": "Resolve a metaphor by reading the sentence that follows it; that sentence usually states the literal point.",
-      "evidence": [2]
+      "evidence": [
+        2
+      ]
     },
     {
       "id": "rc-arbitration-starved-common-law-q4",
       "type": "author_perspective",
-      "logicTags": ["weighing_factors"],
+      "logicTags": [
+        "weighing_factors"
+      ],
       "difficulty": 3,
       "stem": "It can be inferred from the passage that the author would be most likely to agree with which one of the following?",
       "choices": {
@@ -117,18 +157,27 @@
         "D": "The author's objection is that redaction fails and the proposal misdescribes arbitration, not that it would deter arbitration.",
         "E": "Correct. Paragraph 4: 'even a modest rate of referral... might feed the common law more usefully than the undifferentiated mass of awards.'"
       },
-      "trapPatterns": { "A": "extreme", "B": "opposite", "C": "opposite", "D": "shell_game" },
+      "trapPatterns": {
+        "A": "extreme",
+        "B": "opposite",
+        "C": "opposite",
+        "D": "shell_game"
+      },
       "keyTakeaway": "The author's comparative judgments ('more usefully than') license inferences about quality versus quantity.",
-      "evidence": [3]
+      "evidence": [
+        3
+      ]
     },
     {
       "id": "rc-arbitration-starved-common-law-q5",
       "type": "analogy",
-      "logicTags": ["analogy"],
+      "logicTags": [
+        "analogy"
+      ],
       "difficulty": 3,
       "stem": "Which one of the following is most analogous to Oyelaran's proposed referral mechanism as described in the passage?",
       "choices": {
-        "A": "A hospital allows physicians to submit anonymized descriptions of unusual cases to a medical journal while keeping the patients' records private.",
+        "A": "A hospital permits, but does not require, its physicians to submit an unusual diagnostic question to an outside panel whose written opinion is published, while the patient's records and the treatment decision remain confidential.",
         "B": "A company requires all employees to publish their annual performance reviews with their names removed.",
         "C": "A university permits students to appeal their grades to an external examiner whose decision replaces the instructor's and is recorded on the student's transcript.",
         "D": "A library restricts access to its rare manuscripts to scholars who agree not to publish their findings.",
@@ -136,15 +185,22 @@
       },
       "answer": "A",
       "explanations": {
-        "A": "Correct. Voluntary, selective for the unusual, and separates the public good (general lesson) from the private resolution (the record).",
+        "A": "Correct. Voluntary (permit, not require), a discrete question referred to a separate body, the general opinion published, the particular case kept private—every feature of Oyelaran's mechanism.",
         "B": "Mandatory and comprehensive with redaction: this mirrors the first remedy, which the author rejects.",
         "C": "An external decision that replaces the original mirrors expanded judicial review, the second remedy.",
         "D": "This suppresses publication altogether, the reverse of feeding the public domain.",
         "E": "Publishes the particular outcome rather than a general point, and depends on consent of both parties rather than referral by the decision-maker."
       },
-      "trapPatterns": { "B": "opposite", "C": "shell_game", "D": "reversal", "E": "half_right" },
+      "trapPatterns": {
+        "B": "opposite",
+        "C": "shell_game",
+        "D": "reversal",
+        "E": "half_right"
+      },
       "keyTakeaway": "Abstract the mechanism (voluntary, selective, public-general vs. private-particular) before testing analogies.",
-      "evidence": [3]
+      "evidence": [
+        3
+      ]
     },
     {
       "id": "rc-arbitration-starved-common-law-q6",
@@ -167,9 +223,16 @@
         "D": "The author takes a definite position.",
         "E": "Enforceability is never raised; the objection is that redaction fails to protect anonymity."
       },
-      "trapPatterns": { "A": "opposite", "C": "half_right", "D": "opposite", "E": "shell_game" },
+      "trapPatterns": {
+        "A": "opposite",
+        "C": "half_right",
+        "D": "opposite",
+        "E": "shell_game"
+      },
       "keyTakeaway": "Attitude questions test the stated ground of the author's judgment, not just its direction.",
-      "evidence": [1]
+      "evidence": [
+        1
+      ]
     }
   ]
 }

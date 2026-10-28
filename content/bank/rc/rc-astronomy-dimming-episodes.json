@@ -234,7 +234,7 @@
       "choices": {
         "A": "Spectra taken during several dips show absorption features that arise only in gas heated to temperatures found within a few stellar radii of the star.",
         "B": "The archival plates were taken with several different telescopes over the ninety-year interval.",
-        "C": "A faint infrared excess has recently been detected from KV 2281 at wavelengths characteristic of warm dust orbiting within a few stellar radii of the star’s surface.",
+        "C": "A faint infrared excess has recently been detected from KV 2281 at wavelengths characteristic of cold dust orbiting at a great distance from the star.",
         "D": "The rate of the star’s secular fading has been roughly constant rather than increasing over the last two decades.",
         "E": "Several other stars in the same region of the sky show irregular dips of similar depth."
       },
@@ -242,17 +242,17 @@
       "explanations": {
         "A": "Correct. B’s hypothesis places the obscuring material far from the star precisely so that it stays cold. Evidence that the material producing the dips is hot and within a few stellar radii contradicts the ring’s location directly.",
         "B": "Instrumental heterogeneity might add uncertainty to the fading measurement, but it does not bear on whether a distant ring is the cause; B’s hypothesis also explains the dips independently.",
-        "C": "This is tempting, but a faint warm excess would revive the near-star picture without refuting a distant ring; warm dust could coexist with it. A, by contrast, ties the dips themselves to hot, near-star gas.",
+        "C": "Opposite. Cold, distant dust is exactly what passage B's ring consists of; detecting it would support the hypothesis, not weaken it.",
         "D": "B says the rate is “apparently increasing,” but a constant rate is still a secular fade a spreading ring could produce; this trims a detail without undermining the hypothesis.",
         "E": "Similar dips in neighboring stars might suggest a common cause, but B’s hypothesis is not committed to KV 2281 being unique."
       },
       "trapPatterns": {
         "B": "true_but_irrelevant",
-        "C": "half_right",
+        "C": "opposite",
         "D": "wrong_part",
         "E": "out_of_scope"
       },
-      "keyTakeaway": "The strongest weakener attacks the hypothesis’s load-bearing feature (distance and coldness); C tempts by partially reviving the rival rather than refuting B.",
+      "keyTakeaway": "The strongest weakener attacks the hypothesis's load-bearing feature (distance and coldness); C tempts because it mentions dust and infrared, but it confirms B's picture.",
       "evidence": [
         1
       ]

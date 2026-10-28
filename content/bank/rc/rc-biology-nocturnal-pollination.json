@@ -11,11 +11,28 @@
     "Defenders of the visitation method, among them Alastair Whitcombe, reply that bees’ sheer numbers must compensate for their inefficiency, and that Rourke’s single-season results may reflect an unusually poor year for bees. The first reply is not an argument but a restatement of the assumption at issue, and Rourke’s data are the test of it. The second deserves a longer study, which is under way. But even a result confined to one season should unsettle a method that has never been validated against outcomes for the great majority of the plants to which it has been applied. What an observer sees at noon is a record of who was present; it is not, without more, a record of who mattered."
   ],
   "roleMap": {
-    "paragraphs": ["main_point", "support", "example", "concession"],
+    "paragraphs": [
+      "main_point",
+      "support",
+      "example",
+      "concession"
+    ],
     "viewpoints": [
-      { "who": "Standard visitation method / Alastair Whitcombe", "position": "The most frequent visitor is the most important pollinator; bees’ numbers compensate for inefficiency", "authorAgrees": false },
-      { "who": "Delphine Rourke (exclusion experiments)", "position": "Night-only flowers set more seed and were far more outcrossed than day-only flowers", "authorAgrees": true },
-      { "who": "Author", "position": "Visitation frequency is a poor proxy; the rare hawkmoth is Callistria’s principal effective pollinator", "authorAgrees": true }
+      {
+        "who": "Standard visitation method / Alastair Whitcombe",
+        "position": "The most frequent visitor is the most important pollinator; bees’ numbers compensate for inefficiency",
+        "authorAgrees": false
+      },
+      {
+        "who": "Delphine Rourke (exclusion experiments)",
+        "position": "Night-only flowers set more seed and were far more outcrossed than day-only flowers",
+        "authorAgrees": true
+      },
+      {
+        "who": "Author",
+        "position": "Visitation frequency is a poor proxy; the rare hawkmoth is Callistria’s principal effective pollinator",
+        "authorAgrees": true
+      }
     ],
     "tone": "assertive, methodologically critical"
   },
@@ -42,9 +59,17 @@
         "D": "This is the mechanism from paragraph 2, a supporting step rather than the conclusion about which animal the plant depends on.",
         "E": "This is Whitcombe’s reservation; the author acknowledges the need for a longer study but says even one season “should unsettle” the method."
       },
-      "trapPatterns": { "A": "extreme", "C": "out_of_scope", "D": "wrong_part", "E": "wrong_part" },
+      "trapPatterns": {
+        "A": "extreme",
+        "C": "out_of_scope",
+        "D": "wrong_part",
+        "E": "wrong_part"
+      },
       "keyTakeaway": "A thesis announced with “I want to argue” in paragraph 1 is the main point; later paragraphs are mechanism and evidence.",
-      "evidence": [0, 2]
+      "evidence": [
+        0,
+        2
+      ]
     },
     {
       "id": "rc-biology-nocturnal-pollination-q2",
@@ -67,9 +92,16 @@
         "D": "Whitcombe is a defender of the visitation method, not the moth’s discoverer; no discoverer is named.",
         "E": "The moth “visits after dusk.”"
       },
-      "trapPatterns": { "B": "wrong_part", "C": "shell_game", "D": "out_of_scope", "E": "opposite" },
+      "trapPatterns": {
+        "B": "wrong_part",
+        "C": "shell_game",
+        "D": "out_of_scope",
+        "E": "opposite"
+      },
       "keyTakeaway": "For stated questions about a named organism, the key will paraphrase one clause of its description exactly.",
-      "evidence": [1]
+      "evidence": [
+        1
+      ]
     },
     {
       "id": "rc-biology-nocturnal-pollination-q3",
@@ -92,9 +124,16 @@
         "D": "Correct. Bees “move between neighboring flowers on the same shrub, so that most of the pollen they carry is the plant’s own, which the species’ self-incompatibility system rejects.”",
         "E": "The passage faults the origin of the pollen bees carry, not their ability to touch the stigma."
       },
-      "trapPatterns": { "A": "out_of_scope", "B": "out_of_scope", "C": "shell_game", "E": "extreme" },
+      "trapPatterns": {
+        "A": "out_of_scope",
+        "B": "out_of_scope",
+        "C": "shell_game",
+        "E": "extreme"
+      },
       "keyTakeaway": "A technical term introduced in a relative clause usually explains the consequence stated just before it.",
-      "evidence": [1]
+      "evidence": [
+        1
+      ]
     },
     {
       "id": "rc-biology-nocturnal-pollination-q4",
@@ -117,9 +156,17 @@
         "D": "The author reports the figures without concern; night and day sets can overlap because both periods contribute to unbagged flowers, so no inconsistency is implied.",
         "E": "Correct. Paragraph 2: visitation frequency “is a defensible proxy for pollination only if visits are roughly equal in what they accomplish,” which allows the method to work where that condition holds."
       },
-      "trapPatterns": { "A": "extreme", "B": "out_of_scope", "C": "opposite", "D": "shell_game" },
+      "trapPatterns": {
+        "A": "extreme",
+        "B": "out_of_scope",
+        "C": "opposite",
+        "D": "shell_game"
+      },
       "keyTakeaway": "A conditional concession (“defensible only if…”) licenses the inference that the method works when the condition is met; D tempts with a spurious numerical worry.",
-      "evidence": [1, 3]
+      "evidence": [
+        1,
+        3
+      ]
     },
     {
       "id": "rc-biology-nocturnal-pollination-q5",
@@ -130,7 +177,7 @@
       "choices": {
         "A": "Agrius serranicus also visits several other plant species in the Serrania foothills during the same season, including some that flower at the same time as Callistria.",
         "B": "Solitary bees in the Serrania foothills are most active in the two hours after sunrise.",
-        "C": "In Rourke’s study, the mesh used for daytime bagging also prevented pollination by a wind-borne component that occurs only in daylight hours.",
+        "C": "In Rourke's study, the mesh used for nighttime bagging abraded the flowers' stigmas, substantially reducing the seed set of flowers that were open only by day.",
         "D": "Callistria flowers remain receptive to pollen for three days after opening.",
         "E": "A second hawkmoth species, rarer still, occasionally visits Callistria flowers before dawn."
       },
@@ -138,13 +185,20 @@
       "explanations": {
         "A": "Visiting other plants does not reduce the outcross pollen the moth delivers to Callistria; it is irrelevant to the comparison.",
         "B": "Timing within the day does not change the day-only results, since daytime flowers were open throughout the day.",
-        "C": "Correct. The conclusion attributes the night-only advantage to the moth and the day-only shortfall to bees. If daytime bagging also excluded a daylight-only pollination route, the day-only figure reflects more than bee inefficiency, and the comparison no longer isolates the two animal pollinators.",
+        "C": "Correct. The conclusion rests on the day-only flowers' poor seed set relative to the night-only flowers. If the nighttime mesh itself damaged those flowers, their shortfall reflects the treatment rather than bee inefficiency, and the comparison no longer shows that the moth outperforms daytime pollinators.",
         "D": "Prolonged receptivity applies equally to both treatments and does not alter their relative outcomes.",
         "E": "Another nocturnal visitor would at most share credit within the night treatment; it does not help bees or undermine the day/night disparity."
       },
-      "trapPatterns": { "A": "true_but_irrelevant", "B": "out_of_scope", "D": "true_but_irrelevant", "E": "shell_game" },
-      "keyTakeaway": "Weaken an experimental inference by showing the treatment confounded the variable of interest with something else.",
-      "evidence": [2]
+      "trapPatterns": {
+        "A": "true_but_irrelevant",
+        "B": "out_of_scope",
+        "D": "true_but_irrelevant",
+        "E": "shell_game"
+      },
+      "keyTakeaway": "Weaken an experimental inference by showing the treatment itself, not the variable of interest, produced the difference.",
+      "evidence": [
+        2
+      ]
     },
     {
       "id": "rc-biology-nocturnal-pollination-q6",
@@ -167,9 +221,16 @@
         "D": "This is the assumption the author attacks, calling Whitcombe’s version of it “a restatement of the assumption at issue.”",
         "E": "The author grants that a longer study is needed; the claim is that one season suffices to unsettle, not to establish."
       },
-      "trapPatterns": { "A": "opposite", "C": "shell_game", "D": "opposite", "E": "wrong_force" },
+      "trapPatterns": {
+        "A": "opposite",
+        "C": "shell_game",
+        "D": "opposite",
+        "E": "wrong_force"
+      },
       "keyTakeaway": "Principle keys match the force of the author’s claim (“unsettle,” not “establish”); E is the trap that overstates it.",
-      "evidence": [3]
+      "evidence": [
+        3
+      ]
     }
   ]
 }

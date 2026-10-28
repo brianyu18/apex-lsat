@@ -11,11 +11,28 @@
     "A more adequate account would locate the irony not in Vessey's attitude toward the conventions but in his awareness that he could neither trust them nor do without them. The elegies lengthen the catalogues because the catalogues are all that remains when the belief that once animated them has gone; they are performed with care because the performance is the only consolation available. This is not satire, which requires a secure position from which to mock, and it is not naive pastoral, which requires a belief the poems conspicuously lack. It is something closer to what Vessey himself, in a letter Delorme quotes but does not dwell upon, called \"keeping the forms for want of the faith.\""
   ],
   "roleMap": {
-    "paragraphs": ["context", "counterpoint", "counterpoint", "main_point"],
+    "paragraphs": [
+      "context",
+      "counterpoint",
+      "counterpoint",
+      "main_point"
+    ],
     "viewpoints": [
-      { "who": "Traditional readers (half-century consensus)", "position": "The elegies are earnest pastoral by a poet who could not face the war directly", "authorAgrees": false },
-      { "who": "Annick Delorme and the revisionist school", "position": "The elegies are satire that deploys pastoral excess to expose the inadequacy of conventional mourning", "authorAgrees": false },
-      { "who": "Author", "position": "The elegies knowingly keep conventions the poet can neither believe nor abandon; the irony lies in that dependence", "authorAgrees": true }
+      {
+        "who": "Traditional readers (half-century consensus)",
+        "position": "The elegies are earnest pastoral by a poet who could not face the war directly",
+        "authorAgrees": false
+      },
+      {
+        "who": "Annick Delorme and the revisionist school",
+        "position": "The elegies are satire that deploys pastoral excess to expose the inadequacy of conventional mourning",
+        "authorAgrees": false
+      },
+      {
+        "who": "Author",
+        "position": "The elegies knowingly keep conventions the poet can neither believe nor abandon; the irony lies in that dependence",
+        "authorAgrees": true
+      }
     ],
     "tone": "appreciative but corrective"
   },
@@ -42,9 +59,17 @@
         "D": "The author grants this 'appeal' but goes on to reject the reading; it is not the main point.",
         "E": "Correct. Paragraph 4: 'This is not satire... and it is not naive pastoral'; the irony lies in 'keeping the forms for want of the faith.'"
       },
-      "trapPatterns": { "A": "opposite", "B": "opposite", "C": "wrong_part", "D": "half_right" },
+      "trapPatterns": {
+        "A": "opposite",
+        "B": "opposite",
+        "C": "wrong_part",
+        "D": "half_right"
+      },
       "keyTakeaway": "When an author rejects two readings, the main point is the third position, not a verdict favoring one of the two.",
-      "evidence": [2, 3]
+      "evidence": [
+        2,
+        3
+      ]
     },
     {
       "id": "rc-vessey-pastoral-elegies-q2",
@@ -67,9 +92,16 @@
         "D": "The manuscripts show lengthening, not shortening, and of catalogues, not consolations.",
         "E": "The 'dreadful comedy' phrase comes from his letters, not manuscript notes."
       },
-      "trapPatterns": { "B": "out_of_scope", "C": "wrong_part", "D": "opposite", "E": "shell_game" },
+      "trapPatterns": {
+        "B": "out_of_scope",
+        "C": "wrong_part",
+        "D": "opposite",
+        "E": "shell_game"
+      },
       "keyTakeaway": "Stated questions often test which source (manuscripts vs. letters) a detail came from.",
-      "evidence": [1]
+      "evidence": [
+        1
+      ]
     },
     {
       "id": "rc-vessey-pastoral-elegies-q3",
@@ -92,9 +124,16 @@
         "D": "Correct. Care lavished on a target is inconsistent with satire, so the satirical reading must 'explain away' the effect.",
         "E": "Revision of the consolations is never discussed."
       },
-      "trapPatterns": { "A": "half_right", "B": "out_of_scope", "C": "wrong_part", "E": "out_of_scope" },
+      "trapPatterns": {
+        "A": "half_right",
+        "B": "out_of_scope",
+        "C": "wrong_part",
+        "E": "out_of_scope"
+      },
       "keyTakeaway": "In 'X, but Y' constructions the author's point rides on Y; purpose questions target it.",
-      "evidence": [2]
+      "evidence": [
+        2
+      ]
     },
     {
       "id": "rc-vessey-pastoral-elegies-q4",
@@ -117,9 +156,17 @@
         "D": "The author imputes no motive.",
         "E": "Reversed: the author accepts the evidence and rejects the conclusion."
       },
-      "trapPatterns": { "A": "extreme", "B": "extreme", "D": "out_of_scope", "E": "reversal" },
+      "trapPatterns": {
+        "A": "extreme",
+        "B": "extreme",
+        "D": "out_of_scope",
+        "E": "reversal"
+      },
       "keyTakeaway": "Calibrate strength: 'oversimplifies' fits a reading the author partly credits; 'dismissal' does not.",
-      "evidence": [1, 2]
+      "evidence": [
+        1,
+        2
+      ]
     },
     {
       "id": "rc-vessey-pastoral-elegies-q5",
@@ -129,7 +176,7 @@
       "stem": "It can be inferred from the passage that the author would be most likely to agree with which one of the following?",
       "choices": {
         "A": "Readers who found consolation in the elegies before Delorme's work fundamentally misunderstood the poems.",
-        "B": "A poet's use of a literary convention can express neither belief in it nor contempt for it.",
+        "B": "A poet may employ a literary convention without either believing in it or holding it in contempt.",
         "C": "Vessey's elegies would have been stronger had they referred directly to the war.",
         "D": "The satirical reading of the elegies is less well supported by Vessey's letters than the traditional reading is.",
         "E": "The pastoral elegy was rendered obsolete by the war rather than by changes in literary taste."
@@ -142,9 +189,16 @@
         "D": "The author credits Delorme with 'considerable evidence' from the letters.",
         "E": "The cause of the form's obsolescence is never adjudicated."
       },
-      "trapPatterns": { "A": "opposite", "C": "out_of_scope", "D": "opposite", "E": "shell_game" },
+      "trapPatterns": {
+        "A": "opposite",
+        "C": "out_of_scope",
+        "D": "opposite",
+        "E": "shell_game"
+      },
       "keyTakeaway": "The author's third position implies a general claim: conventions can be used in a mode that is neither sincere nor mocking.",
-      "evidence": [3]
+      "evidence": [
+        3
+      ]
     },
     {
       "id": "rc-vessey-pastoral-elegies-q6",
@@ -167,9 +221,16 @@
         "D": "That is the requirement of naive pastoral, named in the next clause as the other thing the poems lack.",
         "E": "The phrase describes the satirist's attitude, not a text."
       },
-      "trapPatterns": { "B": "shell_game", "C": "shell_game", "D": "opposite", "E": "out_of_scope" },
+      "trapPatterns": {
+        "B": "shell_game",
+        "C": "shell_game",
+        "D": "opposite",
+        "E": "out_of_scope"
+      },
       "keyTakeaway": "Parallel structure ('satire requires X; naive pastoral requires Y') tells you exactly which requirement a phrase names.",
-      "evidence": [3]
+      "evidence": [
+        3
+      ]
     }
   ]
 }
