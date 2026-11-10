@@ -1,0 +1,71 @@
+{
+  "format": "apex-test/1",
+  "title": "Example test (replace with your own)",
+  "sections": [
+    {
+      "kind": "LR",
+      "scored": true,
+      "minutes": 5,
+      "questions": [
+        {
+          "stimulus": "Every bakery on Alder Street that opened before 2010 uses a wood-fired oven. Tamsin's bakery is on Alder Street and uses a gas oven.",
+          "stem": "If the statements above are true, which one of the following must also be true?",
+          "choices": {
+            "A": "Tamsin's bakery opened in 2010 or later.",
+            "B": "Tamsin's bakery is the newest bakery on Alder Street.",
+            "C": "No bakery on Alder Street that opened after 2010 uses a wood-fired oven.",
+            "D": "Gas ovens are cheaper to run than wood-fired ovens.",
+            "E": "Most bakeries on Alder Street opened before 2010."
+          },
+          "answer": "A",
+          "type": "must_be_true",
+          "difficulty": 1,
+          "explanation": "Contrapositive: no wood-fired oven → did not open before 2010."
+        },
+        {
+          "stimulus": "Councilor: Since the new bike lanes were painted on Marsh Road, collisions there have fallen by a third. Clearly the bike lanes have made the road safer.",
+          "stem": "Which one of the following, if true, most weakens the councilor's argument?",
+          "choices": {
+            "A": "Bike lanes are popular with residents.",
+            "B": "Marsh Road was closed to through traffic for repairs during most of the period measured.",
+            "C": "Collisions on other roads also involve cyclists.",
+            "D": "The bike lanes were painted on schedule.",
+            "E": "Some drivers dislike the bike lanes."
+          },
+          "answer": "B",
+          "type": "weaken",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "kind": "RC",
+      "scored": true,
+      "minutes": 5,
+      "passages": [
+        {
+          "title": "Harbor dredging",
+          "paragraphs": [
+            "For decades the port of Wexcombe dredged its harbor every spring, on the theory that winter storms deposited the silt that threatened shipping.",
+            "A recent survey found instead that most silt arrives in late summer, carried by the river at low flow. The author argues that the dredging calendar, not the dredging budget, is what needs to change."
+          ],
+          "questions": [
+            {
+              "stem": "Which one of the following most accurately states the main point of the passage?",
+              "choices": {
+                "A": "Wexcombe should stop dredging its harbor.",
+                "B": "Winter storms no longer affect the harbor.",
+                "C": "Wexcombe should change when it dredges, because the silt arrives later than assumed.",
+                "D": "The dredging budget should be increased.",
+                "E": "River flow is lowest in spring."
+              },
+              "answer": "C",
+              "type": "main_point",
+              "difficulty": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

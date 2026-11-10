@@ -1,0 +1,37 @@
+{
+  "format": "apex-test/1",
+  "title": "TEST TITLE",
+  "sections": [
+    {
+      "kind": "LR",
+      "scored": true,
+      "minutes": 35,
+      "questions": [
+        {
+          "stimulus": "STIMULUS TEXT",
+          "stem": "QUESTION STEM",
+          "choices": { "A": "…", "B": "…", "C": "…", "D": "…", "E": "…" },
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "kind": "RC",
+      "scored": true,
+      "minutes": 35,
+      "passages": [
+        {
+          "title": "PASSAGE TITLE",
+          "paragraphs": ["PARAGRAPH 1", "PARAGRAPH 2"],
+          "questions": [
+            {
+              "stem": "QUESTION STEM",
+              "choices": { "A": "…", "B": "…", "C": "…", "D": "…", "E": "…" },
+              "answer": "A"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
