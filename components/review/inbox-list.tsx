@@ -19,7 +19,7 @@ export type InboxItem = {
   type: string;
   difficulty: number;
   stem: string | null;
-  source?: "original" | "official_ref";
+  source?: "original" | "official_ref" | "private";
   pt?: number | null;
   sectionNumber?: number | null;
   number?: number | null;

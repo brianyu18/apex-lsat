@@ -8,7 +8,7 @@
  */
 export interface TutorQuestion {
   id: string;
-  source: "original" | "official_ref";
+  source: "original" | "official_ref" | "private";
   section: "LR" | "RC";
   type: string;
   logicTags: string[];

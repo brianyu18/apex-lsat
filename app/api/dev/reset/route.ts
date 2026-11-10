@@ -10,6 +10,7 @@ export async function POST() {
   await db.delete(schema.misses);
   await db.delete(schema.attempts);
   await db.delete(schema.sessions);
+  await db.delete(schema.customTests);
   await db.delete(schema.skills);
   await db.delete(schema.lessonsProgress);
   await db.delete(schema.settings);

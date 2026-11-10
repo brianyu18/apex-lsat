@@ -14,13 +14,13 @@ import { interpretBrGap } from "@/lib/scoring/range";
 import { percentile } from "@/lib/scoring/tables";
 import { cn } from "@/lib/ui/cn";
 
-type Build = { sessionId: string; sections: { index: number; kind: "LR" | "RC"; scored: boolean; questions: SecQ[]; passages?: SecPassage[] }[]; breakAfter: number; durationSec: number };
+type Build = { sessionId: string; sections: { index: number; kind: "LR" | "RC"; scored: boolean; questions: SecQ[]; passages?: SecPassage[] }[]; breakAfter: number; durationSec: number; sectionDurations?: number[] };
 type Phase = "setup" | "intro" | "section" | "break" | "br" | "results" | "error";
 type Final = { total: number; timedRaw: number; brRaw: number; gap: number; timedScaled: number; brScaled: number; recovered: number; stuck: number; blindSpots: number; perSection: { index: number; kind: string; scored: boolean; n: number; correct: number; br: number; seconds: number }[] };
 
 const LETTERS = ["A", "B", "C", "D", "E"] as const;
 
-export function PtRunner() {
+export function PtRunner({ customTestId, customTitle, customSummary }: { customTestId?: string; customTitle?: string; customSummary?: string } = {}) {
   const router = useRouter();
   const [phase, setPhase] = useState<Phase>("setup");
   const [build, setBuild] = useState<Build | null>(null);
@@ -46,7 +46,7 @@ export function PtRunner() {
 
   async function start() {
     setError(null);
-    const res = await fetch("/api/pt/start", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ experimental }) });
+    const res = await fetch("/api/pt/start", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(customTestId ? { customTestId } : { experimental }) });
     if (!res.ok) {
       const j = await res.json().catch(() => ({}));
       setError(j.error ?? `Could not build a test (${res.status})`);
@@ -91,6 +91,25 @@ export function PtRunner() {
     router.refresh();
   }
 
+  if (phase === "setup" && customTestId) {
+    return (
+      <Card>
+        <CardTitle>{customTitle ?? "Your test"}</CardTitle>
+        <CardDescription>{customSummary} Taken in the LawHub-style interface, then blind review of flagged and blank questions, then your score.</CardDescription>
+        {error && (
+          <p role="alert" className="mt-4 text-sm text-bad">
+            {error}
+          </p>
+        )}
+        <div className="mt-5 flex justify-end">
+          <Button size="lg" onClick={start}>
+            Begin test
+          </Button>
+        </div>
+      </Card>
+    );
+  }
+
   if (phase === "setup") {
     return (
       <Card>
@@ -128,10 +147,10 @@ export function PtRunner() {
     const s = build.sections[si];
     return (
       <Card className="mx-auto max-w-xl text-center">
-        <p className="text-sm font-medium uppercase tracking-wider text-accent">Section {si + 1} of 4</p>
+        <p className="text-sm font-medium uppercase tracking-wider text-accent">Section {si + 1} of {build.sections.length}</p>
         <h2 className="mt-2 text-2xl font-semibold">{s.kind === "LR" ? "Logical Reasoning" : "Reading Comprehension"}</h2>
         <p className="mt-2 text-ink-2">
-          {s.questions.length} questions · {Math.round(build.durationSec / 60)} minutes
+          {s.questions.length} questions · {Math.round((build.sectionDurations?.[si] ?? build.durationSec) / 60)} minutes
         </p>
         <Button size="lg" className="mt-6" onClick={startNext}>
           Start section {si + 1}
@@ -142,7 +161,7 @@ export function PtRunner() {
 
   if (phase === "section" && build) {
     const s = build.sections[si];
-    return <LawHubSection key={si} title={s.kind === "LR" ? "Logical Reasoning" : "Reading Comprehension"} sectionLabel={`Section ${si + 1} · ${s.kind === "LR" ? "Logical Reasoning" : "Reading Comprehension"}`} questions={s.questions} passages={s.passages} durationSec={build.durationSec} onSubmit={onSectionSubmit} />;
+    return <LawHubSection key={si} title={s.kind === "LR" ? "Logical Reasoning" : "Reading Comprehension"} sectionLabel={`Section ${si + 1} · ${s.kind === "LR" ? "Logical Reasoning" : "Reading Comprehension"}`} questions={s.questions} passages={s.passages} durationSec={build.sectionDurations?.[si] ?? build.durationSec} onSubmit={onSectionSubmit} />;
   }
 
   if (phase === "break") {

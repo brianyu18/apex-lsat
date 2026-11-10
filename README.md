@@ -55,6 +55,7 @@ The app is installable (PWA). Open **Drill** once while online to cache a 100-qu
 | `/test/timing` | Timing heatmap: seconds per question vs pacing target across your last 12 sections |
 | `/test/import` | Paste LawHub results (grid or CSV); creates `official_ref` rows, counts toward score range and inbox |
 | `/test/writing` | Argumentative Writing: 15-min prewrite (outline builder) + 35-min essay, saved for rereading |
+| `/test/custom` | Bring your own test: upload a JSON file in the `apex-test/1` format (see `docs/custom-test-format.md`), take it timed with blind review and scoring. Stored only in your database |
 | `/test/official` | Official PrepTest track: list the LawHub tests you can access; the app assigns one per PT day (newest saved for the final weeks), links to LawHub and the import, keeps the tally. Official misses get a one-line gist on their review page (your words — never LSAC text) that the tutor uses |
 | `/schools` | Where you stand: every ABA school's LSAT/GPA 25/50/75 vs. your range and GPA, an admission estimate (likely / target / reach / long shot), the LSAT needed to move a band, and a target list that feeds the plan's registration goal |
 

@@ -29,6 +29,8 @@ export interface PtBuild {
   }[];
   breakAfter: number; // section index after which the 10-minute break happens (1)
   durationSec: number;
+  /** per-section time limits when sections differ (uploaded tests) */
+  sectionDurations?: number[];
 }
 
 async function lrCandidates(exclude: Set<string>): Promise<SectionCandidate[]> {

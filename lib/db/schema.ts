@@ -26,7 +26,7 @@ import { relations, sql } from "drizzle-orm";
 /* ---------------- enums ---------------- */
 
 export const sectionEnum = pgEnum("section", ["LR", "RC"]);
-export const sourceEnum = pgEnum("question_source", ["original", "official_ref"]);
+export const sourceEnum = pgEnum("question_source", ["original", "official_ref", "private"]);
 export const attemptModeEnum = pgEnum("attempt_mode", ["drill", "timed", "pt", "br", "check"]);
 export const confidenceEnum = pgEnum("confidence", ["sure", "leaning", "guess"]);
 export const errorTypeEnum = pgEnum("error_type", [
@@ -297,3 +297,12 @@ export type Skill = typeof skills.$inferSelect;
 export type Settings = typeof settings.$inferSelect;
 export type Plan = typeof plan.$inferSelect;
 export type PlanDay = typeof planDays.$inferSelect;
+
+/** Tests the student uploaded in the apex-test/1 format. Content lives only in their database (source = "private"). */
+export const customTests = pgTable("custom_tests", {
+  id: text("id").primaryKey(),
+  title: text("title").notNull(),
+  sections: jsonb("sections").$type<{ kind: "LR" | "RC"; scored: boolean; minutes: number; questionIds: string[]; passageIds?: string[] }[]>().notNull(),
+  nQuestions: integer("n_questions").notNull(),
+  createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
+});
