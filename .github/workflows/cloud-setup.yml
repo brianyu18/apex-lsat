@@ -1,0 +1,25 @@
+name: Cloud setup (migrate + lock down + load content)
+# Run from the Actions tab → "Cloud setup" → Run workflow. Idempotent.
+# Needs one repository secret: DATABASE_URL_DIRECT (Supabase *Session pooler* URI, port 5432).
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["content/bank/**", "lib/db/migrations/**"]
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - name: Migrate, lock down, load content
+        env:
+          DATABASE_URL_DIRECT: ${{ secrets.DATABASE_URL_DIRECT }}
+        run: |
+          if [ -z "$DATABASE_URL_DIRECT" ]; then echo "::error::Add the DATABASE_URL_DIRECT repository secret first"; exit 1; fi
+          pnpm cloud:setup
