@@ -70,5 +70,6 @@
     "typescript": "^5",
     "vitest": "^5.0.5"
   },
-  "type": "module"
+  "type": "module",
+  "packageManager": "pnpm@10.28.0"
 }
