@@ -19,7 +19,7 @@ export default async function SignInPage({ searchParams }: { searchParams: Promi
     <div className="mx-auto max-w-md pt-10">
       <Card>
         <CardTitle>Apex LSAT</CardTitle>
-        <CardDescription>Personal study system. Sign in with the email this deployment is locked to; you&apos;ll get a one-time link.</CardDescription>
+        <CardDescription>Personal study system. Sign in with the email this deployment is locked to.</CardDescription>
         {sp.denied && (
           <p role="alert" className="mt-3 rounded-md bg-bad-soft px-3 py-2 text-sm text-bad">
             That account isn&apos;t allowed here. {user?.email ? `Signed in as ${user.email}. ` : ""}

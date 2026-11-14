@@ -25,7 +25,20 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
       <body className="min-h-dvh">
         <div className="mx-auto flex min-h-dvh max-w-7xl">
           <SideNav signOut={authEnabled()} />
-          <main className="min-w-0 flex-1 px-4 pb-24 pt-6 md:px-8 md:pb-10">{children}</main>
+          <main className="min-w-0 flex-1 px-4 pb-24 pt-6 md:px-8 md:pb-10">
+            {children}
+            {authEnabled() && (
+              <p className="mt-10 text-center text-xs text-ink-3 md:hidden">
+                <a href="/account" className="underline">
+                  Account
+                </a>
+                {" · "}
+                <a href="/auth/signout" className="underline">
+                  Sign out
+                </a>
+              </p>
+            )}
+          </main>
         </div>
         <BottomNav />
         <Pwa />
