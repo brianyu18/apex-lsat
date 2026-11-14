@@ -2,13 +2,26 @@ import "server-only";
 import { desc, eq, inArray } from "drizzle-orm";
 import { getDb, schema } from "@/lib/db/client";
 import { newId } from "./ids";
-import type { CustomTest } from "@/lib/custom/schema";
+import { normalizeType, type CustomTest } from "@/lib/custom/schema";
+import type { CustomTestMeta } from "@/lib/db/schema";
 import type { PtBuild, PtSectionSpec } from "./pt";
+
+export class DuplicateTestError extends Error {}
 
 /** Stores an uploaded test: passages + questions (source "private") and the test record. */
 export async function saveCustomTest(t: CustomTest) {
   const db = await getDb();
+  if (t.id) {
+    const existing = await db.select({ id: schema.customTests.id, title: schema.customTests.title, meta: schema.customTests.meta }).from(schema.customTests);
+    const clash = existing.find((e) => e.meta?.sourceId === t.id);
+    if (clash) throw new DuplicateTestError(`A test with id "${t.id}" is already uploaded ("${clash.title}"). Delete it first, or change the id.`);
+  }
   const id = newId("cst");
+  const meta: CustomTestMeta = { sourceId: t.id, number: t.number, year: t.year, description: t.description ?? undefined, questions: {}, passages: {} };
+  const noteQ = (qid: string, q: { id?: string; number?: number; category?: string | null; skill?: string | null; reference?: { text: string; paragraph?: number; passage?: "A" | "B" } | null }, n: number) => {
+    meta.questions[qid] = { sourceId: q.id, number: q.number ?? n, category: q.category ?? undefined, skill: q.skill ?? undefined, reference: q.reference ?? undefined };
+  };
+  const extra = (s: { id?: string; directions?: string | null; credits?: string[] }) => ({ sourceId: s.id, directions: s.directions ?? undefined, credits: s.credits });
   const sections: (typeof schema.customTests.$inferInsert)["sections"] = [];
   const qRows: (typeof schema.questions.$inferInsert)[] = [];
   const pRows: (typeof schema.passages.$inferInsert)[] = [];
@@ -21,30 +34,33 @@ export async function saveCustomTest(t: CustomTest) {
     if (s.kind === "LR") {
       const ids = s.questions.map((q, qi) => {
         const qid = `${id}-s${si + 1}-q${qi + 1}`;
-        qRows.push({ id: qid, source: "private", section: "LR", type: q.type ?? "unclassified", logicTags: [], difficulty: q.difficulty ?? 2, stimulus: q.stimulus, stem: q.stem, choices: q.choices, answer: q.answer, explanations: expl(q) });
+        noteQ(qid, q, qi + 1);
+        qRows.push({ id: qid, source: "private", section: "LR", type: normalizeType("LR", q.type) ?? "unclassified", logicTags: [], difficulty: Math.min(q.difficulty ?? 2, 4), sectionNumber: si + 1, number: q.number ?? qi + 1, stimulus: q.stimulus, stem: q.stem, choices: q.choices, answer: q.answer, explanations: expl(q) });
         return qid;
       });
-      sections.push({ kind: "LR", scored: s.scored, minutes: s.minutes, questionIds: ids });
+      sections.push({ kind: "LR", scored: s.scored, minutes: s.minutes, questionIds: ids, ...extra(s) });
     } else {
       const ids: string[] = [];
       const pids: string[] = [];
       s.passages.forEach((p, pi) => {
         const pid = `${id}-s${si + 1}-p${pi + 1}`;
         pids.push(pid);
+        meta.passages[pid] = { sourceId: p.id, subject: p.subject ?? undefined, credits: p.credits };
         pRows.push({ id: pid, source: "private", comparative: Boolean(p.paragraphsB), title: p.title ?? `Passage ${pi + 1}`, paragraphs: p.paragraphs, paragraphsB: p.paragraphsB ?? null, wordCount: [...p.paragraphs, ...(p.paragraphsB ?? [])].join(" ").split(/\s+/).length });
         p.questions.forEach((q, qi) => {
           const qid = `${pid}-q${qi + 1}`;
           ids.push(qid);
-          qRows.push({ id: qid, source: "private", section: "RC", type: q.type ?? "unclassified", logicTags: [], difficulty: q.difficulty ?? 2, passageId: pid, stem: q.stem, choices: q.choices, answer: q.answer, explanations: expl(q) });
+          noteQ(qid, q, ids.length);
+          qRows.push({ id: qid, source: "private", section: "RC", type: normalizeType("RC", q.type) ?? "unclassified", logicTags: [], difficulty: Math.min(q.difficulty ?? 2, 4), sectionNumber: si + 1, number: q.number ?? ids.length, passageId: pid, stem: q.stem, choices: q.choices, answer: q.answer, explanations: expl(q) });
         });
       });
-      sections.push({ kind: "RC", scored: s.scored, minutes: s.minutes, questionIds: ids, passageIds: pids });
+      sections.push({ kind: "RC", scored: s.scored, minutes: s.minutes, questionIds: ids, passageIds: pids, ...extra(s) });
     }
   });
   if (pRows.length) await db.insert(schema.passages).values(pRows);
   for (let i = 0; i < qRows.length; i += 200) await db.insert(schema.questions).values(qRows.slice(i, i + 200));
   const nQuestions = sections.filter((s) => s.scored).reduce((a, s) => a + s.questionIds.length, 0);
-  await db.insert(schema.customTests).values({ id, title: t.title, sections, nQuestions });
+  await db.insert(schema.customTests).values({ id, title: t.title, sections, nQuestions, meta });
   return { id, nQuestions };
 }
 
@@ -79,7 +95,7 @@ export async function startCustomTest(id: string): Promise<PtBuild | null> {
     index: i,
     kind: s.kind,
     scored: s.scored,
-    questions: s.questionIds.map((qid) => qById.get(qid)!).map((q) => ({ id: q.id, type: q.type, difficulty: q.difficulty, stimulus: q.stimulus, stem: q.stem, choices: q.choices, passageId: q.passageId })),
+    questions: s.questionIds.map((qid) => qById.get(qid)!).map((q) => ({ id: q.id, type: q.type, difficulty: q.difficulty, stimulus: q.stimulus, stem: q.stem, choices: q.choices, passageId: q.passageId, reference: t.meta?.questions[q.id]?.reference ?? null })),
     passages: s.passageIds?.map((pid) => pById.get(pid)!).map((p) => ({ id: p.id, title: p.title ?? "Passage", style: p.style, topic: p.topic, comparative: p.comparative, paragraphs: p.paragraphs ?? [], paragraphsB: p.paragraphsB ?? null })),
   }));
   const specs: PtSectionSpec[] = t.sections.map((s, i) => ({ index: i, kind: s.kind, scored: s.scored, questionIds: s.questionIds, passageIds: s.passageIds }));

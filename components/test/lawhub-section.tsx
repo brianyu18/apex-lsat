@@ -18,7 +18,7 @@ import { cn } from "@/lib/ui/cn";
 
 const LETTERS = ["A", "B", "C", "D", "E"] as const;
 
-export type SecQ = { id: string; type: string; difficulty: number; stimulus: string | null; stem: string | null; choices: Record<string, string> | null; passageId?: string | null };
+export type SecQ = { id: string; type: string; difficulty: number; stimulus: string | null; stem: string | null; choices: Record<string, string> | null; passageId?: string | null; reference?: { text: string; paragraph?: number; passage?: "A" | "B" } | null };
 export type SecPassage = { id: string; title: string; comparative: boolean; paragraphs: string[]; paragraphsB: string[] | null };
 export type SecAnswer = { questionId: string; answer: string | null; seconds: number; flagged: boolean; changedFrom: string | null; passageSeconds?: number | null };
 
@@ -144,6 +144,14 @@ export function LawHubSection({
           <div className={cn("border-b border-line p-5 lg:border-b-0 lg:border-r", highlightOn && "selection:bg-warn-soft")} onMouseUp={highlightOn ? applyHighlight : undefined} data-testid={passage ? "passage-pane" : "stimulus-pane"}>
             {passage ? (
               <>
+                {cur.reference && (
+                  <p className="mb-3 rounded-md border border-line bg-bg-elev p-3 text-sm" data-testid="question-reference">
+                    <span className="block text-[11px] font-semibold uppercase tracking-wider text-ink-3">
+                      This question refers to{cur.reference.paragraph != null ? ` · ${passage.comparative ? `passage ${cur.reference.passage ?? "A"}, ` : ""}paragraph ${cur.reference.paragraph + 1}` : ""}
+                    </span>
+                    <span className="lsat-text">“{cur.reference.text}”</span>
+                  </p>
+                )}
                 {passage.comparative && passage.paragraphsB && (
                   <div className="mb-3 flex gap-1 text-xs">
                     {(["A", "B", "both"] as const).map((v) => (

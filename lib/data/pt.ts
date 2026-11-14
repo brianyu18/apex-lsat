@@ -24,7 +24,7 @@ export interface PtBuild {
     index: number;
     kind: PtSectionKind;
     scored: boolean;
-    questions: { id: string; type: string; difficulty: number; stimulus: string | null; stem: string | null; choices: Record<string, string> | null; passageId: string | null }[];
+    questions: { id: string; type: string; difficulty: number; stimulus: string | null; stem: string | null; choices: Record<string, string> | null; passageId: string | null; reference?: { text: string; paragraph?: number; passage?: "A" | "B" } | null }[];
     passages?: { id: string; title: string; style: string | null; topic: string | null; comparative: boolean; paragraphs: string[]; paragraphsB: string[] | null }[];
   }[];
   breakAfter: number; // section index after which the 10-minute break happens (1)

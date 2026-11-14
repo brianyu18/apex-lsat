@@ -1,7 +1,7 @@
 "use server";
 import { revalidatePath } from "next/cache";
 import { parseCustomTest } from "@/lib/custom/schema";
-import { deleteCustomTest, saveCustomTest } from "@/lib/data/custom";
+import { deleteCustomTest, DuplicateTestError, saveCustomTest } from "@/lib/data/custom";
 
 export async function previewCustomTest(text: string) {
   const r = parseCustomTest(text);
@@ -11,9 +11,14 @@ export async function previewCustomTest(text: string) {
 export async function uploadCustomTest(text: string) {
   const r = parseCustomTest(text);
   if (!r.ok) return { ok: false as const, errors: r.errors };
-  const saved = await saveCustomTest(r.test);
-  revalidatePath("/test/custom");
-  return { ok: true as const, id: saved.id };
+  try {
+    const saved = await saveCustomTest(r.test);
+    revalidatePath("/test/custom");
+    return { ok: true as const, id: saved.id };
+  } catch (e) {
+    if (e instanceof DuplicateTestError) return { ok: false as const, errors: [e.message] };
+    throw e;
+  }
 }
 
 export async function deleteCustomTestAction(formData: FormData) {

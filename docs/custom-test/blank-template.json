@@ -1,33 +1,77 @@
 {
   "format": "apex-test/1",
+  "id": "APEX-PT000-2024",
+  "number": 0,
+  "year": 2024,
   "title": "TEST TITLE",
+  "description": "TEST DESCRIPTION",
+  "totals": {
+    "sections": 2,
+    "questions": 2,
+    "scoredQuestions": 2
+  },
   "sections": [
     {
+      "id": "APEX-PT000-2024-S1",
+      "order": 1,
       "kind": "LR",
       "scored": true,
       "minutes": 35,
+      "directions": "SECTION DIRECTIONS",
+      "credits": [
+        "SOURCE CREDIT"
+      ],
       "questions": [
         {
+          "number": 1,
+          "id": "APEX-PT000-2024-S1-Q01",
           "stimulus": "STIMULUS TEXT",
           "stem": "QUESTION STEM",
           "choices": { "A": "…", "B": "…", "C": "…", "D": "…", "E": "…" },
-          "answer": "A"
+          "answer": "A",
+          "explanations": { "A": "…", "B": "…", "C": "…", "D": "…", "E": "…" },
+          "type": "QUESTION TYPE",
+          "category": "QUESTION CATEGORY",
+          "skill": "SKILL",
+          "difficulty": 1
         }
       ]
     },
     {
+      "id": "APEX-PT000-2024-S2",
+      "order": 2,
       "kind": "RC",
       "scored": true,
       "minutes": 35,
+      "directions": "SECTION DIRECTIONS",
       "passages": [
         {
-          "title": "PASSAGE TITLE",
-          "paragraphs": ["PARAGRAPH 1", "PARAGRAPH 2"],
+          "id": "APEX-PT000-2024-S2-P1",
+          "title": null,
+          "subject": "PASSAGE SUBJECT",
+          "comparative": false,
+          "paragraphs": [
+            "PARAGRAPH 1",
+            "PARAGRAPH 2"
+          ],
+          "credits": [
+            "SOURCE CREDIT"
+          ],
           "questions": [
             {
+              "number": 1,
+              "id": "APEX-PT000-2024-S2-Q01",
               "stem": "QUESTION STEM",
               "choices": { "A": "…", "B": "…", "C": "…", "D": "…", "E": "…" },
-              "answer": "A"
+              "answer": "A",
+              "explanations": { "A": "…", "B": "…", "C": "…", "D": "…", "E": "…" },
+              "type": "QUESTION TYPE",
+              "category": "QUESTION CATEGORY",
+              "difficulty": 1,
+              "reference": {
+                "text": "HIGHLIGHTED PASSAGE TEXT",
+                "paragraph": 0
+              }
             }
           ]
         }

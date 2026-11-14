@@ -1,0 +1,1 @@
+ALTER TABLE "custom_tests" ADD COLUMN "meta" jsonb;

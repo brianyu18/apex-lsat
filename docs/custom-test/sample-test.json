@@ -1,8 +1,20 @@
 {
   "format": "apex-test/1",
+  "id": "EXAMPLE-001",
+  "number": 1,
+  "year": 2026,
   "title": "Example test (replace with your own)",
+  "description": "Two short sections that show every field the importer reads.",
+  "totals": {
+    "sections": 2,
+    "questions": 3,
+    "scoredQuestions": 3
+  },
   "sections": [
     {
+      "id": "EXAMPLE-001-S1",
+      "order": 1,
+      "directions": "Each question is based on the reasoning in a short passage. Choose the best answer.",
       "kind": "LR",
       "scored": true,
       "minutes": 5,
@@ -18,6 +30,10 @@
             "E": "Most bakeries on Alder Street opened before 2010."
           },
           "answer": "A",
+          "number": 1,
+          "id": "EXAMPLE-001-S1-Q01",
+          "category": "Deduction",
+          "skill": "Conditional reasoning",
           "type": "must_be_true",
           "difficulty": 1,
           "explanation": "Contrapositive: no wood-fired oven → did not open before 2010."
@@ -33,18 +49,30 @@
             "E": "Some drivers dislike the bike lanes."
           },
           "answer": "B",
+          "number": 2,
+          "id": "EXAMPLE-001-S1-Q02",
+          "category": "Argument evaluation",
           "type": "weaken",
           "difficulty": 2
         }
       ]
     },
     {
+      "id": "EXAMPLE-001-S2",
+      "order": 2,
+      "directions": "Answer each question on the basis of what the passage states or implies.",
       "kind": "RC",
       "scored": true,
       "minutes": 5,
       "passages": [
         {
+          "id": "EXAMPLE-001-S2-P1",
           "title": "Harbor dredging",
+          "subject": "Science",
+          "comparative": false,
+          "credits": [
+            "Written for this example."
+          ],
           "paragraphs": [
             "For decades the port of Wexcombe dredged its harbor every spring, on the theory that winter storms deposited the silt that threatened shipping.",
             "A recent survey found instead that most silt arrives in late summer, carried by the river at low flow. The author argues that the dredging calendar, not the dredging budget, is what needs to change."
@@ -60,8 +88,15 @@
                 "E": "River flow is lowest in spring."
               },
               "answer": "C",
+              "number": 1,
+              "id": "EXAMPLE-001-S2-Q01",
               "type": "main_point",
-              "difficulty": 1
+              "category": "Global",
+              "difficulty": 1,
+              "reference": {
+                "text": "the dredging calendar, not the dredging budget",
+                "paragraph": 1
+              }
             }
           ]
         }

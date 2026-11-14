@@ -21,7 +21,7 @@ export default async function CustomTestsPage() {
       <Card>
         <CardTitle>Add a test</CardTitle>
         <CardDescription>
-          One JSON file per test, 1–4 sections. Per question only <code>stem</code>, <code>choices</code> (A–E) and <code>answer</code> are required (LR also needs <code>stimulus</code>); <code>type</code>, <code>difficulty</code> and <code>explanation</code> are optional. The full format is in <code>docs/custom-test-format.md</code>; the template is a working example.
+          One JSON file per test, 1–4 sections. Per question only <code>stem</code>, <code>choices</code> (A–E) and <code>answer</code> are required (LR also needs <code>stimulus</code>); everything else is optional, including the indexing fields (test <code>id</code>, <code>number</code>, <code>year</code>; question <code>number</code>, <code>id</code>, <code>category</code>, <code>skill</code>) and <code>totals</code>, which is checked against the file. The full format is in <code>docs/custom-test-format.md</code>; the template is a working example.
         </CardDescription>
         <div className="mt-4">
           <CustomUpload />
@@ -48,7 +48,10 @@ export default async function CustomTestsPage() {
             )}
             {tests.map((t) => (
               <tr key={t.id} className="border-b border-line last:border-b-0">
-                <td className="px-4 py-2 font-medium">{t.title}</td>
+                <td className="px-4 py-2 font-medium">
+                  {t.title}
+                  {(t.meta?.number != null || t.meta?.year != null || t.meta?.sourceId) && <span className="block text-xs font-normal text-ink-3">{[t.meta.number != null ? `#${t.meta.number}` : null, t.meta.year ?? null, t.meta.sourceId ?? null].filter((x) => x != null).join(" · ")}</span>}
+                </td>
                 <td className="px-4 py-2 text-ink-2">
                   {t.sections.map((s) => s.kind).join(" · ")} · {t.nQuestions} scored Q
                 </td>

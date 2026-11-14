@@ -302,7 +302,20 @@ export type PlanDay = typeof planDays.$inferSelect;
 export const customTests = pgTable("custom_tests", {
   id: text("id").primaryKey(),
   title: text("title").notNull(),
-  sections: jsonb("sections").$type<{ kind: "LR" | "RC"; scored: boolean; minutes: number; questionIds: string[]; passageIds?: string[] }[]>().notNull(),
+  sections: jsonb("sections").$type<{ kind: "LR" | "RC"; scored: boolean; minutes: number; questionIds: string[]; passageIds?: string[]; sourceId?: string; directions?: string; credits?: string[] }[]>().notNull(),
   nQuestions: integer("n_questions").notNull(),
+  /** indexing data from the uploaded file: the uploader's own ids, test number/year, and per-question category, skill and passage reference */
+  meta: jsonb("meta").$type<CustomTestMeta>(),
   createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
 });
+
+export type CustomTestMeta = {
+  sourceId?: string;
+  number?: number;
+  year?: number;
+  description?: string;
+  /** keyed by the app's question id */
+  questions: Record<string, { sourceId?: string; number?: number; category?: string; skill?: string; reference?: { text: string; paragraph?: number; passage?: "A" | "B" } }>;
+  /** keyed by the app's passage id */
+  passages: Record<string, { sourceId?: string; subject?: string; credits?: string[] }>;
+};

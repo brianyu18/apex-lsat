@@ -29,6 +29,13 @@
       "when": 1794286823295,
       "tag": "0003_violet_aqueduct",
       "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1794672657260,
+      "tag": "0004_little_white_queen",
+      "breakpoints": true
     }
   ]
 }

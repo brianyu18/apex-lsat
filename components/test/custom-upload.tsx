@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/primitives";
 import { previewCustomTest, uploadCustomTest } from "@/app/test/custom/actions";
 
-type Summary = { title: string; sections: { kind: string; scored: boolean; minutes: number; questions: number; passages?: number }[]; questions: number };
+type Summary = { title: string; label: string | null; warnings: string[]; sections: { kind: string; scored: boolean; minutes: number; questions: number; passages?: number }[]; questions: number };
 
 export function CustomUpload() {
   const router = useRouter();
@@ -63,7 +63,10 @@ export function CustomUpload() {
       )}
       {summary && (
         <div className="rounded-md border border-line p-3 text-sm" data-testid="custom-preview">
-          <p className="font-semibold">{summary.title}</p>
+          <p className="font-semibold">
+            {summary.title}
+            {summary.label && <span className="ml-2 font-normal text-ink-3">{summary.label}</span>}
+          </p>
           <ul className="mt-1 flex flex-wrap gap-2">
             {summary.sections.map((s, i) => (
               <li key={i}>
@@ -73,6 +76,13 @@ export function CustomUpload() {
               </li>
             ))}
           </ul>
+          {summary.warnings.length > 0 && (
+            <ul className="mt-2 list-disc space-y-0.5 pl-5 text-xs text-ink-2" data-testid="custom-warnings">
+              {summary.warnings.map((w) => (
+                <li key={w}>{w}</li>
+              ))}
+            </ul>
+          )}
           <label className="mt-3 flex items-start gap-2 text-xs text-ink-2">
             <input type="checkbox" checked={confirmed} onChange={(e) => setConfirmed(e.target.checked)} className="mt-0.5" />
             <span>This is my own material or material I have the right to use this way. It will be stored only in my private database.</span>
