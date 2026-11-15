@@ -1,0 +1,1092 @@
+[
+  {
+    "id": "lr-k-flaw-showroom-repaint",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 1,
+    "stimulus": "Store owner: Since we repainted the showroom in bright colors in October, our monthly sales have risen every month through December. Clearly, the new paint scheme is what has been attracting more customers and driving up our sales.",
+    "stem": "The reasoning in the argument is most vulnerable to criticism on the grounds that it",
+    "choices": {
+      "A": "overlooks the possibility that some other change, such as the start of the holiday shopping season, accounts for the rise in sales",
+      "B": "assumes that bright colors appeal to every customer who visits the showroom",
+      "C": "fails to establish that the store's sales records for the period were accurate",
+      "D": "treats an increase in sales as though it showed an increase in the store's profits",
+      "E": "bases its conclusion on a period of only three months"
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. The argument moves from 'sales rose after the repaint' to 'the repaint caused the rise' without ruling out another factor that changed over the same months, such as holiday shopping.",
+      "B": "Extreme: the owner needs only that the paint attracted more customers, not that it appeals to 'every' customer.",
+      "C": "Out of scope: the premise about rising sales is granted; the flaw lies in the causal inference, not in record keeping.",
+      "D": "Wrong part: the argument concludes only that the paint is driving up 'sales' and never mentions profits.",
+      "E": "Wrong force: a short period is at most a minor quibble; even a longer period of rising sales would leave the causal gap open."
+    },
+    "trapPatterns": {
+      "B": "extreme",
+      "C": "out_of_scope",
+      "D": "wrong_part",
+      "E": "wrong_force"
+    },
+    "keyTakeaway": "When an effect follows a change in time, ask what else changed over the same period.",
+    "predictionHint": "Post hoc: something else, like the holiday season, could explain rising sales."
+  },
+  {
+    "id": "lr-k-flaw-hollis-dialect-commentators",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "definition_scope"
+    ],
+    "difficulty": 2,
+    "stimulus": "Linguist: Several commentators have claimed that the dialect of the Hollis valley is disappearing because young residents no longer use its distinctive vocabulary. But these commentators have never lived in the valley, and none of them speaks the dialect. Their claim should therefore be rejected.",
+    "stem": "The reasoning in the argument is most vulnerable to criticism on the grounds that it",
+    "choices": {
+      "A": "presumes that a dialect cannot disappear unless its distinctive vocabulary is abandoned",
+      "B": "rejects a claim because of facts about those who advance it rather than by examining the evidence for or against the claim",
+      "C": "fails to define what it would take for a dialect to count as having disappeared",
+      "D": "treats the opinions of commentators as less reliable than those of trained linguists",
+      "E": "generalizes about all dialects from the situation of a single valley"
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "The linguist never asserts this; the argument does not turn on any link between vocabulary and disappearance.",
+      "B": "Correct. The only reason offered for rejecting the claim is that the commentators lack firsthand experience. Whether young residents have dropped the vocabulary is never examined, so the claim is dismissed on the basis of its source.",
+      "C": "Out of scope: the argument does not depend on a definition; it fails because it never engages the commentators' evidence.",
+      "D": "Wrong part: no comparison with trained linguists is made; the criticism is that the commentators are outsiders.",
+      "E": "Wrong part: the claim rejected concerns only the Hollis valley dialect, so no generalization is made."
+    },
+    "trapPatterns": {
+      "A": "necessary_v_sufficient",
+      "C": "out_of_scope",
+      "D": "wrong_part",
+      "E": "wrong_part"
+    },
+    "keyTakeaway": "Attacking who makes a claim is not the same as showing the claim is false.",
+    "predictionHint": "The argument dismisses the claim because of who makes it, not because of the evidence."
+  },
+  {
+    "id": "lr-k-flaw-exit-interviews-management",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "lack_of_support_v_false"
+    ],
+    "difficulty": 2,
+    "stimulus": "Human resources director: We reviewed the exit interviews of every employee who left the company voluntarily last year, and not one of them listed dissatisfaction with management as a reason for leaving. Therefore, dissatisfaction with management played no role in any of those departures.",
+    "stem": "The reasoning in the argument is most vulnerable to criticism on the grounds that it",
+    "choices": {
+      "A": "fails to consider that employees who stayed with the company may also be dissatisfied with management",
+      "B": "relies on a review conducted by someone with a stake in the company's reputation",
+      "C": "treats the absence of reported dissatisfaction as showing there was none, though departing employees may not voice it",
+      "D": "draws a conclusion about every departure from only some of the exit interviews",
+      "E": "relies on departures from a single year, which may not be typical of other years"
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Wrong part: the conclusion concerns only the employees who left, so the feelings of those who stayed are beside the point.",
+      "B": "Out of scope: the argument is not criticized for who conducted the review; even an impartial reviewer would face the same gap.",
+      "C": "Correct. That no one listed management as a reason shows only that it went unreported. Employees may keep such complaints out of exit interviews, so the lack of reports does not show the lack of dissatisfaction.",
+      "D": "Shell game: the premise states that every voluntary departure was reviewed, so the sample is complete.",
+      "E": "Wrong part: the conclusion is about 'those departures' only, so other years are irrelevant."
+    },
+    "trapPatterns": {
+      "A": "wrong_part",
+      "B": "out_of_scope",
+      "D": "shell_game",
+      "E": "wrong_part"
+    },
+    "keyTakeaway": "Absence of evidence in a self-reported source is not evidence of absence.",
+    "predictionHint": "Nothing reported does not mean nothing felt: people may not say it in an exit interview."
+  },
+  {
+    "id": "lr-k-flaw-brell-resignations-sales",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "math_percent"
+    ],
+    "difficulty": 3,
+    "stimulus": "Analyst: Last year, 70 percent of the employees who resigned from Brell Corporation had worked in its sales department. Hence, a sales employee at Brell was far more likely to resign last year than not.",
+    "stem": "The reasoning in the argument is most vulnerable to criticism on the grounds that it",
+    "choices": {
+      "A": "fails to consider that employees in other departments may have resigned for reasons unrelated to their jobs",
+      "B": "treats the resignations of a single year as typical of all the years in which the company has operated",
+      "C": "overlooks that resigning employees may differ from remaining ones in the pay they received",
+      "D": "confuses the proportion of resignations that came from sales with the proportion of sales employees who resigned",
+      "E": "draws a conclusion about each sales employee from evidence about the sales department as a whole"
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Out of scope: why other employees resigned has no bearing on how likely sales employees were to resign.",
+      "B": "Wrong part: the conclusion is explicitly limited to 'last year,' so no extrapolation to other years is made.",
+      "C": "Out of scope: pay is never mentioned, and the argument's problem exists even if pay was identical.",
+      "D": "Correct. Seventy percent of the resignations came from sales, but if sales is a large part of the workforce, only a small fraction of sales employees may have resigned. The share of resignees in sales says nothing about the share of sales employees who resigned.",
+      "E": "Wrong part: the evidence is not about the department's overall behavior; the conclusion is already stated as a likelihood, so no individual-level claim is made."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "wrong_part",
+      "C": "out_of_scope",
+      "E": "wrong_part"
+    },
+    "keyTakeaway": "A percentage of leavers who share a trait is not a percentage of people with that trait who leave.",
+    "predictionHint": "Base-rate error: what share of sales employees resigned depends on how many sales employees there are."
+  },
+  {
+    "id": "lr-k-flaw-calder-outside-managers",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "quantifiers",
+      "part_v_whole"
+    ],
+    "difficulty": 4,
+    "stimulus": "Nearly all of the managers whom Calder Freight hired from outside the company oppose the planned reorganization. Most of the Calder Freight employees who oppose the reorganization have worked at the company for fewer than five years. Therefore, most of the managers Calder Freight hired from outside have worked at the company for fewer than five years.",
+    "stem": "The reasoning in the argument is most vulnerable to criticism on the grounds that it",
+    "choices": {
+      "A": "concludes that the outside managers oppose the reorganization because they have short tenure with the company",
+      "B": "draws a conclusion about all of the outside managers on the basis of a premise about most of the employees who oppose the reorganization",
+      "C": "takes for granted that the opponents with short service are typical of all the outside managers with respect to opposing the reorganization",
+      "D": "relies on the claim that nearly all of the outside managers oppose the reorganization, which cannot be known without a survey",
+      "E": "takes for granted that the outside managers who oppose the reorganization are typical of all who oppose it with respect to length of service"
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Out of scope: the argument draws no causal connection between tenure and opposition in either direction.",
+      "B": "Wrong force: the conclusion is itself only about 'most' of the outside managers, so it does not overreach from 'most' to 'all'.",
+      "C": "Reversal: this runs the overlap in the wrong direction. The conclusion concerns the service of the outside managers who oppose, not their propensity to oppose.",
+      "D": "Out of scope: that premise is granted, and the gap remains however it was established.",
+      "E": "Correct. Most opponents have short service, but the outside managers could be the minority of opponents with long service. The conclusion needs the outside managers who oppose to be typical of all opponents in length of service."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "wrong_force",
+      "C": "reversal",
+      "D": "out_of_scope"
+    },
+    "keyTakeaway": "A majority overlap between two groups does not tell you how a particular subgroup splits.",
+    "predictionHint": "The outside managers could be the long-serving minority within the opponents."
+  },
+  {
+    "id": "lr-k-mss-garland-park-software",
+    "section": "LR",
+    "type": "most_strongly_supported",
+    "logicTags": [
+      "quantifiers"
+    ],
+    "difficulty": 1,
+    "stimulus": "Most of the software firms in Garland Park allow their employees to work remotely. Every software firm in Garland Park that allows remote work also offers flexible hours. A few of the software firms in Garland Park have fewer than ten employees.",
+    "stem": "Which one of the following is most strongly supported by the information above?",
+    "choices": {
+      "A": "Most of the software firms in Garland Park with fewer than ten employees allow remote work.",
+      "B": "Every software firm in Garland Park that offers flexible hours allows its employees to work remotely.",
+      "C": "At least some software firms in Garland Park offer flexible hours.",
+      "D": "The software firms in Garland Park with fewer than ten employees do not offer flexible hours.",
+      "E": "Software firms in Garland Park that do not allow remote work do not offer flexible hours."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Out of scope: the statements say nothing about how remote work is distributed among the small firms.",
+      "B": "Reversal: the second statement says remote work implies flexible hours, not the other way around.",
+      "C": "Correct. Most firms allow remote work, so at least some do, and every such firm offers flexible hours.",
+      "D": "Extreme: nothing links firm size to flexible hours, and the statements give no basis for 'do not'.",
+      "E": "Remote work is sufficient for flexible hours, not necessary; firms without remote work may still offer flexible hours."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "reversal",
+      "D": "extreme",
+      "E": "necessary_v_sufficient"
+    },
+    "keyTakeaway": "A 'most' statement guarantees at least one case, which a conditional can then carry forward.",
+    "predictionHint": "Most allow remote, all remote offer flex, so some firms offer flex."
+  },
+  {
+    "id": "lr-k-mss-tamarin-irregular-verbs",
+    "section": "LR",
+    "type": "most_strongly_supported",
+    "logicTags": [
+      "conditional"
+    ],
+    "difficulty": 2,
+    "stimulus": "In Tamarin, every verb with an irregular past tense is among the two hundred most frequently used Tamarin verbs. The verb \"quell\" is not among those two hundred. Tamarin has fewer irregular verbs than its sister language, Orven, which has also lost many of its older verbs over the past century.",
+    "stem": "Which one of the following is most strongly supported by the information above?",
+    "choices": {
+      "A": "The past tense of \"quell\" is regular.",
+      "B": "Every one of the two hundred most frequently used Tamarin verbs has an irregular past tense.",
+      "C": "Orven has more than two hundred verbs with irregular past tenses.",
+      "D": "The verb \"quell\" is used less often than any other Tamarin verb.",
+      "E": "Orven has lost more verbs than Tamarin has over the past century."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. Irregular verbs all fall among the two hundred most frequent, and quell does not, so by contraposition quell is not irregular.",
+      "B": "Reversal: the statement gives irregularity as sufficient for being in the top two hundred, not the reverse.",
+      "C": "Comparison shift: Orven has more irregular verbs than Tamarin, but Tamarin may have far fewer than two hundred, so nothing shows Orven exceeds two hundred.",
+      "D": "Extreme: being outside the top two hundred does not make quell the least frequent verb.",
+      "E": "Out of scope: the passage says only that Orven lost many verbs and gives no comparison of verb loss."
+    },
+    "trapPatterns": {
+      "B": "reversal",
+      "C": "comparison_shift",
+      "D": "extreme",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "Turn 'every X is Y' into its contrapositive before judging an inference about a non-Y.",
+    "predictionHint": "All irregulars are top-200; quell is not top-200; so quell is regular."
+  },
+  {
+    "id": "lr-k-mss-quillan-market-share",
+    "section": "LR",
+    "type": "most_strongly_supported",
+    "logicTags": [
+      "comparison",
+      "quantifiers"
+    ],
+    "difficulty": 3,
+    "stimulus": "Economist: Among firms that hold more than 60 percent of the market in a given segment, price increases are, on average, followed within three years by the exit of smaller rivals from that segment. Quillan Networks holds more than 60 percent of each of several regional broadband segments and has raised its prices in every one of them over the past three years. No smaller rival has exited any of those segments during that time.",
+    "stem": "Which one of the following is most strongly supported by the information above?",
+    "choices": {
+      "A": "Smaller rivals in the regional broadband market are unlikely to exit any segment in the future.",
+      "B": "Quillan's experience in these segments differs from what is, on average, the case for firms holding such market shares.",
+      "C": "Quillan's price increases have had no effect on the competitive position of its smaller rivals.",
+      "D": "Quillan holds more than 60 percent of every regional broadband segment.",
+      "E": "Most firms holding more than 60 percent of a segment have seen smaller rivals exit after raising prices."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Extreme: three years without exits in these segments does not show that exits are unlikely in the future.",
+      "B": "Correct. On average, price rises by dominant firms are followed within three years by rival exits. Quillan raised prices in every segment and no rival exited, so its experience departs from the average pattern.",
+      "C": "Extreme: rivals may have lost customers or profits without exiting, so 'no effect' goes beyond the evidence.",
+      "D": "Shell game: the passage says 'several' segments; it never says Quillan dominates all of them.",
+      "E": "Wrong force: an average tendency does not guarantee that most firms follow the pattern; a few extreme cases can drive an average."
+    },
+    "trapPatterns": {
+      "A": "extreme",
+      "C": "extreme",
+      "D": "shell_game",
+      "E": "wrong_force"
+    },
+    "keyTakeaway": "'On average' describes a tendency across cases and does not tell you what happens in most individual cases.",
+    "predictionHint": "Quillan's case contradicts the average tendency but does not prove the tendency false."
+  },
+  {
+    "id": "lr-k-na-harlow-ticketing-software",
+    "section": "LR",
+    "type": "necessary_assumption",
+    "logicTags": [
+      "math_percent",
+      "link_assumption"
+    ],
+    "difficulty": 2,
+    "stimulus": "Consultant: The new ticketing software lets customer-service agents resolve each ticket in less time than before. Therefore, Harlow Appliances will be able to handle its growing ticket volume without hiring additional agents.",
+    "stem": "The argument depends on assuming which one of the following?",
+    "choices": {
+      "A": "The software will be easy for Harlow's agents to learn to use.",
+      "B": "Harlow's agents currently resolve tickets more slowly than agents at comparable companies.",
+      "C": "Harlow's competitors have not adopted similar ticketing software.",
+      "D": "Harlow's ticket volume will not grow by more than its current agents can absorb with the time the software saves.",
+      "E": "Harlow's agents are currently unable to resolve all of the tickets they receive."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Out of scope: the argument concerns time saved once the software is in use, and learning difficulty is not required for the conclusion.",
+      "B": "Comparison shift: how Harlow compares with other companies is irrelevant to whether its own capacity covers its own volume.",
+      "C": "Out of scope: competitors' software does not affect whether Harlow's agents can keep up.",
+      "D": "Correct. If volume grows beyond what the saved time can absorb, the current agents could not keep up, and hiring would be needed. Denying this statement destroys the conclusion.",
+      "E": "Opposite: if agents already cannot keep up, the time savings must first cover that backlog, which makes the conclusion harder to reach, not easier."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "comparison_shift",
+      "C": "out_of_scope",
+      "E": "opposite"
+    },
+    "keyTakeaway": "For a capacity argument, the needed assumption is that demand will not outgrow the new capacity.",
+    "predictionHint": "Growth in tickets must not exceed the capacity the time savings create."
+  },
+  {
+    "id": "lr-k-na-altan-early-english",
+    "section": "LR",
+    "type": "necessary_assumption",
+    "logicTags": [
+      "causation",
+      "eliminating_options"
+    ],
+    "difficulty": 3,
+    "stimulus": "Researcher: Children who begin learning a second language before the age of seven typically speak it without a foreign accent. In a recent study in the Altan region, children who started English lessons at school at age five were found, at age fifteen, to speak English with no discernible foreign accent. This shows that those early school lessons, rather than English heard outside school, produced their accent-free speech.",
+    "stem": "The argument depends on assuming which one of the following?",
+    "choices": {
+      "A": "No child who begins learning a second language after the age of seven can speak it without a foreign accent.",
+      "B": "Every child in the Altan region who began English lessons at age five has since spoken English without a foreign accent.",
+      "C": "The teachers who gave the children's English lessons were themselves free of any foreign accent.",
+      "D": "The children received more hours of English instruction at school than children who start lessons later usually receive.",
+      "E": "The amount of English the children heard outside school was too small to account, by itself, for their accent-free speech."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "The first statement says early learners typically lack an accent; the argument does not need late learners to always have one.",
+      "B": "Extreme: the argument concerns the children in the study; it does not need every child in the region to succeed.",
+      "C": "Out of scope: lessons could have produced accent-free speech through recordings or other models, so the teachers' accents are not required.",
+      "D": "Comparison shift: the argument contrasts school lessons with outside exposure, not early starters with later starters in hours of instruction.",
+      "E": "Correct. If outside exposure alone could have produced the accent-free speech, the study would not show that the lessons did it. Denying this statement undermines the conclusion."
+    },
+    "trapPatterns": {
+      "A": "necessary_v_sufficient",
+      "B": "extreme",
+      "C": "out_of_scope",
+      "D": "comparison_shift"
+    },
+    "keyTakeaway": "When a conclusion says 'X rather than Y', the necessary assumption rules out Y as a sufficient alternative.",
+    "predictionHint": "Outside exposure must not be enough, by itself, to explain the result."
+  },
+  {
+    "id": "lr-k-na-union-overtime-unjust",
+    "section": "LR",
+    "type": "necessary_assumption",
+    "logicTags": [
+      "value_judgment"
+    ],
+    "difficulty": 1,
+    "stimulus": "Union representative: The company's new scheduling policy requires employees to work overtime hours at their regular rate of pay. This policy is unjust, because it treats employees' extra time as though it were worth no more than their ordinary working time.",
+    "stem": "The argument depends on assuming which one of the following?",
+    "choices": {
+      "A": "Treating employees' extra hours as worth no more than ordinary hours is unjust.",
+      "B": "The company could afford to pay a higher rate for overtime hours.",
+      "C": "Most employees would prefer not to work overtime.",
+      "D": "Overtime hours are more physically demanding than ordinary working hours.",
+      "E": "No law requires employers to pay a higher rate for overtime hours."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. The conclusion of injustice rests on this evaluation. If treating extra hours as equal to ordinary hours were not unjust, the premise would give no support.",
+      "B": "Out of scope: whether the policy is unjust does not depend on the company's ability to pay.",
+      "C": "Out of scope: employee preference is not what the argument relies on to establish injustice.",
+      "D": "This may be true, but the argument's premise concerns how the time is valued, not how demanding it is.",
+      "E": "Out of scope: legality is a separate question from the justice claim the representative makes."
+    },
+    "trapPatterns": {
+      "B": "out_of_scope",
+      "C": "out_of_scope",
+      "D": "true_but_irrelevant",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "Evaluative conclusions often require an assumption that links the factual premise to the value judgment.",
+    "predictionHint": "The premise describes the policy; the needed link says that such treatment is unjust."
+  },
+  {
+    "id": "lr-k-weaken-orchard-bike-lanes",
+    "section": "LR",
+    "type": "weaken",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 1,
+    "stimulus": "City planner: Adding protected bike lanes to Orchard Avenue will reduce downtown traffic congestion. Commuters who now drive to work along Orchard Avenue will switch to cycling once the lanes make cycling safe, and every commuter who switches leaves one fewer car on the road.",
+    "stem": "Which one of the following, if true, most seriously weakens the argument?",
+    "choices": {
+      "A": "Protected bike lanes cost less to build than additional lanes for cars would.",
+      "B": "Most of the commuters who are expected to use the new bike lanes currently walk or take the bus rather than drive.",
+      "C": "Some cyclists prefer not to ride when the weather is wet or cold.",
+      "D": "Downtown traffic congestion was considerably worse ten years ago than it is today.",
+      "E": "A survey found that many drivers on Orchard Avenue would consider commuting by bicycle if the lanes were protected."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Out of scope: construction cost has no bearing on whether congestion falls.",
+      "B": "Correct. If the new cyclists would come from pedestrians and bus riders, few cars would leave the road, so congestion would not fall as the planner predicts.",
+      "C": "Wrong force: 'some' cyclists skipping bad weather days does little to stop the drivers who do switch from reducing congestion.",
+      "D": "Out of scope: past levels of congestion do not bear on the effect of the new lanes.",
+      "E": "Opposite: this strengthens the claim that drivers will switch."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "C": "wrong_force",
+      "D": "out_of_scope",
+      "E": "opposite"
+    },
+    "keyTakeaway": "To weaken a prediction, attack the premise that the key group will actually change its behavior.",
+    "predictionHint": "Show the new riders are not the drivers whose cars would leave the road."
+  },
+  {
+    "id": "lr-k-weaken-ardenia-job-training",
+    "section": "LR",
+    "type": "weaken",
+    "logicTags": [
+      "causation",
+      "comparison"
+    ],
+    "difficulty": 2,
+    "stimulus": "Economist: Countries that spend a large share of their national budgets on job-training programs have, on average, lower youth unemployment than countries that spend little. Ardenia currently spends very little on job training. So if Ardenia substantially increased its spending on such programs, its youth unemployment would fall.",
+    "stem": "Which one of the following, if true, most seriously weakens the argument?",
+    "choices": {
+      "A": "Youth unemployment is typically higher than unemployment among older workers.",
+      "B": "Ardenia's youth unemployment is currently higher than the average among the countries studied.",
+      "C": "In many of the countries with high training budgets, spending on training was increased only after youth unemployment had already fallen.",
+      "D": "Most job-training programs are funded through payroll taxes paid by employers.",
+      "E": "Countries vary widely in the size of their populations and in the size of their national budgets."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "This may be true, but it applies equally to all the countries compared and does not affect whether training spending lowers youth unemployment.",
+      "B": "Out of scope: Ardenia's current level does not show whether training spending would change it.",
+      "C": "Correct. This reverses the causal direction: low youth unemployment may have led to higher training spending rather than the reverse, so raising spending in Ardenia need not lower unemployment.",
+      "D": "Out of scope: how programs are funded does not bear on their effect on unemployment.",
+      "E": "The comparison is of budget shares, so differences in absolute size do not undermine the pattern."
+    },
+    "trapPatterns": {
+      "A": "true_but_irrelevant",
+      "B": "out_of_scope",
+      "D": "out_of_scope",
+      "E": "true_but_irrelevant"
+    },
+    "keyTakeaway": "A cross-country correlation can be weakened by showing the effect came first.",
+    "predictionHint": "Reverse causation: lower unemployment may have enabled the training spending."
+  },
+  {
+    "id": "lr-k-weaken-lorenzian-vetch-ancestry",
+    "section": "LR",
+    "type": "weaken",
+    "logicTags": [
+      "causation",
+      "analogy"
+    ],
+    "difficulty": 3,
+    "stimulus": "Historical linguist: The Lorenzian dialects are the ancestor of modern Vetch. After all, Vetch contains hundreds of words that closely resemble words found in Lorenzian texts, and those Lorenzian texts are far older than any surviving text in Vetch.",
+    "stem": "Which one of the following, if true, most seriously weakens the argument?",
+    "choices": {
+      "A": "Vetch also contains many words that have no counterpart in any known Lorenzian text.",
+      "B": "Most surviving Lorenzian texts concern religious ritual rather than everyday life.",
+      "C": "Many of the words resembling Lorenzian ones are among the most frequently used words in Vetch.",
+      "D": "Most of the resembling words are of a kind that languages routinely borrow from neighbors, and Lorenzian was spoken beside Vetch for centuries.",
+      "E": "No other language is known to have contributed as many resembling words to Vetch as Lorenzian has."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Wrong force: a descendant language normally develops new words, so words with no Lorenzian counterpart do not count against ancestry.",
+      "B": "Out of scope: the subject matter of the texts does not bear on whether the resembling words show ancestry.",
+      "C": "Opposite: heavily used core words are more likely to be inherited, so this strengthens the claim.",
+      "D": "Correct. This offers an alternative explanation of the resemblance: borrowing from a neighbor. If the words were borrowed, their resemblance does not show that Lorenzian is the ancestor.",
+      "E": "This adds support to the idea that Lorenzian is special to Vetch, so it strengthens rather than weakens."
+    },
+    "trapPatterns": {
+      "A": "wrong_force",
+      "B": "out_of_scope",
+      "C": "opposite",
+      "E": "premise_booster"
+    },
+    "keyTakeaway": "Resemblance can be explained by inheritance or by borrowing; to weaken an ancestry claim, supply the rival explanation.",
+    "predictionHint": "Offer a rival explanation: borrowing between neighboring languages."
+  },
+  {
+    "id": "lr-k-resolve-corvane-satisfaction-turnover",
+    "section": "LR",
+    "type": "resolve_explain",
+    "logicTags": [
+      "comparison"
+    ],
+    "difficulty": 2,
+    "stimulus": "Every employee of Corvane Industries completes an anonymous annual survey, and the results consistently show that employees are highly satisfied with the work they do. Yet voluntary turnover at Corvane is well above the industry average.",
+    "stem": "Which one of the following, if true, most helps to explain the discrepancy described above?",
+    "choices": {
+      "A": "Voluntary turnover at several other firms in Corvane's industry has also risen in recent years.",
+      "B": "Employees who are satisfied with their work generally describe themselves as satisfied with their employers.",
+      "C": "Corvane's voluntary turnover has risen steadily during the past five years.",
+      "D": "Corvane has a long-standing practice of hiring most of its new employees from other firms in the industry.",
+      "E": "Corvane's pay is well below what competitors offer, and employees who like their work nonetheless leave for better-paying jobs."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Out of scope: this concerns other firms and does not explain why satisfied Corvane employees leave.",
+      "B": "Opposite: this deepens the puzzle by making the high turnover harder to explain.",
+      "C": "This restates the high turnover as a trend and gives no reason why satisfied employees leave.",
+      "D": "Hiring from competitors says nothing about why employees later leave in spite of their satisfaction.",
+      "E": "Correct. It shows a reason, independent of satisfaction with the work, for employees to leave, which reconciles the survey results with the turnover."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "opposite",
+      "C": "true_but_irrelevant",
+      "D": "true_but_irrelevant"
+    },
+    "keyTakeaway": "Explain a discrepancy by finding a second factor that lets both facts hold at once.",
+    "predictionHint": "Satisfaction with the work and low pay can coexist with high turnover."
+  },
+  {
+    "id": "lr-k-resolve-dunmore-congestion-fee",
+    "section": "LR",
+    "type": "resolve_explain",
+    "logicTags": [
+      "comparison"
+    ],
+    "difficulty": 3,
+    "stimulus": "Since the city of Dunmore began charging a fee to drive into its downtown core, the number of vehicles entering downtown on weekdays has fallen by about one fifth. Yet average weekday travel times for trips through downtown are no shorter than they were before the fee began.",
+    "stem": "Which one of the following, if true, most helps to explain the discrepancy described above?",
+    "choices": {
+      "A": "Revenue from the fee has been used to replace a traffic lane on most downtown streets with wider sidewalks, cutting road capacity by roughly a fifth.",
+      "B": "The number of pedestrians in the downtown core has risen since the fee was introduced.",
+      "C": "Revenue from the fee has been lower than the city's projections.",
+      "D": "Drivers who still enter downtown are mostly those who travel at times of day when streets are least crowded.",
+      "E": "The fee applies only to private cars and not to delivery trucks or taxis."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. Fewer vehicles would normally speed travel, but a cut in road capacity of about the same size offsets the gain, so travel times stay about the same.",
+      "B": "Wrong force: more pedestrians might slow some trips slightly, but nothing suggests the effect is large enough to cancel a one-fifth drop in vehicles.",
+      "C": "Revenue shortfalls have no connection to travel times downtown.",
+      "D": "Opposite: driving at uncrowded hours would make travel times shorter, deepening the puzzle.",
+      "E": "Half right: exempt vehicles explain why not all vehicles disappeared, but the count of vehicles is already stated to have fallen by a fifth."
+    },
+    "trapPatterns": {
+      "B": "wrong_force",
+      "C": "true_but_irrelevant",
+      "D": "opposite",
+      "E": "half_right"
+    },
+    "keyTakeaway": "To resolve 'less of X but no improvement in Y', look for something that offsets X's effect on Y.",
+    "predictionHint": "Reduced road capacity offsets the reduction in traffic."
+  },
+  {
+    "id": "lr-k-strengthen-westfield-crm-software",
+    "section": "LR",
+    "type": "strengthen",
+    "logicTags": [
+      "causation",
+      "comparison"
+    ],
+    "difficulty": 1,
+    "stimulus": "Sales director: Last year the Westfield sales team began using the new customer-management software, and its deals closed an average of ten percent faster than those of the Eastfield team, which did not. So if every team adopts the software, deals will close faster across the company.",
+    "stem": "Which one of the following, if true, most strengthens the argument?",
+    "choices": {
+      "A": "The software is less expensive than most competing customer-management products.",
+      "B": "Members of the Westfield team say they enjoy using the software.",
+      "C": "Before the Westfield team began using the software, its deals closed at about the same speed as those of the Eastfield team.",
+      "D": "The Westfield team has more members than the Eastfield team.",
+      "E": "Some teams in the company already close deals faster than the Westfield team does."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Out of scope: cost does not bear on whether the software speeds up deals.",
+      "B": "Enjoyment is not speed; satisfied users could close deals no faster than before.",
+      "C": "Correct. If the teams started out equal, the ten percent difference is more plausibly due to the software than to pre-existing differences.",
+      "D": "Team size could matter either way; nothing links it to support for the software's effect.",
+      "E": "Out of scope: other teams' speeds do not show that the software caused Westfield's advantage."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "half_right",
+      "D": "true_but_irrelevant",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "A comparison supports causation more strongly when the groups were alike before the treatment.",
+    "predictionHint": "Show the two teams were comparable before the software."
+  },
+  {
+    "id": "lr-k-strengthen-korren-winter-word",
+    "section": "LR",
+    "type": "strengthen",
+    "logicTags": [
+      "link_assumption"
+    ],
+    "difficulty": 2,
+    "stimulus": "Linguist: The Korren language has no native word for winter. This suggests that the Korren people originated in a region with a tropical climate, where winter is unknown.",
+    "stem": "Which one of the following, if true, most strengthens the argument?",
+    "choices": {
+      "A": "Korren contains many words borrowed from the languages of neighboring peoples.",
+      "B": "Peoples whose ancestors lived for many generations in regions that have winters almost always have a native word for it.",
+      "C": "Some peoples who originated in tropical regions have borrowed a word for winter from other languages.",
+      "D": "Most Korren speakers today live in regions where winters are mild.",
+      "E": "Languages often lack words for common features of the environment that matter little to their speakers."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Out of scope: borrowing in general does not link the missing word to the climate of origin.",
+      "B": "Correct. It supplies the missing link: a missing winter word is then good evidence that the speakers' ancestors did not live with winters.",
+      "C": "Borrowing by some tropical peoples does not show that the lack of a native word indicates a tropical origin.",
+      "D": "Out of scope: where speakers live today does not show where their ancestors originated.",
+      "E": "Opposite: this gives another reason for a missing winter word, which weakens the inference to a tropical origin."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "C": "true_but_irrelevant",
+      "D": "out_of_scope",
+      "E": "opposite"
+    },
+    "keyTakeaway": "To strengthen an inference from a language feature to history, supply the generalization that connects them.",
+    "predictionHint": "Linking premise: peoples who lived with winters almost always name them."
+  },
+  {
+    "id": "lr-k-psa-dana-harbor-account",
+    "section": "LR",
+    "type": "pseudo_sufficient_assumption",
+    "logicTags": [
+      "value_judgment",
+      "weighing_factors"
+    ],
+    "difficulty": 3,
+    "stimulus": "Supervisor: Dana should not lead the Harbor account. She is the most skilled analyst on the team, but she has missed deadlines on two projects she led, and a missed deadline on the Harbor account would cost the firm its largest client.",
+    "stem": "Which one of the following principles, if valid, most helps to justify the supervisor's reasoning?",
+    "choices": {
+      "A": "The most skilled available person should lead every client account.",
+      "B": "Employees who have missed deadlines should be given an opportunity to show that they can reliably meet them.",
+      "C": "No employee who has missed a deadline should be given responsibility for a client account.",
+      "D": "When a failure would be very costly, reliability should count for more than skill in deciding who is given a task.",
+      "E": "A person's past performance is a better guide to future performance than that person's skill is."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Opposite: this principle would favor Dana, the most skilled analyst, over the supervisor's conclusion.",
+      "B": "Opposite: this favors giving Dana another chance, which supports the opposite of the supervisor's conclusion.",
+      "C": "Extreme: this bars anyone with a missed deadline from any account, far beyond the high-stakes Harbor case the supervisor describes.",
+      "D": "Correct. A missed deadline on Harbor would be very costly and Dana's record is unreliable, so reliability should outweigh her superior skill.",
+      "E": "This addresses prediction, not what to do. It does not say that reliability should outweigh skill when the stakes are high, which is the supervisor's concern."
+    },
+    "trapPatterns": {
+      "A": "opposite",
+      "B": "opposite",
+      "C": "extreme",
+      "E": "half_right"
+    },
+    "keyTakeaway": "A justifying principle must connect the stated factors to the recommendation, including the stakes mentioned.",
+    "predictionHint": "High stakes mean reliability outweighs skill."
+  },
+  {
+    "id": "lr-k-psa-tomas-reassignment-notice",
+    "section": "LR",
+    "type": "pseudo_sufficient_assumption",
+    "logicTags": [
+      "conditional",
+      "value_judgment"
+    ],
+    "difficulty": 3,
+    "stimulus": "Ethicist: The firm acted wrongly in reassigning Tomas without notice. For years the firm has given reassigned employees a month's notice, Tomas relied on that practice in making his plans, and the firm never indicated that the practice had ended.",
+    "stem": "Which one of the following principles, if valid, most helps to justify the ethicist's reasoning?",
+    "choices": {
+      "A": "An organization acts wrongly only if it ends an established practice on which people rely without first indicating that the practice will end.",
+      "B": "An organization that has not indicated that a practice has ended acts wrongly if the practice was written into its employees' contracts.",
+      "C": "Employees who rely on an established practice are entitled to compensation when the practice is abandoned.",
+      "D": "An organization acts wrongly if it makes a change that harms an employee who could not have anticipated the change.",
+      "E": "An organization acts wrongly if it ends an established practice on which people rely without first indicating that the practice will end."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "'Only if' makes this a necessary condition for acting wrongly. The ethicist needs a sufficient condition to conclude that the firm acted wrongly.",
+      "B": "Narrower than needed: the practice here was long-standing, and nothing says it was written into contracts.",
+      "C": "Compensation is a different matter from whether the firm acted wrongly in ending the practice without notice.",
+      "D": "The passage never says that Tomas was harmed or that he could not have anticipated the change.",
+      "E": "Correct. The firm had an established practice, Tomas relied on it, and the firm ended it without any indication. This principle makes those facts sufficient for wrongdoing."
+    },
+    "trapPatterns": {
+      "A": "necessary_v_sufficient",
+      "B": "half_right",
+      "C": "wrong_part",
+      "D": "wrong_part"
+    },
+    "keyTakeaway": "For a principle that justifies a verdict, look for 'if', not 'only if'; sufficiency, not necessity.",
+    "predictionHint": "Established practice plus reliance plus no warning is sufficient for acting wrongly."
+  },
+  {
+    "id": "lr-k-sa-orrin-foods-tariff",
+    "section": "LR",
+    "type": "sufficient_assumption",
+    "logicTags": [
+      "conditional",
+      "link_assumption"
+    ],
+    "difficulty": 2,
+    "stimulus": "Economist: Firms that are unable to pass cost increases on to their customers see their profit margins shrink. The new tariff will raise Orrin Foods' costs next year. Therefore, Orrin Foods' profit margin will shrink next year.",
+    "stem": "The conclusion follows logically if which one of the following is assumed?",
+    "choices": {
+      "A": "Orrin Foods will be unable to pass the tariff-related cost increases on to its customers.",
+      "B": "Orrin Foods' competitors will also face cost increases as a result of the new tariff.",
+      "C": "Orrin Foods will choose not to raise its prices next year.",
+      "D": "Orrin Foods' profit margin was already shrinking before the tariff took effect.",
+      "E": "Firms that are able to pass cost increases on to their customers keep their profit margins steady."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. Combined with the first statement, this means Orrin is a firm that cannot pass on cost increases, so its margin will shrink.",
+      "B": "Opposite: if competitors face the same costs, Orrin is more likely to be able to raise prices, not less.",
+      "C": "Wrong force: choosing not to raise prices does not mean being unable to; the rule concerns firms that are unable.",
+      "D": "Out of scope: a prior trend does not show that the tariff will shrink the margin.",
+      "E": "This is about firms that can pass on costs, which says nothing about Orrin and does not connect it to shrinking margins."
+    },
+    "trapPatterns": {
+      "B": "opposite",
+      "C": "wrong_force",
+      "D": "out_of_scope",
+      "E": "reversal"
+    },
+    "keyTakeaway": "A sufficient assumption must place the subject into the category that the general rule covers.",
+    "predictionHint": "Show that Orrin is a firm unable to pass on costs."
+  },
+  {
+    "id": "lr-k-sa-lumen-proposal-board",
+    "section": "LR",
+    "type": "sufficient_assumption",
+    "logicTags": [
+      "conditional"
+    ],
+    "difficulty": 4,
+    "stimulus": "Any proposal that reaches the board has been endorsed by at least one department head. A department head will endorse a proposal only if it fits the annual plan. The Lumen proposal duplicates an existing program. Therefore, the Lumen proposal will not reach the board.",
+    "stem": "The conclusion follows logically if which one of the following is assumed?",
+    "choices": {
+      "A": "Every proposal that fits the annual plan will be endorsed by at least one department head.",
+      "B": "Most department heads will refuse to endorse a proposal that duplicates an existing program.",
+      "C": "No proposal that duplicates an existing program fits the annual plan.",
+      "D": "The annual plan was written to prevent duplication of existing programs.",
+      "E": "No proposal that fails to fit the annual plan has ever reached the board."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "This runs fitting the plan toward endorsement, but the argument needs the path from duplication to lack of fit and lack of endorsement.",
+      "B": "'Most' is too weak: one department head is enough to endorse, so refusal by most does not stop the Lumen proposal.",
+      "C": "Correct. Lumen duplicates, so it does not fit the plan; since a head endorses only if the plan fits, no head endorses it; since reaching the board requires an endorsement, it will not reach the board.",
+      "D": "Intent is not enough: a plan written to prevent duplication might still fit some duplicating proposal.",
+      "E": "This only restates the chain of the first two statements and still does not tie duplication to lack of fit."
+    },
+    "trapPatterns": {
+      "A": "necessary_v_sufficient",
+      "B": "wrong_force",
+      "D": "wrong_force",
+      "E": "premise_booster"
+    },
+    "keyTakeaway": "Chain the conditionals and find the single missing link; check each option for 'most' versus 'no'.",
+    "predictionHint": "Missing link: duplication implies not fitting the annual plan."
+  },
+  {
+    "id": "lr-k-mc-warehouse-robots-profit",
+    "section": "LR",
+    "type": "main_conclusion",
+    "logicTags": [],
+    "difficulty": 1,
+    "stimulus": "Warehouse robots can work around the clock, so they handle more orders per day than human pickers do. But robots frequently break down, and the repair bills cost the firm more than it saves in wages. So, although robots are faster, adopting them would not be profitable for the firm.",
+    "stem": "Which one of the following most accurately expresses the main conclusion of the argument?",
+    "choices": {
+      "A": "Warehouse robots can work around the clock.",
+      "B": "Warehouse robots frequently break down.",
+      "C": "Robots handle more orders per day than human pickers do.",
+      "D": "Adopting warehouse robots would not be profitable for the firm.",
+      "E": "Human pickers cost the firm less overall than robots do."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "This is a premise offered for the claim that robots handle more orders.",
+      "B": "This is a premise supporting the claim about repair costs.",
+      "C": "This is an acknowledged advantage that the argument sets aside; the 'although' signals that the conclusion goes the other way.",
+      "D": "Correct. The 'So' marks the conclusion, and the other statements are conceded points or support for it.",
+      "E": "This is a rewording of what repair costs imply but is not stated; the argument concludes about profitability."
+    },
+    "trapPatterns": {
+      "A": "wrong_part",
+      "B": "wrong_part",
+      "C": "half_right",
+      "E": "shell_game"
+    },
+    "keyTakeaway": "Concessions introduced by 'although' are not the main conclusion; look for the claim the rest supports.",
+    "predictionHint": "The conclusion is the final 'So' claim about profitability."
+  },
+  {
+    "id": "lr-k-mc-english-fragmentation-latin",
+    "section": "LR",
+    "type": "main_conclusion",
+    "logicTags": [],
+    "difficulty": 2,
+    "stimulus": "Linguist: Some argue that English will eventually split into mutually unintelligible languages, as Latin did. But Latin split only because the empire that had united its speakers collapsed, isolating regional populations. Mass media and the internet keep English speakers in constant contact. So the conditions that fragmented Latin do not hold for English, and English will not split.",
+    "stem": "Which one of the following most accurately expresses the main conclusion of the argument?",
+    "choices": {
+      "A": "Latin split into several languages because the empire that united its speakers collapsed.",
+      "B": "Mass media and the internet keep English speakers in constant contact.",
+      "C": "The conditions that fragmented Latin do not hold for English.",
+      "D": "Some people believe that English will split into mutually unintelligible languages.",
+      "E": "English will not split into mutually unintelligible languages."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "This is a premise about Latin's history, used to support the intermediate claim about conditions.",
+      "B": "This is a premise used to show that the conditions that split Latin do not hold today.",
+      "C": "This is an intermediate conclusion; it supports the further claim that English will not split.",
+      "D": "This is the view the linguist argues against, not the linguist's own conclusion.",
+      "E": "Correct. Everything else, including the claim about conditions, supports this final claim."
+    },
+    "trapPatterns": {
+      "A": "wrong_part",
+      "B": "wrong_part",
+      "C": "half_right",
+      "D": "wrong_part"
+    },
+    "keyTakeaway": "Separate the intermediate conclusion from the final claim it supports.",
+    "predictionHint": "The last claim, English will not split, is supported by the intermediate claim."
+  },
+  {
+    "id": "lr-k-argpart-wexley-overpriced-stock",
+    "section": "LR",
+    "type": "argument_part",
+    "logicTags": [],
+    "difficulty": 1,
+    "stimulus": "Analyst: Some investors claim that Wexley Retail's stock is overpriced because its earnings have been flat for two years. But flat earnings are normal for a retailer that is spending heavily to open new stores, and Wexley has opened forty new stores in that time. Hence the stock is not overpriced.",
+    "stem": "The claim that Wexley Retail's stock is overpriced plays which one of the following roles in the analyst's argument?",
+    "choices": {
+      "A": "It is the main conclusion of the argument.",
+      "B": "It is a view that the argument as a whole is intended to refute.",
+      "C": "It is an intermediate conclusion that the analyst draws from the facts about flat earnings.",
+      "D": "It is a premise offered in support of the analyst's own conclusion.",
+      "E": "It is evidence the analyst accepts and then shows to be compatible with the analyst's conclusion."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "The analyst's own conclusion is that the stock is not overpriced; this claim is the opposite.",
+      "B": "Correct. The analyst reports the investors' claim and then argues against it, ending with the opposite conclusion.",
+      "C": "The investors draw it from flat earnings; the analyst does not accept it or draw it.",
+      "D": "It would be a premise only if the analyst used it to support something; instead the analyst rejects it.",
+      "E": "The analyst accepts that earnings were flat, but not that the stock is overpriced; the two claims are incompatible."
+    },
+    "trapPatterns": {
+      "A": "wrong_part",
+      "C": "shell_game",
+      "D": "reversal",
+      "E": "half_right"
+    },
+    "keyTakeaway": "Check whether the author endorses a stated claim or only reports it in order to reject it.",
+    "predictionHint": "The claim is the opposing view that the argument refutes."
+  },
+  {
+    "id": "lr-k-pflaw-shortlist-unless-experience",
+    "section": "LR",
+    "type": "parallel_flaw",
+    "logicTags": [
+      "conditional"
+    ],
+    "difficulty": 4,
+    "stimulus": "A grant application will be funded only if it includes a detailed budget. The application from the Parlow Institute includes a detailed budget. Therefore, it will be funded.",
+    "stem": "The flawed reasoning in which one of the following is most similar to that in the argument above?",
+    "choices": {
+      "A": "A candidate will not be shortlisted unless she has five years of experience. Ms. Okoye has five years of experience. Therefore, she will be shortlisted.",
+      "B": "A dish is certified as vegan if it contains no animal products. This dish contains no animal products. Therefore, it will be certified as vegan.",
+      "C": "A pilot will be hired only if he holds a license. Mr. Voss does not hold a license. Therefore, he will not be hired.",
+      "D": "A student will be admitted to the honors program only if she has a 3.5 average. Ms. Haas has a 3.5 average. Therefore, she may be admitted.",
+      "E": "Most applicants who pass the screening are interviewed. Ms. Tran passed the screening. Therefore, she will be interviewed."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. 'Will not be shortlisted unless she has experience' means shortlisting requires experience. As in the stimulus, a necessary condition is treated as sufficient.",
+      "B": "Valid reasoning: the condition is stated as sufficient with 'if', so applying it is sound.",
+      "C": "Valid reasoning: the absence of a necessary condition correctly rules out the outcome.",
+      "D": "Valid reasoning: meeting a necessary condition shows only that admission remains possible, which is exactly what 'may' says.",
+      "E": "A different flaw: it treats 'most' as 'all', rather than confusing a necessary condition with a sufficient one."
+    },
+    "trapPatterns": {
+      "B": "reversal",
+      "C": "wrong_part",
+      "D": "wrong_force",
+      "E": "shell_game"
+    },
+    "keyTakeaway": "Translate 'unless' and 'only if' into one direction, then check whether the conclusion runs it backward.",
+    "predictionHint": "Pattern: necessary condition met, therefore outcome certain."
+  },
+  {
+    "id": "lr-k-pmethod-tarvonia-rate-cut",
+    "section": "LR",
+    "type": "parallel_method",
+    "logicTags": [
+      "analogy"
+    ],
+    "difficulty": 3,
+    "stimulus": "Economist: Some commentators insist that a country's currency must lose value whenever its central bank cuts interest rates. But when the central bank of Tarvonia cut rates last year, the Tarvonian currency gained value against all its major trading partners. So the commentators' insistence is mistaken.",
+    "stem": "The pattern of reasoning in which one of the following arguments is most similar to that in the argument above?",
+    "choices": {
+      "A": "Brewer: Every beer that has won a gold medal at the regional fair has been brewed with local barley. Bell Ale won a gold medal there. So it was brewed with local barley.",
+      "B": "Philosopher: Suppose that no one can be blamed for an act done from habit. Then no one could be blamed for driving carelessly, but we do blame careless drivers. So the supposition is false.",
+      "C": "Physician: Some people hold that any patient who takes this class of drug for a month becomes dependent on it. But the patients in last year's trial took the drug for six months and none became dependent. So that view is mistaken.",
+      "D": "Auditor: Some say that a company with rising revenue must also have rising profit. But most of the companies in our sample with rising revenue also had rising profit. So that view is correct.",
+      "E": "Banker: Some claim that most small loans are repaid late. But nearly every small loan from last year was repaid on time. So that claim is false."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "This applies a general claim to a particular case, which is the reverse of the stimulus' attack on a general claim by a case.",
+      "B": "This derives an unacceptable implication from a supposition rather than citing a single actual instance that conflicts with a universal claim.",
+      "C": "Correct. Like the stimulus, it rejects a universal claim ('any', 'must') by pointing to an actual case in which the claimed result failed to occur.",
+      "D": "This uses favorable evidence to support a view, whereas the stimulus uses contrary evidence to reject one.",
+      "E": "This refutes a 'most' claim with broad statistics. The stimulus uses a single counterexample against a universal claim, which is a different method."
+    },
+    "trapPatterns": {
+      "A": "wrong_part",
+      "B": "shell_game",
+      "D": "opposite",
+      "E": "half_right"
+    },
+    "keyTakeaway": "Identify the claim's strength (universal versus 'most') and the kind of evidence used to attack it.",
+    "predictionHint": "One counterexample refutes a universal claim."
+  },
+  {
+    "id": "lr-k-pointissue-open-plan-conversion",
+    "section": "LR",
+    "type": "point_at_issue",
+    "logicTags": [],
+    "difficulty": 2,
+    "stimulus": "Ines: Open-plan floors make colleagues talk to one another more, and our firm needs more collaboration. So we should convert our floors to an open-plan layout.\nHector: I agree that the firm needs more collaboration. But open-plan floors are noisy, and most of our billable output comes from work that requires uninterrupted concentration. Converting would cost us more than it would gain.",
+    "stem": "Ines and Hector disagree over whether",
+    "choices": {
+      "A": "the firm needs more collaboration among its employees",
+      "B": "open-plan floors lead colleagues to talk to one another more",
+      "C": "most of the firm's billable output comes from work that requires uninterrupted concentration",
+      "D": "the firm should convert its floors to an open-plan layout",
+      "E": "the noise on open-plan floors could be reduced enough to protect concentrated work"
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Both agree on this point; Hector explicitly says so.",
+      "B": "Hector does not dispute this; he disputes the net value of converting.",
+      "C": "Ines says nothing about this claim, so there is no stated disagreement.",
+      "D": "Correct. Ines says the firm should convert; Hector says that converting would cost more than it would gain.",
+      "E": "Neither speaker addresses whether noise could be reduced."
+    },
+    "trapPatterns": {
+      "A": "half_right",
+      "B": "out_of_scope",
+      "C": "out_of_scope",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "A point at issue is a claim one speaker affirms and the other denies, not a shared premise.",
+    "predictionHint": "They disagree about the recommendation, not about collaboration."
+  },
+  {
+    "id": "lr-k-mbt-hallan-leadership-course",
+    "section": "LR",
+    "type": "must_be_true",
+    "logicTags": [
+      "quantifiers",
+      "conditional"
+    ],
+    "difficulty": 4,
+    "stimulus": "At Hallan Corp., every analyst who was promoted this year had completed the leadership course. Most of the employees who have completed the leadership course work in the finance division. No one who works in the finance division works remotely.",
+    "stem": "If the statements above are true, which one of the following must also be true?",
+    "choices": {
+      "A": "Most of the analysts who were promoted this year work in the finance division.",
+      "B": "Some employees who have completed the leadership course do not work remotely.",
+      "C": "No analyst who was promoted this year works remotely.",
+      "D": "No employee who works remotely has completed the leadership course.",
+      "E": "Some employees in the finance division were promoted this year."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "'Most' completers are in finance, but the promoted analysts are only some of the completers and could all be outside finance.",
+      "B": "Correct. Most completers work in finance, so at least one completer works in finance, and no one in finance works remotely.",
+      "C": "Promoted analysts completed the course but might work outside finance and could be remote.",
+      "D": "Completers outside finance may work remotely; only finance workers are barred from remote work.",
+      "E": "Nothing connects promotion to finance; the promoted analysts might all work elsewhere."
+    },
+    "trapPatterns": {
+      "A": "wrong_part",
+      "C": "extreme",
+      "D": "reversal",
+      "E": "shell_game"
+    },
+    "keyTakeaway": "A 'most' claim about a larger group does not transfer to a subgroup, but it does guarantee at least one member.",
+    "predictionHint": "Most completers are in finance (non-remote), so some completers are non-remote."
+  },
+  {
+    "id": "lr-k-fib-reported-earnings-profitability",
+    "section": "LR",
+    "type": "fill_in_blank",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 1,
+    "stimulus": "A company can raise its reported earnings without any improvement in its true profitability by cutting its spending on research, since such cuts immediately boost earnings while harming long-term profitability. Therefore, a rise in a company's reported earnings is not by itself reliable evidence that ____.",
+    "stem": "Which one of the following most logically completes the argument?",
+    "choices": {
+      "A": "the company's true profitability has improved",
+      "B": "the company has reduced its spending on research",
+      "C": "the company's earnings will continue to rise in later years",
+      "D": "the company's competitors are also spending less on research",
+      "E": "the company's research spending was previously too high"
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. The passage shows that reported earnings can rise through research cuts even when profitability is not improving, so a rise does not reliably show an improvement.",
+      "B": "The argument is that cutting research can explain earnings rising, not that rising earnings are unreliable evidence of cuts.",
+      "C": "Future earnings are not addressed; the passage concerns what a current rise shows.",
+      "D": "Competitors' spending is never mentioned.",
+      "E": "The passage does not evaluate the earlier level of research spending."
+    },
+    "trapPatterns": {
+      "B": "reversal",
+      "C": "out_of_scope",
+      "D": "out_of_scope",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "For a fill-in-the-blank, complete the sentence with the claim the premises directly support.",
+    "predictionHint": "Reported earnings do not reliably show improved profitability."
+  },
+  {
+    "id": "lr-k-method-sales-bonus-individual-volume",
+    "section": "LR",
+    "type": "method_of_reasoning",
+    "logicTags": [],
+    "difficulty": 2,
+    "stimulus": "Sales manager: We should not pay bonuses based on each representative's individual sales volume. If we did, representatives would hoard promising leads rather than pass them to colleagues better placed to close them. But sharing leads is what keeps our sales pipeline healthy.",
+    "stem": "The argument proceeds by",
+    "choices": {
+      "A": "showing that the proposed policy contradicts itself",
+      "B": "appealing to the experience of other companies that have rejected a similar policy",
+      "C": "rejecting a proposed policy by pointing to an undesirable consequence that adopting it would be expected to have",
+      "D": "arguing that a proposed policy is unnecessary because the problem it addresses does not exist",
+      "E": "dismissing a proposal on the grounds that those who favor it have an interest in its adoption"
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "The manager does not claim that the policy is self-contradictory, only that it has a bad result.",
+      "B": "No other companies are mentioned.",
+      "C": "Correct. The manager argues that the bonuses would lead to hoarding of leads, which would harm the pipeline.",
+      "D": "The manager does not deny any problem that bonuses might address.",
+      "E": "No one's interest in the proposal is discussed."
+    },
+    "trapPatterns": {
+      "A": "wrong_part",
+      "B": "out_of_scope",
+      "D": "out_of_scope",
+      "E": "wrong_part"
+    },
+    "keyTakeaway": "Describe the argument's move in abstract terms: what is rejected and what reason is given.",
+    "predictionHint": "A policy is rejected because of its undesirable consequence."
+  },
+  {
+    "id": "lr-k-psaapp-conviction-hiring",
+    "section": "LR",
+    "type": "psa_application",
+    "logicTags": [
+      "rule_application",
+      "conditional"
+    ],
+    "difficulty": 4,
+    "stimulus": "Employers may legitimately refuse to hire an applicant because of a past criminal conviction only if the offense bears directly on the duties of the position or the applicant poses a continuing danger to others, and the applicant was convicted within the past seven years.",
+    "stem": "Which one of the following judgments conforms most closely to the principle stated above?",
+    "choices": {
+      "A": "A bank was justified in refusing to hire an applicant as a teller because she was convicted of embezzlement three years ago.",
+      "B": "A school district was not justified in refusing to hire an applicant as a bus driver because of a conviction for reckless driving five years ago.",
+      "C": "A shipping company was justified in refusing to hire an applicant as a dock supervisor because of a conviction for smuggling nine years ago, an offense that bears directly on that work.",
+      "D": "A retailer was justified in refusing to hire an applicant as a cashier because of a conviction for assault two years ago, since the retailer wishes to maintain a welcoming atmosphere.",
+      "E": "A hospital was not justified in refusing to hire an applicant as a night guard because of a conviction for armed robbery eleven years ago, even though the offense bears directly on a guard's duties."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "The principle gives necessary conditions only; a related offense within seven years does not by itself make a refusal legitimate.",
+      "B": "The conditions are met, so the principle does not rule out justification; it never says that meeting them makes the refusal unjustified.",
+      "C": "The offense bears directly on the work, but the conviction is nine years old, which fails the seven-year requirement.",
+      "D": "Neither alternative in the first condition is satisfied: assault does not bear on a cashier's duties and no continuing danger is claimed.",
+      "E": "Correct. The conviction is eleven years old, so the seven-year requirement is not met, and the principle then makes the refusal illegitimate whatever the nature of the offense."
+    },
+    "trapPatterns": {
+      "A": "necessary_v_sufficient",
+      "B": "reversal",
+      "C": "half_right",
+      "D": "wrong_part"
+    },
+    "keyTakeaway": "With 'only if', a failed condition forces a negative verdict but a met condition forces nothing.",
+    "predictionHint": "Time limit failed, so the refusal is not legitimate."
+  }
+]

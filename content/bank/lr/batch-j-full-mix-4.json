@@ -1,0 +1,1094 @@
+[
+  {
+    "id": "lr-j-flaw-walking-program-bp",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 1,
+    "stimulus": "Health department spokesperson: Last year, residents of Marlow County who joined the free community walking program had lower average blood pressure at year's end than residents who did not join. This shows that the program lowers blood pressure, so the county should expand it to every neighborhood.",
+    "stem": "The reasoning in the argument is most vulnerable to criticism on the grounds that it",
+    "choices": {
+      "A": "overlooks the possibility that residents in better health were more likely to join the program",
+      "B": "fails to state how many residents joined the walking program last year",
+      "C": "assumes that the county can afford to extend the program to every neighborhood",
+      "D": "presumes that walking is the only activity that can lower blood pressure",
+      "E": "relies on blood pressure readings taken at a single point during the year"
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. The data show only a correlation. People whose blood pressure was already lower, perhaps because they were healthier and more active, may simply have been the ones who chose to join, so the program could have done nothing.",
+      "B": "True but irrelevant: the number of participants does not address whether the program caused the difference; even a large group would leave the causal gap open.",
+      "C": "Out of scope: the argument recommends expansion on the basis of the program's effect; affordability is not something the reasoning depends on.",
+      "D": "Extreme: the spokesperson claims the program lowers blood pressure, not that walking is the 'only' way to do so.",
+      "E": "Wrong force: year-end readings are what the comparison uses, and a single reading point would not by itself explain why joiners differ from non-joiners."
+    },
+    "trapPatterns": {
+      "B": "true_but_irrelevant",
+      "C": "out_of_scope",
+      "D": "extreme",
+      "E": "wrong_force"
+    },
+    "keyTakeaway": "When the people who already have the good outcome are the ones who choose the behavior, a correlation does not show that the behavior causes the outcome.",
+    "predictionHint": "Reverse or self-selection: healthier residents may be the ones who joined."
+  },
+  {
+    "id": "lr-j-flaw-pottery-halvani",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "causation",
+      "definition_scope"
+    ],
+    "difficulty": 2,
+    "stimulus": "Archaeologist: Nearly all of the pottery excavated at Tell Orrin is decorated in the style characteristic of the Halvani people, and no pottery in any other distinctive style was found there. It follows that the settlement at Tell Orrin was inhabited by Halvani people.",
+    "stem": "The argument is flawed in that it",
+    "choices": {
+      "A": "takes for granted that every settlement inhabited by the Halvani would contain pottery in their style",
+      "B": "relies on evidence from a single site to draw a conclusion about the Halvani people as a whole",
+      "C": "fails to establish that the Halvani style predates the founding of the settlement",
+      "D": "overlooks the possibility that people other than the Halvani acquired or imitated Halvani-style pottery",
+      "E": "relies on the testimony of an archaeologist who may have a stake in the Halvani identification"
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Reversal: the argument moves from pottery to inhabitants, so it needs 'pottery in this style implies Halvani,' not 'Halvani implies pottery in this style.'",
+      "B": "Wrong part: the conclusion concerns the inhabitants of Tell Orrin only, not the Halvani people as a whole.",
+      "C": "Out of scope: when the style first appeared has no bearing on whether the pottery found at this site shows who lived there.",
+      "D": "Correct. Pottery can be traded or copied, so finding Halvani-style pottery does not show that Halvani people lived at the site. The argument treats a cultural style as a marker of a particular population.",
+      "E": "Out of scope: the archaeologist's possible stake is a matter of motive, not an error in how the premises are used to reach the conclusion."
+    },
+    "trapPatterns": {
+      "A": "reversal",
+      "B": "wrong_part",
+      "C": "out_of_scope",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "An artifact style shows who made or influenced it only if the artifacts could not have moved or been copied; ask how the objects got there.",
+    "predictionHint": "Trade or imitation could explain Halvani-style pottery without Halvani inhabitants."
+  },
+  {
+    "id": "lr-j-flaw-bus-lane-no-study",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "lack_of_support_v_false"
+    ],
+    "difficulty": 2,
+    "stimulus": "Council member: Opponents of the proposed Elm Street bus lane claim that it will make traffic on the street worse. But none of them has produced a study showing that it will. Their claim is therefore false, and the council should approve the lane.",
+    "stem": "The argument is flawed in that it",
+    "choices": {
+      "A": "assumes that bus lanes have worsened traffic on every street where they have been built",
+      "B": "treats the absence of evidence for a claim as establishing that the claim is false",
+      "C": "attacks the motives of the lane's opponents rather than the content of their claim",
+      "D": "overlooks the possibility that the lane would reduce traffic on other streets",
+      "E": "takes for granted that opponents of the lane are the only residents with an interest in the outcome"
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Opposite: the council member denies that the lane will worsen traffic; nothing in the argument presumes it always has.",
+      "B": "Correct. That opponents have produced no study shows only that their claim is unsupported, not that it is false. The council member jumps from 'no evidence' to 'false.'",
+      "C": "Wrong part: the council member never mentions the opponents' motives; the criticism is about missing evidence.",
+      "D": "Out of scope: effects on other streets are not part of the argument, and raising them would not repair the leap from unsupported to false.",
+      "E": "Out of scope: the argument does not claim or need that opponents are the only interested residents."
+    },
+    "trapPatterns": {
+      "A": "opposite",
+      "C": "wrong_part",
+      "D": "out_of_scope",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "Failing to prove a claim is not the same as disproving it.",
+    "predictionHint": "No evidence for a claim does not make it false."
+  },
+  {
+    "id": "lr-j-flaw-rents-new-housing",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "conditional"
+    ],
+    "difficulty": 3,
+    "stimulus": "Urban planner: Rents in a city fall only when that city builds a substantial amount of new housing. Maplewood has just begun a large new-housing program. Therefore, rents in Maplewood will fall.",
+    "stem": "The argument is flawed in that it",
+    "choices": {
+      "A": "fails to consider that rents in a city might fall for reasons unrelated to new housing",
+      "B": "relies on a premise about cities in general to draw a conclusion about one particular city",
+      "C": "treats a condition said to be necessary for a result as though it were sufficient for that result",
+      "D": "assumes that rents in Maplewood are currently higher than rents in comparable cities",
+      "E": "infers that new housing will be built from the fact that rents will fall"
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Reversal: the premise says rents fall 'only when' new housing is built, so it already rules out other causes; the argument's problem lies elsewhere.",
+      "B": "Wrong part: applying a general claim to a particular case is ordinary reasoning, not a flaw in itself.",
+      "C": "Correct. 'Fall only when new housing is built' makes new housing necessary for falling rents. The planner then treats the beginning of new housing as enough to guarantee falling rents.",
+      "D": "Out of scope: Maplewood's rents relative to other cities do not figure in the argument and would not close the gap.",
+      "E": "Reversal: the argument goes from new housing to falling rents, not from falling rents to new housing."
+    },
+    "trapPatterns": {
+      "A": "reversal",
+      "B": "wrong_part",
+      "D": "out_of_scope",
+      "E": "reversal"
+    },
+    "keyTakeaway": "'Only if' states a necessary condition; do not let it be read as a guarantee.",
+    "predictionHint": "Necessary condition treated as sufficient."
+  },
+  {
+    "id": "lr-j-flaw-board-accountants-parents",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "quantifiers"
+    ],
+    "difficulty": 4,
+    "stimulus": "Of the Brightwater school board members who voted against the new budget, most are accountants. Most of the accountants on the board are also parents of students enrolled in the district. Therefore, some of the board members who voted against the new budget are parents of students enrolled in the district.",
+    "stem": "The reasoning in the argument is most vulnerable to criticism on the grounds that it",
+    "choices": {
+      "A": "fails to consider that board members who are not accountants may also have voted against the budget",
+      "B": "assumes that being an accountant influenced how a board member voted on the budget",
+      "C": "draws a conclusion about all board members from a premise about only those who voted against the budget",
+      "D": "treats the claim that most accountants on the board are parents as showing that all accountants who voted against the budget are parents",
+      "E": "overlooks the possibility that none of the accountants who voted against the budget are among the accountants who are parents"
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Out of scope: the premises already allow that some who voted against are not accountants ('most' are), and the argument needs no claim about them.",
+      "B": "Out of scope: the argument draws no causal link between profession and voting.",
+      "C": "Wrong part: the conclusion itself is about those who voted against the budget, so no conclusion about all members is drawn.",
+      "D": "Wrong force: the conclusion says only that 'some' voters against are parents; it does not claim that all of them are, so the word 'all' misdescribes the argument.",
+      "E": "Correct. Most voters against are accountants and most accountants are parents, but those two majorities need not overlap: for instance, the accountants who voted against could all be among the accountants who are not parents."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "out_of_scope",
+      "C": "wrong_part",
+      "D": "wrong_force"
+    },
+    "keyTakeaway": "Two 'most' statements chained through a middle group do not guarantee that the end groups overlap.",
+    "predictionHint": "Most A are B and most B are C does not give any A that is C."
+  },
+  {
+    "id": "lr-j-mss-measles-district",
+    "section": "LR",
+    "type": "most_strongly_supported",
+    "logicTags": [
+      "math_percent",
+      "comparison"
+    ],
+    "difficulty": 1,
+    "stimulus": "Last year, 40 school-age children in Dunmore District contracted measles, and every one of them was unvaccinated. About 90 percent of the district's school-age children are vaccinated against measles.",
+    "stem": "Which one of the following is most strongly supported by the information above?",
+    "choices": {
+      "A": "Most unvaccinated school-age children in Dunmore District contracted measles last year.",
+      "B": "The measles vaccine prevents the disease in every child who receives it.",
+      "C": "Last year, unvaccinated school-age children in Dunmore District were more likely to contract measles than vaccinated ones.",
+      "D": "Fewer than 40 school-age children in Dunmore District were exposed to measles last year.",
+      "E": "Unvaccinated children in Dunmore District were exposed to measles more often than vaccinated children."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Wrong force: with only 40 cases among all unvaccinated children, nothing shows that most of them became ill; the number of unvaccinated children could be far larger than 40.",
+      "B": "Extreme: no cases among vaccinated children does not show that the vaccine works for every child.",
+      "C": "Correct. The vaccinated children, a large majority, had no cases, while the unvaccinated minority had all 40, so the unvaccinated children's rate was higher.",
+      "D": "Opposite: 40 children contracted the disease, so at least 40 must have been exposed to it.",
+      "E": "Out of scope: the information is about who became ill, not about how often anyone was exposed."
+    },
+    "trapPatterns": {
+      "A": "wrong_force",
+      "B": "extreme",
+      "D": "opposite",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "Compare rates, not counts: all cases in a small group outweigh zero cases in a large one.",
+    "predictionHint": "Unvaccinated children had a higher rate of measles."
+  },
+  {
+    "id": "lr-j-mss-nap-memory-study",
+    "section": "LR",
+    "type": "most_strongly_supported",
+    "logicTags": [
+      "causation",
+      "sampling"
+    ],
+    "difficulty": 2,
+    "stimulus": "In a sleep study, volunteers who slept fewer than six hours a night for a week showed declines on memory tests. Those short-sleeping volunteers who chose to take a daily afternoon nap showed an average decline of 2 points, while those who chose not to nap showed an average decline of 11 points.",
+    "stem": "The statements above, if true, most strongly support which one of the following?",
+    "choices": {
+      "A": "Taking an afternoon nap reduces the memory decline caused by short sleep.",
+      "B": "Volunteers who slept at least six hours a night showed no decline on memory tests.",
+      "C": "Most of the short-sleeping volunteers chose to take a daily afternoon nap.",
+      "D": "A decline of 2 points on the memory test is too small to matter.",
+      "E": "Something other than napping may account for the difference in decline between the nappers and the non-nappers."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Wrong force: the volunteers chose whether to nap, so the difference in outcomes is a correlation and does not establish that napping caused the smaller decline.",
+      "B": "Out of scope: the passage says nothing about volunteers who slept six hours or more.",
+      "C": "Out of scope: the passage gives no information about how many volunteers napped.",
+      "D": "Extreme: whether a 2-point decline matters is a value judgment the passage does not address.",
+      "E": "Correct. Because volunteers chose to nap, the nappers may have differed from the non-nappers in some other way that affected their scores, so the data leave that possibility open."
+    },
+    "trapPatterns": {
+      "A": "wrong_force",
+      "B": "out_of_scope",
+      "C": "out_of_scope",
+      "D": "extreme"
+    },
+    "keyTakeaway": "When subjects choose their own treatment, the supported conclusion is usually that other factors cannot be ruled out.",
+    "predictionHint": "Self-chosen napping means confounders are possible."
+  },
+  {
+    "id": "lr-j-mss-back-pain-trial",
+    "section": "LR",
+    "type": "most_strongly_supported",
+    "logicTags": [
+      "lack_of_support_v_false"
+    ],
+    "difficulty": 2,
+    "stimulus": "In a clinical trial, patients with chronic back pain who received treatment X reported an average pain reduction of 30 percent, while patients who received treatment Y reported an average reduction of 25 percent. The researchers reported that the difference between the two groups was not statistically significant, meaning that a difference that size could easily have arisen by chance. Treatment X costs three times as much as treatment Y.",
+    "stem": "Which one of the following is most strongly supported by the information above?",
+    "choices": {
+      "A": "Treatment Y relieves chronic back pain as effectively as treatment X does.",
+      "B": "The trial does not provide reliable evidence that treatment X relieves chronic back pain better than treatment Y does.",
+      "C": "Patients with chronic back pain should choose treatment Y because it costs less.",
+      "D": "Treatment X relieves pain in a smaller proportion of patients than treatment Y does.",
+      "E": "Most patients in the trial experienced a pain reduction of at least 25 percent."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Extreme: failing to find a reliable difference does not show that the two treatments are equally effective.",
+      "B": "Correct. A difference that could easily be due to chance gives no reliable basis for saying that X works better than Y.",
+      "C": "Out of scope: what patients should choose depends on values and other factors the information does not settle.",
+      "D": "Opposite: the averages favor X, and nothing indicates that fewer patients benefited from X.",
+      "E": "Unsupported: averages of 30 and 25 percent do not show that most individual patients reached 25 percent."
+    },
+    "trapPatterns": {
+      "A": "extreme",
+      "C": "out_of_scope",
+      "D": "opposite",
+      "E": "wrong_force"
+    },
+    "keyTakeaway": "'Not statistically significant' means no reliable evidence of a difference, not evidence of no difference.",
+    "predictionHint": "No reliable evidence of difference, but not proof of equality."
+  },
+  {
+    "id": "lr-j-na-calorie-labels-kiosks",
+    "section": "LR",
+    "type": "necessary_assumption",
+    "logicTags": [
+      "causation",
+      "link_assumption"
+    ],
+    "difficulty": 2,
+    "stimulus": "Health official: Economists who controlled for other factors have determined that the city's requirement of calorie labels on restaurant menus caused the average number of calories in meals ordered at restaurants to drop. Requiring the same labels at the city's snack kiosks will therefore reduce the average number of calories in the items bought there.",
+    "stem": "The argument depends on assuming which one of the following?",
+    "choices": {
+      "A": "Snack kiosk items contain more calories on average than restaurant meals do.",
+      "B": "Calorie labels would influence at least some purchases at the snack kiosks in the way they influence restaurant orders.",
+      "C": "Most snack kiosk customers would read the calorie labels carefully before buying.",
+      "D": "Calorie labels are the most effective way to reduce the calories people buy.",
+      "E": "Restaurant customers who ordered lower-calorie meals did not eat more at other times of day."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Comparison shift: the argument is about reducing calories at kiosks, not about how kiosk calories compare with restaurant calories.",
+      "B": "Correct. The argument extends a labeling effect from restaurants to kiosks. If labels would not influence kiosk purchases that way, the conclusion would fail.",
+      "C": "Extreme: the argument needs some effect, not that most customers read the labels carefully.",
+      "D": "Extreme: the argument needs only that labels work at kiosks, not that they are the most effective method.",
+      "E": "Out of scope: the conclusion is about items bought at kiosks, not about what restaurant customers eat later."
+    },
+    "trapPatterns": {
+      "A": "comparison_shift",
+      "C": "extreme",
+      "D": "extreme",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "When an argument extends an effect to a new setting, the needed assumption is that the new setting is relevantly similar.",
+    "predictionHint": "Kiosk buyers respond to labels as restaurant diners do."
+  },
+  {
+    "id": "lr-j-na-sennet-chamber-weapons",
+    "section": "LR",
+    "type": "necessary_assumption",
+    "logicTags": [
+      "conditional",
+      "link_assumption"
+    ],
+    "difficulty": 3,
+    "stimulus": "Archaeologist: The sealed, undisturbed burial chamber at Sennet contains no weapons, though every other chamber from that period in the region held weapons. Therefore, the person buried at Sennet was not a warrior.",
+    "stem": "Which one of the following is an assumption required by the argument?",
+    "choices": {
+      "A": "Only warriors in the region were buried with weapons.",
+      "B": "The occupants of the other chambers in the region were all warriors.",
+      "C": "Burial customs at Sennet differed from those in the rest of the region.",
+      "D": "A warrior of that region and period buried in a chamber like this one would have been buried with weapons.",
+      "E": "The person buried at Sennet was of lower social rank than those buried in the other chambers."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Reversal: the argument needs 'warriors were buried with weapons,' not 'only warriors were.' A non-warrior could also have weapons without harming the reasoning.",
+      "B": "Premise booster: the argument does not need all the other occupants to be warriors; it needs only that warriors were buried with weapons.",
+      "C": "Opposite: if Sennet's customs differed, that would undercut the comparison with other chambers rather than support the conclusion.",
+      "D": "Correct. If a warrior buried at Sennet would not necessarily have had weapons, the absence of weapons would show nothing about whether the occupant was a warrior.",
+      "E": "Out of scope: social rank plays no role in the inference from missing weapons to the occupant's not being a warrior."
+    },
+    "trapPatterns": {
+      "A": "reversal",
+      "B": "premise_booster",
+      "C": "opposite",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "Test a necessary assumption by negating it: if the negation destroys the argument, it is required.",
+    "predictionHint": "Warriors would have had weapons in their graves."
+  },
+  {
+    "id": "lr-j-na-pellar-diner-survey",
+    "section": "LR",
+    "type": "necessary_assumption",
+    "logicTags": [
+      "causation",
+      "sampling"
+    ],
+    "difficulty": 3,
+    "stimulus": "Epidemiologist: In a survey, 60 percent of respondents who had recently suffered a particular intestinal illness reported having eaten at Pellar's Diner in the week before they became ill, while only 10 percent of respondents who had not suffered the illness reported having eaten there during the same week. Pellar's Diner is therefore very likely a source of the illness.",
+    "stem": "The argument depends on assuming which one of the following?",
+    "choices": {
+      "A": "Respondents who had suffered the illness were not more inclined than other respondents to report having eaten at Pellar's whether or not they actually had.",
+      "B": "Most people who ate at Pellar's Diner during the week in question became ill.",
+      "C": "No respondent who ate at Pellar's Diner contracted the illness from some other source.",
+      "D": "The illness is not ordinarily passed from one person to another.",
+      "E": "Pellar's Diner serves more customers each week than any other restaurant in the area."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. If ill respondents tended to report eating at Pellar's regardless of the truth, the 60 versus 10 percent gap could reflect biased reporting rather than the diner as a source.",
+      "B": "Reversal: the survey compares ill and healthy respondents; the argument does not need most diners to have become ill.",
+      "C": "Extreme: some respondents who ate there could have caught the illness elsewhere without undermining the conclusion that the diner is very likely a source.",
+      "D": "Out of scope: person-to-person spread would not by itself prevent the diner from being a source.",
+      "E": "Out of scope: the diner's size relative to other restaurants has no bearing on the inference."
+    },
+    "trapPatterns": {
+      "B": "reversal",
+      "C": "extreme",
+      "D": "out_of_scope",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "In survey comparisons, ask whether the way respondents report could itself produce the difference.",
+    "predictionHint": "Ill respondents must not over-report the diner."
+  },
+  {
+    "id": "lr-j-weaken-cerrin-colds",
+    "section": "LR",
+    "type": "weaken",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 1,
+    "stimulus": "Physician: In a recent trial, subjects who took the herbal supplement Cerrin daily had fewer colds over the winter than subjects who took nothing. So Cerrin helps to prevent colds.",
+    "stem": "Which one of the following, if true, most seriously weakens the physician's argument?",
+    "choices": {
+      "A": "Many people who take herbal supplements believe that the supplements strengthen the immune system.",
+      "B": "Cerrin is more expensive than most other herbal supplements.",
+      "C": "Some of the subjects who took Cerrin still came down with colds over the winter.",
+      "D": "The subjects who took Cerrin were also taught a set of hand-washing routines that the subjects who took nothing were not taught.",
+      "E": "All of the subjects in the trial were adults between the ages of 25 and 60."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "True but irrelevant: what people believe about supplements does not bear on whether Cerrin reduced colds in the trial.",
+      "B": "Out of scope: price has no bearing on whether Cerrin works.",
+      "C": "Half right: the physician claims Cerrin helps prevent colds, not that it prevents all of them.",
+      "D": "Correct. A second difference between the groups, hand-washing training, offers an alternative explanation for the Cerrin group's having fewer colds.",
+      "E": "Out of scope: a uniform age range does not provide any alternative explanation for the difference."
+    },
+    "trapPatterns": {
+      "A": "true_but_irrelevant",
+      "B": "out_of_scope",
+      "C": "half_right",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "A weakener for a causal claim often introduces another difference between the groups that could explain the result.",
+    "predictionHint": "Some other factor differed between the groups."
+  },
+  {
+    "id": "lr-j-weaken-vellmar-solstice",
+    "section": "LR",
+    "type": "weaken",
+    "logicTags": [
+      "causation",
+      "analogy"
+    ],
+    "difficulty": 2,
+    "stimulus": "Archaeologist: The main entrance of the stone circle at Vellmar faces the point on the horizon where the sun rises on the winter solstice. This alignment is too precise to be accidental, so the circle's builders must have designed it to mark the winter solstice.",
+    "stem": "Which one of the following, if true, most calls into question the archaeologist's argument?",
+    "choices": {
+      "A": "The entrances of other stone circles in the region face a variety of directions.",
+      "B": "The builders of the circle left no written records of their beliefs.",
+      "C": "The circle's entrance was rebuilt in the nineteenth century by farmers who reset the stones without regard to their original positions.",
+      "D": "Most stone circles around the world show no alignment with any astronomical event.",
+      "E": "The circle was also used as a site for gatherings that had nothing to do with astronomy."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Opposite: if other circles face varied directions, Vellmar's precise alignment looks more deliberate, not less.",
+      "B": "True but irrelevant: the absence of written records leaves the question of the alignment's purpose exactly where it was.",
+      "C": "Correct. If the entrance was reset in modern times without regard to its original position, the present alignment may not reflect what the builders intended.",
+      "D": "Out of scope: patterns in stone circles elsewhere do not show whether this one was designed to mark the solstice.",
+      "E": "Half right: a circle can serve several purposes, so other uses do not undercut the claim that it also marked the solstice."
+    },
+    "trapPatterns": {
+      "A": "opposite",
+      "B": "true_but_irrelevant",
+      "D": "out_of_scope",
+      "E": "half_right"
+    },
+    "keyTakeaway": "To attack an argument from a feature, show that the feature may not be what the arguer says it is, such as not original or not intentional.",
+    "predictionHint": "The alignment might not be the builders' work."
+  },
+  {
+    "id": "lr-j-weaken-parking-meter-rates",
+    "section": "LR",
+    "type": "weaken",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 3,
+    "stimulus": "Mayor: Six months ago the city raised downtown parking meter rates. Since then, the number of cars entering the downtown core on weekdays has dropped by 12 percent. The higher rates evidently discouraged people from driving downtown, so the city should raise rates in its other business districts as well.",
+    "stem": "Which one of the following, if true, most seriously weakens the mayor's argument?",
+    "choices": {
+      "A": "Shortly after the rates went up, the largest employer in the downtown core moved its offices to a suburban campus.",
+      "B": "Meter rates in the downtown core remain lower than those in most comparable cities.",
+      "C": "A minority of downtown drivers were unaware of the new rates when they parked.",
+      "D": "Bus ridership into the downtown core rose during the same six months.",
+      "E": "The drop in cars entering downtown is larger than any six-month drop recorded in the previous decade."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. Moving the largest employer out is an alternative explanation for fewer cars downtown, so the drop need not be due to the higher rates.",
+      "B": "Comparison shift: how downtown rates compare with those elsewhere does not bear on what caused the recent drop.",
+      "C": "Half right: some drivers' being unaware of the rates is consistent with the rates still having discouraged many others.",
+      "D": "Opposite: more bus riders suggests that people shifted away from driving, which is consistent with the rates working.",
+      "E": "Premise booster: a larger-than-usual drop makes the drop more striking but does not offer another cause for it."
+    },
+    "trapPatterns": {
+      "B": "comparison_shift",
+      "C": "half_right",
+      "D": "opposite",
+      "E": "premise_booster"
+    },
+    "keyTakeaway": "Look for an alternative cause that arrived at the same time as the supposed cause.",
+    "predictionHint": "Another change coincided with the rate increase."
+  },
+  {
+    "id": "lr-j-resolve-flu-vaccination-cases",
+    "section": "LR",
+    "type": "resolve_explain",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 2,
+    "stimulus": "In Brecken Town, the proportion of adults who received a flu vaccination rose sharply last year. Nevertheless, the number of flu cases confirmed by the town's clinic also rose sharply last year.",
+    "stem": "Which one of the following, if true, most helps to explain the discrepancy described above?",
+    "choices": {
+      "A": "The flu vaccine does not protect against every strain of the flu virus.",
+      "B": "Flu cases are generally milder among vaccinated adults than among unvaccinated adults.",
+      "C": "The town's population grew modestly last year.",
+      "D": "Most of the town's adults who remain unvaccinated are under the age of thirty.",
+      "E": "Last year the clinic began offering free flu tests, whereas before then most people with flu symptoms were never tested."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Half right: partial protection would explain some cases among the vaccinated, but not a sharp rise in cases while vaccination rose.",
+      "B": "True but irrelevant: milder cases among the vaccinated do not explain why more cases were confirmed.",
+      "C": "Out of scope: modest growth could not account for a sharp rise, especially when the vaccinated share also rose.",
+      "D": "Out of scope: the ages of the unvaccinated do not explain why confirmed cases increased.",
+      "E": "Correct. Free testing means many cases that previously went uncounted were now confirmed, so confirmed cases could rise even if actual cases did not."
+    },
+    "trapPatterns": {
+      "A": "half_right",
+      "B": "true_but_irrelevant",
+      "C": "out_of_scope",
+      "D": "out_of_scope"
+    },
+    "keyTakeaway": "A 'rise in counted cases' can be explained by a change in how cases are counted, not only by a change in what is being counted.",
+    "predictionHint": "More testing means more confirmed cases."
+  },
+  {
+    "id": "lr-j-resolve-orlan-radiocarbon",
+    "section": "LR",
+    "type": "resolve_explain",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 3,
+    "stimulus": "Radiocarbon tests on the timber roof beams of the Orlan fortress yielded dates averaging about a century earlier than tests on charcoal from hearths in the same rooms. Yet stratigraphic evidence shows that the beams were installed and the hearths first lit at essentially the same time.",
+    "stem": "Which one of the following, if true, most helps to resolve the apparent paradox?",
+    "choices": {
+      "A": "Radiocarbon dating of charcoal is generally less precise than radiocarbon dating of timber.",
+      "B": "Builders of the period often reused beams salvaged from older buildings, whereas hearth fuel was freshly cut.",
+      "C": "Some of the charcoal in the hearths came from beams that were burned after the fortress was abandoned.",
+      "D": "Radiocarbon dates for wood from the region are typically reported with an uncertainty of about fifty years.",
+      "E": "The fortress was occupied continuously for more than a century after it was built."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Half right: lower precision would scatter the charcoal dates, but would not explain why the beams are consistently about a century older.",
+      "B": "Correct. Salvaged beams would date from when their trees were cut long before installation, while freshly cut fuel would date from the fortress period, which accounts for the century gap.",
+      "C": "Opposite: charcoal from burned beams would date like the beams and so would narrow, not explain, the gap.",
+      "D": "True but irrelevant: a fifty-year uncertainty is smaller than the century-long gap and gives no reason for a systematic difference.",
+      "E": "Out of scope: how long the fortress was occupied does not explain why two materials from the same period give different dates."
+    },
+    "trapPatterns": {
+      "A": "half_right",
+      "C": "opposite",
+      "D": "true_but_irrelevant",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "To resolve a discrepancy between two measures, find a difference between the things measured that explains the direction of the gap.",
+    "predictionHint": "The beams were older wood reused; the fuel was fresh."
+  },
+  {
+    "id": "lr-j-strengthen-school-start-time",
+    "section": "LR",
+    "type": "strengthen",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 2,
+    "stimulus": "School board member: Pushing back the high school start time by an hour will raise students' grades. Last year, five districts that made this change saw their students' average grades rise.",
+    "stem": "Which one of the following, if true, most strengthens the school board member's argument?",
+    "choices": {
+      "A": "Before they changed their start times, grades in those five districts had been flat or falling for several years.",
+      "B": "Students in the five districts said they were pleased with the later start time.",
+      "C": "Several districts that kept their earlier start times also saw average grades rise last year.",
+      "D": "Later start times require districts to adjust their bus schedules at some additional cost.",
+      "E": "Teachers in the five districts supported the change before it took effect."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. If grades had not been trending upward before the change, the rise is less likely to be an existing trend and more likely to be due to the new start time.",
+      "B": "Out of scope: students' being pleased does not show that their grades rose because of the change.",
+      "C": "Opposite: if districts without the change also saw grades rise, the rise may have another cause, which weakens the argument.",
+      "D": "Out of scope: the cost of bus schedules does not bear on whether grades rise.",
+      "E": "Out of scope: teachers' prior support does not show that the change raised grades."
+    },
+    "trapPatterns": {
+      "B": "out_of_scope",
+      "C": "opposite",
+      "D": "out_of_scope",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "Strengthen a before-and-after causal claim by ruling out a pre-existing trend or a common cause.",
+    "predictionHint": "Rule out that grades were already rising."
+  },
+  {
+    "id": "lr-j-strengthen-hln-migraine",
+    "section": "LR",
+    "type": "strengthen",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 2,
+    "stimulus": "Geneticist: A certain variant of gene HLN is more common among people who suffer from chronic migraines than among people who do not. This suggests that the variant makes a person more susceptible to chronic migraines.",
+    "stem": "Which one of the following, if true, most strengthens the geneticist's argument?",
+    "choices": {
+      "A": "Most people who carry the HLN variant do not suffer from chronic migraines.",
+      "B": "Chronic migraines are more common among adults than among children.",
+      "C": "Laboratory experiments show that the HLN variant alters a protein that helps regulate the constriction of blood vessels in the brain.",
+      "D": "Researchers have identified several other genetic variants that are more common among people with chronic migraines.",
+      "E": "Chronic migraine sufferers are more likely than other people to take part in genetic studies."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Opposite: that most carriers are unaffected makes the variant look like a weaker cause, so this does not help.",
+      "B": "True but irrelevant: the age distribution of migraines does not link the variant to susceptibility.",
+      "C": "Correct. A mechanism by which the variant alters something that regulates blood vessels in the brain gives a causal route from the gene to migraines.",
+      "D": "True but irrelevant: other variants being associated with migraines says nothing about HLN in particular.",
+      "E": "Opposite: if sufferers are overrepresented in genetic studies, the association may come from who was sampled, which weakens the argument."
+    },
+    "trapPatterns": {
+      "A": "opposite",
+      "B": "true_but_irrelevant",
+      "D": "true_but_irrelevant",
+      "E": "opposite"
+    },
+    "keyTakeaway": "A mechanism linking the proposed cause to the effect strengthens a causal claim based on association.",
+    "predictionHint": "A plausible biological mechanism."
+  },
+  {
+    "id": "lr-j-psa-harbor-garage-inspectors",
+    "section": "LR",
+    "type": "pseudo_sufficient_assumption",
+    "logicTags": [
+      "value_judgment",
+      "conditional"
+    ],
+    "difficulty": 2,
+    "stimulus": "Editorial: Two weeks before the partial collapse of the Harbor Street parking garage, city inspectors were told by a maintenance worker that the garage's support beams were visibly cracked. The inspectors did not examine the garage. They should therefore be held responsible for the collapse.",
+    "stem": "Which one of the following principles, if valid, most helps to justify the editorial's reasoning?",
+    "choices": {
+      "A": "Inspectors are responsible for a building's collapse only if they approved its original construction.",
+      "B": "People who are told of a hazard are obligated to report it to someone with the authority to repair it.",
+      "C": "Public officials who examine a hazard and fail to eliminate it are responsible for any harm it later causes.",
+      "D": "Public officials who are warned of a hazard and decline to investigate it are responsible for harm that the hazard later causes.",
+      "E": "Maintenance workers who notice a hazard are responsible for making sure that public officials are told of it."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Necessary v. sufficient: this sets a requirement for responsibility but does not say when it applies; it also would exonerate the inspectors, who did not approve construction.",
+      "B": "Out of scope: the issue is what the inspectors should be responsible for, not what a person who is told of a hazard must report.",
+      "C": "Shell game: it concerns officials who examine a hazard, but the inspectors did not examine the garage at all.",
+      "D": "Correct. The inspectors were warned of the cracked beams and did not investigate, and harm from the hazard followed, so this principle yields the conclusion.",
+      "E": "Wrong part: it assigns duties to the maintenance worker, not to the inspectors the editorial blames."
+    },
+    "trapPatterns": {
+      "A": "necessary_v_sufficient",
+      "B": "out_of_scope",
+      "C": "shell_game",
+      "E": "wrong_part"
+    },
+    "keyTakeaway": "A principle must match the facts of the case exactly; a principle about 'examining' does not cover someone who never examined.",
+    "predictionHint": "Warned officials who decline to investigate are responsible."
+  },
+  {
+    "id": "lr-j-psa-greywater-donation",
+    "section": "LR",
+    "type": "pseudo_sufficient_assumption",
+    "logicTags": [
+      "value_judgment",
+      "conditional"
+    ],
+    "difficulty": 4,
+    "stimulus": "Editorial: The Greywater Foundation should return the money it received from the donor Mr. Corvane. He earned that money through a scheme that defrauded retired pensioners, and the foundation's directors learned of the scheme before any of the money had been spent.",
+    "stem": "Which one of the following principles, if valid, most helps to justify the editorial's reasoning?",
+    "choices": {
+      "A": "A charity should return a donation if it learns before spending it that the donor obtained the money by defrauding the charity's own beneficiaries.",
+      "B": "A charity should return a donation that was obtained by fraud if the donor has been convicted of the fraud.",
+      "C": "A charity should return a donation if it learns only after spending it that the donor obtained the money dishonestly.",
+      "D": "A charity should return a donation obtained by fraud only if its directors have been told of the fraud by the victims.",
+      "E": "A charity should return a donation if, before spending it, it learns that the donor obtained the money by defrauding other people."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Shell game: it applies only if the pensioners were the charity's own beneficiaries, which the editorial does not say.",
+      "B": "Shell game: it requires a conviction, and the editorial does not say that Corvane was convicted.",
+      "C": "Opposite: it concerns learning of the fraud after the money was spent; the foundation learned before.",
+      "D": "Necessary v. sufficient: 'only if' sets a requirement for returning a donation, not a condition that triggers the duty to return it.",
+      "E": "Correct. The directors learned, before spending the money, that Corvane got it by defrauding pensioners, who are other people, so this principle applies and yields the conclusion."
+    },
+    "trapPatterns": {
+      "A": "shell_game",
+      "B": "shell_game",
+      "C": "opposite",
+      "D": "necessary_v_sufficient"
+    },
+    "keyTakeaway": "Check each principle's trigger conditions against the facts actually stated; an extra requirement means it does not apply.",
+    "predictionHint": "Learned before spending that money came from defrauding others."
+  },
+  {
+    "id": "lr-j-sa-riverside-clinic",
+    "section": "LR",
+    "type": "sufficient_assumption",
+    "logicTags": [
+      "conditional"
+    ],
+    "difficulty": 1,
+    "stimulus": "Health commissioner: The Riverside clinic should not be closed. It is the only facility in the east district where uninsured residents can receive primary care.",
+    "stem": "The conclusion follows logically if which one of the following is assumed?",
+    "choices": {
+      "A": "Clinics in the east district should receive priority for public funding.",
+      "B": "No facility that is the only place in its district where uninsured residents can receive primary care should be closed.",
+      "C": "A clinic should be closed only when the number of residents it serves falls.",
+      "D": "Uninsured residents in every district should have access to primary care.",
+      "E": "The Riverside clinic serves more uninsured residents than any other clinic in the city."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Out of scope: funding priority does not bear on whether Riverside should close.",
+      "B": "Correct. Riverside is the only facility in its district where uninsured residents can get primary care, so this principle yields that it should not be closed.",
+      "C": "Out of scope: the number of residents served falling is not mentioned for Riverside, and the principle does not connect to its being the sole provider.",
+      "D": "Wrong part: this is a general goal about access, but it does not state that a particular clinic must stay open.",
+      "E": "Comparison shift: how many uninsured residents Riverside serves relative to other clinics citywide does not link to the claim about its being the only facility in its district."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "C": "out_of_scope",
+      "D": "wrong_part",
+      "E": "comparison_shift"
+    },
+    "keyTakeaway": "A sufficient assumption states a general rule that covers the premise's description and yields the conclusion.",
+    "predictionHint": "Sole providers for the uninsured should stay open."
+  },
+  {
+    "id": "lr-j-sa-tarn-basalt-artifacts",
+    "section": "LR",
+    "type": "sufficient_assumption",
+    "logicTags": [
+      "quantifiers",
+      "conditional"
+    ],
+    "difficulty": 3,
+    "stimulus": "Curator: Every artifact in the Tarn collection that was carved before the Late Period is inscribed. Some of the collection's basalt artifacts are not inscribed. Therefore, some of the basalt artifacts in the collection were carved after the Late Period.",
+    "stem": "Which one of the following, if assumed, enables the conclusion to be properly drawn?",
+    "choices": {
+      "A": "No inscribed artifact in the collection was carved during the Late Period.",
+      "B": "Every artifact in the collection that was carved after the Late Period is made of basalt.",
+      "C": "No basalt artifact in the collection was carved during the Late Period.",
+      "D": "Some of the collection's basalt artifacts were carved before the Late Period.",
+      "E": "Some artifacts in the collection that were carved after the Late Period are not made of basalt."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Wrong part: the argument needs a claim about the uninscribed basalt artifacts, not about inscribed ones.",
+      "B": "Reversal: this says what the post-Late-Period artifacts are made of, which does not show that any uninscribed basalt artifact is among them.",
+      "C": "Correct. The uninscribed basalt artifacts were not carved before the Late Period, because those artifacts are inscribed. If none was carved during it either, they must have been carved after.",
+      "D": "Premise booster: basalt artifacts carved earlier would be inscribed and so do not help show that any uninscribed ones are later.",
+      "E": "True but irrelevant: later artifacts that are not basalt say nothing about the basalt artifacts."
+    },
+    "trapPatterns": {
+      "A": "wrong_part",
+      "B": "reversal",
+      "D": "premise_booster",
+      "E": "true_but_irrelevant"
+    },
+    "keyTakeaway": "Eliminate the remaining possibilities: when the premises exclude 'before,' the assumption must exclude 'during' to leave 'after.'",
+    "predictionHint": "The uninscribed basalt pieces were not made in the Late Period."
+  },
+  {
+    "id": "lr-j-main-town-second-water-source",
+    "section": "LR",
+    "type": "main_conclusion",
+    "logicTags": [],
+    "difficulty": 1,
+    "stimulus": "Engineer: The town's entire water supply comes from a single reservoir, so a contamination event there would affect every household. The reservoir is bordered by farmland, and heavy rains wash pesticides from such land into water. Since a second source would protect households from a single contamination event, the town should develop one.",
+    "stem": "Which one of the following most accurately expresses the main conclusion of the argument?",
+    "choices": {
+      "A": "Heavy rains wash pesticides from farmland into the reservoir.",
+      "B": "A contamination event at the reservoir would affect every household in town.",
+      "C": "A second water source would protect households from a single contamination event.",
+      "D": "The town should develop a second source of water.",
+      "E": "The reservoir is bordered by farmland."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Premise: this is evidence for the risk of contamination, not the point the engineer is arguing for.",
+      "B": "Premise: this explains why reliance on one reservoir is a problem; the conclusion is what the town should do.",
+      "C": "Premise: this is the reason offered for developing a second source, as the word 'since' signals.",
+      "D": "Correct. The engineer's recommendation is what the other statements support, and it follows the indicator 'since.'",
+      "E": "Premise: this fact supports the risk claim and is not what the argument as a whole concludes."
+    },
+    "trapPatterns": {
+      "A": "wrong_part",
+      "B": "wrong_part",
+      "C": "premise_booster",
+      "E": "wrong_part"
+    },
+    "keyTakeaway": "The main conclusion is the claim the rest of the passage is offered to support; 'since' marks the premise.",
+    "predictionHint": "Recommendation to develop a second source."
+  },
+  {
+    "id": "lr-j-main-museum-free-admission",
+    "section": "LR",
+    "type": "main_conclusion",
+    "logicTags": [],
+    "difficulty": 2,
+    "stimulus": "Museum director: The museum should not offer free admission on weekends. Some critics say otherwise, but free admission would reduce revenue, and the museum already struggles to cover the cost of maintaining its collection. Moreover, surveys show that most visitors on free days would have been willing to pay.",
+    "stem": "Which one of the following most accurately expresses the main conclusion of the argument?",
+    "choices": {
+      "A": "The museum should not offer free admission on weekends.",
+      "B": "Free admission on weekends would reduce the museum's revenue.",
+      "C": "The museum already struggles to cover the cost of maintaining its collection.",
+      "D": "Most visitors on free days would have been willing to pay for admission.",
+      "E": "Some critics believe that the museum should offer free admission on weekends."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. The director states the position and then offers reasons against free admission; every other claim supports or addresses it.",
+      "B": "Premise: this is a reason the director gives for the stand against free admission.",
+      "C": "Premise: this supports the claim that lost revenue matters and is not the final point.",
+      "D": "Premise: this survey result is another reason offered against free admission.",
+      "E": "Wrong part: this is the view the director opposes, not the director's own conclusion."
+    },
+    "trapPatterns": {
+      "B": "premise_booster",
+      "C": "premise_booster",
+      "D": "premise_booster",
+      "E": "wrong_part"
+    },
+    "keyTakeaway": "The conclusion can come first; ask which claim the others are offered to support.",
+    "predictionHint": "Should not offer free admission."
+  },
+  {
+    "id": "lr-j-part-brantford-guild-plague",
+    "section": "LR",
+    "type": "argument_part",
+    "logicTags": [],
+    "difficulty": 3,
+    "stimulus": "Historian: Some scholars argue that the plague caused the collapse of the Brantford guild. But guild membership was already shrinking decades before the plague arrived, and the guild's income had fallen steadily for years. So the plague cannot have caused the collapse. Instead, the real cause must have been economic: the guild's trade was being displaced by cheaper imports.",
+    "stem": "The claim that the plague cannot have caused the collapse of the Brantford guild plays which one of the following roles in the historian's argument?",
+    "choices": {
+      "A": "It is the main conclusion of the argument.",
+      "B": "It is a position the historian rejects.",
+      "C": "It is a premise offered to show that guild membership was shrinking.",
+      "D": "It is a claim the historian grants for the sake of argument but then dismisses.",
+      "E": "It is an intermediate conclusion supported by evidence of earlier decline and used to support the claim that the real cause was economic."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Wrong part: the final claim, about economic displacement by imports, is the main conclusion; this claim supports it.",
+      "B": "Opposite: the rejected position is that the plague caused the collapse, which this claim denies.",
+      "C": "Reversal: the shrinking membership is offered as evidence for this claim, not the other way around.",
+      "D": "Opposite: the historian asserts the claim, supported by evidence, and does not merely grant it.",
+      "E": "Correct. It follows from the evidence about the earlier decline and then helps lead to the conclusion about the real cause."
+    },
+    "trapPatterns": {
+      "A": "wrong_part",
+      "B": "opposite",
+      "C": "reversal",
+      "D": "opposite"
+    },
+    "keyTakeaway": "A claim introduced by 'so' and then followed by 'instead' is usually a subsidiary conclusion that supports a final one.",
+    "predictionHint": "Intermediate conclusion between evidence and final claim."
+  },
+  {
+    "id": "lr-j-pf-festival-critics-films",
+    "section": "LR",
+    "type": "parallel_flaw",
+    "logicTags": [
+      "quantifiers"
+    ],
+    "difficulty": 4,
+    "stimulus": "Each of the five critics who reviewed the Harlow film festival praised at least one of the films shown there. Therefore, at least one of the films shown at the festival was praised by all five of the critics.",
+    "stem": "The flawed reasoning in which one of the following is most similar to that in the argument above?",
+    "choices": {
+      "A": "At least one of the engineers who inspected the bridge found a crack in every one of its piers. Therefore, every pier of the bridge was found to be cracked by at least one of the engineers.",
+      "B": "Each of the farm's four inspectors cited at least one violation. Therefore, every violation at the farm was cited by at least one of the inspectors.",
+      "C": "Every member of the choir who sang in the spring concert also sang in the winter concert. Mina sang in the winter concert. Therefore, Mina sang in the spring concert.",
+      "D": "Each of the town's six volunteer crews repaired at least one of the park's trails this summer. Therefore, at least one of the park's trails was repaired this summer by all six crews.",
+      "E": "Each of the committee's members is thoroughly competent. Therefore, the committee as a whole is thoroughly competent."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Not flawed: if one engineer found a crack in every pier, then every pier was found cracked by some engineer. The reasoning is valid, though it uses similar wording.",
+      "B": "Different flaw: it infers that each violation was cited from the fact that each inspector cited one; this is not a shift from 'each has some' to 'one is shared by all.'",
+      "C": "Different flaw: it confuses a condition with its converse; it does not shift quantifiers.",
+      "D": "Correct. The premise says each crew repaired some trail, perhaps different ones. The conclusion says there is a single trail repaired by all crews, the same error as in the original.",
+      "E": "Different flaw: it moves from each part to the whole group and does not shift a quantifier."
+    },
+    "trapPatterns": {
+      "A": "opposite",
+      "B": "shell_game",
+      "C": "reversal",
+      "E": "wrong_part"
+    },
+    "keyTakeaway": "Distinguish 'each one did some X' from 'some one X was done by each'; the first does not give the second.",
+    "predictionHint": "Quantifier shift from each-some to some-each."
+  },
+  {
+    "id": "lr-j-pm-manuscript-ink-forgery",
+    "section": "LR",
+    "type": "parallel_method",
+    "logicTags": [
+      "conditional",
+      "eliminating_options"
+    ],
+    "difficulty": 3,
+    "stimulus": "Conservator: Either the manuscript is a forgery or it was written in the twelfth century. If it were a forgery, its ink would contain synthetic dyes, but laboratory analysis found none in the ink. So the manuscript was written in the twelfth century.",
+    "stem": "The pattern of reasoning in which one of the following is most similar to that in the argument above?",
+    "choices": {
+      "A": "Either the road was closed or the bus was delayed. If the road were closed, the bus would have taken the detour, and the bus did take the detour. So the road was closed.",
+      "B": "Either the sample was contaminated or the testing device is unreliable. If the sample were contaminated, the control vial would show bacterial growth, but the control vial showed none. So the testing device is unreliable.",
+      "C": "A reliable test should give the same result on repeated trials. This test gave different results on repeated trials. So it is not reliable.",
+      "D": "Either the tenant paid the rent or the landlord filed a complaint. The landlord did not file a complaint. So the tenant paid the rent.",
+      "E": "Either the bridge was built before 1900 or it was rebuilt later. Most bridges in the region were built before 1900. So the bridge was probably built before 1900."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Different pattern: it affirms the consequent of the conditional, so it reaches its conclusion in an invalid way.",
+      "B": "Correct. Like the original, it offers two alternatives, shows that the first would have a consequence that is observed to be absent, and concludes that the other alternative holds.",
+      "C": "Different pattern: it has a single conditional denied by the evidence and has no pair of alternatives.",
+      "D": "Different pattern: it eliminates one alternative directly; there is no conditional whose consequence is shown to be absent.",
+      "E": "Different pattern: it relies on a statistical generalization and reaches only a probable conclusion."
+    },
+    "trapPatterns": {
+      "A": "wrong_force",
+      "C": "half_right",
+      "D": "half_right",
+      "E": "wrong_force"
+    },
+    "keyTakeaway": "Match the skeleton: two alternatives, a conditional consequence of one, its absence, and the other alternative as the conclusion.",
+    "predictionHint": "Disjunction, conditional, denial, other disjunct."
+  },
+  {
+    "id": "lr-j-pai-curfew-vandalism",
+    "section": "LR",
+    "type": "point_at_issue",
+    "logicTags": [],
+    "difficulty": 1,
+    "stimulus": "Mayor Okafor: The new curfew for people under sixteen will reduce vandalism downtown, since most vandalism there is committed by teenagers after dark.\nCouncilor Reyes: Perhaps teenagers do commit most of it, but a curfew like this is impossible to enforce. It will not reduce vandalism at all.",
+    "stem": "Okafor and Reyes disagree over whether",
+    "choices": {
+      "A": "most vandalism downtown is committed after dark",
+      "B": "teenagers commit most of the vandalism downtown",
+      "C": "the new curfew will reduce vandalism downtown",
+      "D": "the new curfew would be easy to enforce",
+      "E": "the new curfew is a fair way to treat young people"
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Not disputed: Reyes does not challenge when vandalism occurs; the councilor concedes the point about teenagers and does not address timing.",
+      "B": "Not disputed: Reyes says 'perhaps teenagers do commit most of it,' so there is no disagreement on this point.",
+      "C": "Correct. Okafor says the curfew will reduce vandalism; Reyes says it will not.",
+      "D": "Half right: Reyes asserts that enforcement is impossible, but Okafor never says anything about enforcement.",
+      "E": "Out of scope: neither speaker says anything about fairness to young people."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "half_right",
+      "D": "half_right",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "A point at issue is a claim that one speaker asserts and the other denies.",
+    "predictionHint": "Whether the curfew reduces vandalism."
+  },
+  {
+    "id": "lr-j-mbt-delmar-clinics",
+    "section": "LR",
+    "type": "must_be_true",
+    "logicTags": [
+      "quantifiers"
+    ],
+    "difficulty": 4,
+    "stimulus": "All of the clinics in the Delmar Valley that offer telemedicine are open on Saturdays. Most of the clinics in the valley that are open on Saturdays are staffed by a nurse practitioner. No clinic staffed by a nurse practitioner is located in a county with fewer than 5,000 residents.",
+    "stem": "If the statements above are true, which one of the following must also be true?",
+    "choices": {
+      "A": "Most of the clinics in the Delmar Valley that are open on Saturdays are not located in counties with fewer than 5,000 residents.",
+      "B": "Most of the clinics in the Delmar Valley that offer telemedicine are not located in counties with fewer than 5,000 residents.",
+      "C": "Every clinic in the Delmar Valley that is staffed by a nurse practitioner offers telemedicine.",
+      "D": "Some clinics in the Delmar Valley that offer telemedicine are located in counties with fewer than 5,000 residents.",
+      "E": "At least one clinic in the Delmar Valley that is open on Saturdays is located in a county with fewer than 5,000 residents."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. More than half of the Saturday clinics are staffed by nurse practitioners, and none of those is in a county with fewer than 5,000 residents, so more than half of the Saturday clinics are not.",
+      "B": "Shell game: telemedicine clinics are only some of the Saturday clinics, and the nurse-practitioner majority among Saturday clinics need not hold within that subgroup.",
+      "C": "Reversal: all telemedicine clinics are open Saturdays, but nothing says that nurse-practitioner clinics offer telemedicine.",
+      "D": "Unsupported: the statements do not establish that any telemedicine clinic is in a small county; none may be.",
+      "E": "Unsupported: the statements allow that every Saturday clinic is in a county with 5,000 or more residents."
+    },
+    "trapPatterns": {
+      "B": "shell_game",
+      "C": "reversal",
+      "D": "wrong_force",
+      "E": "wrong_force"
+    },
+    "keyTakeaway": "A majority of a group carries over to its parts of the group only as a majority of the whole, not of any subgroup.",
+    "predictionHint": "More than half of Saturday clinics are nurse-practitioner staffed, hence not in small counties."
+  },
+  {
+    "id": "lr-j-fill-led-streetlights",
+    "section": "LR",
+    "type": "fill_in_blank",
+    "logicTags": [
+      "comparison"
+    ],
+    "difficulty": 1,
+    "stimulus": "Many cities have converted their streetlights to LED bulbs, which use less electricity and last longer than older bulbs. However, LED bulbs cost several times as much to buy. Even so, a city that converts is likely to come out ahead, because over the bulbs' lifetime the savings in electricity and in replacement costs will probably be greater than ____.",
+    "stem": "Which one of the following most logically completes the argument?",
+    "choices": {
+      "A": "the savings the city realized from earlier conversions of other equipment",
+      "B": "the additional cost of buying LED bulbs rather than the older bulbs",
+      "C": "the electricity used by the city's other public buildings",
+      "D": "the price that other cities paid for the same LED bulbs",
+      "E": "the amount of electricity the city's streetlights used last year"
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Out of scope: savings from other conversions are not what is being weighed against the savings from LED bulbs.",
+      "B": "Correct. The cost objection is that the bulbs are expensive to buy, so the argument finishes by saying lifetime savings will probably exceed the extra purchase cost.",
+      "C": "Out of scope: electricity used by other buildings is unrelated to the cost-benefit comparison for streetlights.",
+      "D": "Out of scope: what other cities paid does not match the extra cost this city would bear.",
+      "E": "Half right: last year's electricity use is a related quantity, but the savings must be compared with the extra cost of the bulbs, not with total electricity used."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "C": "out_of_scope",
+      "D": "out_of_scope",
+      "E": "half_right"
+    },
+    "keyTakeaway": "For fill-in-the-blank, complete the thought raised by the 'however' by answering the objection directly.",
+    "predictionHint": "Savings exceed the extra purchase price."
+  },
+  {
+    "id": "lr-j-method-millers-table",
+    "section": "LR",
+    "type": "method_of_reasoning",
+    "logicTags": [
+      "analogy"
+    ],
+    "difficulty": 1,
+    "stimulus": "Columnist: It is often claimed that a restaurant cannot succeed without a famous chef. Yet Miller's Table has been full every night for twelve years, and its kitchen is led by a chef whom hardly anyone outside the neighborhood has heard of. So the claim is false.",
+    "stem": "The columnist's argument proceeds by",
+    "choices": {
+      "A": "questioning the qualifications of those who make the claim",
+      "B": "appealing to the authority of well-known restaurant critics",
+      "C": "reasoning that because two restaurants resemble each other in one way, they must resemble each other in another",
+      "D": "citing a particular case that is inconsistent with a general claim",
+      "E": "showing that the claim leads to a self-contradiction"
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Not used: the columnist says nothing about who makes the claim or their qualifications.",
+      "B": "Not used: no critics or other authorities are cited.",
+      "C": "Not used: no comparison between restaurants is made; only one restaurant is discussed.",
+      "D": "Correct. Miller's Table is a restaurant that succeeds without a famous chef, which conflicts with the generalization that none can.",
+      "E": "Not used: the columnist shows that evidence conflicts with the claim, not that the claim contradicts itself."
+    },
+    "trapPatterns": {
+      "A": "wrong_part",
+      "B": "out_of_scope",
+      "C": "wrong_part",
+      "E": "wrong_part"
+    },
+    "keyTakeaway": "A single counterexample is enough to refute a universal claim.",
+    "predictionHint": "Counterexample to a generalization."
+  },
+  {
+    "id": "lr-j-principle-lakefront-hearing",
+    "section": "LR",
+    "type": "principle",
+    "logicTags": [
+      "value_judgment",
+      "rule_application"
+    ],
+    "difficulty": 4,
+    "stimulus": "Resident: The council's vote to sell the lakefront park to a developer was improper. Several hundred residents signed a petition asking for a public hearing before any sale of the park, yet the council held no hearing.",
+    "stem": "Which one of the following principles, if valid, most helps to justify the resident's reasoning?",
+    "choices": {
+      "A": "A public body should hold a hearing before selling public land if a majority of residents oppose the sale.",
+      "B": "A public body acts improperly if it sells public land for less than its appraised value.",
+      "C": "Residents have the right to petition a public body to prevent any sale of public land.",
+      "D": "A public body acts improperly if it sells public land without first holding a hearing that a majority of residents have requested.",
+      "E": "A public body acts improperly if it sells public land without first holding a hearing that residents have requested by petition."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Shell game: it is triggered by majority opposition, which the passage does not say existed.",
+      "B": "Out of scope: the price paid for the park is not part of the resident's complaint.",
+      "C": "Shell game: it gives residents a right to petition to prevent a sale, but the resident complains about the lack of a hearing, not about the sale as such.",
+      "D": "Shell game: it applies only when a majority requested a hearing, and 'several hundred residents' is not stated to be a majority.",
+      "E": "Correct. Residents petitioned for a hearing before any sale and the council held none, so under this principle the sale was improper."
+    },
+    "trapPatterns": {
+      "A": "shell_game",
+      "B": "out_of_scope",
+      "C": "shell_game",
+      "D": "shell_game"
+    },
+    "keyTakeaway": "Check the trigger in each principle against the stated facts; a stricter trigger such as 'a majority' may not be met.",
+    "predictionHint": "Hearing requested by petition and not held makes the sale improper."
+  }
+]

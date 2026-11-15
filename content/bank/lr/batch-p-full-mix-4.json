@@ -13,7 +13,7 @@
       "A": "overlooks that a bus lane costs more to build than an ordinary traffic lane",
       "B": "presumes that no street other than Harbor Street could benefit from a bus lane",
       "C": "fails to rule out that some other change occurring around the same time produced the faster travel times",
-      "D": "draws a conclusion about future travel times from evidence about past travel times",
+      "D": "draws a conclusion about what bus travel times will be in future years from evidence about a single past year",
       "E": "assumes that shorter travel times are the only measure of whether transit money was well spent"
     },
     "answer": "C",
@@ -41,7 +41,7 @@
       "conditional"
     ],
     "difficulty": 2,
-    "stimulus": "Consultant: No independent bookstore can stay profitable without a strong calendar of author events. Pageturner Books, an independent bookstore, has just launched a strong calendar of author events. Therefore, Pageturner Books will stay profitable.",
+    "stimulus": "Consultant: In my experience advising small shops in this region, one rule holds. No independent bookstore can stay profitable without a strong calendar of author events. Pageturner Books, an independent bookstore, has just launched a strong calendar of author events. Therefore, Pageturner Books will stay profitable.",
     "stem": "The argument is flawed in that it",
     "choices": {
       "A": "treats a condition required for profitability as though it were enough to guarantee profitability",
@@ -147,7 +147,7 @@
     "choices": {
       "A": "fails to consider that the machines might damage fabrics that are not delicate",
       "B": "dismisses a claim on the basis of the character of those who make it rather than on the merits of the claim itself",
-      "C": "overlooks that the rival may have an interest in discouraging customers from using the owner's shop",
+      "C": "overlooks that the rival may have a commercial interest in discouraging customers from bringing their garments to the owner's shop",
       "D": "assumes that the rival's prices are lower than the prices the owner charges",
       "E": "relies on a single flyer as the only evidence of what the rival believes"
     },
@@ -179,7 +179,7 @@
     "stimulus": "A survey of municipal records covering every parking garage in downtown Carrow found that most of the garages raised their rates this year. It also found that every garage that raised its rates had fewer daily users in the month after the increase than in the month before it.",
     "stem": "Which one of the following is most strongly supported by the information above?",
     "choices": {
-      "A": "The rate increases were what caused the garages to lose daily users.",
+      "A": "The rate increases were what caused the garages that raised their rates to lose a substantial share of their daily users.",
       "B": "Garages that did not raise their rates kept the same number of daily users.",
       "C": "Most downtown Carrow garages had fewer daily users after raising their rates than they had before.",
       "D": "Garages that raised their rates earned less money overall.",
@@ -249,7 +249,7 @@
     "stem": "Which one of the following is most strongly supported by the information above?",
     "choices": {
       "A": "Hospital-treated bicycle injuries on Corbin Avenue became less frequent relative to the number of trips taken there.",
-      "B": "Corbin Avenue became a safer street for cyclists in every respect.",
+      "B": "Corbin Avenue became a safer street for cyclists in every respect, including injuries that never reached a hospital.",
       "C": "Fewer bicycle injuries were treated at hospitals on Corbin Avenue last year than the year before.",
       "D": "The number of different people who rode bicycles on Corbin Avenue rose by forty percent.",
       "E": "Most bicycle injuries on Corbin Avenue are serious enough to require hospital treatment."
@@ -279,10 +279,10 @@
       "comparison"
     ],
     "difficulty": 2,
-    "stimulus": "Store owner: Printing paper receipts costs my shop about nine hundred dollars a year in paper, ink, and printer repairs. Switching to emailed receipts will therefore save my shop money.",
+    "stimulus": "Store owner: Printing paper receipts costs my shop about nine hundred dollars a year in paper, ink, and printer repairs, and few customers ever ask for them. Switching to emailed receipts will therefore save my shop money.",
     "stem": "The argument depends on assuming which one of the following?",
     "choices": {
-      "A": "Most of the shop's customers would rather receive emailed receipts than paper ones.",
+      "A": "Most of the shop's customers would rather receive an emailed receipt than a paper one printed at the register.",
       "B": "The cost of paper and ink will rise over the next several years.",
       "C": "Other small shops that switched to emailed receipts saved money.",
       "D": "The shop's receipt printer would otherwise have to be replaced this year.",
@@ -316,7 +316,7 @@
     "stimulus": "Critic: No translation of a poem can reproduce the sound of the original. The beauty of Ilse Brandt's poems lies chiefly in their sound. Therefore, readers who know her poems only through translation cannot fully appreciate their beauty.",
     "stem": "Which one of the following is an assumption required by the argument?",
     "choices": {
-      "A": "Translations of Brandt's poems are less faithful than translations of other poets' work.",
+      "A": "Translations of Brandt's poems are less faithful to their originals than translations of other poets' work are to theirs.",
       "B": "Fully appreciating a poem's beauty requires access to the feature in which that beauty chiefly lies.",
       "C": "Readers who know a poem in its original language always fully appreciate its beauty.",
       "D": "The beauty of any poem lies chiefly in its sound.",
@@ -353,7 +353,7 @@
     "choices": {
       "A": "Songs that are easy for ordinary singers to remember generally survive in oral tradition for centuries.",
       "B": "The Karst ballads have been sung by many generations of ordinary singers.",
-      "C": "If the Karst ballads are easy to remember, then at least part of the reason is the simplicity of their melodic structures.",
+      "C": "If the Karst ballads are easy to remember, part of the reason is the simplicity of their melodic structures.",
       "D": "A simple melodic structure is the only feature that can make a song easy for ordinary singers to remember.",
       "E": "The melodic structures of the Karst ballads are simpler than those of songs that did not survive in oral tradition."
     },
@@ -382,13 +382,13 @@
       "causation"
     ],
     "difficulty": 1,
-    "stimulus": "Merchant: Ever since the city installed parking meters on Delmar Street, my store's sales have dropped. The meters are plainly driving customers away, so the city should remove them.",
+    "stimulus": "Merchant: I have run my store on Delmar Street for twelve years, and I have not changed my prices or hours. Ever since the city installed parking meters there, my store's sales have dropped. The meters are plainly driving customers away, so the city should remove them.",
     "stem": "Which one of the following, if true, most seriously weakens the merchant's argument?",
     "choices": {
-      "A": "The meters on Delmar Street bring the city more revenue than the merchant's store pays in taxes.",
+      "A": "The meters on Delmar Street bring the city more revenue each year than the merchant's store has ever paid the city in business taxes and fees.",
       "B": "Some customers say they find it inconvenient to pay for parking.",
       "C": "Delmar Street has fewer parking spaces than most commercial streets in the city.",
-      "D": "Sales at stores on nearby streets that have no parking meters have dropped by about the same amount over the same period.",
+      "D": "Stores on nearby streets with no parking meters have had about the same drop in sales over the same period.",
       "E": "Before the meters were installed, the merchant's sales had been rising steadily."
     },
     "answer": "D",
@@ -420,8 +420,8 @@
     "stimulus": "Music teacher: A recent study of beginning students found that those who practice with a metronome learn to play rhythms more accurately than those who do not. The conservatory should therefore require every beginning student to practice with a metronome.",
     "stem": "Which one of the following, if true, most seriously weakens the music teacher's argument?",
     "choices": {
-      "A": "Before the study began, the students who chose to practice with a metronome already played rhythms more accurately than the other students did.",
-      "B": "Metronomes are inexpensive, and free metronome applications are widely available.",
+      "A": "Before the study, the students who chose to use a metronome already played rhythms more accurately than the others.",
+      "B": "Metronomes are inexpensive, and free metronome applications are available for nearly every kind of phone or computer.",
       "C": "Some accomplished professional musicians seldom practice with a metronome.",
       "D": "Rhythmic accuracy is only one of several skills the conservatory teaches beginners.",
       "E": "Conservatory faculty regard rhythmic accuracy as one of the most important beginner skills."
@@ -455,7 +455,7 @@
     "stem": "Which one of the following, if true, most seriously weakens the analyst's argument?",
     "choices": {
       "A": "Congestion fees have proved unpopular with voters in several cities that adopted them.",
-      "B": "The fall in traffic in Valmora was larger than the fall recorded in other cities that charge entry fees.",
+      "B": "The fall in traffic in Valmora was larger than the fall recorded in the other cities that have charged entry fees for several years.",
       "C": "Brenton's central district is smaller in area than Valmora's central district.",
       "D": "Some of the drivers who stopped entering Valmora's central district switched to diesel buses.",
       "E": "Almost none of the air pollution in Brenton's central district comes from road vehicles, whereas much of Valmora's did."
@@ -488,7 +488,7 @@
     "stimulus": "Last year, Hollis Bakery cut the price of its plain bread loaves by twenty percent. Over the course of the year, the number of different customers who bought bread at the bakery did not change, yet the bakery's total revenue from bread rose.",
     "stem": "Which one of the following, if true, most helps to explain the apparent discrepancy described above?",
     "choices": {
-      "A": "The bakery's flour supplier lowered its prices during the year.",
+      "A": "The bakery's flour supplier lowered the price of flour twice during the year, which reduced the bakery's cost of making bread.",
       "B": "After the price cut, many customers began buying several loaves per visit and freezing the extras.",
       "C": "Prices at the other bakeries in town stayed the same last year.",
       "D": "Customers who bought bread at Hollis Bakery also bought pastries there.",
@@ -519,13 +519,13 @@
       "comparison"
     ],
     "difficulty": 3,
-    "stimulus": "After the city of Marlow closed its downtown core to cars, the number of people visiting the core on weekdays rose noticeably, yet the combined sales of the core's retail shops fell.",
+    "stimulus": "After the city of Marlow closed its downtown core to cars, the city's own counts show that the number of people visiting the core on weekdays rose noticeably, yet the combined sales of the core's retail shops fell.",
     "stem": "Which one of the following, if true, most helps to resolve the apparent paradox?",
     "choices": {
       "A": "Rents for retail space in the core were unchanged by the closure.",
-      "B": "Closing downtown cores to cars in other cities has been followed by higher retail sales.",
+      "B": "Closing downtown cores to cars in several other cities has been followed by noticeably higher retail sales in those cores.",
       "C": "Weekday visitors to the core outnumber weekend visitors.",
-      "D": "Most of the added visitors came to stroll or attend free events, whereas the shoppers who stopped coming were mostly people who had made large purchases.",
+      "D": "Most of the added visitors came to stroll or attend free events, while the shoppers who stopped coming had mostly made large purchases.",
       "E": "Restaurants in the core reported higher sales after the closure."
     },
     "answer": "D",
@@ -557,7 +557,7 @@
     "stem": "Which one of the following, if true, most strengthens the librarian's argument?",
     "choices": {
       "A": "Parents say that the story hour is popular with the children who attend it.",
-      "B": "Eastgate has a larger children's collection than the library's other branches.",
+      "B": "Eastgate has a larger collection of children's books than any of the library's other branches, and a bigger children's room.",
       "C": "At the library's other branches, which offer no story hour, Saturday checkouts of children's books did not rise over the same period.",
       "D": "Many children who attend the story hour already owned library cards.",
       "E": "Saturday checkouts of adult books at Eastgate rose as well."
@@ -591,7 +591,7 @@
     "stem": "Which one of the following, if true, most strengthens the business writer's argument?",
     "choices": {
       "A": "Several firms that switched from hourly billing to flat monthly fees began adding clients faster than they had before the switch.",
-      "B": "Flat-fee firms in the region tend to be newer than hourly-billing firms.",
+      "B": "Flat-fee firms in the region tend to be newer than hourly-billing firms and to be located in the fast-growing suburbs.",
       "C": "Some hourly-billing firms in the region have added clients quickly.",
       "D": "Most clients of flat-fee firms say they also hire a second accountant.",
       "E": "Flat monthly fees are more common among accounting firms in other regions."
@@ -627,8 +627,8 @@
       "A": "Roads should be named only for things that currently exist in the area they serve.",
       "B": "Public roads should be renamed only with the approval of a majority of the area's residents.",
       "C": "A name should be changed whenever a more fitting name is available.",
-      "D": "Whatever is historically significant should be preserved no matter what the cost.",
-      "E": "A name that has long been used in directions and official records should not be replaced merely because what it commemorates no longer exists."
+      "D": "Whatever is historically significant should be preserved by public authorities, no matter what the cost to taxpayers.",
+      "E": "A name long used in directions and records should not be replaced merely because what it commemorates is gone."
     },
     "answer": "E",
     "explanations": {
@@ -656,14 +656,14 @@
       "definition_scope"
     ],
     "difficulty": 4,
-    "stimulus": "Editor: Our press should not publish Tomas Aldric's memoir. The prose is excellent, but several of the memoir's central anecdotes cannot be independently verified.",
+    "stimulus": "Editor: Our press should not publish Tomas Aldric's memoir. Our board has reviewed the manuscript twice. The prose is excellent, but several of the memoir's central anecdotes cannot be independently verified.",
     "stem": "Which one of the following principles, if valid, most helps to justify the editor's reasoning?",
     "choices": {
       "A": "A press ought not to publish a memoir if most of its anecdotes cannot be independently verified.",
-      "B": "A press ought not to publish a memoir if any of its central anecdotes cannot be independently verified, however well written the memoir is.",
+      "B": "A press ought not to publish a memoir if any of its central anecdotes cannot be independently verified, however well written it is.",
       "C": "A press ought to publish a memoir only if its prose is excellent.",
       "D": "A press ought to publish a memoir if its central anecdotes can be independently verified.",
-      "E": "A press ought not to publish a memoir if it is probable that some of its central anecdotes are false."
+      "E": "A press ought not to publish a memoir if it is probable that some of its central anecdotes are false, however polished its prose is."
     },
     "answer": "B",
     "explanations": {
@@ -693,7 +693,7 @@
     "stimulus": "Consultant: The Millbrook dance studio will qualify for the arts grant only if it increases its enrollment this year. Since the studio's marketing budget will not be increased this year, it will not qualify for the grant.",
     "stem": "The conclusion follows logically if which one of the following is assumed?",
     "choices": {
-      "A": "Increasing a studio's marketing budget always raises its enrollment.",
+      "A": "Increasing a studio's marketing budget always raises its enrollment, whether or not the studio hires more teachers.",
       "B": "The studio will qualify for the grant if it increases its marketing budget this year.",
       "C": "Enrollment at the studio has declined in each of the past three years.",
       "D": "The studio will increase its enrollment this year only if its marketing budget is increased this year.",
@@ -857,9 +857,9 @@
     "stem": "The claim that a tax on vacant storefronts would be unjust plays which one of the following roles in the argument?",
     "choices": {
       "A": "It is the final conclusion of the argument.",
-      "B": "It is a general principle from which the argument's other claims are derived.",
-      "C": "It is a premise that the argument offers without any support.",
-      "D": "It is a conclusion supported by other claims in the argument and is itself used to support the argument's final conclusion.",
+      "B": "It is a general principle that the economist asserts and from which the argument's other claims are derived.",
+      "C": "It is a premise that the economist asserts at the outset of the argument without offering any support for it.",
+      "D": "It is an intermediate conclusion that is supported by other claims and in turn supports the final conclusion.",
       "E": "It is a position that the economist considers and then rejects."
     },
     "answer": "D",
@@ -890,7 +890,7 @@
     "stimulus": "Every restaurant that earned the city's top rating was inspected twice last year. Some of the restaurants on Pier Street were inspected twice last year. Therefore, some of the restaurants on Pier Street earned the city's top rating.",
     "stem": "The flawed reasoning in which one of the following is most similar to that in the argument above?",
     "choices": {
-      "A": "All of the members of the committee are tenured. Some of the people at the hearing are committee members. Therefore, some of the people at the hearing are tenured.",
+      "A": "All of the members of the committee are tenured. Some of the people who spoke at the hearing are committee members. Therefore, some of the people who spoke at the hearing are tenured.",
       "B": "Every sonnet in the collection is rhymed. Some of the poems Imogen admires are rhymed. So all of the poems Imogen admires are sonnets in the collection.",
       "C": "All of the cafes in the arcade accept cards. Some of the businesses that opened this year accept cards. So some of the businesses that opened this year are cafes in the arcade.",
       "D": "All of the volunteers have been trained. Some of the people on the roster have not been trained. Therefore, some of the people on the roster are not volunteers.",
@@ -925,7 +925,7 @@
     "stem": "The pattern of reasoning in which one of the following is most similar to that in the argument above?",
     "choices": {
       "A": "The drop in attendance was caused by the ticket price, the schedule change, or the weather. Lowering the price did not restore attendance. Restoring the old schedule did not restore attendance. So the weather caused the drop.",
-      "B": "The leak came from the roof, the pipes, or the window frame. The roof was repaired and the leak stopped. So the leak came from the roof.",
+      "B": "The leak came from the roof, the pipes, or the window frame. The roof was repaired, and the leak stopped. So the leak came from the roof rather than from the pipes or the window frame.",
       "C": "If the drop in attendance was caused by the ticket price, lowering the price would have restored attendance. It did not. So the price did not cause the drop.",
       "D": "The drop in attendance was caused by the ticket price, the schedule change, or the weather. Lowering the price did not restore attendance. So the drop was caused by the schedule change or the weather.",
       "E": "Attendance fell each time tickets were expensive and rose each time they were cheap. So ticket price affects attendance."
@@ -987,7 +987,7 @@
       "conditional"
     ],
     "difficulty": 1,
-    "stimulus": "Every stall at the Saturday market that sells cheese also sells bread. No stall that sells bread accepts only cash. The Hartley stall, which operates at the Saturday market, sells cheese.",
+    "stimulus": "Every stall at the Saturday market that sells cheese also sells bread. No stall that sells bread accepts only cash. The Saturday market has dozens of stalls, and the Hartley stall is one of them. The Hartley stall sells cheese.",
     "stem": "If the statements above are true, which one of the following must also be true?",
     "choices": {
       "A": "The Hartley stall sells nothing except cheese and bread.",
@@ -1058,9 +1058,9 @@
     "stimulus": "Neighborhood association chair: A shop owner is expected to clear the snow from the sidewalk in front of the shop, because the sidewalk is the owner's frontage and its condition affects customers. An apartment-building owner's frontage likewise affects residents and visitors. So the owner of an apartment building should be expected to clear snow from the sidewalk in front of the building.",
     "stem": "The argument proceeds by",
     "choices": {
-      "A": "citing a general principle and then showing that it has a counterexample",
+      "A": "citing a general principle about property owners and then showing that the principle has a clear counterexample",
       "B": "showing that a proposed policy would have consequences its supporters oppose",
-      "C": "drawing a comparison between two kinds of property owners and concluding that an obligation that applies to one applies to the other",
+      "C": "drawing a comparison between two kinds of property owners and concluding that an obligation of one applies to the other",
       "D": "eliminating alternative explanations for an observed pattern",
       "E": "challenging the qualifications of those who oppose the expectation"
     },
