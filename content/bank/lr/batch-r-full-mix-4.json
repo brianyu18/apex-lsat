@@ -47,7 +47,7 @@
       "A": "ignores that a team can lose a match even when its striker scores in it",
       "B": "presumes that the striker is the only player on the team who is capable of scoring",
       "C": "treats a correlation between the striker's scoring and winning as proof that her scoring causes wins, ignoring that strong team play could explain both",
-      "D": "relies on the coach's own judgment rather than on a statistical analysis of many seasons",
+      "D": "relies on the coach's own judgment rather than on a statistical analysis of the team's results over many seasons and against many different opponents in several leagues",
       "E": "assumes that every player on the team contributes equally to a win"
     },
     "answer": "C",
@@ -116,7 +116,7 @@
       "B": "assumes that people who feel obligated to keep promises always keep them",
       "C": "equates what people ought to do with what they are praised for doing",
       "D": "rejects a belief as unjustified solely on the basis of how people came to hold it, without considering whether it could be supported on other grounds",
-      "E": "concludes that a belief is true from the fact that a competing belief is unjustified"
+      "E": "concludes that a belief is true from the fact that a competing belief is unjustified, even though both beliefs could turn out to be unjustified or false"
     },
     "answer": "D",
     "explanations": {
@@ -181,7 +181,7 @@
     "stem": "Which one of the following is most strongly supported by the information above?",
     "choices": {
       "A": "The Kell Glacier retreats only in years when the mean summer temperature exceeds 12 degrees Celsius.",
-      "B": "In most of the last ten years, the regional mean summer temperature did not exceed 12 degrees Celsius.",
+      "B": "In most of the last ten years, the regional mean summer temperature did not exceed 12 degrees Celsius anywhere in the Kell Glacier's region.",
       "C": "In at least three of the last ten years, the regional mean summer temperature did not exceed 12 degrees Celsius.",
       "D": "Whenever the mean summer temperature does not exceed 12 degrees Celsius, the Kell Glacier advances.",
       "E": "Cool summers cause the Kell Glacier to advance rather than retreat."
@@ -284,7 +284,7 @@
     "stem": "The coach's argument depends on assuming which one of the following?",
     "choices": {
       "A": "Practicing with recorded crowd noise would lessen how much real crowd noise disrupts the team on the road.",
-      "B": "The team will play all of its future road games in front of unusually noisy crowds.",
+      "B": "The team will play all of its future road games in front of unusually loud and hostile crowds of home supporters.",
       "C": "Home crowds are always quieter than the crowds at road games.",
       "D": "No other team has tried practicing with recorded crowd noise.",
       "E": "The team has lost more road games than home games this season."
@@ -319,7 +319,7 @@
     "stem": "Which one of the following is an assumption required by the philosopher's argument?",
     "choices": {
       "A": "Any law that ordinary citizens can understand is a just law.",
-      "B": "Most citizens would reject the Meridian tax code if they understood it.",
+      "B": "Most citizens would reject the Meridian tax code outright if they were ever able to understand it.",
       "C": "People could agree to a law in principle only if they are able to understand it.",
       "D": "The Meridian tax code could not be simplified without altering its effect.",
       "E": "Every convoluted law is unjust."
@@ -391,7 +391,7 @@
       "B": "During the past season, several strong players who had previously competed for rival clubs joined Eastfield's teams.",
       "C": "The club's total membership has grown since the mentoring program was introduced.",
       "D": "The mentoring program costs the club very little to operate.",
-      "E": "In the past season, Eastfield's teams played a tougher schedule than in the season before the program."
+      "E": "In the past season, Eastfield's teams played a tougher schedule than in the season before the program was introduced."
     },
     "answer": "B",
     "explanations": {
@@ -422,7 +422,7 @@
     "stem": "Which one of the following, if true, most calls into question the scientist's argument?",
     "choices": {
       "A": "Tree rings in the Valdre forest also grow narrow in years of severe drought.",
-      "B": "Most of the trees in the Valdre forest are more than two centuries old.",
+      "B": "Most of the trees in the Valdre forest are more than two centuries old and have been measured by researchers since the nineteenth century.",
       "C": "Large volcanic eruptions are rarer than severe droughts in the region.",
       "D": "Ash and sulfur compounds from eruptions damage leaves and soil, stunting tree growth even when temperatures do not fall.",
       "E": "Temperature records from other regions show cooling in the years after large eruptions."
@@ -560,7 +560,7 @@
       "A": "The new spikes are made by a manufacturer with a long-standing reputation for quality.",
       "B": "Some of the coach's sprinters improved by more than two tenths of a second.",
       "C": "The new spikes are more expensive than the spikes the sprinters wore before.",
-      "D": "Sprinters on several other teams have also improved their times over the same period.",
+      "D": "Sprinters on several other teams have also improved their times over the same period, wearing many different kinds of footwear.",
       "E": "Sprinters on the coach's team who continued to wear the old spikes showed no change in their times over the same period."
     },
     "answer": "E",
@@ -592,7 +592,7 @@
     "stem": "Which one of the following, if true, most strengthens the ethicist's argument?",
     "choices": {
       "A": "Octopuses are more intelligent than most other invertebrates.",
-      "B": "Some mammals guard injured limbs without any accompanying experience of pain.",
+      "B": "Some mammals guard injured limbs without any accompanying experience of pain, as when the behavior is a purely reflexive response to tissue damage.",
       "C": "Pain is a morally relevant experience in any creature that can feel it.",
       "D": "Octopuses have neurons that respond to tissue damage in much the same way as the pain-processing neurons of mammals.",
       "E": "Octopuses have been observed learning to open jars to reach food."
@@ -730,7 +730,7 @@
       "A": "A victory is fair as long as the winner broke none of the rules of the competition.",
       "B": "The value of a victory depends on how difficult the victory was to achieve.",
       "C": "A victory is fair if it results from the winner's superior effort and preparation.",
-      "D": "A competition should be closed to riders from wealthier backgrounds than the other riders.",
+      "D": "A competition should be closed to any riders who come from wealthier backgrounds than the other riders in the field.",
       "E": "A victory is fair only if the competitors who lost could have matched the winner's advantages through sufficient effort."
     },
     "answer": "E",
@@ -760,7 +760,7 @@
     "stem": "Which one of the following most accurately expresses the main conclusion of the argument?",
     "choices": {
       "A": "Global warming is a myth.",
-      "B": "A single season's weather says little about long-term climate trends.",
+      "B": "A single season's weather, taken by itself, says little about long-term climate trends.",
       "C": "Last winter's record snowfall provides no evidence against global warming.",
       "D": "Warmer air holds more moisture than colder air.",
       "E": "Heavier snowfall will occur wherever global warming occurs."
@@ -793,7 +793,7 @@
     "choices": {
       "A": "Free will is incompatible with determinism.",
       "B": "Science has shown that the universe is deterministic.",
-      "C": "Human decisions may depend on events at very small scales.",
+      "C": "Human decisions may depend on events at very small scales rather than on the motion of large objects.",
       "D": "The argument that science shows human beings lack free will is unsound.",
       "E": "Human beings have free will."
     },
@@ -826,7 +826,7 @@
       "A": "It is the main conclusion of the argument.",
       "B": "It is a general principle that, applied to a fact about the film, supports the conclusion.",
       "C": "It is a claim by some reviewers that the critic sets out to refute.",
-      "D": "It is a specific fact about the film offered as evidence for the conclusion.",
+      "D": "It is a specific fact about the film that the critic offers as evidence for the conclusion that the pacing is not a defect.",
       "E": "It is a concession that the critic makes to the reviewers' position."
     },
     "answer": "B",

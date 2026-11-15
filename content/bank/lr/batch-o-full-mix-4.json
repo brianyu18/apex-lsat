@@ -1,550 +1,552 @@
 [
   {
-    "id": "lr-q-flaw-nesting-box-streams",
+    "id": "lr-o-flaw-parking-meters",
     "section": "LR",
     "type": "flaw",
     "logicTags": [
-      "causation"
+      "lack_of_support_v_false"
     ],
     "difficulty": 1,
-    "stimulus": "Ornithologist: In our study area, nesting boxes placed within fifty meters of a stream fledged an average of four chicks per season, while boxes placed farther from streams fledged an average of two. To raise the number of chicks fledged in the region's nesting-box program, we should therefore relocate all of the boxes to sites near streams.",
-    "stem": "The reasoning in the argument is most vulnerable to criticism on the grounds that it",
+    "stimulus": "Town councilor: At last week's public hearing, not one resident presented any evidence that the new downtown parking meters have driven shoppers away. Since no such evidence has been offered, the meters clearly have not hurt downtown retail business, and the council should keep them in place.",
+    "stem": "The councilor's reasoning is most vulnerable to criticism on the grounds that it",
     "choices": {
-      "A": "ignores the possibility that some of the nesting boxes were occupied by more than one species of bird",
-      "B": "overlooks the possibility that sites near streams differ in some other respect, such as food supply, that accounts for the greater success",
-      "C": "relies on a comparison of average figures instead of the number of chicks fledged from each individual box",
-      "D": "assumes that the number of chicks fledged is the only measure of a nesting site's value to the birds",
-      "E": "concludes that proximity to a stream is necessary for fledging chicks from evidence that the two are merely associated"
+      "A": "takes the absence of presented evidence that the meters hurt business as proof that they have not",
+      "B": "ignores the possibility that the meters generate revenue the town could use to support downtown retail businesses",
+      "C": "assumes that the meters are the only factor that could possibly have affected the level of downtown retail business",
+      "D": "attacks the character of residents who want the meters removed instead of answering their arguments on the merits",
+      "E": "generalizes from the residents who attended one hearing to the views of all of the shoppers who visit downtown"
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. The only premise is that no evidence of harm was offered, which does not show that there is no harm; absence of proof is treated as proof of absence.",
+      "B": "Out of scope: meter revenue is never mentioned, and the conclusion is about harm to business, not about alternative uses of money.",
+      "C": "Extreme: the councilor never claims the meters are the only factor; the argument fails even if other factors exist.",
+      "D": "Wrong part: the councilor attacks no one's character; the residents are said only to have offered no evidence.",
+      "E": "Wrong part: the argument is about what evidence was presented, not about what the attendees' opinions say about all shoppers."
+    },
+    "trapPatterns": {
+      "B": "out_of_scope",
+      "C": "extreme",
+      "D": "wrong_part",
+      "E": "wrong_part"
+    },
+    "keyTakeaway": "A lack of evidence for a claim does not establish that the claim is false.",
+    "predictionHint": "No evidence of harm offered, therefore no harm: lack of support treated as falsity."
+  },
+  {
+    "id": "lr-o-flaw-abbey-chronicle-famine",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "lack_of_support_v_false"
+    ],
+    "difficulty": 2,
+    "stimulus": "Historian: The monks of Saint Orrin's abbey wrote that the famine of 1340 was the worst in the region's history. But the abbey stood in the very district that suffered most, and chroniclers tend to exaggerate the importance of events they lived through. We must therefore conclude that the abbey's account of the famine is worthless as evidence.",
+    "stem": "The historian's argument is flawed in that it",
+    "choices": {
+      "A": "fails to establish that the famine of 1340 was in fact the worst that the region has ever experienced",
+      "B": "infers that the account is wholly unreliable from a tendency that would at most make it exaggerated",
+      "C": "relies on a source whose authors had no means of learning how severe the famine was in other parts of the region",
+      "D": "assumes that the monks were the only people in the region who made a written record of the famine",
+      "E": "presumes that the abbey stood in the district where the largest number of monks in the region lived"
     },
     "answer": "B",
     "explanations": {
-      "A": "Out of scope: the number of species using the boxes has no bearing on whether moving boxes would raise fledging totals.",
-      "B": "Correct. The data show only an association between stream sites and success. Those sites may simply have more insects or better cover, in which case moving boxes would not change the results.",
-      "C": "True but irrelevant: an average is a legitimate summary, and individual-box figures would not repair the causal gap.",
-      "D": "Extreme: the ornithologist wants more fledglings and needs no claim that fledging is the sole measure of a site's value.",
-      "E": "Extreme: the argument never says streams are necessary for fledging; boxes far from streams still fledged two chicks on average."
-    },
-    "trapPatterns": {
-      "A": "out_of_scope",
-      "C": "true_but_irrelevant",
-      "D": "extreme",
-      "E": "necessary_v_sufficient"
-    },
-    "keyTakeaway": "When a correlation is turned into a relocation or policy recommendation, look for a third factor that travels with the favored condition.",
-    "predictionHint": "Stream sites may differ in food or cover, which could be the real cause of success."
-  },
-  {
-    "id": "lr-q-flaw-tabloid-report-dismissed",
-    "section": "LR",
-    "type": "flaw",
-    "logicTags": [],
-    "difficulty": 1,
-    "stimulus": "Media critic: Dr. Alvarez's report claims that local television news has become more sensational over the past decade. But Alvarez spent two years as a producer for a tabloid talk show, so the report should simply be dismissed.",
-    "stem": "The argument is flawed in that it",
-    "choices": {
-      "A": "presumes that all local television news is sensational on the grounds that some of it has become so",
-      "B": "fails to define what it means for news coverage to be sensational before assessing the report",
-      "C": "relies on a report that examines only a single decade of local television news programming",
-      "D": "rejects a claim because of its author's background rather than on the merits of the evidence offered for it",
-      "E": "treats the report's conclusion as false merely because the critic has not been given any evidence for it"
-    },
-    "answer": "D",
-    "explanations": {
-      "A": "Wrong part: the critic never generalizes from some local news to all; the critic attacks the report, not the news.",
-      "B": "True but irrelevant: a missing definition would not explain why Alvarez's past job justifies dismissal.",
-      "C": "Out of scope: the length of the period studied is never questioned in the critic's reasoning.",
-      "D": "Correct. The only ground offered for dismissing the report is the author's former employer. Whether the report's evidence supports its claim is never examined.",
-      "E": "Wrong part: the critic offers a reason for dismissal, the author's background, and does not claim that the evidence is missing."
+      "A": "Wrong part: the historian never asserts that the famine was the worst; the claim in question is that the account is worthless.",
+      "B": "Correct. A tendency to exaggerate would lower the account's reliability, not eliminate it; the account could still be good evidence that a severe famine occurred. The conclusion 'worthless' goes far beyond the premise.",
+      "C": "Out of scope: what the monks could know about other regions is not what the historian cites against them.",
+      "D": "Extreme: the argument does not depend on the monks being the only recorders.",
+      "E": "Out of scope: where most monks lived plays no role in the reasoning."
     },
     "trapPatterns": {
       "A": "wrong_part",
-      "B": "true_but_irrelevant",
       "C": "out_of_scope",
-      "E": "wrong_part"
+      "D": "extreme",
+      "E": "out_of_scope"
     },
-    "keyTakeaway": "An attack on the source rather than on the evidence is the classic ad hominem flaw.",
-    "predictionHint": "The report is rejected because of who wrote it, not because of what it says."
+    "keyTakeaway": "Evidence of possible bias supports discounting a source, not discarding it entirely.",
+    "predictionHint": "Possible exaggeration does not make the whole account worthless."
   },
   {
-    "id": "lr-q-flaw-credit-hours-eligibility",
+    "id": "lr-o-flaw-orchard-honeybees",
     "section": "LR",
     "type": "flaw",
     "logicTags": [
       "conditional"
     ],
     "difficulty": 2,
-    "stimulus": "University registrar: A student is eligible to graduate only if she has completed at least 120 credit hours. Priya has completed 124 credit hours. Therefore, Priya is eligible to graduate.",
-    "stem": "The reasoning in the argument is flawed because it",
+    "stimulus": "Orchard manager: Without honeybees, an apple orchard cannot be well pollinated. Our orchard keeps forty hives on its grounds this year. Therefore, our apple blossoms will be well pollinated this spring.",
+    "stem": "The reasoning in the manager's argument is flawed because it",
     "choices": {
-      "A": "treats a condition necessary for eligibility as though it were sufficient for eligibility",
-      "B": "draws a conclusion about one particular student from a rule that concerns students in general",
-      "C": "assumes without justification that Priya will actually choose to graduate",
-      "D": "overlooks that eligibility rules may differ from one university to another",
-      "E": "mistakes a condition sufficient for eligibility for one that is merely necessary"
+      "A": "assumes that honeybees are the only insects that pollinate apple blossoms in orchards of this kind",
+      "B": "overlooks that the hives might be moved off the grounds before the blossoms have opened this spring",
+      "C": "treats a condition that is required for good pollination as if it were enough to ensure it",
+      "D": "draws a conclusion about one particular orchard from a premise about apple orchards in general terms",
+      "E": "takes for granted that well-pollinated blossoms will go on to produce a large and profitable harvest"
     },
-    "answer": "A",
+    "answer": "C",
     "explanations": {
-      "A": "Correct. The rule says 120 credits are required; it does not say they are enough. Priya may still lack other requirements, so eligibility does not follow.",
-      "B": "Wrong part: applying a general rule to an individual case is normal; the problem is the direction of the conditional.",
-      "C": "Out of scope: the conclusion concerns eligibility, not whether Priya will choose to graduate.",
-      "D": "Out of scope: the registrar speaks only about this university's own rule.",
-      "E": "Reversal: this describes the flaw backward. The rule states a necessary condition, and the registrar treats it as sufficient."
+      "A": "Extreme: the first premise says bees are necessary, which is the opposite of saying they are the only pollinators that matter.",
+      "B": "Out of scope: the manager says the hives are kept on the grounds; the flaw would remain even if they stay there.",
+      "C": "Correct. 'Without bees, no good pollination' makes bees necessary. The conclusion treats the presence of bees as sufficient, ignoring weather, bloom timing and other requirements.",
+      "D": "Wrong part: applying a general premise to a particular case is ordinarily valid and is not the error here.",
+      "E": "Out of scope: the conclusion concerns pollination, not harvest size."
     },
     "trapPatterns": {
-      "B": "wrong_part",
-      "C": "out_of_scope",
-      "D": "out_of_scope",
-      "E": "reversal"
+      "A": "extreme",
+      "B": "out_of_scope",
+      "D": "wrong_part",
+      "E": "out_of_scope"
     },
-    "keyTakeaway": "Only if names a necessary condition; meeting it never guarantees the outcome.",
-    "predictionHint": "Necessary condition mistaken for sufficient."
+    "keyTakeaway": "If X is required for Y, having X does not guarantee Y.",
+    "predictionHint": "Necessary condition mistaken for a sufficient one."
   },
   {
-    "id": "lr-q-flaw-diet-compound-lifespan",
+    "id": "lr-o-flaw-county-budget-response",
     "section": "LR",
     "type": "flaw",
     "logicTags": [
+      "comparison",
       "causation"
     ],
     "difficulty": 3,
-    "stimulus": "Physiologist: Laboratory mice fed Diet X lived, on average, fifteen percent longer than mice fed the standard diet. Diet X contains Compound Z among its other ingredients. But when mice were fed standard food supplemented with Compound Z alone, they lived no longer than the standard-diet mice. Thus Compound Z plays no part in the longer lives of the mice fed Diet X.",
-    "stem": "The argument is most vulnerable to criticism on the grounds that it",
+    "stimulus": "Budget analyst: Of the eleven county departments whose budgets were increased last year, nine have since recorded faster service-response times. Of the six departments whose budgets were cut, only one has recorded faster response times. Clearly, raising a department's budget is the best way to speed up its service.",
+    "stem": "The analyst's reasoning is most vulnerable to criticism on the grounds that it",
     "choices": {
-      "A": "fails to consider that the mice fed the standard diet may themselves have been unusually short-lived",
-      "B": "draws a conclusion about all mammals from an experiment conducted on a single species of mouse",
-      "C": "assumes that a diet's effect on lifespan must be traceable to a single ingredient",
-      "D": "does not rule out that an ingredient other than Compound Z also contributes to the longer lives",
-      "E": "overlooks the possibility that Compound Z lengthens life only when it is combined with other ingredients of Diet X"
+      "A": "overlooks that departments with smaller budgets may serve far fewer residents than the larger departments do",
+      "B": "compares the number of departments that improved in each group instead of the proportion of each group that improved",
+      "C": "assumes that every department that sped up its service had previously received a budget increase",
+      "D": "bases a claim that one method is best on a comparison with only one alternative, cutting funds",
+      "E": "presumes that faster response times are the only measure by which a department's service quality can be judged"
     },
-    "answer": "E",
+    "answer": "D",
     "explanations": {
-      "A": "Out of scope: the comparison group is the same in both experiments, so its being short-lived would not separate Z's role.",
-      "B": "Out of scope: the conclusion is about the mice fed Diet X, not about mammals in general.",
-      "C": "Reversal: the argument does not assume one ingredient does everything; it concludes that one ingredient does nothing.",
-      "D": "Half right: another contributing ingredient may exist, but that is compatible with Z contributing nothing and does not undercut the conclusion.",
-      "E": "Correct. Z alone had no effect, yet Z might work only in concert with other ingredients, in which case it would still play a part in Diet X's effect."
+      "A": "Out of scope: the number of residents served is not something the conclusion or data turn on.",
+      "B": "Wrong part: the analyst does compare proportions (nine of eleven against one of six), and those proportions favor the claim.",
+      "C": "Reversal: the data say nothing about all departments that sped up, and the argument does not need that claim.",
+      "D": "Correct. The data contrast budget increases only with budget cuts. 'Best way' requires comparison with other methods such as reorganization or staffing changes, which are never considered.",
+      "E": "True but irrelevant: the conclusion is explicitly about speed of response, not overall service quality."
     },
     "trapPatterns": {
       "A": "out_of_scope",
-      "B": "out_of_scope",
+      "B": "wrong_part",
       "C": "reversal",
-      "D": "half_right"
+      "E": "true_but_irrelevant"
     },
-    "keyTakeaway": "Testing a component in isolation cannot show it plays no role in a combination, because interaction effects are invisible to the solo test.",
-    "predictionHint": "Z might matter only in combination with other ingredients."
+    "keyTakeaway": "A claim that something is the best way needs comparison with more than one alternative; beating the worst option proves little.",
+    "predictionHint": "Increase beats cut, but 'best way' needs other methods compared."
   },
   {
-    "id": "lr-q-flaw-seminar-most-most",
+    "id": "lr-o-flaw-orchards-irrigation-rootstock",
     "section": "LR",
     "type": "flaw",
     "logicTags": [
       "quantifiers"
     ],
     "difficulty": 4,
-    "stimulus": "Seminar leader: Most of the students in my seminar who attended the guest lecture also read the optional essay. Most of the students in my seminar who read the optional essay scored above 90 on the final exam. Therefore, most of the students in my seminar who attended the guest lecture scored above 90 on the final exam.",
-    "stem": "The reasoning in the argument is flawed because it",
+    "stimulus": "Extension agent: Most of the orchards in the valley that adopted drip irrigation last decade have recorded higher yields. Furthermore, most of the orchards that recorded higher yields also replanted with new rootstock. So most of the valley's orchards that adopted drip irrigation also replanted with new rootstock.",
+    "stem": "The reasoning in the agent's argument is flawed in that it",
     "choices": {
-      "A": "infers that reading the optional essay caused high exam scores from the fact that the two were associated",
-      "B": "draws a conclusion about the lecture attendees from facts about the seminar as a whole",
-      "C": "overlooks that the essay readers who scored above 90 may include few or none of the lecture attendees who read the essay",
-      "D": "overlooks the possibility that most of the students who attended the lecture never read the optional essay",
-      "E": "fails to take into account that some students who scored above 90 may not have read the optional essay"
-    },
-    "answer": "C",
-    "explanations": {
-      "A": "Out of scope: the argument draws no causal conclusion; it only chains two statistical claims.",
-      "B": "Wrong part: every statement in the argument concerns students in the seminar, and the conclusion concerns the lecture attendees who are among them.",
-      "C": "Correct. Two majorities need not overlap in the way required. The high-scoring essay readers could all be non-attendees, leaving the attendees who read the essay among the minority who scored 90 or below.",
-      "D": "Opposite: the first premise states that most attendees did read the essay, so this possibility contradicts the argument's own premise.",
-      "E": "True but irrelevant: high scorers who skipped the essay do not affect whether the attendees scored high."
-    },
-    "trapPatterns": {
-      "A": "out_of_scope",
-      "B": "wrong_part",
-      "D": "opposite",
-      "E": "true_but_irrelevant"
-    },
-    "keyTakeaway": "Most A are B and most B are C does not yield most A are C; the two majorities can miss each other.",
-    "predictionHint": "Chaining two 'most' statements does not guarantee overlap."
-  },
-  {
-    "id": "lr-q-weaken-gazette-sports-section",
-    "section": "LR",
-    "type": "weaken",
-    "logicTags": [
-      "causation"
-    ],
-    "difficulty": 1,
-    "stimulus": "Publisher: After the Gazette eliminated its weekly sports section in January, its paid circulation fell by eight percent over the following year. Clearly, eliminating the sports section is what cost the Gazette those readers, and the paper should restore the section if it wants to regain circulation.",
-    "stem": "Which one of the following, if true, most seriously weakens the argument?",
-    "choices": {
-      "A": "Many Gazette readers say that they read the paper primarily for its coverage of local government.",
-      "B": "The sports section was one of the least expensive sections of the Gazette to produce.",
-      "C": "The Gazette's online edition gained readers during the year in which print circulation fell.",
-      "D": "Readers who canceled their subscriptions often cited the loss of sports coverage as their reason.",
-      "E": "Paid circulation fell by roughly eight percent at every other daily newspaper in the region over the same year, including those that kept their sports sections."
+      "A": "treats a correlation between drip irrigation and higher yields as evidence of a causal connection between the two",
+      "B": "fails to specify what proportion of the orchards is meant by 'most' in each of the statements it makes",
+      "C": "overlooks that some orchards may have replanted with new rootstock before they adopted drip irrigation at all",
+      "D": "assumes that the orchards that adopted drip irrigation are representative of all of the orchards in the valley",
+      "E": "infers that most of one group are in a third group because most are in a second group and most of that group are in the third"
     },
     "answer": "E",
     "explanations": {
-      "A": "True but irrelevant: readers' main interest in local government does not show that sports played no role in the decline.",
-      "B": "Out of scope: production cost has no bearing on what caused the drop in circulation.",
-      "C": "Out of scope: online gains do not explain the print decline or its cause.",
-      "D": "Opposite: readers citing the loss of sports as their reason for canceling strengthens the causal claim.",
-      "E": "Correct. A same-sized decline at papers that kept their sports sections points to a general trend as the cause, undermining the claim that the cut explains the Gazette's loss."
+      "A": "Wrong part: the agent draws no causal conclusion; the conclusion is a claim about overlap between groups.",
+      "B": "True but irrelevant: precisifying 'most' would not repair the structural gap.",
+      "C": "Out of scope: the order of events does not matter to a claim about overlap.",
+      "D": "Wrong part: the conclusion concerns orchards that adopted irrigation; no generalization to all orchards is made.",
+      "E": "Correct. 'Most D are H' and 'most H are R' do not give 'most D are R': the H orchards that replanted may come largely from outside D. Majorities do not chain."
     },
     "trapPatterns": {
-      "A": "true_but_irrelevant",
-      "B": "out_of_scope",
-      "C": "out_of_scope",
-      "D": "opposite"
-    },
-    "keyTakeaway": "A weakener for a before-and-after causal claim often shows that the same change happened where the supposed cause was absent.",
-    "predictionHint": "An industry-wide decline would explain the loss without the sports cut."
-  },
-  {
-    "id": "lr-q-weaken-route-reflectors",
-    "section": "LR",
-    "type": "weaken",
-    "logicTags": [
-      "causation",
-      "analogy"
-    ],
-    "difficulty": 2,
-    "stimulus": "Highway official: Reflectors that flash light at passing headlights should be installed along Route 9 to reduce deer-vehicle collisions. A trial on a stretch of Route 12 showed that after reflectors were installed there, collisions on that stretch fell by forty percent compared with the previous year. The reflectors evidently frighten deer away from the roadway.",
-    "stem": "Which one of the following, if true, most seriously weakens the argument?",
-    "choices": {
-      "A": "Reflectors cost less to install than the fences that are sometimes used to keep deer off roads.",
-      "B": "Some deer-vehicle collisions on Route 12 occurred during the trial on stretches that had no reflectors.",
-      "C": "Nearly all of the deer-vehicle collisions on Route 9 occur in daylight, when the reflectors would not be flashing.",
-      "D": "The number of deer-vehicle collisions on Route 9 has risen steadily over the past decade.",
-      "E": "The trial on Route 12 was supervised by officials who had advocated the use of reflectors."
-    },
-    "answer": "C",
-    "explanations": {
-      "A": "Out of scope: relative cost of fences says nothing about whether reflectors would work on Route 9.",
-      "B": "Half right: collisions elsewhere on the road are expected, since only the trial stretch had reflectors, and they do not undermine the result.",
-      "C": "Correct. The reflectors flash only at headlights. If Route 9's collisions occur in daylight, the device cannot affect them, so the trial result does not carry over.",
-      "D": "True but irrelevant: a rising collision rate shows the problem is real, not that reflectors will help.",
-      "E": "Wrong force: the supervisors' views are a quibble; the argument cites measured collisions, not their opinions."
-    },
-    "trapPatterns": {
-      "A": "out_of_scope",
-      "B": "half_right",
-      "D": "true_but_irrelevant",
-      "E": "wrong_force"
-    },
-    "keyTakeaway": "When a result from one site is applied to another, look for a difference that makes the mechanism inoperative at the new site.",
-    "predictionHint": "Route 9 collisions might happen when the reflectors are inactive."
-  },
-  {
-    "id": "lr-q-weaken-zebrafish-adjuvant",
-    "section": "LR",
-    "type": "weaken",
-    "logicTags": [
-      "analogy",
-      "sampling"
-    ],
-    "difficulty": 3,
-    "stimulus": "Immunologist: In a controlled trial, zebrafish given a new adjuvant alongside a vaccine produced markedly more antibodies than zebrafish given the vaccine alone. The adjuvant works by enhancing a particular signaling response, and zebrafish share the basic features of the immune systems of other vertebrates. We can therefore conclude that the adjuvant will boost antibody production in humans as well.",
-    "stem": "Which one of the following, if true, most seriously weakens the immunologist's argument?",
-    "choices": {
-      "A": "In humans, antibody production depends on a signaling response that differs from the one the adjuvant enhances.",
-      "B": "The zebrafish used in the trial had been bred in laboratory conditions for many generations.",
-      "C": "Antibody production is only one of several measures of how effective a vaccine is.",
-      "D": "The trial included fewer than fifty zebrafish in each of its two groups.",
-      "E": "Several vaccines now in use in humans were first tested on zebrafish."
-    },
-    "answer": "A",
-    "explanations": {
-      "A": "Correct. The argument relies on the adjuvant's mechanism being present in humans. If human antibody production runs through a different signaling response, the zebrafish result gives no reason to expect a boost.",
-      "B": "True but irrelevant: lab breeding is typical of controlled trials, and nothing links it to a difference in the signaling response.",
-      "C": "Comparison shift: the conclusion concerns antibody production, not overall vaccine effectiveness.",
-      "D": "Wrong force: the result is described as marked in a controlled trial; group size alone gives no specific reason to doubt it.",
-      "E": "Opposite: a record of zebrafish findings carrying over to humans supports the argument."
-    },
-    "trapPatterns": {
+      "A": "wrong_part",
       "B": "true_but_irrelevant",
-      "C": "comparison_shift",
-      "D": "wrong_force",
-      "E": "opposite"
-    },
-    "keyTakeaway": "In an animal-to-human argument, the best weakener attacks the shared-mechanism premise.",
-    "predictionHint": "Humans might lack the signaling pathway the adjuvant acts on."
-  },
-  {
-    "id": "lr-q-mss-wetland-bird-seasons",
-    "section": "LR",
-    "type": "most_strongly_supported",
-    "logicTags": [
-      "quantifiers"
-    ],
-    "difficulty": 1,
-    "stimulus": "Of the forty bird species recorded at Alder Marsh last year, thirty were migratory. Each migratory species was recorded there only in spring or in fall. Several of the non-migratory species were recorded there in winter.",
-    "stem": "Which one of the following is most strongly supported by the information above?",
-    "choices": {
-      "A": "Most of the non-migratory species recorded at Alder Marsh were seen there in winter.",
-      "B": "Every non-migratory species recorded at Alder Marsh was seen there in winter.",
-      "C": "Some migratory species recorded at Alder Marsh were seen there in winter.",
-      "D": "Some of the species recorded at Alder Marsh last year were not seen there in summer.",
-      "E": "More species were recorded at Alder Marsh in spring than in fall."
-    },
-    "answer": "D",
-    "explanations": {
-      "A": "Wrong force: 'several' of the ten non-migratory species does not establish 'most.'",
-      "B": "Extreme: only several, not every, non-migratory species were seen in winter.",
-      "C": "Opposite: migratory species were seen only in spring or fall, so none was seen in winter.",
-      "D": "Correct. The thirty migratory species were seen only in spring or fall, so none of them was seen in summer. That makes 'some' species not seen in summer.",
-      "E": "Out of scope: nothing compares spring with fall totals."
-    },
-    "trapPatterns": {
-      "A": "wrong_force",
-      "B": "extreme",
-      "C": "opposite",
-      "E": "out_of_scope"
-    },
-    "keyTakeaway": "Several is not most and only in X or Y excludes every other season; read quantifiers and exclusions literally.",
-    "predictionHint": "Migratory species were absent in summer and winter."
-  },
-  {
-    "id": "lr-q-mss-courier-corrections",
-    "section": "LR",
-    "type": "most_strongly_supported",
-    "logicTags": [
-      "comparison"
-    ],
-    "difficulty": 3,
-    "stimulus": "The editors of the Harbor Courier print a correction whenever they discover a factual error in a published story, and they print corrections for nothing else. Last year, a greater proportion of the Courier's stories that relied on a single anonymous source required a printed correction than did its stories that relied on named sources.",
-    "stem": "Which one of the following is most strongly supported by the information above?",
-    "choices": {
-      "A": "Last year, the Courier's stories that relied on a single anonymous source were more likely than its stories that relied on named sources to contain factual errors.",
-      "B": "Last year, a greater proportion of the Courier's stories that relied on a single anonymous source than of its stories that relied on named sources contained a factual error that the editors discovered.",
-      "C": "The Courier's editors checked stories that relied on named sources more carefully than they checked stories that relied on anonymous sources.",
-      "D": "Most of the Courier's stories that relied on a single anonymous source required a printed correction last year.",
-      "E": "The Courier's stories that relied on named sources contained no factual errors last year."
-    },
-    "answer": "B",
-    "explanations": {
-      "A": "Shell game: corrections follow only discovered errors. The editors may have scrutinized anonymous-source stories more heavily, so a higher correction rate does not show a higher error rate.",
-      "B": "Correct. Corrections are printed for discovered factual errors and nothing else, so a higher correction rate means a higher rate of discovered factual errors.",
-      "C": "Out of scope: nothing describes how carefully either kind of story was checked.",
-      "D": "Extreme: a greater proportion than for named sources does not mean a majority.",
-      "E": "Extreme: named-source stories needed fewer corrections, not zero."
-    },
-    "trapPatterns": {
-      "A": "shell_game",
       "C": "out_of_scope",
-      "D": "extreme",
-      "E": "extreme"
+      "D": "wrong_part"
     },
-    "keyTakeaway": "A rate of corrections measures discovered errors, not total errors; keep track of what was actually observed.",
-    "predictionHint": "Corrections track discovered errors, not all errors."
+    "keyTakeaway": "'Most A are B' and 'most B are C' never guarantee 'most A are C.'",
+    "predictionHint": "Most-most chain: the overlap may be located entirely outside the first group."
   },
   {
-    "id": "lr-q-mss-island-lizard-colors",
+    "id": "lr-o-mss-grain-elevators",
     "section": "LR",
     "type": "most_strongly_supported",
     "logicTags": [
       "quantifiers",
       "conditional"
     ],
-    "difficulty": 3,
-    "stimulus": "Some of the lizard species native to Corvo Island are venomous. Every venomous lizard species on the island is brightly colored. No lizard species on the island that eats only insects is brightly colored.",
+    "difficulty": 1,
+    "stimulus": "Most of the grain elevators in Dunmore County were built before 1950. Every elevator in the county built before 1950 lacks a modern fire-suppression system. Several elevators built since then have had such systems installed.",
     "stem": "Which one of the following is most strongly supported by the information above?",
     "choices": {
-      "A": "Some brightly colored lizard species on the island are not venomous.",
-      "B": "No venomous lizard species on the island eats insects.",
-      "C": "Most brightly colored lizard species on the island are venomous.",
-      "D": "Every lizard species on the island that does not eat only insects is brightly colored.",
-      "E": "Some lizard species on the island do not eat only insects."
-    },
-    "answer": "E",
-    "explanations": {
-      "A": "Out of scope: every venomous species is colored, but nothing says colored species exist that are not venomous.",
-      "B": "Extreme: a venomous species could eat insects along with other foods; only exclusive insect eaters are ruled out.",
-      "C": "Wrong force: only some species are known to be venomous, and nothing compares them with the colored species as a whole.",
-      "D": "Reversal: exclusive insect eaters are never colored, but that does not make every other species colored.",
-      "E": "Correct. Some species are venomous, hence colored, hence not exclusive insect eaters."
-    },
-    "trapPatterns": {
-      "A": "out_of_scope",
-      "B": "extreme",
-      "C": "wrong_force",
-      "D": "reversal"
-    },
-    "keyTakeaway": "Chain the conditionals from a 'some' statement: the some-group inherits every property in the chain.",
-    "predictionHint": "Venomous implies colored implies not an exclusive insect eater."
-  },
-  {
-    "id": "lr-q-na-student-paper-online",
-    "section": "LR",
-    "type": "necessary_assumption",
-    "logicTags": [
-      "value_judgment"
-    ],
-    "difficulty": 2,
-    "stimulus": "Student newspaper editor: The Campus Ledger should stop printing and move entirely online. Printing costs $9,000 a year, nearly a third of our budget, and eliminating that expense would leave us with far more money to spend on reporting.",
-    "stem": "The editor's argument depends on assuming which one of the following?",
-    "choices": {
-      "A": "Most students at the university would prefer to read the Ledger online.",
-      "B": "Some other student newspapers have already moved entirely online.",
-      "C": "Moving online would not cost the Ledger revenue comparable to what printing now costs.",
-      "D": "The Ledger's printing costs will not rise in the coming years.",
-      "E": "Reporting is currently the Ledger's largest single expense."
-    },
-    "answer": "C",
-    "explanations": {
-      "A": "Out of scope: reader preference is never invoked; the argument is about money.",
-      "B": "Out of scope: what other papers have done is irrelevant to the Ledger's savings.",
-      "C": "Correct. If going online would lose, say, print advertising revenue comparable to the printing bill, the Ledger would not have more to spend. Denying this undercuts the argument.",
-      "D": "Premise booster: future cost increases would only add to the savings; the argument does not need them.",
-      "E": "Out of scope: the rank of reporting among expenses does not matter."
-    },
-    "trapPatterns": {
-      "A": "out_of_scope",
-      "B": "out_of_scope",
-      "D": "premise_booster",
-      "E": "out_of_scope"
-    },
-    "keyTakeaway": "A savings argument assumes that the move does not trigger an offsetting loss.",
-    "predictionHint": "Going online must not cost comparable revenue."
-  },
-  {
-    "id": "lr-q-na-wolves-willows-elk",
-    "section": "LR",
-    "type": "necessary_assumption",
-    "logicTags": [
-      "causation",
-      "link_assumption"
-    ],
-    "difficulty": 3,
-    "stimulus": "Ecologist: Willows along the Larch River recovered only after wolves were reintroduced to the valley. Elk, which browse willows heavily, now avoid the river bottoms where the willows grow. Therefore, the wolves' return is responsible for the willows' recovery.",
-    "stem": "The ecologist's argument requires assuming which one of the following?",
-    "choices": {
-      "A": "The elk's avoidance of the river bottoms is not due to some factor other than the presence of wolves.",
-      "B": "Wolves prey on elk more heavily than on any other animal in the valley.",
-      "C": "Elk eat no food other than willows.",
-      "D": "The elk population in the valley has declined since the wolves arrived.",
-      "E": "Wolves have not been reintroduced to other valleys in which willows failed to recover."
+      "A": "Most of the grain elevators in Dunmore County lack a modern fire-suppression system.",
+      "B": "Every elevator in the county that lacks a modern fire-suppression system was built before the year 1950.",
+      "C": "Every elevator in the county built since 1950 has been equipped with a modern fire-suppression system.",
+      "D": "Elevators built before 1950 in Dunmore County are more likely to catch fire than newer elevators are.",
+      "E": "Nearly all of the grain elevators in Dunmore County lack a modern fire-suppression system."
     },
     "answer": "A",
     "explanations": {
-      "A": "Correct. The wolves are credited through the elk's avoidance. If something else, such as seasonal flooding, keeps the elk away, the wolves are not responsible for the recovery.",
-      "B": "Extreme: wolves need not favor elk over all other prey for the argument to work.",
-      "C": "Extreme: the elk may eat many things; only their heavy browsing of willows matters.",
-      "D": "Shell game: elk could avoid the river bottoms without declining in number, so no drop in population is required.",
-      "E": "Out of scope: other valleys do not bear on what happened along the Larch River."
+      "A": "Correct. More than half the elevators are pre-1950, and every one of those lacks a system, so more than half lack one.",
+      "B": "Reversal: the facts say all pre-1950 elevators lack systems, not that only pre-1950 elevators lack them.",
+      "C": "Necessary v sufficient: some newer elevators have had systems installed, but nothing says every newer one has.",
+      "D": "Out of scope: fire likelihood is never discussed.",
+      "E": "Extreme: 'most' is supported, but 'nearly all' would require the pre-1950 share to be very large."
     },
     "trapPatterns": {
-      "B": "extreme",
-      "C": "extreme",
-      "D": "shell_game",
-      "E": "out_of_scope"
+      "B": "reversal",
+      "C": "necessary_v_sufficient",
+      "D": "out_of_scope",
+      "E": "extreme"
     },
-    "keyTakeaway": "When a cause works through an intermediate step, the necessary assumption closes the link between the cause and that step.",
-    "predictionHint": "Wolves, not something else, must be why elk avoid the river bottoms."
+    "keyTakeaway": "On most-strongly-supported questions, choose the claim that goes no further than the force of the statements.",
+    "predictionHint": "A majority are old, all old ones lack systems, so a majority lack them."
   },
   {
-    "id": "lr-q-na-abusive-comments-share",
+    "id": "lr-o-mss-handwritten-schedules",
     "section": "LR",
-    "type": "necessary_assumption",
+    "type": "most_strongly_supported",
     "logicTags": [
-      "math_percent",
-      "value_judgment"
-    ],
-    "difficulty": 4,
-    "stimulus": "Site editor: Since our newspaper stopped allowing anonymous comments, the number of abusive comments on its website has fallen by half, although the total number of comments has fallen by two-thirds. The policy change has therefore improved the quality of discussion on the site.",
-    "stem": "The editor's argument depends on assuming which one of the following?",
-    "choices": {
-      "A": "Anonymous commenters were responsible for all of the abusive comments that were posted before the policy changed.",
-      "B": "The comments that disappeared after the policy change were of lower quality than the comments that remain.",
-      "C": "The number of comments on the site will continue to fall for as long as the new policy is in effect.",
-      "D": "Readers of the site prefer discussions in which there are fewer comments overall.",
-      "E": "A decrease in the number of abusive comments improves the quality of discussion even if abusive comments make up a larger share of all comments."
-    },
-    "answer": "E",
-    "explanations": {
-      "A": "Extreme: abusive comments fell by half, not to zero, so some abusive comments must have come from non-anonymous posters.",
-      "B": "Close but not required: the editor can rest on the drop in abuse alone; even if some lost comments were good, the argument holds if fewer abusive comments is what counts.",
-      "C": "Out of scope: future totals do not affect whether discussion has already improved.",
-      "D": "Out of scope: the editor judges quality by abuse, not by comment volume or reader preference.",
-      "E": "Correct. Abusive comments fell by half while all comments fell by two-thirds, so the abusive share rose. The editor's conclusion therefore requires that a lower count of abusive comments, rather than a lower share, is what marks improvement."
-    },
-    "trapPatterns": {
-      "A": "extreme",
-      "B": "true_but_irrelevant",
-      "C": "out_of_scope",
-      "D": "out_of_scope"
-    },
-    "keyTakeaway": "Check the numbers: if a count and a share move in opposite directions, the argument must assume the count is the right measure.",
-    "predictionHint": "Abuse fell by half, but total fell more, so the abusive share rose."
-  },
-  {
-    "id": "lr-q-resolve-ledger-online-ad-revenue",
-    "section": "LR",
-    "type": "resolve_explain",
-    "logicTags": [
-      "math_percent"
+      "quantifiers"
     ],
     "difficulty": 2,
-    "stimulus": "After the Daily Ledger moved from print to an online-only format, the number of times its articles were viewed each month rose by sixty percent. Nevertheless, the Ledger's monthly advertising revenue fell substantially.",
-    "stem": "Which one of the following, if true, most helps to explain the discrepancy described above?",
+    "stimulus": "Archivist: The Brandt collection of census schedules contains many handwritten schedules. No handwritten schedule in the collection has been digitized. Nevertheless, a number of the schedules in the collection have been digitized, and these are now searchable online by name.",
+    "stem": "The statements above, if true, most strongly support which one of the following?",
     "choices": {
-      "A": "Nearly all of the Ledger's online readers were print subscribers before the change.",
-      "B": "The Ledger's operating costs fell after it stopped printing the paper.",
-      "C": "Online articles at the Ledger are, on average, shorter than the printed versions were.",
-      "D": "Advertisers pay far less for each online advertisement view than they paid for each printed advertisement seen by a reader.",
-      "E": "Several of the Ledger's competitors also moved to online-only formats."
-    },
-    "answer": "D",
-    "explanations": {
-      "A": "True but irrelevant: where the readers came from does not explain why revenue fell as views rose.",
-      "B": "Out of scope: costs concern profit, not advertising revenue.",
-      "C": "Comparison shift: article length does not tell us what advertisers pay.",
-      "D": "Correct. If each online view earns much less than a print readership did, a sixty percent rise in views can still come with falling revenue.",
-      "E": "Out of scope: competitors' formats do not explain the Ledger's own revenue and views."
-    },
-    "trapPatterns": {
-      "A": "true_but_irrelevant",
-      "B": "out_of_scope",
-      "C": "comparison_shift",
-      "E": "out_of_scope"
-    },
-    "keyTakeaway": "To resolve a volume-up, revenue-down paradox, look for a change in the price or value per unit.",
-    "predictionHint": "Each online view must earn much less than print did."
-  },
-  {
-    "id": "lr-q-resolve-tortoise-varied-diet",
-    "section": "LR",
-    "type": "resolve_explain",
-    "logicTags": [
-      "causation"
-    ],
-    "difficulty": 3,
-    "stimulus": "A sanctuary houses two groups of tortoises of one long-lived species. Group 1 is fed a single kind of grass; Group 2 is fed a varied diet of many plants. Keepers know that varied diets are associated with longer lives in many animals. Yet over the past thirty years, the tortoises in Group 2 have had a shorter average lifespan than those in Group 1.",
-    "stem": "Which one of the following, if true, most helps to explain the apparent discrepancy?",
-    "choices": {
-      "A": "Many animal species live longer on varied diets than on monotonous ones.",
-      "B": "Tortoises that arrive at the sanctuary in poor health are placed in Group 2, because their condition calls for a varied diet.",
-      "C": "Both groups are given the same quantity of food each day.",
-      "D": "Tortoises living in the wild eat a variety of plants.",
-      "E": "Group 2 contains more tortoises than Group 1 does."
+      "A": "Most of the schedules in the collection are not handwritten.",
+      "B": "Some of the schedules in the collection are not handwritten.",
+      "C": "Every schedule in the collection that has not been digitized is handwritten.",
+      "D": "Digitizing handwritten schedules is not practical for the collection's archivists.",
+      "E": "Fewer than half of the schedules in the collection are searchable online by name."
     },
     "answer": "B",
     "explanations": {
-      "A": "True but irrelevant: this restates the expectation that makes the result puzzling and does not explain the reversal.",
-      "B": "Correct. If Group 2 is stocked with sick animals, its shorter lifespan can be due to their poor initial health rather than the diet.",
-      "C": "Out of scope: equal quantities do not explain why Group 2 lives shorter.",
-      "D": "Out of scope: wild diets are not compared with either group's lifespan.",
-      "E": "Out of scope: a difference in group size does not explain a difference in average lifespan."
+      "A": "Wrong force: the digitized schedules prove only that some are not handwritten; 'most' is unsupported.",
+      "B": "Correct. Digitized schedules exist and none of them is handwritten, so at least some schedules are not handwritten.",
+      "C": "Reversal: the facts exclude handwritten schedules from digitization, not non-digitized schedules from being typed or printed.",
+      "D": "Out of scope: the reasons digitization has not occurred are never given.",
+      "E": "Extreme: nothing gives the proportion of digitized schedules, so no comparison with half is supported."
+    },
+    "trapPatterns": {
+      "A": "wrong_force",
+      "C": "reversal",
+      "D": "out_of_scope",
+      "E": "extreme"
+    },
+    "keyTakeaway": "A 'no X is Y' statement plus the existence of some Y proves that some Y are not X.",
+    "predictionHint": "Digitized ones exist; none is handwritten; so some schedules are not handwritten."
+  },
+  {
+    "id": "lr-o-mss-permit-inspectors",
+    "section": "LR",
+    "type": "most_strongly_supported",
+    "logicTags": [
+      "math_percent",
+      "comparison"
+    ],
+    "difficulty": 3,
+    "stimulus": "Planning commission report: From 2015 to 2025, the number of building permits issued annually in Carver County rose by 40 percent, while the number of permit inspectors on the county's staff stayed the same. Every permit issued in the county must be approved by one of those inspectors. Over the same period, the average time between a permit application and its approval grew from 12 days to 31 days.",
+    "stem": "Which one of the following is most strongly supported by the information above?",
+    "choices": {
+      "A": "The growth in the time needed to approve a permit was caused by the failure to hire more permit inspectors.",
+      "B": "The county should have hired more permit inspectors at some point between 2015 and 2025.",
+      "C": "The average number of permits approved annually per inspector was greater in 2025 than in 2015.",
+      "D": "The number of permit applications submitted annually rose by more than 40 percent between 2015 and 2025.",
+      "E": "Every permit inspector in the county took longer to approve a typical application in 2025 than in 2015."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Wrong force: the report notes a coincidence of timing but does not say the staffing level caused the delay.",
+      "B": "Out of scope: this is a recommendation, and the report states no goals or costs.",
+      "C": "Correct. Issued permits rose 40 percent, all were approved by the same number of inspectors, so each inspector approved more permits on average.",
+      "D": "Half right: applications and issued permits are different counts, and the approval rate could have risen or fallen; the report does not say.",
+      "E": "Extreme: the report gives only an overall average time, not the experience of each inspector."
+    },
+    "trapPatterns": {
+      "A": "wrong_force",
+      "B": "out_of_scope",
+      "D": "half_right",
+      "E": "extreme"
+    },
+    "keyTakeaway": "Do the arithmetic the stimulus allows, and refuse causal or prescriptive leaps it does not.",
+    "predictionHint": "More permits, same inspectors: more permits per inspector."
+  },
+  {
+    "id": "lr-o-na-library-evening-hours",
+    "section": "LR",
+    "type": "necessary_assumption",
+    "logicTags": [
+      "mental_state_v_reality",
+      "link_assumption"
+    ],
+    "difficulty": 2,
+    "stimulus": "Council member: The Riverton public library should stay open until nine o'clock on weekday evenings. In a recent survey, a majority of residents said they would use the library more if it were open later. Extending the hours will therefore increase total use of the library.",
+    "stem": "The council member's argument depends on assuming which one of the following?",
+    "choices": {
+      "A": "Extending evening hours would not require the library to shorten its weekend hours or reduce its other services.",
+      "B": "Most Riverton residents who responded to the survey do not currently use the library at all.",
+      "C": "No other improvement to the library would increase its use by more than later evening hours would.",
+      "D": "Residents who say they would use the library more if it were open later would actually do so.",
+      "E": "The value of a public library is best measured by the amount of use that it receives from residents."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Out of scope: the conclusion is about total use, and shortening weekend hours is a side issue the argument does not address.",
+      "B": "Out of scope: even regular users could use the library more, so non-use is not required.",
+      "C": "Comparison shift: the argument does not claim that later hours are the best way to raise use, only that they would raise it.",
+      "D": "Correct. The argument moves from what residents say they would do to what they would do. If stated intentions did not translate into behavior, the conclusion would fail.",
+      "E": "Wrong part: the conclusion is about use, not about how a library's value is measured."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "out_of_scope",
+      "C": "comparison_shift",
+      "E": "wrong_part"
+    },
+    "keyTakeaway": "When an argument moves from what people say to what they do, the assumption is that the statement predicts the behavior.",
+    "predictionHint": "Survey answers (intentions) must reflect actual future behavior."
+  },
+  {
+    "id": "lr-o-na-farmers-market-greer",
+    "section": "LR",
+    "type": "necessary_assumption",
+    "logicTags": [
+      "sampling"
+    ],
+    "difficulty": 3,
+    "stimulus": "Economist: A town's weekly farmers' market raises downtown shop revenue only if market shoppers also spend money in downtown shops. A survey of two hundred shoppers leaving Greer's market on a recent Saturday found that none had visited, or planned to visit, a downtown shop that day. Thus Greer's market does not raise downtown shop revenue.",
+    "stem": "The economist's argument requires assuming which one of the following?",
+    "choices": {
+      "A": "The survey of the market shoppers was carried out by researchers who had no stake in the success of the market.",
+      "B": "Shoppers generally prefer to buy their goods at a farmers' market rather than at an ordinary shop.",
+      "C": "In other towns, shoppers at weekly farmers' markets do not spend money in the downtown shops there.",
+      "D": "Downtown shops that sell goods similar to those sold at the market lose some of their business to it.",
+      "E": "The shoppers surveyed were typical of Greer's market shoppers in how often they spend money downtown."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Wrong part: researcher neutrality is a different concern; the argument needs only that the sample reflects the shoppers.",
+      "B": "Out of scope: shoppers' preferences are not part of the reasoning about whether downtown revenue rises.",
+      "C": "Comparison shift: the conclusion concerns Greer only, so what happens in other towns is not required.",
+      "D": "Out of scope: losing business to the market would be a different effect and the argument needs no claim about it.",
+      "E": "Correct. The survey covered one Saturday's departing shoppers. If they differed from Greer's market shoppers generally, the finding would not support the claim about the market's effect on revenue."
+    },
+    "trapPatterns": {
+      "A": "wrong_part",
+      "B": "out_of_scope",
+      "C": "comparison_shift",
+      "D": "out_of_scope"
+    },
+    "keyTakeaway": "A conclusion drawn from a survey needs the sample to be representative of the population it is about.",
+    "predictionHint": "The surveyed Saturday shoppers must be typical of all market shoppers."
+  },
+  {
+    "id": "lr-o-na-robotic-milking",
+    "section": "LR",
+    "type": "necessary_assumption",
+    "logicTags": [
+      "weighing_factors"
+    ],
+    "difficulty": 1,
+    "stimulus": "Dairy owner: Switching my herd to robotic milking will make my farm more profitable. Robotic milking requires far fewer hired workers, so it will lower my labor costs substantially.",
+    "stem": "Which one of the following is an assumption required by the dairy owner's argument?",
+    "choices": {
+      "A": "The savings in labor costs will not be outweighed by other costs of adopting robotic milking.",
+      "B": "Robotic milking will increase the amount of milk that each cow in the herd produces.",
+      "C": "Most dairy farms that have adopted robotic milking have become more profitable as a result.",
+      "D": "Labor is the largest single expense that a dairy farm has to meet.",
+      "E": "No change other than robotic milking could lower the farm's labor costs by a comparable amount."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. The owner moves from lower labor costs to higher profit; if equipment, maintenance and energy costs ate up the savings, profit would not rise.",
+      "B": "Out of scope: output per cow is not mentioned and profit could rise through savings alone.",
+      "C": "Wrong force: this would support the claim, but the argument does not require that other farms have profited.",
+      "D": "Extreme: labor need not be the largest expense for its reduction to matter.",
+      "E": "Extreme: other ways of cutting labor costs might exist without undermining the claim that this one will help."
+    },
+    "trapPatterns": {
+      "B": "out_of_scope",
+      "C": "wrong_force",
+      "D": "extreme",
+      "E": "extreme"
+    },
+    "keyTakeaway": "When one factor in a profit calculation changes, the argument assumes the other factors do not cancel it.",
+    "predictionHint": "Lower labor costs only raise profit if new costs do not offset them."
+  },
+  {
+    "id": "lr-o-weaken-borough-charter",
+    "section": "LR",
+    "type": "weaken",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 1,
+    "stimulus": "Historian: The surviving Thornby charter, dated 1182, must be a forgery. Its text calls the town a 'borough,' a word that did not come into common legal use until about a century after 1182, so no clerk of that year could have written it.",
+    "stem": "Which one of the following, if true, most seriously weakens the historian's argument?",
+    "choices": {
+      "A": "Forged charters were common in the region during the twelfth century, particularly in prosperous towns.",
+      "B": "The surviving charter is a copy made a century later by a scribe who updated the original's terms.",
+      "C": "The charter was kept for most of its history in a secure town archive guarded by municipal officers.",
+      "D": "Other charters issued in 1182 describe their towns using the older word 'burgh' rather than 'borough.'",
+      "E": "Some historians have long maintained that the Thornby charter is a genuine document from its stated year."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Opposite: common forgery would make a forgery more likely, so this strengthens the argument.",
+      "B": "Correct. If the surviving text is a later copy with modernized wording, the late word is explained without any forgery.",
+      "C": "True but irrelevant: secure storage does not bear on whether the wording could date from 1182.",
+      "D": "Opposite: it supports the claim that clerks in 1182 used a different word, strengthening the argument.",
+      "E": "Wrong force: what historians have maintained is a matter of opinion and offers no reason about the word."
+    },
+    "trapPatterns": {
+      "A": "opposite",
+      "C": "true_but_irrelevant",
+      "D": "opposite",
+      "E": "wrong_force"
+    },
+    "keyTakeaway": "To weaken an inference from a single telltale feature, supply an innocent explanation of that feature.",
+    "predictionHint": "Offer another way the anachronistic word could have entered the text."
+  },
+  {
+    "id": "lr-o-weaken-fungicide-yields",
+    "section": "LR",
+    "type": "weaken",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 2,
+    "stimulus": "Agronomists compared soybean fields in the Marrow Basin and found that fields treated with Agrosan fungicide yielded about 12 percent more soybeans than untreated fields. The agronomists concluded that applying Agrosan raises soybean yields.",
+    "stem": "Which one of the following, if true, most seriously calls into question the agronomists' conclusion?",
+    "choices": {
+      "A": "Agrosan costs more per acre than most of the other fungicides that are used on soybean crops.",
+      "B": "Some untreated fields also produced above-average soybean yields.",
+      "C": "The farmers who chose to apply Agrosan were mostly those who also planted higher-yielding seed varieties.",
+      "D": "The size of the yield increase on treated fields varied considerably from one field to another.",
+      "E": "Fungicides similar to Agrosan have raised yields of other crops grown in the region in several earlier studies."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Out of scope: the price of the fungicide does not bear on whether it raises yields.",
+      "B": "Half right: a few high-yield untreated fields leave the average difference unexplained, so the argument is hardly affected.",
+      "C": "Correct. If treated fields were already planted with better seed, the seed could account for the whole difference, which undermines the causal conclusion.",
+      "D": "True but irrelevant: variation in the size of the effect is compatible with a real average effect.",
+      "E": "Opposite: success with similar products in other crops supports the conclusion."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "half_right",
+      "D": "true_but_irrelevant",
+      "E": "opposite"
+    },
+    "keyTakeaway": "To weaken a causal claim from a comparison, show that the groups differ in another way that could produce the result.",
+    "predictionHint": "A third factor, such as better seed, coincides with the treatment."
+  },
+  {
+    "id": "lr-o-weaken-ambassador-thefts",
+    "section": "LR",
+    "type": "weaken",
+    "logicTags": [
+      "causation",
+      "lack_of_support_v_false"
+    ],
+    "difficulty": 3,
+    "stimulus": "Mayor: Since the city launched its downtown ambassador program last year, thefts reported in the downtown district have fallen by 18 percent. Nothing else about downtown policing changed in that period, so the ambassador program deserves the credit, and it should now be expanded to every district in the city.",
+    "stem": "Which one of the following, if true, most seriously weakens the mayor's argument?",
+    "choices": {
+      "A": "The ambassadors are not authorized to make arrests, and must call the police whenever they witness a crime.",
+      "B": "Over the past year, reported thefts rose slightly in several of the districts adjoining the downtown district.",
+      "C": "The program cost the city more than any other downtown initiative that it has undertaken in the past decade.",
+      "D": "Last year the city began excluding thefts of goods worth under fifty dollars from its reported-theft statistics.",
+      "E": "Several other cities have launched similar ambassador programs, and the results of those programs have varied."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "True but irrelevant: ambassadors might deter theft without arresting anyone.",
+      "B": "Half right: displacement would weaken the case for citywide expansion, but it does not show that the downtown decline is not real, and a small rise nearby may not offset it.",
+      "C": "Out of scope: cost is not part of the mayor's case for credit.",
+      "D": "Correct. If a change in what gets counted removed many thefts from the statistics, the 18 percent fall may be an artifact, undermining both the credit and the case for expansion.",
+      "E": "Wrong force: varied results elsewhere do not show that the program failed here."
     },
     "trapPatterns": {
       "A": "true_but_irrelevant",
+      "B": "half_right",
       "C": "out_of_scope",
-      "D": "out_of_scope",
-      "E": "out_of_scope"
+      "E": "wrong_force"
     },
-    "keyTakeaway": "A surprising result in a non-randomized comparison is often explained by how the groups were formed.",
-    "predictionHint": "Group 2 may have been made up of animals that were already unhealthy."
+    "keyTakeaway": "Before crediting a cause for a change in a statistic, check whether the measurement itself changed.",
+    "predictionHint": "The measured decline may come from a change in how thefts are recorded."
+  },
+  {
+    "id": "lr-o-resolve-cheddar-profit",
+    "section": "LR",
+    "type": "resolve_explain",
+    "logicTags": [
+      "comparison"
+    ],
+    "difficulty": 1,
+    "stimulus": "The Harlow Valley cheese cooperative prices its wheels of cheddar about 20 percent below the prices charged by its competitors. Nevertheless, the cooperative earns more profit on each wheel it sells than its competitors earn on theirs.",
+    "stem": "Which one of the following, if true, most helps to resolve the apparent discrepancy described above?",
+    "choices": {
+      "A": "The cooperative's cheddar is aged for the same length of time as the cheddar sold by its competitors.",
+      "B": "Most of the cooperative's customers buy several wheels of cheddar at a time rather than a single wheel.",
+      "C": "Consumers regard the cooperative's cheddar as being of high quality in comparison with other cheddars.",
+      "D": "The cooperative sells somewhat more wheels each year than most of its competitors do.",
+      "E": "The cooperative's per-wheel production cost is lower than its competitors' by more than the price gap."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Out of scope: equal aging gives no reason why profit per wheel should be higher.",
+      "B": "Out of scope: multiple purchases bear on total sales, not on profit per wheel.",
+      "C": "Wrong force: quality might sustain demand, but it does not explain higher profit at a lower price.",
+      "D": "True but irrelevant: selling more wheels affects total profit, not profit on each wheel.",
+      "E": "Correct. Profit per wheel is price minus cost; if costs are lower by more than the price gap, profit per wheel can be higher despite the lower price."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "out_of_scope",
+      "C": "wrong_force",
+      "D": "true_but_irrelevant"
+    },
+    "keyTakeaway": "Resolve a profit paradox by finding what changes the other side of price minus cost.",
+    "predictionHint": "Costs per wheel must be much lower than the competitors'."
+  },
+  {
+    "id": "lr-o-resolve-tell-marun-pits",
+    "section": "LR",
+    "type": "resolve_explain",
+    "logicTags": [
+      "comparison"
+    ],
+    "difficulty": 2,
+    "stimulus": "At the Tell Marun excavation, the grain-storage pits from the settlement's later period are much smaller than those from its earlier period. Yet archaeological estimates indicate that the later settlement had more inhabitants, and that its harvests were no smaller than those of the earlier period.",
+    "stem": "Which one of the following, if true, most helps to explain the difference in pit size described above?",
+    "choices": {
+      "A": "In the later period most grain was kept in above-ground granaries, with pits used only for seed grain.",
+      "B": "The pits from the earlier period were lined with clay, which helped to preserve them over the centuries.",
+      "C": "The population estimates for the later period are based on the number of house foundations found.",
+      "D": "Some of the pits from the earlier period were never used to store grain at all.",
+      "E": "Rainfall in the region was lower during the later period than during the earlier period of settlement."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. If most grain was stored elsewhere, small pits are compatible with a larger population and unchanged harvests.",
+      "B": "Out of scope: preservation of the pits does not explain their original size and could even suggest later pits were once larger.",
+      "C": "True but irrelevant: how population was estimated does not explain why the pits are smaller.",
+      "D": "Wrong force: unused earlier pits would not change the fact that the later ones are smaller.",
+      "E": "Opposite: lower rainfall would reduce harvests, deepening the puzzle rather than resolving it."
+    },
+    "trapPatterns": {
+      "B": "out_of_scope",
+      "C": "true_but_irrelevant",
+      "D": "wrong_force",
+      "E": "opposite"
+    },
+    "keyTakeaway": "To explain a discrepancy, show how both facts can hold by introducing a hidden difference.",
+    "predictionHint": "Grain was stored somewhere other than the pits in the later period."
   },
   {
     "id": "lr-o-strengthen-market-square",
@@ -568,7 +570,7 @@
       "A": "Out of scope: room for more stalls does not show that each vendor would sell more, and could even mean more competition.",
       "B": "Out of scope: higher prices elsewhere say nothing about how many goods Fenwick's vendors would sell.",
       "C": "Correct. It supports the link between more foot traffic and more sales by showing that the added passers-by are likely buyers of the vendors' goods.",
-      "D": "Half right: it shows overlap with market hours but not that the extra people would buy; it is weaker than C.",
+      "D": "Half right: it shows overlap with market hours but not that the extra people would buy; it is weaker than the correct answer.",
       "E": "Opposite: vendor preferences for the present location mildly weaken the case."
     },
     "trapPatterns": {
@@ -592,11 +594,11 @@
     "stimulus": "Historian: Guild ledgers show that raw-wool exports from the port of Calder fell sharply in the 1380s. Some scholars blame a plague that struck the region, but plague deaths among weavers would also have cut Calder's cloth exports, and the ledgers show that cloth exports from Calder actually rose in that decade. The fall in wool exports therefore reflects a shift by Calder's merchants toward turning the wool into cloth locally instead of shipping it raw.",
     "stem": "Which one of the following, if true, most strengthens the historian's argument?",
     "choices": {
-      "A": "Many of the weavers who worked in Calder during the 1380s died in the plague.",
+      "A": "Many of the weavers who worked in Calder during the 1380s died of the plague that struck the region.",
       "B": "Raw-wool exports from other ports in the region also fell during the 1380s.",
-      "C": "The clerks who kept the guild ledgers were paid according to the volume of goods they recorded.",
-      "D": "The amount of wool used by Calder's own cloth workshops in the 1380s rose by about as much as raw-wool exports fell.",
-      "E": "Cloth made in Calder in the 1380s was generally of higher quality than cloth made there earlier."
+      "C": "The clerks who kept the guild ledgers were paid according to the volume of goods that they recorded each year.",
+      "D": "The wool used by Calder's own cloth workshops in the 1380s rose by about as much as raw-wool exports fell.",
+      "E": "Cloth made in Calder in the 1380s was generally of higher quality than the cloth that had been made there earlier."
     },
     "answer": "D",
     "explanations": {
@@ -626,11 +628,11 @@
     "stimulus": "County executive: The county should not lease its fairgrounds to whichever bidder offers the highest price. The fairgrounds are a public asset that residents have used for generations.",
     "stem": "Which one of the following principles, if valid, most helps to justify the county executive's reasoning?",
     "choices": {
-      "A": "A public asset should never be leased to a private party.",
-      "B": "A public asset that residents have long used should not be leased on the basis of price alone.",
-      "C": "Residents should be consulted before any public asset is leased.",
-      "D": "Preserving a community's history is more important than raising revenue.",
-      "E": "A public asset that residents have used for generations should be preserved unchanged."
+      "A": "A public asset should never be leased to a private party under any circumstances, whatever the price.",
+      "B": "A public asset long used by residents should not be leased on price alone.",
+      "C": "Residents should be consulted before any public asset that they have used is leased to a private party.",
+      "D": "Preserving a community's history is more important than raising revenue for the local government.",
+      "E": "A public asset that residents have used for generations should be preserved unchanged for future generations."
     },
     "answer": "B",
     "explanations": {
@@ -695,10 +697,10 @@
     "stimulus": "Farm bureau officer: Dunmore Farm cannot qualify for this year's organic subsidy, because the county has not inspected Dunmore Farm this year.",
     "stem": "The conclusion follows logically if which one of the following is assumed?",
     "choices": {
-      "A": "Every farm that the county has inspected this year qualifies for the organic subsidy.",
+      "A": "Every farm that the county has inspected this year qualifies for the organic subsidy that is offered.",
       "B": "The county will inspect Dunmore Farm early next year.",
-      "C": "Most farms that qualify for the subsidy were inspected by the county this year.",
-      "D": "Only farms that the county has inspected this year can qualify for the organic subsidy.",
+      "C": "Most farms that qualify for the subsidy were inspected by the county at some point this year.",
+      "D": "Only farms inspected by the county this year can qualify for the organic subsidy.",
       "E": "Farms that the county has not inspected are poorly managed."
     },
     "answer": "D",
@@ -763,10 +765,10 @@
     "stem": "Which one of the following most accurately expresses the main conclusion of the argument?",
     "choices": {
       "A": "The Lindqvist diaries are not a hoax.",
-      "B": "The variation in the handwriting of the Lindqvist diaries gives no reason to suspect a hoax.",
-      "C": "Handwriting commonly changes over the decades of a person's lifetime.",
-      "D": "Some scholars claim that the Lindqvist diaries are a hoax.",
-      "E": "A writer's handwriting changes when the writer ages and writes under different conditions."
+      "B": "The variation in the diaries' handwriting gives no reason to suspect a hoax.",
+      "C": "Handwriting commonly changes over the decades of a person's lifetime, especially as the writer ages.",
+      "D": "Some scholars claim that the Lindqvist diaries are a hoax because their handwriting varies widely.",
+      "E": "A writer's handwriting changes as the writer ages and writes under different conditions over the years."
     },
     "answer": "B",
     "explanations": {
@@ -826,11 +828,11 @@
     "stimulus": "Many residents believe that the Ridgeway bridge must be demolished because it is old. But age alone does not make a bridge unsafe. The engineering inspection found no structural defects in the Ridgeway bridge. Therefore, the bridge need not be demolished.",
     "stem": "The claim that age alone does not make a bridge unsafe plays which one of the following roles in the argument?",
     "choices": {
-      "A": "It is the main conclusion of the argument.",
-      "B": "It is an intermediate conclusion supported by the findings of the engineering inspection.",
-      "C": "It is a position that the argument as a whole is designed to refute.",
-      "D": "It is an example offered to illustrate a generalization about old bridges.",
-      "E": "It is a premise that, together with the inspection finding, supports the conclusion that the bridge need not be demolished."
+      "A": "It is the main conclusion of the argument, which the remaining statements are offered to support.",
+      "B": "It is an intermediate conclusion that is supported by the findings of the engineering inspection.",
+      "C": "It is a position that the argument as a whole is designed to refute by appeal to evidence.",
+      "D": "It is an example offered to illustrate a generalization about the safety of old bridges.",
+      "E": "It is a premise that, together with the inspection finding, supports the main conclusion."
     },
     "answer": "E",
     "explanations": {
@@ -928,11 +930,11 @@
     "stimulus": "Reyes: The Eastgate bridge is a local landmark, and landmarks deserve preservation even at a premium. So the city should repair the bridge rather than replace it.\nImani: I agree that landmark status counts for something. But repairing the bridge would cost twice as much as replacing it, and the city cannot justify that premium. The bridge should be replaced.",
     "stem": "Reyes and Imani disagree over whether",
     "choices": {
-      "A": "the Eastgate bridge is a local landmark",
-      "B": "repairing the Eastgate bridge would cost more than replacing it",
+      "A": "the Eastgate bridge is in fact a local landmark that deserves some measure of special regard",
+      "B": "repairing the Eastgate bridge would cost the city more money than replacing it would",
       "C": "the bridge's landmark status justifies paying more to repair it than to replace it",
-      "D": "landmark status is a consideration that counts for something",
-      "E": "the city's budget for bridge work is limited"
+      "D": "landmark status is a consideration that counts for something in deciding what to do about a bridge",
+      "E": "the city's budget for bridge work is limited enough to constrain the options that it can choose"
     },
     "answer": "C",
     "explanations": {
@@ -997,11 +999,11 @@
     "stimulus": "The founding documents of Harrowgate were destroyed in a fire, so historians must rely on accounts of its founding written generations later. But those later accounts were written by people with a stake in the town's reputation, and such writers tend to flatter the town they write about. Therefore, ____.",
     "stem": "Which one of the following most logically completes the argument?",
     "choices": {
-      "A": "the destroyed founding documents must themselves have contained flattering claims about the town",
+      "A": "the destroyed founding documents must themselves have contained flattering claims about the town's origins",
       "B": "no reliable account of how Harrowgate was founded can ever be assembled",
       "C": "the fire that destroyed the founding documents was probably set deliberately",
-      "D": "historians should be cautious about accepting the later accounts' favorable claims about the founding",
-      "E": "the later accounts of the town's founding are inaccurate in every detail"
+      "D": "historians should be cautious about the later accounts' favorable claims about the founding",
+      "E": "the later accounts of the town's founding are inaccurate in every detail that they happen to mention"
     },
     "answer": "D",
     "explanations": {
@@ -1032,11 +1034,11 @@
     "stimulus": "Historian: Dunn argues that the horse collar was the sole cause of medieval Europe's population growth, noting that populations rose in every region soon after its adoption. But populations also rose in every region soon after the adoption of the heavy plow, and soon after the spread of the watermill. By Dunn's reasoning, each of these would be the sole cause, which is absurd. So Dunn's reasoning is unsound.",
     "stem": "The historian's argument proceeds by",
     "choices": {
-      "A": "showing that the form of reasoning in question would support rival conclusions that cannot all be true",
-      "B": "undermining Dunn's conclusion by showing that the evidence cited for it is inaccurate",
-      "C": "rejecting Dunn's conclusion on the grounds that Dunn lacks the qualifications to draw it",
-      "D": "citing a counterexample to a universal generalization that Dunn states",
-      "E": "deriving a contradiction between Dunn's conclusion and one of Dunn's own premises"
+      "A": "showing that the reasoning would equally support rival conclusions that cannot all be true",
+      "B": "undermining Dunn's conclusion by showing that the evidence cited in support of it is inaccurate",
+      "C": "rejecting Dunn's conclusion on the grounds that Dunn lacks the qualifications needed to draw it",
+      "D": "citing a counterexample to a universal generalization that Dunn states as part of his argument",
+      "E": "deriving a contradiction between Dunn's conclusion and one of Dunn's own stated premises"
     },
     "answer": "A",
     "explanations": {
@@ -1066,11 +1068,11 @@
     "stimulus": "Warden: The county seed bank is not worth funding, since the worth of such a bank depends on whether farmers plant its varieties, and no local farmer currently plants any of them.\nClerk: I grant that no local farmer currently plants any of them. But a seed bank's worth also lies in its protection against future blights, and ours holds the only surviving samples of several varieties. So it is worth funding.",
     "stem": "The warden and the clerk are committed to agreeing about which one of the following?",
     "choices": {
-      "A": "At present none of the varieties held in the county seed bank is planted by local farmers.",
-      "B": "Local farmers have no interest in planting the varieties held in the county seed bank.",
-      "C": "A seed bank is valuable only if it protects against future blights.",
-      "D": "The county seed bank holds the only surviving samples of several varieties.",
-      "E": "Funding for the county seed bank should be continued."
+      "A": "No local farmer currently plants any variety held in the county seed bank.",
+      "B": "Local farmers have no interest in planting the varieties that are held in the county seed bank.",
+      "C": "A seed bank is valuable only if it protects against future blights of the crops it holds.",
+      "D": "The county seed bank holds the only surviving samples of several of the varieties it stores.",
+      "E": "Funding for the county seed bank should be continued in the coming budget year."
     },
     "answer": "A",
     "explanations": {
