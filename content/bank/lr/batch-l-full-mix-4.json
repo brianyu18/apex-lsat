@@ -12,7 +12,7 @@
     "stem": "The reasoning in the argument is most vulnerable to criticism on the grounds that it",
     "choices": {
       "A": "treats a difference in how often owners file repair claims as a difference in how often the laptops break, although covered owners have more reason to file",
-      "B": "overlooks that extended warranties are typically priced higher than the cost of the average repair",
+      "B": "overlooks that extended warranties are typically priced higher than the cost of the average repair, so that most buyers who never file a claim lose money on the purchase",
       "C": "bases its conclusion on one year of claims data rather than on several years",
       "D": "assumes that every owner who bought an extended warranty has actually used it",
       "E": "infers that buying an extended warranty makes a laptop break down more often"
@@ -48,7 +48,7 @@
       "A": "fails to consider whether the amendment is likely to be adopted by the council",
       "B": "rejects the amendment on the basis of its drafter's professional history without examining what the amendment itself provides",
       "C": "assumes that landlords and tenants always have opposing interests in zoning matters",
-      "D": "relies on the history of a single attorney rather than on the history of the landlords' associations",
+      "D": "relies on the professional history of a single attorney rather than on the broader record of the landlords' associations that the attorney once represented in zoning disputes",
       "E": "concludes that every council member ought to vote against the amendment"
     },
     "answer": "B",
@@ -82,7 +82,7 @@
       "A": "assumes that the catalog is representative of all red dwarf stars",
       "B": "treats a planet's location in the zone where liquid water could exist as a guarantee that it has liquid water",
       "C": "overlooks the possibility that every star with a planet in the zone belongs to the minority that is not flare-prone",
-      "D": "infers from the fact that some stars have such planets that most red dwarfs have them",
+      "D": "infers from the fact that some of the cataloged stars have planets in such a zone that most red dwarf stars in the catalog must have planets there as well",
       "E": "fails to specify how violent a flare must be for a star to count as flare-prone"
     },
     "answer": "C",
@@ -123,9 +123,9 @@
     "answer": "E",
     "explanations": {
       "A": "Reversal: the argument moves from negotiation to initialing, not the other way around.",
-      "B": "True but irrelevant: the first premise already says 'most,' not all, were negotiated; admitting exceptions does not identify the error.",
+      "B": "True but irrelevant: the first premise already says most, not all, were negotiated, so admitting exceptions does not identify the error.",
       "C": "Extreme: the conclusion says 'most,' not 'every.'",
-      "D": "Wrong force: the argument does say 'most' of the tenant-favoring clauses were negotiated, not 'some'; the word 'some' makes this describe a different argument.",
+      "D": "Wrong force: this describes an argument that rests on only some members belonging to the other category; the attorney says most of them do, so the word some makes this a different argument.",
       "E": "Correct. Most tenant-favoring clauses are in the negotiated group, and most negotiated clauses were initialed, but the initialed majority could consist of the negotiated clauses that do not favor the tenant. A majority of a majority need not reach the first group."
     },
     "trapPatterns": {
@@ -151,7 +151,7 @@
       "A": "relies on experiments that were all conducted underground",
       "B": "presumes that a particle that interacts weakly with matter must be hard to produce",
       "C": "treats the experiments' failure to find the particle as showing that the particle exists",
-      "D": "ignores the possibility that other particles besides the neutrino interact weakly with matter",
+      "D": "ignores the possibility that other particles besides the sterile neutrino interact so weakly with ordinary matter that they too would escape detection in such experiments",
       "E": "takes the failure to detect the particle as proof of its nonexistence even though the particle would be nearly undetectable"
     },
     "answer": "E",
@@ -287,7 +287,7 @@
     "stem": "The argument depends on assuming which one of the following?",
     "choices": {
       "A": "Most households boil water in a kettle at least once a day.",
-      "B": "The Corvane has a heating element that is more durable than those of other kettles in its price range.",
+      "B": "The Corvane has a heating element that is more durable than the heating elements of other kettles in its price range and so will need to be replaced less often.",
       "C": "Electric kettles account for a large share of the electricity used in a typical household.",
       "D": "No other kettle in the Corvane's price range boils water faster than the Corvane does.",
       "E": "The Corvane does not use more electricity to boil a liter of water than other kettles in its price range do."
@@ -360,7 +360,7 @@
       "B": "Shoes of competing brands wear out within a year of purchase.",
       "C": "Brantley shoes do not cost more than twice as much per pair as competing brands' shoes do.",
       "D": "Brantley is the most popular brand of running shoe among serious runners.",
-      "E": "A pair of shoes that lasts longer is always a better value than a cheaper pair."
+      "E": "A pair of running shoes that lasts longer is always a better value for a runner than a pair of shoes that costs less, regardless of how much more it costs."
     },
     "answer": "C",
     "explanations": {
@@ -394,7 +394,7 @@
       "B": "The cameras cost the city more to install than had been budgeted.",
       "C": "Many of the tickets issued on the basis of camera images were sent to out-of-town drivers.",
       "D": "At about the time the cameras were installed, the city rebuilt those same ten intersections with wider lanes and protected turn signals.",
-      "E": "Before the cameras were installed, accidents at the ten intersections had been rising steadily for five years."
+      "E": "Before the cameras were installed, accidents at the ten intersections had been rising steadily for five years, with the sharpest increases in the final two years."
     },
     "answer": "D",
     "explanations": {
@@ -495,7 +495,7 @@
     "stem": "Which one of the following, if true, most helps to explain the discrepancy described above?",
     "choices": {
       "A": "The observatory has logged more asteroid discoveries every year since it opened.",
-      "B": "Asteroid discoveries sometimes occur in clusters because several asteroids may orbit together.",
+      "B": "Asteroid discoveries sometimes occur in clusters because several asteroids may share a common orbit and be found by the same observation on the same night.",
       "C": "On most of July's clear nights the moon was full or nearly full, and bright moonlight makes faint asteroids difficult to detect.",
       "D": "The observatory logged more discoveries in August than it did in July.",
       "E": "Some clear nights are too turbulent for fine astronomical observation."
@@ -600,7 +600,7 @@
       "A": "Cosmic rays were first discovered more than a century ago.",
       "B": "Moving a sensitive detector to a mine is expensive.",
       "C": "Cosmic rays can penetrate thin layers of material.",
-      "D": "The physicist has operated particle detectors for several decades.",
+      "D": "The physicist has operated particle detectors in several countries for several decades and has published many papers on the sources of their background counts.",
       "E": "The rock above the mine absorbs nearly all cosmic rays but does little to reduce the detector's other possible sources of background."
     },
     "answer": "E",
@@ -809,7 +809,7 @@
       "B": "The star KR-9 dims every eleven days, and each dimming has the same depth.",
       "C": "The dimming of KR-9 is not caused by starspots.",
       "D": "The dimming of KR-9 is probably caused by a planet passing in front of the star.",
-      "E": "KR-9 has a planet about the size of Neptune."
+      "E": "KR-9 has a planet that is about the size of Neptune and that orbits the star at a distance much closer than that of Mercury from the Sun."
     },
     "answer": "D",
     "explanations": {
@@ -945,7 +945,7 @@
       "B": "landlords commonly insist that leases contain jury trial waivers",
       "C": "the right to a jury trial is valuable to tenants",
       "D": "a tenant's knowing about a lease term shows that the landlord's insisting on it is not objectionable",
-      "E": "tenants who sign leases containing waivers ought to be allowed to void the leases"
+      "E": "tenants who sign leases that contain a jury trial waiver ought to be permitted by the courts to void those leases within a reasonable period after signing"
     },
     "answer": "D",
     "explanations": {
@@ -1015,7 +1015,7 @@
       "B": "a refurbished appliance sold by its manufacturer may be less likely to have an undetected defect than a new appliance is",
       "C": "shoppers should always choose a refurbished appliance over a new one",
       "D": "manufacturers earn more profit on refurbished appliances than on new ones",
-      "E": "inspecting every appliance individually is always more effective at finding defects than testing a sample"
+      "E": "inspecting every appliance individually is always more effective at finding defects than testing only a sample, whatever kind of appliance is involved"
     },
     "answer": "B",
     "explanations": {

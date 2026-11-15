@@ -1,0 +1,1090 @@
+[
+  {
+    "id": "lr-q-flaw-nesting-box-streams",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 1,
+    "stimulus": "Ornithologist: In our study area, nesting boxes placed within fifty meters of a stream fledged an average of four chicks per season, while boxes placed farther from streams fledged an average of two. To raise the number of chicks fledged in the region's nesting-box program, we should therefore relocate all of the boxes to sites near streams.",
+    "stem": "The reasoning in the argument is most vulnerable to criticism on the grounds that it",
+    "choices": {
+      "A": "ignores the possibility that some of the nesting boxes were occupied by more than one species of bird",
+      "B": "overlooks the possibility that sites near streams differ in some other respect, such as food supply, that accounts for the greater success",
+      "C": "relies on a comparison of average figures instead of the number of chicks fledged from each individual box",
+      "D": "assumes that the number of chicks fledged is the only measure of a nesting site's value to the birds",
+      "E": "concludes that proximity to a stream is necessary for fledging chicks from evidence that the two are merely associated"
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Out of scope: the number of species using the boxes has no bearing on whether moving boxes would raise fledging totals.",
+      "B": "Correct. The data show only an association between stream sites and success. Those sites may simply have more insects or better cover, in which case moving boxes would not change the results.",
+      "C": "True but irrelevant: an average is a legitimate summary, and individual-box figures would not repair the causal gap.",
+      "D": "Extreme: the ornithologist wants more fledglings and needs no claim that fledging is the sole measure of a site's value.",
+      "E": "Extreme: the argument never says streams are necessary for fledging; boxes far from streams still fledged two chicks on average."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "C": "true_but_irrelevant",
+      "D": "extreme",
+      "E": "necessary_v_sufficient"
+    },
+    "keyTakeaway": "When a correlation is turned into a relocation or policy recommendation, look for a third factor that travels with the favored condition.",
+    "predictionHint": "Stream sites may differ in food or cover, which could be the real cause of success."
+  },
+  {
+    "id": "lr-q-flaw-tabloid-report-dismissed",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [],
+    "difficulty": 1,
+    "stimulus": "Media critic: Dr. Alvarez's report claims that local television news has become more sensational over the past decade. But Alvarez spent two years as a producer for a tabloid talk show, so the report should simply be dismissed.",
+    "stem": "The argument is flawed in that it",
+    "choices": {
+      "A": "presumes that all local television news is sensational on the grounds that some of it has become so",
+      "B": "fails to define what it means for news coverage to be sensational before assessing the report",
+      "C": "relies on a report that examines only a single decade of local television news programming",
+      "D": "rejects a claim because of its author's background rather than on the merits of the evidence offered for it",
+      "E": "treats the report's conclusion as false merely because the critic has not been given any evidence for it"
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Wrong part: the critic never generalizes from some local news to all; the critic attacks the report, not the news.",
+      "B": "True but irrelevant: a missing definition would not explain why Alvarez's past job justifies dismissal.",
+      "C": "Out of scope: the length of the period studied is never questioned in the critic's reasoning.",
+      "D": "Correct. The only ground offered for dismissing the report is the author's former employer. Whether the report's evidence supports its claim is never examined.",
+      "E": "Wrong part: the critic offers a reason for dismissal, the author's background, and does not claim that the evidence is missing."
+    },
+    "trapPatterns": {
+      "A": "wrong_part",
+      "B": "true_but_irrelevant",
+      "C": "out_of_scope",
+      "E": "wrong_part"
+    },
+    "keyTakeaway": "An attack on the source rather than on the evidence is the classic ad hominem flaw.",
+    "predictionHint": "The report is rejected because of who wrote it, not because of what it says."
+  },
+  {
+    "id": "lr-q-flaw-credit-hours-eligibility",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "conditional"
+    ],
+    "difficulty": 2,
+    "stimulus": "University registrar: A student is eligible to graduate only if she has completed at least 120 credit hours. Priya has completed 124 credit hours. Therefore, Priya is eligible to graduate.",
+    "stem": "The reasoning in the argument is flawed because it",
+    "choices": {
+      "A": "treats a condition necessary for eligibility as though it were sufficient for eligibility",
+      "B": "draws a conclusion about one particular student from a rule that concerns students in general",
+      "C": "assumes without justification that Priya will actually choose to graduate",
+      "D": "overlooks that eligibility rules may differ from one university to another",
+      "E": "mistakes a condition sufficient for eligibility for one that is merely necessary"
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. The rule says 120 credits are required; it does not say they are enough. Priya may still lack other requirements, so eligibility does not follow.",
+      "B": "Wrong part: applying a general rule to an individual case is normal; the problem is the direction of the conditional.",
+      "C": "Out of scope: the conclusion concerns eligibility, not whether Priya will choose to graduate.",
+      "D": "Out of scope: the registrar speaks only about this university's own rule.",
+      "E": "Reversal: this describes the flaw backward. The rule states a necessary condition, and the registrar treats it as sufficient."
+    },
+    "trapPatterns": {
+      "B": "wrong_part",
+      "C": "out_of_scope",
+      "D": "out_of_scope",
+      "E": "reversal"
+    },
+    "keyTakeaway": "Only if names a necessary condition; meeting it never guarantees the outcome.",
+    "predictionHint": "Necessary condition mistaken for sufficient."
+  },
+  {
+    "id": "lr-q-flaw-diet-compound-lifespan",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 3,
+    "stimulus": "Physiologist: Laboratory mice fed Diet X lived, on average, fifteen percent longer than mice fed the standard diet. Diet X contains Compound Z among its other ingredients. But when mice were fed standard food supplemented with Compound Z alone, they lived no longer than the standard-diet mice. Thus Compound Z plays no part in the longer lives of the mice fed Diet X.",
+    "stem": "The argument is most vulnerable to criticism on the grounds that it",
+    "choices": {
+      "A": "fails to consider that the mice fed the standard diet may themselves have been unusually short-lived",
+      "B": "draws a conclusion about all mammals from an experiment conducted on a single species of mouse",
+      "C": "assumes that a diet's effect on lifespan must be traceable to a single ingredient",
+      "D": "does not rule out that an ingredient other than Compound Z also contributes to the longer lives",
+      "E": "overlooks the possibility that Compound Z lengthens life only when it is combined with other ingredients of Diet X"
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Out of scope: the comparison group is the same in both experiments, so its being short-lived would not separate Z's role.",
+      "B": "Out of scope: the conclusion is about the mice fed Diet X, not about mammals in general.",
+      "C": "Reversal: the argument does not assume one ingredient does everything; it concludes that one ingredient does nothing.",
+      "D": "Half right: another contributing ingredient may exist, but that is compatible with Z contributing nothing and does not undercut the conclusion.",
+      "E": "Correct. Z alone had no effect, yet Z might work only in concert with other ingredients, in which case it would still play a part in Diet X's effect."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "out_of_scope",
+      "C": "reversal",
+      "D": "half_right"
+    },
+    "keyTakeaway": "Testing a component in isolation cannot show it plays no role in a combination, because interaction effects are invisible to the solo test.",
+    "predictionHint": "Z might matter only in combination with other ingredients."
+  },
+  {
+    "id": "lr-q-flaw-seminar-most-most",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "quantifiers"
+    ],
+    "difficulty": 4,
+    "stimulus": "Seminar leader: Most of the students in my seminar who attended the guest lecture also read the optional essay. Most of the students in my seminar who read the optional essay scored above 90 on the final exam. Therefore, most of the students in my seminar who attended the guest lecture scored above 90 on the final exam.",
+    "stem": "The reasoning in the argument is flawed because it",
+    "choices": {
+      "A": "infers that reading the optional essay caused high exam scores from the fact that the two were associated",
+      "B": "draws a conclusion about the lecture attendees from facts about the seminar as a whole",
+      "C": "overlooks that the essay readers who scored above 90 may include few or none of the lecture attendees who read the essay",
+      "D": "overlooks the possibility that most of the students who attended the lecture never read the optional essay",
+      "E": "fails to take into account that some students who scored above 90 may not have read the optional essay"
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Out of scope: the argument draws no causal conclusion; it only chains two statistical claims.",
+      "B": "Wrong part: every statement in the argument concerns students in the seminar, and the conclusion concerns the lecture attendees who are among them.",
+      "C": "Correct. Two majorities need not overlap in the way required. The high-scoring essay readers could all be non-attendees, leaving the attendees who read the essay among the minority who scored 90 or below.",
+      "D": "Opposite: the first premise states that most attendees did read the essay, so this possibility contradicts the argument's own premise.",
+      "E": "True but irrelevant: high scorers who skipped the essay do not affect whether the attendees scored high."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "wrong_part",
+      "D": "opposite",
+      "E": "true_but_irrelevant"
+    },
+    "keyTakeaway": "Most A are B and most B are C does not yield most A are C; the two majorities can miss each other.",
+    "predictionHint": "Chaining two 'most' statements does not guarantee overlap."
+  },
+  {
+    "id": "lr-q-weaken-gazette-sports-section",
+    "section": "LR",
+    "type": "weaken",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 1,
+    "stimulus": "Publisher: After the Gazette eliminated its weekly sports section in January, its paid circulation fell by eight percent over the following year. Clearly, eliminating the sports section is what cost the Gazette those readers, and the paper should restore the section if it wants to regain circulation.",
+    "stem": "Which one of the following, if true, most seriously weakens the argument?",
+    "choices": {
+      "A": "Many Gazette readers say that they read the paper primarily for its coverage of local government.",
+      "B": "The sports section was one of the least expensive sections of the Gazette to produce.",
+      "C": "The Gazette's online edition gained readers during the year in which print circulation fell.",
+      "D": "Readers who canceled their subscriptions often cited the loss of sports coverage as their reason.",
+      "E": "Paid circulation fell by roughly eight percent at every other daily newspaper in the region over the same year, including those that kept their sports sections."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "True but irrelevant: readers' main interest in local government does not show that sports played no role in the decline.",
+      "B": "Out of scope: production cost has no bearing on what caused the drop in circulation.",
+      "C": "Out of scope: online gains do not explain the print decline or its cause.",
+      "D": "Opposite: readers citing the loss of sports as their reason for canceling strengthens the causal claim.",
+      "E": "Correct. A same-sized decline at papers that kept their sports sections points to a general trend as the cause, undermining the claim that the cut explains the Gazette's loss."
+    },
+    "trapPatterns": {
+      "A": "true_but_irrelevant",
+      "B": "out_of_scope",
+      "C": "out_of_scope",
+      "D": "opposite"
+    },
+    "keyTakeaway": "A weakener for a before-and-after causal claim often shows that the same change happened where the supposed cause was absent.",
+    "predictionHint": "An industry-wide decline would explain the loss without the sports cut."
+  },
+  {
+    "id": "lr-q-weaken-route-reflectors",
+    "section": "LR",
+    "type": "weaken",
+    "logicTags": [
+      "causation",
+      "analogy"
+    ],
+    "difficulty": 2,
+    "stimulus": "Highway official: Reflectors that flash light at passing headlights should be installed along Route 9 to reduce deer-vehicle collisions. A trial on a stretch of Route 12 showed that after reflectors were installed there, collisions on that stretch fell by forty percent compared with the previous year. The reflectors evidently frighten deer away from the roadway.",
+    "stem": "Which one of the following, if true, most seriously weakens the argument?",
+    "choices": {
+      "A": "Reflectors cost less to install than the fences that are sometimes used to keep deer off roads.",
+      "B": "Some deer-vehicle collisions on Route 12 occurred during the trial on stretches that had no reflectors.",
+      "C": "Nearly all of the deer-vehicle collisions on Route 9 occur in daylight, when the reflectors would not be flashing.",
+      "D": "The number of deer-vehicle collisions on Route 9 has risen steadily over the past decade.",
+      "E": "The trial on Route 12 was supervised by officials who had advocated the use of reflectors."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Out of scope: relative cost of fences says nothing about whether reflectors would work on Route 9.",
+      "B": "Half right: collisions elsewhere on the road are expected, since only the trial stretch had reflectors, and they do not undermine the result.",
+      "C": "Correct. The reflectors flash only at headlights. If Route 9's collisions occur in daylight, the device cannot affect them, so the trial result does not carry over.",
+      "D": "True but irrelevant: a rising collision rate shows the problem is real, not that reflectors will help.",
+      "E": "Wrong force: the supervisors' views are a quibble; the argument cites measured collisions, not their opinions."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "half_right",
+      "D": "true_but_irrelevant",
+      "E": "wrong_force"
+    },
+    "keyTakeaway": "When a result from one site is applied to another, look for a difference that makes the mechanism inoperative at the new site.",
+    "predictionHint": "Route 9 collisions might happen when the reflectors are inactive."
+  },
+  {
+    "id": "lr-q-weaken-zebrafish-adjuvant",
+    "section": "LR",
+    "type": "weaken",
+    "logicTags": [
+      "analogy",
+      "sampling"
+    ],
+    "difficulty": 3,
+    "stimulus": "Immunologist: In a controlled trial, zebrafish given a new adjuvant alongside a vaccine produced markedly more antibodies than zebrafish given the vaccine alone. The adjuvant works by enhancing a particular signaling response, and zebrafish share the basic features of the immune systems of other vertebrates. We can therefore conclude that the adjuvant will boost antibody production in humans as well.",
+    "stem": "Which one of the following, if true, most seriously weakens the immunologist's argument?",
+    "choices": {
+      "A": "In humans, antibody production depends on a signaling response that differs from the one the adjuvant enhances.",
+      "B": "The zebrafish used in the trial had been bred in laboratory conditions for many generations.",
+      "C": "Antibody production is only one of several measures of how effective a vaccine is.",
+      "D": "The trial included fewer than fifty zebrafish in each of its two groups.",
+      "E": "Several vaccines now in use in humans were first tested on zebrafish."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. The argument relies on the adjuvant's mechanism being present in humans. If human antibody production runs through a different signaling response, the zebrafish result gives no reason to expect a boost.",
+      "B": "True but irrelevant: lab breeding is typical of controlled trials, and nothing links it to a difference in the signaling response.",
+      "C": "Comparison shift: the conclusion concerns antibody production, not overall vaccine effectiveness.",
+      "D": "Wrong force: the result is described as marked in a controlled trial; group size alone gives no specific reason to doubt it.",
+      "E": "Opposite: a record of zebrafish findings carrying over to humans supports the argument."
+    },
+    "trapPatterns": {
+      "B": "true_but_irrelevant",
+      "C": "comparison_shift",
+      "D": "wrong_force",
+      "E": "opposite"
+    },
+    "keyTakeaway": "In an animal-to-human argument, the best weakener attacks the shared-mechanism premise.",
+    "predictionHint": "Humans might lack the signaling pathway the adjuvant acts on."
+  },
+  {
+    "id": "lr-q-mss-wetland-bird-seasons",
+    "section": "LR",
+    "type": "most_strongly_supported",
+    "logicTags": [
+      "quantifiers"
+    ],
+    "difficulty": 1,
+    "stimulus": "Of the forty bird species recorded at Alder Marsh last year, thirty were migratory. Each migratory species was recorded there only in spring or in fall. Several of the non-migratory species were recorded there in winter.",
+    "stem": "Which one of the following is most strongly supported by the information above?",
+    "choices": {
+      "A": "Most of the non-migratory species recorded at Alder Marsh were seen there in winter.",
+      "B": "Every non-migratory species recorded at Alder Marsh was seen there in winter.",
+      "C": "Some migratory species recorded at Alder Marsh were seen there in winter.",
+      "D": "Some of the species recorded at Alder Marsh last year were not seen there in summer.",
+      "E": "More species were recorded at Alder Marsh in spring than in fall."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Wrong force: 'several' of the ten non-migratory species does not establish 'most.'",
+      "B": "Extreme: only several, not every, non-migratory species were seen in winter.",
+      "C": "Opposite: migratory species were seen only in spring or fall, so none was seen in winter.",
+      "D": "Correct. The thirty migratory species were seen only in spring or fall, so none of them was seen in summer. That makes 'some' species not seen in summer.",
+      "E": "Out of scope: nothing compares spring with fall totals."
+    },
+    "trapPatterns": {
+      "A": "wrong_force",
+      "B": "extreme",
+      "C": "opposite",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "Several is not most and only in X or Y excludes every other season; read quantifiers and exclusions literally.",
+    "predictionHint": "Migratory species were absent in summer and winter."
+  },
+  {
+    "id": "lr-q-mss-courier-corrections",
+    "section": "LR",
+    "type": "most_strongly_supported",
+    "logicTags": [
+      "comparison"
+    ],
+    "difficulty": 3,
+    "stimulus": "The editors of the Harbor Courier print a correction whenever they discover a factual error in a published story, and they print corrections for nothing else. Last year, a greater proportion of the Courier's stories that relied on a single anonymous source required a printed correction than did its stories that relied on named sources.",
+    "stem": "Which one of the following is most strongly supported by the information above?",
+    "choices": {
+      "A": "Last year, the Courier's stories that relied on a single anonymous source were more likely than its stories that relied on named sources to contain factual errors.",
+      "B": "Last year, a greater proportion of the Courier's stories that relied on a single anonymous source than of its stories that relied on named sources contained a factual error that the editors discovered.",
+      "C": "The Courier's editors checked stories that relied on named sources more carefully than they checked stories that relied on anonymous sources.",
+      "D": "Most of the Courier's stories that relied on a single anonymous source required a printed correction last year.",
+      "E": "The Courier's stories that relied on named sources contained no factual errors last year."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Shell game: corrections follow only discovered errors. The editors may have scrutinized anonymous-source stories more heavily, so a higher correction rate does not show a higher error rate.",
+      "B": "Correct. Corrections are printed for discovered factual errors and nothing else, so a higher correction rate means a higher rate of discovered factual errors.",
+      "C": "Out of scope: nothing describes how carefully either kind of story was checked.",
+      "D": "Extreme: a greater proportion than for named sources does not mean a majority.",
+      "E": "Extreme: named-source stories needed fewer corrections, not zero."
+    },
+    "trapPatterns": {
+      "A": "shell_game",
+      "C": "out_of_scope",
+      "D": "extreme",
+      "E": "extreme"
+    },
+    "keyTakeaway": "A rate of corrections measures discovered errors, not total errors; keep track of what was actually observed.",
+    "predictionHint": "Corrections track discovered errors, not all errors."
+  },
+  {
+    "id": "lr-q-mss-island-lizard-colors",
+    "section": "LR",
+    "type": "most_strongly_supported",
+    "logicTags": [
+      "quantifiers",
+      "conditional"
+    ],
+    "difficulty": 3,
+    "stimulus": "Some of the lizard species native to Corvo Island are venomous. Every venomous lizard species on the island is brightly colored. No lizard species on the island that eats only insects is brightly colored.",
+    "stem": "Which one of the following is most strongly supported by the information above?",
+    "choices": {
+      "A": "Some brightly colored lizard species on the island are not venomous.",
+      "B": "No venomous lizard species on the island eats insects.",
+      "C": "Most brightly colored lizard species on the island are venomous.",
+      "D": "Every lizard species on the island that does not eat only insects is brightly colored.",
+      "E": "Some lizard species on the island do not eat only insects."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Out of scope: every venomous species is colored, but nothing says colored species exist that are not venomous.",
+      "B": "Extreme: a venomous species could eat insects along with other foods; only exclusive insect eaters are ruled out.",
+      "C": "Wrong force: only some species are known to be venomous, and nothing compares them with the colored species as a whole.",
+      "D": "Reversal: exclusive insect eaters are never colored, but that does not make every other species colored.",
+      "E": "Correct. Some species are venomous, hence colored, hence not exclusive insect eaters."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "extreme",
+      "C": "wrong_force",
+      "D": "reversal"
+    },
+    "keyTakeaway": "Chain the conditionals from a 'some' statement: the some-group inherits every property in the chain.",
+    "predictionHint": "Venomous implies colored implies not an exclusive insect eater."
+  },
+  {
+    "id": "lr-q-na-student-paper-online",
+    "section": "LR",
+    "type": "necessary_assumption",
+    "logicTags": [
+      "value_judgment"
+    ],
+    "difficulty": 2,
+    "stimulus": "Student newspaper editor: The Campus Ledger should stop printing and move entirely online. Printing costs $9,000 a year, nearly a third of our budget, and eliminating that expense would leave us with far more money to spend on reporting.",
+    "stem": "The editor's argument depends on assuming which one of the following?",
+    "choices": {
+      "A": "Most students at the university would prefer to read the Ledger online.",
+      "B": "Some other student newspapers have already moved entirely online.",
+      "C": "Moving online would not cost the Ledger revenue comparable to what printing now costs.",
+      "D": "The Ledger's printing costs will not rise in the coming years.",
+      "E": "Reporting is currently the Ledger's largest single expense."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Out of scope: reader preference is never invoked; the argument is about money.",
+      "B": "Out of scope: what other papers have done is irrelevant to the Ledger's savings.",
+      "C": "Correct. If going online would lose, say, print advertising revenue comparable to the printing bill, the Ledger would not have more to spend. Denying this undercuts the argument.",
+      "D": "Premise booster: future cost increases would only add to the savings; the argument does not need them.",
+      "E": "Out of scope: the rank of reporting among expenses does not matter."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "out_of_scope",
+      "D": "premise_booster",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "A savings argument assumes that the move does not trigger an offsetting loss.",
+    "predictionHint": "Going online must not cost comparable revenue."
+  },
+  {
+    "id": "lr-q-na-wolves-willows-elk",
+    "section": "LR",
+    "type": "necessary_assumption",
+    "logicTags": [
+      "causation",
+      "link_assumption"
+    ],
+    "difficulty": 3,
+    "stimulus": "Ecologist: Willows along the Larch River recovered only after wolves were reintroduced to the valley. Elk, which browse willows heavily, now avoid the river bottoms where the willows grow. Therefore, the wolves' return is responsible for the willows' recovery.",
+    "stem": "The ecologist's argument requires assuming which one of the following?",
+    "choices": {
+      "A": "The elk's avoidance of the river bottoms is not due to some factor other than the presence of wolves.",
+      "B": "Wolves prey on elk more heavily than on any other animal in the valley.",
+      "C": "Elk eat no food other than willows.",
+      "D": "The elk population in the valley has declined since the wolves arrived.",
+      "E": "Wolves have not been reintroduced to other valleys in which willows failed to recover."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. The wolves are credited through the elk's avoidance. If something else, such as seasonal flooding, keeps the elk away, the wolves are not responsible for the recovery.",
+      "B": "Extreme: wolves need not favor elk over all other prey for the argument to work.",
+      "C": "Extreme: the elk may eat many things; only their heavy browsing of willows matters.",
+      "D": "Shell game: elk could avoid the river bottoms without declining in number, so no drop in population is required.",
+      "E": "Out of scope: other valleys do not bear on what happened along the Larch River."
+    },
+    "trapPatterns": {
+      "B": "extreme",
+      "C": "extreme",
+      "D": "shell_game",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "When a cause works through an intermediate step, the necessary assumption closes the link between the cause and that step.",
+    "predictionHint": "Wolves, not something else, must be why elk avoid the river bottoms."
+  },
+  {
+    "id": "lr-q-na-abusive-comments-share",
+    "section": "LR",
+    "type": "necessary_assumption",
+    "logicTags": [
+      "math_percent",
+      "value_judgment"
+    ],
+    "difficulty": 4,
+    "stimulus": "Site editor: Since our newspaper stopped allowing anonymous comments, the number of abusive comments on its website has fallen by half, although the total number of comments has fallen by two-thirds. The policy change has therefore improved the quality of discussion on the site.",
+    "stem": "The editor's argument depends on assuming which one of the following?",
+    "choices": {
+      "A": "Anonymous commenters were responsible for all of the abusive comments that were posted before the policy changed.",
+      "B": "The comments that disappeared after the policy change were of lower quality than the comments that remain.",
+      "C": "The number of comments on the site will continue to fall for as long as the new policy is in effect.",
+      "D": "Readers of the site prefer discussions in which there are fewer comments overall.",
+      "E": "A decrease in the number of abusive comments improves the quality of discussion even if abusive comments make up a larger share of all comments."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Extreme: abusive comments fell by half, not to zero, so some abusive comments must have come from non-anonymous posters.",
+      "B": "Close but not required: the editor can rest on the drop in abuse alone; even if some lost comments were good, the argument holds if fewer abusive comments is what counts.",
+      "C": "Out of scope: future totals do not affect whether discussion has already improved.",
+      "D": "Out of scope: the editor judges quality by abuse, not by comment volume or reader preference.",
+      "E": "Correct. Abusive comments fell by half while all comments fell by two-thirds, so the abusive share rose. The editor's conclusion therefore requires that a lower count of abusive comments, rather than a lower share, is what marks improvement."
+    },
+    "trapPatterns": {
+      "A": "extreme",
+      "B": "true_but_irrelevant",
+      "C": "out_of_scope",
+      "D": "out_of_scope"
+    },
+    "keyTakeaway": "Check the numbers: if a count and a share move in opposite directions, the argument must assume the count is the right measure.",
+    "predictionHint": "Abuse fell by half, but total fell more, so the abusive share rose."
+  },
+  {
+    "id": "lr-q-resolve-ledger-online-ad-revenue",
+    "section": "LR",
+    "type": "resolve_explain",
+    "logicTags": [
+      "math_percent"
+    ],
+    "difficulty": 2,
+    "stimulus": "After the Daily Ledger moved from print to an online-only format, the number of times its articles were viewed each month rose by sixty percent. Nevertheless, the Ledger's monthly advertising revenue fell substantially.",
+    "stem": "Which one of the following, if true, most helps to explain the discrepancy described above?",
+    "choices": {
+      "A": "Nearly all of the Ledger's online readers were print subscribers before the change.",
+      "B": "The Ledger's operating costs fell after it stopped printing the paper.",
+      "C": "Online articles at the Ledger are, on average, shorter than the printed versions were.",
+      "D": "Advertisers pay far less for each online advertisement view than they paid for each printed advertisement seen by a reader.",
+      "E": "Several of the Ledger's competitors also moved to online-only formats."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "True but irrelevant: where the readers came from does not explain why revenue fell as views rose.",
+      "B": "Out of scope: costs concern profit, not advertising revenue.",
+      "C": "Comparison shift: article length does not tell us what advertisers pay.",
+      "D": "Correct. If each online view earns much less than a print readership did, a sixty percent rise in views can still come with falling revenue.",
+      "E": "Out of scope: competitors' formats do not explain the Ledger's own revenue and views."
+    },
+    "trapPatterns": {
+      "A": "true_but_irrelevant",
+      "B": "out_of_scope",
+      "C": "comparison_shift",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "To resolve a volume-up, revenue-down paradox, look for a change in the price or value per unit.",
+    "predictionHint": "Each online view must earn much less than print did."
+  },
+  {
+    "id": "lr-q-resolve-tortoise-varied-diet",
+    "section": "LR",
+    "type": "resolve_explain",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 3,
+    "stimulus": "A sanctuary houses two groups of tortoises of one long-lived species. Group 1 is fed a single kind of grass; Group 2 is fed a varied diet of many plants. Keepers know that varied diets are associated with longer lives in many animals. Yet over the past thirty years, the tortoises in Group 2 have had a shorter average lifespan than those in Group 1.",
+    "stem": "Which one of the following, if true, most helps to explain the apparent discrepancy?",
+    "choices": {
+      "A": "Many animal species live longer on varied diets than on monotonous ones.",
+      "B": "Tortoises that arrive at the sanctuary in poor health are placed in Group 2, because their condition calls for a varied diet.",
+      "C": "Both groups are given the same quantity of food each day.",
+      "D": "Tortoises living in the wild eat a variety of plants.",
+      "E": "Group 2 contains more tortoises than Group 1 does."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "True but irrelevant: this restates the expectation that makes the result puzzling and does not explain the reversal.",
+      "B": "Correct. If Group 2 is stocked with sick animals, its shorter lifespan can be due to their poor initial health rather than the diet.",
+      "C": "Out of scope: equal quantities do not explain why Group 2 lives shorter.",
+      "D": "Out of scope: wild diets are not compared with either group's lifespan.",
+      "E": "Out of scope: a difference in group size does not explain a difference in average lifespan."
+    },
+    "trapPatterns": {
+      "A": "true_but_irrelevant",
+      "C": "out_of_scope",
+      "D": "out_of_scope",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "A surprising result in a non-randomized comparison is often explained by how the groups were formed.",
+    "predictionHint": "Group 2 may have been made up of animals that were already unhealthy."
+  },
+  {
+    "id": "lr-q-strengthen-radio-callin-turnout",
+    "section": "LR",
+    "type": "strengthen",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 2,
+    "stimulus": "Media scholar: Communities served by local radio stations that air a weekly call-in segment, on which residents question city officials, show higher voter turnout than communities without such stations. This suggests that call-in segments encourage political participation among their listeners.",
+    "stem": "Which one of the following, if true, most strengthens the scholar's argument?",
+    "choices": {
+      "A": "Most of the residents who call in to such segments are people who already vote in every election.",
+      "B": "In a region where several stations added call-in segments, turnout rose at the next election in the communities they serve but stayed flat in comparable communities whose stations added none.",
+      "C": "City officials who appear on call-in segments are more likely to be reelected than officials who never appear on them.",
+      "D": "Many communities with high voter turnout are also served by local newspapers that cover city government closely.",
+      "E": "Voter turnout is generally higher in communities that have a local radio station than in communities that have none."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Opposite: if the callers already vote regularly, the segments are less likely to be what moves people to participate.",
+      "B": "Correct. Turnout rose where segments were added and not in comparable places without them. This rules out the possibility that high-turnout communities simply tend to have such segments.",
+      "C": "Out of scope: officials' reelection chances do not bear on whether listeners participate more.",
+      "D": "True but irrelevant: newspapers are a different medium and raise a rival explanation rather than supporting the scholar's.",
+      "E": "Comparison shift: this compares places with and without any radio station, not those with and without call-in segments."
+    },
+    "trapPatterns": {
+      "A": "opposite",
+      "C": "out_of_scope",
+      "D": "true_but_irrelevant",
+      "E": "comparison_shift"
+    },
+    "keyTakeaway": "The best strengthener for a correlational causal claim shows the effect following the supposed cause, with a comparison group.",
+    "predictionHint": "Show turnout rising after segments were added, not just coexisting with them."
+  },
+  {
+    "id": "lr-q-strengthen-tarnia-beak",
+    "section": "LR",
+    "type": "strengthen",
+    "logicTags": [
+      "analogy"
+    ],
+    "difficulty": 2,
+    "stimulus": "Paleontologist: The fossilized beaks of Tarnia, an extinct bird, are short and unusually thick. Among living birds, species with short, thick beaks typically feed mainly by cracking seeds. Therefore, Tarnia probably fed mainly on seeds.",
+    "stem": "Which one of the following, if true, most strengthens the paleontologist's argument?",
+    "choices": {
+      "A": "A few living species that have short, thick beaks also eat insects when seeds are scarce.",
+      "B": "Fossils of Tarnia have so far been found in only one region of the world.",
+      "C": "The relationship between beak shape and feeding method in birds has stayed essentially the same since the time Tarnia lived.",
+      "D": "Many fossil bird species with long, thin beaks lived alongside Tarnia.",
+      "E": "Tarnia's beak was larger than the beak of any living bird that cracks seeds."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Wrong force: occasional insect-eating by living birds does not change what short, thick beaks are mainly used for and gives no help for Tarnia.",
+      "B": "Out of scope: where the fossils were found does not link beak shape to diet.",
+      "C": "Correct. The argument projects a present-day link between beak shape and diet onto an extinct bird. Showing that the link has held since Tarnia's time supports that projection.",
+      "D": "Out of scope: other species with different beaks tell us nothing about what Tarnia ate.",
+      "E": "Comparison shift: a larger size than living birds does not support the beak-diet link and might even suggest Tarnia differed from them."
+    },
+    "trapPatterns": {
+      "A": "wrong_force",
+      "B": "out_of_scope",
+      "D": "out_of_scope",
+      "E": "comparison_shift"
+    },
+    "keyTakeaway": "An argument by analogy across time is strengthened by showing the relevant relationship was stable.",
+    "predictionHint": "The beak-diet link must have held for Tarnia's era."
+  },
+  {
+    "id": "lr-q-psa-hale-department-chair",
+    "section": "LR",
+    "type": "pseudo_sufficient_assumption",
+    "logicTags": [
+      "value_judgment",
+      "rule_application"
+    ],
+    "difficulty": 2,
+    "stimulus": "Professor: Dr. Hale should not be named department chair. Attendance at faculty meetings is required of every member of the department, and Hale has missed more than half of this year's meetings.",
+    "stem": "Which one of the following principles, if valid, most helps to justify the professor's reasoning?",
+    "choices": {
+      "A": "Anyone who is named department chair should be an effective administrator.",
+      "B": "Faculty members should be named department chair in order of seniority.",
+      "C": "A faculty member who has missed some meetings should not be allowed to vote on department matters.",
+      "D": "A faculty member who has repeatedly failed to meet an obligation required by the department should not be given added responsibility within it.",
+      "E": "A faculty member who has met every obligation required by the department should be named department chair."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Out of scope: nothing links administrative skill to missed meetings.",
+      "B": "Out of scope: seniority is not mentioned and would not explain the exclusion.",
+      "C": "Wrong part: the conclusion concerns the chair position, not voting rights.",
+      "D": "Correct. Missing more than half of required meetings is repeated failure to meet a required obligation, and chair is added responsibility, so the principle yields the conclusion.",
+      "E": "Reversal: this states a sufficient condition for being named chair; it says nothing about someone who has not met every obligation."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "out_of_scope",
+      "C": "wrong_part",
+      "E": "reversal"
+    },
+    "keyTakeaway": "Match the principle's terms to the argument's: the failing, the obligation and the responsibility denied must all line up.",
+    "predictionHint": "Failing a required duty disqualifies a person from added responsibility."
+  },
+  {
+    "id": "lr-q-psa-grieving-family-photo",
+    "section": "LR",
+    "type": "pseudo_sufficient_assumption",
+    "logicTags": [
+      "value_judgment"
+    ],
+    "difficulty": 3,
+    "stimulus": "Magazine columnist: The magazine was wrong to publish the photograph of the grieving family after the flood. True, the photograph drew public attention to the disaster and prompted a wave of donations. But the family had not agreed to be photographed.",
+    "stem": "Which one of the following principles, if valid, most helps to justify the columnist's reasoning?",
+    "choices": {
+      "A": "It is wrong to publish a photograph of private individuals in distress without their consent, even when publication serves a worthy public purpose.",
+      "B": "A photograph should be published only if it draws public attention to an important event.",
+      "C": "Publishers should weigh the benefits of publishing a photograph against the distress it may cause its subjects.",
+      "D": "Magazines should always try to obtain the permission of the people who appear in their photographs.",
+      "E": "Whether it is wrong to publish an image depends on how many people are likely to see it."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. It applies to private people in distress, which the family is, and it holds even against the public-purpose defense the columnist concedes, so the conclusion follows.",
+      "B": "Reversal: this makes drawing attention a requirement for publishing, and the photograph met it, so it cannot show the publication was wrong.",
+      "C": "Half right: weighing benefits against distress does not say how the weighing comes out, so it cannot support the verdict.",
+      "D": "Wrong force: trying to obtain permission is weaker than a ban on publishing without consent, and the principle does not address the public-benefit defense.",
+      "E": "Out of scope: audience size is not mentioned in the argument."
+    },
+    "trapPatterns": {
+      "B": "reversal",
+      "C": "half_right",
+      "D": "wrong_force",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "When the argument concedes a benefit, the supporting principle must override that benefit explicitly.",
+    "predictionHint": "Consent outweighs public benefit when private people are in distress."
+  },
+  {
+    "id": "lr-q-sa-aviary-dawn-singers",
+    "section": "LR",
+    "type": "sufficient_assumption",
+    "logicTags": [
+      "conditional"
+    ],
+    "difficulty": 1,
+    "stimulus": "Only male finches in the aviary sing at dawn. Therefore, none of the finches in the aviary that nested this spring sings at dawn.",
+    "stem": "The conclusion follows logically if which one of the following is assumed?",
+    "choices": {
+      "A": "Every male finch in the aviary sings at dawn.",
+      "B": "Some of the finches in the aviary that nested this spring are male.",
+      "C": "No female finch in the aviary sings at dawn.",
+      "D": "Most of the male finches in the aviary did not nest this spring.",
+      "E": "None of the finches in the aviary that nested this spring is male."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Reversal: this makes being male sufficient for dawn singing, the opposite of the stated direction.",
+      "B": "Opposite: if some nesting finches are male, they might sing at dawn, which works against the conclusion.",
+      "C": "True but irrelevant: this restates the premise and does not connect nesting to being male.",
+      "D": "Wrong force: 'most' leaves open that some male finches nested and sing at dawn.",
+      "E": "Correct. Singing at dawn requires being male, and no nesting finch is male, so no nesting finch sings at dawn."
+    },
+    "trapPatterns": {
+      "A": "reversal",
+      "B": "opposite",
+      "C": "true_but_irrelevant",
+      "D": "wrong_force"
+    },
+    "keyTakeaway": "A sufficient assumption bridges the leftover terms: here, nesting and being male.",
+    "predictionHint": "Link nesting to not being male."
+  },
+  {
+    "id": "lr-q-sa-rookwood-matching-funds",
+    "section": "LR",
+    "type": "sufficient_assumption",
+    "logicTags": [
+      "conditional",
+      "quantifiers"
+    ],
+    "difficulty": 3,
+    "stimulus": "Dean: Any university that enrolls more than 20,000 students and offers need-based aid receives federal matching funds. Rookwood University receives no federal matching funds. Therefore, Rookwood enrolls no more than 20,000 students.",
+    "stem": "Which one of the following, if assumed, enables the dean's conclusion to be properly drawn?",
+    "choices": {
+      "A": "Rookwood University has never applied for federal matching funds.",
+      "B": "Every university that receives federal matching funds offers need-based aid.",
+      "C": "Rookwood University offers need-based aid.",
+      "D": "Rookwood University enrolls fewer students than most universities that receive federal matching funds.",
+      "E": "No university that enrolls 20,000 or fewer students receives federal matching funds."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Out of scope: whether Rookwood applied does not tell us whether it meets the two conditions for funding.",
+      "B": "Reversal: this runs from funding to aid, the opposite of what the conclusion needs.",
+      "C": "Correct. Large enrollment together with aid guarantees funding. Rookwood has no funding and does offer aid, so it cannot be large.",
+      "D": "Comparison shift: relative enrollment among funded universities does not settle whether Rookwood exceeds 20,000.",
+      "E": "Necessary versus sufficient: this relates small enrollment to lack of funding and does not tell us anything about Rookwood's size."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "reversal",
+      "D": "comparison_shift",
+      "E": "necessary_v_sufficient"
+    },
+    "keyTakeaway": "With a two-part sufficient condition, a negated result plus one met part forces the other part to fail.",
+    "predictionHint": "Rookwood must satisfy the aid condition so that only size can fail."
+  },
+  {
+    "id": "lr-q-main-giraffe-enclosure-noise",
+    "section": "LR",
+    "type": "main_conclusion",
+    "logicTags": [],
+    "difficulty": 1,
+    "stimulus": "Zoo director: The giraffe enclosure should be moved away from the carousel and the food court. Giraffes sleep very little and are easily startled by sudden noise, and the carousel and the food court, which operate all day, are the loudest parts of the zoo.",
+    "stem": "Which one of the following most accurately expresses the main conclusion of the argument?",
+    "choices": {
+      "A": "The giraffe enclosure should be moved away from the carousel and the food court.",
+      "B": "Giraffes sleep very little.",
+      "C": "The carousel and the food court are the loudest parts of the zoo.",
+      "D": "Giraffes are easily startled by sudden noise.",
+      "E": "The zoo should find ways to reduce noise from the carousel and the food court."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. The director states the recommendation first and the rest of the passage supports it.",
+      "B": "Premise: it is offered as a reason for moving the enclosure.",
+      "C": "Premise: it describes the enclosure's surroundings and supports the recommendation.",
+      "D": "Premise: it explains why noise matters for giraffes.",
+      "E": "Shell game: the director proposes moving the giraffes, not reducing the noise."
+    },
+    "trapPatterns": {
+      "B": "wrong_part",
+      "C": "wrong_part",
+      "D": "wrong_part",
+      "E": "shell_game"
+    },
+    "keyTakeaway": "The main conclusion is the claim the other statements are there to support; a recommendation usually is.",
+    "predictionHint": "The should-statement is the conclusion."
+  },
+  {
+    "id": "lr-q-main-documentary-neutrality",
+    "section": "LR",
+    "type": "main_conclusion",
+    "logicTags": [],
+    "difficulty": 2,
+    "stimulus": "Critic: Many viewers demand that documentary films be strictly neutral. But every documentary is built from choices about what to film, whom to interview, and what to leave on the cutting-room floor. Since each such choice reflects a judgment, no documentary can be strictly neutral. Viewers who demand strict neutrality are therefore asking for something no documentary can provide.",
+    "stem": "Which one of the following most accurately expresses the main conclusion of the argument?",
+    "choices": {
+      "A": "Many viewers demand that documentary films be strictly neutral.",
+      "B": "No documentary can be strictly neutral.",
+      "C": "Every documentary is built from choices about what to film, whom to interview, and what to omit.",
+      "D": "Viewers who demand strict neutrality from documentaries are asking for something that no documentary can provide.",
+      "E": "Documentary filmmakers should avoid making judgments about what to include."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Premise: it sets up the view the critic goes on to challenge.",
+      "B": "Wrong part: this is an intermediate conclusion that the critic uses to support the final claim about viewers' demands.",
+      "C": "Premise: it is the starting point of the argument.",
+      "D": "Correct. Introduced by 'therefore,' it follows from the claim that no documentary can be neutral and is not used to support anything further.",
+      "E": "Out of scope: the critic says judgments are unavoidable, not that filmmakers should avoid them."
+    },
+    "trapPatterns": {
+      "A": "wrong_part",
+      "B": "half_right",
+      "C": "wrong_part",
+      "E": "opposite"
+    },
+    "keyTakeaway": "Separate the intermediate conclusion from the final one: the final claim is the one nothing else rests on.",
+    "predictionHint": "The last 'therefore' claim about viewers' demands."
+  },
+  {
+    "id": "lr-q-argpart-elephant-die-off",
+    "section": "LR",
+    "type": "argument_part",
+    "logicTags": [
+      "eliminating_options"
+    ],
+    "difficulty": 2,
+    "stimulus": "Naturalist: Some people blame drought for the mass die-off of elephants in the reserve last year. But the die-off took place during the wettest year on record, so drought cannot be responsible. Since disease is the only other factor that could plausibly kill so many elephants in a single season, disease must be responsible.",
+    "stem": "The claim that the die-off took place during the wettest year on record plays which one of the following roles in the argument?",
+    "choices": {
+      "A": "It is the main conclusion of the argument.",
+      "B": "It is evidence for a claim that rules out one explanation, thereby supporting the argument's conclusion.",
+      "C": "It is an explanation of the die-off that the argument goes on to reject.",
+      "D": "It is a fact that the argument concedes but then argues is irrelevant to the cause of the die-off.",
+      "E": "It is a conclusion drawn from the claim that disease is the only other plausible factor."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Wrong part: the main conclusion is that disease is responsible.",
+      "B": "Correct. The wet year supports the intermediate claim that drought cannot be responsible. That claim eliminates one cause and so helps establish disease as the cause.",
+      "C": "Shell game: the explanation the argument rejects is drought, not the timing of the die-off.",
+      "D": "Opposite: the argument relies on the wet year as the basis for dismissing drought.",
+      "E": "Reversal: the wet-year claim is offered as a premise and is not derived from the claim about disease."
+    },
+    "trapPatterns": {
+      "A": "wrong_part",
+      "C": "shell_game",
+      "D": "opposite",
+      "E": "reversal"
+    },
+    "keyTakeaway": "For a role question, say what the claim supports and what supports it before reading the choices.",
+    "predictionHint": "A premise supporting the intermediate conclusion that drought is out."
+  },
+  {
+    "id": "lr-q-pflaw-tidepool-sea-stars",
+    "section": "LR",
+    "type": "parallel_flaw",
+    "logicTags": [
+      "quantifiers",
+      "conditional"
+    ],
+    "difficulty": 4,
+    "stimulus": "Every tidepool on the north shore that contains sea stars also contains mussels. Some tidepools on the north shore contain no sea stars. Therefore, some tidepools on the north shore contain no mussels.",
+    "stem": "The flawed reasoning in which one of the following is most similar to that in the argument above?",
+    "choices": {
+      "A": "Every station in the network that broadcasts a call-in show also broadcasts a weather report. Some stations in the network do not broadcast a weather report. Therefore, some stations in the network do not broadcast a call-in show.",
+      "B": "Every orchestra in the region that performs a summer series also performs a winter series. Some orchestras in the region perform a winter series. Therefore, some orchestras in the region perform a summer series.",
+      "C": "Most courses in the program that require a field internship also require a portfolio. Some courses in the program require no field internship. Therefore, some courses in the program require no portfolio.",
+      "D": "Every newsroom in the city that has a night editor also has a copy desk. No newsroom in the suburbs has a night editor. Therefore, no newsroom in the suburbs has a copy desk.",
+      "E": "Every course in the journalism program that requires a field internship also requires a portfolio. Some courses in the program require no field internship. Therefore, some courses in the program require no portfolio."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Reversal: this denies the second term and concludes that some lack the first, which is a valid inference, not the same flaw.",
+      "B": "Shell game: this affirms the consequent, a different error, and it concludes that some have the first property rather than lack the second.",
+      "C": "Wrong force: the first premise uses 'most' rather than 'every,' so the pattern is not matched exactly.",
+      "D": "Extreme: this ends in a universal 'no' from a universal premise, whereas the original moves from 'some lack' to 'some lack.'",
+      "E": "Correct. It matches the form: every X that has P has Q, some X lack P, so some X lack Q. The original is flawed because those lacking P may all have Q anyway."
+    },
+    "trapPatterns": {
+      "A": "reversal",
+      "B": "shell_game",
+      "C": "wrong_force",
+      "D": "extreme"
+    },
+    "keyTakeaway": "When parallel items share a form, match the quantifiers and the direction of each statement exactly.",
+    "predictionHint": "Denying the antecedent with some-statements: those lacking the first property may still have the second."
+  },
+  {
+    "id": "lr-q-pmethod-printed-error-elimination",
+    "section": "LR",
+    "type": "parallel_method",
+    "logicTags": [
+      "eliminating_options"
+    ],
+    "difficulty": 1,
+    "stimulus": "The algae bloom in the reservoir must have been caused by fertilizer runoff, by unusually warm water, or by a sewage leak. The water was cooler than average this year, and the sewage line passed inspection. Therefore, fertilizer runoff caused the bloom.",
+    "stem": "The pattern of reasoning in which one of the following arguments is most similar to that in the argument above?",
+    "choices": {
+      "A": "The error in the printed article must have been introduced by the reporter, by the copy editor, or by the typesetter. The reporter's notes match the article, and the copy editor never saw it. Therefore, the typesetter introduced the error.",
+      "B": "If the auditor had made the budget error, the final report would show it. The final report does not show it. Therefore, the auditor did not make the budget error.",
+      "C": "Two of the three candidates for the post have withdrawn, and most observers regard the third as the best qualified. Therefore, the third candidate will be appointed.",
+      "D": "Every time the pump has failed, the lights have flickered. The lights flickered last night. Therefore, the pump failed last night.",
+      "E": "All of the circuits in the old wing are overloaded, and this circuit is in the old wing. Therefore, this circuit is overloaded."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. It lists three possible causes, eliminates two on evidence, and concludes that the remaining one is the cause.",
+      "B": "Different method: this denies a consequent to reject one hypothesis and does not leave a remaining option as the conclusion.",
+      "C": "Wrong part: this relies on withdrawal and on opinion, and does not establish a cause by eliminating other causes.",
+      "D": "Different method and flawed: this affirms the consequent of a conditional.",
+      "E": "Different method: this applies a universal statement to a single case."
+    },
+    "trapPatterns": {
+      "B": "wrong_part",
+      "C": "wrong_part",
+      "D": "necessary_v_sufficient",
+      "E": "wrong_part"
+    },
+    "keyTakeaway": "For a parallel-method item, describe the argument's skeleton in a single sentence and check each choice against it.",
+    "predictionHint": "List the possible causes, eliminate all but one, conclude the last."
+  },
+  {
+    "id": "lr-q-point-leaked-memo-hindsight",
+    "section": "LR",
+    "type": "point_at_issue",
+    "logicTags": [
+      "lack_of_support_v_false"
+    ],
+    "difficulty": 4,
+    "stimulus": "Editor: The Tribune was right to publish the leaked memo about the dam. The memo was unconfirmed when we printed it, but the dam's failure last month showed that its warnings were accurate, and that proves the decision was sound.\nOmbudsman: How things turned out cannot settle whether the decision was sound. A decision to publish has to be judged by what the paper knew, and could have checked, at the moment it chose to print.",
+    "stem": "The editor and the ombudsman disagree over whether",
+    "choices": {
+      "A": "the Tribune's decision to publish the memo was sound",
+      "B": "the memo's warnings about the dam proved to be accurate",
+      "C": "the later accuracy of what was published can establish that a decision to publish it was sound",
+      "D": "newspapers should ever publish leaked documents that they have not confirmed",
+      "E": "the Tribune could have confirmed the memo before it was printed"
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Lack of support is not falsity: the ombudsman denies that hindsight settles the question but never says the decision was unsound.",
+      "B": "Not disputed: the ombudsman does not question that the warnings proved accurate.",
+      "C": "Correct. The editor says the accuracy shown later proves the decision sound; the ombudsman says outcomes cannot settle the question. They disagree about the relevance of the outcome.",
+      "D": "Out of scope: neither speaker takes a general position on publishing unconfirmed leaks.",
+      "E": "Not disputed: the editor says the memo was unconfirmed, and the ombudsman speaks only of what could have been checked, without saying that confirmation was possible."
+    },
+    "trapPatterns": {
+      "A": "true_but_irrelevant",
+      "B": "out_of_scope",
+      "D": "out_of_scope",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "For a point at issue, find the claim one speaker affirms and the other denies; criticizing a ground is not denying the conclusion.",
+    "predictionHint": "Does the later outcome establish whether the decision was sound?"
+  },
+  {
+    "id": "lr-q-mbt-front-page-legal-review",
+    "section": "LR",
+    "type": "must_be_true",
+    "logicTags": [
+      "conditional",
+      "rule_application"
+    ],
+    "difficulty": 4,
+    "stimulus": "A story runs on the front page of the Daily Standard only if the editor-in-chief has approved it. Every story concerning local government that the editor-in-chief approves is also reviewed by the paper's legal counsel. A story that is reviewed by legal counsel is never approved by the editor-in-chief on the day it is filed.",
+    "stem": "If the statements above are true, which one of the following must also be true?",
+    "choices": {
+      "A": "No story that is reviewed by legal counsel runs on the front page.",
+      "B": "Every story concerning local government that the editor-in-chief approves runs on the front page.",
+      "C": "No story that the editor-in-chief approves on the day it is filed runs on the front page.",
+      "D": "No story concerning local government that runs on the front page was approved by the editor-in-chief on the day it was filed.",
+      "E": "Any story that is reviewed by legal counsel concerns local government."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Extreme: a front-page story may have been reviewed and approved on a later day.",
+      "B": "Reversal: approval is only necessary for the front page, not sufficient for it.",
+      "C": "Shell game: it drops the local-government restriction. A story on another subject need not be reviewed and could be approved on the day it is filed.",
+      "D": "Correct. A front-page story was approved; if it concerns local government, legal counsel reviewed it, and a reviewed story is not approved on the day it is filed.",
+      "E": "Reversal: only local-government stories are guaranteed review; other stories may be reviewed too, and the converse is not stated."
+    },
+    "trapPatterns": {
+      "A": "extreme",
+      "B": "reversal",
+      "C": "shell_game",
+      "E": "reversal"
+    },
+    "keyTakeaway": "Chain the conditionals and carry every qualifier along; dropping one, such as local government, breaks the inference.",
+    "predictionHint": "Front page, approved, local government, reviewed, not approved the same day."
+  },
+  {
+    "id": "lr-q-fill-orchid-wildfire",
+    "section": "LR",
+    "type": "fill_in_blank",
+    "logicTags": [
+      "causation",
+      "conditional"
+    ],
+    "difficulty": 2,
+    "stimulus": "A rare orchid in the foothills flowers only in the season after a wildfire has burned its habitat. Regional wildfires have become much less frequent since officials began suppressing them decades ago, and no change in that policy is planned. It is therefore likely that ____.",
+    "stem": "Which one of the following most logically completes the argument?",
+    "choices": {
+      "A": "the orchid will soon become extinct in the foothills",
+      "B": "wildfires in the foothills will soon become more frequent",
+      "C": "fire suppression benefits most of the plants of the foothills",
+      "D": "the orchid flowers more heavily after large fires than after small ones",
+      "E": "the orchid now flowers less often than it did before fire suppression began"
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Extreme: less frequent flowering does not mean the species will vanish soon, and nothing is said about its survival.",
+      "B": "Opposite: the passage says fires have become less frequent, with no change planned.",
+      "C": "Out of scope: other plants are not mentioned.",
+      "D": "Out of scope: the size of fires plays no part in the stated facts.",
+      "E": "Correct. The orchid flowers only after a fire, and fires are now rarer, so it should flower less often than it did."
+    },
+    "trapPatterns": {
+      "A": "extreme",
+      "B": "opposite",
+      "C": "out_of_scope",
+      "D": "out_of_scope"
+    },
+    "keyTakeaway": "A fill-in-the-blank conclusion should follow directly from the last stated premises without adding anything new.",
+    "predictionHint": "Fewer fires means fewer flowering seasons."
+  },
+  {
+    "id": "lr-q-method-recorded-lecture-counterexample",
+    "section": "LR",
+    "type": "method_of_reasoning",
+    "logicTags": [],
+    "difficulty": 1,
+    "stimulus": "Dean: It is often claimed that students who attend lectures in person always learn more than students who watch recordings. But last year the students in Professor Ito's recorded-lecture section earned the highest exam scores in the department. So the claim is false.",
+    "stem": "The dean's argument proceeds by",
+    "choices": {
+      "A": "questioning the motives of the people who make the claim",
+      "B": "presenting a particular case that conflicts with a generalization",
+      "C": "showing that the claim leads to a contradiction when its terms are defined precisely",
+      "D": "proposing an alternative explanation for why in-person students score well",
+      "E": "appealing to the authority of a respected instructor"
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Out of scope: the dean says nothing about why anyone makes the claim.",
+      "B": "Correct. The claim says in-person students always learn more; the Ito section is offered as a single case that goes against it.",
+      "C": "Out of scope: no definitions or contradiction are involved.",
+      "D": "Wrong part: the dean does not explain in-person students' scores at all.",
+      "E": "Wrong part: Ito is cited for her students' results and not as an authority."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "C": "out_of_scope",
+      "D": "wrong_part",
+      "E": "wrong_part"
+    },
+    "keyTakeaway": "One counterexample is enough to refute an always claim.",
+    "predictionHint": "Counterexample to a universal claim."
+  },
+  {
+    "id": "lr-q-method-wetland-waterfowl-plan",
+    "section": "LR",
+    "type": "method_of_reasoning",
+    "logicTags": [],
+    "difficulty": 3,
+    "stimulus": "Critic: Defenders of the proposed wetland restoration point out that it would attract migratory waterfowl to the area. That is probably true. But attracting waterfowl is not the same as sustaining them, and the plan includes no provision for the food plants the birds need. Without those plants, the birds would merely stop briefly and move on. So the defenders' observation gives no reason to adopt the plan.",
+    "stem": "The critic's argument proceeds by",
+    "choices": {
+      "A": "granting a point made in favor of a proposal while arguing that, because a necessary condition is missing, the point does not support adopting it",
+      "B": "rejecting a claim by showing that it leads to an absurd consequence",
+      "C": "showing that the benefits of a proposal would be outweighed by its costs",
+      "D": "attacking the credibility of those who advocate a proposal",
+      "E": "arguing that the advocates of a proposal have misdescribed what it would do"
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. The critic accepts that waterfowl would come, then argues that the plan lacks the food plants needed to keep them, so the point does not favor adopting the plan.",
+      "B": "Out of scope: no absurd consequence is derived from the defenders' claim, which the critic accepts.",
+      "C": "Shell game: no costs are weighed against benefits; the critic questions the benefit itself.",
+      "D": "Out of scope: the defenders' credibility is never attacked.",
+      "E": "Opposite: the critic accepts the defenders' description and does not say they have misdescribed the plan."
+    },
+    "trapPatterns": {
+      "B": "out_of_scope",
+      "C": "shell_game",
+      "D": "out_of_scope",
+      "E": "opposite"
+    },
+    "keyTakeaway": "Notice concessions: an argument that grants a premise usually attacks the link between that premise and the conclusion.",
+    "predictionHint": "Grants the benefit but says it will not last without a missing condition."
+  }
+]
