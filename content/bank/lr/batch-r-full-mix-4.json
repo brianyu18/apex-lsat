@@ -1,0 +1,1084 @@
+[
+  {
+    "id": "lr-r-flaw-relativism-unrefuted",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "lack_of_support_v_false"
+    ],
+    "difficulty": 1,
+    "stimulus": "Ethicist: Over the centuries, philosophers have offered dozens of arguments against moral relativism, yet every one of them has been shown to rest on a questionable premise. No one has ever produced a decisive refutation of the view. Therefore, moral relativism must be true.",
+    "stem": "The reasoning in the argument is most vulnerable to criticism on the grounds that it",
+    "choices": {
+      "A": "relies on the testimony of a single ethicist rather than on a survey of philosophers",
+      "B": "takes the absence of a decisive refutation of a view as establishing that the view is true",
+      "C": "assumes that a moral view must be popular among ordinary people in order to be true",
+      "D": "confuses a claim about how people actually behave with a claim about how they ought to behave",
+      "E": "fails to say what counts as a decisive refutation of a philosophical view"
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Out of scope: the argument does not depend on how many people testify, and the ethicist cites the history of arguments, not personal authority.",
+      "B": "Correct. Failure to disprove a claim does not prove it; the view could be false even if no refutation has yet succeeded. This is a lack-of-support-versus-false confusion.",
+      "C": "Out of scope: popularity plays no role in the argument at all.",
+      "D": "Out of scope: the argument never moves between descriptive and prescriptive claims.",
+      "E": "True but irrelevant: even with a precise definition, the leap from 'not refuted' to 'true' would remain."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "C": "out_of_scope",
+      "D": "shell_game",
+      "E": "true_but_irrelevant"
+    },
+    "keyTakeaway": "Failure to refute a claim is not proof that the claim is true.",
+    "predictionHint": "Lack of disproof is treated as proof."
+  },
+  {
+    "id": "lr-r-flaw-striker-goals-wins",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 1,
+    "stimulus": "Soccer coach: In each of our four wins this season, our striker scored at least one goal. In our two losses, she did not score at all. Clearly, her scoring is what makes our team win.",
+    "stem": "The coach's reasoning is most vulnerable to criticism on the grounds that it",
+    "choices": {
+      "A": "ignores that a team can lose a match even when its striker scores in it",
+      "B": "presumes that the striker is the only player on the team who is capable of scoring",
+      "C": "treats a correlation between the striker's scoring and winning as proof that her scoring causes wins, ignoring that strong team play could explain both",
+      "D": "relies on the coach's own judgment rather than on a statistical analysis of many seasons",
+      "E": "assumes that every player on the team contributes equally to a win"
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Wrong force: the coach reports no match in which she scored and the team lost, and the argument does not claim scoring guarantees a win.",
+      "B": "Out of scope: the conclusion concerns the striker's effect, not whether others can score.",
+      "C": "Correct. A pattern of scoring and winning together does not show that scoring is the cause; when the whole team plays well, both the goals and the wins may follow.",
+      "D": "Wrong force: the coach's reliance on his own judgment is a minor quibble; better data would not fix the causal leap.",
+      "E": "Opposite: the coach claims the striker matters especially, so equal contribution is not assumed."
+    },
+    "trapPatterns": {
+      "A": "wrong_force",
+      "B": "out_of_scope",
+      "D": "true_but_irrelevant",
+      "E": "opposite"
+    },
+    "keyTakeaway": "Two things that occur together may both be effects of a third factor.",
+    "predictionHint": "Strong team play could produce both goals and wins."
+  },
+  {
+    "id": "lr-r-flaw-ash-layers-fossils",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 2,
+    "stimulus": "Geologist: Core samples from the Tarn basin show that layers of volcanic ash coincide with sharp drops in the number of fossilized insect species. Because ash layers appear at exactly the depths where the drops occur, the eruptions that deposited the ash must have caused the extinction of those insect species.",
+    "stem": "Which one of the following most accurately describes a flaw in the geologist's reasoning?",
+    "choices": {
+      "A": "It overlooks that ash deposition may simply have made insect fossilization less likely, so the drop could reflect fewer fossils preserved rather than fewer species alive.",
+      "B": "It presumes that every volcanic eruption deposits a layer of ash in the basin.",
+      "C": "It bases a conclusion about the Tarn basin on core samples taken from several different locations.",
+      "D": "It assumes that insect species are more sensitive to environmental change than other kinds of species.",
+      "E": "It treats the depth at which a layer is found as though it were identical to the age of the layer."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. The evidence is a drop in fossilized species. If ash layers hinder fossil formation, the evidence would appear without any extinction.",
+      "B": "Out of scope: the argument concerns the ash layers that were found, not eruptions that left none.",
+      "C": "Wrong part: the conclusion is about the Tarn basin itself, so using samples from that basin is not a leap.",
+      "D": "Out of scope: no comparison with other species is made or needed.",
+      "E": "True but irrelevant: depth is plausibly a stand-in for age, and the geologist's inference would still fail even if the dating were perfect."
+    },
+    "trapPatterns": {
+      "B": "out_of_scope",
+      "C": "wrong_part",
+      "D": "comparison_shift",
+      "E": "true_but_irrelevant"
+    },
+    "keyTakeaway": "Check whether the evidence measures the real thing or only a record that the proposed cause could distort.",
+    "predictionHint": "Fossil counts may reflect preservation, not living species."
+  },
+  {
+    "id": "lr-r-flaw-promise-upbringing",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "definition_scope"
+    ],
+    "difficulty": 2,
+    "stimulus": "Philosopher: Our feeling that we ought to keep our promises was instilled in us by upbringing, through the praise and punishment we received as children. Therefore, the belief that we are genuinely obligated to keep our promises is unjustified.",
+    "stem": "The argument is flawed in that it",
+    "choices": {
+      "A": "fails to distinguish between promises made freely and promises made under pressure",
+      "B": "assumes that people who feel obligated to keep promises always keep them",
+      "C": "equates what people ought to do with what they are praised for doing",
+      "D": "rejects a belief as unjustified solely on the basis of how people came to hold it, without considering whether it could be supported on other grounds",
+      "E": "concludes that a belief is true from the fact that a competing belief is unjustified"
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Out of scope: the type of promise plays no part in the argument.",
+      "B": "Out of scope: the argument concerns the origin of the feeling, not compliance.",
+      "C": "Shell game: the philosopher never equates praise with obligation; the issue is the source of the belief.",
+      "D": "Correct. The origin of a belief does not settle whether it is justified; a belief instilled by upbringing may still rest on good reasons. The argument never examines those.",
+      "E": "Reversal: the conclusion is that a belief is unjustified, not that a rival belief is true."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "out_of_scope",
+      "C": "shell_game",
+      "E": "reversal"
+    },
+    "keyTakeaway": "How a belief was acquired does not by itself show that the belief is unjustified.",
+    "predictionHint": "Genetic fallacy: origin versus justification."
+  },
+  {
+    "id": "lr-r-flaw-game-designer-playtest",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "sampling"
+    ],
+    "difficulty": 1,
+    "stimulus": "Game designer: I asked twelve members of my own gaming club to try my new strategy game, and every one of them said they enjoyed it. Since all twelve enjoyed it, the general public will enjoy it too.",
+    "stem": "The designer's reasoning is most vulnerable to criticism on the grounds that it",
+    "choices": {
+      "A": "fails to consider that the game may be enjoyed for different reasons by different players",
+      "B": "assumes that the designer's own opinion of the game is accurate",
+      "C": "draws a conclusion about enjoyment of the game from a single play session",
+      "D": "ignores the possibility that the public will be unwilling to pay for the game",
+      "E": "generalizes from a group that may not be representative of the general public"
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "True but irrelevant: whatever their reasons, the issue is whether the sample can speak for the public.",
+      "B": "Wrong part: the argument rests on the testers' reports, not on the designer's own opinion.",
+      "C": "Out of scope: nothing indicates the testers played only once, and the sampling problem is the real gap.",
+      "D": "Out of scope: the conclusion is about enjoyment, not purchase.",
+      "E": "Correct. Members of the designer's own gaming club are likely to love strategy games, so their reactions may not reflect those of the general public."
+    },
+    "trapPatterns": {
+      "A": "true_but_irrelevant",
+      "B": "wrong_part",
+      "C": "out_of_scope",
+      "D": "out_of_scope"
+    },
+    "keyTakeaway": "A sample drawn from fans or friends rarely supports a claim about the general population.",
+    "predictionHint": "Unrepresentative sample."
+  },
+  {
+    "id": "lr-r-mss-kell-glacier-retreat",
+    "section": "LR",
+    "type": "most_strongly_supported",
+    "logicTags": [
+      "conditional"
+    ],
+    "difficulty": 2,
+    "stimulus": "Over the past century, the Kell Glacier retreated in every year in which the regional mean summer temperature exceeded 12 degrees Celsius. In years when the mean summer temperature did not exceed 12 degrees, the glacier retreated in some and held steady or advanced in others. In three of the last ten years, the Kell Glacier advanced.",
+    "stem": "Which one of the following is most strongly supported by the information above?",
+    "choices": {
+      "A": "The Kell Glacier retreats only in years when the mean summer temperature exceeds 12 degrees Celsius.",
+      "B": "In most of the last ten years, the regional mean summer temperature did not exceed 12 degrees Celsius.",
+      "C": "In at least three of the last ten years, the regional mean summer temperature did not exceed 12 degrees Celsius.",
+      "D": "Whenever the mean summer temperature does not exceed 12 degrees Celsius, the Kell Glacier advances.",
+      "E": "Cool summers cause the Kell Glacier to advance rather than retreat."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Reversal: warm summers are sufficient for retreat, but the passage says the glacier also retreated in some cooler years.",
+      "B": "Extreme: three advancing years show only that at least three years were cool; the other seven are not described.",
+      "C": "Correct. Retreat is guaranteed in any year above 12 degrees, so an advancing year must have been at or below 12 degrees. That gives at least three such years.",
+      "D": "Necessary versus sufficient: cool summers are said to bring retreat in some years and no advance in others.",
+      "E": "Out of scope: the passage reports a pattern and never identifies cool summers as a cause of advance."
+    },
+    "trapPatterns": {
+      "A": "reversal",
+      "B": "extreme",
+      "D": "necessary_v_sufficient",
+      "E": "extreme"
+    },
+    "keyTakeaway": "Use the contrapositive: if the sufficient condition guarantees a result, any year without the result lacked the condition.",
+    "predictionHint": "Advance means no retreat, so temperature did not exceed 12."
+  },
+  {
+    "id": "lr-r-mss-harbor-hall-tournaments",
+    "section": "LR",
+    "type": "most_strongly_supported",
+    "logicTags": [
+      "quantifiers"
+    ],
+    "difficulty": 3,
+    "stimulus": "Every chess tournament held at Harbor Hall is open to amateur players. Some tournaments that are open to amateur players award ranking points. No tournament that awards ranking points charges an entry fee.",
+    "stem": "If the statements above are true, which one of the following must also be true?",
+    "choices": {
+      "A": "Some tournaments held at Harbor Hall award ranking points.",
+      "B": "Some tournaments that charge no entry fee are open to amateur players.",
+      "C": "No tournament held at Harbor Hall charges an entry fee.",
+      "D": "Every tournament that charges an entry fee is closed to amateur players.",
+      "E": "Some tournaments that are open to amateur players charge an entry fee."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Shell game: the 'some' tournaments that award points need not be the ones at Harbor Hall, since Harbor Hall is only a subset of amateur-open events.",
+      "B": "Correct. Some amateur-open tournaments award ranking points, and none of those charge an entry fee, so some fee-free tournaments are amateur-open.",
+      "C": "Reversal: being at Harbor Hall guarantees amateur openness, not fee status; nothing links Harbor Hall to fees.",
+      "D": "Extreme: only tournaments that award points are said to be fee-free; fee-charging tournaments may also be amateur-open.",
+      "E": "Necessary versus sufficient: the statements allow this but never establish it; nothing says any amateur-open tournament charges a fee."
+    },
+    "trapPatterns": {
+      "A": "shell_game",
+      "C": "reversal",
+      "D": "extreme",
+      "E": "necessary_v_sufficient"
+    },
+    "keyTakeaway": "Follow 'some' through a chain of 'no' and 'every' statements, and do not link categories the passage keeps separate.",
+    "predictionHint": "Some amateur-open events award points, hence charge no fee."
+  },
+  {
+    "id": "lr-r-mss-ethics-board-forty",
+    "section": "LR",
+    "type": "most_strongly_supported",
+    "logicTags": [
+      "math_percent",
+      "quantifiers"
+    ],
+    "difficulty": 3,
+    "stimulus": "Last year the university's ethics board reviewed exactly 40 research proposals, each of which was either approved or rejected, and none of which was reviewed twice. According to the board's annual report, 25 of the proposals were approved, and 22 of the proposals involved human subjects.",
+    "stem": "Which one of the following is most strongly supported by the information above?",
+    "choices": {
+      "A": "At least eight proposals that involved human subjects were approved.",
+      "B": "Most of the approved proposals involved human subjects.",
+      "C": "Most of the proposals that involved human subjects were approved.",
+      "D": "At least seven proposals that involved human subjects were approved.",
+      "E": "At least ten proposals that were rejected involved no human subjects."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Wrong force: the minimum overlap is 25 + 22 - 40 = 7, so eight is not guaranteed.",
+      "B": "Shell game: the overlap could be as low as 7 of 25 approved proposals, which is not most.",
+      "C": "Shell game: the overlap could be 7 of 22 human-subject proposals, which is not most.",
+      "D": "Correct. The two groups together total 47, which exceeds 40 by 7, so at least 7 proposals belong to both.",
+      "E": "Unsupported: there are 15 rejected proposals, but all of them could have involved human subjects, leaving none without."
+    },
+    "trapPatterns": {
+      "A": "wrong_force",
+      "B": "shell_game",
+      "C": "shell_game",
+      "E": "extreme"
+    },
+    "keyTakeaway": "For two overlapping groups in a fixed total, the guaranteed overlap is the sum minus the total.",
+    "predictionHint": "25 + 22 - 40 = 7."
+  },
+  {
+    "id": "lr-r-na-road-crowd-noise",
+    "section": "LR",
+    "type": "necessary_assumption",
+    "logicTags": [
+      "link_assumption"
+    ],
+    "difficulty": 1,
+    "stimulus": "Basketball coach: In each of our last three road games, the opposing crowd's noise made it hard for our players to hear my instructions, and we lost all three. To win on the road, therefore, we should hold our practices with recorded crowd noise playing at full volume.",
+    "stem": "The coach's argument depends on assuming which one of the following?",
+    "choices": {
+      "A": "Practicing with recorded crowd noise would lessen how much real crowd noise disrupts the team on the road.",
+      "B": "The team will play all of its future road games in front of unusually noisy crowds.",
+      "C": "Home crowds are always quieter than the crowds at road games.",
+      "D": "No other team has tried practicing with recorded crowd noise.",
+      "E": "The team has lost more road games than home games this season."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. The recommendation only makes sense if noisy practices prepare the players to cope with real noise. If practice did not help, the plan would not help win road games.",
+      "B": "Extreme: the plan needs only that some road crowds be noisy enough to matter, not all future crowds.",
+      "C": "Out of scope: the comparison with home crowds is irrelevant to whether practice noise helps.",
+      "D": "Out of scope: it does not matter whether other teams have tried the idea.",
+      "E": "Out of scope: the team's overall record at home and away does not affect whether this practice helps."
+    },
+    "trapPatterns": {
+      "B": "extreme",
+      "C": "out_of_scope",
+      "D": "out_of_scope",
+      "E": "comparison_shift"
+    },
+    "keyTakeaway": "When a plan is proposed to fix a problem, the necessary assumption is that the plan actually works on that problem.",
+    "predictionHint": "Noisy practice must prepare players for real noise."
+  },
+  {
+    "id": "lr-r-na-tax-code-just-law",
+    "section": "LR",
+    "type": "necessary_assumption",
+    "logicTags": [
+      "conditional",
+      "link_assumption"
+    ],
+    "difficulty": 2,
+    "stimulus": "Political philosopher: A law is just only if the people subject to it could, in principle, agree to it. But the Meridian tax code is so convoluted that no ordinary citizen can understand it. Hence, the Meridian tax code is not just.",
+    "stem": "Which one of the following is an assumption required by the philosopher's argument?",
+    "choices": {
+      "A": "Any law that ordinary citizens can understand is a just law.",
+      "B": "Most citizens would reject the Meridian tax code if they understood it.",
+      "C": "People could agree to a law in principle only if they are able to understand it.",
+      "D": "The Meridian tax code could not be simplified without altering its effect.",
+      "E": "Every convoluted law is unjust."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Reversal: understandability is at most needed for justice, not sufficient for it; the argument concludes an injustice, not a justice.",
+      "B": "Out of scope: what citizens would do if they understood the code is not part of the reasoning.",
+      "C": "Correct. The argument needs a link between understanding and agreement: if people could agree to what they cannot understand, the code could still pass the stated test of justice.",
+      "D": "Out of scope: whether the code could be simplified does not bear on whether it is now just.",
+      "E": "Extreme: the argument concerns the Meridian code and one condition for justice; it need not condemn all convoluted laws."
+    },
+    "trapPatterns": {
+      "A": "reversal",
+      "B": "out_of_scope",
+      "D": "out_of_scope",
+      "E": "extreme"
+    },
+    "keyTakeaway": "Bridge the premise's term to the conclusion's term; here 'understand' must connect to 'agree'.",
+    "predictionHint": "Agreement in principle requires understanding."
+  },
+  {
+    "id": "lr-r-na-orrin-fault-tremors",
+    "section": "LR",
+    "type": "necessary_assumption",
+    "logicTags": [
+      "causation",
+      "weighing_factors"
+    ],
+    "difficulty": 3,
+    "stimulus": "Seismologist: Small tremors along a fault release a portion of the stress built up by the grinding of tectonic plates. Along the Orrin Fault, small tremors have become steadily less frequent over the last twenty years. Therefore, the risk of a major earthquake along the Orrin Fault has risen over that period.",
+    "stem": "The seismologist's argument depends on assuming which one of the following?",
+    "choices": {
+      "A": "Major earthquakes along a fault are always preceded by small tremors.",
+      "B": "Small tremors are the only means by which stress along a fault is released.",
+      "C": "Stress along the Orrin Fault is greater than stress along most other faults.",
+      "D": "The Orrin Fault has produced major earthquakes in the past.",
+      "E": "The rate at which stress accumulates along the Orrin Fault has not fallen enough to offset the reduction in stress released by small tremors."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Reversal: the argument concerns the effect of fewer tremors on quake risk, not whether quakes require precursors.",
+      "B": "Extreme: the argument needs tremors to release some stress, not the only stress release; other mechanisms could exist as long as they did not make up the loss.",
+      "C": "Comparison shift: relative stress levels on other faults do not affect whether risk on this fault rose.",
+      "D": "Premise booster: past quakes are not required; risk could rise on a fault that has never produced one.",
+      "E": "Correct. If stress had been building more slowly by at least as much as tremors released less, net stress would not have risen and the conclusion would fail."
+    },
+    "trapPatterns": {
+      "A": "reversal",
+      "B": "extreme",
+      "C": "comparison_shift",
+      "D": "premise_booster"
+    },
+    "keyTakeaway": "When a rate falls, the conclusion about net change assumes the opposing rate did not fall to match.",
+    "predictionHint": "Net stress rises only if buildup did not slow as much as release."
+  },
+  {
+    "id": "lr-r-weaken-chess-mentoring",
+    "section": "LR",
+    "type": "weaken",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 2,
+    "stimulus": "Chess club president: Two years ago the Eastfield Chess Club started a mentoring program that pairs each novice with an experienced member. In the season before the program, our teams won 30 percent of their matches; in the season since, they have won 45 percent. Clearly, the mentoring program has improved our teams' play.",
+    "stem": "Which one of the following, if true, most seriously weakens the president's argument?",
+    "choices": {
+      "A": "A few of the novices who joined the mentoring program have since dropped out of the club.",
+      "B": "During the past season, several strong players who had previously competed for rival clubs joined Eastfield's teams.",
+      "C": "The club's total membership has grown since the mentoring program was introduced.",
+      "D": "The mentoring program costs the club very little to operate.",
+      "E": "In the past season, Eastfield's teams played a tougher schedule than in the season before the program."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "True but irrelevant: a few dropouts do not explain the improvement in the teams' results.",
+      "B": "Correct. The new strong players offer an alternative explanation for the higher win rate, so the improvement may owe nothing to mentoring.",
+      "C": "Out of scope: a larger membership does not itself explain better results.",
+      "D": "Out of scope: low cost has no bearing on whether the program caused improvement.",
+      "E": "Opposite: a tougher schedule would make the improvement more impressive, strengthening the claim."
+    },
+    "trapPatterns": {
+      "A": "true_but_irrelevant",
+      "C": "out_of_scope",
+      "D": "out_of_scope",
+      "E": "opposite"
+    },
+    "keyTakeaway": "Weaken a before-and-after causal claim by supplying another change that could explain the result.",
+    "predictionHint": "Another change coincided with the improvement."
+  },
+  {
+    "id": "lr-r-weaken-valdre-tree-rings",
+    "section": "LR",
+    "type": "weaken",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 2,
+    "stimulus": "Climate scientist: In the Valdre forest, tree rings are consistently narrower in the years immediately following large volcanic eruptions. Since tree rings grow narrow in cool growing seasons, this shows that large eruptions cool the regional climate for the following years.",
+    "stem": "Which one of the following, if true, most calls into question the scientist's argument?",
+    "choices": {
+      "A": "Tree rings in the Valdre forest also grow narrow in years of severe drought.",
+      "B": "Most of the trees in the Valdre forest are more than two centuries old.",
+      "C": "Large volcanic eruptions are rarer than severe droughts in the region.",
+      "D": "Ash and sulfur compounds from eruptions damage leaves and soil, stunting tree growth even when temperatures do not fall.",
+      "E": "Temperature records from other regions show cooling in the years after large eruptions."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "True but irrelevant: that droughts also narrow rings does not show that eruption years were not cool.",
+      "B": "Out of scope: the age of the trees does not affect the link between eruptions and ring width.",
+      "C": "Out of scope: the relative rarity of eruptions has no bearing on what they cause.",
+      "D": "Correct. If eruptions stunt growth through damage other than cooling, the narrow rings no longer indicate cooler seasons, so the evidence fails to show cooling.",
+      "E": "Opposite: cooling recorded elsewhere supports the scientist's conclusion."
+    },
+    "trapPatterns": {
+      "A": "true_but_irrelevant",
+      "B": "out_of_scope",
+      "C": "out_of_scope",
+      "E": "opposite"
+    },
+    "keyTakeaway": "To weaken an inference from an indicator, show the indicator could arise without the claimed cause.",
+    "predictionHint": "Eruptions narrow rings by some route other than cooling."
+  },
+  {
+    "id": "lr-r-weaken-utilitarian-judge",
+    "section": "LR",
+    "type": "weaken",
+    "logicTags": [
+      "value_judgment"
+    ],
+    "difficulty": 3,
+    "stimulus": "Utilitarian philosopher: Critics claim that utilitarianism would permit a judge to convict an innocent person in order to quell a riot. But convicting an innocent person would always, in the long run, erode public trust in the courts and thereby reduce overall happiness. So utilitarianism never permits such a conviction.",
+    "stem": "Which one of the following, if true, most seriously weakens the philosopher's argument?",
+    "choices": {
+      "A": "Several other ethical theories also permit convicting an innocent person under certain circumstances.",
+      "B": "Judges rarely face the choice of convicting an innocent person in order to quell a riot.",
+      "C": "In some cases, a conviction can be arranged so that the public never learns it was unjust, leaving public trust in the courts intact while the riot ends.",
+      "D": "Public trust in the courts is already low in many countries.",
+      "E": "Utilitarians disagree among themselves about how happiness should be measured."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "True but irrelevant: what other theories permit does not bear on what utilitarianism permits.",
+      "B": "Wrong force: the claim concerns what utilitarianism permits, not how often the choice arises.",
+      "C": "Correct. It denies the premise that such a conviction would always erode trust; if trust survives, the long-run cost disappears and utilitarianism might permit the conviction.",
+      "D": "Out of scope: existing low trust says nothing about whether a conviction would erode it further.",
+      "E": "True but irrelevant: disagreement over measurement does not show that the specific conviction would not reduce happiness."
+    },
+    "trapPatterns": {
+      "A": "true_but_irrelevant",
+      "B": "wrong_force",
+      "D": "out_of_scope",
+      "E": "true_but_irrelevant"
+    },
+    "keyTakeaway": "Attack a universal premise ('always') with a single case where it fails.",
+    "predictionHint": "A secret injustice would leave trust intact."
+  },
+  {
+    "id": "lr-r-resolve-rovers-ticket-revenue",
+    "section": "LR",
+    "type": "resolve_explain",
+    "logicTags": [
+      "math_percent"
+    ],
+    "difficulty": 1,
+    "stimulus": "Over the past season, average attendance at Riverton Rovers home matches rose by 20 percent. Nevertheless, the club's total revenue from home-match ticket sales fell.",
+    "stem": "Which one of the following, if true, most helps to explain the discrepancy described above?",
+    "choices": {
+      "A": "The club cut its ticket prices sharply at the start of the season.",
+      "B": "Attendance at the club's away matches also rose over the past season.",
+      "C": "Revenue from refreshments sold at home matches rose over the past season.",
+      "D": "The club won more home matches this season than in the previous season.",
+      "E": "Attendance at other clubs' home matches fell over the past season."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. If prices fell by more than attendance rose, more fans could pay less in total.",
+      "B": "Out of scope: away attendance does not affect home ticket revenue.",
+      "C": "Out of scope: refreshment revenue is not ticket revenue and does not explain the fall.",
+      "D": "Out of scope: winning might explain the larger crowds but not lower revenue.",
+      "E": "Out of scope: other clubs' attendance does not bear on this club's ticket revenue."
+    },
+    "trapPatterns": {
+      "B": "out_of_scope",
+      "C": "out_of_scope",
+      "D": "out_of_scope",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "Revenue is price times quantity; explain falling revenue with rising volume by a larger fall in price.",
+    "predictionHint": "Lower prices offset higher attendance."
+  },
+  {
+    "id": "lr-r-resolve-ostrel-river-flow",
+    "section": "LR",
+    "type": "resolve_explain",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 2,
+    "stimulus": "Over the past fifty years, rainfall in the Ostrel River basin has not changed, and no dams or water diversions have been built along the river. Yet the river's average annual flow at its delta has declined by one fifth.",
+    "stem": "Which one of the following, if true, most helps to resolve the apparent paradox?",
+    "choices": {
+      "A": "Rainfall in the neighboring basin has increased over the past fifty years.",
+      "B": "Average temperatures in the Ostrel basin have risen, increasing the water lost to evaporation and plant uptake before it reaches the delta.",
+      "C": "The river's flow at the delta varies widely from year to year.",
+      "D": "The fish population at the Ostrel delta has declined over the past fifty years.",
+      "E": "The river's flow has always been measured at the same location using the same instruments."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Out of scope: rainfall elsewhere does not affect this river's flow.",
+      "B": "Correct. With rainfall unchanged and no diversions, more water lost to evaporation and plants before the delta accounts for the lower flow.",
+      "C": "True but irrelevant: variation from year to year does not explain a steady fall in the average.",
+      "D": "Reversal: a smaller fish population is more plausibly a result of the lower flow than a cause of it.",
+      "E": "Opposite: consistent measurement rules out an explanation by faulty measurement and deepens the puzzle."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "C": "true_but_irrelevant",
+      "D": "reversal",
+      "E": "opposite"
+    },
+    "keyTakeaway": "When expected causes are ruled out, look for an unmentioned factor that changes the outcome.",
+    "predictionHint": "A hidden loss of water, such as evaporation."
+  },
+  {
+    "id": "lr-r-strengthen-spikes-sprinters",
+    "section": "LR",
+    "type": "strengthen",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 1,
+    "stimulus": "Track coach: Since our sprinters switched to the new lightweight running spikes, their average time in the 100-meter dash has improved by two tenths of a second. Nothing else about our training has changed, so the new spikes must be responsible for the improvement.",
+    "stem": "Which one of the following, if true, most strengthens the coach's argument?",
+    "choices": {
+      "A": "The new spikes are made by a manufacturer with a long-standing reputation for quality.",
+      "B": "Some of the coach's sprinters improved by more than two tenths of a second.",
+      "C": "The new spikes are more expensive than the spikes the sprinters wore before.",
+      "D": "Sprinters on several other teams have also improved their times over the same period.",
+      "E": "Sprinters on the coach's team who continued to wear the old spikes showed no change in their times over the same period."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Out of scope: a manufacturer's reputation does not show that the spikes caused this improvement.",
+      "B": "True but irrelevant: variation in how much individuals improved does not show what produced the improvement.",
+      "C": "Out of scope: price does not bear on performance.",
+      "D": "Opposite: improvement across other teams suggests a general cause, such as weather or a better track, which weakens the coach's claim.",
+      "E": "Correct. A comparison group that kept the old spikes and did not improve rules out other common causes and supports the link to the spikes."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "true_but_irrelevant",
+      "C": "out_of_scope",
+      "D": "opposite"
+    },
+    "keyTakeaway": "A control group that lacks the proposed cause and also lacks the effect strengthens a causal claim.",
+    "predictionHint": "Look for a comparison group."
+  },
+  {
+    "id": "lr-r-strengthen-octopus-pain",
+    "section": "LR",
+    "type": "strengthen",
+    "logicTags": [
+      "analogy"
+    ],
+    "difficulty": 1,
+    "stimulus": "Ethicist: Octopuses guard injured limbs and avoid places where they were previously hurt. In mammals, such behavior is accompanied by the experience of pain. Therefore, octopuses probably experience pain.",
+    "stem": "Which one of the following, if true, most strengthens the ethicist's argument?",
+    "choices": {
+      "A": "Octopuses are more intelligent than most other invertebrates.",
+      "B": "Some mammals guard injured limbs without any accompanying experience of pain.",
+      "C": "Pain is a morally relevant experience in any creature that can feel it.",
+      "D": "Octopuses have neurons that respond to tissue damage in much the same way as the pain-processing neurons of mammals.",
+      "E": "Octopuses have been observed learning to open jars to reach food."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Out of scope: general intelligence does not show that the animal feels pain.",
+      "B": "Opposite: if the behavior occurs without pain in some mammals, the behavior is a weaker sign of pain.",
+      "C": "True but irrelevant: moral relevance is not what the argument is trying to establish.",
+      "D": "Correct. It adds a further similarity between octopuses and mammals in the biological basis of pain, which supports the analogy.",
+      "E": "Out of scope: learning to open jars does not bear on whether the animals feel pain."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "opposite",
+      "C": "true_but_irrelevant",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "An argument by analogy is strengthened by showing further relevant similarities between the cases.",
+    "predictionHint": "More similarity in the underlying mechanism."
+  },
+  {
+    "id": "lr-r-sa-hollis-manuscript",
+    "section": "LR",
+    "type": "sufficient_assumption",
+    "logicTags": [
+      "conditional"
+    ],
+    "difficulty": 2,
+    "stimulus": "Archivist: The Hollis manuscript, a handwritten account of a seventeenth-century voyage, was recently found in a private collection. Chemical tests show that it is written on rag-based paper. It follows that the Hollis manuscript is not a forgery.",
+    "stem": "The conclusion follows logically if which one of the following is assumed?",
+    "choices": {
+      "A": "Most forged manuscripts were written on paper that was not rag-based.",
+      "B": "Every genuine manuscript from the seventeenth century was written on rag-based paper.",
+      "C": "No forged manuscript was written on rag-based paper.",
+      "D": "The Hollis manuscript has been examined by several independent experts.",
+      "E": "Rag-based paper was the most common writing material in the seventeenth century."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Wrong force: 'Most' leaves open that the Hollis manuscript is among the forgeries on rag-based paper.",
+      "B": "Reversal: this makes rag-based paper necessary for genuine manuscripts, which does not show that anything on rag-based paper is genuine.",
+      "C": "Correct. If no forgery is on rag-based paper, a manuscript on rag-based paper cannot be a forgery.",
+      "D": "Out of scope: expert examination adds no guarantee about forgery.",
+      "E": "Out of scope: how common the paper was does not rule out forgeries on it."
+    },
+    "trapPatterns": {
+      "A": "wrong_force",
+      "B": "reversal",
+      "D": "out_of_scope",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "A sufficient assumption must guarantee the conclusion; watch out for 'most' and for reversed conditionals.",
+    "predictionHint": "Rag-based paper rules out forgery."
+  },
+  {
+    "id": "lr-r-sa-orpheus-prize",
+    "section": "LR",
+    "type": "sufficient_assumption",
+    "logicTags": [
+      "conditional"
+    ],
+    "difficulty": 3,
+    "stimulus": "No one qualifies for the Orpheus Prize unless she has either published a monograph or won the Linden Fellowship. Nobody who has taught for fewer than five years has published a monograph. So nobody who has taught for fewer than five years qualifies for the Orpheus Prize.",
+    "stem": "The conclusion follows logically if which one of the following is assumed?",
+    "choices": {
+      "A": "No one who has taught for fewer than five years has won the Linden Fellowship.",
+      "B": "Everyone who has published a monograph has won the Linden Fellowship.",
+      "C": "Some people who have won the Linden Fellowship have taught for fewer than five years.",
+      "D": "Most people who have taught for five years or more have won the Linden Fellowship.",
+      "E": "Everyone who has taught for five years or more has either published a monograph or won the Linden Fellowship."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. A person who has taught under five years has not published a monograph and, by this premise, has not won the fellowship, so she meets neither alternative and cannot qualify.",
+      "B": "Reversal: it does not address people who have not published a monograph, which is the group at issue.",
+      "C": "Opposite: if some fellowship winners have taught fewer than five years, some might qualify, contradicting the conclusion.",
+      "D": "Wrong force and out of scope: a claim about people who have taught longer says nothing about those who have taught less.",
+      "E": "Necessary versus sufficient: it states a condition for people with long experience and does not exclude the less experienced."
+    },
+    "trapPatterns": {
+      "B": "reversal",
+      "C": "opposite",
+      "D": "wrong_force",
+      "E": "necessary_v_sufficient"
+    },
+    "keyTakeaway": "When the necessary condition has two alternatives, a sufficient assumption must close off both of them.",
+    "predictionHint": "The missing link is the Linden Fellowship alternative."
+  },
+  {
+    "id": "lr-r-psa-carrow-bridge-leak",
+    "section": "LR",
+    "type": "pseudo_sufficient_assumption",
+    "logicTags": [
+      "value_judgment"
+    ],
+    "difficulty": 2,
+    "stimulus": "Ethics columnist: Rina, a city engineer, had signed a confidentiality agreement covering internal reports. She nevertheless gave a reporter her report on dangerous cracks in the Carrow Bridge, after her supervisors had ignored the report for a year and she had no other way to bring the danger to light. Rina acted rightly.",
+    "stem": "Which one of the following principles, if valid, most helps to justify the columnist's reasoning?",
+    "choices": {
+      "A": "A promise of confidentiality should be kept unless breaking it benefits the person who breaks it.",
+      "B": "It is right to break a promise of confidentiality when doing so is the only way to draw attention to a danger to the public that those responsible have ignored.",
+      "C": "The duty to protect public safety rests only with those who hold public office.",
+      "D": "Anyone who knows of a danger to the public has a legal duty to report it to the authorities.",
+      "E": "Promises of confidentiality made to government employers are never binding on employees."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Opposite: it would make Rina's act wrong if it did not benefit her, and the case turns on public danger, not her benefit.",
+      "B": "Correct. It matches each fact in the case: a promise broken, the only available way, and an ignored danger to the public.",
+      "C": "Wrong part: it places the duty on officials and nothing in the case makes the act right for an engineer who is not an official.",
+      "D": "Shell game: a legal duty is not the same as what is morally right, and the columnist does not appeal to law.",
+      "E": "Extreme: 'never binding' goes far beyond the case and would justify breaking confidentiality even where no danger exists."
+    },
+    "trapPatterns": {
+      "A": "opposite",
+      "C": "wrong_part",
+      "D": "shell_game",
+      "E": "extreme"
+    },
+    "keyTakeaway": "A justifying principle should cover every key fact in the case without adding extra sweep.",
+    "predictionHint": "Breaking a promise is right as the only way to expose an ignored danger."
+  },
+  {
+    "id": "lr-r-psa-custom-bike-fairness",
+    "section": "LR",
+    "type": "pseudo_sufficient_assumption",
+    "logicTags": [
+      "value_judgment"
+    ],
+    "difficulty": 3,
+    "stimulus": "Commentator: The cyclist who won the regional road race rode a custom-built bike costing ninety thousand dollars, which gave her an aerodynamic advantage that the other riders could not match through any amount of training or effort. Her victory was therefore not a fair one.",
+    "stem": "Which one of the following principles, if valid, most helps to justify the commentator's reasoning?",
+    "choices": {
+      "A": "A victory is fair as long as the winner broke none of the rules of the competition.",
+      "B": "The value of a victory depends on how difficult the victory was to achieve.",
+      "C": "A victory is fair if it results from the winner's superior effort and preparation.",
+      "D": "A competition should be closed to riders from wealthier backgrounds than the other riders.",
+      "E": "A victory is fair only if the competitors who lost could have matched the winner's advantages through sufficient effort."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Opposite: it says breaking no rules suffices for fairness, which would counter the commentator's verdict.",
+      "B": "Out of scope: difficulty of achievement is not the issue; the argument concerns whether others could have matched her advantage.",
+      "C": "Necessary versus sufficient: effort could make a victory fair under this principle, yet the commentator's claim requires an additional necessary condition.",
+      "D": "Extreme: excluding riders by wealth is a remedy that goes beyond the claim about fair victory.",
+      "E": "Correct. The rivals could not match the advantage through effort, so by this principle a victory built on it is not fair."
+    },
+    "trapPatterns": {
+      "A": "opposite",
+      "B": "out_of_scope",
+      "C": "necessary_v_sufficient",
+      "D": "extreme"
+    },
+    "keyTakeaway": "For a conclusion that something is not fair, look for a necessary condition for fairness that the case fails.",
+    "predictionHint": "Fairness requires that rivals could have matched the advantage."
+  },
+  {
+    "id": "lr-r-mc-record-snowfall-warming",
+    "section": "LR",
+    "type": "main_conclusion",
+    "logicTags": [],
+    "difficulty": 2,
+    "stimulus": "Some commentators claim that last winter's record snowfall proves that global warming is a myth. But a single season's weather says little about long-term climate trends. Moreover, warmer air holds more moisture and can produce heavier snowfall wherever temperatures still fall below freezing. Thus, last winter's record snowfall is no evidence against global warming.",
+    "stem": "Which one of the following most accurately expresses the main conclusion of the argument?",
+    "choices": {
+      "A": "Global warming is a myth.",
+      "B": "A single season's weather says little about long-term climate trends.",
+      "C": "Last winter's record snowfall provides no evidence against global warming.",
+      "D": "Warmer air holds more moisture than colder air.",
+      "E": "Heavier snowfall will occur wherever global warming occurs."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Opposite: this is the commentators' view, which the author rejects.",
+      "B": "Premise: it is offered in support of the conclusion rather than being what the argument aims to establish.",
+      "C": "Correct. Introduced by 'Thus,' it is the claim the two preceding statements are meant to support.",
+      "D": "Premise: it supports the claim that warming can cause heavier snowfall.",
+      "E": "Extreme: the argument says warmer air 'can' produce heavier snowfall, not that it will wherever warming occurs."
+    },
+    "trapPatterns": {
+      "A": "opposite",
+      "B": "wrong_part",
+      "D": "wrong_part",
+      "E": "extreme"
+    },
+    "keyTakeaway": "The main conclusion is the claim the other claims support; conclusion words like 'thus' mark it.",
+    "predictionHint": "The snowfall is no evidence against warming."
+  },
+  {
+    "id": "lr-r-mc-free-will-determinism",
+    "section": "LR",
+    "type": "main_conclusion",
+    "logicTags": [],
+    "difficulty": 3,
+    "stimulus": "Some philosophers argue that human beings lack free will because free will is incompatible with determinism and science has shown the universe to be deterministic. However, the evidence for determinism comes entirely from the behavior of large objects such as planets. It does not follow that human decisions, which may depend on events at much smaller scales, are determined. Hence, the argument that science shows we lack free will is unsound.",
+    "stem": "Which one of the following most accurately expresses the main conclusion of the argument?",
+    "choices": {
+      "A": "Free will is incompatible with determinism.",
+      "B": "Science has shown that the universe is deterministic.",
+      "C": "Human decisions may depend on events at very small scales.",
+      "D": "The argument that science shows human beings lack free will is unsound.",
+      "E": "Human beings have free will."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Reported premise: it is part of the philosophers' argument, which the author does not endorse.",
+      "B": "Reported premise: it is the philosophers' claim, which the author challenges rather than asserts.",
+      "C": "Subsidiary point: it supports the statement that determinism of large objects does not carry over to human decisions, which in turn supports the main conclusion.",
+      "D": "Correct. 'Hence' marks it as the final claim; the rest of the passage supports it.",
+      "E": "Overreach: the author attacks the argument against free will but never asserts that people have it."
+    },
+    "trapPatterns": {
+      "A": "wrong_part",
+      "B": "wrong_part",
+      "C": "half_right",
+      "E": "extreme"
+    },
+    "keyTakeaway": "Distinguish an argument the author rejects from the author's own conclusion about that argument.",
+    "predictionHint": "The author concludes the opposing argument is unsound."
+  },
+  {
+    "id": "lr-r-argpart-slow-pacing-defect",
+    "section": "LR",
+    "type": "argument_part",
+    "logicTags": [],
+    "difficulty": 1,
+    "stimulus": "Critic: Some reviewers call the slow pacing of the film Winter Station a defect. But the pacing is deliberate: it mirrors the monotony of the protagonist's life at the arctic outpost, and so serves the film's central theme. A deliberate stylistic choice that serves a film's central theme is not a defect. So the slow pacing of Winter Station is not a defect.",
+    "stem": "The claim that a deliberate stylistic choice that serves a film's central theme is not a defect plays which one of the following roles in the critic's argument?",
+    "choices": {
+      "A": "It is the main conclusion of the argument.",
+      "B": "It is a general principle that, applied to a fact about the film, supports the conclusion.",
+      "C": "It is a claim by some reviewers that the critic sets out to refute.",
+      "D": "It is a specific fact about the film offered as evidence for the conclusion.",
+      "E": "It is a concession that the critic makes to the reviewers' position."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Wrong part: the conclusion is the final sentence, 'the slow pacing of Winter Station is not a defect.'",
+      "B": "Correct. It states a general rule about stylistic choices; combined with the claim that the pacing is deliberate and serves the theme, it yields the conclusion.",
+      "C": "Wrong part: the reviewers' claim is that the pacing is a defect, which is the opposite.",
+      "D": "Wrong part: it makes no claim about Winter Station in particular; it is a general statement.",
+      "E": "Opposite: it supports the critic's own side, so it is not a concession."
+    },
+    "trapPatterns": {
+      "A": "wrong_part",
+      "C": "opposite",
+      "D": "wrong_part",
+      "E": "opposite"
+    },
+    "keyTakeaway": "Ask whether a claim is a specific fact, a general principle, or the conclusion, and what it is used to support.",
+    "predictionHint": "General principle plus a fact yields the conclusion."
+  },
+  {
+    "id": "lr-r-mor-promise-counterexample",
+    "section": "LR",
+    "type": "method_of_reasoning",
+    "logicTags": [],
+    "difficulty": 2,
+    "stimulus": "Philosopher: Some people hold that it is always wrong to break a promise. But consider a person who has promised to meet a friend for lunch and, on the way, comes upon a stranger who has collapsed and needs urgent help. Surely she should stop to help, even though doing so means breaking her promise. So it is not always wrong to break a promise.",
+    "stem": "The philosopher's argument proceeds by",
+    "choices": {
+      "A": "citing a particular case to show that a general claim admits of an exception",
+      "B": "deriving a self-contradiction from a claim that the philosopher then rejects",
+      "C": "appealing to the consensus of authorities on the question of promises",
+      "D": "discrediting a position by attacking the character of those who hold it",
+      "E": "drawing an analogy between two situations and concluding that they are alike in all respects"
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. The lunch-and-collapsed-stranger case is offered as one instance in which breaking a promise is not wrong, refuting the universal claim.",
+      "B": "Wrong part: the case does not show that the view contradicts itself, only that it has an exception.",
+      "C": "Out of scope: no authorities are cited.",
+      "D": "Out of scope: nothing is said about the character of those who hold the view.",
+      "E": "Wrong part: the argument uses one case as an exception, not a comparison between two cases."
+    },
+    "trapPatterns": {
+      "B": "wrong_part",
+      "C": "out_of_scope",
+      "D": "out_of_scope",
+      "E": "wrong_part"
+    },
+    "keyTakeaway": "A single counterexample is enough to refute a universal claim.",
+    "predictionHint": "Counterexample to an 'always' claim."
+  },
+  {
+    "id": "lr-r-pai-genetic-enhancement-race",
+    "section": "LR",
+    "type": "point_at_issue",
+    "logicTags": [
+      "value_judgment"
+    ],
+    "difficulty": 4,
+    "stimulus": "Mara: Genetic enhancement of runners should be banned. Even if every entrant had access to the same procedures, a race would end up testing the laboratories that engineered the runners rather than the runners themselves.\nTobias: Runners already rely on engineered shoes and scientifically designed diets, and no one says those turn a race into a test of laboratories. A race tests runners so long as all entrants have access to the same technology. Only unequal access would turn it into a contest between laboratories.",
+    "stem": "Mara and Tobias disagree over whether",
+    "choices": {
+      "A": "runners already benefit from scientifically engineered equipment",
+      "B": "a race in which only some entrants have access to genetic enhancement would test laboratories rather than runners",
+      "C": "a race in which every entrant has access to the same genetic enhancement would test laboratories rather than runners",
+      "D": "the runners with the best genes deserve to win races",
+      "E": "laboratories are as important to a runner's success as training is"
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Out of scope: Mara never addresses equipment; Tobias asserts it, but she is not committed either way.",
+      "B": "Half right: Tobias says unequal access would turn a race into a contest between laboratories, and Mara's claim about equal access implies she would agree, so they do not disagree here.",
+      "C": "Correct. Mara says that even with equal access a race would test laboratories; Tobias says that with equal access it still tests runners.",
+      "D": "Out of scope: neither speaker discusses what the best runners deserve.",
+      "E": "Out of scope: neither speaker compares the importance of laboratories with that of training."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "half_right",
+      "D": "out_of_scope",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "A point at issue needs both speakers to take opposite sides; check each choice against what each speaker actually commits to.",
+    "predictionHint": "Equal access is the contested case."
+  },
+  {
+    "id": "lr-r-mbt-alder-club-dues",
+    "section": "LR",
+    "type": "must_be_true",
+    "logicTags": [
+      "quantifiers",
+      "conditional"
+    ],
+    "difficulty": 3,
+    "stimulus": "Most of the members of the Alder Chess Club are over fifty. Nobody in the club is over fifty unless she holds a lifetime pass. Holders of lifetime passes never pay annual dues.",
+    "stem": "If the statements above are true, which one of the following must also be true?",
+    "choices": {
+      "A": "Most of the club's members who are under fifty pay annual dues.",
+      "B": "Every member of the club who does not pay annual dues holds a lifetime pass.",
+      "C": "Some members of the club who are over fifty pay annual dues.",
+      "D": "Some members of the club who hold a lifetime pass are under fifty.",
+      "E": "Most of the club's members do not pay annual dues."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Unsupported: the statements say nothing about the dues of members under fifty, and none may pay.",
+      "B": "Reversal: the passes exclude dues, but members who pay no dues might lack passes for other reasons.",
+      "C": "Contradiction: every over-fifty member holds a pass, and pass holders never pay dues.",
+      "D": "Unsupported: the statements say nothing about pass holders under fifty.",
+      "E": "Correct. Most members are over fifty, each of those holds a pass, and each pass holder pays no dues, so most members pay no dues."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "reversal",
+      "C": "opposite",
+      "D": "necessary_v_sufficient"
+    },
+    "keyTakeaway": "Chain the conditionals and carry the quantifier 'most' through only the part of the chain that preserves it.",
+    "predictionHint": "Most over fifty, so pass, so no dues."
+  },
+  {
+    "id": "lr-r-fib-bike-share-traffic",
+    "section": "LR",
+    "type": "fill_in_blank",
+    "logicTags": [
+      "conditional"
+    ],
+    "difficulty": 4,
+    "stimulus": "Economist: The new bike-share program will cut downtown traffic only if a significant proportion of its riders would otherwise have driven. A survey found that most of its riders would otherwise have taken the bus or walked. Some people infer from this that the program will fail to cut downtown traffic. But that inference is mistaken, because ____.",
+    "stem": "Which one of the following most logically completes the argument?",
+    "choices": {
+      "A": "the program will cut downtown traffic if a significant proportion of its riders would otherwise have driven",
+      "B": "bus riders and walkers contribute nothing to downtown traffic",
+      "C": "the survey was conducted only among people who were already riders",
+      "D": "a significant proportion of the riders could have been drivers even though most of them would otherwise have taken the bus or walked",
+      "E": "a program can cut downtown traffic only if most of its riders would otherwise have driven"
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Necessary versus sufficient: the passage states a necessary condition, not a sufficient one, and a sufficient condition would not answer the inference.",
+      "B": "Out of scope: the claim concerns riders who would have driven, not whether others contribute to traffic.",
+      "C": "Out of scope: nothing in the argument turns on who was surveyed, and this does not show the inference mistaken.",
+      "D": "Correct. 'Most' riders being non-drivers is compatible with a significant minority being former drivers, so the necessary condition may be met.",
+      "E": "Extreme: 'most' strengthens the stated condition to one that would make the inference stronger, not mistaken."
+    },
+    "trapPatterns": {
+      "A": "necessary_v_sufficient",
+      "B": "out_of_scope",
+      "C": "out_of_scope",
+      "E": "extreme"
+    },
+    "keyTakeaway": "A majority is not the only kind of significant proportion; show that the necessary condition remains satisfiable.",
+    "predictionHint": "A significant minority of drivers is compatible with a majority of non-drivers."
+  },
+  {
+    "id": "lr-r-pflaw-harriers-cup-entry",
+    "section": "LR",
+    "type": "parallel_flaw",
+    "logicTags": [
+      "conditional"
+    ],
+    "difficulty": 4,
+    "stimulus": "League rules state that a team may enter the cup competition only if it finished in the top half of the table, and that a team finishes in the top half only if it won at least ten matches. The Harriers won at least ten matches. Therefore, the Harriers may enter the cup competition.",
+    "stem": "The flawed reasoning in which one of the following is most similar to that in the argument above?",
+    "choices": {
+      "A": "An applicant is admitted to the program only if she passes the interview, and she passes the interview only if she submits a portfolio. Kavya did not submit a portfolio. Therefore, Kavya is not admitted to the program.",
+      "B": "A building receives an occupancy permit only if it passes the fire inspection, and it passes the fire inspection only if its stairwells have been widened. The stairwells of the Alder Court building have been widened. Therefore, the Alder Court building will receive an occupancy permit.",
+      "C": "Any hiker who reaches the summit camp has crossed the ridge, and anyone who has crossed the ridge has passed the ranger station. Imre reached the summit camp. Therefore, Imre passed the ranger station.",
+      "D": "A donor receives a seat at the gala only if she gave at least a thousand dollars, and she gave at least a thousand dollars only if the committee contacted her. Noor received a seat at the gala. Therefore, the committee contacted Noor.",
+      "E": "A bridge may open only if it has been inspected. The Linden Bridge has not been inspected. Therefore, the Linden Bridge may not open."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Valid: not meeting the earlier necessary condition rules out the final result; this reasoning is sound, not flawed.",
+      "B": "Correct. Like the Harriers argument, it treats satisfying a condition that is necessary for the final result as enough to guarantee the result.",
+      "C": "Valid: this chains sufficient conditions and applies them properly; there is no flaw.",
+      "D": "Valid: it moves from the result back to its necessary conditions, which is sound, though it resembles the original in wording.",
+      "E": "Valid: failing a necessary condition rules out the result; the reasoning is sound."
+    },
+    "trapPatterns": {
+      "A": "reversal",
+      "C": "opposite",
+      "D": "necessary_v_sufficient",
+      "E": "opposite"
+    },
+    "keyTakeaway": "Parallel flaw: match the error, and note that arguments with identical wording can be valid when they run the conditional in the right direction.",
+    "predictionHint": "Affirming a necessary condition."
+  },
+  {
+    "id": "lr-r-pflaw-seminar-theories",
+    "section": "LR",
+    "type": "parallel_flaw",
+    "logicTags": [
+      "quantifiers"
+    ],
+    "difficulty": 4,
+    "stimulus": "Some of the moral theories discussed in the seminar are consequentialist. Some consequentialist theories deny that persons have rights. Therefore, some of the moral theories discussed in the seminar deny that persons have rights.",
+    "stem": "The flawed reasoning in which one of the following is most similar to that in the argument above?",
+    "choices": {
+      "A": "Some of the glaciers in the range are retreating. Some retreating glaciers feed alpine lakes. Therefore, some of the glaciers in the range feed alpine lakes.",
+      "B": "Some of the glaciers in the range are retreating. All retreating glaciers expose bare rock. Therefore, some of the glaciers in the range expose bare rock.",
+      "C": "All of the referees at the tournament are certified. Some of the referees at the tournament have officiated internationally. Therefore, some certified people have officiated internationally.",
+      "D": "Some of the volunteers at the shelter are teachers. No teacher is a minor. Therefore, some of the volunteers at the shelter are not minors.",
+      "E": "All of the openings in the book are classical. Every classical opening is old. Therefore, all of the openings in the book are old."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. As in the seminar argument, the retreating glaciers that feed lakes need not be among those in the range, even though some in the range are retreating.",
+      "B": "Valid: since all retreating glaciers expose rock, the retreating glaciers in the range do so; this is sound reasoning.",
+      "C": "Valid: referees at the tournament who have officiated internationally are certified, so some certified people have done so; sound.",
+      "D": "Valid: the teachers among the volunteers are not minors, so those volunteers are not minors; sound.",
+      "E": "Valid: a chain of 'all' statements gives a sound conclusion."
+    },
+    "trapPatterns": {
+      "B": "out_of_scope",
+      "C": "wrong_part",
+      "D": "reversal",
+      "E": "true_but_irrelevant"
+    },
+    "keyTakeaway": "Two 'some' statements do not combine: the overlapping members need not be the same ones.",
+    "predictionHint": "Some A are B; some B are C; so some A are C."
+  },
+  {
+    "id": "lr-r-pmethod-taste-reviews",
+    "section": "LR",
+    "type": "parallel_method",
+    "logicTags": [],
+    "difficulty": 4,
+    "stimulus": "Some critics insist that no review can be trusted, since every reviewer's judgment is colored by personal taste. But that insistence is itself a judgment about reviews, and so, by the critics' own standard, it is colored by personal taste and cannot be trusted. Thus their insistence should not be accepted.",
+    "stem": "The pattern of reasoning in which one of the following is most similar to that in the argument above?",
+    "choices": {
+      "A": "Suppose that the bridge could hold forty tons. Then it would not have collapsed under thirty. It did collapse under thirty, so it cannot hold forty tons.",
+      "B": "The new stadium will not reduce traffic, since the stadium downtown did not reduce it either, and both were built in similar neighborhoods.",
+      "C": "Some coaches argue that all pregame warmups are wasteful. But two former champions endorse warmups, so the coaches are mistaken.",
+      "D": "A claim that every winner is lucky is false, because the champion who trained for ten years won through skill rather than luck.",
+      "E": "Some theorists maintain that no belief is better than any other because all beliefs are products of social convention. But that maintaining is itself a belief produced by social convention, so by their own account it is no better than the opposite belief. Therefore we have no reason to accept it."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Wrong part: this is a reductio that contradicts a hypothesis with observed fact; it does not apply the thesis's own standard to the thesis.",
+      "B": "Wrong part: it is an argument from analogy between two stadiums.",
+      "C": "Wrong part: it appeals to the authority of former champions.",
+      "D": "Wrong part: it offers a counterexample to a universal claim.",
+      "E": "Correct. As in the original, a thesis is turned on itself: by the thesis's own standard, the thesis lacks the support it demands, so it should be rejected."
+    },
+    "trapPatterns": {
+      "A": "wrong_part",
+      "B": "wrong_part",
+      "C": "wrong_part",
+      "D": "wrong_part"
+    },
+    "keyTakeaway": "For parallel method, name the technique (here self-application of a thesis to itself) and match it in the answer.",
+    "predictionHint": "A self-undermining thesis."
+  }
+]
