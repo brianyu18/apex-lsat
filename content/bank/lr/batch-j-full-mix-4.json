@@ -12,7 +12,7 @@
     "choices": {
       "A": "overlooks the possibility that residents in better health were more likely to join the program",
       "B": "fails to state how many residents joined the walking program last year",
-      "C": "assumes that the county can afford to extend the program to every neighborhood",
+      "C": "assumes that the county can afford to extend the program to every neighborhood without cutting other health services",
       "D": "presumes that walking is the only activity that can lower blood pressure",
       "E": "relies on blood pressure readings taken at a single point during the year"
     },
@@ -45,7 +45,7 @@
     "stimulus": "Archaeologist: Nearly all of the pottery excavated at Tell Orrin is decorated in the style characteristic of the Halvani people, and no pottery in any other distinctive style was found there. It follows that the settlement at Tell Orrin was inhabited by Halvani people.",
     "stem": "The argument is flawed in that it",
     "choices": {
-      "A": "takes for granted that every settlement inhabited by the Halvani would contain pottery in their style",
+      "A": "takes for granted that every settlement inhabited by the Halvani would contain a substantial quantity of pottery in their characteristic style",
       "B": "relies on evidence from a single site to draw a conclusion about the Halvani people as a whole",
       "C": "fails to establish that the Halvani style predates the founding of the settlement",
       "D": "overlooks the possibility that people other than the Halvani acquired or imitated Halvani-style pottery",
@@ -114,7 +114,7 @@
     "stem": "The argument is flawed in that it",
     "choices": {
       "A": "fails to consider that rents in a city might fall for reasons unrelated to new housing",
-      "B": "relies on a premise about cities in general to draw a conclusion about one particular city",
+      "B": "relies on a premise about the behavior of cities in general to draw a firm conclusion about the one city of Maplewood",
       "C": "treats a condition said to be necessary for a result as though it were sufficient for that result",
       "D": "assumes that rents in Maplewood are currently higher than rents in comparable cities",
       "E": "infers that new housing will be built from the fact that rents will fall"
@@ -186,7 +186,7 @@
       "B": "The measles vaccine prevents the disease in every child who receives it.",
       "C": "Last year, unvaccinated school-age children in Dunmore District were more likely to contract measles than vaccinated ones.",
       "D": "Fewer than 40 school-age children in Dunmore District were exposed to measles last year.",
-      "E": "Unvaccinated children in Dunmore District were exposed to measles more often than vaccinated children."
+      "E": "Unvaccinated children in Dunmore District were exposed to measles more often than vaccinated children in the same district were last year."
     },
     "answer": "C",
     "explanations": {
@@ -217,7 +217,7 @@
     "stimulus": "In a sleep study, volunteers who slept fewer than six hours a night for a week showed declines on memory tests. Those short-sleeping volunteers who chose to take a daily afternoon nap showed an average decline of 2 points, while those who chose not to nap showed an average decline of 11 points.",
     "stem": "The statements above, if true, most strongly support which one of the following?",
     "choices": {
-      "A": "Taking an afternoon nap reduces the memory decline caused by short sleep.",
+      "A": "Taking an afternoon nap reduces the memory decline that is otherwise caused by sleeping fewer than six hours a night for a week.",
       "B": "Volunteers who slept at least six hours a night showed no decline on memory tests.",
       "C": "Most of the short-sleeping volunteers chose to take a daily afternoon nap.",
       "D": "A decline of 2 points on the memory test is too small to matter.",
@@ -253,7 +253,7 @@
     "choices": {
       "A": "Treatment Y relieves chronic back pain as effectively as treatment X does.",
       "B": "The trial does not provide reliable evidence that treatment X relieves chronic back pain better than treatment Y does.",
-      "C": "Patients with chronic back pain should choose treatment Y because it costs less.",
+      "C": "Patients with chronic back pain should choose treatment Y rather than treatment X because treatment Y costs substantially less money.",
       "D": "Treatment X relieves pain in a smaller proportion of patients than treatment Y does.",
       "E": "Most patients in the trial experienced a pain reduction of at least 25 percent."
     },
@@ -289,7 +289,7 @@
       "A": "Snack kiosk items contain more calories on average than restaurant meals do.",
       "B": "Calorie labels would influence at least some purchases at the snack kiosks in the way they influence restaurant orders.",
       "C": "Most snack kiosk customers would read the calorie labels carefully before buying.",
-      "D": "Calorie labels are the most effective way to reduce the calories people buy.",
+      "D": "Calorie labels are the single most effective way of reducing the number of calories that people buy in public food settings.",
       "E": "Restaurant customers who ordered lower-calorie meals did not eat more at other times of day."
     },
     "answer": "B",
@@ -325,7 +325,7 @@
       "B": "The occupants of the other chambers in the region were all warriors.",
       "C": "Burial customs at Sennet differed from those in the rest of the region.",
       "D": "A warrior of that region and period buried in a chamber like this one would have been buried with weapons.",
-      "E": "The person buried at Sennet was of lower social rank than those buried in the other chambers."
+      "E": "The person buried at Sennet was of lower social rank than those who were buried in the other chambers of that period in the region."
     },
     "answer": "D",
     "explanations": {
@@ -392,8 +392,8 @@
     "choices": {
       "A": "Many people who take herbal supplements believe that the supplements strengthen the immune system.",
       "B": "Cerrin is more expensive than most other herbal supplements.",
-      "C": "Some of the subjects who took Cerrin still came down with colds over the winter.",
-      "D": "The subjects who took Cerrin were also taught a set of hand-washing routines that the subjects who took nothing were not taught.",
+      "C": "Some of the subjects who took Cerrin daily still came down with one or more colds during the course of the long winter months.",
+      "D": "The subjects who took Cerrin were also taught hand-washing routines that the subjects who took nothing were not taught.",
       "E": "All of the subjects in the trial were adults between the ages of 25 and 60."
     },
     "answer": "D",
@@ -427,9 +427,9 @@
     "choices": {
       "A": "The entrances of other stone circles in the region face a variety of directions.",
       "B": "The builders of the circle left no written records of their beliefs.",
-      "C": "The circle's entrance was rebuilt in the nineteenth century by farmers who reset the stones without regard to their original positions.",
+      "C": "Farmers rebuilt the circle's entrance in the nineteenth century, resetting its stones without regard to their original positions.",
       "D": "Most stone circles around the world show no alignment with any astronomical event.",
-      "E": "The circle was also used as a site for gatherings that had nothing to do with astronomy."
+      "E": "The circle was also used as a site for communal gatherings and feasts that had nothing to do with astronomy or the seasons."
     },
     "answer": "C",
     "explanations": {
@@ -463,7 +463,7 @@
       "B": "Meter rates in the downtown core remain lower than those in most comparable cities.",
       "C": "A minority of downtown drivers were unaware of the new rates when they parked.",
       "D": "Bus ridership into the downtown core rose during the same six months.",
-      "E": "The drop in cars entering downtown is larger than any six-month drop recorded in the previous decade."
+      "E": "The drop in the number of cars entering downtown is larger than any six-month drop that was recorded in the previous decade."
     },
     "answer": "A",
     "explanations": {
@@ -494,7 +494,7 @@
     "stem": "Which one of the following, if true, most helps to explain the discrepancy described above?",
     "choices": {
       "A": "The flu vaccine does not protect against every strain of the flu virus.",
-      "B": "Flu cases are generally milder among vaccinated adults than among unvaccinated adults.",
+      "B": "Flu cases among adults who have been vaccinated are generally milder than flu cases among adults who have not been vaccinated.",
       "C": "The town's population grew modestly last year.",
       "D": "Most of the town's adults who remain unvaccinated are under the age of thirty.",
       "E": "Last year the clinic began offering free flu tests, whereas before then most people with flu symptoms were never tested."
@@ -529,7 +529,7 @@
     "choices": {
       "A": "Radiocarbon dating of charcoal is generally less precise than radiocarbon dating of timber.",
       "B": "Builders of the period often reused beams salvaged from older buildings, whereas hearth fuel was freshly cut.",
-      "C": "Some of the charcoal in the hearths came from beams that were burned after the fortress was abandoned.",
+      "C": "Some of the charcoal in the hearths came from beams that were burned for fuel after the fortress had been abandoned by its last occupants.",
       "D": "Radiocarbon dates for wood from the region are typically reported with an uncertainty of about fifty years.",
       "E": "The fortress was occupied continuously for more than a century after it was built."
     },
@@ -563,7 +563,7 @@
     "choices": {
       "A": "Before they changed their start times, grades in those five districts had been flat or falling for several years.",
       "B": "Students in the five districts said they were pleased with the later start time.",
-      "C": "Several districts that kept their earlier start times also saw average grades rise last year.",
+      "C": "Several districts that kept their earlier start times also saw their students' average grades rise by a similar amount last year.",
       "D": "Later start times require districts to adjust their bus schedules at some additional cost.",
       "E": "Teachers in the five districts supported the change before it took effect."
     },
@@ -597,8 +597,8 @@
     "choices": {
       "A": "Most people who carry the HLN variant do not suffer from chronic migraines.",
       "B": "Chronic migraines are more common among adults than among children.",
-      "C": "Laboratory experiments show that the HLN variant alters a protein that helps regulate the constriction of blood vessels in the brain.",
-      "D": "Researchers have identified several other genetic variants that are more common among people with chronic migraines.",
+      "C": "Experiments show that the HLN variant alters a protein that helps regulate constriction of blood vessels in the brain.",
+      "D": "Researchers have identified several other genetic variants that are more common among people who suffer from chronic migraines than among others.",
       "E": "Chronic migraine sufferers are more likely than other people to take part in genetic studies."
     },
     "answer": "C",
@@ -700,10 +700,10 @@
     "stem": "The conclusion follows logically if which one of the following is assumed?",
     "choices": {
       "A": "Clinics in the east district should receive priority for public funding.",
-      "B": "No facility that is the only place in its district where uninsured residents can receive primary care should be closed.",
+      "B": "No facility that is the only place in its district where uninsured residents get primary care should be closed.",
       "C": "A clinic should be closed only when the number of residents it serves falls.",
       "D": "Uninsured residents in every district should have access to primary care.",
-      "E": "The Riverside clinic serves more uninsured residents than any other clinic in the city."
+      "E": "The Riverside clinic serves more uninsured residents than does any other single clinic anywhere in the entire city."
     },
     "answer": "B",
     "explanations": {

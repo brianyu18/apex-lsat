@@ -13,7 +13,7 @@
       "A": "overlooks the possibility that some other change, such as the start of the holiday shopping season, accounts for the rise in sales",
       "B": "assumes that bright colors appeal to every customer who visits the showroom",
       "C": "fails to establish that the store's sales records for the period were accurate",
-      "D": "treats an increase in sales as though it showed an increase in the store's profits",
+      "D": "treats a steady increase in the store's monthly sales as though it by itself showed that the store's profits had also risen over those months",
       "E": "bases its conclusion on a period of only three months"
     },
     "answer": "A",
@@ -47,7 +47,7 @@
       "A": "presumes that a dialect cannot disappear unless its distinctive vocabulary is abandoned",
       "B": "rejects a claim because of facts about those who advance it rather than by examining the evidence for or against the claim",
       "C": "fails to define what it would take for a dialect to count as having disappeared",
-      "D": "treats the opinions of commentators as less reliable than those of trained linguists",
+      "D": "treats the opinions of commentators who have never lived in the valley as less reliable than the opinions of trained linguists who have studied it",
       "E": "generalizes about all dialects from the situation of a single valley"
     },
     "answer": "B",
@@ -82,7 +82,7 @@
       "B": "relies on a review conducted by someone with a stake in the company's reputation",
       "C": "treats the absence of reported dissatisfaction as showing there was none, though departing employees may not voice it",
       "D": "draws a conclusion about every departure from only some of the exit interviews",
-      "E": "relies on departures from a single year, which may not be typical of other years"
+      "E": "relies on departures from a single year, which may not be typical of the reasons employees give for leaving in other years of the company's history"
     },
     "answer": "C",
     "explanations": {
@@ -254,7 +254,7 @@
       "B": "Quillan's experience in these segments differs from what is, on average, the case for firms holding such market shares.",
       "C": "Quillan's price increases have had no effect on the competitive position of its smaller rivals.",
       "D": "Quillan holds more than 60 percent of every regional broadband segment.",
-      "E": "Most firms holding more than 60 percent of a segment have seen smaller rivals exit after raising prices."
+      "E": "Most firms holding more than 60 percent of a segment have seen smaller rivals exit within three years after those firms raised their prices."
     },
     "answer": "B",
     "explanations": {
@@ -286,7 +286,7 @@
     "stem": "The argument depends on assuming which one of the following?",
     "choices": {
       "A": "The software will be easy for Harlow's agents to learn to use.",
-      "B": "Harlow's agents currently resolve tickets more slowly than agents at comparable companies.",
+      "B": "Harlow's agents currently resolve tickets more slowly than do the customer-service agents employed by other comparable appliance companies.",
       "C": "Harlow's competitors have not adopted similar ticketing software.",
       "D": "Harlow's ticket volume will not grow by more than its current agents can absorb with the time the software saves.",
       "E": "Harlow's agents are currently unable to resolve all of the tickets they receive."
@@ -427,7 +427,7 @@
       "B": "Ardenia's youth unemployment is currently higher than the average among the countries studied.",
       "C": "In many of the countries with high training budgets, spending on training was increased only after youth unemployment had already fallen.",
       "D": "Most job-training programs are funded through payroll taxes paid by employers.",
-      "E": "Countries vary widely in the size of their populations and in the size of their national budgets."
+      "E": "Countries vary widely in the sizes of their populations and in the sizes of their national budgets, as well as in how their economies are organized."
     },
     "answer": "C",
     "explanations": {
@@ -462,7 +462,7 @@
       "B": "Most surviving Lorenzian texts concern religious ritual rather than everyday life.",
       "C": "Many of the words resembling Lorenzian ones are among the most frequently used words in Vetch.",
       "D": "Most of the resembling words are of a kind that languages routinely borrow from neighbors, and Lorenzian was spoken beside Vetch for centuries.",
-      "E": "No other language is known to have contributed as many resembling words to Vetch as Lorenzian has."
+      "E": "No other language is known to have contributed as many resembling words to Vetch as Lorenzian has, and no other language resembles Vetch as closely."
     },
     "answer": "D",
     "explanations": {
@@ -493,7 +493,7 @@
     "stem": "Which one of the following, if true, most helps to explain the discrepancy described above?",
     "choices": {
       "A": "Voluntary turnover at several other firms in Corvane's industry has also risen in recent years.",
-      "B": "Employees who are satisfied with their work generally describe themselves as satisfied with their employers.",
+      "B": "Employees who are satisfied with the work they do generally describe themselves as satisfied with their employers and their working conditions as well.",
       "C": "Corvane's voluntary turnover has risen steadily during the past five years.",
       "D": "Corvane has a long-standing practice of hiring most of its new employees from other firms in the industry.",
       "E": "Corvane's pay is well below what competitors offer, and employees who like their work nonetheless leave for better-paying jobs."
@@ -526,10 +526,10 @@
     "stimulus": "Since the city of Dunmore began charging a fee to drive into its downtown core, the number of vehicles entering downtown on weekdays has fallen by about one fifth. Yet average weekday travel times for trips through downtown are no shorter than they were before the fee began.",
     "stem": "Which one of the following, if true, most helps to explain the discrepancy described above?",
     "choices": {
-      "A": "Revenue from the fee has been used to replace a traffic lane on most downtown streets with wider sidewalks, cutting road capacity by roughly a fifth.",
+      "A": "A share of the fee revenue replaced a traffic lane on most downtown streets with wider sidewalks, cutting road capacity by about a fifth.",
       "B": "The number of pedestrians in the downtown core has risen since the fee was introduced.",
       "C": "Revenue from the fee has been lower than the city's projections.",
-      "D": "Drivers who still enter downtown are mostly those who travel at times of day when streets are least crowded.",
+      "D": "Drivers who still enter downtown are mostly those who travel at times of day when the streets are least crowded, such as early mornings and late evenings.",
       "E": "The fee applies only to private cars and not to delivery trucks or taxis."
     },
     "answer": "A",
@@ -561,7 +561,7 @@
     "stimulus": "Sales director: Last year the Westfield sales team began using the new customer-management software, and its deals closed an average of ten percent faster than those of the Eastfield team, which did not. So if every team adopts the software, deals will close faster across the company.",
     "stem": "Which one of the following, if true, most strengthens the argument?",
     "choices": {
-      "A": "The software is less expensive than most competing customer-management products.",
+      "A": "The software is less expensive to license, install, and maintain than most competing customer-management products on the market today.",
       "B": "Members of the Westfield team say they enjoy using the software.",
       "C": "Before the Westfield team began using the software, its deals closed at about the same speed as those of the Eastfield team.",
       "D": "The Westfield team has more members than the Eastfield team.",
@@ -599,7 +599,7 @@
       "B": "Peoples whose ancestors lived for many generations in regions that have winters almost always have a native word for it.",
       "C": "Some peoples who originated in tropical regions have borrowed a word for winter from other languages.",
       "D": "Most Korren speakers today live in regions where winters are mild.",
-      "E": "Languages often lack words for common features of the environment that matter little to their speakers."
+      "E": "Languages often lack words for common features of the environment that matter little to the people who speak them or to their daily lives."
     },
     "answer": "B",
     "explanations": {
@@ -631,7 +631,7 @@
     "stem": "Which one of the following principles, if valid, most helps to justify the supervisor's reasoning?",
     "choices": {
       "A": "The most skilled available person should lead every client account.",
-      "B": "Employees who have missed deadlines should be given an opportunity to show that they can reliably meet them.",
+      "B": "Employees who have missed deadlines on projects they led should be given another opportunity to show that they can reliably meet deadlines.",
       "C": "No employee who has missed a deadline should be given responsibility for a client account.",
       "D": "When a failure would be very costly, reliability should count for more than skill in deciding who is given a task.",
       "E": "A person's past performance is a better guide to future performance than that person's skill is."
@@ -1034,7 +1034,7 @@
       "A": "showing that the proposed policy contradicts itself",
       "B": "appealing to the experience of other companies that have rejected a similar policy",
       "C": "rejecting a proposed policy by pointing to an undesirable consequence that adopting it would be expected to have",
-      "D": "arguing that a proposed policy is unnecessary because the problem it addresses does not exist",
+      "D": "arguing that a proposed policy is unnecessary because the problem it is meant to address does not actually exist at the company",
       "E": "dismissing a proposal on the grounds that those who favor it have an interest in its adoption"
     },
     "answer": "C",
