@@ -1,0 +1,1107 @@
+[
+  {
+    "id": "lr-l-flaw-laptop-warranty-claims",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "causation",
+      "comparison"
+    ],
+    "difficulty": 1,
+    "stimulus": "Consumer columnist: Last year, owners of Veridian laptops who had bought an extended warranty filed repair claims with the manufacturer at nearly three times the rate of owners who had not. Clearly, Veridian laptops covered by an extended warranty are far less reliable than those without such coverage.",
+    "stem": "The reasoning in the argument is most vulnerable to criticism on the grounds that it",
+    "choices": {
+      "A": "treats a difference in how often owners file repair claims as a difference in how often the laptops break, although covered owners have more reason to file",
+      "B": "overlooks that extended warranties are typically priced higher than the cost of the average repair",
+      "C": "bases its conclusion on one year of claims data rather than on several years",
+      "D": "assumes that every owner who bought an extended warranty has actually used it",
+      "E": "infers that buying an extended warranty makes a laptop break down more often"
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. Claim rates measure willingness and eligibility to file, not breakdowns. Owners with coverage have much more reason to file, so the higher rate may reflect nothing about reliability.",
+      "B": "Out of scope: the price of warranties relative to repairs has no bearing on whether claim rates show unreliability.",
+      "C": "Wrong force: more years of data would still leave the claims-versus-breakdowns gap untouched.",
+      "D": "Extreme: the argument needs only a higher claim rate, not that every covered owner made a claim.",
+      "E": "Wrong part: the columnist concludes the covered laptops are less reliable, not that the warranty causes breakdowns."
+    },
+    "trapPatterns": {
+      "B": "out_of_scope",
+      "C": "wrong_force",
+      "D": "extreme",
+      "E": "wrong_part"
+    },
+    "keyTakeaway": "A rate of reports or claims is a rate of reporting behavior; ask who has reason to report before treating it as a rate of the underlying event.",
+    "predictionHint": "Claims filed are not the same as breakdowns; only covered owners have an incentive to file."
+  },
+  {
+    "id": "lr-l-flaw-height-limit-drafter",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "value_judgment"
+    ],
+    "difficulty": 2,
+    "stimulus": "Councilmember: The proposed height-limit amendment to the city's zoning code deserves no support. It was drafted by an attorney who spent ten years representing landlords' associations, so the amendment can only serve landlords at the expense of tenants.",
+    "stem": "The reasoning in the argument is most vulnerable to criticism on the grounds that it",
+    "choices": {
+      "A": "fails to consider whether the amendment is likely to be adopted by the council",
+      "B": "rejects the amendment on the basis of its drafter's professional history without examining what the amendment itself provides",
+      "C": "assumes that landlords and tenants always have opposing interests in zoning matters",
+      "D": "relies on the history of a single attorney rather than on the history of the landlords' associations",
+      "E": "concludes that every council member ought to vote against the amendment"
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Out of scope: the conclusion is about the amendment's merit, not its chances of passage.",
+      "B": "Correct. The councilmember attacks the source rather than the content. A drafter's past clients do not show what a text of the amendment actually does.",
+      "C": "Shell game: this points at an assumption about landlord-tenant conflict, but the real error is the move from the drafter's background to the amendment's effects.",
+      "D": "Wrong force: adding more background about the associations would still say nothing about the amendment's provisions.",
+      "E": "Extreme: the councilmember says only that the amendment 'deserves no support,' not that every member must vote against it."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "C": "shell_game",
+      "D": "wrong_force",
+      "E": "extreme"
+    },
+    "keyTakeaway": "When an argument judges a proposal by who wrote it, the flaw is the failure to examine the proposal itself.",
+    "predictionHint": "Source-based rejection: nothing about the text of the amendment is considered."
+  },
+  {
+    "id": "lr-l-flaw-red-dwarf-flares",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "quantifiers"
+    ],
+    "difficulty": 3,
+    "stimulus": "Astronomer: In our catalog of red dwarf stars, most of the stars are prone to violent flares, and some of the stars have planets orbiting within the zone where liquid water could exist. Therefore, at least one star in the catalog is both flare-prone and the host of a planet in that zone.",
+    "stem": "The argument is flawed in that it",
+    "choices": {
+      "A": "assumes that the catalog is representative of all red dwarf stars",
+      "B": "treats a planet's location in the zone where liquid water could exist as a guarantee that it has liquid water",
+      "C": "overlooks the possibility that every star with a planet in the zone belongs to the minority that is not flare-prone",
+      "D": "infers from the fact that some stars have such planets that most red dwarfs have them",
+      "E": "fails to specify how violent a flare must be for a star to count as flare-prone"
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Wrong part: the conclusion concerns stars in the catalog only, so representativeness is not needed.",
+      "B": "Out of scope: the conclusion is only that a planet orbits within the zone, not that it has liquid water.",
+      "C": "Correct. Most stars are flare-prone and some have planets, but the planet hosts could all be among the minority that is not flare-prone. 'Most' and 'some' do not guarantee overlap.",
+      "D": "Extreme: the argument never claims that most red dwarfs have such planets.",
+      "E": "True but irrelevant: a vague definition of 'flare-prone' does not create the gap between the two premises and the conclusion."
+    },
+    "trapPatterns": {
+      "A": "wrong_part",
+      "B": "out_of_scope",
+      "D": "extreme",
+      "E": "true_but_irrelevant"
+    },
+    "keyTakeaway": "A 'most' group and a 'some' group need not overlap; a conclusion about their intersection requires more.",
+    "predictionHint": "Most are flare-prone, some have planets: the planet-hosts could all sit in the minority."
+  },
+  {
+    "id": "lr-l-flaw-lease-clauses-most",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "quantifiers",
+      "part_v_whole"
+    ],
+    "difficulty": 4,
+    "stimulus": "Attorney: In the standard commercial lease my firm drafts, most of the clauses favoring the tenant were added through negotiation. Moreover, most of the clauses added through negotiation were initialed by both parties. It follows that most of the clauses favoring the tenant were initialed by both parties.",
+    "stem": "The reasoning in the argument is most vulnerable to criticism on the grounds that it",
+    "choices": {
+      "A": "takes the fact that a clause was initialed as showing that the clause was added through negotiation",
+      "B": "overlooks the possibility that some clauses favoring the tenant were not added through negotiation",
+      "C": "concludes that every clause favoring the tenant was initialed on the basis of a claim about most such clauses",
+      "D": "concludes that most members of one category have a property because some of them belong to another category most of whose members have it",
+      "E": "infers that most members of one category have a property because most of them belong to another category most of whose members have it"
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Reversal: the argument moves from negotiation to initialing, not the other way around.",
+      "B": "True but irrelevant: the first premise already says 'most,' not all, were negotiated; admitting exceptions does not identify the error.",
+      "C": "Extreme: the conclusion says 'most,' not 'every.'",
+      "D": "Wrong force: the argument does say 'most' of the tenant-favoring clauses were negotiated, not 'some'; the word 'some' makes this describe a different argument.",
+      "E": "Correct. Most tenant-favoring clauses are in the negotiated group, and most negotiated clauses were initialed, but the initialed majority could consist of the negotiated clauses that do not favor the tenant. A majority of a majority need not reach the first group."
+    },
+    "trapPatterns": {
+      "A": "reversal",
+      "B": "true_but_irrelevant",
+      "C": "extreme",
+      "D": "wrong_force"
+    },
+    "keyTakeaway": "Two 'most' statements chained through a middle category do not transfer the property to most of the first category.",
+    "predictionHint": "Most of A are in N; most of N are I. The I's in N may be the non-A's."
+  },
+  {
+    "id": "lr-l-flaw-sterile-neutrino-search",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "lack_of_support_v_false"
+    ],
+    "difficulty": 2,
+    "stimulus": "Physicist: The proposed sterile neutrino is a particle that would interact with ordinary matter almost not at all. Three underground experiments, each run for several years, have failed to detect any sign of it. We must conclude that no sterile neutrino exists.",
+    "stem": "The argument is flawed in that it",
+    "choices": {
+      "A": "relies on experiments that were all conducted underground",
+      "B": "presumes that a particle that interacts weakly with matter must be hard to produce",
+      "C": "treats the experiments' failure to find the particle as showing that the particle exists",
+      "D": "ignores the possibility that other particles besides the neutrino interact weakly with matter",
+      "E": "takes the failure to detect the particle as proof of its nonexistence even though the particle would be nearly undetectable"
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Out of scope: underground location is how such experiments shield out noise and has no bearing on the logic.",
+      "B": "Wrong part: the argument says nothing about production.",
+      "C": "Reversal: the physicist concludes that the particle does not exist, not that it does.",
+      "D": "Out of scope: other weakly interacting particles do not affect whether the experiments rule out this one.",
+      "E": "Correct. The stimulus itself says the particle would scarcely interact, so failure to detect it is just what we would expect if it existed. Absence of evidence is treated as evidence of absence."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "wrong_part",
+      "C": "reversal",
+      "D": "out_of_scope"
+    },
+    "keyTakeaway": "When the thing sought would be hard to detect, a failed search proves little.",
+    "predictionHint": "Non-detection is expected even if the particle exists."
+  },
+  {
+    "id": "lr-l-mss-brightwell-warranty",
+    "section": "LR",
+    "type": "most_strongly_supported",
+    "logicTags": [
+      "quantifiers"
+    ],
+    "difficulty": 1,
+    "stimulus": "Most of the dishwashers that Brightwell sold last year had stainless steel tubs. Every Brightwell dishwasher with a stainless steel tub that was sold last year came with a ten-year warranty.",
+    "stem": "Which one of the following is most strongly supported by the information above?",
+    "choices": {
+      "A": "Every Brightwell dishwasher sold last year came with a ten-year warranty.",
+      "B": "Most of the Brightwell dishwashers sold last year came with a ten-year warranty.",
+      "C": "Brightwell dishwashers with plastic tubs sold last year came with shorter warranties.",
+      "D": "The stainless steel tubs are the reason that the dishwashers came with long warranties.",
+      "E": "Brightwell sold more stainless steel tub dishwashers last year than any competitor did."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Extreme: only the stainless steel majority is known to have the warranty; the rest are unaddressed.",
+      "B": "Correct. Most dishwashers have stainless tubs and all of those have the warranty, so most dishwashers have the warranty.",
+      "C": "Unsupported: nothing is said about warranties on the other dishwashers.",
+      "D": "Out of scope: the statements give a correlation of features, not a reason.",
+      "E": "Comparison shift: competitors' sales are never mentioned."
+    },
+    "trapPatterns": {
+      "A": "extreme",
+      "C": "necessary_v_sufficient",
+      "D": "out_of_scope",
+      "E": "comparison_shift"
+    },
+    "keyTakeaway": "If most members of a group have a feature and all members with that feature have a second, then most of the group have the second.",
+    "predictionHint": "Most are stainless; all stainless have the warranty; so most have the warranty."
+  },
+  {
+    "id": "lr-l-mss-appeals-court-dissent",
+    "section": "LR",
+    "type": "most_strongly_supported",
+    "logicTags": [
+      "conditional"
+    ],
+    "difficulty": 2,
+    "stimulus": "The Ardmore Appeals Court publishes an opinion only if all three judges on the panel sign it. A judge who dissents from a panel's decision never signs the opinion announcing that decision.",
+    "stem": "The statements above, if true, most strongly support which one of the following?",
+    "choices": {
+      "A": "Every opinion that all three judges on a panel sign is published.",
+      "B": "Most of the Ardmore Appeals Court's decisions are unanimous.",
+      "C": "No opinion from which a judge dissents is published by the court.",
+      "D": "Judges of the court dissent less often from published opinions than from unpublished ones.",
+      "E": "The court declines to publish opinions that deal with questions of precedent."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Reversal: all three signing is necessary for publication, not sufficient for it.",
+      "B": "Out of scope: the statements give no information about how many decisions are unanimous.",
+      "C": "Correct. A dissenting judge does not sign, so not all three sign, so the opinion is not published.",
+      "D": "Comparison shift: no rates of dissent are given for either group.",
+      "E": "Out of scope: precedent is never mentioned."
+    },
+    "trapPatterns": {
+      "A": "necessary_v_sufficient",
+      "B": "out_of_scope",
+      "D": "comparison_shift",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "'Only if' statements give necessary conditions; chain them to prove what cannot happen.",
+    "predictionHint": "Dissent means no signature, which blocks publication."
+  },
+  {
+    "id": "lr-l-mss-asteroid-rubble-pile",
+    "section": "LR",
+    "type": "most_strongly_supported",
+    "logicTags": [
+      "conditional",
+      "rule_application"
+    ],
+    "difficulty": 3,
+    "stimulus": "A rubble-pile asteroid, which is a loose aggregate of rock, cannot spin faster than once every 2.2 hours without shedding material. Every asteroid that sheds material displays a visible dust trail. Several of the asteroids in a recent survey spin faster than once every 2.2 hours, but none of those asteroids displays a dust trail.",
+    "stem": "Which one of the following is most strongly supported by the information above?",
+    "choices": {
+      "A": "Every surveyed asteroid that displays no dust trail spins faster than once every 2.2 hours.",
+      "B": "Some of the surveyed asteroids that shed material are rubble piles.",
+      "C": "No rubble-pile asteroid anywhere spins faster than once every 2.2 hours.",
+      "D": "None of the surveyed asteroids that spin faster than once every 2.2 hours is a rubble pile.",
+      "E": "All of the surveyed asteroids are solid rather than loose aggregates."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Reversal: the dust-trail condition is stated only for the fast spinners.",
+      "B": "Unsupported: none of the surveyed asteroids is said to shed material that is known to be a rubble pile.",
+      "C": "Extreme: a rubble pile could spin faster if it sheds material; the claim is only that it cannot do so without shedding.",
+      "D": "Correct. A fast-spinning rubble pile would shed material and so display a dust trail, but none of the fast spinners does.",
+      "E": "Extreme: the slower spinners are not addressed and may include rubble piles."
+    },
+    "trapPatterns": {
+      "A": "reversal",
+      "B": "true_but_irrelevant",
+      "C": "wrong_force",
+      "E": "extreme"
+    },
+    "keyTakeaway": "Run the contrapositive: if the required consequence is absent, the triggering condition must be too.",
+    "predictionHint": "Fast rubble pile implies shedding implies dust trail; none observed."
+  },
+  {
+    "id": "lr-l-na-corvane-kettle-bill",
+    "section": "LR",
+    "type": "necessary_assumption",
+    "logicTags": [
+      "causation",
+      "comparison"
+    ],
+    "difficulty": 2,
+    "stimulus": "Appliance reviewer: The Corvane electric kettle boils a liter of water in half the time that other kettles in its price range take. Households that switch to a Corvane will therefore see a lower electricity bill from boiling water.",
+    "stem": "The argument depends on assuming which one of the following?",
+    "choices": {
+      "A": "Most households boil water in a kettle at least once a day.",
+      "B": "The Corvane has a heating element that is more durable than those of other kettles in its price range.",
+      "C": "Electric kettles account for a large share of the electricity used in a typical household.",
+      "D": "No other kettle in the Corvane's price range boils water faster than the Corvane does.",
+      "E": "The Corvane does not use more electricity to boil a liter of water than other kettles in its price range do."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Out of scope: how often water is boiled affects the size of the savings, not whether there are any.",
+      "B": "Out of scope: durability does not bear on electricity used.",
+      "C": "Out of scope: the argument concerns the change in the bill, not the kettle's share of total usage.",
+      "D": "Premise booster: the stated premise already says the Corvane takes half the time of kettles in its price range.",
+      "E": "Correct. Speed is not energy. If the Corvane used more electricity per liter, a faster boil could raise the bill, so the conclusion requires that it not do so."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "out_of_scope",
+      "C": "out_of_scope",
+      "D": "premise_booster"
+    },
+    "keyTakeaway": "A shorter time is not a lower cost; look for the link between the measured feature and the outcome in the conclusion.",
+    "predictionHint": "Faster boiling must not cost more energy per liter."
+  },
+  {
+    "id": "lr-l-na-plea-understanding",
+    "section": "LR",
+    "type": "necessary_assumption",
+    "logicTags": [
+      "conditional",
+      "mental_state_v_reality"
+    ],
+    "difficulty": 4,
+    "stimulus": "Legal aid researcher: A guilty plea is voluntary only if the defendant understood, at the time of pleading, the consequences of the plea. At the Lowell Courthouse, every defendant who pleaded guilty last year was interviewed shortly after sentencing, and most of them said they did not understand those consequences. Therefore, most of the guilty pleas entered at the Lowell Courthouse last year were not voluntary.",
+    "stem": "The argument depends on assuming which one of the following?",
+    "choices": {
+      "A": "Most of the defendants who said they did not understand the consequences of pleading did not understand them when they pleaded.",
+      "B": "Most of the defendants who said in the interviews that they understood the consequences of pleading had understood them when they pleaded.",
+      "C": "A defendant who understood the consequences of pleading entered the plea voluntarily.",
+      "D": "A guilty plea is involuntary only if the defendant failed to understand the consequences of the plea.",
+      "E": "Defendants who are represented by public defenders are less likely to understand the consequences of pleading."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. The conclusion needs the later statements of non-understanding to reflect the defendants' state when they pleaded. If they understood then and were confused or forgot afterward, the pleas could be voluntary.",
+      "B": "True but irrelevant: the conclusion concerns pleas not voluntary, and the argument does not depend on what the other defendants understood.",
+      "C": "Necessary versus sufficient: the premise makes understanding necessary for voluntariness, and the argument does not need it to be sufficient.",
+      "D": "Reversal: this converses the premise, but the argument uses only that lack of understanding rules out voluntariness.",
+      "E": "Out of scope: type of representation is never mentioned and is not needed."
+    },
+    "trapPatterns": {
+      "B": "true_but_irrelevant",
+      "C": "necessary_v_sufficient",
+      "D": "reversal",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "A statement about a mental state made later is evidence of that state earlier only if the state persisted; ask whether it did.",
+    "predictionHint": "Did not understand at interview must mean did not understand at plea. Negate it to test."
+  },
+  {
+    "id": "lr-l-na-brantley-shoes-cost",
+    "section": "LR",
+    "type": "necessary_assumption",
+    "logicTags": [
+      "comparison",
+      "math_percent"
+    ],
+    "difficulty": 1,
+    "stimulus": "Columnist: Brantley running shoes cost more per pair than competing brands do, but they last about twice as long as competing brands do. Therefore, runners who buy Brantley shoes spend less over time on shoes than runners who buy competing brands.",
+    "stem": "The argument depends on assuming which one of the following?",
+    "choices": {
+      "A": "Runners who buy Brantley shoes run longer distances than other runners do.",
+      "B": "Shoes of competing brands wear out within a year of purchase.",
+      "C": "Brantley shoes do not cost more than twice as much per pair as competing brands' shoes do.",
+      "D": "Brantley is the most popular brand of running shoe among serious runners.",
+      "E": "A pair of shoes that lasts longer is always a better value than a cheaper pair."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Out of scope: mileage run by buyers is not part of the comparison of spending.",
+      "B": "Extreme: the argument needs only that Brantley lasts twice as long as competing brands, not that they wear out within any particular period.",
+      "C": "Correct. If a Brantley pair cost more than double, twice the lifespan would still leave runners spending more.",
+      "D": "Out of scope: popularity has no bearing on cost over time.",
+      "E": "Extreme: 'always' goes far beyond this comparison of one brand with others."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "extreme",
+      "D": "out_of_scope",
+      "E": "extreme"
+    },
+    "keyTakeaway": "For 'more costly but lasts longer' arguments, the hidden premise is that the price premium is smaller than the lifespan advantage.",
+    "predictionHint": "Price per pair must be less than double."
+  },
+  {
+    "id": "lr-l-weaken-red-light-cameras",
+    "section": "LR",
+    "type": "weaken",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 1,
+    "stimulus": "City official: Two years ago the city installed red-light cameras at its ten busiest intersections. Since then, accidents at those intersections have dropped by 20 percent. The cameras are clearly responsible for this improvement.",
+    "stem": "Which one of the following, if true, most seriously weakens the official's argument?",
+    "choices": {
+      "A": "Some drivers in the city object to the use of cameras to enforce traffic laws.",
+      "B": "The cameras cost the city more to install than had been budgeted.",
+      "C": "Many of the tickets issued on the basis of camera images were sent to out-of-town drivers.",
+      "D": "At about the time the cameras were installed, the city rebuilt those same ten intersections with wider lanes and protected turn signals.",
+      "E": "Before the cameras were installed, accidents at the ten intersections had been rising steadily for five years."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Out of scope: driver attitudes say nothing about accident rates.",
+      "B": "Out of scope: cost overruns do not affect whether the cameras reduced accidents.",
+      "C": "True but irrelevant: who received tickets does not bear on whether accidents fell because of the cameras.",
+      "D": "Correct. The rebuilding offers an alternative explanation for the drop in accidents.",
+      "E": "Opposite: a prior rising trend makes the later drop look more attributable to the cameras."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "out_of_scope",
+      "C": "true_but_irrelevant",
+      "E": "opposite"
+    },
+    "keyTakeaway": "Weaken a before-and-after causal claim by supplying another change that happened at the same time.",
+    "predictionHint": "Look for a concurrent change at the intersections."
+  },
+  {
+    "id": "lr-l-weaken-supernova-afterglow",
+    "section": "LR",
+    "type": "weaken",
+    "logicTags": [
+      "causation",
+      "sampling"
+    ],
+    "difficulty": 2,
+    "stimulus": "Astronomer: Each of five supernovae observed over the last decade was followed by a faint gamma-ray afterglow, and in every case the exploding star had been unusually massive. Hence, the unusual mass of a star is what makes an afterglow occur when the star explodes.",
+    "stem": "Which one of the following, if true, most seriously weakens the astronomer's argument?",
+    "choices": {
+      "A": "Unusually massive stars are much rarer than stars of ordinary mass.",
+      "B": "The five afterglows differed from one another in brightness and duration.",
+      "C": "Several supernovae of stars of ordinary mass were observed with the same instruments, and none showed an afterglow.",
+      "D": "Theorists have long predicted that the explosion of an unusually massive star would produce an afterglow.",
+      "E": "Only unusually massive stars have been observed with instruments sensitive enough to detect such an afterglow."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Out of scope: rarity of massive stars does not affect whether mass causes afterglows.",
+      "B": "True but irrelevant: variation among the five afterglows does not touch the link with mass.",
+      "C": "Opposite: this would strengthen the claim that mass matters.",
+      "D": "Premise booster: a theoretical prediction supports rather than weakens the claim.",
+      "E": "Correct. If only massive stars could have shown an afterglow to these instruments, the correlation may merely reflect what was detectable."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "true_but_irrelevant",
+      "C": "opposite",
+      "D": "premise_booster"
+    },
+    "keyTakeaway": "A correlation drawn from a filtered sample is weakened by showing the filter, not the phenomenon, explains the pattern.",
+    "predictionHint": "Sample could be biased by detection ability."
+  },
+  {
+    "id": "lr-l-weaken-arbitration-speed",
+    "section": "LR",
+    "type": "weaken",
+    "logicTags": [
+      "comparison",
+      "sampling"
+    ],
+    "difficulty": 3,
+    "stimulus": "Business writer: Mandatory arbitration clauses in consumer contracts get consumers faster resolutions than they would obtain in court. Disputes sent to arbitration under such clauses are resolved in an average of four months, whereas disputes filed in court take an average of fourteen months.",
+    "stem": "Which one of the following, if true, most seriously weakens the argument?",
+    "choices": {
+      "A": "Many consumers who sign contracts containing arbitration clauses are unaware that they have done so.",
+      "B": "Arbitration clauses are typically invoked in small, straightforward disputes of the kind that courts also resolve within a few months.",
+      "C": "Arbitrators are generally selected and paid by the companies that wrote the clauses.",
+      "D": "Consumers who prevail in arbitration tend to receive smaller awards than consumers who prevail in court.",
+      "E": "The cost to a consumer of an arbitration hearing rises with the number of days the hearing lasts."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Out of scope: awareness of the clause does not affect how quickly a dispute is resolved.",
+      "B": "Correct. The disputes in the two groups may differ in kind, so the speed gap may reflect the disputes' simplicity rather than the forum.",
+      "C": "True but irrelevant: the argument is about speed, not fairness or independence.",
+      "D": "Comparison shift: award size concerns outcomes, not the speed of resolution.",
+      "E": "Out of scope: cost to the consumer is not the dimension being compared."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "C": "true_but_irrelevant",
+      "D": "comparison_shift",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "When two groups are compared, check whether they are comparable; the cases may differ in a way that explains the gap.",
+    "predictionHint": "Arbitration may get easy cases that courts also resolve fast."
+  },
+  {
+    "id": "lr-l-resolve-clear-nights-asteroids",
+    "section": "LR",
+    "type": "resolve_explain",
+    "logicTags": [
+      "comparison"
+    ],
+    "difficulty": 1,
+    "stimulus": "Last July, the Kellner Observatory had more clear nights than it had in June. Yet the observatory logged far fewer new asteroid discoveries in July than in June.",
+    "stem": "Which one of the following, if true, most helps to explain the discrepancy described above?",
+    "choices": {
+      "A": "The observatory has logged more asteroid discoveries every year since it opened.",
+      "B": "Asteroid discoveries sometimes occur in clusters because several asteroids may orbit together.",
+      "C": "On most of July's clear nights the moon was full or nearly full, and bright moonlight makes faint asteroids difficult to detect.",
+      "D": "The observatory logged more discoveries in August than it did in July.",
+      "E": "Some clear nights are too turbulent for fine astronomical observation."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Out of scope: a long-term trend does not explain the July drop.",
+      "B": "Out of scope: clustering does not explain why July's clear nights yielded fewer discoveries.",
+      "C": "Correct. Many clear nights, but with conditions that hinder detection, would yield fewer discoveries.",
+      "D": "True but irrelevant: August's total says nothing about why July was low.",
+      "E": "Half right: turbulence could help, but it would equally affect June's clear nights and gives no reason for July to be worse."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "out_of_scope",
+      "D": "true_but_irrelevant",
+      "E": "half_right"
+    },
+    "keyTakeaway": "To resolve a discrepancy, find a factor that differs between the two situations and affects the measured outcome.",
+    "predictionHint": "More clear nights, but something made clear nights less useful in July."
+  },
+  {
+    "id": "lr-l-resolve-first-hearing-waiver",
+    "section": "LR",
+    "type": "resolve_explain",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 2,
+    "stimulus": "After a county court began waiving late fees for defendants who appear at their first hearing, the proportion of defendants who failed to appear at that hearing rose. This occurred even though the waiver was widely publicized and was welcomed by defendants.",
+    "stem": "Which one of the following, if true, most helps to resolve the apparent paradox?",
+    "choices": {
+      "A": "Around the time the waiver began, the court moved first hearings from evenings to weekday mornings, when many defendants cannot leave their jobs.",
+      "B": "Most defendants who appeared at their first hearings were granted the waiver.",
+      "C": "The late fees that the court charged had been small relative to most defendants' incomes.",
+      "D": "Defendants who fail to appear at a first hearing can be subject to separate penalties.",
+      "E": "In a neighboring county, a similar waiver was followed by a sharp decrease in the proportion of defendants who failed to appear."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. A scheduling change could keep more defendants away despite the incentive, accounting for the rise.",
+      "B": "Half right: this confirms that the waiver operated, but gives no reason for non-appearance to rise.",
+      "C": "Deepens the puzzle: small fees would make the waiver less important, but would not explain why more people stayed away.",
+      "D": "True but irrelevant: added penalties would be expected to encourage appearance, not reduce it.",
+      "E": "Opposite: it shows a similar waiver working elsewhere, which sharpens the puzzle."
+    },
+    "trapPatterns": {
+      "B": "half_right",
+      "C": "true_but_irrelevant",
+      "D": "true_but_irrelevant",
+      "E": "opposite"
+    },
+    "keyTakeaway": "If an incentive appears to backfire, look for a simultaneous change that works against it.",
+    "predictionHint": "A concurrent change that makes appearing harder."
+  },
+  {
+    "id": "lr-l-strengthen-marlow-floor-scratch",
+    "section": "LR",
+    "type": "strengthen",
+    "logicTags": [
+      "link_assumption",
+      "comparison"
+    ],
+    "difficulty": 2,
+    "stimulus": "Flooring reviewer: In a laboratory test, an abrasive pad was scrubbed repeatedly across boards of several brands. Marlow hardwood boards showed fewer scratches than the boards of competing brands. Therefore, Marlow floors will look better than competing floors after several years of ordinary household use.",
+    "stem": "Which one of the following, if true, most strengthens the reviewer's argument?",
+    "choices": {
+      "A": "Marlow floors cost somewhat more per square foot than the floors of competing brands.",
+      "B": "Marlow offers a longer warranty on its floors than competing brands do.",
+      "C": "Some competing brands performed better than Marlow in laboratory tests of resistance to moisture.",
+      "D": "Most of the wear that ordinary household use produces on a floor results from abrasion of the kind the laboratory pad produced.",
+      "E": "The reviewer has tested floors for a living for more than twenty years."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Out of scope: price does not bear on how floors wear.",
+      "B": "Out of scope: a warranty is not evidence of how the floor will look.",
+      "C": "Opposite or irrelevant: moisture resistance is a different dimension, and better performance by others on it does not help the claim about appearance.",
+      "D": "Correct. This links the laboratory test to real-world wear, supporting the inference from the test to years of household use.",
+      "E": "Wrong part: the reviewer's experience does not show the test predicts household wear."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "out_of_scope",
+      "C": "opposite",
+      "E": "wrong_part"
+    },
+    "keyTakeaway": "Strengthen a lab-to-real-world inference by showing the lab condition mirrors real conditions.",
+    "predictionHint": "Is the lab test representative of ordinary use?"
+  },
+  {
+    "id": "lr-l-strengthen-underground-detector",
+    "section": "LR",
+    "type": "strengthen",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 1,
+    "stimulus": "Physicist: The background count of a particle detector fell sharply when the detector was moved from a surface laboratory to a mine 800 meters underground. Therefore, cosmic rays must be the main source of the detector's background count in the surface laboratory.",
+    "stem": "Which one of the following, if true, most strengthens the physicist's argument?",
+    "choices": {
+      "A": "Cosmic rays were first discovered more than a century ago.",
+      "B": "Moving a sensitive detector to a mine is expensive.",
+      "C": "Cosmic rays can penetrate thin layers of material.",
+      "D": "The physicist has operated particle detectors for several decades.",
+      "E": "The rock above the mine absorbs nearly all cosmic rays but does little to reduce the detector's other possible sources of background."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Out of scope: when cosmic rays were discovered does not bear on this detector.",
+      "B": "Out of scope: cost of the move is irrelevant to the cause of the drop.",
+      "C": "True but irrelevant: penetration of thin layers does not show that rock removes cosmic rays here.",
+      "D": "Wrong part: the physicist's experience does not show that cosmic rays caused the count.",
+      "E": "Correct. It ties the drop to cosmic rays specifically by ruling out the other sources as explanations."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "out_of_scope",
+      "C": "true_but_irrelevant",
+      "D": "wrong_part"
+    },
+    "keyTakeaway": "Strengthen a cause claim by showing the change removed the proposed cause and little else.",
+    "predictionHint": "Underground removes cosmic rays, not other sources."
+  },
+  {
+    "id": "lr-l-psa-fence-code-standards",
+    "section": "LR",
+    "type": "pseudo_sufficient_assumption",
+    "logicTags": [
+      "rule_application",
+      "value_judgment"
+    ],
+    "difficulty": 3,
+    "stimulus": "Columnist: The city should not fine Mr. Alvarez for the collapse of his fence onto the sidewalk. He built the fence to the specifications in the building code in force at the time. Only afterward did engineers discover a flaw in those specifications, and the code was then revised.",
+    "stem": "Which one of the following principles, if valid, most helps to justify the columnist's reasoning?",
+    "choices": {
+      "A": "A person may be fined for harm resulting from conduct only if the conduct violated the standards in force when the harm was discovered.",
+      "B": "A building code should be revised whenever engineers discover a flaw in its specifications.",
+      "C": "No one should be penalized for harm resulting from conduct that conformed to the standards in force when the conduct occurred.",
+      "D": "Only harm that was intended by the person who caused it should be penalized.",
+      "E": "A person who builds according to a flawed code ought to be compensated by the city for the loss."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Time shift: the revised code may well be the one in force when the harm was discovered, so this principle would not clearly protect Mr. Alvarez.",
+      "B": "Out of scope: the principle concerns when codes should be revised, not whether he should be fined.",
+      "C": "Correct. He conformed to the standards in force when he built, so this principle supports the conclusion.",
+      "D": "Extreme: the columnist never says the harm was unintended, and the stated reason concerns conformity to the code.",
+      "E": "Wrong part: compensation by the city is a different matter from whether he should be fined."
+    },
+    "trapPatterns": {
+      "A": "comparison_shift",
+      "B": "out_of_scope",
+      "D": "extreme",
+      "E": "wrong_part"
+    },
+    "keyTakeaway": "Match the principle to the stated reason: the time at which the standard applies matters.",
+    "predictionHint": "Conformity to the standard at the time of the conduct."
+  },
+  {
+    "id": "lr-l-psa-physician-disclosure",
+    "section": "LR",
+    "type": "pseudo_sufficient_assumption",
+    "logicTags": [
+      "conditional",
+      "rule_application"
+    ],
+    "difficulty": 3,
+    "stimulus": "Ethicist: A physician acted improperly in telling a patient's employer about the patient's diagnosis. The patient had not consented to the disclosure, and the employer would not have been endangered had it remained ignorant of the diagnosis.",
+    "stem": "Which one of the following principles, if valid, most helps to justify the ethicist's reasoning?",
+    "choices": {
+      "A": "A physician who has a patient's consent may reveal the patient's diagnosis to anyone.",
+      "B": "A physician may reveal a patient's diagnosis to a third party only if the patient consents or the third party would otherwise be endangered.",
+      "C": "A physician may reveal a patient's diagnosis to the patient's employer only if the diagnosis bears on the patient's ability to do the job.",
+      "D": "A physician may reveal a patient's diagnosis to a third party if the patient consents or the third party would otherwise be endangered.",
+      "E": "A physician may reveal a patient's diagnosis to someone whose safety is at stake only if the patient has consented."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Reversal: this says consent is sufficient, but the ethicist's point is that, with no consent and no danger, disclosure was improper.",
+      "B": "Correct. With neither condition met, disclosure was not permitted, and the stated facts supply exactly the two failed conditions.",
+      "C": "Out of scope: nothing is said about the patient's ability to do the job.",
+      "D": "Necessary versus sufficient: it says what is permitted when either condition holds, but cannot show that disclosure was improper when neither does.",
+      "E": "Wrong part: it concerns someone whose safety is at stake; the employer was not endangered, so it never applies."
+    },
+    "trapPatterns": {
+      "A": "reversal",
+      "C": "out_of_scope",
+      "D": "necessary_v_sufficient",
+      "E": "wrong_part"
+    },
+    "keyTakeaway": "A conclusion that something was improper needs an 'only if' rule whose conditions the facts show were missing.",
+    "predictionHint": "Only-if rule with consent or danger, both absent."
+  },
+  {
+    "id": "lr-l-sa-oversight-panel-eligibility",
+    "section": "LR",
+    "type": "sufficient_assumption",
+    "logicTags": [
+      "conditional"
+    ],
+    "difficulty": 2,
+    "stimulus": "Any city employee who is a registered voter in the city is eligible to serve on the oversight panel. Okafor has worked for the city for years and lives within the city limits. So Okafor is eligible to serve on the panel.",
+    "stem": "The conclusion follows logically if which one of the following is assumed?",
+    "choices": {
+      "A": "Every city employee who lives within the city limits is a registered voter in the city.",
+      "B": "Everyone who is eligible to serve on the oversight panel is a city employee.",
+      "C": "Okafor does not currently serve on any other city board.",
+      "D": "No city employee who lives outside the city limits is a registered voter in the city.",
+      "E": "Only registered voters who work for the city are eligible to serve on the oversight panel."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. Okafor is a city employee living in the city, so Okafor is a registered voter and therefore eligible.",
+      "B": "Reversal: this runs from eligibility to employment, the wrong direction.",
+      "C": "Out of scope: service on other boards is not part of the eligibility rule given.",
+      "D": "Necessary versus sufficient: it concerns employees outside the city and says nothing about those who live inside.",
+      "E": "Reversal: this states a necessary condition for eligibility, but the argument needs a sufficient one."
+    },
+    "trapPatterns": {
+      "B": "reversal",
+      "C": "out_of_scope",
+      "D": "necessary_v_sufficient",
+      "E": "reversal"
+    },
+    "keyTakeaway": "Connect the facts about the individual to the trigger of the stated rule.",
+    "predictionHint": "Residence in the city must guarantee voter registration."
+  },
+  {
+    "id": "lr-l-sa-fossil-reclassified-most",
+    "section": "LR",
+    "type": "sufficient_assumption",
+    "logicTags": [
+      "quantifiers",
+      "part_v_whole"
+    ],
+    "difficulty": 4,
+    "stimulus": "In the Bellmont museum's collection, most of the fossils that were re-examined last decade were reclassified. Therefore, most of the fossils in the collection that were catalogued before 1990 were reclassified.",
+    "stem": "The conclusion follows logically if which one of the following is assumed?",
+    "choices": {
+      "A": "Every fossil in the collection that was catalogued before 1990 was re-examined last decade.",
+      "B": "Every fossil in the collection that was re-examined last decade was catalogued before 1990.",
+      "C": "Every fossil in the collection that was reclassified was catalogued before 1990.",
+      "D": "Every fossil in the collection that was re-examined last decade was catalogued before 1990, and most of the fossils catalogued before 1990 were re-examined last decade.",
+      "E": "The fossils in the collection that were re-examined last decade are exactly the fossils in the collection that were catalogued before 1990."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Insufficient: the fossils catalogued before 1990 may be a small part of the re-examined group, so the reclassified majority could lie elsewhere.",
+      "B": "Insufficient: the re-examined group may be a small part of those catalogued before 1990, so most of the latter need not be reclassified.",
+      "C": "Insufficient: it limits the reclassified fossils but says nothing connecting the re-examined majority to the pre-1990 group.",
+      "D": "Tempting but insufficient: most of the pre-1990 fossils were re-examined, but the reclassified majority of the re-examined fossils could be only a minority of the pre-1990 fossils.",
+      "E": "Correct. If the two groups are identical, a statement about most of one is a statement about most of the other."
+    },
+    "trapPatterns": {
+      "A": "necessary_v_sufficient",
+      "B": "necessary_v_sufficient",
+      "C": "half_right",
+      "D": "half_right"
+    },
+    "keyTakeaway": "For a 'most' claim to transfer between groups, the groups must coincide, not merely overlap or nest.",
+    "predictionHint": "Need the groups to be the same group."
+  },
+  {
+    "id": "lr-l-main-library-evening-hours",
+    "section": "LR",
+    "type": "main_conclusion",
+    "logicTags": [
+      "value_judgment"
+    ],
+    "difficulty": 1,
+    "stimulus": "Some councilors want to cut the public library's evening hours to save money. But evening hours are the only time that students and shift workers can use the library, and cutting them would shut these groups out. The savings would be small compared with the harm of denying access. The library should therefore keep its evening hours.",
+    "stem": "Which one of the following most accurately expresses the main conclusion of the argument?",
+    "choices": {
+      "A": "Students and shift workers can use the library only during the evening.",
+      "B": "The library's evening hours should not be cut.",
+      "C": "Cutting the library's evening hours would save the city money.",
+      "D": "The savings from cutting evening hours would be small compared with the harm done.",
+      "E": "Students and shift workers are the library's most important patrons."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Premise: this is offered in support of keeping the hours.",
+      "B": "Correct. The word 'therefore' marks the claim that the library should keep its evening hours.",
+      "C": "Concession: it is the councilors' reason, which the argument opposes.",
+      "D": "Premise: it is a reason offered for the conclusion.",
+      "E": "Out of scope: the argument never ranks patrons by importance."
+    },
+    "trapPatterns": {
+      "A": "true_but_irrelevant",
+      "C": "wrong_part",
+      "D": "true_but_irrelevant",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "The conclusion is the claim the other statements are there to support, often signaled by 'therefore.'",
+    "predictionHint": "Look for the 'therefore' sentence."
+  },
+  {
+    "id": "lr-l-main-kr9-dimming",
+    "section": "LR",
+    "type": "main_conclusion",
+    "logicTags": [
+      "causation",
+      "eliminating_options"
+    ],
+    "difficulty": 2,
+    "stimulus": "Astronomer: The star KR-9 dims every eleven days, and each dimming has the same depth. Starspots would produce dimmings that vary in depth and timing. So the dimming of KR-9 is not caused by starspots. It is therefore probably caused by a planet passing in front of the star.",
+    "stem": "Which one of the following most accurately expresses the main conclusion of the argument?",
+    "choices": {
+      "A": "Starspots would produce dimmings that vary in depth and timing.",
+      "B": "The star KR-9 dims every eleven days, and each dimming has the same depth.",
+      "C": "The dimming of KR-9 is not caused by starspots.",
+      "D": "The dimming of KR-9 is probably caused by a planet passing in front of the star.",
+      "E": "KR-9 has a planet about the size of Neptune."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Premise: this is a general claim used to rule out starspots.",
+      "B": "Premise: this is the observation on which the argument is built.",
+      "C": "Intermediate conclusion: it is supported by the premises and in turn supports the final claim.",
+      "D": "Correct. This is the final claim, indicated by 'therefore,' toward which the other statements lead.",
+      "E": "Extreme: nothing is said about the planet's size."
+    },
+    "trapPatterns": {
+      "A": "wrong_part",
+      "B": "wrong_part",
+      "C": "half_right",
+      "E": "extreme"
+    },
+    "keyTakeaway": "Separate the intermediate conclusion from the final one: the main conclusion is what no other claim in the argument supports.",
+    "predictionHint": "Not starspots is a step; planet is the end."
+  },
+  {
+    "id": "lr-l-part-hartley-restaurant-closures",
+    "section": "LR",
+    "type": "argument_part",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 2,
+    "stimulus": "Economist: Opponents claim that raising the minimum wage in Hartley County caused layoffs. But total employment in the county rose in the year after the increase. A few restaurants did close during that year, but restaurant closures occur every year in any county of that size. So the increase did not cause layoffs.",
+    "stem": "The claim that a few restaurants closed during the year after the increase plays which one of the following roles in the argument?",
+    "choices": {
+      "A": "It is the main conclusion of the argument.",
+      "B": "It is a premise offered as direct evidence that the increase did not cause layoffs.",
+      "C": "It is a point conceded to the opponents, which the argument then explains away.",
+      "D": "It is a claim that the argument attempts to show is false.",
+      "E": "It is an intermediate conclusion supported by the claim that closures occur every year."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Wrong part: the main conclusion is that the increase did not cause layoffs.",
+      "B": "Reversal: the closures, taken at face value, would favor the opponents, so they are not direct evidence for the economist's side.",
+      "C": "Correct. The economist admits the closures and then argues, by pointing to their yearly occurrence, that they do not show the increase caused layoffs.",
+      "D": "Wrong force: the economist grants that they happened ('did close') and disputes only their significance.",
+      "E": "Wrong part: the closure claim is not argued for; the yearly-closure claim is used against its significance, not as support for it."
+    },
+    "trapPatterns": {
+      "A": "wrong_part",
+      "B": "reversal",
+      "D": "wrong_force",
+      "E": "wrong_part"
+    },
+    "keyTakeaway": "A claim introduced by 'although' or 'it is true that' and then answered is a concession the argument works around.",
+    "predictionHint": "Concession followed by 'but'."
+  },
+  {
+    "id": "lr-l-pflaw-ordinance-amended",
+    "section": "LR",
+    "type": "parallel_flaw",
+    "logicTags": [
+      "quantifiers"
+    ],
+    "difficulty": 4,
+    "stimulus": "Every ordinance adopted by the city council last year was first reviewed by the zoning board. Some of the ordinances reviewed by the zoning board were later amended. Therefore, some of the ordinances adopted by the city council last year were later amended.",
+    "stem": "The flawed reasoning in which one of the following is most similar to that in the argument above?",
+    "choices": {
+      "A": "All of the bridges inspected last year were built before 1950. Some of the bridges inspected last year were closed. Therefore, some bridges built before 1950 were closed.",
+      "B": "Most of the manuscripts in the archive were donated by the Hale family. Every manuscript donated by the Hale family is handwritten. Therefore, every manuscript in the archive is handwritten.",
+      "C": "Every violinist in the youth orchestra has studied under Ms. Cho. All of Ms. Cho's students have won competitions. Therefore, every competition winner is a violinist in the youth orchestra.",
+      "D": "Every composition performed at the festival had been published previously. Some previously published compositions were later revised. Therefore, some compositions performed at the festival were later revised.",
+      "E": "Some of the engineers on the project hold patents. Every engineer on the project holds a degree. Therefore, some people on the project who hold degrees hold patents."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Not flawed: the 'some' claim is about the inspected bridges, the subgroup, so the conclusion about the larger group follows; the structure is the valid mirror image.",
+      "B": "Different flaw: it moves from 'most' to 'every'.",
+      "C": "Different flaw: it reverses a conditional, concluding that every winner belongs to the orchestra.",
+      "D": "Correct. As in the original, every member of group one belongs to group two, and some members of group two have a property; the argument wrongly concludes that some members of group one have it.",
+      "E": "Not flawed: the engineers with patents are in the project and hold degrees, so the conclusion follows."
+    },
+    "trapPatterns": {
+      "A": "comparison_shift",
+      "B": "extreme",
+      "C": "reversal",
+      "E": "true_but_irrelevant"
+    },
+    "keyTakeaway": "For quantifier flaws, determine which group the 'some' statement is about: a 'some' about the larger group says nothing certain about the smaller one.",
+    "predictionHint": "All A in B; some B are C; so some A are C."
+  },
+  {
+    "id": "lr-l-pmethod-cryostat-heat",
+    "section": "LR",
+    "type": "parallel_method",
+    "logicTags": [
+      "eliminating_options"
+    ],
+    "difficulty": 3,
+    "stimulus": "Physicist: The unexplained heat load on the laboratory's cryostat must come from conduction through its supports, radiation through its windows, or leakage of residual gas into the vacuum chamber. Tests have shown that radiation through the windows is negligible and that no residual gas is present. Therefore, the heat load comes from conduction through the supports.",
+    "stem": "The pattern of reasoning in which one of the following is most similar to that in the argument above?",
+    "choices": {
+      "A": "The discrepancy in the club's accounts must be due to a clerical error, an unrecorded refund, or a miscalculated currency conversion. Auditors have confirmed that there were no unrecorded refunds and that every conversion was correct. Therefore, a clerical error caused the discrepancy.",
+      "B": "A flight delay must be caused by weather, a crew shortage, or a mechanical fault. Weather has been ruled out. Therefore, the delay was caused by either a crew shortage or a mechanical fault.",
+      "C": "The glitch in the voting machine's tally must result from a software bug or a hardware fault, but not from both. A software bug has been confirmed. Therefore, the hardware is not at fault.",
+      "D": "The bridge was closed because of either storm damage or a structural flaw. Storm damage is the more common cause of closures. Therefore, the bridge was closed because of storm damage.",
+      "E": "Sales of the new phone rose whenever advertising increased. Advertising increased this quarter. Therefore, sales of the new phone rose this quarter."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. It lists three possible causes, shows by evidence that two do not apply, and concludes that the remaining one is the cause.",
+      "B": "Half right: it also eliminates alternatives, but it eliminates only one of three and draws no single conclusion.",
+      "C": "Different method: it reasons from the presence of one cause to the absence of the other, using a stated exclusivity.",
+      "D": "Different method: it chooses the cause by how common it is, not by ruling out the alternative.",
+      "E": "Different method: it reasons from a past correlation to a prediction, with no list of alternatives."
+    },
+    "trapPatterns": {
+      "B": "half_right",
+      "C": "wrong_part",
+      "D": "comparison_shift",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "Match the argument's method step for step: here, enumerate causes, rule out all but one, and conclude the last.",
+    "predictionHint": "Three options, two ruled out, last one concluded."
+  },
+  {
+    "id": "lr-l-pai-jury-waiver-lease",
+    "section": "LR",
+    "type": "point_at_issue",
+    "logicTags": [
+      "value_judgment"
+    ],
+    "difficulty": 2,
+    "stimulus": "Ortega: A tenant who signs a lease containing a waiver of the right to a jury trial has no grounds to object when the landlord insists on that waiver, since the tenant knew about the term before signing. Brandt: Knowing about a term does not make it acceptable. Most tenants cannot realistically negotiate their lease terms, so a waiver that the landlord insists on is unfair to them even though they know of it.",
+    "stem": "Ortega and Brandt disagree over whether",
+    "choices": {
+      "A": "most tenants are able to negotiate the terms of their leases",
+      "B": "landlords commonly insist that leases contain jury trial waivers",
+      "C": "the right to a jury trial is valuable to tenants",
+      "D": "a tenant's knowing about a lease term shows that the landlord's insisting on it is not objectionable",
+      "E": "tenants who sign leases containing waivers ought to be allowed to void the leases"
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Unaddressed by one: Brandt asserts that most cannot negotiate, but Ortega says nothing about negotiation.",
+      "B": "Common ground: neither disputes that landlords do insist on the waiver.",
+      "C": "Unaddressed: neither speaker discusses the value of the right.",
+      "D": "Correct. Ortega says knowledge removes grounds for objection; Brandt says knowledge does not make the term acceptable.",
+      "E": "Out of scope: neither mentions voiding leases."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "out_of_scope",
+      "C": "out_of_scope",
+      "E": "wrong_part"
+    },
+    "keyTakeaway": "A point at issue is a claim one speaker affirms and the other denies or contests, not merely something one of them says.",
+    "predictionHint": "Does knowledge of the term make insistence acceptable?"
+  },
+  {
+    "id": "lr-l-mbt-kessing-telescopes",
+    "section": "LR",
+    "type": "must_be_true",
+    "logicTags": [
+      "conditional",
+      "rule_application"
+    ],
+    "difficulty": 1,
+    "stimulus": "Every telescope at the Kessing Observatory is either a reflector or a refractor. No refractor at Kessing has an aperture larger than 30 centimeters. The observatory's largest telescope has an aperture of 80 centimeters.",
+    "stem": "If the statements above are true, which one of the following must also be true?",
+    "choices": {
+      "A": "Most of the telescopes at Kessing are reflectors.",
+      "B": "No reflector at Kessing has an aperture smaller than 30 centimeters.",
+      "C": "The observatory's largest telescope is a reflector.",
+      "D": "At least one refractor at Kessing has an aperture of exactly 30 centimeters.",
+      "E": "The observatory has more reflectors than it has refractors."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Unsupported: no counts of telescopes are given.",
+      "B": "Reversal: the limit is stated for refractors, not for reflectors.",
+      "C": "Correct. At 80 centimeters it exceeds the refractor limit, so it is not a refractor and must be a reflector.",
+      "D": "Extreme: the 30-centimeter figure is only an upper limit.",
+      "E": "Unsupported: no comparison of the numbers of the two types is possible."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "reversal",
+      "D": "extreme",
+      "E": "comparison_shift"
+    },
+    "keyTakeaway": "Eliminate the alternatives in an 'either-or' classification, using the limit given for one of them.",
+    "predictionHint": "Too big to be a refractor means reflector."
+  },
+  {
+    "id": "lr-l-fib-refurbished-appliances",
+    "section": "LR",
+    "type": "fill_in_blank",
+    "logicTags": [
+      "comparison",
+      "eliminating_options"
+    ],
+    "difficulty": 3,
+    "stimulus": "Shoppers often assume that a refurbished appliance is more likely to be defective than a new one. But a refurbished appliance sold by its manufacturer has been individually inspected, repaired, and tested before resale, whereas a new appliance is usually checked only through the testing of a small sample from the production line. Thus, ____.",
+    "stem": "Which one of the following most logically completes the argument?",
+    "choices": {
+      "A": "a refurbished appliance sold by its manufacturer is never defective",
+      "B": "a refurbished appliance sold by its manufacturer may be less likely to have an undetected defect than a new appliance is",
+      "C": "shoppers should always choose a refurbished appliance over a new one",
+      "D": "manufacturers earn more profit on refurbished appliances than on new ones",
+      "E": "inspecting every appliance individually is always more effective at finding defects than testing a sample"
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Extreme: testing reduces but does not eliminate defects, and 'never' overstates what is supported.",
+      "B": "Correct. Individual inspection of every unit gives a refurbished appliance a better chance of having its defects caught, which undercuts the shoppers' assumption, and the cautious 'may' fits the limited evidence.",
+      "C": "Wrong force: this is a prescription that goes well beyond the claim about defects.",
+      "D": "Out of scope: profit is not discussed.",
+      "E": "Extreme: 'always' and the general claim go beyond the one comparison made here."
+    },
+    "trapPatterns": {
+      "A": "extreme",
+      "C": "wrong_force",
+      "D": "out_of_scope",
+      "E": "extreme"
+    },
+    "keyTakeaway": "For fill-in-the-blank, choose the modest conclusion that the premises directly support, not a stronger or broader one.",
+    "predictionHint": "Refurbished units get individual testing, so defects are less likely to go undetected."
+  },
+  {
+    "id": "lr-l-method-sugar-tobacco-tax",
+    "section": "LR",
+    "type": "method_of_reasoning",
+    "logicTags": [
+      "analogy",
+      "value_judgment"
+    ],
+    "difficulty": 3,
+    "stimulus": "Politician: Critics say the tax on sugary drinks is unfair because it falls hardest on low-income consumers. But the tax on tobacco also falls hardest on low-income consumers, and almost no one, including these critics, regards the tobacco tax as unfair. So the critics' objection to the sugary-drink tax is not a good one.",
+    "stem": "The politician's argument proceeds by",
+    "choices": {
+      "A": "contrasting the sugary-drink tax with the tobacco tax to show that the former is more effective",
+      "B": "citing the opinions of experts to show that the sugary-drink tax is fair",
+      "C": "impugning the motives of the critics instead of answering their objection",
+      "D": "showing that the harm that the critics predict is merely hypothetical",
+      "E": "pointing out that a standard the critics apply to one tax would, if applied consistently, condemn a tax that they accept"
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Out of scope: effectiveness is not compared.",
+      "B": "Out of scope: no experts are cited.",
+      "C": "Wrong part: the politician engages the objection itself, not the critics' motives.",
+      "D": "Wrong part: the politician does not dispute that the burden falls on low-income consumers; the objection is answered another way.",
+      "E": "Correct. The politician uses the critics' own acceptance of the tobacco tax to show their stated standard is not one they consistently apply."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "out_of_scope",
+      "C": "wrong_part",
+      "D": "wrong_part"
+    },
+    "keyTakeaway": "When an argument appeals to a case the opponent accepts, the method is a consistency challenge.",
+    "predictionHint": "Same criterion, accepted case: inconsistency."
+  },
+  {
+    "id": "lr-l-inference-dunmore-docket",
+    "section": "LR",
+    "type": "inference",
+    "logicTags": [
+      "math_percent",
+      "quantifiers"
+    ],
+    "difficulty": 4,
+    "stimulus": "More than half of the cases on the Dunmore court's docket involve a government party. At least three quarters of the cases involving a government party are scheduled for trial in the spring.",
+    "stem": "Which one of the following can be properly inferred from the statements above?",
+    "choices": {
+      "A": "More than one third of the cases on the docket are scheduled for trial in the spring.",
+      "B": "More than two fifths of the cases on the docket are scheduled for trial in the spring.",
+      "C": "Most of the cases that do not involve a government party are scheduled for trial in the fall.",
+      "D": "Fewer than one quarter of the cases on the docket are scheduled for trial at a time other than the spring.",
+      "E": "Every case scheduled for trial in the spring involves a government party."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. Spring government cases are at least three quarters of more than half the docket, which is more than three eighths of the docket and so more than one third.",
+      "B": "Overreach: the guaranteed minimum is just over 37.5 percent, which does not reach 40 percent.",
+      "C": "Unsupported: the statements say nothing about when cases with no government party are tried.",
+      "D": "Unsupported: cases with no government party could all be scheduled outside the spring, pushing the figure above one quarter.",
+      "E": "Reversal: the statements say that most government cases are tried in spring, not that all spring cases involve a government party."
+    },
+    "trapPatterns": {
+      "B": "comparison_shift",
+      "C": "out_of_scope",
+      "D": "extreme",
+      "E": "reversal"
+    },
+    "keyTakeaway": "Multiply the proportions and compare to the thresholds in the answer choices; a guaranteed minimum supports only claims at or below it.",
+    "predictionHint": "More than 1/2 times at least 3/4 is more than 3/8."
+  }
+]

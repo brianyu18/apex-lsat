@@ -1,0 +1,1096 @@
+[
+  {
+    "id": "lr-m-flaw-cattail-frog-eggs",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 1,
+    "stimulus": "Biologist: Last spring we surveyed twelve ponds in the Marrow Valley. Ponds with dense cattail growth held far more tree frog eggs than ponds without cattails. Evidently cattails cause tree frogs to lay more eggs, so clearing the cattails from the valley's ponds would reduce the number of eggs laid there.",
+    "stem": "The reasoning in the argument is most vulnerable to criticism on the grounds that it",
+    "choices": {
+      "A": "fails to consider that cattail removal might also affect species other than tree frogs",
+      "B": "relies on a survey of only twelve ponds, a sample too small to reveal any correlation between cattails and eggs",
+      "C": "treats an association between cattails and egg numbers as showing that cattails produce the egg numbers",
+      "D": "assumes that the ponds surveyed last spring will resemble the valley's ponds in other years",
+      "E": "overlooks that more eggs laid does not guarantee that more adult frogs will result"
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Out of scope: the conclusion concerns only the number of eggs laid, so effects on other species do not bear on it.",
+      "B": "Extreme: a small sample may be weak support, but it cannot make a correlation impossible to detect, and the survey did find one; the real gap is causal.",
+      "C": "Correct. The survey shows only that cattails and eggs go together. Some other factor, such as shallow warm water, could favor both, in which case clearing cattails would change nothing.",
+      "D": "True but irrelevant: the conclusion is about the present effect of clearing cattails, not about future springs.",
+      "E": "Wrong part: the conclusion is about eggs laid, not about adult frogs."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "extreme",
+      "D": "true_but_irrelevant",
+      "E": "wrong_part"
+    },
+    "keyTakeaway": "When a correlation is turned into a plan of action, look for a third factor that could produce both halves of the correlation.",
+    "predictionHint": "Correlation to cause: something else may favor both cattails and egg laying."
+  },
+  {
+    "id": "lr-m-flaw-overpainted-mural",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "sampling"
+    ],
+    "difficulty": 2,
+    "stimulus": "Restorer: When we stripped the overpaint that was applied to the 1920s lobby mural of the Halvorsen Library in the 1950s, the original colors beneath were vivid and undamaged. We can therefore expect that any mural that has been overpainted will have well-preserved colors underneath.",
+    "stem": "The argument is flawed in that it",
+    "choices": {
+      "A": "draws a conclusion about all overpainted murals from the condition of a single mural that may be atypical",
+      "B": "overlooks the possibility that the process of stripping the overpaint damaged some of the original colors beneath it",
+      "C": "ignores that the mural was painted in the 1920s rather than in a later decade",
+      "D": "mistakes the overpainting of a mural for a result of its colors having been well preserved",
+      "E": "assumes that the restorer's standard for vivid color matches that of art historians"
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. One mural in good condition is a thin basis for a claim about every overpainted mural; its good condition may be unusual.",
+      "B": "Contradicted by the premise: the colors were found undamaged after the overpaint was stripped.",
+      "C": "Out of scope: the decade of painting is never used as a basis for the conclusion.",
+      "D": "Reversal: the argument never claims that preservation caused the overpainting.",
+      "E": "True but irrelevant: whose standard of vividness is used does not affect the sampling gap."
+    },
+    "trapPatterns": {
+      "B": "opposite",
+      "C": "out_of_scope",
+      "D": "reversal",
+      "E": "true_but_irrelevant"
+    },
+    "keyTakeaway": "A single instance cannot support a universal expectation unless it is shown to be typical.",
+    "predictionHint": "One mural to all overpainted murals: unrepresentative sample."
+  },
+  {
+    "id": "lr-m-flaw-overnight-parking-ban",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "causation",
+      "sampling"
+    ],
+    "difficulty": 2,
+    "stimulus": "Resident: The city's study found that no block with a ban on overnight street parking had more than two break-ins last year, while many blocks without such a ban had far more. So if our block adopts a ban on overnight parking, our block will have no more than two break-ins a year.",
+    "stem": "The reasoning in the argument is most vulnerable to criticism on the grounds that it",
+    "choices": {
+      "A": "fails to specify how many blocks the city's study examined",
+      "B": "assumes that break-ins are the only reason residents might want an overnight parking ban",
+      "C": "overlooks that some blocks without a ban had no more break-ins than blocks with one",
+      "D": "assumes that what held of blocks with bans will hold of our block once it adopts one, though those blocks may differ from ours",
+      "E": "presumes that the city will enforce the ban once it is adopted"
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Wrong force: the number of blocks might matter to the strength of the evidence, but the argument's central problem is the leap from other blocks to ours.",
+      "B": "Out of scope: the conclusion is about the number of break-ins, not about residents' reasons for wanting the ban.",
+      "C": "True but irrelevant: the premise says only that many blocks without bans had more, and blocks that did equally well do not repair the inference.",
+      "D": "Correct. Blocks with bans may have had few break-ins for other reasons, such as lighting or location, so the ban need not be what keeps the count low on any block, including ours.",
+      "E": "Wrong part: enforcement is a practical matter, not the logical gap in moving from the study to the prediction."
+    },
+    "trapPatterns": {
+      "A": "wrong_force",
+      "B": "out_of_scope",
+      "C": "true_but_irrelevant",
+      "E": "wrong_part"
+    },
+    "keyTakeaway": "When a result from one group is projected onto another, ask what else differs between the groups.",
+    "predictionHint": "Blocks with bans may differ from ours in other relevant ways, and the ban may not be the cause."
+  },
+  {
+    "id": "lr-m-flaw-feeder-survey-dismissed",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "causation",
+      "lack_of_support_v_false"
+    ],
+    "difficulty": 3,
+    "stimulus": "Ornithologist: Backyards with feeders host more songbird species than backyards without them, which shows that feeders attract songbirds. A recent neighborhood survey found that backyards where feeders were newly installed showed no rise in the number of songbird species. This result must therefore reflect a survey conducted too soon after installation to detect the increase.",
+    "stem": "The reasoning in the argument is most vulnerable to criticism on the grounds that it",
+    "choices": {
+      "A": "treats the survey's failure to find an increase as proof that no increase occurred",
+      "B": "dismisses evidence against its claim by assuming that very claim to be true",
+      "C": "relies on a survey of backyards rather than of public parks",
+      "D": "assumes that feeders attract no birds other than songbirds",
+      "E": "infers that feeders attract every songbird species from the fact that they attract some"
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Opposite: the ornithologist rejects the survey's finding rather than accepting it as proof of absence.",
+      "B": "Correct. The comparison of backyards could reflect something other than the feeders, such as owners who like birds. The ornithologist treats the feeders' attraction as settled and explains away the survey that tells against it.",
+      "C": "Out of scope: the claim concerns backyards, so where else birds might be surveyed does not matter.",
+      "D": "Out of scope: other kinds of birds are never discussed or needed.",
+      "E": "Wrong part: the argument says feeders attract songbirds generally and does not claim every species is attracted."
+    },
+    "trapPatterns": {
+      "A": "opposite",
+      "C": "out_of_scope",
+      "D": "out_of_scope",
+      "E": "wrong_part"
+    },
+    "keyTakeaway": "If an author explains away contrary evidence only by presupposing the thesis, the reasoning is circular.",
+    "predictionHint": "The author uses the disputed claim to throw out the survey that disputes it."
+  },
+  {
+    "id": "lr-m-flaw-donated-paintings-east-wing",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "quantifiers"
+    ],
+    "difficulty": 4,
+    "stimulus": "Curator: Most of the paintings donated to the museum by private collectors hang in the east wing. Most of the paintings in the east wing were created before 1900. Therefore, most of the donated paintings were created before 1900.",
+    "stem": "The reasoning in the argument is most vulnerable to criticism on the grounds that it",
+    "choices": {
+      "A": "infers that all of the donated paintings hang in the east wing because most of them do",
+      "B": "treats the claim that most east-wing paintings predate 1900 as a claim about every east-wing painting",
+      "C": "overlooks the possibility that most of the paintings created before 1900 were never donated",
+      "D": "assumes that paintings created before 1900 are especially likely to be donated by private collectors",
+      "E": "fails to rule out that the donated paintings in the east wing are mostly among those created after 1900"
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Opposite: the premise and conclusion keep the word 'most'; no claim about all donated paintings is made.",
+      "B": "Wrong part: the argument uses 'most' consistently and never upgrades it to 'every'.",
+      "C": "True but irrelevant: it is entirely compatible with most donated paintings being pre-1900, so it exposes no gap. The relevant overlap is between the donated paintings and the pre-1900 ones, not the reverse proportion.",
+      "D": "Necessary v. sufficient: the conclusion does not need pre-1900 works to be especially likely donations; the gap lies in how the two majorities overlap.",
+      "E": "Correct. The two 'most' claims concern different groups. The donated paintings in the east wing could all be in the minority of the wing created after 1900, so the donated set need not be mostly pre-1900."
+    },
+    "trapPatterns": {
+      "A": "opposite",
+      "B": "wrong_part",
+      "C": "true_but_irrelevant",
+      "D": "necessary_v_sufficient"
+    },
+    "keyTakeaway": "Two 'most' statements chained across different groups need not overlap in the way the conclusion requires.",
+    "predictionHint": "The donated paintings in the east wing may be exactly the post-1900 minority."
+  },
+  {
+    "id": "lr-m-mss-boardwalk-herons",
+    "section": "LR",
+    "type": "most_strongly_supported",
+    "logicTags": [
+      "comparison"
+    ],
+    "difficulty": 1,
+    "stimulus": "At the Fenwick Marsh boardwalk, most visitors who arrive in the early morning see at least one heron. Among visitors who arrive after noon, fewer than a third do.",
+    "stem": "Which one of the following is most strongly supported by the information above?",
+    "choices": {
+      "A": "Herons are more active in the morning than at any other time of day.",
+      "B": "A visitor who arrives after noon is less likely to see a heron than one who arrives in the early morning.",
+      "C": "Most visitors to the boardwalk arrive in the early morning, before the afternoon crowds of families and school groups.",
+      "D": "Fewer than a third of all visitors to the boardwalk see a heron.",
+      "E": "Visitors who arrive after noon see no herons because the herons leave the marsh by midday."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Extreme: 'at any other time of day' goes beyond two time periods, and sighting rates do not measure activity.",
+      "B": "Correct. A rate above one half for morning visitors and below one third for afternoon visitors supports the comparison.",
+      "C": "Out of scope: the passage says nothing about how many visitors come at each time.",
+      "D": "Shell game: the figure applies only to afternoon arrivals, and morning arrivals mostly see a heron.",
+      "E": "Extreme: some afternoon visitors may still see herons, and no cause is given."
+    },
+    "trapPatterns": {
+      "A": "extreme",
+      "C": "out_of_scope",
+      "D": "shell_game",
+      "E": "extreme"
+    },
+    "keyTakeaway": "Rates stated for two groups support a comparison between them, but not claims about causes or about the total.",
+    "predictionHint": "Morning visitors are more likely than afternoon visitors to see herons."
+  },
+  {
+    "id": "lr-m-mss-kestrel-trail-flood",
+    "section": "LR",
+    "type": "most_strongly_supported",
+    "logicTags": [
+      "conditional"
+    ],
+    "difficulty": 2,
+    "stimulus": "The Kestrel Trail is closed whenever the stream crossing is flooded. The crossing floods only after heavy rain upstream. Heavy rain was recorded upstream on Tuesday, but the ranger station reported on Wednesday morning that the Kestrel Trail was open.",
+    "stem": "Which one of the following is most strongly supported by the information above?",
+    "choices": {
+      "A": "The crossing did not flood at any time on Tuesday.",
+      "B": "The Kestrel Trail is closed only when the crossing is flooded.",
+      "C": "The crossing floods whenever there is heavy rain upstream.",
+      "D": "The Kestrel Trail was open on Tuesday.",
+      "E": "The crossing was not flooded on Wednesday morning."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Unsupported: rain on Tuesday could have flooded the crossing for a time, with the trail closed and then reopened.",
+      "B": "Reversal: the trail is closed whenever the crossing is flooded, which leaves open other reasons for closing it.",
+      "C": "Necessary v. sufficient: heavy rain is stated as necessary for flooding, not as sufficient for it.",
+      "D": "Unsupported: nothing is said about the trail's status on Tuesday.",
+      "E": "Correct. Flooded implies closed, so an open trail implies the crossing was not flooded."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "reversal",
+      "C": "necessary_v_sufficient",
+      "D": "out_of_scope"
+    },
+    "keyTakeaway": "Contrapositive the conditional that links the stated facts, and watch for reversed conditionals among the choices.",
+    "predictionHint": "Open trail means no flood on Wednesday morning."
+  },
+  {
+    "id": "lr-m-mss-celadon-glaze-leach",
+    "section": "LR",
+    "type": "most_strongly_supported",
+    "logicTags": [
+      "conditional",
+      "lack_of_support_v_false"
+    ],
+    "difficulty": 3,
+    "stimulus": "Ceramicists generally agree that a glaze fired below cone 6 cannot be considered food-safe unless it has been tested for leaching. The Hallam studio's celadon glaze is fired at cone 5, and no leach test of it has ever been performed. Even so, several customers have eaten from Hallam celadon bowls for years without reporting any illness.",
+    "stem": "The statements above, if true, most strongly support which one of the following?",
+    "choices": {
+      "A": "By the standard that ceramicists generally accept, Hallam's celadon glaze cannot be considered food-safe.",
+      "B": "Hallam's celadon glaze leaches harmful substances into food.",
+      "C": "Any glaze that is fired at cone 6 or above can be considered food-safe even if it has never been tested for leaching.",
+      "D": "The customers who eat from Hallam celadon bowls are being harmed without realizing it.",
+      "E": "A leach test of Hallam's celadon glaze would show that the glaze is unsafe."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. The glaze is below cone 6 and untested, so the generally agreed standard denies it the food-safe label.",
+      "B": "Extreme: failing to meet a standard of testing does not show that the glaze actually leaches.",
+      "C": "Necessary v. sufficient: the agreed condition is stated for glazes below cone 6 and says nothing about those at or above it.",
+      "D": "Extreme: the customers' lack of reported illness gives no support to the idea that they are being harmed.",
+      "E": "Extreme: an untested glaze might pass a test, so no particular result can be predicted."
+    },
+    "trapPatterns": {
+      "B": "extreme",
+      "C": "necessary_v_sufficient",
+      "D": "extreme",
+      "E": "extreme"
+    },
+    "keyTakeaway": "Failing a standard of proof is not the same as being shown false; choose the claim that stays within the standard.",
+    "predictionHint": "Below cone 6 and untested means it fails the accepted food-safety standard."
+  },
+  {
+    "id": "lr-m-na-willow-creek-trout",
+    "section": "LR",
+    "type": "necessary_assumption",
+    "logicTags": [
+      "causation",
+      "link_assumption"
+    ],
+    "difficulty": 2,
+    "stimulus": "Fisheries officer: Six years ago the county replanted the banks of Larch Creek with native willows. Since then the creek's water temperature has dropped and its brook trout count has risen. The willows' shade must be responsible for the trout recovery. Therefore, replanting willows along the county's other warm creeks will help the trout there as well.",
+    "stem": "The argument depends on assuming which one of the following?",
+    "choices": {
+      "A": "Larch Creek's trout count would have risen even without the replanting.",
+      "B": "Willows are the only kind of tree whose shade can lower the temperature of a creek enough to benefit its trout.",
+      "C": "Warm water is one of the factors keeping trout numbers down in the county's other warm creeks.",
+      "D": "Trout counts in all of the county's creeks were falling before the replanting at Larch Creek.",
+      "E": "The county has enough funds to replant the banks of every warm creek."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Opposite: if the count would have risen anyway, the willows would not be responsible, which undermines the argument.",
+      "B": "Extreme: the argument concerns willows only and does not need them to be the sole source of cooling shade.",
+      "C": "Correct. If warmth did not limit trout in the other creeks, cooler water from willow shade would give them no help, and the conclusion would fail.",
+      "D": "Out of scope: trends before the replanting are not needed for the claim about what replanting will do.",
+      "E": "Out of scope: the funding of a plan does not affect whether the plan would help trout if carried out."
+    },
+    "trapPatterns": {
+      "A": "opposite",
+      "B": "extreme",
+      "D": "out_of_scope",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "When a result is projected to new sites, the assumption is that the new sites share the feature through which the cause worked.",
+    "predictionHint": "Warm water must be a problem for trout in the other creeks too."
+  },
+  {
+    "id": "lr-m-na-calder-bike-lane",
+    "section": "LR",
+    "type": "necessary_assumption",
+    "logicTags": [
+      "weighing_factors",
+      "link_assumption"
+    ],
+    "difficulty": 3,
+    "stimulus": "Councilmember: The proposal to replace one lane of Calder Avenue with a protected bike lane should be rejected. Retailers on the avenue report that their sales fall whenever nearby parking spaces disappear, and the lane would eliminate about forty street parking spaces that the city has no plan to replace.",
+    "stem": "Which one of the following is an assumption required by the councilmember's argument?",
+    "choices": {
+      "A": "Protected bike lanes cost more to build than ordinary traffic lanes.",
+      "B": "No bike lane in the city has ever been removed after it was installed.",
+      "C": "The effect of the lane on retailers' sales is the only consideration that bears on whether the lane should be built.",
+      "D": "The bike lane would not bring the avenue's retailers enough new customers to offset the sales lost with the parking.",
+      "E": "Most customers of the avenue's retailers currently arrive by car."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Out of scope: construction cost is not mentioned and is not needed to reach the conclusion.",
+      "B": "Out of scope: the permanence of other lanes plays no role in the argument.",
+      "C": "Extreme: the councilmember needs only that the sales harm is not outweighed, not that no other consideration exists. Even a mix of considerations could still favor rejection.",
+      "D": "Correct. If new cyclists would make up for the lost sales, the premise about falling sales would not support rejection. Denying this choice undermines the argument.",
+      "E": "Wrong force: a majority of customers driving is more than needed. Retailers' reports of falling sales already show that parking matters."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "out_of_scope",
+      "C": "extreme",
+      "E": "wrong_force"
+    },
+    "keyTakeaway": "Negate each choice: if the argument survives the negation, the choice is not required.",
+    "predictionHint": "The new cyclist customers must not make up for the sales lost with the parking."
+  },
+  {
+    "id": "lr-m-na-orsini-lapis-ledgers",
+    "section": "LR",
+    "type": "necessary_assumption",
+    "logicTags": [
+      "lack_of_support_v_false",
+      "link_assumption"
+    ],
+    "difficulty": 4,
+    "stimulus": "Art historian: The Orsini altarpiece cannot be the work of Master Renier's workshop. Like every workshop of its period, Renier's bought all of its pigments from the guild apothecary, and the apothecary's surviving ledgers, which cover every year the workshop was active, list no sale of lapis lazuli to it. Yet the altarpiece's blue is made from lapis lazuli.",
+    "stem": "The argument depends on assuming which one of the following?",
+    "choices": {
+      "A": "Any lapis lazuli the apothecary sold to Renier's workshop would have been entered in the surviving ledgers.",
+      "B": "Every sale of lapis lazuli that the apothecary made to any workshop of the period was entered in the surviving ledgers.",
+      "C": "Renier's workshop never used lapis lazuli in any of its other known works.",
+      "D": "No workshop other than Renier's could have painted the altarpiece.",
+      "E": "The apothecary sold lapis lazuli to at least some workshops of the period."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. The conclusion rests on the absence of a recorded sale. If a sale to Renier's workshop could have gone unrecorded, the absence would show nothing.",
+      "B": "Extreme: this reaches every workshop's purchases, but the argument concerns only sales to Renier's workshop. Unrecorded sales to other workshops would not hurt the argument, so it is not required.",
+      "C": "Out of scope: other works by the workshop do not matter to whether it painted this one.",
+      "D": "Wrong part: the claim that the workshop did not paint it does not require identifying who could have.",
+      "E": "True but irrelevant: whether the apothecary sold lapis to anyone else is not needed to show that Renier's workshop did not buy it."
+    },
+    "trapPatterns": {
+      "B": "extreme",
+      "C": "out_of_scope",
+      "D": "wrong_part",
+      "E": "true_but_irrelevant"
+    },
+    "keyTakeaway": "An argument from absent records requires that the records would have captured the relevant event, and only for the relevant party.",
+    "predictionHint": "The ledgers would have recorded any lapis sale to Renier's workshop."
+  },
+  {
+    "id": "lr-m-weaken-otters-kelp",
+    "section": "LR",
+    "type": "weaken",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 1,
+    "stimulus": "Marine biologist: Two years ago sea otters returned to Pelham Cove, and since then the cove's kelp forest has grown noticeably denser. Otters eat the urchins that graze on kelp. Therefore, the otters' return is responsible for the denser kelp.",
+    "stem": "Which one of the following, if true, most seriously weakens the argument?",
+    "choices": {
+      "A": "Otters in Pelham Cove eat crabs as well as urchins.",
+      "B": "Biologists expect the number of otters in the cove to keep rising.",
+      "C": "Urchins graze on kelp in Pelham Cove.",
+      "D": "Kelp forests in neighboring coves where no otters returned grew denser by a similar amount over the same two years.",
+      "E": "Pelham Cove's kelp forest was sparser two years ago than it had been a decade earlier, before the urchin population boomed."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "True but irrelevant: other foods eaten by otters do not affect whether the otters caused the kelp to grow.",
+      "B": "Out of scope: future otter numbers say nothing about the cause of the past increase.",
+      "C": "Opposite: this supports the mechanism the biologist describes.",
+      "D": "Correct. If kelp grew denser just as much where otters did not return, some other factor probably explains the growth.",
+      "E": "Wrong force: this describes an earlier decline but leaves open that the otters caused the recent recovery."
+    },
+    "trapPatterns": {
+      "A": "true_but_irrelevant",
+      "B": "out_of_scope",
+      "C": "opposite",
+      "E": "wrong_force"
+    },
+    "keyTakeaway": "The classic way to weaken a cause claim is to show the effect also occurred without the cause.",
+    "predictionHint": "Kelp grew where there were no otters."
+  },
+  {
+    "id": "lr-m-weaken-quiet-hours-complaints",
+    "section": "LR",
+    "type": "weaken",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 2,
+    "stimulus": "Neighborhood association president: Since the city adopted its 10 p.m. quiet-hours ordinance last year, complaints to the city noise line from Maple Heights have dropped by half. So the ordinance has made Maple Heights quieter at night.",
+    "stem": "Which one of the following, if true, most seriously weakens the argument?",
+    "choices": {
+      "A": "Complaints to the noise line from other neighborhoods in the city also dropped by roughly half over the same period after the ordinance.",
+      "B": "Maple Heights residents have learned that the noise line is rarely answered after 10 p.m., and many have stopped calling it.",
+      "C": "Some Maple Heights residents sleep through even loud noise.",
+      "D": "The ordinance carries a fine for noise above a set volume.",
+      "E": "The ordinance was drafted after Maple Heights residents submitted a petition."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "True but irrelevant: the ordinance applies citywide, so similar drops elsewhere are what one would expect if it worked.",
+      "B": "Correct. The drop in complaints may reflect residents giving up on the line rather than less noise, which breaks the link between fewer complaints and quieter nights.",
+      "C": "Out of scope: a few heavy sleepers do not explain a halving of complaints.",
+      "D": "Opposite: a penalty gives a reason for noise to fall, supporting the claim.",
+      "E": "True but irrelevant: who prompted the ordinance does not bear on its effect."
+    },
+    "trapPatterns": {
+      "A": "true_but_irrelevant",
+      "C": "out_of_scope",
+      "D": "opposite",
+      "E": "true_but_irrelevant"
+    },
+    "keyTakeaway": "When a measure is a proxy for the real outcome, attack the link between the proxy and the outcome.",
+    "predictionHint": "Fewer complaints could reflect fewer people calling, not less noise."
+  },
+  {
+    "id": "lr-m-weaken-harrow-portrait-hands",
+    "section": "LR",
+    "type": "weaken",
+    "logicTags": [
+      "lack_of_support_v_false"
+    ],
+    "difficulty": 3,
+    "stimulus": "Curator: The portrait of Lady Aldous cannot be the work of the painter Harrow. Every one of Harrow's authenticated portraits shows the sitter's hands, whereas the Aldous portrait ends at the shoulders. A painter's habits of composition are among the most reliable marks of authorship.",
+    "stem": "Which one of the following, if true, most seriously calls into question the curator's argument?",
+    "choices": {
+      "A": "More than half of Harrow's portraits were painted for sitters who lived outside the city.",
+      "B": "Several portraits by other painters of Harrow's period also show only the head and shoulders of the sitter.",
+      "C": "The Aldous portrait was trimmed from a larger canvas at some point after it was painted.",
+      "D": "None of Harrow's authenticated portraits carries a signature.",
+      "E": "Harrow's workshop kept no records of the sitters it painted."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Out of scope: where the sitters lived has no bearing on whether the composition is Harrow's.",
+      "B": "True but irrelevant: other painters' habits do not show that Harrow ever painted a portrait without hands.",
+      "C": "Correct. If the canvas was cut down, the portrait may once have shown the hands, so its present shape no longer shows that it differs from Harrow's habit.",
+      "D": "True but irrelevant: the absence of signatures gives no reason to think the Aldous portrait fits Harrow's habit.",
+      "E": "Out of scope: missing workshop records leave the curator's evidence from composition untouched."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "true_but_irrelevant",
+      "D": "true_but_irrelevant",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "To weaken an argument from a mismatch, show that the mismatch is only apparent.",
+    "predictionHint": "The portrait may originally have shown hands and later been cut down."
+  },
+  {
+    "id": "lr-m-resolve-owls-logged-hollow",
+    "section": "LR",
+    "type": "resolve_explain",
+    "logicTags": [
+      "eliminating_options"
+    ],
+    "difficulty": 2,
+    "stimulus": "Ecologist: A logging company cleared a third of the mature forest in Tern Hollow. Barred owls nest only in mature forest, yet over the two years that followed, the number of barred owl nesting pairs in the hollow increased.",
+    "stem": "Which one of the following, if true, most helps to resolve the apparent paradox?",
+    "choices": {
+      "A": "Barred owls hunt more successfully over cleared land than over mature forest.",
+      "B": "The logging company replanted the cleared areas with saplings of native trees.",
+      "C": "The number of barred owl nesting pairs in the hollow had been falling steadily in the years before the logging began.",
+      "D": "Barred owls that nest in the hollow breed more successfully than those that nest elsewhere.",
+      "E": "Owls displaced from the more heavily logged surrounding forests moved into the hollow's remaining mature forest."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Half right: better hunting on cleared land might attract owls, but it does not tell us where the added pairs could nest, since they nest only in mature forest.",
+      "B": "Out of scope: saplings are not mature forest, so replanting would not give the owls nesting sites.",
+      "C": "Out of scope: an earlier decline does not explain why pairs would rise after the forest shrank.",
+      "D": "True but irrelevant: breeding success elsewhere does not account for more nesting pairs in a smaller area of suitable forest.",
+      "E": "Correct. Displaced owls crowding into the remaining mature forest would raise the number of pairs there even though the forest shrank."
+    },
+    "trapPatterns": {
+      "A": "half_right",
+      "B": "out_of_scope",
+      "C": "out_of_scope",
+      "D": "true_but_irrelevant"
+    },
+    "keyTakeaway": "A good resolution supplies a new factor that lets both surprising facts hold at once.",
+    "predictionHint": "Owls displaced from elsewhere moved into the remaining mature forest."
+  },
+  {
+    "id": "lr-m-resolve-bronze-hall-visits",
+    "section": "LR",
+    "type": "resolve_explain",
+    "logicTags": [
+      "eliminating_options"
+    ],
+    "difficulty": 1,
+    "stimulus": "After a city museum moved its bronze sculpture hall from the second floor to the ground floor, the number of people entering the hall each day rose sharply. Yet visitor surveys taken since the move show that fewer visitors than before say that the sculptures were a reason for their visit.",
+    "stem": "Which one of the following, if true, most helps to explain the discrepancy described above?",
+    "choices": {
+      "A": "The hall is now beside the main entrance, so many visitors pass through it on the way elsewhere.",
+      "B": "The ground floor hall is larger than the second floor hall used to be.",
+      "C": "The museum has added several well-known bronzes to its sculpture collection since the hall was moved to the ground floor.",
+      "D": "Attendance at the museum as a whole has risen since the move.",
+      "E": "The visitor surveys were given to randomly selected visitors."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. If visitors pass through the hall on the way elsewhere, more people enter it without more of them coming for the sculptures.",
+      "B": "Out of scope: the hall's size does not explain why visitors give a different reason for coming.",
+      "C": "Opposite: new bronzes would make more visitors cite the sculptures, deepening the puzzle.",
+      "D": "Half right: it explains more people in the hall but not why fewer cite the sculptures.",
+      "E": "True but irrelevant: random selection makes the surveys reliable, which sharpens rather than resolves the discrepancy."
+    },
+    "trapPatterns": {
+      "B": "out_of_scope",
+      "C": "opposite",
+      "D": "half_right",
+      "E": "true_but_irrelevant"
+    },
+    "keyTakeaway": "Resolve a discrepancy by finding a reason that one fact can rise while the other falls.",
+    "predictionHint": "People now pass through the hall without coming for the bronzes."
+  },
+  {
+    "id": "lr-m-strengthen-tidewater-bleaching",
+    "section": "LR",
+    "type": "strengthen",
+    "logicTags": [
+      "causation",
+      "eliminating_options"
+    ],
+    "difficulty": 1,
+    "stimulus": "Marine ecologist: Reefs near the Tidewater resort show widespread coral bleaching, while reefs forty kilometers up the coast, which are visited by far fewer tourists, show almost none. So tourist activity must be a cause of the bleaching near the resort.",
+    "stem": "Which one of the following, if true, most strengthens the argument?",
+    "choices": {
+      "A": "Coral bleaching has been observed on reefs all over the world.",
+      "B": "Water temperature, depth, and coral species are the same along the two stretches of coast.",
+      "C": "Tourists at the resort rarely touch or stand on the coral.",
+      "D": "The resort plans to limit the number of visitors it accepts each day beginning with the coming season.",
+      "E": "Bleaching near the resort began before the resort opened."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "True but irrelevant: bleaching elsewhere does not show what caused it near the resort.",
+      "B": "Correct. It rules out other differences between the two sites, so tourism is a more likely explanation for the difference in bleaching.",
+      "C": "Opposite: it removes a way that tourists would damage the coral, weakening the claim.",
+      "D": "Out of scope: a future plan says nothing about the cause of present bleaching.",
+      "E": "Opposite: bleaching that predates the resort suggests tourists are not the cause."
+    },
+    "trapPatterns": {
+      "A": "true_but_irrelevant",
+      "C": "opposite",
+      "D": "out_of_scope",
+      "E": "opposite"
+    },
+    "keyTakeaway": "To strengthen a cause claim drawn from a comparison, rule out other differences between the compared cases.",
+    "predictionHint": "The two coasts are otherwise alike, leaving tourists as the difference."
+  },
+  {
+    "id": "lr-m-strengthen-hedge-tomatoes",
+    "section": "LR",
+    "type": "strengthen",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 2,
+    "stimulus": "Homeowner: The hedge my neighbor planted along our shared boundary is why my tomato harvest dropped by a third this year. Before the hedge grew up, my tomato bed received direct sun from midmorning on; this year it has lain in the hedge's shade until midafternoon.",
+    "stem": "Which one of the following, if true, most strengthens the homeowner's argument?",
+    "choices": {
+      "A": "The neighbor planted the hedge mainly to gain privacy.",
+      "B": "Several other homeowners on the street have hedges along their boundaries.",
+      "C": "Tomato plants need many hours of direct sunlight each day to produce a full crop.",
+      "D": "The homeowner grew a different variety of tomato this year than in earlier years.",
+      "E": "Gardens on the street that were not newly shaded also produced about a third less this year."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Out of scope: the neighbor's motive has no bearing on what the shade did to the tomatoes.",
+      "B": "Out of scope: hedges elsewhere on the street do not show what happened in this bed.",
+      "C": "Correct. It supplies the link between less direct sun and a smaller crop, making shade a plausible cause of the drop.",
+      "D": "Opposite: a new variety offers an alternative explanation for the drop.",
+      "E": "Opposite: a similar drop in unshaded gardens points to a common cause other than the hedge."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "out_of_scope",
+      "D": "opposite",
+      "E": "opposite"
+    },
+    "keyTakeaway": "Strengthen a cause claim by confirming the mechanism that connects the proposed cause to the effect.",
+    "predictionHint": "Tomatoes need the sunlight the hedge now blocks."
+  },
+  {
+    "id": "lr-m-psa-wrenfield-boardwalk-blame",
+    "section": "LR",
+    "type": "pseudo_sufficient_assumption",
+    "logicTags": [
+      "value_judgment",
+      "rule_application"
+    ],
+    "difficulty": 4,
+    "stimulus": "Columnist: Councilmember Lund is not to blame for the erosion of the Wrenfield dunes. True, she voted to build the boardwalk that brought heavy foot traffic across them. But the engineers' report she relied on when she voted assured the council that the boardwalk would do the dunes no harm.",
+    "stem": "Which one of the following principles, if valid, most helps to justify the columnist's reasoning?",
+    "choices": {
+      "A": "Officials who vote for a project are to blame for its harmful effects only if they intended those effects.",
+      "B": "Officials who vote for a project are not to blame for its harmful effects if they relied on the best available expert advice in voting.",
+      "C": "Officials are to blame for the harmful effects of a project only if they could have foreseen those effects.",
+      "D": "Officials are to blame for harm caused by a project they voted for only if the project's own engineers were also at fault.",
+      "E": "Someone who acts on an expert's assurance that an action is harmless is not to blame for its harmful effects."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Necessary v. sufficient: lack of intent would clear her, but the passage never says she lacked intent, so the principle does not apply to the facts given.",
+      "B": "Premise booster: it requires that the report was the best available advice, which the passage never says. The word 'best' leaves the principle unmet by the stated facts.",
+      "C": "Necessary v. sufficient: the passage does not say she could not have foreseen the harm, so nothing triggers this condition.",
+      "D": "Out of scope: the engineers' fault is not mentioned, and the principle gives only a condition that blame requires.",
+      "E": "Correct. She relied on an engineers' report assuring that the boardwalk would be harmless, which is exactly the situation the principle covers, so it supports the conclusion that she is not to blame."
+    },
+    "trapPatterns": {
+      "A": "necessary_v_sufficient",
+      "B": "premise_booster",
+      "C": "necessary_v_sufficient",
+      "D": "out_of_scope"
+    },
+    "keyTakeaway": "A principle justifies a conclusion only if its trigger matches the stated facts without adding new ones.",
+    "predictionHint": "Acting on an expert's assurance of harmlessness removes blame for resulting harm."
+  },
+  {
+    "id": "lr-m-psa-pruitt-mural-comments",
+    "section": "LR",
+    "type": "pseudo_sufficient_assumption",
+    "logicTags": [
+      "rule_application",
+      "definition_scope"
+    ],
+    "difficulty": 3,
+    "stimulus": "Of the nineteen neighbors who submitted comments on the proposed mural for the side wall of the Pruitt hardware store, none objected to it. The mural should therefore be approved.",
+    "stem": "Which one of the following principles, if valid, most helps to justify the reasoning above?",
+    "choices": {
+      "A": "A proposed change to a building's exterior should be approved if no neighbor of the building objects to it.",
+      "B": "A proposed change to a building's exterior should be approved only if no neighbor of the building objects to it.",
+      "C": "A proposed change to a building's exterior should be approved if the owner of the building has requested it.",
+      "D": "A proposed change to a building's exterior should be approved if none of the neighbors who commented on it objected.",
+      "E": "A proposed change to a building's exterior should be rejected if the neighbors who commented on it were divided."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Shell game: it speaks of every neighbor, but the passage reports only on neighbors who submitted comments, so its condition may not be met.",
+      "B": "Necessary v. sufficient: it makes lack of objection required, not enough, so it cannot yield approval.",
+      "C": "Out of scope: the owner's request is not mentioned.",
+      "D": "Correct. It matches the stated fact, that none of the commenting neighbors objected, and makes it sufficient for approval.",
+      "E": "Opposite in direction: it addresses rejection when neighbors are divided, which is not the situation described."
+    },
+    "trapPatterns": {
+      "A": "shell_game",
+      "B": "necessary_v_sufficient",
+      "C": "out_of_scope",
+      "E": "opposite"
+    },
+    "keyTakeaway": "Match the principle's trigger to the exact group the stimulus describes, not a larger one.",
+    "predictionHint": "If no commenting neighbor objects, a change should be approved."
+  },
+  {
+    "id": "lr-m-sa-linden-bridge-trucks",
+    "section": "LR",
+    "type": "sufficient_assumption",
+    "logicTags": [
+      "conditional"
+    ],
+    "difficulty": 1,
+    "stimulus": "City engineer: The Linden Street bridge should be closed to trucks. Last winter's inspection found cracks in its main support beams, and a bridge with cracked support beams is unsafe for heavy loads.",
+    "stem": "The conclusion follows logically if which one of the following is assumed?",
+    "choices": {
+      "A": "Any bridge that is unsafe for heavy loads should be closed to trucks.",
+      "B": "Cracks in a bridge's support beams can be repaired.",
+      "C": "Trucks are the only heavy vehicles that cross the Linden Street bridge.",
+      "D": "The Linden Street bridge is the only route across the river.",
+      "E": "Bridges in the city are inspected every winter."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. The premises establish that the bridge is unsafe for heavy loads. With this principle, it follows that the bridge should be closed to trucks.",
+      "B": "Out of scope: the possibility of repair does not connect unsafe loads to closing the bridge.",
+      "C": "Out of scope: other heavy vehicles are irrelevant, and the link from unsafe to closed is still missing.",
+      "D": "Out of scope: being the only route would, if anything, argue against closing the bridge.",
+      "E": "Out of scope: the inspection schedule does not link the finding to the conclusion."
+    },
+    "trapPatterns": {
+      "B": "out_of_scope",
+      "C": "out_of_scope",
+      "D": "out_of_scope",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "Find the term in the conclusion that never appears in the premises and link it with a conditional.",
+    "predictionHint": "Unsafe for heavy loads implies it should be closed to trucks."
+  },
+  {
+    "id": "lr-m-sa-valcour-ceramics-age",
+    "section": "LR",
+    "type": "sufficient_assumption",
+    "logicTags": [
+      "quantifiers",
+      "conditional"
+    ],
+    "difficulty": 4,
+    "stimulus": "Appraiser: Every piece in the Valcour estate's ceramics collection that was made in or after 1850 is machine-turned. But some of the pieces in the collection are hand-thrown. Hence some of the pieces in the collection were made before 1850.",
+    "stem": "The conclusion follows logically if which one of the following is assumed?",
+    "choices": {
+      "A": "Every piece in the collection that was made before 1850 is hand-thrown.",
+      "B": "No hand-thrown piece in the collection is machine-turned.",
+      "C": "No piece in the collection is both machine-turned and made before 1850.",
+      "D": "Some machine-turned pieces in the collection were made before 1850.",
+      "E": "Every hand-thrown piece in the collection is either machine-turned or made before 1850."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Reversal: it runs from early pieces to hand-thrown, but the argument needs to run from hand-thrown pieces to early dates.",
+      "B": "Correct. A hand-thrown piece is then not machine-turned, so it cannot have been made in or after 1850, because all such pieces are machine-turned. It must date from before 1850.",
+      "C": "Necessary v. sufficient: it restates what the first premise already implies about machine-turned pieces and says nothing about the hand-thrown ones.",
+      "D": "Opposite: it speaks of machine-turned pieces and gives no link to the hand-thrown pieces on which the conclusion rests.",
+      "E": "Half right: it mentions early dates, but permits a hand-thrown piece to be machine-turned and made after 1850, so it does not guarantee any early piece."
+    },
+    "trapPatterns": {
+      "A": "reversal",
+      "C": "necessary_v_sufficient",
+      "D": "opposite",
+      "E": "half_right"
+    },
+    "keyTakeaway": "Chain the conditionals: the hand-thrown pieces must be shown to fail the 'machine-turned' condition that every post-1850 piece meets.",
+    "predictionHint": "Hand-thrown pieces cannot be machine-turned, so they cannot be from 1850 or later."
+  },
+  {
+    "id": "lr-m-main-orrin-ridge-lichen",
+    "section": "LR",
+    "type": "main_conclusion",
+    "logicTags": [],
+    "difficulty": 1,
+    "stimulus": "Lichenologist: The lichen cover on the oaks of Orrin Ridge has thinned steadily over the past decade. Lichens are extremely sensitive to air pollution and are among the first organisms to die when pollutant levels rise. So air quality on the ridge has probably worsened over the past decade.",
+    "stem": "Which one of the following most accurately expresses the main conclusion of the argument?",
+    "choices": {
+      "A": "Lichens are extremely sensitive to air pollution.",
+      "B": "The lichen cover on the oaks of Orrin Ridge has thinned over the past decade.",
+      "C": "Lichens are the first organisms to die on Orrin Ridge.",
+      "D": "Air quality on Orrin Ridge has probably worsened over the past decade.",
+      "E": "Oaks are the best trees on which to monitor lichen cover."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Wrong part: this is a premise offered to support the conclusion.",
+      "B": "Wrong part: this is the observation from which the conclusion is drawn.",
+      "C": "Extreme: the passage says lichens are among the first to die, not that they are the first on the ridge.",
+      "D": "Correct. The word 'So' marks this as the claim the other statements support.",
+      "E": "Out of scope: the passage never compares trees as hosts of lichens."
+    },
+    "trapPatterns": {
+      "A": "wrong_part",
+      "B": "wrong_part",
+      "C": "extreme",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "The main conclusion is the claim the rest of the passage is there to support; look for indicator words like 'so' and 'therefore'.",
+    "predictionHint": "Air quality on the ridge has probably worsened."
+  },
+  {
+    "id": "lr-m-main-bellandi-fresco-repaint",
+    "section": "LR",
+    "type": "main_conclusion",
+    "logicTags": [
+      "conditional"
+    ],
+    "difficulty": 2,
+    "stimulus": "Conservator: Some people argue that the faded fresco in the Santa Ilaria chapel should be repainted to restore its original look. But repainting would cover the original pigment, which is the only part of the work that is Master Bellandi's own handiwork. A work that no longer shows its maker's hand is merely a copy. Repainting would therefore turn the fresco into a copy, and so it should be left as it is.",
+    "stem": "Which one of the following most accurately expresses the main conclusion of the argument?",
+    "choices": {
+      "A": "Repainting the fresco would cover its original pigment.",
+      "B": "Repainting the fresco would turn it into a copy.",
+      "C": "The faded fresco in the Santa Ilaria chapel should not be repainted.",
+      "D": "Some people argue that the fresco should be repainted to restore its original look.",
+      "E": "A work that no longer shows its maker's hand is merely a copy."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Wrong part: this is a premise that leads to the intermediate claim.",
+      "B": "Half right: this is an intermediate conclusion, which in turn supports the final claim that the fresco should be left as it is.",
+      "C": "Correct. 'And so it should be left as it is' is the final claim, which the intermediate conclusion about copies supports.",
+      "D": "Wrong part: this is the view the conservator argues against, not the conservator's own conclusion.",
+      "E": "Wrong part: this is a general premise connecting the loss of the maker's hand with being a copy."
+    },
+    "trapPatterns": {
+      "A": "wrong_part",
+      "B": "half_right",
+      "D": "wrong_part",
+      "E": "wrong_part"
+    },
+    "keyTakeaway": "Distinguish an intermediate conclusion from the main conclusion by asking which claim nothing else in the passage is used to support.",
+    "predictionHint": "The fresco should not be repainted."
+  },
+  {
+    "id": "lr-m-argpart-mirabel-canal-grain",
+    "section": "LR",
+    "type": "argument_part",
+    "logicTags": [],
+    "difficulty": 2,
+    "stimulus": "Historian: The claim that the Mirabel Canal was built mainly to carry grain is hard to sustain. Toll records show that grain was never a major cargo on the canal, and the canal runs through hills where no wheat was ever grown. So the canal was probably built for some other purpose, such as hauling quarried stone.",
+    "stem": "The claim that the Mirabel Canal was built mainly to carry grain is hard to sustain plays which one of the following roles in the historian's argument?",
+    "choices": {
+      "A": "It is the main conclusion of the argument.",
+      "B": "It is a premise offered to show that the canal was used to haul quarried stone.",
+      "C": "It is evidence that the historian cites against the claim that grain was never a major cargo on the canal.",
+      "D": "It is an assumption that the historian relies on without stating it.",
+      "E": "It is an intermediate conclusion, supported by other claims, that supports the main conclusion."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Wrong part: the final claim is that the canal was probably built for another purpose; this claim leads up to it.",
+      "B": "Wrong part: the historian only suggests stone as a possible alternative and does not argue that the canal was used for it.",
+      "C": "Reversal: the toll-record claim about grain is a premise supporting this claim, not something this claim is used to rebut.",
+      "D": "Wrong part: the claim is stated outright, and it is backed by the toll records and the terrain.",
+      "E": "Correct. The toll records and the hills support it, and it supports the conclusion that the canal had another purpose."
+    },
+    "trapPatterns": {
+      "A": "wrong_part",
+      "B": "wrong_part",
+      "C": "reversal",
+      "D": "wrong_part"
+    },
+    "keyTakeaway": "A claim that is both supported by premises and used to support the final conclusion is an intermediate conclusion.",
+    "predictionHint": "It is supported by the toll records and terrain, and supports 'another purpose'."
+  },
+  {
+    "id": "lr-m-parflaw-genuine-colbert-mark",
+    "section": "LR",
+    "type": "parallel_flaw",
+    "logicTags": [
+      "conditional"
+    ],
+    "difficulty": 3,
+    "stimulus": "Appraiser: A painting is a genuine Colbert only if it bears the artist's mark in its lower corner. The painting in the Ferris collection bears the artist's mark in its lower corner. Therefore, it is a genuine Colbert.",
+    "stem": "The flawed reasoning in which one of the following is most similar to that in the argument above?",
+    "choices": {
+      "A": "A flight is eligible for a refund only if the airline canceled it. The flight to Dunmore was canceled by the airline. Therefore, the flight to Dunmore is eligible for a refund.",
+      "B": "A loan is approved only if the applicant has collateral. This applicant has no collateral. Therefore, the loan is not approved.",
+      "C": "A flight is eligible for a refund if the airline canceled it. The flight to Larkin is not eligible for a refund. Therefore, the airline did not cancel the flight to Larkin.",
+      "D": "A trail is open only if the footbridge is passable. The Cedar Trail is open. Therefore, the footbridge on the Cedar Trail is passable.",
+      "E": "Every seedling that is watered regularly survives the first winter. This seedling was watered regularly. Therefore, this seedling will survive the first winter."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. It treats a necessary condition ('only if canceled') as if it were sufficient, which is the same error as taking the artist's mark to establish a genuine Colbert.",
+      "B": "Valid: with a necessary condition, lack of the condition does show that the outcome fails.",
+      "C": "Valid: this is a correct contrapositive of a sufficient condition.",
+      "D": "Valid: from a necessary condition and the outcome being present, it correctly infers the necessary condition holds.",
+      "E": "Valid: the first premise states a sufficient condition and the argument applies it correctly."
+    },
+    "trapPatterns": {
+      "B": "necessary_v_sufficient",
+      "C": "reversal",
+      "D": "half_right",
+      "E": "opposite"
+    },
+    "keyTakeaway": "For parallel flaw, identify the flaw's exact form first, here a necessary condition mistaken for a sufficient one, then reject valid arguments.",
+    "predictionHint": "Necessary condition mistaken for a sufficient one."
+  },
+  {
+    "id": "lr-m-parmethod-large-majority-bills",
+    "section": "LR",
+    "type": "parallel_method",
+    "logicTags": [
+      "rule_application"
+    ],
+    "difficulty": 3,
+    "stimulus": "Critic: It is often claimed that any artwork that moves a wide audience must be a masterpiece. But the Tamsin Street mural moves thousands of passersby every day, and by general agreement it is a mediocre piece of work. So the claim is mistaken.",
+    "stem": "The pattern of reasoning in which one of the following is most similar to that in the argument above?",
+    "choices": {
+      "A": "A mechanic asserts that any engine that starts easily in the cold is well made. No engine that starts easily in the cold has yet been found to be poorly made. So the mechanic's assertion is probably correct.",
+      "B": "A farmer claims that any field plowed in autumn yields more. Suppose that were true. Then plowing every field in autumn would double the total harvest, which is absurd. So the claim is false.",
+      "C": "A pundit says that every bill passed by a large majority is good law. But the Harbor Dredging Act passed by a large majority and is widely regarded as poorly drafted. So the pundit's claim is mistaken.",
+      "D": "A pundit says that every bill passed by a large majority is good law. But the Harbor Dredging Act passed by a large majority and is poorly drafted. So the next bill passed by a large majority will probably be poorly drafted too.",
+      "E": "A pundit says that every bill passed by a large majority is good law. The Harbor Dredging Act passed by a large majority and is good law. So the pundit's claim is correct."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Wrong method: it argues that a claim is probably true because no counterexample has turned up, whereas the original cites a counterexample and rejects the claim.",
+      "B": "Wrong method: it reasons by supposing the claim true and deriving an absurd result, rather than citing an actual case that has the feature but not the supposed result.",
+      "C": "Correct. It cites an actual case that has the claimed feature (passed by a large majority) but lacks the claimed result (being good law), and concludes the general claim is mistaken.",
+      "D": "Wrong conclusion: it uses the single case to predict a new case rather than to reject the general claim.",
+      "E": "Wrong direction: it uses a single favorable case to confirm the claim, which the original does not do."
+    },
+    "trapPatterns": {
+      "A": "opposite",
+      "B": "half_right",
+      "D": "wrong_part",
+      "E": "opposite"
+    },
+    "keyTakeaway": "For parallel method, describe the original's move abstractly, here refuting a universal claim with a case that has the feature but not the result, and match it.",
+    "predictionHint": "A universal claim is refuted by one case that has the feature but lacks the result."
+  },
+  {
+    "id": "lr-m-issue-ferncliff-median-grass",
+    "section": "LR",
+    "type": "point_at_issue",
+    "logicTags": [],
+    "difficulty": 2,
+    "stimulus": "Orla: The city should plant native grasses rather than lawn in the Ferncliff median strips. Native grasses need no irrigation, and the city is in a drought.\nPavel: Native grasses may well use less water, but the median strips are the first thing visitors see when they enter the neighborhood, and neatly cut lawn shows that the neighborhood is well kept. So the lawn should stay.",
+    "stem": "Orla and Pavel disagree over whether",
+    "choices": {
+      "A": "native grasses need less water than lawn does",
+      "B": "the city should plant native grasses rather than lawn in the Ferncliff median strips",
+      "C": "the city is currently in a drought",
+      "D": "visitors notice the median strips when they enter the neighborhood",
+      "E": "neatly cut lawn gives a better impression of a neighborhood to visitors than native grasses do"
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Half right: Pavel concedes that native grasses 'may well' use less water, so he does not clearly disagree.",
+      "B": "Correct. Orla affirms and Pavel rejects the proposal to replace lawn with native grasses in the medians.",
+      "C": "Out of scope: Pavel does not address the drought.",
+      "D": "Out of scope: Orla does not say anything about what visitors notice.",
+      "E": "Out of scope: Orla does not speak to the impression created by either planting."
+    },
+    "trapPatterns": {
+      "A": "half_right",
+      "C": "out_of_scope",
+      "D": "out_of_scope",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "A point at issue needs an opinion from each speaker that opposes the other; a concession is not a disagreement.",
+    "predictionHint": "Whether native grasses should replace the lawn in the medians."
+  },
+  {
+    "id": "lr-m-mbt-alcott-exhibit-medium",
+    "section": "LR",
+    "type": "must_be_true",
+    "logicTags": [
+      "conditional"
+    ],
+    "difficulty": 1,
+    "stimulus": "Every painting in the Alcott exhibit was done in either oil or tempera. No tempera painting in the exhibit is wider than one meter. The painting Quiet Harbor, which hangs in the exhibit, is wider than one meter.",
+    "stem": "If the statements above are true, which one of the following must also be true?",
+    "choices": {
+      "A": "Quiet Harbor is the widest painting in the exhibit.",
+      "B": "Quiet Harbor was done in oil.",
+      "C": "No oil painting in the exhibit is narrower than one meter.",
+      "D": "Most paintings in the exhibit were done in oil.",
+      "E": "Some tempera paintings in the exhibit are narrower than one meter."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Extreme: being wider than one meter does not make it the widest.",
+      "B": "Correct. It is oil or tempera, and it cannot be tempera because it is wider than one meter, so it is oil.",
+      "C": "Unsupported: nothing limits the widths of oil paintings.",
+      "D": "Unsupported: no proportions of oil and tempera are given.",
+      "E": "Unsupported: the passage does not say that any tempera painting is on display."
+    },
+    "trapPatterns": {
+      "A": "extreme",
+      "C": "out_of_scope",
+      "D": "out_of_scope",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "With an either/or and one eliminated option, the other must hold.",
+    "predictionHint": "Quiet Harbor is not tempera, so it is oil."
+  },
+  {
+    "id": "lr-m-blank-terrace-cafe-noise",
+    "section": "LR",
+    "type": "fill_in_blank",
+    "logicTags": [
+      "weighing_factors"
+    ],
+    "difficulty": 2,
+    "stimulus": "Some residents of Lowell Terrace fear that the proposed sidewalk cafe will make the block noisier. But the cafe will close at 9 p.m., and nearly all of the noise complaints the block has received concern events that run past 10 p.m. Thus, although the cafe will bring more people to the block during the day, it is unlikely to ____.",
+    "stem": "Which one of the following most logically completes the argument?",
+    "choices": {
+      "A": "make the block noisier at any hour of the day",
+      "B": "attract customers who live outside the block",
+      "C": "be popular with the residents who now complain about noise",
+      "D": "reduce the number of events held on the block after 10 p.m., when most of the complaints arise",
+      "E": "worsen the late-evening noise that has prompted nearly all of the block's complaints"
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Wrong force: the cafe may add some daytime noise; the argument says only that the complaint-causing noise is unlikely to worsen.",
+      "B": "Out of scope: where customers live has no link to the noise reasoning.",
+      "C": "Out of scope: the cafe's popularity is not the subject of the argument.",
+      "D": "Shell game: the cafe closing at 9 p.m. says nothing about whether it would reduce events after 10 p.m.",
+      "E": "Correct. The cafe closes before the hours in which nearly all complaints arise, so it is unlikely to worsen that noise."
+    },
+    "trapPatterns": {
+      "A": "wrong_force",
+      "B": "out_of_scope",
+      "C": "out_of_scope",
+      "D": "shell_game"
+    },
+    "keyTakeaway": "The blank should state what follows from the premises and nothing more, matching their scope and strength.",
+    "predictionHint": "It will not worsen the late-evening noise that causes the complaints."
+  },
+  {
+    "id": "lr-m-method-corran-beech-invasive",
+    "section": "LR",
+    "type": "method_of_reasoning",
+    "logicTags": [
+      "rule_application",
+      "definition_scope"
+    ],
+    "difficulty": 4,
+    "stimulus": "Botanist: Some ecologists insist that a species counts as invasive only if humans introduced it. They defend this by saying that the label should be reserved for species that displace native plants. But the beech trees now spreading through the Corran Valley arrived there unaided after the climate warmed, and they are displacing the valley's native oaks. So these ecologists' own defense commits them to calling the beech invasive, contrary to their stated criterion.",
+    "stem": "The botanist's argument proceeds by",
+    "choices": {
+      "A": "citing the beech's displacement of the oaks as the cause of the ecologists' error",
+      "B": "exhibiting a case that satisfies a criterion while failing the rationale offered for it",
+      "C": "drawing a general conclusion about all spreading species from the single case of the beech",
+      "D": "exhibiting a case that satisfies the rationale for a criterion while failing the criterion itself",
+      "E": "attacking the credibility of the ecologists rather than their reasoning"
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Wrong part: the botanist does not claim that the displacement caused any error by the ecologists.",
+      "B": "Reversal: the beech fails the criterion (humans did not introduce it) and meets the rationale (it displaces natives). This choice has the two roles swapped.",
+      "C": "Extreme: the botanist argues from one case about the ecologists' commitments, not about all spreading species.",
+      "D": "Correct. The beech meets the ecologists' rationale (displacing natives) yet fails their criterion (human introduction), which shows their rationale conflicts with their criterion.",
+      "E": "Out of scope: the botanist addresses the ecologists' reasons, not their credibility."
+    },
+    "trapPatterns": {
+      "A": "wrong_part",
+      "B": "reversal",
+      "C": "extreme",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "In method questions, map each element of the passage to its role, and check that the roles are not swapped in a near-identical choice.",
+    "predictionHint": "A case meeting the rationale but not the criterion shows the two conflict."
+  },
+  {
+    "id": "lr-m-evaluate-millrace-crosswalks",
+    "section": "LR",
+    "type": "evaluate",
+    "logicTags": [
+      "causation",
+      "comparison"
+    ],
+    "difficulty": 3,
+    "stimulus": "Urban planner: In the year after the Millrace district installed raised crosswalks and narrowed its traffic lanes, pedestrian injuries there fell by forty percent. Clearly, those traffic-calming measures reduced the number of pedestrian injuries in Millrace.",
+    "stem": "Which one of the following would be most useful to know in evaluating the planner's argument?",
+    "choices": {
+      "A": "Whether pedestrian injuries fell by a similar amount that year in districts that did not install such measures",
+      "B": "Whether the cost of the measures was lower than the city's budget for road repair",
+      "C": "Whether most Millrace drivers say they support the measures",
+      "D": "Whether the measures would also slow traffic in the Tanner district",
+      "E": "Whether the injuries that still occur in Millrace are less severe than those before the measures"
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. If injuries fell as much elsewhere, some citywide factor probably explains the drop; if not, the measures look more likely to be responsible. The answer bears directly on the causal claim.",
+      "B": "Out of scope: cost does not bear on whether the measures reduced injuries.",
+      "C": "Out of scope: drivers' opinions do not bear on the number of injuries.",
+      "D": "Wrong part: the conclusion concerns Millrace, not Tanner.",
+      "E": "Half right: severity is related to injuries, but the argument concerns their number, and an answer either way does not test the causal claim."
+    },
+    "trapPatterns": {
+      "B": "out_of_scope",
+      "C": "out_of_scope",
+      "D": "wrong_part",
+      "E": "half_right"
+    },
+    "keyTakeaway": "For evaluate questions, ask which fact, if answered one way, would strengthen the argument and, if answered the other way, would weaken it.",
+    "predictionHint": "Did injuries fall just as much in districts without the measures?"
+  }
+]
