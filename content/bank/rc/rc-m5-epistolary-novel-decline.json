@@ -1,0 +1,200 @@
+{
+  "id": "rc-m5-epistolary-novel-decline",
+  "style": "single_position",
+  "topic": "humanities",
+  "comparative": false,
+  "title": "The Vanishing Novel in Letters",
+  "paragraphs": [
+    "Literary historians have long wondered why the novel told entirely in letters, which dominated fiction in Eastmark between 1740 and 1785, had all but vanished by 1815. The most common explanation is one of plausibility: readers, it is said, eventually grew impatient with a convention that required characters to compose pages of vivid narrative in the midst of crisis, and the rise of a more confident realism left the form stranded. This account, however, cannot be right, or not by itself. Contemporary reviewers were complaining of the improbability of letter-writing characters as early as the 1740s, and the form's popularity rose steadily thereafter. Readers who had tolerated the convention for forty years did not suddenly find it intolerable.",
+    "I want to suggest that the form's strength lay not in any pretense of realism but in the interval between the writing of a letter and its reading. A letter takes days to arrive, and during those days its writer's circumstances change, her correspondent acts on information that is already out of date, and a letter of reconciliation may cross in transit with one of accusation. The reader of the novel, who sees both, knows what neither correspondent can. From this asymmetry came the form's characteristic effects: dramatic irony, suspense over whether a letter would be intercepted, and misunderstandings that could be sustained for hundreds of pages without any villainy on the part of the author. Honora Pellwick's The Misfortunes of Clarimond (1758), for example, turns on a confession that reaches its recipient only after a rival has already told her the same story in a distorted form.",
+    "The introduction in 1786 of the Eastmark mail-coach service, which carried letters between the principal towns overnight, is therefore of more consequence than has been recognized. Once a reply could be expected the next morning, the interval on which the form depended shrank to almost nothing, and plots that relied on crossed or delayed letters began to look contrived in a way that mere improbability of style never had. Novelists who persisted with the form had to invent obstacles, such as floods, lost mailbags, and absent-minded servants, and reviewers promptly noticed that the obstacles were the author's and not the post's. The few epistolary novels written after 1800 that succeeded were, tellingly, set in earlier decades or in remote provinces where the post remained slow.",
+    "It may be objected that the epistolary form was simply displaced by free indirect discourse, a technique that gave novelists access to a character's thoughts without the pretext of a correspondence. This is true as far as it goes, but it mistakes a successor for a cause. Letter fiction had never been valued chiefly as a means of reaching interior life, which any first-person narrative can supply; it was valued for the suspense of delay. Free indirect discourse did not replace that suspense, which novelists in the new style obtained, when they wanted it, from other devices such as concealed identities and withheld information. The technique prospered because a vacancy had appeared, and the vacancy was created when the post became fast."
+  ],
+  "roleMap": {
+    "paragraphs": ["context", "main_point", "support", "counterpoint"],
+    "viewpoints": [
+      { "who": "Proponents of the plausibility explanation", "position": "Readers lost patience with the improbability of letter-writing characters as realism rose.", "authorAgrees": false },
+      { "who": "Author", "position": "The form's effects depended on the delay in delivery, which fast mail eliminated.", "authorAgrees": true },
+      { "who": "Proponents of the displacement objection", "position": "Free indirect discourse displaced the epistolary form.", "authorAgrees": false }
+    ],
+    "tone": "confident, argumentative, courteous to rivals"
+  },
+  "lowResSummary": "Author argues that the novel in letters died not from implausibility or a rival technique but because fast mail ended the delay that drove its suspense.",
+  "questions": [
+    {
+      "id": "rc-m5-epistolary-novel-decline-q1",
+      "type": "purpose_of_paragraph",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "The primary function of the fourth paragraph is to",
+      "choices": {
+        "A": "introduce a second explanation of the form's decline and concede that it is stronger than the author's own",
+        "B": "provide an additional example of a novel whose plot depends on delayed correspondence",
+        "C": "anticipate an objection that a new technique displaced the form and argue that the displacement was not the cause",
+        "D": "qualify the claim that the mail-coach service of 1786 altered the way letters were used",
+        "E": "concede that the plausibility objection explains the form's decline once the new technique is taken into account"
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "Opposite. The author calls the displacement account true 'as far as it goes' but 'a successor' and not 'a cause.'",
+        "B": "Out of scope. The only example novel appears in paragraph 2.",
+        "C": "Correct. 'It may be objected that...' is answered by 'it mistakes a successor for a cause.'",
+        "D": "Opposite. The paragraph closes by repeating that the vacancy 'was created when the post became fast.'",
+        "E": "Wrong part. The plausibility objection is dismissed in paragraph 1 and is not revived."
+      },
+      "trapPatterns": { "A": "opposite", "B": "out_of_scope", "D": "opposite", "E": "wrong_part" },
+      "keyTakeaway": "Phrases such as 'it may be objected' flag a paragraph whose job is to raise and answer a rival view.",
+      "evidence": [3]
+    },
+    {
+      "id": "rc-m5-epistolary-novel-decline-q2",
+      "type": "main_point",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately expresses the main point of the passage?",
+      "choices": {
+        "A": "The novel in letters declined not because readers found it implausible or because a rival technique displaced it, but because faster mail destroyed the delay that drove its effects.",
+        "B": "Improvements in the Eastmark postal service after 1786 made letters so common that readers lost interest in fiction presented as correspondence.",
+        "C": "Free indirect discourse, by offering novelists cheaper access to characters' thoughts, caused the epistolary novel to be abandoned after 1800.",
+        "D": "The improbability of characters who write long letters in moments of crisis was the principal reason the epistolary novel lost its audience.",
+        "E": "Epistolary novels written after 1800 succeeded only when they were set in remote provinces or in earlier periods during which the post was slow."
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. Paragraphs 1 and 4 reject the plausibility and displacement accounts; paragraphs 2 and 3 locate the cause in the collapse of the interval.",
+        "B": "Shell game. The author says faster mail removed the delay that drove the plots, not that letters became too common.",
+        "C": "Wrong part. This is the objection the fourth paragraph rejects as mistaking 'a successor for a cause.'",
+        "D": "Wrong part. This is the common explanation that paragraph 1 says 'cannot be right, or not by itself.'",
+        "E": "Half right. It reports a supporting observation from paragraph 3, not the thesis it supports."
+      },
+      "trapPatterns": { "B": "shell_game", "C": "wrong_part", "D": "wrong_part", "E": "half_right" },
+      "keyTakeaway": "A single-thesis passage's main point states the author's cause and, often, the rival causes it replaces.",
+      "evidence": [0, 1, 2, 3]
+    },
+    {
+      "id": "rc-m5-epistolary-novel-decline-q3",
+      "type": "stated",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "According to the passage, the epistolary novels written after 1800 that succeeded were",
+      "choices": {
+        "A": "written largely in the form of diaries rather than correspondence",
+        "B": "praised by reviewers for inventive use of floods and lost mailbags",
+        "C": "composed in the free indirect style that had replaced letters",
+        "D": "published chiefly in the remote provinces of Eastmark",
+        "E": "set in earlier decades or in remote provinces where the post remained slow"
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "Out of scope. Diaries are never mentioned.",
+        "B": "Opposite. Reviewers noticed that such obstacles 'were the author's and not the post's,' which counted against the plots.",
+        "C": "Opposite. Free indirect discourse is a different technique, described as the form's successor.",
+        "D": "Shell game. The passage says the novels were 'set in' remote provinces, not that they were published there.",
+        "E": "Correct. 'The few epistolary novels written after 1800 that succeeded were, tellingly, set in earlier decades or in remote provinces where the post remained slow.'"
+      },
+      "trapPatterns": { "A": "out_of_scope", "B": "opposite", "C": "opposite", "D": "shell_game" },
+      "keyTakeaway": "Setting and publication are different things; read the preposition.",
+      "evidence": [2]
+    },
+    {
+      "id": "rc-m5-epistolary-novel-decline-q4",
+      "type": "purpose_in_context",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The author mentions The Misfortunes of Clarimond primarily in order to",
+      "choices": {
+        "A": "show that early epistolary novels were criticized by reviewers for the improbability of their letter-writing characters",
+        "B": "provide an example of a novel in which a character's villainy sustains a misunderstanding for hundreds of pages",
+        "C": "demonstrate that the form could succeed even in plots that did not depend on delay",
+        "D": "illustrate how the interval between writing and reading could generate the effects the author attributes to the form",
+        "E": "suggest that the novel was the first to exploit the asymmetry between reader and correspondents"
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "Wrong part. The improbability complaints are mentioned in paragraph 1 and are not tied to this novel.",
+        "B": "Opposite. The misunderstandings arise 'without any villainy on the part of the author,' and the example turns on a delayed confession.",
+        "C": "Opposite. The plot turns on a confession that arrives too late, which is a plot of delay.",
+        "D": "Correct. The example follows the account of the interval and shows a letter arriving after a rival has told the same story.",
+        "E": "Out of scope. The passage makes no claim that this novel was the first of its kind."
+      },
+      "trapPatterns": { "A": "wrong_part", "B": "opposite", "C": "opposite", "E": "out_of_scope" },
+      "keyTakeaway": "An example's purpose is the claim it follows; here the claim is the interval generating the form's effects.",
+      "evidence": [1]
+    },
+    {
+      "id": "rc-m5-epistolary-novel-decline-q5",
+      "type": "author_attitude",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The author's attitude toward the plausibility explanation of the form's decline can most accurately be described as",
+      "choices": {
+        "A": "scornful dismissal of an account that rests on a misreading of the evidence",
+        "B": "doubt about its sufficiency, tempered by acceptance that contemporary readers did notice the improbability it cites",
+        "C": "enthusiastic agreement, supplemented by an additional explanation of the decline",
+        "D": "indifference, since the account is irrelevant to the question of why the form declined",
+        "E": "cautious endorsement of its claim that a more confident realism left the form stranded"
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "Extreme. The author grants that reviewers did complain of improbability; the account 'cannot be right, or not by itself,' which is not scorn.",
+        "B": "Correct. The author doubts sufficiency ('not by itself') while acknowledging that reviewers complained of improbability as early as the 1740s.",
+        "C": "Opposite. The author argues the account cannot be right by itself.",
+        "D": "Opposite. The author spends the opening paragraph answering it.",
+        "E": "Opposite. The author argues that readers tolerated the convention for forty years and does not endorse the realism claim."
+      },
+      "trapPatterns": { "A": "extreme", "C": "opposite", "D": "opposite", "E": "opposite" },
+      "keyTakeaway": "'Cannot be right, or not by itself' is a hedge: the attitude is doubt, not contempt.",
+      "evidence": [0]
+    },
+    {
+      "id": "rc-m5-epistolary-novel-decline-q6",
+      "type": "weaken_strengthen_evaluate",
+      "logicTags": ["causation"],
+      "difficulty": 3,
+      "stem": "Which one of the following, if true, would most strengthen the author's explanation of the decline of the epistolary novel?",
+      "choices": {
+        "A": "Reviewers of the 1740s complained about the improbability of letter-writing characters more often than reviewers of the 1770s did.",
+        "B": "Free indirect discourse first appeared in Eastmark fiction several decades before the mail-coach service was introduced.",
+        "C": "Epistolary novels published before 1785 in Eastmark were on average longer than those published afterward.",
+        "D": "Many readers of the 1740s regarded the long letters in epistolary fiction as realistic reproductions of actual correspondence.",
+        "E": "In a neighboring country whose post remained slow until the 1840s, novels in letters continued to be popular until roughly that decade."
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "True but irrelevant. A change in the frequency of complaints does not bear on whether the speed of the post caused the decline.",
+        "B": "Wrong force. An early appearance of the rival technique would, if anything, help the displacement objection.",
+        "C": "Out of scope. The length of the novels does not bear on the role of delay.",
+        "D": "Wrong force. Readers' belief in the letters' realism supports the plausibility account the author rejects.",
+        "E": "Correct. If the form survived where the post stayed slow, the speed of the post looks like the operative factor."
+      },
+      "trapPatterns": { "A": "true_but_irrelevant", "B": "wrong_force", "C": "out_of_scope", "D": "wrong_force" },
+      "keyTakeaway": "A natural comparison case, where the supposed cause is absent and the effect fails to occur, strengthens a causal thesis.",
+      "evidence": [2]
+    },
+    {
+      "id": "rc-m5-epistolary-novel-decline-q7",
+      "type": "author_perspective",
+      "logicTags": [],
+      "difficulty": 4,
+      "stem": "The passage most strongly suggests that the author would agree with which one of the following?",
+      "choices": {
+        "A": "Readers in the 1760s were more willing than readers around 1800 to accept delays in the delivery of a letter as a feature of the world.",
+        "B": "Novelists who adopted free indirect discourse did so because they wished to avoid the suspense that delayed letters create.",
+        "C": "The plausibility objection to letter fiction was first raised only after the mail-coach service had been introduced.",
+        "D": "An epistolary novel set in a remote province after 1800 would necessarily have been less popular than one set in a principal town.",
+        "E": "The success of an epistolary novel depended mainly on the realism of the letters its characters were represented as writing."
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. After 1786 reviewers saw that delays were 'the author's and not the post's,' implying that earlier delays were taken as the post's doing and so as natural.",
+        "B": "Opposite. The author says novelists in the new style obtained suspense 'from other devices' when they wanted it.",
+        "C": "Opposite. Reviewers complained of improbability 'as early as the 1740s,' well before 1786.",
+        "D": "Extreme. The passage says only that such novels succeeded when set in slow-post settings, not that they would necessarily be less popular if set elsewhere.",
+        "E": "Opposite. The author says the form's strength lay 'not in any pretense of realism' but in the interval."
+      },
+      "trapPatterns": { "B": "opposite", "C": "opposite", "D": "extreme", "E": "opposite" },
+      "keyTakeaway": "The inference sits in a small phrase: obstacles noticed as 'the author's and not the post's' presuppose that earlier delays seemed the post's own.",
+      "evidence": [2]
+    }
+  ]
+}

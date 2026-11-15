@@ -1,0 +1,276 @@
+{
+  "id": "rc-m5-easement-by-necessity",
+  "style": "problem_analysis",
+  "topic": "law",
+  "comparative": false,
+  "title": "Landlocked Parcels and the Easement by Necessity",
+  "paragraphs": [
+    "When a parcel of land is severed from a larger tract and left with no access to a public road, the law must decide whether its owner may cross a neighboring parcel to reach it. The common-law answer, the easement by necessity, rests on a presumption about the parties' intentions: a grantor who conveys a landlocked parcel is assumed to have meant the grantee to be able to use it, and so to have impliedly granted or reserved a right of passage. The doctrine is old, but its application has become contentious as courts confront parcels landlocked not by a single conveyance but by decades of subdivision, inheritance, and the abandonment of older roads, in which no one's intention can be reconstructed with any confidence.",
+    "One proposed reform, associated with the jurist Marguerite Halloran-Voss, would abandon the intention-based rationale altogether and ground the easement in the public interest in productive land. On this view, a parcel that cannot be reached is a parcel that cannot be farmed, built upon, or fairly taxed, and the law should therefore grant access whenever the benefit to the landlocked owner exceeds the burden on the neighbor, regardless of how the isolation arose. The proposal has the merit of candor, since it admits what courts already do when they strain to find an intention that no one held. But it has a cost: it invites speculators to buy cheap landlocked land in the expectation of obtaining a right of way at the neighbor's expense, and thus shifts to the burdened owner a risk that the buyer could have priced into the purchase.",
+    "A second proposal, favored by the treatise writer Tobias Wrenfield, retains the intention-based doctrine but would require that the necessity exist at the time of the severance and be strict rather than merely a matter of convenience. Access is necessary only if no reasonable alternative route exists. Wrenfield's rule is predictable, and it keeps the doctrine tied to the transaction that created the problem. Its weakness is that it leaves without remedy the owner of a parcel that became landlocked long after the severance, when a road was closed or a neighboring tract was consolidated, even though that owner is no more blameworthy than one whose isolation dates from the original conveyance.",
+    "Neither proposal is satisfactory, but the defect of each points toward a better one. The Halloran-Voss test errs in disregarding the origin of the isolation; Wrenfield's errs in treating the moment of severance as the only origin that matters. A sounder approach would ask which party was better placed to prevent the isolation, and would grant the landlocked owner a right of way, for compensation fixed by the court, unless that owner caused or knowingly accepted it. A buyer who knowingly acquired an enclosed parcel would then receive no easement, while an owner whose road was closed by a neighbor's consolidation of tracts would receive one. Such a rule would not eliminate hard cases, but it would at least direct courts to the question on which the cases genuinely turn."
+  ],
+  "roleMap": {
+    "paragraphs": [
+      "context",
+      "counterpoint",
+      "counterpoint",
+      "main_point"
+    ],
+    "viewpoints": [
+      {
+        "who": "Traditional common-law doctrine",
+        "position": "Access is implied from the presumed intention of the grantor who severed the parcel.",
+        "authorAgrees": null
+      },
+      {
+        "who": "Halloran-Voss",
+        "position": "Grant access whenever the landlocked owner's benefit exceeds the neighbor's burden, regardless of how the isolation arose.",
+        "authorAgrees": false
+      },
+      {
+        "who": "Wrenfield",
+        "position": "Keep the intention-based doctrine but require strict necessity existing at the time of severance.",
+        "authorAgrees": false
+      },
+      {
+        "who": "Author",
+        "position": "Grant access, for compensation, unless the owner caused or knowingly accepted the isolation.",
+        "authorAgrees": true
+      }
+    ],
+    "tone": "analytical, critical of both proposals"
+  },
+  "lowResSummary": "Author finds both leading reforms of the easement by necessity flawed and proposes granting access unless the owner caused or knowingly accepted the isolation.",
+  "questions": [
+    {
+      "id": "rc-m5-easement-by-necessity-q1",
+      "type": "main_point",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately expresses the main point of the passage?",
+      "choices": {
+        "A": "The easement by necessity should be replaced with a rule granting access whenever the landlocked owner's benefit exceeds the burden on the neighboring owner.",
+        "B": "Because courts must strain to find intentions that no one held, the easement by necessity should be limited to cases of strict necessity at the time of severance.",
+        "C": "Parcels landlocked through decades of subdivision and inheritance present problems that no rule governing access across neighboring land can resolve.",
+        "D": "Because each leading proposal mishandles the origin of a parcel's isolation, courts should instead grant access for compensation unless the owner caused or knowingly accepted it.",
+        "E": "The danger that buyers will exploit rights of way is the chief reason proposals to reform the easement by necessity should be rejected."
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "Wrong part. This is the Halloran-Voss proposal, which the author rejects for disregarding the origin of the isolation.",
+        "B": "Wrong part. This is Wrenfield's proposal, which the author also rejects for treating severance as the only origin that matters.",
+        "C": "Extreme. The author says the proposed rule 'would not eliminate hard cases' but would direct courts to the right question; no rule is declared unable to help.",
+        "D": "Correct. Paragraph 4: each proposal errs about origin, and 'a sounder approach' grants access, for compensation, 'unless that owner caused or knowingly accepted' the isolation.",
+        "E": "Half right. The speculator risk is one criticism of Halloran-Voss in paragraph 2; it is not the author's chief reason or thesis."
+      },
+      "trapPatterns": {
+        "A": "wrong_part",
+        "B": "wrong_part",
+        "C": "extreme",
+        "E": "half_right"
+      },
+      "keyTakeaway": "In a problem-and-solutions passage, the main point is usually the author's own alternative, framed by why the proposals fail.",
+      "evidence": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "rc-m5-easement-by-necessity-q2",
+      "type": "stated",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "According to the passage, the traditional easement by necessity rests on",
+      "choices": {
+        "A": "a presumption about what the grantor of a landlocked parcel intended",
+        "B": "the public's interest in having land that can be farmed, built upon, and fairly taxed",
+        "C": "a showing that no reasonable alternative route to the parcel exists at any cost",
+        "D": "the court's authority to fix compensation to be paid to the burdened neighboring owner",
+        "E": "the grantee's payment of a price that reflects the parcel's lack of any access"
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. Paragraph 1: the doctrine 'rests on a presumption about the parties' intentions.'",
+        "B": "Wrong part. This is the rationale of the Halloran-Voss proposal, which would 'abandon the intention-based rationale.'",
+        "C": "Wrong part. Strict necessity is Wrenfield's added requirement, not the doctrine's traditional basis.",
+        "D": "Wrong part. Court-fixed compensation is part of the author's own proposed approach in paragraph 4.",
+        "E": "Out of scope. Price is mentioned only in the criticism of speculators, not as a basis of the doctrine."
+      },
+      "trapPatterns": {
+        "B": "wrong_part",
+        "C": "wrong_part",
+        "D": "wrong_part",
+        "E": "out_of_scope"
+      },
+      "keyTakeaway": "Each distractor borrows a rationale that belongs to a different viewpoint in the passage; match the idea to its owner.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "rc-m5-easement-by-necessity-q3",
+      "type": "stated",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "According to the passage, one cost of the Halloran-Voss proposal is that it would",
+      "choices": {
+        "A": "prevent courts from granting access to parcels that were landlocked through inheritance rather than conveyance",
+        "B": "leave without remedy owners whose parcels became landlocked only after the original severance had occurred",
+        "C": "encourage buyers to purchase cheap landlocked parcels hoping to obtain access at a neighbor's expense",
+        "D": "require courts to determine in each case what the original grantor had actually intended",
+        "E": "reduce the tax revenue that productive land would otherwise yield to the public treasury"
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "Opposite. The proposal grants access 'regardless of how the isolation arose,' inheritance included.",
+        "B": "Wrong part. This is the weakness of Wrenfield's rule, described in paragraph 3.",
+        "C": "Correct. Paragraph 2: it 'invites speculators to buy cheap landlocked land in the expectation of obtaining a right of way at the neighbor's expense.'",
+        "D": "Opposite. The proposal would 'abandon the intention-based rationale altogether.'",
+        "E": "Out of scope. Taxation is invoked in support of the proposal, and no loss of revenue is claimed."
+      },
+      "trapPatterns": {
+        "A": "opposite",
+        "B": "wrong_part",
+        "D": "opposite",
+        "E": "out_of_scope"
+      },
+      "keyTakeaway": "Keep each proposal's strengths and weaknesses attached to the right author.",
+      "evidence": [
+        1
+      ]
+    },
+    {
+      "id": "rc-m5-easement-by-necessity-q4",
+      "type": "purpose_in_context",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The author mentions the owner of a parcel that became landlocked long after the severance primarily in order to",
+      "choices": {
+        "A": "show that Wrenfield's rule is less predictable in application than the intention-based doctrine that it modifies",
+        "B": "suggest that the Halloran-Voss test would deny relief to owners who had caused their own isolation",
+        "C": "argue that most landlocked parcels result from the closing of roads rather than from any severance",
+        "D": "illustrate how the intention-based doctrine strains to reconstruct a grantor's intention after many decades",
+        "E": "show that Wrenfield's rule would deny a remedy to an equally blameless owner"
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "Opposite. The author concedes that 'Wrenfield's rule is predictable.'",
+        "B": "Wrong part. The Halloran-Voss test grants access regardless of cause; the example concerns Wrenfield's rule.",
+        "C": "Extreme. The passage gives no proportions of causes of landlocking.",
+        "D": "Wrong part. Strained reconstruction of intention is a point of paragraphs 1 and 2, not of this example.",
+        "E": "Correct. Paragraph 3: such an owner is left 'without remedy' though 'no more blameworthy' than one whose isolation dates from the original conveyance."
+      },
+      "trapPatterns": {
+        "A": "opposite",
+        "B": "wrong_part",
+        "C": "extreme",
+        "D": "wrong_part"
+      },
+      "keyTakeaway": "An example in a critique serves the criticism it sits inside; read the sentence that follows it.",
+      "evidence": [
+        2
+      ]
+    },
+    {
+      "id": "rc-m5-easement-by-necessity-q5",
+      "type": "author_perspective",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "The passage most strongly suggests that the author would agree with which one of the following?",
+      "choices": {
+        "A": "Wrenfield's rule is unsatisfactory chiefly because its results are unpredictable in application.",
+        "B": "Courts have sometimes attributed to a grantor an intention that the grantor never had.",
+        "C": "A right of way should never be imposed on a neighboring owner without that owner's consent.",
+        "D": "The public interest in productive land has no legitimate place in the law governing access to enclosed parcels.",
+        "E": "Most parcels that are landlocked today became so through a single conveyance whose terms can be reconstructed."
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "Opposite. The author calls the rule 'predictable' and faults it for leaving some owners without remedy.",
+        "B": "Correct. The author credits Halloran-Voss with candor in admitting 'what courts already do when they strain to find an intention that no one held.'",
+        "C": "Extreme. The author's own proposal imposes a right of way on neighbors, with court-fixed compensation.",
+        "D": "Extreme. The author faults Halloran-Voss for disregarding origin, not for appealing to the public interest.",
+        "E": "Opposite. Paragraph 1 says many parcels were landlocked by decades of subdivision and inheritance, where intention cannot be reconstructed."
+      },
+      "trapPatterns": {
+        "A": "opposite",
+        "C": "extreme",
+        "D": "extreme",
+        "E": "opposite"
+      },
+      "keyTakeaway": "A concession of merit ('the merit of candor') often carries an assertion the author endorses.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "rc-m5-easement-by-necessity-q6",
+      "type": "application",
+      "logicTags": [],
+      "difficulty": 4,
+      "stem": "Under the approach the author favors, which one of the following owners would most likely be granted a right of way across a neighbor's land?",
+      "choices": {
+        "A": "a buyer who, fully aware that a parcel was enclosed, paid a reduced price reflecting its lack of access",
+        "B": "an owner who sold the strip that had connected her parcel to the road and later sought to cross it",
+        "C": "an owner whose only route was closed by a neighbor's merger of tracts in which she took no part",
+        "D": "a developer who divided a large tract in a way that left an interior lot without any road frontage",
+        "E": "an owner who built a structure across her own access road and then found the parcel enclosed by it"
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "Knowing acceptance. The author's rule denies an easement to 'a buyer who knowingly acquired an enclosed parcel.'",
+        "B": "Self-caused. The owner caused the isolation by selling the strip, so the rule withholds the easement.",
+        "C": "Correct. The owner neither caused nor knowingly accepted the isolation, which the neighbor's consolidation produced; the author says such an owner 'would receive' a right of way.",
+        "D": "Self-caused. The developer created the enclosure, so the 'unless that owner caused' clause bars the claim.",
+        "E": "Self-caused. Building across her own road caused the isolation, so the claim fails under the rule."
+      },
+      "trapPatterns": {
+        "A": "reversal",
+        "B": "shell_game",
+        "D": "shell_game",
+        "E": "shell_game"
+      },
+      "keyTakeaway": "Apply the author's rule as a two-part test: did the owner cause or knowingly accept the isolation? Only one option passes.",
+      "evidence": [
+        3
+      ]
+    },
+    {
+      "id": "rc-m5-easement-by-necessity-q7",
+      "type": "weaken_strengthen_evaluate",
+      "logicTags": [
+        "causation"
+      ],
+      "difficulty": 3,
+      "stem": "Which one of the following, if true, would most strengthen the author's criticism of the Halloran-Voss proposal?",
+      "choices": {
+        "A": "In jurisdictions that adopted a test balancing benefit against burden, purchases of landlocked parcels at steep discounts rose sharply and were followed by successful claims against neighbors.",
+        "B": "In jurisdictions that apply the intention-based doctrine, most disputes over landlocked parcels are decided in favor of the landlocked owner.",
+        "C": "Tests that balance benefit against burden are easier for courts to administer than tests that require strict necessity.",
+        "D": "Few owners of landlocked parcels ask courts for rights of way, preferring to obtain access by private agreement.",
+        "E": "Landlocked parcels that are later given access become as productive as comparable parcels that have road frontage."
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. It confirms the predicted result of paragraph 2: speculators buy cheaply and then obtain rights of way at neighbors' expense.",
+        "B": "True but irrelevant. Outcomes under the existing doctrine do not bear on the cost the author attributes to the proposal.",
+        "C": "Wrong force. Easier administration counts in the proposal's favor.",
+        "D": "Wrong force. If few owners seek rights of way, the speculator risk is reduced rather than confirmed.",
+        "E": "Wrong force. This supports the proposal's public-interest premise, not the author's objection."
+      },
+      "trapPatterns": {
+        "B": "true_but_irrelevant",
+        "C": "wrong_force",
+        "D": "wrong_force",
+        "E": "wrong_force"
+      },
+      "keyTakeaway": "To strengthen a predicted cost, find evidence that the predicted behavior actually occurred.",
+      "evidence": [
+        1
+      ]
+    }
+  ]
+}

@@ -1,0 +1,275 @@
+{
+  "id": "rc-m5-deep-sea-bioluminescence",
+  "style": "phenomenon_hypothesis",
+  "topic": "natural_science",
+  "comparative": false,
+  "title": "The Pulsing Light of the Calder Basin Shrimp",
+  "paragraphs": [
+    "When a midwater shrimp of the Calder Basin, Lyrebathys aurelia, is seized by a predator, it releases from glands at the base of its antennae a cloud of luminous secretion that burns blue for several seconds. The behavior would be unremarkable were it not for its timing. Many deep-sea animals light up when threatened, but the flash is usually brief and is released at the moment of contact. Lyrebathys instead begins to emit a series of pulses before it is caught, as soon as a predator comes within a few body lengths, and it continues pulsing, with its body motionless, even after it has been seized. Since the light must cost the animal energy and must make it conspicuous in an environment where conspicuousness is dangerous, biologists have asked what benefit could outweigh these costs.",
+    "Three explanations have been offered. The earliest, the distraction hypothesis, holds that the light diverts the predator's attention from the shrimp's body, as an ink cloud does for a squid, giving the shrimp a chance to slip away. The second, the alarm hypothesis, holds that the pulses are a signal to other shrimp, warning them of danger and allowing them to disperse. A third, usually called the burglar-alarm hypothesis, proposes that the light is aimed not at the attacker but at its enemies: by making the predator visible to larger animals, the shrimp raises the likelihood that the predator will itself be attacked, and so will be induced to release its prey.",
+    "The observations of the Calder Basin survey team bear on all three. In recorded encounters, shrimp that pulsed escaped from the grip of small predatory fish no more often than shrimp whose luminous glands had been experimentally blocked, a result difficult to reconcile with the distraction hypothesis, which predicts that the light should improve the chance of escape. Neighboring shrimp, moreover, showed no change in swimming behavior when a nearby individual pulsed, even though their eyes are sensitive to precisely the wavelength emitted. This tells against the alarm hypothesis, although a response too subtle for the survey's cameras to record cannot be excluded.",
+    "The burglar-alarm hypothesis has fared better. In the survey's records, predatory fish that seized a pulsing shrimp were approached by larger fish within a minute in a majority of encounters, compared with a small minority of encounters in which the shrimp's glands had been blocked. The data cannot show that the approach was caused by the light rather than by the commotion of the struggle, and the number of encounters is small. Still, of the three accounts, it is the only one that makes sense of a shrimp that keeps pulsing, motionless, after it has been seized."
+  ],
+  "roleMap": {
+    "paragraphs": [
+      "context",
+      "context",
+      "counterpoint",
+      "main_point"
+    ],
+    "viewpoints": [
+      {
+        "who": "Distraction hypothesis",
+        "position": "The light diverts the predator's attention so the shrimp can escape.",
+        "authorAgrees": false
+      },
+      {
+        "who": "Alarm hypothesis",
+        "position": "The pulses warn other shrimp, allowing them to disperse.",
+        "authorAgrees": false
+      },
+      {
+        "who": "Burglar-alarm hypothesis",
+        "position": "The light attracts larger animals that attack the predator, inducing it to release the shrimp.",
+        "authorAgrees": true
+      },
+      {
+        "who": "Calder Basin survey team",
+        "position": "Observations bear on all three hypotheses.",
+        "authorAgrees": null
+      }
+    ],
+    "tone": "measured, provisionally favoring one account"
+  },
+  "lowResSummary": "Author weighs three explanations for a deep-sea shrimp's pulsing light, finds two undercut by survey data, and tentatively favors the burglar-alarm account.",
+  "questions": [
+    {
+      "id": "rc-m5-deep-sea-bioluminescence-q1",
+      "type": "main_point",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately expresses the main point of the passage?",
+      "choices": {
+        "A": "The luminous pulses of Lyrebathys give it no survival benefit, since shrimp whose glands were blocked escaped from small predatory fish as often as pulsing shrimp did.",
+        "B": "Deep-sea animals that emit light when threatened do so in order to attract the enemies of the animals that threaten them.",
+        "C": "Although the evidence is not conclusive, the burglar-alarm hypothesis accounts for the pulsing of Lyrebathys better than do the distraction and alarm hypotheses.",
+        "D": "Observations from the Calder Basin survey have conclusively established that the pulses serve as a signal that allows neighboring shrimp to disperse.",
+        "E": "Biologists have been unable to identify any benefit of luminous pulsing that could outweigh its energy cost and its conspicuousness to predators."
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "Wrong part. The escape-rate result undercuts the distraction hypothesis only; the author goes on to credit a different benefit.",
+        "B": "Extreme. The discussion concerns only Lyrebathys and does not generalize to deep-sea animals as a group.",
+        "C": "Correct. Paragraph 4: the burglar-alarm hypothesis 'has fared better' and is the only account that makes sense of continued pulsing, though the data have limits.",
+        "D": "Opposite. The neighbors showed no change in behavior, which 'tells against the alarm hypothesis.'",
+        "E": "Opposite. The author finds a benefit that the favored hypothesis can explain; the question in paragraph 1 is not left unanswered."
+      },
+      "trapPatterns": {
+        "A": "wrong_part",
+        "B": "extreme",
+        "D": "opposite",
+        "E": "opposite"
+      },
+      "keyTakeaway": "In a phenomenon-hypothesis passage, the main point is the author's verdict, including the stated caveat.",
+      "evidence": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "rc-m5-deep-sea-bioluminescence-q2",
+      "type": "stated",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "According to the passage, Lyrebathys begins to emit its pulses",
+      "choices": {
+        "A": "as soon as a predator comes within a few body lengths of it",
+        "B": "only at the moment that a predator makes contact with it",
+        "C": "only after it has stopped moving and has been seized",
+        "D": "when a neighboring shrimp begins to pulse nearby",
+        "E": "after larger fish have approached the predator that seized it"
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. 'It begins to emit a series of pulses before it is caught, as soon as a predator comes within a few body lengths.'",
+        "B": "Opposite. This describes the flash of many other deep-sea animals, from which Lyrebathys is contrasted.",
+        "C": "Opposite. It pulses before it is caught and continues afterward.",
+        "D": "Wrong part. Neighbors did not respond to a pulse; they are not said to trigger one.",
+        "E": "Reversal. Larger fish approach, in the survey's records, after the shrimp has been seized and has pulsed."
+      },
+      "trapPatterns": {
+        "B": "opposite",
+        "C": "opposite",
+        "D": "wrong_part",
+        "E": "reversal"
+      },
+      "keyTakeaway": "The contrast with other deep-sea animals in paragraph 1 is what makes the shrimp's timing noteworthy.",
+      "evidence": [
+        0
+      ]
+    },
+    {
+      "id": "rc-m5-deep-sea-bioluminescence-q3",
+      "type": "stated",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "According to the passage, shrimp whose luminous glands had been experimentally blocked",
+      "choices": {
+        "A": "were approached by larger fish more often than pulsing shrimp were",
+        "B": "showed no change in swimming behavior when a nearby shrimp pulsed",
+        "C": "escaped from small predatory fish less often than pulsing shrimp did",
+        "D": "escaped from small predatory fish at least as often as pulsing shrimp did",
+        "E": "were never seized by the small predatory fish that attacked them"
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "Opposite. Larger fish approached in only 'a small minority' of encounters with blocked shrimp.",
+        "B": "Wrong part. The neighboring shrimp that showed no change were the observers, not the shrimp with blocked glands.",
+        "C": "Opposite. Pulsing shrimp escaped 'no more often' than blocked shrimp.",
+        "D": "Correct. If pulsing shrimp escaped no more often than blocked shrimp, blocked shrimp escaped at least as often.",
+        "E": "Extreme. Blocked shrimp were seized in the encounters recorded; that is how escape rates were compared."
+      },
+      "trapPatterns": {
+        "A": "opposite",
+        "B": "wrong_part",
+        "C": "opposite",
+        "E": "extreme"
+      },
+      "keyTakeaway": "'No more often' for A means 'at least as often' for B; check the direction of each comparison.",
+      "evidence": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "rc-m5-deep-sea-bioluminescence-q4",
+      "type": "purpose_in_context",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The author mentions that the eyes of neighboring shrimp are sensitive to the wavelength emitted primarily in order to",
+      "choices": {
+        "A": "suggest that predatory fish can detect the pulses and are therefore drawn to them",
+        "B": "indicate that the neighbors' failure to respond is not explained by an inability to perceive the light",
+        "C": "explain why the pulses make the pulsing shrimp conspicuous to larger fish",
+        "D": "show that the alarm hypothesis has been conclusively refuted",
+        "E": "support the distraction hypothesis by showing that the light is visible to animals nearby"
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "Out of scope. The sentence concerns neighboring shrimp, not predators.",
+        "B": "Correct. The clause preempts the objection that neighbors simply could not see the pulse, which strengthens the case against the alarm hypothesis.",
+        "C": "Wrong part. Conspicuousness to larger fish is part of the burglar-alarm hypothesis, not this sentence.",
+        "D": "Extreme. The author allows that a subtle response 'cannot be excluded.'",
+        "E": "Wrong part. The sentence bears on the alarm hypothesis, not on distraction."
+      },
+      "trapPatterns": {
+        "A": "out_of_scope",
+        "C": "wrong_part",
+        "D": "extreme",
+        "E": "wrong_part"
+      },
+      "keyTakeaway": "A 'moreover... even though' clause usually closes off an escape route for the opposing view.",
+      "evidence": [
+        2
+      ]
+    },
+    {
+      "id": "rc-m5-deep-sea-bioluminescence-q5",
+      "type": "author_perspective",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "The passage most strongly suggests that the author would agree with which one of the following?",
+      "choices": {
+        "A": "Pulsing is a more effective defense against small predatory fish than it is against the larger fish of the basin.",
+        "B": "If the pulses were shown to distract predators, the burglar-alarm hypothesis would thereby be refuted as an account of the pulsing.",
+        "C": "Larger fish, rather than small predatory fish, are the chief predators of Lyrebathys in the Calder Basin.",
+        "D": "The energy cost of pulsing is too small to affect the survival of an individual Lyrebathys in the basin.",
+        "E": "The evidence for the burglar-alarm hypothesis would be stronger if the commotion of the struggle were ruled out as the cause."
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "Out of scope. The passage gives no comparison of the pulses' effect on predators of different sizes.",
+        "B": "Extreme. The author never says the explanations are mutually exclusive in this way.",
+        "C": "Out of scope. The passage describes small predatory fish seizing shrimp and larger fish approaching those predators.",
+        "D": "Opposite. Paragraph 1 says the light 'must cost the animal energy.'",
+        "E": "Correct. The author concedes that the data 'cannot show that the approach was caused by the light rather than by the commotion of the struggle,' implying that ruling out the commotion would strengthen the case."
+      },
+      "trapPatterns": {
+        "A": "out_of_scope",
+        "B": "extreme",
+        "C": "out_of_scope",
+        "D": "opposite"
+      },
+      "keyTakeaway": "An author's stated limitation implies what evidence would remove it.",
+      "evidence": [
+        3
+      ]
+    },
+    {
+      "id": "rc-m5-deep-sea-bioluminescence-q6",
+      "type": "weaken_strengthen_evaluate",
+      "logicTags": [
+        "causation"
+      ],
+      "difficulty": 4,
+      "stem": "Which one of the following, if true, would most undermine the author's reliance on the survey's records to favor the burglar-alarm hypothesis?",
+      "choices": {
+        "A": "Larger fish of the basin can detect the blue light of the pulses from distances of many meters.",
+        "B": "Shrimp whose glands were blocked were seized by small predatory fish no more often than pulsing shrimp were.",
+        "C": "Blocking the glands also weakened the shrimp's struggles, and larger fish are drawn to struggles.",
+        "D": "In some encounters, larger fish that approached a pulsing shrimp ate the small predatory fish that held it.",
+        "E": "The luminous secretion of Lyrebathys is chemically similar to that of other deep-sea crustaceans."
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "Wrong force. This strengthens the claim that the light could attract larger fish.",
+        "B": "True but irrelevant. Seizure rates do not bear on whether the light, rather than something else, drew larger fish.",
+        "C": "Correct. It supplies an alternative cause for the difference between pulsing and blocked shrimp: weaker struggles rather than absent light, the confound the author already flags.",
+        "D": "Wrong force. This is consistent with the burglar-alarm hypothesis and supports it.",
+        "E": "True but irrelevant. Chemical similarity says nothing about why larger fish approached."
+      },
+      "trapPatterns": {
+        "A": "wrong_force",
+        "B": "true_but_irrelevant",
+        "D": "wrong_force",
+        "E": "true_but_irrelevant"
+      },
+      "keyTakeaway": "To undermine a comparison, show that the experimental manipulation changed something besides the variable of interest.",
+      "evidence": [
+        3
+      ]
+    },
+    {
+      "id": "rc-m5-deep-sea-bioluminescence-q7",
+      "type": "analogy",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "Which one of the following is most analogous to the function of the pulsing as the burglar-alarm hypothesis describes it?",
+      "choices": {
+        "A": "A lizard sheds its tail so that a pursuing snake attends to the wriggling tail while the lizard escapes.",
+        "B": "A bird gives a high call on sighting a hawk, which sends the rest of its flock scattering into cover.",
+        "C": "A squid releases a cloud of ink that hides it from the fish pursuing it.",
+        "D": "A small animal gripped by a predator emits a loud cry that attracts the predator's own stronger enemies.",
+        "E": "A moth flashes eyespots on its wings so that a bird, startled, releases it."
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "Wrong force. This matches the distraction hypothesis: attention is diverted to another part of the prey.",
+        "B": "Wrong force. This matches the alarm hypothesis: a signal to other members of the same species.",
+        "C": "Wrong force. This is the ink-cloud comparison the author uses for distraction, which concerns concealment rather than summoning enemies.",
+        "D": "Correct. The signal is aimed not at the attacker but at the attacker's enemies, whose arrival may induce the attacker to let go.",
+        "E": "Shell game. The bird releases the moth because it is startled by the display, not because enemies are summoned."
+      },
+      "trapPatterns": {
+        "A": "wrong_force",
+        "B": "wrong_force",
+        "C": "wrong_force",
+        "E": "shell_game"
+      },
+      "keyTakeaway": "Map the functional structure: who produces the signal, who is meant to receive it, and what it is supposed to bring about.",
+      "evidence": [
+        1
+      ]
+    }
+  ]
+}

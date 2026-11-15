@@ -1,0 +1,268 @@
+{
+  "id": "rc-m5-fresco-workshop-attribution",
+  "style": "critique_debate",
+  "topic": "humanities",
+  "comparative": false,
+  "title": "Master and Workshop in Fresco Attribution",
+  "paragraphs": [
+    "Few questions in the study of Renaissance wall painting have consumed as much scholarly effort as whether a given fresco cycle is by the master whose name it bears or by his workshop. The question presupposes that the two possibilities are exclusive, and the dispute has accordingly been conducted between two camps. Connoisseurs of the older school, following the example of the nineteenth-century critic Hallvard Keane, hold that authorship is legible in the hand: the drawing of an ear, the fall of drapery, and the habitual manner of rendering a cheekbone in shadow are said to be as individual as a signature. Such judgments are made quickly and delivered with confidence, and for a long time they were accepted as the best evidence that could be had.",
+    "Archival scholars, by contrast, distrust the eye. They point out that contracts for fresco commissions routinely name the master alone while stipulating that assistants will execute portions of the work, and that the surviving payment records for the chapel of San Verano at Montefiore list eleven people alongside the painter Lorenzo da Sestri. On their account, attribution should rest on documents and on the physical evidence of the plaster, in which the daily patches, or giornate, can be counted and the pounced outlines of transferred drawings identified. A figure whose outline was transferred from the master's cartoon is his, they argue, in a sense that a figure improvised by an assistant is not, whatever its stylistic resemblance to his work.",
+    "Each camp is right about the other's weakness. The connoisseur cannot explain why assistants trained for years in a master's manner should not have mastered it, and so cannot rule out that the celebrated cheekbone was painted by a pupil. The archivist, for his part, treats a transferred outline as proof of the master's involvement when it proves only that a drawing of his was used; the drawing may have been made years earlier and reused by others, as workshop practice often dictated. But the deeper difficulty is shared. Both camps assume that a fresco has an author in the way that a lyric poem has one, and that the task is to assign the whole work to a single party.",
+    "A more useful inquiry would ask what the master controlled, and at what stage. At San Verano the design of the program, the cartoons of the principal scenes, and the final modeling of the faces may each have been his, while the architectural settings and the landscape were painted by others. To describe such a cycle as by Lorenzo or by his workshop is to choose between two inaccurate descriptions. Rather than try to settle attributions, scholars should reconstruct the division of labor, since the pattern of that division, and not the name, is what distinguishes one master's workshop from another's."
+  ],
+  "roleMap": {
+    "paragraphs": [
+      "context",
+      "counterpoint",
+      "counterpoint",
+      "main_point"
+    ],
+    "viewpoints": [
+      {
+        "who": "Connoisseurs (following Keane)",
+        "position": "Authorship is legible in the individual hand, in details such as ears, drapery and cheekbones.",
+        "authorAgrees": false
+      },
+      {
+        "who": "Archival scholars",
+        "position": "Attribution should rest on documents and plaster evidence such as giornate and pounced outlines.",
+        "authorAgrees": false
+      },
+      {
+        "who": "Author",
+        "position": "Both camps wrongly seek a single author; scholars should reconstruct the division of labor between master and workshop.",
+        "authorAgrees": true
+      }
+    ],
+    "tone": "even-handed but corrective"
+  },
+  "lowResSummary": "Author faults connoisseurs and archival scholars alike for seeking one author of a fresco cycle and urges reconstructing the master's division of labor.",
+  "questions": [
+    {
+      "id": "rc-m5-fresco-workshop-attribution-q1",
+      "type": "main_point",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately expresses the main point of the passage?",
+      "choices": {
+        "A": "Because the connoisseur's eye is unreliable, attributions of fresco cycles should rest solely on contracts, payment records, and the physical evidence of the plaster.",
+        "B": "The dispute over whether a fresco cycle is by a master or by his workshop rests on a mistaken assumption, and scholars should instead reconstruct what the master controlled.",
+        "C": "Lorenzo da Sestri designed the cycle at San Verano and left much of its execution, including the settings and landscape, to his assistants.",
+        "D": "Connoisseurial and archival methods, though they begin from opposed premises, are equally able to establish which fresco cycles are the work of a single master.",
+        "E": "Assistants in Renaissance workshops were trained so thoroughly in a master's manner that their work cannot be told apart from his on stylistic grounds."
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "Wrong part. This is the archival camp's position, which the author criticizes in paragraph 3.",
+        "B": "Correct. Paragraph 3 locates the 'deeper difficulty' in the shared assumption of a single author, and paragraph 4 recommends reconstructing the division of labor.",
+        "C": "Extreme. The passage says only that the design, cartoons and faces 'may each have been his'; this is an illustration, not the thesis.",
+        "D": "Opposite. The author argues that both camps share a flawed assumption and each has a weakness.",
+        "E": "Extreme. The author says only that the connoisseur cannot rule out a pupil's work; indistinguishability is not asserted."
+      },
+      "trapPatterns": {
+        "A": "wrong_part",
+        "C": "extreme",
+        "D": "opposite",
+        "E": "extreme"
+      },
+      "keyTakeaway": "In a critique of two camps, the thesis is the point the author makes about what they share.",
+      "evidence": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "rc-m5-fresco-workshop-attribution-q2",
+      "type": "stated",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "According to the passage, the physical evidence of the plaster allows scholars to",
+      "choices": {
+        "A": "determine the date at which the pigments in the faces were first applied to the plaster",
+        "B": "identify by name the assistants who painted the architectural settings of the cycle",
+        "C": "decide which of the scenes in a cycle were painted by the master himself",
+        "D": "count the daily patches and find the pounced outlines of drawings",
+        "E": "tell the master's drawing of an ear from that of a skilled pupil in his workshop"
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "Out of scope. Pigment dating is never mentioned.",
+        "B": "Out of scope. The plaster is said to reveal patches and outlines, not the names of painters.",
+        "C": "Extreme. The author says outlines show only that a drawing was used, not who painted the scene.",
+        "D": "Correct. Paragraph 2: 'the daily patches, or giornate, can be counted and the pounced outlines of transferred drawings identified.'",
+        "E": "Wrong part. Distinguishing details of the hand is the connoisseurs' method, not the plaster evidence."
+      },
+      "trapPatterns": {
+        "A": "out_of_scope",
+        "B": "out_of_scope",
+        "C": "extreme",
+        "E": "wrong_part"
+      },
+      "keyTakeaway": "The right answer is a near-verbatim item; the distractors ask the evidence to do more than the passage says it does.",
+      "evidence": [
+        1
+      ]
+    },
+    {
+      "id": "rc-m5-fresco-workshop-attribution-q3",
+      "type": "purpose_in_context",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The author mentions the payment records for the chapel of San Verano primarily in order to",
+      "choices": {
+        "A": "illustrate the archival scholars' point that commissions involved many assistants",
+        "B": "show that Lorenzo da Sestri received less credit for the cycle than his assistants did",
+        "C": "demonstrate that the connoisseurs have misattributed the cycle at San Verano to the master",
+        "D": "establish that the cartoons for the cycle were drawn by someone other than the master",
+        "E": "support the claim that the master controlled the design of the program at San Verano"
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. The records, 'list eleven people alongside the painter,' are offered with the observation that contracts name the master while assistants execute portions.",
+        "B": "Out of scope. Nothing is said about the relative credit or pay of the master and his assistants.",
+        "C": "Extreme. No claim is made that connoisseurs misattributed San Verano.",
+        "D": "Extreme. The records list people; they do not show who drew the cartoons.",
+        "E": "Wrong part. Control of the design is a hypothesis in paragraph 4 and does not rest on the payment records."
+      },
+      "trapPatterns": {
+        "B": "out_of_scope",
+        "C": "extreme",
+        "D": "extreme",
+        "E": "wrong_part"
+      },
+      "keyTakeaway": "Ask which side of the debate a piece of evidence is introduced to serve; here it is the archival side.",
+      "evidence": [
+        1
+      ]
+    },
+    {
+      "id": "rc-m5-fresco-workshop-attribution-q4",
+      "type": "author_attitude",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The author's attitude toward the two camps of scholars can most accurately be described as",
+      "choices": {
+        "A": "dismissive of both camps, since neither method can yield any reliable information about a fresco",
+        "B": "sympathetic to the connoisseurs' judgments of the hand but critical of the archival scholars' reliance on documents",
+        "C": "appreciative of each camp's insight but critical of an assumption they share",
+        "D": "neutral toward both, since the passage offers no evaluation of either method",
+        "E": "enthusiastic about the archival method as a replacement for the connoisseurs' approach"
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "Extreme. The author says each camp is 'right about the other's weakness'; neither is called worthless.",
+        "B": "Opposite. The author criticizes both and favors neither.",
+        "C": "Correct. 'Each camp is right about the other's weakness,' but 'the deeper difficulty is shared.'",
+        "D": "Opposite. The author evaluates both methods explicitly.",
+        "E": "Opposite. The archivist's reasoning is faulted for treating a transferred outline as proof of involvement."
+      },
+      "trapPatterns": {
+        "A": "extreme",
+        "B": "opposite",
+        "D": "opposite",
+        "E": "opposite"
+      },
+      "keyTakeaway": "Attitude answers should capture both the qualified approval and the criticism the author expresses.",
+      "evidence": [
+        2
+      ]
+    },
+    {
+      "id": "rc-m5-fresco-workshop-attribution-q5",
+      "type": "author_perspective",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "The passage most strongly suggests that the author would be most likely to agree with which one of the following?",
+      "choices": {
+        "A": "Payment records that list numerous assistants show that the master designed none of the scenes in a cycle.",
+        "B": "Stylistic resemblance to a master's known work is the best evidence available of the master's involvement.",
+        "C": "Hallvard Keane's confident judgments about the attribution of fresco cycles were, for the most part, correct.",
+        "D": "The architectural settings and landscapes in Renaissance fresco cycles were always painted by assistants.",
+        "E": "A figure transferred from a master's cartoon may have been painted by someone else."
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "Opposite. Paragraph 4 allows that the master may have designed the program and cartoons despite assistants' participation.",
+        "B": "Opposite. This is the connoisseurs' view, and the author notes that pupils trained in the manner may have mastered it.",
+        "C": "Out of scope. The author does not assess Keane's accuracy.",
+        "D": "Extreme. Paragraph 4 says the settings and landscape at San Verano were painted by others, not that this was always so.",
+        "E": "Correct. The author says a transferred outline 'proves only that a drawing of his was used,' possibly reused by others, so the painting may be someone else's."
+      },
+      "trapPatterns": {
+        "A": "opposite",
+        "B": "opposite",
+        "C": "out_of_scope",
+        "D": "extreme"
+      },
+      "keyTakeaway": "The author's criticism of the archivist implies a general point: a transferred drawing does not settle who painted the figure.",
+      "evidence": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "rc-m5-fresco-workshop-attribution-q6",
+      "type": "other_perspective",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "The passage suggests that the archival scholars would be most likely to agree with which one of the following?",
+      "choices": {
+        "A": "The manner in which a cheekbone is rendered in shadow is reliable evidence that the master painted the head.",
+        "B": "A contract that names only the master shows that he painted every figure in the cycle it governs.",
+        "C": "Assistants who train for years in a master's manner cannot have mastered it well enough to imitate it.",
+        "D": "A figure an assistant painted in the master's style would not thereby be the master's.",
+        "E": "No fresco cycle whose payment records list assistants can reasonably be attributed in any part to the named master."
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "Wrong part. This is the connoisseurs' view, which the archival scholars distrust.",
+        "B": "Opposite. Archival scholars note that contracts naming the master alone stipulate that assistants will execute portions.",
+        "C": "Wrong part. This is the connoisseurs' assumption, which the author says cannot be sustained.",
+        "D": "Correct. A figure improvised by an assistant is not the master's 'whatever its stylistic resemblance to his work.'",
+        "E": "Extreme. The archival scholars treat a figure from the master's cartoon as his own, so partial attribution remains possible."
+      },
+      "trapPatterns": {
+        "A": "wrong_part",
+        "B": "opposite",
+        "C": "wrong_part",
+        "E": "extreme"
+      },
+      "keyTakeaway": "Attribute each claim to the right camp: stylistic resemblance belongs to the connoisseurs, documents to the archivists.",
+      "evidence": [
+        1
+      ]
+    },
+    {
+      "id": "rc-m5-fresco-workshop-attribution-q7",
+      "type": "meaning_in_context",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "Which one of the following most accurately expresses the meaning of 'program' as it is used in the passage?",
+      "choices": {
+        "A": "the schedule on which successive sections of plaster were laid and painted",
+        "B": "the overall scheme of subjects to be depicted across the cycle",
+        "C": "the set of techniques that a workshop used to transfer drawings to a wall",
+        "D": "the written agreement stating what work the master undertook to perform",
+        "E": "the list of assistants who were to take part in painting the cycle"
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "Shell game. The daily patches (giornate) are discussed in paragraph 2, not as the design of a program.",
+        "B": "Correct. 'The design of the program' is listed beside the cartoons of the principal scenes and the modeling of faces, as the master's conception of the cycle's subjects.",
+        "C": "Out of scope. Nothing in the passage ties the word to techniques of transferring drawings.",
+        "D": "Wrong part. Contracts are an archival source in paragraph 2; the program is something designed.",
+        "E": "True but irrelevant. The assistants' participation is a separate matter from what the master designed."
+      },
+      "trapPatterns": {
+        "A": "shell_game",
+        "C": "out_of_scope",
+        "D": "wrong_part",
+        "E": "true_but_irrelevant"
+      },
+      "keyTakeaway": "Read the word with its list: design of the program, cartoons, modeling. It is the intellectual scheme, the first stage of work.",
+      "evidence": [
+        3
+      ]
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "id": "rc-m5-kinship-terms-change",
+  "style": "spotlight",
+  "topic": "social_science",
+  "comparative": false,
+  "title": "Dorrigan and the Lag of Kinship Terms",
+  "paragraphs": [
+    "Until the middle of the twentieth century, anthropologists tended to treat kinship terminologies in one of two ways. Functionalists regarded them as mirrors of social organization: a society that distinguished its mother's brothers from its father's brothers did so because the two stood in different jural relations to a child. Others dismissed terminologies as linguistic fossils, arbitrary survivals with no reliable connection to present arrangements. Neither view could say much about change, since the first implied that vocabulary should alter the moment society did, and the second implied that it should not alter in any systematic way at all. It was Ferenc Dorrigan's study of the Tessaren highlanders, published in 1951, that first gave the question a precise form.",
+    "Dorrigan had the good fortune to arrive in the Tessaren valley shortly after its clans had abandoned residence with the wife's kin in favor of residence with the husband's. Interviewing three generations, he found that the oldest speakers still used the old term for 'mother's brother' to address an authority figure, the middle generation used it with visible hesitation, and the youngest used a new term derived from the word for 'father's kinsman.' From this he proposed his lag principle: kinship vocabulary is conservative, retaining the shape of an earlier social order until a generation raised entirely under the new arrangements comes to maturity. The principle had the virtue of risk. It forbade vocabulary to change before the social order did, and it fixed the delay at roughly a generation.",
+    "Later fieldwork has not been kind to the principle. Nuala Teversham's resurvey of three neighboring valleys in the 1970s found two in which the vocabulary had changed before residence did, in one case by a full decade. Dorrigan's sample, she observed, had been drawn from a single valley whose lineages were unusually insular, and the lag he took for a law may have been a local habit. Teversham went on to argue that terms are not passive: ambitious lineages, seeking to dignify a marriage alliance, sometimes adopted a prestigious neighbor's vocabulary deliberately and ahead of any change in practice.",
+    "It would be a mistake, however, to conclude that Dorrigan's work is merely a cautionary tale about generalizing from one valley. His enduring contribution lies less in his principle than in his method. By dating each stage of vocabulary change against an independent record of residence, he turned the loose claim that language reflects society into a proposition that could fail, and it failed precisely because Teversham could repeat his procedure elsewhere. A theory that can be refuted so cleanly has done what most of its predecessors never did. Anthropologists who now debate how and why kinship vocabularies change are conducting that debate on ground he surveyed, even when they reach conclusions he would have rejected."
+  ],
+  "roleMap": {
+    "paragraphs": ["context", "support", "counterpoint", "main_point"],
+    "viewpoints": [
+      { "who": "Functionalists", "position": "Kinship terms mirror current social organization.", "authorAgrees": false },
+      { "who": "Linguistic-fossil theorists", "position": "Kinship terms are arbitrary survivals unconnected to present arrangements.", "authorAgrees": false },
+      { "who": "Dorrigan", "position": "Kinship vocabulary lags behind social change by about a generation.", "authorAgrees": false },
+      { "who": "Teversham", "position": "Lag is not universal; lineages can change terms deliberately, ahead of practice.", "authorAgrees": true }
+    ],
+    "tone": "qualified appreciation, balanced"
+  },
+  "lowResSummary": "Author reassesses Dorrigan: his lag principle failed under later fieldwork, but his method of dating vocabulary change against social change is his lasting contribution.",
+  "questions": [
+    {
+      "id": "rc-m5-kinship-terms-change-q1",
+      "type": "stated",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "According to the passage, Dorrigan's lag principle holds that",
+      "choices": {
+        "A": "kinship vocabulary changes before the corresponding social arrangements do",
+        "B": "kinship vocabulary changes only after a generation has been raised under new social arrangements",
+        "C": "kinship terms are adopted deliberately by lineages seeking to dignify marriage alliances",
+        "D": "kinship vocabulary mirrors the current social organization at every moment",
+        "E": "kinship terminologies survive as arbitrary relics unconnected to present arrangements"
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "Opposite. The principle 'forbade vocabulary to change before the social order did'; Teversham found cases that did.",
+        "B": "Correct. Vocabulary is 'conservative, retaining the shape of an earlier social order until a generation raised entirely under the new arrangements comes to maturity.'",
+        "C": "Wrong part. This is Teversham's argument, not Dorrigan's principle.",
+        "D": "Wrong part. This is the functionalist view that the lag principle was meant to improve on.",
+        "E": "Wrong part. This is the 'linguistic fossil' view, which also lacks any account of systematic change."
+      },
+      "trapPatterns": { "A": "opposite", "C": "wrong_part", "D": "wrong_part", "E": "wrong_part" },
+      "keyTakeaway": "Four views appear in the passage; match each claim to its holder.",
+      "evidence": [1]
+    },
+    {
+      "id": "rc-m5-kinship-terms-change-q2",
+      "type": "main_point",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately expresses the main point of the passage?",
+      "choices": {
+        "A": "Dorrigan's lag principle has been refuted by later fieldwork and should be abandoned in favor of Teversham's account of deliberate changes in vocabulary.",
+        "B": "Earlier anthropologists wrongly treated kinship terminologies as arbitrary fossils, a view that Dorrigan's study of the Tessaren conclusively disproved.",
+        "C": "Teversham's resurvey showed that Dorrigan's sample came from an unusually insular valley and so reveals nothing about how kinship vocabularies change.",
+        "D": "Dorrigan showed that kinship vocabulary lags behind social change by about a generation, a finding that later fieldwork has largely confirmed.",
+        "E": "Although later fieldwork has undermined Dorrigan's lag principle, his method of dating vocabulary change against independent evidence of social change is his lasting contribution."
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "Extreme. The author does not say the work should be abandoned, and Teversham's argument is offered as a further finding, not as a replacement.",
+        "B": "Extreme. The study gave the question 'a precise form'; the author never says it disproved the fossil view.",
+        "C": "Extreme. The insularity of the valley limits the principle's generality, but the author credits the study with much that remains useful.",
+        "D": "Opposite. Later fieldwork 'has not been kind to the principle.'",
+        "E": "Correct. Paragraph 3 reports the principle's failure; paragraph 4 says 'his enduring contribution lies less in his principle than in his method.'"
+      },
+      "trapPatterns": { "A": "extreme", "B": "extreme", "C": "extreme", "D": "opposite" },
+      "keyTakeaway": "A spotlight passage that pivots with 'however' usually ends by naming the contribution that survives the critique.",
+      "evidence": [2, 3]
+    },
+    {
+      "id": "rc-m5-kinship-terms-change-q3",
+      "type": "meaning_in_context",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "Which one of the following most accurately expresses the meaning of 'conservative' as it is used in the passage?",
+      "choices": {
+        "A": "opposed to political or social reform",
+        "B": "cautious in the claims it makes about society",
+        "C": "slow to change, preserving earlier forms after circumstances have altered",
+        "D": "restricted to the speech of the oldest generation",
+        "E": "resistant to borrowing words from neighboring communities"
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "Shell game. The word is applied to vocabulary, which has no political stance.",
+        "B": "Shell game. The principle makes a bold claim, 'the virtue of risk,' and is not cautious.",
+        "C": "Correct. Vocabulary is 'retaining the shape of an earlier social order' until the next generation matures.",
+        "D": "Wrong part. The middle and youngest generations also reflect the lag at different stages.",
+        "E": "Opposite. Teversham's lineages did borrow vocabulary, but this is a different point that does not define the lag principle."
+      },
+      "trapPatterns": { "A": "shell_game", "B": "shell_game", "D": "wrong_part", "E": "opposite" },
+      "keyTakeaway": "Gloss a word by the clause that follows it; here 'retaining the shape of an earlier social order' defines it.",
+      "evidence": [1]
+    },
+    {
+      "id": "rc-m5-kinship-terms-change-q4",
+      "type": "purpose_in_context",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The author mentions that Dorrigan's sample came from a single valley with unusually insular lineages primarily in order to",
+      "choices": {
+        "A": "explain how a pattern local to one place could have been mistaken for a general principle",
+        "B": "suggest that Dorrigan's interviews with three generations were carelessly conducted",
+        "C": "argue that Teversham's resurvey was itself drawn from unrepresentative valleys",
+        "D": "demonstrate that insular lineages are unable to adopt vocabulary from their neighbors",
+        "E": "support the claim that kinship vocabulary is conservative"
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. Teversham 'observed' that the lag Dorrigan 'took for a law may have been a local habit.'",
+        "B": "Out of scope. No criticism of Dorrigan's interview technique is made.",
+        "C": "Out of scope. Teversham's three valleys are not criticized.",
+        "D": "Extreme. The passage says only that Teversham's lineages sometimes borrowed; it makes no claim about insular ones' abilities.",
+        "E": "Opposite. The point is that the lag may not generalize, which weakens the conservatism claim."
+      },
+      "trapPatterns": { "B": "out_of_scope", "C": "out_of_scope", "D": "extreme", "E": "opposite" },
+      "keyTakeaway": "A detail introduced with 'she observed' in a critique serves the critic's point, here the limits of the sample.",
+      "evidence": [2]
+    },
+    {
+      "id": "rc-m5-kinship-terms-change-q5",
+      "type": "author_attitude",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The author's attitude toward Dorrigan's work can most accurately be described as",
+      "choices": {
+        "A": "uncritical admiration for a study that remains unsurpassed",
+        "B": "grudging respect for conclusions that later work has largely confirmed",
+        "C": "disappointment that a promising method yielded no lasting results",
+        "D": "qualified appreciation that values the method more than the principle it was used to establish",
+        "E": "detached neutrality toward a dispute between rival schools of anthropology"
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "Opposite. The author reports that the principle has not fared well.",
+        "B": "Opposite. The conclusions have not been confirmed; it is the method that endures.",
+        "C": "Opposite. The method is the lasting contribution and is credited with enabling the refutation.",
+        "D": "Correct. 'His enduring contribution lies less in his principle than in his method.'",
+        "E": "Out of scope. The author evaluates and praises the method rather than merely describing a dispute."
+      },
+      "trapPatterns": { "A": "opposite", "B": "opposite", "C": "opposite", "E": "out_of_scope" },
+      "keyTakeaway": "In a reassessment, the attitude is rarely pure praise or blame; name what is praised and what is withheld.",
+      "evidence": [2, 3]
+    },
+    {
+      "id": "rc-m5-kinship-terms-change-q6",
+      "type": "other_perspective",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "The passage suggests that Teversham would be most likely to agree with which one of the following?",
+      "choices": {
+        "A": "Kinship vocabulary never changes before the social arrangements it describes have changed.",
+        "B": "Dorrigan's interviews with three generations of Tessaren speakers were unreliable.",
+        "C": "A change in kinship vocabulary can sometimes be a means by which a lineage pursues a social aim rather than a result of social change.",
+        "D": "Anthropologists should regard kinship terminologies as arbitrary survivals unconnected to present practice.",
+        "E": "Dorrigan's procedure of comparing vocabulary change with an independent record of residence should be abandoned."
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "Opposite. Teversham found two valleys in which vocabulary changed before residence did.",
+        "B": "Out of scope. Teversham questioned the sample's representativeness, not the reliability of the interviews.",
+        "C": "Correct. Teversham argues that ambitious lineages 'adopted a prestigious neighbor's vocabulary deliberately and ahead of any change in practice.'",
+        "D": "Opposite. Her findings tie vocabulary change to social aims, not to arbitrary survival.",
+        "E": "Opposite. The author says she refuted Dorrigan by repeating his procedure elsewhere."
+      },
+      "trapPatterns": { "A": "opposite", "B": "out_of_scope", "D": "opposite", "E": "opposite" },
+      "keyTakeaway": "Teversham's own method was Dorrigan's; she is a user of his procedure, not an opponent of it.",
+      "evidence": [2, 3]
+    },
+    {
+      "id": "rc-m5-kinship-terms-change-q7",
+      "type": "analogy",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "Which one of the following is most analogous to the contribution of Dorrigan's work as the author assesses it?",
+      "choices": {
+        "A": "A physician's proposed cure for a disease proves ineffective, but the controlled trial she designed to test it becomes the standard by which later cures are judged.",
+        "B": "A mapmaker's chart of a coast is found to be inaccurate in places and is discarded in favor of an older chart.",
+        "C": "A historian's thesis about the causes of a war is confirmed by later archival discoveries that add further detail.",
+        "D": "A linguist's grammar of a little-known language is praised for its thoroughness, though it advances no theoretical claims.",
+        "E": "A chemist's explanation of a reaction is rejected after the experiments on which it rested are shown to have been poorly performed."
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. A failed claim whose testing procedure endures and allows later work to refute it parallels the lag principle and the dating method.",
+        "B": "Shell game. The chart is simply replaced; nothing in it survives as a method.",
+        "C": "Opposite. Dorrigan's principle was not confirmed by later work.",
+        "D": "Out of scope. Dorrigan's work did advance a risky theoretical claim.",
+        "E": "Opposite. Dorrigan's method is the part praised; here the method is faulted."
+      },
+      "trapPatterns": { "B": "shell_game", "C": "opposite", "D": "out_of_scope", "E": "opposite" },
+      "keyTakeaway": "Abstract the relationship first: a refuted claim, a surviving testable method; then look for the case with the same shape.",
+      "evidence": [3]
+    }
+  ]
+}

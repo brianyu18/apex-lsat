@@ -1,0 +1,201 @@
+{
+  "id": "rc-m5-plea-bargain-trial-penalty",
+  "style": "phenomenon_hypothesis",
+  "topic": "law",
+  "comparative": false,
+  "title": "The Halvern Trial Penalty",
+  "paragraphs": [
+    "In the courts of the Halvern Commonwealth, a defendant convicted after a jury trial is sentenced, on average, to roughly twice the term imposed on a defendant who pleads guilty to the same charge. Because the Sentencing Act expressly forbids a judge to lengthen a sentence on the ground that the defendant insisted on a trial, this disparity, commonly called the trial penalty, has long embarrassed the system's defenders. Judges, when pressed, attribute it to a statutory mitigating factor, acceptance of responsibility, which entitles a defendant who pleads to a reduction. But a reduction of that size invites suspicion, and three explanations have competed to account for it.",
+    "The first, associated with the criminologist Mirela Osgood, holds that the gap is a deliberate instrument. Prosecutors, she argues, offer lenient terms in exchange for pleas because the system cannot afford to try more than a small fraction of its cases, and judges, understanding this, sentence harshly after trial in order to keep those offers credible. Her principal evidence is that the gap is widest in the districts with the heaviest dockets. The second explanation, advanced by Teodor Vasquelle, is one of selection: defendants who stand trial are not comparable to those who plead. Those with the strongest evidence against them and the longest prior records expect heavy sentences however they proceed and so have least to lose by gambling on an acquittal; the trial group is therefore weighted toward serious cases, and its longer sentences reflect that composition rather than any penalty.",
+    "A third explanation is informational. A plea is ordinarily entered on a bare statement of agreed facts, whereas a trial exposes the sentencing judge to the full detail of the offense: the testimony of the victim, the manner in which the harm was done, the demeanor of the accused. A judge who has absorbed that detail may rationally sentence more severely than one who has read only a summary, and no one need intend a punishment for a gap to arise. Few commentators have pressed this view, in part because it is difficult to test, but it has the virtue of requiring neither bad faith nor bad statistics.",
+    "None of these accounts, I think, is sufficient alone, though they are not equally strong. Vasquelle's is correct as far as it goes: a matched-case study by the Halvern Judicial Council, which compared defendants facing identical charges with comparable prior records, found that the gap shrank by about a third. It did not disappear, however, and selection cannot explain what remains. Osgood's evidence from crowded districts, though suggestive, is equally what one would expect if judges simply reward pleas more generously where saved court time is most valuable, a practice the statute permits. The residual gap is therefore plausibly part informational and part generous discount. That does not make it harmless: a discount of that size, available only to those who forgo a trial, differs from a penalty on those who demand one chiefly in the label attached to it. Whether the statute's prohibition can survive that equivalence is a question the Commonwealth has yet to face."
+  ],
+  "roleMap": {
+    "paragraphs": ["context", "counterpoint", "counterpoint", "main_point"],
+    "viewpoints": [
+      { "who": "Judges", "position": "The disparity reflects a statutory reduction for acceptance of responsibility.", "authorAgrees": null },
+      { "who": "Osgood", "position": "The gap is a deliberate instrument to induce pleas and protect crowded dockets.", "authorAgrees": false },
+      { "who": "Vasquelle", "position": "The gap reflects selection: defendants who stand trial are more serious cases.", "authorAgrees": true },
+      { "who": "Informational account", "position": "Trials expose the judge to fuller detail of the offense, which lengthens sentences.", "authorAgrees": null }
+    ],
+    "tone": "measured, analytical, mildly skeptical"
+  },
+  "lowResSummary": "Author weighs three explanations of why trial sentences exceed plea sentences, finds selection partial, and doubts the statute's ban on penalizing trials can survive.",
+  "questions": [
+    {
+      "id": "rc-m5-plea-bargain-trial-penalty-q1",
+      "type": "main_point",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately expresses the main point of the passage?",
+      "choices": {
+        "A": "The trial penalty in Halvern courts is chiefly a deliberate instrument by which prosecutors and judges pressure defendants to plead guilty in order to relieve crowded dockets.",
+        "B": "Although selection explains part of the Halvern disparity between trial and plea sentences, a substantial gap remains, and its likeliest sources leave the statute's ban in question.",
+        "C": "Judges' reliance on acceptance of responsibility as a mitigating factor has rendered the Sentencing Act's prohibition on penalizing defendants who insist on a trial a dead letter.",
+        "D": "Matched comparison of defendants with identical charges and comparable records shows that the disparity between plea and trial sentences results entirely from differences between the defendants who choose each course.",
+        "E": "Because a trial exposes the sentencing judge to more detail about an offense than a plea does, the disparity between the two kinds of sentence is not a true penalty."
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "Wrong part. This is Osgood's view, which the author treats as no more than suggestive and as equally compatible with a lawful discount.",
+        "B": "Correct. Paragraph 4: the gap 'shrank by about a third' but 'did not disappear'; the remainder is 'part informational and part generous discount,' and whether the prohibition 'can survive that equivalence' is open.",
+        "C": "Extreme. The author says only that the survival of the prohibition is 'a question the Commonwealth has yet to face,' not that it is a dead letter.",
+        "D": "Opposite. The study found the gap 'shrank by about a third' and 'did not disappear.'",
+        "E": "Wrong part. The informational account is one explanation of only part of the residue, and the author adds that the result 'does not make it harmless.'"
+      },
+      "trapPatterns": { "A": "wrong_part", "C": "extreme", "D": "opposite", "E": "wrong_part" },
+      "keyTakeaway": "In a competing-explanations passage the author's verdict usually combines partial credit to one account with a remaining question; reject answers that crown a single explanation.",
+      "evidence": [3]
+    },
+    {
+      "id": "rc-m5-plea-bargain-trial-penalty-q2",
+      "type": "stated",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "According to the passage, the matched-case study conducted by the Halvern Judicial Council found that",
+      "choices": {
+        "A": "defendants who pleaded guilty had, on average, shorter prior records than defendants who stood trial",
+        "B": "the disparity between plea and trial sentences vanished once charges and prior records were held comparable",
+        "C": "the disparity between plea and trial sentences was widest in the districts with the heaviest dockets",
+        "D": "the disparity shrank by roughly a third among defendants facing identical charges with comparable records",
+        "E": "sentencing judges who heard victim testimony imposed longer terms than judges who read a factual summary"
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "Out of scope. The study compared defendants with 'comparable prior records'; no difference in records is reported.",
+        "B": "Opposite. The gap 'did not disappear.'",
+        "C": "Wrong part. The pattern across crowded districts is Osgood's evidence, not the study's finding.",
+        "D": "Correct. 'Compared defendants facing identical charges with comparable prior records, found that the gap shrank by about a third.'",
+        "E": "Shell game. This is the informational explanation, which the study is not said to have tested."
+      },
+      "trapPatterns": { "A": "out_of_scope", "B": "opposite", "C": "wrong_part", "E": "shell_game" },
+      "keyTakeaway": "Attribute each finding to the right source; Osgood's district pattern and the Council's study are easy to swap.",
+      "evidence": [3]
+    },
+    {
+      "id": "rc-m5-plea-bargain-trial-penalty-q3",
+      "type": "purpose_in_context",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The author mentions the statutory mitigating factor of acceptance of responsibility in the first paragraph primarily in order to",
+      "choices": {
+        "A": "report the justification that judges themselves give for the disparity, a justification whose scale invites suspicion",
+        "B": "show that judges knowingly violate the Sentencing Act whenever they impose a longer sentence after a trial",
+        "C": "supply evidence for Osgood's claim that sentences after trial are deliberately severe in order to protect plea offers",
+        "D": "introduce Vasquelle's contention that defendants who stand trial differ in character from those who plead",
+        "E": "establish that the reduction available to defendants who plead is smaller than the statute actually allows"
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. 'Judges, when pressed, attribute it to a statutory mitigating factor... But a reduction of that size invites suspicion.'",
+        "B": "Extreme. The author never says judges knowingly violate the Act; the mitigating factor is offered as a lawful ground.",
+        "C": "Wrong part. Osgood's argument appears in paragraph 2 and does not rest on the mitigating factor.",
+        "D": "Shell game. Selection concerns who goes to trial, not how judges justify the reduction.",
+        "E": "Opposite. The author's worry is that the reduction is too large, not too small."
+      },
+      "trapPatterns": { "B": "extreme", "C": "wrong_part", "D": "shell_game", "E": "opposite" },
+      "keyTakeaway": "A pivot like 'But' right after a mentioned view signals that the view is being reported in order to be questioned.",
+      "evidence": [0]
+    },
+    {
+      "id": "rc-m5-plea-bargain-trial-penalty-q4",
+      "type": "other_perspective",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "The passage suggests that Vasquelle would be most likely to agree with which one of the following?",
+      "choices": {
+        "A": "Defendants who plead guilty are generally charged with less serious offenses than those whom prosecutors choose to take to trial.",
+        "B": "Judges in the busiest districts impose harsher sentences after trial in order to keep prosecutors' plea offers credible to defendants.",
+        "C": "A sentencing judge who has heard a victim testify at trial is likely to sentence more severely than one who has read a summary.",
+        "D": "Defendants with the strongest evidence against them are the ones most likely to plead guilty in the hope of leniency.",
+        "E": "A raw comparison of average sentences after trial and after plea may overstate how much going to trial itself lengthens a sentence."
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "Shell game. Selection concerns the strength of evidence and the length of prior records among defendants facing the same charge, not the seriousness of the charges.",
+        "B": "Wrong part. This is Osgood's explanation, which Vasquelle's competes with.",
+        "C": "Wrong part. This is the informational explanation, a third account distinct from selection.",
+        "D": "Reversal. Vasquelle holds that such defendants 'have least to lose by gambling on an acquittal,' so they are the ones who stand trial.",
+        "E": "Correct. If the trial group is 'weighted toward serious cases,' its longer sentences 'reflect that composition rather than any penalty,' so raw averages exaggerate the effect of trial itself."
+      },
+      "trapPatterns": { "A": "shell_game", "B": "wrong_part", "C": "wrong_part", "D": "reversal" },
+      "keyTakeaway": "To predict a named scholar's view, restate her mechanism and apply it; answers that belong to a rival explanation are the standard traps.",
+      "evidence": [1]
+    },
+    {
+      "id": "rc-m5-plea-bargain-trial-penalty-q5",
+      "type": "organization",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "Which one of the following most accurately describes the organization of the passage?",
+      "choices": {
+        "A": "An empirical finding is presented, the rival theories offered to explain it are shown to be equally unsupported, and the author declines to endorse any of them.",
+        "B": "A legal rule is stated, two cases applying it are contrasted, and the author argues that the rule should be repealed.",
+        "C": "A disparity and its official justification are described, three explanations are set out, and the author then assesses them and draws a qualified conclusion.",
+        "D": "A puzzling disparity is introduced, one explanation is defended against two rivals, and the author concludes that it fully accounts for the disparity.",
+        "E": "A statistical study is summarized, its methods are criticized, and the author offers a competing study to replace it."
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "Opposite. The author says the accounts are 'not equally strong' and credits selection with a third of the gap.",
+        "B": "Out of scope. No cases are contrasted and repeal is never proposed.",
+        "C": "Correct. Paragraph 1 gives the disparity and the judges' justification; paragraphs 2 and 3 set out three explanations; paragraph 4 assesses them and ends on an open question.",
+        "D": "Extreme. The author denies that any one account is sufficient alone.",
+        "E": "Shell game. The Judicial Council's study is used as evidence, not criticized, and no competing study is offered."
+      },
+      "trapPatterns": { "A": "opposite", "B": "out_of_scope", "D": "extreme", "E": "shell_game" },
+      "keyTakeaway": "Check each clause of an organization answer against a paragraph; one false clause sinks it.",
+      "evidence": [0, 1, 2, 3]
+    },
+    {
+      "id": "rc-m5-plea-bargain-trial-penalty-q6",
+      "type": "weaken_strengthen_evaluate",
+      "logicTags": ["causation"],
+      "difficulty": 3,
+      "stem": "Which one of the following, if true, would most strengthen the informational explanation described in the passage?",
+      "choices": {
+        "A": "In districts that require victims to testify at plea hearings, the disparity between plea and trial sentences is markedly smaller than elsewhere.",
+        "B": "The disparity between plea and trial sentences is widest in the districts whose criminal dockets are heaviest.",
+        "C": "Defendants with long prior records are more likely than other defendants to insist on a jury trial.",
+        "D": "Prosecutors in the Commonwealth routinely offer plea terms more lenient than the sentences they recommend after a conviction at trial.",
+        "E": "Judges who sentence after a trial are no more likely than other judges to mention acceptance of responsibility in their findings."
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. If supplying the judge with full detail at a plea hearing narrows the gap, the detail a trial supplies is plausibly part of what produces it.",
+        "B": "True but irrelevant. This is Osgood's evidence, and it equally fits a more generous discount where court time is scarce.",
+        "C": "Wrong force. This supports the selection explanation, not the informational one.",
+        "D": "True but irrelevant. It restates that pleas are rewarded without bearing on what the judge learns at trial.",
+        "E": "Out of scope. How often judges cite the mitigating factor says nothing about the information a trial supplies."
+      },
+      "trapPatterns": { "B": "true_but_irrelevant", "C": "wrong_force", "D": "true_but_irrelevant", "E": "out_of_scope" },
+      "keyTakeaway": "Strengthening a mechanism means changing the one variable the mechanism names, here the judge's information, and seeing the effect move.",
+      "evidence": [2]
+    },
+    {
+      "id": "rc-m5-plea-bargain-trial-penalty-q7",
+      "type": "author_perspective",
+      "logicTags": [],
+      "difficulty": 4,
+      "stem": "The passage most strongly suggests that the author would agree with which one of the following?",
+      "choices": {
+        "A": "A sentence reduction for pleading guilty can never be justified as the kind of mitigation that the Sentencing Act contemplates.",
+        "B": "The Judicial Council's matched-case study demonstrates conclusively that the informational explanation accounts for the remaining gap.",
+        "C": "Judges in the busiest districts are unaffected, in setting sentences, by the value of the court time that a plea saves.",
+        "D": "A difference in sentences may amount to the same thing for a defendant whether it is described as a plea discount or as a trial penalty.",
+        "E": "The Sentencing Act's prohibition would be easier to enforce if judges were required to explain each sentence in writing."
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "Extreme. The author calls the reward for pleas 'a practice the statute permits' and finds the prohibition's fate undecided.",
+        "B": "Extreme. The study measured the effect of selection; the author calls the informational view hard to test and only 'plausibly' part of the residue.",
+        "C": "Opposite. The author allows that judges 'reward pleas more generously where saved court time is most valuable.'",
+        "D": "Correct. A discount for those who forgo a trial 'differs from a penalty on those who demand one chiefly in the label attached to it,' an 'equivalence.'",
+        "E": "Out of scope. Written explanations of sentences are never discussed."
+      },
+      "trapPatterns": { "A": "extreme", "B": "extreme", "C": "opposite", "E": "out_of_scope" },
+      "keyTakeaway": "The author's last sentences often carry the passage's sharpest inference; here the 'equivalence' of discount and penalty is the load-bearing idea.",
+      "evidence": [3]
+    }
+  ]
+}

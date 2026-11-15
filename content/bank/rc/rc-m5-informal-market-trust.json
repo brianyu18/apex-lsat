@@ -1,0 +1,275 @@
+{
+  "id": "rc-m5-informal-market-trust",
+  "style": "critique_debate",
+  "topic": "social_science",
+  "comparative": true,
+  "title": "Why Traders Keep Unwritten Bargains",
+  "paragraphs": [
+    "Traders who sell on credit without written contracts, as most wholesalers in the Sarrenji river market do, appear to take a considerable risk, and it is tempting to explain their survival by appealing to a shared culture of honesty. The more economical explanation is that honesty pays. In a market of a few hundred dealers, every transaction is observed by others, and news of a defaulter travels between stalls within a day. A trader who cheats once may gain the value of a single consignment, but he forfeits the credit that every other wholesaler would otherwise have extended him, and since credit is the lifeblood of his business, the loss far exceeds the gain. Honesty here is not a virtue that the market presupposes but a policy that the market makes profitable.",
+    "This account is confirmed by the way the market treats newcomers. A new dealer is not trusted with credit; he must pay cash for his first months and is extended credit in small increments as his record accumulates. Sarrenji traders describe this as 'learning a man,' but the practice is precisely what a theory of reputation would predict: trust is extended in proportion to the information available about a person's conduct, and withdrawn when that information turns bad. Nothing more mysterious than self-interest, disciplined by publicity, is needed to explain why the contracts that no one writes are nevertheless kept."
+  ],
+  "paragraphsB": [
+    "Accounts that reduce trust among traders to calculation misdescribe what traders themselves report. In the Tamarind Lane cloth trade, which operates under conditions much like those of any river market, dealers regularly extend credit to partners whose conduct they cannot observe, such as buyers who carry goods to distant towns where no member of the lane will ever see them. If reputation were the whole mechanism, such credit would be irrational, since a defaulter in a distant town could not be sanctioned by news that never reaches the lane. Yet default is rare, and when it occurs the other dealers speak of it not as a miscalculation but as a betrayal.",
+    "The better explanation is that trading relationships are embedded in obligations that exist prior to any particular deal. Most dealers in the lane entered the trade through a relative or patron, and they treat their conduct toward partners as an extension of the obligations owed to those sponsors, whose own standing is at stake in their behavior. Reputation does circulate, and it plainly reinforces honesty. But it is a consequence of a moral order rather than the cause of it: dealers have reputations to lose only because there is a shared understanding of what an honest dealer is, and that understanding is not itself created by the threat of exclusion."
+  ],
+  "roleMap": {
+    "paragraphs": [
+      "main_point",
+      "support"
+    ],
+    "viewpoints": [
+      {
+        "who": "Author of passage A",
+        "position": "Honesty among credit-extending traders is sustained by reputation: cheating forfeits future credit, and newcomers earn trust gradually.",
+        "authorAgrees": true
+      },
+      {
+        "who": "Proponents of a culture-of-honesty explanation (passage A)",
+        "position": "Traders' survival is explained by a shared culture of honesty.",
+        "authorAgrees": false
+      },
+      {
+        "who": "Author of passage B",
+        "position": "Trust rests on obligations that precede deals; reputation reinforces honesty but is a consequence of a moral order, not its cause.",
+        "authorAgrees": true
+      }
+    ],
+    "tone": "A confident and economical; B corrective"
+  },
+  "lowResSummary": "A explains unwritten bargains by reputation and self-interest; B replies that credit to unobservable partners shows trust rests on prior obligations.",
+  "questions": [
+    {
+      "id": "rc-m5-informal-market-trust-q1",
+      "type": "main_point",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately expresses the main point of passage B?",
+      "choices": {
+        "A": "Dealers in the Tamarind Lane cloth trade extend credit more readily than dealers in the Sarrenji river market because they trust one another more.",
+        "B": "Reputation plays no part in sustaining honest dealing among traders who operate without the support of written contracts.",
+        "C": "Default is rare in the Tamarind Lane trade because dealers closely observe the conduct of buyers who carry goods to distant towns.",
+        "D": "Dealers who entered the Tamarind Lane trade through a relative or patron are more honest than dealers who entered it without one.",
+        "E": "Trust among traders rests on obligations that precede any particular deal, so reputation is better understood as a consequence of a shared moral order than as its cause."
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "Out of scope. The passage compares no degree of trust between the two markets.",
+        "B": "Extreme. Passage B says 'Reputation does circulate, and it plainly reinforces honesty.'",
+        "C": "Opposite. B's point is that dealers extend credit to partners 'whose conduct they cannot observe.'",
+        "D": "Comparison shift. B says most dealers entered through sponsors; it makes no claim that they are more honest than others.",
+        "E": "Correct. Paragraph 2: trading is 'embedded in obligations that exist prior to any particular deal,' and reputation is 'a consequence of a moral order rather than the cause of it.'"
+      },
+      "trapPatterns": {
+        "A": "out_of_scope",
+        "B": "extreme",
+        "C": "opposite",
+        "D": "comparison_shift"
+      },
+      "keyTakeaway": "B's thesis has a positive half (prior obligations) and a relational half (reputation is derivative); the correct choice has both.",
+      "evidence": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "rc-m5-informal-market-trust-q2",
+      "type": "relationship",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "Which one of the following most accurately describes the relationship between the two passages?",
+      "choices": {
+        "A": "Passage B offers additional evidence for the explanation of trust that passage A advances.",
+        "B": "Passage B disputes that the explanation advanced in passage A is sufficient by citing a case it cannot cover, while granting that the mechanism it describes operates.",
+        "C": "Passage B applies to a second market the general principle of trust that passage A states in connection with the first.",
+        "D": "Passage B rejects the factual claims about market practice on which the argument of passage A depends.",
+        "E": "Passage B and passage A explain different features of trust that can be observed within a single market."
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "Opposite. B argues that a reputation-only account 'misdescribes' what traders report.",
+        "B": "Correct. B's distant-town credit is a case reputation cannot explain, yet B concedes that reputation 'does circulate' and 'reinforces honesty.'",
+        "C": "Shell game. B does not apply A's principle; it argues that the principle is incomplete.",
+        "D": "Extreme. B does not deny A's facts about Sarrenji; it disputes the explanation and offers one for a different market.",
+        "E": "Shell game. Both passages address why traders keep unwritten bargains, and B disputes A's account of that same phenomenon."
+      },
+      "trapPatterns": {
+        "A": "opposite",
+        "C": "shell_game",
+        "D": "extreme",
+        "E": "shell_game"
+      },
+      "keyTakeaway": "B's relationship to A is partial concession plus rebuttal of sufficiency, not simple support or simple rejection.",
+      "evidence": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "rc-m5-informal-market-trust-q3",
+      "type": "stated",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "According to passage A, a new dealer in the Sarrenji market",
+      "choices": {
+        "A": "is extended credit in proportion to the standing of the established dealer who sponsored him",
+        "B": "is trusted with credit once he has paid cash for a single consignment",
+        "C": "is excluded from the market until news of his conduct has circulated among the stalls",
+        "D": "must at first pay cash and is later extended credit in small increments as his record builds",
+        "E": "must wait a full day before news of his conduct reaches the other wholesalers"
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "Wrong part. Sponsors are the concern of passage B's account of Tamarind Lane.",
+        "B": "Extreme. Credit comes 'in small increments' only 'as his record accumulates,' after months of cash dealing.",
+        "C": "Out of scope. The newcomer is not excluded; he pays cash.",
+        "D": "Correct. 'He must pay cash for his first months and is extended credit in small increments as his record accumulates.'",
+        "E": "Shell game. The one-day figure describes how fast news of a defaulter travels, not a waiting period for newcomers."
+      },
+      "trapPatterns": {
+        "A": "wrong_part",
+        "B": "extreme",
+        "C": "out_of_scope",
+        "E": "shell_game"
+      },
+      "keyTakeaway": "Details about newcomers are in A's second paragraph; the one-day detail belongs to the first paragraph's defaulter.",
+      "evidence": [
+        1
+      ]
+    },
+    {
+      "id": "rc-m5-informal-market-trust-q4",
+      "type": "stated",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "According to passage B, most dealers in the Tamarind Lane trade",
+      "choices": {
+        "A": "entered the trade through a relative or patron",
+        "B": "regard a default as a miscalculation by the defaulter",
+        "C": "extend credit only to partners whose conduct they can observe",
+        "D": "have been excluded from the trade at some point for defaulting",
+        "E": "describe the extension of credit as 'learning a man'"
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. 'Most dealers in the lane entered the trade through a relative or patron.'",
+        "B": "Opposite. Dealers speak of default 'not as a miscalculation but as a betrayal.'",
+        "C": "Opposite. Dealers 'regularly extend credit to partners whose conduct they cannot observe.'",
+        "D": "Out of scope. Exclusion appears only as a threat in B's last sentence; no actual exclusions are reported.",
+        "E": "Wrong part. 'Learning a man' is how Sarrenji traders, in passage A, describe their treatment of newcomers."
+      },
+      "trapPatterns": {
+        "B": "opposite",
+        "C": "opposite",
+        "D": "out_of_scope",
+        "E": "wrong_part"
+      },
+      "keyTakeaway": "Keep the two markets straight: Sarrenji belongs to A and Tamarind Lane to B.",
+      "evidence": [
+        3
+      ]
+    },
+    {
+      "id": "rc-m5-informal-market-trust-q5",
+      "type": "purpose_in_context",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Passage B mentions buyers who carry goods to distant towns primarily in order to",
+      "choices": {
+        "A": "show that dealers in the Tamarind Lane trade take greater risks than dealers in other trades",
+        "B": "illustrate how quickly news of a default spreads among the dealers of the lane itself",
+        "C": "present credit extended where passage A's sanction could not operate",
+        "D": "support the claim that default is more common in distant towns than in the lane itself",
+        "E": "suggest that reputation does not circulate at all among the dealers of Tamarind Lane"
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "Out of scope. No comparison with other trades is drawn.",
+        "B": "Opposite. The point is that news of a distant default 'never reaches the lane.'",
+        "C": "Correct. A defaulter in a distant town 'could not be sanctioned by news that never reaches the lane,' so reputation alone cannot explain the credit.",
+        "D": "Out of scope. B says default is rare overall and gives no comparison of its frequency by location.",
+        "E": "Extreme. B later says reputation 'does circulate.'"
+      },
+      "trapPatterns": {
+        "A": "out_of_scope",
+        "B": "opposite",
+        "D": "out_of_scope",
+        "E": "extreme"
+      },
+      "keyTakeaway": "An example in a rebuttal is chosen because the opposing mechanism cannot reach it.",
+      "evidence": [
+        2
+      ]
+    },
+    {
+      "id": "rc-m5-informal-market-trust-q6",
+      "type": "approach",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "Passage A differs from passage B in that only passage A",
+      "choices": {
+        "A": "treats the gradual extension of credit to newcomers as confirmation of its explanation",
+        "B": "acknowledges that reputation reinforces honest dealing among traders",
+        "C": "reports how the traders themselves characterize the practices under discussion",
+        "D": "bases its argument on the conduct of traders in a specific named market",
+        "E": "considers the possibility of default by a trader operating outside the market's own premises"
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. Passage A cites the treatment of newcomers as 'confirm[ing]' its account; passage B says nothing about newcomers.",
+        "B": "Reversal. Only passage B states that 'reputation does circulate, and it plainly reinforces honesty'; A treats it as the whole explanation.",
+        "C": "Shell game. Both passages report trader language: 'learning a man' in A, and 'betrayal' rather than 'miscalculation' in B.",
+        "D": "Shell game. Both rest on named markets: Sarrenji in A and Tamarind Lane in B.",
+        "E": "Reversal. Only passage B considers buyers carrying goods to distant towns."
+      },
+      "trapPatterns": {
+        "B": "reversal",
+        "C": "shell_game",
+        "D": "shell_game",
+        "E": "reversal"
+      },
+      "keyTakeaway": "For an 'only A' stem, test each option against both passages; three of these traits belong to B or to both.",
+      "evidence": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "rc-m5-informal-market-trust-q7",
+      "type": "weaken_strengthen_evaluate",
+      "logicTags": [
+        "causation"
+      ],
+      "difficulty": 4,
+      "stem": "Which one of the following, if true, would most weaken passage B's claim that the shared understanding of honest dealing is not itself created by the threat of exclusion?",
+      "choices": {
+        "A": "Dealers in the Tamarind Lane trade who entered through a patron are at least as likely to default as dealers who entered without one.",
+        "B": "News of a default circulates more rapidly among cloth dealers than among dealers in other commodities.",
+        "C": "Buyers who carry goods to distant towns are usually related to the dealers who extend them credit.",
+        "D": "Dealers in the lane describe a defaulter as having betrayed the lane rather than as having made a miscalculation.",
+        "E": "In new markets of strangers, honest-dealing norms arose only after defaulters began to be excluded."
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "True but irrelevant. It bears on whether sponsorship promotes honesty, not on whether exclusion creates the shared understanding.",
+        "B": "True but irrelevant. The speed of news does not show where the norm of honesty came from.",
+        "C": "Wrong force. If anything it supports B's emphasis on prior obligations.",
+        "D": "Wrong force. This is evidence for B's moral-order account and does not undercut it.",
+        "E": "Correct. If norms of honesty emerged only after exclusion was practiced among strangers, then the threat of exclusion plausibly created the shared understanding."
+      },
+      "trapPatterns": {
+        "A": "true_but_irrelevant",
+        "B": "true_but_irrelevant",
+        "C": "wrong_force",
+        "D": "wrong_force"
+      },
+      "keyTakeaway": "To weaken a claim about causal order, supply a case where the supposed effect came first and the supposed cause second.",
+      "evidence": [
+        3
+      ]
+    }
+  ]
+}

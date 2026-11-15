@@ -1,0 +1,201 @@
+{
+  "id": "rc-m5-antibiotic-tolerance-persisters",
+  "style": "phenomenon_hypothesis",
+  "topic": "natural_science",
+  "comparative": true,
+  "title": "Persisters and the Dormancy Account",
+  "paragraphs": [
+    "When a genetically uniform culture of bacteria is exposed to a bactericidal antibiotic, the number of living cells typically falls in two phases: a rapid decline, followed by a long plateau on which a small fraction of the population survives. If the survivors are regrown and exposed again, the new culture dies in just the same two phases, which shows that the survivors have not acquired a heritable resistance. They are said instead to be persisters, cells that tolerate the drug without being able to grow in its presence. The standard explanation is that persisters are dormant.",
+    "Most antibiotics kill by corrupting processes that run only in growing cells, such as the synthesis of the cell wall, the copying of DNA, and the translation of proteins; a cell that has halted these processes offers the drug nothing to corrupt. In any large culture, random fluctuations in the level of certain regulatory proteins push a few cells into dormancy at any moment, and these cells outlast the drug and resume growth when it is withdrawn. The evidence is abundant: the persister fraction rises when cultures enter stationary phase, and mutants unable to enter dormancy yield far fewer survivors. Dormancy, on this account, is what persistence consists of. The account also explains why apparently cured infections relapse: a few dormant cells wait out the course of treatment and then repopulate the site."
+  ],
+  "paragraphsB": [
+    "A recent study of Mirovia tenuis, a soil bacterium, tested the dormancy account directly. Ostrander and Quill labeled the cells with a fluorescent marker that is diluted at each division, so that a cell's brightness records how often it has divided, and followed individual cells through exposure to tarvomycin, a drug that kills by collapsing the electrical potential across the cell membrane, an action that does not depend on growth. Contrary to expectation, the survivors were not dormant. Nearly all had been dividing at a normal rate before exposure and continued to do so afterward, while the dormant cells in the same culture, identified by their retention of the marker, died as quickly as the rest.",
+    "What distinguished the survivors was a transient surge in the expression of an efflux pump that expelled the drug before it could act; cells whose pump levels subsequently fell became vulnerable again within hours. The authors do not claim that the dormancy account fails for the antibiotics on which it was built. They note, however, that nearly all tests of that account used drugs whose action requires growth, a choice that would make dormancy and survival correlate whatever their true relation. Persistence, they conclude, should be defined by survival of the drug and not treated as a synonym for dormancy."
+  ],
+  "roleMap": {
+    "paragraphs": ["context", "support", "example", "main_point"],
+    "viewpoints": [
+      { "who": "Passage A (standard account)", "position": "Persisters survive because they are dormant; dormancy is what persistence consists of.", "authorAgrees": true },
+      { "who": "Ostrander and Quill (passage B)", "position": "In Mirovia tenuis under tarvomycin, survivors were growing cells with a transient efflux pump surge; persistence should not be equated with dormancy.", "authorAgrees": true }
+    ],
+    "tone": "A confident exposition; B cautious, corrective"
+  },
+  "lowResSummary": "A presents dormancy as the explanation of antibiotic persistence; B reports a case where survivors were growing cells, so persistence should not be equated with dormancy.",
+  "questions": [
+    {
+      "id": "rc-m5-antibiotic-tolerance-persisters-q1",
+      "type": "stated",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "According to passage A, survivors that are regrown and exposed again to the same antibiotic",
+      "choices": {
+        "A": "show greater tolerance of the drug than the original culture did",
+        "B": "are killed more rapidly than the original culture was",
+        "C": "die in the same two phases as the original culture did",
+        "D": "reveal that they had acquired a heritable resistance",
+        "E": "can no longer enter dormancy when exposed to the drug"
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "Opposite. The new culture dies 'in just the same two phases,' showing no greater tolerance.",
+        "B": "Opposite. No faster killing is reported; the pattern is the same.",
+        "C": "Correct. 'The new culture dies in just the same two phases.'",
+        "D": "Opposite. The repeated pattern 'shows that the survivors have not acquired a heritable resistance.'",
+        "E": "Out of scope. The passage says nothing about a loss of the ability to enter dormancy."
+      },
+      "trapPatterns": { "A": "opposite", "B": "opposite", "D": "opposite", "E": "out_of_scope" },
+      "keyTakeaway": "Identical killing curves on re-exposure are what separate tolerance from resistance.",
+      "evidence": [0]
+    },
+    {
+      "id": "rc-m5-antibiotic-tolerance-persisters-q2",
+      "type": "stated",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "According to passage B, the dormant cells in the Mirovia tenuis culture",
+      "choices": {
+        "A": "were killed by tarvomycin about as quickly as the dividing cells were",
+        "B": "constituted nearly all of the cells that survived exposure to tarvomycin",
+        "C": "expressed an efflux pump at unusually high levels before exposure",
+        "D": "became vulnerable to tarvomycin only after their pump levels fell",
+        "E": "were identified by the dilution of a fluorescent marker at each division"
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. The dormant cells 'died as quickly as the rest.'",
+        "B": "Opposite. The survivors were nearly all dividing cells.",
+        "C": "Wrong part. The pump surge distinguished the survivors, which were not dormant.",
+        "D": "Wrong part. Falling pump levels made surviving, dividing cells vulnerable again; the dormant cells were never protected.",
+        "E": "Reversal. Dormant cells were identified by their retention of the marker; dilution occurs with division."
+      },
+      "trapPatterns": { "B": "opposite", "C": "wrong_part", "D": "wrong_part", "E": "reversal" },
+      "keyTakeaway": "Retained marker means dormant; diluted marker means dividing. Do not flip them.",
+      "evidence": [2]
+    },
+    {
+      "id": "rc-m5-antibiotic-tolerance-persisters-q3",
+      "type": "main_point",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately expresses the main point of passage B?",
+      "choices": {
+        "A": "The dormancy account of persistence is mistaken and should be replaced by an account based on efflux pumps.",
+        "B": "Efflux pumps, not dormancy, explain why persister cells tolerate antibiotics that kill by corrupting growth processes.",
+        "C": "Fluorescent markers diluted at each cell division are the most reliable means of identifying dormant cells in a culture.",
+        "D": "Tarvomycin collapses the membrane potential of bacteria, which makes it more effective than antibiotics that act on growing cells.",
+        "E": "A study of survival under a drug that does not require growth to kill found survivors that were not dormant, so persistence should not be equated with dormancy."
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "Extreme. The authors 'do not claim that the dormancy account fails for the antibiotics on which it was built.'",
+        "B": "Extreme. The pumps explain survival of tarvomycin in this case; the authors make no such claim for growth-dependent drugs.",
+        "C": "Out of scope. The marker is a tool in the study; no comparison of identification methods is made.",
+        "D": "Comparison shift. Tarvomycin's effectiveness relative to other antibiotics is never assessed.",
+        "E": "Correct. Paragraph 1 reports non-dormant survivors under a growth-independent drug; paragraph 2 concludes persistence should not be a 'synonym for dormancy.'"
+      },
+      "trapPatterns": { "A": "extreme", "B": "extreme", "C": "out_of_scope", "D": "comparison_shift" },
+      "keyTakeaway": "The main point of a complicating case combines the finding with the modest conclusion the authors actually draw.",
+      "evidence": [2, 3]
+    },
+    {
+      "id": "rc-m5-antibiotic-tolerance-persisters-q4",
+      "type": "relationship",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately describes the relationship between the two passages?",
+      "choices": {
+        "A": "Passage B describes an experiment designed to replicate the results on which the account in passage A is based.",
+        "B": "Passage B reports a specific case in which survival under an antibiotic did not involve dormancy, qualifying the general account that passage A presents.",
+        "C": "Passage B offers a mechanism explaining why the account presented in passage A holds for every antibiotic.",
+        "D": "Passage B criticizes the evidence for passage A's account as having been gathered from unrepresentative cultures.",
+        "E": "Passage B proposes a clinical application of the account that passage A presents."
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "Opposite. The study yields a result contrary to expectation rather than a replication.",
+        "B": "Correct. A states the general dormancy account; B reports survivors that were dividing, which complicates the identification of persistence with dormancy.",
+        "C": "Opposite. B shows a case where dormancy does not explain survival.",
+        "D": "Shell game. B's criticism concerns the choice of drugs in earlier tests, not the representativeness of cultures.",
+        "E": "Out of scope. B proposes no clinical use."
+      },
+      "trapPatterns": { "A": "opposite", "C": "opposite", "D": "shell_game", "E": "out_of_scope" },
+      "keyTakeaway": "General-then-specific comparative pairs usually relate as an account and a case that qualifies, not refutes, it.",
+      "evidence": [0, 1, 2, 3]
+    },
+    {
+      "id": "rc-m5-antibiotic-tolerance-persisters-q5",
+      "type": "approach",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "Which one of the following most accurately describes a way in which the two passages differ?",
+      "choices": {
+        "A": "Passage A treats persisters as genetically distinct from the rest of the culture, whereas passage B treats them as genetically identical to it.",
+        "B": "Passage A reports the results of an experiment, whereas passage B describes a theoretical model.",
+        "C": "Passage A concerns the effects of antibiotics on bacteria, whereas passage B concerns the evolution of heritable resistance.",
+        "D": "Passage A equates persistence with dormancy, whereas passage B urges that persistence be defined by survival and not by dormancy.",
+        "E": "Passage A attributes persistence to events inside cells, whereas passage B attributes it to events outside them."
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "Reversal. Passage A describes a genetically uniform culture whose survivors have not acquired resistance.",
+        "B": "Reversal. It is passage B that reports an experiment; passage A gives a general account.",
+        "C": "Shell game. Neither passage concerns the evolution of resistance; B too concerns tolerance of a drug.",
+        "D": "Correct. A: 'Dormancy, on this account, is what persistence consists of.' B: persistence 'should be defined by survival of the drug and not treated as a synonym for dormancy.'",
+        "E": "Opposite. Both passages locate the cause inside the cell: regulatory protein levels in A, pump expression in B."
+      },
+      "trapPatterns": { "A": "reversal", "B": "reversal", "C": "shell_game", "E": "opposite" },
+      "keyTakeaway": "The differences in a comparative pair live in each author's definition and evidence, not in subject matter.",
+      "evidence": [0, 1, 2, 3]
+    },
+    {
+      "id": "rc-m5-antibiotic-tolerance-persisters-q6",
+      "type": "application",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "Suppose that a culture of a different bacterium is exposed to an antibiotic whose lethal action, like that of the drugs on which passage A's account rests, requires actively growing cells. Which one of the following does the information in the two passages most support concerning the survivors?",
+      "choices": {
+        "A": "Most of them will be cells that are dividing normally and expressing an efflux pump at a high level.",
+        "B": "Their survival will be explained entirely by a heritable resistance present before exposure.",
+        "C": "At least some of them are likely to be dormant cells.",
+        "D": "They will be killed as quickly as dividing cells, since dormancy offers no protection against such an antibiotic.",
+        "E": "They will be distinguishable from the rest of the culture only by their greater tolerance on re-exposure."
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "Extreme. Nothing supports 'most' for a growth-dependent drug; B reports this pattern only for a growth-independent drug.",
+        "B": "Opposite. Passage A shows tolerance of this kind is not heritable resistance.",
+        "C": "Correct. Passage A says dormant cells escape drugs that act on growth, and passage B 'do[es] not claim that the dormancy account fails' for such drugs.",
+        "D": "Opposite. For growth-dependent drugs, passage A holds dormancy protects; B's finding that dormant cells died concerned a growth-independent drug.",
+        "E": "Out of scope. Neither passage limits the survivors' distinguishing features to re-exposure."
+      },
+      "trapPatterns": { "A": "extreme", "B": "opposite", "D": "opposite", "E": "out_of_scope" },
+      "keyTakeaway": "Passage B's results hinge on the drug's mechanism; apply them only to drugs that match it.",
+      "evidence": [1, 2, 3]
+    },
+    {
+      "id": "rc-m5-antibiotic-tolerance-persisters-q7",
+      "type": "other_perspective",
+      "logicTags": [],
+      "difficulty": 4,
+      "stem": "The authors of the study described in passage B would be most likely to agree with which one of the following?",
+      "choices": {
+        "A": "Efflux pumps are the principal cause of persistence in most bacterial species.",
+        "B": "Dormant cells of Mirovia tenuis are less vulnerable to tarvomycin than dividing cells are.",
+        "C": "Mirovia tenuis cannot enter dormancy under any conditions.",
+        "D": "Earlier tests of the dormancy account were invalidated by their use of unreliable fluorescent markers.",
+        "E": "A correlation between dormancy and survival observed with growth-dependent drugs could arise even if dormancy were not what defines persistence."
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "Extreme. The pump explanation is offered only for the case studied.",
+        "B": "Opposite. The dormant cells 'died as quickly as the rest.'",
+        "C": "Extreme. The culture contained dormant cells, identified by retained marker.",
+        "D": "Out of scope. The authors criticize the choice of drugs, not the reliability of any marker.",
+        "E": "Correct. The authors note that using drugs requiring growth 'would make dormancy and survival correlate whatever their true relation.'"
+      },
+      "trapPatterns": { "A": "extreme", "B": "opposite", "C": "extreme", "D": "out_of_scope" },
+      "keyTakeaway": "The authors' real objection is to the confound built into earlier tests, not to the dormancy account itself.",
+      "evidence": [3]
+    }
+  ]
+}
