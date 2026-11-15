@@ -1,0 +1,1064 @@
+[
+ {
+  "id": "lr-principle-ferry-bridge-market",
+  "section": "LR",
+  "type": "principle",
+  "logicTags": [
+   "weighing_factors"
+  ],
+  "difficulty": 2,
+  "stimulus": "When the town of Varley replaced its hand-operated ferry with a bridge, crossing times fell and trade with the far bank doubled. Yet within a decade the market at the ferry landing, where travelers had once waited and bought goods, had closed, and with it the only regular gathering place the two riverside neighborhoods shared.",
+  "stem": "Which one of the following propositions is best illustrated by the situation described above?",
+  "choices": {
+   "A": "Improvements in transportation generally harm the communities they are intended to serve.",
+   "B": "Removing an inconvenience can also remove a benefit that depended on it.",
+   "C": "Trade between two communities increases only when travel between them becomes faster.",
+   "D": "A market cannot survive unless the people who use it have nowhere else to gather.",
+   "E": "Communities should weigh social costs more heavily than economic gains when planning public works."
+  },
+  "answer": "B",
+  "explanations": {
+   "A": "Extreme: one case in which trade also 'doubled' cannot show that such improvements 'generally harm' communities.",
+   "B": "Correct. The wait for the ferry was the inconvenience; the market and gathering place existed because 'travelers had once waited' there. Ending the wait ended them.",
+   "C": "The situation shows faster travel followed by more trade; it says nothing about faster travel being required ('only when').",
+   "D": "Out of scope: nothing is said about alternative gathering places keeping markets alive.",
+   "E": "Wrong force: the situation describes what happened; it makes no recommendation about how planners 'should' weigh costs."
+  },
+  "trapPatterns": {
+   "A": "extreme",
+   "C": "necessary_v_sufficient",
+   "D": "out_of_scope",
+   "E": "wrong_force"
+  },
+  "keyTakeaway": "For 'best illustrated' questions, pick the general statement the facts are an instance of, with no added recommendation and no stronger quantifier than one case supports.",
+  "predictionHint": "A gain (speed) quietly cost something that lived off the old delay."
+ },
+ {
+  "id": "lr-principle-pharmacy-double-check",
+  "section": "LR",
+  "type": "principle",
+  "logicTags": [
+   "causation"
+  ],
+  "difficulty": 3,
+  "stimulus": "A hospital pharmacy began requiring a second pharmacist to verify every prescription for a short list of high-risk drugs. Errors involving those drugs became rare. But because each pharmacist knew the other would check, each began reviewing those prescriptions less carefully than before, and on days when one pharmacist was absent and a single check had to suffice, errors on those drugs were more frequent than they had been before the rule was adopted.",
+  "stem": "Which one of the following propositions is best illustrated by the situation described above?",
+  "choices": {
+   "A": "Procedures that depend on two people checking each other's work are less reliable than procedures that depend on one person working alone.",
+   "B": "Rules intended to reduce errors usually increase them in the long run.",
+   "C": "People take less care with tasks they regard as routine than with tasks they regard as unusual.",
+   "D": "A safeguard can weaken the vigilance it supplements, leaving matters worse when the safeguard is missing.",
+   "E": "An error-prevention rule should be adopted only if it can be followed without exception."
+  },
+  "answer": "D",
+  "explanations": {
+   "A": "Opposite of part of the story: with both pharmacists present, errors 'became rare'.",
+   "B": "Extreme: the rule reduced errors on most days; only single-check days got worse.",
+   "C": "Out of scope: the cause given is knowing 'the other would check', not regarding the task as routine.",
+   "D": "Correct. Each pharmacist reviewed 'less carefully' because of the second check, and when only one check was available errors exceeded the pre-rule level.",
+   "E": "Wrong force: the situation illustrates an effect; it does not say when rules 'should be adopted'."
+  },
+  "trapPatterns": {
+   "A": "opposite",
+   "B": "extreme",
+   "C": "out_of_scope",
+   "E": "wrong_force"
+  },
+  "keyTakeaway": "Match every part of the story: the right principle must cover both the improvement with the safeguard and the decline without it."
+ },
+ {
+  "id": "lr-principle-dictionary-nonplussed",
+  "section": "LR",
+  "type": "principle",
+  "logicTags": [
+   "value_judgment",
+   "definition_scope"
+  ],
+  "difficulty": 2,
+  "stimulus": "Lexicographer: Our dictionary records how words are actually used, not how some authority thinks they should be used. So when most educated speakers began using \"nonplussed\" to mean \"unfazed,\" we added that sense, even though it is nearly the opposite of the older one and several of our own editors consider it a mistake.",
+  "stem": "The lexicographer's practice most closely conforms to which one of the following principles?",
+  "choices": {
+   "A": "A dictionary should list a word's newest sense before its older senses.",
+   "B": "A usage that began as an error can never become correct.",
+   "C": "Editors of a reference work should not hold opinions about its subject matter.",
+   "D": "A dictionary should include a sense of a word only if most speakers use the word in that sense.",
+   "E": "Whether a sense belongs in a descriptive dictionary depends on prevailing usage, not on its compilers' views of correctness."
+  },
+  "answer": "E",
+  "explanations": {
+   "A": "Out of scope: the order in which senses are listed is never mentioned.",
+   "B": "Opposite: the dictionary added a sense some editors 'consider a mistake'.",
+   "C": "Extreme: the editors have opinions; the practice is simply not to let those opinions decide.",
+   "D": "Majority use was enough to add the sense here; nothing shows it is required ('only if') for every sense.",
+   "E": "Correct. The sense was added because of how 'most educated speakers' use the word, despite editors who 'consider it a mistake'."
+  },
+  "trapPatterns": {
+   "A": "out_of_scope",
+   "B": "opposite",
+   "C": "extreme",
+   "D": "necessary_v_sufficient"
+  },
+  "keyTakeaway": "A practice shows what was sufficient for acting; do not upgrade it to a necessary condition."
+ },
+ {
+  "id": "lr-principle-bus-on-time-target",
+  "section": "LR",
+  "type": "principle",
+  "logicTags": [
+   "causation"
+  ],
+  "difficulty": 3,
+  "stimulus": "A city awarded its bus contract to the bidder that promised the highest rate of on-time arrivals. To meet the target, the company's drivers began skipping stops when running late and leaving stops early when running ahead. On-time arrivals at the terminals rose sharply, while the number of riders able to catch a bus fell.",
+  "stem": "Which one of the following propositions is best illustrated by the situation described above?",
+  "choices": {
+   "A": "Rewarding performance on a single measure can produce behavior that improves the measure while undermining the goal it was meant to serve.",
+   "B": "Private companies provide worse public services than governments do.",
+   "C": "Punctuality matters less to transit riders than frequency of service does.",
+   "D": "Contracts should be awarded on the basis of past performance rather than promises.",
+   "E": "Any measurable target that is set for a service will eventually be met."
+  },
+  "answer": "A",
+  "explanations": {
+   "A": "Correct. The contract rewarded on-time arrivals; drivers hit the number by 'skipping stops', and fewer riders could 'catch a bus'.",
+   "B": "Out of scope: no government-run service is compared.",
+   "C": "Comparison not made: riders' preferences between punctuality and frequency are never discussed.",
+   "D": "Wrong force: the situation makes no recommendation about how contracts 'should' be awarded.",
+   "E": "Extreme: one target being met does not show that 'any' target 'will eventually be met'."
+  },
+  "trapPatterns": {
+   "B": "out_of_scope",
+   "C": "comparison_shift",
+   "D": "wrong_force",
+   "E": "extreme"
+  },
+  "keyTakeaway": "When a measure improves while the underlying purpose suffers, the principle is about the gap between a metric and its goal."
+ },
+ {
+  "id": "lr-apply-reviewer-financial-stake",
+  "section": "LR",
+  "type": "psa_application",
+  "logicTags": [
+   "rule_application",
+   "conditional"
+  ],
+  "difficulty": 2,
+  "stimulus": "Principle: A reviewer who has a financial stake in a product's success should not publish a review of that product unless the review discloses the stake.",
+  "stem": "Which one of the following judgments most closely conforms to the principle above?",
+  "choices": {
+   "A": "Okafor, who owns no shares in any publisher, should not have published a review of a close friend's novel without saying in the review that the two of them are friends.",
+   "B": "Because Lindqvist disclosed that the manufacturer paid her, her favorable review of the blender should be trusted.",
+   "C": "Since Brandt holds shares in the company that makes the headphones, he should not have published his review of them without mentioning the shares.",
+   "D": "Marchetti should not have published her review of the software, since the review disclosed that its developer employs her.",
+   "E": "Because Tanaka has no financial stake in the restaurant, his review of it is unobjectionable."
+  },
+  "answer": "C",
+  "explanations": {
+   "A": "Out of scope: friendship is not a 'financial stake', so the principle is silent.",
+   "B": "Wrong force: the principle says when not to publish; it says nothing about which reviews 'should be trusted'.",
+   "C": "Correct. Brandt has a financial stake (shares) and published without disclosure, exactly what the principle forbids.",
+   "D": "Opposite: she disclosed the stake, so the principle gives no ground for saying she should not have published.",
+   "E": "The principle forbids one thing; it does not declare everything else 'unobjectionable'."
+  },
+  "trapPatterns": {
+   "A": "out_of_scope",
+   "B": "wrong_force",
+   "D": "opposite",
+   "E": "reversal"
+  },
+  "keyTakeaway": "A rule of the form 'do not X unless Y' yields a verdict only when the trigger is met and Y is absent.",
+  "predictionHint": "Need: financial stake + published + no disclosure."
+ },
+ {
+  "id": "lr-apply-written-rule-discipline",
+  "section": "LR",
+  "type": "psa_application",
+  "logicTags": [
+   "rule_application",
+   "conditional"
+  ],
+  "difficulty": 3,
+  "stimulus": "Principle: An employee may be disciplined for violating a workplace rule only if the rule was communicated to that employee in writing before the violation occurred.",
+  "stem": "Which one of the following judgments is most strongly supported by the principle above?",
+  "choices": {
+   "A": "Since the rule against phones was posted in writing in the break room, Imani may be disciplined for violating it.",
+   "B": "Dario should be disciplined, since he was emailed the dress code a month before he violated it.",
+   "C": "Because Sunita was told of the overtime rule only in a meeting, that rule does not apply to her.",
+   "D": "Karel may not be disciplined, since he did not intend to violate the safety rule.",
+   "E": "Pilar may not be disciplined for parking in the visitors' lot, since the rule against doing so was first put in writing a week after she parked there."
+  },
+  "answer": "E",
+  "explanations": {
+   "A": "The principle states a requirement for discipline, not a guarantee that discipline is permitted once the requirement is met.",
+   "B": "Wrong force: 'only if' can never establish that someone 'should be' disciplined.",
+   "C": "Shell game: the principle concerns whether she 'may be disciplined', not whether the rule 'applies' to her.",
+   "D": "Out of scope: intent is not part of the principle.",
+   "E": "Correct. The written communication came after the violation, so the necessary condition fails and discipline is ruled out."
+  },
+  "trapPatterns": {
+   "A": "necessary_v_sufficient",
+   "B": "wrong_force",
+   "C": "shell_game",
+   "D": "out_of_scope"
+  },
+  "keyTakeaway": "An 'only if' principle can prove 'may not' (when the condition fails) but never 'may' or 'should'.",
+  "predictionHint": "Look for a case where the writing came too late or not at all, with the verdict 'may not'."
+ },
+ {
+  "id": "lr-apply-public-criticism-forum",
+  "section": "LR",
+  "type": "psa_application",
+  "logicTags": [
+   "rule_application"
+  ],
+  "difficulty": 2,
+  "stimulus": "Principle: One should not criticize another person's work publicly unless one has first given that person a chance to respond to the criticism privately.\n\nApplication: Hollis should not have posted her objections to Reyes's survey methods on the department's public forum.",
+  "stem": "Which one of the following, if true, most justifies the above application of the principle?",
+  "choices": {
+   "A": "Hollis posted her objections without having raised them with Reyes beforehand.",
+   "B": "Reyes's survey methods were in fact sound.",
+   "C": "Hollis's objections were phrased more harshly than was necessary.",
+   "D": "Reyes had previously criticized Hollis's work on the same forum.",
+   "E": "Hollis sent her objections to Reyes a week before posting them, and Reyes chose not to reply."
+  },
+  "answer": "A",
+  "explanations": {
+   "A": "Correct. This supplies the missing fact: no prior private chance to respond, so the principle's prohibition applies.",
+   "B": "Out of scope: the principle does not turn on whether the criticism is right.",
+   "C": "True but irrelevant: tone is not a condition in the principle.",
+   "D": "Out of scope: what Reyes did earlier does not bear on whether Hollis gave a private chance to respond.",
+   "E": "Opposite: this shows Hollis did give Reyes a private chance, so the principle would not condemn the post."
+  },
+  "trapPatterns": {
+   "B": "out_of_scope",
+   "C": "true_but_irrelevant",
+   "D": "out_of_scope",
+   "E": "opposite"
+  },
+  "keyTakeaway": "To justify an application, supply the fact that triggers the rule's condition; nothing else matters."
+ },
+ {
+  "id": "lr-evaluate-bakery-loyalty-app",
+  "section": "LR",
+  "type": "evaluate",
+  "logicTags": [
+   "causation"
+  ],
+  "difficulty": 2,
+  "stimulus": "A regional bakery chain replaced its paper loyalty cards with a phone app in March. In the six months that followed, the average customer visited 20 percent more often than in the six months before. The chain's managers concluded that the app caused customers to visit more often.",
+  "stem": "Which one of the following would be most useful to know in order to evaluate the managers' conclusion?",
+  "choices": {
+   "A": "whether other bakery chains in the same region have also replaced paper loyalty cards with phone apps",
+   "B": "how many of the chain's stores are located near competing bakeries",
+   "C": "whether the app cost more to operate than the paper cards did",
+   "D": "whether visits to the chain typically rise between spring and autumn regardless of any promotion",
+   "E": "whether customers who use the app are younger on average than those who used the cards"
+  },
+  "answer": "D",
+  "explanations": {
+   "A": "Out of scope: what competitors offer does not tell us why this chain's visits rose.",
+   "B": "Out of scope: store locations did not change in March.",
+   "C": "Out of scope: the conclusion is about visits, not operating cost.",
+   "D": "Correct. The comparison is winter months against summer months. If visits rise every year in that period, the app may have done nothing; if they do not, the conclusion is stronger.",
+   "E": "Out of scope: the age of users does not help separate the app's effect from other causes."
+  },
+  "trapPatterns": {
+   "A": "out_of_scope",
+   "B": "out_of_scope",
+   "C": "out_of_scope",
+   "E": "out_of_scope"
+  },
+  "keyTakeaway": "The right 'evaluate' question is one whose yes answer hurts and whose no answer helps (or the reverse). For before-and-after claims, ask what else changed with the calendar.",
+  "predictionHint": "Before/after comparison: is there a seasonal pattern?"
+ },
+ {
+  "id": "lr-evaluate-drought-maize-fields",
+  "section": "LR",
+  "type": "evaluate",
+  "logicTags": [
+   "causation",
+   "sampling"
+  ],
+  "difficulty": 3,
+  "stimulus": "Agronomist: Fields in the valley that were planted with the new drought-tolerant maize yielded 15 percent more grain last season than neighboring fields planted with the standard variety. Farmers throughout the valley should therefore expect a similar gain if they switch.",
+  "stem": "The answer to which one of the following questions would be most helpful in evaluating the agronomist's reasoning?",
+  "choices": {
+   "A": "Does seed for the new variety cost more than seed for the standard variety?",
+   "B": "Were the fields planted with the new variety chosen because they had better soil or irrigation than neighboring fields?",
+   "C": "Is maize the most profitable crop that can be grown in the valley?",
+   "D": "Was the new variety developed by a public institute or by a private company?",
+   "E": "Do farmers in other valleys also grow the standard variety?"
+  },
+  "answer": "B",
+  "explanations": {
+   "A": "Out of scope: the predicted 'gain' is in yield, not profit.",
+   "B": "Correct. If the test fields were better to begin with, the 15 percent may reflect the fields, not the seed; if they were ordinary, the prediction is better supported.",
+   "C": "Out of scope: the argument compares two maize varieties, not maize with other crops.",
+   "D": "Out of scope: who developed the seed has no bearing on its yield.",
+   "E": "Out of scope: practice elsewhere does not show whether the valley comparison was fair."
+  },
+  "trapPatterns": {
+   "A": "out_of_scope",
+   "C": "out_of_scope",
+   "D": "out_of_scope",
+   "E": "out_of_scope"
+  },
+  "keyTakeaway": "When a result from some cases is projected onto all, ask whether those cases were selected in a way that produced the result."
+ },
+ {
+  "id": "lr-evaluate-parking-fees-travel-times",
+  "section": "LR",
+  "type": "evaluate",
+  "logicTags": [
+   "causation"
+  ],
+  "difficulty": 3,
+  "stimulus": "Critic: The city claims its new downtown parking fees have reduced congestion, citing a 12 percent drop in the number of cars entering downtown on weekdays. But average weekday travel times on downtown streets have not improved at all. So the fees have clearly failed to reduce congestion.",
+  "stem": "Which one of the following would be most useful to know in order to evaluate the critic's argument?",
+  "choices": {
+   "A": "whether lane closures for construction reduced the capacity of downtown streets during the period in question",
+   "B": "whether the fees raised as much revenue as the city projected",
+   "C": "whether most drivers regard the fees as fair",
+   "D": "whether the drop in cars entering downtown was larger on some weekdays than on others",
+   "E": "whether other cities have reduced congestion by charging parking fees"
+  },
+  "answer": "A",
+  "explanations": {
+   "A": "Correct. If street capacity shrank, unchanged travel times are consistent with the fees having helped; if capacity was unchanged, the critic's inference is much stronger.",
+   "B": "Out of scope: revenue is unrelated to whether congestion fell.",
+   "C": "Out of scope: fairness is not the issue.",
+   "D": "True but irrelevant: day-to-day variation does not explain why average travel times stayed flat.",
+   "E": "Out of scope: results elsewhere do not show what happened downtown."
+  },
+  "trapPatterns": {
+   "B": "out_of_scope",
+   "C": "out_of_scope",
+   "D": "true_but_irrelevant",
+   "E": "out_of_scope"
+  },
+  "keyTakeaway": "An argument from 'no improvement' to 'no effect' assumes nothing else pushed the other way. Look for the question that tests that."
+ },
+ {
+  "id": "lr-inference-bequest-forgeries-tested",
+  "section": "LR",
+  "type": "inference",
+  "logicTags": [
+   "quantifiers",
+   "conditional"
+  ],
+  "difficulty": 2,
+  "stimulus": "All of the paintings in the Delacourt bequest were acquired before 1950. Some of the paintings in the bequest are forgeries. No painting that the museum's laboratory has tested is a forgery.",
+  "stem": "If the statements above are true, which one of the following can be properly inferred?",
+  "choices": {
+   "A": "Some paintings acquired before 1950 have been tested by the laboratory.",
+   "B": "Most of the paintings in the bequest have not been tested by the laboratory.",
+   "C": "Some paintings acquired before 1950 have not been tested by the laboratory.",
+   "D": "No forgery was acquired by the museum after 1950.",
+   "E": "Every untested painting in the bequest is a forgery."
+  },
+  "answer": "C",
+  "explanations": {
+   "A": "Unsupported: nothing says any pre-1950 painting has been tested.",
+   "B": "Wrong force: 'some' forgeries guarantees at least one untested painting, not 'most'.",
+   "C": "Correct. The forgeries in the bequest cannot have been tested (no tested painting is a forgery), and everything in the bequest was acquired before 1950.",
+   "D": "Out of scope: the statements cover only the bequest, not everything the museum owns.",
+   "E": "Reversal: forgeries are untested, but untested paintings need not be forgeries."
+  },
+  "trapPatterns": {
+   "A": "out_of_scope",
+   "B": "wrong_force",
+   "D": "out_of_scope",
+   "E": "reversal"
+  },
+  "keyTakeaway": "Combine a 'some' statement with an 'all' and a 'no' statement about the same items; the result is a 'some' statement, never 'most' or 'all'."
+ },
+ {
+  "id": "lr-inference-rates-borrowing-subsidy",
+  "section": "LR",
+  "type": "inference",
+  "logicTags": [
+   "conditional"
+  ],
+  "difficulty": 3,
+  "stimulus": "Economist: Whenever the central bank raises interest rates, borrowing by small firms falls. Small firms hire fewer workers whenever their borrowing falls, unless the government expands its wage subsidy. This year the central bank raised interest rates, and small firms did not hire fewer workers.",
+  "stem": "If the economist's statements are true, which one of the following can be properly inferred?",
+  "choices": {
+   "A": "The government expanded its wage subsidy because the central bank raised interest rates.",
+   "B": "Borrowing by small firms did not fall this year.",
+   "C": "If the government expands its wage subsidy, small firms hire more workers.",
+   "D": "The central bank will not raise interest rates next year.",
+   "E": "The government expanded its wage subsidy this year."
+  },
+  "answer": "E",
+  "explanations": {
+   "A": "Shell game: the statements establish that the subsidy expanded, not why.",
+   "B": "Opposite: rates rose, so borrowing fell.",
+   "C": "Reversal: the subsidy is what can prevent a drop in hiring; nothing says it produces more hiring.",
+   "D": "Out of scope: nothing concerns next year.",
+   "E": "Correct. Rates rose, so borrowing fell. Falling borrowing means fewer hires unless the subsidy expands. Hiring did not fall, so the subsidy expanded."
+  },
+  "trapPatterns": {
+   "A": "shell_game",
+   "B": "opposite",
+   "C": "reversal",
+   "D": "out_of_scope"
+  },
+  "keyTakeaway": "Read 'A unless B' as 'if not B, then A'. When A fails, B must hold.",
+  "predictionHint": "Chain it: rates up, borrowing down, hiring not down, so the 'unless' clause happened."
+ },
+ {
+  "id": "lr-inference-tern-street-pets",
+  "section": "LR",
+  "type": "inference",
+  "logicTags": [
+   "math_percent",
+   "quantifiers"
+  ],
+  "difficulty": 2,
+  "stimulus": "A survey of every household on Tern Street found that, of the street's 40 households, 28 have a dog and 25 have a cat.",
+  "stem": "If the statements above are true, which one of the following can be properly inferred?",
+  "choices": {
+   "A": "Exactly 13 households on Tern Street have both a dog and a cat.",
+   "B": "At least 13 households on Tern Street have both a dog and a cat.",
+   "C": "Most households on Tern Street that have a dog do not have a cat.",
+   "D": "At least one household on Tern Street has neither a dog nor a cat.",
+   "E": "No household on Tern Street has more than one dog."
+  },
+  "answer": "B",
+  "explanations": {
+   "A": "Wrong force: 13 is the minimum overlap; the overlap could be as large as 25.",
+   "B": "Correct. 28 + 25 = 53, which is 13 more than 40 households, so at least 13 must be counted twice.",
+   "C": "Not guaranteed: if the overlap is 25, most dog households also have a cat.",
+   "D": "Not guaranteed: with an overlap of exactly 13, every household has at least one of the two.",
+   "E": "Out of scope: the survey counts households with a dog, not dogs per household."
+  },
+  "trapPatterns": {
+   "A": "wrong_force",
+   "C": "wrong_force",
+   "D": "wrong_force",
+   "E": "out_of_scope"
+  },
+  "keyTakeaway": "When two groups' sizes add up to more than the total, the excess is the minimum overlap."
+ },
+ {
+  "id": "lr-mbf-quartet-conservatory-orchestra",
+  "section": "LR",
+  "type": "must_be_false",
+  "logicTags": [
+   "conditional"
+  ],
+  "difficulty": 3,
+  "stimulus": "Every current member of the Larkspur Quartet teaches at the conservatory. No one who teaches at the conservatory performs with the city orchestra during the academic term. The violist Henrike Solbakken performed with the city orchestra throughout the most recent academic term.",
+  "stem": "If the statements above are true, which one of the following CANNOT be true?",
+  "choices": {
+   "A": "Solbakken has never taught at the conservatory.",
+   "B": "Some members of the Larkspur Quartet have never performed with the city orchestra.",
+   "C": "Solbakken was a member of the Larkspur Quartet several years ago.",
+   "D": "Solbakken was a member of the Larkspur Quartet during the most recent academic term.",
+   "E": "Some people who teach at the conservatory perform with the city orchestra outside the academic term."
+  },
+  "answer": "D",
+  "explanations": {
+   "A": "Could be true: her performing during the term shows only that she was not teaching then.",
+   "B": "Could be true: nothing requires quartet members ever to play with the orchestra.",
+   "C": "Could be true: the statements constrain only the term in which she performed.",
+   "D": "Correct. A quartet member teaches at the conservatory, and no one who teaches there performs with the orchestra during the term; she did perform, so she was not a member then.",
+   "E": "Could be true: the restriction covers only 'during the academic term'."
+  },
+  "trapPatterns": {
+   "A": "true_but_irrelevant",
+   "B": "out_of_scope",
+   "C": "shell_game",
+   "E": "shell_game"
+  },
+  "keyTakeaway": "For CANNOT-be-true questions, link the conditionals, then find the choice that makes a sufficient condition true and its necessary condition false."
+ },
+ {
+  "id": "lr-mbf-library-rebound-east-wing",
+  "section": "LR",
+  "type": "must_be_false",
+  "logicTags": [
+   "conditional"
+  ],
+  "difficulty": 2,
+  "stimulus": "At the Ferndale library, any book that has been checked out more than fifty times is rebound. Rebound books are always shelved in the east wing. No reference book is ever shelved in the east wing.",
+  "stem": "If the statements above are true, which one of the following CANNOT be true?",
+  "choices": {
+   "A": "A reference book at the Ferndale library has been checked out sixty times.",
+   "B": "Some books shelved in the east wing have never been checked out by anyone.",
+   "C": "A book that has been checked out only ten times has been rebound.",
+   "D": "Some books that are not reference books are shelved outside the east wing.",
+   "E": "Every book shelved in the east wing has been rebound."
+  },
+  "answer": "A",
+  "explanations": {
+   "A": "Correct. Sixty checkouts means rebound, rebound means east wing, and no reference book is in the east wing.",
+   "B": "Could be true: nothing says only heavily borrowed books are shelved there.",
+   "C": "Could be true: more than fifty checkouts guarantees rebinding, but books may be rebound for other reasons.",
+   "D": "Could be true: only rebound books are required to be in the east wing.",
+   "E": "Could be true: not stated, but not ruled out either."
+  },
+  "trapPatterns": {
+   "B": "reversal",
+   "C": "reversal",
+   "D": "out_of_scope",
+   "E": "reversal"
+  },
+  "keyTakeaway": "Chain the rules end to end; the impossible choice puts something at the start of the chain that is barred from the end."
+ },
+ {
+  "id": "lr-mbf-delegates-resolution-sessions",
+  "section": "LR",
+  "type": "must_be_false",
+  "logicTags": [
+   "quantifiers",
+   "math_percent"
+  ],
+  "difficulty": 4,
+  "stimulus": "Most of the delegates at the conference voted for the resolution. Every delegate who voted for the resolution had attended the opening session. Fewer than half of the delegates at the conference attended the closing session.",
+  "stem": "If the statements above are true, which one of the following CANNOT be true?",
+  "choices": {
+   "A": "Some delegates who attended the opening session voted against the resolution.",
+   "B": "No delegate who voted for the resolution attended the closing session.",
+   "C": "Fewer than half of the delegates at the conference attended the opening session.",
+   "D": "Every delegate who attended the closing session voted for the resolution.",
+   "E": "Most delegates who attended the opening session did not attend the closing session."
+  },
+  "answer": "C",
+  "explanations": {
+   "A": "Could be true: attending the opening session did not require voting for the resolution.",
+   "B": "Could be true: more than half voted for it and fewer than half attended the closing session, so the two groups need not overlap.",
+   "C": "Correct. More than half voted for the resolution, and all of them attended the opening session, so more than half attended it.",
+   "D": "Could be true: the closing-session group, being under half, could sit entirely inside the group that voted for the resolution.",
+   "E": "Could be true: nothing ties the two sessions together."
+  },
+  "trapPatterns": {
+   "A": "reversal",
+   "B": "wrong_force",
+   "D": "reversal",
+   "E": "out_of_scope"
+  },
+  "keyTakeaway": "'Most' plus 'all of those' fixes a floor: more than half. Any choice that puts that group below half is impossible."
+ },
+ {
+  "id": "lr-agree-arena-subsidy-attendance",
+  "section": "LR",
+  "type": "point_of_agreement",
+  "logicTags": [],
+  "difficulty": 2,
+  "stimulus": "Ines: The city should stop subsidizing the downtown arena. Attendance has fallen every year, and the money would do more good if spent on neighborhood parks.\nTobias: Attendance has fallen, yes, but only because the arena's schedule has been so thin. With better programming the arena would draw crowds again, so the subsidy should continue.",
+  "stem": "Ines's and Tobias's statements provide the most support for holding that they agree about which one of the following?",
+  "choices": {
+   "A": "The city's subsidy of the arena should end.",
+   "B": "Attendance at the downtown arena has declined.",
+   "C": "Neighborhood parks deserve more city funding than they now receive.",
+   "D": "The arena's schedule has offered too few events.",
+   "E": "Better programming would restore the arena's attendance."
+  },
+  "answer": "B",
+  "explanations": {
+   "A": "Opposite: this is exactly what they disagree about.",
+   "B": "Correct. Ines: 'Attendance has fallen every year.' Tobias: 'Attendance has fallen, yes.'",
+   "C": "Half right: only Ines mentions parks.",
+   "D": "Half right: only Tobias mentions the schedule.",
+   "E": "Half right: only Tobias makes this claim."
+  },
+  "trapPatterns": {
+   "A": "opposite",
+   "C": "half_right",
+   "D": "half_right",
+   "E": "half_right"
+  },
+  "keyTakeaway": "For agreement questions, each speaker must have committed to the claim. A view voiced by one speaker and ignored by the other is not agreement."
+ },
+ {
+  "id": "lr-agree-tests-coaching-advantage",
+  "section": "LR",
+  "type": "point_of_agreement",
+  "logicTags": [],
+  "difficulty": 3,
+  "stimulus": "Garza: Standardized tests should be dropped from university admissions. They mostly measure how much coaching a family can afford, not what a student can do.\nPell: Coaching does raise scores, and that is unfair. But grades vary so much from school to school that without some common measure, admissions officers cannot compare applicants at all. The tests should be kept and coaching made free.",
+  "stem": "Garza's and Pell's statements provide the most support for holding that they agree about which one of the following?",
+  "choices": {
+   "A": "Standardized tests should no longer be used in university admissions.",
+   "B": "Grades are a reliable basis for comparing applicants from different schools.",
+   "C": "Making coaching free for all students would remove the unfairness of standardized tests.",
+   "D": "Admissions officers currently give test scores too much weight.",
+   "E": "Students whose families can pay for coaching have an advantage on standardized tests."
+  },
+  "answer": "E",
+  "explanations": {
+   "A": "Opposite: Pell says the tests 'should be kept'.",
+   "B": "Pell denies this, and Garza never addresses grades.",
+   "C": "Half right: Pell proposes free coaching; Garza says nothing about it.",
+   "D": "Out of scope: neither speaker discusses how much weight scores now receive.",
+   "E": "Correct. Garza: scores reflect 'how much coaching a family can afford'. Pell: 'Coaching does raise scores, and that is unfair.'"
+  },
+  "trapPatterns": {
+   "A": "opposite",
+   "B": "half_right",
+   "C": "half_right",
+   "D": "out_of_scope"
+  },
+  "keyTakeaway": "Speakers who disagree about a remedy often agree about the underlying fact. Look at what the second speaker concedes."
+ },
+ {
+  "id": "lr-agree-tarsene-league-harbor",
+  "section": "LR",
+  "type": "point_of_agreement",
+  "logicTags": [
+   "causation"
+  ],
+  "difficulty": 3,
+  "stimulus": "Historian A: The collapse of the Tarsene trading league is best explained by the silting of its main harbor, which made the port unusable for large ships by 1340.\nHistorian B: The harbor did silt up, but the league's own records show that its merchants had shifted to overland routes a generation earlier. It was the loss of its banking privileges in 1352 that finished the league.",
+  "stem": "The historians' statements provide the most support for holding that they agree about which one of the following?",
+  "choices": {
+   "A": "The silting of the harbor was the main cause of the league's collapse.",
+   "B": "The loss of banking privileges contributed to the league's collapse.",
+   "C": "The league's merchants were using overland routes before 1340.",
+   "D": "The league's main harbor became silted.",
+   "E": "The league had collapsed before 1352."
+  },
+  "answer": "D",
+  "explanations": {
+   "A": "Opposite: Historian B rejects this explanation.",
+   "B": "Half right: only Historian B mentions banking privileges.",
+   "C": "Half right: only Historian B makes this claim.",
+   "D": "Correct. A cites 'the silting of its main harbor'; B says 'The harbor did silt up'.",
+   "E": "Historian B places the end in or after 1352, and Historian A gives no date for the collapse."
+  },
+  "trapPatterns": {
+   "A": "opposite",
+   "B": "half_right",
+   "C": "half_right",
+   "E": "out_of_scope"
+  },
+  "keyTakeaway": "Agreement on a fact is compatible with disagreement about what that fact explains."
+ },
+ {
+  "id": "lr-method-bike-lanes-collisions",
+  "section": "LR",
+  "type": "method_of_reasoning",
+  "logicTags": [
+   "comparison"
+  ],
+  "difficulty": 2,
+  "stimulus": "Councilor: My opponent says the new bike lanes have made Mill Road more dangerous, pointing to the three collisions there since the lanes opened. But in the same months of the previous year there were seven collisions on Mill Road. If anything, the record suggests the lanes have made the road safer.",
+  "stem": "The councilor responds to the opponent's argument by",
+  "choices": {
+   "A": "supplying a comparison that puts the opponent's evidence in a different light",
+   "B": "questioning the accuracy of the figure the opponent cites",
+   "C": "suggesting that the opponent has a personal stake in the outcome",
+   "D": "showing that the opponent's conclusion contradicts one of the opponent's own premises",
+   "E": "appealing to a general principle of road design"
+  },
+  "answer": "A",
+  "explanations": {
+   "A": "Correct. The councilor accepts the three collisions and adds the earlier figure of seven, which reverses what the three suggest.",
+   "B": "Opposite: the councilor accepts the figure of three.",
+   "C": "Out of scope: no motive is mentioned.",
+   "D": "Shell game: the opponent's premise and conclusion are not shown to conflict; new information is added instead.",
+   "E": "Out of scope: the reply uses a specific record, not a general principle."
+  },
+  "trapPatterns": {
+   "B": "opposite",
+   "C": "out_of_scope",
+   "D": "shell_game",
+   "E": "out_of_scope"
+  },
+  "keyTakeaway": "Describe what the speaker does with the other side's evidence: reject it, reinterpret it, or add to it."
+ },
+ {
+  "id": "lr-method-orange-color-word",
+  "section": "LR",
+  "type": "method_of_reasoning",
+  "logicTags": [
+   "definition_scope"
+  ],
+  "difficulty": 3,
+  "stimulus": "It is sometimes said that a language with no word for a color leaves its speakers unable to perceive that color. But English had no common word for orange until the fruit was imported; before then the color was called \"yellow-red.\" No one supposes that medieval English speakers could not see the color of a flame or a marigold. Lacking a word for something is evidently not the same as being unable to perceive it.",
+  "stem": "The argument proceeds by",
+  "choices": {
+   "A": "appealing to the authority of experts on language",
+   "B": "showing that a claim, if accepted, contradicts itself",
+   "C": "distinguishing two meanings of a key term",
+   "D": "generalizing from several languages to all languages",
+   "E": "presenting a counterexample to a general claim"
+  },
+  "answer": "E",
+  "explanations": {
+   "A": "Out of scope: no expert is cited.",
+   "B": "Shell game: the claim is shown to conflict with a case, not with itself.",
+   "C": "Half right: two things are distinguished (lacking a word, being unable to perceive), but they are not two meanings of one term.",
+   "D": "Wrong force: the argument uses one language to refute a claim, not several to establish one.",
+   "E": "Correct. The general claim is that no word means no perception; medieval English is a case with no word and evident perception."
+  },
+  "trapPatterns": {
+   "A": "out_of_scope",
+   "B": "shell_game",
+   "C": "half_right",
+   "D": "wrong_force"
+  },
+  "keyTakeaway": "One clear case where the 'if' part holds and the 'then' part fails is a counterexample; that is all a universal claim needs to fall."
+ },
+ {
+  "id": "lr-method-experience-hiring-reductio",
+  "section": "LR",
+  "type": "method_of_reasoning",
+  "logicTags": [],
+  "difficulty": 3,
+  "stimulus": "Mara: We should hire the applicant with the most experience. Experienced people make fewer mistakes.\nJoon: By that reasoning we should never hire anyone new to a field, and then no one could ever become experienced. Experience is one consideration, not the only one.",
+  "stem": "Joon responds to Mara by",
+  "choices": {
+   "A": "denying that experienced people make fewer mistakes",
+   "B": "offering evidence that the most experienced applicant is unqualified",
+   "C": "arguing that the reasoning behind Mara's recommendation, if applied generally, would have an unacceptable result",
+   "D": "pointing out that Mara has defined experience too narrowly",
+   "E": "citing a case in which an inexperienced hire succeeded"
+  },
+  "answer": "C",
+  "explanations": {
+   "A": "Opposite: Joon grants that experience is 'one consideration'.",
+   "B": "Out of scope: Joon says nothing about this applicant's qualifications.",
+   "C": "Correct. 'By that reasoning we should never hire anyone new', which would mean 'no one could ever become experienced'.",
+   "D": "Shell game: the dispute is over how much experience should count, not what it means.",
+   "E": "Out of scope: no particular case is cited."
+  },
+  "trapPatterns": {
+   "A": "opposite",
+   "B": "out_of_scope",
+   "D": "shell_game",
+   "E": "out_of_scope"
+  },
+  "keyTakeaway": "'By that reasoning...' signals a reply that extends the other side's principle to a result no one would accept."
+ },
+ {
+  "id": "lr-fill-sourdough-starter-warmth",
+  "section": "LR",
+  "type": "fill_in_blank",
+  "logicTags": [
+   "causation"
+  ],
+  "difficulty": 2,
+  "stimulus": "Sourdough bakers know that a starter kept in a cold kitchen ferments slowly, and that slow fermentation gives the bacteria that live alongside the yeast more time to produce acids. Since those acids are what give sourdough its tang, a baker who wants a milder loaf should ______.",
+  "stem": "Which one of the following most logically completes the argument?",
+  "choices": {
+   "A": "use less starter in each loaf",
+   "B": "bake the loaf at a lower temperature",
+   "C": "keep the starter in a colder place",
+   "D": "keep the starter somewhere warmer",
+   "E": "use a starter that contains no bacteria"
+  },
+  "answer": "D",
+  "explanations": {
+   "A": "Out of scope: the amount of starter is never connected to acidity.",
+   "B": "Out of scope: oven temperature is not discussed.",
+   "C": "Opposite: cold slows fermentation, which means more acid and more tang.",
+   "D": "Correct. Cold leads to slow fermentation, more acid and more tang; reversing the first link is the way to less tang.",
+   "E": "Extreme: the passage supports reducing acid production, not eliminating the bacteria, and says nothing about whether such a starter would work."
+  },
+  "trapPatterns": {
+   "A": "out_of_scope",
+   "B": "out_of_scope",
+   "C": "opposite",
+   "E": "extreme"
+  },
+  "keyTakeaway": "To complete a causal chain with a recommendation, go back to the first link and reverse it."
+ },
+ {
+  "id": "lr-fill-snow-shovel-price-resentment",
+  "section": "LR",
+  "type": "fill_in_blank",
+  "logicTags": [
+   "mental_state_v_reality"
+  ],
+  "difficulty": 3,
+  "stimulus": "A firm's customers will tolerate a price increase if they believe it reflects a rise in the firm's costs, but they resent one they believe merely exploits a rise in demand. Hardware stores that raise the price of snow shovels the morning after a blizzard are widely resented, even though ______.",
+  "stem": "Which one of the following most logically completes the argument?",
+  "choices": {
+   "A": "demand for snow shovels rises sharply after a blizzard",
+   "B": "the cost to the stores of restocking shovels on short notice is in fact higher than usual",
+   "C": "most customers buy their shovels before the first storm of the season",
+   "D": "customers rarely resent price increases at stores they seldom visit",
+   "E": "the stores lower their prices again once the snow has melted"
+  },
+  "answer": "B",
+  "explanations": {
+   "A": "This restates why customers suspect exploitation; it does not supply the contrast that 'even though' requires.",
+   "B": "Correct. Resentment follows what customers 'believe'. The contrast is that costs really did rise, yet customers believe otherwise.",
+   "C": "Out of scope: when most customers buy has no bearing on the belief behind the resentment.",
+   "D": "Out of scope: how often customers visit is not part of the account.",
+   "E": "True but irrelevant: a later price cut does not contrast with resentment in the terms the first sentence sets up."
+  },
+  "trapPatterns": {
+   "A": "premise_booster",
+   "C": "out_of_scope",
+   "D": "out_of_scope",
+   "E": "true_but_irrelevant"
+  },
+  "keyTakeaway": "'Even though' must introduce something that would lead you to expect the opposite, using the passage's own distinction (here, belief versus fact)."
+ },
+ {
+  "id": "lr-mbt-calder-prize-saltmarsh",
+  "section": "LR",
+  "type": "must_be_true",
+  "logicTags": [
+   "conditional"
+  ],
+  "difficulty": 2,
+  "stimulus": "A film qualifies for the Calder Prize only if it was released in the past year and runs at least ninety minutes. Any film that qualifies for the Calder Prize is screened at the Northgate Festival. The documentary Saltmarsh was released in the past year but was not screened at the Northgate Festival.",
+  "stem": "If the statements above are true, which one of the following must also be true?",
+  "choices": {
+   "A": "Saltmarsh runs less than ninety minutes.",
+   "B": "Every film screened at the Northgate Festival qualifies for the Calder Prize.",
+   "C": "Any film released in the past year that runs at least ninety minutes qualifies for the Calder Prize.",
+   "D": "Saltmarsh would have qualified for the Calder Prize if it had been longer.",
+   "E": "Saltmarsh does not qualify for the Calder Prize."
+  },
+  "answer": "E",
+  "explanations": {
+   "A": "Release date and length are requirements, not guarantees; Saltmarsh may fail to qualify for some other reason.",
+   "B": "Reversal: qualifying films are screened; screened films need not qualify.",
+   "C": "Treats the two necessary conditions as sufficient.",
+   "D": "Out of scope: nothing says length is what kept it from qualifying.",
+   "E": "Correct. Every qualifying film is screened at Northgate; Saltmarsh was not screened, so it does not qualify."
+  },
+  "trapPatterns": {
+   "A": "necessary_v_sufficient",
+   "B": "reversal",
+   "C": "necessary_v_sufficient",
+   "D": "out_of_scope"
+  },
+  "keyTakeaway": "Use the contrapositive of the rule whose necessary condition you know failed; ignore rules whose conditions you cannot check."
+ },
+ {
+  "id": "lr-mbt-apprentice-dovetail-joinery",
+  "section": "LR",
+  "type": "must_be_true",
+  "logicTags": [
+   "conditional",
+   "quantifiers"
+  ],
+  "difficulty": 3,
+  "stimulus": "Every apprentice in the Corvin workshop who has completed the joinery course can cut a dovetail by hand. Some apprentices who can cut a dovetail by hand have not yet learned to sharpen their own chisels. Ottilie is an apprentice in the Corvin workshop who cannot cut a dovetail by hand.",
+  "stem": "If the statements above are true, which one of the following must also be true?",
+  "choices": {
+   "A": "Ottilie has not completed the joinery course.",
+   "B": "Ottilie has not yet learned to sharpen her own chisels.",
+   "C": "Some apprentices who have completed the joinery course have not yet learned to sharpen their own chisels.",
+   "D": "Every apprentice who can cut a dovetail by hand has completed the joinery course.",
+   "E": "Most apprentices in the Corvin workshop can cut a dovetail by hand."
+  },
+  "answer": "A",
+  "explanations": {
+   "A": "Correct. Completing the course guarantees the dovetail skill; Ottilie lacks the skill, so she has not completed the course.",
+   "B": "Out of scope: chisel sharpening is tied only to some who can cut dovetails, and Ottilie cannot.",
+   "C": "The 'some' who cannot sharpen may all be apprentices who learned dovetails without the course.",
+   "D": "Reversal: the course guarantees the skill, not the other way around.",
+   "E": "Wrong force: no statement supports 'most'."
+  },
+  "trapPatterns": {
+   "B": "out_of_scope",
+   "C": "shell_game",
+   "D": "reversal",
+   "E": "wrong_force"
+  },
+  "keyTakeaway": "An 'all A are B' plus 'some B are C' never yields 'some A are C'."
+ },
+ {
+  "id": "lr-mc-street-trees-evaporation",
+  "section": "LR",
+  "type": "main_conclusion",
+  "logicTags": [
+   "causation"
+  ],
+  "difficulty": 2,
+  "stimulus": "It is often assumed that trees planted along city streets cool neighborhoods mainly by shading the pavement. But measurements show that shaded pavement accounts for only a small part of the cooling. Most of it comes from water evaporating from leaves, which is why a row of small, densely leaved trees cools a street more than a single large tree casting the same shadow. Shade, then, is not the main way street trees cool a neighborhood.",
+  "stem": "Which one of the following most accurately expresses the main conclusion of the argument?",
+  "choices": {
+   "A": "A row of small, densely leaved trees cools a street more than a single large tree that casts the same shadow.",
+   "B": "Most of the cooling that street trees provide comes from water evaporating from their leaves.",
+   "C": "Street trees do not cool neighborhoods mainly by shading the pavement.",
+   "D": "Cities should plant small, densely leaved trees rather than large ones.",
+   "E": "It is often assumed that street trees cool neighborhoods mainly by shading pavement."
+  },
+  "answer": "C",
+  "explanations": {
+   "A": "Wrong part: this is an observation the evaporation account explains.",
+   "B": "Wrong part: this is the evidence for the conclusion, which is the denial of the common assumption.",
+   "C": "Correct. The final sentence, marked by 'then', denies the assumption stated in the first.",
+   "D": "Out of scope: the argument makes no recommendation.",
+   "E": "Wrong part: this is the view the argument sets out to correct."
+  },
+  "trapPatterns": {
+   "A": "wrong_part",
+   "B": "wrong_part",
+   "D": "out_of_scope",
+   "E": "wrong_part"
+  },
+  "keyTakeaway": "When an argument opens with 'it is often assumed', the conclusion is usually the rejection of that assumption."
+ },
+ {
+  "id": "lr-mc-night-bus-advertising",
+  "section": "LR",
+  "type": "main_conclusion",
+  "logicTags": [],
+  "difficulty": 3,
+  "stimulus": "Editorial: The transit agency says it cannot afford to run buses after midnight. Yet the agency spends twice what night service would cost on advertising aimed at people who already ride. Advertising to existing riders adds few fares, whereas night service would bring in riders who now have no way home. The agency's claim about what it can afford, therefore, should not be accepted.",
+  "stem": "Which one of the following most accurately expresses the main conclusion of the editorial?",
+  "choices": {
+   "A": "The transit agency spends twice the cost of night service on advertising.",
+   "B": "The agency's claim that it cannot afford to run buses after midnight should be rejected.",
+   "C": "Advertising aimed at existing riders adds few fares.",
+   "D": "The transit agency should stop spending money on advertising of any kind and use the savings for service.",
+   "E": "Night service would attract riders who currently have no way home."
+  },
+  "answer": "B",
+  "explanations": {
+   "A": "Wrong part: this is a premise.",
+   "B": "Correct. The last sentence, introduced by 'therefore', says the claim 'should not be accepted'.",
+   "C": "Wrong part: this is a premise supporting the comparison.",
+   "D": "Extreme: the editorial criticizes one kind of advertising and does not call for ending all of it.",
+   "E": "Wrong part: this is a premise."
+  },
+  "trapPatterns": {
+   "A": "wrong_part",
+   "C": "wrong_part",
+   "D": "extreme",
+   "E": "wrong_part"
+  },
+  "keyTakeaway": "The conclusion is the claim every other sentence supports and that supports nothing further."
+ },
+ {
+  "id": "lr-role-promise-mistaken-belief",
+  "section": "LR",
+  "type": "argument_part",
+  "logicTags": [
+   "conditional"
+  ],
+  "difficulty": 3,
+  "stimulus": "Some people hold that a promise made under a mistaken belief does not bind. But nearly every promise rests on some belief about the future that may turn out to be mistaken: that one will stay healthy, that prices will hold, that the other party will still want what was promised. If a mistaken belief released promisors, almost no promise would bind. So a mistaken belief does not, by itself, release a person from a promise.",
+  "stem": "The claim that nearly every promise rests on some belief about the future that may turn out to be mistaken plays which one of the following roles in the argument?",
+  "choices": {
+   "A": "It is the view that the argument is directed against.",
+   "B": "It is the main conclusion of the argument.",
+   "C": "It is an example offered to illustrate the conclusion.",
+   "D": "It is a premise used to show that the opposing view would have an unacceptable consequence.",
+   "E": "It is a concession to the opposing view that the argument goes on to qualify in its final sentence."
+  },
+  "answer": "D",
+  "explanations": {
+   "A": "Wrong part: the view opposed is that a mistaken belief releases the promisor.",
+   "B": "Wrong part: the conclusion is the final sentence.",
+   "C": "Shell game: the claim is general support, and the examples are the items listed after the colon.",
+   "D": "Correct. Combined with the opposing view, it yields 'almost no promise would bind', which the argument treats as unacceptable.",
+   "E": "Half right: it follows 'But', yet it is offered against the opposing view, not conceded to it."
+  },
+  "trapPatterns": {
+   "A": "wrong_part",
+   "B": "wrong_part",
+   "C": "shell_game",
+   "E": "half_right"
+  },
+  "keyTakeaway": "Ask what the claim supports and what supports it. A premise that makes the other side's view prove too much is doing reductio work."
+ },
+ {
+  "id": "lr-role-urban-fox-cubs",
+  "section": "LR",
+  "type": "argument_part",
+  "logicTags": [
+   "causation"
+  ],
+  "difficulty": 2,
+  "stimulus": "Urban foxes are bolder than rural foxes, and it is tempting to think that city life teaches them boldness. However, fox cubs born in cities and raised in rural sanctuaries are just as bold as cubs raised in cities. So the boldness of urban foxes is probably inherited rather than learned.",
+  "stem": "The statement that fox cubs born in cities and raised in rural sanctuaries are just as bold as cubs raised in cities plays which one of the following roles in the argument?",
+  "choices": {
+   "A": "It is evidence offered against one explanation and in support of another.",
+   "B": "It is the conclusion that the argument is meant to establish.",
+   "C": "It is a hypothesis that the argument rejects.",
+   "D": "It is the observation that the argument sets out to explain.",
+   "E": "It is background information that plays no part in supporting the conclusion."
+  },
+  "answer": "A",
+  "explanations": {
+   "A": "Correct. It counts against 'city life teaches them boldness' and for the conclusion that boldness is 'inherited'.",
+   "B": "Wrong part: the conclusion is the last sentence.",
+   "C": "Wrong part: the rejected hypothesis is that city life teaches boldness.",
+   "D": "Shell game: what is being explained is that urban foxes are bolder than rural ones.",
+   "E": "Opposite: it is the only evidence given for the conclusion."
+  },
+  "trapPatterns": {
+   "B": "wrong_part",
+   "C": "wrong_part",
+   "D": "shell_game",
+   "E": "opposite"
+  },
+  "keyTakeaway": "'However' after a tempting explanation usually introduces the evidence that decides between two explanations."
+ },
+ {
+  "id": "lr-parallel-library-card-contrapositive",
+  "section": "LR",
+  "type": "parallel_method",
+  "logicTags": [
+   "conditional"
+  ],
+  "difficulty": 3,
+  "stimulus": "Anyone who has a library card can borrow a book. Rosalind cannot borrow a book. Therefore, Rosalind does not have a library card.",
+  "stem": "Which one of the following arguments is most similar in its pattern of reasoning to the argument above?",
+  "choices": {
+   "A": "Anyone who has a ticket can enter the hall. Felix has a ticket. Therefore, Felix can enter the hall.",
+   "B": "Anyone who has a key can open the gate. Noor does not have a key. Therefore, Noor cannot open the gate.",
+   "C": "Anyone who can open the gate has a key. Noor has a key. Therefore, Noor can open the gate.",
+   "D": "Most people who hold a resident permit may park on this street. Idris may not park on this street. Therefore, Idris does not hold a resident permit.",
+   "E": "Any plant that gets full sun will flower. This plant will not flower. Therefore, this plant does not get full sun."
+  },
+  "answer": "E",
+  "explanations": {
+   "A": "Valid, but a different pattern: it affirms the sufficient condition instead of denying the necessary one.",
+   "B": "Denies the sufficient condition and concludes the necessary one fails, which is a flawed pattern the original does not use.",
+   "C": "Affirms the necessary condition and concludes the sufficient one holds, also a flawed pattern.",
+   "D": "Wrong force: 'most' replaces 'anyone', so the conclusion no longer follows.",
+   "E": "Correct. All A are B; this one is not B; so it is not A. Same contrapositive pattern."
+  },
+  "trapPatterns": {
+   "A": "half_right",
+   "B": "reversal",
+   "C": "reversal",
+   "D": "wrong_force"
+  },
+  "keyTakeaway": "Abstract the original into letters first, then test each choice against the letters, not the subject matter.",
+  "predictionHint": "If A then B. Not B. So not A."
+ },
+ {
+  "id": "lr-issue-novel-ending-coincidence",
+  "section": "LR",
+  "type": "point_at_issue",
+  "logicTags": [
+   "value_judgment"
+  ],
+  "difficulty": 2,
+  "stimulus": "Renata: The novel's ending is a failure. After four hundred pages of careful realism, the heroine is rescued by a coincidence no reader could believe.\nAnselm: The coincidence is unbelievable, I grant. But the ending is not trying to be realistic. It deliberately breaks the book's own rules to show how arbitrary the heroine's fate always was. That is what makes it succeed.",
+  "stem": "Renata and Anselm disagree over whether",
+  "choices": {
+   "A": "the coincidence that rescues the heroine is believable",
+   "B": "most of the novel is written in a realistic manner",
+   "C": "the novel's ending is a failure",
+   "D": "an author should ever break rules that a novel has established",
+   "E": "readers of the novel enjoy its ending"
+  },
+  "answer": "C",
+  "explanations": {
+   "A": "Opposite: both say it is not believable.",
+   "B": "Neither disputes this; Anselm's reading depends on the book having rules for the ending to break.",
+   "C": "Correct. Renata: 'The novel's ending is a failure.' Anselm: breaking the rules 'is what makes it succeed'.",
+   "D": "Extreme: Anselm defends this ending; neither states a view about all novels.",
+   "E": "Out of scope: enjoyment is not discussed."
+  },
+  "trapPatterns": {
+   "A": "opposite",
+   "B": "half_right",
+   "D": "extreme",
+   "E": "out_of_scope"
+  },
+  "keyTakeaway": "The point at issue is a claim one speaker affirms and the other denies. Shared concessions are never the answer."
+ }
+]

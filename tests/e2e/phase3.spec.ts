@@ -36,7 +36,8 @@ test("RC drill: read passage, unlock questions, answer one, see passage summary"
   await expect
     .poll(
       async () => {
-        await page.getByRole("button", { name: /reading comprehension/i }).click();
+        // once the route is loading the button is gone; don't let a second click block the poll
+        await page.getByRole("button", { name: /reading comprehension/i }).click({ timeout: 2_000 }).catch(() => {});
         await page.waitForTimeout(500);
         return page.url();
       },
