@@ -1,0 +1,1084 @@
+[
+  {
+    "id": "lr-p-flaw-harbor-bus-lane",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 1,
+    "stimulus": "Transit planner: Since a dedicated bus lane opened on Harbor Street last spring, average bus travel times along that street have fallen by eleven percent. Clearly, the bus lane is what made the buses faster, so the city's transit money has been well spent on it.",
+    "stem": "The reasoning in the argument is most vulnerable to criticism on the grounds that it",
+    "choices": {
+      "A": "overlooks that a bus lane costs more to build than an ordinary traffic lane",
+      "B": "presumes that no street other than Harbor Street could benefit from a bus lane",
+      "C": "fails to rule out that some other change occurring around the same time produced the faster travel times",
+      "D": "draws a conclusion about future travel times from evidence about past travel times",
+      "E": "assumes that shorter travel times are the only measure of whether transit money was well spent"
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Out of scope: construction cost has no bearing on whether the lane made buses faster.",
+      "B": "Extreme: the planner says nothing about other streets, and the argument does not need any claim that Harbor Street is unique.",
+      "C": "Correct. The planner observes only that times fell after the lane opened, then asserts the lane caused it. Another change, such as lighter traffic or retimed signals, could account for the improvement.",
+      "D": "Wrong part: the conclusion is about what caused the past improvement, not about what will happen later.",
+      "E": "The planner does lean on travel time, but the flaw in the causal claim would remain even if travel time were a perfect measure."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "extreme",
+      "D": "wrong_part",
+      "E": "true_but_irrelevant"
+    },
+    "keyTakeaway": "When an effect follows a change, ask whether something else that changed at the same time could be the real cause.",
+    "predictionHint": "Before-and-after correlation: another simultaneous change could explain the faster buses."
+  },
+  {
+    "id": "lr-p-flaw-pageturner-events",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "conditional"
+    ],
+    "difficulty": 2,
+    "stimulus": "Consultant: No independent bookstore can stay profitable without a strong calendar of author events. Pageturner Books, an independent bookstore, has just launched a strong calendar of author events. Therefore, Pageturner Books will stay profitable.",
+    "stem": "The argument is flawed in that it",
+    "choices": {
+      "A": "treats a condition required for profitability as though it were enough to guarantee profitability",
+      "B": "draws a conclusion about one bookstore from a claim about independent bookstores in general",
+      "C": "assumes that author events are the most important contributor to a bookstore's success",
+      "D": "fails to consider that Pageturner Books might have been profitable before it launched its calendar",
+      "E": "relies on a claim about bookstores that the consultant has not supported with evidence"
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. The first sentence makes author events necessary for profit. The conclusion treats having them as sufficient, which reverses the direction of the conditional.",
+      "B": "Applying a general claim to a particular member of the group is legitimate; that move is not where the argument goes wrong.",
+      "C": "Extreme: the consultant says events are required, not that they matter more than every other factor.",
+      "D": "Out of scope: past profitability does not affect whether the stated condition guarantees future profit.",
+      "E": "The first claim is offered as a premise; an argument is not flawed merely because it uses a premise it does not defend."
+    },
+    "trapPatterns": {
+      "B": "wrong_part",
+      "C": "extreme",
+      "D": "out_of_scope",
+      "E": "wrong_force"
+    },
+    "keyTakeaway": "Spot 'only if' / 'cannot without' language and check that the conclusion does not treat the required condition as enough.",
+    "predictionHint": "Necessary condition met, but conclusion treats it as sufficient."
+  },
+  {
+    "id": "lr-p-flaw-quartet-schools",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "part_v_whole",
+      "comparison"
+    ],
+    "difficulty": 3,
+    "stimulus": "Critic: Taken as a whole, the string quartets of the Maren school are more technically demanding than those of the Tolliver school. It follows that the Maren school's Quartet in G is more technically demanding than the Tolliver school's Quartet in D.",
+    "stem": "The reasoning in the argument is most vulnerable to criticism on the grounds that it",
+    "choices": {
+      "A": "overlooks that technical demand is not the only standard by which quartets are judged",
+      "B": "relies on the judgment of a critic whose preferences might favor one school",
+      "C": "assumes that all of the quartets in a school share a single compositional style",
+      "D": "fails to define what it is for a quartet to be technically demanding",
+      "E": "takes a claim about how two groups compare overall to settle how one member of each group compares"
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Out of scope: the conclusion is only about technical demand, so other standards are beside the point.",
+      "B": "Nothing in the passage suggests bias, and even an unbiased overall judgment would leave the member-level inference unsupported.",
+      "C": "Tempting because it concerns uniformity within a school, but style is never mentioned; the issue is difficulty level and the group-to-member step.",
+      "D": "A definition might sharpen the claims, but the inference would still fail with any definition.",
+      "E": "Correct. A school's quartets can be more demanding in general while one particular Maren quartet is easy and one Tolliver quartet is hard. The group comparison does not fix the comparison of individual members."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "wrong_force",
+      "C": "half_right",
+      "D": "true_but_irrelevant"
+    },
+    "keyTakeaway": "A comparison between groups does not settle comparisons between particular members of those groups.",
+    "predictionHint": "Overall group difference does not guarantee the specific pair compares the same way."
+  },
+  {
+    "id": "lr-p-flaw-alder-row-most",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "quantifiers"
+    ],
+    "difficulty": 4,
+    "stimulus": "Merchants' association chair: Most of the shops on Alder Row are owned by people who live in the neighborhood, and most of the shops on Alder Row stay open past eight in the evening. Therefore, most of the neighborhood-owned shops on Alder Row stay open past eight in the evening.",
+    "stem": "The argument is flawed in that it",
+    "choices": {
+      "A": "treats a property that most of the shops have as though all of the shops had it",
+      "B": "infers that some of the shops have both properties from the fact that most have each property",
+      "C": "draws a conclusion about every shop on the row on the basis of information about only some of them",
+      "D": "concludes that most things having one property also have a second property from the fact that most things in the whole group have each of the two properties",
+      "E": "relies on a claim about neighborhood ownership that is stated without any supporting evidence"
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "'Most' is respected throughout; the argument never upgrades a majority to 'all'.",
+      "B": "That inference is actually valid, and it is not the one the argument makes: the conclusion says 'most', not 'some'.",
+      "C": "The premises already concern most shops on the row, and the conclusion is about a subset, not about every shop.",
+      "D": "Correct. If ten shops are on the row, six can be neighborhood-owned and six can stay open late while only two shops are both, so most owned-locally shops would not be open late. Two majorities guarantee overlap, not a majority within one majority.",
+      "E": "Premises are granted; lack of evidence for a premise is not what makes this inference invalid."
+    },
+    "trapPatterns": {
+      "A": "extreme",
+      "B": "half_right",
+      "C": "wrong_part",
+      "E": "wrong_force"
+    },
+    "keyTakeaway": "'Most A are B' plus 'most A are C' yields 'some B are C' at best; it never yields 'most B are C'.",
+    "predictionHint": "Two majorities within a group only guarantee overlap, not a majority of one majority."
+  },
+  {
+    "id": "lr-p-flaw-dry-cleaner-flyer",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [],
+    "difficulty": 2,
+    "stimulus": "Dry-cleaner owner: A rival shop's flyer says that our pressing machines damage delicate fabrics. But that rival was fined last year for advertising prices it refused to honor, so there is no reason to take the flyer's claim seriously.",
+    "stem": "The argument is flawed in that it",
+    "choices": {
+      "A": "fails to consider that the machines might damage fabrics that are not delicate",
+      "B": "dismisses a claim on the basis of the character of those who make it rather than on the merits of the claim itself",
+      "C": "overlooks that the rival may have an interest in discouraging customers from using the owner's shop",
+      "D": "assumes that the rival's prices are lower than the prices the owner charges",
+      "E": "relies on a single flyer as the only evidence of what the rival believes"
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Out of scope: the dispute is about delicate fabrics, and other fabrics do not affect the inference.",
+      "B": "Correct. A rival's past dishonesty about prices says nothing about whether pressing machines actually damage fabrics. The claim must be assessed on evidence about the machines.",
+      "C": "This consideration would, if anything, support the owner's skepticism, so it is not a weakness in the argument.",
+      "D": "Nothing in the argument depends on price comparisons; the fine is cited only to discredit the rival.",
+      "E": "The owner is answering the flyer's claim about the machines, not drawing a conclusion about the rival's beliefs."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "C": "opposite",
+      "D": "premise_booster",
+      "E": "wrong_part"
+    },
+    "keyTakeaway": "Rejecting a claim because of who said it, without engaging the claim, is a source-attack flaw.",
+    "predictionHint": "The rival's dishonesty about prices is irrelevant to whether the machines damage fabric."
+  },
+  {
+    "id": "lr-p-mss-carrow-garages",
+    "section": "LR",
+    "type": "most_strongly_supported",
+    "logicTags": [
+      "quantifiers"
+    ],
+    "difficulty": 1,
+    "stimulus": "A survey of municipal records covering every parking garage in downtown Carrow found that most of the garages raised their rates this year. It also found that every garage that raised its rates had fewer daily users in the month after the increase than in the month before it.",
+    "stem": "Which one of the following is most strongly supported by the information above?",
+    "choices": {
+      "A": "The rate increases were what caused the garages to lose daily users.",
+      "B": "Garages that did not raise their rates kept the same number of daily users.",
+      "C": "Most downtown Carrow garages had fewer daily users after raising their rates than they had before.",
+      "D": "Garages that raised their rates earned less money overall.",
+      "E": "Every parking garage in downtown Carrow had fewer daily users this year."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Causation is not established; the records report only a before-and-after drop.",
+      "B": "The records say nothing about garages that did not raise rates.",
+      "C": "Correct. Most garages raised rates, and every one of those had fewer users afterward, so most garages lost users after raising rates.",
+      "D": "Revenue is not mentioned; higher rates could offset fewer users.",
+      "E": "Only the garages that raised rates are covered by the 'every' claim; only 'most' garages did."
+    },
+    "trapPatterns": {
+      "A": "wrong_force",
+      "B": "reversal",
+      "D": "out_of_scope",
+      "E": "extreme"
+    },
+    "keyTakeaway": "With 'most' plus 'every', the support goes to 'most' of the whole group, no further.",
+    "predictionHint": "Most raised, all raisers lost users, so most garages lost users."
+  },
+  {
+    "id": "lr-p-mss-alder-hall-recital",
+    "section": "LR",
+    "type": "most_strongly_supported",
+    "logicTags": [
+      "conditional"
+    ],
+    "difficulty": 2,
+    "stimulus": "Every piece performed at last night's Alder Hall recital was either composed in the twentieth century or written for solo voice. None of the pieces written for solo voice lasted longer than ten minutes. The longest piece on the program lasted twenty-five minutes.",
+    "stem": "Which one of the following is most strongly supported by the information above?",
+    "choices": {
+      "A": "At least one piece written for solo voice lasted exactly ten minutes.",
+      "B": "Every piece composed in the twentieth century lasted longer than ten minutes.",
+      "C": "Most of the pieces on the program were written for solo voice.",
+      "D": "The longest piece on the program was composed in the twentieth century.",
+      "E": "No piece written for solo voice was composed in the twentieth century."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "The statements set only a ceiling of ten minutes; no solo-voice piece need have reached it.",
+      "B": "The statements restrict solo-voice pieces, not twentieth-century pieces.",
+      "C": "No proportions are given for how many pieces were solo-voice.",
+      "D": "Correct. The twenty-five-minute piece runs longer than ten minutes, so it cannot be a solo-voice piece. Every piece was one or the other, so it was composed in the twentieth century.",
+      "E": "The 'either/or' is inclusive in effect, and nothing rules out a solo-voice piece from that century."
+    },
+    "trapPatterns": {
+      "A": "extreme",
+      "B": "reversal",
+      "C": "out_of_scope",
+      "E": "wrong_force"
+    },
+    "keyTakeaway": "Combine the conditional and the extreme fact: the item that breaks one branch of an 'either/or' must fall in the other.",
+    "predictionHint": "A 25-minute piece cannot be solo-voice, so it must be twentieth-century."
+  },
+  {
+    "id": "lr-p-mss-corbin-bicycle-injuries",
+    "section": "LR",
+    "type": "most_strongly_supported",
+    "logicTags": [
+      "math_percent",
+      "comparison"
+    ],
+    "difficulty": 3,
+    "stimulus": "Last year the number of bicycle trips taken on Corbin Avenue rose by forty percent. Over the same period the number of bicycle-related injuries on Corbin Avenue reported in city records rose by ten percent. City records include only those injuries for which the injured person was treated at a hospital.",
+    "stem": "Which one of the following is most strongly supported by the information above?",
+    "choices": {
+      "A": "Hospital-treated bicycle injuries on Corbin Avenue became less frequent relative to the number of trips taken there.",
+      "B": "Corbin Avenue became a safer street for cyclists in every respect.",
+      "C": "Fewer bicycle injuries were treated at hospitals on Corbin Avenue last year than the year before.",
+      "D": "The number of different people who rode bicycles on Corbin Avenue rose by forty percent.",
+      "E": "Most bicycle injuries on Corbin Avenue are serious enough to require hospital treatment."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. Trips grew by a larger percentage than recorded injuries, and the records are exactly the hospital-treated injuries. So hospital-treated injuries per trip fell.",
+      "B": "Injuries not treated at a hospital are not counted, so the statements cannot support a claim about safety overall.",
+      "C": "The number of recorded injuries rose by ten percent, so it did not fall.",
+      "D": "The forty percent figure concerns trips, and the same people could have made more trips.",
+      "E": "The records include only hospital-treated injuries, so they cannot indicate how common minor injuries are."
+    },
+    "trapPatterns": {
+      "B": "extreme",
+      "C": "opposite",
+      "D": "shell_game",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "Percent-growth comparisons support rate conclusions, but only for the exact population the data actually counts.",
+    "predictionHint": "Injuries grew 10% while trips grew 40%, so the hospital-treated rate per trip fell."
+  },
+  {
+    "id": "lr-p-na-emailed-receipts",
+    "section": "LR",
+    "type": "necessary_assumption",
+    "logicTags": [
+      "comparison"
+    ],
+    "difficulty": 2,
+    "stimulus": "Store owner: Printing paper receipts costs my shop about nine hundred dollars a year in paper, ink, and printer repairs. Switching to emailed receipts will therefore save my shop money.",
+    "stem": "The argument depends on assuming which one of the following?",
+    "choices": {
+      "A": "Most of the shop's customers would rather receive emailed receipts than paper ones.",
+      "B": "The cost of paper and ink will rise over the next several years.",
+      "C": "Other small shops that switched to emailed receipts saved money.",
+      "D": "The shop's receipt printer would otherwise have to be replaced this year.",
+      "E": "Providing emailed receipts will cost the shop less than nine hundred dollars a year."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Customer preference is not needed for the claim about cost savings.",
+      "B": "Rising costs would add to the savings but are not required for savings to exist now.",
+      "C": "This supports the plan by example, but the argument can hold without any other shop's experience.",
+      "D": "A printer replacement would add to savings but is not required.",
+      "E": "Correct. Savings exist only if the new method costs less than the old one. If emailed receipts would cost nine hundred dollars or more, the switch would save nothing."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "premise_booster",
+      "C": "premise_booster",
+      "D": "out_of_scope"
+    },
+    "keyTakeaway": "For a cost-savings claim, the necessary assumption is that the new option costs less than the old.",
+    "predictionHint": "The replacement must cost less than the $900 currently spent."
+  },
+  {
+    "id": "lr-p-na-brandt-translation",
+    "section": "LR",
+    "type": "necessary_assumption",
+    "logicTags": [
+      "link_assumption"
+    ],
+    "difficulty": 3,
+    "stimulus": "Critic: No translation of a poem can reproduce the sound of the original. The beauty of Ilse Brandt's poems lies chiefly in their sound. Therefore, readers who know her poems only through translation cannot fully appreciate their beauty.",
+    "stem": "Which one of the following is an assumption required by the argument?",
+    "choices": {
+      "A": "Translations of Brandt's poems are less faithful than translations of other poets' work.",
+      "B": "Fully appreciating a poem's beauty requires access to the feature in which that beauty chiefly lies.",
+      "C": "Readers who know a poem in its original language always fully appreciate its beauty.",
+      "D": "The beauty of any poem lies chiefly in its sound.",
+      "E": "Few readers of Brandt's poems know the language in which she wrote them."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "The argument concerns translation in general, not a comparison with other poets.",
+      "B": "Correct. The premises say translations lose the sound and the beauty lies in sound. To conclude that translation-only readers cannot fully appreciate it, the critic must assume you cannot fully appreciate beauty without access to what it chiefly lies in.",
+      "C": "Access to the sound might be necessary without being sufficient for full appreciation.",
+      "D": "Only Brandt's poems are at issue; the premise about sound need not apply to all poems.",
+      "E": "How many readers know the original does not affect what translation-only readers can appreciate."
+    },
+    "trapPatterns": {
+      "A": "comparison_shift",
+      "C": "necessary_v_sufficient",
+      "D": "extreme",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "Bridge the gap between 'the feature is lost' and 'appreciation is impossible' by asking what link the author needs.",
+    "predictionHint": "The author needs: appreciating beauty requires access to what the beauty chiefly lies in."
+  },
+  {
+    "id": "lr-p-na-karst-ballads",
+    "section": "LR",
+    "type": "necessary_assumption",
+    "logicTags": [
+      "causation",
+      "link_assumption"
+    ],
+    "difficulty": 4,
+    "stimulus": "Ethnomusicologist: A song can survive for centuries in oral tradition only if it is easy for ordinary singers to remember. The ballads of the Karst highlands have survived in oral tradition for more than five centuries. Therefore, these ballads must have simple melodic structures.",
+    "stem": "The argument depends on assuming which one of the following?",
+    "choices": {
+      "A": "Songs that are easy for ordinary singers to remember generally survive in oral tradition for centuries.",
+      "B": "The Karst ballads have been sung by many generations of ordinary singers.",
+      "C": "If the Karst ballads are easy to remember, then at least part of the reason is the simplicity of their melodic structures.",
+      "D": "A simple melodic structure is the only feature that can make a song easy for ordinary singers to remember.",
+      "E": "The melodic structures of the Karst ballads are simpler than those of songs that did not survive in oral tradition."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "This reverses the first premise's 'only if' and is not needed to move from survival to melody.",
+      "B": "This restates what the five-century survival already suggests and adds no link to melody.",
+      "C": "Correct. The premises show the ballads are easy to remember but not why. If their ease came entirely from other features, such as repetitive lyrics, the conclusion about melodic structure would be unsupported, so this link is required.",
+      "D": "Too strong: the argument needs melody to matter for these ballads, not to be the sole possible cause for every song.",
+      "E": "The conclusion says the ballads have simple structures, not that they are simpler than non-survivors."
+    },
+    "trapPatterns": {
+      "A": "necessary_v_sufficient",
+      "B": "premise_booster",
+      "D": "extreme",
+      "E": "comparison_shift"
+    },
+    "keyTakeaway": "Test a necessary assumption by negating it: if the negation lets the premises hold while the conclusion fails, you have the link.",
+    "predictionHint": "The ease of remembering must at least partly come from the melody."
+  },
+  {
+    "id": "lr-p-weaken-delmar-meters",
+    "section": "LR",
+    "type": "weaken",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 1,
+    "stimulus": "Merchant: Ever since the city installed parking meters on Delmar Street, my store's sales have dropped. The meters are plainly driving customers away, so the city should remove them.",
+    "stem": "Which one of the following, if true, most seriously weakens the merchant's argument?",
+    "choices": {
+      "A": "The meters on Delmar Street bring the city more revenue than the merchant's store pays in taxes.",
+      "B": "Some customers say they find it inconvenient to pay for parking.",
+      "C": "Delmar Street has fewer parking spaces than most commercial streets in the city.",
+      "D": "Sales at stores on nearby streets that have no parking meters have dropped by about the same amount over the same period.",
+      "E": "Before the meters were installed, the merchant's sales had been rising steadily."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "The city's revenue is not relevant to whether the meters caused the drop in sales.",
+      "B": "This supports the idea that meters drive customers away.",
+      "C": "Few spaces say nothing about whether the meters caused the drop in sales.",
+      "D": "Correct. If stores without meters suffered the same drop, something other than the meters, such as a wider slump, probably explains the merchant's lower sales.",
+      "E": "This makes the later drop look more tied to the meters, strengthening the argument."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "opposite",
+      "C": "true_but_irrelevant",
+      "E": "premise_booster"
+    },
+    "keyTakeaway": "To weaken a causal claim, offer an alternative cause or show the effect occurs without the supposed cause.",
+    "predictionHint": "Show the sales drop also happens where there are no meters."
+  },
+  {
+    "id": "lr-p-weaken-metronome-study",
+    "section": "LR",
+    "type": "weaken",
+    "logicTags": [
+      "causation",
+      "sampling"
+    ],
+    "difficulty": 2,
+    "stimulus": "Music teacher: A recent study of beginning students found that those who practice with a metronome learn to play rhythms more accurately than those who do not. The conservatory should therefore require every beginning student to practice with a metronome.",
+    "stem": "Which one of the following, if true, most seriously weakens the music teacher's argument?",
+    "choices": {
+      "A": "Before the study began, the students who chose to practice with a metronome already played rhythms more accurately than the other students did.",
+      "B": "Metronomes are inexpensive, and free metronome applications are widely available.",
+      "C": "Some accomplished professional musicians seldom practice with a metronome.",
+      "D": "Rhythmic accuracy is only one of several skills the conservatory teaches beginners.",
+      "E": "Conservatory faculty regard rhythmic accuracy as one of the most important beginner skills."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. If the metronome users were better at rhythm to begin with, their advantage may not come from the metronome, so requiring it of everyone may not help.",
+      "B": "Cost does not bear on whether using a metronome improves rhythmic accuracy.",
+      "C": "The argument is about beginners, so the habits of accomplished professionals do not undercut it.",
+      "D": "Other skills may matter too, but the claim concerns the effect on rhythm.",
+      "E": "This makes the goal more valuable, which supports the recommendation."
+    },
+    "trapPatterns": {
+      "B": "out_of_scope",
+      "C": "half_right",
+      "D": "true_but_irrelevant",
+      "E": "premise_booster"
+    },
+    "keyTakeaway": "Self-selection into a practice can mean the practice is the result, not the cause, of the advantage.",
+    "predictionHint": "Metronome users may have been better at rhythm before the study."
+  },
+  {
+    "id": "lr-p-weaken-valmora-fee",
+    "section": "LR",
+    "type": "weaken",
+    "logicTags": [
+      "analogy"
+    ],
+    "difficulty": 3,
+    "stimulus": "Transportation analyst: When the city of Valmora began charging drivers a fee to enter its central district, vehicle traffic there fell by eighteen percent, and measured air pollution in the district fell as well. Brenton, a similar city, should therefore expect that a similar entry fee for its central district will reduce air pollution there.",
+    "stem": "Which one of the following, if true, most seriously weakens the analyst's argument?",
+    "choices": {
+      "A": "Congestion fees have proved unpopular with voters in several cities that adopted them.",
+      "B": "The fall in traffic in Valmora was larger than the fall recorded in other cities that charge entry fees.",
+      "C": "Brenton's central district is smaller in area than Valmora's central district.",
+      "D": "Some of the drivers who stopped entering Valmora's central district switched to diesel buses.",
+      "E": "Almost none of the air pollution in Brenton's central district comes from road vehicles, whereas much of Valmora's did."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Popularity is unrelated to whether the fee would reduce pollution.",
+      "B": "Other cities do not matter; the issue is whether Brenton's pollution is similar to Valmora's in the relevant way.",
+      "C": "Size alone does not show that traffic is not a major source of pollution there.",
+      "D": "Tempting, but pollution in Valmora still fell, so this does not show that Brenton would not benefit.",
+      "E": "Correct. The analogy depends on road traffic being a main source of pollution in both cities. If it is not in Brenton, cutting traffic would barely change Brenton's pollution."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "comparison_shift",
+      "C": "true_but_irrelevant",
+      "D": "half_right"
+    },
+    "keyTakeaway": "To attack an analogy, show the two cases differ in a respect that matters to the conclusion.",
+    "predictionHint": "Pollution in Brenton may not come mainly from road traffic."
+  },
+  {
+    "id": "lr-p-resolve-hollis-bread-price",
+    "section": "LR",
+    "type": "resolve_explain",
+    "logicTags": [
+      "math_percent"
+    ],
+    "difficulty": 2,
+    "stimulus": "Last year, Hollis Bakery cut the price of its plain bread loaves by twenty percent. Over the course of the year, the number of different customers who bought bread at the bakery did not change, yet the bakery's total revenue from bread rose.",
+    "stem": "Which one of the following, if true, most helps to explain the apparent discrepancy described above?",
+    "choices": {
+      "A": "The bakery's flour supplier lowered its prices during the year.",
+      "B": "After the price cut, many customers began buying several loaves per visit and freezing the extras.",
+      "C": "Prices at the other bakeries in town stayed the same last year.",
+      "D": "Customers who bought bread at Hollis Bakery also bought pastries there.",
+      "E": "Revenue from the bakery's pastries rose slightly over the year."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Costs affect profit, not the revenue paid by customers.",
+      "B": "Correct. If the same customers bought enough more loaves, revenue could rise even at a lower price per loaf.",
+      "C": "Competitors' prices do not explain why revenue rose from the same number of customers.",
+      "D": "This says nothing about why bread revenue rose.",
+      "E": "The discrepancy concerns bread revenue, not pastry revenue."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "C": "true_but_irrelevant",
+      "D": "shell_game",
+      "E": "shell_game"
+    },
+    "keyTakeaway": "A revenue paradox is resolved by a change in quantity per customer when the customer count and price move oppositely.",
+    "predictionHint": "Same customers, lower price, higher revenue means more units per customer."
+  },
+  {
+    "id": "lr-p-resolve-marlow-pedestrian-core",
+    "section": "LR",
+    "type": "resolve_explain",
+    "logicTags": [
+      "comparison"
+    ],
+    "difficulty": 3,
+    "stimulus": "After the city of Marlow closed its downtown core to cars, the number of people visiting the core on weekdays rose noticeably, yet the combined sales of the core's retail shops fell.",
+    "stem": "Which one of the following, if true, most helps to resolve the apparent paradox?",
+    "choices": {
+      "A": "Rents for retail space in the core were unchanged by the closure.",
+      "B": "Closing downtown cores to cars in other cities has been followed by higher retail sales.",
+      "C": "Weekday visitors to the core outnumber weekend visitors.",
+      "D": "Most of the added visitors came to stroll or attend free events, whereas the shoppers who stopped coming were mostly people who had made large purchases.",
+      "E": "Restaurants in the core reported higher sales after the closure."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Rents do not explain the combination of more visitors and lower sales.",
+      "B": "This deepens the puzzle by suggesting sales should have risen.",
+      "C": "The relative size of weekday visits does not explain why sales fell.",
+      "D": "Correct. More visitors who spend little, together with the loss of big-spending shoppers, can raise foot traffic while reducing sales.",
+      "E": "The paradox concerns retail shops, and restaurant sales are a different category."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "opposite",
+      "C": "true_but_irrelevant",
+      "E": "shell_game"
+    },
+    "keyTakeaway": "Resolve a 'more people but fewer sales' puzzle by changing who is coming or how much each spends.",
+    "predictionHint": "Visitors rose but they spend little; the big spenders left."
+  },
+  {
+    "id": "lr-p-strengthen-eastgate-story-hour",
+    "section": "LR",
+    "type": "strengthen",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 1,
+    "stimulus": "Librarian: Since the Eastgate branch library began offering a Saturday story hour, the number of children's books checked out there on Saturdays has risen. The story hour is clearly the reason more children's books are being borrowed.",
+    "stem": "Which one of the following, if true, most strengthens the librarian's argument?",
+    "choices": {
+      "A": "Parents say that the story hour is popular with the children who attend it.",
+      "B": "Eastgate has a larger children's collection than the library's other branches.",
+      "C": "At the library's other branches, which offer no story hour, Saturday checkouts of children's books did not rise over the same period.",
+      "D": "Many children who attend the story hour already owned library cards.",
+      "E": "Saturday checkouts of adult books at Eastgate rose as well."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Popularity does not show that the story hour led to more borrowing.",
+      "B": "A bigger collection is a different potential explanation and does not link the rise to the story hour.",
+      "C": "Correct. If checkouts rose only where the story hour was introduced, that supports the story hour as the cause rather than some system-wide trend.",
+      "D": "Card ownership does not connect the story hour to increased checkouts.",
+      "E": "A rise in all kinds of books suggests a general cause, which weakens the claim."
+    },
+    "trapPatterns": {
+      "A": "true_but_irrelevant",
+      "B": "comparison_shift",
+      "D": "out_of_scope",
+      "E": "opposite"
+    },
+    "keyTakeaway": "Strengthen a cause claim by ruling out alternative causes, for example with a comparison group that lacks the cause.",
+    "predictionHint": "A control group without the story hour shows no rise."
+  },
+  {
+    "id": "lr-p-strengthen-flat-fee-accountants",
+    "section": "LR",
+    "type": "strengthen",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 2,
+    "stimulus": "Business writer: Among the small accounting firms in this region, those that charge clients a flat monthly fee have added clients faster than those that bill by the hour. Flat monthly pricing is clearly what attracts clients.",
+    "stem": "Which one of the following, if true, most strengthens the business writer's argument?",
+    "choices": {
+      "A": "Several firms that switched from hourly billing to flat monthly fees began adding clients faster than they had before the switch.",
+      "B": "Flat-fee firms in the region tend to be newer than hourly-billing firms.",
+      "C": "Some hourly-billing firms in the region have added clients quickly.",
+      "D": "Most clients of flat-fee firms say they also hire a second accountant.",
+      "E": "Flat monthly fees are more common among accounting firms in other regions."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. Growth speeding up after the change, within the same firms, supports flat pricing as the cause rather than some pre-existing difference between types of firms.",
+      "B": "Newer firms may grow faster for reasons unrelated to pricing, which weakens the argument.",
+      "C": "Exceptions to a general tendency do not support the claim that flat pricing is the cause.",
+      "D": "This says nothing about why clients are attracted to flat-fee firms.",
+      "E": "What happens in other regions does not show what attracts clients here."
+    },
+    "trapPatterns": {
+      "B": "opposite",
+      "C": "half_right",
+      "D": "out_of_scope",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "Within-subject change before and after the supposed cause is stronger evidence than a cross-sectional correlation.",
+    "predictionHint": "Firms that switched to flat fees then grew faster."
+  },
+  {
+    "id": "lr-p-psa-millrace-road-name",
+    "section": "LR",
+    "type": "pseudo_sufficient_assumption",
+    "logicTags": [
+      "value_judgment"
+    ],
+    "difficulty": 3,
+    "stimulus": "Historical society president: The county should not rename Millrace Road, even though the mill after which it was named closed a century ago. Residents have given directions using that name for generations, and many of the county's oldest deeds refer to it.",
+    "stem": "Which one of the following principles, if valid, most helps to justify the historical society president's reasoning?",
+    "choices": {
+      "A": "Roads should be named only for things that currently exist in the area they serve.",
+      "B": "Public roads should be renamed only with the approval of a majority of the area's residents.",
+      "C": "A name should be changed whenever a more fitting name is available.",
+      "D": "Whatever is historically significant should be preserved no matter what the cost.",
+      "E": "A name that has long been used in directions and official records should not be replaced merely because what it commemorates no longer exists."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "This would favor renaming the road, since the mill no longer exists.",
+      "B": "Approval procedures are not at issue in the president's reasoning.",
+      "C": "This favors renaming and says nothing about the value of long-standing use.",
+      "D": "The president never claims the road has historical significance beyond long use, and 'no matter what the cost' goes beyond the passage.",
+      "E": "Correct. This applies directly: Millrace Road's name has long been used in directions and deeds, and the only reason to change it is that the mill is gone."
+    },
+    "trapPatterns": {
+      "A": "opposite",
+      "B": "out_of_scope",
+      "C": "comparison_shift",
+      "D": "extreme"
+    },
+    "keyTakeaway": "Match the principle to the stated reasons: it should link the cited facts to the recommendation in the same direction.",
+    "predictionHint": "Long-standing use outweighs the loss of the original referent."
+  },
+  {
+    "id": "lr-p-psa-aldric-memoir",
+    "section": "LR",
+    "type": "pseudo_sufficient_assumption",
+    "logicTags": [
+      "conditional",
+      "definition_scope"
+    ],
+    "difficulty": 4,
+    "stimulus": "Editor: Our press should not publish Tomas Aldric's memoir. The prose is excellent, but several of the memoir's central anecdotes cannot be independently verified.",
+    "stem": "Which one of the following principles, if valid, most helps to justify the editor's reasoning?",
+    "choices": {
+      "A": "A press ought not to publish a memoir if most of its anecdotes cannot be independently verified.",
+      "B": "A press ought not to publish a memoir if any of its central anecdotes cannot be independently verified, however well written the memoir is.",
+      "C": "A press ought to publish a memoir only if its prose is excellent.",
+      "D": "A press ought to publish a memoir if its central anecdotes can be independently verified.",
+      "E": "A press ought not to publish a memoir if it is probable that some of its central anecdotes are false."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "'Several' central anecdotes need not be 'most' of the anecdotes, so the condition is not shown to be met.",
+      "B": "Correct. 'Any' covers the several unverifiable central anecdotes, and 'however well written' disposes of the excellent prose, so the principle yields the editor's verdict.",
+      "C": "The prose is excellent, so this condition is satisfied and cannot justify declining.",
+      "D": "This gives a sufficient condition for publishing; it says nothing about memoirs whose anecdotes cannot be verified.",
+      "E": "The editor says the anecdotes cannot be verified, not that they are probably false."
+    },
+    "trapPatterns": {
+      "A": "wrong_force",
+      "C": "true_but_irrelevant",
+      "D": "reversal",
+      "E": "shell_game"
+    },
+    "keyTakeaway": "When a principle choice turns on quantity words, check that the quantity in the principle is met by the facts in the argument.",
+    "predictionHint": "Need: any unverifiable central anecdote is enough to decline."
+  },
+  {
+    "id": "lr-p-sa-millbrook-studio-grant",
+    "section": "LR",
+    "type": "sufficient_assumption",
+    "logicTags": [
+      "conditional"
+    ],
+    "difficulty": 2,
+    "stimulus": "Consultant: The Millbrook dance studio will qualify for the arts grant only if it increases its enrollment this year. Since the studio's marketing budget will not be increased this year, it will not qualify for the grant.",
+    "stem": "The conclusion follows logically if which one of the following is assumed?",
+    "choices": {
+      "A": "Increasing a studio's marketing budget always raises its enrollment.",
+      "B": "The studio will qualify for the grant if it increases its marketing budget this year.",
+      "C": "Enrollment at the studio has declined in each of the past three years.",
+      "D": "The studio will increase its enrollment this year only if its marketing budget is increased this year.",
+      "E": "The studio's marketing budget is the only factor the grant committee considers."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "This makes marketing sufficient for enrollment, but the chain needs marketing to be necessary for it.",
+      "B": "This reverses the direction of the needed link and does not rule out qualifying without a marketing increase.",
+      "C": "Past enrollment trends do not establish a link between marketing and enrollment.",
+      "D": "Correct. Qualifying requires more enrollment, and more enrollment requires more marketing. With no marketing increase, the chain breaks and the studio cannot qualify.",
+      "E": "The committee's criteria are not at issue, and this is stronger than the argument requires."
+    },
+    "trapPatterns": {
+      "A": "necessary_v_sufficient",
+      "B": "reversal",
+      "C": "out_of_scope",
+      "E": "extreme"
+    },
+    "keyTakeaway": "To close a chain of conditionals, supply the missing link in the correct direction, often a contrapositive.",
+    "predictionHint": "Need: enrollment increase only if marketing increase."
+  },
+  {
+    "id": "lr-p-sa-board-minutes-disputes",
+    "section": "LR",
+    "type": "sufficient_assumption",
+    "logicTags": [
+      "conditional",
+      "eliminating_options"
+    ],
+    "difficulty": 4,
+    "stimulus": "Secretary: Every dispute brought before the board last year was settled either by mediation or by a vote of the board. No dispute settled by mediation was recorded in the board's minutes. Therefore, every dispute recorded in the board's minutes was settled by a vote of the board.",
+    "stem": "The conclusion follows logically if which one of the following is assumed?",
+    "choices": {
+      "A": "Every dispute brought before the board last year is recorded in the board's minutes.",
+      "B": "No dispute settled by a vote of the board was also settled by mediation.",
+      "C": "Any dispute that was not brought before the board last year is absent from the board's minutes.",
+      "D": "Any dispute brought before the board last year but not settled by a vote is absent from the minutes.",
+      "E": "Every dispute settled by a vote of the board is recorded in the board's minutes."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "This reverses the needed link: it makes 'brought before the board' sufficient for being recorded, not necessary.",
+      "B": "This is consistent with the premises but does not connect the recorded disputes to the board.",
+      "C": "Correct. This says every recorded dispute was brought before the board. Such a dispute was settled by mediation or by vote, and mediation cases are not recorded, so it was settled by vote.",
+      "D": "This already follows from the premises, so it adds nothing; recorded disputes that never reached the board are still uncovered.",
+      "E": "This reverses the conclusion rather than supporting it."
+    },
+    "trapPatterns": {
+      "A": "necessary_v_sufficient",
+      "B": "true_but_irrelevant",
+      "D": "half_right",
+      "E": "reversal"
+    },
+    "keyTakeaway": "When premises use 'either/or' plus a negative conditional, the missing link usually places the conclusion's subject inside the first premise's scope.",
+    "predictionHint": "Need: recorded implies brought before the board."
+  },
+  {
+    "id": "lr-p-main-quill-crosswalk",
+    "section": "LR",
+    "type": "main_conclusion",
+    "logicTags": [],
+    "difficulty": 1,
+    "stimulus": "Traffic engineer: Three pedestrians were struck last year while crossing Quill Street in the middle of a block, where the nearest crosswalks are six hundred meters apart. People will not walk several hundred meters out of their way to cross a street. Therefore, the city should add a mid-block crosswalk on Quill Street, which would cost little compared with the human cost of another injury.",
+    "stem": "Which one of the following most accurately expresses the main conclusion of the argument?",
+    "choices": {
+      "A": "The city should add a mid-block crosswalk on Quill Street.",
+      "B": "Three pedestrians were struck last year while crossing Quill Street mid-block.",
+      "C": "People will not walk several hundred meters out of their way to cross a street.",
+      "D": "Adding a crosswalk would cost little compared with the human cost of another injury.",
+      "E": "A crosswalk on Quill Street would prevent all pedestrian injuries there."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. The engineer introduces this with 'therefore', and the other statements are reasons offered for it.",
+      "B": "This is a fact offered in support of the recommendation.",
+      "C": "This is a premise explaining why pedestrians cross mid-block.",
+      "D": "This is an additional reason for the recommendation, not the recommendation itself.",
+      "E": "The engineer never claims a crosswalk would prevent all injuries."
+    },
+    "trapPatterns": {
+      "B": "premise_booster",
+      "C": "wrong_part",
+      "D": "shell_game",
+      "E": "extreme"
+    },
+    "keyTakeaway": "The main conclusion is the claim the rest of the passage is there to support; look for the 'therefore' and the recommendation.",
+    "predictionHint": "The recommendation after 'therefore' is the conclusion."
+  },
+  {
+    "id": "lr-p-main-ostrow-stories",
+    "section": "LR",
+    "type": "main_conclusion",
+    "logicTags": [],
+    "difficulty": 2,
+    "stimulus": "Literary scholar: Some critics dismiss the early stories of Marguerite Ostrow as mere apprenticeship work. But the stories already display the themes of her mature novels, and they first appeared in the most prestigious journals of their day. Thus, the stories deserve a place in the standard edition of her works.",
+    "stem": "Which one of the following most accurately expresses the main conclusion of the argument?",
+    "choices": {
+      "A": "Ostrow's early stories already display the themes of her mature novels.",
+      "B": "Ostrow's early stories first appeared in the most prestigious journals of their day.",
+      "C": "Apprenticeship work does not deserve a place in a standard edition of an author's works.",
+      "D": "Some critics dismiss Ostrow's early stories as mere apprenticeship work.",
+      "E": "Ostrow's early stories deserve a place in the standard edition of her works."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "This is a premise that supports the final claim.",
+      "B": "This is another premise, not the point the scholar is trying to establish.",
+      "C": "The scholar rejects the idea that the stories are mere apprenticeship work, and never states this principle.",
+      "D": "This is the view the scholar opposes, introduced as background to the argument.",
+      "E": "Correct. The word 'thus' marks the final claim, which the points about themes and journals are meant to support."
+    },
+    "trapPatterns": {
+      "A": "premise_booster",
+      "B": "wrong_part",
+      "C": "opposite",
+      "D": "half_right"
+    },
+    "keyTakeaway": "Treat a concession or opposing view as background; the conclusion is the claim the author finally argues for.",
+    "predictionHint": "'Thus' marks the claim about the standard edition."
+  },
+  {
+    "id": "lr-p-part-ferry-schedule",
+    "section": "LR",
+    "type": "argument_part",
+    "logicTags": [],
+    "difficulty": 1,
+    "stimulus": "Dock manager: The ferry company claims that its new schedule will reduce crowding at the terminal. But the new schedule places three departures within ten minutes of one another, which will pack passengers into the waiting hall at the same moment. So the ferry company's claim is wrong.",
+    "stem": "The claim that the new ferry schedule will reduce crowding at the terminal plays which one of the following roles in the argument?",
+    "choices": {
+      "A": "It is the main conclusion of the argument.",
+      "B": "It is a position that the argument seeks to refute.",
+      "C": "It is a premise offered in support of the conclusion that departures should be spaced out.",
+      "D": "It is evidence cited to support a conclusion about the waiting hall.",
+      "E": "It is a general principle that the argument applies to a particular case."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "The argument's own conclusion is that the ferry company's claim is wrong.",
+      "B": "Correct. The dock manager cites it as the ferry company's claim and then argues it is wrong.",
+      "C": "The argument draws no conclusion about spacing departures.",
+      "D": "The claim is the target of criticism, not evidence for anything.",
+      "E": "The claim concerns one specific schedule and is not a general principle."
+    },
+    "trapPatterns": {
+      "A": "wrong_part",
+      "C": "out_of_scope",
+      "D": "premise_booster",
+      "E": "shell_game"
+    },
+    "keyTakeaway": "A claim introduced with 'X claims' and then challenged is a position under attack.",
+    "predictionHint": "The ferry company's claim is the thing being refuted."
+  },
+  {
+    "id": "lr-p-part-vacancy-tax-unjust",
+    "section": "LR",
+    "type": "argument_part",
+    "logicTags": [],
+    "difficulty": 3,
+    "stimulus": "Economist: A tax on vacant storefronts would punish owners who cannot find tenants through no fault of their own, and a tax that punishes people for circumstances beyond their control is unjust. Such a tax would therefore be unjust. But no city should adopt an unjust tax. Consequently, the city should not impose a vacancy tax on storefronts.",
+    "stem": "The claim that a tax on vacant storefronts would be unjust plays which one of the following roles in the argument?",
+    "choices": {
+      "A": "It is the final conclusion of the argument.",
+      "B": "It is a general principle from which the argument's other claims are derived.",
+      "C": "It is a premise that the argument offers without any support.",
+      "D": "It is a conclusion supported by other claims in the argument and is itself used to support the argument's final conclusion.",
+      "E": "It is a position that the economist considers and then rejects."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "The final conclusion, marked by 'consequently,' is that the city should not impose the tax.",
+      "B": "The general principle is the claim that taxes punishing people for circumstances beyond their control are unjust.",
+      "C": "It is used as a premise for the final conclusion but is supported by earlier claims.",
+      "D": "Correct. It follows from the first sentence ('therefore') and then, together with 'no city should adopt an unjust tax,' supports the final conclusion.",
+      "E": "The economist endorses this claim."
+    },
+    "trapPatterns": {
+      "A": "wrong_part",
+      "B": "shell_game",
+      "C": "half_right",
+      "E": "opposite"
+    },
+    "keyTakeaway": "A claim that both follows from earlier claims and feeds a later one is an intermediate conclusion.",
+    "predictionHint": "It is supported by the first sentence and supports the last."
+  },
+  {
+    "id": "lr-p-pflaw-pier-street-ratings",
+    "section": "LR",
+    "type": "parallel_flaw",
+    "logicTags": [
+      "quantifiers"
+    ],
+    "difficulty": 4,
+    "stimulus": "Every restaurant that earned the city's top rating was inspected twice last year. Some of the restaurants on Pier Street were inspected twice last year. Therefore, some of the restaurants on Pier Street earned the city's top rating.",
+    "stem": "The flawed reasoning in which one of the following is most similar to that in the argument above?",
+    "choices": {
+      "A": "All of the members of the committee are tenured. Some of the people at the hearing are committee members. Therefore, some of the people at the hearing are tenured.",
+      "B": "Every sonnet in the collection is rhymed. Some of the poems Imogen admires are rhymed. So all of the poems Imogen admires are sonnets in the collection.",
+      "C": "All of the cafes in the arcade accept cards. Some of the businesses that opened this year accept cards. So some of the businesses that opened this year are cafes in the arcade.",
+      "D": "All of the volunteers have been trained. Some of the people on the roster have not been trained. Therefore, some of the people on the roster are not volunteers.",
+      "E": "Some of the dancers in the company are left-handed. All left-handed performers receive a special costume. So some of the dancers in the company receive a special costume."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "This looks similar but is valid: it moves from the group (committee) to the feature, not from the feature back to the group.",
+      "B": "This has the same flaw but concludes 'all' rather than 'some', so its conclusion is stronger than the original's.",
+      "C": "Correct. It has the same form: all A are B; some C are B; therefore some C are A. This infers membership in a subgroup from a shared feature that every member of the subgroup has.",
+      "D": "This is a valid contrapositive-style inference, not a flawed one.",
+      "E": "This is valid: the shared feature is passed on to the dancers, not used to infer membership."
+    },
+    "trapPatterns": {
+      "A": "shell_game",
+      "B": "extreme",
+      "D": "reversal",
+      "E": "wrong_part"
+    },
+    "keyTakeaway": "Strip each argument to letters (All A are B; some C are B; so some C are A) and match both the form and the strength of the conclusion.",
+    "predictionHint": "All A are B, some C are B, so some C are A."
+  },
+  {
+    "id": "lr-p-pmethod-hum-elimination",
+    "section": "LR",
+    "type": "parallel_method",
+    "logicTags": [
+      "eliminating_options"
+    ],
+    "difficulty": 3,
+    "stimulus": "Sound engineer: The hum during the rehearsal was caused by a faulty cable, a failing amplifier, or electrical interference from the stage lights. The cable was replaced, and the hum continued. The amplifier was swapped for a spare, and the hum continued. So the hum was caused by interference from the stage lights.",
+    "stem": "The pattern of reasoning in which one of the following is most similar to that in the argument above?",
+    "choices": {
+      "A": "The drop in attendance was caused by the ticket price, the schedule change, or the weather. Lowering the price did not restore attendance. Restoring the old schedule did not restore attendance. So the weather caused the drop.",
+      "B": "The leak came from the roof, the pipes, or the window frame. The roof was repaired and the leak stopped. So the leak came from the roof.",
+      "C": "If the drop in attendance was caused by the ticket price, lowering the price would have restored attendance. It did not. So the price did not cause the drop.",
+      "D": "The drop in attendance was caused by the ticket price, the schedule change, or the weather. Lowering the price did not restore attendance. So the drop was caused by the schedule change or the weather.",
+      "E": "Attendance fell each time tickets were expensive and rose each time they were cheap. So ticket price affects attendance."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. It lists three possible causes, eliminates two by showing the effect persisted when each was removed, and concludes the third is the cause.",
+      "B": "This confirms one cause by a single successful fix instead of eliminating alternatives.",
+      "C": "This is a single modus tollens inference that eliminates one cause and concludes nothing about another.",
+      "D": "This eliminates only one of three causes and reaches a conclusion that still leaves two possibilities.",
+      "E": "This infers a cause from a correlation rather than eliminating alternatives."
+    },
+    "trapPatterns": {
+      "B": "wrong_part",
+      "C": "reversal",
+      "D": "half_right",
+      "E": "shell_game"
+    },
+    "keyTakeaway": "For method questions, describe each argument's moves in order and match the number of alternatives and how they are handled.",
+    "predictionHint": "Three causes, two eliminated by removal tests, third concluded."
+  },
+  {
+    "id": "lr-p-point-least-used-routes",
+    "section": "LR",
+    "type": "point_at_issue",
+    "logicTags": [],
+    "difficulty": 2,
+    "stimulus": "Planner: The transit authority should cut its least-used bus routes. Each of them costs more per rider than any other service, and the money saved could fund more frequent service on busy lines.\nDale: Those routes do cost more per rider. But a transit authority's first duty is to riders who have no other way to travel, and the least-used routes are where such riders are concentrated.",
+    "stem": "The planner and Dale disagree over whether",
+    "choices": {
+      "A": "the least-used bus routes cost more per rider than other services",
+      "B": "a transit authority has a duty to serve riders who have no other way to travel",
+      "C": "money saved by cutting routes could fund more frequent service on busy lines",
+      "D": "cost per rider should be the only consideration in deciding which routes to cut",
+      "E": "the transit authority should cut its least-used bus routes"
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Dale explicitly grants this, so the two do not disagree about it.",
+      "B": "The planner never addresses this duty, so we cannot say the planner rejects it.",
+      "C": "Dale does not comment on how savings could be spent.",
+      "D": "The planner also cites funding busy lines and never says cost is the only consideration.",
+      "E": "Correct. The planner says the routes should be cut; Dale, by saying the authority's first duty is to riders on those routes, implies they should not."
+    },
+    "trapPatterns": {
+      "A": "half_right",
+      "B": "out_of_scope",
+      "C": "out_of_scope",
+      "D": "extreme"
+    },
+    "keyTakeaway": "A point at issue is a claim one speaker affirms and the other rejects or implicitly denies; check both sides address it.",
+    "predictionHint": "They disagree about whether the routes should be cut."
+  },
+  {
+    "id": "lr-p-mbt-hartley-stall",
+    "section": "LR",
+    "type": "must_be_true",
+    "logicTags": [
+      "conditional"
+    ],
+    "difficulty": 1,
+    "stimulus": "Every stall at the Saturday market that sells cheese also sells bread. No stall that sells bread accepts only cash. The Hartley stall, which operates at the Saturday market, sells cheese.",
+    "stem": "If the statements above are true, which one of the following must also be true?",
+    "choices": {
+      "A": "The Hartley stall sells nothing except cheese and bread.",
+      "B": "The Hartley stall accepts some form of payment other than cash.",
+      "C": "Every stall that accepts a form of payment other than cash sells bread.",
+      "D": "Most of the stalls at the Saturday market sell cheese.",
+      "E": "The Hartley stall sells more bread than cheese."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "The statements allow the stall to sell other items too.",
+      "B": "Correct. The Hartley stall sells cheese, so it sells bread, and no bread stall accepts only cash.",
+      "C": "The statements restrict bread stalls, not stalls that take other payment.",
+      "D": "No proportions of cheese stalls are given.",
+      "E": "The statements say nothing about quantities sold."
+    },
+    "trapPatterns": {
+      "A": "extreme",
+      "C": "reversal",
+      "D": "out_of_scope",
+      "E": "comparison_shift"
+    },
+    "keyTakeaway": "Chain the conditionals in order: cheese leads to bread, and bread leads to not cash-only.",
+    "predictionHint": "Cheese implies bread implies accepts other than cash."
+  },
+  {
+    "id": "lr-p-fill-harlan-bike-lanes",
+    "section": "LR",
+    "type": "fill_in_blank",
+    "logicTags": [
+      "conditional"
+    ],
+    "difficulty": 2,
+    "stimulus": "Urban planner: Cities that paint bicycle lanes on a roadway with no physical barrier between the lane and passing cars have seen little increase in cycling afterward, whereas cities that separate lanes from cars with curbs or posts have seen large increases. The new lanes on Harlan Avenue are marked only with paint. Therefore, ____.",
+    "stem": "Which one of the following most logically completes the argument?",
+    "choices": {
+      "A": "the city should replace the paint on Harlan Avenue with curbs or posts",
+      "B": "cycling on Harlan Avenue will decline once the new lanes open",
+      "C": "cities that separate lanes from cars with curbs or posts spend more per kilometer of lane",
+      "D": "the new lanes on Harlan Avenue are unlikely to produce a large increase in cycling",
+      "E": "the new lanes on Harlan Avenue will not produce any increase in cycling"
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "A recommendation goes beyond the predictive claim; costs and goals are not discussed.",
+      "B": "The evidence is of little increase, not a decline.",
+      "C": "Cost is not discussed in the passage.",
+      "D": "Correct. Painted-only lanes have been followed by little increase elsewhere, so a large increase on Harlan Avenue is unlikely.",
+      "E": "'Little increase' does not mean 'no increase,' so this overstates the evidence."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "extreme",
+      "C": "out_of_scope",
+      "E": "wrong_force"
+    },
+    "keyTakeaway": "A fill-in-the-blank conclusion should match the strength of the premises, no stronger.",
+    "predictionHint": "Painted-only lanes bring little increase, so expect little on Harlan Avenue."
+  },
+  {
+    "id": "lr-p-method-snow-frontage",
+    "section": "LR",
+    "type": "method_of_reasoning",
+    "logicTags": [
+      "analogy"
+    ],
+    "difficulty": 1,
+    "stimulus": "Neighborhood association chair: A shop owner is expected to clear the snow from the sidewalk in front of the shop, because the sidewalk is the owner's frontage and its condition affects customers. An apartment-building owner's frontage likewise affects residents and visitors. So the owner of an apartment building should be expected to clear snow from the sidewalk in front of the building.",
+    "stem": "The argument proceeds by",
+    "choices": {
+      "A": "citing a general principle and then showing that it has a counterexample",
+      "B": "showing that a proposed policy would have consequences its supporters oppose",
+      "C": "drawing a comparison between two kinds of property owners and concluding that an obligation that applies to one applies to the other",
+      "D": "eliminating alternative explanations for an observed pattern",
+      "E": "challenging the qualifications of those who oppose the expectation"
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "No counterexample to any principle is offered.",
+      "B": "The chair does not discuss consequences that supporters would reject.",
+      "C": "Correct. The chair points out the similar relevant feature (frontage affecting people) and extends the shop owner's obligation to the building owner.",
+      "D": "No pattern or alternative explanations are considered.",
+      "E": "No opponents are mentioned."
+    },
+    "trapPatterns": {
+      "A": "wrong_part",
+      "B": "out_of_scope",
+      "D": "shell_game",
+      "E": "wrong_force"
+    },
+    "keyTakeaway": "When the argument says 'likewise,' look for an analogy between two cases and a transfer of a conclusion.",
+    "predictionHint": "Analogy from shop owner to apartment owner."
+  }
+]
