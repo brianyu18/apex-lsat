@@ -14,7 +14,7 @@
       "B": "overlooks the possibility that sites near streams differ in some other respect, such as food supply, that accounts for the greater success",
       "C": "relies on a comparison of average figures instead of the number of chicks fledged from each individual box",
       "D": "assumes that the number of chicks fledged is the only measure of a nesting site's value to the birds",
-      "E": "concludes that proximity to a stream is necessary for fledging chicks from evidence that the two are merely associated"
+      "E": "concludes that proximity to a stream is necessary for fledging chicks from evidence that the two are merely associated across the sites in the study"
     },
     "answer": "B",
     "explanations": {
@@ -46,7 +46,7 @@
       "B": "fails to define what it means for news coverage to be sensational before assessing the report",
       "C": "relies on a report that examines only a single decade of local television news programming",
       "D": "rejects a claim because of its author's background rather than on the merits of the evidence offered for it",
-      "E": "treats the report's conclusion as false merely because the critic has not been given any evidence for it"
+      "E": "treats the report's conclusion as false merely because the critic has not been shown any evidence for it by anyone who has examined the data"
     },
     "answer": "D",
     "explanations": {
@@ -110,7 +110,7 @@
     "stimulus": "Physiologist: Laboratory mice fed Diet X lived, on average, fifteen percent longer than mice fed the standard diet. Diet X contains Compound Z among its other ingredients. But when mice were fed standard food supplemented with Compound Z alone, they lived no longer than the standard-diet mice. Thus Compound Z plays no part in the longer lives of the mice fed Diet X.",
     "stem": "The argument is most vulnerable to criticism on the grounds that it",
     "choices": {
-      "A": "fails to consider that the mice fed the standard diet may themselves have been unusually short-lived",
+      "A": "fails to consider that the mice fed the standard diet may themselves have been unusually short-lived compared with other mice of their kind",
       "B": "draws a conclusion about all mammals from an experiment conducted on a single species of mouse",
       "C": "assumes that a diet's effect on lifespan must be traceable to a single ingredient",
       "D": "does not rule out that an ingredient other than Compound Z also contributes to the longer lives",
@@ -214,7 +214,7 @@
     "stem": "Which one of the following, if true, most seriously weakens the argument?",
     "choices": {
       "A": "Reflectors cost less to install than the fences that are sometimes used to keep deer off roads.",
-      "B": "Some deer-vehicle collisions on Route 12 occurred during the trial on stretches that had no reflectors.",
+      "B": "Some deer-vehicle collisions on Route 12 occurred during the trial on stretches of that road that had no reflectors installed along them.",
       "C": "Nearly all of the deer-vehicle collisions on Route 9 occur in daylight, when the reflectors would not be flashing.",
       "D": "The number of deer-vehicle collisions on Route 9 has risen steadily over the past decade.",
       "E": "The trial on Route 12 was supervised by officials who had advocated the use of reflectors."
@@ -244,12 +244,12 @@
       "analogy",
       "sampling"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "stimulus": "Immunologist: In a controlled trial, zebrafish given a new adjuvant alongside a vaccine produced markedly more antibodies than zebrafish given the vaccine alone. The adjuvant works by enhancing a particular signaling response, and zebrafish share the basic features of the immune systems of other vertebrates. We can therefore conclude that the adjuvant will boost antibody production in humans as well.",
     "stem": "Which one of the following, if true, most seriously weakens the immunologist's argument?",
     "choices": {
       "A": "In humans, antibody production depends on a signaling response that differs from the one the adjuvant enhances.",
-      "B": "The zebrafish used in the trial had been bred in laboratory conditions for many generations.",
+      "B": "The zebrafish used in the trial had been bred in laboratory conditions for many generations before the trial began.",
       "C": "Antibody production is only one of several measures of how effective a vaccine is.",
       "D": "The trial included fewer than fifty zebrafish in each of its two groups.",
       "E": "Several vaccines now in use in humans were first tested on zebrafish."
@@ -385,7 +385,7 @@
     "stimulus": "Student newspaper editor: The Campus Ledger should stop printing and move entirely online. Printing costs $9,000 a year, nearly a third of our budget, and eliminating that expense would leave us with far more money to spend on reporting.",
     "stem": "The editor's argument depends on assuming which one of the following?",
     "choices": {
-      "A": "Most students at the university would prefer to read the Ledger online.",
+      "A": "Most students at the university would prefer to read the Ledger online rather than pick up a printed copy on campus.",
       "B": "Some other student newspapers have already moved entirely online.",
       "C": "Moving online would not cost the Ledger revenue comparable to what printing now costs.",
       "D": "The Ledger's printing costs will not rise in the coming years.",
@@ -424,7 +424,7 @@
       "B": "Wolves prey on elk more heavily than on any other animal in the valley.",
       "C": "Elk eat no food other than willows.",
       "D": "The elk population in the valley has declined since the wolves arrived.",
-      "E": "Wolves have not been reintroduced to other valleys in which willows failed to recover."
+      "E": "Wolves have not been reintroduced to other valleys in which the willows along the rivers failed to recover afterward."
     },
     "answer": "A",
     "explanations": {
@@ -491,7 +491,7 @@
     "choices": {
       "A": "Nearly all of the Ledger's online readers were print subscribers before the change.",
       "B": "The Ledger's operating costs fell after it stopped printing the paper.",
-      "C": "Online articles at the Ledger are, on average, shorter than the printed versions were.",
+      "C": "Online articles at the Ledger are, on average, shorter than the printed versions were, and most readers finish them more quickly than they finished printed ones.",
       "D": "Advertisers pay far less for each online advertisement view than they paid for each printed advertisement seen by a reader.",
       "E": "Several of the Ledger's competitors also moved to online-only formats."
     },
@@ -523,7 +523,7 @@
     "stimulus": "A sanctuary houses two groups of tortoises of one long-lived species. Group 1 is fed a single kind of grass; Group 2 is fed a varied diet of many plants. Keepers know that varied diets are associated with longer lives in many animals. Yet over the past thirty years, the tortoises in Group 2 have had a shorter average lifespan than those in Group 1.",
     "stem": "Which one of the following, if true, most helps to explain the apparent discrepancy?",
     "choices": {
-      "A": "Many animal species live longer on varied diets than on monotonous ones.",
+      "A": "Many animal species, including a number of reptiles, live longer on varied diets than they do on monotonous diets over many years of captivity.",
       "B": "Tortoises that arrive at the sanctuary in poor health are placed in Group 2, because their condition calls for a varied diet.",
       "C": "Both groups are given the same quantity of food each day.",
       "D": "Tortoises living in the wild eat a variety of plants.",
@@ -591,7 +591,7 @@
     "stimulus": "Paleontologist: The fossilized beaks of Tarnia, an extinct bird, are short and unusually thick. Among living birds, species with short, thick beaks typically feed mainly by cracking seeds. Therefore, Tarnia probably fed mainly on seeds.",
     "stem": "Which one of the following, if true, most strengthens the paleontologist's argument?",
     "choices": {
-      "A": "A few living species that have short, thick beaks also eat insects when seeds are scarce.",
+      "A": "A few living species that have short, thick beaks also eat insects when seeds are scarce during the dry season, and some of them also take nectar.",
       "B": "Fossils of Tarnia have so far been found in only one region of the world.",
       "C": "The relationship between beak shape and feeding method in birds has stayed essentially the same since the time Tarnia lived.",
       "D": "Many fossil bird species with long, thin beaks lived alongside Tarnia.",
@@ -630,7 +630,7 @@
       "B": "Faculty members should be named department chair in order of seniority.",
       "C": "A faculty member who has missed some meetings should not be allowed to vote on department matters.",
       "D": "A faculty member who has repeatedly failed to meet an obligation required by the department should not be given added responsibility within it.",
-      "E": "A faculty member who has met every obligation required by the department should be named department chair."
+      "E": "A faculty member who has met every obligation required by the department should be named department chair whenever that position falls vacant."
     },
     "answer": "D",
     "explanations": {
@@ -662,7 +662,7 @@
     "choices": {
       "A": "It is wrong to publish a photograph of private individuals in distress without their consent, even when publication serves a worthy public purpose.",
       "B": "A photograph should be published only if it draws public attention to an important event.",
-      "C": "Publishers should weigh the benefits of publishing a photograph against the distress it may cause its subjects.",
+      "C": "Publishers should weigh the benefits of publishing a photograph against the distress it may cause its subjects before they decide in each case whether to print it.",
       "D": "Magazines should always try to obtain the permission of the people who appear in their photographs.",
       "E": "Whether it is wrong to publish an image depends on how many people are likely to see it."
     },
@@ -765,7 +765,7 @@
       "B": "Giraffes sleep very little.",
       "C": "The carousel and the food court are the loudest parts of the zoo.",
       "D": "Giraffes are easily startled by sudden noise.",
-      "E": "The zoo should find ways to reduce noise from the carousel and the food court."
+      "E": "The zoo should find ways to reduce the noise from the carousel and the food court during the hours when it is open."
     },
     "answer": "A",
     "explanations": {
@@ -795,7 +795,7 @@
     "choices": {
       "A": "Many viewers demand that documentary films be strictly neutral.",
       "B": "No documentary can be strictly neutral.",
-      "C": "Every documentary is built from choices about what to film, whom to interview, and what to omit.",
+      "C": "Every documentary is built from choices about what to film, whom to interview, and what to omit from the finished version of the film.",
       "D": "Viewers who demand strict neutrality from documentaries are asking for something that no documentary can provide.",
       "E": "Documentary filmmakers should avoid making judgments about what to include."
     },
@@ -830,7 +830,7 @@
       "A": "It is the main conclusion of the argument.",
       "B": "It is evidence for a claim that rules out one explanation, thereby supporting the argument's conclusion.",
       "C": "It is an explanation of the die-off that the argument goes on to reject.",
-      "D": "It is a fact that the argument concedes but then argues is irrelevant to the cause of the die-off.",
+      "D": "It is a fact that the argument concedes but then argues is irrelevant to the cause of the die-off in the reserve.",
       "E": "It is a conclusion drawn from the claim that disease is the only other plausible factor."
     },
     "answer": "B",
@@ -933,7 +933,7 @@
       "A": "the Tribune's decision to publish the memo was sound",
       "B": "the memo's warnings about the dam proved to be accurate",
       "C": "the later accuracy of what was published can establish that a decision to publish it was sound",
-      "D": "newspapers should ever publish leaked documents that they have not confirmed",
+      "D": "newspapers should ever publish leaked documents that they have not been able to confirm before the paper goes to print",
       "E": "the Tribune could have confirmed the memo before it was printed"
     },
     "answer": "C",
@@ -966,7 +966,7 @@
     "stem": "If the statements above are true, which one of the following must also be true?",
     "choices": {
       "A": "No story that is reviewed by legal counsel runs on the front page.",
-      "B": "Every story concerning local government that the editor-in-chief approves runs on the front page.",
+      "B": "Every story concerning local government that the editor-in-chief approves runs on the front page of the Daily Standard the next day.",
       "C": "No story that the editor-in-chief approves on the day it is filed runs on the front page.",
       "D": "No story concerning local government that runs on the front page was approved by the editor-in-chief on the day it was filed.",
       "E": "Any story that is reviewed by legal counsel concerns local government."
@@ -1003,7 +1003,7 @@
       "A": "the orchid will soon become extinct in the foothills",
       "B": "wildfires in the foothills will soon become more frequent",
       "C": "fire suppression benefits most of the plants of the foothills",
-      "D": "the orchid flowers more heavily after large fires than after small ones",
+      "D": "the orchid flowers more heavily after large fires than after small fires of the same kind in the foothills",
       "E": "the orchid now flowers less often than it did before fire suppression began"
     },
     "answer": "E",
@@ -1068,7 +1068,7 @@
       "B": "rejecting a claim by showing that it leads to an absurd consequence",
       "C": "showing that the benefits of a proposal would be outweighed by its costs",
       "D": "attacking the credibility of those who advocate a proposal",
-      "E": "arguing that the advocates of a proposal have misdescribed what it would do"
+      "E": "arguing that the advocates of a proposal have misdescribed what it would do and have left out several of its most likely and most serious consequences"
     },
     "answer": "A",
     "explanations": {
