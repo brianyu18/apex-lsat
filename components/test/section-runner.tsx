@@ -32,6 +32,7 @@ export function SectionRunner({ bankCount, kind = "LR", lessonId, presetN, prese
   const [phase, setPhase] = useState<Phase>("setup");
   const [durationSec, setDurationSec] = useState<number>((presetMinutes ?? 35) * 60);
   const [n, setN] = useState(presetN ?? 25);
+  const [rc2027, setRc2027] = useState(false);
   const [sessionId, setSessionId] = useState<string | null>(null);
   const [qs, setQs] = useState<Q[]>([]);
   const [passages, setPassages] = useState<SecPassage[]>([]);
@@ -46,7 +47,7 @@ export function SectionRunner({ bankCount, kind = "LR", lessonId, presetN, prese
 
   async function start() {
     setError(null);
-    const res = await fetch("/api/section/start", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ section: kind, n, durationSec }) });
+    const res = await fetch("/api/section/start", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ section: kind, n, durationSec, rcPassages: kind === "RC" && rc2027 ? 6 : 4 }) });
     if (!res.ok) {
       const j = await res.json().catch(() => ({}));
       setError(j.error ?? `Could not start (${res.status})`);
@@ -93,7 +94,7 @@ export function SectionRunner({ bankCount, kind = "LR", lessonId, presetN, prese
       <Card>
         <CardTitle>Timed {kind === "RC" ? "RC" : "LR"} section</CardTitle>
         <CardDescription>
-          {kind === "RC" ? "Four passages (one comparative when available), 26–28 questions, in test order." : `${n} questions assembled to the real test\u2019s type mix and difficulty curve.`} Flag anything you&apos;re not certain of — after you submit, flagged and blank questions reopen untimed for blind review before you see a single answer.
+          {kind === "RC" ? (rc2027 ? "Six passages, about 40 questions, in test order." : "Four passages (one comparative when available), 26–28 questions, in test order.") : `${n} questions assembled to the real test\u2019s type mix and difficulty curve.`} Flag anything you&apos;re not certain of — after you submit, flagged and blank questions reopen untimed for blind review before you see a single answer.
         </CardDescription>
         <div className="mt-5 grid gap-4 sm:grid-cols-2">
           <div>
@@ -115,6 +116,19 @@ export function SectionRunner({ bankCount, kind = "LR", lessonId, presetN, prese
                 </button>
               ))}
             </div>
+            {kind === "RC" ? (
+              <div className="flex flex-col gap-2">
+                {[false, true].map((v) => (
+                  <button key={String(v)} type="button" onClick={() => { setRc2027(v); setDurationSec((v ? 52 : 35) * 60); }} aria-pressed={rc2027 === v} className={cn("focus-ring rounded-[var(--radius)] border px-3 py-2 text-left text-sm", rc2027 === v ? "border-accent bg-accent-soft" : "border-line")}>
+                    {v ? "August 2027 section · 6 passages · 52 min" : "Current section · 4 passages · 35 min"}
+                  </button>
+                ))}
+              </div>
+            ) : (
+              <button type="button" onClick={() => { setN(32); setDurationSec(45 * 60); }} aria-pressed={n === 32} className={cn("focus-ring mt-2 w-full rounded-[var(--radius)] border px-3 py-2 text-left text-sm", n === 32 ? "border-accent bg-accent-soft" : "border-line")}>
+                August 2027 section · 32 questions · 45 min
+              </button>
+            )}
             <p className="mt-3 text-xs text-ink-3">{bankCount} {kind === "RC" ? "passages" : "questions"} in the bank. Each section avoids anything you&apos;ve seen in the last 60 days.</p>
           </div>
         </div>

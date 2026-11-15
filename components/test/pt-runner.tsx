@@ -14,18 +14,19 @@ import { interpretBrGap } from "@/lib/scoring/range";
 import { percentile } from "@/lib/scoring/tables";
 import { cn } from "@/lib/ui/cn";
 
-type Build = { sessionId: string; sections: { index: number; kind: "LR" | "RC"; scored: boolean; questions: SecQ[]; passages?: SecPassage[] }[]; breakAfter: number; durationSec: number; sectionDurations?: number[] };
+type Build = { sessionId: string; sections: { index: number; kind: "LR" | "RC"; scored: boolean; questions: SecQ[]; passages?: SecPassage[] }[]; breakAfter: number; breaksAfter?: number[]; format?: "current" | "2027"; durationSec: number; sectionDurations?: number[] };
 type Phase = "setup" | "intro" | "section" | "break" | "br" | "results" | "error";
-type Final = { total: number; timedRaw: number; brRaw: number; gap: number; timedScaled: number; brScaled: number; recovered: number; stuck: number; blindSpots: number; perSection: { index: number; kind: string; scored: boolean; n: number; correct: number; br: number; seconds: number }[] };
+type Final = { total: number; timedRaw: number; brRaw: number; gap: number; timedScaled: number; brScaled: number; recovered: number; stuck: number; blindSpots: number; perSection: { index: number; kind: string; scored: boolean; n: number; correct: number; br: number; seconds: number; unscored?: number; unscoredCorrect?: number }[] };
 
 const LETTERS = ["A", "B", "C", "D", "E"] as const;
 
-export function PtRunner({ customTestId, customTitle, customSummary }: { customTestId?: string; customTitle?: string; customSummary?: string } = {}) {
+export function PtRunner({ customTestId, customTitle, customSummary, defaultFormat = "current" }: { customTestId?: string; customTitle?: string; customSummary?: string; defaultFormat?: "current" | "2027" } = {}) {
   const router = useRouter();
   const [phase, setPhase] = useState<Phase>("setup");
   const [build, setBuild] = useState<Build | null>(null);
   const [si, setSi] = useState(0);
   const [experimental, setExperimental] = useState<"random" | "LR" | "RC">("random");
+  const [format, setFormat] = useState<"current" | "2027">(defaultFormat);
   const [error, setError] = useState<string | null>(null);
   const [breakLeft, setBreakLeft] = useState(600);
   const [reviewQs, setReviewQs] = useState<SecQ[]>([]);
@@ -46,7 +47,7 @@ export function PtRunner({ customTestId, customTitle, customSummary }: { customT
 
   async function start() {
     setError(null);
-    const res = await fetch("/api/pt/start", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(customTestId ? { customTestId } : { experimental }) });
+    const res = await fetch("/api/pt/start", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(customTestId ? { customTestId } : { experimental, format }) });
     if (!res.ok) {
       const j = await res.json().catch(() => ({}));
       setError(j.error ?? `Could not build a test (${res.status})`);
@@ -63,7 +64,7 @@ export function PtRunner({ customTestId, customTitle, customSummary }: { customT
     if (!build) return;
     await fetch("/api/pt/section", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ sessionId: build.sessionId, section: { index: si, answers, elapsedSec } }) });
     setTimedAnswers((t) => ({ ...t, ...Object.fromEntries(answers.map((a) => [a.questionId, a.answer])) }));
-    if (si === build.breakAfter) {
+    if ((build.breaksAfter ?? [build.breakAfter]).includes(si) && si + 1 < build.sections.length) {
       setBreakLeft(600);
       setSi(si + 1);
       setPhase("break");
@@ -114,10 +115,29 @@ export function PtRunner({ customTestId, customTitle, customSummary }: { customT
     return (
       <Card>
         <CardTitle>Full practice test</CardTitle>
-        <CardDescription>
-          Four 35-minute sections — two scored LR, one scored RC, one unscored LR or RC in a random position — with the 10-minute break after section 2, in the LawHub interface. About 2 hours 40 minutes. Then blind review, then your score.
+        <div className="mt-3">
+          <p className="mb-1.5 text-sm font-medium text-ink-2">Test format</p>
+          <div className="grid gap-2 sm:grid-cols-2">
+            {(
+              [
+                { k: "current", label: "Current format", sub: "Through the June 2027 test" },
+                { k: "2027", label: "August 2027 format", sub: "Tests from August 2027 on" },
+              ] as const
+            ).map((f) => (
+              <button key={f.k} type="button" onClick={() => setFormat(f.k)} aria-pressed={format === f.k} className={cn("focus-ring rounded-[var(--radius)] border px-3 py-2 text-left text-sm", format === f.k ? "border-accent bg-accent-soft" : "border-line")}>
+                <span className="block font-medium">{f.label}</span>
+                <span className="block text-xs text-ink-3">{f.sub}</span>
+              </button>
+            ))}
+          </div>
+        </div>
+        <CardDescription className="mt-4">
+          {format === "2027"
+            ? "Three sections in a fixed order: Reading Comprehension (6 passages, about 40 questions, 52 minutes), then two Logical Reasoning sections (32 questions, 45 minutes each), with a 10-minute break after sections 1 and 2. About 2 hours 45 minutes. Then blind review, then your score."
+            : "Four 35-minute sections — two scored LR, one scored RC, one unscored LR or RC in a random position — with the 10-minute break after section 2, in the LawHub interface. About 2 hours 40 minutes. Then blind review, then your score."}
         </CardDescription>
-        <div className="mt-4">
+        {format === "2027" && <p className="mt-3 rounded-md border border-line p-3 text-xs text-ink-2">There is no separate unscored section. Two of the six passages and 7 of the 32 questions in each Logical Reasoning section are unscored, mixed in with the rest. You won&apos;t be told which until the results, so treat every question as if it counts.</p>}
+        <div className={cn("mt-4", format === "2027" && "hidden")}>
           <p className="mb-1.5 text-sm font-medium text-ink-2">Experimental section</p>
           <div className="flex gap-2">
             {(["random", "LR", "RC"] as const).map((k) => (
@@ -172,7 +192,9 @@ export function PtRunner({ customTestId, customTitle, customSummary }: { customT
         <p className="mt-4 font-mono text-5xl tabular-nums" data-testid="break-timer">
           {Math.floor(breakLeft / 60)}:{String(breakLeft % 60).padStart(2, "0")}
         </p>
-        <p className="mt-3 text-sm text-ink-2">Stand up, water, bathroom. Don&apos;t think about section 2. Section 3 starts automatically when the clock hits zero.</p>
+        <p className="mt-3 text-sm text-ink-2">
+          Stand up, water, bathroom. Don&apos;t think about section {si}. Section {si + 1} starts automatically when the clock hits zero.
+        </p>
         <Button variant="outline" className="mt-5" onClick={startNext}>
           Skip break
         </Button>
@@ -292,7 +314,14 @@ export function PtRunner({ customTestId, customTitle, customSummary }: { customT
                   <td className="px-4 py-2">
                     {s.index + 1} · {s.kind === "LR" ? "Logical Reasoning" : "Reading Comprehension"}
                   </td>
-                  <td className="px-4 py-2">{s.scored ? <Badge tone="ok">scored</Badge> : <Badge tone="neutral">experimental</Badge>}</td>
+                  <td className="px-4 py-2">
+                    {s.scored ? <Badge tone="ok">scored</Badge> : <Badge tone="neutral">experimental</Badge>}
+                    {s.unscored ? (
+                      <span className="ml-2 text-xs text-ink-3">
+                        + {s.unscored} unscored ({s.unscoredCorrect}/{s.unscored} right)
+                      </span>
+                    ) : null}
+                  </td>
                   <td className="px-4 py-2 tabular-nums">
                     {s.correct}/{s.n}
                   </td>

@@ -16,7 +16,16 @@ export interface PtSectionSpec {
   scored: boolean;
   questionIds: string[];
   passageIds?: string[];
+  /** August-2027 format: unscored questions mixed into a scored section */
+  unscoredIds?: string[];
 }
+
+export type PtFormat = "current" | "2027";
+/** Questions that count toward the score: everything in scored sections except embedded unscored questions. */
+export function scoredQuestionIds(specs: PtSectionSpec[]): Set<string> {
+  return new Set(specs.filter((s) => s.scored).flatMap((s) => s.questionIds.filter((q) => !s.unscoredIds?.includes(q))));
+}
+const sample = <T,>(a: T[], k: number) => a.map((v) => [Math.random(), v] as const).sort((x, y) => x[0] - y[0]).slice(0, k).map((x) => x[1]);
 
 export interface PtBuild {
   sessionId: string;
@@ -28,6 +37,9 @@ export interface PtBuild {
     passages?: { id: string; title: string; style: string | null; topic: string | null; comparative: boolean; paragraphs: string[]; paragraphsB: string[] | null }[];
   }[];
   breakAfter: number; // section index after which the 10-minute break happens (1)
+  /** all section indexes followed by a 10-minute break (the 2027 format has two) */
+  breaksAfter?: number[];
+  format?: PtFormat;
   durationSec: number;
   /** per-section time limits when sections differ (uploaded tests) */
   sectionDurations?: number[];
@@ -47,7 +59,8 @@ async function lrCandidates(exclude: Set<string>): Promise<SectionCandidate[]> {
 }
 
 /** Build a 4-section PT: two scored LR, one scored RC, one unscored LR or RC in a random slot. Break after section 2. */
-export async function buildPracticeTest(opts: { durationSec?: number; experimental?: "LR" | "RC" | "random" } = {}): Promise<PtBuild | null> {
+export async function buildPracticeTest(opts: { durationSec?: number; experimental?: "LR" | "RC" | "random"; format?: PtFormat } = {}): Promise<PtBuild | null> {
+  if (opts.format === "2027") return buildPracticeTest2027();
   const db = await getDb();
   const durationSec = opts.durationSec ?? 35 * 60;
   const expKind: PtSectionKind = opts.experimental === "LR" ? "LR" : opts.experimental === "RC" ? "RC" : Math.random() < 0.5 ? "LR" : "RC";
@@ -108,6 +121,46 @@ export async function buildPracticeTest(opts: { durationSec?: number; experiment
   return { sessionId, sections, breakAfter: 1, durationSec };
 }
 
+/**
+ * August-2027 format: Reading Comprehension (6 passages, 52 min), then two Logical Reasoning sections
+ * (32 questions, 45 min each), with a 10-minute break after sections 1 and 2. There is no separate
+ * unscored section: 2 of the 6 passages and 7 of each 32 LR questions are unscored, and the test
+ * taker is not told which until the results.
+ */
+export async function buildPracticeTest2027(): Promise<PtBuild | null> {
+  const db = await getDb();
+  const sections: PtBuild["sections"] = [];
+  const specs: PtSectionSpec[] = [];
+  const sets = await assembleRcSection({ count: 6 });
+  if (!sets) return null;
+  const unscoredPassages = new Set(sample(sets.map((s) => s.passage.id), 2));
+  sections.push({ index: 0, kind: "RC", scored: true, questions: sets.flatMap((s) => s.questions.map((q) => ({ id: q.id, type: q.type, difficulty: q.difficulty, stimulus: null, stem: q.stem, choices: q.choices, passageId: q.passageId }))), passages: sets.map((s) => s.passage) });
+  specs.push({ index: 0, kind: "RC", scored: true, questionIds: sets.flatMap((s) => s.questions.map((q) => q.id)), passageIds: sets.map((s) => s.passage.id), unscoredIds: sets.filter((s) => unscoredPassages.has(s.passage.id)).flatMap((s) => s.questions.map((q) => q.id)) });
+  const used = new Set<string>();
+  for (const i of [1, 2]) {
+    const picked = assembleSection(await lrCandidates(used), { n: 32, preferReserved: false });
+    if (!picked) return null;
+    picked.forEach((p) => used.add(p.id));
+    const full = await db.select().from(schema.questions).where(inArray(schema.questions.id, picked.map((p) => p.id)));
+    const byId = new Map(full.map((q) => [q.id, q]));
+    const ordered = picked.map((p) => byId.get(p.id)!);
+    sections.push({ index: i, kind: "LR", scored: true, questions: ordered.map((q) => ({ id: q.id, type: q.type, difficulty: q.difficulty, stimulus: q.stimulus, stem: q.stem, choices: q.choices, passageId: null })) });
+    specs.push({ index: i, kind: "LR", scored: true, questionIds: ordered.map((q) => q.id), unscoredIds: sample(ordered.map((q) => q.id), 7) });
+  }
+  const sectionDurations = [52 * 60, 45 * 60, 45 * 60];
+  const sessionId = newId("pt");
+  await db.insert(schema.sessions).values({
+    id: sessionId,
+    kind: "pt",
+    section: null,
+    timed: true,
+    durationSec: sectionDurations.reduce((a, b) => a + b, 0),
+    nQuestions: scoredQuestionIds(specs).size,
+    settings: { sections: specs, breakAfter: 0, breaksAfter: [0, 1], durationSec: sectionDurations[0], sectionMinutes: [52, 45, 45], format: "2027" },
+  });
+  return { sessionId, sections, breakAfter: 0, breaksAfter: [0, 1], format: "2027", durationSec: sectionDurations[0], sectionDurations };
+}
+
 export interface PtSectionAnswers {
   index: number;
   answers: { questionId: string; answer: string | null; seconds: number; flagged: boolean; changedFrom: string | null; passageSeconds?: number | null }[];
@@ -145,7 +198,7 @@ export async function ptReviewSet(sessionId: string) {
   const db = await getDb();
   const [ses] = await db.select().from(schema.sessions).where(eq(schema.sessions.id, sessionId));
   const specs = (ses?.settings as { sections: PtSectionSpec[] })?.sections ?? [];
-  const scoredIds = new Set(specs.filter((s) => s.scored).flatMap((s) => s.questionIds));
+  const scoredIds = scoredQuestionIds(specs);
   const atts = await db.select().from(schema.attempts).where(and(eq(schema.attempts.sessionId, sessionId), eq(schema.attempts.mode, "pt")));
   const review = atts.filter((a) => scoredIds.has(a.questionId) && (a.flagged || a.answer == null)).map((a) => a.questionId);
   if (!review.length) return { questions: [], passages: [] };
@@ -168,7 +221,7 @@ export async function finalizePt(sessionId: string, brAnswers: Record<string, st
   const atts = await db.select().from(schema.attempts).where(and(eq(schema.attempts.sessionId, sessionId), eq(schema.attempts.mode, "pt"))).orderBy(schema.attempts.position);
   const qs = await db.select({ id: schema.questions.id, answer: schema.questions.answer, type: schema.questions.type, section: schema.questions.section }).from(schema.questions).where(inArray(schema.questions.id, atts.map((a) => a.questionId)));
   const key = new Map(qs.map((q) => [q.id, q]));
-  const scoredIds = new Set(specs.filter((s) => s.scored).flatMap((s) => s.questionIds));
+  const scoredIds = scoredQuestionIds(specs);
 
   const items: BRItem[] = atts.filter((a) => scoredIds.has(a.questionId)).map((a) => ({ questionId: a.questionId, key: key.get(a.questionId)?.answer ?? null, timedAnswer: a.answer, flagged: a.flagged, brAnswer: brAnswers[a.questionId] ?? null }));
   const summary = scoreBlindReview(items);
@@ -178,7 +231,7 @@ export async function finalizePt(sessionId: string, brAnswers: Record<string, st
 
   for (const a of atts) {
     const it = summary.items.find((i) => i.questionId === a.questionId);
-    if (!it) continue; // experimental section: recorded, not scored, not reviewed
+    if (!it) continue; // unscored question: recorded, not scored, not reviewed
     await db.update(schema.attempts).set({ brAnswer: it.brFinal, brCorrect: it.brCorrect }).where(eq(schema.attempts.id, a.id));
     if (it.outcome !== "right_right") {
       const existing = await db.select().from(schema.misses).where(eq(schema.misses.attemptId, a.id));
@@ -197,10 +250,13 @@ export async function finalizePt(sessionId: string, brAnswers: Record<string, st
   await db.update(schema.sessions).set({ scoreRaw: summary.timedRaw, scoreScaled: timedScaled, brRaw: summary.brRaw, brScaled, finishedAt: new Date(), nQuestions: total }).where(eq(schema.sessions.id, sessionId));
 
   const perSection = specs.map((s) => {
-    const sa = atts.filter((a) => s.questionIds.includes(a.questionId));
+    const all = atts.filter((a) => s.questionIds.includes(a.questionId));
+    // with embedded unscored questions, the section line reports the scored questions only
+    const sa = s.unscoredIds?.length ? all.filter((a) => scoredIds.has(a.questionId)) : all;
     const correct = sa.filter((a) => a.correct).length;
     const br = sa.filter((a) => summary.items.find((i) => i.questionId === a.questionId)?.brCorrect).length;
-    return { index: s.index, kind: s.kind, scored: s.scored, n: sa.length, correct, br, seconds: Math.round(sa.reduce((a, x) => a + (x.seconds ?? 0), 0)) };
+    const un = all.filter((a) => s.unscoredIds?.includes(a.questionId));
+    return { index: s.index, kind: s.kind, scored: s.scored, n: sa.length, correct, br, unscored: un.length, unscoredCorrect: un.filter((a) => a.correct).length, seconds: Math.round(all.reduce((a, x) => a + (x.seconds ?? 0), 0)) };
   });
   return { ...summary, total, timedScaled, brScaled, perSection };
 }

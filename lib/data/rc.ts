@@ -98,8 +98,10 @@ export async function rcBankStats() {
   return { groups: rows, passages: rows.reduce((a, r) => a + r.n, 0), questions: q?.n ?? 0 };
 }
 
-/** Assemble an RC section: 4 passages (3 single + 1 comparative when available), 26–28 questions. */
-export async function assembleRcSection(opts: { repeatAfterDays?: number } = {}) {
+/** Assemble an RC section: 4 passages (3 single + 1 comparative when available), 26–28 questions. count 6 builds the August-2027 section (up to 2 comparative, about 40 questions). */
+export async function assembleRcSection(opts: { repeatAfterDays?: number; count?: number; excludePassageIds?: Set<string> } = {}) {
+  const count = opts.count ?? 4;
+  const maxComp = count > 4 ? 2 : 1;
   const db = await getDb();
   const passages = await db.select().from(schema.passages).where(eq(schema.passages.source, "original"));
   const qs = await db.select().from(schema.questions).where(and(eq(schema.questions.section, "RC"), eq(schema.questions.source, "original")));
@@ -110,28 +112,29 @@ export async function assembleRcSection(opts: { repeatAfterDays?: number } = {})
   for (const q of qs) if (q.passageId) byP.set(q.passageId, [...(byP.get(q.passageId) ?? []), q]);
   const usable = passages
     .map((p) => ({ p, pq: (byP.get(p.id) ?? []).sort((a, b) => (a.id < b.id ? -1 : 1)) }))
-    .filter((x) => x.pq.length >= 5)
+    .filter((x) => x.pq.length >= 5 && !opts.excludePassageIds?.has(x.p.id))
     .map((x) => ({ ...x, lastSeen: Math.max(0, ...x.pq.map((q) => lastByQ.get(q.id) ?? 0)) }));
   let pool = usable.filter((x) => x.lastSeen < cutoff);
-  if (pool.length < 4) pool = usable;
-  if (pool.length < 4) return null;
+  if (pool.length < count) pool = usable;
+  if (pool.length < count) return null;
   const shuffle = <T,>(a: T[]) => a.map((v) => [Math.random(), v] as const).sort((x, y) => x[0] - y[0]).map((x) => x[1]);
   const comps = shuffle(pool.filter((x) => x.p.comparative));
   const singles = shuffle(pool.filter((x) => !x.p.comparative));
   const chosen = [] as typeof pool;
-  if (comps.length) chosen.push(comps[0]);
+  chosen.push(...comps.slice(0, maxComp));
   for (const s of singles) {
-    if (chosen.length >= 4) break;
+    if (chosen.length >= count) break;
     chosen.push(s);
   }
-  while (chosen.length < 4 && comps.length > chosen.filter((c) => c.p.comparative).length) chosen.push(comps[chosen.filter((c) => c.p.comparative).length]);
-  if (chosen.length < 4) return null;
+  while (chosen.length < count && comps.length > chosen.filter((c) => c.p.comparative).length) chosen.push(comps[chosen.filter((c) => c.p.comparative).length]);
+  if (chosen.length < count) return null;
   // order: easier passages first, comparative third or fourth (as on the real test)
   const meanD = (x: (typeof chosen)[number]) => x.pq.reduce((a, q) => a + q.difficulty, 0) / x.pq.length;
   const singlesSorted = chosen.filter((c) => !c.p.comparative).sort((a, b) => meanD(a) - meanD(b));
-  const comp = chosen.find((c) => c.p.comparative);
-  const ordered = comp ? [...singlesSorted.slice(0, 2), comp, ...singlesSorted.slice(2)] : singlesSorted;
-  return ordered.slice(0, 4).map((x) => ({
+  // comparative sets go in from the third position on, never first
+  const ordered = [...singlesSorted];
+  chosen.filter((c) => c.p.comparative).forEach((c, i) => ordered.splice(Math.min(ordered.length, 2 + i * 2), 0, c));
+  return ordered.slice(0, count).map((x) => ({
     passage: { id: x.p.id, title: x.p.title ?? "Passage", style: x.p.style, topic: x.p.topic, comparative: x.p.comparative, paragraphs: x.p.paragraphs ?? [], paragraphsB: x.p.paragraphsB ?? null },
     questions: x.pq.map((q) => ({ id: q.id, section: q.section, type: q.type, logicTags: q.logicTags, difficulty: q.difficulty as Difficulty, stimulus: null, stem: q.stem, choices: q.choices, passageId: q.passageId })),
   }));

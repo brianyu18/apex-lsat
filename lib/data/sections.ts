@@ -16,13 +16,15 @@ export interface StartSectionInput {
   preferReserved?: boolean;
   /** Session kind to record; the skip trainer is a section with a triage gate. */
   kind?: "section" | "skip_trainer";
+  /** RC only: 4 passages (current format) or 6 (August-2027 format). */
+  rcPassages?: number;
 }
 
 /** Creates a session and returns the ordered question list (without keys). */
 export async function startTimedSection(input: StartSectionInput) {
   const db = await getDb();
   if (input.section === "RC") {
-    const sets = await assembleRcSection();
+    const sets = await assembleRcSection({ count: input.rcPassages === 6 ? 6 : 4 });
     if (!sets) return null;
     const id = newId("sec");
     const questions = sets.flatMap((s) => s.questions);
