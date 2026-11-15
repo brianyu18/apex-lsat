@@ -11,16 +11,37 @@
     "None of these accounts, I think, is sufficient alone, though they are not equally strong. Vasquelle's is correct as far as it goes: a matched-case study by the Halvern Judicial Council, which compared defendants facing identical charges with comparable prior records, found that the gap shrank by about a third. It did not disappear, however, and selection cannot explain what remains. Osgood's evidence from crowded districts, though suggestive, is equally what one would expect if judges simply reward pleas more generously where saved court time is most valuable, a practice the statute permits. The residual gap is therefore plausibly part informational and part generous discount. That does not make it harmless: a discount of that size, available only to those who forgo a trial, differs from a penalty on those who demand one chiefly in the label attached to it. Whether the statute's prohibition can survive that equivalence is a question the Commonwealth has yet to face."
   ],
   "roleMap": {
-    "paragraphs": ["context", "counterpoint", "counterpoint", "main_point"],
+    "paragraphs": [
+      "context",
+      "counterpoint",
+      "counterpoint",
+      "main_point"
+    ],
     "viewpoints": [
-      { "who": "Judges", "position": "The disparity reflects a statutory reduction for acceptance of responsibility.", "authorAgrees": null },
-      { "who": "Osgood", "position": "The gap is a deliberate instrument to induce pleas and protect crowded dockets.", "authorAgrees": false },
-      { "who": "Vasquelle", "position": "The gap reflects selection: defendants who stand trial are more serious cases.", "authorAgrees": true },
-      { "who": "Informational account", "position": "Trials expose the judge to fuller detail of the offense, which lengthens sentences.", "authorAgrees": null }
+      {
+        "who": "Judges",
+        "position": "The disparity reflects a statutory reduction for acceptance of responsibility.",
+        "authorAgrees": null
+      },
+      {
+        "who": "Osgood",
+        "position": "The gap is a deliberate instrument to induce pleas and protect crowded dockets.",
+        "authorAgrees": false
+      },
+      {
+        "who": "Vasquelle",
+        "position": "The gap reflects selection: defendants who stand trial are more serious cases.",
+        "authorAgrees": true
+      },
+      {
+        "who": "Informational account",
+        "position": "Trials expose the judge to fuller detail of the offense, which lengthens sentences.",
+        "authorAgrees": null
+      }
     ],
     "tone": "measured, analytical, mildly skeptical"
   },
-  "lowResSummary": "Author weighs three explanations of why trial sentences exceed plea sentences, finds selection partial, and doubts the statute's ban on penalizing trials can survive.",
+  "lowResSummary": "Author weighs three explanations of why trial sentences exceed plea sentences, finds selection partial, and questions the ban on penalizing trials.",
   "questions": [
     {
       "id": "rc-m5-plea-bargain-trial-penalty-q1",
@@ -43,9 +64,16 @@
         "D": "Opposite. The study found the gap 'shrank by about a third' and 'did not disappear.'",
         "E": "Wrong part. The informational account is one explanation of only part of the residue, and the author adds that the result 'does not make it harmless.'"
       },
-      "trapPatterns": { "A": "wrong_part", "C": "extreme", "D": "opposite", "E": "wrong_part" },
+      "trapPatterns": {
+        "A": "wrong_part",
+        "C": "extreme",
+        "D": "opposite",
+        "E": "wrong_part"
+      },
       "keyTakeaway": "In a competing-explanations passage the author's verdict usually combines partial credit to one account with a remaining question; reject answers that crown a single explanation.",
-      "evidence": [3]
+      "evidence": [
+        3
+      ]
     },
     {
       "id": "rc-m5-plea-bargain-trial-penalty-q2",
@@ -68,9 +96,16 @@
         "D": "Correct. 'Compared defendants facing identical charges with comparable prior records, found that the gap shrank by about a third.'",
         "E": "Shell game. This is the informational explanation, which the study is not said to have tested."
       },
-      "trapPatterns": { "A": "out_of_scope", "B": "opposite", "C": "wrong_part", "E": "shell_game" },
+      "trapPatterns": {
+        "A": "out_of_scope",
+        "B": "opposite",
+        "C": "wrong_part",
+        "E": "shell_game"
+      },
       "keyTakeaway": "Attribute each finding to the right source; Osgood's district pattern and the Council's study are easy to swap.",
-      "evidence": [3]
+      "evidence": [
+        3
+      ]
     },
     {
       "id": "rc-m5-plea-bargain-trial-penalty-q3",
@@ -93,9 +128,16 @@
         "D": "Shell game. Selection concerns who goes to trial, not how judges justify the reduction.",
         "E": "Opposite. The author's worry is that the reduction is too large, not too small."
       },
-      "trapPatterns": { "B": "extreme", "C": "wrong_part", "D": "shell_game", "E": "opposite" },
+      "trapPatterns": {
+        "B": "extreme",
+        "C": "wrong_part",
+        "D": "shell_game",
+        "E": "opposite"
+      },
       "keyTakeaway": "A pivot like 'But' right after a mentioned view signals that the view is being reported in order to be questioned.",
-      "evidence": [0]
+      "evidence": [
+        0
+      ]
     },
     {
       "id": "rc-m5-plea-bargain-trial-penalty-q4",
@@ -118,9 +160,16 @@
         "D": "Reversal. Vasquelle holds that such defendants 'have least to lose by gambling on an acquittal,' so they are the ones who stand trial.",
         "E": "Correct. If the trial group is 'weighted toward serious cases,' its longer sentences 'reflect that composition rather than any penalty,' so raw averages exaggerate the effect of trial itself."
       },
-      "trapPatterns": { "A": "shell_game", "B": "wrong_part", "C": "wrong_part", "D": "reversal" },
+      "trapPatterns": {
+        "A": "shell_game",
+        "B": "wrong_part",
+        "C": "wrong_part",
+        "D": "reversal"
+      },
       "keyTakeaway": "To predict a named scholar's view, restate her mechanism and apply it; answers that belong to a rival explanation are the standard traps.",
-      "evidence": [1]
+      "evidence": [
+        1
+      ]
     },
     {
       "id": "rc-m5-plea-bargain-trial-penalty-q5",
@@ -143,14 +192,26 @@
         "D": "Extreme. The author denies that any one account is sufficient alone.",
         "E": "Shell game. The Judicial Council's study is used as evidence, not criticized, and no competing study is offered."
       },
-      "trapPatterns": { "A": "opposite", "B": "out_of_scope", "D": "extreme", "E": "shell_game" },
+      "trapPatterns": {
+        "A": "opposite",
+        "B": "out_of_scope",
+        "D": "extreme",
+        "E": "shell_game"
+      },
       "keyTakeaway": "Check each clause of an organization answer against a paragraph; one false clause sinks it.",
-      "evidence": [0, 1, 2, 3]
+      "evidence": [
+        0,
+        1,
+        2,
+        3
+      ]
     },
     {
       "id": "rc-m5-plea-bargain-trial-penalty-q6",
       "type": "weaken_strengthen_evaluate",
-      "logicTags": ["causation"],
+      "logicTags": [
+        "causation"
+      ],
       "difficulty": 3,
       "stem": "Which one of the following, if true, would most strengthen the informational explanation described in the passage?",
       "choices": {
@@ -168,9 +229,16 @@
         "D": "True but irrelevant. It restates that pleas are rewarded without bearing on what the judge learns at trial.",
         "E": "Out of scope. How often judges cite the mitigating factor says nothing about the information a trial supplies."
       },
-      "trapPatterns": { "B": "true_but_irrelevant", "C": "wrong_force", "D": "true_but_irrelevant", "E": "out_of_scope" },
+      "trapPatterns": {
+        "B": "true_but_irrelevant",
+        "C": "wrong_force",
+        "D": "true_but_irrelevant",
+        "E": "out_of_scope"
+      },
       "keyTakeaway": "Strengthening a mechanism means changing the one variable the mechanism names, here the judge's information, and seeing the effect move.",
-      "evidence": [2]
+      "evidence": [
+        2
+      ]
     },
     {
       "id": "rc-m5-plea-bargain-trial-penalty-q7",
@@ -193,9 +261,16 @@
         "D": "Correct. A discount for those who forgo a trial 'differs from a penalty on those who demand one chiefly in the label attached to it,' an 'equivalence.'",
         "E": "Out of scope. Written explanations of sentences are never discussed."
       },
-      "trapPatterns": { "A": "extreme", "B": "extreme", "C": "opposite", "E": "out_of_scope" },
+      "trapPatterns": {
+        "A": "extreme",
+        "B": "extreme",
+        "C": "opposite",
+        "E": "out_of_scope"
+      },
       "keyTakeaway": "The author's last sentences often carry the passage's sharpest inference; here the 'equivalence' of discount and penalty is the load-bearing idea.",
-      "evidence": [3]
+      "evidence": [
+        3
+      ]
     }
   ]
 }

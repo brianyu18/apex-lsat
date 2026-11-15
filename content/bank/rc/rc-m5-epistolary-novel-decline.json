@@ -11,11 +11,28 @@
     "It may be objected that the epistolary form was simply displaced by free indirect discourse, a technique that gave novelists access to a character's thoughts without the pretext of a correspondence. This is true as far as it goes, but it mistakes a successor for a cause. Letter fiction had never been valued chiefly as a means of reaching interior life, which any first-person narrative can supply; it was valued for the suspense of delay. Free indirect discourse did not replace that suspense, which novelists in the new style obtained, when they wanted it, from other devices such as concealed identities and withheld information. The technique prospered because a vacancy had appeared, and the vacancy was created when the post became fast."
   ],
   "roleMap": {
-    "paragraphs": ["context", "main_point", "support", "counterpoint"],
+    "paragraphs": [
+      "context",
+      "main_point",
+      "support",
+      "counterpoint"
+    ],
     "viewpoints": [
-      { "who": "Proponents of the plausibility explanation", "position": "Readers lost patience with the improbability of letter-writing characters as realism rose.", "authorAgrees": false },
-      { "who": "Author", "position": "The form's effects depended on the delay in delivery, which fast mail eliminated.", "authorAgrees": true },
-      { "who": "Proponents of the displacement objection", "position": "Free indirect discourse displaced the epistolary form.", "authorAgrees": false }
+      {
+        "who": "Proponents of the plausibility explanation",
+        "position": "Readers lost patience with the improbability of letter-writing characters as realism rose.",
+        "authorAgrees": false
+      },
+      {
+        "who": "Author",
+        "position": "The form's effects depended on the delay in delivery, which fast mail eliminated.",
+        "authorAgrees": true
+      },
+      {
+        "who": "Proponents of the displacement objection",
+        "position": "Free indirect discourse displaced the epistolary form.",
+        "authorAgrees": false
+      }
     ],
     "tone": "confident, argumentative, courteous to rivals"
   },
@@ -28,7 +45,7 @@
       "difficulty": 1,
       "stem": "The primary function of the fourth paragraph is to",
       "choices": {
-        "A": "introduce a second explanation of the form's decline and concede that it is stronger than the author's own",
+        "A": "introduce a second explanation of the form's decline and concede that it is stronger than the author's own account of the decline",
         "B": "provide an additional example of a novel whose plot depends on delayed correspondence",
         "C": "anticipate an objection that a new technique displaced the form and argue that the displacement was not the cause",
         "D": "qualify the claim that the mail-coach service of 1786 altered the way letters were used",
@@ -42,9 +59,16 @@
         "D": "Opposite. The paragraph closes by repeating that the vacancy 'was created when the post became fast.'",
         "E": "Wrong part. The plausibility objection is dismissed in paragraph 1 and is not revived."
       },
-      "trapPatterns": { "A": "opposite", "B": "out_of_scope", "D": "opposite", "E": "wrong_part" },
+      "trapPatterns": {
+        "A": "opposite",
+        "B": "out_of_scope",
+        "D": "opposite",
+        "E": "wrong_part"
+      },
       "keyTakeaway": "Phrases such as 'it may be objected' flag a paragraph whose job is to raise and answer a rival view.",
-      "evidence": [3]
+      "evidence": [
+        3
+      ]
     },
     {
       "id": "rc-m5-epistolary-novel-decline-q2",
@@ -67,9 +91,19 @@
         "D": "Wrong part. This is the common explanation that paragraph 1 says 'cannot be right, or not by itself.'",
         "E": "Half right. It reports a supporting observation from paragraph 3, not the thesis it supports."
       },
-      "trapPatterns": { "B": "shell_game", "C": "wrong_part", "D": "wrong_part", "E": "half_right" },
+      "trapPatterns": {
+        "B": "shell_game",
+        "C": "wrong_part",
+        "D": "wrong_part",
+        "E": "half_right"
+      },
       "keyTakeaway": "A single-thesis passage's main point states the author's cause and, often, the rival causes it replaces.",
-      "evidence": [0, 1, 2, 3]
+      "evidence": [
+        0,
+        1,
+        2,
+        3
+      ]
     },
     {
       "id": "rc-m5-epistolary-novel-decline-q3",
@@ -79,7 +113,7 @@
       "stem": "According to the passage, the epistolary novels written after 1800 that succeeded were",
       "choices": {
         "A": "written largely in the form of diaries rather than correspondence",
-        "B": "praised by reviewers for inventive use of floods and lost mailbags",
+        "B": "praised by reviewers for the inventive use of floods, lost mailbags, and absent-minded servants as obstacles",
         "C": "composed in the free indirect style that had replaced letters",
         "D": "published chiefly in the remote provinces of Eastmark",
         "E": "set in earlier decades or in remote provinces where the post remained slow"
@@ -92,9 +126,16 @@
         "D": "Shell game. The passage says the novels were 'set in' remote provinces, not that they were published there.",
         "E": "Correct. 'The few epistolary novels written after 1800 that succeeded were, tellingly, set in earlier decades or in remote provinces where the post remained slow.'"
       },
-      "trapPatterns": { "A": "out_of_scope", "B": "opposite", "C": "opposite", "D": "shell_game" },
+      "trapPatterns": {
+        "A": "out_of_scope",
+        "B": "opposite",
+        "C": "opposite",
+        "D": "shell_game"
+      },
       "keyTakeaway": "Setting and publication are different things; read the preposition.",
-      "evidence": [2]
+      "evidence": [
+        2
+      ]
     },
     {
       "id": "rc-m5-epistolary-novel-decline-q4",
@@ -104,7 +145,7 @@
       "stem": "The author mentions The Misfortunes of Clarimond primarily in order to",
       "choices": {
         "A": "show that early epistolary novels were criticized by reviewers for the improbability of their letter-writing characters",
-        "B": "provide an example of a novel in which a character's villainy sustains a misunderstanding for hundreds of pages",
+        "B": "provide an example of a novel in which a character's villainy sustains a misunderstanding for hundreds of pages without being detected",
         "C": "demonstrate that the form could succeed even in plots that did not depend on delay",
         "D": "illustrate how the interval between writing and reading could generate the effects the author attributes to the form",
         "E": "suggest that the novel was the first to exploit the asymmetry between reader and correspondents"
@@ -117,9 +158,16 @@
         "D": "Correct. The example follows the account of the interval and shows a letter arriving after a rival has told the same story.",
         "E": "Out of scope. The passage makes no claim that this novel was the first of its kind."
       },
-      "trapPatterns": { "A": "wrong_part", "B": "opposite", "C": "opposite", "E": "out_of_scope" },
+      "trapPatterns": {
+        "A": "wrong_part",
+        "B": "opposite",
+        "C": "opposite",
+        "E": "out_of_scope"
+      },
       "keyTakeaway": "An example's purpose is the claim it follows; here the claim is the interval generating the form's effects.",
-      "evidence": [1]
+      "evidence": [
+        1
+      ]
     },
     {
       "id": "rc-m5-epistolary-novel-decline-q5",
@@ -128,7 +176,7 @@
       "difficulty": 2,
       "stem": "The author's attitude toward the plausibility explanation of the form's decline can most accurately be described as",
       "choices": {
-        "A": "scornful dismissal of an account that rests on a misreading of the evidence",
+        "A": "scornful dismissal of an account that the author regards as resting on a misreading of the evidence by earlier historians",
         "B": "doubt about its sufficiency, tempered by acceptance that contemporary readers did notice the improbability it cites",
         "C": "enthusiastic agreement, supplemented by an additional explanation of the decline",
         "D": "indifference, since the account is irrelevant to the question of why the form declined",
@@ -142,18 +190,27 @@
         "D": "Opposite. The author spends the opening paragraph answering it.",
         "E": "Opposite. The author argues that readers tolerated the convention for forty years and does not endorse the realism claim."
       },
-      "trapPatterns": { "A": "extreme", "C": "opposite", "D": "opposite", "E": "opposite" },
+      "trapPatterns": {
+        "A": "extreme",
+        "C": "opposite",
+        "D": "opposite",
+        "E": "opposite"
+      },
       "keyTakeaway": "'Cannot be right, or not by itself' is a hedge: the attitude is doubt, not contempt.",
-      "evidence": [0]
+      "evidence": [
+        0
+      ]
     },
     {
       "id": "rc-m5-epistolary-novel-decline-q6",
       "type": "weaken_strengthen_evaluate",
-      "logicTags": ["causation"],
+      "logicTags": [
+        "causation"
+      ],
       "difficulty": 3,
       "stem": "Which one of the following, if true, would most strengthen the author's explanation of the decline of the epistolary novel?",
       "choices": {
-        "A": "Reviewers of the 1740s complained about the improbability of letter-writing characters more often than reviewers of the 1770s did.",
+        "A": "Reviewers of the 1740s complained about the improbability of letter-writing characters more often than reviewers of the 1770s did, according to surviving reviews.",
         "B": "Free indirect discourse first appeared in Eastmark fiction several decades before the mail-coach service was introduced.",
         "C": "Epistolary novels published before 1785 in Eastmark were on average longer than those published afterward.",
         "D": "Many readers of the 1740s regarded the long letters in epistolary fiction as realistic reproductions of actual correspondence.",
@@ -167,9 +224,16 @@
         "D": "Wrong force. Readers' belief in the letters' realism supports the plausibility account the author rejects.",
         "E": "Correct. If the form survived where the post stayed slow, the speed of the post looks like the operative factor."
       },
-      "trapPatterns": { "A": "true_but_irrelevant", "B": "wrong_force", "C": "out_of_scope", "D": "wrong_force" },
+      "trapPatterns": {
+        "A": "true_but_irrelevant",
+        "B": "wrong_force",
+        "C": "out_of_scope",
+        "D": "wrong_force"
+      },
       "keyTakeaway": "A natural comparison case, where the supposed cause is absent and the effect fails to occur, strengthens a causal thesis.",
-      "evidence": [2]
+      "evidence": [
+        2
+      ]
     },
     {
       "id": "rc-m5-epistolary-novel-decline-q7",
@@ -181,7 +245,7 @@
         "A": "Readers in the 1760s were more willing than readers around 1800 to accept delays in the delivery of a letter as a feature of the world.",
         "B": "Novelists who adopted free indirect discourse did so because they wished to avoid the suspense that delayed letters create.",
         "C": "The plausibility objection to letter fiction was first raised only after the mail-coach service had been introduced.",
-        "D": "An epistolary novel set in a remote province after 1800 would necessarily have been less popular than one set in a principal town.",
+        "D": "An epistolary novel set in a remote province after 1800 would necessarily have been less popular than one set in one of the principal towns of Eastmark.",
         "E": "The success of an epistolary novel depended mainly on the realism of the letters its characters were represented as writing."
       },
       "answer": "A",
@@ -192,9 +256,16 @@
         "D": "Extreme. The passage says only that such novels succeeded when set in slow-post settings, not that they would necessarily be less popular if set elsewhere.",
         "E": "Opposite. The author says the form's strength lay 'not in any pretense of realism' but in the interval."
       },
-      "trapPatterns": { "B": "opposite", "C": "opposite", "D": "extreme", "E": "opposite" },
+      "trapPatterns": {
+        "B": "opposite",
+        "C": "opposite",
+        "D": "extreme",
+        "E": "opposite"
+      },
       "keyTakeaway": "The inference sits in a small phrase: obstacles noticed as 'the author's and not the post's' presuppose that earlier delays seemed the post's own.",
-      "evidence": [2]
+      "evidence": [
+        2
+      ]
     }
   ]
 }
