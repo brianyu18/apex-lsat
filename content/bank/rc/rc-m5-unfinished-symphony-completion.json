@@ -1,0 +1,202 @@
+{
+  "id": "rc-m5-unfinished-symphony-completion",
+  "style": "critique_debate",
+  "topic": "humanities",
+  "comparative": true,
+  "title": "Completing Verrenhalt's Fourth",
+  "paragraphs": [
+    "Opponents of completing unfinished music commonly speak as though a fragment were a sealed vessel, so that any addition adulterates it. Consider Tobias Verrenhalt's Fourth Symphony, which he left at his death with two movements fully orchestrated and the remaining two sketched in short score, complete in their melodic lines and harmonic outlines though lacking most of their orchestration. The sealed-vessel view requires us to say that the composer's intentions for those movements are unknowable. They are not. A composer who writes out a melody, a bass, and a tempo mark has decided most of what matters, and what remains undecided, namely which instruments carry which line, is the part of the craft that his surviving scores show him to have habitually delegated to copyists and assistants.",
+    "The completer's task is therefore closer to that of an editor than a co-author. Orchestrating from sketches is bounded by the composer's own practice, and the quality of the result can be tested against his finished works, as a restorer's inpainting is tested against the surviving surface of a canvas. Where the sketches truly fail, as in the final pages of the finale, the honest completer says so. Such cases are exceptions, however, and they do not license the conclusion that whatever the composer left must be performed, if at all, in a state he would himself have called unready for the public."
+  ],
+  "paragraphsB": [
+    "Whether a completion of Verrenhalt's Fourth can be faithful is, I suspect, the wrong question, and defenders of completion are right that it can often be answered yes. A skilled hand, steeped in the composer's habits, can produce an orchestration that few listeners could distinguish from his own. But the faithfulness of a copy has never settled whose work it is. What a completer supplies is not merely the labor of scoring but a long series of choices, of balance, of color, of which of two plausible doublings to prefer, each of which alters what the listener hears and none of which the composer ever made.",
+    "The practical conclusion is not that completions should be suppressed. It is that the piece performed after the sketches have been realized should be understood as a collaboration across time and presented as such, with the completer's name beside the composer's and the unfinished torso available for performance in its own right. To insist on this is not pedantry. A listener who hears the finale as Verrenhalt's will draw conclusions about his late style that the evidence supports only in part, and the unfinished state, far from being a mere deficiency, is itself the most reliable record of where his thinking stopped."
+  ],
+  "roleMap": {
+    "paragraphs": ["main_point", "support"],
+    "viewpoints": [
+      { "who": "Opponents of completion cited in passage A", "position": "A fragment is a sealed vessel that any addition adulterates.", "authorAgrees": false },
+      { "who": "Author of passage A", "position": "Sketches settle most of what matters, so completion is an editor-like task that can be checked against the composer's finished works.", "authorAgrees": true },
+      { "who": "Author of passage B", "position": "Faithfulness can often be achieved but does not settle whose work results; completions should be credited as collaborations and the torso kept performable.", "authorAgrees": true }
+    ],
+    "tone": "A assured; B conciliatory but corrective"
+  },
+  "lowResSummary": "A defends completing sketched music as editing; B grants fidelity is possible but says completions are collaborations to be credited as such.",
+  "questions": [
+    {
+      "id": "rc-m5-unfinished-symphony-completion-q1",
+      "type": "main_point",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately expresses the main point of passage A?",
+      "choices": {
+        "A": "Unfinished works are best preserved in their incomplete state, since any completion by another hand adulterates the composer's intentions.",
+        "B": "Verrenhalt's Fourth Symphony cannot be performed without orchestration supplied by others, because he left only two of its movements fully scored.",
+        "C": "Because a composer's sketches settle most of what matters in a work, completing it from them is a legitimate, editor-like task whose results can be checked against his finished works.",
+        "D": "Composers have habitually delegated orchestration to assistants, so their finished scores do not reliably reflect their own intentions about instrumentation.",
+        "E": "A completer who meets pages that the sketches cannot resolve should decline to complete the work at all rather than guess."
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "Opposite. This is the 'sealed-vessel' view that passage A criticizes.",
+        "B": "Wrong part. The state of the Fourth is the author's case, not the thesis, and the author argues that completion is legitimate, not merely unavoidable.",
+        "C": "Correct. Paragraph 1: the sketches settle 'most of what matters'; paragraph 2: the task is 'closer to that of an editor' and can be 'tested against his finished works.'",
+        "D": "Extreme. Delegation is said to concern only 'which instruments carry which line,' not the composer's intentions generally.",
+        "E": "Extreme. The author says the honest completer 'says so' where sketches fail, not that the work should be abandoned, and calls such cases exceptions."
+      },
+      "trapPatterns": { "A": "opposite", "B": "wrong_part", "D": "extreme", "E": "extreme" },
+      "keyTakeaway": "The main point of a defense combines the claim with the reason that supports it and the test that disciplines it.",
+      "evidence": [0, 1]
+    },
+    {
+      "id": "rc-m5-unfinished-symphony-completion-q2",
+      "type": "relationship",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately describes the relationship between the two passages?",
+      "choices": {
+        "A": "Passage B supplies evidence about Verrenhalt's working habits that supports the argument passage A makes about the sketches.",
+        "B": "Passage B concedes that a faithful completion is possible but argues that fidelity does not settle whose work the result is.",
+        "C": "Passage B rejects the claim that the sketches reveal the composer's intentions and argues that the symphony should never be completed by any hand, however skilled.",
+        "D": "Passage B applies to the Fourth Symphony a general principle of attribution that passage A states in its second paragraph.",
+        "E": "Passage B shows that the sealed-vessel view that passage A criticizes is correct in the case of every unfinished work."
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "Out of scope. Passage B adduces no evidence about the composer's habits.",
+        "B": "Correct. B: the question of faithfulness 'can often be answered yes,' but 'the faithfulness of a copy has never settled whose work it is.'",
+        "C": "Extreme. B says 'the practical conclusion is not that completions should be suppressed.'",
+        "D": "Shell game. Passage A states no principle of attribution; its concern is whether completion is legitimate.",
+        "E": "Extreme. B allows that completions can be faithful and does not endorse the view that fragments must be left sealed."
+      },
+      "trapPatterns": { "A": "out_of_scope", "C": "extreme", "D": "shell_game", "E": "extreme" },
+      "keyTakeaway": "B accepts A's premise but changes the question; the relationship is concession plus redirection.",
+      "evidence": [0, 1, 2, 3]
+    },
+    {
+      "id": "rc-m5-unfinished-symphony-completion-q3",
+      "type": "stated",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "According to passage A, the sketches that Verrenhalt left for the last two movements",
+      "choices": {
+        "A": "were written out in full orchestration but left without tempo marks",
+        "B": "contained melodies but gave no indication of the harmonies to accompany them or of the tempo at which they were to be played",
+        "C": "were revised repeatedly by assistants and copyists during his lifetime",
+        "D": "set down melodic lines and harmonic outlines but not most of the orchestration",
+        "E": "were intended by him to be performed in their sketched state"
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "Opposite. The sketches were 'in short score' and 'lacking most of their orchestration.'",
+        "B": "Opposite. They were 'complete in their melodic lines and harmonic outlines.'",
+        "C": "Shell game. Copyists and assistants are mentioned only as habitual helpers with orchestration, not as revisers of these sketches.",
+        "D": "Correct. 'Complete in their melodic lines and harmonic outlines though lacking most of their orchestration.'",
+        "E": "Out of scope. Passage A says only that he would have called them 'unready for the public.'"
+      },
+      "trapPatterns": { "A": "opposite", "B": "opposite", "C": "shell_game", "E": "out_of_scope" },
+      "keyTakeaway": "Match the description to the passage's own pairing of what was complete and what was lacking.",
+      "evidence": [0]
+    },
+    {
+      "id": "rc-m5-unfinished-symphony-completion-q4",
+      "type": "stated",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "The author of passage B concedes that",
+      "choices": {
+        "A": "a skilled completer could produce an orchestration that few listeners could tell apart from the composer's own",
+        "B": "the faithfulness of a completion to the composer's intentions has never been established in any case",
+        "C": "the unfinished state of a work is a deficiency that completion properly remedies in performance",
+        "D": "most listeners can readily distinguish a completer's choices from the choices the composer would have made",
+        "E": "unfinished works should never be completed unless the composer left written instructions for doing so or the permission of his heirs"
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. 'A skilled hand, steeped in the composer's habits, can produce an orchestration that few listeners could distinguish from his own.'",
+        "B": "Opposite. B says the question of faithfulness 'can often be answered yes.'",
+        "C": "Wrong force. B calls the unfinished state 'far from being a mere deficiency.'",
+        "D": "Reversal. B says few listeners could tell the difference.",
+        "E": "Extreme. Nothing in B conditions completion on written instructions, and B says completions should not be suppressed."
+      },
+      "trapPatterns": { "B": "opposite", "C": "wrong_force", "D": "reversal", "E": "extreme" },
+      "keyTakeaway": "A concession is usually flagged by a sentence that begins by granting the opponent's point; find it and read it closely.",
+      "evidence": [2]
+    },
+    {
+      "id": "rc-m5-unfinished-symphony-completion-q5",
+      "type": "purpose_in_context",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The author of passage A mentions a restorer's inpainting primarily in order to",
+      "choices": {
+        "A": "suggest that completers of musical works ought to be trained in the techniques of art restoration",
+        "B": "argue that the quality of a completion cannot be judged by anyone other than the completer",
+        "C": "illustrate how a completion can be assessed against the surviving authentic work of the same artist",
+        "D": "show that visual works, unlike musical works, can safely be completed by other hands",
+        "E": "support the claim that a composer's sketches are always sufficient to determine every feature of a work"
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "Out of scope. The comparison concerns how results are tested, not how completers are trained.",
+        "B": "Opposite. The point is that the result 'can be tested against his finished works.'",
+        "C": "Correct. The analogy is to inpainting 'tested against the surviving surface of a canvas.'",
+        "D": "Out of scope. The author draws no contrast between visual and musical works.",
+        "E": "Extreme. The author acknowledges that 'the sketches truly fail' in places."
+      },
+      "trapPatterns": { "A": "out_of_scope", "B": "opposite", "D": "out_of_scope", "E": "extreme" },
+      "keyTakeaway": "An analogy is introduced to carry one feature across; identify which feature the sentence around it is about (here, testing).",
+      "evidence": [1]
+    },
+    {
+      "id": "rc-m5-unfinished-symphony-completion-q6",
+      "type": "other_perspective",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "The author of passage B would be most likely to respond to passage A's description of the completer's task as 'closer to that of an editor than a co-author' by arguing that",
+      "choices": {
+        "A": "editors are never credited alongside the authors whose works they prepare for publication",
+        "B": "the choices of balance and color that a completer makes are creative decisions the composer never made, so crediting the composer alone misleads listeners",
+        "C": "the completer's task is easier than an editor's because the composer's sketches fix every detail of the work",
+        "D": "completers should be forbidden from drawing on the composer's known habits of orchestration",
+        "E": "the unfinished state of the symphony is less informative about Verrenhalt's late style than any completion could be"
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "Extreme. Nothing in passage B concerns editors in general.",
+        "B": "Correct. B: the completer supplies 'a long series of choices... none of which the composer ever made,' and a listener who hears the finale as Verrenhalt's 'will draw conclusions... that the evidence supports only in part.'",
+        "C": "Opposite. B stresses how many choices the completer must make.",
+        "D": "Out of scope. B grants that a hand 'steeped in the composer's habits' can do well.",
+        "E": "Opposite. B calls the unfinished state 'the most reliable record of where his thinking stopped.'"
+      },
+      "trapPatterns": { "A": "extreme", "C": "opposite", "D": "out_of_scope", "E": "opposite" },
+      "keyTakeaway": "To predict one author's reply to another's phrase, find the passage-B claim that the phrase directly collides with (here, who made the choices).",
+      "evidence": [1, 2, 3]
+    },
+    {
+      "id": "rc-m5-unfinished-symphony-completion-q7",
+      "type": "author_perspective",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "The authors of the two passages would be most likely to agree that",
+      "choices": {
+        "A": "completions of unfinished works should be attributed solely to the original composer, whatever the extent of the completer's own contribution to them",
+        "B": "the sketches a composer leaves settle every detail of the orchestration of a work",
+        "C": "the unfinished state of a work is the best available evidence of the composer's intentions",
+        "D": "performing a completed version of the Fourth Symphony misrepresents the composer's late style",
+        "E": "a skilled completer familiar with Verrenhalt's habits could realize the sketches in a manner consistent with his practice"
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "Opposite. B wants the completer's name beside the composer's; A does not take up attribution.",
+        "B": "Extreme. A says orchestration is what remains undecided, and B stresses the completer's many choices.",
+        "C": "Wrong part. Only B treats the unfinished state as the most reliable record, and as a record of 'where his thinking stopped.'",
+        "D": "Opposite. A would deny it, and B says conclusions about late style are supported 'only in part,' not that completions misrepresent them.",
+        "E": "Correct. A: orchestration is 'bounded by the composer's own practice'; B: 'a skilled hand, steeped in the composer's habits, can produce an orchestration that few listeners could distinguish from his own.'"
+      },
+      "trapPatterns": { "A": "opposite", "B": "extreme", "C": "wrong_part", "D": "opposite" },
+      "keyTakeaway": "Common ground between two passages is usually a premise one grants and the other asserts; check each choice against both.",
+      "evidence": [0, 1, 2]
+    }
+  ]
+}

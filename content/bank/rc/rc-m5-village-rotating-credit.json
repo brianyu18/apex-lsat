@@ -1,0 +1,201 @@
+{
+  "id": "rc-m5-village-rotating-credit",
+  "style": "problem_analysis",
+  "topic": "social_science",
+  "comparative": false,
+  "title": "The Early Recipient in Rotating Credit Circles",
+  "paragraphs": [
+    "Rotating savings groups, found in some form on every inhabited continent, operate on an arrangement of disarming simplicity. A fixed number of members each contribute a set sum at every meeting, and at each meeting a different member takes the whole pot, until every member has been paid once. Over a full cycle no one gains or loses; each has received exactly what she put in. What the arrangement supplies is timing, a lump sum that a member could not otherwise assemble from her own earnings. But it harbors a structural weakness. A member who collects the pot in the first round has, in effect, borrowed from every other member, and nothing but her own inclination obliges her to keep paying afterward, while those who draw the last slots may pay for months and receive nothing at all if the group collapses.",
+    "Observers have proposed three explanations of why such groups nonetheless survive. The first is reputational: in a village where members meet daily, a woman who defaults forfeits not merely a place in the circle but her standing in a community on which she depends for labor, marriage prospects, and emergency help. The second is contractual: the order of receipt is fixed by lot, and any member who draws an early slot must furnish a guarantor who will cover her contributions if she fails. The third is commercial: slots are auctioned, the winning bid is distributed among the other members, and those who most urgently want early money thereby compensate the rest for bearing risk.",
+    "Each explanation captures something, but none survives scrutiny as a general account. The reputational explanation fits the circles of the highland district of Adrane, where defaults are almost unknown, but it cannot explain why the same institution flourishes among migrants in the town of Karsk, where members share neither kin nor neighborhood and could vanish at no social cost. The auction supposes that willingness to pay for an early slot signals need, yet it signals equally well an intention never to pay again; a member planning to default will outbid anyone, since the premium is a cost she does not expect to bear. Maren Holloway's survey of Karsk circles found that auctioned groups failed more often than those whose order was settled otherwise, a result the commercial account cannot readily absorb.",
+    "What Holloway found instead was that nearly every Karsk circle has an organizer, who recruits the members, assigns the order, and personally makes up any missing contribution. Organizers, unsurprisingly, give early slots only to those whom they can locate and pressure, and the discipline that results has less to do with reputation or price than with the fact that someone with assets at stake is watching. The guarantor explanation comes closest, but it errs in distributing responsibility across members who have little reason to monitor one another. The problem of the early recipient is better understood, I suggest, as one of liability than of sanction: circles endure where the risk of default rests on a particular person with the means and the motive to prevent it."
+  ],
+  "roleMap": {
+    "paragraphs": ["context", "support", "counterpoint", "main_point"],
+    "viewpoints": [
+      { "who": "Reputational explanation", "position": "Defaulters forfeit standing in a community they depend on.", "authorAgrees": false },
+      { "who": "Guarantor (contractual) explanation", "position": "Early recipients must furnish a guarantor who covers their contributions.", "authorAgrees": null },
+      { "who": "Auction (commercial) explanation", "position": "Auctioned slots make those who want early money compensate the rest for risk.", "authorAgrees": false },
+      { "who": "Maren Holloway", "position": "Auctioned Karsk circles failed more often; most circles have an organizer who personally covers shortfalls.", "authorAgrees": true }
+    ],
+    "tone": "analytical, critical, then constructive"
+  },
+  "lowResSummary": "Author finds reputation, guarantors and auctions inadequate to explain why early recipients rarely default; an organizer who bears liability explains it.",
+  "questions": [
+    {
+      "id": "rc-m5-village-rotating-credit-q1",
+      "type": "main_point",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately expresses the main point of the passage?",
+      "choices": {
+        "A": "Rotating savings groups survive because members who default forfeit their standing in the communities on which they depend.",
+        "B": "Auctioning early slots is the most reliable way for a rotating savings group to compensate later recipients for bearing the risk of default.",
+        "C": "Rotating savings groups give members lump sums at no net cost, since each member receives over a full cycle exactly what she has paid in.",
+        "D": "Rotating savings groups in Karsk fail more often than those in Adrane because their members lack ties of kinship and neighborhood.",
+        "E": "Rotating savings groups endure not through reputational sanction or auction pricing but because a particular person with assets at stake is liable for default by early recipients."
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "Opposite. This is the reputational explanation, which the author says 'cannot explain' the circles of Karsk.",
+        "B": "Opposite. The author argues that the auction 'signals equally well an intention never to pay again' and that auctioned groups 'failed more often.'",
+        "C": "True but irrelevant. This is background from the first paragraph and sets up the problem rather than stating the author's thesis.",
+        "D": "Shell game. Holloway compared auctioned groups with others in Karsk; the passage does not compare Karsk and Adrane failure rates.",
+        "E": "Correct. The final paragraph: the problem 'is better understood... as one of liability than of sanction: circles endure where the risk of default rests on a particular person with the means and the motive to prevent it.'"
+      },
+      "trapPatterns": { "A": "opposite", "B": "opposite", "C": "true_but_irrelevant", "D": "shell_game" },
+      "keyTakeaway": "In a problem-analysis passage the main point is the author's own solution, which follows the rejection of the others.",
+      "evidence": [2, 3]
+    },
+    {
+      "id": "rc-m5-village-rotating-credit-q2",
+      "type": "stated",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "According to the passage, a member who collects the pot in the first round",
+      "choices": {
+        "A": "pays a premium that is then distributed among the other members",
+        "B": "is required by the rules of every group to furnish a guarantor",
+        "C": "has in effect borrowed from every other member and is bound to keep paying only by her own inclination",
+        "D": "gains more over a full cycle than the members who draw later slots because she receives her money earlier in the cycle",
+        "E": "is certain to be repaid by the other members if the group collapses"
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "Shell game. A premium is paid only in the auction arrangement, not in every group.",
+        "B": "Shell game. The guarantor requirement belongs to the contractual explanation, not to every group.",
+        "C": "Correct. 'In effect, borrowed from every other member, and nothing but her own inclination obliges her to keep paying.'",
+        "D": "Opposite. 'Over a full cycle no one gains or loses.'",
+        "E": "Out of scope. The passage says that late recipients, not early ones, may receive nothing if the group collapses."
+      },
+      "trapPatterns": { "A": "shell_game", "B": "shell_game", "D": "opposite", "E": "out_of_scope" },
+      "keyTakeaway": "Features of one proposed solution are tempting distractors when the question asks about the problem itself.",
+      "evidence": [0]
+    },
+    {
+      "id": "rc-m5-village-rotating-credit-q3",
+      "type": "purpose_in_context",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The author mentions the migrants of Karsk in the third paragraph primarily in order to",
+      "choices": {
+        "A": "illustrate the reputational explanation by pointing to a community in which defaults are almost unknown",
+        "B": "present a case in which circles flourish although the social conditions that the reputational explanation requires are absent",
+        "C": "show that auctions for early slots are more common in towns than in villages",
+        "D": "argue that migrants are less reliable than villagers as members of savings groups",
+        "E": "support the guarantor explanation by showing that migrants require co-signers before they are admitted to a circle in the first place"
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "Opposite. The community in which defaults are 'almost unknown' is Adrane, and Karsk is offered as a case against the reputational account.",
+        "B": "Correct. Karsk members 'share neither kin nor neighborhood and could vanish at no social cost,' yet the institution flourishes.",
+        "C": "Out of scope. The passage does not compare how common auctions are in towns and villages.",
+        "D": "Opposite. The circles are said to flourish among the migrants.",
+        "E": "Wrong part. The passage says nothing about migrants requiring co-signers; the guarantor explanation is criticized later."
+      },
+      "trapPatterns": { "A": "opposite", "C": "out_of_scope", "D": "opposite", "E": "wrong_part" },
+      "keyTakeaway": "A counterexample is introduced to defeat one specific explanation; identify which one by the condition it lacks.",
+      "evidence": [2]
+    },
+    {
+      "id": "rc-m5-village-rotating-credit-q4",
+      "type": "author_perspective",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "The passage suggests that a member of an auctioned circle who intends to default would",
+      "choices": {
+        "A": "be unwilling to bid for an early slot because she would be exposed to sanctions from the circle",
+        "B": "be deterred from bidding by the prospect of paying a high premium",
+        "C": "prefer a late slot because she could then observe whether the circle was likely to collapse before committing herself",
+        "D": "be prepared to outbid other members, since the premium is a cost she does not expect to bear",
+        "E": "reveal her intention to the other members through the size of her bid"
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "Opposite. The author says such a member 'will outbid anyone.'",
+        "B": "Opposite. The premium deters no one who does not expect to pay it.",
+        "C": "Out of scope. Nothing is said about observing the circle's prospects before choosing a slot.",
+        "D": "Correct. 'A member planning to default will outbid anyone, since the premium is a cost she does not expect to bear.'",
+        "E": "Extreme. A large bid 'signals equally well' need or an intention to default, so it does not reveal her intention."
+      },
+      "trapPatterns": { "A": "opposite", "B": "opposite", "C": "out_of_scope", "E": "extreme" },
+      "keyTakeaway": "The author's reasoning about the auction turns on who bears the cost of the premium.",
+      "evidence": [2]
+    },
+    {
+      "id": "rc-m5-village-rotating-credit-q5",
+      "type": "weaken_strengthen_evaluate",
+      "logicTags": ["causation"],
+      "difficulty": 3,
+      "stem": "Which one of the following, if true, would most weaken the author's conclusion in the final paragraph?",
+      "choices": {
+        "A": "Karsk circles whose organizers did not personally make up missing contributions collapsed no more often than those whose organizers did.",
+        "B": "Most Karsk organizers assign the early slots to members who live or work close to them.",
+        "C": "Defaults in the circles of Adrane are nearly as rare as defaults in the circles of Karsk.",
+        "D": "Some Karsk circles that auctioned their slots also had an organizer who recruited the members.",
+        "E": "Many Karsk members belong to more than one circle at the same time."
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. If circles last just as well when no one personally bears the risk of default, then the author's claim that circles endure 'where the risk of default rests on a particular person' loses its support.",
+        "B": "Wrong force. This is consistent with organizers giving early slots to those 'whom they can locate and pressure,' and so tends to support the author.",
+        "C": "True but irrelevant. Adrane is explained by reputation; the comparison does not bear on whether liability explains Karsk.",
+        "D": "True but irrelevant. The presence of an organizer in some auctioned circles does not show that liability is unimportant.",
+        "E": "Out of scope. Multiple memberships do not bear on who bears the risk of default."
+      },
+      "trapPatterns": { "B": "wrong_force", "C": "true_but_irrelevant", "D": "true_but_irrelevant", "E": "out_of_scope" },
+      "keyTakeaway": "To weaken 'X explains Y,' show Y occurring without X.",
+      "evidence": [3]
+    },
+    {
+      "id": "rc-m5-village-rotating-credit-q6",
+      "type": "analogy",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "Which one of the following is most analogous to the organizer's role in a Karsk circle as the passage describes it?",
+      "choices": {
+        "A": "a bank that lends to many borrowers and charges higher interest to those it judges likelier to default",
+        "B": "a tenants' association whose members are jointly responsible for damage to a building though none of them inspects it",
+        "C": "a contractor who recruits a crew, assigns each worker's tasks, and personally pays for any work left undone",
+        "D": "a referee who penalizes players for violating the rules of a game after play has ended",
+        "E": "an auctioneer who sells each lot to the highest bidder and distributes the proceeds among the consignors"
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "Shell game. Pricing risk through interest resembles the commercial explanation, not an organizer who absorbs shortfalls.",
+        "B": "Opposite. Responsibility spread among members who do not monitor one another is the flaw the author finds in the guarantor explanation.",
+        "C": "Correct. The organizer 'recruits the members, assigns the order, and personally makes up any missing contribution.'",
+        "D": "Shell game. Penalizing after the fact resembles social sanction, which the author distinguishes from liability.",
+        "E": "Shell game. Selling to the highest bidder resembles the auction explanation the author rejects."
+      },
+      "trapPatterns": { "A": "shell_game", "B": "opposite", "D": "shell_game", "E": "shell_game" },
+      "keyTakeaway": "An analogy item needs both halves of the described role: organizing and personally absorbing the shortfall.",
+      "evidence": [3]
+    },
+    {
+      "id": "rc-m5-village-rotating-credit-q7",
+      "type": "author_attitude",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The author's attitude toward the guarantor explanation can most accurately be described as",
+      "choices": {
+        "A": "enthusiastic endorsement, since it identifies the very mechanism that sustains the groups and answers every objection raised against the earlier explanations",
+        "B": "qualified approval, because it comes closest to the truth but spreads responsibility among members poorly placed to monitor one another",
+        "C": "outright rejection, since Holloway's survey refuted it directly",
+        "D": "neutral description, since the author declines to rank it against the other two explanations",
+        "E": "skeptical dismissal, since it merely restates the reputational explanation in other terms"
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "Extreme. The author says it 'errs' and goes on to propose a different account.",
+        "B": "Correct. 'The guarantor explanation comes closest, but it errs in distributing responsibility across members who have little reason to monitor one another.'",
+        "C": "Extreme. The author says it comes closest, and Holloway's survey is not said to refute it.",
+        "D": "Opposite. The author ranks it as the closest of the three.",
+        "E": "Shell game. The guarantor explanation concerns contractual cover, not reputation."
+      },
+      "trapPatterns": { "A": "extreme", "C": "extreme", "D": "opposite", "E": "shell_game" },
+      "keyTakeaway": "'Comes closest, but' is qualified approval: a ranking plus a defect.",
+      "evidence": [3]
+    }
+  ]
+}

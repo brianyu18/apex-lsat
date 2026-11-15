@@ -1,0 +1,200 @@
+{
+  "id": "rc-m5-glacier-surge-cycles",
+  "style": "critique_debate",
+  "topic": "natural_science",
+  "comparative": false,
+  "title": "A Dam Beneath the Ice and Its Doubters",
+  "paragraphs": [
+    "For most of their histories, the glaciers of the Hallen range move at a few meters a year, accumulating ice in an upper basin and shedding it slowly through a narrow trunk toward the sea. At intervals of several decades, however, some of them accelerate to a hundred times their usual speed, advancing kilometers in a single season, shattering their surfaces, and then lapsing back into quiescence. Such surges are not exotic; roughly one glacier in twenty in the range displays them, and they matter because the ice moved in a surge is redistributed in months rather than centuries. The account that has dominated explanations since the 1980s is that of Orsolya Teng, who attributed the cycle to the behavior of water beneath the ice.",
+    "On Teng's account, a quiescent glacier is frozen to its bed near the terminus, where thin ice and cold air produce a ring of ice-bonded sediment that functions as a dam. Meltwater generated further upglacier cannot escape through this ring and accumulates in cavities under the thickening ice of the upper basin, where its pressure rises year by year. Eventually the pressure lifts the ice enough that the dam is breached, water spreads across the bed as a thin film, friction collapses, and the glacier lurches forward. The surge ends when the film drains through newly opened channels and the cold ring slowly reforms. The model explains the periodicity of surges, which should depend on how long the dam takes to build up pressure, and it accounts for their rarity, since the dam requires a particular combination of ice thickness and climate.",
+    "Recent measurements on the Varrow Glacier, however, are difficult to reconcile with this sequence. The geophysicist Ansel Kerrigan and colleagues, using seismic stations and a string of surface markers, found that the 2019 surge began not in the upper basin but within the lower trunk, and spread upglacier at roughly the speed of a brisk walk. Water pressure in boreholes sunk in the upper basin rose only after the lower trunk had already accelerated, which is the reverse of what Teng's account requires. Kerrigan proposes that the trigger is instead mechanical: shearing in the lower trunk gradually remakes the sediment on which the glacier rests, softening it until it can no longer resist the weight of the ice, and the resulting slip then drives pressure upward through the system.",
+    "Kerrigan's findings are a serious embarrassment for Teng's account as it is usually stated, but they do not dispose of it. The Varrow rests on an unusually thick bed of fine, clay-rich sediment, and a mechanism that works there may be of little relevance to glaciers moving over rock or coarser debris, as most of the range's surge-type glaciers do. Moreover, Kerrigan's softening process still leaves unexplained why surges recur at regular intervals, which is the feature that Teng's dam explained best. The sensible conclusion is that both mechanisms operate, in different settings or in combination, and that the standard account should be understood as a description of one route to surging rather than the only one. What the Varrow results forbid is not the dam, but the assumption that every surge begins in the same place."
+  ],
+  "roleMap": {
+    "paragraphs": ["context", "support", "counterpoint", "main_point"],
+    "viewpoints": [
+      { "who": "Orsolya Teng", "position": "Surges result from meltwater dammed by a ring of ice-bonded sediment, building pressure until the dam is breached.", "authorAgrees": null },
+      { "who": "Ansel Kerrigan and colleagues", "position": "The Varrow surge began in the lower trunk, where sediment softened under shear, and pressure rose afterward.", "authorAgrees": null },
+      { "who": "The author", "position": "Both mechanisms probably operate, in different settings or in combination; the standard account must be amended, not abandoned.", "authorAgrees": true }
+    ],
+    "tone": "balanced, evaluative, measured"
+  },
+  "lowResSummary": "Author weighs a finding that undercuts the standard water-dam account of glacier surges and concludes that it and a sediment-softening mechanism both operate.",
+  "questions": [
+    {
+      "id": "rc-m5-glacier-surge-cycles-q1",
+      "type": "main_point",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately expresses the main point of the passage?",
+      "choices": {
+        "A": "The Varrow Glacier's 2019 surge shows that Teng's account of surging is mistaken and should be replaced by Kerrigan's mechanical account.",
+        "B": "Surges are uncommon among the glaciers of the Hallen range, and they matter because they redistribute ice in months rather than centuries.",
+        "C": "Kerrigan's findings expose a flaw in Teng's account as usually stated, but dam-and-pressure and sediment-softening mechanisms probably both operate, so the standard account needs amending rather than abandoning.",
+        "D": "Teng's account explains the periodicity and rarity of surges better than any mechanism that Kerrigan's work could support.",
+        "E": "Glaciers resting on fine sediment surge by a different mechanism from those resting on rock, and Teng's account applies only to the latter."
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "Extreme. The author says the findings 'do not dispose of' Teng's account.",
+        "B": "Wrong part. This is background from the first paragraph, not the author's conclusion.",
+        "C": "Correct. Paragraph 4: the findings are 'a serious embarrassment' for the account 'as it is usually stated,' yet 'both mechanisms operate,' so the standard account is 'one route to surging rather than the only one.'",
+        "D": "Comparison shift. The author notes the dam explains periodicity 'best' but concludes that both mechanisms operate, not that Kerrigan's cannot be supported.",
+        "E": "Extreme. The author says both mechanisms may operate 'in different settings or in combination,' and treats Teng's as one route among others, not as restricted to rock."
+      },
+      "trapPatterns": { "A": "extreme", "B": "wrong_part", "D": "comparison_shift", "E": "extreme" },
+      "keyTakeaway": "A debate passage's main point is usually the author's verdict, which here is a middle course.",
+      "evidence": [2, 3]
+    },
+    {
+      "id": "rc-m5-glacier-surge-cycles-q2",
+      "type": "stated",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "According to Teng's account as described in the passage, meltwater pressure beneath the upper basin rises because",
+      "choices": {
+        "A": "a ring of ice-bonded sediment near the terminus prevents the meltwater from escaping",
+        "B": "thickening ice in the upper basin melts more rapidly at its base with each passing year",
+        "C": "shearing in the lower trunk gradually softens the sediment on which the glacier rests",
+        "D": "newly opened channels force water back into the cavities beneath the ice",
+        "E": "the shattered surface of the glacier admits additional meltwater from above"
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. The ring 'functions as a dam,' and meltwater 'cannot escape through this ring.'",
+        "B": "Shell game. Thickening ice is mentioned, but the pressure rises because the water cannot escape, not because melting accelerates.",
+        "C": "Wrong part. This is Kerrigan's mechanism.",
+        "D": "Reversal. Newly opened channels drain the film at the end of a surge.",
+        "E": "Shell game. Surface shattering is a feature of a surge, not a cause of rising pressure beforehand."
+      },
+      "trapPatterns": { "B": "shell_game", "C": "wrong_part", "D": "reversal", "E": "shell_game" },
+      "keyTakeaway": "Keep Teng's and Kerrigan's mechanisms apart; distractors borrow from the rival account.",
+      "evidence": [1]
+    },
+    {
+      "id": "rc-m5-glacier-surge-cycles-q3",
+      "type": "purpose_in_context",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "The author mentions the thick bed of fine, clay-rich sediment beneath the Varrow primarily in order to",
+      "choices": {
+        "A": "explain why the Varrow surged in 2019 rather than at some other time, given the clay-rich sediment on which it rests and the stresses in its lower trunk",
+        "B": "show that Kerrigan's seismic measurements are unreliable on beds of that kind",
+        "C": "demonstrate that a dam of ice-bonded sediment could not have formed beneath the Varrow",
+        "D": "argue that glaciers resting on sediment never surge by the mechanism Teng describes",
+        "E": "suggest that Kerrigan's mechanism may have limited relevance to glaciers on other kinds of bed, so that his findings do not overturn Teng's account"
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "Out of scope. The timing of the 2019 surge is not explained by the bed.",
+        "B": "Out of scope. The author does not question the reliability of the measurements.",
+        "C": "Extreme. The author says only that the Varrow's mechanism may not generalize, not that a dam could not form there.",
+        "D": "Extreme. The author allows that the mechanisms may operate 'in combination' and never says sediment-bedded glaciers 'never' surge by Teng's route.",
+        "E": "Correct. 'A mechanism that works there may be of little relevance to glaciers moving over rock or coarser debris,' which is why the findings 'do not dispose of' Teng's account."
+      },
+      "trapPatterns": { "A": "out_of_scope", "B": "out_of_scope", "C": "extreme", "D": "extreme" },
+      "keyTakeaway": "A detail introduced right after a 'but' usually limits the force of the preceding criticism.",
+      "evidence": [3]
+    },
+    {
+      "id": "rc-m5-glacier-surge-cycles-q4",
+      "type": "stated",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "According to the passage, the borehole measurements in the Varrow's upper basin showed that",
+      "choices": {
+        "A": "water pressure had been rising for several years before the lower trunk accelerated",
+        "B": "water pressure rose only after the lower trunk had already accelerated",
+        "C": "water pressure remained constant throughout the 2019 surge",
+        "D": "the upper basin accelerated before the lower trunk but at a lower speed",
+        "E": "the ring of ice-bonded sediment had been breached before the surge began"
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "Reversal. This is the order Teng's account requires, and the measurements showed the reverse.",
+        "B": "Correct. 'Water pressure in boreholes sunk in the upper basin rose only after the lower trunk had already accelerated.'",
+        "C": "Out of scope. The measurements are said to show a rise in pressure.",
+        "D": "Reversal. The surge 'began not in the upper basin but within the lower trunk.'",
+        "E": "Out of scope. Nothing is said about a ring of sediment on the Varrow being breached."
+      },
+      "trapPatterns": { "A": "reversal", "C": "out_of_scope", "D": "reversal", "E": "out_of_scope" },
+      "keyTakeaway": "Sequence claims are the easiest to flip; track which event came first.",
+      "evidence": [2]
+    },
+    {
+      "id": "rc-m5-glacier-surge-cycles-q5",
+      "type": "weaken_strengthen_evaluate",
+      "logicTags": ["causation"],
+      "difficulty": 3,
+      "stem": "Which one of the following, if true, would most strengthen the author's conclusion that both mechanisms operate?",
+      "choices": {
+        "A": "Seismic measurements on several rock-bedded glaciers show that their surges begin in the lower trunk and spread upglacier at roughly the speed seen on the Varrow.",
+        "B": "Kerrigan's sediment-softening process has been reproduced in laboratory experiments using clay taken from the Varrow's bed.",
+        "C": "The Varrow's 2019 surge was larger than any recorded surge of a glacier resting on rock.",
+        "D": "On several rock-bedded glaciers, borehole pressure rose in the upper basin before surges began there, whereas on clay-bedded glaciers surges began in the lower trunk first.",
+        "E": "Most glaciers in the range that have surged more than once rest on fine sediment rather than on rock."
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "Opposite. It would suggest that Kerrigan's sequence is not peculiar to clay beds, weakening the claim that Teng's mechanism operates elsewhere.",
+        "B": "True but irrelevant. It supports Kerrigan's mechanism but not the claim that the two mechanisms operate in different settings.",
+        "C": "True but irrelevant. The size of one surge says nothing about which mechanism drives which glaciers.",
+        "D": "Correct. It shows each mechanism operating in its own setting, exactly the pattern the author suggests.",
+        "E": "Opposite. The author says that most surge-type glaciers move over rock or coarser debris, so this would undercut the author's reasoning about relevance."
+      },
+      "trapPatterns": { "A": "opposite", "B": "true_but_irrelevant", "C": "true_but_irrelevant", "E": "opposite" },
+      "keyTakeaway": "To support a 'both, in different settings' claim, find evidence that sorts the cases by setting.",
+      "evidence": [2, 3]
+    },
+    {
+      "id": "rc-m5-glacier-surge-cycles-q6",
+      "type": "meaning_in_context",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately expresses the meaning of 'dispose of' as it is used in the passage?",
+      "choices": {
+        "A": "refute so completely that the account can no longer be defended",
+        "B": "discard as a worthless or unwanted object that has outlived its usefulness",
+        "C": "arrange in an orderly sequence for later use",
+        "D": "manage or regulate the manner in which the account is applied",
+        "E": "damage to a modest degree while leaving it standing"
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. The findings are 'a serious embarrassment' but 'do not dispose of' the account, and the author goes on to defend it as one route to surging.",
+        "B": "Shell game. This is the literal sense of discarding an object and does not fit an account being evaluated.",
+        "C": "Out of scope. Nothing in the passage concerns arranging the account for later use.",
+        "D": "Out of scope. The sentence concerns whether the account survives, not how it is applied.",
+        "E": "Wrong force. A serious embarrassment is more than modest damage; the clause says the account is not refuted."
+      },
+      "trapPatterns": { "B": "shell_game", "C": "out_of_scope", "D": "out_of_scope", "E": "wrong_force" },
+      "keyTakeaway": "Test a phrase by substituting each choice into the sentence and asking whether the 'but' still makes sense.",
+      "evidence": [3]
+    },
+    {
+      "id": "rc-m5-glacier-surge-cycles-q7",
+      "type": "analogy",
+      "logicTags": [],
+      "difficulty": 4,
+      "stem": "Which one of the following is most analogous to the relationship that the author sees between Teng's account and Kerrigan's findings?",
+      "choices": {
+        "A": "A study of one hospital shows that a widely used screening test misdiagnoses patients, so the test is abandoned in favor of one developed at that hospital by its authors.",
+        "B": "A new measurement of one comet's orbit disagrees with a standard model, and astronomers blame instrument error and keep the model unchanged.",
+        "C": "A theory that explains why ice forms on ponds is shown to apply equally well to ice forming on rivers.",
+        "D": "Two competing explanations of a disease's origin are shown to be the same explanation under different names.",
+        "E": "A rule that bridges fail through metal fatigue is contradicted by a collapse on clay soil, so engineers conclude that fatigue is one cause among several."
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "Extreme. The author does not abandon Teng's account in favor of Kerrigan's.",
+        "B": "Opposite. The author treats the findings as 'a serious embarrassment' and does not dismiss them as error.",
+        "C": "Out of scope. No new case extends the account's reach; the new case challenges it.",
+        "D": "Shell game. The author treats the two mechanisms as distinct, not as the same explanation renamed.",
+        "E": "Correct. A new case in an unusual setting contradicts a general rule, which is kept as one cause among several."
+      },
+      "trapPatterns": { "A": "extreme", "B": "opposite", "C": "out_of_scope", "D": "shell_game" },
+      "keyTakeaway": "Map the structure: general account, anomalous case in an unusual setting, verdict of 'one cause among several.'",
+      "evidence": [2, 3]
+    }
+  ]
+}
