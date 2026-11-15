@@ -1,1103 +1,1103 @@
 [
-  {
-    "id": "lr-n-flaw-gratitude-journal",
-    "section": "LR",
-    "type": "flaw",
-    "logicTags": [
-      "causation"
-    ],
-    "difficulty": 1,
-    "stimulus": "Psychologist: In a survey of four hundred adults, those who kept a daily gratitude journal reported significantly higher life satisfaction than those who did not. Clearly, keeping a gratitude journal makes people more satisfied with their lives.",
-    "stem": "The reasoning in the argument is most vulnerable to criticism on the grounds that it",
-    "choices": {
-      "A": "relies on a survey of self-reports rather than on direct observation of how the adults actually behave from day to day over a period of months",
-      "B": "overlooks the possibility that people who are already satisfied with their lives are the ones likely to keep such a journal",
-      "C": "assumes that life satisfaction can be measured equally well in adults of every age and background",
-      "D": "draws a conclusion about adults generally from a survey of only four hundred of them",
-      "E": "treats a habit that raises satisfaction for some people as one that every person should adopt"
-    },
-    "answer": "B",
-    "explanations": {
-      "A": "Wrong force: self-reports are the normal way to measure satisfaction, and the argument's real gap would remain even with observed behavior.",
-      "B": "Correct. The survey shows only a correlation. Satisfied people may be the ones who take up journaling, so the causal claim reverses or ignores the direction of causation.",
-      "C": "Out of scope: the argument does not depend on measurement being equally good across ages.",
-      "D": "Wrong force: four hundred is not obviously too few, and a larger sample would still show only a correlation.",
-      "E": "Wrong part: the psychologist claims journaling makes people more satisfied, not that everyone should do it."
-    },
-    "trapPatterns": {
-      "A": "wrong_force",
-      "C": "out_of_scope",
-      "D": "wrong_force",
-      "E": "wrong_part"
-    },
-    "keyTakeaway": "A correlation reported as a cause invites the reverse-direction question: could the outcome be producing the behavior?",
-    "predictionHint": "Correlation to cause: satisfied people may be the ones who journal."
+ {
+  "id": "lr-n-flaw-gratitude-journal",
+  "section": "LR",
+  "type": "flaw",
+  "logicTags": [
+   "causation"
+  ],
+  "difficulty": 1,
+  "stimulus": "Psychologist: In a survey of four hundred adults, those who kept a daily gratitude journal reported significantly higher life satisfaction than those who did not. Clearly, keeping a gratitude journal makes people more satisfied with their lives.",
+  "stem": "The reasoning in the argument is most vulnerable to criticism on the grounds that it",
+  "choices": {
+   "A": "relies on a survey of self-reports rather than on direct observation of how the adults actually behave from day to day over a period of months",
+   "B": "overlooks the possibility that people who are already satisfied with their lives are the ones likely to keep such a journal",
+   "C": "assumes that life satisfaction can be measured equally well in adults of every age and background",
+   "D": "draws a conclusion about adults generally from a survey of only four hundred of them",
+   "E": "treats a habit that raises satisfaction for some people as one that every person should adopt"
   },
-  {
-    "id": "lr-n-flaw-database-test-queries",
-    "section": "LR",
-    "type": "flaw",
-    "logicTags": [
-      "sampling"
-    ],
-    "difficulty": 1,
-    "stimulus": "Engineer: Our new database software was tested on three hundred sample queries, and it returned a correct result every time. Therefore, the software will never return an incorrect result.",
-    "stem": "The argument is flawed in that it",
-    "choices": {
-      "A": "assumes that returning correct results is the only measure of how good database software is",
-      "B": "fails to consider that competing database programs may process queries faster",
-      "C": "presumes that no test of three hundred queries could ever be informative",
-      "D": "confuses the correctness of results with the speed at which they are returned",
-      "E": "treats the absence of errors in a limited set of tests as proof that errors cannot occur"
-    },
-    "answer": "E",
-    "explanations": {
-      "A": "Extreme: the argument never claims correctness is the only measure of quality.",
-      "B": "Out of scope: comparison with competitors is not at issue.",
-      "C": "Opposite: the engineer treats the test as highly informative; the flaw is overreliance, not that the test is useless.",
-      "D": "Shell game: the premise and conclusion are both about correctness, so speed is not being confused with it.",
-      "E": "Correct. A finite set of successful tests cannot establish that failure is impossible for all queries, including ones not tested."
-    },
-    "trapPatterns": {
-      "A": "extreme",
-      "B": "out_of_scope",
-      "C": "opposite",
-      "D": "shell_game"
-    },
-    "keyTakeaway": "A conclusion about 'never' or 'always' needs more than a limited run of confirming cases.",
-    "predictionHint": "Small set of passes cannot show errors are impossible."
+  "answer": "B",
+  "explanations": {
+   "A": "Wrong force: self-reports are the normal way to measure satisfaction, and the argument's real gap would remain even with observed behavior.",
+   "B": "Correct. The survey shows only a correlation. Satisfied people may be the ones who take up journaling, so the causal claim reverses or ignores the direction of causation.",
+   "C": "Out of scope: the argument does not depend on measurement being equally good across ages.",
+   "D": "Wrong force: four hundred is not obviously too few, and a larger sample would still show only a correlation.",
+   "E": "Wrong part: the psychologist claims journaling makes people more satisfied, not that everyone should do it."
   },
-  {
-    "id": "lr-n-flaw-coop-priority-list",
-    "section": "LR",
-    "type": "flaw",
-    "logicTags": [
-      "conditional"
-    ],
-    "difficulty": 2,
-    "stimulus": "Co-op manager: Only members who have waited at least five years are placed on the priority list for a larger apartment. Ms. Okafor has been a member for six years. Therefore, she is on the priority list for a larger apartment.",
-    "stem": "The reasoning in the argument is most vulnerable to criticism on the grounds that it",
-    "choices": {
-      "A": "treats a condition that is required for being on the priority list as though it guaranteed being on it",
-      "B": "fails to consider that apartments of different sizes may have different waiting periods",
-      "C": "assumes that Ms. Okafor actually wishes to move to a larger apartment",
-      "D": "infers a fact about Ms. Okafor from a fact about most members of the co-op",
-      "E": "relies on the manager's own description of the co-op's rules rather than on the written policy that the co-op's members have formally adopted"
-    },
-    "answer": "A",
-    "explanations": {
-      "A": "Correct. The rule makes five years necessary for the list, not sufficient. Ms. Okafor meets the requirement, but nothing says that alone puts her on the list.",
-      "B": "Out of scope: the rule as stated concerns one list and one waiting period.",
-      "C": "Out of scope: her wishes do not bear on whether the rule places her on the list.",
-      "D": "Wrong part: the argument is about one member and makes no claim about most members.",
-      "E": "Wrong force: the manager is an authority on the rules, and the gap would remain even with written policy."
-    },
-    "trapPatterns": {
-      "B": "out_of_scope",
-      "C": "out_of_scope",
-      "D": "wrong_part",
-      "E": "wrong_force"
-    },
-    "keyTakeaway": "'Only those who' states a necessary condition; meeting it never guarantees the outcome.",
-    "predictionHint": "Necessary condition mistaken for sufficient."
+  "trapPatterns": {
+   "A": "wrong_force",
+   "C": "out_of_scope",
+   "D": "wrong_force",
+   "E": "wrong_part"
   },
-  {
-    "id": "lr-n-flaw-academy-majority-of-majority",
-    "section": "LR",
-    "type": "flaw",
-    "logicTags": [
-      "quantifiers"
-    ],
-    "difficulty": 3,
-    "stimulus": "Dean: At Halvorsen Academy, most students who play a musical instrument are members of the orchestra, and most orchestra members have won a regional competition. Therefore, most students at the academy who play a musical instrument have won a regional competition.",
-    "stem": "The reasoning in the argument is most vulnerable to criticism on the grounds that it",
-    "choices": {
-      "A": "overlooks that a majority of a majority of the instrument players may be less than a majority of all instrument players",
-      "B": "mistakes membership in the orchestra for the cause of winning regional competitions",
-      "C": "assumes without justification that every member of the orchestra plays an instrument rather than, for example, singing or conducting the ensemble",
-      "D": "draws a conclusion about all instrument players from a claim about only most of them",
-      "E": "relies on regional competitions as an adequate measure of musical ability"
-    },
-    "answer": "A",
-    "explanations": {
-      "A": "Correct. If, say, 60 of 100 players are in the orchestra and 31 of those 60 won, only 31 of the 100 players have won. Two majorities need not yield a majority.",
-      "B": "Out of scope: the argument draws no causal conclusion.",
-      "C": "Half right: it may be questionable, but even if every orchestra member plays an instrument the inference still fails.",
-      "D": "Wrong force: the conclusion itself says 'most,' not 'all.'",
-      "E": "Out of scope: the measure of ability is not what the inference turns on."
-    },
-    "trapPatterns": {
-      "B": "out_of_scope",
-      "C": "half_right",
-      "D": "wrong_force",
-      "E": "out_of_scope"
-    },
-    "keyTakeaway": "Chained 'most' statements do not combine: a majority of a majority can be a minority.",
-    "predictionHint": "Most of most is not necessarily most."
+  "keyTakeaway": "A correlation reported as a cause invites the reverse-direction question: could the outcome be producing the behavior?",
+  "predictionHint": "Correlation to cause: satisfied people may be the ones who journal."
+ },
+ {
+  "id": "lr-n-flaw-database-test-queries",
+  "section": "LR",
+  "type": "flaw",
+  "logicTags": [
+   "sampling"
+  ],
+  "difficulty": 1,
+  "stimulus": "Engineer: Our new database software was tested on three hundred sample queries, and it returned a correct result every time. Therefore, the software will never return an incorrect result.",
+  "stem": "The argument is flawed in that it",
+  "choices": {
+   "A": "assumes that returning correct results is the only measure of how good database software is",
+   "B": "fails to consider that competing database programs may process queries faster",
+   "C": "presumes that no test of three hundred queries could ever be informative",
+   "D": "confuses the correctness of results with the speed at which they are returned",
+   "E": "treats the absence of errors in a limited set of tests as proof that errors cannot occur"
   },
-  {
-    "id": "lr-n-flaw-contractor-qualified-systems",
-    "section": "LR",
-    "type": "flaw",
-    "logicTags": [
-      "quantifiers",
-      "conditional"
-    ],
-    "difficulty": 4,
-    "stimulus": "Facilities director: For each system in the new campus building, whether heating, plumbing, or wiring, there is a contractor on our approved list who is qualified to install it. Therefore, there is a contractor on our approved list who is qualified to install every one of the building's systems, so we need to hire only one firm.",
-    "stem": "The argument is flawed in that it",
-    "choices": {
-      "A": "assumes that a contractor qualified to install a system will in fact be available to install it",
-      "B": "concludes that every contractor on the approved list is qualified for every system from the fact that each system has some qualified contractor",
-      "C": "fails to consider that hiring one firm for all the systems might cost more than hiring several",
-      "D": "infers that a single contractor is qualified for all of the systems from the fact that each system has some contractor qualified for it",
-      "E": "treats a qualification established for each system taken separately as showing that the building as a whole meets safety standards"
-    },
-    "answer": "D",
-    "explanations": {
-      "A": "Out of scope: availability is never raised; the gap is in the logic of the qualifications themselves.",
-      "B": "Shell game: the conclusion says only that there is a contractor qualified for every system, not that every contractor is. The word 'every' attaches to the wrong group.",
-      "C": "Out of scope: cost is a practical matter that the conclusion does not rest on.",
-      "D": "Correct. 'For each system, some contractor' is compatible with a different contractor for each system. The director shifts to 'some one contractor for every system.'",
-      "E": "Out of scope: safety standards are not mentioned; the argument concerns who is qualified to install the systems."
-    },
-    "trapPatterns": {
-      "A": "out_of_scope",
-      "B": "shell_game",
-      "C": "out_of_scope",
-      "E": "out_of_scope"
-    },
-    "keyTakeaway": "'For each X there is a Y' does not give 'there is a Y for every X'; check whether the Y can vary.",
-    "predictionHint": "Quantifier shift: different contractors could cover different systems."
+  "answer": "E",
+  "explanations": {
+   "A": "Extreme: the argument never claims correctness is the only measure of quality.",
+   "B": "Out of scope: comparison with competitors is not at issue.",
+   "C": "Opposite: the engineer treats the test as highly informative; the flaw is overreliance, not that the test is useless.",
+   "D": "Shell game: the premise and conclusion are both about correctness, so speed is not being confused with it.",
+   "E": "Correct. A finite set of successful tests cannot establish that failure is impossible for all queries, including ones not tested."
   },
-  {
-    "id": "lr-n-mss-tutors-training-course",
-    "section": "LR",
-    "type": "most_strongly_supported",
-    "logicTags": [
-      "quantifiers"
-    ],
-    "difficulty": 1,
-    "stimulus": "Every tutor at the Bayside Learning Center has completed a training course. Some of the tutors at the center are retired teachers. No one who has not completed the training course may work with students who have learning disabilities.",
-    "stem": "Which one of the following is most strongly supported by the information above?",
-    "choices": {
-      "A": "Some retired teachers at the center work with students who have learning disabilities.",
-      "B": "Most tutors at the center are retired teachers.",
-      "C": "Some retired teachers have completed the training course.",
-      "D": "Every tutor at the center works with students who have learning disabilities.",
-      "E": "No retired teacher at the center lacks a college degree."
-    },
-    "answer": "C",
-    "explanations": {
-      "A": "Extreme: completing the course is required for such work, but nothing says any retired teacher actually does it.",
-      "B": "Wrong force: 'some' tutors are retired teachers; nothing supports 'most.'",
-      "C": "Correct. Every tutor completed the course, and some tutors are retired teachers, so some retired teachers completed it.",
-      "D": "Reversal: the course is required for working with these students, not the reverse.",
-      "E": "Out of scope: college degrees are never mentioned."
-    },
-    "trapPatterns": {
-      "A": "extreme",
-      "B": "wrong_force",
-      "D": "reversal",
-      "E": "out_of_scope"
-    },
-    "keyTakeaway": "Combine 'every A is B' with 'some A is C' to get 'some C is B'.",
-    "predictionHint": "Some tutors are retired teachers and all tutors trained."
+  "trapPatterns": {
+   "A": "extreme",
+   "B": "out_of_scope",
+   "C": "opposite",
+   "D": "shell_game"
   },
-  {
-    "id": "lr-n-mss-smartwatch-battery",
-    "section": "LR",
-    "type": "most_strongly_supported",
-    "logicTags": [
-      "quantifiers",
-      "conditional"
-    ],
-    "difficulty": 2,
-    "stimulus": "Most smartwatch models released in the last two years can track sleep. Every smartwatch that tracks sleep has a heart-rate sensor. No smartwatch that has a heart-rate sensor lasts more than five days on a single charge.",
-    "stem": "The statements above, if true, most strongly support which one of the following?",
-    "choices": {
-      "A": "Every smartwatch model released in the last two years has a heart-rate sensor.",
-      "B": "Smartwatches that lack a heart-rate sensor last more than five days on a single charge, whatever other features they offer",
-      "C": "Most smartwatches that last five days or fewer on a single charge can track sleep.",
-      "D": "Smartwatches that cannot track sleep have no heart-rate sensor.",
-      "E": "Most smartwatch models released in the last two years last no more than five days on a single charge."
-    },
-    "answer": "E",
-    "explanations": {
-      "A": "Extreme: only most of the recent models are said to track sleep, so some may lack the sensor.",
-      "B": "Reversal: lacking the sensor removes the limit, but nothing says those watches last longer.",
-      "C": "Reversal: the premises give a quantity for recent models that track sleep, not for watches classified by battery life.",
-      "D": "Reversal: sleep tracking requires the sensor, not the other way around.",
-      "E": "Correct. Most recent models track sleep, so have the sensor, so last no more than five days. Most of them therefore have the short battery life."
-    },
-    "trapPatterns": {
-      "A": "extreme",
-      "B": "necessary_v_sufficient",
-      "C": "reversal",
-      "D": "reversal"
-    },
-    "keyTakeaway": "Chain the conditionals, then carry the quantifier 'most' to the end of the chain.",
-    "predictionHint": "Most track sleep, so sensor, so five days or fewer."
+  "keyTakeaway": "A conclusion about 'never' or 'always' needs more than a limited run of confirming cases.",
+  "predictionHint": "Small set of passes cannot show errors are impossible."
+ },
+ {
+  "id": "lr-n-flaw-coop-priority-list",
+  "section": "LR",
+  "type": "flaw",
+  "logicTags": [
+   "conditional"
+  ],
+  "difficulty": 2,
+  "stimulus": "Co-op manager: Only members who have waited at least five years are placed on the priority list for a larger apartment. Ms. Okafor has been a member for six years. Therefore, she is on the priority list for a larger apartment.",
+  "stem": "The reasoning in the argument is most vulnerable to criticism on the grounds that it",
+  "choices": {
+   "A": "treats a condition that is required for being on the priority list as though it guaranteed being on it",
+   "B": "fails to consider that apartments of different sizes may have different waiting periods",
+   "C": "assumes that Ms. Okafor actually wishes to move to a larger apartment",
+   "D": "infers a fact about Ms. Okafor from a fact about most members of the co-op",
+   "E": "relies on the manager's own description of the co-op's rules rather than on the written policy that the co-op's members have formally adopted"
   },
-  {
-    "id": "lr-n-mss-eye-contact-word-learning",
-    "section": "LR",
-    "type": "most_strongly_supported",
-    "logicTags": [
-      "lack_of_support_v_false"
-    ],
-    "difficulty": 3,
-    "stimulus": "In an experiment, preschool children were taught a made-up word for an unfamiliar object under one of two conditions. In one, the speaker looked at the child while naming the object; in the other, the speaker named the object while looking away. Children in the first condition later identified the object by name significantly more often than children in the second. The two groups did not differ in average age, vocabulary size, or scores on a standard attention test.",
-    "stem": "Which one of the following is most strongly supported by the information above?",
-    "choices": {
-      "A": "Among children like those tested, a speaker's eye contact can make learning a new word more likely.",
-      "B": "Children cannot learn the name of an object from a speaker who looks away while naming it.",
-      "C": "Eye contact is the most important factor in whether preschool children learn new words.",
-      "D": "Children who identify new objects by name more often also tend to make more eye contact with speakers.",
-      "E": "Children in the eye-contact condition were more attentive to the speaker than children in the other condition."
-    },
-    "answer": "A",
-    "explanations": {
-      "A": "Correct. Because the groups were matched, the difference is best explained by the condition, so eye contact can raise the likelihood of learning in children like these.",
-      "B": "Extreme: the second group learned less often, not never.",
-      "C": "Comparison shift: nothing compares eye contact with other factors.",
-      "D": "Reversal: the experiment manipulated eye contact; it says nothing about which children make more of it on their own.",
-      "E": "Contradicts the stimulus: the groups did not differ on the attention test, so greater attentiveness is not supported."
-    },
-    "trapPatterns": {
-      "B": "extreme",
-      "C": "comparison_shift",
-      "D": "reversal",
-      "E": "opposite"
-    },
-    "keyTakeaway": "When groups are matched on rival factors, the manipulated condition is the best-supported explanation, but keep the conclusion hedged.",
-    "predictionHint": "Hedged: eye contact can help in children like these."
+  "answer": "A",
+  "explanations": {
+   "A": "Correct. The rule makes five years necessary for the list, not sufficient. Ms. Okafor meets the requirement, but nothing says that alone puts her on the list.",
+   "B": "Out of scope: the rule as stated concerns one list and one waiting period.",
+   "C": "Out of scope: her wishes do not bear on whether the rule places her on the list.",
+   "D": "Wrong part: the argument is about one member and makes no claim about most members.",
+   "E": "Wrong force: the manager is an authority on the rules, and the gap would remain even with written policy."
   },
-  {
-    "id": "lr-n-na-furnace-payback",
-    "section": "LR",
-    "type": "necessary_assumption",
-    "logicTags": [
-      "math_percent"
-    ],
-    "difficulty": 2,
-    "stimulus": "Homeowner: Replacing our old furnace with a high-efficiency model will pay for itself. The new furnace would cut our heating bill by about four hundred dollars a year, and it would cost thirty-two hundred dollars installed.",
-    "stem": "The argument depends on assuming which one of the following?",
-    "choices": {
-      "A": "The old furnace would have needed costly repairs within the next few years.",
-      "B": "The new furnace will remain in service for at least eight years.",
-      "C": "Heating costs in our area will not rise appreciably over the coming decade.",
-      "D": "No other furnace model would cost less to install while saving as much on heating.",
-      "E": "Most homeowners who install high-efficiency furnaces eventually recover the installation cost."
-    },
-    "answer": "B",
-    "explanations": {
-      "A": "Premise booster: this might add to the case for replacing, but the argument can succeed without it.",
-      "B": "Correct. Savings of $400 a year reach $3,200 only after eight years. If the furnace were retired sooner, it could not pay for itself; this is required.",
-      "C": "Not required: rising costs would increase the savings, not undermine them.",
-      "D": "Comparison shift: the conclusion is that this furnace pays for itself, not that it is the best choice.",
-      "E": "Wrong part: facts about homeowners in general are not needed to evaluate this furnace's payback."
-    },
-    "trapPatterns": {
-      "A": "premise_booster",
-      "C": "reversal",
-      "D": "comparison_shift",
-      "E": "wrong_part"
-    },
-    "keyTakeaway": "Run the arithmetic in the premises and ask what must be true for the stated numbers to reach the conclusion.",
-    "predictionHint": "Furnace must last long enough to accumulate $3,200 in savings."
+  "trapPatterns": {
+   "B": "out_of_scope",
+   "C": "out_of_scope",
+   "D": "wrong_part",
+   "E": "wrong_force"
   },
-  {
-    "id": "lr-n-na-phonics-pilot-schools",
-    "section": "LR",
-    "type": "necessary_assumption",
-    "logicTags": [
-      "sampling",
-      "link_assumption"
-    ],
-    "difficulty": 3,
-    "stimulus": "Principal: Our school should adopt the Lumen phonics curriculum. In the three district schools that piloted it, reading scores rose steadily over two years, while scores at the district's other schools stayed flat. Since the pilot schools were chosen by lottery, their gains cannot be attributed to an unusual starting position.",
-    "stem": "The principal's argument depends on assuming which one of the following?",
-    "choices": {
-      "A": "Reading scores at the three pilot schools were unusually low before the pilot began.",
-      "B": "No other reading curriculum that the district could have chosen would have raised scores at our school by more than Lumen would",
-      "C": "The pilot schools received more funding for reading instruction than our school does.",
-      "D": "Our school does not differ from the pilot schools in ways that would keep Lumen from raising reading scores here.",
-      "E": "Teachers at the pilot schools preferred Lumen to the curriculum they had used before."
-    },
-    "answer": "D",
-    "explanations": {
-      "A": "Opposite: the principal says the pilot schools were not unusual in their starting position, and the argument requires no such low baseline.",
-      "B": "Comparison shift: the conclusion is that Lumen should be adopted, not that it is the best option for the school.",
-      "C": "Opposite: extra funding at the pilot schools would suggest a different explanation for their gains and weaken the argument.",
-      "D": "Correct. The evidence concerns three other schools, so the argument needs those schools to be relevantly similar to this one. If some difference kept Lumen from working here, the recommendation would fail.",
-      "E": "Out of scope: teacher preference is not needed for the claim that scores rise under the curriculum."
-    },
-    "trapPatterns": {
-      "A": "opposite",
-      "B": "comparison_shift",
-      "C": "opposite",
-      "E": "out_of_scope"
-    },
-    "keyTakeaway": "When evidence comes from other cases, the needed assumption is often that the target case is relevantly similar.",
-    "predictionHint": "Our school resembles the pilot schools in relevant ways."
+  "keyTakeaway": "'Only those who' states a necessary condition; meeting it never guarantees the outcome.",
+  "predictionHint": "Necessary condition mistaken for sufficient."
+ },
+ {
+  "id": "lr-n-flaw-academy-majority-of-majority",
+  "section": "LR",
+  "type": "flaw",
+  "logicTags": [
+   "quantifiers"
+  ],
+  "difficulty": 3,
+  "stimulus": "Dean: At Halvorsen Academy, most students who play a musical instrument are members of the orchestra, and most orchestra members have won a regional competition. Therefore, most students at the academy who play a musical instrument have won a regional competition.",
+  "stem": "The reasoning in the argument is most vulnerable to criticism on the grounds that it",
+  "choices": {
+   "A": "overlooks that a majority of a majority of the instrument players may be less than a majority of all instrument players",
+   "B": "mistakes membership in the orchestra for the cause of winning regional competitions",
+   "C": "assumes without justification that every member of the orchestra plays an instrument rather than, for example, singing or conducting the ensemble",
+   "D": "draws a conclusion about all instrument players from a claim about only most of them",
+   "E": "relies on regional competitions as an adequate measure of musical ability"
   },
-  {
-    "id": "lr-n-na-pellam-letters-rag-paper",
-    "section": "LR",
-    "type": "necessary_assumption",
-    "logicTags": [
-      "conditional",
-      "link_assumption"
-    ],
-    "difficulty": 4,
-    "stimulus": "Archivist: Every authentic letter from the Pellam era was written on paper made from rag fiber. Yet chemical analysis of the paper in each of the disputed letters in the Pellam collection found no rag fiber at all. Therefore, none of the disputed letters can be authentic.",
-    "stem": "Which one of the following is an assumption required by the argument?",
-    "choices": {
-      "A": "Every letter from the Pellam era that was written on rag paper is authentic.",
-      "B": "No forger working in the Pellam era had access to paper made from rag fiber.",
-      "C": "Chemical analysis can detect rag fiber in a letter's paper only if the paper was made from rag fiber.",
-      "D": "The disputed letters in the Pellam collection were all written on the same kind of paper.",
-      "E": "If the paper of a disputed letter had been made from rag fiber, chemical analysis would have found rag fiber in it."
-    },
-    "answer": "E",
-    "explanations": {
-      "A": "Reversal: this treats rag paper as sufficient for authenticity, but the argument only uses it as necessary.",
-      "B": "Out of scope: forgers' access to materials does not bear on whether a letter lacking rag fiber is authentic.",
-      "C": "Reversal: this concerns false positives. The argument depends on the analysis not missing rag fiber that is present, so an analysis that could also err the other way would not hurt it.",
-      "D": "Not required: the analysis found no rag fiber in any disputed letter, whatever other paper they were written on.",
-      "E": "Correct. The premises give 'authentic implies rag fiber.' Without an analysis that would reveal rag fiber when present, finding none would not show it is absent. Denying this opens the gap."
-    },
-    "trapPatterns": {
-      "A": "reversal",
-      "B": "out_of_scope",
-      "C": "necessary_v_sufficient",
-      "D": "true_but_irrelevant"
-    },
-    "keyTakeaway": "Distinguish 'if' from 'only if' in the test's reliability: an argument from a negative test result needs the test to catch positives.",
-    "predictionHint": "Test must detect rag fiber when present; not the converse."
+  "answer": "A",
+  "explanations": {
+   "A": "Correct. If, say, 60 of 100 players are in the orchestra and 31 of those 60 won, only 31 of the 100 players have won. Two majorities need not yield a majority.",
+   "B": "Out of scope: the argument draws no causal conclusion.",
+   "C": "Half right: it may be questionable, but even if every orchestra member plays an instrument the inference still fails.",
+   "D": "Wrong force: the conclusion itself says 'most,' not 'all.'",
+   "E": "Out of scope: the measure of ability is not what the inference turns on."
   },
-  {
-    "id": "lr-n-weaken-alder-lane-speed-bumps",
-    "section": "LR",
-    "type": "weaken",
-    "logicTags": [
-      "causation",
-      "comparison"
-    ],
-    "difficulty": 1,
-    "stimulus": "Neighborhood association president: Installing speed bumps on Alder Lane will reduce the number of traffic accidents there. Last year Alder Lane had twelve accidents, while Birch Lane, which already has speed bumps, had only three.",
-    "stem": "Which one of the following, if true, most seriously weakens the argument?",
-    "choices": {
-      "A": "Speed bumps cost the association more to install than most other traffic-calming measures do.",
-      "B": "Some drivers who use Birch Lane complain that its speed bumps damage their cars.",
-      "C": "All of the accidents that occurred on Alder Lane last year caused only minor property damage.",
-      "D": "Birch Lane is a short dead-end street that carries only a small fraction of the traffic that Alder Lane carries.",
-      "E": "Birch Lane had more accidents in the year before its speed bumps were installed than Alder Lane had last year, and fewer afterward."
-    },
-    "answer": "D",
-    "explanations": {
-      "A": "Out of scope: installation cost does not affect whether the bumps reduce accidents.",
-      "B": "True but irrelevant: complaints about car damage do not show the bumps fail to reduce accidents.",
-      "C": "Out of scope: the severity of the accidents is not at issue, only their number.",
-      "D": "Correct. If Birch Lane simply has far less traffic, its lower accident count is explained without the speed bumps, so the comparison fails to show they reduce accidents.",
-      "E": "Opposite: a drop in accidents after installation on Birch Lane would strengthen the claim."
-    },
-    "trapPatterns": {
-      "A": "out_of_scope",
-      "B": "true_but_irrelevant",
-      "C": "out_of_scope",
-      "E": "opposite"
-    },
-    "keyTakeaway": "A comparison supports a cause only if the compared cases are alike in other relevant ways.",
-    "predictionHint": "Alternative explanation: traffic volume differs."
+  "trapPatterns": {
+   "B": "out_of_scope",
+   "C": "half_right",
+   "D": "wrong_force",
+   "E": "out_of_scope"
   },
-  {
-    "id": "lr-n-weaken-study-hall-gpa",
-    "section": "LR",
-    "type": "weaken",
-    "logicTags": [
-      "causation"
-    ],
-    "difficulty": 2,
-    "stimulus": "School counselor: Of the forty students who attended our after-school study hall last fall, thirty-one raised their grade point averages by the end of the term. The study hall is clearly effective at improving grades, so the school should continue to fund it.",
-    "stem": "Which one of the following, if true, most seriously weakens the counselor's argument?",
-    "choices": {
-      "A": "A few of the students who did not attend the study hall also raised their grade point averages.",
-      "B": "Students are assigned to the study hall only after earning their lowest grades of the year, and students who have hit such a low point usually improve whether or not they receive help.",
-      "C": "Several of the students who attended the study hall said that they found it helpful.",
-      "D": "The cost of the study hall per student is higher than the cost of the school's other tutoring programs.",
-      "E": "Nine of the forty students who attended the study hall did not raise their grade point averages."
-    },
-    "answer": "B",
-    "explanations": {
-      "A": "Half right: a few improving non-attenders is expected and does not show that attenders would have improved equally without the study hall.",
-      "B": "Correct. If students regress upward from a low point regardless of help, their improvement can be explained without the study hall.",
-      "C": "Opposite: students' favorable opinions would, if anything, support the counselor.",
-      "D": "True but irrelevant: the conclusion is that the study hall improves grades, and a recommendation to continue funding it is not undermined by comparative cost alone.",
-      "E": "Premise booster: this merely restates the data given, it merely restates the given data, since nine of forty not improving is already implied by thirty-one improving."
-    },
-    "trapPatterns": {
-      "A": "half_right",
-      "C": "opposite",
-      "D": "true_but_irrelevant",
-      "E": "premise_booster"
-    },
-    "keyTakeaway": "Look for an alternative explanation that would produce the same improvement without the proposed cause.",
-    "predictionHint": "Regression to the mean explains the gains."
+  "keyTakeaway": "Chained 'most' statements do not combine: a majority of a majority can be a minority.",
+  "predictionHint": "Most of most is not necessarily most."
+ },
+ {
+  "id": "lr-n-flaw-contractor-qualified-systems",
+  "section": "LR",
+  "type": "flaw",
+  "logicTags": [
+   "quantifiers",
+   "conditional"
+  ],
+  "difficulty": 4,
+  "stimulus": "Facilities director: For each system in the new campus building, whether heating, plumbing, or wiring, there is a contractor on our approved list who is qualified to install it. Therefore, there is a contractor on our approved list who is qualified to install every one of the building's systems, so we need to hire only one firm.",
+  "stem": "The argument is flawed in that it",
+  "choices": {
+   "A": "assumes that a contractor qualified to install a system will in fact be available to install it",
+   "B": "concludes that every contractor on the approved list is qualified for every system from the fact that each system has some qualified contractor",
+   "C": "fails to consider that hiring one firm for all the systems might cost more than hiring several",
+   "D": "infers that a single contractor is qualified for all of the systems from the fact that each system has some contractor qualified for it",
+   "E": "treats a qualification established for each system taken separately as showing that the building as a whole meets safety standards"
   },
-  {
-    "id": "lr-n-weaken-notification-feature",
-    "section": "LR",
-    "type": "weaken",
-    "logicTags": [
-      "causation",
-      "comparison"
-    ],
-    "difficulty": 3,
-    "stimulus": "Product manager: After we launched push notifications to all users in March, the average number of daily sessions per user rose eighteen percent over the following two months. No other change was made to the app during that time, and the number of users stayed about the same. The notification feature must therefore have caused the increase in usage.",
-    "stem": "Which one of the following, if true, most calls into question the product manager's argument?",
-    "choices": {
-      "A": "Some users turned the notifications off within a week of the launch.",
-      "B": "Average daily sessions per user had been flat in the months before March.",
-      "C": "In each of the past four years, average daily sessions per user have risen by about eighteen percent between March and May.",
-      "D": "The notification feature was designed by the company's most experienced engineers.",
-      "E": "Although sessions per user rose after the launch, the average length of each session declined by a noticeable amount over the same period"
-    },
-    "answer": "C",
-    "explanations": {
-      "A": "Half right: users disabling the feature may limit its effect, but it does not offer another explanation for the rise.",
-      "B": "Opposite: flat usage before the launch supports a link between the launch and the rise.",
-      "C": "Correct. If the same seasonal increase occurs every spring, the rise after the launch may be unrelated to notifications.",
-      "D": "Out of scope: the engineers' experience says nothing about what caused the increase.",
-      "E": "True but irrelevant: the claim concerns the number of sessions, not their length."
-    },
-    "trapPatterns": {
-      "A": "half_right",
-      "B": "opposite",
-      "D": "out_of_scope",
-      "E": "true_but_irrelevant"
-    },
-    "keyTakeaway": "A before-and-after argument is vulnerable to a recurring cycle that would produce the same change.",
-    "predictionHint": "Seasonal pattern explains the rise."
+  "answer": "D",
+  "explanations": {
+   "A": "Out of scope: availability is never raised; the gap is in the logic of the qualifications themselves.",
+   "B": "Shell game: the conclusion says only that there is a contractor qualified for every system, not that every contractor is. The word 'every' attaches to the wrong group.",
+   "C": "Out of scope: cost is a practical matter that the conclusion does not rest on.",
+   "D": "Correct. 'For each system, some contractor' is compatible with a different contractor for each system. The director shifts to 'some one contractor for every system.'",
+   "E": "Out of scope: safety standards are not mentioned; the argument concerns who is qualified to install the systems."
   },
-  {
-    "id": "lr-n-resolve-led-bulbs-electricity",
-    "section": "LR",
-    "type": "resolve_explain",
-    "logicTags": [
-      "causation"
-    ],
-    "difficulty": 2,
-    "stimulus": "Light-emitting diode (LED) bulbs use only a fraction of the electricity that incandescent bulbs use to produce the same amount of light. Even so, in the years since LED bulbs became widely available in Cavendish Town, the town's total household electricity consumption for lighting has risen.",
-    "stem": "Which one of the following, if true, most helps to explain the discrepancy described above?",
-    "choices": {
-      "A": "Because LED bulbs are cheap to run, many households have added far more light fixtures and now leave lights on much longer than before.",
-      "B": "Household electricity used for heating and cooling is much greater in total than the electricity used for lighting, according to the town's utility records",
-      "C": "LED bulbs last far longer than incandescent bulbs and so need to be replaced less often.",
-      "D": "Electricity rates in Cavendish Town have risen over the same period.",
-      "E": "Some households in Cavendish Town still use incandescent bulbs for a few of their fixtures."
-    },
-    "answer": "A",
-    "explanations": {
-      "A": "Correct. If cheap lighting led households to light far more fixtures for longer, total use could rise even though each bulb uses less.",
-      "B": "True but irrelevant: other uses of electricity do not explain a rise in lighting use.",
-      "C": "Out of scope: bulb lifespan says nothing about how much electricity is consumed.",
-      "D": "Opposite: higher rates would tend to reduce consumption, deepening the puzzle.",
-      "E": "Half right: continued use of old bulbs could keep consumption from falling as much, but it would not make it rise."
-    },
-    "trapPatterns": {
-      "B": "true_but_irrelevant",
-      "C": "out_of_scope",
-      "D": "opposite",
-      "E": "half_right"
-    },
-    "keyTakeaway": "A discrepancy is resolved by showing how both facts hold, often by a change in quantity or behavior that offsets the efficiency.",
-    "predictionHint": "Efficiency gains offset by increased use."
+  "trapPatterns": {
+   "A": "out_of_scope",
+   "B": "shell_game",
+   "C": "out_of_scope",
+   "E": "out_of_scope"
   },
-  {
-    "id": "lr-n-resolve-water-meters-district",
-    "section": "LR",
-    "type": "resolve_explain",
-    "logicTags": [
-      "math_percent",
-      "part_v_whole"
-    ],
-    "difficulty": 3,
-    "stimulus": "Last year most households in the Orchard Park district switched from flat-rate billing to pay-per-use water meters, and the average water use of the households that switched fell by one fifth. Nevertheless, the district's total water consumption did not decline.",
-    "stem": "Which one of the following, if true, most helps to resolve the apparent paradox?",
-    "choices": {
-      "A": "Before the switch, the water utility offered households no way to monitor their own water use.",
-      "B": "The households that switched to meters were, on average, larger than the households that did not.",
-      "C": "Most of the households that switched did so in the expectation that their water bills would fall.",
-      "D": "The pay-per-use rate per gallon is lower for households with moderate use than for households with heavy use.",
-      "E": "A large number of new households moved into the district last year, and they use water at the same rate that the district's households did before meters were installed."
-    },
-    "answer": "E",
-    "explanations": {
-      "A": "Out of scope: the earlier lack of monitoring does not account for why total use failed to fall.",
-      "B": "Not explanatory: the size of switching households does not account for the unchanged total, since each switching household still cut its use.",
-      "C": "Mental state: what households expected does not bear on their actual consumption or on the total.",
-      "D": "True but irrelevant: how the rate varies with use does not account for a flat total.",
-      "E": "Correct. New households consuming at the old rate add enough use to offset the reduction by switchers, so the total need not decline."
-    },
-    "trapPatterns": {
-      "A": "out_of_scope",
-      "B": "half_right",
-      "C": "out_of_scope",
-      "D": "true_but_irrelevant"
-    },
-    "keyTakeaway": "When an average falls but a total does not, look for a change in the number of units being averaged.",
-    "predictionHint": "Total = average times number of households."
+  "keyTakeaway": "'For each X there is a Y' does not give 'there is a Y for every X'; check whether the Y can vary.",
+  "predictionHint": "Quantifier shift: different contractors could cover different systems."
+ },
+ {
+  "id": "lr-n-mss-tutors-training-course",
+  "section": "LR",
+  "type": "most_strongly_supported",
+  "logicTags": [
+   "quantifiers"
+  ],
+  "difficulty": 1,
+  "stimulus": "Every tutor at the Bayside Learning Center has completed a training course. Some of the tutors at the center are retired teachers. No one who has not completed the training course may work with students who have learning disabilities.",
+  "stem": "Which one of the following is most strongly supported by the information above?",
+  "choices": {
+   "A": "Some retired teachers at the center work with students who have learning disabilities.",
+   "B": "Most tutors at the center are retired teachers.",
+   "C": "Some retired teachers have completed the training course.",
+   "D": "Every tutor at the center works with students who have learning disabilities.",
+   "E": "No retired teacher at the center lacks a college degree."
   },
-  {
-    "id": "lr-n-strengthen-attic-sealant",
-    "section": "LR",
-    "type": "strengthen",
-    "logicTags": [
-      "causation"
-    ],
-    "difficulty": 1,
-    "stimulus": "Homeowner: The sealant I applied to the roof last year must have been what prevented leaks in my attic. After all, the attic stayed completely dry through the heaviest rainy season on record.",
-    "stem": "Which one of the following, if true, most strengthens the homeowner's argument?",
-    "choices": {
-      "A": "Sealants made by other manufacturers are priced about the same as the one the homeowner used.",
-      "B": "Several neighbors whose roofs were not treated with any sealant also had dry attics through the whole of that same rainy season",
-      "C": "The attic leaked during every rainy season before the sealant was applied, including seasons with only light rainfall.",
-      "D": "The label on the sealant states that it protects roofs against leaks for ten years.",
-      "E": "The homeowner's attic is used mainly for storing seasonal household items."
-    },
-    "answer": "C",
-    "explanations": {
-      "A": "Out of scope: the price of rival products has no bearing on whether this sealant stopped the leaks.",
-      "B": "Opposite: dry attics without sealant suggest the dryness may have another cause.",
-      "C": "Correct. A leaky attic in every earlier season, even mild ones, makes the sealant the most likely reason the heaviest season left it dry.",
-      "D": "Half right: a manufacturer's claim is not independent evidence that the sealant worked here.",
-      "E": "Out of scope: how the attic is used does not bear on the cause of its dryness."
-    },
-    "trapPatterns": {
-      "A": "out_of_scope",
-      "B": "opposite",
-      "D": "half_right",
-      "E": "out_of_scope"
-    },
-    "keyTakeaway": "Strengthen a causal claim by showing the effect was absent before the cause and by ruling out rival causes.",
-    "predictionHint": "Prior leaks in light rain make the sealant the likely cause."
+  "answer": "C",
+  "explanations": {
+   "A": "Extreme: completing the course is required for such work, but nothing says any retired teacher actually does it.",
+   "B": "Wrong force: 'some' tutors are retired teachers; nothing supports 'most.'",
+   "C": "Correct. Every tutor completed the course, and some tutors are retired teachers, so some retired teachers completed it.",
+   "D": "Reversal: the course is required for working with these students, not the reverse.",
+   "E": "Out of scope: college degrees are never mentioned."
   },
-  {
-    "id": "lr-n-strengthen-evening-vocabulary",
-    "section": "LR",
-    "type": "strengthen",
-    "logicTags": [
-      "causation"
-    ],
-    "difficulty": 2,
-    "stimulus": "Educator: In a study, adult learners who spent half an hour memorizing new vocabulary just before going to bed recalled more of it a week later than learners who spent the same half hour memorizing different but comparable vocabulary in the morning. The most likely explanation is that sleep helps the brain consolidate newly learned words.",
-    "stem": "Which one of the following, if true, most strengthens the educator's explanation?",
-    "choices": {
-      "A": "The learners who studied in the evening reported feeling more motivated than those who studied in the morning.",
-      "B": "Many people find it harder to concentrate in the morning than in the evening.",
-      "C": "Vocabulary is easier to remember when it is learned in small groups of related words.",
-      "D": "Learners who studied in the morning and then took a nap soon afterward recalled more vocabulary than learners who studied in the morning and stayed awake.",
-      "E": "Most language courses meet in the evening rather than in the morning."
-    },
-    "answer": "D",
-    "explanations": {
-      "A": "Opposite: greater motivation is a rival explanation for the evening group's advantage.",
-      "B": "Opposite: better evening concentration is another rival explanation for the same result.",
-      "C": "Out of scope: grouping of words is unrelated to the timing of study and sleep.",
-      "D": "Correct. If sleeping soon after study improves recall even for morning learners, it supports sleep as the mechanism rather than time of day.",
-      "E": "True but irrelevant: when courses meet does not bear on why evening study led to better recall."
-    },
-    "trapPatterns": {
-      "A": "opposite",
-      "B": "opposite",
-      "C": "out_of_scope",
-      "E": "true_but_irrelevant"
-    },
-    "keyTakeaway": "Strengthen an explanation by finding independent evidence for its mechanism or by ruling out rivals.",
-    "predictionHint": "Nap evidence isolates sleep from time of day."
+  "trapPatterns": {
+   "A": "extreme",
+   "B": "wrong_force",
+   "D": "reversal",
+   "E": "out_of_scope"
   },
-  {
-    "id": "lr-n-psa-fence-garden-sun",
-    "section": "LR",
-    "type": "pseudo_sufficient_assumption",
-    "logicTags": [
-      "value_judgment",
-      "rule_application"
-    ],
-    "difficulty": 2,
-    "stimulus": "Neighbor: The Hendersons should not install a tall fence along our shared property line. The fence would block the afternoon sun from the vegetable garden that I have kept on my side of the line for years.",
-    "stem": "Which one of the following principles, if valid, most helps to justify the neighbor's reasoning?",
-    "choices": {
-      "A": "Property owners may do whatever they wish on their own land so long as they violate no local building codes.",
-      "B": "People should not alter their own property in ways that deprive a neighbor's property of resources that it needs for a long-established use.",
-      "C": "Neighbors should consult one another before making any change to a shared boundary between their properties.",
-      "D": "A fence that blocks sunlight from a neighbor's garden is more objectionable than one that merely blocks a view.",
-      "E": "People ought to avoid actions that are likely to lead their neighbors to complain."
-    },
-    "answer": "B",
-    "explanations": {
-      "A": "Opposite: this supports the Hendersons' freedom to build rather than the neighbor's objection.",
-      "B": "Correct. The fence would deprive the garden of sunlight it has long relied on; this principle makes that enough to conclude the Hendersons should not build.",
-      "C": "Half right: a duty to consult would not establish that the Hendersons should not install the fence.",
-      "D": "Comparison shift: ranking fences against one another does not show that this one should not be installed.",
-      "E": "Extreme: the neighbor's reason is the harm to the garden, not the likelihood of complaints; this would bar almost any change."
-    },
-    "trapPatterns": {
-      "A": "opposite",
-      "C": "half_right",
-      "D": "comparison_shift",
-      "E": "extreme"
-    },
-    "keyTakeaway": "A principle that justifies a conclusion must link the stated reason to the stated recommendation without adding anything more.",
-    "predictionHint": "Harm to a long-established use makes the fence impermissible."
+  "keyTakeaway": "Combine 'every A is B' with 'some A is C' to get 'some C is B'.",
+  "predictionHint": "Some tutors are retired teachers and all tutors trained."
+ },
+ {
+  "id": "lr-n-mss-smartwatch-battery",
+  "section": "LR",
+  "type": "most_strongly_supported",
+  "logicTags": [
+   "quantifiers",
+   "conditional"
+  ],
+  "difficulty": 2,
+  "stimulus": "Most smartwatch models released in the last two years can track sleep. Every smartwatch that tracks sleep has a heart-rate sensor. No smartwatch that has a heart-rate sensor lasts more than five days on a single charge.",
+  "stem": "The statements above, if true, most strongly support which one of the following?",
+  "choices": {
+   "A": "Every smartwatch model released in the last two years has a heart-rate sensor.",
+   "B": "Smartwatches that lack a heart-rate sensor last more than five days on a single charge, whatever other features they offer",
+   "C": "Most smartwatches that last five days or fewer on a single charge can track sleep.",
+   "D": "Smartwatches that cannot track sleep have no heart-rate sensor.",
+   "E": "Most smartwatch models released in the last two years last no more than five days on a single charge."
   },
-  {
-    "id": "lr-n-psa-journal-retraction-disclosure",
-    "section": "LR",
-    "type": "pseudo_sufficient_assumption",
-    "logicTags": [
-      "value_judgment",
-      "conditional"
-    ],
-    "difficulty": 3,
-    "stimulus": "Editor: The journal ought to retract Dr. Tran's article on the sleep drug. She failed to disclose that the drug's manufacturer paid for her study, and although her conclusions may well be sound, that omission misled readers about how much to trust them.",
-    "stem": "Which one of the following principles, if valid, most helps to justify the editor's reasoning?",
-    "choices": {
-      "A": "A journal ought to retract an article if its author's failure to disclose a financial interest could mislead readers about how far to trust the article's conclusions.",
-      "B": "A journal ought to retract an article only if the article's conclusions turn out to be unsound.",
-      "C": "Authors ought to disclose every source of funding that could create a conflict of interest, whether or not readers would be misled.",
-      "D": "A journal ought to retract an article if its author knowingly presented false conclusions as established fact.",
-      "E": "Readers ought to treat studies paid for by manufacturers with more caution than they treat other studies."
-    },
-    "answer": "A",
-    "explanations": {
-      "A": "Correct. This links the editor's stated reason, undisclosed funding that misleads readers about trust, directly to the recommendation to retract, even though the conclusions may be sound.",
-      "B": "Opposite: the editor concedes the conclusions may be sound, so this would block the retraction.",
-      "C": "Wrong part: it says what authors should do, not when a journal should retract; it would not tell us what to do after the omission.",
-      "D": "Out of scope: the editor does not claim her conclusions are false, so this principle does not apply.",
-      "E": "Wrong part: it concerns how readers ought to act, not whether the journal should retract."
-    },
-    "trapPatterns": {
-      "B": "opposite",
-      "C": "wrong_part",
-      "D": "out_of_scope",
-      "E": "wrong_part"
-    },
-    "keyTakeaway": "Match the principle to the exact action recommended and the exact reason offered, not to a nearby duty.",
-    "predictionHint": "Undisclosed interest that misleads readers justifies retraction."
+  "answer": "E",
+  "explanations": {
+   "A": "Extreme: only most of the recent models are said to track sleep, so some may lack the sensor.",
+   "B": "Reversal: lacking the sensor removes the limit, but nothing says those watches last longer.",
+   "C": "Reversal: the premises give a quantity for recent models that track sleep, not for watches classified by battery life.",
+   "D": "Reversal: sleep tracking requires the sensor, not the other way around.",
+   "E": "Correct. Most recent models track sleep, so have the sensor, so last no more than five days. Most of them therefore have the short battery life."
   },
-  {
-    "id": "lr-n-sa-science-fair-eligibility",
-    "section": "LR",
-    "type": "sufficient_assumption",
-    "logicTags": [
-      "conditional"
-    ],
-    "difficulty": 2,
-    "stimulus": "Parent: Our daughter Lena will not be eligible for the district science fair this year. Eligibility requires a recommendation from a teacher, and no student whose grades have recently dropped is given a teacher's recommendation.",
-    "stem": "The conclusion follows logically if which one of the following is assumed?",
-    "choices": {
-      "A": "Lena has not asked any of her teachers for a recommendation.",
-      "B": "Some students whose grades have recently dropped are not eligible for the district science fair.",
-      "C": "Lena's grades have not improved recently.",
-      "D": "Every student who receives a teacher's recommendation is eligible for the district science fair.",
-      "E": "Lena's grades have dropped recently."
-    },
-    "answer": "E",
-    "explanations": {
-      "A": "Not sufficient: not asking does not guarantee that no recommendation would be given.",
-      "B": "Wrong force: this is about some other students and says nothing about Lena.",
-      "C": "Not sufficient: grades that have not improved need not have dropped; they may have stayed the same.",
-      "D": "Reversal: this turns a requirement into a guarantee of eligibility, which does not help show Lena is ineligible.",
-      "E": "Correct. Lena's recent drop means no recommendation, and without a recommendation she cannot be eligible."
-    },
-    "trapPatterns": {
-      "A": "necessary_v_sufficient",
-      "B": "wrong_force",
-      "C": "half_right",
-      "D": "reversal"
-    },
-    "keyTakeaway": "Find the missing link that connects the subject of the conclusion to the first term of the stated conditional chain.",
-    "predictionHint": "Lena's grades dropped, so no recommendation, so ineligible."
+  "trapPatterns": {
+   "A": "extreme",
+   "B": "necessary_v_sufficient",
+   "C": "reversal",
+   "D": "reversal"
   },
-  {
-    "id": "lr-n-sa-loading-dock-safety-course",
-    "section": "LR",
-    "type": "sufficient_assumption",
-    "logicTags": [
-      "quantifiers",
-      "conditional"
-    ],
-    "difficulty": 4,
-    "stimulus": "Warehouse manager: Every employee who has completed the safety course is permitted on the loading dock. Some of the employees permitted on the loading dock have not completed forklift certification. Therefore, some employees who have completed the safety course have not completed forklift certification.",
-    "stem": "The manager's conclusion follows logically if which one of the following is assumed?",
-    "choices": {
-      "A": "Most employees permitted on the loading dock have completed the safety course.",
-      "B": "No employee who has completed forklift certification is permitted on the loading dock.",
-      "C": "Every employee permitted on the loading dock has completed the safety course.",
-      "D": "Some employees who have completed the safety course have also completed forklift certification.",
-      "E": "Every employee who has completed forklift certification has completed the safety course."
-    },
-    "answer": "C",
-    "explanations": {
-      "A": "Wrong force: if only most dock employees completed the course, the dock employees lacking forklift certification could all be in the minority who did not.",
-      "B": "Out of scope: this concerns employees with forklift certification, not those lacking it, so it does not link dock access to the safety course.",
-      "C": "Correct. The premise gives 'course implies dock.' With the converse, the dock employees who lack forklift certification must have completed the course, so some course completers lack it.",
-      "D": "True but irrelevant: employees who have both qualifications do not show that any course completer lacks forklift certification.",
-      "E": "Out of scope: this relates the two qualifications for employees with forklift certification and says nothing about those who lack it."
-    },
-    "trapPatterns": {
-      "A": "wrong_force",
-      "B": "out_of_scope",
-      "D": "true_but_irrelevant",
-      "E": "out_of_scope"
-    },
-    "keyTakeaway": "With 'some' conclusions, the link must cover every member of the group you are tracking; 'most' leaves room for the exception.",
-    "predictionHint": "Needs the converse: dock implies course."
+  "keyTakeaway": "Chain the conditionals, then carry the quantifier 'most' to the end of the chain.",
+  "predictionHint": "Most track sleep, so sensor, so five days or fewer."
+ },
+ {
+  "id": "lr-n-mss-eye-contact-word-learning",
+  "section": "LR",
+  "type": "most_strongly_supported",
+  "logicTags": [
+   "lack_of_support_v_false"
+  ],
+  "difficulty": 3,
+  "stimulus": "In an experiment, preschool children were taught a made-up word for an unfamiliar object under one of two conditions. In one, the speaker looked at the child while naming the object; in the other, the speaker named the object while looking away. Children in the first condition later identified the object by name significantly more often than children in the second. The two groups did not differ in average age, vocabulary size, or scores on a standard attention test.",
+  "stem": "Which one of the following is most strongly supported by the information above?",
+  "choices": {
+   "A": "Among children like those tested, a speaker's eye contact can make learning a new word more likely.",
+   "B": "Children cannot learn the name of an object from a speaker who looks away while naming it.",
+   "C": "Eye contact is the most important factor in whether preschool children learn new words.",
+   "D": "Children who identify new objects by name more often also tend to make more eye contact with speakers.",
+   "E": "Children in the eye-contact condition were more attentive to the speaker than children in the other condition."
   },
-  {
-    "id": "lr-n-main-tablet-toddlers",
-    "section": "LR",
-    "type": "main_conclusion",
-    "logicTags": [
-      "definition_scope"
-    ],
-    "difficulty": 1,
-    "stimulus": "Pediatrician: Many parents worry that letting toddlers use tablets harms their language development. Yet a recent review of studies found no difference in vocabulary between toddlers who use tablets moderately and toddlers who do not use them. Moreover, many tablet apps are specifically designed to teach new words. Thus, parents need not worry about moderate tablet use by their toddlers.",
-    "stem": "Which one of the following most accurately expresses the main conclusion of the argument?",
-    "choices": {
-      "A": "Many tablet apps are specifically designed to teach toddlers new words.",
-      "B": "Many parents worry that tablets harm their toddlers' language development.",
-      "C": "A recent review of studies found no vocabulary difference between toddlers who use tablets moderately and those who do not.",
-      "D": "Parents need not worry about moderate tablet use by their toddlers.",
-      "E": "Heavy tablet use by toddlers does not harm their language development."
-    },
-    "answer": "D",
-    "explanations": {
-      "A": "Premise: this is offered as additional support for the final claim.",
-      "B": "Background: the pediatrician reports the worry only in order to answer it.",
-      "C": "Premise: this is the main evidence, not what the argument is trying to establish.",
-      "D": "Correct. The word 'Thus' signals the conclusion, which the review and the apps support.",
-      "E": "Out of scope: the argument addresses moderate use only and takes no position on heavy use."
-    },
-    "trapPatterns": {
-      "A": "premise_booster",
-      "B": "out_of_scope",
-      "C": "premise_booster",
-      "E": "out_of_scope"
-    },
-    "keyTakeaway": "The conclusion is what the other statements are offered to support; indicator words such as 'thus' help.",
-    "predictionHint": "'Thus' marks the final claim."
+  "answer": "A",
+  "explanations": {
+   "A": "Correct. Because the groups were matched, the difference is best explained by the condition, so eye contact can raise the likelihood of learning in children like these.",
+   "B": "Extreme: the second group learned less often, not never.",
+   "C": "Comparison shift: nothing compares eye contact with other factors.",
+   "D": "Reversal: the experiment manipulated eye contact; it says nothing about which children make more of it on their own.",
+   "E": "Contradicts the stimulus: the groups did not differ on the attention test, so greater attentiveness is not supported."
   },
-  {
-    "id": "lr-n-main-bridge-repair",
-    "section": "LR",
-    "type": "main_conclusion",
-    "logicTags": [
-      "weighing_factors"
-    ],
-    "difficulty": 2,
-    "stimulus": "Some city officials argue that the city should replace its aging river bridge rather than repair it. But replacement would close the bridge for three years, during which the businesses on its far bank would lose many customers, whereas repairs could be finished in six months. A repaired bridge would last only fifteen years instead of fifty, yet the money saved by avoiding the long closure more than makes up for the shorter lifespan. The city should therefore repair the bridge rather than replace it.",
-    "stem": "Which one of the following most accurately expresses the main conclusion of the argument?",
-    "choices": {
-      "A": "Replacing the bridge would close it for three years.",
-      "B": "The city should repair the aging bridge rather than replace it.",
-      "C": "A repaired bridge would last only fifteen years instead of fifty.",
-      "D": "The money saved by avoiding a long closure more than makes up for the repaired bridge's shorter lifespan.",
-      "E": "Businesses on the far bank of the river would lose many customers if the bridge were closed for three years."
-    },
-    "answer": "B",
-    "explanations": {
-      "A": "Premise: this is a reason offered against replacement.",
-      "B": "Correct. Everything else supports the recommendation, which is announced by 'therefore.'",
-      "C": "Concession: the argument grants this point before arguing that it does not matter.",
-      "D": "Wrong part: this is an intermediate claim that supports the recommendation rather than being the final point.",
-      "E": "Premise: this supports the claim about savings, which in turn supports the recommendation."
-    },
-    "trapPatterns": {
-      "A": "premise_booster",
-      "C": "half_right",
-      "D": "wrong_part",
-      "E": "premise_booster"
-    },
-    "keyTakeaway": "Separate the final recommendation from intermediate claims that merely support it.",
-    "predictionHint": "The final 'should' claim is the conclusion."
+  "trapPatterns": {
+   "B": "extreme",
+   "C": "comparison_shift",
+   "D": "reversal",
+   "E": "opposite"
   },
-  {
-    "id": "lr-n-argpart-driving-age-postponed",
-    "section": "LR",
-    "type": "argument_part",
-    "logicTags": [
-      "causation"
-    ],
-    "difficulty": 2,
-    "stimulus": "Columnist: Some legislators claim that raising the minimum driving age from sixteen to seventeen would reduce the number of teenage traffic accidents. But teens who wait a year to be licensed begin driving with exactly the same inexperience as those licensed earlier. Thus, delaying licensure merely postpones the accidents rather than preventing them. Consequently, the proposed change would not lower the total number of teenage accidents.",
-    "stem": "The claim that delaying licensure merely postpones the accidents rather than preventing them plays which one of the following roles in the argument?",
-    "choices": {
-      "A": "It is the main conclusion of the argument.",
-      "B": "It is a claim that the columnist offers in order to concede a point to the legislators who proposed the change",
-      "C": "It is evidence offered in support of the legislators' claim.",
-      "D": "It is a premise that the columnist introduces only to reject.",
-      "E": "It is a conclusion supported by another claim and used in turn to support the main conclusion."
-    },
-    "answer": "E",
-    "explanations": {
-      "A": "Wrong part: the final sentence, introduced by 'Consequently,' is the main conclusion.",
-      "B": "Opposite: the columnist is arguing against the legislators, not conceding to them.",
-      "C": "Opposite: the claim undermines the legislators' position.",
-      "D": "Opposite: the columnist asserts this claim; it is not set up in order to be rejected.",
-      "E": "Correct. It follows from the inexperience claim ('Thus') and then supports the 'Consequently' conclusion, making it an intermediate conclusion."
-    },
-    "trapPatterns": {
-      "A": "wrong_part",
-      "B": "opposite",
-      "C": "opposite",
-      "D": "opposite"
-    },
-    "keyTakeaway": "A claim that is introduced by 'thus' and then supports another claim is an intermediate conclusion, not the main one.",
-    "predictionHint": "Intermediate conclusion between premise and final claim."
+  "keyTakeaway": "When groups are matched on rival factors, the manipulated condition is the best-supported explanation, but keep the conclusion hedged.",
+  "predictionHint": "Hedged: eye contact can help in children like these."
+ },
+ {
+  "id": "lr-n-na-furnace-payback",
+  "section": "LR",
+  "type": "necessary_assumption",
+  "logicTags": [
+   "math_percent"
+  ],
+  "difficulty": 2,
+  "stimulus": "Homeowner: Replacing our old furnace with a high-efficiency model will pay for itself. The new furnace would cut our heating bill by about four hundred dollars a year, and it would cost thirty-two hundred dollars installed.",
+  "stem": "The argument depends on assuming which one of the following?",
+  "choices": {
+   "A": "The old furnace would have needed costly repairs within the next few years.",
+   "B": "The new furnace will remain in service for at least eight years.",
+   "C": "Heating costs in our area will not rise appreciably over the coming decade.",
+   "D": "No other furnace model would cost less to install while saving as much on heating.",
+   "E": "Most homeowners who install high-efficiency furnaces eventually recover the installation cost."
   },
-  {
-    "id": "lr-n-parallel-flaw-garden-perennials",
-    "section": "LR",
-    "type": "parallel_flaw",
-    "logicTags": [
-      "quantifiers"
-    ],
-    "difficulty": 4,
-    "stimulus": "Some of the exhibits in the museum's east wing are interactive. Some interactive exhibits are designed for young children. Therefore, some of the exhibits in the museum's east wing are designed for young children.",
-    "stem": "The flawed reasoning in which one of the following is most similar to that in the argument above?",
-    "choices": {
-      "A": "Some of the plants in the community garden are perennials. Some perennials are poisonous to pets. Therefore, some of the plants in the community garden are poisonous to pets.",
-      "B": "Some of the plants in the community garden are perennials. Some perennials are poisonous to pets. Therefore, it is possible that some of the plants in the community garden are poisonous to pets.",
-      "C": "Every garden with a perennial bed also has a compost bin. The school garden has a compost bin. Therefore, the school garden has a perennial bed.",
-      "D": "All of the plants in the community garden are perennials. All perennials are hardy. Therefore, all of the plants in the community garden are hardy.",
-      "E": "The plants in the community garden that were watered daily grew taller than those watered weekly. Therefore, daily watering made the plants taller."
-    },
-    "answer": "A",
-    "explanations": {
-      "A": "Correct. Like the original, it moves from two overlapping 'some' claims to a claim about the first group, though the poisonous perennials may all lie outside the garden.",
-      "B": "Shell game: it matches the premises but concludes only that something is possible, which the premises do support, so it is not flawed.",
-      "C": "Different flaw: it treats a necessary condition as sufficient, not the overlap of two 'some' claims.",
-      "D": "Valid: a chain of 'all' statements properly yields the conclusion.",
-      "E": "Different flaw: it infers a cause from a comparison, with no quantifier overlap."
-    },
-    "trapPatterns": {
-      "B": "shell_game",
-      "C": "necessary_v_sufficient",
-      "D": "opposite",
-      "E": "out_of_scope"
-    },
-    "keyTakeaway": "Parallel-flaw answers must match both the structure and the specific error; one modal word can make a lookalike valid.",
-    "predictionHint": "Two 'some' statements do not link the first group to the third."
+  "answer": "B",
+  "explanations": {
+   "A": "Premise booster: this might add to the case for replacing, but the argument can succeed without it.",
+   "B": "Correct. Savings of $400 a year reach $3,200 only after eight years. If the furnace were retired sooner, it could not pay for itself; this is required.",
+   "C": "Not required: rising costs would increase the savings, not undermine them.",
+   "D": "Comparison shift: the conclusion is that this furnace pays for itself, not that it is the best choice.",
+   "E": "Wrong part: facts about homeowners in general are not needed to evaluate this furnace's payback."
   },
-  {
-    "id": "lr-n-parallel-method-hull-plating",
-    "section": "LR",
-    "type": "parallel_method",
-    "logicTags": [
-      "conditional",
-      "eliminating_options"
-    ],
-    "difficulty": 3,
-    "stimulus": "Chief engineer: The ferry company must replace its aging hull plating. If it did not, the vessels would eventually fail inspection, and a vessel that fails inspection cannot legally carry passengers. Because the company's revenue depends on carrying passengers, it would then lose its revenue. The company cannot accept that outcome, so it must replace the plating.",
-    "stem": "The pattern of reasoning in which one of the following is most similar to that in the argument above?",
-    "choices": {
-      "A": "The reservoir will overflow if the dam is not reinforced. The dam is not going to be reinforced. So the reservoir will overflow.",
-      "B": "Everyone who has used the new software praises it. Ms. Wu has used it. So Ms. Wu praises it.",
-      "C": "Our town's bakery succeeded by cutting prices, and our town's hardware store is much like the bakery. So the hardware store should cut prices.",
-      "D": "The hospital board must approve the new wing. If it did not, the emergency room would stay overcrowded, and an overcrowded emergency room cannot meet legal staffing standards. Since the hospital is obligated to meet those standards, it cannot allow that, so it must approve the wing.",
-      "E": "The mayor says the bridge is safe. The mayor is well informed about the city's infrastructure. So the bridge is safe."
-    },
-    "answer": "D",
-    "explanations": {
-      "A": "Different method: it reasons forward from a failure to act to a consequence; it does not argue that an action is required to avoid an unacceptable outcome.",
-      "B": "Different method: it applies a generalization to an individual case.",
-      "C": "Different method: it argues by analogy between two businesses.",
-      "D": "Correct. Like the original, it argues that an action must be taken because failing to take it would lead through a chain of consequences to an outcome that cannot be accepted.",
-      "E": "Different method: it relies on the authority of a source."
-    },
-    "trapPatterns": {
-      "A": "reversal",
-      "B": "half_right",
-      "C": "out_of_scope",
-      "E": "wrong_part"
-    },
-    "keyTakeaway": "Describe the argument's moves abstractly: here, 'if not X then an unacceptable result, so X.'",
-    "predictionHint": "Denial of the action leads to an unacceptable consequence."
+  "trapPatterns": {
+   "A": "premise_booster",
+   "C": "reversal",
+   "D": "comparison_shift",
+   "E": "wrong_part"
   },
-  {
-    "id": "lr-n-poi-letter-grades-elementary",
-    "section": "LR",
-    "type": "point_at_issue",
-    "logicTags": [
-      "comparison"
-    ],
-    "difficulty": 2,
-    "stimulus": "Teacher: Elementary schools should stop giving letter grades. Grades make children focus on how they rank against their classmates instead of on what they are learning.\n\nParent: Some children do get preoccupied with rankings, but grades also give a clear signal about how a child is doing that written comments cannot match. Elementary schools should keep letter grades.",
-    "stem": "The teacher and the parent disagree over whether",
-    "choices": {
-      "A": "children's preoccupation with rankings is a problem in elementary schools",
-      "B": "written comments give children any useful feedback about their work",
-      "C": "elementary schools should continue to give letter grades",
-      "D": "letter grades give children a clear signal of how they are doing",
-      "E": "children learn better when they are not evaluated at all"
-    },
-    "answer": "C",
-    "explanations": {
-      "A": "Not a disagreement: the parent concedes that some children become preoccupied with rankings.",
-      "B": "Out of scope: the teacher never says anything about written comments.",
-      "C": "Correct. The teacher says schools should stop giving letter grades; the parent says they should keep them.",
-      "D": "Not clearly disputed: the teacher does not say that grades fail to give a clear signal.",
-      "E": "Out of scope: neither speaker discusses removing evaluation entirely."
-    },
-    "trapPatterns": {
-      "A": "half_right",
-      "B": "out_of_scope",
-      "D": "half_right",
-      "E": "extreme"
-    },
-    "keyTakeaway": "A point at issue is a claim one speaker asserts and the other rejects; a concession is not a disagreement.",
-    "predictionHint": "The recommendation about letter grades."
+  "keyTakeaway": "Run the arithmetic in the premises and ask what must be true for the stated numbers to reach the conclusion.",
+  "predictionHint": "Furnace must last long enough to accumulate $3,200 in savings."
+ },
+ {
+  "id": "lr-n-na-phonics-pilot-schools",
+  "section": "LR",
+  "type": "necessary_assumption",
+  "logicTags": [
+   "sampling",
+   "link_assumption"
+  ],
+  "difficulty": 3,
+  "stimulus": "Principal: Our school should adopt the Lumen phonics curriculum. In the three district schools that piloted it, reading scores rose steadily over two years, while scores at the district's other schools stayed flat. Since the pilot schools were chosen by lottery, their gains cannot be attributed to an unusual starting position.",
+  "stem": "The principal's argument depends on assuming which one of the following?",
+  "choices": {
+   "A": "Reading scores at the three pilot schools were unusually low before the pilot began.",
+   "B": "No other reading curriculum that the district could have chosen would have raised scores at our school by more than Lumen would",
+   "C": "The pilot schools received more funding for reading instruction than our school does.",
+   "D": "Our school does not differ from the pilot schools in ways that would keep Lumen from raising reading scores here.",
+   "E": "Teachers at the pilot schools preferred Lumen to the curriculum they had used before."
   },
-  {
-    "id": "lr-n-mbt-linden-apartments",
-    "section": "LR",
-    "type": "must_be_true",
-    "logicTags": [
-      "quantifiers",
-      "conditional"
-    ],
-    "difficulty": 1,
-    "stimulus": "Every apartment in the Linden building has either a balcony or a patio. None of the apartments on the building's top floor has a balcony.",
-    "stem": "If the statements above are true, which one of the following must also be true?",
-    "choices": {
-      "A": "Some apartments on the lower floors of the Linden building have both a balcony and a patio.",
-      "B": "Most apartments in the Linden building have patios.",
-      "C": "The top floor of the Linden building has fewer apartments than any other floor.",
-      "D": "No apartment in the Linden building that has a patio also has a balcony.",
-      "E": "Every apartment on the top floor of the Linden building has a patio."
-    },
-    "answer": "E",
-    "explanations": {
-      "A": "Extreme: nothing says that any apartment has both features.",
-      "B": "Wrong force: the statements give no count of patios in the building.",
-      "C": "Out of scope: the number of apartments per floor is never given.",
-      "D": "Reversal: 'either' here does not exclude an apartment having both, so it does not follow that none has both.",
-      "E": "Correct. Each apartment has a balcony or a patio, and top-floor apartments lack balconies, so each has a patio."
-    },
-    "trapPatterns": {
-      "A": "extreme",
-      "B": "wrong_force",
-      "C": "out_of_scope",
-      "D": "reversal"
-    },
-    "keyTakeaway": "Eliminate one side of an 'either A or B' and the other must hold.",
-    "predictionHint": "Not balcony, so patio."
+  "answer": "D",
+  "explanations": {
+   "A": "Opposite: the principal says the pilot schools were not unusual in their starting position, and the argument requires no such low baseline.",
+   "B": "Comparison shift: the conclusion is that Lumen should be adopted, not that it is the best option for the school.",
+   "C": "Opposite: extra funding at the pilot schools would suggest a different explanation for their gains and weaken the argument.",
+   "D": "Correct. The evidence concerns three other schools, so the argument needs those schools to be relevantly similar to this one. If some difference kept Lumen from working here, the recommendation would fail.",
+   "E": "Out of scope: teacher preference is not needed for the claim that scores rise under the curriculum."
   },
-  {
-    "id": "lr-n-fill-family-dinners",
-    "section": "LR",
-    "type": "fill_in_blank",
-    "logicTags": [
-      "causation"
-    ],
-    "difficulty": 1,
-    "stimulus": "Studies consistently find that children from families that regularly eat dinner together earn better grades than children from families that do not. However, families that regularly eat together are also more likely to have a parent who is home every evening, and a parent's presence might by itself account for the better grades. Therefore, the studies do not establish that ____.",
-    "stem": "Which one of the following most logically completes the argument?",
-    "choices": {
-      "A": "children from families that eat together are more likely to have a parent at home in the evening",
-      "B": "sharing dinner is itself what causes children's grades to improve",
-      "C": "a parent's presence at home helps children to earn good grades",
-      "D": "families that do not eat together are less concerned with their children's education",
-      "E": "children's grades are unaffected by what happens at home"
-    },
-    "answer": "B",
-    "explanations": {
-      "A": "Opposite: this is a fact the passage already supplies as a reason for doubt, not something the studies fail to establish.",
-      "B": "Correct. Because parental presence is a rival explanation, the studies cannot show that the dinners themselves cause better grades.",
-      "C": "Opposite: the passage suggests this as a possibility, so it is not what the studies fail to show.",
-      "D": "Out of scope: parents' concern for education is not mentioned.",
-      "E": "Extreme: the argument does not deny that home life matters; it only questions the dinners as the cause."
-    },
-    "trapPatterns": {
-      "A": "premise_booster",
-      "C": "opposite",
-      "D": "out_of_scope",
-      "E": "extreme"
-    },
-    "keyTakeaway": "In fill-in-the-blank items, complete the thought the passage has been building, using its own premises and its concluding indicator.",
-    "predictionHint": "The dinners themselves may not be the cause."
+  "trapPatterns": {
+   "A": "opposite",
+   "B": "comparison_shift",
+   "C": "opposite",
+   "E": "out_of_scope"
   },
-  {
-    "id": "lr-n-method-earthquake-forecasts",
-    "section": "LR",
-    "type": "method_of_reasoning",
-    "logicTags": [
-      "analogy"
-    ],
-    "difficulty": 3,
-    "stimulus": "Journalist: Some skeptics argue that earthquakes cannot be reliably predicted, because the seismic network's forecasts failed to anticipate last year's tremor. But if one failed forecast showed that prediction is unreliable, then a single failed forecast by a weather service would show that weather cannot be reliably predicted, and nobody believes that. The skeptics' reasoning is therefore unsound.",
-    "stem": "The journalist's argument proceeds by",
-    "choices": {
-      "A": "citing a counterexample to a general claim that the skeptics endorse",
-      "B": "attacking the skeptics' motives rather than their reasoning",
-      "C": "showing that the skeptics' reasoning, applied to a parallel case, yields a conclusion that is unacceptable",
-      "D": "showing that the skeptics' premise is inconsistent with their conclusion in a way that they would themselves be forced to acknowledge",
-      "E": "appealing to the consensus of experts in seismology"
-    },
-    "answer": "C",
-    "explanations": {
-      "A": "Wrong part: the journalist does not offer an instance that contradicts a general claim; the journalist applies the skeptics' pattern of reasoning to a different case.",
-      "B": "Out of scope: the skeptics' motives are never mentioned.",
-      "C": "Correct. The journalist applies the skeptics' inference to weather and shows that it would yield a result nobody accepts.",
-      "D": "Different method: the journalist does not say that the skeptics contradict themselves.",
-      "E": "Out of scope: no experts' opinions are cited."
-    },
-    "trapPatterns": {
-      "A": "wrong_part",
-      "B": "out_of_scope",
-      "D": "shell_game",
-      "E": "out_of_scope"
-    },
-    "keyTakeaway": "When an argument borrows the opponent's reasoning and runs it on another case, the method is refutation by parallel case.",
-    "predictionHint": "Apply the same inference to weather forecasts."
+  "keyTakeaway": "When evidence comes from other cases, the needed assumption is often that the target case is relevantly similar.",
+  "predictionHint": "Our school resembles the pilot schools in relevant ways."
+ },
+ {
+  "id": "lr-n-na-pellam-letters-rag-paper",
+  "section": "LR",
+  "type": "necessary_assumption",
+  "logicTags": [
+   "conditional",
+   "link_assumption"
+  ],
+  "difficulty": 4,
+  "stimulus": "Archivist: Every authentic letter from the Pellam era was written on paper made from rag fiber. Yet chemical analysis of the paper in each of the disputed letters in the Pellam collection found no rag fiber at all. Therefore, none of the disputed letters can be authentic.",
+  "stem": "Which one of the following is an assumption required by the argument?",
+  "choices": {
+   "A": "Every letter from the Pellam era that was written on rag paper is authentic.",
+   "B": "No forger working in the Pellam era had access to paper made from rag fiber.",
+   "C": "Chemical analysis can detect rag fiber in a letter's paper only if the paper was made from rag fiber.",
+   "D": "The disputed letters in the Pellam collection were all written on the same kind of paper.",
+   "E": "If the paper of a disputed letter had been made from rag fiber, chemical analysis would have found rag fiber in it."
   },
-  {
-    "id": "lr-n-mbf-grants-panel-endorsements",
-    "section": "LR",
-    "type": "must_be_false",
-    "logicTags": [
-      "conditional",
-      "quantifiers"
-    ],
-    "difficulty": 4,
-    "stimulus": "A grants panel reviewed a number of proposals. Every proposal that received funding was endorsed by at least two reviewers. No proposal that was rejected on budget grounds was endorsed by more than one reviewer. Every proposal endorsed by the panel chair was also endorsed by at least one other reviewer.",
-    "stem": "If the statements above are true, which one of the following CANNOT be true?",
-    "choices": {
-      "A": "A proposal that received funding was endorsed by the panel chair.",
-      "B": "A proposal endorsed by the panel chair was rejected on budget grounds.",
-      "C": "A proposal rejected on budget grounds was endorsed by exactly one reviewer, who was not the panel chair.",
-      "D": "A proposal endorsed by the panel chair did not receive funding.",
-      "E": "A proposal that did not receive funding was endorsed by two reviewers."
-    },
-    "answer": "B",
-    "explanations": {
-      "A": "Possible: funded proposals need two endorsements, and a chair-endorsed one has at least two.",
-      "B": "Correct. A chair-endorsed proposal has at least two endorsements, but a proposal rejected on budget grounds has at most one.",
-      "C": "Possible: one non-chair endorsement meets the limit for budget rejection and does not trigger the chair rule.",
-      "D": "Possible: nothing says that endorsement by the chair guarantees funding; the premises list only conditions for funding.",
-      "E": "Possible: nothing says that two endorsements ensure funding."
-    },
-    "trapPatterns": {
-      "A": "necessary_v_sufficient",
-      "C": "half_right",
-      "D": "necessary_v_sufficient",
-      "E": "necessary_v_sufficient"
-    },
-    "keyTakeaway": "For CANNOT-be-true items, combine the conditionals into a numerical bound and find the choice that violates it.",
-    "predictionHint": "Chair-endorsed means at least two; budget-rejected means at most one."
-  }
+  "answer": "E",
+  "explanations": {
+   "A": "Reversal: this treats rag paper as sufficient for authenticity, but the argument only uses it as necessary.",
+   "B": "Out of scope: forgers' access to materials does not bear on whether a letter lacking rag fiber is authentic.",
+   "C": "Reversal: this concerns false positives. The argument depends on the analysis not missing rag fiber that is present, so an analysis that could also err the other way would not hurt it.",
+   "D": "Not required: the analysis found no rag fiber in any disputed letter, whatever other paper they were written on.",
+   "E": "Correct. The premises give 'authentic implies rag fiber.' Without an analysis that would reveal rag fiber when present, finding none would not show it is absent. Denying this opens the gap."
+  },
+  "trapPatterns": {
+   "A": "reversal",
+   "B": "out_of_scope",
+   "C": "necessary_v_sufficient",
+   "D": "true_but_irrelevant"
+  },
+  "keyTakeaway": "Distinguish 'if' from 'only if' in the test's reliability: an argument from a negative test result needs the test to catch positives.",
+  "predictionHint": "Test must detect rag fiber when present; not the converse."
+ },
+ {
+  "id": "lr-n-weaken-alder-lane-speed-bumps",
+  "section": "LR",
+  "type": "weaken",
+  "logicTags": [
+   "causation",
+   "comparison"
+  ],
+  "difficulty": 1,
+  "stimulus": "Neighborhood association president: Installing speed bumps on Alder Lane will reduce the number of traffic accidents there. Last year Alder Lane had twelve accidents, while Birch Lane, which already has speed bumps, had only three.",
+  "stem": "Which one of the following, if true, most seriously weakens the argument?",
+  "choices": {
+   "A": "Speed bumps cost the association more to install than most other traffic-calming measures do.",
+   "B": "Some drivers who use Birch Lane complain that its speed bumps damage their cars.",
+   "C": "All of the accidents that occurred on Alder Lane last year caused only minor property damage.",
+   "D": "Birch Lane is a short dead-end street that carries only a small fraction of the traffic that Alder Lane carries.",
+   "E": "Birch Lane had more accidents in the year before its speed bumps were installed than Alder Lane had last year, and fewer afterward."
+  },
+  "answer": "D",
+  "explanations": {
+   "A": "Out of scope: installation cost does not affect whether the bumps reduce accidents.",
+   "B": "True but irrelevant: complaints about car damage do not show the bumps fail to reduce accidents.",
+   "C": "Out of scope: the severity of the accidents is not at issue, only their number.",
+   "D": "Correct. If Birch Lane simply has far less traffic, its lower accident count is explained without the speed bumps, so the comparison fails to show they reduce accidents.",
+   "E": "Opposite: a drop in accidents after installation on Birch Lane would strengthen the claim."
+  },
+  "trapPatterns": {
+   "A": "out_of_scope",
+   "B": "true_but_irrelevant",
+   "C": "out_of_scope",
+   "E": "opposite"
+  },
+  "keyTakeaway": "A comparison supports a cause only if the compared cases are alike in other relevant ways.",
+  "predictionHint": "Alternative explanation: traffic volume differs."
+ },
+ {
+  "id": "lr-n-weaken-study-hall-gpa",
+  "section": "LR",
+  "type": "weaken",
+  "logicTags": [
+   "causation"
+  ],
+  "difficulty": 2,
+  "stimulus": "School counselor: Of the forty students who attended our after-school study hall last fall, thirty-one raised their grade point averages by the end of the term. The study hall is clearly effective at improving grades, so the school should continue to fund it.",
+  "stem": "Which one of the following, if true, most seriously weakens the counselor's argument?",
+  "choices": {
+   "A": "A few of the students who did not attend the study hall also raised their grade point averages.",
+   "B": "Students are assigned to the study hall only after earning their lowest grades of the year, and students who have hit such a low point usually improve whether or not they receive help.",
+   "C": "Several of the students who attended the study hall said that they found it helpful.",
+   "D": "The cost of the study hall per student is higher than the cost of the school's other tutoring programs.",
+   "E": "Nine of the forty students who attended the study hall did not raise their grade point averages."
+  },
+  "answer": "B",
+  "explanations": {
+   "A": "Half right: a few improving non-attenders is expected and does not show that attenders would have improved equally without the study hall.",
+   "B": "Correct. If students regress upward from a low point regardless of help, their improvement can be explained without the study hall.",
+   "C": "Opposite: students' favorable opinions would, if anything, support the counselor.",
+   "D": "True but irrelevant: the conclusion is that the study hall improves grades, and a recommendation to continue funding it is not undermined by comparative cost alone.",
+   "E": "Premise booster: this merely restates the data given, it merely restates the given data, since nine of forty not improving is already implied by thirty-one improving."
+  },
+  "trapPatterns": {
+   "A": "half_right",
+   "C": "opposite",
+   "D": "true_but_irrelevant",
+   "E": "premise_booster"
+  },
+  "keyTakeaway": "Look for an alternative explanation that would produce the same improvement without the proposed cause.",
+  "predictionHint": "Regression to the mean explains the gains."
+ },
+ {
+  "id": "lr-n-weaken-notification-feature",
+  "section": "LR",
+  "type": "weaken",
+  "logicTags": [
+   "causation",
+   "comparison"
+  ],
+  "difficulty": 3,
+  "stimulus": "Product manager: After we launched push notifications to all users in March, the average number of daily sessions per user rose eighteen percent over the following two months. No other change was made to the app during that time, and the number of users stayed about the same. The notification feature must therefore have caused the increase in usage.",
+  "stem": "Which one of the following, if true, most calls into question the product manager's argument?",
+  "choices": {
+   "A": "Some users turned the notifications off within a week of the launch.",
+   "B": "Average daily sessions per user had been flat in the months before March.",
+   "C": "In each of the past four years, average daily sessions per user have risen by about eighteen percent between March and May.",
+   "D": "The notification feature was designed by the company's most experienced engineers.",
+   "E": "Although sessions per user rose after the launch, the average length of each session declined by a noticeable amount over the same period"
+  },
+  "answer": "C",
+  "explanations": {
+   "A": "Half right: users disabling the feature may limit its effect, but it does not offer another explanation for the rise.",
+   "B": "Opposite: flat usage before the launch supports a link between the launch and the rise.",
+   "C": "Correct. If the same seasonal increase occurs every spring, the rise after the launch may be unrelated to notifications.",
+   "D": "Out of scope: the engineers' experience says nothing about what caused the increase.",
+   "E": "True but irrelevant: the claim concerns the number of sessions, not their length."
+  },
+  "trapPatterns": {
+   "A": "half_right",
+   "B": "opposite",
+   "D": "out_of_scope",
+   "E": "true_but_irrelevant"
+  },
+  "keyTakeaway": "A before-and-after argument is vulnerable to a recurring cycle that would produce the same change.",
+  "predictionHint": "Seasonal pattern explains the rise."
+ },
+ {
+  "id": "lr-n-resolve-led-bulbs-electricity",
+  "section": "LR",
+  "type": "resolve_explain",
+  "logicTags": [
+   "causation"
+  ],
+  "difficulty": 2,
+  "stimulus": "Light-emitting diode (LED) bulbs use only a fraction of the electricity that incandescent bulbs use to produce the same amount of light. Even so, in the years since LED bulbs became widely available in Cavendish Town, the town's total household electricity consumption for lighting has risen.",
+  "stem": "Which one of the following, if true, most helps to explain the discrepancy described above?",
+  "choices": {
+   "A": "Because LED bulbs are cheap to run, many households have added far more light fixtures and now leave lights on much longer than before.",
+   "B": "Household electricity used for heating and cooling is much greater in total than the electricity used for lighting, according to the town's utility records",
+   "C": "LED bulbs last far longer than incandescent bulbs and so need to be replaced less often.",
+   "D": "Electricity rates in Cavendish Town have risen over the same period.",
+   "E": "Some households in Cavendish Town still use incandescent bulbs for a few of their fixtures."
+  },
+  "answer": "A",
+  "explanations": {
+   "A": "Correct. If cheap lighting led households to light far more fixtures for longer, total use could rise even though each bulb uses less.",
+   "B": "True but irrelevant: other uses of electricity do not explain a rise in lighting use.",
+   "C": "Out of scope: bulb lifespan says nothing about how much electricity is consumed.",
+   "D": "Opposite: higher rates would tend to reduce consumption, deepening the puzzle.",
+   "E": "Half right: continued use of old bulbs could keep consumption from falling as much, but it would not make it rise."
+  },
+  "trapPatterns": {
+   "B": "true_but_irrelevant",
+   "C": "out_of_scope",
+   "D": "opposite",
+   "E": "half_right"
+  },
+  "keyTakeaway": "A discrepancy is resolved by showing how both facts hold, often by a change in quantity or behavior that offsets the efficiency.",
+  "predictionHint": "Efficiency gains offset by increased use."
+ },
+ {
+  "id": "lr-n-resolve-water-meters-district",
+  "section": "LR",
+  "type": "resolve_explain",
+  "logicTags": [
+   "math_percent",
+   "part_v_whole"
+  ],
+  "difficulty": 3,
+  "stimulus": "Last year most households in the Orchard Park district switched from flat-rate billing to pay-per-use water meters, and the average water use of the households that switched fell by one fifth. Nevertheless, the district's total water consumption did not decline.",
+  "stem": "Which one of the following, if true, most helps to resolve the apparent paradox?",
+  "choices": {
+   "A": "Before the switch, the water utility offered households no way to monitor their own water use.",
+   "B": "The households that switched to meters were, on average, larger than the households that did not.",
+   "C": "Most of the households that switched did so in the expectation that their water bills would fall.",
+   "D": "The pay-per-use rate per gallon is lower for households with moderate use than for households with heavy use.",
+   "E": "A large number of new households moved into the district last year, and they use water at the same rate that the district's households did before meters were installed."
+  },
+  "answer": "E",
+  "explanations": {
+   "A": "Out of scope: the earlier lack of monitoring does not account for why total use failed to fall.",
+   "B": "Not explanatory: the size of switching households does not account for the unchanged total, since each switching household still cut its use.",
+   "C": "Mental state: what households expected does not bear on their actual consumption or on the total.",
+   "D": "True but irrelevant: how the rate varies with use does not account for a flat total.",
+   "E": "Correct. New households consuming at the old rate add enough use to offset the reduction by switchers, so the total need not decline."
+  },
+  "trapPatterns": {
+   "A": "out_of_scope",
+   "B": "half_right",
+   "C": "out_of_scope",
+   "D": "true_but_irrelevant"
+  },
+  "keyTakeaway": "When an average falls but a total does not, look for a change in the number of units being averaged.",
+  "predictionHint": "Total = average times number of households."
+ },
+ {
+  "id": "lr-n-strengthen-attic-sealant",
+  "section": "LR",
+  "type": "strengthen",
+  "logicTags": [
+   "causation"
+  ],
+  "difficulty": 1,
+  "stimulus": "Homeowner: The sealant I applied to the roof last year must have been what prevented leaks in my attic. After all, the attic stayed completely dry through the heaviest rainy season on record.",
+  "stem": "Which one of the following, if true, most strengthens the homeowner's argument?",
+  "choices": {
+   "A": "Sealants made by other manufacturers are priced about the same as the one the homeowner used.",
+   "B": "Several neighbors whose roofs were not treated with any sealant also had dry attics through the whole of that same rainy season",
+   "C": "The attic leaked during every rainy season before the sealant was applied, including seasons with only light rainfall.",
+   "D": "The label on the sealant states that it protects roofs against leaks for ten years.",
+   "E": "The homeowner's attic is used mainly for storing seasonal household items."
+  },
+  "answer": "C",
+  "explanations": {
+   "A": "Out of scope: the price of rival products has no bearing on whether this sealant stopped the leaks.",
+   "B": "Opposite: dry attics without sealant suggest the dryness may have another cause.",
+   "C": "Correct. A leaky attic in every earlier season, even mild ones, makes the sealant the most likely reason the heaviest season left it dry.",
+   "D": "Half right: a manufacturer's claim is not independent evidence that the sealant worked here.",
+   "E": "Out of scope: how the attic is used does not bear on the cause of its dryness."
+  },
+  "trapPatterns": {
+   "A": "out_of_scope",
+   "B": "opposite",
+   "D": "half_right",
+   "E": "out_of_scope"
+  },
+  "keyTakeaway": "Strengthen a causal claim by showing the effect was absent before the cause and by ruling out rival causes.",
+  "predictionHint": "Prior leaks in light rain make the sealant the likely cause."
+ },
+ {
+  "id": "lr-n-strengthen-evening-vocabulary",
+  "section": "LR",
+  "type": "strengthen",
+  "logicTags": [
+   "causation"
+  ],
+  "difficulty": 2,
+  "stimulus": "Educator: In a study, adult learners who spent half an hour memorizing new vocabulary just before going to bed recalled more of it a week later than learners who spent the same half hour memorizing different but comparable vocabulary in the morning. The most likely explanation is that sleep helps the brain consolidate newly learned words.",
+  "stem": "Which one of the following, if true, most strengthens the educator's explanation?",
+  "choices": {
+   "A": "The learners who studied in the evening reported feeling more motivated than those who studied in the morning.",
+   "B": "Many people find it harder to concentrate in the morning than in the evening.",
+   "C": "Vocabulary is easier to remember when it is learned in small groups of related words.",
+   "D": "Learners who studied in the morning and then took a nap soon afterward recalled more vocabulary than learners who studied in the morning and stayed awake.",
+   "E": "Most language courses meet in the evening rather than in the morning."
+  },
+  "answer": "D",
+  "explanations": {
+   "A": "Opposite: greater motivation is a rival explanation for the evening group's advantage.",
+   "B": "Opposite: better evening concentration is another rival explanation for the same result.",
+   "C": "Out of scope: grouping of words is unrelated to the timing of study and sleep.",
+   "D": "Correct. If sleeping soon after study improves recall even for morning learners, it supports sleep as the mechanism rather than time of day.",
+   "E": "True but irrelevant: when courses meet does not bear on why evening study led to better recall."
+  },
+  "trapPatterns": {
+   "A": "opposite",
+   "B": "opposite",
+   "C": "out_of_scope",
+   "E": "true_but_irrelevant"
+  },
+  "keyTakeaway": "Strengthen an explanation by finding independent evidence for its mechanism or by ruling out rivals.",
+  "predictionHint": "Nap evidence isolates sleep from time of day."
+ },
+ {
+  "id": "lr-n-psa-fence-garden-sun",
+  "section": "LR",
+  "type": "pseudo_sufficient_assumption",
+  "logicTags": [
+   "value_judgment",
+   "rule_application"
+  ],
+  "difficulty": 2,
+  "stimulus": "Neighbor: The Hendersons should not install a tall fence along our shared property line. The fence would block the afternoon sun from the vegetable garden that I have kept on my side of the line for years.",
+  "stem": "Which one of the following principles, if valid, most helps to justify the neighbor's reasoning?",
+  "choices": {
+   "A": "Property owners may do whatever they wish on their own land so long as they violate no local building codes.",
+   "B": "People should not alter their own property in ways that deprive a neighbor's property of resources that it needs for a long-established use.",
+   "C": "Neighbors should consult one another before making any change to a shared boundary between their properties.",
+   "D": "A fence that blocks sunlight from a neighbor's garden is more objectionable than one that merely blocks a view.",
+   "E": "People ought to avoid actions that are likely to lead their neighbors to complain."
+  },
+  "answer": "B",
+  "explanations": {
+   "A": "Opposite: this supports the Hendersons' freedom to build rather than the neighbor's objection.",
+   "B": "Correct. The fence would deprive the garden of sunlight it has long relied on; this principle makes that enough to conclude the Hendersons should not build.",
+   "C": "Half right: a duty to consult would not establish that the Hendersons should not install the fence.",
+   "D": "Comparison shift: ranking fences against one another does not show that this one should not be installed.",
+   "E": "Extreme: the neighbor's reason is the harm to the garden, not the likelihood of complaints; this would bar almost any change."
+  },
+  "trapPatterns": {
+   "A": "opposite",
+   "C": "half_right",
+   "D": "comparison_shift",
+   "E": "extreme"
+  },
+  "keyTakeaway": "A principle that justifies a conclusion must link the stated reason to the stated recommendation without adding anything more.",
+  "predictionHint": "Harm to a long-established use makes the fence impermissible."
+ },
+ {
+  "id": "lr-n-psa-journal-retraction-disclosure",
+  "section": "LR",
+  "type": "pseudo_sufficient_assumption",
+  "logicTags": [
+   "value_judgment",
+   "conditional"
+  ],
+  "difficulty": 3,
+  "stimulus": "Editor: The journal ought to retract Dr. Tran's article on the sleep drug. She failed to disclose that the drug's manufacturer paid for her study, and although her conclusions may well be sound, that omission misled readers about how much to trust them.",
+  "stem": "Which one of the following principles, if valid, most helps to justify the editor's reasoning?",
+  "choices": {
+   "A": "A journal ought to retract an article if its author's failure to disclose a financial interest could mislead readers about how far to trust the article's conclusions.",
+   "B": "A journal ought to retract an article only if the article's conclusions turn out to be unsound.",
+   "C": "Authors ought to disclose every source of funding that could create a conflict of interest, whether or not readers would be misled.",
+   "D": "A journal ought to retract an article if its author knowingly presented false conclusions as established fact.",
+   "E": "Readers ought to treat studies paid for by manufacturers with more caution than they treat other studies."
+  },
+  "answer": "A",
+  "explanations": {
+   "A": "Correct. This links the editor's stated reason, undisclosed funding that misleads readers about trust, directly to the recommendation to retract, even though the conclusions may be sound.",
+   "B": "Opposite: the editor concedes the conclusions may be sound, so this would block the retraction.",
+   "C": "Wrong part: it says what authors should do, not when a journal should retract; it would not tell us what to do after the omission.",
+   "D": "Out of scope: the editor does not claim her conclusions are false, so this principle does not apply.",
+   "E": "Wrong part: it concerns how readers ought to act, not whether the journal should retract."
+  },
+  "trapPatterns": {
+   "B": "opposite",
+   "C": "wrong_part",
+   "D": "out_of_scope",
+   "E": "wrong_part"
+  },
+  "keyTakeaway": "Match the principle to the exact action recommended and the exact reason offered, not to a nearby duty.",
+  "predictionHint": "Undisclosed interest that misleads readers justifies retraction."
+ },
+ {
+  "id": "lr-n-sa-science-fair-eligibility",
+  "section": "LR",
+  "type": "sufficient_assumption",
+  "logicTags": [
+   "conditional"
+  ],
+  "difficulty": 2,
+  "stimulus": "Parent: Our daughter Lena will not be eligible for the district science fair this year. Eligibility requires a recommendation from a teacher, and no student whose grades have recently dropped is given a teacher's recommendation.",
+  "stem": "The conclusion follows logically if which one of the following is assumed?",
+  "choices": {
+   "A": "Lena has not asked any of her teachers for a recommendation.",
+   "B": "Some students whose grades have recently dropped are not eligible for the district science fair.",
+   "C": "Lena's grades have not improved recently.",
+   "D": "Every student who receives a teacher's recommendation is eligible for the district science fair.",
+   "E": "Lena's grades have dropped recently."
+  },
+  "answer": "E",
+  "explanations": {
+   "A": "Not sufficient: not asking does not guarantee that no recommendation would be given.",
+   "B": "Wrong force: this is about some other students and says nothing about Lena.",
+   "C": "Not sufficient: grades that have not improved need not have dropped; they may have stayed the same.",
+   "D": "Reversal: this turns a requirement into a guarantee of eligibility, which does not help show Lena is ineligible.",
+   "E": "Correct. Lena's recent drop means no recommendation, and without a recommendation she cannot be eligible."
+  },
+  "trapPatterns": {
+   "A": "necessary_v_sufficient",
+   "B": "wrong_force",
+   "C": "half_right",
+   "D": "reversal"
+  },
+  "keyTakeaway": "Find the missing link that connects the subject of the conclusion to the first term of the stated conditional chain.",
+  "predictionHint": "Lena's grades dropped, so no recommendation, so ineligible."
+ },
+ {
+  "id": "lr-n-sa-loading-dock-safety-course",
+  "section": "LR",
+  "type": "sufficient_assumption",
+  "logicTags": [
+   "quantifiers",
+   "conditional"
+  ],
+  "difficulty": 4,
+  "stimulus": "Warehouse manager: Every employee who has completed the safety course is permitted on the loading dock. Some of the employees permitted on the loading dock have not completed forklift certification. Therefore, some employees who have completed the safety course have not completed forklift certification.",
+  "stem": "The manager's conclusion follows logically if which one of the following is assumed?",
+  "choices": {
+   "A": "Most employees permitted on the loading dock have completed the safety course.",
+   "B": "Some employees who have completed forklift certification are not permitted on the loading dock.",
+   "C": "Every employee permitted on the loading dock has completed the safety course.",
+   "D": "Some employees who have completed the safety course have also completed forklift certification.",
+   "E": "Every employee who has completed forklift certification has completed the safety course."
+  },
+  "answer": "C",
+  "explanations": {
+   "A": "Wrong force: if only most dock employees completed the course, the dock employees lacking forklift certification could all be in the minority who did not.",
+   "B": "This concerns certified employees who are kept off the dock. It says nothing about whether any uncertified employee on the dock has completed the safety course, so the conclusion still does not follow.",
+   "C": "Correct. The premise gives 'course implies dock.' With the converse, the dock employees who lack forklift certification must have completed the course, so some course completers lack it.",
+   "D": "True but irrelevant: employees who have both qualifications do not show that any course completer lacks forklift certification.",
+   "E": "Out of scope: this relates the two qualifications for employees with forklift certification and says nothing about those who lack it."
+  },
+  "trapPatterns": {
+   "A": "wrong_force",
+   "B": "out_of_scope",
+   "D": "true_but_irrelevant",
+   "E": "out_of_scope"
+  },
+  "keyTakeaway": "With 'some' conclusions, the link must cover every member of the group you are tracking; 'most' leaves room for the exception.",
+  "predictionHint": "Needs the converse: dock implies course."
+ },
+ {
+  "id": "lr-n-main-tablet-toddlers",
+  "section": "LR",
+  "type": "main_conclusion",
+  "logicTags": [
+   "definition_scope"
+  ],
+  "difficulty": 1,
+  "stimulus": "Pediatrician: Many parents worry that letting toddlers use tablets harms their language development. Yet a recent review of studies found no difference in vocabulary between toddlers who use tablets moderately and toddlers who do not use them. Moreover, many tablet apps are specifically designed to teach new words. Thus, parents need not worry about moderate tablet use by their toddlers.",
+  "stem": "Which one of the following most accurately expresses the main conclusion of the argument?",
+  "choices": {
+   "A": "Many tablet apps are specifically designed to teach toddlers new words.",
+   "B": "Many parents worry that tablets harm their toddlers' language development.",
+   "C": "A recent review of studies found no vocabulary difference between toddlers who use tablets moderately and those who do not.",
+   "D": "Parents need not worry about moderate tablet use by their toddlers.",
+   "E": "Heavy tablet use by toddlers does not harm their language development."
+  },
+  "answer": "D",
+  "explanations": {
+   "A": "Premise: this is offered as additional support for the final claim.",
+   "B": "Background: the pediatrician reports the worry only in order to answer it.",
+   "C": "Premise: this is the main evidence, not what the argument is trying to establish.",
+   "D": "Correct. The word 'Thus' signals the conclusion, which the review and the apps support.",
+   "E": "Out of scope: the argument addresses moderate use only and takes no position on heavy use."
+  },
+  "trapPatterns": {
+   "A": "premise_booster",
+   "B": "out_of_scope",
+   "C": "premise_booster",
+   "E": "out_of_scope"
+  },
+  "keyTakeaway": "The conclusion is what the other statements are offered to support; indicator words such as 'thus' help.",
+  "predictionHint": "'Thus' marks the final claim."
+ },
+ {
+  "id": "lr-n-main-bridge-repair",
+  "section": "LR",
+  "type": "main_conclusion",
+  "logicTags": [
+   "weighing_factors"
+  ],
+  "difficulty": 2,
+  "stimulus": "Some city officials argue that the city should replace its aging river bridge rather than repair it. But replacement would close the bridge for three years, during which the businesses on its far bank would lose many customers, whereas repairs could be finished in six months. A repaired bridge would last only fifteen years instead of fifty, yet the money saved by avoiding the long closure more than makes up for the shorter lifespan. The city should therefore repair the bridge rather than replace it.",
+  "stem": "Which one of the following most accurately expresses the main conclusion of the argument?",
+  "choices": {
+   "A": "Replacing the bridge would close it for three years.",
+   "B": "The city should repair the aging bridge rather than replace it.",
+   "C": "A repaired bridge would last only fifteen years instead of fifty.",
+   "D": "The money saved by avoiding a long closure more than makes up for the repaired bridge's shorter lifespan.",
+   "E": "Businesses on the far bank of the river would lose many customers if the bridge were closed for three years."
+  },
+  "answer": "B",
+  "explanations": {
+   "A": "Premise: this is a reason offered against replacement.",
+   "B": "Correct. Everything else supports the recommendation, which is announced by 'therefore.'",
+   "C": "Concession: the argument grants this point before arguing that it does not matter.",
+   "D": "Wrong part: this is an intermediate claim that supports the recommendation rather than being the final point.",
+   "E": "Premise: this supports the claim about savings, which in turn supports the recommendation."
+  },
+  "trapPatterns": {
+   "A": "premise_booster",
+   "C": "half_right",
+   "D": "wrong_part",
+   "E": "premise_booster"
+  },
+  "keyTakeaway": "Separate the final recommendation from intermediate claims that merely support it.",
+  "predictionHint": "The final 'should' claim is the conclusion."
+ },
+ {
+  "id": "lr-n-argpart-driving-age-postponed",
+  "section": "LR",
+  "type": "argument_part",
+  "logicTags": [
+   "causation"
+  ],
+  "difficulty": 2,
+  "stimulus": "Columnist: Some legislators claim that raising the minimum driving age from sixteen to seventeen would reduce the number of teenage traffic accidents. But teens who wait a year to be licensed begin driving with exactly the same inexperience as those licensed earlier. Thus, delaying licensure merely postpones the accidents rather than preventing them. Consequently, the proposed change would not lower the total number of teenage accidents.",
+  "stem": "The claim that delaying licensure merely postpones the accidents rather than preventing them plays which one of the following roles in the argument?",
+  "choices": {
+   "A": "It is the main conclusion of the argument.",
+   "B": "It is a claim that the columnist offers in order to concede a point to the legislators who proposed the change",
+   "C": "It is evidence offered in support of the legislators' claim.",
+   "D": "It is a premise that the columnist introduces only to reject.",
+   "E": "It is a conclusion supported by another claim and used in turn to support the main conclusion."
+  },
+  "answer": "E",
+  "explanations": {
+   "A": "Wrong part: the final sentence, introduced by 'Consequently,' is the main conclusion.",
+   "B": "Opposite: the columnist is arguing against the legislators, not conceding to them.",
+   "C": "Opposite: the claim undermines the legislators' position.",
+   "D": "Opposite: the columnist asserts this claim; it is not set up in order to be rejected.",
+   "E": "Correct. It follows from the inexperience claim ('Thus') and then supports the 'Consequently' conclusion, making it an intermediate conclusion."
+  },
+  "trapPatterns": {
+   "A": "wrong_part",
+   "B": "opposite",
+   "C": "opposite",
+   "D": "opposite"
+  },
+  "keyTakeaway": "A claim that is introduced by 'thus' and then supports another claim is an intermediate conclusion, not the main one.",
+  "predictionHint": "Intermediate conclusion between premise and final claim."
+ },
+ {
+  "id": "lr-n-parallel-flaw-garden-perennials",
+  "section": "LR",
+  "type": "parallel_flaw",
+  "logicTags": [
+   "quantifiers"
+  ],
+  "difficulty": 4,
+  "stimulus": "Some of the exhibits in the museum's east wing are interactive. Some interactive exhibits are designed for young children. Therefore, some of the exhibits in the museum's east wing are designed for young children.",
+  "stem": "The flawed reasoning in which one of the following is most similar to that in the argument above?",
+  "choices": {
+   "A": "Some of the plants in the community garden are perennials. Some perennials are poisonous to pets. Therefore, some of the plants in the community garden are poisonous to pets.",
+   "B": "Some of the plants in the community garden are perennials. Some perennials are poisonous to pets. Therefore, it is possible that some of the plants in the community garden are poisonous to pets.",
+   "C": "Every garden with a perennial bed also has a compost bin. The school garden has a compost bin. Therefore, the school garden has a perennial bed.",
+   "D": "All of the plants in the community garden are perennials. All perennials are hardy. Therefore, all of the plants in the community garden are hardy.",
+   "E": "The plants in the community garden that were watered daily grew taller than those watered weekly. Therefore, daily watering made the plants taller."
+  },
+  "answer": "A",
+  "explanations": {
+   "A": "Correct. Like the original, it moves from two overlapping 'some' claims to a claim about the first group, though the poisonous perennials may all lie outside the garden.",
+   "B": "Shell game: it matches the premises but concludes only that something is possible, which the premises do support, so it is not flawed.",
+   "C": "Different flaw: it treats a necessary condition as sufficient, not the overlap of two 'some' claims.",
+   "D": "Valid: a chain of 'all' statements properly yields the conclusion.",
+   "E": "Different flaw: it infers a cause from a comparison, with no quantifier overlap."
+  },
+  "trapPatterns": {
+   "B": "shell_game",
+   "C": "necessary_v_sufficient",
+   "D": "opposite",
+   "E": "out_of_scope"
+  },
+  "keyTakeaway": "Parallel-flaw answers must match both the structure and the specific error; one modal word can make a lookalike valid.",
+  "predictionHint": "Two 'some' statements do not link the first group to the third."
+ },
+ {
+  "id": "lr-n-parallel-method-hull-plating",
+  "section": "LR",
+  "type": "parallel_method",
+  "logicTags": [
+   "conditional",
+   "eliminating_options"
+  ],
+  "difficulty": 3,
+  "stimulus": "Chief engineer: The ferry company must replace its aging hull plating. If it did not, the vessels would eventually fail inspection, and a vessel that fails inspection cannot legally carry passengers. Because the company's revenue depends on carrying passengers, it would then lose its revenue. The company cannot accept that outcome, so it must replace the plating.",
+  "stem": "The pattern of reasoning in which one of the following is most similar to that in the argument above?",
+  "choices": {
+   "A": "The reservoir will overflow if the dam is not reinforced. The dam is not going to be reinforced. So the reservoir will overflow.",
+   "B": "Everyone who has used the new software praises it. Ms. Wu has used it. So Ms. Wu praises it.",
+   "C": "Our town's bakery succeeded by cutting prices, and our town's hardware store is much like the bakery. So the hardware store should cut prices.",
+   "D": "The hospital board must approve the new wing. If it did not, the emergency room would stay overcrowded, and an overcrowded emergency room cannot meet legal staffing standards. Since the hospital is obligated to meet those standards, it cannot allow that, so it must approve the wing.",
+   "E": "The mayor says the bridge is safe. The mayor is well informed about the city's infrastructure. So the bridge is safe."
+  },
+  "answer": "D",
+  "explanations": {
+   "A": "Different method: it reasons forward from a failure to act to a consequence; it does not argue that an action is required to avoid an unacceptable outcome.",
+   "B": "Different method: it applies a generalization to an individual case.",
+   "C": "Different method: it argues by analogy between two businesses.",
+   "D": "Correct. Like the original, it argues that an action must be taken because failing to take it would lead through a chain of consequences to an outcome that cannot be accepted.",
+   "E": "Different method: it relies on the authority of a source."
+  },
+  "trapPatterns": {
+   "A": "reversal",
+   "B": "half_right",
+   "C": "out_of_scope",
+   "E": "wrong_part"
+  },
+  "keyTakeaway": "Describe the argument's moves abstractly: here, 'if not X then an unacceptable result, so X.'",
+  "predictionHint": "Denial of the action leads to an unacceptable consequence."
+ },
+ {
+  "id": "lr-n-poi-letter-grades-elementary",
+  "section": "LR",
+  "type": "point_at_issue",
+  "logicTags": [
+   "comparison"
+  ],
+  "difficulty": 2,
+  "stimulus": "Teacher: Elementary schools should stop giving letter grades. Grades make children focus on how they rank against their classmates instead of on what they are learning.\n\nParent: Some children do get preoccupied with rankings, but grades also give a clear signal about how a child is doing that written comments cannot match. Elementary schools should keep letter grades.",
+  "stem": "The teacher and the parent disagree over whether",
+  "choices": {
+   "A": "children's preoccupation with rankings is a problem in elementary schools",
+   "B": "written comments give children any useful feedback about their work",
+   "C": "elementary schools should continue to give letter grades",
+   "D": "letter grades give children a clear signal of how they are doing",
+   "E": "children learn better when they are not evaluated at all"
+  },
+  "answer": "C",
+  "explanations": {
+   "A": "Not a disagreement: the parent concedes that some children become preoccupied with rankings.",
+   "B": "Out of scope: the teacher never says anything about written comments.",
+   "C": "Correct. The teacher says schools should stop giving letter grades; the parent says they should keep them.",
+   "D": "Not clearly disputed: the teacher does not say that grades fail to give a clear signal.",
+   "E": "Out of scope: neither speaker discusses removing evaluation entirely."
+  },
+  "trapPatterns": {
+   "A": "half_right",
+   "B": "out_of_scope",
+   "D": "half_right",
+   "E": "extreme"
+  },
+  "keyTakeaway": "A point at issue is a claim one speaker asserts and the other rejects; a concession is not a disagreement.",
+  "predictionHint": "The recommendation about letter grades."
+ },
+ {
+  "id": "lr-n-mbt-linden-apartments",
+  "section": "LR",
+  "type": "must_be_true",
+  "logicTags": [
+   "quantifiers",
+   "conditional"
+  ],
+  "difficulty": 1,
+  "stimulus": "Every apartment in the Linden building has either a balcony or a patio. None of the apartments on the building's top floor has a balcony.",
+  "stem": "If the statements above are true, which one of the following must also be true?",
+  "choices": {
+   "A": "Some apartments on the lower floors of the Linden building have both a balcony and a patio.",
+   "B": "Most apartments in the Linden building have patios.",
+   "C": "The top floor of the Linden building has fewer apartments than any other floor.",
+   "D": "No apartment in the Linden building that has a patio also has a balcony.",
+   "E": "Every apartment on the top floor of the Linden building has a patio."
+  },
+  "answer": "E",
+  "explanations": {
+   "A": "Extreme: nothing says that any apartment has both features.",
+   "B": "Wrong force: the statements give no count of patios in the building.",
+   "C": "Out of scope: the number of apartments per floor is never given.",
+   "D": "Reversal: 'either' here does not exclude an apartment having both, so it does not follow that none has both.",
+   "E": "Correct. Each apartment has a balcony or a patio, and top-floor apartments lack balconies, so each has a patio."
+  },
+  "trapPatterns": {
+   "A": "extreme",
+   "B": "wrong_force",
+   "C": "out_of_scope",
+   "D": "reversal"
+  },
+  "keyTakeaway": "Eliminate one side of an 'either A or B' and the other must hold.",
+  "predictionHint": "Not balcony, so patio."
+ },
+ {
+  "id": "lr-n-fill-family-dinners",
+  "section": "LR",
+  "type": "fill_in_blank",
+  "logicTags": [
+   "causation"
+  ],
+  "difficulty": 1,
+  "stimulus": "Studies consistently find that children from families that regularly eat dinner together earn better grades than children from families that do not. However, families that regularly eat together are also more likely to have a parent who is home every evening, and a parent's presence might by itself account for the better grades. Therefore, the studies do not establish that ____.",
+  "stem": "Which one of the following most logically completes the argument?",
+  "choices": {
+   "A": "children from families that eat together are more likely to have a parent at home in the evening",
+   "B": "sharing dinner is itself what causes children's grades to improve",
+   "C": "a parent's presence at home helps children to earn good grades",
+   "D": "families that do not eat together are less concerned with their children's education",
+   "E": "children's grades are unaffected by what happens at home"
+  },
+  "answer": "B",
+  "explanations": {
+   "A": "Opposite: this is a fact the passage already supplies as a reason for doubt, not something the studies fail to establish.",
+   "B": "Correct. Because parental presence is a rival explanation, the studies cannot show that the dinners themselves cause better grades.",
+   "C": "Opposite: the passage suggests this as a possibility, so it is not what the studies fail to show.",
+   "D": "Out of scope: parents' concern for education is not mentioned.",
+   "E": "Extreme: the argument does not deny that home life matters; it only questions the dinners as the cause."
+  },
+  "trapPatterns": {
+   "A": "premise_booster",
+   "C": "opposite",
+   "D": "out_of_scope",
+   "E": "extreme"
+  },
+  "keyTakeaway": "In fill-in-the-blank items, complete the thought the passage has been building, using its own premises and its concluding indicator.",
+  "predictionHint": "The dinners themselves may not be the cause."
+ },
+ {
+  "id": "lr-n-method-earthquake-forecasts",
+  "section": "LR",
+  "type": "method_of_reasoning",
+  "logicTags": [
+   "analogy"
+  ],
+  "difficulty": 3,
+  "stimulus": "Journalist: Some skeptics argue that earthquakes cannot be reliably predicted, because the seismic network's forecasts failed to anticipate last year's tremor. But if one failed forecast showed that prediction is unreliable, then a single failed forecast by a weather service would show that weather cannot be reliably predicted, and nobody believes that. The skeptics' reasoning is therefore unsound.",
+  "stem": "The journalist's argument proceeds by",
+  "choices": {
+   "A": "citing a counterexample to a general claim that the skeptics endorse",
+   "B": "attacking the skeptics' motives rather than their reasoning",
+   "C": "showing that the skeptics' reasoning, applied to a parallel case, yields a conclusion that is unacceptable",
+   "D": "showing that the skeptics' premise is inconsistent with their conclusion in a way that they would themselves be forced to acknowledge",
+   "E": "appealing to the consensus of experts in seismology"
+  },
+  "answer": "C",
+  "explanations": {
+   "A": "Wrong part: the journalist does not offer an instance that contradicts a general claim; the journalist applies the skeptics' pattern of reasoning to a different case.",
+   "B": "Out of scope: the skeptics' motives are never mentioned.",
+   "C": "Correct. The journalist applies the skeptics' inference to weather and shows that it would yield a result nobody accepts.",
+   "D": "Different method: the journalist does not say that the skeptics contradict themselves.",
+   "E": "Out of scope: no experts' opinions are cited."
+  },
+  "trapPatterns": {
+   "A": "wrong_part",
+   "B": "out_of_scope",
+   "D": "shell_game",
+   "E": "out_of_scope"
+  },
+  "keyTakeaway": "When an argument borrows the opponent's reasoning and runs it on another case, the method is refutation by parallel case.",
+  "predictionHint": "Apply the same inference to weather forecasts."
+ },
+ {
+  "id": "lr-n-mbf-grants-panel-endorsements",
+  "section": "LR",
+  "type": "must_be_false",
+  "logicTags": [
+   "conditional",
+   "quantifiers"
+  ],
+  "difficulty": 4,
+  "stimulus": "A grants panel reviewed a number of proposals. Every proposal that received funding was endorsed by at least two reviewers. No proposal that was rejected on budget grounds was endorsed by more than one reviewer. Every proposal endorsed by the panel chair was also endorsed by at least one other reviewer.",
+  "stem": "If the statements above are true, which one of the following CANNOT be true?",
+  "choices": {
+   "A": "A proposal that received funding was endorsed by the panel chair.",
+   "B": "A proposal endorsed by the panel chair was rejected on budget grounds.",
+   "C": "A proposal rejected on budget grounds was endorsed by exactly one reviewer, who was not the panel chair.",
+   "D": "A proposal endorsed by the panel chair did not receive funding.",
+   "E": "A proposal that did not receive funding was endorsed by two reviewers."
+  },
+  "answer": "B",
+  "explanations": {
+   "A": "Possible: funded proposals need two endorsements, and a chair-endorsed one has at least two.",
+   "B": "Correct. A chair-endorsed proposal has at least two endorsements, but a proposal rejected on budget grounds has at most one.",
+   "C": "Possible: one non-chair endorsement meets the limit for budget rejection and does not trigger the chair rule.",
+   "D": "Possible: nothing says that endorsement by the chair guarantees funding; the premises list only conditions for funding.",
+   "E": "Possible: nothing says that two endorsements ensure funding."
+  },
+  "trapPatterns": {
+   "A": "necessary_v_sufficient",
+   "C": "half_right",
+   "D": "necessary_v_sufficient",
+   "E": "necessary_v_sufficient"
+  },
+  "keyTakeaway": "For CANNOT-be-true items, combine the conditionals into a numerical bound and find the choice that violates it.",
+  "predictionHint": "Chair-endorsed means at least two; budget-rejected means at most one."
+ }
 ]
