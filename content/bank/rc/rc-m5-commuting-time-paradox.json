@@ -1,0 +1,270 @@
+{
+  "id": "rc-m5-commuting-time-paradox",
+  "style": "phenomenon_hypothesis",
+  "topic": "social_science",
+  "comparative": false,
+  "title": "The Constant Hour of Urban Travel",
+  "paragraphs": [
+    "One of the more durable regularities in the study of cities is that the average time people spend traveling each day has barely changed across a century in which the speed of travel has multiplied. Commuters in cities served by motorways and fast rail do not, on the whole, spend less time traveling than those in cities served by trams; they travel farther. The regularity, first documented systematically by the economist Dara Halloran in surveys spanning nine countries, is paradoxical only on the assumption that people regard travel time as a pure cost to be minimized. If they did, faster transport ought to have released hours for other uses. That it has not has prompted three explanations.",
+    "The first, advanced by Halloran herself, holds that individuals carry a roughly fixed daily budget of travel time, which they are willing to spend but not to exceed, much as households are thought to hold stable shares of income for housing. Speed gains are then converted entirely into distance. The appeal of the account is its simplicity; its difficulty is that it treats as a psychological constant what may be only a statistical one. Surveys show wide variation in the daily travel time of individuals, and the stability appears only in averages, which is just what one would expect if the average were produced by something other than a limit in each head.",
+    "The second explanation, associated with the land economist Orsolya Kenwick, locates the cause in markets rather than minds. When transport improves, the cost of distance falls, and land farther from the center, being cheaper, can now be reached; households respond by buying more space farther out, until rising demand has pushed up prices at the new margin enough to cancel the advantage. Travel time stays constant not because anyone aims at it but because it is the price at which the competing pull of space and proximity comes into balance. The account yields a prediction that Halloran's does not: where land is physically limited, so that distance cannot be exchanged for space, faster transport should shorten travel. The island city of Tessaly, hemmed in by cliffs and a protected coast, seems to bear this out; commuting times there fell by a fifth after its tunnel opened and have not risen since.",
+    "A third, deflationary view holds that the constancy is an artifact of how averages are compiled, as the mix of travelers in the surveys shifts over time. This is not wholly implausible, but it cannot account for the appearance of the same figure in city after city, drawn from independent samples. Kenwick's account is therefore the strongest of the three, though it is not complete. It explains why distance expands to fill the time available, but it does not explain why the equilibrium should lie near an hour rather than at forty minutes or at two hours, and until it does, Halloran's insight that something anchors the figure may deserve more credit than the market theorist is willing to give."
+  ],
+  "roleMap": {
+    "paragraphs": [
+      "context",
+      "counterpoint",
+      "support",
+      "main_point"
+    ],
+    "viewpoints": [
+      {
+        "who": "Halloran (travel-time budget)",
+        "position": "Individuals hold a roughly fixed daily travel-time budget and convert speed gains into distance.",
+        "authorAgrees": false
+      },
+      {
+        "who": "Kenwick (land-market account)",
+        "position": "Falling transport costs shift households outward until land prices at the margin cancel the advantage, leaving travel time constant.",
+        "authorAgrees": true
+      },
+      {
+        "who": "Proponents of the artifact view",
+        "position": "The constancy results from how averages are compiled as the mix of travelers shifts.",
+        "authorAgrees": false
+      }
+    ],
+    "tone": "analytical, mildly skeptical, balanced"
+  },
+  "lowResSummary": "Author weighs three explanations for constant average travel time, favoring a land-market account while noting it cannot say why the constant lies near an hour.",
+  "questions": [
+    {
+      "id": "rc-m5-commuting-time-paradox-q1",
+      "type": "stated",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "According to the passage, Kenwick's account explains constant average travel time as resulting from",
+      "choices": {
+        "A": "households' unwillingness to exceed a fixed daily budget of travel time",
+        "B": "physical limits on the supply of land in cities that have been served by fast transport for many decades",
+        "C": "shifts over time in the mix of travelers included in surveys",
+        "D": "increases in household income that permit the purchase of larger dwellings",
+        "E": "a balance between the pull of cheaper space and the pull of proximity to the center"
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "Wrong part. This is Halloran's account.",
+        "B": "Opposite. On Kenwick's account, limited land is where faster transport should shorten travel, not what produces constancy.",
+        "C": "Wrong part. This is the third, deflationary view.",
+        "D": "Out of scope. Income increases are not mentioned as a cause.",
+        "E": "Correct. Travel time is 'the price at which the competing pull of space and proximity comes into balance.'"
+      },
+      "trapPatterns": {
+        "A": "wrong_part",
+        "B": "opposite",
+        "C": "wrong_part",
+        "D": "out_of_scope"
+      },
+      "keyTakeaway": "Keep the three explanations apart; two of the distractors are simply the other explanations.",
+      "evidence": [
+        2
+      ]
+    },
+    {
+      "id": "rc-m5-commuting-time-paradox-q2",
+      "type": "main_point",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately expresses the main point of the passage?",
+      "choices": {
+        "A": "Average daily travel time is constant because individuals will spend a fixed amount of time traveling and no more.",
+        "B": "The constancy of average travel time is a statistical artifact that disappears when individual travel times are examined.",
+        "C": "Faster transport shortens travel time only in cities such as Tessaly, where land is physically limited.",
+        "D": "Of three explanations for the constancy of average travel time, the land-market account is the strongest, although it does not explain why the constant lies near an hour.",
+        "E": "Economists have established that people regard travel time as a cost to be minimized."
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "Opposite. This is Halloran's budget view, which the author finds weakened by wide individual variation.",
+        "B": "Opposite. The author finds the artifact view unable to account for the same figure in independent samples.",
+        "C": "Wrong part. Tessaly is evidence for Kenwick's prediction, not the passage's thesis, and 'only' overstates it.",
+        "D": "Correct. Paragraph 4: 'Kenwick's account is therefore the strongest of the three, though it is not complete.'",
+        "E": "Opposite. The regularity is paradoxical only on that assumption, which the passage treats as questionable."
+      },
+      "trapPatterns": {
+        "A": "opposite",
+        "B": "opposite",
+        "C": "wrong_part",
+        "E": "opposite"
+      },
+      "keyTakeaway": "A phenomenon-hypothesis main point states the author's verdict among the hypotheses, with the stated qualification.",
+      "evidence": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "rc-m5-commuting-time-paradox-q3",
+      "type": "purpose_in_context",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The author mentions the island city of Tessaly primarily in order to",
+      "choices": {
+        "A": "show that individuals' daily travel times vary widely from one person to the next, even within a single city surveyed",
+        "B": "argue that a travel-time budget is a psychological constant rather than a statistical one",
+        "C": "offer evidence for a prediction that distinguishes the land-market account from the budget account",
+        "D": "demonstrate that tunnels reduce travel time more effectively than motorways do",
+        "E": "establish that the land-market account is complete"
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "Wrong part. Variation among individuals is raised in the discussion of Halloran's account.",
+        "B": "Opposite. The author doubts that the budget is a psychological constant.",
+        "C": "Correct. The prediction is one 'that Halloran's does not' yield, and Tessaly 'seems to bear this out.'",
+        "D": "Out of scope. No comparison of tunnels and motorways is made.",
+        "E": "Extreme. The final paragraph says Kenwick's account 'is not complete.'"
+      },
+      "trapPatterns": {
+        "A": "wrong_part",
+        "B": "opposite",
+        "D": "out_of_scope",
+        "E": "extreme"
+      },
+      "keyTakeaway": "An example following 'yields a prediction' is offered as a test of that prediction.",
+      "evidence": [
+        2
+      ]
+    },
+    {
+      "id": "rc-m5-commuting-time-paradox-q4",
+      "type": "meaning_in_context",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "Which one of the following most accurately expresses the meaning of 'margin' as it is used in the phrase 'the new margin' in the passage?",
+      "choices": {
+        "A": "the outer edge of the area in which households now settle",
+        "B": "the profit that landlords earn on cheaper land",
+        "C": "the allowable variation around an average travel time",
+        "D": "the difference between a household's income and its housing costs",
+        "E": "the least populated part of a city's center"
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. Cheaper land 'farther from the center' becomes reachable, and demand pushes up prices at its outer edge.",
+        "B": "Shell game. This borrows a business sense of 'margin' not used here.",
+        "C": "Shell game. It borrows 'margin' as tolerance, unrelated to land prices.",
+        "D": "Shell game. Another financial sense of the word; housing shares of income appear only in an analogy.",
+        "E": "Opposite. The margin lies farther from the center, not in it."
+      },
+      "trapPatterns": {
+        "B": "shell_game",
+        "C": "shell_game",
+        "D": "shell_game",
+        "E": "opposite"
+      },
+      "keyTakeaway": "Resolve a technical word from the spatial logic of the sentence, not from its commonest sense.",
+      "evidence": [
+        2
+      ]
+    },
+    {
+      "id": "rc-m5-commuting-time-paradox-q5",
+      "type": "purpose_of_paragraph",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The primary function of the final paragraph is to",
+      "choices": {
+        "A": "dismiss the third explanation as implausible and endorse the first as complete",
+        "B": "summarize the evidence from independent samples in favor of the third explanation",
+        "C": "argue that the land-market account should replace the other two explanations entirely",
+        "D": "present a fourth explanation that reconciles the three considered earlier",
+        "E": "evaluate the third explanation and rank the three, while noting a gap in the strongest and a possible merit in the first"
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "Opposite. The third view is 'not wholly implausible,' and the first is not endorsed as complete.",
+        "B": "Opposite. The independent samples count against the third explanation.",
+        "C": "Extreme. The author suggests Halloran's insight 'may deserve more credit.'",
+        "D": "Out of scope. No fourth explanation is introduced.",
+        "E": "Correct. The paragraph disposes of the artifact view, ranks Kenwick's account first, notes that it leaves the level near an hour unexplained, and credits Halloran's insight."
+      },
+      "trapPatterns": {
+        "A": "opposite",
+        "B": "opposite",
+        "C": "extreme",
+        "D": "out_of_scope"
+      },
+      "keyTakeaway": "A concluding paragraph in this form both ranks the options and flags what remains unresolved.",
+      "evidence": [
+        3
+      ]
+    },
+    {
+      "id": "rc-m5-commuting-time-paradox-q6",
+      "type": "weaken_strengthen_evaluate",
+      "logicTags": [
+        "causation"
+      ],
+      "difficulty": 3,
+      "stem": "Which one of the following, if true, would most seriously weaken Kenwick's account as the passage describes it?",
+      "choices": {
+        "A": "Land prices at the outer edge of many cities rose after transport improvements.",
+        "B": "In several cities with abundant unbuilt land, faster transport was followed by a shorter average travel time that persisted for decades.",
+        "C": "Individuals' daily travel times vary widely around the average in most of the cities that have been surveyed by researchers over the past century.",
+        "D": "Households in Tessaly pay more per unit of living space than households in cities with unlimited land.",
+        "E": "In cities with abundant unbuilt land, average travel time did not change when transport improved."
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "Opposite. Rising prices at the margin are part of the mechanism Kenwick describes.",
+        "B": "Correct. On Kenwick's account, where land is abundant distance can be exchanged for space, so travel time should stay constant; a persistent fall contradicts that.",
+        "C": "True but irrelevant. Wide individual variation is the passage's objection to Halloran, and Kenwick's account is about averages.",
+        "D": "Out of scope. Per-unit prices in Tessaly do not bear on whether the mechanism holds where land is abundant.",
+        "E": "Opposite. This is just what Kenwick's account predicts."
+      },
+      "trapPatterns": {
+        "A": "opposite",
+        "C": "true_but_irrelevant",
+        "D": "out_of_scope",
+        "E": "opposite"
+      },
+      "keyTakeaway": "Weaken a prediction by finding the case where its stated condition holds and the stated outcome fails.",
+      "evidence": [
+        2
+      ]
+    },
+    {
+      "id": "rc-m5-commuting-time-paradox-q7",
+      "type": "analogy",
+      "logicTags": [],
+      "difficulty": 4,
+      "stem": "Which one of the following is most analogous to the way Kenwick's account, as described in the passage, explains the constancy of average travel time?",
+      "choices": {
+        "A": "A student who always spends the full evening on homework each night, finishing sooner on easy nights but then taking on extra tasks to fill whatever time remains before bedtime",
+        "B": "As lanes are added to a highway, drivers switch to it from other routes until delays match those on the alternatives, so added capacity brings no lasting reduction in delay",
+        "C": "After a tunnel opens beneath a harbor with only one possible crossing point, the time needed to cross falls and remains low",
+        "D": "A national exam's average score stays steady for decades because the mix of students who sit it keeps changing",
+        "E": "A retailer lowers prices whenever a rival does, so neither gains market share"
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "Wrong part. This resembles Halloran's fixed budget, in which people stop at a limit, not a market balance.",
+        "B": "Correct. An improvement attracts a response that raises the cost at the margin until the advantage is canceled, leaving the outcome unchanged, as with Kenwick's land prices.",
+        "C": "Wrong part. This resembles Tessaly, where a physical constraint blocks the adjustment and time falls.",
+        "D": "Wrong part. This resembles the artifact view, in which the average is steady because the composition shifts.",
+        "E": "Shell game. Competitive matching of prices involves no response that cancels the effect of an improvement, nor an equilibrium at constant cost."
+      },
+      "trapPatterns": {
+        "A": "wrong_part",
+        "C": "wrong_part",
+        "D": "wrong_part",
+        "E": "shell_game"
+      },
+      "keyTakeaway": "Map the mechanism (improvement, induced response, canceling price) rather than the surface topic of travel.",
+      "evidence": [
+        2
+      ]
+    }
+  ]
+}

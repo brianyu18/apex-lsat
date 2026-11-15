@@ -1,0 +1,270 @@
+{
+  "id": "rc-m5-statutory-purpose-text",
+  "style": "critique_debate",
+  "topic": "law",
+  "comparative": true,
+  "title": "Reading a Statute by Its Words or Its Point",
+  "paragraphs": [
+    "Judges who read statutes by their purposes claim fidelity to the legislature's intent, but the claim mistakes where a legislature's intentions can be found. A statute is the product of a procedure: bills are drafted, amended in committee, traded against other bills, and finally voted up or down as a single text. No individual legislator votes for a purpose; each votes for words, often for different reasons and sometimes for opposed ones. When a court announces that a statute 'aims at' some end, it selects one among the many aims that supporters entertained, and the selection is more likely to reflect the judge's own view of good policy than any fact about the enactors.",
+    "The text, by contrast, is the one thing that survived every stage of compromise. Consider the Harrowgate Tenancy Act of 1911, which forbids a landlord to 'remove' a tenant's belongings during the winter months. Purposivists have argued that the Act was meant to prevent hardship and so should bar the sale of a defaulting tenant's goods as well. But the drafters, who used 'sell' elsewhere in the same Act, evidently knew the difference. To read 'remove' as 'sell' is to credit the legislature with a sentence it chose not to write. Where the text is a poor instrument, the remedy lies with the legislature, which can amend it; courts that repair it themselves invite the very uncertainty that written law exists to prevent."
+  ],
+  "paragraphsB": [
+    "The textualist's argument proves less than it appears to. It is true that no collective body has a mind, and that legislative intent in the psychological sense is a fiction. But the purpose a court attributes to a statute need not be anyone's mental state; it is the objective point that the enactment, read against the problem it was evidently framed to address, would serve. Every reader of a text, including the textualist, supplies such a point, for words have no meaning apart from some assumption about what they are for. A rule that prohibits 'vehicles' in a park cannot be applied without deciding whether it concerns ambulances and toy wagons, and that decision is a decision about purpose.",
+    "Nor does the Harrowgate example favor the textualist as strongly as claimed. The drafters' use of 'sell' elsewhere shows only that they distinguished the two words, not that they meant the Act to leave a tenant's goods exposed to a sale conducted in the dead of winter, on the very day the Act forbids their being carted away. Purposive reading does not displace the text; it disciplines the choice among the readings the text allows, and where the language is clear, purposivists, too, yield to it. The dispute is therefore narrower than textualists suggest: it concerns what courts should do when the words are genuinely open, and on that question an appeal to the statute's point is not an invitation to improvisation but the most principled guide available."
+  ],
+  "roleMap": {
+    "paragraphs": [
+      "main_point",
+      "support"
+    ],
+    "viewpoints": [
+      {
+        "who": "Purposivist judges (as described in passage A)",
+        "position": "Statutes should be read in light of the legislature's purpose.",
+        "authorAgrees": false
+      },
+      {
+        "who": "Author of passage A",
+        "position": "Only the enacted text, not an attributed purpose, reflects what the legislature agreed on; defects are for the legislature to repair.",
+        "authorAgrees": true
+      },
+      {
+        "who": "Author of passage B",
+        "position": "Purpose is an objective point that any reading presupposes; it guides the choice among readings the words allow.",
+        "authorAgrees": true
+      }
+    ],
+    "tone": "A confident; B measured, corrective"
+  },
+  "lowResSummary": "A says courts should follow a statute's text, not an attributed purpose; B replies that any reading presupposes a purpose that guides choices among open ones.",
+  "questions": [
+    {
+      "id": "rc-m5-statutory-purpose-text-q1",
+      "type": "main_point",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately expresses the main point of passage B?",
+      "choices": {
+        "A": "Legislative intent in the psychological sense can be recovered from the committee proceedings that produce a statute, and courts should rely on it.",
+        "B": "The Harrowgate Tenancy Act should be read to bar the sale of a defaulting tenant's goods during the winter months.",
+        "C": "Because applying any text presupposes a view of its point, purposive reading is not improvisation but a principled way of choosing among readings that the words leave open.",
+        "D": "Textualists and purposivists disagree about the correct reading of every statute that is not perfectly clear.",
+        "E": "A court should give a statute whatever meaning best serves its objective purpose, even where the language of the statute is clear."
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "Opposite. Passage B calls legislative intent 'in the psychological sense' a fiction.",
+        "B": "Wrong part. B says only that the example does not favor the textualist as strongly as claimed; it never concludes how the Act must be read.",
+        "C": "Correct. B argues that every reader 'supplies such a point' and that appeal to purpose is 'the most principled guide available' when the words are 'genuinely open.'",
+        "D": "Extreme. B says the dispute is 'narrower than textualists suggest.'",
+        "E": "Opposite. B says 'where the language is clear, purposivists, too, yield to it.'"
+      },
+      "trapPatterns": {
+        "A": "opposite",
+        "B": "wrong_part",
+        "D": "extreme",
+        "E": "opposite"
+      },
+      "keyTakeaway": "B's thesis has a premise (all reading presupposes a point) and a limited conclusion (purpose guides only among open readings); wrong answers inflate or reverse the conclusion.",
+      "evidence": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "rc-m5-statutory-purpose-text-q2",
+      "type": "relationship",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately describes the relationship between the two passages?",
+      "choices": {
+        "A": "Passage B states in more general terms the principle that passage A applies to a particular statute.",
+        "B": "Passage B offers a second, independent historical example in support of the thesis that passage A advances.",
+        "C": "Passage B agrees with passage A about the proper reading of the Harrowgate Act but disagrees about the reasoning that supports it.",
+        "D": "Passage B rejects the account of legislative procedure on which passage A bases its argument.",
+        "E": "Passage B grants a premise of passage A's argument but denies that the conclusion drawn from it follows."
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "Reversal. It is passage A that moves from a general thesis to the Harrowgate case; B opposes A's thesis rather than generalizing it.",
+        "B": "Opposite. B reuses A's example to resist A's thesis and introduces no independent example in its favor.",
+        "C": "Opposite. B says the example does not favor the textualist, so the two do not agree about it.",
+        "D": "Extreme. B does not dispute A's description of how statutes are enacted; it concedes that no collective body has a mind.",
+        "E": "Correct. B concedes that 'legislative intent in the psychological sense is a fiction' but argues that purpose can be an objective point, so A's conclusion does not follow."
+      },
+      "trapPatterns": {
+        "A": "reversal",
+        "B": "opposite",
+        "C": "opposite",
+        "D": "extreme"
+      },
+      "keyTakeaway": "In a point/counterpoint set, check what B concedes: B accepts A's premise about the fictional character of collective intent and attacks only the inference.",
+      "evidence": [
+        0,
+        2
+      ]
+    },
+    {
+      "id": "rc-m5-statutory-purpose-text-q3",
+      "type": "stated",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "According to passage A, the Harrowgate Tenancy Act",
+      "choices": {
+        "A": "uses the word 'sell' in a provision other than the one concerning removal",
+        "B": "was amended in committee to replace 'sell' with 'remove'",
+        "C": "forbids landlords to remove a tenant's belongings in any season",
+        "D": "expressly permits the sale of a defaulting tenant's goods",
+        "E": "was drafted with the aim of preventing hardship, as its drafters stated in the course of the legislative debates"
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. The drafters 'used 'sell' elsewhere in the same Act.'",
+        "B": "Out of scope. Nothing is said about committee amendment of these words.",
+        "C": "Extreme. The Act forbids removal 'during the winter months,' not in every season.",
+        "D": "Out of scope. Purposivists argue the Act should bar sale; nothing says it expressly permits sale.",
+        "E": "Wrong part. The hardship aim is what 'purposivists have argued,' not a statement by the drafters reported in A."
+      },
+      "trapPatterns": {
+        "B": "out_of_scope",
+        "C": "extreme",
+        "D": "extreme",
+        "E": "wrong_part"
+      },
+      "keyTakeaway": "A claim attributed to purposivists in a passage is not something the passage itself says about the facts.",
+      "evidence": [
+        1
+      ]
+    },
+    {
+      "id": "rc-m5-statutory-purpose-text-q4",
+      "type": "author_perspective",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "It can be inferred from the passages that the author of passage B would be most likely to agree with which one of the following?",
+      "choices": {
+        "A": "Courts should refuse to attribute a purpose to a statute unless its legislative sponsors publicly announced one at the time the bill was introduced and debated in the chamber.",
+        "B": "The psychological intentions of individual legislators can be reliably reconstructed from the records of committee deliberations.",
+        "C": "Purposivists and textualists would reach different results in every case that comes before a court.",
+        "D": "A court that gives clearly worded language a meaning its words cannot bear, in order to serve a statute's purpose, departs from the method passage B defends.",
+        "E": "The Harrowgate Tenancy Act should be read to permit a landlord to sell a defaulting tenant's goods during the winter months."
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "Opposite. B holds that purpose is an objective point supplied by the enactment and the problem it addresses, not something announced by sponsors.",
+        "B": "Opposite. B treats psychological intent as 'a fiction.'",
+        "C": "Extreme. B says the dispute concerns only cases where the words are 'genuinely open.'",
+        "D": "Correct. B says 'where the language is clear, purposivists, too, yield to it,' and that purposive reading 'disciplines the choice among the readings the text allows.'",
+        "E": "Opposite. B suggests the textualist reading would leave goods exposed to winter sale, which it treats as at odds with the Act's point."
+      },
+      "trapPatterns": {
+        "A": "opposite",
+        "B": "opposite",
+        "C": "extreme",
+        "E": "opposite"
+      },
+      "keyTakeaway": "B's limiting claim, that purpose operates only among readings the text allows, is what makes this inference safe.",
+      "evidence": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "rc-m5-statutory-purpose-text-q5",
+      "type": "purpose_in_context",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "The author of passage B mentions a rule that prohibits 'vehicles' in a park primarily in order to",
+      "choices": {
+        "A": "show that statutes are frequently drafted too carelessly to be applied without some measure of judicial correction after enactment",
+        "B": "illustrate that applying even a simple textual rule requires an assumption about what the rule is for",
+        "C": "suggest that the legislature that adopted such a rule intended to exclude ambulances",
+        "D": "demonstrate that purposivists and textualists would reach the same result in a park case",
+        "E": "concede that purposive reading sometimes displaces the text of the statute"
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "Out of scope. B does not criticize the drafting of statutes.",
+        "B": "Correct. The rule 'cannot be applied without deciding whether it concerns ambulances and toy wagons, and that decision is a decision about purpose.'",
+        "C": "Extreme. The example leaves open whether ambulances are covered.",
+        "D": "Out of scope. No comparison of results is made.",
+        "E": "Opposite. B says purposive reading 'does not displace the text.'"
+      },
+      "trapPatterns": {
+        "A": "out_of_scope",
+        "C": "extreme",
+        "D": "out_of_scope",
+        "E": "opposite"
+      },
+      "keyTakeaway": "An example's role is announced by the sentence around it; here the claim that every reader supplies a point.",
+      "evidence": [
+        2
+      ]
+    },
+    {
+      "id": "rc-m5-statutory-purpose-text-q6",
+      "type": "purpose_of_paragraph",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The primary function of the second paragraph of passage A is to",
+      "choices": {
+        "A": "introduce a statute whose history shows the weakness of the argument made in the first paragraph",
+        "B": "present a counterexample to the claim that the text of a statute reflects the compromises that produced it",
+        "C": "argue that the text is the more reliable guide, illustrate the point with a particular statute, and assign the repair of defective text to the legislature",
+        "D": "concede that purposive readings are sometimes more faithful to a legislature than textual ones",
+        "E": "describe the procedure through which bills are drafted, amended, and voted on"
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "Opposite. The Harrowgate example is used to support, not weaken, the first paragraph's argument.",
+        "B": "Opposite. The paragraph opens by saying the text 'survived every stage of compromise.'",
+        "C": "Correct. The paragraph contrasts text with attributed purpose, applies the contrast to Harrowgate, and ends by saying the remedy 'lies with the legislature.'",
+        "D": "Opposite. No concession to purposivism is made.",
+        "E": "Wrong part. Legislative procedure is described in the first paragraph."
+      },
+      "trapPatterns": {
+        "A": "opposite",
+        "B": "opposite",
+        "D": "opposite",
+        "E": "wrong_part"
+      },
+      "keyTakeaway": "Paragraph-function answers must cover the paragraph's whole movement, claim, example, then recommendation.",
+      "evidence": [
+        1
+      ]
+    },
+    {
+      "id": "rc-m5-statutory-purpose-text-q7",
+      "type": "weaken_strengthen_evaluate",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "Which one of the following, if true, would most strengthen the claim in passage B that the Harrowgate example does not favor the textualist?",
+      "choices": {
+        "A": "Sale of a tenant's belongings in winter ordinarily leaves the tenant without bedding and heating equipment, the very exposure that the Act's other provisions are directed against.",
+        "B": "The legislators who voted for the Harrowgate Tenancy Act disagreed among themselves about what the Act was meant to accomplish.",
+        "C": "Most courts that have considered the Harrowgate Tenancy Act have followed the textualist reading of 'remove.'",
+        "D": "The word 'sell' appears in only one other provision of the Harrowgate Tenancy Act, a provision concerning leases of commercial premises to business tenants rather than residential tenants.",
+        "E": "Landlords in the period of the Harrowgate Tenancy Act seldom sold the goods of defaulting tenants during the winter months."
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. If a winter sale would produce the hardship the rest of the Act addresses, then reading 'remove' to cover it serves the Act's evident point, and the drafters' use of 'sell' elsewhere does not show they meant to leave goods exposed.",
+        "B": "Opposite. Disagreement among legislators about aims is the premise of passage A's argument against purposive reading.",
+        "C": "True but irrelevant. How courts have ruled does not show what the Act's drafting implies.",
+        "D": "Wrong force. This fact bears on the drafters' use of the word but does not show that they meant to leave goods exposed to sale; if anything it leaves the textualist inference intact.",
+        "E": "Out of scope. How seldom landlords sold goods does not bear on what the Act's wording or point implies."
+      },
+      "trapPatterns": {
+        "B": "opposite",
+        "C": "true_but_irrelevant",
+        "D": "wrong_force",
+        "E": "out_of_scope"
+      },
+      "keyTakeaway": "To strengthen an argument from purpose, supply objective evidence about the statute's evident point, not facts about its application or enforcement.",
+      "evidence": [
+        1,
+        3
+      ]
+    }
+  ]
+}

@@ -1,0 +1,272 @@
+{
+  "id": "rc-m5-soil-crust-recovery",
+  "style": "problem_analysis",
+  "topic": "natural_science",
+  "comparative": false,
+  "title": "Restoring the Living Skin of Arid Soils",
+  "paragraphs": [
+    "In the arid basins of the interior, much of the ground that is not bare rock is held together by biological soil crust, a thin living skin of cyanobacteria, lichens, and mosses whose filaments bind surface particles into a coherent layer. The crust resists wind and water erosion, retains moisture, and, in its mature form, adds fixed nitrogen to soils that receive almost none from other sources. It is also easily broken. A single pass by a heavy vehicle or a season of intensive grazing can pulverize it, and once it is gone the loosened surface becomes a source of dust that smothers neighboring crust and degrades air quality far downwind. Left alone, a damaged crust may need decades to return to its earlier condition, and managers of degraded rangeland have therefore looked for ways to hasten the process.",
+    "Three methods have received serious attention. The simplest is exclusion: fencing the damaged ground against livestock and vehicles and waiting. It is cheap and has been shown to work, but the Calder Basin trials directed by Teodor Brandvold found that exclusion alone restored less than a tenth of lost cover in fifteen years where the surrounding land was itself heavily disturbed, because dust arriving from the neighbors continually buried the young crust. The second method is inoculation: cultures of fast-growing cyanobacteria, grown in the laboratory from local crust, are sprayed over the damaged surface. Inoculated plots stabilized within two growing seasons, a rate that no passive approach has approached.",
+    "Yet the success of inoculation has been judged mainly by surface stability, and that standard flatters it. The crusts that formed were thin and brittle, composed almost entirely of the cultured organisms, and lacked the lichens and mosses that supply most of a mature crust's nitrogen and water-holding capacity. Several plots had begun to crumble by the fifth year, when a drought removed the moisture on which the cyanobacteria depended. The third method, transplanting, moves intact fragments of healthy crust from donor sites to the damaged ground, where they seed it with the full community. Transplanted patches have matured fastest, but the method is limited by supply: collecting enough fragments to treat a large basin would itself injure the donor sites, and the labor involved is considerable.",
+    "None of the three, then, is adequate by itself, and it would be a mistake to rank them as though they were rivals. Brandvold himself has suggested that inoculation be used to stabilize the surface quickly, protecting transplanted fragments from burial by dust, which would allow a small number of donor fragments to be spread more thinly over wider areas. The proposal is untested at scale, and its success would depend on whether the cultured cyanobacteria help or hinder the establishment of slower-growing lichens, a question on which the evidence is still thin. What the trials do establish is that a method should be judged by the community it leaves behind rather than by how quickly it covers the ground."
+  ],
+  "roleMap": {
+    "paragraphs": [
+      "context",
+      "support",
+      "counterpoint",
+      "main_point"
+    ],
+    "viewpoints": [
+      {
+        "who": "Proponents of exclusion",
+        "position": "Fencing damaged ground and waiting is a cheap and effective way to restore crust.",
+        "authorAgrees": null
+      },
+      {
+        "who": "Proponents of inoculation",
+        "position": "Spraying cultured cyanobacteria stabilizes damaged surfaces quickly.",
+        "authorAgrees": null
+      },
+      {
+        "who": "Brandvold",
+        "position": "Inoculation should stabilize the surface so that scarce transplanted fragments can be spread more thinly.",
+        "authorAgrees": null
+      }
+    ],
+    "tone": "evaluative, cautious, constructive"
+  },
+  "lowResSummary": "Author finds each of three arid-soil crust restoration methods inadequate alone and favors an untested combination judged by the community it yields.",
+  "questions": [
+    {
+      "id": "rc-m5-soil-crust-recovery-q1",
+      "type": "main_point",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately expresses the main point of the passage?",
+      "choices": {
+        "A": "Inoculation with cultured cyanobacteria is the most effective method of restoring soil crust because it stabilizes damaged surfaces within two growing seasons.",
+        "B": "Exclusion fails to restore soil crust wherever dust from heavily disturbed neighboring land is present.",
+        "C": "Transplanting is the only method that restores the full community of organisms found in a mature soil crust.",
+        "D": "Damaged soil crust cannot return to its earlier condition unless managers intervene with some form of active restoration.",
+        "E": "Because each proposed restoration method has serious limitations, a combination of methods, judged by the community it produces, seems more promising than any one alone."
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "Half right. Inoculation's speed is real, but paragraph 3 says that stability is a standard that 'flatters' it.",
+        "B": "Wrong part. This is a finding about exclusion in the trials, and the passage limits it to heavily disturbed surroundings and a stated period.",
+        "C": "Extreme. The passage says transplanting seeds 'the full community' but does not say it is the only method that could.",
+        "D": "Opposite. The first paragraph says that left alone a damaged crust may return, though over decades.",
+        "E": "Correct. Paragraph 4: 'None of the three... is adequate by itself,' the combination is suggested, and methods should be judged 'by the community it leaves behind.'"
+      },
+      "trapPatterns": {
+        "A": "half_right",
+        "B": "wrong_part",
+        "C": "extreme",
+        "D": "opposite"
+      },
+      "keyTakeaway": "In a problem-analysis passage the main point is the author's overall assessment of the solutions, not any single solution's result.",
+      "evidence": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "rc-m5-soil-crust-recovery-q2",
+      "type": "stated",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "According to the passage, the Calder Basin trials found that exclusion alone",
+      "choices": {
+        "A": "restored little of the lost cover where surrounding land was heavily disturbed",
+        "B": "restored cover more quickly than inoculation did in the plots that were observed over the same period",
+        "C": "failed to keep livestock out of the fenced plots",
+        "D": "worked only when donor fragments of healthy crust were also supplied",
+        "E": "caused dust to accumulate within the fenced plots"
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. It 'restored less than a tenth of lost cover in fifteen years where the surrounding land was itself heavily disturbed.'",
+        "B": "Opposite. Inoculated plots stabilized in two growing seasons, which 'no passive approach has approached.'",
+        "C": "Out of scope. The failure to keep livestock out is not reported.",
+        "D": "Out of scope. Exclusion is described as acting alone; donor fragments belong to transplanting.",
+        "E": "Shell game. Dust arrived from neighboring land and buried the young crust; the passage does not say the fencing itself generated it."
+      },
+      "trapPatterns": {
+        "B": "opposite",
+        "C": "out_of_scope",
+        "D": "out_of_scope",
+        "E": "shell_game"
+      },
+      "keyTakeaway": "Qualifiers such as 'where the surrounding land was itself heavily disturbed' limit what a trial result shows.",
+      "evidence": [
+        1
+      ]
+    },
+    {
+      "id": "rc-m5-soil-crust-recovery-q3",
+      "type": "purpose_in_context",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The author mentions the drought in the third paragraph primarily in order to",
+      "choices": {
+        "A": "suggest that drought is the principal cause of damage to soil crust in the arid basins of the interior",
+        "B": "explain why exclusion restored so little cover in the Calder Basin trials",
+        "C": "illustrate the fragility of the thin, cyanobacteria-only crusts that inoculation produced",
+        "D": "show that transplanted patches are more sensitive to moisture than inoculated ones",
+        "E": "establish that cyanobacteria cannot survive without lichens and mosses"
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "Extreme. The first paragraph names vehicles and grazing as causes of damage; the drought is mentioned only for inoculated plots.",
+        "B": "Wrong part. Exclusion's poor result is explained by buried crust in the second paragraph.",
+        "C": "Correct. The crusts were 'thin and brittle' and began to crumble when the drought 'removed the moisture on which the cyanobacteria depended.'",
+        "D": "Out of scope. No comparison of moisture sensitivity is made.",
+        "E": "Extreme. The passage says only that the crusts lacked lichens and mosses and later crumbled, not that cyanobacteria cannot survive without them."
+      },
+      "trapPatterns": {
+        "A": "extreme",
+        "B": "wrong_part",
+        "D": "out_of_scope",
+        "E": "extreme"
+      },
+      "keyTakeaway": "An incidental event usually illustrates the point of its sentence; here the brittleness of cultured crusts.",
+      "evidence": [
+        2
+      ]
+    },
+    {
+      "id": "rc-m5-soil-crust-recovery-q4",
+      "type": "meaning_in_context",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "Which one of the following most accurately expresses the meaning of 'flatters' as it is used in the passage?",
+      "choices": {
+        "A": "praises insincerely in order to gain favor",
+        "B": "makes appear better than a fuller assessment would show",
+        "C": "describes in unusually vivid and attractive terms",
+        "D": "conceals the cost involved in",
+        "E": "exaggerates the speed with which results are achieved by"
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "Shell game. 'Flatters' here describes a measure, not a person seeking favor.",
+        "B": "Correct. Judged by surface stability, inoculation looks better than it does once the thin, brittle, nitrogen-poor crust is considered.",
+        "C": "Out of scope. The sentence concerns the standard of judgment, not the vividness of description.",
+        "D": "Out of scope. Cost is not the issue; the crust's composition is.",
+        "E": "Half right. Speed is real here (two growing seasons); the standard overlooks quality rather than exaggerating speed."
+      },
+      "trapPatterns": {
+        "A": "shell_game",
+        "C": "out_of_scope",
+        "D": "out_of_scope",
+        "E": "half_right"
+      },
+      "keyTakeaway": "The sentence after 'flatters' supplies what the standard overlooks.",
+      "evidence": [
+        2
+      ]
+    },
+    {
+      "id": "rc-m5-soil-crust-recovery-q5",
+      "type": "author_perspective",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "The passage most strongly suggests that the author would agree with which one of the following?",
+      "choices": {
+        "A": "Inoculated crusts would have survived the drought had they contained lichens and mosses.",
+        "B": "Transplanting could readily be carried out on a large scale if donor sites were abundant enough.",
+        "C": "Restoration of soil crust is worth attempting only where the surrounding land is undisturbed by livestock, vehicles, or the dust they raise.",
+        "D": "Fencing a damaged area against livestock and vehicles may fail to protect it from damage that originates outside the fence.",
+        "E": "Brandvold regards inoculation as inferior to transplanting."
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "Extreme. The passage says the crusts lacked these organisms and crumbled in drought, but never says that having them would have prevented it.",
+        "B": "Extreme. Labor 'is considerable' as well as supply being limited, so supply alone is not the only obstacle.",
+        "C": "Extreme. Nothing suggests restoration is pointless near disturbed land; the proposed combination is aimed at just such conditions.",
+        "D": "Correct. Dust from heavily disturbed neighbors 'continually buried the young crust' on fenced ground.",
+        "E": "Opposite. Brandvold proposes using inoculation to protect transplanted fragments, treating the methods as complementary."
+      },
+      "trapPatterns": {
+        "A": "extreme",
+        "B": "extreme",
+        "C": "extreme",
+        "E": "opposite"
+      },
+      "keyTakeaway": "The safe inference restates a result in general terms ('may fail') without adding unsupported conditions.",
+      "evidence": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "rc-m5-soil-crust-recovery-q6",
+      "type": "weaken_strengthen_evaluate",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "Which one of the following, if true, would most seriously undermine Brandvold's proposal as the passage describes it?",
+      "choices": {
+        "A": "Inoculated surfaces resist burial by wind-blown dust better than uninoculated surfaces do over several growing seasons.",
+        "B": "Donor sites from which small amounts of crust are taken thinly recover within a few years.",
+        "C": "Transplanted fragments of healthy crust mature faster than the cultured cyanobacteria do.",
+        "D": "Cultures grown from local crust cost more to produce than cultures from imported strains.",
+        "E": "Cultured cyanobacteria release compounds that inhibit the growth of lichens and mosses on the same surface."
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "Opposite. This supports the claim that inoculation can protect transplanted fragments from burial.",
+        "B": "Opposite. It makes spreading donor fragments more thinly even more practical.",
+        "C": "True but irrelevant. The proposal depends on whether inoculation helps establishment of the transplanted community, not on relative maturation rates.",
+        "D": "Out of scope. The proposal concerns local cultures; cost of imported ones is not in question.",
+        "E": "Correct. The passage says success depends on whether cyanobacteria 'help or hinder' lichens; inhibition would defeat the purpose of combining the methods."
+      },
+      "trapPatterns": {
+        "A": "opposite",
+        "B": "opposite",
+        "C": "true_but_irrelevant",
+        "D": "out_of_scope"
+      },
+      "keyTakeaway": "The author names the proposal's key condition; an answer that settles it negatively is the strongest attack.",
+      "evidence": [
+        3
+      ]
+    },
+    {
+      "id": "rc-m5-soil-crust-recovery-q7",
+      "type": "organization",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately describes the organization of the passage?",
+      "choices": {
+        "A": "A natural feature and its vulnerability are described; three restoration methods are presented with their results; the methods are then assessed and a combination is proposed.",
+        "B": "A scientific controversy is introduced; two rival theories are described; evidence for one is presented; the other is dismissed.",
+        "C": "A single restoration method is described; objections to it are raised and answered; the method is endorsed.",
+        "D": "A historical account of soil damage is given; the results of a single trial are summarized; a general principle is derived.",
+        "E": "Three rival restoration methods are ranked; the best is described in detail; its limitations are set aside."
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. Paragraph 1 describes the crust and its fragility, paragraphs 2 and 3 present exclusion, inoculation and transplanting, and paragraph 4 assesses them and discusses a combination.",
+        "B": "Out of scope. No two-theory controversy is presented.",
+        "C": "Opposite. Three methods are presented, and none is endorsed alone.",
+        "D": "Out of scope. There is no historical account, and more than one method is trialed.",
+        "E": "Opposite. The author says it would be 'a mistake to rank them as though they were rivals.'"
+      },
+      "trapPatterns": {
+        "B": "out_of_scope",
+        "C": "opposite",
+        "D": "out_of_scope",
+        "E": "opposite"
+      },
+      "keyTakeaway": "Match each option's sequence to the paragraphs in order; wrong options misstate the number of items or the final move.",
+      "evidence": [
+        0,
+        1,
+        2,
+        3
+      ]
+    }
+  ]
+}

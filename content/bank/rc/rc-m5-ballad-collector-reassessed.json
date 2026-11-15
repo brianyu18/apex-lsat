@@ -1,0 +1,270 @@
+{
+  "id": "rc-m5-ballad-collector-reassessed",
+  "style": "spotlight",
+  "topic": "humanities",
+  "comparative": false,
+  "title": "Ruthven Callow and the Composite Ballad",
+  "paragraphs": [
+    "For more than a century the reputation of Ruthven Callow, who gathered songs from the shepherds and quarrymen of the Marrowdale hills between 1841 and 1863, has rested on a single charge: that he did not so much collect the songs as compose them. His Songs of the Upland Shepherds (1858) offered smooth, regular, and thoroughly singable texts, and later folklorists, committed to the principle that a song should be printed exactly as a particular singer delivered it, concluded that Callow had joined fragments, regularized meter, and removed whatever might offend a drawing-room audience. The verdict hardened into a commonplace; Callow became a cautionary figure whom scholars cited chiefly to illustrate what an editor ought not to do.",
+    "The recovery of his field notebooks, long believed lost, has complicated that picture. The notebooks show that Callow, unlike many collectors of his day, recorded the name and village of each singer and, in the margin, the points at which one singer's version departed from another's. Where the published text combines lines from several performances, the marginal notations usually identify the source of each line. The historian Ines Varga-Whitlock, who has compared the notebooks with the printed volume, argues that Callow was working from a theory of what a song is: not a single performance but a body of variants, no one singer holding the whole, which it is the editor's task to reassemble. On this view his composites are not forgeries but reconstructions, and the notebooks are the documentation that a forger would not have kept.",
+    "The case of 'The Miller's Three Daughters' is instructive. The published text runs to fourteen stanzas, longer than any version the notebooks record from a single singer. Callow took the first six from a quarryman at Hollin Cross, the next four from a shepherd's widow who remembered the story but not the words, and the remainder from a third singer whose version he plainly judged corrupt in its opening but sound in its close. Each borrowing is flagged in the margin, and in two places Callow notes that he has chosen between rival wordings on the ground that one rhymed with the tune as sung and the other did not. Such judgments are open to dispute, but they are judgments of a kind that singers themselves make when they learn a song from several sources.",
+    "None of this clears Callow entirely. The notebooks also confirm that he silently dropped verses he thought coarse, and that he never noted having done so; nor did he record songs of the new mill towns, which he regarded as unworthy of preservation. These omissions skew the picture of the repertoire that his volume presents. Yet to fault him for failing to meet a standard of textual purity formulated only after his death is to judge a collector by a discipline he could not have known. The fairer conclusion is that Callow's practice was more openly documented, and more principled, than his critics allowed, even though it was shaped by prejudices of his own that the notebooks now let us see."
+  ],
+  "roleMap": {
+    "paragraphs": [
+      "context",
+      "support",
+      "example",
+      "concession"
+    ],
+    "viewpoints": [
+      {
+        "who": "Later folklorists",
+        "position": "A song should be printed exactly as one singer delivered it; Callow composed rather than collected.",
+        "authorAgrees": false
+      },
+      {
+        "who": "Ines Varga-Whitlock",
+        "position": "Callow treated a song as a body of variants and reconstructed it; his composites are documented reconstructions, not forgeries.",
+        "authorAgrees": true
+      },
+      {
+        "who": "Ruthven Callow",
+        "position": "A song is a body of variants that the editor reassembles, with sources noted in the margin.",
+        "authorAgrees": null
+      }
+    ],
+    "tone": "qualified approval"
+  },
+  "lowResSummary": "Recovered notebooks show a folk-song collector's composites were documented reconstructions, not forgeries, though his omissions and biases remain real flaws.",
+  "questions": [
+    {
+      "id": "rc-m5-ballad-collector-reassessed-q1",
+      "type": "main_point",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "Which one of the following most accurately expresses the main point of the passage?",
+      "choices": {
+        "A": "Callow was the first collector of his day to record the names and villages of the singers from whom he took songs.",
+        "B": "Varga-Whitlock has shown that Callow's published volume is an accurate record of the full repertoire of the Marrowdale hills.",
+        "C": "The principle that a song should be printed exactly as one singer delivered it is mistaken and should be abandoned by folklorists.",
+        "D": "Callow's volume should be regarded as free of the editorial faults that earlier scholars attributed to it, since his notebooks document every change.",
+        "E": "Callow's notebooks show that his composite texts were documented reconstructions rather than inventions, though his silent omissions and prejudices still limit his volume's value."
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "Comparison shift. Callow recorded sources 'unlike many collectors of his day,' which does not make him the first.",
+        "B": "Opposite. The final paragraph says his omissions 'skew the picture of the repertoire.'",
+        "C": "Extreme. The author calls the purity standard one 'formulated only after his death' and unfair to apply to Callow, but does not say it is mistaken.",
+        "D": "Extreme. The notebooks confirm that he 'silently dropped verses' and 'never noted having done so.'",
+        "E": "Correct. Paragraphs 2 and 3 establish documented reconstruction; paragraph 4 qualifies it with the omissions and 'prejudices of his own.'"
+      },
+      "trapPatterns": {
+        "A": "comparison_shift",
+        "B": "opposite",
+        "C": "extreme",
+        "D": "extreme"
+      },
+      "keyTakeaway": "In a reassessment passage the main point usually carries both the revised verdict and the author's stated reservation.",
+      "evidence": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": "rc-m5-ballad-collector-reassessed-q2",
+      "type": "stated",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "According to the passage, the marginal notations in Callow's notebooks usually",
+      "choices": {
+        "A": "record the tune to which each song was sung",
+        "B": "indicate which verses he judged too coarse to print",
+        "C": "identify the source of each line in a composite text",
+        "D": "list the songs of the mill towns that he chose not to record",
+        "E": "mark the lines that he composed himself to complete a song"
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "Out of scope. The tune is mentioned only as a criterion for choosing among wordings.",
+        "B": "Opposite. He 'never noted' having dropped coarse verses.",
+        "C": "Correct. 'The marginal notations usually identify the source of each line.'",
+        "D": "Opposite. He did not record mill-town songs at all.",
+        "E": "Out of scope. The passage never says that Callow wrote lines of his own."
+      },
+      "trapPatterns": {
+        "A": "out_of_scope",
+        "B": "opposite",
+        "D": "opposite",
+        "E": "out_of_scope"
+      },
+      "keyTakeaway": "Check what the notebooks do and do not record: sources yes, deletions no.",
+      "evidence": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": "rc-m5-ballad-collector-reassessed-q3",
+      "type": "purpose_in_context",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The author discusses 'The Miller's Three Daughters' primarily in order to",
+      "choices": {
+        "A": "illustrate, in one case, the practice that Varga-Whitlock's interpretation attributes to Callow",
+        "B": "show that Callow's choices among rival wordings were beyond reasonable dispute",
+        "C": "demonstrate that Callow invented the closing stanzas of many songs in his volume",
+        "D": "provide an instance of the coarse verses that Callow silently removed from his texts",
+        "E": "establish that the song was longer than any other in the repertoire of the Marrowdale hills"
+      },
+      "answer": "A",
+      "explanations": {
+        "A": "Correct. The case shows a composite assembled from three named singers, each borrowing flagged, which is the 'reconstruction' described in paragraph 2.",
+        "B": "Extreme. The author says such judgments 'are open to dispute.'",
+        "C": "Opposite. The closing stanzas come from a third singer and are flagged in the margin.",
+        "D": "Wrong part. The omission of coarse verses is raised in the final paragraph, not here.",
+        "E": "True but irrelevant. The song is longer than any single-singer version recorded for it, not any song in the repertoire, and length is not the point."
+      },
+      "trapPatterns": {
+        "B": "extreme",
+        "C": "opposite",
+        "D": "wrong_part",
+        "E": "true_but_irrelevant"
+      },
+      "keyTakeaway": "An 'instructive case' paragraph exemplifies the claim just made; connect it to the preceding paragraph's thesis.",
+      "evidence": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "rc-m5-ballad-collector-reassessed-q4",
+      "type": "author_attitude",
+      "logicTags": [],
+      "difficulty": 2,
+      "stem": "The author's attitude toward Callow's editorial practice can most accurately be described as",
+      "choices": {
+        "A": "uncritical enthusiasm for its fidelity to the singers' performances",
+        "B": "guarded sympathy tempered by recognition of its biases",
+        "C": "detached neutrality about whether it can be defended",
+        "D": "reluctant acceptance of it as deceptive but unavoidable",
+        "E": "scornful rejection of it as ignorant of historical context"
+      },
+      "answer": "B",
+      "explanations": {
+        "A": "Extreme. The author acknowledges silent omissions and 'prejudices.'",
+        "B": "Correct. The author calls his practice 'more openly documented, and more principled, than his critics allowed' while conceding it was 'shaped by prejudices.'",
+        "C": "Opposite. The author reaches a 'fairer conclusion' in his defense.",
+        "D": "Opposite. The author rejects the charge of forgery rather than accepting it as deception.",
+        "E": "Opposite. The author faults the critics for judging Callow by a discipline he 'could not have known.'"
+      },
+      "trapPatterns": {
+        "A": "extreme",
+        "C": "opposite",
+        "D": "opposite",
+        "E": "reversal"
+      },
+      "keyTakeaway": "Qualified approval pairs a defense with a stated limit; options that drop either half are wrong.",
+      "evidence": [
+        3
+      ]
+    },
+    {
+      "id": "rc-m5-ballad-collector-reassessed-q5",
+      "type": "author_perspective",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "The passage most strongly suggests that the author would agree with which one of the following?",
+      "choices": {
+        "A": "A collector who composed songs outright would be unlikely to record the singers from whom the material was supposedly taken.",
+        "B": "Folklorists who insist that each song be printed as one singer delivered it have never edited a collection themselves.",
+        "C": "Singers who learn a song from several sources generally produce longer versions than those who learn it from one.",
+        "D": "Recording his sources is relevant evidence about whether a collector's composites were meant to deceive.",
+        "E": "Callow's notebooks record his reasons for omitting verses he considered coarse."
+      },
+      "answer": "D",
+      "explanations": {
+        "A": "Extreme. The passage says a forger 'would not have kept' such documentation, but does not claim it as a general rule that no one composing songs would record singers.",
+        "B": "Out of scope. Nothing is said about the folklorists' own editorial work.",
+        "C": "Out of scope. The comparison is not drawn; the passage says only that singers learn from several sources.",
+        "D": "Correct. The author treats the notebooks as 'the documentation that a forger would not have kept,' using the documentation as evidence against intent to deceive.",
+        "E": "Opposite. He 'never noted' having dropped them."
+      },
+      "trapPatterns": {
+        "A": "extreme",
+        "B": "out_of_scope",
+        "C": "out_of_scope",
+        "E": "opposite"
+      },
+      "keyTakeaway": "The safe inference restates the author's working assumption without strengthening it into a universal claim.",
+      "evidence": [
+        1
+      ]
+    },
+    {
+      "id": "rc-m5-ballad-collector-reassessed-q6",
+      "type": "meaning_in_context",
+      "logicTags": [],
+      "difficulty": 1,
+      "stem": "Which one of the following most accurately expresses the meaning of 'corrupt' as it is used in the passage?",
+      "choices": {
+        "A": "morally objectionable in its subject matter",
+        "B": "obtained from the singer by improper means",
+        "C": "marred by faulty or garbled wording",
+        "D": "missing stanzas that other singers supplied",
+        "E": "too lengthy to be sung to a single tune"
+      },
+      "answer": "C",
+      "explanations": {
+        "A": "Shell game. Moral objection is the 'coarse' verses of the final paragraph, a different issue.",
+        "B": "Out of scope. No impropriety in collecting is suggested.",
+        "C": "Correct. Callow judged the third singer's opening unsound but its close 'sound,' so 'corrupt' means flawed in its wording.",
+        "D": "Half right. Incompleteness is attributed to the widow's recollection, not the third singer's opening, which is flawed rather than missing.",
+        "E": "Out of scope. Length is not at issue in the judgment."
+      },
+      "trapPatterns": {
+        "A": "shell_game",
+        "B": "out_of_scope",
+        "D": "half_right",
+        "E": "out_of_scope"
+      },
+      "keyTakeaway": "Use the contrast ('corrupt in its opening but sound in its close') to fix the meaning of a loaded word.",
+      "evidence": [
+        2
+      ]
+    },
+    {
+      "id": "rc-m5-ballad-collector-reassessed-q7",
+      "type": "weaken_strengthen_evaluate",
+      "logicTags": [],
+      "difficulty": 3,
+      "stem": "Which one of the following, if true, would most undermine Varga-Whitlock's claim that Callow's composite texts are reconstructions rather than forgeries?",
+      "choices": {
+        "A": "Several of Callow's contemporaries published composite texts without noting their sources.",
+        "B": "Callow's publisher required that every text in the volume be suitable for performance in a drawing room.",
+        "C": "Singers in the Marrowdale hills commonly learned songs from more than one source.",
+        "D": "Callow's notebooks record no songs from the mill towns.",
+        "E": "Independent recordings made later show that lines the notebooks credit to named singers were never sung in the villages named."
+      },
+      "answer": "E",
+      "explanations": {
+        "A": "True but irrelevant. Others' practice says nothing about whether Callow's attributions were genuine.",
+        "B": "Wrong force. This may explain the omission of coarse verses but does not show that the attributed sources were fabricated.",
+        "C": "Opposite. It supports the view that songs exist as bodies of variants.",
+        "D": "Out of scope. The omission of mill-town songs is already acknowledged and bears on the repertoire, not on whether his composites were forged.",
+        "E": "Correct. If the margins credit lines to singers who never sang them, the notebooks are false documentation, so the composites would look like forgeries with a veneer of sourcing."
+      },
+      "trapPatterns": {
+        "A": "true_but_irrelevant",
+        "B": "wrong_force",
+        "C": "opposite",
+        "D": "out_of_scope"
+      },
+      "keyTakeaway": "Her case rests on the genuineness of the notebooks' attributions; the strongest attack falsifies them.",
+      "evidence": [
+        1,
+        2
+      ]
+    }
+  ]
+}
