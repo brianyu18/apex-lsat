@@ -1,0 +1,93 @@
+{
+  "id": "lr-flaw",
+  "title": "Flaw",
+  "summary": "The most common LR question. Find the gap, name it in general terms, then check each choice: did the author do this, and is it a problem?",
+  "group": "lr",
+  "order": 1,
+  "section": "LR",
+  "types": ["flaw"],
+  "lessonIds": ["u2/flaw", "u1/flaws-1", "u1/flaws-2"],
+  "minutes": 7,
+  "slides": [
+    {
+      "kind": "idea",
+      "title": "Describe the mistake",
+      "body": [
+        "A flaw question asks you to describe what is wrong with the argument. You don’t fix it or attack it; you name it.",
+        "The right answer is a general description of the error, often in abstract language: “takes for granted that…”, “fails to consider…”, “confuses…”. Your prediction should be in plain words; then you translate."
+      ],
+      "callout": "Two checks for every choice: did the author actually do this, and is it actually a problem here?"
+    },
+    {
+      "kind": "stems",
+      "title": "How you’ll see it",
+      "stems": [
+        "The reasoning in the argument is flawed because the argument…",
+        "The argument is most vulnerable to criticism on the grounds that it…",
+        "Which one of the following most accurately describes a flaw in the argument?",
+        "The argument's reasoning is questionable in that the argument…"
+      ],
+      "note": "“Vulnerable to criticism” and “questionable” mean the same as “flawed”."
+    },
+    {
+      "kind": "method",
+      "title": "Method",
+      "steps": [
+        { "label": "Conclusion and evidence", "do": "Find the main conclusion and the premises offered for it. Ignore background and opposing views." },
+        { "label": "Name the gap", "do": "Assuming the premises are true, why doesn’t the conclusion follow? Say it in a few words: bad sample, cause from correlation, ignores another explanation." },
+        { "label": "Translate", "do": "Turn your plain-words flaw into the test’s language. A sample problem becomes “relies on a group that may not be representative”." },
+        { "label": "Two checks", "do": "For each choice: did the author do this? If yes, is it a real problem for this argument? A choice must pass both." },
+        { "label": "Break long choices", "do": "Split a wordy choice into parts and test each part against the argument. One false part sinks the choice." }
+      ]
+    },
+    {
+      "kind": "worked",
+      "title": "Worked example",
+      "stimulus": "Pollster: In a survey of readers of Outdoor Living magazine, 82 percent said they support expanding the state park system. Clearly, most voters in the state would support a ballot measure to expand the park system.",
+      "stem": "The reasoning in the pollster's argument is flawed because the argument",
+      "choices": {
+        "A": "fails to consider that readers may support expanding the park system for different reasons",
+        "B": "treats the opinion of an expert as if it settled the question",
+        "C": "relies on a group whose views may differ systematically from those of voters in general",
+        "D": "confuses the percentage of readers who support expansion with the number of readers",
+        "E": "assumes that what is true of most voters must be true of each voter"
+      },
+      "answer": "C",
+      "steps": [
+        { "label": "Conclusion", "note": "Most voters in the state would support expanding the park system.", "highlight": "most voters in the state would support a ballot measure to expand the park system" },
+        { "label": "Evidence", "note": "82 percent of one magazine’s readers support it.", "highlight": "In a survey of readers of Outdoor Living magazine" },
+        { "label": "Name the gap", "note": "Readers of an outdoors magazine are not a typical cross-section of voters. Bad sample." },
+        { "label": "Two checks", "note": "Look for the choice that says the group may not represent voters. Make sure the author really did what each choice claims." }
+      ],
+      "why": {
+        "A": "Did it happen? Yes, the pollster ignores reasons. Is it a problem? No: support is support, whatever the reason.",
+        "B": "Didn't happen. No expert is cited.",
+        "C": "Correct. Outdoor-magazine readers are likely to favor parks more than voters as a whole.",
+        "D": "Didn't happen. The conclusion is about a majority of voters, not a number of readers.",
+        "E": "Didn't happen. The argument says nothing about each individual voter."
+      }
+    },
+    {
+      "kind": "traps",
+      "title": "Flaw traps",
+      "traps": [
+        { "name": "Didn’t happen", "tell": "Describes a real flaw that this argument doesn’t commit. Check it against the text." },
+        { "name": "Happened, harmless", "tell": "The author did this, but it doesn’t hurt the argument, like ignoring people’s motives when only their votes matter." },
+        { "name": "Wrong flaw family", "tell": "The reverse of the actual error: “assumes it is sufficient” when the argument treated it as necessary." },
+        { "name": "Real-world complaint", "tell": "Objects that a premise is false or a conclusion is unfair. Premises are accepted as true; only the reasoning is on trial." }
+      ]
+    },
+    { "kind": "practice", "title": "Your turn", "count": 3 },
+    {
+      "kind": "card",
+      "title": "Cheat card",
+      "lines": [
+        "Name the flaw in plain words before the choices.",
+        "Translate to test language: takes for granted, fails to consider, confuses.",
+        "Every choice: did it happen, and does it matter?",
+        "Split long choices into parts.",
+        "Premises are true; only the leap is wrong."
+      ]
+    }
+  ]
+}

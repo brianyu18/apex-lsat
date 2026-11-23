@@ -34,6 +34,16 @@ export default async function LearnPage() {
         </div>
       </header>
 
+      <Link href="/learn/decks" className="focus-ring block rounded-[var(--radius)]">
+        <Card className="flex flex-wrap items-center justify-between gap-3 border-accent p-4 hover:bg-bg-sunken">
+          <div>
+            <p className="font-semibold">Strategy decks</p>
+            <p className="text-sm text-ink-2">Click-through walkthroughs of every section skill and question type, with worked examples and live practice.</p>
+          </div>
+          <span className="text-sm font-medium text-accent">Open decks →</span>
+        </Card>
+      </Link>
+
       {units.map((u) => {
         const ls = lessons.filter((l) => l.unit === u);
         const uDone = ls.filter((l) => l.progress?.status === "complete").length;

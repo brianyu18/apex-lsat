@@ -1,0 +1,93 @@
+{
+  "id": "lr-necessary-assumption",
+  "title": "Necessary Assumption",
+  "summary": "Find what the argument can't do without. Predict the gap, then prove your pick with the negation test: if negating it wrecks the argument, it's required.",
+  "group": "lr",
+  "order": 2,
+  "section": "LR",
+  "types": ["necessary_assumption"],
+  "lessonIds": ["u2/necessary-assumption", "u1/arguments-4", "u3/link-assumption"],
+  "minutes": 7,
+  "slides": [
+    {
+      "kind": "idea",
+      "title": "What the argument depends on",
+      "body": [
+        "A necessary assumption is something the author must believe for the argument to work, even though it is never stated. If it were false, the argument would fall apart.",
+        "It does not have to prove the conclusion. It only has to be required. That is why the right answer often sounds modest: “at least some”, “not all”, “does not entirely”."
+      ],
+      "callout": "Negation test: make the choice false. If the argument collapses, the choice is necessary."
+    },
+    {
+      "kind": "stems",
+      "title": "How you’ll see it",
+      "stems": [
+        "Which one of the following is an assumption on which the argument depends?",
+        "The argument requires assuming which one of the following?",
+        "Which one of the following is an assumption required by the argument?",
+        "The argument relies on which one of the following assumptions?"
+      ],
+      "note": "Depends, requires, relies on, needs: all necessary. “If assumed, allows the conclusion to be properly drawn” is the sufficient type."
+    },
+    {
+      "kind": "method",
+      "title": "Method",
+      "steps": [
+        { "label": "Map the argument", "do": "Conclusion and premises. Notice any idea that shows up in the conclusion but nowhere in the premises." },
+        { "label": "Predict the gap", "do": "What has the author taken for granted? Often it is that nothing else explains the evidence, or that a new term links to an old one." },
+        { "label": "Scan for the gap", "do": "Look for a choice that addresses your prediction, even in a weaker form." },
+        { "label": "Negate", "do": "Turn the candidate into its opposite (not “the reverse”, just “it’s not the case that…”). If the argument falls apart, it’s the answer." },
+        { "label": "Beware strength", "do": "A strong choice (all, only, always) is rarely necessary. Its negation (“not all”) usually leaves the argument standing." }
+      ]
+    },
+    {
+      "kind": "worked",
+      "title": "Worked example",
+      "stimulus": "Councilor: The Oakdale branch library should stay open on Sundays. Last year it lent more books on Sundays than on any other day of the week, so closing it on Sundays would sharply reduce the number of books our residents borrow.",
+      "stem": "Which one of the following is an assumption on which the councilor's argument depends?",
+      "choices": {
+        "A": "The Oakdale branch is the most heavily used library branch in the city.",
+        "B": "Most residents who borrow books on Sundays work on weekdays.",
+        "C": "Keeping the library open on Sundays costs less than any other way to increase borrowing.",
+        "D": "Residents borrow more books from the library than they buy from bookstores.",
+        "E": "Many Sunday borrowers would not simply borrow the same books on another day instead."
+      },
+      "answer": "E",
+      "steps": [
+        { "label": "Conclusion", "note": "Closing on Sundays would sharply reduce borrowing (so stay open).", "highlight": "closing it on Sundays would sharply reduce the number of books our residents borrow" },
+        { "label": "Evidence", "note": "Sunday was the busiest lending day.", "highlight": "Last year it lent more books on Sundays than on any other day of the week" },
+        { "label": "Predict the gap", "note": "Busy Sundays don’t mean lost borrowing. Sunday borrowers might just come on Saturday. The author assumes they won’t all shift." },
+        { "label": "Negate the candidate", "note": "Negate E: almost all Sunday borrowers would just come another day. Then closing barely reduces borrowing, and the argument collapses." }
+      ],
+      "why": {
+        "A": "Negate it: Oakdale isn't the busiest branch. Closing it on Sundays can still cut borrowing. Not required.",
+        "B": "Negate it: most Sunday borrowers don't work weekdays. They still might not come another day. Not required.",
+        "C": "Cost is not part of the argument, which is only about borrowing.",
+        "D": "Bookstore buying is out of scope.",
+        "E": "Correct. If Sunday borrowers simply shifted days, there would be no sharp drop."
+      }
+    },
+    {
+      "kind": "traps",
+      "title": "Necessary assumption traps",
+      "traps": [
+        { "name": "Helpful, not required", "tell": "Would strengthen the argument but isn’t needed. Its negation leaves the argument standing." },
+        { "name": "Too strong", "tell": "“All Sunday borrowers would stop borrowing.” The argument needs only many, so the negation “not all” doesn’t hurt it." },
+        { "name": "Restated premise", "tell": "Repeats what the stimulus already says. An assumption is unstated." },
+        { "name": "Sufficient but not necessary", "tell": "Would prove the conclusion but asks for more than the argument needs." }
+      ]
+    },
+    { "kind": "practice", "title": "Your turn", "count": 3 },
+    {
+      "kind": "card",
+      "title": "Cheat card",
+      "lines": [
+        "Predict the gap before the choices.",
+        "Necessary means required, not proving.",
+        "Negate: if the argument falls apart, that’s your answer.",
+        "Prefer modest wording; distrust all, only, always.",
+        "Common hidden assumption: nothing else explains the evidence."
+      ]
+    }
+  ]
+}

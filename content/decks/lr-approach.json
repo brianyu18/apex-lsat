@@ -1,0 +1,153 @@
+{
+  "id": "lr-approach",
+  "title": "How to work any LR question",
+  "summary": "Read the argument first, find the conclusion, find the gap, predict, then eliminate with a reason. One routine for all 25 questions.",
+  "group": "foundations",
+  "order": 1,
+  "section": "LR",
+  "types": [],
+  "lessonIds": [
+    "u1/arguments-1",
+    "u1/arguments-2",
+    "u1/arguments-4"
+  ],
+  "minutes": 7,
+  "slides": [
+    {
+      "kind": "idea",
+      "title": "Most arguments are broken on purpose",
+      "body": [
+        "Almost every Logical Reasoning stimulus is an argument: some evidence, and a conclusion the author thinks it proves. On most questions the evidence does not quite prove it. There is a gap.",
+        "Your job is to read like a skeptic. Accept every premise as true, even if it sounds false in real life, and ask only one thing: does this evidence get all the way to that conclusion?",
+        "Flaw, assumption, weaken, strengthen and evaluate questions are all questions about that same gap. Find it once, before the answers, and five question types get easier at once."
+      ],
+      "callout": "Accept the premises. Attack the leap from premises to conclusion."
+    },
+    {
+      "kind": "method",
+      "title": "The five-step routine",
+      "steps": [
+        {
+          "label": "Read the stimulus first",
+          "do": "Read the whole argument before the question stem, so you read it as an argument rather than hunting for one detail."
+        },
+        {
+          "label": "Find the conclusion",
+          "do": "Look for the claim everything else supports. Words like so, therefore, thus and clearly point to it; words like because, since and for point to evidence."
+        },
+        {
+          "label": "Find the gap",
+          "do": "Ask what the author took for granted to get from the evidence to the conclusion. Name it in a few words: a new term that appears only in the conclusion, a cause assumed from a correlation, a sample stretched to everyone."
+        },
+        {
+          "label": "Read the stem, predict",
+          "do": "Now the stem tells you what to do with the gap: describe it (flaw), close it (assumption, strengthen), exploit it (weaken). Say what the right answer will roughly do before you read the choices."
+        },
+        {
+          "label": "Eliminate with a reason",
+          "do": "Cross out each wrong choice for a reason you could say out loud: out of scope, wrong direction, too strong, describes the wrong part. Pick the survivor, not the one that sounds smartest."
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "What each family does with the gap",
+      "head": [
+        "Family",
+        "Question types",
+        "Your move"
+      ],
+      "rows": [
+        [
+          "Gap: describe it",
+          "Flaw, Parallel Flaw",
+          "Name the error in general terms."
+        ],
+        [
+          "Gap: close it",
+          "Necessary Assumption, Sufficient Assumption, Strengthen, Principle (justify)",
+          "Find the missing link or make it more likely."
+        ],
+        [
+          "Gap: exploit it",
+          "Weaken, Evaluate",
+          "Find a fact that widens the gap, or the question whose answer decides it."
+        ],
+        [
+          "No gap: combine facts",
+          "Must Be True, Most Strongly Supported, Must Be False, Fill in the Blank",
+          "Stay inside the text and connect what it says."
+        ],
+        [
+          "Structure",
+          "Main Conclusion, Argument Part, Method, Parallel Reasoning",
+          "Map which claim supports which."
+        ],
+        [
+          "Two speakers",
+          "Point at Issue, Point of Agreement",
+          "Find the claim both speakers address, then compare their positions on it."
+        ],
+        [
+          "Two facts that clash",
+          "Resolve / Explain",
+          "Find the fact that lets both be true."
+        ]
+      ],
+      "note": "Inference questions are the exception: their stimulus is a set of facts, not an argument, so there is no gap to find."
+    },
+    {
+      "kind": "worked",
+      "title": "The routine on one question",
+      "stimulus": "Riverton's city council installed brighter streetlights on Elm Street last spring. Since then, reported bicycle thefts on Elm Street have fallen by 40 percent. Clearly, brighter lighting deters bicycle theft.",
+      "stem": "Which one of the following, if true, most seriously weakens the argument?",
+      "choices": {
+        "A": "Several other streets in Riverton also had their older streetlights replaced with brighter ones last spring.",
+        "B": "Last spring, the bicycle racks on Elm Street were moved into a staffed parking garage.",
+        "C": "Most bicycle thefts in Riverton take place after dark.",
+        "D": "Bicycle ownership in Riverton rose slightly over the past year.",
+        "E": "Residents of Elm Street say they feel safer walking at night than they did before."
+      },
+      "answer": "B",
+      "steps": [
+        {
+          "label": "Find the conclusion",
+          "note": "“Clearly” marks it: brighter lighting deters bicycle theft. That is a causal claim.",
+          "highlight": "Clearly, brighter lighting deters bicycle theft."
+        },
+        {
+          "label": "Find the evidence",
+          "note": "After the new lights went in, thefts on Elm Street fell 40 percent. That is a before-and-after correlation.",
+          "highlight": "reported bicycle thefts on Elm Street have fallen by 40 percent"
+        },
+        {
+          "label": "Find the gap",
+          "note": "The author assumes nothing else changed on Elm Street at the same time. If something else did, the lights may have done nothing."
+        },
+        {
+          "label": "Predict",
+          "note": "For a weaken question, look for another change last spring that would cut thefts on its own."
+        }
+      ],
+      "why": {
+        "A": "Says nothing about what happened to thefts on those streets, so it neither helps nor hurts.",
+        "B": "Correct. Bikes locked in a staffed garage are hard to steal. That is another cause for the drop, which the argument overlooked.",
+        "C": "If thefts happen after dark, lighting is more likely to matter. This strengthens.",
+        "D": "More bikes would make a drop in thefts more impressive, if anything. It does not weaken.",
+        "E": "How safe residents feel is not evidence about what caused the drop in bicycle thefts."
+      }
+    },
+    {
+      "kind": "card",
+      "title": "Cheat card",
+      "lines": [
+        "Read the stimulus before the stem.",
+        "Accept every premise; attack only the leap.",
+        "Name the gap in a few words before you look at the choices.",
+        "The stem tells you what to do with the gap.",
+        "Eliminate for a reason you can say out loud.",
+        "Inference questions have no gap: stay inside the text."
+      ]
+    }
+  ]
+}

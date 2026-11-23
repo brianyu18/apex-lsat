@@ -1,0 +1,79 @@
+{
+  "id": "lr-evaluate",
+  "title": "Evaluate",
+  "summary": "Pick the question whose answer would decide whether the argument holds. Test each choice with two answers: one should help, the other should hurt.",
+  "group": "lr",
+  "order": 6,
+  "section": "LR",
+  "types": ["evaluate"],
+  "lessonIds": ["u2/evaluate"],
+  "minutes": 5,
+  "slides": [
+    {
+      "kind": "idea",
+      "title": "The question that settles it",
+      "body": [
+        "Evaluate answers are questions or pieces of information to look up. The right one targets the gap: depending on how it is answered, the argument gets stronger or weaker.",
+        "A choice whose answer wouldn’t matter either way is wrong, however interesting it sounds."
+      ],
+      "callout": "Answer the question both ways. If one answer helps and the other hurts, you’ve found it."
+    },
+    {
+      "kind": "stems",
+      "title": "How you’ll see it",
+      "stems": [
+        "The answer to which one of the following questions would be most useful in evaluating the argument?",
+        "Which one of the following would it be most useful to know in order to evaluate the argument?",
+        "In order to evaluate the argument, it would be most helpful to determine which one of the following?"
+      ]
+    },
+    {
+      "kind": "method",
+      "title": "Method",
+      "steps": [
+        { "label": "Find the gap", "do": "Same as weaken and strengthen: what does the argument take for granted?" },
+        { "label": "Predict", "do": "Phrase a question about that assumption: did anything else change? Is the sample typical?" },
+        { "label": "Answer it both ways", "do": "For each choice, imagine a yes and a no. Does one help the argument and the other hurt it?" },
+        { "label": "Drop the neutral ones", "do": "If neither answer changes how strong the argument is, the choice is out." }
+      ]
+    },
+    {
+      "kind": "worked",
+      "title": "Worked example",
+      "stimulus": "Since the town of Ferris lowered the speed limit on Route 9 from 55 to 45 miles per hour, the number of accidents on Route 9 has dropped by a third. The town council concludes that the lower speed limit made Route 9 safer.",
+      "stem": "The answer to which one of the following questions would be most useful in evaluating the council's conclusion?",
+      "choices": {
+        "A": "Do most drivers in Ferris approve of the lower speed limit?",
+        "B": "How many miles long is Route 9?",
+        "C": "Did the amount of traffic on Route 9 fall during the same period?",
+        "D": "Are speed limits on other roads in Ferris also 45 miles per hour?",
+        "E": "Has the town council lowered speed limits on other roads in the past?"
+      },
+      "answer": "C",
+      "steps": [
+        { "label": "Conclusion", "note": "The lower limit made the road safer: a causal claim.", "highlight": "the lower speed limit made Route 9 safer" },
+        { "label": "Gap", "note": "Fewer accidents could have another cause, like less traffic." },
+        { "label": "Answer C both ways", "note": "Yes, traffic fell: the drop may be due to fewer cars, so the argument weakens. No: the drop is more likely due to the limit, so it strengthens." },
+        { "label": "Check the rest", "note": "Approval, road length, other roads and past decisions don’t change the strength of the argument however they are answered." }
+      ],
+      "why": {
+        "A": "Approval doesn't bear on whether the road became safer.",
+        "B": "Length is the same before and after, so it doesn't explain the change.",
+        "C": "Correct. A yes weakens the causal conclusion; a no supports it.",
+        "D": "Other roads' limits don't explain what happened on Route 9.",
+        "E": "The council's history doesn't affect whether this change worked."
+      }
+    },
+    { "kind": "practice", "title": "Your turn", "count": 3 },
+    {
+      "kind": "card",
+      "title": "Cheat card",
+      "lines": [
+        "Find the gap first, as for weaken and strengthen.",
+        "Answer each choice yes and no.",
+        "One answer helps, the other hurts: that’s the one.",
+        "Neutral either way: eliminate."
+      ]
+    }
+  ]
+}

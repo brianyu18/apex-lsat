@@ -1,0 +1,93 @@
+{
+  "id": "lr-sufficient-assumption",
+  "title": "Sufficient Assumption",
+  "summary": "Find the premise that, added to the argument, makes the conclusion certain. Link the new term in the conclusion to the evidence, in the right direction.",
+  "group": "lr",
+  "order": 3,
+  "section": "LR",
+  "types": ["sufficient_assumption", "pseudo_sufficient_assumption"],
+  "lessonIds": ["u2/sufficient-assumption", "u3/link-assumption"],
+  "minutes": 7,
+  "slides": [
+    {
+      "kind": "idea",
+      "title": "Build the missing bridge",
+      "body": [
+        "A sufficient assumption is a premise that, added to the argument, guarantees the conclusion. It can be stronger than needed; it just has to get you all the way there.",
+        "These arguments are often formal: a term appears in the conclusion that never appears in the premises. Your job is to connect the evidence term to the conclusion term."
+      ],
+      "callout": "Evidence term → conclusion term. Build that arrow, and check the direction."
+    },
+    {
+      "kind": "stems",
+      "title": "How you’ll see it",
+      "stems": [
+        "Which one of the following, if assumed, enables the conclusion to be properly drawn?",
+        "The conclusion follows logically if which one of the following is assumed?",
+        "Which one of the following principles, if valid, most helps to justify the reasoning? (when the gap is a clean link)",
+        "Which one of the following, if assumed, most helps to justify the argument?"
+      ],
+      "note": "“Most helps to justify” versions (sometimes called pseudo-sufficient) want the choice that comes closest to proving the conclusion."
+    },
+    {
+      "kind": "method",
+      "title": "Method",
+      "steps": [
+        { "label": "Mark the new term", "do": "Find the idea in the conclusion that the premises never mention." },
+        { "label": "Find its partner", "do": "Find the premise idea it needs to connect to." },
+        { "label": "Write the bridge", "do": "Premise idea → conclusion idea. That is your prediction." },
+        { "label": "Check direction", "do": "The reversed bridge (conclusion idea → premise idea) is the most common trap." },
+        { "label": "Prove it", "do": "Add the choice to the premises. If the conclusion now must be true, you’re done." }
+      ]
+    },
+    {
+      "kind": "worked",
+      "title": "Worked example",
+      "stimulus": "Every painting in the Halvorsen collection was acquired by the museum before 1950. Therefore, every painting in the Halvorsen collection is insured under the museum's older policy.",
+      "stem": "The conclusion follows logically if which one of the following is assumed?",
+      "choices": {
+        "A": "Some paintings acquired by the museum before 1950 are insured under its older policy.",
+        "B": "Every painting the museum acquired before 1950 is insured under its older policy.",
+        "C": "Every painting insured under the museum's older policy was acquired before 1950.",
+        "D": "No painting in the Halvorsen collection is insured under the museum's newer policy.",
+        "E": "The museum's older policy covers more valuable paintings than its newer policy does."
+      },
+      "answer": "B",
+      "steps": [
+        { "label": "New term", "note": "“Insured under the older policy” appears only in the conclusion.", "highlight": "is insured under the museum's older policy" },
+        { "label": "Its partner", "note": "The premise term is “acquired before 1950”.", "highlight": "was acquired by the museum before 1950" },
+        { "label": "Bridge", "note": "Acquired before 1950 → insured under the older policy." },
+        { "label": "Direction check", "note": "One choice will run it backwards: older policy → acquired before 1950. That proves nothing about Halvorsen paintings." }
+      ],
+      "why": {
+        "A": "Too weak. Some is not enough to cover every Halvorsen painting.",
+        "B": "Correct. Combined with the premise: every Halvorsen painting was acquired before 1950, and every such painting is insured under the older policy.",
+        "C": "Reversed bridge. It tells you about older-policy paintings, not about pre-1950 ones.",
+        "D": "Not being on the newer policy doesn't put a painting on the older one; it could be uninsured.",
+        "E": "Value is out of scope."
+      }
+    },
+    {
+      "kind": "traps",
+      "title": "Sufficient assumption traps",
+      "traps": [
+        { "name": "Reversed bridge", "tell": "Connects the right terms in the wrong direction." },
+        { "name": "Too weak", "tell": "Uses some or most where the conclusion needs all." },
+        { "name": "Necessary only", "tell": "Something the argument needs but that doesn’t guarantee the conclusion." },
+        { "name": "Near miss", "tell": "Rules out one alternative (not the newer policy) without establishing the conclusion (the older policy)." }
+      ]
+    },
+    { "kind": "practice", "title": "Your turn", "count": 3 },
+    {
+      "kind": "card",
+      "title": "Cheat card",
+      "lines": [
+        "Find the term that appears only in the conclusion.",
+        "Bridge: premise term → conclusion term.",
+        "Strong choices are fine here; they only need to be enough.",
+        "Add the choice to the premises: must the conclusion now be true?",
+        "Most common trap: the reversed bridge."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "rc-strengthen-weaken",
+  "title": "Strengthen, Weaken and Evaluate in RC",
+  "summary": "Logical Reasoning inside a passage. Pin down exactly whose claim you're testing, then find the fact that bears on it and not on its rival.",
+  "group": "rc",
+  "order": 7,
+  "section": "RC",
+  "types": ["weaken_strengthen_evaluate"],
+  "lessonIds": ["u4/question-types-3", "u4/style-phenomenon-hypothesis"],
+  "minutes": 6,
+  "slides": [
+    {
+      "kind": "idea",
+      "title": "LR skills, passage-sized",
+      "body": [
+        "These questions work like their Logical Reasoning versions: the answer is a new fact, assumed true, that makes a claim more or less likely.",
+        "In a passage there are usually several claims, often rival explanations. The trap is a fact that bears on the wrong one."
+      ],
+      "callout": "Name the exact claim in the question. Then ask which fact supports it and does not equally support its rival."
+    },
+    {
+      "kind": "stems",
+      "title": "How you’ll see it",
+      "stems": [
+        "Which one of the following, if true, would most strengthen the explanation proposed by Leclerc?",
+        "Which one of the following, if true, would most weaken the author's argument in the third paragraph?",
+        "Which one of the following would be most useful to know in evaluating the hypothesis?"
+      ]
+    },
+    {
+      "kind": "method",
+      "title": "Method",
+      "steps": [
+        { "label": "Name the claim", "do": "Whose view is being tested? State it exactly." },
+        { "label": "Name the rival", "do": "What competing view does the passage give? Facts that support both don’t help." },
+        { "label": "Predict", "do": "A fact that only this claim predicts." },
+        { "label": "Test each choice", "do": "Assume it true: does it move this claim, and only this one?" }
+      ]
+    },
+    {
+      "kind": "worked",
+      "title": "Worked example",
+      "passage": {
+        "paragraphs": [
+          "Each autumn, the songbirds of the Kessel Islands begin their migration several days earlier than birds of the same species on the mainland. One hypothesis holds that island birds leave early because the islands' insect supply collapses sooner after the first cold nights.",
+          "Biologist Anna Leclerc favors a different explanation. She notes that the islands lie farther from the birds' wintering grounds, so island birds must fly longer, and she proposes that birds with longer journeys start earlier."
+        ]
+      },
+      "stem": "Which one of the following, if true, would most strengthen Leclerc's explanation?",
+      "choices": {
+        "A": "Insect populations on the islands decline sharply after the first cold nights.",
+        "B": "Mainland birds whose summer range lies farthest from the wintering grounds also begin migrating earlier than other mainland birds.",
+        "C": "The island birds are slightly larger on average than the mainland birds.",
+        "D": "Some species of island birds do not migrate at all.",
+        "E": "Migration timing in many bird species is influenced by day length."
+      },
+      "answer": "B",
+      "steps": [
+        { "label": "The claim", "note": "Leclerc: longer journeys lead to earlier departure.", "highlight": "she proposes that birds with longer journeys start earlier" },
+        { "label": "The rival", "note": "Insect collapse on the islands.", "highlight": "the islands' insect supply collapses sooner after the first cold nights" },
+        { "label": "Predict", "note": "Evidence that distance predicts timing even where insects aren’t a factor." }
+      ],
+      "why": {
+        "A": "Supports the rival insect explanation.",
+        "B": "Correct. The distance pattern holds on the mainland too, where the islands' insect supply plays no part.",
+        "C": "Size isn't connected to either explanation.",
+        "D": "Non-migrating species don't bear on when migrants leave.",
+        "E": "Day length is the same for both groups at a given time, so it doesn't explain the difference or favor Leclerc."
+      }
+    },
+    { "kind": "practice", "title": "Your turn", "count": 3 },
+    {
+      "kind": "card",
+      "title": "Cheat card",
+      "lines": [
+        "Name the exact claim and its owner.",
+        "Name the rival explanation.",
+        "The answer favors this claim over the rival.",
+        "Same LR rules: new facts, assumed true."
+      ]
+    }
+  ]
+}

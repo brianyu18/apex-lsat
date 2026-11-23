@@ -1,0 +1,78 @@
+{
+  "id": "lr-fill-in-blank",
+  "title": "Fill in the Blank",
+  "summary": "The blank is usually the conclusion. Follow where the reasoning is heading, and finish it without going one step further.",
+  "group": "lr",
+  "order": 10,
+  "section": "LR",
+  "types": ["fill_in_blank"],
+  "lessonIds": ["u2/fill-in-the-blank"],
+  "minutes": 5,
+  "slides": [
+    {
+      "kind": "idea",
+      "title": "Finish the author’s thought",
+      "body": [
+        "A blank after “so”, “thus” or “then” is a conclusion. A blank after “since” or “because” is a premise. Either way, it must fit exactly where the reasoning points.",
+        "The answer finishes the thought the passage set up. It doesn’t add a new idea and doesn’t claim more than the reasoning supports."
+      ],
+      "callout": "Read the word just before the blank. It tells you what job the missing sentence does."
+    },
+    {
+      "kind": "stems",
+      "title": "How you’ll see it",
+      "stems": [
+        "Which one of the following most logically completes the argument?",
+        "Which one of the following most logically completes the passage?",
+        "Which one of the following most reasonably completes the argument?"
+      ]
+    },
+    {
+      "kind": "method",
+      "title": "Method",
+      "steps": [
+        { "label": "Read the signal", "do": "The word before the blank: therefore (conclusion), because (premise), but (contrast), for example (illustration)." },
+        { "label": "Trace the direction", "do": "Where is the reasoning heading? Often it rejects a common view stated at the start." },
+        { "label": "Predict", "do": "Write the missing sentence in your own words, no stronger than the evidence." },
+        { "label": "Match and check strength", "do": "Pick the choice that matches; reject any that go further than the evidence." }
+      ]
+    },
+    {
+      "kind": "worked",
+      "title": "Worked example",
+      "stimulus": "Many people assume that a restaurant with long lines outside must serve excellent food. But lines also form when a restaurant is understaffed or has few tables. A long line, then, ______.",
+      "stem": "Which one of the following most logically completes the argument?",
+      "choices": {
+        "A": "does not by itself show that a restaurant's food is excellent",
+        "B": "is a sign that a restaurant needs to hire more staff",
+        "C": "shows that a restaurant's food is probably not excellent",
+        "D": "is more common at restaurants with few tables than at large restaurants",
+        "E": "tells diners nothing useful about a restaurant"
+      },
+      "answer": "A",
+      "steps": [
+        { "label": "Signal", "note": "“then” before the blank: it’s the conclusion.", "highlight": "A long line, then" },
+        { "label": "Direction", "note": "The passage sets up a common belief (long line means great food) and then gives other causes of lines.", "highlight": "But lines also form when a restaurant is understaffed or has few tables." },
+        { "label": "Predict", "note": "A long line isn’t proof of great food. No more than that." }
+      ],
+      "why": {
+        "A": "Correct. It rejects the inference without overreaching.",
+        "B": "Too strong: understaffing is one possible cause, not established.",
+        "C": "Goes too far the other way: other causes don't make good food unlikely.",
+        "D": "A comparison the passage never makes.",
+        "E": "Extreme: a line may still tell diners something."
+      }
+    },
+    { "kind": "practice", "title": "Your turn", "count": 3 },
+    {
+      "kind": "card",
+      "title": "Cheat card",
+      "lines": [
+        "The word before the blank sets the job.",
+        "Follow the passage’s direction; it often rejects an opening claim.",
+        "Finish the thought, no further.",
+        "Overstrong and opposite-direction choices are the usual traps."
+      ]
+    }
+  ]
+}

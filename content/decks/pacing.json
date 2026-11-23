@@ -1,0 +1,77 @@
+{
+  "id": "pacing",
+  "title": "Pacing and skipping",
+  "summary": "Checkpoints for both test formats, a two-pass approach that banks the easy points first, and the four ways time leaks away.",
+  "group": "foundations",
+  "order": 5,
+  "section": "LR",
+  "types": [],
+  "lessonIds": ["u5/pacing-checkpoints", "u5/skipping", "u4/rc-time-budget"],
+  "minutes": 6,
+  "slides": [
+    {
+      "kind": "idea",
+      "title": "Not every question gets the same time",
+      "body": [
+        "Logical Reasoning questions get harder through the section, so an even pace is the wrong pace. Move quickly through the early questions to bank time for the last ten.",
+        "Every question is worth one point. A question that eats four minutes costs you the two easy ones at the end you never reach."
+      ],
+      "callout": "First ten at about 54 seconds, next five at 72, the rest at 108, with two minutes to spare."
+    },
+    {
+      "kind": "table",
+      "title": "Logical Reasoning checkpoints",
+      "head": ["Format", "Checkpoint", "Clock", "Buffer"],
+      "rows": [
+        ["Current: 25 questions, 35 minutes", "After question 10", "9:00", ""],
+        ["", "After question 15", "15:00", ""],
+        ["", "After question 25", "33:00", "2:00"],
+        ["August 2027: 32 questions, 45 minutes", "After question 13", "11:42", ""],
+        ["", "After question 19", "18:54", ""],
+        ["", "After question 32", "42:18", "2:42"]
+      ],
+      "note": "Behind at a checkpoint by more than a minute? Skip the next long, dense question on sight and come back to it last."
+    },
+    {
+      "kind": "table",
+      "title": "Reading Comprehension budget",
+      "head": ["Format", "Per passage", "Of which reading", "Questions"],
+      "rows": [
+        ["Current: 4 passages, 35 minutes", "8:30", "3:30 or more", "About 45 seconds each"],
+        ["August 2027: 6 passages, 52 minutes", "8:30", "3:30 or more", "About 45 seconds each"]
+      ],
+      "note": "Skimming saves time on the read and loses more on every question. Read properly once."
+    },
+    {
+      "kind": "method",
+      "title": "Two passes through a section",
+      "steps": [
+        { "label": "First pass", "do": "Answer every question you can see into. If you can’t see a way in within about ten seconds, flag it and move on." },
+        { "label": "Return pass", "do": "Go back to the flagged questions, easiest-looking first, hardest last." },
+        { "label": "Never leave a blank", "do": "There is no penalty for a wrong answer. With 30 seconds left, fill every blank." },
+        { "label": "Practise the decision", "do": "The skip trainer grades your attempt-or-skip choices so the habit is automatic on test day." }
+      ]
+    },
+    {
+      "kind": "traps",
+      "title": "Where time leaks",
+      "traps": [
+        { "name": "The bleed", "tell": "One question you refuse to leave. Set a mental limit of about two minutes; past it, pick your best guess, flag, move." },
+        { "name": "Answer ping-pong", "tell": "Bouncing between two choices without new information. Go back to the stimulus for the word that decides it, or flag." },
+        { "name": "Rereading loop", "tell": "Rereading a sentence hoping it will make sense. Paraphrase what you can and keep going; the rest of the paragraph usually explains it." },
+        { "name": "Skim reading", "tell": "Saving a minute on the passage and losing twenty seconds on each of seven questions." }
+      ]
+    },
+    {
+      "kind": "card",
+      "title": "Cheat card",
+      "lines": [
+        "Fast early, slow late; two minutes of buffer at the end.",
+        "LR checkpoints: 9:00 / 15:00 / 33:00 (current), 11:42 / 18:54 / 42:18 (2027).",
+        "RC: about 8:30 a passage, at least 3:30 of it reading.",
+        "Can’t see in within ten seconds? Flag and move.",
+        "Never leave a blank."
+      ]
+    }
+  ]
+}

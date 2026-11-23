@@ -1,0 +1,89 @@
+{
+  "id": "lr-resolve",
+  "title": "Resolve / Explain",
+  "summary": "Two facts seem to clash. Find the new fact that lets both be true at once, without denying either.",
+  "group": "lr",
+  "order": 7,
+  "section": "LR",
+  "types": ["resolve_explain"],
+  "lessonIds": ["u2/resolve-explain"],
+  "minutes": 5,
+  "slides": [
+    {
+      "kind": "idea",
+      "title": "Both facts are true. Explain how.",
+      "body": [
+        "There is no argument here, just two facts that seem not to fit together. The right answer is a new fact that shows how both can be true.",
+        "Never pick an answer that denies one of the facts. The stimulus says they’re both true."
+      ],
+      "callout": "Write the puzzle as “X, and yet Y.” Then ask: what would make that unsurprising?"
+    },
+    {
+      "kind": "stems",
+      "title": "How you’ll see it",
+      "stems": [
+        "Which one of the following, if true, most helps to resolve the apparent discrepancy described above?",
+        "Which one of the following, if true, most helps to explain the surprising result?",
+        "Which one of the following, if true, contributes most to an explanation of the difference?",
+        "Each of the following, if true, helps to resolve the apparent conflict EXCEPT:"
+      ]
+    },
+    {
+      "kind": "method",
+      "title": "Method",
+      "steps": [
+        { "label": "State the puzzle", "do": "Put it in one line: “Bike riding tripled, and yet bike accidents fell.”" },
+        { "label": "Find the expectation", "do": "Why does it seem surprising? Usually because you’d expect the first fact to cause the opposite of the second." },
+        { "label": "Predict a difference", "do": "Look for something that changed, or a way the groups differ, that breaks that expectation." },
+        { "label": "Test each choice", "do": "Does it explain both facts together? Choices that explain only one fact, or deepen the puzzle, go." }
+      ]
+    },
+    {
+      "kind": "worked",
+      "title": "Worked example",
+      "stimulus": "After Granton added protected bike lanes to its downtown streets, the number of people commuting downtown by bicycle tripled. Yet the number of bicycle accidents downtown fell over the same period.",
+      "stem": "Which one of the following, if true, most helps to resolve the apparent discrepancy?",
+      "choices": {
+        "A": "Most new bicycle commuters live within five kilometers of downtown.",
+        "B": "Most downtown bicycle accidents had been collisions with cars in shared lanes, which the protected lanes keep bicycles out of.",
+        "C": "The number of people driving downtown also rose over the same period.",
+        "D": "Bicycle commuting has become more popular in many cities.",
+        "E": "Some cyclists still ride outside the new lanes."
+      },
+      "answer": "B",
+      "steps": [
+        { "label": "The puzzle", "note": "Three times the riders, and yet fewer accidents.", "highlight": "Yet the number of bicycle accidents downtown fell over the same period." },
+        { "label": "The expectation", "note": "More riders should mean more accidents." },
+        { "label": "Predict", "note": "Something about the new lanes removed the main cause of accidents." }
+      ],
+      "why": {
+        "A": "Where riders live doesn't explain fewer accidents.",
+        "B": "Correct. If most accidents came from sharing lanes with cars and the new lanes end that, more riders can mean fewer accidents.",
+        "C": "More cars would make fewer accidents more surprising, not less.",
+        "D": "Explains the rise in riders at most, not the fall in accidents.",
+        "E": "Riders outside the lanes would, if anything, point toward more accidents."
+      }
+    },
+    {
+      "kind": "traps",
+      "title": "Resolve traps",
+      "traps": [
+        { "name": "Explains one side", "tell": "Accounts for the rise in riders but not the fall in accidents. You need both." },
+        { "name": "Deepens the puzzle", "tell": "Makes the result more surprising, like more cars on the road." },
+        { "name": "Denies a fact", "tell": "Suggests the accident count was wrong. Both facts are given as true." },
+        { "name": "General trend", "tell": "Something true everywhere can’t explain what’s different here." }
+      ]
+    },
+    { "kind": "practice", "title": "Your turn", "count": 3 },
+    {
+      "kind": "card",
+      "title": "Cheat card",
+      "lines": [
+        "Write the puzzle as “X, and yet Y.”",
+        "Both facts stay true.",
+        "Look for a difference or change that breaks the expectation.",
+        "The answer must account for both sides."
+      ]
+    }
+  ]
+}

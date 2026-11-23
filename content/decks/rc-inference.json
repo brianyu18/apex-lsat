@@ -1,0 +1,94 @@
+{
+  "id": "rc-inference",
+  "title": "Perspective and Attitude",
+  "summary": "What would the author, or someone else in the passage, agree with? Read tone words closely and keep each view with its owner.",
+  "group": "rc",
+  "order": 3,
+  "section": "RC",
+  "types": ["author_perspective", "author_attitude", "other_perspective"],
+  "lessonIds": ["u4/question-types-2", "u4/style-critique-debate", "u4/style-spotlight"],
+  "minutes": 6,
+  "slides": [
+    {
+      "kind": "idea",
+      "title": "Whose view, and how strong?",
+      "body": [
+        "Perspective questions ask what a person in the passage would likely agree with: the author, or a critic, scholar or group the author describes. The answer is inferred, but only one small step from the text.",
+        "Attitude questions want a two-word label for the author’s stance. LSAT authors are rarely extreme; the right answer is usually mixed or measured, like “qualified approval”."
+      ],
+      "callout": "Track tone words: persuasive, overstated, regrettably, at times tiresome. They decide attitude questions."
+    },
+    {
+      "kind": "stems",
+      "title": "How you’ll see it",
+      "stems": [
+        "The author would be most likely to agree with which one of the following statements?",
+        "The author's attitude toward … is best described as …",
+        "The critics mentioned in the passage would be most likely to agree that …",
+        "It can be inferred from the passage that the author believes …"
+      ]
+    },
+    {
+      "kind": "method",
+      "title": "Method",
+      "steps": [
+        { "label": "Whose view?", "do": "Identify which voice the question asks about and where in the passage that voice speaks." },
+        { "label": "Gather tone", "do": "Collect the evaluative words used about the subject, positive and negative." },
+        { "label": "Predict strength", "do": "Is the view unqualified, or does it come with a but? Most authors qualify." },
+        { "label": "Match", "do": "Pick the choice with the right owner, the right direction and the right strength." }
+      ]
+    },
+    {
+      "kind": "worked",
+      "title": "Worked example",
+      "passage": {
+        "paragraphs": [
+          "Many critics have dismissed the late novels of Marguerite Allard as evidence of a declining talent: the plots wander, characters vanish without explanation, and chapters end mid-scene.",
+          "This judgment mistakes design for decline. Allard's notebooks from those years show her drafting and redrafting precisely the passages critics call careless, and her letters describe a deliberate effort to write fiction that refuses to tidy what life leaves untidy. The late novels are not always successful, and at times the fragmentation becomes merely tiresome, but they are the work of a writer in full control of her means."
+        ]
+      },
+      "stem": "The author's attitude toward Allard's late novels is best described as",
+      "choices": {
+        "A": "qualified admiration",
+        "B": "unreserved enthusiasm",
+        "C": "reluctant disapproval",
+        "D": "detached indifference",
+        "E": "amused skepticism"
+      },
+      "answer": "A",
+      "steps": [
+        { "label": "Positive signals", "note": "The author defends the novels as deliberate, the work of a writer in full control.", "highlight": "they are the work of a writer in full control of her means" },
+        { "label": "Negative signals", "note": "But they are not always successful, and sometimes tiresome.", "highlight": "at times the fragmentation becomes merely tiresome" },
+        { "label": "Predict", "note": "Mostly positive, with reservations." }
+      ],
+      "why": {
+        "A": "Correct. The author defends the novels (admiration) while admitting flaws (qualified).",
+        "B": "Ignores the reservations.",
+        "C": "The author mainly defends the novels; the critics are the ones who disapprove.",
+        "D": "The author takes a clear side.",
+        "E": "Nothing in the tone is amused, and the author argues against skepticism."
+      }
+    },
+    {
+      "kind": "traps",
+      "title": "Perspective traps",
+      "traps": [
+        { "name": "Wrong owner", "tell": "A view the critics hold, offered as the author’s, or the reverse." },
+        { "name": "Too extreme", "tell": "Unreserved, scathing, total. LSAT authors almost always hedge." },
+        { "name": "One-sided", "tell": "Captures the praise or the criticism, but not both." },
+        { "name": "Too far a leap", "tell": "Something the author might believe, but nothing in the text points to it." }
+      ]
+    },
+    { "kind": "practice", "title": "Your turn", "count": 3 },
+    {
+      "kind": "card",
+      "title": "Cheat card",
+      "lines": [
+        "Name the owner of the view first.",
+        "Collect tone words, positive and negative.",
+        "Expect measured attitudes: qualified, cautious, mixed.",
+        "One small step from the text, never two."
+      ]
+    }
+  ]
+}

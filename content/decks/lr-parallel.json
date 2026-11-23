@@ -1,0 +1,108 @@
+{
+  "id": "lr-parallel",
+  "title": "Parallel Reasoning",
+  "summary": "Match the structure, not the subject. Abstract the argument into letters, check the conclusion type first, and eliminate fast.",
+  "group": "lr",
+  "order": 14,
+  "section": "LR",
+  "types": [
+    "parallel_method"
+  ],
+  "lessonIds": [
+    "u2/parallel-reasoning",
+    "u1/conditional-3"
+  ],
+  "minutes": 6,
+  "slides": [
+    {
+      "kind": "idea",
+      "title": "Same skeleton, different clothes",
+      "body": [
+        "Parallel questions give you an argument and ask for another with the same structure. The topic never matters.",
+        "These questions are long. Don’t read every choice in full: compare conclusions first, because a choice whose conclusion has the wrong strength or form is wrong no matter what comes before it."
+      ],
+      "callout": "Check the conclusion first: certain or probable? All, some, or not? Recommendation or fact?"
+    },
+    {
+      "kind": "stems",
+      "title": "How you’ll see it",
+      "stems": [
+        "Which one of the following arguments is most similar in its reasoning to the argument above?",
+        "The pattern of reasoning in which one of the following is most similar to that in the argument above?"
+      ]
+    },
+    {
+      "kind": "method",
+      "title": "Method",
+      "steps": [
+        {
+          "label": "Abstract it",
+          "do": "Write the argument in letters: all A are B; all B are C; so all A are C."
+        },
+        {
+          "label": "Conclusion first",
+          "do": "Scan each choice’s conclusion. Eliminate any with a different strength (all vs most, must vs probably) or a different type."
+        },
+        {
+          "label": "Then the premises",
+          "do": "For the survivors, check that the premises have the same form and are combined the same way."
+        },
+        {
+          "label": "Order doesn’t matter",
+          "do": "Premises and conclusion can appear in a different order. Match the logic, not the sequence."
+        }
+      ]
+    },
+    {
+      "kind": "worked",
+      "title": "Worked example",
+      "stimulus": "All of the apples in this crate came from the Hillcrest orchard. All Hillcrest apples are organic. So all of the apples in this crate are organic.",
+      "stem": "Which one of the following arguments is most similar in its reasoning to the argument above?",
+      "choices": {
+        "A": "All of the books on this shelf are novels. Some novels are long. So some of the books on this shelf are long.",
+        "B": "All of the students in this class passed the exam. Mara passed the exam. So Mara is in this class.",
+        "C": "Most of the tools in this shed are old. All old tools are rusty. So most of the tools in this shed are rusty.",
+        "D": "Every painting in this room is by Ortiz. Every painting by Ortiz is an oil painting. So every painting in this room is an oil painting.",
+        "E": "All of the dogs in this kennel are healthy. Some healthy dogs need no medicine at all. So some of the dogs in this kennel need no medicine at all."
+      },
+      "answer": "D",
+      "steps": [
+        {
+          "label": "Abstract",
+          "note": "All A (crate apples) are B (Hillcrest). All B are C (organic). So all A are C. A valid chain."
+        },
+        {
+          "label": "Conclusion check",
+          "note": "The conclusion is an “all” statement. A and E conclude “some”; C concludes “most”. Out."
+        },
+        {
+          "label": "Premise check",
+          "note": "B and D remain. B runs backwards: it puts Mara in the class because she passed. D chains all → all → all."
+        }
+      ],
+      "why": {
+        "A": "Concludes some, and the chain through some novels is invalid.",
+        "B": "Reverses a conditional; the original is valid.",
+        "C": "Valid, but most where the original has all.",
+        "D": "Correct. All A are B, all B are C, so all A are C.",
+        "E": "Concludes some, and the chain through some healthy dogs is invalid."
+      }
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn",
+      "count": 3
+    },
+    {
+      "kind": "card",
+      "title": "Cheat card",
+      "lines": [
+        "Ignore the topic.",
+        "Abstract into letters.",
+        "Compare conclusions first: strength and type.",
+        "Then check premises; order can differ.",
+        "If the original is valid, the answer is valid."
+      ]
+    }
+  ]
+}

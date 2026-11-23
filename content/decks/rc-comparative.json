@@ -1,0 +1,86 @@
+{
+  "id": "rc-comparative",
+  "title": "Comparative Passages",
+  "summary": "Two short passages on one subject. Read A, then read B as a response to A; most questions turn on where they agree and where they part.",
+  "group": "rc",
+  "order": 8,
+  "section": "RC",
+  "types": ["relationship", "approach"],
+  "lessonIds": ["u4/comparative-passages"],
+  "minutes": 6,
+  "slides": [
+    {
+      "kind": "idea",
+      "title": "Read B against A",
+      "body": [
+        "Comparative passages are two short texts by different authors. Questions ask how they relate: does B agree, disagree, qualify, or add evidence? How does each author argue?",
+        "Read A for its main point. Then read B asking, at every sentence, how this author would answer A."
+      ],
+      "callout": "Before the questions, write one line: A says…; B says…; they differ on…"
+    },
+    {
+      "kind": "stems",
+      "title": "How you’ll see it",
+      "stems": [
+        "Which one of the following most accurately describes the relationship between the two passages?",
+        "The authors of the two passages would be most likely to disagree over whether …",
+        "Unlike passage A, passage B …",
+        "Both passages are concerned with answering which one of the following questions?"
+      ]
+    },
+    {
+      "kind": "method",
+      "title": "Method",
+      "steps": [
+        { "label": "A’s main point", "do": "One sentence, with A’s stance." },
+        { "label": "B’s main point", "do": "One sentence, then: how does B relate to A?" },
+        { "label": "Agree and differ", "do": "List one point both accept and one they dispute." },
+        { "label": "Two-author check", "do": "For each choice, ask what A would say and what B would say, as with LR disagreement questions." }
+      ]
+    },
+    {
+      "kind": "worked",
+      "title": "Worked example",
+      "passage": {
+        "paragraphs": [
+          "Museums that hold artifacts taken during colonial rule should return them whenever the countries of origin ask. The objects were acquired under coercion, and keeping them prolongs that injustice. Arguments that the objects are safer in well-funded museums are condescending and, in many cases, no longer true."
+        ],
+        "paragraphsB": [
+          "Calls for wholesale repatriation overlook how varied museum collections are. Some objects were indeed seized; others were bought or given freely, sometimes by the very communities now asking for them. Each claim should be judged on the record of how the particular object was acquired."
+        ]
+      },
+      "stem": "Which one of the following most accurately describes the relationship between the two passages?",
+      "choices": {
+        "A": "Passage B provides evidence that supports the position taken in passage A.",
+        "B": "Passage A proposes a solution to a problem that passage B argues does not exist.",
+        "C": "Both passages argue that museums should keep all colonial-era artifacts.",
+        "D": "Passage B describes the history that passage A uses to justify its proposal.",
+        "E": "Passage B argues for judging claims case by case, while passage A argues for returning artifacts whenever they are requested."
+      },
+      "answer": "E",
+      "steps": [
+        { "label": "A’s point", "note": "Return the artifacts whenever asked.", "highlight": "should return them whenever the countries of origin ask" },
+        { "label": "B’s point", "note": "Judge each object by how it was acquired.", "highlight": "Each claim should be judged on the record of how the particular object was acquired." },
+        { "label": "Relationship", "note": "B pushes back on A’s blanket rule. They agree some objects were taken unjustly." }
+      ],
+      "why": {
+        "A": "B challenges A's blanket rule; it doesn't support it.",
+        "B": "B grants that some objects were seized, so it doesn't deny the problem exists.",
+        "C": "Neither argues for keeping everything.",
+        "D": "B doesn't supply the history A relies on.",
+        "E": "Correct. It states each author's position and how they differ."
+      }
+    },
+    { "kind": "practice", "title": "Your turn", "count": 2 },
+    {
+      "kind": "card",
+      "title": "Cheat card",
+      "lines": [
+        "Main point of A, main point of B, then how they relate.",
+        "Find one agreement and one disagreement.",
+        "Two-author check on every choice.",
+        "Approach questions: how each argues, not just what."
+      ]
+    }
+  ]
+}

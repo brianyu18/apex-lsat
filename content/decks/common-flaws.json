@@ -1,0 +1,84 @@
+{
+  "id": "common-flaws",
+  "title": "The flaw catalog",
+  "summary": "Twelve reasoning errors that account for most LSAT gaps, what each looks like in a stimulus, and how answer choices phrase it.",
+  "group": "foundations",
+  "order": 3,
+  "section": "LR",
+  "types": ["flaw"],
+  "lessonIds": ["u1/flaws-1", "u1/flaws-2", "u1/causation-1", "u3/sampling", "u3/part-v-whole"],
+  "minutes": 9,
+  "slides": [
+    {
+      "kind": "idea",
+      "title": "The same dozen mistakes, in new costumes",
+      "body": [
+        "LSAT arguments fail in a small number of ways. The subject changes, from fossils to zoning law, but the error underneath repeats.",
+        "Learn the errors by their shape, not their topic. When you can say “that’s a sample problem” within a few seconds of reading, flaw, weaken, assumption and parallel flaw questions all speed up."
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "Twelve flaws",
+      "head": ["Flaw", "What it looks like", "How the right answer says it"],
+      "rows": [
+        ["Sufficient vs necessary", "A requirement is treated as a guarantee, or the reverse.", "takes a condition required for X to be enough for X"],
+        ["Correlation to cause", "Two things go together, so one must cause the other.", "infers a causal link from a mere correlation"],
+        ["Overlooked alternative", "One explanation is assumed to be the only one.", "fails to consider other possible explanations"],
+        ["Bad sample", "A small or unusual group stands in for everyone.", "relies on a sample that may be unrepresentative"],
+        ["Part and whole", "What is true of the parts is said of the whole, or the reverse.", "assumes what holds for each part holds for the whole"],
+        ["Shifting term", "A key word changes meaning partway through.", "uses a key term in two different senses"],
+        ["Attacking the source", "The person is criticized instead of the claim.", "attacks the proponent rather than the argument"],
+        ["Straw man", "The opposing view is distorted before it is rejected.", "misrepresents the position it criticizes"],
+        ["Circular", "The conclusion is assumed in the premises.", "presupposes what it sets out to establish"],
+        ["Absence of evidence", "Not proven false is treated as true, or the reverse.", "treats lack of evidence against a claim as proof of it"],
+        ["Percent vs number", "A rate is used to conclude about an amount, or the reverse.", "confuses a proportion with an absolute number"],
+        ["Bad authority", "An expert or the majority is trusted outside their field.", "relies on an authority outside its area of expertise"]
+      ]
+    },
+    {
+      "kind": "worked",
+      "title": "Name it, then match it",
+      "stimulus": "Market analyst: Every one of last year's five best-selling phones had a screen larger than six inches. So any phone maker that wants a best seller must make sure its phones have screens larger than six inches.",
+      "stem": "The reasoning in the analyst's argument is flawed because the argument",
+      "choices": {
+        "A": "takes for granted that a feature shared by the best sellers is required for a phone to be a best seller",
+        "B": "overlooks the possibility that larger screens make phones more expensive to produce",
+        "C": "fails to consider whether the phones were sold in more than one country",
+        "D": "assumes that any phone with a screen larger than six inches will become a best seller",
+        "E": "attacks the reputation of phone makers that produce smaller phones"
+      },
+      "answer": "A",
+      "steps": [
+        { "label": "Conclusion", "note": "A maker that wants a best seller must use a large screen. “Must” makes large screens a requirement.", "highlight": "must make sure its phones have screens larger than six inches" },
+        { "label": "Evidence", "note": "Five best sellers all had large screens. That shows large screens were common among winners, nothing more.", "highlight": "Every one of last year's five best-selling phones had a screen larger than six inches." },
+        { "label": "Name the flaw", "note": "Sharing a feature does not make the feature necessary. A small-screen phone could still sell well. This is the sufficient-necessary family." },
+        { "label": "Watch the twin", "note": "The trap will be the reverse error: claiming a large screen guarantees a best seller. The argument never says that." }
+      ],
+      "why": {
+        "A": "Correct. The argument moves from “the winners had it” to “you must have it”.",
+        "B": "Production cost has nothing to do with whether large screens are needed to sell well.",
+        "C": "Where the phones were sold does not touch the leap from common to required.",
+        "D": "Reversal. The argument treats large screens as necessary, not as enough.",
+        "E": "The analyst attacks no one."
+      }
+    },
+    {
+      "kind": "practice",
+      "title": "Spot the flaw",
+      "count": 3
+    },
+    {
+      "kind": "card",
+      "title": "Cheat card",
+      "lines": [
+        "Name the flaw in two or three words before reading choices.",
+        "Check each choice twice: did the author do this, and is it a problem?",
+        "Causal conclusion? Look for an overlooked cause or reversed direction.",
+        "“All”, “must”, “only” in the conclusion? Think sufficient vs necessary.",
+        "Survey or study? Think sample.",
+        "A word repeated with a twist? Think shifting term."
+      ]
+    }
+  ]
+}

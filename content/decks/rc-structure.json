@@ -1,0 +1,114 @@
+{
+  "id": "rc-structure",
+  "title": "Organization",
+  "summary": "Describe the passage's skeleton: what each paragraph does, in order. Your paragraph labels from the read are the prediction.",
+  "group": "rc",
+  "order": 5,
+  "section": "RC",
+  "types": [
+    "organization"
+  ],
+  "lessonIds": [
+    "u4/question-types-3",
+    "u4/style-single-position"
+  ],
+  "minutes": 5,
+  "slides": [
+    {
+      "kind": "idea",
+      "title": "The passage’s skeleton",
+      "body": [
+        "Organization questions describe the passage abstractly: “a question is raised, one answer is rejected, another is proposed”. They test the paragraph map you built while reading.",
+        "Check each part of a choice in order. One step that doesn’t happen, or happens in the wrong order, kills it."
+      ]
+    },
+    {
+      "kind": "stems",
+      "title": "How you’ll see it",
+      "stems": [
+        "Which one of the following most accurately describes the organization of the passage?",
+        "Which one of the following sequences most accurately reflects the structure of the passage?"
+      ]
+    },
+    {
+      "kind": "method",
+      "title": "Method",
+      "steps": [
+        {
+          "label": "Use your map",
+          "do": "Recall the job you gave each paragraph while reading."
+        },
+        {
+          "label": "Predict the sequence",
+          "do": "String the jobs together in order, in abstract words."
+        },
+        {
+          "label": "Check step by step",
+          "do": "Each part of the choice must match a paragraph, in order."
+        },
+        {
+          "label": "Watch the verbs",
+          "do": "Rejected vs qualified, proposed vs proved: the verb strength must match."
+        }
+      ]
+    },
+    {
+      "kind": "worked",
+      "title": "Worked example",
+      "passage": {
+        "paragraphs": [
+          "Why do some languages have many words for colors while others have few? An early explanation held that languages develop color terms in a fixed sequence as societies grow more complex.",
+          "That explanation has fared poorly. Several small, technologically simple societies have rich color vocabularies, and some large industrial ones have comparatively few basic terms.",
+          "A more promising account ties color vocabulary to the colors a community needs to talk about: dyed textiles, painted goods, the ripeness of crops. Where such distinctions matter to daily work, words for them tend to emerge."
+        ]
+      },
+      "stem": "Which one of the following most accurately describes the organization of the passage?",
+      "choices": {
+        "A": "A phenomenon is described, two explanations are shown to be compatible, and they are then combined into a single account.",
+        "B": "A theory is presented, evidence for it is given, and an objection to it is answered.",
+        "C": "A question is raised, one answer is challenged with evidence, and an alternative answer is proposed.",
+        "D": "Two theories are compared, and both are rejected in favor of further research.",
+        "E": "A claim is made, illustrated with examples, and then qualified."
+      },
+      "answer": "C",
+      "steps": [
+        {
+          "label": "P1",
+          "note": "A question and an early answer.",
+          "highlight": "Why do some languages have many words for colors while others have few?"
+        },
+        {
+          "label": "P2",
+          "note": "Evidence against the early answer.",
+          "highlight": "That explanation has fared poorly."
+        },
+        {
+          "label": "P3",
+          "note": "A different answer, called more promising."
+        }
+      ],
+      "why": {
+        "A": "The explanations conflict; they are not combined.",
+        "B": "The first theory receives evidence against it, not for it.",
+        "C": "Correct. Question, challenged answer, alternative.",
+        "D": "The second account is favored, not rejected.",
+        "E": "The passage opens with a question, and the first claim is rejected, not qualified."
+      }
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn",
+      "count": 3
+    },
+    {
+      "kind": "card",
+      "title": "Cheat card",
+      "lines": [
+        "Label each paragraph’s job as you read.",
+        "Predict the sequence in abstract words.",
+        "Check every step, in order.",
+        "Match verb strength: rejected, qualified, proposed, proved."
+      ]
+    }
+  ]
+}

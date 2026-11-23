@@ -1,0 +1,85 @@
+{
+  "id": "rc-main-point",
+  "title": "Main Point and Primary Purpose",
+  "summary": "Say the author's point in one sentence before the choices: not just the topic, not every detail. Purpose questions want the same thing as a verb.",
+  "group": "rc",
+  "order": 1,
+  "section": "RC",
+  "types": ["main_point", "purpose_of_passage"],
+  "lessonIds": ["u4/question-types-1", "u4/rc-method"],
+  "minutes": 6,
+  "slides": [
+    {
+      "kind": "idea",
+      "title": "The whole passage in one sentence",
+      "body": [
+        "The main point is what the author wants you to believe after reading. It covers the whole passage, not one paragraph, and it carries the author’s stance, not just the topic.",
+        "Primary purpose asks the same thing with a verb: to argue that…, to challenge…, to describe…, to evaluate…. Match the verb to how committed the author is."
+      ],
+      "callout": "Too broad names only the topic. Too narrow names one paragraph. The answer is in between."
+    },
+    {
+      "kind": "stems",
+      "title": "How you’ll see it",
+      "stems": [
+        "Which one of the following most accurately expresses the main point of the passage?",
+        "The primary purpose of the passage is to…",
+        "Which one of the following most accurately states the central idea of the passage?"
+      ]
+    },
+    {
+      "kind": "method",
+      "title": "Method",
+      "steps": [
+        { "label": "Predict before reading choices", "do": "Say the main point in one sentence, in your own words, as soon as you finish the passage." },
+        { "label": "Check the scope", "do": "Does the choice cover every paragraph’s role? Detail-only choices are too narrow." },
+        { "label": "Check the stance", "do": "Does the choice match how strongly the author commits? A qualified view shouldn’t become a sweeping one." },
+        { "label": "Purpose verbs", "do": "Argue or defend for a persuading author; describe or explain for a reporting one; challenge or criticize when the author rejects a view." }
+      ]
+    },
+    {
+      "kind": "worked",
+      "title": "Worked example",
+      "passage": {
+        "paragraphs": [
+          "For decades, city planners treated rooftop gardens as a luxury: attractive, but too costly to justify on public buildings. That view rested largely on installation costs, which can run several times those of a conventional roof.",
+          "Recent studies of municipal buildings in Halden suggest the accounting was incomplete. Planted roofs there lasted roughly twice as long as conventional roofs, because the soil shields the waterproof membrane from sun and frost, and they reduced summer cooling costs by about a fifth. Over a building's life, these savings more than offset the higher initial outlay.",
+          "None of this means every public roof should be planted; older buildings may not bear the added weight. But for new construction, the case against rooftop gardens can no longer rest on cost."
+        ]
+      },
+      "stem": "Which one of the following most accurately expresses the main point of the passage?",
+      "choices": {
+        "A": "Rooftop gardens reduce the cost of cooling buildings by about one-fifth.",
+        "B": "City planners have been wrong about how attractive rooftop gardens are.",
+        "C": "Every new public building should be built with a rooftop garden.",
+        "D": "Once their longer life and energy savings are counted, rooftop gardens are not too costly for new public buildings.",
+        "E": "Older public buildings cannot support the weight of rooftop gardens."
+      },
+      "answer": "D",
+      "steps": [
+        { "label": "Paragraph jobs", "note": "P1: the old view (too costly). P2: evidence the cost accounting was incomplete. P3: a limit, then the author’s verdict." },
+        { "label": "Find the verdict", "note": "The last sentence gives the author’s conclusion, limited to new construction.", "highlight": "for new construction, the case against rooftop gardens can no longer rest on cost" },
+        { "label": "Predict", "note": "Counting lifespan and savings, rooftop gardens aren’t too expensive for new public buildings." }
+      ],
+      "why": {
+        "A": "Too narrow: one detail from paragraph 2.",
+        "B": "Distorts the old view: planners thought gardens attractive but too costly.",
+        "C": "Too strong: the author says cost is no longer a reason against them, not that every building must have one.",
+        "D": "Correct. It covers the old view, the evidence and the limited verdict.",
+        "E": "Too strong and too narrow: older buildings may not bear the weight."
+      }
+    },
+    { "kind": "practice", "title": "Your turn", "count": 3 },
+    {
+      "kind": "card",
+      "title": "Cheat card",
+      "lines": [
+        "Predict the main point before the choices.",
+        "Covers every paragraph, carries the author’s stance.",
+        "Topic-only is too broad; one detail is too narrow.",
+        "Match the strength: qualified views stay qualified.",
+        "Purpose: pick the verb that fits the author’s commitment."
+      ]
+    }
+  ]
+}

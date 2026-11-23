@@ -1,0 +1,82 @@
+{
+  "id": "wrong-answers",
+  "title": "Why wrong answers are wrong",
+  "summary": "Eight kinds of wrong answer the test reuses, how to name each in a second, and a two-pass elimination habit that stops second-guessing.",
+  "group": "foundations",
+  "order": 4,
+  "section": "LR",
+  "types": [],
+  "lessonIds": ["u3/eliminating-options", "u3/lack-of-support-v-false"],
+  "minutes": 7,
+  "slides": [
+    {
+      "kind": "idea",
+      "title": "Four of the five answers are built to look right",
+      "body": [
+        "Test writers do not write random wrong answers. Each one is designed to catch a particular slip: a reader who skimmed, a reader who went the wrong direction, a reader who fell for strong language.",
+        "If you can name what is wrong with a choice, you can drop it with confidence. If you can’t name it, keep it for the second pass rather than guessing."
+      ],
+      "callout": "Eliminate for a reason. “It feels off” is not a reason yet."
+    },
+    {
+      "kind": "traps",
+      "title": "The eight usual suspects",
+      "traps": [
+        { "name": "Out of scope", "tell": "Talks about something the argument never addresses: a different group, a different time, a different goal." },
+        { "name": "Too strong", "tell": "Says all, never, must or proves where the text supports only some or might. On inference questions, extreme wording is usually a sign the choice is wrong." },
+        { "name": "Reversed", "tell": "Gets the right ideas in the wrong direction: cause and effect swapped, or a conditional read backwards." },
+        { "name": "Half right", "tell": "Starts with something true, then adds one clause that is not. Read every choice to the end." },
+        { "name": "Opposite", "tell": "Does the reverse of the task: strengthens on a weaken question, or supports a claim the author rejects." },
+        { "name": "True but irrelevant", "tell": "Would be true in the world, or even in the passage, but does not touch the gap or the question asked." },
+        { "name": "Swapped concept", "tell": "Uses a nearby idea instead of the one at issue: popularity for quality, sales for profit, belief for fact." },
+        { "name": "Relative vs absolute", "tell": "Shifts between more and most, or between a rate and a number: “more people” when the text only said “a higher percentage”." }
+      ]
+    },
+    {
+      "kind": "worked",
+      "title": "Every wrong answer has a name",
+      "stimulus": "Since the new after-school tutoring program began at Linden School, the school's average math score has risen 12 points. So the tutoring program has improved students' math skills.",
+      "stem": "Which one of the following, if true, most seriously weakens the argument?",
+      "choices": {
+        "A": "Many parents say their children enjoy the tutoring sessions.",
+        "B": "Next year the tutoring program will be expanded to Linden's science classes.",
+        "C": "In the same year the program began, Linden replaced its math textbooks with ones its teachers rate as far clearer.",
+        "D": "Students who attended the most tutoring sessions showed the largest score gains.",
+        "E": "Some students at Linden did not attend any tutoring sessions."
+      },
+      "answer": "C",
+      "steps": [
+        { "label": "Find the gap", "note": "Scores rose after tutoring began, so tutoring caused the rise. The gap: nothing else changed that year.", "highlight": "So the tutoring program has improved students' math skills." },
+        { "label": "Predict", "note": "A weakener will offer another reason scores rose in the same period." },
+        { "label": "First pass", "note": "Drop what you can name: A is true but irrelevant (enjoyment), B is out of scope (next year, science), D is the opposite (it strengthens)." },
+        { "label": "Second pass", "note": "Compare the survivors. E is too weak to matter: some students skipping tutoring does not explain the rise. C gives another cause." }
+      ],
+      "why": {
+        "A": "True but irrelevant: enjoying the sessions says nothing about what raised scores.",
+        "B": "Out of scope: next year's plans and science classes do not bear on this year's math scores.",
+        "C": "Correct. Clearer textbooks arriving the same year are another explanation for the rise.",
+        "D": "Opposite: a dose-response pattern supports the argument.",
+        "E": "Too weak: it doesn't say how those students scored, so it doesn't explain the rise or cast doubt on the tutoring."
+      }
+    },
+    {
+      "kind": "method",
+      "title": "Two-pass elimination",
+      "steps": [
+        { "label": "Pass one: fast cuts", "do": "Go A to E once. Cross out anything you can name a reason for in a few seconds. Do not stop to agonize." },
+        { "label": "Pass two: compare", "do": "With two or three left, go back to your prediction and to the exact words of the stimulus. Find the word that kills each loser." },
+        { "label": "Commit", "do": "If one choice survives, take it and move on. Do not reread the ones you already eliminated for a reason." }
+      ]
+    },
+    {
+      "kind": "card",
+      "title": "Cheat card",
+      "lines": [
+        "Out of scope, too strong, reversed, half right, opposite, irrelevant, swapped, relative vs absolute.",
+        "Read every choice to its last word.",
+        "First pass: cut what you can name. Second pass: compare against the text.",
+        "Never pick a choice you can’t defend from the stimulus."
+      ]
+    }
+  ]
+}

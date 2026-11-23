@@ -1,0 +1,92 @@
+{
+  "id": "lr-must-be-true",
+  "title": "Must Be True, Must Be False and Inference",
+  "summary": "No argument to attack, just facts to combine. The right answer is forced by the statements; Must Be False flips it to the one that can't be true.",
+  "group": "lr",
+  "order": 8,
+  "section": "LR",
+  "types": ["must_be_true", "inference", "must_be_false"],
+  "lessonIds": ["u2/must-be-true", "u1/grammar-1", "u1/quantifiers-1", "u1/quantifiers-2"],
+  "minutes": 8,
+  "slides": [
+    {
+      "kind": "idea",
+      "title": "Stay inside the facts",
+      "body": [
+        "These stimuli are statements, not arguments. Treat every one as true and find what they force. Nothing outside the text counts.",
+        "Must Be True: the answer is guaranteed by the statements. Must Be False (CANNOT be true): the answer contradicts them. Everything else is a “could be”, and could-be choices are wrong on both."
+      ],
+      "callout": "Prove it with a quote. If you can’t point to the words that force it, it isn’t the answer."
+    },
+    {
+      "kind": "stems",
+      "title": "How you’ll see it",
+      "stems": [
+        "If the statements above are true, which one of the following must also be true?",
+        "Which one of the following can be properly inferred from the statements above?",
+        "If the statements above are true, which one of the following CANNOT be true?",
+        "The statements above, if true, most strongly support which one of the following? (see the Most Strongly Supported deck)"
+      ]
+    },
+    {
+      "kind": "method",
+      "title": "Method",
+      "steps": [
+        { "label": "Collect the facts", "do": "Read every statement. Translate conditionals and quantifiers (all, some, most, none) as you go." },
+        { "label": "Combine", "do": "Look for statements that share a term and chain them. That combination is usually the answer." },
+        { "label": "Light prediction", "do": "You may not predict the exact answer; know what follows, then go hunting." },
+        { "label": "Prove or kill", "do": "For each choice: can I point to the words that force it? Strong words (all, never, most) need strong support." },
+        { "label": "For CANNOT", "do": "Look for the choice that contradicts a fact or the chain. A choice that just isn’t supported can still be true." }
+      ]
+    },
+    {
+      "kind": "worked",
+      "title": "Worked example",
+      "stimulus": "Every chef at Marlow's restaurant trained at the Lyon Institute. Some of the chefs at Marlow's also teach evening cooking classes. No one who teaches evening cooking classes works the late shift at Marlow's.",
+      "stem": "If the statements above are true, which one of the following must also be true?",
+      "choices": {
+        "A": "No one who trained at the Lyon Institute works the late shift at Marlow's.",
+        "B": "Every chef at Marlow's who teaches evening classes trained somewhere other than the Lyon Institute.",
+        "C": "Most chefs at Marlow's work the late shift.",
+        "D": "Some chefs at Marlow's who work the late shift teach evening classes.",
+        "E": "Some people who trained at the Lyon Institute do not work the late shift at Marlow's."
+      },
+      "answer": "E",
+      "steps": [
+        { "label": "Translate", "note": "Marlow's chef → Lyon. Some Marlow's chefs teach evening classes. Evening teacher → not late shift." },
+        { "label": "Combine", "note": "The chefs who teach evening classes trained at Lyon and don't work the late shift.", "highlight": "Some of the chefs at Marlow's also teach evening cooking classes." },
+        { "label": "So", "note": "At least some Lyon-trained people don't work the late shift. Hunt for that." },
+        { "label": "Spot the CANNOTs", "note": "B and D contradict the facts. On a Must Be False version of this question, either would be the answer." }
+      ],
+      "why": {
+        "A": "Too strong. Lyon-trained chefs who don't teach could work the late shift.",
+        "B": "Contradicts the first statement: every Marlow's chef trained at Lyon. This one cannot be true.",
+        "C": "Nothing supports most.",
+        "D": "Contradicts the third statement: evening teachers don't work the late shift. Cannot be true.",
+        "E": "Correct. The chefs who teach evening classes are Lyon-trained and off the late shift."
+      }
+    },
+    {
+      "kind": "traps",
+      "title": "Inference traps",
+      "traps": [
+        { "name": "Could be true", "tell": "Fits with the facts but isn’t forced. Wrong on Must Be True and on Must Be False." },
+        { "name": "One word too strong", "tell": "All where the text gives some; most where it gives many." },
+        { "name": "Reversed conditional", "tell": "Reads an arrow backwards." },
+        { "name": "Real-world reasonable", "tell": "Sounds sensible but relies on outside knowledge." }
+      ]
+    },
+    { "kind": "practice", "title": "Your turn", "count": 3 },
+    {
+      "kind": "card",
+      "title": "Cheat card",
+      "lines": [
+        "Facts, not an argument. Accept all of them.",
+        "Chain statements that share a term.",
+        "Must Be True: point to the words that force it.",
+        "CANNOT be true: find the contradiction, not the unsupported claim.",
+        "Could be true is wrong on both."
+      ]
+    }
+  ]
+}

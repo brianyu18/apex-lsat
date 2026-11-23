@@ -1,0 +1,135 @@
+{
+  "id": "lr-principle",
+  "title": "Principle questions",
+  "summary": "Justify: find the rule that, applied to the facts, gives the conclusion. Conform and apply: find the case that fits a given rule exactly.",
+  "group": "lr",
+  "order": 17,
+  "section": "LR",
+  "types": [
+    "principle",
+    "psa_application"
+  ],
+  "lessonIds": [
+    "u2/principle-justify",
+    "u2/principle-conform-apply",
+    "u3/rule-application"
+  ],
+  "minutes": 7,
+  "slides": [
+    {
+      "kind": "idea",
+      "title": "A rule and a case",
+      "body": [
+        "Principle questions come in two directions. Justify: you have a case and a conclusion, and you need the general rule that gets you there. It works like a sufficient assumption.",
+        "Conform or apply: you have a rule and need the case that fits it. Match every condition of the rule, and check that the outcome matches too."
+      ],
+      "callout": "A rule can be broader than the case, but it must cover these facts and lead to this conclusion."
+    },
+    {
+      "kind": "stems",
+      "title": "How you’ll see it",
+      "stems": [
+        "Which one of the following principles, if valid, most helps to justify the reasoning above?",
+        "The argument's reasoning most closely conforms to which one of the following principles?",
+        "Which one of the following judgments most closely conforms to the principle stated above?",
+        "Which one of the following is an application of the principle above?"
+      ]
+    },
+    {
+      "kind": "method",
+      "title": "Method",
+      "steps": [
+        {
+          "label": "Spot the direction",
+          "do": "Given a case, find a rule (justify); or given a rule, find a case (conform/apply)."
+        },
+        {
+          "label": "Justify: build the rule",
+          "do": "If [the facts of this case], then [the conclusion]. Write it in general terms."
+        },
+        {
+          "label": "Apply: list the conditions",
+          "do": "Break the rule into its trigger conditions and its outcome."
+        },
+        {
+          "label": "Match every piece",
+          "do": "Justify: the rule must apply to these facts and yield this conclusion. Apply: the case must meet every trigger and reach the stated outcome."
+        }
+      ]
+    },
+    {
+      "kind": "worked",
+      "title": "Worked example: justify",
+      "stimulus": "Journalist Reyes should not have published the leaked memo. Although the memo was newsworthy, she knew it contained the home addresses of several employees, and publishing it put those employees at risk.",
+      "stem": "Which one of the following principles, if valid, most helps to justify the reasoning above?",
+      "choices": {
+        "A": "Journalists should publish newsworthy documents whenever doing so serves the public interest, whatever the risks.",
+        "B": "A newsworthy document should be published only after it has been verified by a second source.",
+        "C": "Journalists should not publish documents that they obtained illegally.",
+        "D": "Employers should keep employees' home addresses confidential.",
+        "E": "A journalist should not publish material she knows will put people at risk, even if it is newsworthy."
+      },
+      "answer": "E",
+      "steps": [
+        {
+          "label": "Conclusion",
+          "note": "Reyes should not have published.",
+          "highlight": "Journalist Reyes should not have published the leaked memo."
+        },
+        {
+          "label": "Facts that matter",
+          "note": "Newsworthy, but she knew publishing put employees at risk.",
+          "highlight": "publishing it put those employees at risk"
+        },
+        {
+          "label": "Build the rule",
+          "note": "If a journalist knows publishing puts people at risk, she shouldn’t publish, even if it’s newsworthy."
+        }
+      ],
+      "why": {
+        "A": "Points toward publishing, the opposite of the conclusion.",
+        "B": "Verification is never mentioned, so this rule doesn't apply.",
+        "C": "Nothing says the memo was obtained illegally, so the rule doesn't apply.",
+        "D": "About employers, not journalists.",
+        "E": "Correct. It covers the facts (known risk, newsworthy) and yields the conclusion."
+      }
+    },
+    {
+      "kind": "traps",
+      "title": "Principle traps",
+      "traps": [
+        {
+          "name": "Doesn’t apply",
+          "tell": "A sensible rule whose trigger isn’t met by the facts, like “obtained illegally” when legality never came up."
+        },
+        {
+          "name": "Wrong outcome",
+          "tell": "Applies to the facts but leads to a different conclusion, or the opposite one."
+        },
+        {
+          "name": "Wrong actor",
+          "tell": "A rule about someone else in the story: the employer, not the journalist."
+        },
+        {
+          "name": "Partial match",
+          "tell": "On apply questions, a case that meets most of the rule’s conditions but misses one."
+        }
+      ]
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn",
+      "count": 3
+    },
+    {
+      "kind": "card",
+      "title": "Cheat card",
+      "lines": [
+        "Justify: if [these facts], then [this conclusion].",
+        "Apply: every trigger met, and the outcome matches.",
+        "Broad rules are fine if they cover the case.",
+        "Check the actor, the trigger and the outcome."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "lr-parallel-flaw",
+  "title": "Parallel Flaw",
+  "summary": "Name the flaw first, then find the choice that makes the same mistake. A different flaw, or no flaw, is wrong.",
+  "group": "lr",
+  "order": 15,
+  "section": "LR",
+  "types": ["parallel_flaw"],
+  "lessonIds": ["u2/parallel-flaw", "u1/conditional-4"],
+  "minutes": 6,
+  "slides": [
+    {
+      "kind": "idea",
+      "title": "Same mistake, new subject",
+      "body": [
+        "Parallel Flaw combines two skills: name the flaw, then match the structure. The flaw is the shortcut: most choices can be dropped because they are valid or flawed in a different way.",
+        "The classic pairing is a conditional error. If the original reverses an arrow, the answer reverses an arrow too, not one that negates it."
+      ],
+      "callout": "Name the flaw in a few words. Then ask of each choice: same flaw?"
+    },
+    {
+      "kind": "stems",
+      "title": "How you’ll see it",
+      "stems": [
+        "The flawed pattern of reasoning in the argument above is most similar to that in which one of the following?",
+        "Which one of the following arguments exhibits flawed reasoning most similar to that in the argument above?"
+      ]
+    },
+    {
+      "kind": "method",
+      "title": "Method",
+      "steps": [
+        { "label": "Name the flaw", "do": "Reversal, negation, sample, part to whole, correlation to cause…" },
+        { "label": "Drop valid choices", "do": "Any choice that reasons correctly is out." },
+        { "label": "Drop other flaws", "do": "A choice with a different error is out, even though it’s flawed." },
+        { "label": "Check the conclusion", "do": "The answer’s conclusion should have the same strength as the original’s." }
+      ]
+    },
+    {
+      "kind": "worked",
+      "title": "Worked example",
+      "stimulus": "Anyone who wins the Corbin Prize has published at least two novels. Teodora has published two novels. So Teodora must have won the Corbin Prize.",
+      "stem": "The flawed pattern of reasoning in the argument above is most similar to that in which one of the following?",
+      "choices": {
+        "A": "Everyone allowed into the lab has a security badge. Ken has a security badge. So Ken must be allowed into the lab.",
+        "B": "Everyone allowed into the lab has a security badge. Ken is allowed into the lab. So Ken has a security badge.",
+        "C": "Everyone allowed into the lab has a security badge. Ken has no security badge. So Ken is not allowed into the lab.",
+        "D": "Everyone allowed into the lab has a security badge. Ken is not allowed into the lab. So Ken has no security badge.",
+        "E": "Most people allowed into the lab have a security badge. Ken has a security badge. So Ken is probably allowed into the lab."
+      },
+      "answer": "A",
+      "steps": [
+        { "label": "Abstract", "note": "Prize winner → two novels. Teodora has two novels. So Teodora won. That reverses the arrow.", "highlight": "Teodora has published two novels." },
+        { "label": "Drop the valid", "note": "B applies the rule forward; C uses the contrapositive. Both are valid." },
+        { "label": "Drop the other flaw", "note": "D negates the arrow: a different mistake. E changes the strength to most and probably." }
+      ],
+      "why": {
+        "A": "Correct. Badge is required for the lab; having a badge is treated as enough. Same reversal.",
+        "B": "Valid: the rule applied in the right direction.",
+        "C": "Valid: the contrapositive.",
+        "D": "Flawed, but by negation, not reversal.",
+        "E": "A probabilistic argument with most, unlike the original's all and must."
+      }
+    },
+    { "kind": "practice", "title": "Your turn", "count": 3 },
+    {
+      "kind": "card",
+      "title": "Cheat card",
+      "lines": [
+        "Name the flaw before the choices.",
+        "Valid choices are out.",
+        "A different flaw is out.",
+        "Reversal matches reversal; negation matches negation.",
+        "Match the conclusion’s strength."
+      ]
+    }
+  ]
+}

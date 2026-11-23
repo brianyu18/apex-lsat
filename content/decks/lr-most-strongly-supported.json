@@ -1,0 +1,88 @@
+{
+  "id": "lr-most-strongly-supported",
+  "title": "Most Strongly Supported",
+  "summary": "Like Must Be True, but the answer only has to be well supported. Prefer modest, hedged claims that stay close to the facts.",
+  "group": "lr",
+  "order": 9,
+  "section": "LR",
+  "types": ["most_strongly_supported"],
+  "lessonIds": ["u2/most-strongly-supported", "u1/grammar-2"],
+  "minutes": 6,
+  "slides": [
+    {
+      "kind": "idea",
+      "title": "Modest wins",
+      "body": [
+        "The right answer doesn’t have to be certain, but it has to be closely backed by the facts. In practice that means it is usually cautious: “may”, “some”, “not necessarily”.",
+        "Wrong answers overreach: they turn a correlation into a cause, some into most, or one case into a rule."
+      ],
+      "callout": "When two choices both fit, take the one that claims less."
+    },
+    {
+      "kind": "stems",
+      "title": "How you’ll see it",
+      "stems": [
+        "The statements above, if true, most strongly support which one of the following?",
+        "Which one of the following is most strongly supported by the information above?",
+        "The information above provides the most support for which one of the following?"
+      ]
+    },
+    {
+      "kind": "method",
+      "title": "Method",
+      "steps": [
+        { "label": "Collect the facts", "do": "Read everything as true. Note any comparisons, numbers and causal-sounding phrases." },
+        { "label": "Ask what’s safe", "do": "What could you say about these facts that no reasonable reader would dispute?" },
+        { "label": "Check the strength", "do": "Kill choices that claim causes, certainty, or quantities the facts don’t reach." },
+        { "label": "Choose the safest", "do": "Between survivors, prefer the more hedged one." }
+      ]
+    },
+    {
+      "kind": "worked",
+      "title": "Worked example",
+      "stimulus": "In a long-term study of office workers, those who took a short walk after lunch reported fewer afternoon headaches than those who stayed at their desks. The walkers also drank, on average, more water during the afternoon.",
+      "stem": "The statements above, if true, most strongly support which one of the following?",
+      "choices": {
+        "A": "Walking after lunch prevents afternoon headaches.",
+        "B": "Drinking more water is the main reason the walkers had fewer headaches.",
+        "C": "Office workers who stay at their desks drink no water in the afternoon.",
+        "D": "Something other than the walking itself may account for some of the difference in headaches.",
+        "E": "Most office workers get afternoon headaches."
+      },
+      "answer": "D",
+      "steps": [
+        { "label": "Fact one", "note": "Walkers reported fewer headaches. A correlation, not a cause.", "highlight": "reported fewer afternoon headaches than those who stayed at their desks" },
+        { "label": "Fact two", "note": "Walkers also drank more water. A second difference between the groups.", "highlight": "The walkers also drank, on average, more water during the afternoon." },
+        { "label": "What’s safe", "note": "We can’t say which difference matters, only that walking may not be the whole story." }
+      ],
+      "why": {
+        "A": "Too strong: a correlation does not show walking prevents headaches.",
+        "B": "Too strong: water is a possible factor, not shown to be the main one.",
+        "C": "Extreme: the facts say walkers drank more, not that others drank none.",
+        "D": "Correct. Water intake is a second difference between the groups, so something besides walking may explain part of the gap.",
+        "E": "Nothing tells us how common headaches are."
+      }
+    },
+    {
+      "kind": "traps",
+      "title": "MSS traps",
+      "traps": [
+        { "name": "Cause from correlation", "tell": "The facts show two things together; the choice says one causes the other." },
+        { "name": "Upgraded quantity", "tell": "Some becomes most, more becomes all, fewer becomes none." },
+        { "name": "One case to a rule", "tell": "A single study or example becomes a general law." },
+        { "name": "Comparison not made", "tell": "Compares groups or times the facts never compared." }
+      ]
+    },
+    { "kind": "practice", "title": "Your turn", "count": 3 },
+    {
+      "kind": "card",
+      "title": "Cheat card",
+      "lines": [
+        "Supported, not certain, but close to the facts.",
+        "Hedged wording is a good sign here.",
+        "Correlation in, cause out? Eliminate.",
+        "Prefer the choice that claims less."
+      ]
+    }
+  ]
+}

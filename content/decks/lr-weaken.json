@@ -1,0 +1,164 @@
+{
+  "id": "lr-weaken",
+  "title": "Weaken",
+  "summary": "Find the new fact that makes the conclusion less likely. Locate the gap first; the right answer drives a wedge into it.",
+  "group": "lr",
+  "order": 4,
+  "section": "LR",
+  "types": [
+    "weaken"
+  ],
+  "lessonIds": [
+    "u2/weaken",
+    "u1/causation-2"
+  ],
+  "minutes": 7,
+  "slides": [
+    {
+      "kind": "idea",
+      "title": "Widen the gap",
+      "body": [
+        "A weaken answer is a new fact, assumed true, that makes the conclusion less likely. It doesn’t have to destroy the argument; it only has to hurt it.",
+        "The best weakeners attack the gap, not the premises. If the argument assumes nothing else caused the result, the answer shows something else could have."
+      ],
+      "callout": "The choices are facts. Don’t ask whether they’re true; ask what happens to the conclusion if they are."
+    },
+    {
+      "kind": "stems",
+      "title": "How you’ll see it",
+      "stems": [
+        "Which one of the following, if true, most seriously weakens the argument?",
+        "Which one of the following, if true, most calls into question the conclusion?",
+        "Which one of the following, if true, casts the most doubt on the hypothesis?",
+        "Each of the following, if true, weakens the argument EXCEPT:"
+      ],
+      "note": "On EXCEPT questions, four choices weaken. The answer strengthens or does nothing."
+    },
+    {
+      "kind": "method",
+      "title": "Method",
+      "steps": [
+        {
+          "label": "Conclusion and evidence",
+          "do": "Pin down exactly what the conclusion claims: a cause, a prediction, a recommendation."
+        },
+        {
+          "label": "Find the gap",
+          "do": "What must also be true for the conclusion to hold? That assumption is the target."
+        },
+        {
+          "label": "Predict attacks",
+          "do": "Think of one or two facts that would make the assumption false: another cause, an unrepresentative sample, a plan that won’t work."
+        },
+        {
+          "label": "Test each choice",
+          "do": "Assume it’s true. Does the conclusion become less likely? Strengtheners and irrelevant facts go."
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "Weakening a causal claim",
+      "head": [
+        "The argument says",
+        "Weaken by showing"
+      ],
+      "rows": [
+        [
+          "A caused B",
+          "Something else caused B"
+        ],
+        [
+          "A caused B",
+          "B actually caused A"
+        ],
+        [
+          "A caused B",
+          "B happened without A, or A happened without B"
+        ],
+        [
+          "A study found A and B together",
+          "The groups differed in another way that matters"
+        ]
+      ]
+    },
+    {
+      "kind": "worked",
+      "title": "Worked example",
+      "stimulus": "A large study found that people who drink green tea every day have lower rates of heart disease than people who do not. Dr. Ames concludes that drinking green tea reduces the risk of heart disease.",
+      "stem": "Which one of the following, if true, most seriously weakens Dr. Ames's argument?",
+      "choices": {
+        "A": "Some people who drink green tea daily also drink coffee.",
+        "B": "Green tea contains several compounds that, in laboratory tests, reduce inflammation in the walls of human blood vessels.",
+        "C": "Heart disease rates have declined nationally over the past decade.",
+        "D": "Daily green tea drinkers in the study also exercised more and smoked less than the others, on average.",
+        "E": "The study included people from several different countries."
+      },
+      "answer": "D",
+      "steps": [
+        {
+          "label": "Conclusion",
+          "note": "Causal: green tea reduces heart-disease risk.",
+          "highlight": "drinking green tea reduces the risk of heart disease"
+        },
+        {
+          "label": "Evidence",
+          "note": "A correlation: tea drinkers have less heart disease.",
+          "highlight": "people who drink green tea every day have lower rates of heart disease"
+        },
+        {
+          "label": "Gap",
+          "note": "The two groups may differ in other ways that affect the heart."
+        },
+        {
+          "label": "Predict",
+          "note": "A weakener will show tea drinkers had another heart-healthy habit."
+        }
+      ],
+      "why": {
+        "A": "Coffee drinking in some tea drinkers says nothing about why their heart disease rates are lower.",
+        "B": "A plausible mechanism. This strengthens the causal claim.",
+        "C": "A national trend affects both groups alike.",
+        "D": "Correct. Exercise and not smoking could explain the lower rates, so tea may not be the cause.",
+        "E": "Neutral. A varied sample doesn't hurt the conclusion."
+      }
+    },
+    {
+      "kind": "traps",
+      "title": "Weaken traps",
+      "traps": [
+        {
+          "name": "The strengthener",
+          "tell": "Supports the argument. Easy to pick when you’ve lost track of the task."
+        },
+        {
+          "name": "Attacks a premise",
+          "tell": "Says the evidence is wrong. Premises stand; good weakeners add new information."
+        },
+        {
+          "name": "Out of scope",
+          "tell": "About a different group, time or outcome than the conclusion."
+        },
+        {
+          "name": "Too small to matter",
+          "tell": "“Some participants…” where the effect could not explain the result."
+        }
+      ]
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn",
+      "count": 3
+    },
+    {
+      "kind": "card",
+      "title": "Cheat card",
+      "lines": [
+        "Weaken = make the conclusion less likely, not impossible.",
+        "Aim at the gap, not the premises.",
+        "Causal claim? Other cause, reversed cause, cause without effect.",
+        "Assume each choice is true and ask what it does to the conclusion."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "lr-disagreement",
+  "title": "Point at Issue and Point of Agreement",
+  "summary": "Two speakers. For disagreement, find a claim one affirms and the other denies; for agreement, one both commit to. Use the two-speaker check on every choice.",
+  "group": "lr",
+  "order": 16,
+  "section": "LR",
+  "types": ["point_at_issue", "point_of_agreement"],
+  "lessonIds": ["u2/point-at-issue"],
+  "minutes": 6,
+  "slides": [
+    {
+      "kind": "idea",
+      "title": "Both speakers must have a view",
+      "body": [
+        "The right answer to a disagreement question is a claim on which both speakers take a position, and the positions are opposite.",
+        "Most wrong answers fail because one speaker says nothing about the claim. A topic only one person addresses can’t be a point of disagreement, or of agreement."
+      ],
+      "callout": "For each choice: what would speaker 1 say? What would speaker 2 say? You need two answers, and for disagreement they must clash."
+    },
+    {
+      "kind": "stems",
+      "title": "How you’ll see it",
+      "stems": [
+        "Lena and Omar disagree over whether…",
+        "The dialogue provides the most support for the claim that the two disagree over whether…",
+        "Their statements indicate that they would be most likely to agree that…",
+        "The exchange most strongly supports the claim that both speakers would accept which one of the following?"
+      ]
+    },
+    {
+      "kind": "method",
+      "title": "Method",
+      "steps": [
+        { "label": "Speaker one’s claim", "do": "What is the first speaker’s conclusion?" },
+        { "label": "Speaker two’s response", "do": "What does the second speaker reject, and what does she concede? Concessions are agreement points." },
+        { "label": "Predict", "do": "Disagreement is usually over speaker one’s conclusion or a premise speaker two attacks." },
+        { "label": "Two-speaker check", "do": "For every choice, write a yes, no or silent for each speaker. Keep only yes/no pairs (or yes/yes for agreement)." }
+      ]
+    },
+    {
+      "kind": "worked",
+      "title": "Worked example",
+      "stimulus": "Lena: The city should ban cars from Main Street on weekends. Shops on pedestrian streets in other cities saw their sales rise.\nOmar: Those cities have large tourist populations, which Main Street lacks. A weekend ban here would more likely hurt the shops' sales by keeping out shoppers who drive in from the suburbs.",
+      "stem": "Lena and Omar disagree over whether",
+      "choices": {
+        "A": "shops on pedestrian streets in other cities saw their sales rise",
+        "B": "Main Street draws large numbers of tourists",
+        "C": "a weekend car ban on Main Street would help the sales of its shops",
+        "D": "suburban shoppers prefer shopping on pedestrian streets",
+        "E": "the city should consider other ways to increase sales on Main Street"
+      },
+      "answer": "C",
+      "steps": [
+        { "label": "Lena", "note": "Ban cars; the evidence implies sales would rise here.", "highlight": "Shops on pedestrian streets in other cities saw their sales rise." },
+        { "label": "Omar", "note": "Doesn't dispute the other cities. Says a ban here would hurt sales.", "highlight": "would more likely hurt the shops' sales" },
+        { "label": "Two-speaker check", "note": "Would the ban help Main Street’s sales? Lena: yes. Omar: no. That’s the clash. Notice A is something they both accept: it would answer an agreement question." }
+      ],
+      "why": {
+        "A": "Omar doesn't dispute it. On an agreement question, this would be the answer.",
+        "B": "Lena says nothing about tourists on Main Street.",
+        "C": "Correct. Lena implies the ban would raise sales; Omar says it would hurt them.",
+        "D": "Neither speaker discusses suburban shoppers' preferences.",
+        "E": "Neither speaker mentions other ways."
+      }
+    },
+    { "kind": "practice", "title": "Your turn", "count": 3 },
+    {
+      "kind": "card",
+      "title": "Cheat card",
+      "lines": [
+        "Both speakers must take a position on the claim.",
+        "Disagreement: one yes, one no.",
+        "Agreement: both yes; look at what the second speaker concedes.",
+        "A topic only one speaker raises is never the answer."
+      ]
+    }
+  ]
+}

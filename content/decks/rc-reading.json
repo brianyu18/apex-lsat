@@ -1,0 +1,75 @@
+{
+  "id": "rc-reading",
+  "title": "How to read an RC passage",
+  "summary": "Read for the main point and the author's view, give each paragraph a job, track who believes what, and keep highlighting light.",
+  "group": "foundations",
+  "order": 6,
+  "section": "RC",
+  "types": ["main_point", "purpose_of_passage"],
+  "lessonIds": ["u4/rc-method", "u4/rc-highlighting-and-hard-passages", "u4/rc-time-budget"],
+  "minutes": 8,
+  "slides": [
+    {
+      "kind": "idea",
+      "title": "Read to understand, not to memorize",
+      "body": [
+        "Reading Comprehension rewards knowing what the passage is doing, not remembering its details. Details you can look up; the structure you can’t, unless you built it while reading.",
+        "Every passage is either mainly informing you about something or mainly persuading you of something. Decide which in the first paragraph or two, and you know what to listen for.",
+        "Most questions come down to one test: is this answer supported by the text? Treat them like must-be-true questions about the passage."
+      ],
+      "callout": "By the end of the passage you should be able to say the main point in one sentence."
+    },
+    {
+      "kind": "method",
+      "title": "The read, paragraph by paragraph",
+      "steps": [
+        { "label": "First lines: topic and style", "do": "What is this about, and is the author reporting or arguing? Look for an established view that is about to be challenged." },
+        { "label": "One job per paragraph", "do": "After each paragraph, give it a short label: introduces the debate, gives the critics’ view, offers evidence, answers an objection." },
+        { "label": "Track the voices", "do": "Note who holds each view: the author, critics, some historians, the traditional account. Questions often ask which view belongs to whom." },
+        { "label": "Mark the pivots", "do": "However, but, yet and nevertheless are where the passage turns. The author’s own view usually follows a pivot." },
+        { "label": "Catch the author’s tone", "do": "Words like persuasive, overstated, promising and unfortunately reveal the author’s attitude. Note them." },
+        { "label": "Say the main point", "do": "Before the questions, state the main point in one sentence: not just the topic, not every detail." }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "Five passage shapes and what to track",
+      "head": ["Shape", "What it does", "Track"],
+      "rows": [
+        ["Critique and debate", "Sets out a view, then challenges it.", "Each side’s claim and where the author lands."],
+        ["Single position", "Argues one thesis throughout.", "The thesis and the support in each paragraph."],
+        ["Phenomenon and hypotheses", "Describes something puzzling and offers explanations.", "Each explanation and which one the author favors."],
+        ["Problem and analysis", "Describes a problem and weighs responses.", "The problem, each proposed fix and its limits."],
+        ["Spotlight", "Profiles a person, work or movement.", "What makes the subject significant and any reassessment."]
+      ]
+    },
+    {
+      "kind": "traps",
+      "title": "Reading traps",
+      "traps": [
+        { "name": "Detail hoarding", "tell": "Trying to remember every name and date. Note where details are, not what they are." },
+        { "name": "Missing the turn", "tell": "Taking the first view described as the author’s. The author often introduces a view only to reject it." },
+        { "name": "Topic, not point", "tell": "A main point that only names the subject. Ask what the author is saying about the subject." },
+        { "name": "Outside knowledge", "tell": "Answering from what you know about the topic. The passage is the only source." },
+        { "name": "Heavy highlighting", "tell": "Highlighting whole sentences turns the passage yellow. Mark pivots, viewpoints and the author’s tone words only." }
+      ]
+    },
+    {
+      "kind": "practice",
+      "title": "Try a main-point question",
+      "count": 2
+    },
+    {
+      "kind": "card",
+      "title": "Cheat card",
+      "lines": [
+        "Inform or persuade? Decide early.",
+        "Give every paragraph a job.",
+        "Know who holds each view.",
+        "Mark pivots and tone words; skip the details.",
+        "Say the main point in one sentence before the questions.",
+        "Every answer must be supported by the text."
+      ]
+    }
+  ]
+}

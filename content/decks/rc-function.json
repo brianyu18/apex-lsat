@@ -1,0 +1,84 @@
+{
+  "id": "rc-function",
+  "title": "Purpose and Meaning in Context",
+  "summary": "Why does the author mention this? What does this word mean here? Answer from the surrounding sentences and the paragraph's job.",
+  "group": "rc",
+  "order": 4,
+  "section": "RC",
+  "types": ["purpose_in_context", "meaning_in_context", "purpose_of_paragraph"],
+  "lessonIds": ["u4/question-types-2", "u4/question-types-1", "u4/style-problem-analysis"],
+  "minutes": 6,
+  "slides": [
+    {
+      "kind": "idea",
+      "title": "Why is this here?",
+      "body": [
+        "Function questions ask about a piece of the passage: why a detail is mentioned, what a phrase means in context, or what a paragraph contributes.",
+        "The answer is almost never about the detail itself. It is about what the detail does for the author’s argument: supports a claim, challenges a view, illustrates a point, introduces a contrast."
+      ],
+      "callout": "Read the sentence before and after. The job of a detail lives in its neighbours."
+    },
+    {
+      "kind": "stems",
+      "title": "How you’ll see it",
+      "stems": [
+        "The author mentions … primarily in order to …",
+        "The primary function of the third paragraph is to …",
+        "As it is used in the passage, the word “…” most nearly means …",
+        "The reference to … serves mainly to …"
+      ]
+    },
+    {
+      "kind": "method",
+      "title": "Method",
+      "steps": [
+        { "label": "Go back", "do": "Find the detail and read it with the sentences around it." },
+        { "label": "Ask what it supports", "do": "Which claim does this detail help or hurt? Which view does it belong to?" },
+        { "label": "Predict a verb", "do": "To support, to challenge, to illustrate, to concede, to introduce." },
+        { "label": "Meaning in context", "do": "Replace the word with your own in the sentence; the dictionary meaning is often the trap." }
+      ]
+    },
+    {
+      "kind": "worked",
+      "title": "Worked example",
+      "passage": {
+        "paragraphs": [
+          "Ecologists once assumed that the decline of the Varden marsh frog was caused by a fungal disease that has devastated amphibians worldwide. Yet surveys found the fungus at similar levels in marshes where the frog was thriving.",
+          "Attention has since turned to the marsh's water. Upstream farms began drawing irrigation water in the 1990s, and the marsh now dries out by midsummer in most years, before tadpoles complete their development. Where farmers have agreed to limit summer withdrawals, frog numbers have begun to recover."
+        ]
+      },
+      "stem": "The author mentions that the fungus was found at similar levels in marshes where the frog was thriving primarily in order to",
+      "choices": {
+        "A": "show that the fungus is less dangerous to amphibians than ecologists believed",
+        "B": "suggest that the fungus spread to the Varden marsh from other marshes",
+        "C": "argue that ecologists should stop studying amphibian diseases",
+        "D": "explain why frog numbers have begun to recover",
+        "E": "cast doubt on the view that the fungus caused the frog's decline"
+      },
+      "answer": "E",
+      "steps": [
+        { "label": "Go back", "note": "The detail follows “Yet”, right after the old assumption.", "highlight": "Yet surveys found the fungus at similar levels in marshes where the frog was thriving." },
+        { "label": "What it does", "note": "If the fungus is equally present where frogs thrive, it probably isn’t what’s killing them here. It undercuts the old view." },
+        { "label": "Predict", "note": "To challenge the fungus explanation." }
+      ],
+      "why": {
+        "A": "Too broad: it's about this frog's decline, not the fungus's danger in general.",
+        "B": "Nothing is said about how the fungus spread.",
+        "C": "Extreme: the passage doesn't argue against studying disease.",
+        "D": "Recovery is explained by limits on water withdrawals, in paragraph 2.",
+        "E": "Correct. It undercuts the assumption stated just before it."
+      }
+    },
+    { "kind": "practice", "title": "Your turn", "count": 3 },
+    {
+      "kind": "card",
+      "title": "Cheat card",
+      "lines": [
+        "Ask what the detail does, not what it says.",
+        "Read the sentence before and after.",
+        "Predict a verb: support, challenge, illustrate, concede.",
+        "Meaning in context: substitute your own word in the sentence."
+      ]
+    }
+  ]
+}

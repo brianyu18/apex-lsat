@@ -6,6 +6,7 @@ import { getLesson, getLessonProgress, setLessonProgress, UNIT_TITLES } from "@/
 import { Badge, Card } from "@/components/ui/primitives";
 import { Button } from "@/components/ui/button";
 import { LR_TYPES } from "@/lib/content/taxonomy";
+import { readDecks } from "@/lib/decks/load";
 
 export const dynamic = "force-dynamic";
 
@@ -15,6 +16,7 @@ export default async function LessonPage({ params }: { params: Promise<{ unit: s
   const l = await getLesson(id);
   if (!l) notFound();
   const progress = await getLessonProgress(id);
+  const deck = (await readDecks()).decks.find((d) => d.lessonIds.includes(id));
   if (!progress) await setLessonProgress(id, { status: "in_progress" });
 
   const types = l.checkTags.filter((t) => (LR_TYPES as readonly string[]).includes(t));
@@ -68,6 +70,11 @@ export default async function LessonPage({ params }: { params: Promise<{ unit: s
         <div className="mt-3 flex flex-wrap gap-2">
           <Badge tone="neutral">{l.minutes} min</Badge>
           {progress?.status === "complete" && <Badge tone="ok">Complete · {progress.checkScore}/{progress.checkTotal}</Badge>}
+          {deck && (
+            <Link href={`/learn/decks/${deck.id}`} className="text-xs font-medium text-accent hover:underline">
+              Strategy deck: {deck.title} →
+            </Link>
+          )}
           {progress?.status !== "complete" && progress?.checkScore != null && <Badge tone="warn">Last check {progress.checkScore}/{progress.checkTotal} — need 4</Badge>}
         </div>
       </header>

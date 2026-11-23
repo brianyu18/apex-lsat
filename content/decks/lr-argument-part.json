@@ -1,0 +1,71 @@
+{
+  "id": "lr-argument-part",
+  "title": "Argument Part",
+  "summary": "Name the role of one quoted claim with two questions: is it supported, and does it support anything? Then decode the choices' abstract language.",
+  "group": "lr",
+  "order": 12,
+  "section": "LR",
+  "types": ["argument_part"],
+  "lessonIds": ["u2/argument-part", "u1/arguments-3"],
+  "minutes": 6,
+  "slides": [
+    {
+      "kind": "idea",
+      "title": "Two questions fix any role",
+      "body": [
+        "You’re asked what one claim does in the argument. The answers are abstract: premise, intermediate conclusion, the position argued against, a concession.",
+        "Label the claim yourself before reading the choices, then translate each choice into the same label."
+      ],
+      "callout": "Is it supported by anything? Does it support anything? Those two answers decide the role."
+    },
+    {
+      "kind": "table",
+      "title": "Role decoder",
+      "head": ["Supported?", "Supports?", "Role", "Answer choice language"],
+      "rows": [
+        ["No", "Yes", "Premise", "evidence offered in support of the conclusion"],
+        ["Yes", "Yes", "Intermediate conclusion", "a conclusion that is used to support the main conclusion"],
+        ["Yes", "No", "Main conclusion", "the conclusion the argument as a whole is meant to establish"],
+        ["No", "No, rejected", "Opposing view", "a position the argument is directed against"],
+        ["No", "No, granted", "Concession", "a consideration the argument acknowledges but discounts"]
+      ]
+    },
+    {
+      "kind": "worked",
+      "title": "Worked example",
+      "stimulus": "Economist: It is often said that raising the minimum wage costs jobs. In Eastvale, however, restaurant employment rose in the two years after the minimum wage was increased. This suggests that a higher minimum wage need not reduce employment, at least in industries where workers' spending flows back to local businesses.",
+      "stem": "The claim that restaurant employment in Eastvale rose after the minimum wage increase plays which one of the following roles in the economist's argument?",
+      "choices": {
+        "A": "It is the conclusion that the economist seeks to establish.",
+        "B": "It is a view that the economist argues against.",
+        "C": "It is a general principle used to justify the conclusion.",
+        "D": "It is an intermediate conclusion supported by the claim that raising the minimum wage costs jobs.",
+        "E": "It is evidence offered against a widely held view."
+      },
+      "answer": "E",
+      "steps": [
+        { "label": "Map", "note": "Widely held view: raising the minimum wage costs jobs. Main conclusion: a higher minimum wage need not reduce employment.", "highlight": "a higher minimum wage need not reduce employment" },
+        { "label": "Supported?", "note": "Nothing is offered as a reason for the Eastvale figure. Not supported.", "highlight": "restaurant employment rose in the two years after the minimum wage was increased" },
+        { "label": "Supports?", "note": "Yes: “This suggests” points from it to the conclusion, which challenges the widely held view. So it’s a premise used against that view." }
+      ],
+      "why": {
+        "A": "The conclusion is the last sentence, which this claim supports.",
+        "B": "The economist argues against the claim that raising wages costs jobs, not this one.",
+        "C": "It's a specific case, not a general principle.",
+        "D": "It isn't supported by anything, and certainly not by the view the economist rejects.",
+        "E": "Correct. It's evidence, and it cuts against the often-said view."
+      }
+    },
+    { "kind": "practice", "title": "Your turn", "count": 3 },
+    {
+      "kind": "card",
+      "title": "Cheat card",
+      "lines": [
+        "Find the main conclusion first.",
+        "Supported? Supports? Answer both for the quoted claim.",
+        "“It is true that … but” marks a concession.",
+        "Decode every choice into the same two answers; one mismatch kills it."
+      ]
+    }
+  ]
+}

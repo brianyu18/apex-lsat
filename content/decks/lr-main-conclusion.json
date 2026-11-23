@@ -1,0 +1,88 @@
+{
+  "id": "lr-main-conclusion",
+  "title": "Main Conclusion",
+  "summary": "Find the claim everything else supports. It may sit anywhere in the stimulus; use the 'why should I believe that?' test to confirm it.",
+  "group": "lr",
+  "order": 11,
+  "section": "LR",
+  "types": ["main_conclusion"],
+  "lessonIds": ["u2/main-conclusion", "u1/arguments-1", "u1/arguments-2"],
+  "minutes": 6,
+  "slides": [
+    {
+      "kind": "idea",
+      "title": "The claim at the top of the pyramid",
+      "body": [
+        "The main conclusion is the one claim that the rest of the argument supports, and that supports nothing else.",
+        "It isn’t always last. Arguments often open with the conclusion, or bury it after a “but” that answers someone else’s view."
+      ],
+      "callout": "For each candidate ask: does anything else in the argument give me a reason to believe this? Does this give a reason for anything else?"
+    },
+    {
+      "kind": "stems",
+      "title": "How you’ll see it",
+      "stems": [
+        "Which one of the following most accurately expresses the main conclusion of the argument?",
+        "The overall conclusion drawn in the argument is that…",
+        "Which one of the following most accurately expresses the conclusion drawn in the argument?"
+      ]
+    },
+    {
+      "kind": "method",
+      "title": "Method",
+      "steps": [
+        { "label": "Find candidates", "do": "Look for claims of opinion or recommendation, especially after but, so, thus, or at the very start." },
+        { "label": "Test support", "do": "Apply the “why should I believe that?” test. The main conclusion is supported by the others." },
+        { "label": "Watch for sub-conclusions", "do": "A claim that is supported and also supports something else is an intermediate conclusion, not the main one." },
+        { "label": "Match the paraphrase", "do": "The right answer may reword the conclusion and fill in pronouns. Match the meaning, not the words." }
+      ]
+    },
+    {
+      "kind": "worked",
+      "title": "Worked example",
+      "stimulus": "The city should keep the old train depot and pay for its repairs. Some critics say the repairs would cost more than the depot is worth, but they overlook the thousands of tourists the depot draws each year, whose spending supports dozens of local shops.",
+      "stem": "Which one of the following most accurately expresses the main conclusion of the argument?",
+      "choices": {
+        "A": "The depot draws thousands of tourists each year.",
+        "B": "Repairing the depot would cost more than the depot is worth.",
+        "C": "The city should not sell the depot but should repair it.",
+        "D": "Tourist spending supports dozens of local shops.",
+        "E": "Critics of repairing the depot have overlooked important facts."
+      },
+      "answer": "C",
+      "steps": [
+        { "label": "Candidates", "note": "Two claims of opinion: the city should keep and repair the depot, and the critics overlook the tourists.", "highlight": "The city should keep the old train depot and pay for its repairs." },
+        { "label": "Test support", "note": "Why keep the depot? Because the critics overlook the tourist spending. So the critics claim supports the first sentence.", "highlight": "they overlook the thousands of tourists the depot draws each year" },
+        { "label": "Conclusion", "note": "The first sentence is supported and supports nothing further. It’s the main conclusion." }
+      ],
+      "why": {
+        "A": "Premise: offered as a reason.",
+        "B": "The critics' view, which the author rejects.",
+        "C": "Correct. A paraphrase of the first sentence: keep the depot and pay for repairs.",
+        "D": "Premise: explains why the tourists matter.",
+        "E": "Intermediate conclusion: supported by the tourist facts, and it supports keeping the depot."
+      }
+    },
+    {
+      "kind": "traps",
+      "title": "Conclusion traps",
+      "traps": [
+        { "name": "The premise", "tell": "A reason, often the most memorable fact." },
+        { "name": "The opposing view", "tell": "What the critics say. The author argues against it." },
+        { "name": "The sub-conclusion", "tell": "A claim that is supported but then used to support the main point." },
+        { "name": "Overstated paraphrase", "tell": "Right idea, stronger wording than the author used." }
+      ]
+    },
+    { "kind": "practice", "title": "Your turn", "count": 3 },
+    {
+      "kind": "card",
+      "title": "Cheat card",
+      "lines": [
+        "Supported by everything, supports nothing.",
+        "Check the first sentence and anything after but.",
+        "Supported and supporting? Intermediate conclusion.",
+        "Match meaning, not wording."
+      ]
+    }
+  ]
+}

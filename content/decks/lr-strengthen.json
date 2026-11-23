@@ -1,0 +1,90 @@
+{
+  "id": "lr-strengthen",
+  "title": "Strengthen",
+  "summary": "Find the new fact that makes the conclusion more likely. Close the gap, or rule out the alternative the argument ignored.",
+  "group": "lr",
+  "order": 5,
+  "section": "LR",
+  "types": ["strengthen"],
+  "lessonIds": ["u2/strengthen", "u1/causation-2"],
+  "minutes": 6,
+  "slides": [
+    {
+      "kind": "idea",
+      "title": "Patch the gap",
+      "body": [
+        "Strengthen is weaken in reverse. Find the gap, then look for a fact that makes it smaller.",
+        "Two ways to do that: support the assumption directly, or knock out the most obvious alternative explanation. The answer needn’t prove the conclusion; it only has to make it more likely."
+      ],
+      "callout": "Ask: what is the author worried I’ll say? The right answer takes that objection off the table."
+    },
+    {
+      "kind": "stems",
+      "title": "How you’ll see it",
+      "stems": [
+        "Which one of the following, if true, most strengthens the argument?",
+        "Which one of the following, if true, provides the most support for the conclusion?",
+        "Which one of the following, if true, most helps to support the hypothesis?",
+        "Each of the following, if true, strengthens the argument EXCEPT:"
+      ]
+    },
+    {
+      "kind": "method",
+      "title": "Method",
+      "steps": [
+        { "label": "Conclusion and evidence", "do": "Note what kind of conclusion it is: cause, prediction, plan, comparison." },
+        { "label": "Find the gap", "do": "What would a skeptic say? Name the alternative the author ignored." },
+        { "label": "Predict", "do": "A fact that rules out that alternative, or confirms the link between evidence and conclusion." },
+        { "label": "Test each choice", "do": "Assume it’s true. Does the conclusion become more likely? Pick the one that does the most." }
+      ]
+    },
+    {
+      "kind": "worked",
+      "title": "Worked example",
+      "stimulus": "Archaeologist: Pottery at the Teral site bears glazes made with a mineral found only in mountains 400 kilometers to the north. So the people of Teral must have traded with communities living in those mountains.",
+      "stem": "Which one of the following, if true, most strengthens the archaeologist's argument?",
+      "choices": {
+        "A": "There is no evidence that the people of Teral ever traveled more than a few kilometers from their settlement.",
+        "B": "Pottery made at Teral has also been found at sites far to the south.",
+        "C": "Mountain communities used the mineral for purposes other than glazing.",
+        "D": "Glazes made with the mineral were prized for their color.",
+        "E": "Some pottery at Teral bears glazes made with local minerals."
+      },
+      "answer": "A",
+      "steps": [
+        { "label": "Conclusion", "note": "Teral traded with the northern mountain communities.", "highlight": "must have traded with communities living in those mountains" },
+        { "label": "Evidence", "note": "Their glaze uses a mineral found only in those mountains.", "highlight": "a mineral found only in mountains 400 kilometers to the north" },
+        { "label": "Gap", "note": "The mineral could have reached Teral without trade: Teral people might have gone north and dug it up themselves." },
+        { "label": "Predict", "note": "A strengthener rules that out: evidence they didn’t travel there." }
+      ],
+      "why": {
+        "A": "Correct. If Teral people didn't travel far, they didn't fetch the mineral themselves, which makes trade more likely.",
+        "B": "Trade to the south says nothing about how the mineral arrived from the north.",
+        "C": "Other uses of the mineral don't show how it reached Teral.",
+        "D": "Why the glaze was valued doesn't show it came by trade.",
+        "E": "Local glazes are irrelevant to the imported mineral."
+      }
+    },
+    {
+      "kind": "traps",
+      "title": "Strengthen traps",
+      "traps": [
+        { "name": "Restates a premise", "tell": "Repeats the evidence in new words. It adds nothing." },
+        { "name": "Sounds related", "tell": "On topic, but doesn’t touch the gap, like other uses of the mineral." },
+        { "name": "The weakener", "tell": "Does the reverse. Easy to pick on a long question." },
+        { "name": "Supports something else", "tell": "Makes a nearby claim more likely, not the conclusion itself." }
+      ]
+    },
+    { "kind": "practice", "title": "Your turn", "count": 3 },
+    {
+      "kind": "card",
+      "title": "Cheat card",
+      "lines": [
+        "Strengthen = more likely, not proven.",
+        "Name the skeptic’s objection; the answer removes it.",
+        "Causal claim? Rule out another cause, or show the effect tracks the cause.",
+        "New information beats restated premises."
+      ]
+    }
+  ]
+}

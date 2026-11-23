@@ -1,0 +1,165 @@
+{
+  "id": "conditional-logic",
+  "title": "Conditional logic toolkit",
+  "summary": "Translate if, only if, unless and all/no into arrows, chain them, take the contrapositive, and spot the two classic errors.",
+  "group": "foundations",
+  "order": 2,
+  "section": "LR",
+  "types": [],
+  "lessonIds": [
+    "u1/conditional-1",
+    "u1/conditional-2",
+    "u1/conditional-3",
+    "u1/conditional-4",
+    "u1/quantifiers-1"
+  ],
+  "minutes": 9,
+  "slides": [
+    {
+      "kind": "idea",
+      "title": "One arrow, read one way",
+      "body": [
+        "A conditional statement says that one thing guarantees another. Write it as an arrow: the sufficient condition on the left, the necessary condition on the right. “If you are in Paris, you are in France” becomes Paris → France.",
+        "The arrow only runs one way. Being in France does not put you in Paris. Not being in Paris tells you nothing about France.",
+        "The one valid flip is the contrapositive: reverse the arrow and negate both sides. Not France → not Paris. It always says the same thing as the original."
+      ],
+      "callout": "A → B means: A is enough for B, and B is required for A."
+    },
+    {
+      "kind": "table",
+      "title": "Translation table",
+      "head": [
+        "The text says",
+        "Write",
+        "Note"
+      ],
+      "rows": [
+        [
+          "If A, then B / Whenever A, B",
+          "A → B",
+          "The plain case."
+        ],
+        [
+          "All A are B / Every A is B",
+          "A → B",
+          "Quantifier statements are conditionals too."
+        ],
+        [
+          "A only if B",
+          "A → B",
+          "“Only if” introduces the necessary side."
+        ],
+        [
+          "Only A are B / Only if A, B",
+          "B → A",
+          "“Only” without “if” points the other way."
+        ],
+        [
+          "A requires B / B is necessary for A",
+          "A → B",
+          "The requirement goes on the right."
+        ],
+        [
+          "A guarantees B / A is sufficient for B",
+          "A → B",
+          ""
+        ],
+        [
+          "No A is B",
+          "A → not B",
+          "Also B → not A."
+        ],
+        [
+          "A unless B",
+          "not B → A",
+          "Cross out “unless”, negate what follows it, make it the left side."
+        ],
+        [
+          "Not A unless B / No A without B",
+          "A → B",
+          "“You can’t enter unless you have a ticket”: enter → ticket."
+        ]
+      ]
+    },
+    {
+      "kind": "traps",
+      "title": "Two errors to catch, two quantifier rules",
+      "traps": [
+        {
+          "name": "Reversal",
+          "tell": "Treats A → B as if it meant B → A. The answer or argument assumes the necessary condition is enough.",
+          "example": "Every winner trained daily. Mara trained daily, so she will win."
+        },
+        {
+          "name": "Negation",
+          "tell": "Treats A → B as if it meant not A → not B. Missing the sufficient condition is taken to rule out the result.",
+          "example": "Anyone with a ticket can enter. Jon has no ticket, so he cannot enter."
+        },
+        {
+          "name": "Some is not all",
+          "tell": "“Some A are B” cannot be chained like an arrow, and it does not flip into “some A are not B”.",
+          "example": "Some lawyers are runners; all runners are early risers. You can conclude some lawyers are early risers, but not that most are."
+        },
+        {
+          "name": "Most plus most",
+          "tell": "Two “most” statements about the same group do not chain, but most A are B and most A are C does guarantee some B are C.",
+          "example": "Most voters favor the park and most voters favor the road, so some voters favor both."
+        }
+      ]
+    },
+    {
+      "kind": "worked",
+      "title": "Chain, then apply the contrapositive",
+      "stimulus": "Every member of the Harlow choir who sings a solo at the spring concert must attend the Thursday rehearsal. No one who attends the Thursday rehearsal can work the Thursday evening shift at the bakery. Priya works the Thursday evening shift at the bakery.",
+      "stem": "If the statements above are true, which one of the following must also be true?",
+      "choices": {
+        "A": "Priya is not a member of the Harlow choir.",
+        "B": "Priya does not sing a solo at the spring concert as a member of the Harlow choir.",
+        "C": "Anyone who attends the Thursday rehearsal is a member of the Harlow choir who sings a solo at the spring concert.",
+        "D": "Priya does not attend any rehearsals of the Harlow choir.",
+        "E": "Some members of the Harlow choir work at the bakery."
+      },
+      "answer": "B",
+      "steps": [
+        {
+          "label": "Translate sentence one",
+          "note": "Choir soloist → Thursday rehearsal.",
+          "highlight": "Every member of the Harlow choir who sings a solo at the spring concert must attend the Thursday rehearsal."
+        },
+        {
+          "label": "Translate sentence two",
+          "note": "“No one who …” gives Thursday rehearsal → not bakery shift.",
+          "highlight": "No one who attends the Thursday rehearsal can work the Thursday evening shift at the bakery."
+        },
+        {
+          "label": "Chain them",
+          "note": "Choir soloist → rehearsal → not bakery shift. Contrapositive: bakery shift → not rehearsal → not choir soloist."
+        },
+        {
+          "label": "Apply the fact",
+          "note": "Priya works the bakery shift, so she skips the Thursday rehearsal and cannot be a choir soloist. Look for exactly that.",
+          "highlight": "Priya works the Thursday evening shift at the bakery."
+        }
+      ],
+      "why": {
+        "A": "Too strong. She could be a choir member who does not sing a solo; nothing rules that out.",
+        "B": "Correct. Bakery shift → not rehearsal → not a choir soloist. This is the contrapositive of the chain.",
+        "C": "Reversal: soloists must attend, but attending does not make someone a soloist.",
+        "D": "Too strong. Only the Thursday rehearsal is ruled out.",
+        "E": "Nothing says any choir member works at the bakery. Priya may not be a member."
+      }
+    },
+    {
+      "kind": "card",
+      "title": "Cheat card",
+      "lines": [
+        "Sufficient on the left, necessary on the right.",
+        "“Only if” → right side. “Only” alone → left side.",
+        "“Unless”: negate what follows it and make it the trigger.",
+        "Contrapositive: flip and negate both sides. Always valid.",
+        "Reversal and negation are never valid.",
+        "Chain arrows end to end; check a fact against the contrapositive."
+      ]
+    }
+  ]
+}

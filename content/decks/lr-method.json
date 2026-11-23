@@ -1,0 +1,78 @@
+{
+  "id": "lr-method",
+  "title": "Method of Reasoning",
+  "summary": "Describe how the argument works, not what it says. Map the moves in plain words, then match each part of the abstract choice to the text.",
+  "group": "lr",
+  "order": 13,
+  "section": "LR",
+  "types": ["method_of_reasoning"],
+  "lessonIds": ["u2/method-of-reasoning"],
+  "minutes": 5,
+  "slides": [
+    {
+      "kind": "idea",
+      "title": "How, not what",
+      "body": [
+        "Method questions ask you to describe the argument’s technique: using an analogy, citing a counterexample, eliminating alternatives, pointing out an inconsistency.",
+        "The choices are abstract. Translate each one back into the specifics of the argument. If any part doesn’t match, the choice is out."
+      ]
+    },
+    {
+      "kind": "stems",
+      "title": "How you’ll see it",
+      "stems": [
+        "The argument proceeds by…",
+        "Which one of the following most accurately describes the technique of reasoning used in the argument?",
+        "The speaker responds to the other by…",
+        "The argument employs which one of the following reasoning techniques?"
+      ]
+    },
+    {
+      "kind": "method",
+      "title": "Method",
+      "steps": [
+        { "label": "Map in plain words", "do": "“She takes his claim, finds three similar cases where it failed, and says it will fail here too.”" },
+        { "label": "Name the move", "do": "Counterexample, analogy, similar cases, elimination, attacking a premise, showing a consequence is absurd." },
+        { "label": "Translate the choices", "do": "For each part of a choice, point to the sentence it describes." },
+        { "label": "Kill on one mismatch", "do": "A choice with one part that didn’t happen is wrong, however good the rest is." }
+      ]
+    },
+    {
+      "kind": "worked",
+      "title": "Worked example",
+      "stimulus": "Mayor Duval says the new stadium will pay for itself through increased tax revenue. But the three most recent stadiums built in comparable cities all generated far less tax revenue than their supporters predicted. There is little reason to expect Duval's stadium to do better.",
+      "stem": "The argument proceeds by",
+      "choices": {
+        "A": "showing that the mayor has a personal interest in the stadium being built",
+        "B": "using the outcomes of similar cases to cast doubt on a prediction",
+        "C": "arguing that a claim is false because no evidence has been offered for it",
+        "D": "pointing out an inconsistency in the mayor's own statements",
+        "E": "questioning the accuracy of the mayor's figures about current tax revenue"
+      },
+      "answer": "B",
+      "steps": [
+        { "label": "The claim attacked", "note": "Duval predicts the stadium will pay for itself.", "highlight": "the new stadium will pay for itself through increased tax revenue" },
+        { "label": "The support", "note": "Three similar stadiums fell short of predictions.", "highlight": "the three most recent stadiums built in comparable cities" },
+        { "label": "Name the move", "note": "Comparable cases are used to doubt a prediction." }
+      ],
+      "why": {
+        "A": "The mayor's motives are never mentioned.",
+        "B": "Correct. Similar cases (comparable stadiums) cast doubt on the prediction.",
+        "C": "The argument offers evidence against the claim; it doesn't rely on a lack of evidence.",
+        "D": "Only one statement by the mayor is cited, so there's no inconsistency.",
+        "E": "The mayor gave no current figures; the argument is about future revenue."
+      }
+    },
+    { "kind": "practice", "title": "Your turn", "count": 3 },
+    {
+      "kind": "card",
+      "title": "Cheat card",
+      "lines": [
+        "Describe the moves in plain words first.",
+        "Common moves: counterexample, analogy, similar cases, elimination, absurd consequence.",
+        "Every part of the right choice maps to the text.",
+        "One part that didn’t happen sinks a choice."
+      ]
+    }
+  ]
+}

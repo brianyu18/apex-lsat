@@ -1,0 +1,111 @@
+{
+  "id": "rc-detail",
+  "title": "Stated Detail",
+  "summary": "The answer is in the text. Go back to the right spot before reading the choices, then pick the faithful paraphrase.",
+  "group": "rc",
+  "order": 2,
+  "section": "RC",
+  "types": [
+    "stated"
+  ],
+  "lessonIds": [
+    "u4/question-types-1",
+    "u4/rc-highlighting-and-hard-passages"
+  ],
+  "minutes": 5,
+  "slides": [
+    {
+      "kind": "idea",
+      "title": "Look it up, don’t remember it",
+      "body": [
+        "Detail questions ask what the passage says. The answer is a paraphrase of a specific line, so the winning move is to find that line before you read the choices.",
+        "Wrong answers use the passage’s words in the wrong combination: right names, wrong relationship."
+      ],
+      "callout": "Go to the text first. A choice that only sounds familiar is the trap."
+    },
+    {
+      "kind": "stems",
+      "title": "How you’ll see it",
+      "stems": [
+        "According to the passage, …",
+        "The passage states that …",
+        "Which one of the following is mentioned in the passage as …?",
+        "The author explicitly identifies which one of the following?"
+      ]
+    },
+    {
+      "kind": "method",
+      "title": "Method",
+      "steps": [
+        {
+          "label": "Find the spot",
+          "do": "Use your paragraph map to go straight to the relevant lines."
+        },
+        {
+          "label": "Reread with neighbours",
+          "do": "Read the sentence plus the one before and after."
+        },
+        {
+          "label": "Predict",
+          "do": "Put what it says in your own words."
+        },
+        {
+          "label": "Match exactly",
+          "do": "Choose the paraphrase. Reject choices that mix up who did what, or add a detail."
+        }
+      ]
+    },
+    {
+      "kind": "worked",
+      "title": "Worked example",
+      "passage": {
+        "paragraphs": [
+          "The letters of the eighteenth-century merchant Ottilie Brandt survive in two collections. The larger, held in Bremen, contains her business correspondence; the smaller, in Riga, contains letters to her sister.",
+          "Historians long relied on the Bremen letters alone and portrayed Brandt as a cautious trader who avoided risky ventures. The Riga letters, catalogued only in 1998, complicate that picture: in them Brandt describes financing two voyages to the West Indies through a partner, an arrangement that appears nowhere in her business correspondence."
+        ]
+      },
+      "stem": "According to the passage, the Riga letters",
+      "choices": {
+        "A": "were written to Brandt by her sister",
+        "B": "describe ventures that are not mentioned in Brandt's business correspondence",
+        "C": "show that Brandt lost money on voyages to the West Indies",
+        "D": "make up the larger of the two collections",
+        "E": "were catalogued before historians began describing Brandt as a cautious trader who avoided risk"
+      },
+      "answer": "B",
+      "steps": [
+        {
+          "label": "Find the spot",
+          "note": "Riga is described in both paragraphs. Paragraph 2 says what the letters contain.",
+          "highlight": "an arrangement that appears nowhere in her business correspondence"
+        },
+        {
+          "label": "Predict",
+          "note": "The Riga letters mention voyages that the business letters leave out."
+        }
+      ],
+      "why": {
+        "A": "Reversed: the letters are to her sister, not from her.",
+        "B": "Correct. A direct paraphrase of the final sentence.",
+        "C": "Profit or loss is never mentioned.",
+        "D": "The Bremen collection is the larger one.",
+        "E": "Historians relied on the Bremen letters, and the Riga letters were catalogued only in 1998, so this has the order backwards."
+      }
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn",
+      "count": 3
+    },
+    {
+      "kind": "card",
+      "title": "Cheat card",
+      "lines": [
+        "Go back to the text before the choices.",
+        "Read the sentence with its neighbours.",
+        "Right words, wrong relationship is the usual trap.",
+        "Nothing extra: no profit, motive or date the text didn’t give."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "id": "rc-application",
+  "title": "Application, Analogy and Principle",
+  "summary": "Take an idea from the passage to a new situation. Strip the idea to its essentials, then find the case that fits every condition.",
+  "group": "rc",
+  "order": 6,
+  "section": "RC",
+  "types": ["application", "analogy", "principle"],
+  "lessonIds": ["u4/question-types-3", "u4/style-problem-analysis", "u3/analogy"],
+  "minutes": 6,
+  "slides": [
+    {
+      "kind": "idea",
+      "title": "Carry the rule somewhere new",
+      "body": [
+        "These questions move an idea out of the passage: which new case fits the doctrine, which situation is most analogous, which principle underlies the author’s view.",
+        "Reduce the idea to its essential conditions first. The right answer meets all of them; wrong answers match the surface (same topic) or meet most conditions but miss one."
+      ],
+      "callout": "Match the logic, not the subject. A case about trampolines can fit a rule about swimming pools."
+    },
+    {
+      "kind": "stems",
+      "title": "How you’ll see it",
+      "stems": [
+        "Based on the passage, a court applying the doctrine would be most likely to …",
+        "Which one of the following is most analogous to …?",
+        "Which one of the following principles most likely underlies the author's view?",
+        "The author would most likely regard which one of the following as an example of …?"
+      ]
+    },
+    {
+      "kind": "method",
+      "title": "Method",
+      "steps": [
+        { "label": "List the conditions", "do": "Write the idea as a short rule: who, what, when, and the exceptions." },
+        { "label": "Note the exceptions", "do": "Passages often limit the rule. Those limits are where the traps sit." },
+        { "label": "Test each case", "do": "Check every condition and exception against the choice." },
+        { "label": "Ignore surface", "do": "Same subject is not same structure. Different subject can be the perfect fit." }
+      ]
+    },
+    {
+      "kind": "worked",
+      "title": "Worked example",
+      "passage": {
+        "paragraphs": [
+          "Under the doctrine of attractive nuisance, a landowner can be liable when children trespass and are injured by a hazard on the land, even though adult trespassers generally cannot recover. Courts reason that some hazards, such as an unfenced swimming pool or an abandoned refrigerator, are so tempting to children, and their dangers so hard for children to grasp, that the landowner is better placed to prevent the harm.",
+          "The doctrine does not cover every danger. Courts have usually refused to extend it to natural features such as rivers and cliffs, whose risks even young children are presumed to recognize, and they ask whether the owner could have removed the hazard at reasonable cost."
+        ]
+      },
+      "stem": "Based on the passage, a court applying the doctrine would be most likely to hold a landowner liable in which one of the following cases?",
+      "choices": {
+        "A": "An adult trespasser is injured after falling into an unfenced pool on the property.",
+        "B": "A child trespasser is injured while climbing a cliff on the property.",
+        "C": "A child trespasser is injured by a river's current while wading on the property.",
+        "D": "A child trespasser is injured on a broken trampoline the owner left in an open yard and could have removed cheaply.",
+        "E": "A child who was invited onto the property is injured in an unfenced pool."
+      },
+      "answer": "D",
+      "steps": [
+        { "label": "Conditions", "note": "A child, trespassing, injured by a tempting artificial hazard.", "highlight": "a landowner can be liable when children trespass and are injured by a hazard on the land" },
+        { "label": "Exceptions", "note": "Not natural features; and the owner must have been able to remove it at reasonable cost.", "highlight": "Courts have usually refused to extend it to natural features such as rivers and cliffs" },
+        { "label": "Test", "note": "Look for a child trespasser, an artificial and tempting hazard, and a cheap fix." }
+      ],
+      "why": {
+        "A": "An adult: adult trespassers generally can't recover.",
+        "B": "A cliff is a natural feature, which the doctrine excludes.",
+        "C": "A river is a natural feature, which the doctrine excludes.",
+        "D": "Correct. Child trespasser, tempting artificial hazard, cheaply removable.",
+        "E": "The doctrine concerns trespassers; an invited child is outside it."
+      }
+    },
+    { "kind": "practice", "title": "Your turn", "count": 3 },
+    {
+      "kind": "card",
+      "title": "Cheat card",
+      "lines": [
+        "Write the idea as a rule with conditions.",
+        "The exceptions are where the traps are.",
+        "Every condition must be met.",
+        "Match logic, not topic."
+      ]
+    }
+  ]
+}
