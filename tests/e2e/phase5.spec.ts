@@ -80,9 +80,11 @@ test("test dates: official administrations with pace, switch re-plans and keeps 
   const paces = await rows.locator("td:nth-child(5)").allTextContents();
   const nums = paces.map((t) => Number(t.match(/(\d+(?:\.\d+)?) h\/wk/)![1]));
   expect(nums[nums.length - 1]).toBeLessThanOrEqual(nums[0]);
-  // switch to the last listed (latest) administration
-  await rows.last().getByRole("button", { name: /^switch/i }).click();
-  await expect(page.getByTestId("date-options").locator("tbody tr").last()).toContainText(/current/, { timeout: 60_000 });
+  // switch to a listed administration that isn't the current one (the default moves with today's date)
+  const target = rows.filter({ has: page.getByRole("button", { name: /^switch/i }) }).last();
+  const month = (await target.locator("td").first().textContent())!.match(/[A-Z][a-z]+ \d{4}/)![0];
+  await target.getByRole("button", { name: /^switch/i }).click();
+  await expect(page.getByTestId("date-options").locator("tbody tr").filter({ hasText: month })).toContainText(/current/, { timeout: 60_000 });
   await expect(page.getByRole("heading", { name: /Test day/ })).toBeVisible();
-  await expect(card.getByText(/Pace for June 2027/)).toBeVisible();
+  await expect(card.getByText(new RegExp(`Pace for ${month}`))).toBeVisible();
 });
