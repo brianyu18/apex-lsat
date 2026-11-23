@@ -11,7 +11,8 @@ test("onboarding builds a plan and re-planning preserves history", async ({ page
   await expect(page).toHaveURL(/onboarding/);
   await expect(page.getByRole("heading", { name: /your plan starts here/i })).toBeVisible();
 
-  // Target: April 8 2027 (default), goal 175, enter a diagnostic 20/19/18
+  // Target: April 8 2027 (chosen explicitly: the default moves with today's date), goal 175, diagnostic 20/19/18
+  await page.getByLabel("Test date").selectOption("2027-04-08");
   await page.getByLabel("I haven't taken a diagnostic yet", { exact: false }).click(); // turn OFF skip
   await page.getByLabel("LR 1 correct").fill("20");
   await page.getByLabel("LR 2 correct").fill("19");
