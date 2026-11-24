@@ -6,6 +6,8 @@
  * of LSAT Argumentative Writing.
  */
 
+import { MORE_ESSAYS } from "./essays-more";
+
 export interface EssayNote {
   /** a phrase that appears word for word in the paragraph; highlighted when the paragraph is selected */
   quote?: string;
@@ -20,7 +22,8 @@ export interface ModelEssay {
   id: string;
   promptId: string;
   label: string;
-  quality: "strong" | "weak";
+  /** "ok" is a competent essay: organized and clear, but its reasons and its reply to the objection are thin */
+  quality: "strong" | "ok" | "weak";
   /** one line on the approach this essay takes */
   approach: string;
   paragraphs: EssayParagraph[];
@@ -28,7 +31,7 @@ export interface ModelEssay {
   takeaways: string[];
 }
 
-export const MODEL_ESSAYS: ModelEssay[] = [
+const BASE_ESSAYS: ModelEssay[] = [
   {
     id: "four-day-strong",
     promptId: "w-four-day-week",
@@ -201,6 +204,10 @@ export const MODEL_ESSAYS: ModelEssay[] = [
     ],
   },
 ];
+
+/** Display order: each contrast essay follows the strong essay on the same prompt. */
+const ESSAY_ORDER = ["four-day-strong", "four-day-weak", "library-strong", "attendance-strong", "attendance-ok", "practitioners-strong", "cameras-strong"];
+export const MODEL_ESSAYS: ModelEssay[] = [...BASE_ESSAYS, ...MORE_ESSAYS].sort((a, b) => ESSAY_ORDER.indexOf(a.id) - ESSAY_ORDER.indexOf(b.id));
 
 export const FORMAT_FACTS: { label: string; value: string; note: string }[] = [
   { label: "Time", value: "50 minutes", note: "15 minutes of prewriting, then 35 minutes to write. After 5 minutes of prewriting you may move on early." },

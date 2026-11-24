@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import { getAttemptDetail } from "@/lib/data/attempts";
 import { Badge, Card } from "@/components/ui/primitives";
 import { typeLabel } from "@/lib/content/labels";
-import { TRAP_LABELS, type TrapPattern } from "@/lib/content/taxonomy";
+import { ExplainedChoices, PassageBlock } from "@/components/review/explained-question";
 import { ReviewForm } from "@/components/review/review-form";
 import { TutorPanel } from "@/components/tutor/tutor-panel";
 import { Button } from "@/components/ui/button";
@@ -12,20 +12,24 @@ import { saveGist } from "../actions";
 
 export const dynamic = "force-dynamic";
 
-const LETTERS = ["A", "B", "C", "D", "E"] as const;
-
 export default async function ReviewDetail({ params }: { params: Promise<{ attemptId: string }> }) {
   const { attemptId } = await params;
   const d = await getAttemptDetail(attemptId);
   if (!d) notFound();
-  const { attempt, question, miss } = d;
-  const key = question.answer;
+  const { attempt, question, miss, passage } = d;
 
   return (
     <div className="space-y-5">
-      <Link href="/review" className="text-sm text-ink-3 hover:text-ink">
-        ← Review Inbox
-      </Link>
+      <div className="flex flex-wrap items-center justify-between gap-2 text-sm">
+        <Link href="/review" className="text-ink-3 hover:text-ink">
+          ← Review Inbox
+        </Link>
+        {attempt.sessionId && (
+          <Link href={`/review/session/${attempt.sessionId}#q-${question.id}`} className="font-medium text-accent hover:underline">
+            Every question from this session →
+          </Link>
+        )}
+      </div>
       <div className="grid gap-5 lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)]">
         <Card>
           <div className="mb-3 flex flex-wrap items-center gap-2 text-xs">
@@ -59,37 +63,14 @@ export default async function ReviewDetail({ params }: { params: Promise<{ attem
               </form>
             </div>
           )}
+          {passage && (
+            <div className="mb-4">
+              <PassageBlock passage={passage} />
+            </div>
+          )}
           {question.stimulus && <p className="lsat-text whitespace-pre-line">{question.stimulus}</p>}
           <p className="lsat-text mt-4 font-medium">{question.stem}</p>
-          <ol className="mt-3 space-y-2">
-            {LETTERS.map((l) => {
-              const isKey = key === l;
-              const mine = attempt.answer === l;
-              const trap = question.trapPatterns?.[l] as TrapPattern | undefined;
-              return (
-                <li key={l} className={`rounded-md border px-3 py-2 text-sm ${isKey ? "border-ok bg-ok-soft/50" : mine ? "border-bad bg-bad-soft/50" : "border-line"}`}>
-                  <div className="flex items-start gap-2">
-                    <span className="font-semibold">{l}</span>
-                    <div className="min-w-0 flex-1">
-                      <p className="lsat-text text-[15px]">{question.choices?.[l]}</p>
-                      <div className="mt-1 flex flex-wrap gap-1.5">
-                        {isKey && <Badge tone="ok">Correct</Badge>}
-                        {mine && !isKey && <Badge tone="bad">Your pick</Badge>}
-                        {!isKey && trap && <Badge tone="neutral">{TRAP_LABELS[trap] ?? trap}</Badge>}
-                      </div>
-                      <p className="mt-1 text-ink-2">{question.explanations?.[l]}</p>
-                    </div>
-                  </div>
-                </li>
-              );
-            })}
-          </ol>
-          {question.keyTakeaway && (
-            <p className="mt-4 rounded-md bg-accent-soft px-3 py-2 text-sm text-accent">
-              <span className="font-semibold">Takeaway: </span>
-              {question.keyTakeaway}
-            </p>
-          )}
+          <ExplainedChoices question={question} picked={attempt.answer} brPicked={attempt.brAnswer} />
           <div className="mt-4">
             <TutorPanel questionId={question.id} attemptId={attempt.id} outcome={attempt.correct ? "correct" : "missed"} official={question.source === "official_ref"} />
           </div>

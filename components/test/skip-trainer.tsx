@@ -255,7 +255,7 @@ export function SkipTrainer({ goal, bankCount }: { goal: number; bankCount: numb
           <CardTitle>Verdict</CardTitle>
           <p className="mt-1 text-sm text-ink-2">{score.summary}</p>
         </Card>
-        <Card className="p-0">
+        <Card className="overflow-x-auto p-0">
           <table className="w-full text-sm">
             <thead className="text-left text-xs text-ink-3">
               <tr className="border-b border-line">

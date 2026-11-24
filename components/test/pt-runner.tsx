@@ -297,7 +297,7 @@ export function PtRunner({ customTestId, customTitle, customSummary, defaultForm
           <CardTitle>{gapInfo.label}</CardTitle>
           <p className="mt-1 text-sm text-ink-2">{gapInfo.advice}</p>
         </Card>
-        <Card className="p-0">
+        <Card className="overflow-x-auto p-0">
           <table className="w-full text-sm">
             <thead className="text-left text-xs text-ink-3">
               <tr className="border-b border-line">
@@ -334,9 +334,12 @@ export function PtRunner({ customTestId, customTitle, customSummary, defaultForm
             </tbody>
           </table>
         </Card>
-        <div className="flex gap-2">
+        <div className="flex flex-wrap gap-2">
           <Button asChild>
-            <Link href="/review">Review the misses</Link>
+            <Link href={`/review/session/${build.sessionId}`}>Review every question with explanations</Link>
+          </Button>
+          <Button asChild variant="outline">
+            <Link href="/review">Review Inbox (misses)</Link>
           </Button>
           <Button asChild variant="outline">
             <Link href="/analytics">Score trend</Link>

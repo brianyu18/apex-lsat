@@ -38,9 +38,9 @@ test("writing guide: annotated essays, sentence upgrades, rubric, prompt library
 
   // prompt library links into timed practice with the chosen prompt
   const lib = page.getByTestId("prompt-library");
-  await expect(lib.locator("li")).toHaveCount(12);
+  await expect(lib.locator("li")).toHaveCount(23);
   await lib.locator("li").filter({ hasText: "Juror pay" }).getByRole("link").click();
   await expect(page).toHaveURL(/\/test\/writing\?prompt=w-juror-pay/, { timeout: 30_000 });
   await expect(page.getByText("Argumentative Writing · Juror pay")).toBeVisible();
-  await expect(page.getByTestId("prompt-picker").getByRole("link")).toHaveCount(12);
+  await expect(page.getByTestId("prompt-picker").getByRole("link")).toHaveCount(23);
 });

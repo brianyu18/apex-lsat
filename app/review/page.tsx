@@ -1,5 +1,7 @@
 import Link from "next/link";
+import { format } from "date-fns";
 import { inboxItems, reviewCounts } from "@/lib/data/review";
+import { recentReviewableSessions } from "@/lib/data/session-review";
 import { Badge, Card, CardDescription, CardTitle } from "@/components/ui/primitives";
 import { Button } from "@/components/ui/button";
 import { InboxList } from "@/components/review/inbox-list";
@@ -8,7 +10,7 @@ export const metadata = { title: "Review" };
 export const dynamic = "force-dynamic";
 
 export default async function ReviewPage() {
-  const [open, done, counts] = await Promise.all([inboxItems({ reviewed: false }), inboxItems({ reviewed: true, limit: 50 }), reviewCounts()]);
+  const [open, done, counts, sessions] = await Promise.all([inboxItems({ reviewed: false }), inboxItems({ reviewed: true, limit: 50 }), reviewCounts(), recentReviewableSessions(12)]);
   return (
     <div className="space-y-6">
       <header className="flex flex-wrap items-end justify-between gap-4">
@@ -39,6 +41,32 @@ export default async function ReviewPage() {
       ) : (
         <InboxList items={open.map(serialize)} />
       )}
+
+      <Card data-testid="past-sessions">
+        <CardTitle>Past tests, sections and drills</CardTitle>
+        <CardDescription>Open any session to see every question in it, right and wrong, with the written reason for each answer choice.</CardDescription>
+        {sessions.length === 0 ? (
+          <p className="mt-3 text-sm text-ink-2">None yet.</p>
+        ) : (
+          <ul className="mt-3 divide-y divide-line text-sm">
+            {sessions.map((s) => (
+              <li key={s.id} className="flex flex-wrap items-center justify-between gap-2 py-2">
+                <span className="text-ink-2">
+                  {format(s.startedAt, "MMM d, h:mm a")} · {s.label}
+                </span>
+                <span className="flex items-center gap-2">
+                  <Badge tone="neutral">
+                    {s.right}/{s.n} right
+                  </Badge>
+                  <Link href={`/review/session/${s.id}`} className="font-medium text-accent hover:underline">
+                    Review all
+                  </Link>
+                </span>
+              </li>
+            ))}
+          </ul>
+        )}
+      </Card>
 
       {done.length > 0 && (
         <details className="group">

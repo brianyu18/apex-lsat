@@ -266,10 +266,15 @@ export function RcDrillSession() {
               </li>
             ))}
           </ul>
-          <div className="mt-4 flex gap-2">
+          <div className="mt-4 flex flex-wrap gap-2">
             <Button asChild>
               <Link href={lessonId ? `/learn/${lessonId}` : "/drill"}>{lessonId ? "Back to lesson" : "Drill again"}</Link>
             </Button>
+            {sessionId && (
+              <Button asChild variant="outline">
+                <Link href={`/review/session/${sessionId}`}>Review every question</Link>
+              </Button>
+            )}
             <Button asChild variant="outline">
               <Link href="/review">Review Inbox</Link>
             </Button>

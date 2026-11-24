@@ -78,6 +78,11 @@ test("RC timed section: passage pane, submit, blind review, results", async ({ p
   }
   await page.getByRole("button", { name: /finish blind review/i }).click();
   await expect(page.getByText(/^BR gap$/)).toBeVisible({ timeout: 30_000 });
+  // full review of an RC section shows each passage with its questions and explanations
+  await page.getByRole("link", { name: /review every question with explanations/i }).click();
+  await expect(page.getByTestId("review-passage").first()).toBeVisible({ timeout: 30_000 });
+  expect(await page.getByTestId("review-passage").count()).toBeGreaterThanOrEqual(4);
+  await expect(page.getByTestId("no-explanation")).toHaveCount(0);
   await page.goto("/test");
   await expect(page.getByText(/RC · \d+ Q/)).toBeVisible();
 });

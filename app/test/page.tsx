@@ -68,6 +68,9 @@ export default async function TestPage() {
                   <Badge tone="neutral">timed {s.scoreRaw}/{s.nQuestions}</Badge>
                   {s.brRaw != null && <Badge tone="info">BR {s.brRaw}/{s.nQuestions}</Badge>}
                   {s.scoreScaled != null && <Badge tone="accent">≈ {s.scoreScaled}</Badge>}
+                  <Link href={`/review/session/${s.id}`} className="font-medium text-accent hover:underline">
+                    Review all
+                  </Link>
                 </span>
               </li>
             ))}

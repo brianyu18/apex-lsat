@@ -225,7 +225,7 @@ export function SectionRunner({ bankCount, kind = "LR", lessonId, presetN, prese
 
   /* ---------------- results ---------------- */
   if (phase === "results" && results) {
-    return <SectionResults results={results} qs={qs} answers={answers} timedRaw={timedRaw ?? results.timedRaw} durationSec={durationSec} />;
+    return <SectionResults results={results} qs={qs} answers={answers} timedRaw={timedRaw ?? results.timedRaw} durationSec={durationSec} sessionId={sessionId} />;
   }
   return null;
 }
@@ -254,7 +254,7 @@ const OUTCOME: Record<string, { label: string; tone: "ok" | "warn" | "bad" | "ne
   unreviewed_miss: { label: "Blind spot", tone: "bad" },
 };
 
-function SectionResults({ results, qs, answers, durationSec }: { results: ResultsPayload; qs: Q[]; answers: Record<string, Answer>; timedRaw: number; durationSec: number }) {
+function SectionResults({ results, qs, answers, durationSec, sessionId }: { results: ResultsPayload; qs: Q[]; answers: Record<string, Answer>; timedRaw: number; durationSec: number; sessionId: string | null }) {
   const gapInfo = interpretBrGap(results.brScaled - results.timedScaled);
   const secs = qs.map((q) => answers[q.id]?.seconds ?? 0);
   const curve = useMemo(() => pacingCurve(secs, durationSec), [secs, durationSec]);
@@ -296,7 +296,7 @@ function SectionResults({ results, qs, answers, durationSec }: { results: Result
         </div>
       </Card>
 
-      <Card className="p-0">
+      <Card className="overflow-x-auto p-0">
         <table className="w-full text-sm">
           <thead className="text-left text-xs text-ink-3">
             <tr className="border-b border-line">
@@ -316,7 +316,15 @@ function SectionResults({ results, qs, answers, durationSec }: { results: Result
               const o = OUTCOME[it.outcome] ?? { label: it.outcome, tone: "neutral" as const };
               return (
                 <tr key={it.questionId} className="border-b border-line last:border-b-0">
-                  <td className="px-3 py-2 tabular-nums text-ink-3">{i + 1}</td>
+                  <td className="px-3 py-2 tabular-nums text-ink-3">
+                    {sessionId ? (
+                      <Link href={`/review/session/${sessionId}#q-${it.questionId}`} className="text-accent underline" aria-label={`Explanation for question ${i + 1}`}>
+                        {i + 1}
+                      </Link>
+                    ) : (
+                      i + 1
+                    )}
+                  </td>
                   <td className="px-3 py-2">{q ? typeLabel(q.type) : ""}</td>
                   <td className="px-3 py-2">L{q?.difficulty}</td>
                   <td className={cn("px-3 py-2", it.timedCorrect ? "text-ok" : "text-bad")}>
@@ -335,9 +343,14 @@ function SectionResults({ results, qs, answers, durationSec }: { results: Result
           </tbody>
         </table>
       </Card>
-      <div className="flex gap-2">
-        <Button asChild>
-          <Link href="/review">Review the misses</Link>
+      <div className="flex flex-wrap gap-2">
+        {sessionId && (
+          <Button asChild>
+            <Link href={`/review/session/${sessionId}`}>Review every question with explanations</Link>
+          </Button>
+        )}
+        <Button asChild variant="outline">
+          <Link href="/review">Review Inbox (misses)</Link>
         </Button>
         <Button asChild variant="outline">
           <Link href="/test">Another section</Link>

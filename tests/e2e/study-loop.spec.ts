@@ -19,6 +19,11 @@ async function answerOne(page: Page, letter: "A" | "B" | "C" | "D" | "E", confid
   await page.getByRole("button", { name: /check answer/i }).click();
   const explanation = page.getByRole("region", { name: "Explanation" });
   await expect(explanation).toBeVisible({ timeout: 20_000 });
+  // right or wrong, the written reason for all five choices is on screen without another click
+  const reasons = explanation.locator("ol > li p");
+  await expect(reasons).toHaveCount(5);
+  for (const t of await reasons.allTextContents()) expect(t.trim().length).toBeGreaterThan(20);
+  await expect(explanation.getByTestId("no-explanation")).toHaveCount(0);
   const correct = await explanation.getByText(/^Correct$/).first().isVisible().catch(() => false);
   return correct;
 }
@@ -56,6 +61,10 @@ test("drill session: 3 questions, miss goes to inbox, read-lock on Next after a 
   await expect(page.getByText(/accuracy/i).first()).toBeVisible({ timeout: 20_000 });
   // summary table has 3 rows
   await expect(page.locator("tbody tr")).toHaveCount(3);
+  // the whole session can be reviewed, right answers included
+  await page.getByRole("link", { name: /review every question/i }).click();
+  await expect(page.getByTestId("session-review").locator("> li")).toHaveCount(3, { timeout: 30_000 });
+  await expect(page.getByTestId("session-review").getByText(/^Your pick$/)).toHaveCount(3);
   if (sawMiss) {
     await page.goto("/review");
     await expect(page.getByText(/to review/)).not.toContainText("0 to review");

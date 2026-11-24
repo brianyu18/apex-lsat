@@ -43,7 +43,7 @@ export function QuestionCard({
   const [confidence, setConfidence] = useState<Confidence | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [submitting, setSubmitting] = useState(false);
-  const [explanationOpened, setExplanationOpened] = useState(false);
+  const [explanationOpened, setExplanationOpened] = useState(true); // shown after every answer, right or wrong; the reader may fold it away
   const [elapsed, setElapsed] = useState(0);
   const [readLock, setReadLock] = useState(0); // seconds left before Next unlocks after a miss
   const start = useRef<number>(Date.now());
@@ -253,12 +253,17 @@ export function QuestionCard({
 
           <details
             className="group mt-4"
-            open={!!missed || !!result.guessFlag || explanationOpened}
+            open={explanationOpened}
             onToggle={(e) => setExplanationOpened((e.target as HTMLDetailsElement).open)}
           >
             <summary className="focus-ring cursor-pointer list-none text-sm font-medium text-accent">
-              {explanationOpened || missed || result.guessFlag ? "Explanation" : "Show explanation"}
+              {explanationOpened ? "Why each answer is right or wrong · hide" : "Show explanation"}
             </summary>
+            {!LETTERS.some((l) => result.explanations?.[l]?.trim()) && (
+              <p className="mt-3 rounded-md bg-bg-sunken px-3 py-2 text-sm text-ink-2" data-testid="no-explanation">
+                No written explanation was supplied with this question (it came from an uploaded test). Add an <code>explanations</code> entry for it in the test file and upload again, or ask the tutor below.
+              </p>
+            )}
             <ol className="mt-3 space-y-3">
               {LETTERS.map((l) => {
                 const isKey = key === l;
@@ -270,7 +275,7 @@ export function QuestionCard({
                       {isKey ? <Badge tone="ok">Correct</Badge> : trap ? <Badge tone="neutral">{TRAP_LABELS[trap] ?? trap}</Badge> : null}
                       {selected === l && !isKey && <Badge tone="bad">Your pick</Badge>}
                     </div>
-                    <p className="text-ink-2">{result.explanations?.[l]}</p>
+                    <p className="text-ink-2">{result.explanations?.[l]?.trim() || (isKey ? "This is the credited answer. No written explanation was supplied." : "No written explanation was supplied for this choice.")}</p>
                   </li>
                 );
               })}

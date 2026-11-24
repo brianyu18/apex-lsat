@@ -4,7 +4,7 @@ import { pickPrompt, WRITE_SEC, WRITING_PROMPTS } from "@/lib/writing/prompts";
 
 describe("writing prompts", () => {
   it("are well formed and unique", () => {
-    expect(WRITING_PROMPTS.length).toBeGreaterThanOrEqual(12);
+    expect(WRITING_PROMPTS.length).toBeGreaterThanOrEqual(23);
     expect(new Set(WRITING_PROMPTS.map((p) => p.id)).size).toBe(WRITING_PROMPTS.length);
     for (const p of WRITING_PROMPTS) {
       expect(p.perspectives.length, p.id).toBeGreaterThanOrEqual(3);
@@ -34,7 +34,8 @@ describe("model essays", () => {
   });
   it("strong essays are a realistic 35-minute length with five paragraphs; the weak one is short", () => {
     const strong = MODEL_ESSAYS.filter((e) => e.quality === "strong");
-    expect(strong.length).toBeGreaterThanOrEqual(2);
+    expect(strong.length).toBeGreaterThanOrEqual(5);
+    expect(new Set(MODEL_ESSAYS.map((e) => e.id)).size).toBe(MODEL_ESSAYS.length);
     for (const e of strong) {
       expect(e.paragraphs.length, e.id).toBe(5);
       expect(essayWordCount(e), e.id).toBeGreaterThanOrEqual(400);
@@ -44,6 +45,17 @@ describe("model essays", () => {
     }
     const weak = MODEL_ESSAYS.find((e) => e.quality === "weak")!;
     expect(essayWordCount(weak)).toBeLessThan(250);
+    const ok = MODEL_ESSAYS.find((e) => e.quality === "ok")!;
+    expect(ok.paragraphs.length).toBe(5);
+    expect(essayWordCount(ok)).toBeLessThan(300);
+    // each contrast essay sits directly after the strong essay on the same prompt
+    for (const e of [weak, ok]) {
+      const prev = MODEL_ESSAYS[MODEL_ESSAYS.indexOf(e) - 1];
+      expect(prev.quality, e.id).toBe("strong");
+      expect(prev.promptId, e.id).toBe(e.promptId);
+    }
+    // enough prompts without a model essay remain for unseen practice
+    expect(WRITING_PROMPTS.filter((p) => !p.model).length).toBeGreaterThanOrEqual(18);
   });
   it("word counts quoted in the notes are close to the real counts", () => {
     for (const e of MODEL_ESSAYS) {

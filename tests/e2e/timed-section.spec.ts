@@ -48,9 +48,26 @@ test("timed section: flag, submit, blind review, results with gap", async ({ pag
   await expect(page.locator("tbody tr")).toHaveCount(24);
   await expect(page.getByRole("img", { name: /pacing chart/i })).toBeVisible();
 
+  // Every question, right or wrong, can be reviewed with its written explanations
+  await page.getByRole("link", { name: /review every question with explanations/i }).click();
+  const list = page.getByTestId("session-review");
+  await expect(list.locator("> li")).toHaveCount(24, { timeout: 30_000 });
+  await expect(page.getByTestId("no-explanation")).toHaveCount(0);
+  await expect(list.locator("> li").first().locator("ol > li")).toHaveCount(5);
+  await expect(list.getByText("Left blank")).toHaveCount(1);
+  const filters = page.getByTestId("session-review-filters");
+  const right = Number((await filters.getByRole("link", { name: /^Right/ }).textContent())!.match(/(\d+)$/)![1]);
+  const missed = Number((await filters.getByRole("link", { name: /^Missed or blank/ }).textContent())!.match(/(\d+)$/)![1]);
+  expect(right + missed).toBe(24);
+  await filters.getByRole("link", { name: /^Missed or blank/ }).click();
+  await expect(list.locator("> li")).toHaveCount(missed);
+  await filters.getByRole("link", { name: /^Flagged or guessed/ }).click();
+  await expect(list.getByText("Flagged", { exact: true })).toHaveCount(3);
+
   // The section shows up on the Test hub and misses are in the inbox
   await page.goto("/test");
   await expect(page.getByText(/timed \d+\/24/)).toBeVisible();
   await page.goto("/review");
   await expect(page.getByText(/\d+ to review/)).toBeVisible();
+  await expect(page.getByTestId("past-sessions").getByRole("link", { name: "Review all" })).toHaveCount(1);
 });

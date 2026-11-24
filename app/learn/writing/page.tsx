@@ -21,6 +21,7 @@ const SECTIONS = [
 
 export default function WritingGuidePage() {
   const essays = MODEL_ESSAYS.map((essay) => ({ essay, words: essayWordCount(essay), prompt: WRITING_PROMPTS.find((p) => p.id === essay.promptId)! }));
+  const strongCount = ["No", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight"][essays.filter((e) => e.essay.quality === "strong").length] ?? "Several";
   return (
     <div className="mx-auto max-w-5xl space-y-10">
       <header>
@@ -30,7 +31,7 @@ export default function WritingGuidePage() {
         <p className="mt-3 text-sm font-medium uppercase tracking-wider text-accent">Learn</p>
         <h1 className="mt-1 text-3xl font-semibold tracking-tight">Argumentative Writing guide</h1>
         <p className="mt-1 max-w-3xl text-ink-2">
-          What the essay is, what admissions readers do with it, a structure you can hit every time, two strong sample essays taken apart paragraph by paragraph, {WRITING_PROMPTS.length}{" "}
+          What the essay is, what admissions readers do with it, a structure you can hit every time, {essays.length} sample essays taken apart paragraph by paragraph, {WRITING_PROMPTS.length}{" "}
           practice prompts, and a plan to get ready.
         </p>
         <div className="mt-4 flex flex-wrap gap-2">
@@ -148,8 +149,8 @@ export default function WritingGuidePage() {
           Sample essays, taken apart
         </h2>
         <p className="max-w-3xl text-[15px] text-ink-2">
-          Two strong essays and one weak one. Click a paragraph to see what it is doing and which phrases do the work. The strong essays are written to the standard of a careful 35 minutes, not
-          a polished draft.
+          {strongCount} strong essays, each built a different way, plus a competent one and a weak one for contrast. Click a paragraph to see what it is doing and which phrases do the work. The
+          strong essays are written to the standard of a careful 35 minutes, not a polished draft.
         </p>
         <Card>
           <EssayGallery essays={essays} />
@@ -177,7 +178,7 @@ export default function WritingGuidePage() {
             <li key={p.id} className="flex flex-col gap-2 rounded-md border border-line p-4">
               <div className="flex flex-wrap items-center gap-2">
                 <Badge tone="neutral">{p.area}</Badge>
-                {p.model && <Badge tone="info">Sample essay above</Badge>}
+                {p.model && <Badge tone="info">Has a sample essay</Badge>}
                 <Badge tone="neutral">{p.perspectives.length} perspectives</Badge>
               </div>
               <p className="font-semibold">{p.title}</p>

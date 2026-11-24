@@ -256,14 +256,14 @@ export function DrillSession() {
               </div>
             </Card>
           )}
-          <SessionSummary rows={summary} />
+          <SessionSummary rows={summary} sessionId={sessionId} />
         </>
       )}
     </div>
   );
 }
 
-function SessionSummary({ rows }: { rows: SessionRow[] }) {
+function SessionSummary({ rows, sessionId }: { rows: SessionRow[]; sessionId: string | null }) {
   const counted = rows.filter((r) => !r.guessFlag && r.correct != null);
   const correct = counted.filter((r) => r.correct).length;
   const acc = counted.length ? Math.round((correct / counted.length) * 100) : 0;
@@ -277,7 +277,7 @@ function SessionSummary({ rows }: { rows: SessionRow[] }) {
         <Stat label="Avg time" value={`${avg}s`} sub="per question" />
         <Stat label="To review" value={String(missed.length + rows.filter((r) => r.correct && r.guessFlag).length)} sub="in your inbox" />
       </div>
-      <Card className="p-0">
+      <Card className="overflow-x-auto p-0">
         <table className="w-full text-sm">
           <thead className="text-left text-xs text-ink-3">
             <tr className="border-b border-line">
@@ -308,10 +308,15 @@ function SessionSummary({ rows }: { rows: SessionRow[] }) {
           </tbody>
         </table>
       </Card>
-      <div className="flex gap-2">
+      <div className="flex flex-wrap gap-2">
         <Button asChild>
           <Link href="/drill">Drill again</Link>
         </Button>
+        {sessionId && (
+          <Button asChild variant="outline">
+            <Link href={`/review/session/${sessionId}`}>Review every question</Link>
+          </Button>
+        )}
         <Button asChild variant="outline">
           <Link href="/review">Open Review Inbox</Link>
         </Button>
