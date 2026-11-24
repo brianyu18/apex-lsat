@@ -5,9 +5,13 @@
   "group": "lr",
   "order": 10,
   "section": "LR",
-  "types": ["fill_in_blank"],
-  "lessonIds": ["u2/fill-in-the-blank"],
-  "minutes": 5,
+  "types": [
+    "fill_in_blank"
+  ],
+  "lessonIds": [
+    "u2/fill-in-the-blank"
+  ],
+  "minutes": 13,
   "slides": [
     {
       "kind": "idea",
@@ -31,15 +35,28 @@
       "kind": "method",
       "title": "Method",
       "steps": [
-        { "label": "Read the signal", "do": "The word before the blank: therefore (conclusion), because (premise), but (contrast), for example (illustration)." },
-        { "label": "Trace the direction", "do": "Where is the reasoning heading? Often it rejects a common view stated at the start." },
-        { "label": "Predict", "do": "Write the missing sentence in your own words, no stronger than the evidence." },
-        { "label": "Match and check strength", "do": "Pick the choice that matches; reject any that go further than the evidence." }
+        {
+          "label": "Read the signal",
+          "do": "The word before the blank: therefore (conclusion), because (premise), but (contrast), for example (illustration)."
+        },
+        {
+          "label": "Trace the direction",
+          "do": "Where is the reasoning heading? Often it rejects a common view stated at the start."
+        },
+        {
+          "label": "Predict",
+          "do": "Write the missing sentence in your own words, no stronger than the evidence."
+        },
+        {
+          "label": "Match and check strength",
+          "do": "Pick the choice that matches; reject any that go further than the evidence."
+        }
       ]
     },
     {
       "kind": "worked",
-      "title": "Worked example",
+      "level": 1,
+      "title": "Level 1: the method, step by step",
       "stimulus": "Many people assume that a restaurant with long lines outside must serve excellent food. But lines also form when a restaurant is understaffed or has few tables. A long line, then, ______.",
       "stem": "Which one of the following most logically completes the argument?",
       "choices": {
@@ -51,9 +68,20 @@
       },
       "answer": "A",
       "steps": [
-        { "label": "Signal", "note": "“then” before the blank: it’s the conclusion.", "highlight": "A long line, then" },
-        { "label": "Direction", "note": "The passage sets up a common belief (long line means great food) and then gives other causes of lines.", "highlight": "But lines also form when a restaurant is understaffed or has few tables." },
-        { "label": "Predict", "note": "A long line isn’t proof of great food. No more than that." }
+        {
+          "label": "Signal",
+          "note": "“then” before the blank: it’s the conclusion.",
+          "highlight": "A long line, then"
+        },
+        {
+          "label": "Direction",
+          "note": "The passage sets up a common belief (long line means great food) and then gives other causes of lines.",
+          "highlight": "But lines also form when a restaurant is understaffed or has few tables."
+        },
+        {
+          "label": "Predict",
+          "note": "A long line isn’t proof of great food. No more than that."
+        }
       ],
       "why": {
         "A": "Correct. It rejects the inference without overreaching.",
@@ -63,7 +91,146 @@
         "E": "Extreme: a line may still tell diners something."
       }
     },
-    { "kind": "practice", "title": "Your turn", "count": 3 },
+    {
+      "kind": "worked",
+      "level": 2,
+      "title": "Level 2: a correlation with a rival explanation",
+      "stimulus": "Over the past decade, towns that built public libraries have seen higher high school graduation rates than towns that did not. Some commentators conclude that libraries raise graduation rates. However, towns that choose to build libraries tend to be wealthier, and wealthier towns have long had higher graduation rates for many reasons unrelated to libraries. Thus, the comparison of graduation rates ______.",
+      "stem": "Which one of the following most logically completes the argument?",
+      "choices": {
+        "A": "shows that libraries have no effect at all on whether students in a town go on to graduate",
+        "B": "proves that a town's wealth alone determines whether the students in that town graduate",
+        "C": "suggests that poorer towns should build new libraries in order to raise their graduation rates",
+        "D": "is less reliable when it is made for wealthier towns than when it is made for poorer towns",
+        "E": "does not establish that building a library is what raises a town's graduation rate"
+      },
+      "answer": "E",
+      "steps": [
+        {
+          "label": "Read the signal",
+          "note": "'Thus' sits just before the blank, so the blank is the conclusion.",
+          "highlight": "Thus, the comparison of graduation rates"
+        },
+        {
+          "label": "Trace the direction",
+          "note": "The passage states a common view, then 'However' gives a rival explanation: wealth.",
+          "highlight": "However, towns that choose to build libraries tend to be wealthier"
+        },
+        {
+          "label": "Predict",
+          "note": "The comparison cannot tell us libraries are the cause. No more than that."
+        },
+        {
+          "label": "Match and check strength",
+          "note": "A and B overreach in opposite ways. C adds a recommendation. D adds a comparison between town types."
+        }
+      ],
+      "why": {
+        "A": "Too far the other way. A rival explanation does not show libraries have no effect.",
+        "B": "Too strong. 'Proves' and 'alone' claim far more than the passage gives.",
+        "C": "A new idea. The passage never makes a recommendation.",
+        "D": "A comparison the passage never makes between wealthier and poorer towns.",
+        "E": "Correct. It rejects the cause claim and stops there."
+      }
+    },
+    {
+      "kind": "worked",
+      "level": 3,
+      "title": "Level 3: evidence that fails to support, not evidence against",
+      "stimulus": "The owners of the Tern Hotel say that the new online reservation system they installed in the spring explains why July occupancy at the Tern was ten percentage points higher than in the previous July. But the city held a sailing festival this July, which drew thousands of visitors who needed rooms. Every other hotel in the city, none of which has a new reservation system, also gained at least ten percentage points of occupancy over the previous July. Thus, the Tern's July gain ______.",
+      "stem": "Which one of the following most logically completes the argument?",
+      "choices": {
+        "A": "shows that the new reservation system did not raise the Tern's occupancy",
+        "B": "was smaller than it would have been had the Tern not installed the new reservation system",
+        "C": "gives no reason to think the new reservation system raised the Tern's occupancy",
+        "D": "was caused entirely by the sailing festival and its thousands of visitors",
+        "E": "is evidence that festivals raise occupancy more at hotels with new reservation systems"
+      },
+      "answer": "C",
+      "steps": [
+        {
+          "label": "Read the signal",
+          "note": "'Thus' sits just before the blank, so the blank is the conclusion.",
+          "highlight": "Thus, the Tern's July gain"
+        },
+        {
+          "label": "Trace the direction",
+          "note": "The owners credit their system. 'But' brings a rival cause, and other hotels without the system gained at least as much.",
+          "highlight": "Every other hotel in the city, none of which has a new reservation system"
+        },
+        {
+          "label": "Predict",
+          "note": "The gain gives the owners no support for their claim. It does not prove the system did nothing."
+        },
+        {
+          "label": "Name the two traps",
+          "note": "A says 'shows ... did not', and D says 'entirely'. Each turns 'no evidence it helped' into 'it did not help'. A small system effect is still possible."
+        },
+        {
+          "label": "Confirm",
+          "note": "B claims the system helped, the opposite of the direction. E brings in a comparison the passage never makes."
+        }
+      ],
+      "why": {
+        "A": "Tempting but too strong. 'Shows that it did not' claims proof of no effect; the passage only removes the support for the owners' claim.",
+        "B": "The wrong direction. It asserts that the system helped, which the passage gives no reason to believe.",
+        "C": "Correct. The gain was matched or beaten by hotels without the system, so it gives no support to the owners' claim, and it says no more.",
+        "D": "Tempting but 'entirely' overreaches. The festival is a strong rival cause, but a small effect from the system is not ruled out.",
+        "E": "A new comparison. No hotel's gain is compared by whether it has a new system."
+      }
+    },
+    {
+      "kind": "worked",
+      "level": 4,
+      "title": "Level 4: a conditional chain ending in a quantifier",
+      "stimulus": "At the Kestrel Shipyard, a worker is certified to operate the harbor crane only if that worker has completed the advanced safety course. No one who has completed the advanced safety course is assigned to the night shift. The Delta crew, which assembles hull sections, is assigned entirely to the night shift, and several of its members are welders. The shipyard also employs welders on its day shift. Its workers are divided into several crews, and each crew works one fixed shift. Crane certification is issued once a year. Hence, ______.",
+      "stem": "Which one of the following most logically completes the argument?",
+      "choices": {
+        "A": "no welder at the shipyard is certified to operate the harbor crane",
+        "B": "every worker at the shipyard who is not certified to operate the harbor crane is assigned to the night shift",
+        "C": "some welders on the Delta crew have completed the advanced safety course",
+        "D": "some welders at the shipyard are not certified to operate the harbor crane",
+        "E": "every worker who has completed the advanced safety course is certified to operate the harbor crane"
+      },
+      "answer": "D",
+      "steps": [
+        {
+          "label": "Read the signal",
+          "note": "'Hence' sits just before the blank, so the blank is a conclusion that follows from the facts.",
+          "highlight": "several of its members are welders"
+        },
+        {
+          "label": "Trace the chain",
+          "note": "Certified means advanced safety course. Course means not on night shift. So night shift means not certified."
+        },
+        {
+          "label": "Apply it to Delta",
+          "note": "The Delta crew is entirely on nights, so no Delta member is certified. Several Delta members are welders.",
+          "highlight": "several of its members are welders"
+        },
+        {
+          "label": "Predict",
+          "note": "At least some welders are not certified. 'Some' is as far as the facts reach."
+        },
+        {
+          "label": "Name the trap",
+          "note": "A is the nearest twin. The single word 'no' kills it: the day-shift welders could be certified. C contradicts the chain. B and E read arrows backwards.",
+          "highlight": "The shipyard also employs welders on its day shift."
+        }
+      ],
+      "why": {
+        "A": "Overreach. The facts cover only the Delta welders; the day-shift welders could be certified. 'No' claims too much.",
+        "B": "Reversed. Night-shift workers are not certified, but the facts do not say that every uncertified worker is on nights.",
+        "C": "Contradicts the chain. Delta is entirely on the night shift, and no one on nights has completed the course.",
+        "D": "Correct. Several Delta welders are on nights, so none has completed the course and none is certified. That gives at least some uncertified welders.",
+        "E": "Reversed. The course is needed for certification, but the facts do not say the course is enough."
+      }
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn",
+      "count": 3
+    },
     {
       "kind": "card",
       "title": "Cheat card",

@@ -13,7 +13,7 @@
     "u1/conditional-4",
     "u1/quantifiers-1"
   ],
-  "minutes": 9,
+  "minutes": 17,
   "slides": [
     {
       "kind": "idea",
@@ -109,7 +109,50 @@
     },
     {
       "kind": "worked",
-      "title": "Chain, then apply the contrapositive",
+      "level": 1,
+      "title": "Level 1: one arrow and its contrapositive",
+      "stimulus": "Every visitor to the Oriel Museum who carries a backpack into the building leaves it at the coat check. The coat check is staffed by two attendants and is open from nine until five. Today Marcus toured the museum, and he left nothing at the coat check.",
+      "stem": "If the statements above are true, which one of the following must also be true?",
+      "choices": {
+        "A": "Marcus toured the museum while the coat check was closed.",
+        "B": "Marcus carried a bag other than a backpack, which he kept with him on the tour.",
+        "C": "Marcus did not carry a backpack into the building.",
+        "D": "Marcus is the only visitor today who left nothing at the coat check.",
+        "E": "Every visitor who leaves something at the coat check carried a backpack into the building."
+      },
+      "answer": "C",
+      "steps": [
+        {
+          "label": "Translate the rule",
+          "note": "Backpack → leaves it at the coat check.",
+          "highlight": "Every visitor to the Oriel Museum who carries a backpack into the building leaves it at the coat check."
+        },
+        {
+          "label": "Take the contrapositive",
+          "note": "Flip and negate both sides: did not leave it at the coat check → no backpack."
+        },
+        {
+          "label": "Apply the fact",
+          "note": "Marcus left nothing at the coat check. That triggers the contrapositive.",
+          "highlight": "he left nothing at the coat check"
+        },
+        {
+          "label": "Match",
+          "note": "He had no backpack. Check that the other choices are guesses, or are the reversal."
+        }
+      ],
+      "why": {
+        "A": "The opening hours are never tied to Marcus's visit. This is out of scope.",
+        "B": "Nothing is said about other bags. This adds a fact the text does not give.",
+        "C": "Correct. Not leaving a backpack at the coat check means he had none with him. This is the contrapositive.",
+        "D": "Other visitors are never mentioned, so “only” is unsupported.",
+        "E": "Reversal. Backpack carriers leave them at the coat check; that does not say everyone who leaves something there had a backpack."
+      }
+    },
+    {
+      "kind": "worked",
+      "level": 2,
+      "title": "Level 2: Chain, then apply the contrapositive",
       "stimulus": "Every member of the Harlow choir who sings a solo at the spring concert must attend the Thursday rehearsal. No one who attends the Thursday rehearsal can work the Thursday evening shift at the bakery. Priya works the Thursday evening shift at the bakery.",
       "stem": "If the statements above are true, which one of the following must also be true?",
       "choices": {
@@ -147,6 +190,97 @@
         "C": "Reversal: soloists must attend, but attending does not make someone a soloist.",
         "D": "Too strong. Only the Thursday rehearsal is ruled out.",
         "E": "Nothing says any choir member works at the bakery. Priya may not be a member."
+      }
+    },
+    {
+      "kind": "worked",
+      "level": 3,
+      "title": "Level 3: a missing link hiding in a contrapositive",
+      "stimulus": "Park permits: Any event held in Mill Park must have a county permit. The permit office has a firm practice: it issues a permit only to organizers who have submitted a noise plan describing how amplified sound will be limited. The harvest fair, a one-day event planned for the second weekend of June, is scheduled for Mill Park. Its organizers did not submit anything to the permit office by the March deadline. Hence the harvest fair will not be held in Mill Park.",
+      "stem": "Which one of the following, if assumed, enables the argument's conclusion to be properly drawn?",
+      "choices": {
+        "A": "Organizers who have submitted a noise plan submitted it by the March deadline.",
+        "B": "Organizers who submitted something to the permit office by the March deadline submitted a noise plan.",
+        "C": "A noise plan is the only document the permit office requires before it issues a permit.",
+        "D": "An organizer who submits a noise plan by the March deadline is always granted a permit.",
+        "E": "The harvest fair's organizers have never before held an event in Mill Park."
+      },
+      "answer": "A",
+      "steps": [
+        {
+          "label": "Translate the premises",
+          "note": "Held in Mill Park → permit → noise plan submitted. Chain: held → permit → noise plan.",
+          "highlight": "it issues a permit only to organizers who have submitted a noise plan"
+        },
+        {
+          "label": "Contrapositive of the chain",
+          "note": "No noise plan → no permit → not held. To reach “not held” we need “no noise plan”."
+        },
+        {
+          "label": "Find the gap",
+          "note": "The evidence is “nothing submitted by the March deadline”. The conclusion needs “no noise plan at all”. Those are not the same.",
+          "highlight": "did not submit anything to the permit office by the March deadline"
+        },
+        {
+          "label": "Predict the bridge",
+          "note": "We need: any noise plan must have come in by the deadline. Then no submission by the deadline means no noise plan."
+        },
+        {
+          "label": "Name the trap",
+          "note": "B and D both mention the deadline and the plan, but run the arrow the wrong way. They tell us about those who did submit, and we need to know about those who did not."
+        }
+      ],
+      "why": {
+        "A": "Correct. If every noise plan came in by the deadline, then nothing by the deadline means no noise plan, so no permit, so no event.",
+        "B": "Reversed. It says that submitters met the plan requirement. It says nothing about organizers who submitted nothing.",
+        "C": "This restates how permits depend on noise plans. It does not connect the March deadline to the noise plan.",
+        "D": "Wrong group and wrong direction: it tells us what happens to organizers who did submit.",
+        "E": "Past events are out of scope and do not touch the permit or the noise plan."
+      }
+    },
+    {
+      "kind": "worked",
+      "level": 4,
+      "title": "Level 4: a chain mixed with most and some",
+      "stimulus": "The organizers of the regional conference have released these facts about the registered attendees. Most of the attendees are accountants. Every accountant attending has completed the ethics module, and no one who has completed the ethics module is eligible for the free workshop lottery. Everyone who works at the host firm is eligible for the free workshop lottery. Finally, some of the attendees work at the host firm. The ethics module is offered online and takes about two hours, and the lottery awards places in a free workshop on the final day.",
+      "stem": "If the statements above are true, which one of the following must also be true?",
+      "choices": {
+        "A": "Every attendee who is not an accountant works at the host firm.",
+        "B": "Some attendees who have not completed the ethics module are not eligible for the free workshop lottery.",
+        "C": "Everyone who has completed the ethics module is an accountant attending the conference.",
+        "D": "Some attendees who are eligible for the free workshop lottery have not completed the ethics module.",
+        "E": "Every attendee who is not eligible for the free workshop lottery is an accountant."
+      },
+      "answer": "D",
+      "steps": [
+        {
+          "label": "Translate each statement",
+          "note": "Accountant → ethics module. Ethics module → not lottery. Host firm → lottery. “Some attendees” work at the host firm. “Most” are accountants."
+        },
+        {
+          "label": "Chain and flip",
+          "note": "Contrapositive of the second arrow: lottery → no ethics module. So host firm → lottery → no ethics module → not an accountant."
+        },
+        {
+          "label": "Use the “some”",
+          "note": "Some attendees work at the host firm. Each of them is in the lottery and has not done the module. So some lottery-eligible attendees lack the module.",
+          "highlight": "some of the attendees work at the host firm"
+        },
+        {
+          "label": "Name the trap",
+          "note": "B is almost the same as D. It says the attendees without the module are “not eligible”. That is the opposite of what the chain gives for the host-firm group."
+        },
+        {
+          "label": "The word that kills B",
+          "note": "The chain proves “eligible”, never “not eligible”, for anyone without the module. A, C and E are reversals or extensions of “some” and “most” into “every”."
+        }
+      ],
+      "why": {
+        "A": "Too strong. Non-accountants might include people who are neither accountants nor at the host firm. “Every” is not supported.",
+        "B": "The word “not” kills it. The only attendees we can place without the module are in the lottery. Nothing forces any without the module to be outside it.",
+        "C": "Reversal. Accountants all took the module, but others may have taken it too, and some may not be attending.",
+        "D": "Correct. A host-firm attendee is in the lottery, so did not complete the module. “Some” is all we need.",
+        "E": "Reversal. Accountants are not eligible, but the argument does not say that everyone not eligible is an accountant."
       }
     },
     {

@@ -5,9 +5,14 @@
   "group": "lr",
   "order": 16,
   "section": "LR",
-  "types": ["point_at_issue", "point_of_agreement"],
-  "lessonIds": ["u2/point-at-issue"],
-  "minutes": 6,
+  "types": [
+    "point_at_issue",
+    "point_of_agreement"
+  ],
+  "lessonIds": [
+    "u2/point-at-issue"
+  ],
+  "minutes": 14,
   "slides": [
     {
       "kind": "idea",
@@ -32,15 +37,66 @@
       "kind": "method",
       "title": "Method",
       "steps": [
-        { "label": "Speaker one’s claim", "do": "What is the first speaker’s conclusion?" },
-        { "label": "Speaker two’s response", "do": "What does the second speaker reject, and what does she concede? Concessions are agreement points." },
-        { "label": "Predict", "do": "Disagreement is usually over speaker one’s conclusion or a premise speaker two attacks." },
-        { "label": "Two-speaker check", "do": "For every choice, write a yes, no or silent for each speaker. Keep only yes/no pairs (or yes/yes for agreement)." }
+        {
+          "label": "Speaker one’s claim",
+          "do": "What is the first speaker’s conclusion?"
+        },
+        {
+          "label": "Speaker two’s response",
+          "do": "What does the second speaker reject, and what does she concede? Concessions are agreement points."
+        },
+        {
+          "label": "Predict",
+          "do": "Disagreement is usually over speaker one’s conclusion or a premise speaker two attacks."
+        },
+        {
+          "label": "Two-speaker check",
+          "do": "For every choice, write a yes, no or silent for each speaker. Keep only yes/no pairs (or yes/yes for agreement)."
+        }
       ]
     },
     {
       "kind": "worked",
-      "title": "Worked example",
+      "level": 1,
+      "title": "Level 1: a plain yes against a no",
+      "stimulus": "Greta: The town library should open on Sundays. Many families can visit only on weekends, and Saturday hours are not enough for them.\nPavel: Sunday hours would cost more than the library can afford. The town would do better to spend that money on new books.",
+      "stem": "Greta and Pavel disagree over whether",
+      "choices": {
+        "A": "many families can visit the library only on weekends",
+        "B": "the town library should open on Sundays",
+        "C": "the library's collection needs new books",
+        "D": "Saturday hours are long enough for most families",
+        "E": "the library's staff are willing to work on Sundays"
+      },
+      "answer": "B",
+      "steps": [
+        {
+          "label": "Greta's claim",
+          "note": "The library should open on Sundays. Her reason is that families need weekend time.",
+          "highlight": "The town library should open on Sundays."
+        },
+        {
+          "label": "Pavel's response",
+          "note": "He says Sunday hours cost too much and the money should go elsewhere. So he says no to Sunday opening.",
+          "highlight": "Sunday hours would cost more than the library can afford."
+        },
+        {
+          "label": "Two-speaker check",
+          "note": "Open Sundays? Greta yes, Pavel no. That is the clash. A and C are claims only one speaker makes; D is Greta's alone; E is neither's."
+        }
+      ],
+      "why": {
+        "A": "Pavel never speaks to weekend visits. Only Greta takes a position.",
+        "B": "Correct. Greta says yes; Pavel's objection to Sunday hours says no.",
+        "C": "Only Pavel mentions new books. Greta is silent.",
+        "D": "Greta says Saturday is not enough for those families. Pavel says nothing about Saturday.",
+        "E": "Neither speaker mentions staff."
+      }
+    },
+    {
+      "kind": "worked",
+      "level": 2,
+      "title": "Level 2: the method, step by step",
       "stimulus": "Lena: The city should ban cars from Main Street on weekends. Shops on pedestrian streets in other cities saw their sales rise.\nOmar: Those cities have large tourist populations, which Main Street lacks. A weekend ban here would more likely hurt the shops' sales by keeping out shoppers who drive in from the suburbs.",
       "stem": "Lena and Omar disagree over whether",
       "choices": {
@@ -52,9 +108,20 @@
       },
       "answer": "C",
       "steps": [
-        { "label": "Lena", "note": "Ban cars; the evidence implies sales would rise here.", "highlight": "Shops on pedestrian streets in other cities saw their sales rise." },
-        { "label": "Omar", "note": "Doesn't dispute the other cities. Says a ban here would hurt sales.", "highlight": "would more likely hurt the shops' sales" },
-        { "label": "Two-speaker check", "note": "Would the ban help Main Street’s sales? Lena: yes. Omar: no. That’s the clash. Notice A is something they both accept: it would answer an agreement question." }
+        {
+          "label": "Lena",
+          "note": "Ban cars; the evidence implies sales would rise here.",
+          "highlight": "Shops on pedestrian streets in other cities saw their sales rise."
+        },
+        {
+          "label": "Omar",
+          "note": "Doesn't dispute the other cities. Says a ban here would hurt sales.",
+          "highlight": "would more likely hurt the shops' sales"
+        },
+        {
+          "label": "Two-speaker check",
+          "note": "Would the ban help Main Street’s sales? Lena: yes. Omar: no. That’s the clash. Notice A is something they both accept: it would answer an agreement question."
+        }
       ],
       "why": {
         "A": "Omar doesn't dispute it. On an agreement question, this would be the answer.",
@@ -64,7 +131,99 @@
         "E": "Neither speaker mentions other ways."
       }
     },
-    { "kind": "practice", "title": "Your turn", "count": 3 },
+    {
+      "kind": "worked",
+      "level": 3,
+      "title": "Level 3: the clash is hidden inside a rejected test",
+      "stimulus": "Hollis: The museum's decision to charge admission has been a failure. Attendance fell by a fifth in the first year, and an institution that exists to educate the public should not put barriers in the public's way.\nRavi: Counting heads is the wrong test. Before the fee, many visitors came in only to get out of the rain and left within minutes. The fee now pays for the new education wing, and the number of school groups visiting has doubled.",
+      "stem": "Hollis and Ravi disagree over whether",
+      "choices": {
+        "A": "attendance at the museum fell during the first year after the fee was introduced",
+        "B": "an institution that exists to educate the public should avoid putting barriers in the public's way",
+        "C": "the number of school groups visiting the museum has increased since the fee began",
+        "D": "many visitors before the fee came in only to get out of the rain",
+        "E": "the drop in attendance shows that the fee has been a failure"
+      },
+      "answer": "E",
+      "steps": [
+        {
+          "label": "Hollis's claim",
+          "note": "The fee is a failure, and his evidence is the fall in attendance.",
+          "highlight": "The museum's decision to charge admission has been a failure."
+        },
+        {
+          "label": "Ravi's response",
+          "note": "He never says 'the fee is a success'. He rejects the test: counting heads is wrong. He does not deny that attendance fell.",
+          "highlight": "Counting heads is the wrong test."
+        },
+        {
+          "label": "Predict the clash",
+          "note": "The clash sits in Hollis's inference, from the fall in attendance to failure. Ravi rejects that step."
+        },
+        {
+          "label": "Two-speaker check",
+          "note": "A: Hollis states, Ravi does not deny. B: Hollis only. C and D: Ravi only. E: Hollis yes, Ravi no. The hard part is that Ravi's 'no' is implied by his attack on the test."
+        }
+      ],
+      "why": {
+        "A": "Ravi does not dispute the fall; his point is that it does not matter. No clash.",
+        "B": "Only Hollis says this. Ravi takes no position on barriers.",
+        "C": "Only Ravi gives this fact. Hollis is silent.",
+        "D": "Only Ravi says this. Hollis does not discuss why visitors came.",
+        "E": "Correct. Hollis says the fall shows failure; Ravi says attendance is the wrong test, so it shows no such thing."
+      }
+    },
+    {
+      "kind": "worked",
+      "level": 4,
+      "title": "Level 4: agreement hidden in a concession",
+      "stimulus": "Imani: When a company's board approves a merger, shareholders who opposed it should be allowed to sell their shares back to the company at the pre-announcement price. Without that right, a majority can impose losses on a minority, and a minority has no other way out.\nDov: A buyback right would let any unhappy shareholder demand payment after a vote, and boards would become afraid to propose mergers, even beneficial ones. A minority can certainly be harmed by a majority's decision, but harm of that kind is an ordinary risk of owning shares, and the law already protects minorities against fraud.",
+      "stem": "The exchange most strongly supports the claim that both speakers would accept which one of the following?",
+      "choices": {
+        "A": "a buyback right at the pre-announcement price would discourage boards from proposing beneficial mergers",
+        "B": "a minority of shareholders will suffer losses whenever a majority approves a merger",
+        "C": "a minority of shareholders can suffer losses because a majority approved a merger",
+        "D": "minority shareholders already have enough legal protection against losses from mergers",
+        "E": "shareholders who oppose an approved merger should be able to sell their shares back at the pre-announcement price"
+      },
+      "answer": "C",
+      "steps": [
+        {
+          "label": "Imani's claim",
+          "note": "Opposing shareholders should get a buyback right. Her premise: a majority can impose losses on a minority.",
+          "highlight": "a majority can impose losses on a minority"
+        },
+        {
+          "label": "Dov's response",
+          "note": "He rejects the buyback right. But he concedes the harm. Concessions are agreement points.",
+          "highlight": "A minority can certainly be harmed by a majority's decision"
+        },
+        {
+          "label": "Predict the overlap",
+          "note": "Both say a majority's decision can harm a minority. They differ on what to do about it."
+        },
+        {
+          "label": "Two-speaker check",
+          "note": "A: Dov yes, Imani silent. D: Dov yes, Imani no. E: Imani yes, Dov no. B and C both say harm, so compare them."
+        },
+        {
+          "label": "Kill the near-twin",
+          "note": "B is nearly identical to C. The single word 'whenever' kills it: both speakers say harm can happen, and neither says it always does."
+        }
+      ],
+      "why": {
+        "A": "Only Dov says this. Imani takes no position on how boards would react.",
+        "B": "Nearly the key, but 'whenever' kills it. Both speakers say harm can occur; neither says it always does.",
+        "C": "Correct. Imani says a majority can impose losses on a minority, and Dov concedes a minority can be harmed by a majority's decision.",
+        "D": "Dov implies it. Imani says a minority 'has no other way out', so she would deny it.",
+        "E": "Imani says yes; Dov says no. That is a point of disagreement, not agreement."
+      }
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn",
+      "count": 3
+    },
     {
       "kind": "card",
       "title": "Cheat card",

@@ -6,8 +6,11 @@
   "order": 4,
   "section": "LR",
   "types": [],
-  "lessonIds": ["u3/eliminating-options", "u3/lack-of-support-v-false"],
-  "minutes": 7,
+  "lessonIds": [
+    "u3/eliminating-options",
+    "u3/lack-of-support-v-false"
+  ],
+  "minutes": 15,
   "slides": [
     {
       "kind": "idea",
@@ -22,19 +25,89 @@
       "kind": "traps",
       "title": "The eight usual suspects",
       "traps": [
-        { "name": "Out of scope", "tell": "Talks about something the argument never addresses: a different group, a different time, a different goal." },
-        { "name": "Too strong", "tell": "Says all, never, must or proves where the text supports only some or might. On inference questions, extreme wording is usually a sign the choice is wrong." },
-        { "name": "Reversed", "tell": "Gets the right ideas in the wrong direction: cause and effect swapped, or a conditional read backwards." },
-        { "name": "Half right", "tell": "Starts with something true, then adds one clause that is not. Read every choice to the end." },
-        { "name": "Opposite", "tell": "Does the reverse of the task: strengthens on a weaken question, or supports a claim the author rejects." },
-        { "name": "True but irrelevant", "tell": "Would be true in the world, or even in the passage, but does not touch the gap or the question asked." },
-        { "name": "Swapped concept", "tell": "Uses a nearby idea instead of the one at issue: popularity for quality, sales for profit, belief for fact." },
-        { "name": "Relative vs absolute", "tell": "Shifts between more and most, or between a rate and a number: “more people” when the text only said “a higher percentage”." }
+        {
+          "name": "Out of scope",
+          "tell": "Talks about something the argument never addresses: a different group, a different time, a different goal."
+        },
+        {
+          "name": "Too strong",
+          "tell": "Says all, never, must or proves where the text supports only some or might. On inference questions, extreme wording is usually a sign the choice is wrong."
+        },
+        {
+          "name": "Reversed",
+          "tell": "Gets the right ideas in the wrong direction: cause and effect swapped, or a conditional read backwards."
+        },
+        {
+          "name": "Half right",
+          "tell": "Starts with something true, then adds one clause that is not. Read every choice to the end."
+        },
+        {
+          "name": "Opposite",
+          "tell": "Does the reverse of the task: strengthens on a weaken question, or supports a claim the author rejects."
+        },
+        {
+          "name": "True but irrelevant",
+          "tell": "Would be true in the world, or even in the passage, but does not touch the gap or the question asked."
+        },
+        {
+          "name": "Swapped concept",
+          "tell": "Uses a nearby idea instead of the one at issue: popularity for quality, sales for profit, belief for fact."
+        },
+        {
+          "name": "Relative vs absolute",
+          "tell": "Shifts between more and most, or between a rate and a number: “more people” when the text only said “a higher percentage”."
+        }
       ]
     },
     {
       "kind": "worked",
-      "title": "Every wrong answer has a name",
+      "level": 1,
+      "title": "Level 1: spotting too strong, reversed and out of scope",
+      "stimulus": "Of the thirty employees at Kessler Print Shop, most take the bus to work each day. Everyone who takes the bus to work has a monthly transit pass. No one with a monthly transit pass receives a parking subsidy from the shop.",
+      "stem": "If the statements above are true, which one of the following must also be true?",
+      "choices": {
+        "A": "No employee at Kessler Print Shop receives a parking subsidy from the shop.",
+        "B": "More than half of the employees have a monthly transit pass.",
+        "C": "Every employee who does not take the bus to work drives a car instead.",
+        "D": "Employees at the shop who have a monthly transit pass take the bus to work.",
+        "E": "Most employees who receive a parking subsidy from the shop take the bus to work."
+      },
+      "answer": "B",
+      "steps": [
+        {
+          "label": "Find the task",
+          "note": "This is a must-be-true question. Stay inside the text and connect the facts."
+        },
+        {
+          "label": "Chain the facts",
+          "note": "Bus → transit pass → no parking subsidy. Most employees take the bus, so most have a pass.",
+          "highlight": "most take the bus to work"
+        },
+        {
+          "label": "Predict",
+          "note": "The answer should say that most employees have a pass, or that most get no parking subsidy."
+        },
+        {
+          "label": "First pass: name each loser",
+          "note": "A is too strong, because only bus riders are covered. C is out of scope. D is reversed. E is the opposite of the chain."
+        },
+        {
+          "label": "Confirm",
+          "note": "B is the only choice that follows. “More than half” says the same as “most”."
+        }
+      ],
+      "why": {
+        "A": "Too strong. Only people with a pass are ruled out for a subsidy. Employees who do not take the bus could still get one.",
+        "B": "Correct. Most take the bus, everyone on the bus has a pass, so most have a pass.",
+        "C": "Out of scope. The text never says how non-bus riders get to work.",
+        "D": "Reversed. Bus riders have passes, but the text does not say every pass holder rides the bus.",
+        "E": "Opposite. Subsidy holders have no pass, so they are not bus riders."
+      }
+    },
+    {
+      "kind": "worked",
+      "level": 2,
+      "title": "Level 2: Every wrong answer has a name",
       "stimulus": "Since the new after-school tutoring program began at Linden School, the school's average math score has risen 12 points. So the tutoring program has improved students' math skills.",
       "stem": "Which one of the following, if true, most seriously weakens the argument?",
       "choices": {
@@ -46,10 +119,23 @@
       },
       "answer": "C",
       "steps": [
-        { "label": "Find the gap", "note": "Scores rose after tutoring began, so tutoring caused the rise. The gap: nothing else changed that year.", "highlight": "So the tutoring program has improved students' math skills." },
-        { "label": "Predict", "note": "A weakener will offer another reason scores rose in the same period." },
-        { "label": "First pass", "note": "Drop what you can name: A is true but irrelevant (enjoyment), B is out of scope (next year, science), D is the opposite (it strengthens)." },
-        { "label": "Second pass", "note": "Compare the survivors. E is too weak to matter: some students skipping tutoring does not explain the rise. C gives another cause." }
+        {
+          "label": "Find the gap",
+          "note": "Scores rose after tutoring began, so tutoring caused the rise. The gap: nothing else changed that year.",
+          "highlight": "So the tutoring program has improved students' math skills."
+        },
+        {
+          "label": "Predict",
+          "note": "A weakener will offer another reason scores rose in the same period."
+        },
+        {
+          "label": "First pass",
+          "note": "Drop what you can name: A is true but irrelevant (enjoyment), B is out of scope (next year, science), D is the opposite (it strengthens)."
+        },
+        {
+          "label": "Second pass",
+          "note": "Compare the survivors. E is too weak to matter: some students skipping tutoring does not explain the rise. C gives another cause."
+        }
       ],
       "why": {
         "A": "True but irrelevant: enjoying the sessions says nothing about what raised scores.",
@@ -60,12 +146,111 @@
       }
     },
     {
+      "kind": "worked",
+      "level": 3,
+      "title": "Level 3: an assumption question with two tempting traps",
+      "stimulus": "Owners of shops on Orchard Avenue say that the city's new bike lanes have cut into their business. Last year, after the lanes took over the curbside parking, daily car traffic on the avenue fell by about 15 percent, and the shops' combined sales fell by a similar amount. The city confirms that the lanes are the reason fewer drivers use the avenue. The owners reason that drivers are what keep a shop busy, so the shops are losing sales because the lanes have driven drivers away.",
+      "stem": "The owners' argument requires assuming which one of the following?",
+      "choices": {
+        "A": "Every driver who stopped using the avenue had been a customer of one of its shops.",
+        "B": "Cyclists who now use the avenue spend less at the shops than the drivers who stopped using it once did.",
+        "C": "Shops on streets without bike lanes did not see their sales fall last year.",
+        "D": "Some of the drivers who stopped using the avenue had previously shopped at the avenue's shops.",
+        "E": "The shops' sales would have fallen last year even if the lanes had never been installed."
+      },
+      "answer": "D",
+      "steps": [
+        {
+          "label": "Find the conclusion",
+          "note": "The shops lose sales because the lanes drove drivers away.",
+          "highlight": "the shops are losing sales because the lanes have driven drivers away"
+        },
+        {
+          "label": "Find the gap",
+          "note": "Fewer cars and lower sales happened together. The owners assume the missing drivers were the shoppers."
+        },
+        {
+          "label": "Predict",
+          "note": "A necessary assumption is the weakest link that must be true. Some of the lost drivers must have been customers."
+        },
+        {
+          "label": "First pass: cut by name",
+          "note": "E is the opposite: it weakens the owners. A is too strong, because “every” is not needed. B is a comparison the argument does not require."
+        },
+        {
+          "label": "Second pass: the half-right trap",
+          "note": "C sounds like ruling out another cause. But sales elsewhere falling would not show the lost drivers cost these shops nothing. Use the negation test on D: if no lost driver ever shopped there, the argument collapses."
+        }
+      ],
+      "why": {
+        "A": "Too strong. Some lost drivers being customers is enough; “every” is not needed.",
+        "B": "Comparison not needed. Sales fell either way, and cyclists could spend as much without breaking the argument.",
+        "C": "Tempting but not required. Sales could have fallen on other streets for other reasons while the lanes still cost these shops customers.",
+        "D": "Correct. If none of the drivers who left had shopped on the avenue, losing them could not explain the lost sales.",
+        "E": "Opposite. If sales would have fallen anyway, the lanes are not the cause, so this attacks the argument."
+      }
+    },
+    {
+      "kind": "worked",
+      "level": 4,
+      "title": "Level 4: relative versus absolute, killed by one word",
+      "stimulus": "Over the past five years, the percentage of surgeries at Brackenridge Hospital that led to a postoperative infection fell every year. During the same period the hospital expanded its surgical wing, and the total number of surgeries it performed each year more than doubled. Hospital administrators credit a stricter sterilization protocol introduced in the second year. Infection percentages at comparable hospitals across the region were roughly flat over the five years. The hospital's records also show that the proportion of its patients who were over sixty-five stayed about the same. No surgeries were reclassified or removed from the records during this period.",
+      "stem": "If the statements above are true, which one of the following must also be true?",
+      "choices": {
+        "A": "Fewer of the surgeries performed at Brackenridge Hospital led to infection in the fifth year than in the first year.",
+        "B": "By the fifth year, Brackenridge Hospital had an infection percentage lower than that of comparable hospitals in the region.",
+        "C": "Among the surgeries at Brackenridge Hospital, a smaller proportion led to infection in the fifth year than in the first.",
+        "D": "More of the surgeries performed at Brackenridge Hospital led to infection in the fifth year than in the first year.",
+        "E": "The stricter sterilization protocol is the reason the hospital's infection percentage fell."
+      },
+      "answer": "C",
+      "steps": [
+        {
+          "label": "Find the task",
+          "note": "Must be true. The text gives a rate (a percentage) and a total. Stay with exactly what each one says."
+        },
+        {
+          "label": "List what is certain",
+          "note": "The percentage fell every year, so the fifth-year percentage is below the first-year percentage.",
+          "highlight": "the percentage of surgeries at Brackenridge Hospital that led to a postoperative infection fell every year"
+        },
+        {
+          "label": "List what is open",
+          "note": "The number of infections depends on the percentage and the total. The total more than doubled, so the number could rise, fall or stay level."
+        },
+        {
+          "label": "Name the trap",
+          "note": "A and D swap the percentage for a count. This is relative vs absolute. One of them is also the mirror of the other, so neither can be forced."
+        },
+        {
+          "label": "The word that kills A and D",
+          "note": "“Fewer” and “more” are about numbers of surgeries. The text promises only a smaller proportion. B and E rely on comparison and cause the text never fixes."
+        }
+      ],
+      "why": {
+        "A": "Relative vs absolute. A falling percentage on a much bigger base could mean more infections, not fewer. “Fewer” is not guaranteed.",
+        "B": "Unsupported. Comparable hospitals were flat, but we do not know where Brackenridge started, so we cannot compare levels.",
+        "C": "Correct. The percentage fell every year, so it was smaller in the fifth year than in the first. “Proportion” matches “percentage”.",
+        "D": "Also a count claim. A smaller percentage could still be a bigger number, but nothing forces it. “More” is not guaranteed either.",
+        "E": "Administrators credit the protocol, but a claim by them does not prove it is the reason. This is cause, which the text does not establish."
+      }
+    },
+    {
       "kind": "method",
       "title": "Two-pass elimination",
       "steps": [
-        { "label": "Pass one: fast cuts", "do": "Go A to E once. Cross out anything you can name a reason for in a few seconds. Do not stop to agonize." },
-        { "label": "Pass two: compare", "do": "With two or three left, go back to your prediction and to the exact words of the stimulus. Find the word that kills each loser." },
-        { "label": "Commit", "do": "If one choice survives, take it and move on. Do not reread the ones you already eliminated for a reason." }
+        {
+          "label": "Pass one: fast cuts",
+          "do": "Go A to E once. Cross out anything you can name a reason for in a few seconds. Do not stop to agonize."
+        },
+        {
+          "label": "Pass two: compare",
+          "do": "With two or three left, go back to your prediction and to the exact words of the stimulus. Find the word that kills each loser."
+        },
+        {
+          "label": "Commit",
+          "do": "If one choice survives, take it and move on. Do not reread the ones you already eliminated for a reason."
+        }
       ]
     },
     {

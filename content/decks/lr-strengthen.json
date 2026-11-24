@@ -5,9 +5,14 @@
   "group": "lr",
   "order": 5,
   "section": "LR",
-  "types": ["strengthen"],
-  "lessonIds": ["u2/strengthen", "u1/causation-2"],
-  "minutes": 6,
+  "types": [
+    "strengthen"
+  ],
+  "lessonIds": [
+    "u2/strengthen",
+    "u1/causation-2"
+  ],
+  "minutes": 14,
   "slides": [
     {
       "kind": "idea",
@@ -32,15 +37,70 @@
       "kind": "method",
       "title": "Method",
       "steps": [
-        { "label": "Conclusion and evidence", "do": "Note what kind of conclusion it is: cause, prediction, plan, comparison." },
-        { "label": "Find the gap", "do": "What would a skeptic say? Name the alternative the author ignored." },
-        { "label": "Predict", "do": "A fact that rules out that alternative, or confirms the link between evidence and conclusion." },
-        { "label": "Test each choice", "do": "Assume it’s true. Does the conclusion become more likely? Pick the one that does the most." }
+        {
+          "label": "Conclusion and evidence",
+          "do": "Note what kind of conclusion it is: cause, prediction, plan, comparison."
+        },
+        {
+          "label": "Find the gap",
+          "do": "What would a skeptic say? Name the alternative the author ignored."
+        },
+        {
+          "label": "Predict",
+          "do": "A fact that rules out that alternative, or confirms the link between evidence and conclusion."
+        },
+        {
+          "label": "Test each choice",
+          "do": "Assume it’s true. Does the conclusion become more likely? Pick the one that does the most."
+        }
       ]
     },
     {
       "kind": "worked",
-      "title": "Worked example",
+      "level": 1,
+      "title": "Level 1: rule out the other explanation",
+      "stimulus": "Café owner: Last month I switched to a new brand of coffee beans at my café. Since then, coffee sales have risen by 20 percent compared with the month before. I made no changes to my prices. Clearly, the new beans are what attracted the extra business.",
+      "stem": "Which one of the following, if true, most strengthens the café owner's argument?",
+      "choices": {
+        "A": "Several regular customers have told the owner that they liked the old beans better.",
+        "B": "The new beans are sold by a roaster that also supplies many other cafés in the city.",
+        "C": "Sales of the café's tea and pastries did not rise over the same period.",
+        "D": "Coffee has been the café's best-selling drink for as long as the café has been open.",
+        "E": "The new beans cost the café less per pound than the old beans did."
+      },
+      "answer": "C",
+      "steps": [
+        {
+          "label": "Find the conclusion",
+          "note": "The new beans brought in the extra business.",
+          "highlight": "the new beans are what attracted the extra business"
+        },
+        {
+          "label": "Find the evidence",
+          "note": "Coffee sales rose after the switch.",
+          "highlight": "coffee sales have risen by 20 percent compared with the month before"
+        },
+        {
+          "label": "Find the gap",
+          "note": "Something else may have brought more customers, such as a busier street. Then every kind of sale would rise, not only coffee."
+        },
+        {
+          "label": "Predict and test",
+          "note": "The answer should show there was no general rise in customers. C does that: tea and pastries stayed flat. A hurts the argument, and B, D and E do not touch the gap."
+        }
+      ],
+      "why": {
+        "A": "This weakens the argument, so it is the wrong direction.",
+        "B": "On topic, but who sells the beans says nothing about why sales rose.",
+        "C": "Correct. If other sales stayed flat, a general rise in customers is unlikely, so the beans are more likely the cause.",
+        "D": "Past best-seller status does not show why sales rose last month.",
+        "E": "Lower cost affects profit, not what attracted the extra business."
+      }
+    },
+    {
+      "kind": "worked",
+      "level": 2,
+      "title": "Level 2: the method, step by step",
       "stimulus": "Archaeologist: Pottery at the Teral site bears glazes made with a mineral found only in mountains 400 kilometers to the north. So the people of Teral must have traded with communities living in those mountains.",
       "stem": "Which one of the following, if true, most strengthens the archaeologist's argument?",
       "choices": {
@@ -52,10 +112,24 @@
       },
       "answer": "A",
       "steps": [
-        { "label": "Conclusion", "note": "Teral traded with the northern mountain communities.", "highlight": "must have traded with communities living in those mountains" },
-        { "label": "Evidence", "note": "Their glaze uses a mineral found only in those mountains.", "highlight": "a mineral found only in mountains 400 kilometers to the north" },
-        { "label": "Gap", "note": "The mineral could have reached Teral without trade: Teral people might have gone north and dug it up themselves." },
-        { "label": "Predict", "note": "A strengthener rules that out: evidence they didn’t travel there." }
+        {
+          "label": "Conclusion",
+          "note": "Teral traded with the northern mountain communities.",
+          "highlight": "must have traded with communities living in those mountains"
+        },
+        {
+          "label": "Evidence",
+          "note": "Their glaze uses a mineral found only in those mountains.",
+          "highlight": "a mineral found only in mountains 400 kilometers to the north"
+        },
+        {
+          "label": "Gap",
+          "note": "The mineral could have reached Teral without trade: Teral people might have gone north and dug it up themselves."
+        },
+        {
+          "label": "Predict",
+          "note": "A strengthener rules that out: evidence they didn’t travel there."
+        }
       ],
       "why": {
         "A": "Correct. If Teral people didn't travel far, they didn't fetch the mineral themselves, which makes trade more likely.",
@@ -66,16 +140,125 @@
       }
     },
     {
+      "kind": "worked",
+      "level": 3,
+      "title": "Level 3: a selection effect hiding in the comparison",
+      "stimulus": "Agricultural researcher: Over the past decade, farms in the Calder Valley that switched from sprinklers to drip irrigation have earned, on average, 18 percent more per acre than farms that kept their sprinklers. The researcher surveyed 200 farms chosen at random from county records. Drip systems are costly to install, and most owners have to borrow to pay for them. The gap appeared in every one of the ten years surveyed. These figures show that drip irrigation raises a farm's earnings per acre.",
+      "stem": "Which one of the following, if true, most strengthens the researcher's argument?",
+      "choices": {
+        "A": "Drip irrigation systems have been sold in the Calder Valley for about ten years by two competing dealers.",
+        "B": "Banks in the valley were more willing to lend to farms with a record of high earnings than to farms with a record of low earnings.",
+        "C": "Agricultural economists who reviewed the researcher's figures found no errors in how earnings per acre were calculated.",
+        "D": "Many of the valley's farms have been owned by the same families for more than fifty years.",
+        "E": "Before any farm switched, the farms that later adopted drip irrigation earned about the same per acre as the farms that never did."
+      },
+      "answer": "E",
+      "steps": [
+        {
+          "label": "Find the conclusion",
+          "note": "Drip irrigation is what raises earnings per acre.",
+          "highlight": "drip irrigation raises a farm's earnings per acre"
+        },
+        {
+          "label": "Find the evidence",
+          "note": "Switchers earn 18 percent more than farms that kept sprinklers.",
+          "highlight": "earned, on average, 18 percent more per acre than farms that kept their sprinklers"
+        },
+        {
+          "label": "Find the gap",
+          "note": "Drip is costly and owners must borrow, so the farms that switched may already have been richer or better run.",
+          "highlight": "most owners have to borrow to pay for them"
+        },
+        {
+          "label": "Predict the fix",
+          "note": "The best strengthener shows the two groups started out equal. No earnings gap before the switch means the switch is a better suspect."
+        },
+        {
+          "label": "Name the traps",
+          "note": "B backs the selection story, so it weakens. C supports the figures, but the figures already stand. A and D are about the valley, not the gap. The key is a before-the-switch fact, not a fact about irrigation."
+        }
+      ],
+      "why": {
+        "A": "Irrelevant. Who sold the systems and for how long does not address why switchers earn more.",
+        "B": "Weakens. If lenders favored high earners, the adopters may have been the high earners to begin with.",
+        "C": "Supports the premise only. The figures are taken as true, and correct figures still leave the gap open.",
+        "D": "Irrelevant. Family ownership has no link to irrigation or earnings.",
+        "E": "Correct. If the groups earned the same before the switch, the later gap is more likely due to drip irrigation."
+      }
+    },
+    {
+      "kind": "worked",
+      "level": 4,
+      "title": "Level 4: who produced the growth?",
+      "stimulus": "Between 1820 and 1860, the share of Brindle Island households that kept written account books rose from under a tenth to nearly half. Over the same forty years, the island's wool exports more than tripled. Some islanders credit a new overseas market that opened in 1835, but the price paid for wool was no higher in 1860 than in 1820. Because careful record-keeping shows a household which of its activities earn money, the historian Ilse Varga argues that the spread of account-keeping was a major cause of the growth in wool exports.",
+      "stem": "Which one of the following, if true, most strengthens the historian's argument?",
+      "choices": {
+        "A": "Wool exports from Brindle Island grew faster between 1820 and 1860 than the wool exports of any neighboring island.",
+        "B": "Nearly all of the growth in the island's wool exports came from households that began keeping account books after 1820.",
+        "C": "Nearly all of the growth in the island's wool exports came from households that had kept account books since before 1820.",
+        "D": "Households that kept account books in 1860 were, on average, wealthier than households that did not.",
+        "E": "Nearly all of the households on the island that raised sheep in 1860 also grew grain."
+      },
+      "answer": "B",
+      "steps": [
+        {
+          "label": "Find the conclusion",
+          "note": "The spread of account-keeping was a major cause of the wool growth.",
+          "highlight": "the spread of account-keeping was a major cause of the growth in wool exports"
+        },
+        {
+          "label": "Find the evidence",
+          "note": "Two trends ran together. The historian also removes one rival, the market, because prices stayed flat.",
+          "highlight": "the price paid for wool was no higher in 1860 than in 1820"
+        },
+        {
+          "label": "Find the gap",
+          "note": "Two trends over the same years do not show that the same households are involved. The growth could have come from households the spread never touched."
+        },
+        {
+          "label": "Predict",
+          "note": "A strengthener ties the growth to households that took up account-keeping during the period."
+        },
+        {
+          "label": "Name the trap",
+          "note": "C is B with one idea changed. Growth from households that kept books since before 1820 did not come from the spread, so C weakens. B is the key."
+        }
+      ],
+      "why": {
+        "A": "Out of scope. Comparing with other islands says nothing about account-keeping.",
+        "B": "Correct. It ties the growth to households that adopted account books during the period, closing the gap.",
+        "C": "The near-twin that weakens. Growth from long-time keepers did not come from the spread of the practice.",
+        "D": "Weakens. Wealth is a rival explanation for greater wool output.",
+        "E": "Irrelevant. Growing grain has no link to account-keeping or to wool exports."
+      }
+    },
+    {
       "kind": "traps",
       "title": "Strengthen traps",
       "traps": [
-        { "name": "Restates a premise", "tell": "Repeats the evidence in new words. It adds nothing." },
-        { "name": "Sounds related", "tell": "On topic, but doesn’t touch the gap, like other uses of the mineral." },
-        { "name": "The weakener", "tell": "Does the reverse. Easy to pick on a long question." },
-        { "name": "Supports something else", "tell": "Makes a nearby claim more likely, not the conclusion itself." }
+        {
+          "name": "Restates a premise",
+          "tell": "Repeats the evidence in new words. It adds nothing."
+        },
+        {
+          "name": "Sounds related",
+          "tell": "On topic, but doesn’t touch the gap, like other uses of the mineral."
+        },
+        {
+          "name": "The weakener",
+          "tell": "Does the reverse. Easy to pick on a long question."
+        },
+        {
+          "name": "Supports something else",
+          "tell": "Makes a nearby claim more likely, not the conclusion itself."
+        }
       ]
     },
-    { "kind": "practice", "title": "Your turn", "count": 3 },
+    {
+      "kind": "practice",
+      "title": "Your turn",
+      "count": 3
+    },
     {
       "kind": "card",
       "title": "Cheat card",

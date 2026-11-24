@@ -12,7 +12,7 @@
     "u2/weaken",
     "u1/causation-2"
   ],
-  "minutes": 7,
+  "minutes": 15,
   "slides": [
     {
       "kind": "idea",
@@ -84,7 +84,50 @@
     },
     {
       "kind": "worked",
-      "title": "Worked example",
+      "level": 1,
+      "title": "Level 1: a second change at the same time",
+      "stimulus": "Pool manager: At the Riverside Pool, swimmers used to complain regularly about cloudy water. In June we installed a new filtration system, and since then the complaints have almost stopped. The new filtration system clearly deserves the credit for clearing up the water. It cost the pool several thousand dollars.",
+      "stem": "Which one of the following, if true, most seriously weakens the pool manager's argument?",
+      "choices": {
+        "A": "A few swimmers still say that the water at the pool is not perfectly clear, though they no longer complain about it.",
+        "B": "Other pools in the area that installed the same filtration system have reported clearer water since they did so.",
+        "C": "The new filtration system cost the pool considerably more than the amount it had planned to spend on it.",
+        "D": "That same month, the pool began adding a chemical that, by itself, clears the algae that make pool water cloudy.",
+        "E": "The pool is open to swimmers from May through September, and it is busiest on summer weekends."
+      },
+      "answer": "D",
+      "steps": [
+        {
+          "label": "Find the conclusion",
+          "note": "The new filter deserves the credit.",
+          "highlight": "The new filtration system clearly deserves the credit for clearing up the water"
+        },
+        {
+          "label": "Find the evidence",
+          "note": "Complaints almost stopped after June.",
+          "highlight": "since then the complaints have almost stopped"
+        },
+        {
+          "label": "Find the gap",
+          "note": "The manager assumes the filter was the only change. Something else done in June could have cleared the water."
+        },
+        {
+          "label": "Predict and test",
+          "note": "A weakener names another cause. D does: a chemical that clears algae on its own. A is too small, B helps the manager, and C and E are off topic."
+        }
+      ],
+      "why": {
+        "A": "Too small. A few swimmers who no longer complain do not show the filter did not work.",
+        "B": "Strengthens. Other pools got clearer water with the same filter.",
+        "C": "Cost is not part of the claim about what cleared the water.",
+        "D": "Correct. A second cause that works alone explains the clear water, so the filter may deserve no credit.",
+        "E": "Irrelevant. The season and busy days do not bear on what cleared the water."
+      }
+    },
+    {
+      "kind": "worked",
+      "level": 2,
+      "title": "Level 2: the method, step by step",
       "stimulus": "A large study found that people who drink green tea every day have lower rates of heart disease than people who do not. Dr. Ames concludes that drinking green tea reduces the risk of heart disease.",
       "stem": "Which one of the following, if true, most seriously weakens Dr. Ames's argument?",
       "choices": {
@@ -121,6 +164,102 @@
         "C": "A national trend affects both groups alike.",
         "D": "Correct. Exercise and not smoking could explain the lower rates, so tea may not be the cause.",
         "E": "Neutral. A varied sample doesn't hurt the conclusion."
+      }
+    },
+    {
+      "kind": "worked",
+      "level": 3,
+      "title": "Level 3: the plan fixes the wrong crowding",
+      "stimulus": "Planner: Eastgate Station sits on the city's oldest rail line, and its two platforms have not changed in decades. Rush hour there is notoriously crowded, and surveys show that many commuters who live nearby drive downtown rather than ride because of it. The city can add a third platform, which would let the station handle half again as many riders. Once the third platform opens, the commuters who now drive to avoid the crowding will switch to the train, and rail ridership from Eastgate will rise substantially.",
+      "stem": "Which one of the following, if true, most seriously weakens the planner's argument?",
+      "choices": {
+        "A": "The crowding that keeps these commuters off the trains is mostly inside the trains, not on the station's platforms.",
+        "B": "Building a third platform would take more than two years and would cost more than the city has set aside for transit projects.",
+        "C": "Some commuters who live near Eastgate Station drive downtown because they need a car for work during the day.",
+        "D": "Westgate Station, on the same rail line, added a third platform last year, and its rail ridership rose soon afterward.",
+        "E": "Commuters who live near Eastgate Station are, on average, wealthier than commuters who live near the city's other stations."
+      },
+      "answer": "A",
+      "steps": [
+        {
+          "label": "Find the conclusion",
+          "note": "Ridership from Eastgate will rise substantially.",
+          "highlight": "rail ridership from Eastgate will rise substantially"
+        },
+        {
+          "label": "Find the evidence",
+          "note": "Commuters drive to avoid crowding, and the new platform adds station capacity.",
+          "highlight": "the commuters who now drive to avoid the crowding will switch to the train"
+        },
+        {
+          "label": "Find the gap",
+          "note": "The planner assumes a third platform removes the crowding that commuters object to. Platform room and crowded trains are not the same thing."
+        },
+        {
+          "label": "Predict",
+          "note": "A weakener shows the new platform leaves the real source of the crowding in place."
+        },
+        {
+          "label": "Name the traps",
+          "note": "B attacks cost and delay, but the claim is about what happens once the platform opens. C says only some commuters drive for other reasons, which is too small. D strengthens."
+        }
+      ],
+      "why": {
+        "A": "Correct. If the crowding is inside the trains, more platform room does not remove it, so commuters may keep driving.",
+        "B": "Attacks feasibility, not the prediction, which is about what happens once the platform opens.",
+        "C": "Too small. The argument concerns commuters who drive to avoid crowding, and some others driving for other reasons does not touch them.",
+        "D": "Strengthens. A similar station gained riders after adding a platform.",
+        "E": "Irrelevant. Wealth compared with other stations has no link to whether crowding drives commuters away."
+      }
+    },
+    {
+      "kind": "worked",
+      "level": 4,
+      "title": "Level 4: every part improves, but the whole may not",
+      "stimulus": "Quality manager: Last year the firm adopted a new checking procedure for outgoing reports. The procedure requires a second employee to read every report before it leaves the department. Since then, each of the firm's three departments, Billing, Claims, and Records, has had a lower proportion of its reports returned for errors than it had in the year before. The firm prepares reports for several hundred clients each year, and no department was closed or merged during that time. Therefore, the proportion of all the firm's outgoing reports that are returned for errors must have fallen since the procedure was adopted.",
+      "stem": "Which one of the following, if true, most seriously weakens the quality manager's argument?",
+      "choices": {
+        "A": "The new procedure has lengthened the time the firm takes to send reports out, because each report now needs a second reading.",
+        "B": "The department that had the smallest proportion of returned reports before the procedure was adopted now handles a much larger share of the firm's reports than it did before.",
+        "C": "The department that had the highest proportion of returned reports before the procedure was adopted now handles a much larger share of the firm's reports than it did before.",
+        "D": "Before the procedure was adopted, the proportion of the firm's reports returned for errors had risen in each of the preceding five years.",
+        "E": "In each of the three departments, the proportion of reports returned for errors fell by less than a quarter."
+      },
+      "answer": "C",
+      "steps": [
+        {
+          "label": "Find the conclusion",
+          "note": "The firm-wide share of returned reports must have fallen.",
+          "highlight": "the proportion of all the firm's outgoing reports that are returned for errors must have fallen"
+        },
+        {
+          "label": "Find the evidence",
+          "note": "The rate fell inside each of the three departments.",
+          "highlight": "has had a lower proportion of its reports returned for errors"
+        },
+        {
+          "label": "Find the gap",
+          "note": "This moves from every part to the whole. The firm-wide rate depends on each department's rate and on how much work each handles. The argument assumes the mix of work stayed the same."
+        },
+        {
+          "label": "Predict",
+          "note": "Attack the mix: more of the work now goes to the department with the worst rate. That can lift the firm-wide rate even though every department improved."
+        },
+        {
+          "label": "Name the trap",
+          "note": "B is C with one word changed: smallest for highest. Moving work to the best department lowers the firm-wide rate, so B strengthens. Highest is the word that makes the weakener."
+        },
+        {
+          "label": "Eliminate",
+          "note": "A is about speed. D is about an earlier trend. E says each rate still fell, only by a small amount, so the conclusion is untouched."
+        }
+      ],
+      "why": {
+        "A": "Out of scope. Slower delivery does not bear on the proportion of reports returned.",
+        "B": "The one-word twin that strengthens. Shifting work to the best department pushes the firm-wide rate down.",
+        "C": "Correct. A shift of work toward the highest-error department can raise the firm-wide rate even though every department improved.",
+        "D": "Does not weaken. An earlier upward trend leaves the fall after adoption just as likely.",
+        "E": "Too small to matter. Each rate still fell, so the conclusion is not hurt."
       }
     },
     {

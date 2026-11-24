@@ -5,9 +5,17 @@
   "group": "rc",
   "order": 6,
   "section": "RC",
-  "types": ["application", "analogy", "principle"],
-  "lessonIds": ["u4/question-types-3", "u4/style-problem-analysis", "u3/analogy"],
-  "minutes": 6,
+  "types": [
+    "application",
+    "analogy",
+    "principle"
+  ],
+  "lessonIds": [
+    "u4/question-types-3",
+    "u4/style-problem-analysis",
+    "u3/analogy"
+  ],
+  "minutes": 14,
   "slides": [
     {
       "kind": "idea",
@@ -32,15 +40,71 @@
       "kind": "method",
       "title": "Method",
       "steps": [
-        { "label": "List the conditions", "do": "Write the idea as a short rule: who, what, when, and the exceptions." },
-        { "label": "Note the exceptions", "do": "Passages often limit the rule. Those limits are where the traps sit." },
-        { "label": "Test each case", "do": "Check every condition and exception against the choice." },
-        { "label": "Ignore surface", "do": "Same subject is not same structure. Different subject can be the perfect fit." }
+        {
+          "label": "List the conditions",
+          "do": "Write the idea as a short rule: who, what, when, and the exceptions."
+        },
+        {
+          "label": "Note the exceptions",
+          "do": "Passages often limit the rule. Those limits are where the traps sit."
+        },
+        {
+          "label": "Test each case",
+          "do": "Check every condition and exception against the choice."
+        },
+        {
+          "label": "Ignore surface",
+          "do": "Same subject is not same structure. Different subject can be the perfect fit."
+        }
       ]
     },
     {
       "kind": "worked",
-      "title": "Worked example",
+      "level": 1,
+      "title": "Level 1: effect, not abundance",
+      "passage": {
+        "paragraphs": [
+          "Ecologists use the term keystone species for a species whose effect on its community is out of proportion to its numbers. The test is what happens when the species is removed: if many other species then decline or disappear, the removed species was a keystone. In one studied bay, for example, a scarce kind of predatory snail keeps mussels from crowding the rocks; when the snails were removed, the mussels spread and a dozen other shoreline species vanished.",
+          "Being common is not the same as being a keystone. A species that is abundant, and whose loss harms others only because it supplies most of the food or shelter, is called a dominant species instead. Keystone status is judged by effect, not by size."
+        ]
+      },
+      "stem": "Based on the passage, which one of the following would an ecologist most likely classify as a keystone species?",
+      "choices": {
+        "A": "A grass that covers most of a prairie and that supplies most of the food eaten by the many animals that live there.",
+        "B": "A scarce wasp that is a beetle's only predator; when the wasps were removed from one valley, the beetles multiplied and a dozen plant species disappeared.",
+        "C": "An abundant fish in a large lake; when it was removed from the lake by a team of researchers, no other species there increased or decreased in number.",
+        "D": "A rare orchid that grows in only one meadow, where its removal has never been attempted and where no effect on any other species has ever been seen.",
+        "E": "A large tree that makes up most of a forest's canopy and whose logging caused many of the birds and insects that nested in it to decline sharply."
+      },
+      "answer": "B",
+      "steps": [
+        {
+          "label": "List the conditions",
+          "note": "A keystone species has a large effect on others, out of proportion to its numbers. The test is what happens when it is removed.",
+          "highlight": "The test is what happens when the species is removed"
+        },
+        {
+          "label": "Note the exceptions",
+          "note": "A species that matters only because it is abundant and supplies food or shelter is dominant, not keystone.",
+          "highlight": "Keystone status is judged by effect, not by size."
+        },
+        {
+          "label": "Test each case",
+          "note": "Look for a scarce species whose removal harms many others."
+        }
+      ],
+      "why": {
+        "A": "Abundant and important only as a food supply: a dominant species, which the passage excludes.",
+        "B": "Correct. Scarce, and its removal caused a dozen other species to vanish.",
+        "C": "Its removal changed nothing, so it fails the removal test.",
+        "D": "Its removal has never been tried, so no effect is shown and the test cannot be met.",
+        "E": "Like the grass, it matters because it supplies shelter in bulk: a dominant species."
+      }
+    },
+    {
+      "kind": "worked",
+      "level": 2,
+      "title": "Level 2: the method, step by step",
       "passage": {
         "paragraphs": [
           "Under the doctrine of attractive nuisance, a landowner can be liable when children trespass and are injured by a hazard on the land, even though adult trespassers generally cannot recover. Courts reason that some hazards, such as an unfenced swimming pool or an abandoned refrigerator, are so tempting to children, and their dangers so hard for children to grasp, that the landowner is better placed to prevent the harm.",
@@ -57,9 +121,20 @@
       },
       "answer": "D",
       "steps": [
-        { "label": "Conditions", "note": "A child, trespassing, injured by a tempting artificial hazard.", "highlight": "a landowner can be liable when children trespass and are injured by a hazard on the land" },
-        { "label": "Exceptions", "note": "Not natural features; and the owner must have been able to remove it at reasonable cost.", "highlight": "Courts have usually refused to extend it to natural features such as rivers and cliffs" },
-        { "label": "Test", "note": "Look for a child trespasser, an artificial and tempting hazard, and a cheap fix." }
+        {
+          "label": "Conditions",
+          "note": "A child, trespassing, injured by a tempting artificial hazard.",
+          "highlight": "a landowner can be liable when children trespass and are injured by a hazard on the land"
+        },
+        {
+          "label": "Exceptions",
+          "note": "Not natural features; and the owner must have been able to remove it at reasonable cost.",
+          "highlight": "Courts have usually refused to extend it to natural features such as rivers and cliffs"
+        },
+        {
+          "label": "Test",
+          "note": "Look for a child trespasser, an artificial and tempting hazard, and a cheap fix."
+        }
       ],
       "why": {
         "A": "An adult: adult trespassers generally can't recover.",
@@ -69,7 +144,118 @@
         "E": "The doctrine concerns trespassers; an invited child is outside it."
       }
     },
-    { "kind": "practice", "title": "Your turn", "count": 3 },
+    {
+      "kind": "worked",
+      "level": 3,
+      "title": "Level 3: every condition, including the last resort",
+      "passage": {
+        "paragraphs": [
+          "Promissory estoppel allows a court to enforce a promise even though the person who received it gave nothing in exchange. Ordinarily a promise binds only when it is part of a bargain, but courts have recognized that someone who makes a promise and then retreats from it can cause real harm to a person who counted on it. The doctrine exists to prevent that harm. It is not, courts stress, a general license to enforce every kind word.",
+          "A court will not enforce every broken promise, however. The promise must be clear and definite; a statement of mere hope or intention, such as \"I may be able to help\", will not do. The promisor must have expected, or have had reason to expect, that the listener would act on it, and the listener's action must have been reasonable in light of what was said. A promisee who suffered no loss from relying on the promise has nothing for the court to repair.",
+          "Finally, the doctrine is a remedy of last resort. A court will invoke it only when injustice can be avoided by no other means. If the promisee already holds a binding contract that provides a full remedy for the broken promise, the court will apply the contract and leave the doctrine aside. Even where the doctrine applies, courts often limit recovery to the losses the promisee incurred in reliance rather than awarding the full value of what was promised."
+        ]
+      },
+      "stem": "Based on the passage, a court applying the doctrine would be most likely to enforce the promise in which one of the following cases?",
+      "choices": {
+        "A": "A cousin tells a graduating student, \"I might be able to cover your first month's rent in the new city\", and the student signs a lease expecting the money, which never arrives.",
+        "B": "A neighbor clearly promises to lend a farmer a tractor for one week next spring; relying on that promise alone, the farmer, about whose plans the neighbor knew nothing, borrows heavily to buy forty acres.",
+        "C": "A flour supplier clearly promises a bakery owner a fixed price for two years, knowing she will buy a new oven only if she has that price; she buys the oven, the supplier withdraws the offer, and the two have signed nothing.",
+        "D": "A manager clearly promises an employee a corner office after next year's reorganization; the employee is pleased but changes nothing in her plans, and the promise is later broken.",
+        "E": "A shipping firm clearly promises a client delivery by a set date, knowing the client will pay for a venue on that basis; the client does so, delivery is late, and a signed contract entitles the client to full compensation for exactly that loss."
+      },
+      "answer": "C",
+      "steps": [
+        {
+          "label": "List the conditions",
+          "note": "Five conditions: a clear promise; reliance the promisor expected; reasonable reliance; actual loss; no other way to avoid injustice.",
+          "highlight": "The promise must be clear and definite"
+        },
+        {
+          "label": "Note the exceptions",
+          "note": "The last condition is easy to miss. The doctrine is a last resort, so a binding contract with a full remedy takes its place.",
+          "highlight": "A court will invoke it only when injustice can be avoided by no other means."
+        },
+        {
+          "label": "Test each case",
+          "note": "A fails the first condition: the promise is only hopeful. B fails the second and third: the neighbor had no reason to expect such reliance. D fails the fourth: no loss."
+        },
+        {
+          "label": "Ignore surface",
+          "note": "E is the hard one. It meets four conditions and looks like the classic case. It fails the last one, because the signed contract already gives a full remedy.",
+          "highlight": "a binding contract that provides a full remedy"
+        },
+        {
+          "label": "Confirm",
+          "note": "Only C meets all five, and nothing in it offers another remedy."
+        }
+      ],
+      "why": {
+        "A": "The statement \"I might be able to\" is mere hope, not a clear and definite promise.",
+        "B": "The neighbor had no reason to expect this reliance, and borrowing heavily on a one-week loan is hardly reasonable.",
+        "C": "Correct. Clear promise, expected and reasonable reliance, a loss, and no contract to fall back on.",
+        "D": "The employee relied on nothing and lost nothing, so there is nothing for the court to repair.",
+        "E": "The trap. Every earlier condition is met, but the signed contract gives a full remedy, so the last-resort doctrine is not needed."
+      }
+    },
+    {
+      "kind": "worked",
+      "level": 4,
+      "title": "Level 4: possible in practice versus impossible in principle",
+      "passage": {
+        "paragraphs": [
+          "Philosophers of science describe a property of a system as emergent when it meets three conditions. It belongs to the system as a whole; no individual component of the system has it; and it could not have been inferred in advance by anyone who knew everything about the components taken one at a time. The third condition is what separates genuine emergence from mere complexity, for a system can be intricate without possessing any property that its parts fail to explain.",
+          "The first two conditions rule out a large class of apparent cases. The weight of a bridge is not emergent: although the bridge as a whole is heavy, each beam has weight too, and the total is simply their sum. Such properties are called resultant, because they are possessed by the parts and merely added up. A property that some components have and others lack is likewise not emergent, since it can be traced to the components that have it.",
+          "The third condition is harder to apply, because predictability depends on what the predictor knows. A property that surprised researchers only because the relevant principles had not yet been discovered does not qualify; once those principles are known, the property can be derived from knowledge of the components and their interactions. The standard is deliberately demanding: a difficulty that is merely practical, such as a calculation too large for any existing computer, does not make a property emergent. Only a property that remains underivable in principle, however complete the knowledge of the parts, is emergent in the strict sense that the author adopts.",
+          "Whether any actual property meets this standard is a separate and contested question, and the author does not take a position on it. The point of the definition is to make the question precise, so that disputes about, say, living systems or economies are disputes about derivability and not about mere intricacy."
+        ]
+      },
+      "stem": "Based on the passage, which one of the following, if the facts were as described, would the author most likely regard as an emergent property?",
+      "choices": {
+        "A": "The total mass of a flock of starlings, which equals the sum of the masses of the individual birds.",
+        "B": "The capacity of an ant colony to locate distant food, which each ant has to a small degree, so that a large colony simply has more of the capacity than a small one.",
+        "C": "The sudden collapse of a market, which surprised economists only because the relevant theory had not yet been developed and which was later shown to follow from individual traders' rules.",
+        "D": "The coordinated flashing of a firefly swarm, which no single firefly can produce and which, it has been established, cannot be derived even in principle from complete knowledge of each firefly and its interactions with its neighbors.",
+        "E": "The coordinated flashing of a firefly swarm, which no single firefly can produce and which no researcher has so far managed to derive from knowledge of each firefly and its interactions with its neighbors."
+      },
+      "answer": "D",
+      "steps": [
+        {
+          "label": "List the conditions",
+          "note": "Emergent means: a property of the whole; no component has it; and it cannot be derived from full knowledge of the components, even in principle.",
+          "highlight": "Only a property that remains underivable in principle"
+        },
+        {
+          "label": "Note the exceptions",
+          "note": "Two things do not count. Resultant properties are just sums of parts. Properties that surprised people only because a principle was undiscovered, or because a calculation is too big, are also out.",
+          "highlight": "a difficulty that is merely practical"
+        },
+        {
+          "label": "Test each case",
+          "note": "A is a pure sum. B is held by each ant to a small degree, so the colony only has more of it. C was later derived, so it was never underivable."
+        },
+        {
+          "label": "The tempting trap",
+          "note": "D and E match on the first two conditions and on firefly wording. E says only that no one has managed the derivation \"so far\". That is a practical failure, not impossibility in principle.",
+          "highlight": "does not make a property emergent"
+        },
+        {
+          "label": "Confirm",
+          "note": "Only D says the derivation cannot be done even in principle. It is the only choice that meets all three conditions."
+        }
+      ],
+      "why": {
+        "A": "A resultant property: the whole's mass is the sum of the parts' masses.",
+        "B": "The component ants already have the capacity, so the second condition fails.",
+        "C": "The market collapse was later derived from traders' rules, so it was derivable and merely surprising.",
+        "D": "Correct. A whole-swarm property that no firefly has and that is underivable in principle.",
+        "E": "The trap. \"So far\" describes a failure to date, which the passage says does not make a property emergent."
+      }
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn",
+      "count": 3
+    },
     {
       "kind": "card",
       "title": "Cheat card",

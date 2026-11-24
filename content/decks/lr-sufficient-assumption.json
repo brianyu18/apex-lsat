@@ -5,9 +5,15 @@
   "group": "lr",
   "order": 3,
   "section": "LR",
-  "types": ["sufficient_assumption", "pseudo_sufficient_assumption"],
-  "lessonIds": ["u2/sufficient-assumption", "u3/link-assumption"],
-  "minutes": 7,
+  "types": [
+    "sufficient_assumption",
+    "pseudo_sufficient_assumption"
+  ],
+  "lessonIds": [
+    "u2/sufficient-assumption",
+    "u3/link-assumption"
+  ],
+  "minutes": 15,
   "slides": [
     {
       "kind": "idea",
@@ -33,16 +39,32 @@
       "kind": "method",
       "title": "Method",
       "steps": [
-        { "label": "Mark the new term", "do": "Find the idea in the conclusion that the premises never mention." },
-        { "label": "Find its partner", "do": "Find the premise idea it needs to connect to." },
-        { "label": "Write the bridge", "do": "Premise idea → conclusion idea. That is your prediction." },
-        { "label": "Check direction", "do": "The reversed bridge (conclusion idea → premise idea) is the most common trap." },
-        { "label": "Prove it", "do": "Add the choice to the premises. If the conclusion now must be true, you’re done." }
+        {
+          "label": "Mark the new term",
+          "do": "Find the idea in the conclusion that the premises never mention."
+        },
+        {
+          "label": "Find its partner",
+          "do": "Find the premise idea it needs to connect to."
+        },
+        {
+          "label": "Write the bridge",
+          "do": "Premise idea → conclusion idea. That is your prediction."
+        },
+        {
+          "label": "Check direction",
+          "do": "The reversed bridge (conclusion idea → premise idea) is the most common trap."
+        },
+        {
+          "label": "Prove it",
+          "do": "Add the choice to the premises. If the conclusion now must be true, you’re done."
+        }
       ]
     },
     {
       "kind": "worked",
-      "title": "Worked example",
+      "level": 1,
+      "title": "Level 1: the method, step by step",
       "stimulus": "Every painting in the Halvorsen collection was acquired by the museum before 1950. Therefore, every painting in the Halvorsen collection is insured under the museum's older policy.",
       "stem": "The conclusion follows logically if which one of the following is assumed?",
       "choices": {
@@ -54,10 +76,24 @@
       },
       "answer": "B",
       "steps": [
-        { "label": "New term", "note": "“Insured under the older policy” appears only in the conclusion.", "highlight": "is insured under the museum's older policy" },
-        { "label": "Its partner", "note": "The premise term is “acquired before 1950”.", "highlight": "was acquired by the museum before 1950" },
-        { "label": "Bridge", "note": "Acquired before 1950 → insured under the older policy." },
-        { "label": "Direction check", "note": "One choice will run it backwards: older policy → acquired before 1950. That proves nothing about Halvorsen paintings." }
+        {
+          "label": "New term",
+          "note": "“Insured under the older policy” appears only in the conclusion.",
+          "highlight": "is insured under the museum's older policy"
+        },
+        {
+          "label": "Its partner",
+          "note": "The premise term is “acquired before 1950”.",
+          "highlight": "was acquired by the museum before 1950"
+        },
+        {
+          "label": "Bridge",
+          "note": "Acquired before 1950 → insured under the older policy."
+        },
+        {
+          "label": "Direction check",
+          "note": "One choice will run it backwards: older policy → acquired before 1950. That proves nothing about Halvorsen paintings."
+        }
       ],
       "why": {
         "A": "Too weak. Some is not enough to cover every Halvorsen painting.",
@@ -68,16 +104,174 @@
       }
     },
     {
+      "kind": "worked",
+      "level": 2,
+      "title": "Level 2: a bridge from a premise to a prize",
+      "stimulus": "Critic: I watched the documentary Tidewater Ledger twice. Its director has said that she wanted the film to feel intimate. Nearly every scene is built from interviews with people who have a stake in the outcome of the story the film tells, and a documentary that relies on such interviews cannot be considered balanced. Therefore, Tidewater Ledger is not worthy of the festival's prize for journalism.",
+      "stem": "The critic's conclusion follows logically if which one of the following is assumed?",
+      "choices": {
+        "A": "Most documentaries that rely on interviews with interested parties are not worthy of the festival's prize for journalism.",
+        "B": "No documentary that fails to be balanced is worthy of the festival's prize for journalism.",
+        "C": "Any documentary that can be considered balanced is worthy of the festival's prize for journalism.",
+        "D": "A documentary can be considered balanced only if it avoids featuring people who have a stake in its subject matter.",
+        "E": "Tidewater Ledger is the only film in this year's festival that relies on interviews with interested parties."
+      },
+      "answer": "B",
+      "steps": [
+        {
+          "label": "Find the conclusion",
+          "note": "Tidewater Ledger does not deserve the journalism prize.",
+          "highlight": "Tidewater Ledger is not worthy of the festival's prize for journalism"
+        },
+        {
+          "label": "Mark the new term",
+          "note": "Worthy of the prize appears only in the conclusion. The premises talk about interviews and balance."
+        },
+        {
+          "label": "Follow the premises",
+          "note": "The film relies on interested-party interviews, so it cannot be considered balanced. The evidence stops at not balanced.",
+          "highlight": "a documentary that relies on such interviews cannot be considered balanced"
+        },
+        {
+          "label": "Write the bridge",
+          "note": "Not balanced leads to not worthy of the prize. That is the arrow the argument is missing."
+        },
+        {
+          "label": "Check direction and prove it",
+          "note": "C runs the arrow backwards: balanced leads to worthy. Add B to the premises and the conclusion must follow."
+        }
+      ],
+      "why": {
+        "A": "Too weak. Most documentaries leaves room for Tidewater Ledger to be an exception, and it skips the balance link.",
+        "B": "Correct. Add it to the premises: the film is not balanced, and no unbalanced film is worthy, so it is not worthy.",
+        "C": "Reversed bridge. It speaks of balanced films, but Tidewater Ledger is not balanced, so it proves nothing.",
+        "D": "Not sufficient. It restates the idea of the balance premise and never connects balance to the prize.",
+        "E": "Near miss. How many other films use such interviews says nothing about worthiness for the prize."
+      }
+    },
+    {
+      "kind": "worked",
+      "level": 3,
+      "title": "Level 3: a bridge about how much a retiree must sell",
+      "stimulus": "Financial adviser: A municipal bond is a sound holding for a retiree only if the retiree can sell it whenever cash is needed without accepting far less than the price paid. Rowan County bonds trade so thinly that anyone selling more than a few thousand dollars' worth at one time must accept far less than the price paid. The county itself has a stable budget and has never missed a payment. Therefore, Rowan County bonds are not a sound holding for retirees.",
+      "stem": "The conclusion follows logically if which one of the following is assumed?",
+      "choices": {
+        "A": "Most retirees who hold Rowan County bonds will at some point need to sell some of them.",
+        "B": "A retiree who holds municipal bonds that trade actively can sell them whenever cash is needed without accepting far less than the price paid.",
+        "C": "Rowan County bonds are the only municipal bonds that trade so thinly that large sales require accepting far less than the price paid.",
+        "D": "Every retiree who holds Rowan County bonds will at some point need to sell more than a few thousand dollars' worth of them at one time.",
+        "E": "A retiree who must accept far less than the price paid when selling a bond has made an unsound investment in that bond."
+      },
+      "answer": "D",
+      "steps": [
+        {
+          "label": "Find the conclusion",
+          "note": "Rowan bonds are not sound for retirees.",
+          "highlight": "Rowan County bonds are not a sound holding for retirees"
+        },
+        {
+          "label": "Read the test for soundness",
+          "note": "A bond is sound only if the retiree can sell whenever cash is needed without a big loss. That is the rule the Rowan bonds must fail.",
+          "highlight": "can sell it whenever cash is needed without accepting far less than the price paid"
+        },
+        {
+          "label": "Mark the missing term",
+          "note": "The Rowan premise bites only on sales above a few thousand dollars. Nothing says retirees will ever need to sell that much."
+        },
+        {
+          "label": "Write the bridge",
+          "note": "Retirees who hold Rowan bonds need to sell more than a few thousand dollars' worth at one time. Then they must take a big loss, and the soundness test fails."
+        },
+        {
+          "label": "Name the traps",
+          "note": "A is too weak: most retirees and some of them could mean a small sale. E gives a principle but never says a retiree will make a large sale. B runs the rule backwards."
+        },
+        {
+          "label": "Prove it",
+          "note": "Add D: every such retiree hits the heavy discount at some point, so the bonds fail the test. The key word is every."
+        }
+      ],
+      "why": {
+        "A": "Too weak. Most retirees and some of them allows small sales, which the thin trading does not hurt.",
+        "B": "Reversed. It speaks of actively traded bonds, so it says nothing about Rowan County bonds.",
+        "C": "Scope shift. Whether other bonds trade this thinly does not show retirees will need to sell large amounts of Rowan bonds.",
+        "D": "Correct. Every such retiree will meet the heavy discount, so the Rowan bonds fail the soundness test for retirees.",
+        "E": "Near miss. It says a forced discount makes the investment unsound, but never says a retiree will be forced to sell a large amount."
+      }
+    },
+    {
+      "kind": "worked",
+      "level": 4,
+      "title": "Level 4: a two-step chain that ends in a different term",
+      "stimulus": "Foundation memo: Every grant that the foundation renewed this year was reviewed by an outside auditor. The foundation's rules allow an outside audit only for grants whose recipients have filed complete financial statements. The rules also bar staff from waiving the audit requirement for any renewal. The foundation announced its renewals in a public report last month. A few of this year's renewal applicants were organizations formed within the past twelve months. So none of the grants renewed this year went to an organization formed within the past twelve months.",
+      "stem": "The conclusion follows logically if which one of the following is assumed?",
+      "choices": {
+        "A": "Every recipient that has filed complete financial statements was formed more than twelve months ago.",
+        "B": "Every organization formed more than twelve months ago has filed complete financial statements.",
+        "C": "Nearly every organization formed within the past twelve months has failed to file complete financial statements.",
+        "D": "Some of the grants renewed this year went to recipients that had filed complete financial statements.",
+        "E": "The foundation's staff read the financial statements of every recipient that applied for renewal this year."
+      },
+      "answer": "A",
+      "steps": [
+        {
+          "label": "Find the conclusion",
+          "note": "No renewed grant went to an organization formed in the last twelve months.",
+          "highlight": "none of the grants renewed this year went to an organization formed within the past twelve months"
+        },
+        {
+          "label": "Chain the premises",
+          "note": "Renewed leads to audited. Audited leads to the recipient having filed complete statements.",
+          "highlight": "allow an outside audit only for grants whose recipients have filed complete financial statements"
+        },
+        {
+          "label": "Mark the new term",
+          "note": "Formed within the past twelve months appears only in the conclusion. The chain ends at filed complete statements, one step short."
+        },
+        {
+          "label": "Write the bridge",
+          "note": "Filed complete statements leads to not formed in the last twelve months. Add it and the chain runs all the way."
+        },
+        {
+          "label": "Name the traps",
+          "note": "B is the reverse of the bridge. C is one word short: nearly every leaves room for a young organization that did file. D and E never link statements to age."
+        }
+      ],
+      "why": {
+        "A": "Correct. Renewed means audited, audited means statements filed, and filed means formed over a year ago, so none was a new organization.",
+        "B": "Reversed bridge. It starts from older organizations, so it says nothing about what a filer must be.",
+        "C": "One word short. Nearly every leaves room for a young organization that did file, so the chain can break.",
+        "D": "Not sufficient. That some renewals went to filers says nothing about the age of any recipient.",
+        "E": "Near miss. Staff reading statements does not show who filed them or how old the recipients are."
+      }
+    },
+    {
       "kind": "traps",
       "title": "Sufficient assumption traps",
       "traps": [
-        { "name": "Reversed bridge", "tell": "Connects the right terms in the wrong direction." },
-        { "name": "Too weak", "tell": "Uses some or most where the conclusion needs all." },
-        { "name": "Necessary only", "tell": "Something the argument needs but that doesn’t guarantee the conclusion." },
-        { "name": "Near miss", "tell": "Rules out one alternative (not the newer policy) without establishing the conclusion (the older policy)." }
+        {
+          "name": "Reversed bridge",
+          "tell": "Connects the right terms in the wrong direction."
+        },
+        {
+          "name": "Too weak",
+          "tell": "Uses some or most where the conclusion needs all."
+        },
+        {
+          "name": "Necessary only",
+          "tell": "Something the argument needs but that doesn’t guarantee the conclusion."
+        },
+        {
+          "name": "Near miss",
+          "tell": "Rules out one alternative (not the newer policy) without establishing the conclusion (the older policy)."
+        }
       ]
     },
-    { "kind": "practice", "title": "Your turn", "count": 3 },
+    {
+      "kind": "practice",
+      "title": "Your turn",
+      "count": 3
+    },
     {
       "kind": "card",
       "title": "Cheat card",

@@ -5,9 +5,13 @@
   "group": "lr",
   "order": 6,
   "section": "LR",
-  "types": ["evaluate"],
-  "lessonIds": ["u2/evaluate"],
-  "minutes": 5,
+  "types": [
+    "evaluate"
+  ],
+  "lessonIds": [
+    "u2/evaluate"
+  ],
+  "minutes": 13,
   "slides": [
     {
       "kind": "idea",
@@ -31,15 +35,28 @@
       "kind": "method",
       "title": "Method",
       "steps": [
-        { "label": "Find the gap", "do": "Same as weaken and strengthen: what does the argument take for granted?" },
-        { "label": "Predict", "do": "Phrase a question about that assumption: did anything else change? Is the sample typical?" },
-        { "label": "Answer it both ways", "do": "For each choice, imagine a yes and a no. Does one help the argument and the other hurt it?" },
-        { "label": "Drop the neutral ones", "do": "If neither answer changes how strong the argument is, the choice is out." }
+        {
+          "label": "Find the gap",
+          "do": "Same as weaken and strengthen: what does the argument take for granted?"
+        },
+        {
+          "label": "Predict",
+          "do": "Phrase a question about that assumption: did anything else change? Is the sample typical?"
+        },
+        {
+          "label": "Answer it both ways",
+          "do": "For each choice, imagine a yes and a no. Does one help the argument and the other hurt it?"
+        },
+        {
+          "label": "Drop the neutral ones",
+          "do": "If neither answer changes how strong the argument is, the choice is out."
+        }
       ]
     },
     {
       "kind": "worked",
-      "title": "Worked example",
+      "level": 1,
+      "title": "Level 1: the method, step by step",
       "stimulus": "Since the town of Ferris lowered the speed limit on Route 9 from 55 to 45 miles per hour, the number of accidents on Route 9 has dropped by a third. The town council concludes that the lower speed limit made Route 9 safer.",
       "stem": "The answer to which one of the following questions would be most useful in evaluating the council's conclusion?",
       "choices": {
@@ -51,10 +68,23 @@
       },
       "answer": "C",
       "steps": [
-        { "label": "Conclusion", "note": "The lower limit made the road safer: a causal claim.", "highlight": "the lower speed limit made Route 9 safer" },
-        { "label": "Gap", "note": "Fewer accidents could have another cause, like less traffic." },
-        { "label": "Answer C both ways", "note": "Yes, traffic fell: the drop may be due to fewer cars, so the argument weakens. No: the drop is more likely due to the limit, so it strengthens." },
-        { "label": "Check the rest", "note": "Approval, road length, other roads and past decisions don’t change the strength of the argument however they are answered." }
+        {
+          "label": "Conclusion",
+          "note": "The lower limit made the road safer: a causal claim.",
+          "highlight": "the lower speed limit made Route 9 safer"
+        },
+        {
+          "label": "Gap",
+          "note": "Fewer accidents could have another cause, like less traffic."
+        },
+        {
+          "label": "Answer C both ways",
+          "note": "Yes, traffic fell: the drop may be due to fewer cars, so the argument weakens. No: the drop is more likely due to the limit, so it strengthens."
+        },
+        {
+          "label": "Check the rest",
+          "note": "Approval, road length, other roads and past decisions don’t change the strength of the argument however they are answered."
+        }
       ],
       "why": {
         "A": "Approval doesn't bear on whether the road became safer.",
@@ -64,7 +94,154 @@
         "E": "The council's history doesn't affect whether this change worked."
       }
     },
-    { "kind": "practice", "title": "Your turn", "count": 3 },
+    {
+      "kind": "worked",
+      "level": 2,
+      "title": "Level 2: a before-and-after claim with no comparison group",
+      "stimulus": "Dr. Okafor: Of the patients at the Larkspur clinic who completed a six-week mindfulness course, nearly all rated their stress as much lower at the end of the course than at the start. Patients rated their stress on a standard ten-point scale at the first and last sessions. Many of them also said they felt more in control of their daily lives. I conclude that taking the course lowers a patient's stress.",
+      "stem": "The answer to which one of the following questions would be most useful in evaluating Dr. Okafor's conclusion?",
+      "choices": {
+        "A": "Were the course sessions held in the morning rather than in the evening, and at the same hour each week?",
+        "B": "Was the fee for the course higher than the fees other clinics charge for similar courses?",
+        "C": "Has the Larkspur clinic offered a course like this one in earlier years?",
+        "D": "Is the method taught in the course also taught in clinics in other countries?",
+        "E": "Did the stress ratings of patients who did not take the course also fall over the same six weeks?"
+      },
+      "answer": "E",
+      "steps": [
+        {
+          "label": "Find the conclusion",
+          "note": "The course lowers stress.",
+          "highlight": "taking the course lowers a patient's stress"
+        },
+        {
+          "label": "Find the evidence",
+          "note": "Stress ratings were lower at the end than at the start.",
+          "highlight": "rated their stress as much lower at the end of the course than at the start"
+        },
+        {
+          "label": "Find the gap",
+          "note": "The claim is before and after, with no comparison group. Stress may fall over six weeks even without the course."
+        },
+        {
+          "label": "Answer E both ways",
+          "note": "Yes, ratings fell for people who did not take it: the drop is not due to the course, so the argument weakens. No: the course looks like the cause, so it strengthens."
+        },
+        {
+          "label": "Drop the neutral ones",
+          "note": "Session time, fee, past courses and use abroad do not change how strong the argument is, however they are answered."
+        }
+      ],
+      "why": {
+        "A": "Neither answer changes whether the course lowered stress.",
+        "B": "Fees at other clinics do not bear on the effect of this course.",
+        "C": "Whether earlier courses existed is neutral either way.",
+        "D": "Use in other countries does not show what happened to these patients.",
+        "E": "Correct. A yes weakens the causal claim and a no supports it."
+      }
+    },
+    {
+      "kind": "worked",
+      "level": 3,
+      "title": "Level 3: allows is not the same as will serve",
+      "stimulus": "Consultant: The Bellmont County library system should replace its printed periodical subscriptions with digital ones. Each printed copy is read by an average of about three patrons before it is discarded. A digital license, by contrast, allows any number of patrons to read the periodical at the same time, and it costs only 20 percent more than a printed subscription. The system's board has asked for a recommendation based on cost per patron served. Clearly, then, each dollar spent on a digital subscription will serve more patrons than each dollar spent on a printed one.",
+      "stem": "The answer to which one of the following questions would be most useful in evaluating the consultant's argument?",
+      "choices": {
+        "A": "Do other library systems of similar size spend more per patron on periodicals than the Bellmont County system does at present?",
+        "B": "Would most of the patrons who now read the printed copies be willing to read the same periodicals on a screen?",
+        "C": "Is the price of a digital license lower than the price that other library systems pay for the same periodicals?",
+        "D": "Do the periodicals that the system subscribes to include more weekly titles than monthly titles?",
+        "E": "Does the board plan to review its periodical subscriptions again within the next five years?"
+      },
+      "answer": "B",
+      "steps": [
+        {
+          "label": "Find the conclusion",
+          "note": "Digital serves more patrons per dollar.",
+          "highlight": "each dollar spent on a digital subscription will serve more patrons than each dollar spent on a printed one"
+        },
+        {
+          "label": "Find the evidence",
+          "note": "Digital allows unlimited readers at a small price premium.",
+          "highlight": "allows any number of patrons to read the periodical at the same time"
+        },
+        {
+          "label": "Find the gap",
+          "note": "Allows is not will serve. The argument counts everyone who could read a digital copy as a patron served. It assumes the current readers will actually use a screen."
+        },
+        {
+          "label": "Answer B both ways",
+          "note": "Yes, most would: digital reaches many patrons and the claim holds. No, few would: digital serves fewer patrons per dollar and the claim fails."
+        },
+        {
+          "label": "Name the traps",
+          "note": "A and C are about money and other systems. The prices are already given, so either answer leaves the comparison as it was. D and E are neutral too."
+        }
+      ],
+      "why": {
+        "A": "Other systems' spending does not change the cost per patron served here.",
+        "B": "Correct. A yes supports the claim and a no undermines it, because the count of patrons served depends on this.",
+        "C": "The prices are already given in the argument, so what other systems pay changes nothing.",
+        "D": "The mix of weekly and monthly titles does not alter the comparison either way.",
+        "E": "The board's review schedule does not affect cost per patron served."
+      }
+    },
+    {
+      "kind": "worked",
+      "level": 4,
+      "title": "Level 4: before or after? One word decides",
+      "stimulus": "Auditor's report: Last year the city audited twenty-four of its departments. Each of the nine audited departments that had adopted the new purchasing software in the preceding two years had a lower rate of billing errors than the average for all twenty-four audited departments. The software was available to every department, and each department's head chose whether to adopt it. The software vendor offered the same terms to every department. The auditors counted every billing error found in each department's records for the year. We can conclude that adopting the software reduces a department's rate of billing errors.",
+      "stem": "The answer to which one of the following questions would be most useful in evaluating the auditor's conclusion?",
+      "choices": {
+        "A": "After adopting the software, did the nine adopting departments have lower billing-error rates than the audited average?",
+        "B": "Did the software cost the city more to buy and to install than the purchasing system it replaced?",
+        "C": "Did the heads of the nine departments that adopted the software say, when asked, that they were satisfied with it?",
+        "D": "Before adopting the software, did the nine adopting departments already have lower billing-error rates than the audited average?",
+        "E": "Were all twenty-four of the audited departments audited during the same month of last year?"
+      },
+      "answer": "D",
+      "steps": [
+        {
+          "label": "Find the conclusion",
+          "note": "Adopting the software cuts billing errors.",
+          "highlight": "adopting the software reduces a department's rate of billing errors"
+        },
+        {
+          "label": "Find the evidence",
+          "note": "The adopters had lower error rates than the audited average.",
+          "highlight": "had a lower rate of billing errors than the average for all twenty-four audited departments"
+        },
+        {
+          "label": "Find the gap",
+          "note": "Each head chose whether to adopt. Departments with few errors may have been the ones to adopt, so the low rates may predate the software.",
+          "highlight": "each department's head chose whether to adopt it"
+        },
+        {
+          "label": "Answer D both ways",
+          "note": "Yes, they were already lower: the software may have done nothing, so the argument weakens. No: the low rates came after adoption, so it strengthens."
+        },
+        {
+          "label": "Name the one-word trap",
+          "note": "A swaps Before for After. The stimulus already says the adopters were lower at the audit, so no answer to A can change anything."
+        },
+        {
+          "label": "Drop the neutral ones",
+          "note": "Cost, satisfaction and audit timing do not bear on whether the software caused the low rates."
+        }
+      ],
+      "why": {
+        "A": "Answered already in the stimulus. The word After makes it useless, since the adopters' lower rates at the audit are given.",
+        "B": "Cost does not bear on whether the software reduced errors.",
+        "C": "Opinions of the heads do not show what caused the error rates, whichever way they are answered.",
+        "D": "Correct. A yes shows self-selection and weakens the argument. A no supports it.",
+        "E": "The timing of audits is neutral for the claim about the software."
+      }
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn",
+      "count": 3
+    },
     {
       "kind": "card",
       "title": "Cheat card",

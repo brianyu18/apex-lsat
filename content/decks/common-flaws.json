@@ -5,9 +5,17 @@
   "group": "foundations",
   "order": 3,
   "section": "LR",
-  "types": ["flaw"],
-  "lessonIds": ["u1/flaws-1", "u1/flaws-2", "u1/causation-1", "u3/sampling", "u3/part-v-whole"],
-  "minutes": 9,
+  "types": [
+    "flaw"
+  ],
+  "lessonIds": [
+    "u1/flaws-1",
+    "u1/flaws-2",
+    "u1/causation-1",
+    "u3/sampling",
+    "u3/part-v-whole"
+  ],
+  "minutes": 17,
   "slides": [
     {
       "kind": "idea",
@@ -20,25 +28,120 @@
     {
       "kind": "table",
       "title": "Twelve flaws",
-      "head": ["Flaw", "What it looks like", "How the right answer says it"],
+      "head": [
+        "Flaw",
+        "What it looks like",
+        "How the right answer says it"
+      ],
       "rows": [
-        ["Sufficient vs necessary", "A requirement is treated as a guarantee, or the reverse.", "takes a condition required for X to be enough for X"],
-        ["Correlation to cause", "Two things go together, so one must cause the other.", "infers a causal link from a mere correlation"],
-        ["Overlooked alternative", "One explanation is assumed to be the only one.", "fails to consider other possible explanations"],
-        ["Bad sample", "A small or unusual group stands in for everyone.", "relies on a sample that may be unrepresentative"],
-        ["Part and whole", "What is true of the parts is said of the whole, or the reverse.", "assumes what holds for each part holds for the whole"],
-        ["Shifting term", "A key word changes meaning partway through.", "uses a key term in two different senses"],
-        ["Attacking the source", "The person is criticized instead of the claim.", "attacks the proponent rather than the argument"],
-        ["Straw man", "The opposing view is distorted before it is rejected.", "misrepresents the position it criticizes"],
-        ["Circular", "The conclusion is assumed in the premises.", "presupposes what it sets out to establish"],
-        ["Absence of evidence", "Not proven false is treated as true, or the reverse.", "treats lack of evidence against a claim as proof of it"],
-        ["Percent vs number", "A rate is used to conclude about an amount, or the reverse.", "confuses a proportion with an absolute number"],
-        ["Bad authority", "An expert or the majority is trusted outside their field.", "relies on an authority outside its area of expertise"]
+        [
+          "Sufficient vs necessary",
+          "A requirement is treated as a guarantee, or the reverse.",
+          "takes a condition required for X to be enough for X"
+        ],
+        [
+          "Correlation to cause",
+          "Two things go together, so one must cause the other.",
+          "infers a causal link from a mere correlation"
+        ],
+        [
+          "Overlooked alternative",
+          "One explanation is assumed to be the only one.",
+          "fails to consider other possible explanations"
+        ],
+        [
+          "Bad sample",
+          "A small or unusual group stands in for everyone.",
+          "relies on a sample that may be unrepresentative"
+        ],
+        [
+          "Part and whole",
+          "What is true of the parts is said of the whole, or the reverse.",
+          "assumes what holds for each part holds for the whole"
+        ],
+        [
+          "Shifting term",
+          "A key word changes meaning partway through.",
+          "uses a key term in two different senses"
+        ],
+        [
+          "Attacking the source",
+          "The person is criticized instead of the claim.",
+          "attacks the proponent rather than the argument"
+        ],
+        [
+          "Straw man",
+          "The opposing view is distorted before it is rejected.",
+          "misrepresents the position it criticizes"
+        ],
+        [
+          "Circular",
+          "The conclusion is assumed in the premises.",
+          "presupposes what it sets out to establish"
+        ],
+        [
+          "Absence of evidence",
+          "Not proven false is treated as true, or the reverse.",
+          "treats lack of evidence against a claim as proof of it"
+        ],
+        [
+          "Percent vs number",
+          "A rate is used to conclude about an amount, or the reverse.",
+          "confuses a proportion with an absolute number"
+        ],
+        [
+          "Bad authority",
+          "An expert or the majority is trusted outside their field.",
+          "relies on an authority outside its area of expertise"
+        ]
       ]
     },
     {
       "kind": "worked",
-      "title": "Name it, then match it",
+      "level": 1,
+      "title": "Level 1: a small, unusual group stands in for everyone",
+      "stimulus": "Gym manager: Last month we asked everyone who attended our 6 a.m. weekday class whether they were happy with our equipment, and 90 percent said they were. So it is clear that the great majority of all our members are happy with our equipment.",
+      "stem": "The manager's reasoning is flawed because it",
+      "choices": {
+        "A": "assumes that members who are happy with the equipment will keep renewing their memberships year after year",
+        "B": "confuses the percentage of members who are happy with the number of members who are happy",
+        "C": "overlooks the possibility that the quality of the equipment has changed since members joined",
+        "D": "draws a conclusion about all members from a group that may differ from them",
+        "E": "presupposes the truth of the very claim about members' happiness that it sets out to establish"
+      },
+      "answer": "D",
+      "steps": [
+        {
+          "label": "Find the conclusion",
+          "note": "“So it is clear” marks it: nearly all members are happy. The claim is about all members.",
+          "highlight": "the great majority of all our members are happy with our equipment"
+        },
+        {
+          "label": "Find the evidence",
+          "note": "Only people at one 6 a.m. weekday class were asked. That is a small slice of the membership.",
+          "highlight": "everyone who attended our 6 a.m. weekday class"
+        },
+        {
+          "label": "Name the flaw",
+          "note": "Bad sample. Early-morning regulars may use the gym more, or differently, than other members."
+        },
+        {
+          "label": "Match and eliminate",
+          "note": "Look for “a group that may not be representative”. The other choices name flaws the manager did not commit."
+        }
+      ],
+      "why": {
+        "A": "Renewals are out of scope. The argument is about being happy now, not about staying.",
+        "B": "The argument uses a percentage in the premise and a proportion (“great majority”) in the conclusion. It never jumps to a head count.",
+        "C": "Nothing in the argument depends on when members joined or on any change in the equipment.",
+        "D": "Correct. Members of one early class may differ from the rest in ways that matter to how they rate the equipment.",
+        "E": "Not circular. The survey results are offered as evidence; the conclusion is not simply restated."
+      }
+    },
+    {
+      "kind": "worked",
+      "level": 2,
+      "title": "Level 2: Name it, then match it",
       "stimulus": "Market analyst: Every one of last year's five best-selling phones had a screen larger than six inches. So any phone maker that wants a best seller must make sure its phones have screens larger than six inches.",
       "stem": "The reasoning in the analyst's argument is flawed because the argument",
       "choices": {
@@ -50,10 +153,24 @@
       },
       "answer": "A",
       "steps": [
-        { "label": "Conclusion", "note": "A maker that wants a best seller must use a large screen. “Must” makes large screens a requirement.", "highlight": "must make sure its phones have screens larger than six inches" },
-        { "label": "Evidence", "note": "Five best sellers all had large screens. That shows large screens were common among winners, nothing more.", "highlight": "Every one of last year's five best-selling phones had a screen larger than six inches." },
-        { "label": "Name the flaw", "note": "Sharing a feature does not make the feature necessary. A small-screen phone could still sell well. This is the sufficient-necessary family." },
-        { "label": "Watch the twin", "note": "The trap will be the reverse error: claiming a large screen guarantees a best seller. The argument never says that." }
+        {
+          "label": "Conclusion",
+          "note": "A maker that wants a best seller must use a large screen. “Must” makes large screens a requirement.",
+          "highlight": "must make sure its phones have screens larger than six inches"
+        },
+        {
+          "label": "Evidence",
+          "note": "Five best sellers all had large screens. That shows large screens were common among winners, nothing more.",
+          "highlight": "Every one of last year's five best-selling phones had a screen larger than six inches."
+        },
+        {
+          "label": "Name the flaw",
+          "note": "Sharing a feature does not make the feature necessary. A small-screen phone could still sell well. This is the sufficient-necessary family."
+        },
+        {
+          "label": "Watch the twin",
+          "note": "The trap will be the reverse error: claiming a large screen guarantees a best seller. The argument never says that."
+        }
       ],
       "why": {
         "A": "Correct. The argument moves from “the winners had it” to “you must have it”.",
@@ -61,6 +178,98 @@
         "C": "Where the phones were sold does not touch the leap from common to required.",
         "D": "Reversal. The argument treats large screens as necessary, not as enough.",
         "E": "The analyst attacks no one."
+      }
+    },
+    {
+      "kind": "worked",
+      "level": 3,
+      "title": "Level 3: a rate used to predict a total",
+      "stimulus": "Agronomist: Drip irrigation delivers water straight to plant roots, and it lowers the water a farm uses on each acre of crops by about one third. Over the winter, every farm in the Brindle Valley Cooperative switched to drip irrigation. The cooperative grows mostly tomatoes, peppers, and squash. Because the cooperative's total water use is just the sum of what its member farms use, the cooperative's total water use next year will be about one third lower than it was last year.",
+      "stem": "The agronomist's reasoning is flawed because it",
+      "choices": {
+        "A": "assumes that whatever is true of each member farm must also be true of the cooperative taken as a group",
+        "B": "draws a conclusion about total water use from evidence about water use on each acre of crops",
+        "C": "overlooks the possibility that other methods of saving water are cheaper than drip irrigation",
+        "D": "takes for granted that every farm in the cooperative completed the switch to drip irrigation",
+        "E": "concludes that drip irrigation is the most effective way for a farm to save water"
+      },
+      "answer": "B",
+      "steps": [
+        {
+          "label": "Find the conclusion",
+          "note": "Total water use will fall by about one third. “Total” is the key word.",
+          "highlight": "the cooperative's total water use next year will be about one third lower than it was last year"
+        },
+        {
+          "label": "Find the evidence",
+          "note": "Drip irrigation cuts use on each acre by a third. That is a rate, not a total.",
+          "highlight": "lowers the water a farm uses on each acre of crops by about one third"
+        },
+        {
+          "label": "Name the flaw",
+          "note": "Percent vs number. A lower rate per acre gives a lower total only if the acreage stays the same. The cooperative could plant more."
+        },
+        {
+          "label": "Name the trap",
+          "note": "Choice A looks like part and whole because the argument talks about summing farms. But summing is done correctly. The real slip is the rate-to-total jump."
+        },
+        {
+          "label": "Eliminate and confirm",
+          "note": "C and E bring in cost and “best method”, which the argument never discusses. D contradicts the text, which says every farm switched."
+        }
+      ],
+      "why": {
+        "A": "The argument adds up the farms correctly, and the per-acre saving does carry to the group. The word “sum” shows no part-whole leap; the error is about acres, not about parts.",
+        "B": "Correct. A saving on each acre fits a larger total if the cooperative plants more acres next year.",
+        "C": "Cost and rival methods are out of scope. The argument only predicts water use.",
+        "D": "The stimulus states that every farm switched, so nothing is taken for granted here.",
+        "E": "The agronomist makes no ranking of methods. This describes a conclusion the argument does not draw."
+      }
+    },
+    {
+      "kind": "worked",
+      "level": 4,
+      "title": "Level 4: a requirement treated as a guarantee, hidden in a chain",
+      "stimulus": "Archivist: Our certification policy has two parts. First, a document can be certified as authentic only if its paper was manufactured before the date it bears. Second, every document certified as authentic is added to the permanent collection. The Calloway letter bears an 1840 date, and chemical analysis has shown that its paper was manufactured in 1838. The analysis also found no sign of later tampering with the ink or the paper. Since the paper predates the date on the letter, the Calloway letter will be added to the permanent collection.",
+      "stem": "The archivist's reasoning is flawed because it",
+      "choices": {
+        "A": "takes a condition that is enough for a document to be added to the permanent collection to be a condition required for its being added",
+        "B": "assumes that a document is authentic whenever the archive has chosen to add it to the permanent collection",
+        "C": "fails to consider that a document whose paper was made after the date it bears might still be added to the permanent collection",
+        "D": "relies on a chemical analysis without showing that such analyses are reliable in dating paper",
+        "E": "takes a condition that a document must meet in order to be certified as authentic to be a condition that guarantees certification"
+      },
+      "answer": "E",
+      "steps": [
+        {
+          "label": "Find the conclusion",
+          "note": "The letter will be added to the permanent collection.",
+          "highlight": "the Calloway letter will be added to the permanent collection"
+        },
+        {
+          "label": "Translate the policy",
+          "note": "Certified → paper older than date. Certified → added. The first arrow ends in the paper test, so the paper test is a requirement.",
+          "highlight": "a document can be certified as authentic only if its paper was manufactured before the date it bears"
+        },
+        {
+          "label": "Spot the slide",
+          "note": "The letter passes the paper test. The argument then treats certification as settled. Passing a requirement does not guarantee certification."
+        },
+        {
+          "label": "Name the trap",
+          "note": "Choices A and E both talk about a condition and a result. A describes the second link, which the argument uses correctly. E describes the first link, which it misuses."
+        },
+        {
+          "label": "The word that kills A",
+          "note": "A says the argument treats a sufficient condition as “required”. The second policy line is used in its true direction, so A is not what happened. E says “guarantees”, and that is the actual slip."
+        }
+      ],
+      "why": {
+        "A": "Reversal of the wrong link. The argument uses “certified → added” in the correct direction. The word “required” is never applied to it.",
+        "B": "The argument never goes from being added back to being authentic. It runs the other way.",
+        "C": "This describes the negation error, which the argument does not commit. It does not say that only certified documents are added.",
+        "D": "The accuracy of the analysis is taken as given. Questioning it is out of scope for a flaw in the reasoning.",
+        "E": "Correct. Paper older than the date is something certification requires. The archivist treats it as enough to guarantee certification."
       }
     },
     {

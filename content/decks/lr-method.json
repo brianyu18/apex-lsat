@@ -5,9 +5,13 @@
   "group": "lr",
   "order": 13,
   "section": "LR",
-  "types": ["method_of_reasoning"],
-  "lessonIds": ["u2/method-of-reasoning"],
-  "minutes": 5,
+  "types": [
+    "method_of_reasoning"
+  ],
+  "lessonIds": [
+    "u2/method-of-reasoning"
+  ],
+  "minutes": 13,
   "slides": [
     {
       "kind": "idea",
@@ -31,15 +35,70 @@
       "kind": "method",
       "title": "Method",
       "steps": [
-        { "label": "Map in plain words", "do": "“She takes his claim, finds three similar cases where it failed, and says it will fail here too.”" },
-        { "label": "Name the move", "do": "Counterexample, analogy, similar cases, elimination, attacking a premise, showing a consequence is absurd." },
-        { "label": "Translate the choices", "do": "For each part of a choice, point to the sentence it describes." },
-        { "label": "Kill on one mismatch", "do": "A choice with one part that didn’t happen is wrong, however good the rest is." }
+        {
+          "label": "Map in plain words",
+          "do": "“She takes his claim, finds three similar cases where it failed, and says it will fail here too.”"
+        },
+        {
+          "label": "Name the move",
+          "do": "Counterexample, analogy, similar cases, elimination, attacking a premise, showing a consequence is absurd."
+        },
+        {
+          "label": "Translate the choices",
+          "do": "For each part of a choice, point to the sentence it describes."
+        },
+        {
+          "label": "Kill on one mismatch",
+          "do": "A choice with one part that didn’t happen is wrong, however good the rest is."
+        }
       ]
     },
     {
       "kind": "worked",
-      "title": "Worked example",
+      "level": 1,
+      "title": "Level 1: one case against a general rule",
+      "stimulus": "Ravi: Every restaurant that stays successful for years has a famous chef. That is what keeps the crowds coming. Mina: That cannot be right. Harper's Diner has been packed every night for ten years, and its cook is unknown outside the neighborhood.",
+      "stem": "Mina responds to Ravi's claim by",
+      "choices": {
+        "A": "questioning Ravi's reasons for making the claim",
+        "B": "showing that Ravi's claim, taken seriously, would have an absurd result",
+        "C": "pointing out that Ravi has offered no evidence for the claim",
+        "D": "drawing an analogy between restaurants and some other kind of business",
+        "E": "citing a specific case that conflicts with Ravi's general claim"
+      },
+      "answer": "E",
+      "steps": [
+        {
+          "label": "Ravi's claim",
+          "note": "A general rule: lasting restaurants all have famous chefs.",
+          "highlight": "Every restaurant that stays successful for years has a famous chef"
+        },
+        {
+          "label": "Mina's move",
+          "note": "She names one restaurant. It has lasted and its cook is unknown.",
+          "highlight": "Harper's Diner has been packed every night for ten years"
+        },
+        {
+          "label": "Name the move",
+          "note": "One case that breaks a general rule is a counterexample."
+        },
+        {
+          "label": "Translate the choices",
+          "note": "In E, 'specific case' is Harper's Diner and 'general claim' is Ravi's rule. Every part matches."
+        }
+      ],
+      "why": {
+        "A": "Mina never mentions Ravi's motives or reasons for speaking.",
+        "B": "Mina does not follow Ravi's claim to an absurd result. She gives a real case against it.",
+        "C": "Ravi did give a reason, and Mina does not complain about missing evidence. She offers evidence of her own.",
+        "D": "No other type of business appears in the exchange, so there is no analogy.",
+        "E": "Correct. Harper's Diner is a specific case that conflicts with Ravi's general rule."
+      }
+    },
+    {
+      "kind": "worked",
+      "level": 2,
+      "title": "Level 2: the method, step by step",
       "stimulus": "Mayor Duval says the new stadium will pay for itself through increased tax revenue. But the three most recent stadiums built in comparable cities all generated far less tax revenue than their supporters predicted. There is little reason to expect Duval's stadium to do better.",
       "stem": "The argument proceeds by",
       "choices": {
@@ -51,9 +110,20 @@
       },
       "answer": "B",
       "steps": [
-        { "label": "The claim attacked", "note": "Duval predicts the stadium will pay for itself.", "highlight": "the new stadium will pay for itself through increased tax revenue" },
-        { "label": "The support", "note": "Three similar stadiums fell short of predictions.", "highlight": "the three most recent stadiums built in comparable cities" },
-        { "label": "Name the move", "note": "Comparable cases are used to doubt a prediction." }
+        {
+          "label": "The claim attacked",
+          "note": "Duval predicts the stadium will pay for itself.",
+          "highlight": "the new stadium will pay for itself through increased tax revenue"
+        },
+        {
+          "label": "The support",
+          "note": "Three similar stadiums fell short of predictions.",
+          "highlight": "the three most recent stadiums built in comparable cities"
+        },
+        {
+          "label": "Name the move",
+          "note": "Comparable cases are used to doubt a prediction."
+        }
       ],
       "why": {
         "A": "The mayor's motives are never mentioned.",
@@ -63,7 +133,104 @@
         "E": "The mayor gave no current figures; the argument is about future revenue."
       }
     },
-    { "kind": "practice", "title": "Your turn", "count": 3 },
+    {
+      "kind": "worked",
+      "level": 3,
+      "title": "Level 3: elimination, with a tempting look-alike",
+      "stimulus": "Lena: The office coffee machine stopped working sometime between Friday evening and Monday morning. Only three explanations are plausible: the cleaning crew damaged it, a power surge fried it, or it simply wore out. It was working at five o'clock on Friday. The building's security log shows that the crew did not enter at any point that weekend. And the other equipment on the same circuit is running normally, which it would not be after a surge. So the machine must have worn out.",
+      "stem": "Lena's argument proceeds by",
+      "choices": {
+        "A": "rejecting two of three possible explanations on the basis of specific evidence, and then accepting the remaining one",
+        "B": "inferring that one event caused another from the fact that the second followed the first",
+        "C": "dismissing two of the three possible explanations because no one has yet found any direct evidence in their favor",
+        "D": "showing that two of the three possible explanations are inconsistent with each other and so cannot both be true",
+        "E": "applying a general rule about how office equipment fails to the case of one particular machine"
+      },
+      "answer": "A",
+      "steps": [
+        {
+          "label": "Map the claim",
+          "note": "A machine broke. Three explanations are on the table, and the third is the one Lena accepts.",
+          "highlight": "the cleaning crew damaged it, a power surge fried it, or it simply wore out"
+        },
+        {
+          "label": "Track each explanation",
+          "note": "Crew: the log says it never came in. Surge: nearby equipment is fine. Each is ruled out by a specific fact.",
+          "highlight": "the other equipment on the same circuit is running normally"
+        },
+        {
+          "label": "Name the move",
+          "note": "Ruling out alternatives one by one and keeping what is left is elimination."
+        },
+        {
+          "label": "Test the near traps",
+          "note": "C sounds close, but Lena rules explanations out with evidence against them, not with a lack of evidence for them. B fails too: the timing only sets the window and is not offered as proof of cause."
+        },
+        {
+          "label": "Confirm",
+          "note": "A matches every part: two rejected, on specific evidence, and the third accepted."
+        }
+      ],
+      "why": {
+        "A": "Correct. The crew and the surge are each rejected on specific evidence, and wearing out is accepted as what remains.",
+        "B": "The weekend timing only sets the window for the failure. Lena does not argue that something caused the failure because it came just before it.",
+        "C": "Tempting, but Lena has evidence against each explanation (the log, the working equipment). She does not dismiss them for lacking support.",
+        "D": "Lena never compares the explanations with each other. She tests each one against the facts.",
+        "E": "No general rule about equipment is stated or applied."
+      }
+    },
+    {
+      "kind": "worked",
+      "level": 4,
+      "title": "Level 4: granting the evidence while taking away its force",
+      "stimulus": "Maya: Of the cities that installed speed cameras last decade, nearly all saw traffic deaths fall in the following years. Clearly, speed cameras save lives. Jon: Look at when cities install them. They usually do so right after an unusually deadly stretch of accidents, and any unusually bad stretch tends to be followed by a milder one no matter what is done. A fall in deaths is exactly what we would see in those cities even if the cameras did nothing at all. I'm not saying the cameras are useless, only that your figures do not show that they work.",
+      "stem": "Jon responds to Maya's argument by",
+      "choices": {
+        "A": "disputing the accuracy of the figures Maya cites",
+        "B": "granting Maya's figures but showing that they are inconsistent with her conclusion",
+        "C": "granting Maya's figures but giving a reason to expect them even if her conclusion were false",
+        "D": "citing a parallel case in which the same reasoning leads to a conclusion that is plainly false",
+        "E": "granting Maya's figures but arguing that they support a conclusion opposite to hers"
+      },
+      "answer": "C",
+      "steps": [
+        {
+          "label": "Maya's claim",
+          "note": "Deaths fell in camera cities, so cameras save lives.",
+          "highlight": "Clearly, speed cameras save lives."
+        },
+        {
+          "label": "Does Jon grant the figures?",
+          "note": "Yes. He never questions the drop. He says it is what we would expect anyway.",
+          "highlight": "exactly what we would see in those cities even if the cameras did nothing at all"
+        },
+        {
+          "label": "Find his reason",
+          "note": "Cities install cameras after a bad stretch, and bad stretches tend to ease on their own.",
+          "highlight": "any unusually bad stretch tends to be followed by a milder one no matter what is done"
+        },
+        {
+          "label": "Name the move",
+          "note": "He shows the evidence would appear whether or not the conclusion were true. So it does not support the conclusion. He does not claim the conclusion is false."
+        },
+        {
+          "label": "Kill the near twins",
+          "note": "B says 'inconsistent', but Jon says the figures fit cameras doing nothing, not that they clash with Maya's view. E says 'opposite', but Jon says he is not calling the cameras useless."
+        }
+      ],
+      "why": {
+        "A": "Jon accepts the figures. He only argues about what they show.",
+        "B": "Close, but 'inconsistent' is wrong. Jon says the figures are expected even if cameras do nothing. He does not say they conflict with Maya's conclusion.",
+        "C": "Correct. He grants the drop and gives a reason to expect it without any effect from cameras.",
+        "D": "Jon cites no parallel case. His reason is about when cities install cameras.",
+        "E": "Jon states he is not saying the cameras are useless, so he does not argue for the opposite conclusion."
+      }
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn",
+      "count": 3
+    },
     {
       "kind": "card",
       "title": "Cheat card",

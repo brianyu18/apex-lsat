@@ -12,7 +12,7 @@
     "u4/question-types-1",
     "u4/rc-highlighting-and-hard-passages"
   ],
-  "minutes": 5,
+  "minutes": 13,
   "slides": [
     {
       "kind": "idea",
@@ -57,7 +57,8 @@
     },
     {
       "kind": "worked",
-      "title": "Worked example",
+      "level": 1,
+      "title": "Level 1: the method, step by step",
       "passage": {
         "paragraphs": [
           "The letters of the eighteenth-century merchant Ottilie Brandt survive in two collections. The larger, held in Bremen, contains her business correspondence; the smaller, in Riga, contains letters to her sister.",
@@ -90,6 +91,156 @@
         "C": "Profit or loss is never mentioned.",
         "D": "The Bremen collection is the larger one.",
         "E": "Historians relied on the Bremen letters, and the Riga letters were catalogued only in 1998, so this has the order backwards."
+      }
+    },
+    {
+      "kind": "worked",
+      "level": 2,
+      "title": "Level 2: right names, stretched comparison",
+      "passage": {
+        "paragraphs": [
+          "Sociologists have long observed that people who live in a neighborhood for many years tend to trust their neighbors more than newcomers do. The usual explanation is simple familiarity: over time, residents learn who can be relied on to return a borrowed tool, watch a child, or collect the mail. Familiarity, on this account, is a product of repeated contact, and repeated contact is a product of time.",
+          "A survey of five hundred households in the town of Marlow challenges the second link in that chain. Researchers asked residents how long they had lived on their street, how often they spoke with neighbors, and how much they trusted them. Length of residence by itself predicted trust only weakly. Frequency of conversation predicted it far better, and residents who had arrived within the past two years but spoke with neighbors weekly reported more trust than long-term residents who rarely did.",
+          "The researchers do not claim that time is irrelevant, since long residence makes frequent contact more likely. They note, however, that a street layout with shared front steps and few fences produced frequent conversation even among newcomers. Their survey did not measure whether the trust residents reported was justified by their neighbors' actual conduct."
+        ]
+      },
+      "stem": "According to the passage, the Marlow survey found that",
+      "choices": {
+        "A": "residents who had lived on their street longest reported the highest level of trust, however often they spoke with their neighbors",
+        "B": "newcomers who spoke with their neighbors weekly reported more trust than any resident who had lived on the street for a longer time",
+        "C": "the trust that residents reported was generally justified by the way in which their neighbors actually behaved",
+        "D": "how often residents spoke with their neighbors predicted trust better than how long they had lived on the street",
+        "E": "street layouts with shared front steps raised trust directly, quite apart from any effect they had on how often neighbors spoke"
+      },
+      "answer": "D",
+      "steps": [
+        {
+          "label": "Find the spot",
+          "note": "The stem names the Marlow survey. Its findings are in paragraph 2, so go straight there.",
+          "highlight": "Frequency of conversation predicted it far better"
+        },
+        {
+          "label": "Reread with neighbours",
+          "note": "Read the line before and after. Length of residence predicted trust only weakly. Weekly talkers who were new still beat long-term residents who rarely talked."
+        },
+        {
+          "label": "Predict",
+          "note": "Talking mattered more than time in predicting trust."
+        },
+        {
+          "label": "Check each choice for stretch",
+          "note": "B is the plausible trap. The survey compared newcomers with long-term residents who rarely talked, not with 'any resident'."
+        }
+      ],
+      "why": {
+        "A": "Reversed: length of residence predicted trust only weakly, and talking predicted it far better.",
+        "B": "Stretches the comparison. The passage says weekly-talking newcomers out-trusted long-term residents who rarely talked, not every longer-term resident.",
+        "C": "Not measured: the last sentence says the survey did not test whether the trust was justified.",
+        "D": "Correct. A direct paraphrase of the second paragraph's findings.",
+        "E": "Wrong relationship: layout is said to produce frequent conversation, not to raise trust on its own."
+      }
+    },
+    {
+      "kind": "worked",
+      "level": 3,
+      "title": "Level 3: two tempting theories and a reversal",
+      "passage": {
+        "paragraphs": [
+          "In the cold coastal waters off the Pell Islands, kelp forests shelter dozens of fish species, and for most of the twentieth century their extent varied little from one decade to the next. In the 1970s, marine biologists began to record patches of bare rock, called barrens, where the kelp had vanished and sea urchins, which graze on it, had become conspicuous. The barrens were first attributed to a rise in urchin numbers, on the theory that urchins had multiplied and eaten the kelp.",
+          "Divers' counts from the 1980s complicated this explanation. Urchin density in the barrens was no higher than in intact forests nearby; what differed was behavior. In the forests, urchins mostly stayed wedged in crevices and fed on drifting fragments of kelp, leaving the living plants alone. In the barrens, they moved openly across the rock and grazed the plants directly. The change in behavior appeared to follow a decline in sea otters, which prey on urchins: where otters were scarce, urchins no longer had reason to hide.",
+          "A rival explanation points to warming water, which stresses kelp and may make it more vulnerable to grazing. Its proponents note that barrens expanded in years with unusually warm summers. But the two accounts are not mutually exclusive, and the Pell Islands data do not decide between them: the otter records were kept at only a few sites, and temperature was measured at a single buoy several kilometers from the nearest barrens."
+        ]
+      },
+      "stem": "According to the passage, urchins in the barrens differed from urchins in the intact forests in that the urchins in the barrens",
+      "choices": {
+        "A": "were present at a higher density than the urchins in the forests nearby",
+        "B": "grazed the living kelp plants directly rather than staying hidden",
+        "C": "lived in areas where sea otters were more numerous than in the forests",
+        "D": "fed mostly on drifting fragments of kelp that had broken off the plants",
+        "E": "grew faster and ate more because the water around them was warmer"
+      },
+      "answer": "B",
+      "steps": [
+        {
+          "label": "Find the spot",
+          "note": "The stem compares barren urchins with forest urchins. Paragraph 2 makes exactly that comparison.",
+          "highlight": "In the barrens, they moved openly across the rock and grazed the plants directly."
+        },
+        {
+          "label": "Reread with neighbours",
+          "note": "The sentence before describes the forest urchins, which is the contrast. The sentence before that says density did not differ."
+        },
+        {
+          "label": "Predict",
+          "note": "Barren urchins were out in the open eating living kelp. Forest urchins hid and ate drifting scraps."
+        },
+        {
+          "label": "Trap: the first theory",
+          "note": "A is the theory that paragraph 2 sets aside. The passage says density was no higher."
+        },
+        {
+          "label": "Trap: swapped groups",
+          "note": "D gives the forest urchins' habit to the barren urchins. C reverses the otter link, since otters were scarce where barrens formed. E is the rival theory, which the passage does not say was shown."
+        }
+      ],
+      "why": {
+        "A": "Contradicted: urchin density in the barrens was no higher than in the forests.",
+        "B": "Correct. Paraphrases the contrast: open grazing of living plants versus staying in crevices.",
+        "C": "Reversed: the behavior change followed a decline in otters, so otters were scarcer, not more numerous.",
+        "D": "Swapped groups: this describes the forest urchins, not those in the barrens.",
+        "E": "Unsupported: warming is only a rival explanation, and the passage says nothing about faster growth or heavier eating."
+      }
+    },
+    {
+      "kind": "worked",
+      "level": 4,
+      "title": "Level 4: the real reason versus a look-alike",
+      "passage": {
+        "paragraphs": [
+          "Under the postal acceptance rule as traditionally stated, a contract formed by mail is complete when the acceptance is posted, not when it is received. The rule allocates a particular risk: if the letter is lost in transit, the offeror remains bound even though she never learns of the acceptance. The rationale commonly offered is that the offeror, having chosen to invite acceptance by post, has impliedly authorized the postal service as her agent to receive it.",
+          "The agency rationale has long been criticized as a fiction, since the postal service is plainly not anyone's agent in the ordinary sense. A more defensible justification is that one party must bear the risk of loss and the offeror is better placed to bear it, because she controls the manner in which acceptance is invited and can protect herself by stipulating that acceptance is effective only on receipt. The offeree, by contrast, cannot protect himself against a loss he cannot observe.",
+          "The rule's application to instantaneous media is disputed. Courts in Halvern have held that where parties negotiate by telephone, acceptance takes effect only when heard, on the ground that either party immediately learns of any failure of communication and can repeat the message. The reasoning draws on the same risk-allocation justification: where a loss is observable, the party who sends the message can cure it, and no reason remains to shift the risk to the offeror. Courts have been less consistent about email, a medium that is nearly instantaneous but gives the sender no confirmation that the message has arrived. Some treat it like the post, others like the telephone.",
+          "Whichever view is taken, the choice does not turn on speed. A message sent through a fast but unconfirmed channel presents the same problem as a slow one: the sender cannot know whether it has arrived. What matters is whether the sender can discover and repair a failure, and that, rather than the number of seconds a message takes to arrive, is what the competing positions on email actually dispute."
+        ]
+      },
+      "stem": "According to the passage, the courts of Halvern held that acceptance by telephone takes effect only when heard, on the ground that",
+      "choices": {
+        "A": "a telephone message reaches the other party faster than a posted letter, which makes its loss less likely",
+        "B": "the offeror is better placed than the offeree to bear the risk that an acceptance is lost",
+        "C": "either party would immediately learn of any failure of communication and could repeat the message",
+        "D": "the offeror has impliedly authorized the telephone as her agent for receiving an acceptance",
+        "E": "a telephone conversation is conducted in real time, so no failure of communication can occur"
+      },
+      "answer": "C",
+      "steps": [
+        {
+          "label": "Find the spot",
+          "note": "The Halvern telephone holding is in paragraph 3. The stem asks for the stated ground, so read the 'on the ground that' clause.",
+          "highlight": "on the ground that either party immediately learns of any failure of communication and can repeat the message"
+        },
+        {
+          "label": "Reread with neighbours",
+          "note": "The next sentence ties it to risk allocation: when a loss is observable, the sender can cure it. Paragraph 4 adds that speed is not the point."
+        },
+        {
+          "label": "Predict",
+          "note": "A failure would show at once, so the sender can fix it and the risk need not fall on the offeror."
+        },
+        {
+          "label": "Sort the choices by owner",
+          "note": "B and D belong to the postal rule. A relies on speed, which paragraph 4 says does not decide the matter."
+        },
+        {
+          "label": "Kill the near twin",
+          "note": "E sounds like C but says 'no failure ... can occur'. The passage says failures are learned of at once, which means they can occur. That one phrase rules E out."
+        }
+      ],
+      "why": {
+        "A": "Wrong ground: paragraph 4 says the choice does not turn on speed, and the Halvern reasoning rests on observability.",
+        "B": "Wrong rule: this is the justification for the postal rule, where the offeree cannot observe a loss.",
+        "C": "Correct. Matches the ground the passage gives for the Halvern telephone holding.",
+        "D": "Wrong rule: this is the agency rationale for the postal rule, which the passage calls a fiction.",
+        "E": "Near twin of the key, but 'no failure can occur' overstates it. The passage says a failure would be noticed at once, not that none can happen."
       }
     },
     {

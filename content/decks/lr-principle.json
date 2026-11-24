@@ -14,7 +14,7 @@
     "u2/principle-conform-apply",
     "u3/rule-application"
   ],
-  "minutes": 7,
+  "minutes": 15,
   "slides": [
     {
       "kind": "idea",
@@ -59,7 +59,8 @@
     },
     {
       "kind": "worked",
-      "title": "Worked example: justify",
+      "level": 1,
+      "title": "Level 1: justify",
       "stimulus": "Journalist Reyes should not have published the leaked memo. Although the memo was newsworthy, she knew it contained the home addresses of several employees, and publishing it put those employees at risk.",
       "stem": "Which one of the following principles, if valid, most helps to justify the reasoning above?",
       "choices": {
@@ -92,6 +93,138 @@
         "C": "Nothing says the memo was obtained illegally, so the rule doesn't apply.",
         "D": "About employers, not journalists.",
         "E": "Correct. It covers the facts (known risk, newsworthy) and yields the conclusion."
+      }
+    },
+    {
+      "kind": "worked",
+      "level": 2,
+      "title": "Level 2: justify a refusal to approve",
+      "stimulus": "The city council should reject the proposal to build the new arena. It is true that the arena would create several hundred jobs and draw visitors to the downtown. But the developers have refused to tell the council who is providing the money to pay for it. The council has asked twice for a list of the project's financial backers and has received no answer.",
+      "stem": "Which one of the following principles, if valid, most helps to justify the reasoning above?",
+      "choices": {
+        "A": "A city council should approve any project that creates jobs and brings visitors downtown, unless the project is clearly unaffordable for the city's budget over the coming decade.",
+        "B": "A public body should not approve a project when the people proposing it refuse to say who is financing it, however much good the project might do.",
+        "C": "A city council should reject a proposal when its developers have a record of failing to complete large public projects that they started in earlier years.",
+        "D": "Developers who ask a public body for approval should be required to pay for any studies that the body requests.",
+        "E": "A city council should decide whether to build a large public facility only after residents have had a chance to vote on the plan."
+      },
+      "answer": "B",
+      "steps": [
+        {
+          "label": "Conclusion",
+          "note": "The council should reject the arena proposal.",
+          "highlight": "The city council should reject the proposal to build the new arena."
+        },
+        {
+          "label": "Facts that matter",
+          "note": "Jobs and visitors are on one side. On the other, the developers refuse to say who is paying.",
+          "highlight": "the developers have refused to tell the council who is providing the money"
+        },
+        {
+          "label": "Build the rule",
+          "note": "If a project's backers will not say who is financing it, a public body should not approve it, even if it would do good."
+        },
+        {
+          "label": "Eliminate and confirm",
+          "note": "A points toward approval. C, D and E rely on facts the stimulus never mentions. B covers the facts and yields the conclusion."
+        }
+      ],
+      "why": {
+        "A": "Wrong outcome. It pushes toward approving the arena, the opposite of the conclusion.",
+        "B": "Correct. It covers the facts (undisclosed financing, real benefits) and yields the conclusion that the council should not approve.",
+        "C": "Doesn't apply. Nothing says these developers failed to finish earlier projects.",
+        "D": "Wrong actor and wrong topic. It is about who pays for studies, which never came up.",
+        "E": "Doesn't apply. A public vote is never mentioned, and the rule does not lead to rejection."
+      }
+    },
+    {
+      "kind": "worked",
+      "level": 3,
+      "title": "Level 3: a rule with two triggers, one word apart",
+      "stimulus": "A contractor may renegotiate an agreed price when, and only when, two things are true. First, after work has begun, the contractor has found a condition at the work site that makes the agreed price unrealistic. Second, a reasonable inspection carried out before the contract was signed could not have revealed that condition. A contractor who meets both requirements may renegotiate even if the contract says that the price is final. Renegotiation applies to the price only and does not release the contractor from the rest of the contract.",
+      "stem": "Which one of the following judgments most closely conforms to the principle stated above?",
+      "choices": {
+        "A": "Ito did not inspect a house before signing. A single walk-through would have shown him the cracked foundation he found after work began, which made his price unrealistic. His request to renegotiate is justified.",
+        "B": "Lund agreed to a fixed price to repaint a school. After work began, her paint supplier raised its prices, which made her agreed price unrealistic. Her request to renegotiate is justified, since she signed a fixed-price contract only days earlier.",
+        "C": "Okafor found, after work began, a buried oil tank that no reasonable inspection could have located, and it made his price unrealistic. Because his contract says the price is final, he may not renegotiate.",
+        "D": "Park signed a contract and then, before starting any work, found an underground stream that no reasonable inspection could have revealed. The stream made her price unrealistic. She may renegotiate.",
+        "E": "After work had begun, Vega found rotted beams behind a sealed wall that no reasonable inspection before signing could have exposed. The beams made her agreed price unrealistic. Her request to renegotiate is justified."
+      },
+      "answer": "E",
+      "steps": [
+        {
+          "label": "Spot the direction",
+          "note": "A rule is given and each choice is a case. This is an apply question."
+        },
+        {
+          "label": "List the conditions",
+          "note": "Trigger 1: a site condition found after work has begun that makes the price unrealistic. Trigger 2: no reasonable pre-contract inspection could have revealed it. Both are required."
+        },
+        {
+          "label": "Check the outcome",
+          "note": "Meeting both gives the right to renegotiate, even if the contract calls the price final.",
+          "highlight": "even if the contract says that the price is final"
+        },
+        {
+          "label": "Name the traps",
+          "note": "D changes one word: 'before' work, not after. B changes the type of cause: a supplier, not the site. A fails trigger 2. C meets both triggers but gets the outcome wrong."
+        },
+        {
+          "label": "Confirm",
+          "note": "Only E meets every trigger and reaches the stated outcome."
+        }
+      ],
+      "why": {
+        "A": "Partial match. Trigger 2 fails, because an ordinary inspection would have revealed the foundation.",
+        "B": "Partial match. A supplier's price rise is not a condition found at the work site.",
+        "C": "Wrong outcome. Both triggers are met, and the rule says such a contractor may renegotiate even with a price-is-final clause.",
+        "D": "Partial match, killed by one word. The stream was found before work began, but trigger 1 requires a discovery after work has begun.",
+        "E": "Correct. The condition is found after work begins, makes the price unrealistic, and could not have been revealed by a reasonable inspection, so the judgment follows the rule."
+      }
+    },
+    {
+      "kind": "worked",
+      "level": 4,
+      "title": "Level 4: only if, must, and unless",
+      "stimulus": "The foundation's grant rules include the following. A research proposal may receive funding only if it has passed ethics review. A proposal that has passed ethics review and whose budget is under the cap must receive funding, unless an earlier grant to the same team is still unreported. A grant counts as unreported only until the team files its final report on it, however late that filing may be. A team that has never held an earlier grant has none that is unreported. These rules apply to every proposal that the review panel considers, and the panel may not set them aside.",
+      "stem": "Which one of the following judgments most closely conforms to the principle stated above?",
+      "choices": {
+        "A": "Team Pell's proposal failed ethics review. Its budget is well under the cap and its earlier grant is fully reported. The panel funded it anyway, as it considered the research important.",
+        "B": "Team Dar's proposal passed ethics review and its budget is under the cap. Its earlier grant was reported two months late, though the final report has now been filed. The panel refused to fund the proposal.",
+        "C": "Team Ives's proposal passed ethics review and its budget is under the cap. A grant the team received earlier has still not been reported on. The panel refused to fund the proposal.",
+        "D": "Team Noor's proposal passed ethics review and its budget is under the cap, and its earlier grant is fully reported. The panel judged the proposal weak and refused to fund it.",
+        "E": "Team Voss has never held an earlier grant. Its proposal passed ethics review and its budget is under the cap. The panel refused to fund it, reasoning that a team without a track record should not receive funds."
+      },
+      "answer": "C",
+      "steps": [
+        {
+          "label": "Spot the direction",
+          "note": "A rule is given. Find the judgment that fits it. This is an apply question."
+        },
+        {
+          "label": "List the conditions",
+          "note": "Rule 1: no funding without ethics review. Rule 2: if ethics review is passed and the budget is under the cap, funding is required, unless an earlier grant is still unreported."
+        },
+        {
+          "label": "Mark what the rule forces",
+          "note": "Funding is forced only when no earlier grant is unreported. A grant stops being unreported once its final report is filed, however late.",
+          "highlight": "however late that filing may be"
+        },
+        {
+          "label": "Name the traps",
+          "note": "B is killed by the word 'late': the report is filed, so funding is required. D sounds reasonable, but the rule says the panel 'must' fund. E has no earlier grant, so none is unreported."
+        },
+        {
+          "label": "Confirm",
+          "note": "In C the exception applies, so the panel is not required to fund and may refuse. Every other judgment breaks a rule."
+        }
+      ],
+      "why": {
+        "A": "Breaks rule 1. Funding is allowed only if ethics review was passed.",
+        "B": "Near-identical trap, killed by one word. A late report that has now been filed is no longer unreported, so the exception fails and funding is required.",
+        "C": "Correct. An earlier grant is still unreported, so the exception applies and the panel is not required to fund. The refusal fits the rule.",
+        "D": "Wrong outcome. Every trigger is met and no exception applies, so the panel must fund. Judging the proposal weak is not an exception.",
+        "E": "Wrong outcome. With no earlier grant, nothing is unreported, so the exception cannot apply and the panel must fund."
       }
     },
     {

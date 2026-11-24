@@ -5,9 +5,14 @@
   "group": "lr",
   "order": 15,
   "section": "LR",
-  "types": ["parallel_flaw"],
-  "lessonIds": ["u2/parallel-flaw", "u1/conditional-4"],
-  "minutes": 6,
+  "types": [
+    "parallel_flaw"
+  ],
+  "lessonIds": [
+    "u2/parallel-flaw",
+    "u1/conditional-4"
+  ],
+  "minutes": 14,
   "slides": [
     {
       "kind": "idea",
@@ -30,15 +35,69 @@
       "kind": "method",
       "title": "Method",
       "steps": [
-        { "label": "Name the flaw", "do": "Reversal, negation, sample, part to whole, correlation to cause…" },
-        { "label": "Drop valid choices", "do": "Any choice that reasons correctly is out." },
-        { "label": "Drop other flaws", "do": "A choice with a different error is out, even though it’s flawed." },
-        { "label": "Check the conclusion", "do": "The answer’s conclusion should have the same strength as the original’s." }
+        {
+          "label": "Name the flaw",
+          "do": "Reversal, negation, sample, part to whole, correlation to cause…"
+        },
+        {
+          "label": "Drop valid choices",
+          "do": "Any choice that reasons correctly is out."
+        },
+        {
+          "label": "Drop other flaws",
+          "do": "A choice with a different error is out, even though it’s flawed."
+        },
+        {
+          "label": "Check the conclusion",
+          "do": "The answer’s conclusion should have the same strength as the original’s."
+        }
       ]
     },
     {
       "kind": "worked",
-      "title": "Worked example",
+      "level": 1,
+      "title": "Level 1: spot the reversed rule in a new setting",
+      "stimulus": "Everyone on the chess club's travel team owns a tournament clock, since the club's rules require one for away matches. Hana, a second-year student who plays most evenings at the library, owns a tournament clock. Therefore, Hana must be on the chess club's travel team.",
+      "stem": "The flawed pattern of reasoning in the argument above is most similar to that in which one of the following?",
+      "choices": {
+        "A": "Every pilot at the airfield has passed a medical exam. Luis is a pilot at the airfield. So Luis has passed a medical exam.",
+        "B": "Every pilot at the airfield has passed a medical exam. Luis has not passed a medical exam. So Luis is not a pilot at the airfield.",
+        "C": "Every pilot at the airfield has passed a medical exam. Luis has passed a medical exam. So Luis must be a pilot at the airfield.",
+        "D": "Most pilots at the airfield have passed a medical exam. Luis is a pilot at the airfield. So Luis has probably passed a medical exam.",
+        "E": "No pilot at the airfield is a mechanic. Luis is not a mechanic. So Luis must be a pilot at the airfield."
+      },
+      "answer": "C",
+      "steps": [
+        {
+          "label": "Name the flaw",
+          "note": "Rule: team member means has a clock. Hana has a clock, so she is a member. That reverses the arrow.",
+          "highlight": "Hana, a second-year student who plays most evenings at the library, owns a tournament clock"
+        },
+        {
+          "label": "Drop the valid choices",
+          "note": "A uses the rule forward. B uses the contrapositive. Both are valid."
+        },
+        {
+          "label": "Drop the other forms",
+          "note": "D uses most and probably, so it is a different kind of claim. E starts from 'no', which is a different rule."
+        },
+        {
+          "label": "Match",
+          "note": "C has the same rule, the same reversal and the same 'must'."
+        }
+      ],
+      "why": {
+        "A": "Valid: the rule applied in the right direction.",
+        "B": "Valid: the contrapositive of the rule.",
+        "C": "Correct. It reverses the 'every' rule: having the exam is treated as enough to be a pilot, and the conclusion is as strong as the original.",
+        "D": "Not flawed: a 'most' premise with a 'probably' conclusion, unlike the original's every and must.",
+        "E": "A different pattern that starts from 'no' and ends with a different kind of mistake, not a reversal of an 'every' rule."
+      }
+    },
+    {
+      "kind": "worked",
+      "level": 2,
+      "title": "Level 2: the method, step by step",
       "stimulus": "Anyone who wins the Corbin Prize has published at least two novels. Teodora has published two novels. So Teodora must have won the Corbin Prize.",
       "stem": "The flawed pattern of reasoning in the argument above is most similar to that in which one of the following?",
       "choices": {
@@ -50,9 +109,19 @@
       },
       "answer": "A",
       "steps": [
-        { "label": "Abstract", "note": "Prize winner → two novels. Teodora has two novels. So Teodora won. That reverses the arrow.", "highlight": "Teodora has published two novels." },
-        { "label": "Drop the valid", "note": "B applies the rule forward; C uses the contrapositive. Both are valid." },
-        { "label": "Drop the other flaw", "note": "D negates the arrow: a different mistake. E changes the strength to most and probably." }
+        {
+          "label": "Abstract",
+          "note": "Prize winner → two novels. Teodora has two novels. So Teodora won. That reverses the arrow.",
+          "highlight": "Teodora has published two novels."
+        },
+        {
+          "label": "Drop the valid",
+          "note": "B applies the rule forward; C uses the contrapositive. Both are valid."
+        },
+        {
+          "label": "Drop the other flaw",
+          "note": "D negates the arrow: a different mistake. E changes the strength to most and probably."
+        }
       ],
       "why": {
         "A": "Correct. Badge is required for the lab; having a badge is treated as enough. Same reversal.",
@@ -62,7 +131,93 @@
         "E": "A probabilistic argument with most, unlike the original's all and must."
       }
     },
-    { "kind": "practice", "title": "Your turn", "count": 3 },
+    {
+      "kind": "worked",
+      "level": 3,
+      "title": "Level 3: a chain of \"most\" that does not carry through",
+      "stimulus": "Dean: Will the seminar's students need language support this term? Administrator: Probably so. According to the registrar's list, which was updated this week, most of the students in Professor Nakamura's advanced seminar are history majors. And the catalog, which covers every department in the college, notes that most history majors in the college are required to study a foreign language, usually for two years. So most of the students in the seminar are required to study a foreign language.",
+      "stem": "The flawed pattern of reasoning in the administrator's argument is most similar to that in which one of the following?",
+      "choices": {
+        "A": "Most of the drivers on the morning ferry are commuters. No commuter is a tourist. So most of the drivers on the morning ferry are not tourists.",
+        "B": "Most of the hikers on the ridge trail are climbers. Most climbers own their own ropes. So most of the hikers on the ridge trail own ropes.",
+        "C": "Most of the books on the cart are novels. Every novel on the cart was donated. So most of the books on the cart were donated.",
+        "D": "Most of the books on this shelf are novels. This book is on this shelf. So this book must be a novel.",
+        "E": "Most of the players on the team are goalkeepers. Most of the players on the team are over six feet tall. So some goalkeepers on the team are over six feet tall."
+      },
+      "answer": "B",
+      "steps": [
+        {
+          "label": "Name the flaw",
+          "note": "Most M are N. Most N are P. So most M are P. A majority does not pass along a chain: the N that are P may lie mostly outside M.",
+          "highlight": "most history majors in the college are required to study a foreign language"
+        },
+        {
+          "label": "Drop the valid look-alikes",
+          "note": "A, C and E all use 'most' but are valid. A and C carry the majority forward with 'no' or 'every'. E joins two majorities of the same group, which must overlap."
+        },
+        {
+          "label": "Drop the other flaw",
+          "note": "D jumps from a majority in a group to one member. That is a different error."
+        },
+        {
+          "label": "Match the chain",
+          "note": "B has the same chain, most then most then most, with a second group that reaches beyond the first."
+        }
+      ],
+      "why": {
+        "A": "Valid: 'no commuter is a tourist' carries the majority straight through to 'not tourists'.",
+        "B": "Correct. Most, then most, then most, where the second 'most' covers a wider group, just like the original.",
+        "C": "Valid: 'every novel on the cart' is about the same group, so most of the books were donated.",
+        "D": "A different flaw: it applies a group majority to a single item and says it 'must' be so.",
+        "E": "Valid: two majorities drawn from one group must overlap, so some goalkeepers are tall."
+      }
+    },
+    {
+      "kind": "worked",
+      "level": 4,
+      "title": "Level 4: the same chain, and one word that makes it valid",
+      "stimulus": "According to the expedition coordinator's summary of the selection rules, securing a place on the Arctic research cruise requires passing the polar medical screening, and passing the screening in turn requires holding a current diving certification. Dr. Okafor, a glaciologist who joined the institute last spring, has led two earlier field seasons and sits on its safety committee, holds a current diving certification. Having met the requirement at the base of the process described in the coordinator's summary, Dr. Okafor will secure a place on the cruise.",
+      "stem": "The flawed pattern of reasoning in the argument above is most similar to that in which one of the following?",
+      "choices": {
+        "A": "Entering the regatta requires passing the hull inspection, and passing the inspection requires owning a registered boat. Wen does not own a registered boat. So Wen will not enter the regatta.",
+        "B": "Qualifying for the grant requires submitting the budget, and submitting the budget requires finishing the proposal. Ines has finished the proposal. So it is possible that Ines will qualify for the grant.",
+        "C": "Reaching the finals requires winning a semifinal, and winning a semifinal requires beating the top seed. Teo reached the finals. So Teo beat the top seed.",
+        "D": "Admission to the conservatory requires passing the audition, and passing the audition requires submitting a recorded sample. Dev has submitted a recorded sample. So Dev will be admitted.",
+        "E": "Getting a vendor stall requires passing the health check, and passing the check requires holding a food handler's card. Mel passed the health check. So Mel holds a food handler's card."
+      },
+      "answer": "D",
+      "steps": [
+        {
+          "label": "Name the flaw",
+          "note": "X requires Y, and Y requires Z. The person has Z, so the person will get X. A requirement at the base of a chain is treated as enough for the top. That is a reversal.",
+          "highlight": "Dr. Okafor will secure a place on the cruise"
+        },
+        {
+          "label": "Drop the valid choices",
+          "note": "A lacks the base, so the top is blocked: the contrapositive. C and E run from the top down to a requirement: valid."
+        },
+        {
+          "label": "Check the strength",
+          "note": "B has the same reversal but concludes only that qualifying is 'possible'. Having the base does not rule the top out, so B is valid. One word, 'possible' against 'will', separates B from the original."
+        },
+        {
+          "label": "Confirm",
+          "note": "D has the same two-link chain, the same jump from the base to the top, and the same 'will'."
+        }
+      ],
+      "why": {
+        "A": "Valid: without the base requirement the top is out of reach (contrapositive).",
+        "B": "Same reversal, but it concludes only that qualifying is 'possible', which the premises allow. The original says 'will', so this is not flawed.",
+        "C": "Valid: a chain read from the top down to a requirement.",
+        "D": "Correct. The base requirement (the recorded sample) is treated as enough for admission, with the same strength: 'will'.",
+        "E": "Valid: passing the check means the card was held, a chain read from the top down."
+      }
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn",
+      "count": 3
+    },
     {
       "kind": "card",
       "title": "Cheat card",

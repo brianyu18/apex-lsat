@@ -11,7 +11,7 @@
     "u1/arguments-2",
     "u1/arguments-4"
   ],
-  "minutes": 7,
+  "minutes": 15,
   "slides": [
     {
       "kind": "idea",
@@ -98,7 +98,8 @@
     },
     {
       "kind": "worked",
-      "title": "The routine on one question",
+      "level": 1,
+      "title": "Level 1: The routine on one question",
       "stimulus": "Riverton's city council installed brighter streetlights on Elm Street last spring. Since then, reported bicycle thefts on Elm Street have fallen by 40 percent. Clearly, brighter lighting deters bicycle theft.",
       "stem": "Which one of the following, if true, most seriously weakens the argument?",
       "choices": {
@@ -135,6 +136,144 @@
         "C": "If thefts happen after dark, lighting is more likely to matter. This strengthens.",
         "D": "More bikes would make a drop in thefts more impressive, if anything. It does not weaken.",
         "E": "How safe residents feel is not evidence about what caused the drop in bicycle thefts."
+      }
+    },
+    {
+      "kind": "worked",
+      "level": 2,
+      "title": "Level 2: the routine on a strengthen question",
+      "stimulus": "Administrators at Tamarack Regional Hospital began a program last year in which a nurse telephones each patient two days after discharge to check on symptoms and medications. Since then, the percentage of discharged patients who return to the hospital within thirty days has dropped from 18 percent to 12 percent. The administrators conclude that the follow-up calls have lowered the rate of return visits.",
+      "stem": "Which one of the following, if true, most strengthens the administrators' argument?",
+      "choices": {
+        "A": "Most of the patients who received a call said that they appreciated the nurse's concern and advice.",
+        "B": "Other hospitals that have tried follow-up calls found that the calls were costly to run.",
+        "C": "Patients who live farther from the hospital were somewhat less likely to return within thirty days.",
+        "D": "Nurses who made the calls reported that some patients were hard to reach by telephone.",
+        "E": "In the five years before the program began, the hospital's return rate stayed near 18 percent."
+      },
+      "answer": "E",
+      "steps": [
+        {
+          "label": "Find the conclusion",
+          "note": "The follow-up calls lowered the return rate. This is a causal claim.",
+          "highlight": "the follow-up calls have lowered the rate of return visits"
+        },
+        {
+          "label": "Find the evidence",
+          "note": "The rate fell from 18 to 12 percent after the calls began. Before-and-after.",
+          "highlight": "has dropped from 18 percent to 12 percent"
+        },
+        {
+          "label": "Find the gap",
+          "note": "Maybe the rate was already falling, or something else changed. The author assumes the drop is new."
+        },
+        {
+          "label": "Predict",
+          "note": "A strengthener rules out a rival cause. A steady rate before the program shows the drop did not start earlier."
+        },
+        {
+          "label": "Eliminate",
+          "note": "Drop answers about cost, mood and distance. They do not bear on what caused the drop."
+        }
+      ],
+      "why": {
+        "A": "Patients liking the calls is not evidence that the calls cut return visits.",
+        "B": "Cost at other hospitals is out of scope. The argument is about whether the calls work.",
+        "C": "Distance is irrelevant unless it changed. It gives no link between calls and returns.",
+        "D": "If anything this weakens the case slightly, because it suggests some patients were not reached.",
+        "E": "Correct. A flat return rate for five years makes a pre-existing downward trend unlikely, so the calls are a better explanation of the drop."
+      }
+    },
+    {
+      "kind": "worked",
+      "level": 3,
+      "title": "Level 3: a necessary assumption that is easy to overstate",
+      "stimulus": "Park director: Dunmore Park's ranger-led night hikes, which run on Friday evenings through the summer, draw about forty visitors per outing, more than any other program the park offers. Every hike follows the same two-mile loop on the park's marked trails. The park's goal for next year is to increase the number of different people who use its trails over the course of the year. For that reason, the park should expand the night hikes from one evening a week to three.",
+      "stem": "The director's argument requires assuming which one of the following?",
+      "choices": {
+        "A": "Most of the park's visitors prefer ranger-led programs to exploring the trails on their own.",
+        "B": "No other program at the park draws more than thirty visitors per outing.",
+        "C": "Some of the people who would attend the added night hikes would not otherwise use the trails next year.",
+        "D": "Visitors who attend the night hikes enjoy their visits more than visitors to other programs enjoy theirs.",
+        "E": "Everyone who would attend the added night hikes would otherwise have stayed away from the park's trails next year."
+      },
+      "answer": "C",
+      "steps": [
+        {
+          "label": "Find the conclusion",
+          "note": "Expand the night hikes to three evenings a week. It is a recommendation.",
+          "highlight": "the park should expand the night hikes from one evening a week to three"
+        },
+        {
+          "label": "Find the goal",
+          "note": "The goal is more different people using the trails, not more hikes or more visits.",
+          "highlight": "increase the number of different people who use its trails"
+        },
+        {
+          "label": "Find the gap",
+          "note": "Popular hikes do not guarantee new people. The extra evenings might just serve the same regulars again."
+        },
+        {
+          "label": "Predict",
+          "note": "The plan needs at least some new faces. Use the negation test: if no one at the added hikes were new, the goal would fail."
+        },
+        {
+          "label": "Name the trap",
+          "note": "E sounds like C but says “everyone”. A necessary assumption is the weakest link that must hold, so “some” is enough. D swaps in enjoyment for headcount."
+        }
+      ],
+      "why": {
+        "A": "Too strong and off the goal. The plan needs new users, not a general preference for ranger programs.",
+        "B": "Not needed. The text already says forty is more than any other program offers; this only sets a lower cap for the others.",
+        "C": "Correct. If none of the added attendees were new to the trails, the expansion would add no new people and the goal would fail.",
+        "D": "Swapped concept: enjoyment is not the goal. The goal is a count of different people.",
+        "E": "Too strong. The plan works if some of the added attendees are new. “Everyone” is not required."
+      }
+    },
+    {
+      "kind": "worked",
+      "level": 4,
+      "title": "Level 4: a shifting term, one word from the right answer",
+      "stimulus": "Commentator: The library board has proposed using public money to buy a large set of recent novels for its spring collection. A public library's mission is to give citizens free access to information. Many recent novels can be obtained by anyone through an online subscription service that charges a monthly fee. Citizens who can obtain a book through such a service already have access to it. A library that buys copies of these novels is therefore not advancing its mission, since it is spending public money to provide something its citizens already have.",
+      "stem": "The commentator's reasoning is flawed because it",
+      "choices": {
+        "A": "treats being able to get a book by paying for it as the same as having free access to it",
+        "B": "treats being able to get a book without paying for it as the same as having access to it",
+        "C": "overlooks the possibility that the subscription service might raise its monthly fee",
+        "D": "draws a conclusion about libraries in general from the practice of a single library board",
+        "E": "relies on the claim that novels matter less to a library's mission than other kinds of books"
+      },
+      "answer": "A",
+      "steps": [
+        {
+          "label": "Find the conclusion",
+          "note": "A library that buys these novels is not advancing its mission. The reason given is that citizens already have the books.",
+          "highlight": "A library that buys copies of these novels is therefore not advancing its mission"
+        },
+        {
+          "label": "Find the mission",
+          "note": "The mission is free access, not just access.",
+          "highlight": "give citizens free access to information"
+        },
+        {
+          "label": "Find the gap",
+          "note": "The evidence says citizens can get the books by subscribing. The conclusion needs them to already have free access. The word “free” drops out."
+        },
+        {
+          "label": "Predict",
+          "note": "The right answer says the argument treats paid access like free access. This is a shifting term."
+        },
+        {
+          "label": "The word that kills B",
+          "note": "B reverses the two ideas: it says “without paying” counts as access. That is true, and not a flaw. Only A has the paid-to-free slide."
+        }
+      ],
+      "why": {
+        "A": "Correct. The mission is free access. The evidence shows only access at a price, yet the conclusion treats it as already met.",
+        "B": "Reversed. Getting a book without paying does give access, so there is no error here. The argument's slip runs from paid to free.",
+        "C": "Future fee changes are out of scope. The argument concerns what citizens have now.",
+        "D": "The conclusion is about a library that buys these novels, not about all libraries. No generalization from one board is made.",
+        "E": "The argument does not rank novels against other books. It says nothing on that point."
       }
     },
     {

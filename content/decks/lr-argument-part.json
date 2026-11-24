@@ -5,9 +5,14 @@
   "group": "lr",
   "order": 12,
   "section": "LR",
-  "types": ["argument_part"],
-  "lessonIds": ["u2/argument-part", "u1/arguments-3"],
-  "minutes": 6,
+  "types": [
+    "argument_part"
+  ],
+  "lessonIds": [
+    "u2/argument-part",
+    "u1/arguments-3"
+  ],
+  "minutes": 14,
   "slides": [
     {
       "kind": "idea",
@@ -21,18 +26,91 @@
     {
       "kind": "table",
       "title": "Role decoder",
-      "head": ["Supported?", "Supports?", "Role", "Answer choice language"],
+      "head": [
+        "Supported?",
+        "Supports?",
+        "Role",
+        "Answer choice language"
+      ],
       "rows": [
-        ["No", "Yes", "Premise", "evidence offered in support of the conclusion"],
-        ["Yes", "Yes", "Intermediate conclusion", "a conclusion that is used to support the main conclusion"],
-        ["Yes", "No", "Main conclusion", "the conclusion the argument as a whole is meant to establish"],
-        ["No", "No, rejected", "Opposing view", "a position the argument is directed against"],
-        ["No", "No, granted", "Concession", "a consideration the argument acknowledges but discounts"]
+        [
+          "No",
+          "Yes",
+          "Premise",
+          "evidence offered in support of the conclusion"
+        ],
+        [
+          "Yes",
+          "Yes",
+          "Intermediate conclusion",
+          "a conclusion that is used to support the main conclusion"
+        ],
+        [
+          "Yes",
+          "No",
+          "Main conclusion",
+          "the conclusion the argument as a whole is meant to establish"
+        ],
+        [
+          "No",
+          "No, rejected",
+          "Opposing view",
+          "a position the argument is directed against"
+        ],
+        [
+          "No",
+          "No, granted",
+          "Concession",
+          "a consideration the argument acknowledges but discounts"
+        ]
       ]
     },
     {
       "kind": "worked",
-      "title": "Worked example",
+      "level": 1,
+      "title": "Level 1: a plain premise behind a recommendation",
+      "stimulus": "The town library should extend its weekend hours. Last year, more than half of its visitors came on Saturdays, yet the library closes at noon that day. Many of those visitors have to leave before they finish their work, and some do not come back.",
+      "stem": "The claim that more than half of the library's visitors came on Saturdays plays which one of the following roles in the argument?",
+      "choices": {
+        "A": "It is evidence offered in support of the recommendation that the library extend its weekend hours.",
+        "B": "It is the conclusion that the argument as a whole is meant to establish.",
+        "C": "It is a position that the argument is directed against and tries to refute.",
+        "D": "It is an intermediate conclusion drawn from the fact that the library closes at noon on Saturdays.",
+        "E": "It is a consideration that the argument acknowledges but then treats as unimportant."
+      },
+      "answer": "A",
+      "steps": [
+        {
+          "label": "Find the main conclusion",
+          "note": "The first sentence is a recommendation: extend the weekend hours.",
+          "highlight": "The town library should extend its weekend hours."
+        },
+        {
+          "label": "Supported?",
+          "note": "Nothing is offered as a reason for the Saturday figure. It is simply stated.",
+          "highlight": "more than half of its visitors came on Saturdays"
+        },
+        {
+          "label": "Supports?",
+          "note": "Yes. Saturday is when people come, so it gives a reason to open longer that day."
+        },
+        {
+          "label": "Decode the choices",
+          "note": "Not supported and supporting is a premise. Look for the choice that says so in abstract words."
+        }
+      ],
+      "why": {
+        "A": "Correct. A fact offered as a reason for the recommendation, so it is a premise.",
+        "B": "The recommendation is the first sentence. This claim supports it.",
+        "C": "No one in the stimulus opposes this claim. It is used as support, not refuted.",
+        "D": "Nothing supports this claim, and it is not drawn from the closing-time fact.",
+        "E": "It is used to back the conclusion, not granted and then set aside."
+      }
+    },
+    {
+      "kind": "worked",
+      "level": 2,
+      "title": "Level 2: the method, step by step",
       "stimulus": "Economist: It is often said that raising the minimum wage costs jobs. In Eastvale, however, restaurant employment rose in the two years after the minimum wage was increased. This suggests that a higher minimum wage need not reduce employment, at least in industries where workers' spending flows back to local businesses.",
       "stem": "The claim that restaurant employment in Eastvale rose after the minimum wage increase plays which one of the following roles in the economist's argument?",
       "choices": {
@@ -44,9 +122,20 @@
       },
       "answer": "E",
       "steps": [
-        { "label": "Map", "note": "Widely held view: raising the minimum wage costs jobs. Main conclusion: a higher minimum wage need not reduce employment.", "highlight": "a higher minimum wage need not reduce employment" },
-        { "label": "Supported?", "note": "Nothing is offered as a reason for the Eastvale figure. Not supported.", "highlight": "restaurant employment rose in the two years after the minimum wage was increased" },
-        { "label": "Supports?", "note": "Yes: “This suggests” points from it to the conclusion, which challenges the widely held view. So it’s a premise used against that view." }
+        {
+          "label": "Map",
+          "note": "Widely held view: raising the minimum wage costs jobs. Main conclusion: a higher minimum wage need not reduce employment.",
+          "highlight": "a higher minimum wage need not reduce employment"
+        },
+        {
+          "label": "Supported?",
+          "note": "Nothing is offered as a reason for the Eastvale figure. Not supported.",
+          "highlight": "restaurant employment rose in the two years after the minimum wage was increased"
+        },
+        {
+          "label": "Supports?",
+          "note": "Yes: “This suggests” points from it to the conclusion, which challenges the widely held view. So it’s a premise used against that view."
+        }
       ],
       "why": {
         "A": "The conclusion is the last sentence, which this claim supports.",
@@ -56,7 +145,104 @@
         "E": "Correct. It's evidence, and it cuts against the often-said view."
       }
     },
-    { "kind": "practice", "title": "Your turn", "count": 3 },
+    {
+      "kind": "worked",
+      "level": 3,
+      "title": "Level 3: a claim that is both supported and supporting",
+      "stimulus": "Critics of the new transit levy point out that it falls most heavily on small businesses, which have the thinnest margins. This is true, but it does not settle the matter. Small businesses stand to gain the most from reliable transit, since their employees are the least likely to own cars and the most likely to arrive late when service is poor. Because the levy would fund exactly the service improvements those employees need, the levy's burden on small businesses is outweighed by its benefits to them.",
+      "stem": "The claim that small businesses stand to gain the most from reliable transit plays which one of the following roles in the argument?",
+      "choices": {
+        "A": "It is evidence for the overall conclusion, and it is not itself supported by anything else in the argument.",
+        "B": "It is the overall conclusion of the argument, the claim that everything else in the passage is meant to support.",
+        "C": "It is supported by a claim about the commuting of small-business employees and is used to support the overall conclusion.",
+        "D": "It is a point made by the critics that the argument grants and then argues does not settle the whole matter.",
+        "E": "It is a position held by the critics that the argument is directed against and tries hard to refute."
+      },
+      "answer": "C",
+      "steps": [
+        {
+          "label": "Map the argument",
+          "note": "The critics' point is granted ('This is true'). The author's own conclusion comes last: the burden is outweighed by the benefits.",
+          "highlight": "the levy's burden on small businesses is outweighed by its benefits to them"
+        },
+        {
+          "label": "Is the claim supported?",
+          "note": "Yes. 'Since' hands us reasons: the employees rely on transit and are late when service is poor.",
+          "highlight": "their employees are the least likely to own cars and the most likely to arrive late when service is poor"
+        },
+        {
+          "label": "Does it support anything?",
+          "note": "Yes. Small businesses gaining most is part of what 'benefits to them' in the final claim rests on."
+        },
+        {
+          "label": "Name the trap",
+          "note": "A is tempting because the claim does back the conclusion. But A adds 'not itself supported', and the 'since' clause supports it. That phrase kills A."
+        },
+        {
+          "label": "Eliminate and confirm",
+          "note": "The final sentence is the main conclusion, so B fails. The critics' point is D's topic, not this claim. C names both of the claim's links."
+        }
+      ],
+      "why": {
+        "A": "Tempting, because the claim does back the conclusion. But it is supported by the 'since' clause, so 'not itself supported' is false.",
+        "B": "The last sentence is the main conclusion. This claim helps support that sentence.",
+        "C": "Correct. Supported by the claim about employees and used, with the point about the funded improvements, to support the final claim.",
+        "D": "The critics' concession is the point about the levy falling on small businesses. This claim is the author's own.",
+        "E": "The author never argues against this claim. It is part of the author's case."
+      }
+    },
+    {
+      "kind": "worked",
+      "level": 4,
+      "title": "Level 4: a granted point, not a rejected one",
+      "stimulus": "Auditors who rotate among client firms every few years are often praised for avoiding the cozy relationships that dull an auditor's skepticism. Rotation does reduce the risk that an auditor will go easy on a long-standing client. Yet rotation also forces each new auditor to learn a client's systems from scratch, and errors are most likely to slip through in an auditor's first year with a client. A mandatory rotation rule would therefore trade one source of missed errors for another, and so cannot be defended on the ground that it improves audit quality.",
+      "stem": "The claim that rotation reduces the risk that an auditor will go easy on a long-standing client plays which one of the following roles in the argument?",
+      "choices": {
+        "A": "It is the conclusion that the rest of the argument is meant to establish.",
+        "B": "It is a claim whose truth the argument denies on the way to its conclusion about a rotation rule.",
+        "C": "It is an intermediate conclusion supported by the claim that errors are likeliest in an auditor's first year.",
+        "D": "It is a point the argument accepts as true but treats as offset by a competing consideration.",
+        "E": "It is evidence offered to show that a mandatory rotation rule would lower the quality of audits."
+      },
+      "answer": "D",
+      "steps": [
+        {
+          "label": "Find the main conclusion",
+          "note": "The last sentence: a mandatory rule cannot be defended on audit-quality grounds.",
+          "highlight": "cannot be defended on the ground that it improves audit quality"
+        },
+        {
+          "label": "Supported?",
+          "note": "Nothing in the text gives a reason for the claim. It is stated as true.",
+          "highlight": "Rotation does reduce the risk that an auditor will go easy on a long-standing client."
+        },
+        {
+          "label": "Supports?",
+          "note": "Not toward the conclusion. It is a point in rotation's favor, and 'Yet' turns away from it."
+        },
+        {
+          "label": "Granted or rejected?",
+          "note": "The author never denies it. The author says it is matched by a cost: one source of missed errors is traded for another. That is a concession.",
+          "highlight": "would therefore trade one source of missed errors for another"
+        },
+        {
+          "label": "Kill the near twin",
+          "note": "B says the argument 'denies' the claim. That one word is wrong: the author accepts it. B is out."
+        }
+      ],
+      "why": {
+        "A": "The conclusion is the last sentence. This claim does not follow from the rest of the argument.",
+        "B": "Looks like the opposing-view role, but the argument does not deny the claim. It grants it. 'Denies' rules B out.",
+        "C": "Nothing supports this claim. The first-year point backs the claim about learning systems, not this one.",
+        "D": "Correct. A benefit of rotation that the argument accepts, then offsets with the cost of first-year errors.",
+        "E": "The claim names a benefit of rotation, not a loss of quality, and the argument concludes only that rotation does not improve quality."
+      }
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn",
+      "count": 3
+    },
     {
       "kind": "card",
       "title": "Cheat card",

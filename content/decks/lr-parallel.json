@@ -12,7 +12,7 @@
     "u2/parallel-reasoning",
     "u1/conditional-3"
   ],
-  "minutes": 6,
+  "minutes": 14,
   "slides": [
     {
       "kind": "idea",
@@ -55,7 +55,8 @@
     },
     {
       "kind": "worked",
-      "title": "Worked example",
+      "level": 1,
+      "title": "Level 1: the method, step by step",
       "stimulus": "All of the apples in this crate came from the Hillcrest orchard. All Hillcrest apples are organic. So all of the apples in this crate are organic.",
       "stem": "Which one of the following arguments is most similar in its reasoning to the argument above?",
       "choices": {
@@ -86,6 +87,137 @@
         "C": "Valid, but most where the original has all.",
         "D": "Correct. All A are B, all B are C, so all A are C.",
         "E": "Concludes some, and the chain through some healthy dogs is invalid."
+      }
+    },
+    {
+      "kind": "worked",
+      "level": 2,
+      "title": "Level 2: a reversed conditional with 'must'",
+      "stimulus": "Every chef who has earned a star from the Dunmore Guide has trained in a foreign country. Marcus, who now runs a small restaurant on Harbor Street and has been cooking professionally for twenty years and is well liked by the neighborhood, trained in foreign countries for three years, in two different cities. Therefore, Marcus must have earned a star from the Dunmore Guide.",
+      "stem": "Which one of the following arguments is most similar in its reasoning to the argument above?",
+      "choices": {
+        "A": "Every apartment in the Larch building has a balcony. Every apartment with a balcony faces the river. So every apartment in the Larch building faces the river.",
+        "B": "Every violinist who has won the Stanton Prize has studied in Vienna. Ilse, who has studied in Vienna for four years, is a gifted violinist. So Ilse has probably won the Stanton Prize.",
+        "C": "Every nurse who works the night shift has completed the fatigue course. Joel, a nurse at the clinic, has not completed the fatigue course. So Joel must not work the night shift.",
+        "D": "Every pilot who has flown the northern route has trained in simulators. Tamsin, a pilot at the regional airline, has trained in simulators for two years. So Tamsin must have flown the northern route.",
+        "E": "Every glassblower who has earned the master's seal has served a five-year apprenticeship. Lena, a glassblower in the harbor district, has not earned the master's seal. So Lena must not have served a five-year apprenticeship."
+      },
+      "answer": "D",
+      "steps": [
+        {
+          "label": "Abstract it",
+          "note": "All A (starred chefs) are B (trained abroad). Marcus is B. So Marcus is A. The argument reverses the conditional, so it is flawed.",
+          "highlight": "Marcus must have earned a star from the Dunmore Guide"
+        },
+        {
+          "label": "Conclusion first",
+          "note": "The conclusion is about one person and says 'must'. A concludes about a group, and B ends with 'probably'. Out."
+        },
+        {
+          "label": "Then the premises",
+          "note": "C, D and E all end with 'must' about one person. C says all A are B, not B, so not A. That is valid, so it differs. E says all A are B, not A, so not B. That is a different flaw."
+        },
+        {
+          "label": "Confirm",
+          "note": "D says all A are B, Tamsin is B, so Tamsin is A. It makes the same move in the same way."
+        }
+      ],
+      "why": {
+        "A": "A valid chain about a group. Wrong conclusion type, and the original is flawed.",
+        "B": "Same reversal, but the conclusion says 'probably' where the original says 'must'. The strength differs.",
+        "C": "Valid contrapositive: not B, so not A. The original reasoning is invalid, so this does not match.",
+        "D": "Correct. All A are B; this person is B; so this person is A. It matches the original premise for premise.",
+        "E": "Denies the first term instead of reversing: all A are B, not A, so not B. A different flaw."
+      }
+    },
+    {
+      "kind": "worked",
+      "level": 3,
+      "title": "Level 3: 'most' and 'no' to 'some are not'",
+      "stimulus": "The Larch building, a four-story brick structure on Mill Road, was converted from a warehouse in 1998. It is managed by a company that also manages four other properties in the same neighborhood. Surveyors who visited the building report that most of its apartments have balconies. According to city records, no apartment with a balcony is covered by rent control. The tenants' association has therefore concluded that some of the apartments in the Larch building are not covered by rent control.",
+      "stem": "Which one of the following arguments is most similar in its reasoning to the argument above?",
+      "choices": {
+        "A": "Most of the books in the Hale collection are first editions. Most first editions are valuable. So most of the books in the Hale collection are valuable.",
+        "B": "Most of the vehicles in the county fleet run on diesel. No diesel vehicle is permitted inside the old quarter. So some of the vehicles in the county fleet are not permitted inside the old quarter.",
+        "C": "Most of the athletes at the camp are sprinters. No sprinter at the camp is a swimmer. So no athlete at the camp is a swimmer.",
+        "D": "Some of the plants in the greenhouse are ferns. Some ferns need no direct light at all. So some of the plants in the greenhouse need no direct light at all, even in winter months.",
+        "E": "Some of the volunteers at the clinic are retired nurses. Some retired nurses are not licensed to prescribe. So some volunteers at the clinic are not licensed to prescribe."
+      },
+      "answer": "B",
+      "steps": [
+        {
+          "label": "Abstract it",
+          "note": "Most A are B. No B is C. So some A are not C. The 'most' is enough to guarantee that some A fall outside C, so it is valid.",
+          "highlight": "most of its apartments have balconies"
+        },
+        {
+          "label": "Conclusion first",
+          "note": "The conclusion is 'some ... are not'. A ends 'most', C ends 'no', and D ends with a positive 'some'. Out."
+        },
+        {
+          "label": "Then the premises",
+          "note": "B and E both end 'some ... are not'. E starts from 'some' and 'some ... not', which does not guarantee that anything follows."
+        },
+        {
+          "label": "Name the trap",
+          "note": "E is the hard one: it has the same conclusion type. Only the premises expose it. It is invalid, and the original is valid."
+        },
+        {
+          "label": "Confirm",
+          "note": "B uses most A are B, no B is C, so some A are not C. Same logic, same order."
+        }
+      ],
+      "why": {
+        "A": "Concludes 'most', and chaining two 'most' statements is invalid. Wrong conclusion and wrong premises.",
+        "B": "Correct. Most A are B; no B is C; so some A are not C. It matches the original in form and validity.",
+        "C": "Concludes 'no', which is stronger than the premises allow. Wrong conclusion strength.",
+        "D": "Concludes a positive 'some', and chains 'some' with 'some' invalidly. Wrong conclusion type.",
+        "E": "Same 'some ... are not' conclusion, but the premises are 'some' and 'some ... not', which prove nothing. Killed by its premises, not its conclusion."
+      }
+    },
+    {
+      "kind": "worked",
+      "level": 4,
+      "title": "Level 4: 'only if' against plain 'if'",
+      "stimulus": "County engineers reason as follows about bridges in the district. A bridge qualifies for federal repair funds only if an engineer has rated it structurally deficient. No bridge that an engineer has rated structurally deficient is open to heavy trucks. Therefore, no bridge that qualifies for federal repair funds is open to heavy trucks. The district's engineers have used this reasoning for many years. Nothing in this reasoning depends on the age of the bridges, on who built them, or on how many of them there are in the district.",
+      "stem": "Which one of the following arguments is most similar in its reasoning to the argument above?",
+      "choices": {
+        "A": "A student is eligible for the Orrin scholarship only if the student has completed a research project. No student who has completed a research project is enrolled in the evening program. So no student eligible for the Orrin scholarship is enrolled in the evening program.",
+        "B": "A shop receives a city permit if its owner has passed a fire inspection. No shop whose owner has passed a fire inspection sells fireworks. So no shop that receives a city permit sells fireworks.",
+        "C": "A dancer is cast in the lead role only if she has performed in the spring show. Some dancers who have performed in the spring show are not members of the junior company. So some dancers cast in the lead role are not members of the junior company, which is the school's training ensemble.",
+        "D": "A ferry is cleared for night sailing only if its crew has passed the safety drill. Most ferries whose crews have passed the safety drill are not running late. So most ferries cleared for night sailing are not running late.",
+        "E": "A volunteer may handle cash only if she has completed the training. No volunteer who may handle cash is under eighteen. So no volunteer who has completed the training is under eighteen."
+      },
+      "answer": "A",
+      "steps": [
+        {
+          "label": "Abstract it",
+          "note": "A only if B. No B is C. So no A is C. This is a chain: A is inside B, B is outside C, so A is outside C.",
+          "highlight": "only if an engineer has rated it structurally deficient"
+        },
+        {
+          "label": "Conclusion first",
+          "note": "The conclusion is 'no A is C'. C and D end with 'some' and 'most'. Out. A, B and E all end with 'no', so the conclusion alone cannot decide."
+        },
+        {
+          "label": "Then the premises",
+          "note": "Check which term the second premise is about. In E it is about A, not B, so the pieces do not chain. Out."
+        },
+        {
+          "label": "Name the trap",
+          "note": "B is nearly identical. It says 'if', not 'only if', which turns the first premise into B to A. Then there is no chain from A to B. One word kills it."
+        },
+        {
+          "label": "Confirm",
+          "note": "A keeps 'only if', puts the second 'no' on B, and concludes 'no A is C'. It matches."
+        }
+      ],
+      "why": {
+        "A": "Correct. Eligible only if project completed (A only if B); no project completer is evening-program (no B is C); so no eligible student is evening-program (no A is C).",
+        "B": "Near-identical trap, killed by one word. 'If' makes the first premise B to A, not A to B, so nothing links permit holders to the inspected shops.",
+        "C": "Concludes 'some ... are not' from a 'some ... not' premise. Wrong quantifier, and invalid.",
+        "D": "Switches to 'most' in the second premise and conclusion. Wrong strength, and the original's 'no' is what makes it valid.",
+        "E": "Same 'no' conclusion, but the second premise is about A, not B, so the premises do not chain. The conclusion is not guaranteed."
       }
     },
     {

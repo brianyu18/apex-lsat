@@ -5,9 +5,15 @@
   "group": "lr",
   "order": 1,
   "section": "LR",
-  "types": ["flaw"],
-  "lessonIds": ["u2/flaw", "u1/flaws-1", "u1/flaws-2"],
-  "minutes": 7,
+  "types": [
+    "flaw"
+  ],
+  "lessonIds": [
+    "u2/flaw",
+    "u1/flaws-1",
+    "u1/flaws-2"
+  ],
+  "minutes": 15,
   "slides": [
     {
       "kind": "idea",
@@ -33,16 +39,32 @@
       "kind": "method",
       "title": "Method",
       "steps": [
-        { "label": "Conclusion and evidence", "do": "Find the main conclusion and the premises offered for it. Ignore background and opposing views." },
-        { "label": "Name the gap", "do": "Assuming the premises are true, why doesn’t the conclusion follow? Say it in a few words: bad sample, cause from correlation, ignores another explanation." },
-        { "label": "Translate", "do": "Turn your plain-words flaw into the test’s language. A sample problem becomes “relies on a group that may not be representative”." },
-        { "label": "Two checks", "do": "For each choice: did the author do this? If yes, is it a real problem for this argument? A choice must pass both." },
-        { "label": "Break long choices", "do": "Split a wordy choice into parts and test each part against the argument. One false part sinks the choice." }
+        {
+          "label": "Conclusion and evidence",
+          "do": "Find the main conclusion and the premises offered for it. Ignore background and opposing views."
+        },
+        {
+          "label": "Name the gap",
+          "do": "Assuming the premises are true, why doesn’t the conclusion follow? Say it in a few words: bad sample, cause from correlation, ignores another explanation."
+        },
+        {
+          "label": "Translate",
+          "do": "Turn your plain-words flaw into the test’s language. A sample problem becomes “relies on a group that may not be representative”."
+        },
+        {
+          "label": "Two checks",
+          "do": "For each choice: did the author do this? If yes, is it a real problem for this argument? A choice must pass both."
+        },
+        {
+          "label": "Break long choices",
+          "do": "Split a wordy choice into parts and test each part against the argument. One false part sinks the choice."
+        }
       ]
     },
     {
       "kind": "worked",
-      "title": "Worked example",
+      "level": 1,
+      "title": "Level 1: the method, step by step",
       "stimulus": "Pollster: In a survey of readers of Outdoor Living magazine, 82 percent said they support expanding the state park system. Clearly, most voters in the state would support a ballot measure to expand the park system.",
       "stem": "The reasoning in the pollster's argument is flawed because the argument",
       "choices": {
@@ -54,10 +76,24 @@
       },
       "answer": "C",
       "steps": [
-        { "label": "Conclusion", "note": "Most voters in the state would support expanding the park system.", "highlight": "most voters in the state would support a ballot measure to expand the park system" },
-        { "label": "Evidence", "note": "82 percent of one magazine’s readers support it.", "highlight": "In a survey of readers of Outdoor Living magazine" },
-        { "label": "Name the gap", "note": "Readers of an outdoors magazine are not a typical cross-section of voters. Bad sample." },
-        { "label": "Two checks", "note": "Look for the choice that says the group may not represent voters. Make sure the author really did what each choice claims." }
+        {
+          "label": "Conclusion",
+          "note": "Most voters in the state would support expanding the park system.",
+          "highlight": "most voters in the state would support a ballot measure to expand the park system"
+        },
+        {
+          "label": "Evidence",
+          "note": "82 percent of one magazine’s readers support it.",
+          "highlight": "In a survey of readers of Outdoor Living magazine"
+        },
+        {
+          "label": "Name the gap",
+          "note": "Readers of an outdoors magazine are not a typical cross-section of voters. Bad sample."
+        },
+        {
+          "label": "Two checks",
+          "note": "Look for the choice that says the group may not represent voters. Make sure the author really did what each choice claims."
+        }
       ],
       "why": {
         "A": "Did it happen? Yes, the pollster ignores reasons. Is it a problem? No: support is support, whatever the reason.",
@@ -68,16 +104,168 @@
       }
     },
     {
+      "kind": "worked",
+      "level": 2,
+      "title": "Level 2: a link mistaken for a cause",
+      "stimulus": "Teachers at Fairmont Middle School, which serves about nine hundred students, have noticed that students who eat the school's free breakfast earn higher grades, on average, than students who do not. The program is voluntary: each student decides whether to take part. The teachers conclude that the breakfast program improves students' grades, and they urge the district to fund it for another four years.",
+      "stem": "The teachers' reasoning is most vulnerable to criticism on the grounds that it",
+      "choices": {
+        "A": "bases its conclusion on the teachers' general impressions rather than on grades that were actually measured and recorded",
+        "B": "overlooks that students who choose to eat breakfast at school may differ from the others in ways that affect grades",
+        "C": "fails to consider that the program may help some students a good deal more than it helps other students",
+        "D": "ignores the cost to the district of funding the breakfast program for another four years",
+        "E": "assumes that what holds for the average student at the school holds for every single student there"
+      },
+      "answer": "B",
+      "steps": [
+        {
+          "label": "Conclusion",
+          "note": "The breakfast program improves grades.",
+          "highlight": "the breakfast program improves students' grades"
+        },
+        {
+          "label": "Evidence",
+          "note": "Breakfast eaters have higher average grades than non-eaters.",
+          "highlight": "students who eat the school's free breakfast earn higher grades, on average, than students who do not"
+        },
+        {
+          "label": "Name the gap",
+          "note": "A link between two things does not show one causes the other. Students who opt in may already be more motivated or have steadier mornings.",
+          "highlight": "The program is voluntary: each student decides whether to take part."
+        },
+        {
+          "label": "Two checks",
+          "note": "C and D are true of the argument, but neither matters. The conclusion is about whether the program raises grades, not for whom or at what cost."
+        }
+      ],
+      "why": {
+        "A": "Didn't happen. The teachers cite grades, which are measured, not impressions.",
+        "B": "Correct. Students who opt in may differ in motivation, which would explain the higher grades without any help from the breakfast.",
+        "C": "Happened, harmless. Uneven benefit would not undercut the claim that the program improves grades.",
+        "D": "Happened, harmless. The conclusion is about effect on grades, so cost is beside the point.",
+        "E": "Didn't happen. The teachers speak of averages and make no claim about every single student."
+      }
+    },
+    {
+      "kind": "worked",
+      "level": 3,
+      "title": "Level 3: one cause does not cancel another",
+      "stimulus": "Commentators have long blamed the decline of the Torrance River's trout population on warming water. Biologists confirm that the river has warmed by about two degrees over the period. A recent survey, however, found that the number of otters along the river has more than doubled over the same period, and otters feed heavily on trout. Since the otters' appetite alone can account for a substantial share of the losses, the commentators' explanation must be rejected: warming of the water cannot have contributed to the decline in any way.",
+      "stem": "The argument is most vulnerable to criticism on the grounds that it",
+      "choices": {
+        "A": "presumes, without offering any support, that the commentators' temperature measurements of the river were inaccurate",
+        "B": "draws a conclusion about every fish species in the river from evidence about trout alone",
+        "C": "fails to show that the otters account for a larger share of the decline in trout than the warming water does",
+        "D": "overlooks the possibility that the otters' numbers rose for reasons that are entirely unrelated to the water temperature",
+        "E": "takes the fact that one factor accounts for a substantial share of a decline to show that no other factor contributed to it"
+      },
+      "answer": "E",
+      "steps": [
+        {
+          "label": "Conclusion",
+          "note": "Warming cannot have contributed at all.",
+          "highlight": "warming of the water cannot have contributed to the decline in any way"
+        },
+        {
+          "label": "Evidence",
+          "note": "Otters doubled, and their appetite can explain a substantial share of the losses.",
+          "highlight": "the otters' appetite alone can account for a substantial share of the losses"
+        },
+        {
+          "label": "Name the gap",
+          "note": "A substantial share is not the whole. Two factors can both add to a decline. The author treats them as rivals."
+        },
+        {
+          "label": "Name the traps",
+          "note": "C is tempting but it is about which factor is bigger. Even a smaller share would refute 'in any way'. D asks why otters rose, which does not touch whether warming also added to the losses."
+        },
+        {
+          "label": "Confirm",
+          "note": "E names the leap: one factor explains part, so no other factor can have played a part."
+        }
+      ],
+      "why": {
+        "A": "Didn't happen. The argument accepts that the water warmed and never questions the measurements.",
+        "B": "Didn't happen. The conclusion is about trout only.",
+        "C": "Tempting, but wrong target. Even if otters explained more, warming could still have contributed, so the comparison does not repair the gap.",
+        "D": "Happened, harmless. Why the otters increased has no bearing on whether warming also contributed.",
+        "E": "Correct. Explaining part of the decline with otters does not rule out a second factor, yet the argument says warming 'cannot have contributed in any way'."
+      }
+    },
+    {
+      "kind": "worked",
+      "level": 4,
+      "title": "Level 4: sufficient pair run backward",
+      "stimulus": "The park's posted rules say that anyone who both completes the full trail and holds a valid permit is allowed to camp at Ridge Lake. A ranger confirmed on Saturday, during a routine check of the lakeside campsites, that Priya, a regular visitor, is allowed to camp there and that she holds a valid permit. Because the permit is one of the two things the rules require, and Priya has it, the only open question is whether she completed the full trail. Since she is allowed to camp at the lake, she must have.",
+      "stem": "The reasoning in the argument is most vulnerable to criticism on the grounds that it",
+      "choices": {
+        "A": "treats a pair of conditions that together suffice for an outcome as though one of those conditions were required for it",
+        "B": "treats a condition that is required for an outcome as though that condition alone were enough to bring the outcome about",
+        "C": "infers that a person lacks one qualification from the fact that the person has the other qualification",
+        "D": "draws a conclusion about every visitor to the park from the case of one visitor who was found at the lake",
+        "E": "uses the word 'allowed' in one sense in its premises and in a different sense in its conclusion"
+      },
+      "answer": "A",
+      "steps": [
+        {
+          "label": "Conclusion",
+          "note": "Priya completed the full trail.",
+          "highlight": "the only open question is whether she completed the full trail"
+        },
+        {
+          "label": "Evidence",
+          "note": "She is allowed to camp, and she has a valid permit.",
+          "highlight": "is allowed to camp there and that she holds a valid permit"
+        },
+        {
+          "label": "Read the rule",
+          "note": "Trail plus permit is enough to be allowed. The rule never says it is the only way, and it never says each part is required.",
+          "highlight": "anyone who both completes the full trail and holds a valid permit is allowed to camp at Ridge Lake"
+        },
+        {
+          "label": "Name the gap",
+          "note": "The argument runs the rule backward: allowed, so the trail was done. Another route to being allowed could exist."
+        },
+        {
+          "label": "Kill the near twin",
+          "note": "B names the opposite error. The word to check is 'required'. The rule gives a sufficient pair, and the argument treats part of it as required. B describes required treated as enough."
+        }
+      ],
+      "why": {
+        "A": "Correct. The pair 'trail plus permit' is enough for being allowed. The argument treats the trail as something being allowed requires.",
+        "B": "The reverse error. Here a sufficient pair is treated as required. B describes a required condition treated as enough, so it does not fit.",
+        "C": "Didn't happen. The argument never concludes that Priya lacks a qualification.",
+        "D": "Didn't happen. The conclusion is about Priya alone.",
+        "E": "Didn't happen. 'Allowed' means the same thing in the premises and in the conclusion."
+      }
+    },
+    {
       "kind": "traps",
       "title": "Flaw traps",
       "traps": [
-        { "name": "Didn’t happen", "tell": "Describes a real flaw that this argument doesn’t commit. Check it against the text." },
-        { "name": "Happened, harmless", "tell": "The author did this, but it doesn’t hurt the argument, like ignoring people’s motives when only their votes matter." },
-        { "name": "Wrong flaw family", "tell": "The reverse of the actual error: “assumes it is sufficient” when the argument treated it as necessary." },
-        { "name": "Real-world complaint", "tell": "Objects that a premise is false or a conclusion is unfair. Premises are accepted as true; only the reasoning is on trial." }
+        {
+          "name": "Didn’t happen",
+          "tell": "Describes a real flaw that this argument doesn’t commit. Check it against the text."
+        },
+        {
+          "name": "Happened, harmless",
+          "tell": "The author did this, but it doesn’t hurt the argument, like ignoring people’s motives when only their votes matter."
+        },
+        {
+          "name": "Wrong flaw family",
+          "tell": "The reverse of the actual error: “assumes it is sufficient” when the argument treated it as necessary."
+        },
+        {
+          "name": "Real-world complaint",
+          "tell": "Objects that a premise is false or a conclusion is unfair. Premises are accepted as true; only the reasoning is on trial."
+        }
       ]
     },
-    { "kind": "practice", "title": "Your turn", "count": 3 },
+    {
+      "kind": "practice",
+      "title": "Your turn",
+      "count": 3
+    },
     {
       "kind": "card",
       "title": "Cheat card",

@@ -5,9 +5,13 @@
   "group": "lr",
   "order": 7,
   "section": "LR",
-  "types": ["resolve_explain"],
-  "lessonIds": ["u2/resolve-explain"],
-  "minutes": 5,
+  "types": [
+    "resolve_explain"
+  ],
+  "lessonIds": [
+    "u2/resolve-explain"
+  ],
+  "minutes": 13,
   "slides": [
     {
       "kind": "idea",
@@ -32,15 +36,28 @@
       "kind": "method",
       "title": "Method",
       "steps": [
-        { "label": "State the puzzle", "do": "Put it in one line: “Bike riding tripled, and yet bike accidents fell.”" },
-        { "label": "Find the expectation", "do": "Why does it seem surprising? Usually because you’d expect the first fact to cause the opposite of the second." },
-        { "label": "Predict a difference", "do": "Look for something that changed, or a way the groups differ, that breaks that expectation." },
-        { "label": "Test each choice", "do": "Does it explain both facts together? Choices that explain only one fact, or deepen the puzzle, go." }
+        {
+          "label": "State the puzzle",
+          "do": "Put it in one line: “Bike riding tripled, and yet bike accidents fell.”"
+        },
+        {
+          "label": "Find the expectation",
+          "do": "Why does it seem surprising? Usually because you’d expect the first fact to cause the opposite of the second."
+        },
+        {
+          "label": "Predict a difference",
+          "do": "Look for something that changed, or a way the groups differ, that breaks that expectation."
+        },
+        {
+          "label": "Test each choice",
+          "do": "Does it explain both facts together? Choices that explain only one fact, or deepen the puzzle, go."
+        }
       ]
     },
     {
       "kind": "worked",
-      "title": "Worked example",
+      "level": 1,
+      "title": "Level 1: the method, step by step",
       "stimulus": "After Granton added protected bike lanes to its downtown streets, the number of people commuting downtown by bicycle tripled. Yet the number of bicycle accidents downtown fell over the same period.",
       "stem": "Which one of the following, if true, most helps to resolve the apparent discrepancy?",
       "choices": {
@@ -52,9 +69,19 @@
       },
       "answer": "B",
       "steps": [
-        { "label": "The puzzle", "note": "Three times the riders, and yet fewer accidents.", "highlight": "Yet the number of bicycle accidents downtown fell over the same period." },
-        { "label": "The expectation", "note": "More riders should mean more accidents." },
-        { "label": "Predict", "note": "Something about the new lanes removed the main cause of accidents." }
+        {
+          "label": "The puzzle",
+          "note": "Three times the riders, and yet fewer accidents.",
+          "highlight": "Yet the number of bicycle accidents downtown fell over the same period."
+        },
+        {
+          "label": "The expectation",
+          "note": "More riders should mean more accidents."
+        },
+        {
+          "label": "Predict",
+          "note": "Something about the new lanes removed the main cause of accidents."
+        }
       ],
       "why": {
         "A": "Where riders live doesn't explain fewer accidents.",
@@ -65,16 +92,163 @@
       }
     },
     {
+      "kind": "worked",
+      "level": 2,
+      "title": "Level 2: more cost, same fees, more profit",
+      "stimulus": "Over the past decade, the town of Marlow replaced most of its paper parking permits with a phone app that drivers use to pay for each stay. The app costs the town more per transaction than the paper system did, and Marlow has not raised any parking fee. Even so, the town's net parking revenue, after all costs of collecting it, has risen sharply since the app was introduced, although the number of cars parked in town has stayed about the same.",
+      "stem": "Which one of the following, if true, most helps to resolve the apparent discrepancy described above?",
+      "choices": {
+        "A": "Most drivers who park in Marlow say that they find the app more convenient to use than the paper permits it replaced.",
+        "B": "The parking fees that Marlow charges are lower than the fees charged in most of the towns that border it, and its fee schedule has not been revised in many years.",
+        "C": "Under the paper system, many drivers parked without a valid permit and were rarely caught, but the app lets officers check at once whether any parked car has paid.",
+        "D": "The per-transaction cost of running the app has risen slightly in each year since the town first introduced it.",
+        "E": "Several towns near Marlow have also replaced their paper permits with phone apps for payment in recent years."
+      },
+      "answer": "C",
+      "steps": [
+        {
+          "label": "State the puzzle",
+          "note": "Each payment costs more, fees are the same, car numbers are the same, and yet net revenue rose.",
+          "highlight": "has risen sharply since the app was introduced"
+        },
+        {
+          "label": "Find the expectation",
+          "note": "Higher costs on the same traffic at the same fees should shrink net revenue, not grow it."
+        },
+        {
+          "label": "Predict a difference",
+          "note": "The same cars must now be paying more in total. Perhaps money that used to go uncollected is now collected."
+        },
+        {
+          "label": "Test each choice",
+          "note": "A and E say nothing about money. B is a general fact that does not explain a change. D makes the puzzle worse. C explains both facts."
+        }
+      ],
+      "why": {
+        "A": "Explains why drivers might like the app, but not why net revenue rose. Wrong task: it says nothing about money.",
+        "B": "A comparison with other towns cannot explain a change inside Marlow. It is a fact that was true before the app too.",
+        "C": "Correct. If many drivers used to escape paying and the app now catches them, the town collects more from the same cars at the same fees, which outweighs the higher cost per payment.",
+        "D": "Deepens the puzzle. Rising costs make the revenue gain more surprising, not less.",
+        "E": "General trend. What other towns did cannot explain what happened in Marlow."
+      }
+    },
+    {
+      "kind": "worked",
+      "level": 3,
+      "title": "Level 3: a fare rise and a rise in riders",
+      "stimulus": "In the year after the Callow bus line doubled its fare, its total ridership rose by about one fifth. Over the same year, other bus lines in the same city that raised their fares by similar amounts lost riders. Surveys show that Callow riders are neither wealthier nor less dependent on buses than riders on those other lines, and that the Callow line's frequency of service and the condition of its buses did not change during the year. City planners had expected the Callow line to lose riders as well.",
+      "stem": "Which one of the following, if true, most helps to resolve the apparent discrepancy described above?",
+      "choices": {
+        "A": "In that year a bridge closure forced thousands of commuters who had been driving into the city center to look for another route, and the Callow line is the only bus line that serves the alternative crossing.",
+        "B": "Even after its fare was doubled, the Callow line still charged a lower fare than the commuter rail system that serves the same city.",
+        "C": "Callow riders, on average, make longer trips than riders on the city's other bus lines, and longer trips are less sensitive to price.",
+        "D": "The other bus lines raised their fares without notice, while the Callow line announced its increase several months in advance, and then held a public meeting about it.",
+        "E": "Total ridership on the Callow line had been rising slowly for several years before its fare was doubled."
+      },
+      "answer": "A",
+      "steps": [
+        {
+          "label": "State the puzzle",
+          "note": "The fare doubled, and yet ridership rose by a fifth. Other lines with similar rises lost riders.",
+          "highlight": "rose by about one fifth"
+        },
+        {
+          "label": "Find the expectation",
+          "note": "A doubled fare should push riders away, as it did on the other lines."
+        },
+        {
+          "label": "Predict a difference",
+          "note": "The stimulus rules out the usual causes: same riders, same service. So something changed for Callow alone, and it must bring in new riders."
+        },
+        {
+          "label": "Name the traps",
+          "note": "B and C explain why riders might stay, not why many more would come. E offers a trend, but 'slowly' cannot account for a jump of one fifth. D only softens a loss."
+        },
+        {
+          "label": "Confirm",
+          "note": "A sends a large new group of riders to Callow because it is their only option. That outweighs the fare effect."
+        }
+      ],
+      "why": {
+        "A": "Correct. New riders with no other bus route would raise the total even with a doubled fare, and the other lines never gained such riders.",
+        "B": "Tempting, but explains at most why riders would not flee. It cannot explain a rise of one fifth, and the stimulus says other lines lost riders.",
+        "C": "Explains at most weaker price sensitivity. Staying put would not raise ridership by a fifth.",
+        "D": "Advance notice might soften a loss, but it cannot create new riders. It leaves the rise unexplained.",
+        "E": "Tempting trend answer, but a slow rise cannot account for a one-fifth jump in the very year the fare doubled. The word 'slowly' rules it out."
+      }
+    },
+    {
+      "kind": "worked",
+      "level": 4,
+      "title": "Level 4: the whole rises while every part falls",
+      "stimulus": "Over the last decade, the average score on a national mathematics exam rose. Yet when test takers are sorted by the kind of school they attended (public, private, or home-schooled), the average score within each of the three categories was lower at the end of the decade than at its start. The exam's content and scoring scale did not change, and education officials who examined the data confirmed that no mistakes were made in compiling the averages for the whole group or for any category. The exam is open to students from every region of the country.",
+      "stem": "Which one of the following, if true, most helps to resolve the apparent discrepancy described above?",
+      "choices": {
+        "A": "Private-school students, whose average scores are the highest of the three categories, took the exam in greater numbers at the end of the decade than at its start.",
+        "B": "Home-schooled students, whose average scores are the lowest of the three categories, made up a larger share of all test takers at the end of the decade than at its start.",
+        "C": "Within each school category, the students who took the exam at the end of the decade came from a wider range of family incomes than those who took it at the start, including many more from lower-income households.",
+        "D": "Private-school students, whose average scores are the highest of the three categories, made up a larger proportion of all test takers at the end of the decade than at its start.",
+        "E": "The average scores of the three categories fell by roughly the same amount over the decade, whichever category is considered."
+      },
+      "answer": "D",
+      "steps": [
+        {
+          "label": "State the puzzle",
+          "note": "The overall average rose, and yet each category's average fell.",
+          "highlight": "was lower at the end of the decade than at its start"
+        },
+        {
+          "label": "Find the expectation",
+          "note": "If every part falls, the whole seems bound to fall. It can rise only if the mix of the parts changed."
+        },
+        {
+          "label": "Predict a difference",
+          "note": "The share of test takers must have moved toward the category with the highest average, so the whole is pulled up even as each part slips."
+        },
+        {
+          "label": "Name the trap",
+          "note": "A and D look the same. The word that kills A is 'numbers'. More private-school test takers says nothing about their share if the total grew faster."
+        },
+        {
+          "label": "Eliminate and confirm",
+          "note": "B moves the mix the wrong way. C and E explain the falls inside categories but not the rise overall. D explains the rise."
+        }
+      ],
+      "why": {
+        "A": "Near-identical trap. It gives a count, not a proportion. If the total number of test takers grew faster, the private-school share could fall and the puzzle would remain.",
+        "B": "Deepens the puzzle. A larger share from the lowest-scoring group pulls the overall average down, not up.",
+        "C": "Might help explain falling category averages, but says nothing that would make the overall average rise.",
+        "D": "Correct. A larger proportion from the highest-scoring category can lift the overall average even though every category's average fell.",
+        "E": "Explains nothing about how the whole could rise. It repeats the falls inside the categories."
+      }
+    },
+    {
       "kind": "traps",
       "title": "Resolve traps",
       "traps": [
-        { "name": "Explains one side", "tell": "Accounts for the rise in riders but not the fall in accidents. You need both." },
-        { "name": "Deepens the puzzle", "tell": "Makes the result more surprising, like more cars on the road." },
-        { "name": "Denies a fact", "tell": "Suggests the accident count was wrong. Both facts are given as true." },
-        { "name": "General trend", "tell": "Something true everywhere can’t explain what’s different here." }
+        {
+          "name": "Explains one side",
+          "tell": "Accounts for the rise in riders but not the fall in accidents. You need both."
+        },
+        {
+          "name": "Deepens the puzzle",
+          "tell": "Makes the result more surprising, like more cars on the road."
+        },
+        {
+          "name": "Denies a fact",
+          "tell": "Suggests the accident count was wrong. Both facts are given as true."
+        },
+        {
+          "name": "General trend",
+          "tell": "Something true everywhere can’t explain what’s different here."
+        }
       ]
     },
-    { "kind": "practice", "title": "Your turn", "count": 3 },
+    {
+      "kind": "practice",
+      "title": "Your turn",
+      "count": 3
+    },
     {
       "kind": "card",
       "title": "Cheat card",

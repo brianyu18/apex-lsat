@@ -5,9 +5,15 @@
   "group": "lr",
   "order": 11,
   "section": "LR",
-  "types": ["main_conclusion"],
-  "lessonIds": ["u2/main-conclusion", "u1/arguments-1", "u1/arguments-2"],
-  "minutes": 6,
+  "types": [
+    "main_conclusion"
+  ],
+  "lessonIds": [
+    "u2/main-conclusion",
+    "u1/arguments-1",
+    "u1/arguments-2"
+  ],
+  "minutes": 14,
   "slides": [
     {
       "kind": "idea",
@@ -31,15 +37,28 @@
       "kind": "method",
       "title": "Method",
       "steps": [
-        { "label": "Find candidates", "do": "Look for claims of opinion or recommendation, especially after but, so, thus, or at the very start." },
-        { "label": "Test support", "do": "Apply the “why should I believe that?” test. The main conclusion is supported by the others." },
-        { "label": "Watch for sub-conclusions", "do": "A claim that is supported and also supports something else is an intermediate conclusion, not the main one." },
-        { "label": "Match the paraphrase", "do": "The right answer may reword the conclusion and fill in pronouns. Match the meaning, not the words." }
+        {
+          "label": "Find candidates",
+          "do": "Look for claims of opinion or recommendation, especially after but, so, thus, or at the very start."
+        },
+        {
+          "label": "Test support",
+          "do": "Apply the “why should I believe that?” test. The main conclusion is supported by the others."
+        },
+        {
+          "label": "Watch for sub-conclusions",
+          "do": "A claim that is supported and also supports something else is an intermediate conclusion, not the main one."
+        },
+        {
+          "label": "Match the paraphrase",
+          "do": "The right answer may reword the conclusion and fill in pronouns. Match the meaning, not the words."
+        }
       ]
     },
     {
       "kind": "worked",
-      "title": "Worked example",
+      "level": 1,
+      "title": "Level 1: the method, step by step",
       "stimulus": "The city should keep the old train depot and pay for its repairs. Some critics say the repairs would cost more than the depot is worth, but they overlook the thousands of tourists the depot draws each year, whose spending supports dozens of local shops.",
       "stem": "Which one of the following most accurately expresses the main conclusion of the argument?",
       "choices": {
@@ -51,9 +70,20 @@
       },
       "answer": "C",
       "steps": [
-        { "label": "Candidates", "note": "Two claims of opinion: the city should keep and repair the depot, and the critics overlook the tourists.", "highlight": "The city should keep the old train depot and pay for its repairs." },
-        { "label": "Test support", "note": "Why keep the depot? Because the critics overlook the tourist spending. So the critics claim supports the first sentence.", "highlight": "they overlook the thousands of tourists the depot draws each year" },
-        { "label": "Conclusion", "note": "The first sentence is supported and supports nothing further. It’s the main conclusion." }
+        {
+          "label": "Candidates",
+          "note": "Two claims of opinion: the city should keep and repair the depot, and the critics overlook the tourists.",
+          "highlight": "The city should keep the old train depot and pay for its repairs."
+        },
+        {
+          "label": "Test support",
+          "note": "Why keep the depot? Because the critics overlook the tourist spending. So the critics claim supports the first sentence.",
+          "highlight": "they overlook the thousands of tourists the depot draws each year"
+        },
+        {
+          "label": "Conclusion",
+          "note": "The first sentence is supported and supports nothing further. It’s the main conclusion."
+        }
       ],
       "why": {
         "A": "Premise: offered as a reason.",
@@ -64,16 +94,170 @@
       }
     },
     {
+      "kind": "worked",
+      "level": 2,
+      "title": "Level 2: the recommendation hides after a rebuttal",
+      "stimulus": "Some residents argue that the Harbor Street bridge should be demolished because it is old and rarely used. But age alone is no reason to tear down a structure. And the bridge is rarely used mainly because the county put detour signs at its entrance last spring. Since the signs can easily be removed, the bridge should be kept open and the detour signs taken down.",
+      "stem": "Which one of the following most accurately expresses the main conclusion of the argument?",
+      "choices": {
+        "A": "The Harbor Street bridge is old, and drivers rarely use it.",
+        "B": "Age alone is not a good enough reason to demolish a structure.",
+        "C": "The bridge is rarely used mainly because of the county's detour signs.",
+        "D": "The bridge should stay open, and the signs at its entrance should come down.",
+        "E": "Those who call for demolition have misread why the bridge sees so little traffic."
+      },
+      "answer": "D",
+      "steps": [
+        {
+          "label": "Find the competing recommendations",
+          "note": "The residents want the bridge demolished. The author wants the opposite. The author's claim is the one to track.",
+          "highlight": "the bridge should be kept open and the detour signs taken down"
+        },
+        {
+          "label": "Set aside the opposing view",
+          "note": "Old and rarely used is the residents' reason. The author argues against it, so it cannot be the conclusion.",
+          "highlight": "should be demolished because it is old and rarely used"
+        },
+        {
+          "label": "Test support",
+          "note": "Why keep it open? Age is no reason to demolish, and the low use comes from signs that can be removed. Those claims give reasons for the recommendation.",
+          "highlight": "Since the signs can easily be removed"
+        },
+        {
+          "label": "Eliminate and confirm",
+          "note": "A, B and C are reasons. E is only hinted at and, at most, backs the recommendation. D restates the final sentence."
+        }
+      ],
+      "why": {
+        "A": "Opposing view: the residents' reason for demolition, which the author argues against.",
+        "B": "Premise: a reason the author gives against demolishing the bridge.",
+        "C": "Premise: it explains the low use, so it supports the recommendation instead of being the final claim.",
+        "D": "Correct. A paraphrase of the last sentence: keep the bridge open and remove the signs.",
+        "E": "Only implied by the text, and at most a point that backs the recommendation, so it is not the claim everything supports."
+      }
+    },
+    {
+      "kind": "worked",
+      "level": 3,
+      "title": "Level 3: a strong sub-conclusion beside the real conclusion",
+      "stimulus": "Proponents of the proposed zoning reform assume that allowing taller apartment buildings near transit stations will lower rents across the metropolitan area. Yet new construction near stations is overwhelmingly aimed at higher-income tenants, and the units it replaces were often the cheapest in the neighborhood. Thus the reform's immediate effect on lower-income renters is likely to be greater displacement. Whatever the reform's long-run benefits, then, it would be unwise for the city council to adopt it without pairing it with protections for existing tenants.",
+      "stem": "Which one of the following most accurately expresses the main conclusion of the argument?",
+      "choices": {
+        "A": "Allowing taller apartment buildings near transit stations will lower rents across the metropolitan area.",
+        "B": "The city council would be unwise to adopt the reform unless it also protects the people already renting.",
+        "C": "The reform's immediate effect on lower-income renters is likely to be greater displacement.",
+        "D": "The reform will bring no long-run benefits to the metropolitan area, whatever its short-run effects.",
+        "E": "New construction near transit stations is overwhelmingly aimed at higher-income tenants."
+      },
+      "answer": "B",
+      "steps": [
+        {
+          "label": "Set aside the proponents",
+          "note": "The first sentence is the view under attack. The author's own case starts at 'Yet'.",
+          "highlight": "Yet new construction near stations is overwhelmingly aimed at higher-income tenants"
+        },
+        {
+          "label": "Find the two top claims",
+          "note": "'Thus' introduces a prediction about displacement. 'Then' introduces a recommendation about the council. Both look like conclusions.",
+          "highlight": "Thus the reform's immediate effect on lower-income renters is likely to be greater displacement."
+        },
+        {
+          "label": "Test which supports which",
+          "note": "Does likely displacement give a reason to want protections? Yes. Does 'unwise without protections' give a reason to expect displacement? No."
+        },
+        {
+          "label": "Name the trap",
+          "note": "The displacement claim is supported and is strongly worded, which makes it tempting. But it feeds the recommendation, so it is a sub-conclusion.",
+          "highlight": "it would be unwise for the city council to adopt it without pairing it with protections for existing tenants"
+        },
+        {
+          "label": "Eliminate and confirm",
+          "note": "D overstates: 'whatever' sets the long-run benefits aside without denying them. A is the proponents' view. E is a premise. B is the top claim."
+        }
+      ],
+      "why": {
+        "A": "Opposing view: the proponents' assumption, which the argument is aimed against.",
+        "B": "Correct. A paraphrase of the final sentence. Everything else in the argument backs it.",
+        "C": "Sub-conclusion: supported by the premises about construction and used to back the recommendation. This is the tempting trap.",
+        "D": "Overstated: 'whatever the long-run benefits' sets them aside, and the author never says there are none.",
+        "E": "Premise: a reason offered for the displacement claim."
+      }
+    },
+    {
+      "kind": "worked",
+      "level": 4,
+      "title": "Level 4: the conclusion is a conditional, and one word separates two choices",
+      "stimulus": "A community garden survives only if its volunteers attend regularly, and volunteers attend regularly only if they feel that their work is noticed. The committee that has run Millbrook's garden for six years has never once thanked or named its volunteers, so Millbrook's volunteers probably do not feel that their work is noticed. Therefore, unless the committee changes its practice, the Millbrook garden is unlikely to survive. Admittedly, thanking volunteers cannot guarantee that they attend, since people have other demands on their time, such as jobs and families.",
+      "stem": "Which one of the following most accurately expresses the main conclusion of the argument?",
+      "choices": {
+        "A": "A community garden survives only if its volunteers feel that their work is noticed by the people who run it.",
+        "B": "Thanking volunteers cannot guarantee that they will attend regularly.",
+        "C": "Millbrook's volunteers probably do not feel that their work is noticed.",
+        "D": "Unless the Millbrook committee changes its practice, the garden will not survive.",
+        "E": "Unless the Millbrook committee changes its practice, the garden is unlikely to survive."
+      },
+      "answer": "E",
+      "steps": [
+        {
+          "label": "Mark the supports",
+          "note": "The first sentence gives two general requirements. The next gives a fact about Millbrook. These are premises.",
+          "highlight": "A community garden survives only if its volunteers attend regularly"
+        },
+        {
+          "label": "Spot the concession",
+          "note": "'Admittedly' flags a point the author grants. It supports nothing and cannot be the main conclusion.",
+          "highlight": "Admittedly, thanking volunteers cannot guarantee that they attend"
+        },
+        {
+          "label": "Find the sub-conclusion",
+          "note": "The committee's habit gives a reason to think the volunteers do not feel noticed. That claim is supported and then used again.",
+          "highlight": "so Millbrook's volunteers probably do not feel that their work is noticed"
+        },
+        {
+          "label": "Locate the top",
+          "note": "'Therefore' marks the claim that the sub-conclusion and the requirements lead to. It is a conditional about survival.",
+          "highlight": "unless the committee changes its practice, the Millbrook garden is unlikely to survive"
+        },
+        {
+          "label": "Kill the near twin with one word",
+          "note": "D copies the conclusion but says 'will not survive'. The author says only 'unlikely'. That one word of force rules D out."
+        }
+      ],
+      "why": {
+        "A": "A general claim that merges the opening premises. It is background, not the claim the argument ends on.",
+        "B": "Concession: granted by 'admittedly' and not used to support anything.",
+        "C": "Sub-conclusion: supported by the committee's behavior and then used to reach the final claim.",
+        "D": "Close, but it says the garden 'will not' survive. The author claims only that it is 'unlikely', so this overstates the force.",
+        "E": "Correct. It matches the 'therefore' sentence, with the same condition and the same force."
+      }
+    },
+    {
       "kind": "traps",
       "title": "Conclusion traps",
       "traps": [
-        { "name": "The premise", "tell": "A reason, often the most memorable fact." },
-        { "name": "The opposing view", "tell": "What the critics say. The author argues against it." },
-        { "name": "The sub-conclusion", "tell": "A claim that is supported but then used to support the main point." },
-        { "name": "Overstated paraphrase", "tell": "Right idea, stronger wording than the author used." }
+        {
+          "name": "The premise",
+          "tell": "A reason, often the most memorable fact."
+        },
+        {
+          "name": "The opposing view",
+          "tell": "What the critics say. The author argues against it."
+        },
+        {
+          "name": "The sub-conclusion",
+          "tell": "A claim that is supported but then used to support the main point."
+        },
+        {
+          "name": "Overstated paraphrase",
+          "tell": "Right idea, stronger wording than the author used."
+        }
       ]
     },
-    { "kind": "practice", "title": "Your turn", "count": 3 },
+    {
+      "kind": "practice",
+      "title": "Your turn",
+      "count": 3
+    },
     {
       "kind": "card",
       "title": "Cheat card",

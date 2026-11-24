@@ -19,6 +19,8 @@ const Worked = z
   .object({
     kind: z.literal("worked"),
     title: text,
+    /** difficulty on the bank's 1–4 scale; a deck's examples run from 1 to 4 */
+    level: z.number().int().min(1).max(4).optional(),
     /** RC: a short passage; LR: leave out and use stimulus */
     passage: z.object({ title: text.optional(), paragraphs: z.array(text).min(1).max(6), paragraphsB: z.array(text).min(1).max(6).optional() }).strict().optional(),
     stimulus: text.optional(),
@@ -61,8 +63,8 @@ export type Deck = z.infer<typeof DeckSchema>;
 
 export const DECK_GROUPS: Record<Deck["group"], { title: string; blurb: string }> = {
   foundations: { title: "Foundations", blurb: "The moves every question uses: reading arguments, conditional logic, flaws, wrong answers and pacing." },
-  lr: { title: "Logical Reasoning by question type", blurb: "One deck per question family: how to spot it, the method, a worked example and live practice." },
-  rc: { title: "Reading Comprehension", blurb: "How to read a passage, then each question family with a worked mini-passage." },
+  lr: { title: "Logical Reasoning by question type", blurb: "One deck per question family: how to spot it, the method, worked examples from Level 1 to Level 4 and live practice." },
+  rc: { title: "Reading Comprehension", blurb: "How to read a passage, then each question family with worked passages from Level 1 to Level 4." },
 };
 
 /** Highlight helper shared by the player and the validator. */

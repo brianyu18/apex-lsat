@@ -5,9 +5,15 @@
   "group": "lr",
   "order": 2,
   "section": "LR",
-  "types": ["necessary_assumption"],
-  "lessonIds": ["u2/necessary-assumption", "u1/arguments-4", "u3/link-assumption"],
-  "minutes": 7,
+  "types": [
+    "necessary_assumption"
+  ],
+  "lessonIds": [
+    "u2/necessary-assumption",
+    "u1/arguments-4",
+    "u3/link-assumption"
+  ],
+  "minutes": 15,
   "slides": [
     {
       "kind": "idea",
@@ -33,16 +39,74 @@
       "kind": "method",
       "title": "Method",
       "steps": [
-        { "label": "Map the argument", "do": "Conclusion and premises. Notice any idea that shows up in the conclusion but nowhere in the premises." },
-        { "label": "Predict the gap", "do": "What has the author taken for granted? Often it is that nothing else explains the evidence, or that a new term links to an old one." },
-        { "label": "Scan for the gap", "do": "Look for a choice that addresses your prediction, even in a weaker form." },
-        { "label": "Negate", "do": "Turn the candidate into its opposite (not “the reverse”, just “it’s not the case that…”). If the argument falls apart, it’s the answer." },
-        { "label": "Beware strength", "do": "A strong choice (all, only, always) is rarely necessary. Its negation (“not all”) usually leaves the argument standing." }
+        {
+          "label": "Map the argument",
+          "do": "Conclusion and premises. Notice any idea that shows up in the conclusion but nowhere in the premises."
+        },
+        {
+          "label": "Predict the gap",
+          "do": "What has the author taken for granted? Often it is that nothing else explains the evidence, or that a new term links to an old one."
+        },
+        {
+          "label": "Scan for the gap",
+          "do": "Look for a choice that addresses your prediction, even in a weaker form."
+        },
+        {
+          "label": "Negate",
+          "do": "Turn the candidate into its opposite (not “the reverse”, just “it’s not the case that…”). If the argument falls apart, it’s the answer."
+        },
+        {
+          "label": "Beware strength",
+          "do": "A strong choice (all, only, always) is rarely necessary. Its negation (“not all”) usually leaves the argument standing."
+        }
       ]
     },
     {
       "kind": "worked",
-      "title": "Worked example",
+      "level": 1,
+      "title": "Level 1: a plan that needs the extra sleep to happen",
+      "stimulus": "Principal: Willowmere High should start its school day an hour later. Studies show that teenagers who sleep longer each night earn higher test scores. Therefore, moving the first bell from 8:00 to 9:00 will raise the test scores of our students. The change would cost the school nothing.",
+      "stem": "Which one of the following is an assumption on which the principal's argument depends?",
+      "choices": {
+        "A": "A later first bell would not simply lead students to go to bed later at night.",
+        "B": "Test scores are the most reliable measure of how well a school educates its students.",
+        "C": "Most Willowmere students currently sleep fewer hours each night than the studies say teenagers need.",
+        "D": "Every teenager who sleeps longer each night will earn a higher test score as a direct result.",
+        "E": "Other high schools that moved to later start times have seen their test scores rise."
+      },
+      "answer": "A",
+      "steps": [
+        {
+          "label": "Find the conclusion",
+          "note": "The word Therefore marks it. A later start will raise students' test scores.",
+          "highlight": "moving the first bell from 8:00 to 9:00 will raise the test scores of our students"
+        },
+        {
+          "label": "Find the evidence",
+          "note": "Teenagers who sleep longer score higher.",
+          "highlight": "teenagers who sleep longer each night earn higher test scores"
+        },
+        {
+          "label": "Predict the gap",
+          "note": "A later bell gives students the chance to sleep longer. It does not make them sleep longer. The author takes for granted that they will not just go to bed later."
+        },
+        {
+          "label": "Negate and confirm",
+          "note": "Negate A: students would go to bed an hour later. They get no extra sleep, so scores do not rise, and the argument collapses. The other choices fail the negation test or add nothing the argument needs."
+        }
+      ],
+      "why": {
+        "A": "Correct. Negated, students shift their bedtime and gain no sleep, which wrecks the argument.",
+        "B": "Negate it: test scores are not the best measure. The argument is only about test scores, so it still stands.",
+        "C": "Negate it: not most students are short of sleep. Those who are short can still gain, so this is not required.",
+        "D": "Too strong. The argument needs only that more sleep tends to raise scores, so the word every is not required.",
+        "E": "Helpful, not required. The argument rests on the sleep link, so other schools' results need not be assumed."
+      }
+    },
+    {
+      "kind": "worked",
+      "level": 2,
+      "title": "Level 2: the method, step by step",
       "stimulus": "Councilor: The Oakdale branch library should stay open on Sundays. Last year it lent more books on Sundays than on any other day of the week, so closing it on Sundays would sharply reduce the number of books our residents borrow.",
       "stem": "Which one of the following is an assumption on which the councilor's argument depends?",
       "choices": {
@@ -54,10 +118,24 @@
       },
       "answer": "E",
       "steps": [
-        { "label": "Conclusion", "note": "Closing on Sundays would sharply reduce borrowing (so stay open).", "highlight": "closing it on Sundays would sharply reduce the number of books our residents borrow" },
-        { "label": "Evidence", "note": "Sunday was the busiest lending day.", "highlight": "Last year it lent more books on Sundays than on any other day of the week" },
-        { "label": "Predict the gap", "note": "Busy Sundays don’t mean lost borrowing. Sunday borrowers might just come on Saturday. The author assumes they won’t all shift." },
-        { "label": "Negate the candidate", "note": "Negate E: almost all Sunday borrowers would just come another day. Then closing barely reduces borrowing, and the argument collapses." }
+        {
+          "label": "Conclusion",
+          "note": "Closing on Sundays would sharply reduce borrowing (so stay open).",
+          "highlight": "closing it on Sundays would sharply reduce the number of books our residents borrow"
+        },
+        {
+          "label": "Evidence",
+          "note": "Sunday was the busiest lending day.",
+          "highlight": "Last year it lent more books on Sundays than on any other day of the week"
+        },
+        {
+          "label": "Predict the gap",
+          "note": "Busy Sundays don’t mean lost borrowing. Sunday borrowers might just come on Saturday. The author assumes they won’t all shift."
+        },
+        {
+          "label": "Negate the candidate",
+          "note": "Negate E: almost all Sunday borrowers would just come another day. Then closing barely reduces borrowing, and the argument collapses."
+        }
       ],
       "why": {
         "A": "Negate it: Oakdale isn't the busiest branch. Closing it on Sundays can still cut borrowing. Not required.",
@@ -68,16 +146,124 @@
       }
     },
     {
+      "kind": "worked",
+      "level": 3,
+      "title": "Level 3: the key is a not-all claim",
+      "stimulus": "Director: Our research staff's output of patentable inventions has fallen steadily since we replaced individually assigned projects with rotating team assignments. Under the old system, each researcher held responsibility for a single project for several years and developed deep expertise in it. Team rotation, by contrast, spreads each researcher's attention across many problems at once, so that no one stays with any problem long enough to master it. Since sustained concentration on a single problem is how inventions come about, restoring individually assigned projects would bring the output of patentable inventions back up.",
+      "stem": "Which one of the following is an assumption required by the director's argument?",
+      "choices": {
+        "A": "Researchers who held individually assigned projects found their work more satisfying than researchers on rotating teams do.",
+        "B": "Rotating team assignments spread each researcher's attention across many problems at once.",
+        "C": "Not all of the fall in patentable inventions would have occurred even if individually assigned projects had been kept.",
+        "D": "No development other than the introduction of rotating team assignments has contributed in any way to the fall in patentable inventions.",
+        "E": "Individually assigned projects would yield more patentable inventions than rotating team assignments in any research setting."
+      },
+      "answer": "C",
+      "steps": [
+        {
+          "label": "Find the conclusion",
+          "note": "Going back to individual projects would bring inventions back up.",
+          "highlight": "restoring individually assigned projects would bring the output of patentable inventions back up"
+        },
+        {
+          "label": "Find the evidence",
+          "note": "Output fell after the switch, and rotation scatters attention. The director links the two by timing and by a theory about focus.",
+          "highlight": "has fallen steadily since we replaced individually assigned projects"
+        },
+        {
+          "label": "Predict the gap",
+          "note": "The argument treats the switch as the cause of the fall. It must assume the switch did at least some of the damage, or undoing it would change nothing."
+        },
+        {
+          "label": "Spot the two tempting traps",
+          "note": "B repeats a premise, so it is not unstated. D sounds like the missing link but says no other cause at all, which is far stronger than the argument needs."
+        },
+        {
+          "label": "Negate to confirm",
+          "note": "Negate C: the whole fall would have happened anyway. Then restoring projects changes nothing and the argument collapses. Negating D only says some other cause helped, which the argument survives."
+        }
+      ],
+      "why": {
+        "A": "Helpful at most. Job satisfaction is not part of the reasoning about inventions, and its negation leaves the argument standing.",
+        "B": "Restated premise. The stimulus already says this, so it is not an unstated assumption.",
+        "C": "Correct. If the fall would have happened regardless, restoring individual projects could not bring output back up.",
+        "D": "Too strong. Its negation, that some other development also contributed, still lets the switch be part of the cause.",
+        "E": "Too strong and out of scope. The argument is about this department, not every research setting."
+      }
+    },
+    {
+      "kind": "worked",
+      "level": 4,
+      "title": "Level 4: an existence assumption inside a conditional chain",
+      "stimulus": "Planner: The ordinance's reach is broader than many residents realize. Marsh is one of the city's six districts. Every parcel in the Marsh district that was rezoned last year borders a commuter rail line. The city's transit ordinance applies the new levy to every parcel that borders a commuter rail line, with no exceptions, and requires every parcel subject to the levy to file an annual transit-use report. Parcels in other districts were rezoned last year too, but the ordinance treats all districts alike. Therefore, some parcels in the Marsh district must file annual transit-use reports.",
+      "stem": "Which one of the following is an assumption on which the planner's argument depends?",
+      "choices": {
+        "A": "Every parcel required to file an annual transit-use report was rezoned last year.",
+        "B": "Every parcel in the Marsh district that borders a commuter rail line was rezoned last year.",
+        "C": "Every parcel in the Marsh district is required to file an annual transit-use report.",
+        "D": "Most parcels in the Marsh district were rezoned last year.",
+        "E": "At least one parcel in the Marsh district was rezoned last year."
+      },
+      "answer": "E",
+      "steps": [
+        {
+          "label": "Find the conclusion",
+          "note": "Only some Marsh parcels must file reports.",
+          "highlight": "some parcels in the Marsh district must file annual transit-use reports"
+        },
+        {
+          "label": "Chain the premises",
+          "note": "Rezoned in Marsh, then borders rail, then pays the levy, then files a report. Every link is an all statement.",
+          "highlight": "Every parcel in the Marsh district that was rezoned last year borders a commuter rail line"
+        },
+        {
+          "label": "Spot what the chain needs",
+          "note": "All statements never say that anything exists. A conclusion about some parcels needs at least one rezoned Marsh parcel to start the chain."
+        },
+        {
+          "label": "Name the trap",
+          "note": "D differs from E by one phrase: most versus at least one. Most is stronger than needed. Its negation still leaves room for a single rezoned parcel."
+        },
+        {
+          "label": "Negate and confirm",
+          "note": "Negate E: no Marsh parcel was rezoned last year. The chain never starts and the conclusion has no support. A, B and C reverse or stretch the chain and are not required."
+        }
+      ],
+      "why": {
+        "A": "Reversed. The chain runs from rezoned parcels to reports, not back, and its negation does not hurt the argument.",
+        "B": "Reversed and too strong. The argument needs only that some rezoned parcels border rail, which is already stated.",
+        "C": "Too strong. The conclusion needs only some parcels to file, so not every parcel need file.",
+        "D": "Too strong. Its negation, that at most half were rezoned, still allows one rezoned parcel, so the argument survives.",
+        "E": "Correct. If no Marsh parcel was rezoned, the premises say nothing about Marsh and the argument collapses."
+      }
+    },
+    {
       "kind": "traps",
       "title": "Necessary assumption traps",
       "traps": [
-        { "name": "Helpful, not required", "tell": "Would strengthen the argument but isn’t needed. Its negation leaves the argument standing." },
-        { "name": "Too strong", "tell": "“All Sunday borrowers would stop borrowing.” The argument needs only many, so the negation “not all” doesn’t hurt it." },
-        { "name": "Restated premise", "tell": "Repeats what the stimulus already says. An assumption is unstated." },
-        { "name": "Sufficient but not necessary", "tell": "Would prove the conclusion but asks for more than the argument needs." }
+        {
+          "name": "Helpful, not required",
+          "tell": "Would strengthen the argument but isn’t needed. Its negation leaves the argument standing."
+        },
+        {
+          "name": "Too strong",
+          "tell": "“All Sunday borrowers would stop borrowing.” The argument needs only many, so the negation “not all” doesn’t hurt it."
+        },
+        {
+          "name": "Restated premise",
+          "tell": "Repeats what the stimulus already says. An assumption is unstated."
+        },
+        {
+          "name": "Sufficient but not necessary",
+          "tell": "Would prove the conclusion but asks for more than the argument needs."
+        }
       ]
     },
-    { "kind": "practice", "title": "Your turn", "count": 3 },
+    {
+      "kind": "practice",
+      "title": "Your turn",
+      "count": 3
+    },
     {
       "kind": "card",
       "title": "Cheat card",

@@ -12,7 +12,7 @@
     "u4/question-types-3",
     "u4/style-single-position"
   ],
-  "minutes": 5,
+  "minutes": 13,
   "slides": [
     {
       "kind": "idea",
@@ -54,7 +54,8 @@
     },
     {
       "kind": "worked",
-      "title": "Worked example",
+      "level": 1,
+      "title": "Level 1: the method, step by step",
       "passage": {
         "paragraphs": [
           "Why do some languages have many words for colors while others have few? An early explanation held that languages develop color terms in a fixed sequence as societies grow more complex.",
@@ -93,6 +94,161 @@
         "C": "Correct. Question, challenged answer, alternative.",
         "D": "The second account is favored, not rejected.",
         "E": "The passage opens with a question, and the first claim is rejected, not qualified."
+      }
+    },
+    {
+      "kind": "worked",
+      "level": 2,
+      "title": "Level 2: a shift in view, a failed fix, a better fix",
+      "passage": {
+        "paragraphs": [
+          "For centuries, salt marshes were regarded as wasteland, and communities drained them for farmland or filled them for building lots with little protest. Farmers prized the flat, fertile ground, and few people saw anything worth saving. Ecologists now take a very different view. They have shown that marshes filter polluted runoff, shelter young fish, and absorb the force of storm surges, services that are expensive to replace once a marsh is lost.",
+          "Restoring a drained marsh has nevertheless proved harder than destroying one. Early projects simply breached the old dikes and let the tide return, expecting marsh grasses to recolonize on their own. At many sites they did not. During decades of drainage the exposed soil had compacted and sunk, so the reflooded ground lay too deep under water for seedlings to survive.",
+          "Newer projects therefore rebuild elevation first. Crews spread dredged sediment across the sunken ground, raise it to the height at which grasses can root, and only then reopen the site to the tide. Results so far are encouraging, although the amount of suitable sediment available limits how many sites can be treated in this way."
+        ]
+      },
+      "stem": "Which one of the following most accurately describes the organization of the passage?",
+      "choices": {
+        "A": "A common practice is defended against its critics, a weakness in the criticism is exposed, and the practice is then endorsed without any reservation.",
+        "B": "A scientific consensus is described, an exception to it is identified, and the consensus is revised in light of that single exception.",
+        "C": "A problem is posed, two remedies are contrasted, and the newer of the two is rejected as too costly for most communities to adopt.",
+        "D": "A change in scientific attitude is described, an early response is shown to fall short, and a revised response is presented with a limit on its use.",
+        "E": "A historical error is corrected, evidence for the correction is reviewed, and a policy is recommended on the basis of that evidence."
+      },
+      "answer": "D",
+      "steps": [
+        {
+          "label": "Use your map",
+          "note": "P1: attitudes toward marshes change. P2: the first restoration method fails. P3: a revised method, with a limit.",
+          "highlight": "Ecologists now take a very different view."
+        },
+        {
+          "label": "Predict the sequence",
+          "note": "A shift in view, then a flawed first response, then an improved response and its limit."
+        },
+        {
+          "label": "Check step by step",
+          "note": "Test each choice one part at a time, in order. A, B, C and E each include a step that never happens."
+        },
+        {
+          "label": "Watch the verbs",
+          "note": "The early method \"fell short\"; it was not defended. The newer method is presented as encouraging, not rejected.",
+          "highlight": "Newer projects therefore rebuild elevation first."
+        }
+      ],
+      "why": {
+        "A": "Nothing in P1 defends the drainage practice, and nothing is exposed as a flaw in critics. The ecologists' view is simply described.",
+        "B": "P1 describes a changed view, not a consensus meeting one exception, and the revision in P3 follows a failed method rather than a single exception.",
+        "C": "The newer remedy is called encouraging, not rejected, and its limit is sediment supply, not cost.",
+        "D": "Correct. Shift in view, early response shown to fall short, revised response with a limit.",
+        "E": "No policy is recommended, and the passage does not correct a historical error with evidence; it traces a change in attitude."
+      }
+    },
+    {
+      "kind": "worked",
+      "level": 3,
+      "title": "Level 3: a view revised, not replaced",
+      "passage": {
+        "paragraphs": [
+          "Historians have long explained the spread of literacy in early modern European towns by pointing to the printing press. Cheap books, the argument runs, gave ordinary people both a reason to learn to read and something to read once they had learned. The explanation is attractive because the timing seems to fit: towns with print shops, as contemporaries noticed, appear to have produced more readers within a few generations of the press's arrival, and the earliest surviving school primers were printed rather than copied by hand.",
+          "Yet records from several regions complicate this account. In some districts with no printer within a day's travel, signature rates among artisans rose as quickly as in print-rich towns, and in a few places literacy had been climbing for decades before the first press arrived. Such findings are difficult to square with the view that print alone created the demand for reading, since readers appeared where no press had yet reached.",
+          "A more careful account treats print as an accelerant rather than a cause. Commerce and record-keeping had already made basic literacy useful to merchants and craftsmen, and church schooling had supplied some instruction. Print, on this view, lowered the cost of materials and widened what a reader could do with the skill, so that it hastened a change already under way. The older explanation is thus not discarded but reduced to a partial truth: print mattered, though not in the way its champions supposed."
+        ]
+      },
+      "stem": "Which one of the following most accurately describes the organization of the passage?",
+      "choices": {
+        "A": "A widely held explanation is outlined, findings that strain it are presented, and a revised explanation that keeps part of it is offered.",
+        "B": "A widely held explanation is outlined, evidence supporting it is accumulated, and rival explanations are shown to be inconsistent with that evidence.",
+        "C": "A widely held explanation is outlined, findings that contradict it are presented, and an entirely different explanation is offered in its place.",
+        "D": "A historical puzzle is posed, two competing explanations are weighed against each other, and one of them is selected as the better supported.",
+        "E": "A widely held explanation is outlined, a challenge to it is described, and the challenge is shown to rest on unreliable records."
+      },
+      "answer": "A",
+      "steps": [
+        {
+          "label": "Use your map",
+          "note": "P1: the standard explanation and why it seems to fit. P2: findings that complicate it. P3: a revised account.",
+          "highlight": "Historians have long explained the spread of literacy"
+        },
+        {
+          "label": "Predict the sequence",
+          "note": "Standard view, then awkward findings, then a revision that keeps a role for the old view.",
+          "highlight": "A more careful account treats print as an accelerant rather than a cause."
+        },
+        {
+          "label": "Watch the verbs",
+          "note": "P2 \"complicates\" the view; it does not refute it. P3 says the old view is \"reduced to a partial truth\". The revision keeps part of the original.",
+          "highlight": "The older explanation is thus not discarded but reduced to a partial truth"
+        },
+        {
+          "label": "The tempting trap",
+          "note": "C matches the first two steps. It fails on its last words: \"entirely different\" and \"in its place\". Nothing is replaced wholesale.",
+          "highlight": "Such findings are difficult to square with the view that print alone created the demand for reading"
+        },
+        {
+          "label": "Check step by step",
+          "note": "B, D and E each invent a step that never happens: supporting evidence, a weighing of two rivals, or an attack on the records."
+        }
+      ],
+      "why": {
+        "A": "Correct. Explanation, findings that strain it, and a revision that keeps print as a partial cause.",
+        "B": "P2 gives evidence against the view, not for it, and no rival explanations are dismissed.",
+        "C": "The trap. The first two steps fit, but the new account keeps part of the old one, so it is not \"entirely different\" or offered \"in its place\".",
+        "D": "Only one explanation is presented before the author's own revision, and no two explanations are weighed against each other.",
+        "E": "The records are used by the author as reliable evidence; they are never shown to be unreliable."
+      }
+    },
+    {
+      "kind": "worked",
+      "level": 4,
+      "title": "Level 4: two choices that differ by one phrase",
+      "passage": {
+        "paragraphs": [
+          "A prominent hypothesis in the study of memory holds that consolidation, the process by which newly acquired information becomes stable and resistant to interference, occurs chiefly during slow-wave sleep. On this view, waking experience leaves behind fragile traces that are replayed during sleep and gradually integrated into existing knowledge. The hypothesis explains why learners who sleep after training typically outperform those who are kept awake for the same interval, and it has guided a generation of experimental work.",
+          "The hypothesis faces an objection drawn from studies of patients whose slow-wave sleep is suppressed by medication. Some of these patients show little or no deficit in retaining what they learned the previous day. If slow-wave sleep were necessary for consolidation, the objection runs, such retention should be impossible. The objection deserves a partial concession: it shows that slow-wave sleep cannot be the sole route by which memories stabilize, and any formulation that treats it as indispensable must be abandoned.",
+          "It does not follow, however, that the hypothesis fails. Two claims have been run together: that slow-wave sleep is necessary for consolidation, and that it is the principal contributor to consolidation under ordinary conditions. The suppression studies bear only on the first claim. They say nothing about how much of normal consolidation slow-wave sleep carries in healthy sleepers, whose alternative routes are not being drawn on. Evidence of compensation in medicated patients is, if anything, evidence that the brain's capacity for backup is greater than had been assumed, not that the primary process is idle.",
+          "The hypothesis should therefore be restated in a more modest form, one that claims dominance and not necessity. Slow-wave sleep is best understood as the dominant but not exclusive mechanism of consolidation, a formulation that accommodates the suppression findings while preserving the explanation of the advantage enjoyed by sleepers. What remains open is how much each alternative route contributes, a question the original hypothesis was never designed to answer."
+        ]
+      },
+      "stem": "Which one of the following most accurately describes the organization of the passage?",
+      "choices": {
+        "A": "A thesis is stated, an objection to it is rebutted in full, a distinction between two experimental methods is drawn, and the thesis is then defended without any change.",
+        "B": "A thesis is stated, an objection to it is partly conceded, a distinction is drawn to limit the objection's reach, and the thesis is then restated in its original form.",
+        "C": "A thesis is stated, supporting evidence is reviewed, an objection is raised, and the objection is then shown to rest on a flawed experiment.",
+        "D": "A thesis is stated, a rival thesis is described, a distinction between the two is drawn, and the rival thesis is then adopted in its place.",
+        "E": "A thesis is stated, an objection to it is partly conceded, a distinction is drawn to limit the objection's reach, and the thesis is restated in a more modest form."
+      },
+      "answer": "E",
+      "steps": [
+        {
+          "label": "Use your map",
+          "note": "P1: the thesis. P2: an objection, partly conceded. P3: a distinction between two claims. P4: a revised thesis.",
+          "highlight": "The objection deserves a partial concession"
+        },
+        {
+          "label": "Predict the sequence",
+          "note": "Thesis, objection partly conceded, distinction that limits the objection, thesis restated more modestly."
+        },
+        {
+          "label": "Check step by step",
+          "note": "A, C and D break early. A says \"rebutted in full\", C adds a flawed experiment, and D adds a rival thesis. None of these happens."
+        },
+        {
+          "label": "The tempting trap",
+          "note": "B matches the first three steps word for word. Only its last phrase differs: \"original form\" against \"more modest form\".",
+          "highlight": "The hypothesis should therefore be restated in a more modest form"
+        },
+        {
+          "label": "Watch the verbs",
+          "note": "P4 restates the thesis to claim dominance, not necessity. That is a narrower claim, so the thesis is not kept in its original form."
+        }
+      ],
+      "why": {
+        "A": "The objection is partly conceded, not rebutted in full, and the distinction is between two claims, not two experimental methods.",
+        "B": "The trap. The first three steps match, but the thesis ends up restated more modestly, not in its original form.",
+        "C": "No supporting evidence is reviewed in detail, and the objection is never shown to rest on a flawed experiment.",
+        "D": "There is no rival thesis; the distinction is between two claims within the same hypothesis.",
+        "E": "Correct. Partial concession, a limiting distinction, and a more modest restatement."
       }
     },
     {

@@ -5,9 +5,14 @@
   "group": "rc",
   "order": 8,
   "section": "RC",
-  "types": ["relationship", "approach"],
-  "lessonIds": ["u4/comparative-passages"],
-  "minutes": 6,
+  "types": [
+    "relationship",
+    "approach"
+  ],
+  "lessonIds": [
+    "u4/comparative-passages"
+  ],
+  "minutes": 14,
   "slides": [
     {
       "kind": "idea",
@@ -32,15 +37,28 @@
       "kind": "method",
       "title": "Method",
       "steps": [
-        { "label": "A’s main point", "do": "One sentence, with A’s stance." },
-        { "label": "B’s main point", "do": "One sentence, then: how does B relate to A?" },
-        { "label": "Agree and differ", "do": "List one point both accept and one they dispute." },
-        { "label": "Two-author check", "do": "For each choice, ask what A would say and what B would say, as with LR disagreement questions." }
+        {
+          "label": "A’s main point",
+          "do": "One sentence, with A’s stance."
+        },
+        {
+          "label": "B’s main point",
+          "do": "One sentence, then: how does B relate to A?"
+        },
+        {
+          "label": "Agree and differ",
+          "do": "List one point both accept and one they dispute."
+        },
+        {
+          "label": "Two-author check",
+          "do": "For each choice, ask what A would say and what B would say, as with LR disagreement questions."
+        }
       ]
     },
     {
       "kind": "worked",
-      "title": "Worked example",
+      "level": 1,
+      "title": "Level 1: the method, step by step",
       "passage": {
         "paragraphs": [
           "Museums that hold artifacts taken during colonial rule should return them whenever the countries of origin ask. The objects were acquired under coercion, and keeping them prolongs that injustice. Arguments that the objects are safer in well-funded museums are condescending and, in many cases, no longer true."
@@ -59,9 +77,20 @@
       },
       "answer": "E",
       "steps": [
-        { "label": "A’s point", "note": "Return the artifacts whenever asked.", "highlight": "should return them whenever the countries of origin ask" },
-        { "label": "B’s point", "note": "Judge each object by how it was acquired.", "highlight": "Each claim should be judged on the record of how the particular object was acquired." },
-        { "label": "Relationship", "note": "B pushes back on A’s blanket rule. They agree some objects were taken unjustly." }
+        {
+          "label": "A’s point",
+          "note": "Return the artifacts whenever asked.",
+          "highlight": "should return them whenever the countries of origin ask"
+        },
+        {
+          "label": "B’s point",
+          "note": "Judge each object by how it was acquired.",
+          "highlight": "Each claim should be judged on the record of how the particular object was acquired."
+        },
+        {
+          "label": "Relationship",
+          "note": "B pushes back on A’s blanket rule. They agree some objects were taken unjustly."
+        }
       ],
       "why": {
         "A": "B challenges A's blanket rule; it doesn't support it.",
@@ -71,7 +100,168 @@
         "E": "Correct. It states each author's position and how they differ."
       }
     },
-    { "kind": "practice", "title": "Your turn", "count": 2 },
+    {
+      "kind": "worked",
+      "level": 2,
+      "title": "Level 2: accepting the facts, doubting the lesson",
+      "passage": {
+        "paragraphs": [
+          "When wolves were returned to a large national park after seventy years' absence, the effects reached well beyond the wolves themselves. Ecologists had expected a change in the elk, but few had anticipated how far the change would travel. Elk, no longer free to graze for hours in open valleys, moved more and browsed less; willow and aspen stands along the streams began to recover; beavers returned to the regrowing willows, and their ponds sheltered fish and amphibians. Conservation agencies elsewhere should take these results as a model. Wherever a large predator has been removed, bringing it back is the most effective way to repair the damage."
+        ],
+        "paragraphsB": [
+          "No one disputes what happened in that park, and the recovery there is real. But the park is large, thinly settled, and ringed by protected land, conditions that few other regions share. Ranchers near other protected areas have long been the most determined opponents of the return of large predators. Where predators would roam across farms and towns, authorities are likely to respond to livestock losses by culling them, and the chain of recovery may never form. A single success in an unusually favorable setting does not show that reintroduction is the best repair everywhere."
+        ]
+      },
+      "stem": "Which one of the following most accurately describes the relationship between the two passages?",
+      "choices": {
+        "A": "Passage B offers a competing explanation for the results that are reported in passage A, and says so.",
+        "B": "Passage B accepts passage A's results but doubts that they support its general recommendation.",
+        "C": "Passage B shows that the methods used to obtain the results described in passage A were seriously flawed.",
+        "D": "Passage B extends the recommendation made in passage A to a still wider range of species and settings.",
+        "E": "Passage B reaches the same recommendation as passage A by way of entirely different kinds of evidence."
+      },
+      "answer": "B",
+      "steps": [
+        {
+          "label": "A's main point",
+          "note": "Reintroducing predators is the best repair wherever they were lost.",
+          "highlight": "bringing it back is the most effective way to repair the damage"
+        },
+        {
+          "label": "B's main point",
+          "note": "The park's success is real, but its conditions are unusual, so it does not show the approach works everywhere.",
+          "highlight": "A single success in an unusually favorable setting does not show"
+        },
+        {
+          "label": "Agree and differ",
+          "note": "Both accept what happened in the park. They differ on whether it justifies a general rule."
+        },
+        {
+          "label": "Two-author check",
+          "note": "A would call B too cautious. B would call A's rule too broad. Choose the choice that says B grants the facts and doubts the lesson."
+        }
+      ],
+      "why": {
+        "A": "B does not explain the results differently; it accepts them.",
+        "B": "Correct. B grants the park's recovery and disputes the general recommendation.",
+        "C": "B says the recovery is real, so it does not attack the methods.",
+        "D": "B narrows the recommendation, not widens it, and mentions no other species.",
+        "E": "B does not reach A's recommendation; it doubts it."
+      }
+    },
+    {
+      "kind": "worked",
+      "level": 3,
+      "title": "Level 3: where the authors really part",
+      "passage": {
+        "paragraphs": [
+          "Economists have long observed that dense cities generate more patents per resident than sparse ones. The explanation is that density multiplies contact. Much of what innovators know cannot be written down; it passes through conversation, apprenticeship, and the chance exchanges of crowded streets, cafes, and shared workshops. A worker who moves to a dense city does not merely find better-matched employers but acquires knowledge that she would not have gained elsewhere, and she passes it on in turn. Every extra neighbor is a possible source of an idea that no book contains. The patent gap, then, is evidence that density itself makes people more inventive, and the figures should be read as a measure of what city life does for those who live it."
+        ],
+        "paragraphsB": [
+          "No one doubts the association between density and patents, but its interpretation is another matter. Talented, ambitious people are drawn to large cities, and firms whose business depends on invention choose to locate where such people are found. A dense city may therefore show a high patent count simply because it has collected the kind of people who produce patents, whatever the city itself does for them. None of this proves that informal contact is useless; it may well matter. But until researchers can follow the same individuals as they move between cities and compare their output before and after, the claim that density itself raises inventiveness remains unproven, and the patent figures cannot be read as a measure of what city life does for those who live it."
+        ]
+      },
+      "stem": "The authors of the two passages would be most likely to disagree over whether",
+      "choices": {
+        "A": "dense cities produce more patents per resident than sparse cities do",
+        "B": "people with a talent for invention tend to move to large cities",
+        "C": "informal contact among inventors can contribute to invention",
+        "D": "the greater patent output of dense cities shows that density itself makes residents more inventive",
+        "E": "firms that depend on invention choose where to locate with their workforce in mind"
+      },
+      "answer": "D",
+      "steps": [
+        {
+          "label": "A's main point",
+          "note": "Density raises inventiveness, and the patent gap is evidence of it.",
+          "highlight": "The patent gap, then, is evidence that density itself makes people more inventive"
+        },
+        {
+          "label": "B's main point",
+          "note": "The gap is accepted, but it may just reflect who moves to cities. Density's effect is unproven.",
+          "highlight": "the claim that density itself raises inventiveness remains unproven"
+        },
+        {
+          "label": "Agree and differ",
+          "note": "Both accept the patent gap. Both allow that contact matters. They differ on what the gap proves."
+        },
+        {
+          "label": "The tempting traps",
+          "note": "C looks like a split, but B says contact \"may well matter\", so B does not deny it. A is accepted by both. The force of \"may\" matters here.",
+          "highlight": "it may well matter"
+        },
+        {
+          "label": "Two-author check",
+          "note": "Choices B and E concern sorting and firm location. Passage B raises both; passage A never speaks to them, so a disagreement is unsupported. Only D has A saying yes and B saying no."
+        }
+      ],
+      "why": {
+        "A": "Both authors accept the association between density and patents.",
+        "B": "Passage B says talented people are drawn to cities, and A never denies it; A even notes workers moving to dense cities.",
+        "C": "The trap. Passage B says informal contact \"may well matter\", so it does not deny that contact can contribute.",
+        "D": "Correct. A says the gap shows density makes people more inventive; B says that claim remains unproven.",
+        "E": "Passage B says such firms locate near talent, but A says nothing about firm location, so a disagreement is unsupported."
+      }
+    },
+    {
+      "kind": "worked",
+      "level": 4,
+      "title": "Level 4: what each author appeals to",
+      "passage": {
+        "paragraphs": [
+          "Courts asked to resolve a commercial dispute should enforce the contract as written and decline to adjust its terms, even where the result seems harsh. The justification is practical. Businesses negotiate agreements precisely so that they can predict, before they commit resources, what each side will owe the other. That prediction is possible only if a written term means in court what it says on the page. Each time a judge departs from the text in the name of fairness, the value of every other written term is reduced, because parties can no longer be sure that their own agreements will be enforced as drafted. The occasional hard case is the price of reliability, and over the whole run of transactions that price is far lower than the cost of widespread uncertainty. A rule that bent whenever a judge found a result unfair would invite every losing party to litigate in the hope of such a finding."
+        ],
+        "paragraphsB": [
+          "A contract is not merely a text; it is the record of an understanding between two parties, and the law enforces it because doing so respects what they chose to do. When the written terms, applied literally, would defeat the very purpose for which the parties contracted, enforcing them does not honor their choice, since neither party can fairly be said to have chosen that outcome. In such cases a court that looks to the circumstances of the bargain is serving the parties' agreement rather than departing from it. This is not an invitation to rewrite agreements on grounds of general fairness; the approach is confined to cases in which the text and the purpose plainly diverge. Predictability does matter, but it matters because it allows parties to rely on the understandings they actually reached, and a rule that sacrificed those understandings to the letter would defeat the value predictability is meant to serve."
+        ]
+      },
+      "stem": "Which one of the following most accurately describes a difference in the way the authors of the two passages support their positions?",
+      "choices": {
+        "A": "Passage A relies on historical practice to support its position, whereas passage B relies on the text of governing statutes.",
+        "B": "Passage A supports its position by pointing to the practical benefits of predictability, whereas passage B supports its position by pointing to what the enforcement of contracts is meant to respect.",
+        "C": "Passage A supports its position by pointing to the practical benefits of predictability, whereas passage B rejects the importance of predictability altogether.",
+        "D": "Passage A allows no exception to enforcement as written, whereas passage B would allow courts to rewrite any agreement that they judge to be unfair.",
+        "E": "Passage A argues from the interests of the party who drafts a contract, whereas passage B argues from the interests of the party who signs it."
+      },
+      "answer": "B",
+      "steps": [
+        {
+          "label": "A's main point",
+          "note": "Enforce contracts as written. The support is practical: predictability, and the cost of uncertainty.",
+          "highlight": "The justification is practical."
+        },
+        {
+          "label": "B's main point",
+          "note": "Enforce the parties' real understanding. The support is what enforcement is meant to respect: their choice.",
+          "highlight": "the law enforces it because doing so respects what they chose to do"
+        },
+        {
+          "label": "Agree and differ",
+          "note": "Both value predictability and both reject rewriting for general fairness. They differ in what they appeal to."
+        },
+        {
+          "label": "The tempting traps",
+          "note": "C matches A's half exactly, then overstates B. B says \"Predictability does matter\", so \"altogether\" kills C. D is true of A but wrong about B, which is confined to cases where text and purpose plainly diverge.",
+          "highlight": "Predictability does matter, but it matters because"
+        },
+        {
+          "label": "Two-author check",
+          "note": "Choices (A) and (E) invent historical practice, statutes and drafter interests. Only (B) describes both approaches correctly."
+        }
+      ],
+      "why": {
+        "A": "Neither passage appeals to history or to statutes.",
+        "B": "Correct. A appeals to the benefits of predictability; B to respect for the parties' actual understanding.",
+        "C": "The trap. The first half is right, but B says predictability does matter, so it does not reject it \"altogether\".",
+        "D": "B rules out rewriting on general fairness grounds, so \"any agreement\" it judges unfair is wrong.",
+        "E": "Neither passage argues from the interests of drafting or signing parties."
+      }
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn",
+      "count": 2
+    },
     {
       "kind": "card",
       "title": "Cheat card",

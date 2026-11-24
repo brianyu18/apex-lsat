@@ -5,9 +5,17 @@
   "group": "rc",
   "order": 3,
   "section": "RC",
-  "types": ["author_perspective", "author_attitude", "other_perspective"],
-  "lessonIds": ["u4/question-types-2", "u4/style-critique-debate", "u4/style-spotlight"],
-  "minutes": 6,
+  "types": [
+    "author_perspective",
+    "author_attitude",
+    "other_perspective"
+  ],
+  "lessonIds": [
+    "u4/question-types-2",
+    "u4/style-critique-debate",
+    "u4/style-spotlight"
+  ],
+  "minutes": 14,
   "slides": [
     {
       "kind": "idea",
@@ -32,15 +40,74 @@
       "kind": "method",
       "title": "Method",
       "steps": [
-        { "label": "Whose view?", "do": "Identify which voice the question asks about and where in the passage that voice speaks." },
-        { "label": "Gather tone", "do": "Collect the evaluative words used about the subject, positive and negative." },
-        { "label": "Predict strength", "do": "Is the view unqualified, or does it come with a but? Most authors qualify." },
-        { "label": "Match", "do": "Pick the choice with the right owner, the right direction and the right strength." }
+        {
+          "label": "Whose view?",
+          "do": "Identify which voice the question asks about and where in the passage that voice speaks."
+        },
+        {
+          "label": "Gather tone",
+          "do": "Collect the evaluative words used about the subject, positive and negative."
+        },
+        {
+          "label": "Predict strength",
+          "do": "Is the view unqualified, or does it come with a but? Most authors qualify."
+        },
+        {
+          "label": "Match",
+          "do": "Pick the choice with the right owner, the right direction and the right strength."
+        }
       ]
     },
     {
       "kind": "worked",
-      "title": "Worked example",
+      "level": 1,
+      "title": "Level 1: whose advice is it?",
+      "passage": {
+        "paragraphs": [
+          "Translators of poetry are often told to choose between two goals: staying close to the words of the original or recreating its music. The usual advice is to pick the music, on the ground that a version that does not sing will not be read.",
+          "This advice has merit, but it is incomplete. A translation of the Corvan poet Idris Maleck that follows his sound closely turns his plain, bitter lines into pleasant nonsense, and readers who admire the English never learn what he was angry about. Translators who ignore meaning do their readers a disservice, however lovely the result. The better course is to give up some of the sound in order to keep the poem's sense, and to accept that the English will sing a little less well."
+        ]
+      },
+      "stem": "The author would be most likely to agree with which one of the following statements?",
+      "choices": {
+        "A": "Poetry written in a language the reader does not know should not be translated into another language at all, whatever the effort.",
+        "B": "A translation that gives up some sound can be better than one that keeps the sound but loses the sense.",
+        "C": "Preserving the music of a poem should take priority over preserving what the poem means to the reader.",
+        "D": "The poems of Idris Maleck cannot be rendered into English in a way that readers will admire.",
+        "E": "Most translators of poetry have paid no attention at all to the meaning of the originals they translate."
+      },
+      "answer": "B",
+      "steps": [
+        {
+          "label": "Whose view?",
+          "note": "The question asks for the author's view. 'The usual advice' in paragraph 1 belongs to others, and the author answers it in paragraph 2."
+        },
+        {
+          "label": "Gather tone",
+          "note": "The author calls the usual advice incomplete and says ignoring meaning is a disservice. The author prefers keeping the sense.",
+          "highlight": "The better course is to give up some of the sound in order to keep the poem's sense"
+        },
+        {
+          "label": "Predict strength",
+          "note": "A measured preference: sense first, with a small cost to the music."
+        },
+        {
+          "label": "Match owner and direction",
+          "note": "C is the usual advice, which the author rejects. A, D and E go further than the text allows."
+        }
+      ],
+      "why": {
+        "A": "Too far: the author wants better translations, not none.",
+        "B": "Correct. This is the author's recommended course, in a mild form.",
+        "C": "Wrong owner: this is the usual advice, which the author calls incomplete.",
+        "D": "Too far a leap: the author criticizes one sound-first version, not every possible English version.",
+        "E": "Too extreme: the author says some translators ignore meaning, not most."
+      }
+    },
+    {
+      "kind": "worked",
+      "level": 2,
+      "title": "Level 2: the method, step by step",
       "passage": {
         "paragraphs": [
           "Many critics have dismissed the late novels of Marguerite Allard as evidence of a declining talent: the plots wander, characters vanish without explanation, and chapters end mid-scene.",
@@ -57,9 +124,20 @@
       },
       "answer": "A",
       "steps": [
-        { "label": "Positive signals", "note": "The author defends the novels as deliberate, the work of a writer in full control.", "highlight": "they are the work of a writer in full control of her means" },
-        { "label": "Negative signals", "note": "But they are not always successful, and sometimes tiresome.", "highlight": "at times the fragmentation becomes merely tiresome" },
-        { "label": "Predict", "note": "Mostly positive, with reservations." }
+        {
+          "label": "Positive signals",
+          "note": "The author defends the novels as deliberate, the work of a writer in full control.",
+          "highlight": "they are the work of a writer in full control of her means"
+        },
+        {
+          "label": "Negative signals",
+          "note": "But they are not always successful, and sometimes tiresome.",
+          "highlight": "at times the fragmentation becomes merely tiresome"
+        },
+        {
+          "label": "Predict",
+          "note": "Mostly positive, with reservations."
+        }
       ],
       "why": {
         "A": "Correct. The author defends the novels (admiration) while admitting flaws (qualified).",
@@ -70,16 +148,135 @@
       }
     },
     {
+      "kind": "worked",
+      "level": 3,
+      "title": "Level 3: the view between two extremes",
+      "passage": {
+        "paragraphs": [
+          "When book loans at public libraries fell by a third over fifteen years, many municipal budget committees took the decline as proof that libraries had outlived their purpose. The inference is natural if one assumes that a library's output is the number of volumes it lends. That assumption, however, is borrowed from the accounting practices of commercial lenders, and nothing in the history of public libraries requires that it be applied to them.",
+          "Consider what else the same buildings now supply. Attendance at job-search workshops, language classes and homework sessions has risen steadily over the period, and so has the number of visitors who come with no intention of borrowing anything. Some analysts treat these activities as a diversion from the library's real work, a drift for which circulation figures are the corrective. This treats a measure as if it were a mission. A metric that fails to register a library's newer functions does not show that those functions are marginal; it shows that the metric was built for older ones.",
+          "None of this licenses complacency. A library that adds services without regard to cost can strain a budget as surely as one that does nothing, and attendance figures are no more self-interpreting than loan figures: a crowded room may reflect real need, or merely the absence of alternatives. What the committees should ask is not whether loans have fallen but whether the library's current activities are ones its community values and could not readily obtain elsewhere."
+        ]
+      },
+      "stem": "The author would be most likely to agree with which one of the following statements?",
+      "choices": {
+        "A": "Attendance at library programs is a more reliable measure of a library's value to its community than circulation figures are.",
+        "B": "Libraries should extend their services to meet new demand whenever attendance at their programs rises, whatever the cost.",
+        "C": "Municipal budget committees should reduce the funding of any library whose circulation figures have fallen over a period of years.",
+        "D": "The newer functions of public libraries are more valuable to the communities they serve than lending books ever was.",
+        "E": "A fall in the number of books a library lends is not, taken alone, enough to show that the library has lost its purpose."
+      },
+      "answer": "E",
+      "steps": [
+        {
+          "label": "Whose view?",
+          "note": "The author's own view is in the voice of the passage. The committees and 'some analysts' hold the views the author argues against."
+        },
+        {
+          "label": "Gather tone",
+          "note": "Against: loan figures as proof of failure ('a measure as if it were a mission'). Cautious about the other side too: 'None of this licenses complacency'.",
+          "highlight": "attendance figures are no more self-interpreting than loan figures"
+        },
+        {
+          "label": "Predict strength",
+          "note": "A measured view: falling loans prove nothing alone, and rising attendance proves nothing alone either. Ask what the community values."
+        },
+        {
+          "label": "Trap: swapping one metric",
+          "note": "A swaps loans for attendance as the better measure. The one phrase 'no more self-interpreting' rules it out."
+        },
+        {
+          "label": "Trap: the other overreach",
+          "note": "B ignores the author's warning about cost, and D ranks old and new functions, which the author never does. C is the committees' view."
+        }
+      ],
+      "why": {
+        "A": "Too far a leap. The author says attendance figures are no more self-interpreting than loan figures, so neither is called more reliable.",
+        "B": "Ignores the warning in paragraph 3 that adding services without regard to cost can strain a budget.",
+        "C": "Wrong owner: this is the committees' inference, which the author disputes.",
+        "D": "Too far: the author says the newer functions are not marginal, but never ranks them above lending.",
+        "E": "Correct. It follows from the author's attack on treating circulation as the whole of a library's purpose, and it keeps the measured strength."
+      }
+    },
+    {
+      "kind": "worked",
+      "level": 4,
+      "title": "Level 4: how much the author will concede",
+      "passage": {
+        "paragraphs": [
+          "Cave-dwelling fish of several lineages have lost their eyes, and two explanations dominate the literature. The first, relaxed selection, holds that in permanent darkness eyesight confers no advantage, so mutations that impair eye development are no longer culled and accumulate by chance. The second holds that eyes are costly: neural tissue that processes vision is metabolically expensive, and in caves where food is scarce, individuals that avoid this expense leave more offspring.",
+          "Relaxed selection has the appeal of requiring no assumption beyond the absence of light, but its prediction is specific: eye loss should proceed at the rate at which neutral mutations accumulate, and should be unrelated to food supply. Comparisons across caves have not borne this out. In caves of the Sorel plateau, where food is scarcest, the fish have lost their eyes entirely, whereas in nearby caves rich in bat guano, populations of the same lineage retain small, partly functional eyes, though both groups have lived in darkness for a comparable period.",
+          "The cost hypothesis fits this pattern better, but it too has gaps. Its proponents have shown that blind individuals of one species consume less oxygen than sighted ones, yet the saving is small, and it remains to be shown that it is large enough to affect reproductive success in the wild. Nor does it explain why some cave lineages in food-poor settings have kept functional eyes.",
+          "These difficulties should not be exaggerated. The two hypotheses are not rivals in any strict sense: relaxed selection could initiate the decline, with cost then accelerating it wherever food is short. Such a combined account would predict just what the Sorel comparison shows, and it has the further merit of being testable by measuring the rate of eye loss against food supply in more caves. The evidence does not yet justify a confident choice between the explanations, but it does justify abandoning the idea that relaxed selection alone is sufficient."
+        ]
+      },
+      "stem": "The author would be most likely to agree with which one of the following statements?",
+      "choices": {
+        "A": "The cost hypothesis accounts for why every cave lineage living in a setting where food is scarce has lost its eyes.",
+        "B": "Relaxed selection and the cost hypothesis make the same prediction about how quickly eyes should be lost in cave fish.",
+        "C": "The absence of light cannot have played any part whatever in the loss of eyes in the cave populations of the Sorel plateau.",
+        "D": "Eye loss in cave fish probably is not fully explained by darkness alone, though darkness may have started the process.",
+        "E": "Measurements of oxygen use in blind and sighted fish have confirmed that eye loss gives cave fish a reproductive advantage in the wild."
+      },
+      "answer": "D",
+      "steps": [
+        {
+          "label": "Whose view?",
+          "note": "The author judges two hypotheses and does not take either side outright. Read the last paragraph for the verdict.",
+          "highlight": "it does justify abandoning the idea that relaxed selection alone is sufficient"
+        },
+        {
+          "label": "Gather tone",
+          "note": "Relaxed selection: 'has not borne this out'. Cost: 'fits better' but 'it too has gaps'. Then: 'should not be exaggerated'."
+        },
+        {
+          "label": "Predict strength",
+          "note": "Guarded. Relaxed selection alone is not enough, but it may still have started the decline. The cost idea may add to it."
+        },
+        {
+          "label": "Kill the near twin",
+          "note": "C says light 'cannot have played any part'. The author says relaxed selection 'could initiate the decline'. The word 'cannot' kills C."
+        },
+        {
+          "label": "Kill the proven claims",
+          "note": "E says measurements 'confirmed' a benefit, but the passage says the saving is small and unshown to matter. A says 'every' lineage, but some food-poor lineages kept eyes."
+        }
+      ],
+      "why": {
+        "A": "Contradicted: the passage says the cost hypothesis does not explain why some food-poor lineages kept functional eyes.",
+        "B": "Contradicted: relaxed selection predicts a rate unrelated to food supply, while the cost hypothesis ties eye loss to food.",
+        "C": "Too strong. 'Cannot have played any part' conflicts with the author's suggestion that relaxed selection could initiate the decline.",
+        "D": "Correct. It keeps both halves of the author's measured view: not sufficient alone, possibly the starting point.",
+        "E": "Overstated: the oxygen saving was small, and the author says it remains to be shown that it affects reproductive success."
+      }
+    },
+    {
       "kind": "traps",
       "title": "Perspective traps",
       "traps": [
-        { "name": "Wrong owner", "tell": "A view the critics hold, offered as the author’s, or the reverse." },
-        { "name": "Too extreme", "tell": "Unreserved, scathing, total. LSAT authors almost always hedge." },
-        { "name": "One-sided", "tell": "Captures the praise or the criticism, but not both." },
-        { "name": "Too far a leap", "tell": "Something the author might believe, but nothing in the text points to it." }
+        {
+          "name": "Wrong owner",
+          "tell": "A view the critics hold, offered as the author’s, or the reverse."
+        },
+        {
+          "name": "Too extreme",
+          "tell": "Unreserved, scathing, total. LSAT authors almost always hedge."
+        },
+        {
+          "name": "One-sided",
+          "tell": "Captures the praise or the criticism, but not both."
+        },
+        {
+          "name": "Too far a leap",
+          "tell": "Something the author might believe, but nothing in the text points to it."
+        }
       ]
     },
-    { "kind": "practice", "title": "Your turn", "count": 3 },
+    {
+      "kind": "practice",
+      "title": "Your turn",
+      "count": 3
+    },
     {
       "kind": "card",
       "title": "Cheat card",

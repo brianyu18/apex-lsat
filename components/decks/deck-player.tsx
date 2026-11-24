@@ -52,6 +52,11 @@ export function DeckPlayer({ deck, practice, drillHref, typeLabels }: { deck: De
     <div className="space-y-4" data-testid="deck-player">
       <div className="flex flex-wrap items-center gap-3">
         <Badge tone="neutral">{KIND_LABEL[s.kind]}</Badge>
+        {s.kind === "worked" && s.level && (
+          <Badge tone="accent" data-testid="worked-level">
+            Level {s.level} of 4
+          </Badge>
+        )}
         <span className="text-sm tabular-nums text-ink-3">
           Slide {i + 1} of {n}
         </span>
@@ -245,6 +250,7 @@ function Highlighted({ text, phrase }: { text: string; phrase?: string }) {
 
 function WorkedSlideView({ w }: { w: WorkedSlide }) {
   const [step, setStep] = useState(0);
+  const [pick, setPick] = useState<string | null>(null);
   const revealed = step >= w.steps.length;
   const hl = revealed ? undefined : w.steps[step]?.highlight;
   return (
@@ -273,14 +279,31 @@ function WorkedSlideView({ w }: { w: WorkedSlide }) {
           </p>
         )}
         <p className="lsat-text font-semibold">{w.stem}</p>
+        {!revealed && (
+          <p className="text-sm text-ink-2" data-testid="try-first">
+            {pick ? `Your pick: (${pick}). Step through to check it.` : "Try it first: pick the answer you would choose, then step through the method."}
+          </p>
+        )}
         <ul className="space-y-1.5" aria-label="Answer choices">
           {LETTERS.map((l) => {
             const right = revealed && l === w.answer;
+            const mine = pick === l;
             return (
-              <li key={l} className={cn("rounded-md border px-3 py-2 text-[15px]", right ? "border-ok bg-ok-soft" : "border-line")}>
-                <span className="mr-2 font-semibold">({l})</span>
-                {w.choices[l]}
-                {revealed && <p className={cn("mt-1 text-sm", right ? "text-ok" : "text-ink-3")}>{w.why[l]}</p>}
+              <li key={l}>
+                <button
+                  type="button"
+                  disabled={revealed}
+                  aria-pressed={mine}
+                  onClick={() => setPick(mine ? null : l)}
+                  className={cn(
+                    "focus-ring block w-full rounded-md border px-3 py-2 text-left text-[15px] disabled:cursor-default",
+                    right ? "border-ok bg-ok-soft" : revealed && mine ? "border-bad bg-bad-soft" : mine ? "border-accent bg-accent-soft" : "border-line hover:border-line-strong",
+                  )}
+                >
+                  <span className="mr-2 font-semibold">({l})</span>
+                  {w.choices[l]}
+                  {revealed && <span className={cn("mt-1 block text-sm", right ? "text-ok" : "text-ink-3")}>{w.why[l]}</span>}
+                </button>
               </li>
             );
           })}
@@ -306,10 +329,21 @@ function WorkedSlideView({ w }: { w: WorkedSlide }) {
               {step === w.steps.length - 1 ? "Reveal the answer" : "Next step"}
             </Button>
           ) : (
-            <p className="text-sm font-medium text-ok">Answer: ({w.answer}). Each choice now shows why it’s right or wrong.</p>
+            <p className={cn("text-sm font-medium", pick && pick !== w.answer ? "text-bad" : "text-ok")} data-testid="worked-result">
+              Answer: ({w.answer}).{" "}
+              {pick ? (pick === w.answer ? "You had it. " : `You picked (${pick}); its note shows what rules it out. `) : ""}
+              Each choice now shows why it’s right or wrong.
+            </p>
           )}
           {step > 0 && (
-            <Button size="sm" variant="ghost" onClick={() => setStep(0)}>
+            <Button
+              size="sm"
+              variant="ghost"
+              onClick={() => {
+                setStep(0);
+                setPick(null);
+              }}
+            >
               Start over
             </Button>
           )}

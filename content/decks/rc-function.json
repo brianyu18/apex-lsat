@@ -5,9 +5,17 @@
   "group": "rc",
   "order": 4,
   "section": "RC",
-  "types": ["purpose_in_context", "meaning_in_context", "purpose_of_paragraph"],
-  "lessonIds": ["u4/question-types-2", "u4/question-types-1", "u4/style-problem-analysis"],
-  "minutes": 6,
+  "types": [
+    "purpose_in_context",
+    "meaning_in_context",
+    "purpose_of_paragraph"
+  ],
+  "lessonIds": [
+    "u4/question-types-2",
+    "u4/question-types-1",
+    "u4/style-problem-analysis"
+  ],
+  "minutes": 14,
   "slides": [
     {
       "kind": "idea",
@@ -32,15 +40,74 @@
       "kind": "method",
       "title": "Method",
       "steps": [
-        { "label": "Go back", "do": "Find the detail and read it with the sentences around it." },
-        { "label": "Ask what it supports", "do": "Which claim does this detail help or hurt? Which view does it belong to?" },
-        { "label": "Predict a verb", "do": "To support, to challenge, to illustrate, to concede, to introduce." },
-        { "label": "Meaning in context", "do": "Replace the word with your own in the sentence; the dictionary meaning is often the trap." }
+        {
+          "label": "Go back",
+          "do": "Find the detail and read it with the sentences around it."
+        },
+        {
+          "label": "Ask what it supports",
+          "do": "Which claim does this detail help or hurt? Which view does it belong to?"
+        },
+        {
+          "label": "Predict a verb",
+          "do": "To support, to challenge, to illustrate, to concede, to introduce."
+        },
+        {
+          "label": "Meaning in context",
+          "do": "Replace the word with your own in the sentence; the dictionary meaning is often the trap."
+        }
       ]
     },
     {
       "kind": "worked",
-      "title": "Worked example",
+      "level": 1,
+      "title": "Level 1: why mention the farmland?",
+      "passage": {
+        "paragraphs": [
+          "The law of landlord and tenant once treated a lease as a sale of land for a term, with the building an afterthought. A tenant who found the roof leaking had no complaint: the landlord had promised nothing about the building, and the tenant could leave, but the rent remained owing.",
+          "That position made sense when leases were mostly of farmland, where the value lay in the soil rather than in any structure. It made far less sense once cities filled with apartments, whose value lies almost entirely in the building. Many courts therefore now imply a promise that a rented dwelling will be fit to live in. The older rule, in short, was suited to the property it was designed for, not to the property most tenants now rent."
+        ]
+      },
+      "stem": "The author mentions farmland in the second paragraph primarily in order to",
+      "choices": {
+        "A": "explain why the older rule fit the leases to which it was first applied",
+        "B": "argue that modern courts should return to the older rule about leaks",
+        "C": "show that farm tenants were treated more fairly than apartment tenants",
+        "D": "illustrate how a landlord's promise about a building can be implied",
+        "E": "criticize courts for implying a promise that a dwelling is fit to live in"
+      },
+      "answer": "A",
+      "steps": [
+        {
+          "label": "Go back",
+          "note": "Find the farmland sentence and read the sentences around it.",
+          "highlight": "That position made sense when leases were mostly of farmland"
+        },
+        {
+          "label": "Ask what it supports",
+          "note": "'That position' is the old rule. The sentence says when it made sense, and the next says when it stopped making sense."
+        },
+        {
+          "label": "Predict a verb",
+          "note": "To explain why the old rule once fit."
+        },
+        {
+          "label": "Eliminate",
+          "note": "The last sentence confirms it: the rule was suited to the property it was designed for. B and E go against the author's tone."
+        }
+      ],
+      "why": {
+        "A": "Correct. Farmland is the setting in which the old rule made sense, as the closing sentence says.",
+        "B": "Opposite: the author says the rule suits farmland, not today's rented dwellings.",
+        "C": "Fairness is never compared; the passage is about whether the rule suited the property.",
+        "D": "The implied promise comes later and concerns apartments, not farmland.",
+        "E": "The author reports the courts' change without criticizing it."
+      }
+    },
+    {
+      "kind": "worked",
+      "level": 2,
+      "title": "Level 2: the method, step by step",
       "passage": {
         "paragraphs": [
           "Ecologists once assumed that the decline of the Varden marsh frog was caused by a fungal disease that has devastated amphibians worldwide. Yet surveys found the fungus at similar levels in marshes where the frog was thriving.",
@@ -57,9 +124,19 @@
       },
       "answer": "E",
       "steps": [
-        { "label": "Go back", "note": "The detail follows “Yet”, right after the old assumption.", "highlight": "Yet surveys found the fungus at similar levels in marshes where the frog was thriving." },
-        { "label": "What it does", "note": "If the fungus is equally present where frogs thrive, it probably isn’t what’s killing them here. It undercuts the old view." },
-        { "label": "Predict", "note": "To challenge the fungus explanation." }
+        {
+          "label": "Go back",
+          "note": "The detail follows “Yet”, right after the old assumption.",
+          "highlight": "Yet surveys found the fungus at similar levels in marshes where the frog was thriving."
+        },
+        {
+          "label": "What it does",
+          "note": "If the fungus is equally present where frogs thrive, it probably isn’t what’s killing them here. It undercuts the old view."
+        },
+        {
+          "label": "Predict",
+          "note": "To challenge the fungus explanation."
+        }
       ],
       "why": {
         "A": "Too broad: it's about this frog's decline, not the fungus's danger in general.",
@@ -69,7 +146,114 @@
         "E": "Correct. It undercuts the assumption stated just before it."
       }
     },
-    { "kind": "practice", "title": "Your turn", "count": 3 },
+    {
+      "kind": "worked",
+      "level": 3,
+      "title": "Level 3: a paragraph that complicates, not refutes",
+      "passage": {
+        "paragraphs": [
+          "Art historians have usually explained the cool, silvery palette of the painter Lena Hroch's early landscapes as an expression of mood: the colors, it is said, convey the melancholy of a young artist far from home. This reading draws on her letters, which frequently mention homesickness, and has become so familiar that the landscapes are routinely used on book covers and posters to evoke loneliness.",
+          "A technical study complicates the picture. Analysis of her pigments and of her studio has shown that during the years she painted these landscapes, Hroch worked in a rented room whose single window faced north, and that she used a lead-based white that turns grayish when exposed to damp. Warm pigments, moreover, were hard to obtain in the town where she lived, whereas blues and grays were sold in quantity to the local dyeing trade. Taken together, these facts suggest that some of what has been read as mood may have been supplied by circumstances: what Hroch could light, afford and buy.",
+          "This does not mean that the mood reading is false, only that it cannot be established from the paintings alone. Hroch's later work, painted after she moved to a southern city with abundant warm pigments, keeps the cool palette in many pictures, which suggests that she came to prefer it. A fair account must therefore allow for both necessity and choice, treating the coolness of the early landscapes as something her circumstances made available but did not compel."
+        ]
+      },
+      "stem": "The primary function of the second paragraph is to",
+      "choices": {
+        "A": "describe how Hroch's technique and her choice of colors changed after she moved to a southern city",
+        "B": "demonstrate that Hroch chose her early palette for practical reasons rather than for expressive ones",
+        "C": "explain why the early landscapes have so often been used to evoke loneliness on book covers",
+        "D": "introduce physical evidence that complicates the interpretation given in the first paragraph",
+        "E": "supply proof that the familiar reading of the early landscapes as expressions of mood is simply false"
+      },
+      "answer": "D",
+      "steps": [
+        {
+          "label": "Go back",
+          "note": "Read paragraph 2 with the paragraphs on either side. Paragraph 1 gives the mood reading. Paragraph 3 says what follows from the new facts.",
+          "highlight": "A technical study complicates the picture."
+        },
+        {
+          "label": "Ask what it supports",
+          "note": "The pigment and room facts are offered against the mood reading, but they only 'suggest' that 'some' of the mood may come from circumstances."
+        },
+        {
+          "label": "Predict a verb",
+          "note": "To complicate, or qualify, the first paragraph's view with new evidence. Not to overturn it."
+        },
+        {
+          "label": "Trap: too strong",
+          "note": "B and E each overstate. B says 'rather than expressive'. E says 'false'. Paragraph 3 rules both out by allowing for choice and saying the reading is not false."
+        },
+        {
+          "label": "Trap: wrong paragraph",
+          "note": "A describes paragraph 3. C is a detail from paragraph 1."
+        }
+      ],
+      "why": {
+        "A": "Wrong paragraph: the later move south is in paragraph 3.",
+        "B": "Too strong. 'Rather than expressive ones' conflicts with paragraph 3, which says her palette reflected both necessity and choice.",
+        "C": "A detail from paragraph 1, not what paragraph 2 does.",
+        "D": "Correct. The paragraph brings new evidence that complicates the mood reading without rejecting it.",
+        "E": "Too strong. Paragraph 3 says the mood reading is not shown to be false, and paragraph 2 says only that 'some' of the mood may come from circumstances."
+      }
+    },
+    {
+      "kind": "worked",
+      "level": 4,
+      "title": "Level 4: an example that proves less than it seems",
+      "passage": {
+        "paragraphs": [
+          "A familiar argument holds that resources held in common are doomed to overuse, since each user gains the full benefit of an additional unit taken while the costs are spread across all. On this view, only privatization or central regulation can avert collapse. The argument is logically valid, but its premises describe a specific institutional condition: users who cannot communicate, cannot observe one another's take, and cannot sanction overuse. Where these conditions fail, the conclusion need not follow.",
+          "Field studies of communal fisheries, forests and irrigation systems record many cases in which users devised their own rules and sustained a resource for centuries. The cooperative that manages the Tamsin lagoon, for instance, restricts harvests to a rotating schedule, requires that all catches be weighed publicly, and fines members who exceed their quotas. Its members have fished the lagoon for four generations without the stock collapsing. Its record is impressive. Yet it would be a mistake to read the cooperative as proof that communal management always works, or that the cooperative's rules could simply be copied elsewhere.",
+          "For the cooperative's success depends on features that many commons lack: a small, stable membership, a boundary that excludes outsiders, and a catch that can be observed easily because every boat lands at one quay. Where membership is large and fluid or the harvest is dispersed across many landing places, monitoring becomes costly, violations go unpunished, and the rules decay. The same studies that document successes document failures, and the failures cluster where those features are absent.",
+          "The lesson, then, is neither that commons are doomed nor that they are safe. It is that outcomes depend on the institutions users build and on the conditions that let those institutions function, and that any general prediction made without reference to these, whether optimistic or pessimistic, is unreliable. A theory of the commons that cannot say which conditions matter has little to offer the people who must manage one."
+        ]
+      },
+      "stem": "The author discusses the Tamsin lagoon cooperative primarily in order to",
+      "choices": {
+        "A": "illustrate that monitoring of members' catches becomes costly when a harvest is spread across many landing places",
+        "B": "show that users can sustain a commons by rules they devise, which the familiar argument says cannot be done without privatization or regulation",
+        "C": "demonstrate that communal management of a commons is a reliable alternative to privatization and to central regulation",
+        "D": "support the claim that fines are the most effective means of discouraging members from overusing a shared resource",
+        "E": "show that the familiar argument about commons is invalid because its conclusion does not follow from the premises that it relies on"
+      },
+      "answer": "B",
+      "steps": [
+        {
+          "label": "Go back",
+          "note": "Find the cooperative and read both neighbours. Paragraph 1 gives the argument that commons are doomed. Paragraph 3 says why the cooperative is special.",
+          "highlight": "Field studies of communal fisheries, forests and irrigation systems record many cases"
+        },
+        {
+          "label": "Ask what it supports",
+          "note": "Paragraph 2 opens with cases where users sustained a resource by their own rules. Tamsin is 'for instance' of that, so it works against the claim that only privatization or regulation can help."
+        },
+        {
+          "label": "Mind the limit",
+          "note": "The author then says the cooperative is not proof that communal management always works. Its success rests on features many commons lack."
+        },
+        {
+          "label": "Predict a verb",
+          "note": "To illustrate that self-made rules can sustain a commons, which the familiar argument says cannot happen."
+        },
+        {
+          "label": "Kill the near twin",
+          "note": "C looks like B but says 'reliable alternative'. One word, 'reliable', contradicts the closing paragraph, which says commons are neither doomed nor safe."
+        }
+      ],
+      "why": {
+        "A": "Reversed: Tamsin's boats all land at one quay, so its catch is easy to observe. Costly monitoring belongs to the commons that fail.",
+        "B": "Correct. Tamsin is the example of self-devised rules sustaining a commons, against what the familiar argument says.",
+        "C": "Near twin of the key, but 'reliable' overstates it. The author says the cooperative does not prove that communal management always works.",
+        "D": "Unsupported: fines are one of several rules listed, and nothing ranks them as the most effective.",
+        "E": "Contradicted: paragraph 1 calls the argument logically valid and says only that its premises fit a specific condition."
+      }
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn",
+      "count": 3
+    },
     {
       "kind": "card",
       "title": "Cheat card",

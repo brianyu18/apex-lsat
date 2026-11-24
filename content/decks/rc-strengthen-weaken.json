@@ -5,9 +5,14 @@
   "group": "rc",
   "order": 7,
   "section": "RC",
-  "types": ["weaken_strengthen_evaluate"],
-  "lessonIds": ["u4/question-types-3", "u4/style-phenomenon-hypothesis"],
-  "minutes": 6,
+  "types": [
+    "weaken_strengthen_evaluate"
+  ],
+  "lessonIds": [
+    "u4/question-types-3",
+    "u4/style-phenomenon-hypothesis"
+  ],
+  "minutes": 14,
   "slides": [
     {
       "kind": "idea",
@@ -31,15 +36,74 @@
       "kind": "method",
       "title": "Method",
       "steps": [
-        { "label": "Name the claim", "do": "Whose view is being tested? State it exactly." },
-        { "label": "Name the rival", "do": "What competing view does the passage give? Facts that support both don’t help." },
-        { "label": "Predict", "do": "A fact that only this claim predicts." },
-        { "label": "Test each choice", "do": "Assume it true: does it move this claim, and only this one?" }
+        {
+          "label": "Name the claim",
+          "do": "Whose view is being tested? State it exactly."
+        },
+        {
+          "label": "Name the rival",
+          "do": "What competing view does the passage give? Facts that support both don’t help."
+        },
+        {
+          "label": "Predict",
+          "do": "A fact that only this claim predicts."
+        },
+        {
+          "label": "Test each choice",
+          "do": "Assume it true: does it move this claim, and only this one?"
+        }
       ]
     },
     {
       "kind": "worked",
-      "title": "Worked example",
+      "level": 1,
+      "title": "Level 1: ruling out a rival explanation",
+      "passage": {
+        "paragraphs": [
+          "In the village of Orrin, the council replaced its downtown parking meters with free parking last spring. Over the following six months, shop owners reported a clear rise in the number of customers visiting their stores. Orrin has about four thousand residents, and its downtown holds roughly forty shops. Councillor Reyes has served on the council for nine years.",
+          "Councillor Reyes argues that the free parking caused the increase. Before the change, she says, shoppers worried about fines and short time limits and often chose to shop elsewhere; with those worries gone, they came downtown more often. The shop owners' association offers no explanation of its own for the rise. It says only that it welcomes the improvement and does not know what lay behind it."
+        ]
+      },
+      "stem": "Which one of the following, if true, would most strengthen Reyes's argument?",
+      "choices": {
+        "A": "Before they were removed, Orrin's parking meters had raised only a small amount of money for the village each year.",
+        "B": "Free parking in a downtown area is a popular policy among the residents of many villages and towns in the region.",
+        "C": "Shop owners in Orrin hope that the rise in customers will continue through the next year and for several years beyond it.",
+        "D": "Orrin's downtown has fewer shops than the downtowns of most of the villages of about the same size in the region.",
+        "E": "In a nearby village of similar size that kept its meters, shop owners saw no rise in customers over the same six months."
+      },
+      "answer": "E",
+      "steps": [
+        {
+          "label": "Name the claim",
+          "note": "Reyes: free parking caused the rise in customers.",
+          "highlight": "Councillor Reyes argues that the free parking caused the increase."
+        },
+        {
+          "label": "Name the rival",
+          "note": "Something else may have raised business, or the rise may have happened anyway. The shop owners do not know the cause."
+        },
+        {
+          "label": "Predict",
+          "note": "Look for a case without free parking where the rise did not happen."
+        },
+        {
+          "label": "Test each choice",
+          "note": "Only E compares a similar village that kept its meters. A to D say nothing about whether parking changed the customer numbers."
+        }
+      ],
+      "why": {
+        "A": "The meters' revenue says nothing about customer numbers.",
+        "B": "Popularity of a policy with residents does not show it brings in customers.",
+        "C": "The owners' hopes about the future do not bear on the cause of the past rise.",
+        "D": "The number of shops is unrelated to whether free parking drew customers.",
+        "E": "Correct. A similar village with meters saw no rise, which makes a general trend a less likely cause."
+      }
+    },
+    {
+      "kind": "worked",
+      "level": 2,
+      "title": "Level 2: the method, step by step",
       "passage": {
         "paragraphs": [
           "Each autumn, the songbirds of the Kessel Islands begin their migration several days earlier than birds of the same species on the mainland. One hypothesis holds that island birds leave early because the islands' insect supply collapses sooner after the first cold nights.",
@@ -56,9 +120,20 @@
       },
       "answer": "B",
       "steps": [
-        { "label": "The claim", "note": "Leclerc: longer journeys lead to earlier departure.", "highlight": "she proposes that birds with longer journeys start earlier" },
-        { "label": "The rival", "note": "Insect collapse on the islands.", "highlight": "the islands' insect supply collapses sooner after the first cold nights" },
-        { "label": "Predict", "note": "Evidence that distance predicts timing even where insects aren’t a factor." }
+        {
+          "label": "The claim",
+          "note": "Leclerc: longer journeys lead to earlier departure.",
+          "highlight": "she proposes that birds with longer journeys start earlier"
+        },
+        {
+          "label": "The rival",
+          "note": "Insect collapse on the islands.",
+          "highlight": "the islands' insect supply collapses sooner after the first cold nights"
+        },
+        {
+          "label": "Predict",
+          "note": "Evidence that distance predicts timing even where insects aren’t a factor."
+        }
       ],
       "why": {
         "A": "Supports the rival insect explanation.",
@@ -68,7 +143,116 @@
         "E": "Day length is the same for both groups at a given time, so it doesn't explain the difference or favor Leclerc."
       }
     },
-    { "kind": "practice", "title": "Your turn", "count": 3 },
+    {
+      "kind": "worked",
+      "level": 3,
+      "title": "Level 3: a fact that separates two causes",
+      "passage": {
+        "paragraphs": [
+          "Over the past decade, the population of the Verde pebble snail, a bottom-dwelling freshwater species that grazes the film of microbes coating the lake's stones, has fallen by more than half in Lake Verde. Two explanations have been offered, and each has found supporters among those who study the lake. Hydrologist Samuel Okafor argues that fertilizer washing in from surrounding farms feeds dense algal growth. When the algae die and decay, he says, they strip oxygen from the lake bottom, and the snails suffocate. He concedes that the perch have eaten some snails but regards their effect as minor.",
+          "Fisheries scientist Lin Marchetti rejects this account. She notes that a predatory fish, the ridge perch, was introduced to the lake eleven years ago and that the snail decline began soon afterward. She argues that the perch, which feed along the bottom, have eaten snails faster than the snails can reproduce. She concedes that algal growth has increased but regards it as a minor factor.",
+          "Neither researcher disputes the geography. Fertilizer runoff enters the lake through drainage channels along its northern shore, while the perch were released at a single site on the southern shore and have since spread throughout the lake. Both accept that the snails once lived in roughly equal numbers in all parts of the lake. The lake runs about nine kilometers from north to south, with its deepest water near the middle, and the snails live on the bottom throughout its length."
+        ]
+      },
+      "stem": "Which one of the following, if true, would most strengthen Okafor's explanation?",
+      "choices": {
+        "A": "The snails' numbers have fallen most near the northern shore and least near the southern shore.",
+        "B": "The ridge perch population has grown steadily in every part of the lake since the fish was introduced eleven years ago.",
+        "C": "Several other lakes in the region, each surrounded by farms, now contain dense growths of algae near their shores.",
+        "D": "Verde pebble snails in a nearby lake that has neither ridge perch nor farm runoff have also declined over the past decade.",
+        "E": "Verde pebble snails were common in Lake Verde for many centuries before the surrounding farms were established."
+      },
+      "answer": "A",
+      "steps": [
+        {
+          "label": "Name the claim",
+          "note": "Okafor: fertilizer runoff causes algal blooms, then oxygen loss, then snail deaths.",
+          "highlight": "Hydrologist Samuel Okafor argues that fertilizer washing in from surrounding farms"
+        },
+        {
+          "label": "Name the rival",
+          "note": "Marchetti: the introduced ridge perch ate the snails. Facts that support perch, or support neither, do not help Okafor."
+        },
+        {
+          "label": "Predict",
+          "note": "The geography is the clue. Runoff enters in the north; perch spread everywhere. If Okafor is right, losses should be worst in the north.",
+          "highlight": "Fertilizer runoff enters the lake through drainage channels along its northern shore"
+        },
+        {
+          "label": "The tempting traps",
+          "note": "B supports Marchetti, the wrong claim. D is a third cause: it hurts both explanations, because Lake Verde's runoff and perch are absent there."
+        },
+        {
+          "label": "Test each choice",
+          "note": "C is about other lakes and never mentions snails. E gives history that fits neither cause better than the other. Only A favors Okafor and not the perch."
+        }
+      ],
+      "why": {
+        "A": "Correct. Losses are worst where the runoff enters, which Okafor predicts and a lake-wide perch spread does not.",
+        "B": "Supports the rival perch explanation, so it helps Marchetti, not Okafor.",
+        "C": "Dense algae in other lakes says nothing about snails in Lake Verde.",
+        "D": "Declines with neither perch nor runoff point to a third cause, which weakens both explanations.",
+        "E": "Long history before the farms shows the snails existed earlier, not that the farms caused their later decline."
+      }
+    },
+    {
+      "kind": "worked",
+      "level": 4,
+      "title": "Level 4: the substitute that leaves no trace",
+      "passage": {
+        "paragraphs": [
+          "The hill sanctuary at Merrow, abandoned in antiquity and never rebuilt, has been described by archaeologists as an unusually complete record of private religious giving. Worshippers who presented a gift to the shrine, whether a statue, a vessel, or a sum of money, could commission an inscription naming themselves and the gift and have it set into the walls of the precinct. Because the walls were built of dense local stone and the site's climate is dry, such inscriptions survive well. The sanctuary drew visitors from a wide region, and its priests kept no written register of gifts.",
+          "The surviving inscriptions are not evenly spread through the sanctuary's history. Scholars divide its use into two periods of roughly two centuries each. About 120 gift inscriptions survive from the first period, but only about 40 from the second, although excavation has covered the deposits of both periods equally thoroughly. No fire, flood, or later removal of stone for building has been found that could account for the difference.",
+          "One historian takes these figures as evidence that private giving to the shrine declined sharply. She reasons that a stone inscription was the one customary way of recording a gift, and that, since stone inscriptions survive so reliably at Merrow, the surviving count is a fair measure of how many gifts were made. The drop from 120 to 40, she concludes, therefore reflects a fall of about two thirds in the number of gifts the shrine received.",
+          "She allows that a handful of gifts may have gone unrecorded in either period, but holds that such omissions would be too few to alter the pattern. She adds that her argument does not depend on the number of worshippers who visited the sanctuary, a figure that cannot now be recovered, but only on the relation between gifts and the inscriptions that recorded them."
+        ]
+      },
+      "stem": "Which one of the following, if true, would most seriously weaken the historian's argument?",
+      "choices": {
+        "A": "The inscriptions of the first period are, on average, more elaborate than those of the second.",
+        "B": "Stone inscriptions recording gifts at other sanctuaries in the region also declined in number across the same two centuries.",
+        "C": "Beginning early in the second period, many donors had their gifts recorded on wooden tablets, which rarely survive, instead of on stone.",
+        "D": "Throughout both periods, many donors had their gifts recorded on wooden tablets, which rarely survive, as well as on stone, in roughly equal proportions in the two periods.",
+        "E": "Most of the inscriptions from both periods record gifts of money rather than gifts of goods such as statues or vessels."
+      },
+      "answer": "C",
+      "steps": [
+        {
+          "label": "Name the claim",
+          "note": "Conclusion: gifts fell by about two thirds, because surviving inscriptions fell from about 120 to about 40.",
+          "highlight": "The drop from 120 to 40, she concludes, therefore reflects a fall of about two thirds"
+        },
+        {
+          "label": "Find the assumption",
+          "note": "She assumes a gift always left a stone inscription. If gifts were recorded some other way later on, the count would fall while giving did not.",
+          "highlight": "a stone inscription was the one customary way of recording a gift"
+        },
+        {
+          "label": "Predict",
+          "note": "A change over time that moved gift records off stone and onto something that does not survive."
+        },
+        {
+          "label": "The tempting trap",
+          "note": "D also mentions wooden tablets. But it says wood was used in both periods in equal proportions, so it explains no drop. One phrase, \"in roughly equal proportions\", kills it."
+        },
+        {
+          "label": "Test each choice",
+          "note": "A and E concern the content of inscriptions, not their number. B shows a regional trend, which fits her view better. Only C gives a reason for fewer stone inscriptions without fewer gifts."
+        }
+      ],
+      "why": {
+        "A": "How elaborate the inscriptions were does not bear on how many gifts were made.",
+        "B": "A matching decline elsewhere, if anything, fits a real fall in giving, so it does not weaken her.",
+        "C": "Correct. Gifts moved to a material that rarely survives, so fewer inscriptions need not mean fewer gifts.",
+        "D": "The trap. Wooden tablets in equal proportions in both periods would shrink both counts alike and leave the drop unexplained.",
+        "E": "Whether gifts were money or goods has no connection to the drop in inscriptions."
+      }
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn",
+      "count": 3
+    },
     {
       "kind": "card",
       "title": "Cheat card",

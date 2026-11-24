@@ -48,6 +48,28 @@ describe("strategy decks", async () => {
     }
   });
 
+  it("every deck with worked examples runs from Level 1 to Level 4", () => {
+    for (const d of decks) {
+      const ws = d.slides.filter((s): s is WorkedSlide => s.kind === "worked");
+      if (!ws.length) continue;
+      expect(ws.map((w) => w.level), d.id).toEqual([1, 2, 3, 4]);
+      for (const w of ws) expect(w.title, d.id).toMatch(new RegExp(`^Level ${w.level}: `));
+      // the examples sit together, in order
+      const first = d.slides.findIndex((s) => s.kind === "worked");
+      expect(d.slides.slice(first, first + 4).every((s) => s.kind === "worked"), d.id).toBe(true);
+    }
+    expect(worked.length).toBeGreaterThanOrEqual(116);
+  });
+
+  it("harder examples are longer, as on the test", () => {
+    const words = (w: WorkedSlide) => workedText(w).split(/\s+/).length;
+    for (const d of decks) {
+      const ws = d.slides.filter((s): s is WorkedSlide => s.kind === "worked");
+      if (ws.length !== 4) continue;
+      expect(words(ws[3]), `${d.id}: Level 4 should be longer than Level 1`).toBeGreaterThan(words(ws[0]));
+    }
+  });
+
   it("worked-example keys are spread and not given away by length", () => {
     const letters = worked.map(({ w }) => w.answer);
     for (const l of ["A", "B", "C", "D", "E"]) expect(letters.filter((x) => x === l).length, `key ${l}`).toBeGreaterThanOrEqual(3);

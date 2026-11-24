@@ -5,9 +5,15 @@
   "group": "rc",
   "order": 1,
   "section": "RC",
-  "types": ["main_point", "purpose_of_passage"],
-  "lessonIds": ["u4/question-types-1", "u4/rc-method"],
-  "minutes": 6,
+  "types": [
+    "main_point",
+    "purpose_of_passage"
+  ],
+  "lessonIds": [
+    "u4/question-types-1",
+    "u4/rc-method"
+  ],
+  "minutes": 14,
   "slides": [
     {
       "kind": "idea",
@@ -31,15 +37,74 @@
       "kind": "method",
       "title": "Method",
       "steps": [
-        { "label": "Predict before reading choices", "do": "Say the main point in one sentence, in your own words, as soon as you finish the passage." },
-        { "label": "Check the scope", "do": "Does the choice cover every paragraph’s role? Detail-only choices are too narrow." },
-        { "label": "Check the stance", "do": "Does the choice match how strongly the author commits? A qualified view shouldn’t become a sweeping one." },
-        { "label": "Purpose verbs", "do": "Argue or defend for a persuading author; describe or explain for a reporting one; challenge or criticize when the author rejects a view." }
+        {
+          "label": "Predict before reading choices",
+          "do": "Say the main point in one sentence, in your own words, as soon as you finish the passage."
+        },
+        {
+          "label": "Check the scope",
+          "do": "Does the choice cover every paragraph’s role? Detail-only choices are too narrow."
+        },
+        {
+          "label": "Check the stance",
+          "do": "Does the choice match how strongly the author commits? A qualified view shouldn’t become a sweeping one."
+        },
+        {
+          "label": "Purpose verbs",
+          "do": "Argue or defend for a persuading author; describe or explain for a reporting one; challenge or criticize when the author rejects a view."
+        }
       ]
     },
     {
       "kind": "worked",
-      "title": "Worked example",
+      "level": 1,
+      "title": "Level 1: a rule of thumb with a limit",
+      "passage": {
+        "paragraphs": [
+          "Lichens have long been used to gauge air pollution, because many species absorb gases directly through their surfaces and die when sulfur dioxide levels rise. A town with few lichens on its trees is therefore assumed to have dirty air.",
+          "Recent fieldwork in the Corra Valley shows that this rule of thumb needs care. Lichens there were scarce on trees beside a busy road, as expected. They were also scarce in a clean upland wood, where the bark was too smooth for them to grip. Thus the absence of lichens tells us about pollution only when the bark is of a kind lichens favor. Researchers should therefore record bark type before reading a lichen survey as a measure of air quality."
+        ]
+      },
+      "stem": "Which one of the following most accurately expresses the main point of the passage?",
+      "choices": {
+        "A": "Many species of lichen absorb gases through their surfaces and die when sulfur dioxide levels rise.",
+        "B": "Lichens were scarce on trees beside a busy road in the Corra Valley, which fits what researchers expected.",
+        "C": "Few lichens signal polluted air only where the bark suits lichens, so surveys should note bark type.",
+        "D": "Lichen surveys cannot tell researchers anything useful about the quality of the air in a town.",
+        "E": "Lichens are scarce in the Corra Valley mainly because most of the trees there have smooth bark."
+      },
+      "answer": "C",
+      "steps": [
+        {
+          "label": "Find the conclusion words",
+          "note": "Look for 'thus' and 'therefore' in the last paragraph. They mark what the author wants you to take away.",
+          "highlight": "Researchers should therefore record bark type before reading a lichen survey as a measure of air quality."
+        },
+        {
+          "label": "Paragraph jobs",
+          "note": "Paragraph 1 states the old rule: few lichens mean dirty air. Paragraph 2 shows where the rule fails and what to do about it."
+        },
+        {
+          "label": "Predict the main point",
+          "note": "Missing lichens show pollution only when the bark suits lichens, so bark type must be checked."
+        },
+        {
+          "label": "Check scope and stance",
+          "note": "A and B are single details. D is too strong, because the author says the surveys work under one condition. E turns one wood into the whole valley."
+        }
+      ],
+      "why": {
+        "A": "Too narrow: this is background from paragraph 1, not the author's point.",
+        "B": "Too narrow: one finding from the fieldwork, with no mention of the limit on the rule.",
+        "C": "Correct. It covers the old rule, the condition that limits it and the advice that follows.",
+        "D": "Too strong: the author says lichen surveys mislead only when the bark is unsuitable, not that they are useless.",
+        "E": "Distorts the evidence: smooth bark explained the scarcity in one upland wood, not across the valley."
+      }
+    },
+    {
+      "kind": "worked",
+      "level": 2,
+      "title": "Level 2: the method, step by step",
       "passage": {
         "paragraphs": [
           "For decades, city planners treated rooftop gardens as a luxury: attractive, but too costly to justify on public buildings. That view rested largely on installation costs, which can run several times those of a conventional roof.",
@@ -57,9 +122,19 @@
       },
       "answer": "D",
       "steps": [
-        { "label": "Paragraph jobs", "note": "P1: the old view (too costly). P2: evidence the cost accounting was incomplete. P3: a limit, then the author’s verdict." },
-        { "label": "Find the verdict", "note": "The last sentence gives the author’s conclusion, limited to new construction.", "highlight": "for new construction, the case against rooftop gardens can no longer rest on cost" },
-        { "label": "Predict", "note": "Counting lifespan and savings, rooftop gardens aren’t too expensive for new public buildings." }
+        {
+          "label": "Paragraph jobs",
+          "note": "P1: the old view (too costly). P2: evidence the cost accounting was incomplete. P3: a limit, then the author’s verdict."
+        },
+        {
+          "label": "Find the verdict",
+          "note": "The last sentence gives the author’s conclusion, limited to new construction.",
+          "highlight": "for new construction, the case against rooftop gardens can no longer rest on cost"
+        },
+        {
+          "label": "Predict",
+          "note": "Counting lifespan and savings, rooftop gardens aren’t too expensive for new public buildings."
+        }
       ],
       "why": {
         "A": "Too narrow: one detail from paragraph 2.",
@@ -69,7 +144,115 @@
         "E": "Too strong and too narrow: older buildings may not bear the weight."
       }
     },
-    { "kind": "practice", "title": "Your turn", "count": 3 },
+    {
+      "kind": "worked",
+      "level": 3,
+      "title": "Level 3: keeping the author's balance",
+      "passage": {
+        "paragraphs": [
+          "Courts interpreting statutes increasingly consult dictionaries to fix the ordinary meaning of disputed words. The practice has an evident appeal: a dictionary seems neutral, publicly available, and independent of the judge's own preferences. A judge who cites one appears to be reading the legislature's words rather than substituting her own. Defenders of the practice add that it disciplines judges, since a cited entry can be checked by anyone who doubts the result.",
+          "Yet the appearance of neutrality is partly an illusion. Most words have several dictionary senses, and an entry lists them without saying which a legislature had in mind. The judge must therefore choose among them, and that choice is guided by the statute's purpose and context, the very considerations the dictionary was supposed to spare her from weighing. Litigants on opposing sides, moreover, frequently cite different dictionaries, or different entries in the same one, to reach opposite results.",
+          "This does not make dictionaries worthless. They are valuable for ruling out meanings no speaker would plausibly intend, and for showing the range of senses within which a legitimate interpretation must fall. What they cannot do is settle which sense within that range governs. A court that treats a dictionary citation as the end of its analysis has therefore only relocated its judgment, not removed it, and would do better to say openly what guides the choice. Candor of that kind would not make statutory interpretation mechanical, but it would let the parties and the public examine the reasoning actually doing the work."
+        ]
+      },
+      "stem": "Which one of the following most accurately expresses the main point of the passage?",
+      "choices": {
+        "A": "Dictionaries help courts mark out the range of plausible meanings of a statutory word, but choosing among them remains a judgment that courts should acknowledge.",
+        "B": "Judges who cite dictionaries when they interpret statutes are really putting their own preferences in place of the words that the legislature chose to enact, whatever they claim.",
+        "C": "Opposing litigants can cite different dictionaries, or different entries in the same dictionary, to support opposite readings of one statutory word in the same case.",
+        "D": "Courts should stop consulting dictionaries and decide the meaning of disputed statutory words by looking only to the purpose and context of the statute in question.",
+        "E": "Dictionaries appear neutral to courts because they are publicly available and independent of any single judge's preferences, which makes them attractive and open to checking."
+      },
+      "answer": "A",
+      "steps": [
+        {
+          "label": "Paragraph jobs",
+          "note": "P1: why courts like dictionaries. P2: why the neutrality is partly an illusion. P3: a limit on that criticism, then advice."
+        },
+        {
+          "label": "Find the verdict",
+          "note": "The last paragraph holds the author's own view. The key phrase is unexpected: a citation only 'relocated' the judgment.",
+          "highlight": "has therefore only relocated its judgment, not removed it"
+        },
+        {
+          "label": "Predict with both halves",
+          "note": "Dictionaries are useful for setting the range of meanings. They cannot pick one, so the judge's choice should be admitted openly."
+        },
+        {
+          "label": "Trap: the half-view",
+          "note": "B and D keep only the critical half of the passage. Each is killed by one idea: paragraph 3 says dictionaries are not worthless."
+        },
+        {
+          "label": "Trap: one paragraph",
+          "note": "C and E are each one paragraph's detail. Neither says what the author wants you to conclude."
+        }
+      ],
+      "why": {
+        "A": "Correct. It keeps both halves: dictionaries mark the range, but judgment still picks the sense, and the author wants that admitted.",
+        "B": "Too strong: the author says the choice is guided by the statute's purpose and context, which is not the same as substituting a preference.",
+        "C": "Too narrow: a supporting detail from paragraph 2, with no stance and no mention of the dictionary's real uses.",
+        "D": "Too strong: paragraph 3 says dictionaries are valuable for ruling out meanings, so the author does not tell courts to stop using them.",
+        "E": "Too narrow and one-sided: this is the appeal described in paragraph 1, which the author goes on to qualify."
+      }
+    },
+    {
+      "kind": "worked",
+      "level": 4,
+      "title": "Level 4: a thesis with a single concession",
+      "passage": {
+        "paragraphs": [
+          "Since the mid-twentieth century, many scholars have read the grotesque figures in the margins of medieval prayer books, such as knights fighting snails, monkeys in clerical robes and hybrid creatures mocking the chant, as a form of covert resistance. On this reading, the artists, often workers of low status, used the margins to lampoon the authority of the text they were paid to adorn, and the page becomes a record of social tension.",
+          "The reading is attractive but depends on an assumption that deserves scrutiny: that the comic and the sacred occupied opposed registers, so that a joke told beside a psalm must be a joke at the psalm's expense. Yet contemporary sermons, which were routinely salted with jokes and animal fables, treat laughter as a means of fixing devotional lessons in memory. A monkey in a bishop's robes may thus have prompted a viewer to reflect on vanity rather than to disdain the Church.",
+          "Evidence internal to the manuscripts points the same way. Marginal images frequently echo the wording or theme of the adjacent passage, as if the artist were glossing it, and the same motifs recur across books produced for patrons whose piety is not in doubt. A resistance model, by contrast, would predict images that seldom depend on the text beside them.",
+          "None of this establishes that the margins were never a place for dissent. A few images, such as those that single out a named abbot for ridicule, are plainly pointed, and it would be implausible that no artist ever used the margin to settle a grievance. But such cases are exceptions that must be argued individually. As a general account of marginal drawings, the resistance model fails: irreverence and devotion shared the page by design, and the images are better read as commentary within a shared devotional culture than as a challenge to it."
+        ]
+      },
+      "stem": "Which one of the following most accurately expresses the main point of the passage?",
+      "choices": {
+        "A": "Marginal images in medieval prayer books frequently echo the wording or theme of the adjacent passage, and the same motifs recur across books made for patrons of undoubted piety.",
+        "B": "Medieval sermons were routinely salted with jokes and animal fables because laughter was thought to be a useful means of fixing devotional lessons in the memory of listeners.",
+        "C": "Scholars who read the margins of medieval prayer books as covert resistance have underestimated how far the low social status of the artists shaped the images they produced.",
+        "D": "Because humor and devotion were compatible in medieval culture, none of the irreverent figures in the margins of prayer books can have been meant as criticism of the texts or institutions they accompany.",
+        "E": "The irreverence of marginal figures in medieval prayer books is better explained by a culture in which humor and devotion coexisted than by resistance, although a few images may be pointed criticism."
+      },
+      "answer": "E",
+      "steps": [
+        {
+          "label": "Name the debate",
+          "note": "Paragraph 1 gives the view the author will test: the margins are covert resistance."
+        },
+        {
+          "label": "Track the author's reply",
+          "note": "Paragraphs 2 and 3 attack the assumption behind that view and offer internal evidence. Paragraph 4 draws the verdict.",
+          "highlight": "As a general account of marginal drawings, the resistance model fails"
+        },
+        {
+          "label": "Find the concession",
+          "note": "The author admits a few images are plainly pointed. A good main point must leave room for them.",
+          "highlight": "A few images, such as those that single out a named abbot for ridicule, are plainly pointed"
+        },
+        {
+          "label": "Predict",
+          "note": "Humor and devotion coexisted, so the margins are mostly commentary, not resistance, with a few exceptions."
+        },
+        {
+          "label": "Kill the near twin",
+          "note": "D has the right reasoning but says 'none ... can have been'. One word, 'none', contradicts the abbot example. A, B and C are details or distortions."
+        }
+      ],
+      "why": {
+        "A": "Too narrow: this is the evidence from paragraph 3, not the author's conclusion.",
+        "B": "Too narrow: a detail from paragraph 2 that supports the argument but is not the point.",
+        "C": "Distorts the passage: the artists' low status belongs to the view being tested, and the author never says scholars underrated its effect.",
+        "D": "Nearly right but too strong. 'None ... can have been' conflicts with paragraph 4, which grants that some images are plainly pointed.",
+        "E": "Correct. It states the thesis, gives the reason and keeps the author's concession to the few pointed images."
+      }
+    },
+    {
+      "kind": "practice",
+      "title": "Your turn",
+      "count": 3
+    },
     {
       "kind": "card",
       "title": "Cheat card",

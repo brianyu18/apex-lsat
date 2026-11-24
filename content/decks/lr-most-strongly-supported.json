@@ -5,9 +5,14 @@
   "group": "lr",
   "order": 9,
   "section": "LR",
-  "types": ["most_strongly_supported"],
-  "lessonIds": ["u2/most-strongly-supported", "u1/grammar-2"],
-  "minutes": 6,
+  "types": [
+    "most_strongly_supported"
+  ],
+  "lessonIds": [
+    "u2/most-strongly-supported",
+    "u1/grammar-2"
+  ],
+  "minutes": 14,
   "slides": [
     {
       "kind": "idea",
@@ -31,15 +36,65 @@
       "kind": "method",
       "title": "Method",
       "steps": [
-        { "label": "Collect the facts", "do": "Read everything as true. Note any comparisons, numbers and causal-sounding phrases." },
-        { "label": "Ask what’s safe", "do": "What could you say about these facts that no reasonable reader would dispute?" },
-        { "label": "Check the strength", "do": "Kill choices that claim causes, certainty, or quantities the facts don’t reach." },
-        { "label": "Choose the safest", "do": "Between survivors, prefer the more hedged one." }
+        {
+          "label": "Collect the facts",
+          "do": "Read everything as true. Note any comparisons, numbers and causal-sounding phrases."
+        },
+        {
+          "label": "Ask what’s safe",
+          "do": "What could you say about these facts that no reasonable reader would dispute?"
+        },
+        {
+          "label": "Check the strength",
+          "do": "Kill choices that claim causes, certainty, or quantities the facts don’t reach."
+        },
+        {
+          "label": "Choose the safest",
+          "do": "Between survivors, prefer the more hedged one."
+        }
       ]
     },
     {
       "kind": "worked",
-      "title": "Worked example",
+      "level": 1,
+      "title": "Level 1: a shift, not a cause",
+      "stimulus": "A bakery began printing the calorie count on its pastry labels last spring. Since then, sales of its lowest-calorie pastries have risen, while sales of its highest-calorie pastries have fallen slightly. Total pastry sales at the bakery have stayed about the same.",
+      "stem": "The statements above, if true, most strongly support which one of the following?",
+      "choices": {
+        "A": "Calorie labels have caused the bakery's customers to eat fewer calories overall than they ate before.",
+        "B": "Some customers' pastry choices may have changed since the calorie counts were printed on the labels.",
+        "C": "The bakery's highest-calorie pastries are no longer popular with most of its regular customers.",
+        "D": "The bakery's total revenue from pastries has risen since the labels were introduced.",
+        "E": "Customers who read the calorie labels never buy the bakery's highest-calorie pastries."
+      },
+      "answer": "B",
+      "steps": [
+        {
+          "label": "Collect the facts",
+          "note": "Low-calorie sales rose. High-calorie sales fell slightly. The total stayed flat. All of this came after the labels.",
+          "highlight": "sales of its lowest-calorie pastries have risen"
+        },
+        {
+          "label": "Ask what's safe",
+          "note": "Something shifted after the labels. We cannot say the labels caused it or how big it is. Only a cautious claim is safe."
+        },
+        {
+          "label": "Check the strength",
+          "note": "Kill cause (A), extremes (C, E) and revenue (D). B hedges with 'may' and claims only a change."
+        }
+      ],
+      "why": {
+        "A": "Too strong. The facts show no cause, and customers may eat other foods; total sales are flat.",
+        "B": "Correct. Sales moved toward low-calorie pastries after the labels, so some choices may have changed.",
+        "C": "Extreme. 'Fallen slightly' does not mean 'no longer popular'.",
+        "D": "Not supported. Total sales stayed about the same; nothing is said about revenue rising.",
+        "E": "Extreme. 'Never' goes far past a slight fall in sales."
+      }
+    },
+    {
+      "kind": "worked",
+      "level": 2,
+      "title": "Level 2: the method, step by step",
       "stimulus": "In a long-term study of office workers, those who took a short walk after lunch reported fewer afternoon headaches than those who stayed at their desks. The walkers also drank, on average, more water during the afternoon.",
       "stem": "The statements above, if true, most strongly support which one of the following?",
       "choices": {
@@ -51,9 +106,20 @@
       },
       "answer": "D",
       "steps": [
-        { "label": "Fact one", "note": "Walkers reported fewer headaches. A correlation, not a cause.", "highlight": "reported fewer afternoon headaches than those who stayed at their desks" },
-        { "label": "Fact two", "note": "Walkers also drank more water. A second difference between the groups.", "highlight": "The walkers also drank, on average, more water during the afternoon." },
-        { "label": "What’s safe", "note": "We can’t say which difference matters, only that walking may not be the whole story." }
+        {
+          "label": "Fact one",
+          "note": "Walkers reported fewer headaches. A correlation, not a cause.",
+          "highlight": "reported fewer afternoon headaches than those who stayed at their desks"
+        },
+        {
+          "label": "Fact two",
+          "note": "Walkers also drank more water. A second difference between the groups.",
+          "highlight": "The walkers also drank, on average, more water during the afternoon."
+        },
+        {
+          "label": "What’s safe",
+          "note": "We can’t say which difference matters, only that walking may not be the whole story."
+        }
       ],
       "why": {
         "A": "Too strong: a correlation does not show walking prevents headaches.",
@@ -64,16 +130,123 @@
       }
     },
     {
+      "kind": "worked",
+      "level": 3,
+      "title": "Level 3: a comparison road and a tempting cause",
+      "stimulus": "Municipal records show that in the two years after the city lowered the speed limit on Harlan Avenue from 40 to 30 miles per hour, reported collisions there fell by a quarter. Over the same two years, reported collisions on Pike Street, a comparable road whose speed limit did not change, fell by about a tenth. Traffic volume on both roads was roughly unchanged, and both roads carry mostly local traffic. In the second year, police on Harlan Avenue stopped issuing citations for minor speeding.",
+      "stem": "The statements above, if true, most strongly support which one of the following?",
+      "choices": {
+        "A": "The lower speed limit is the sole reason that reported collisions on Harlan Avenue declined.",
+        "B": "Reported collisions on Harlan Avenue would have fallen by about a tenth even if its speed limit had not been lowered.",
+        "C": "Ending citations for minor speeding on Harlan Avenue made the decline in reported collisions there smaller than it would otherwise have been.",
+        "D": "Factors other than the lowered limit may have contributed to the fall in reported collisions on Harlan Avenue.",
+        "E": "Lowering the speed limit on Pike Street would reduce reported collisions there by more than a quarter."
+      },
+      "answer": "D",
+      "steps": [
+        {
+          "label": "Collect the facts",
+          "note": "Harlan: limit cut, collisions down a quarter. Pike: no change, collisions down about a tenth. Volume steady. Citations stopped on Harlan."
+        },
+        {
+          "label": "Spot the comparison",
+          "note": "Pike fell without any limit change. So something besides a limit change can reduce collisions on a road like Harlan.",
+          "highlight": "a comparable road whose speed limit did not change"
+        },
+        {
+          "label": "Ask what's safe",
+          "note": "Other factors may be at work on both roads. A hedged claim that Harlan's drop has other contributors is safe."
+        },
+        {
+          "label": "Name the two traps",
+          "note": "B is tempting but 'would have' turns a hint into a certainty, and Pike is only 'comparable'. C is tempting but 'made smaller' asserts a cause the facts never show."
+        },
+        {
+          "label": "Confirm",
+          "note": "A fails on 'sole', E forecasts a road with no data. D claims the least."
+        }
+      ],
+      "why": {
+        "A": "Too strong. 'Sole reason' is undercut by the fall on Pike Street, where the limit did not change.",
+        "B": "Overreach. Pike is only comparable, and 'would have' asserts a firm counterfactual the facts cannot settle.",
+        "C": "A cause from timing. The facts say citations stopped, not that this changed collisions, or in which direction.",
+        "D": "Correct. Collisions also fell on Pike with no limit change, so other factors may have helped on Harlan.",
+        "E": "Unsupported forecast. No Pike data show what a lower limit would do, and 'more than a quarter' is a made-up figure."
+      }
+    },
+    {
+      "kind": "worked",
+      "level": 4,
+      "title": "Level 4: a mix shift between two groups",
+      "stimulus": "At Brightwater Academy, the proportion of examinees who passed the spring exam rose from 60 percent last year to 66 percent this year. The review sessions are open to every examinee who registers for the exam. No student took the exam in both years, and the exam was scored the same way each year. In each year, the examinees who attended the optional review sessions passed at a higher rate than the examinees who did not attend. A larger proportion of this year's examinees than of last year's examinees attended the review sessions.",
+      "stem": "The statements above, if true, most strongly support which one of the following?",
+      "choices": {
+        "A": "The larger share of examinees who attended review sessions may account for part of the rise in the overall pass rate.",
+        "B": "The rise in the overall pass rate was due entirely to the larger share of examinees who attended the optional review sessions.",
+        "C": "More than half of this year's examinees attended the optional review sessions.",
+        "D": "Examinees who attended review sessions this year passed at a higher rate than examinees who attended last year.",
+        "E": "Attending a review session raises an examinee's chance of passing the spring exam, whatever his or her preparation."
+      },
+      "answer": "A",
+      "steps": [
+        {
+          "label": "Find the groups",
+          "note": "Each year has attendees and non-attendees. Within a year, attendees pass at a higher rate.",
+          "highlight": "passed at a higher rate than the examinees who did not attend"
+        },
+        {
+          "label": "Spot the mix shift",
+          "note": "This year attendees are a bigger share of the examinees. A bigger share of the higher-passing group lifts the overall rate.",
+          "highlight": "A larger proportion of this year's examinees than of last year's examinees attended the review sessions."
+        },
+        {
+          "label": "Ask what's safe",
+          "note": "The shift can push the overall rate up. But the facts do not say whether pass rates inside each group changed. So 'may account for part' is safe."
+        },
+        {
+          "label": "Name the trap",
+          "note": "B is the closest rival. The single word 'entirely' kills it, because other changes remain possible. E turns a within-year gap into a cause."
+        },
+        {
+          "label": "Confirm",
+          "note": "C needs a figure the facts lack. D compares attendees across years, which the facts never do."
+        }
+      ],
+      "why": {
+        "A": "Correct. A bigger share of the higher-passing group can lift the overall rate, and 'may' and 'part' claim no more than that.",
+        "B": "Almost right, but 'entirely' overreaches. The facts do not rule out other changes, such as shifts in pass rates within the groups.",
+        "C": "Not supported. A larger share could still be a minority; no attendance figure is given.",
+        "D": "A comparison not made. The facts compare attendees with non-attendees in the same year, not attendees across years.",
+        "E": "A cause from a correlation. Attendees may differ from non-attendees in motivation or preparation."
+      }
+    },
+    {
       "kind": "traps",
       "title": "MSS traps",
       "traps": [
-        { "name": "Cause from correlation", "tell": "The facts show two things together; the choice says one causes the other." },
-        { "name": "Upgraded quantity", "tell": "Some becomes most, more becomes all, fewer becomes none." },
-        { "name": "One case to a rule", "tell": "A single study or example becomes a general law." },
-        { "name": "Comparison not made", "tell": "Compares groups or times the facts never compared." }
+        {
+          "name": "Cause from correlation",
+          "tell": "The facts show two things together; the choice says one causes the other."
+        },
+        {
+          "name": "Upgraded quantity",
+          "tell": "Some becomes most, more becomes all, fewer becomes none."
+        },
+        {
+          "name": "One case to a rule",
+          "tell": "A single study or example becomes a general law."
+        },
+        {
+          "name": "Comparison not made",
+          "tell": "Compares groups or times the facts never compared."
+        }
       ]
     },
-    { "kind": "practice", "title": "Your turn", "count": 3 },
+    {
+      "kind": "practice",
+      "title": "Your turn",
+      "count": 3
+    },
     {
       "kind": "card",
       "title": "Cheat card",

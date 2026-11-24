@@ -19,8 +19,8 @@ export default async function DecksPage() {
         <p className="mt-3 text-sm font-medium uppercase tracking-wider text-accent">Learn</p>
         <h1 className="mt-1 text-3xl font-semibold tracking-tight">Strategy decks</h1>
         <p className="mt-1 max-w-3xl text-ink-2">
-          Click-through decks for every section skill and question type: how to recognise it, the method step by step, a worked example you reveal one move at a time, the traps,
-          and live practice from the question bank.
+          Click-through decks for every section skill and question type: how to recognise it, the method step by step, four worked examples from Level 1 to Level 4 that you try
+          first and then reveal one move at a time, the traps, and live practice from the question bank.
         </p>
       </header>
       {groups.map(({ g, decks: ds }) => (
@@ -40,6 +40,7 @@ export default async function DecksPage() {
                   <p className="text-sm text-ink-2">{d.summary}</p>
                   <div className="mt-auto flex flex-wrap gap-1.5 pt-1">
                     <Badge tone="neutral">{d.slides.length} slides</Badge>
+                    {d.slides.some((x) => x.kind === "worked") && <Badge tone="neutral">{d.slides.filter((x) => x.kind === "worked").length} worked examples</Badge>}
                     <Badge tone="neutral">{d.minutes} min</Badge>
                   </div>
                 </Card>
