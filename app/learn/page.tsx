@@ -44,6 +44,16 @@ export default async function LearnPage() {
         </Card>
       </Link>
 
+      <Link href="/learn/writing" className="focus-ring block rounded-[var(--radius)]">
+        <Card className="flex flex-wrap items-center justify-between gap-3 p-4 hover:bg-bg-sunken">
+          <div>
+            <p className="font-semibold">Argumentative Writing guide</p>
+            <p className="text-sm text-ink-2">What readers look for, the five-paragraph blueprint, annotated sample essays, practice prompts and a prep plan.</p>
+          </div>
+          <span className="text-sm font-medium text-accent">Open guide →</span>
+        </Card>
+      </Link>
+
       {units.map((u) => {
         const ls = lessons.filter((l) => l.unit === u);
         const uDone = ls.filter((l) => l.progress?.status === "complete").length;

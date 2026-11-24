@@ -21,8 +21,10 @@ function fmt(s: number) {
   return `${Math.floor(s / 60)}:${String(s % 60).padStart(2, "0")}`;
 }
 
-export function WritingRunner({ prompt, lessonId }: { prompt: WritingPrompt & { id: string }; lessonId?: string | null }) {
+export function WritingRunner({ prompt: initialPrompt, lessonId }: { prompt: WritingPrompt & { id: string }; lessonId?: string | null }) {
   const router = useRouter();
+  // Pinned at mount: saving refreshes the page, and the server may pick a different random prompt.
+  const [prompt] = useState(initialPrompt);
   const [phase, setPhase] = useState<Phase>("setup");
   const [outline, setOutline] = useState<Outline>(EMPTY_OUTLINE);
   const [essay, setEssay] = useState("");
@@ -166,7 +168,7 @@ export function WritingRunner({ prompt, lessonId }: { prompt: WritingPrompt & { 
     <Card data-testid="writing-done">
       <CardTitle>Essay saved</CardTitle>
       <CardDescription>
-        {saved?.words ?? words} words · prewrite {fmt(prewriteSec.current)} · {lessonId ? "Lesson marked complete." : "Find it under Recent essays to reread tomorrow with fresh eyes."}
+        {saved?.words ?? words} words · prewrite {fmt(prewriteSec.current)} · {lessonId ? "Lesson marked complete." : "Find it under Recent essays to reread tomorrow with fresh eyes, then score it with the rubric in the writing guide."}
       </CardDescription>
       <div className="mt-4 grid gap-3 sm:grid-cols-2">
         <Card className="p-4 text-sm">
