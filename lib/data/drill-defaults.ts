@@ -13,6 +13,8 @@ export interface DrillSettings {
   sources: DrillSource[];
   predictionMode: boolean;
   count: number; // questions per session (0 = endless)
+  /** a lesson check: draw only from that lesson's curated pool when it has one */
+  lesson?: string | null;
 }
 
 export const DEFAULT_DRILL_SETTINGS: DrillSettings = {

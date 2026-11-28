@@ -138,6 +138,19 @@ describe("nextQuestion", () => {
       expect(q.logicTags).toContain("causation");
     }
   });
+
+  it("a lesson's curated pool wins over type and tag filters", () => {
+    const cands = bank(100);
+    const pool = cands.filter((_, k) => k % 7 === 0).map((c) => c.id);
+    const served = new Set<string>();
+    for (let i = 0; i < 80; i++) {
+      // the type filter names a type the pool may not contain: the pool still decides
+      const q = nextQuestion(cands, ctx({ ids: pool, types: ["no_such_type"], tags: ["no_such_tag"], levels: [1, 2, 3, 4], rng: mulberry32(i + 1) }))!;
+      expect(pool).toContain(q.id);
+      served.add(q.id);
+    }
+    expect(served.size).toBeGreaterThan(3);
+  });
 });
 
 describe("nextQuestion widening", () => {

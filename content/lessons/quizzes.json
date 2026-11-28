@@ -1,0 +1,248 @@
+{
+  "u0/how-the-lsat-works": [
+    {
+      "prompt": "Which sections count toward your 120–180 score on the current four-section LSAT?",
+      "choices": {
+        "A": "One Logical Reasoning section and two Reading Comprehension sections",
+        "B": "Two Logical Reasoning sections, one Reading Comprehension section and the Argumentative Writing sample",
+        "C": "Two Logical Reasoning sections and one Reading Comprehension section",
+        "D": "One section each of Logical Reasoning, Reading Comprehension and Logic Games"
+      },
+      "answer": "C",
+      "why": {
+        "A": "Reversed. Logical Reasoning is two of the three scored sections, about two-thirds of the score.",
+        "B": "The writing sample is unscored. Schools read it, but it is not part of the 120–180.",
+        "C": "Right. Two scored LR, one scored RC, plus one unscored variable section that can appear anywhere.",
+        "D": "Logic Games were removed from the LSAT in August 2024 and are gone for good."
+      }
+    },
+    {
+      "prompt": "Forty seconds remain in a section and three questions are still blank. What does the scoring rule say to do?",
+      "choices": {
+        "A": "Answer all three, even as guesses, because a wrong answer costs nothing",
+        "B": "Leave them blank, because a wrong answer costs more than a blank",
+        "C": "Answer only the ones where you can eliminate at least two choices",
+        "D": "Spend the time checking an earlier answer instead, since guesses rarely land"
+      },
+      "answer": "A",
+      "why": {
+        "A": "Right. Every question is worth one raw point and there is no penalty for guessing, so never leave a blank.",
+        "B": "There is no guessing penalty. A blank scores the same as a wrong answer, and a guess has a chance of scoring.",
+        "C": "Elimination helps, but even a blind guess beats a blank when wrong answers cost nothing.",
+        "D": "Checking may be worth something, but not at the cost of leaving three questions blank."
+      }
+    },
+    {
+      "prompt": "On recent forms, about how many questions can you miss and still score 175?",
+      "choices": {
+        "A": "None; 175 requires a perfect test",
+        "B": "About one",
+        "C": "About twelve",
+        "D": "About four or five"
+      },
+      "answer": "D",
+      "why": {
+        "A": "A perfect or near-perfect test is a 180, not a 175.",
+        "B": "One miss is closer to 180 on recent forms.",
+        "C": "About twelve misses lands in the mid-160s, below 170 (about eight misses).",
+        "D": "Right. Four or five misses out of about 77, roughly one and a half per section. The goal is to stop losing points you already know how to earn."
+      }
+    },
+    {
+      "prompt": "Which review habit does the lesson single out as what top scorers can do?",
+      "choices": {
+        "A": "Name the exact word that makes each wrong answer wrong",
+        "B": "Take more full practice tests than anyone else",
+        "C": "Diagram every stimulus before reading the answer choices",
+        "D": "Reread the explanation for every question they got right"
+      },
+      "answer": "A",
+      "why": {
+        "A": "Right. That precision is what this program's review step trains: every miss is tagged with why, and comes back until the pattern is gone.",
+        "B": "Volume helps only up to a point; the lesson's emphasis is on how you review, not how many tests you take.",
+        "C": "The lesson says plainly that the program does not diagram every stimulus.",
+        "D": "Reviewing right answers can help, but it is not the habit the lesson names."
+      }
+    },
+    {
+      "prompt": "What changes from the August 2027 LSAT onward?",
+      "choices": {
+        "A": "Logic Games return as a scored section",
+        "B": "Reading Comprehension comes first, and the unscored questions are mixed into all three sections",
+        "C": "The number of scored questions rises and the score scale changes",
+        "D": "The Argumentative Writing sample becomes part of the scored test"
+      },
+      "answer": "B",
+      "why": {
+        "A": "Logic Games are not coming back.",
+        "B": "Right. RC first (52 minutes), then two LR sections (45 minutes each), breaks after the first two sections, and no separate unscored section.",
+        "C": "LSAC says the number of scored questions and the 120–180 scale stay the same.",
+        "D": "The writing sample stays separate and unscored."
+      }
+    }
+  ],
+  "u0/how-this-program-works": [
+    {
+      "prompt": "You answer a level-2 question correctly in 7 seconds and mark it “sure.” What happens to your skill rating?",
+      "choices": {
+        "A": "It rises more than usual, because you were fast and sure",
+        "B": "It rises by the normal amount for a level-2 question",
+        "C": "It falls slightly, because answering that fast counts as rushing",
+        "D": "Nothing; answers under 10 seconds don’t count toward the rating"
+      },
+      "answer": "D",
+      "why": {
+        "A": "Speed and confidence don’t earn extra rating. Very fast answers are left out altogether.",
+        "B": "It would, at 10 seconds or more. Under 10 seconds the answer is not counted.",
+        "C": "A correct answer never lowers the rating; a very fast one is simply ignored.",
+        "D": "Right. Answers under 10 seconds, and answers marked guess, are left out so lucky hits can’t inflate your rating."
+      }
+    },
+    {
+      "prompt": "You missed a question fast and confidently, by picking the answer that reversed the argument’s logic. Which cause and cure fit?",
+      "choices": {
+        "A": "Misread: slow down the first read and reread the stem",
+        "B": "Logic gap: go back to the lesson and drill the pattern untimed",
+        "C": "Time pressure: work on pacing checkpoints and skip rules",
+        "D": "Careless: trust your first read unless you can prove a switch"
+      },
+      "answer": "A",
+      "why": {
+        "A": "Right. Fast, confident and wrong, with the reversed answer picked, is the lesson’s description of a misread.",
+        "B": "A logic gap is not seeing the structure. Here the structure was readable; the read itself was too quick.",
+        "C": "Time pressure shows up as guessing or bailing, not a fast confident pick.",
+        "D": "Careless means switching off a right answer. You never had the right answer here."
+      }
+    },
+    {
+      "prompt": "After you tag a miss in the Review Inbox, when does it come back?",
+      "choices": {
+        "A": "The next day, and then not again",
+        "B": "After 3, 5 and then 10 days, paired with a fresh question of the same shape, until you’ve beaten the pattern three times",
+        "C": "Once a week for as long as you use the app",
+        "D": "Only when you choose to reopen it yourself"
+      },
+      "answer": "B",
+      "why": {
+        "A": "One return is not enough to prove the pattern is gone.",
+        "B": "Right. Spaced returns, each with a fresh question of the same shape, until the pattern is beaten three times.",
+        "C": "The schedule widens and then stops once the pattern is beaten; it isn’t weekly forever.",
+        "D": "Re-drilling is automatic: due misses are served first in drills."
+      }
+    },
+    {
+      "prompt": "According to the lesson, what is the drill really scored on?",
+      "choices": {
+        "A": "The percentage of questions you get right",
+        "B": "Whether your “sure” answers are right and whether your misses stop repeating",
+        "C": "How fast you answer each question",
+        "D": "How many questions you answer each day"
+      },
+      "answer": "B",
+      "why": {
+        "A": "A raw percentage doesn’t tell you what to fix; the lesson says so directly.",
+        "B": "Right. Calibrated confidence and misses that stop repeating are the two things that move the score.",
+        "C": "Speed comes later, once the method is reliable.",
+        "D": "Volume without review is what keeps people stuck."
+      }
+    },
+    {
+      "prompt": "Your displayed rating for a question type is about 75. What does that mean?",
+      "choices": {
+        "A": "You get about 75% of that type right",
+        "B": "You are at the 75th percentile of test takers",
+        "C": "You are reliable through level-3 questions of that type",
+        "D": "You are close to acing that type"
+      },
+      "answer": "C",
+      "why": {
+        "A": "The rating is not a percentage correct; it measures the difficulty you handle reliably.",
+        "B": "It is not a percentile against other test takers.",
+        "C": "Right. Around 75 on the 0–100 scale means reliable through level 3.",
+        "D": "Close to acing is around 90."
+      }
+    }
+  ],
+  "u0/how-to-study": [
+    {
+      "prompt": "Which two study techniques does the lesson call the most effective measured?",
+      "choices": {
+        "A": "Rereading and highlighting",
+        "B": "Timed full tests from day one and daily score tracking",
+        "C": "Summarizing lessons and rewriting notes",
+        "D": "Practice testing and spaced practice"
+      },
+      "answer": "D",
+      "why": {
+        "A": "The lesson puts these far behind practice testing and spacing.",
+        "B": "Timing too early teaches you to guess faster; the lesson says accuracy first.",
+        "C": "Not the two the lesson names.",
+        "D": "Right. The drill is the lesson, and re-drilling a miss days later is where learning compounds."
+      }
+    },
+    {
+      "prompt": "When should you move a question type from untimed to timed practice?",
+      "choices": {
+        "A": "When your untimed accuracy on level 1–3 questions of that type is above about 85% across the last 20",
+        "B": "As soon as you finish all the lessons for that type",
+        "C": "After you have answered 100 questions of that type",
+        "D": "When your untimed accuracy stops improving"
+      },
+      "answer": "A",
+      "why": {
+        "A": "Right. Before that, a timer measures reading speed, not reasoning.",
+        "B": "Finishing lessons doesn’t show the method is reliable yet.",
+        "C": "Volume isn’t the test; accuracy on recent questions is.",
+        "D": "A plateau calls for better review, not a timer."
+      }
+    },
+    {
+      "prompt": "Your timed section score is 9 points below your blind-review score on the same section. What does the gap suggest?",
+      "choices": {
+        "A": "Your ceiling is content, so go back to untimed drilling on your weakest types",
+        "B": "You need to take a full practice test every day",
+        "C": "You know the material but can’t execute under time: work on pacing, skipping and confidence",
+        "D": "Nothing; a gap that size is normal and needs no change"
+      },
+      "answer": "C",
+      "why": {
+        "A": "That is the cure for a small or no gap, where blind review doesn’t rescue the score either.",
+        "B": "More full tests without fixing execution repeats the same problem.",
+        "C": "Right. A big gap (8 or more points) means the knowledge is there and the timing is the problem.",
+        "D": "The lesson treats 8 or more points as a big gap with a specific fix."
+      }
+    },
+    {
+      "prompt": "Three timed sections in a row land at the same score. What does the lesson say to do first?",
+      "choices": {
+        "A": "Double the number of sections you take each week",
+        "B": "Check the inbox for error tags that keep repeating, and raise review quality while cutting volume",
+        "C": "Skip ahead to harder material so the scores move",
+        "D": "Stop drilling and only reread lessons for a week"
+      },
+      "answer": "B",
+      "why": {
+        "A": "Volume is the usual response to a plateau, and the lesson says it is the wrong one.",
+        "B": "Right. Repeating tags show the bottleneck; twenty questions reviewed properly beat sixty rushed.",
+        "C": "Harder material doesn’t fix the repeating cause of the misses.",
+        "D": "The lesson suggests rereading one section, not dropping drills."
+      }
+    },
+    {
+      "prompt": "What does the final week before the test look like?",
+      "choices": {
+        "A": "A full test every day to build stamina",
+        "B": "Only the hardest questions, to sharpen up",
+        "C": "New lessons on any question type you skipped",
+        "D": "One full test at your test time the weekend before, light level 1–2 drilling, error-journal rereads, and nothing the day before"
+      },
+      "answer": "D",
+      "why": {
+        "A": "The final week protects the score; daily full tests wear you out.",
+        "B": "Light, easy drilling keeps confidence and rhythm; hard sets do the opposite.",
+        "C": "New material in the final week rarely sticks and adds stress.",
+        "D": "Right. The plan builds this week in automatically."
+      }
+    }
+  ]
+}

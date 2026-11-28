@@ -1,0 +1,2895 @@
+[
+  {
+    "id": "lr-t1-mbt-midnight-cargo",
+    "type": "must_be_true",
+    "difficulty": 1,
+    "stimulus": "Harlow Field's airport authority enforces a simple scheduling policy: whenever a flight departs after midnight, it is a cargo flight. The authority's published timetable includes Flight 88, a service that carries passengers only and no freight. The timetable also lists several cargo flights that depart in the late afternoon.",
+    "stem": "If the statements above are true, which one of the following must also be true?",
+    "choices": {
+      "A": "Every cargo flight on the timetable departs after midnight.",
+      "B": "Flight 88 does not depart after midnight.",
+      "C": "Flight 88 departs in the late afternoon.",
+      "D": "Some passenger-only flights on the timetable depart after midnight.",
+      "E": "Every flight that does not depart after midnight carries passengers only."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Reversal. The policy makes after-midnight departure sufficient for being a cargo flight, not the other way around; the late-afternoon cargo flights show cargo flights need not leave after midnight.",
+      "B": "Correct. After midnight leads to cargo. Flight 88 is not a cargo flight, so by the contrapositive it cannot depart after midnight.",
+      "C": "Out of scope. Flight 88 is shown not to leave after midnight, but nothing places it in the late afternoon rather than, say, the morning.",
+      "D": "Opposite. A passenger-only flight is not a cargo flight, so it cannot depart after midnight under the policy.",
+      "E": "Denying the sufficient condition. Not departing after midnight triggers no rule, and the late-afternoon cargo flights directly contradict this choice."
+    },
+    "trapPatterns": {
+      "A": "reversal",
+      "C": "out_of_scope",
+      "D": "opposite",
+      "E": "necessary_v_sufficient"
+    },
+    "keyTakeaway": "Not the necessary condition means not the sufficient condition; the contrapositive is the one backward move that is safe.",
+    "predictionHint": "Flight 88 is not cargo, so it cannot be after midnight.",
+    "section": "LR",
+    "logicTags": [
+      "conditional"
+    ]
+  },
+  {
+    "id": "lr-t1-inf-hardened-seedlings",
+    "type": "inference",
+    "difficulty": 1,
+    "stimulus": "At Greenway Nursery, any seedling that has been hardened off survives transplanting. Last week a grower transplanted all of the seedlings in Tray 4 into the open beds. By the end of the week, several of those seedlings had died.",
+    "stem": "Which one of the following can be properly inferred from the statements above?",
+    "choices": {
+      "A": "Every Tray 4 seedling that survived the transplant had been hardened off.",
+      "B": "Most of the seedlings in Tray 4 had not been hardened off.",
+      "C": "At least one seedling in Tray 4 had not been hardened off.",
+      "D": "Seedlings that are not hardened off never survive transplanting.",
+      "E": "The Tray 4 seedlings died because they were transplanted too early."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Reversal. Being hardened off is sufficient for survival; it is not stated to be necessary, so survivors could include seedlings that were not hardened off.",
+      "B": "Extreme. One death proves at least one unhardened seedling, but 'several' deaths out of an unknown number do not show most were unhardened.",
+      "C": "Correct. Hardened off leads to survival, so a seedling that died was not hardened off (contrapositive). Several died, so at least one was not.",
+      "D": "Denying the sufficient condition. The rule says nothing about what happens to seedlings that were not hardened off.",
+      "E": "Out of scope. Timing is never mentioned, and the passage gives no cause for the deaths."
+    },
+    "trapPatterns": {
+      "A": "reversal",
+      "B": "extreme",
+      "D": "necessary_v_sufficient",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "A failure on the right side of an arrow proves a failure on the left side, and nothing more.",
+    "predictionHint": "The ones that died were not hardened off.",
+    "section": "LR",
+    "logicTags": [
+      "conditional"
+    ]
+  },
+  {
+    "id": "lr-t1-sa-honors-cohort",
+    "type": "sufficient_assumption",
+    "difficulty": 2,
+    "stimulus": "Registrar: Dara applied to the Calloway honors cohort in the autumn and was interviewed by two faculty members. Every student admitted to the cohort has completed the two-term writing sequence. It follows that Dara was not admitted to the cohort.",
+    "stem": "The conclusion follows logically if which one of the following is assumed?",
+    "choices": {
+      "A": "Dara has not completed the two-term writing sequence.",
+      "B": "Dara's interviewers were not impressed by her application.",
+      "C": "Every student who has completed the two-term writing sequence is admitted to the cohort.",
+      "D": "Every student who was not admitted to the cohort has not completed the two-term writing sequence.",
+      "E": "Dara will complete the two-term writing sequence before the next admissions cycle."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. Admitted leads to completed the sequence. If Dara has not completed it, the contrapositive gives not admitted.",
+      "B": "Out of scope. The interviewers' impressions are not connected by any stated rule to admission.",
+      "C": "Reversal. It makes completion sufficient for admission, but the stated rule makes completion necessary; this does not touch Dara.",
+      "D": "Denying the sufficient condition (the inverse of the rule). It speaks of students who were not admitted, which presupposes the conclusion rather than supporting it.",
+      "E": "Out of scope. A future completion says nothing about whether she has completed the sequence now, and would actually be compatible with admission."
+    },
+    "trapPatterns": {
+      "B": "out_of_scope",
+      "C": "reversal",
+      "D": "necessary_v_sufficient",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "To conclude 'not X' from 'X requires Y', the missing premise is 'not Y'.",
+    "predictionHint": "Admission requires the sequence, so Dara must lack the sequence.",
+    "section": "LR",
+    "logicTags": [
+      "conditional"
+    ]
+  },
+  {
+    "id": "lr-t1-mbt-rowan-sponsor",
+    "type": "must_be_true",
+    "difficulty": 3,
+    "stimulus": "The Pellam Orchestra gives six concerts each season. Every concert the orchestra gives in Rowan Hall is a benefit concert. A benefit concert is held only if a corporate sponsor has been secured for it. The orchestra's March concert had no corporate sponsor.",
+    "stem": "If the statements above are true, which one of the following must also be true?",
+    "choices": {
+      "A": "The March concert was a benefit concert held outside Rowan Hall.",
+      "B": "Any concert the orchestra gives outside Rowan Hall has a corporate sponsor.",
+      "C": "Every benefit concert the orchestra gives is held in Rowan Hall.",
+      "D": "The March concert was held somewhere other than Rowan Hall because no sponsor could be found.",
+      "E": "The March concert was not held in Rowan Hall."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Opposite. The chain Rowan Hall, benefit, sponsor runs backward from the missing sponsor to 'not a benefit concert', so the March concert was not a benefit concert at all.",
+      "B": "Denying the sufficient condition. The rules say what Rowan Hall concerts require; they say nothing about concerts held elsewhere.",
+      "C": "Reversal. Rowan Hall leads to benefit, not benefit to Rowan Hall; benefit concerts could be given elsewhere.",
+      "D": "Half right. The venue claim follows, but the stated reason does not; the passage never says why the concert was placed where it was.",
+      "E": "Correct. No sponsor means not a benefit concert (contrapositive of the second rule), and not a benefit concert means not in Rowan Hall (contrapositive of the first)."
+    },
+    "trapPatterns": {
+      "A": "opposite",
+      "B": "necessary_v_sufficient",
+      "C": "reversal",
+      "D": "half_right"
+    },
+    "keyTakeaway": "Chain the arrows, then run the contrapositive of the whole chain from the denied end.",
+    "predictionHint": "No sponsor, so not benefit, so not in Rowan Hall.",
+    "section": "LR",
+    "logicTags": [
+      "conditional"
+    ]
+  },
+  {
+    "id": "lr-t1-sa-accord-waiver",
+    "type": "sufficient_assumption",
+    "difficulty": 4,
+    "stimulus": "Under the Oresund Accord, a member state may invoke the emergency provision only if it has filed a notice of hardship. Moreover, no member state that has filed a notice of hardship also seeks a tariff waiver. Hence Brannoch, a member state, cannot invoke the emergency provision.",
+    "stem": "The conclusion follows logically if which one of the following is assumed?",
+    "choices": {
+      "A": "Brannoch has filed a notice of hardship.",
+      "B": "Brannoch does not seek a tariff waiver.",
+      "C": "Every member state that does not seek a tariff waiver has filed a notice of hardship.",
+      "D": "Brannoch itself seeks a tariff waiver.",
+      "E": "Brannoch is not one of the original member states of the Accord."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Opposite. Filing a notice is necessary for invoking the provision, so this would leave open that Brannoch can invoke it rather than rule it out.",
+      "B": "Affirming the necessary condition. Not seeking a waiver is what a filer of notice must do, so it is compatible with Brannoch having filed; it does not show that no notice was filed.",
+      "C": "Reversal. It runs the second rule backward and says nothing about Brannoch itself.",
+      "D": "Correct. Filed notice leads to no waiver, so seeking a waiver means no notice was filed (contrapositive). No notice means the provision cannot be invoked (contrapositive of the first rule).",
+      "E": "Out of scope. Nothing in either rule depends on a state's original or later membership."
+    },
+    "trapPatterns": {
+      "A": "opposite",
+      "B": "necessary_v_sufficient",
+      "C": "reversal",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "When the conclusion needs 'no notice', look for the premise that is the contrapositive of a rule, not the one that merely sounds consistent with it.",
+    "predictionHint": "Brannoch must lack a notice; the second rule says waiver-seekers lack one.",
+    "section": "LR",
+    "logicTags": [
+      "conditional"
+    ]
+  },
+  {
+    "id": "lr-t1-mbt-veldt-dome",
+    "type": "must_be_true",
+    "difficulty": 4,
+    "stimulus": "At the Veldt Observatory, any instrument that was calibrated this year is housed in the east dome, and any instrument used for the infrared survey is housed in the east dome as well. No instrument housed in the east dome is rated for field transport. The observatory's spectrograph is not housed in the east dome.",
+    "stem": "If the statements above are true, which one of the following must also be true?",
+    "choices": {
+      "A": "The spectrograph was calibrated this year but is not used for the infrared survey.",
+      "B": "The spectrograph was not calibrated this year and is not used for the infrared survey.",
+      "C": "Every instrument housed in the east dome was either calibrated this year or used for the infrared survey.",
+      "D": "The spectrograph is rated for field transport.",
+      "E": "The spectrograph is the only instrument at the observatory that is not housed in the east dome."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Opposite. A calibrated instrument must be in the east dome, so a spectrograph outside it cannot have been calibrated this year.",
+      "B": "Correct. Each of the two sufficient conditions leads to the east dome; being outside the east dome therefore rules out both, by the contrapositive of each rule.",
+      "C": "Reversal. Both rules make the east dome necessary, not sufficient; instruments there may have been placed for other reasons.",
+      "D": "Denying the sufficient condition. Only east dome instruments are said to lack field-transport ratings; being outside the dome triggers no rule.",
+      "E": "Out of scope. Nothing indicates how many other instruments are housed outside the east dome."
+    },
+    "trapPatterns": {
+      "A": "opposite",
+      "C": "reversal",
+      "D": "necessary_v_sufficient",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "When two arrows share a necessary condition, denying it denies both sufficient conditions; it never lets you go the other way.",
+    "predictionHint": "Outside the east dome means neither calibrated nor infrared.",
+    "section": "LR",
+    "logicTags": [
+      "conditional"
+    ]
+  },
+  {
+    "id": "lr-t1-inf-mediation-arbitration",
+    "type": "inference",
+    "difficulty": 4,
+    "stimulus": "Whenever mediation of a dispute fails, the dispute is referred to arbitration, and a dispute is referred to arbitration only if both parties to it have signed the submission agreement. In the Hollis-Mercer dispute, Mercer never signed the submission agreement.",
+    "stem": "Which one of the following can be properly inferred from the statements above?",
+    "choices": {
+      "A": "The Hollis-Mercer dispute was resolved through mediation.",
+      "B": "Hollis signed the submission agreement as well.",
+      "C": "Mediation of the Hollis-Mercer dispute failed, and the dispute then went unresolved.",
+      "D": "Any dispute whose parties have both signed the submission agreement is referred to arbitration.",
+      "E": "Mediation of the Hollis-Mercer dispute did not fail."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Extreme. 'Did not fail' is all the chain gives; nothing says mediation took place or succeeded, so 'was resolved through mediation' goes beyond it.",
+      "B": "Out of scope. Mercer's missing signature settles the matter regardless of whether Hollis signed.",
+      "C": "Opposite. Failure would lead to arbitration, which would require Mercer's signature, so failure is ruled out.",
+      "D": "Reversal. Both signatures are necessary for referral, not sufficient for it.",
+      "E": "Correct. Failure leads to referral, and referral requires both signatures. Mercer did not sign, so no referral, so mediation did not fail."
+    },
+    "trapPatterns": {
+      "A": "extreme",
+      "B": "out_of_scope",
+      "C": "opposite",
+      "D": "reversal"
+    },
+    "keyTakeaway": "Read a chain from the denied end back to the start: each step backward is a contrapositive.",
+    "predictionHint": "No signature, so no referral, so mediation did not fail.",
+    "section": "LR",
+    "logicTags": [
+      "conditional"
+    ]
+  },
+  {
+    "id": "lr-t1-sa-hargrove-flagged",
+    "type": "sufficient_assumption",
+    "difficulty": 4,
+    "stimulus": "Auditing firm memo: Each division submits a report every quarter. Every report that the auditors flag is returned to its author for revision. The Hargrove report contains a material misstatement. Therefore, the Hargrove report was returned to its author for revision.",
+    "stem": "The conclusion follows logically if which one of the following is assumed?",
+    "choices": {
+      "A": "Any report that the auditors do not flag is free of material misstatements.",
+      "B": "Any report that the auditors flag contains a material misstatement.",
+      "C": "Any report that is free of material misstatements goes unflagged by the auditors.",
+      "D": "Some reports returned to their authors for revision were not flagged by the auditors.",
+      "E": "Every report returned to its author for revision contains a material misstatement."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. This is the contrapositive of 'misstatement leads to flagged'. With the first premise it gives misstatement, flagged, returned for revision.",
+      "B": "Reversal. It says a flag implies a misstatement, which does not tell us that a report with a misstatement gets flagged.",
+      "C": "Denying the sufficient condition. It says no misstatement leads to no flag, which is the inverse of what is needed and gives nothing about a report that has a misstatement.",
+      "D": "True but irrelevant. Reports returned without a flag are consistent with the argument but do not connect the Hargrove misstatement to a flag.",
+      "E": "Reversal. It runs the final link backward, from revision to misstatement, so a misstatement still never reaches revision."
+    },
+    "trapPatterns": {
+      "B": "reversal",
+      "C": "necessary_v_sufficient",
+      "D": "true_but_irrelevant",
+      "E": "reversal"
+    },
+    "keyTakeaway": "The missing link in a conditional chain is the arrow from the given fact to the start of the stated rule, and it may be worded as a contrapositive.",
+    "predictionHint": "Misstatement leads to flagged; look for that or its contrapositive.",
+    "section": "LR",
+    "logicTags": [
+      "conditional"
+    ]
+  },
+  {
+    "id": "lr-t1-mbt-archive-escort",
+    "type": "must_be_true",
+    "difficulty": 1,
+    "stimulus": "The Ferndale Museum's posted rules state that no visitor may enter the archive room without a staff escort. This afternoon the museum's guards report that every rule was obeyed by every visitor. Marisol, a visitor, spent part of the afternoon in the archive room.",
+    "stem": "If the statements above are true, which one of the following must also be true?",
+    "choices": {
+      "A": "Marisol is a member of the museum's staff.",
+      "B": "Every visitor who has a staff escort spent time in the archive room.",
+      "C": "Marisol entered the archive room with a staff escort.",
+      "D": "Marisol was not escorted by any staff member.",
+      "E": "Every visitor to the museum this afternoon had a staff escort."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Out of scope. The rule governs visitors, and Marisol is described as one.",
+      "B": "Reversal. An escort is necessary for entering the archive room, not enough to ensure a visit there.",
+      "C": "Correct. 'No entry without an escort' means entering leads to escort. Marisol entered and the rules were obeyed, so she had one.",
+      "D": "Opposite. It contradicts the rule being obeyed.",
+      "E": "Extreme. The rule concerns the archive room only; visitors elsewhere in the museum are unaffected."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "reversal",
+      "D": "opposite",
+      "E": "extreme"
+    },
+    "keyTakeaway": "'No X without Y' means X requires Y; if X happened, Y happened.",
+    "predictionHint": "Entered the archive room, so she had an escort.",
+    "section": "LR",
+    "logicTags": [
+      "conditional"
+    ]
+  },
+  {
+    "id": "lr-t1-mbf-vault-key",
+    "type": "must_be_false",
+    "difficulty": 4,
+    "stimulus": "At the Aldergate cooperative, the only members who hold a vault key are members who have passed the security briefing. Only members who hold a vault key lead the weekend session. The cooperative has forty members, and its practices follow its bylaws without exception.",
+    "stem": "If the statements above are true, which one of the following CANNOT be true?",
+    "choices": {
+      "A": "Some member who has passed the security briefing does not hold a vault key.",
+      "B": "Some member who holds a vault key does not lead the weekend session.",
+      "C": "No member who has passed the security briefing leads the weekend session.",
+      "D": "Some member who leads the weekend session has not passed the security briefing.",
+      "E": "Some member who has not passed the security briefing does not hold a vault key."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Reversal trap, and it can be true. Passing the briefing is necessary for a key, not sufficient, so briefed members without keys are possible.",
+      "B": "Reversal trap, and it can be true. Holding a key is required to lead, but nothing says every key holder leads.",
+      "C": "Extreme, but it can be true. The rules do not require that anyone who passed the briefing leads, so it is possible that none of them does.",
+      "D": "Correct. Leading requires a key, and a key requires passing the briefing. A leader who has not passed would violate the chain, so this cannot be true.",
+      "E": "Can be true, and is in fact what the rule predicts for any member who has not passed. It is a statement the rules permit, so it is not the one that cannot be true."
+    },
+    "trapPatterns": {
+      "A": "reversal",
+      "B": "reversal",
+      "C": "extreme",
+      "E": "true_but_irrelevant"
+    },
+    "keyTakeaway": "'The only X are Y' and 'only X do Z' both put the necessary condition after the word; the statement that cannot be true is the one that violates a necessary condition.",
+    "predictionHint": "Lead, key, briefing: anyone leading without the briefing breaks the chain.",
+    "section": "LR",
+    "logicTags": [
+      "conditional"
+    ]
+  },
+  {
+    "id": "lr-t1-inf-kestrel-forecast",
+    "type": "inference",
+    "difficulty": 4,
+    "stimulus": "Unless the forecast fails to call for clear skies, the Kestrel Orchestra holds its summer concert on the lawn rather than in the hall. Last July the orchestra held its summer concert in the hall, and its staff did so in accordance with its standing policy.",
+    "stem": "Which one of the following can be properly inferred from the statements above?",
+    "choices": {
+      "A": "The forecast for last July's concert failed to call for clear skies.",
+      "B": "The forecast for last July's concert called for rain.",
+      "C": "Whenever the forecast fails to call for clear skies, the orchestra holds its summer concert in the hall.",
+      "D": "The forecast for last July's concert called for clear skies, but the orchestra moved the concert indoors anyway.",
+      "E": "The orchestra holds its summer concert on the lawn only when the forecast calls for clear skies."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. 'Unless the forecast fails to call for clear skies' means: if it does call for clear skies, the concert is on the lawn. The concert was in the hall, so the forecast did not call for clear skies.",
+      "B": "Extreme. A forecast that fails to call for clear skies need not call for rain; it could say cloud or wind.",
+      "C": "Denying the sufficient condition. The policy states what a clear-sky forecast produces, not what happens when the forecast is not clear.",
+      "D": "Opposite. A clear-sky forecast leads to a lawn concert, and the staff followed policy, so the concert would not have been moved.",
+      "E": "Reversal. The policy makes a clear forecast sufficient for the lawn, not necessary; the lawn could be used in other circumstances."
+    },
+    "trapPatterns": {
+      "B": "extreme",
+      "C": "necessary_v_sufficient",
+      "D": "opposite",
+      "E": "reversal"
+    },
+    "keyTakeaway": "'Unless' puts the negation of its clause on the sufficient side; if that clause is itself negative, the two negatives cancel.",
+    "predictionHint": "Clear skies called for, so lawn. In the hall, so clear skies were not called for.",
+    "section": "LR",
+    "logicTags": [
+      "conditional"
+    ]
+  },
+  {
+    "id": "lr-t2-pf-spelling-wordlist",
+    "section": "LR",
+    "type": "parallel_flaw",
+    "logicTags": [
+      "conditional"
+    ],
+    "difficulty": 1,
+    "stimulus": "Every candidate who wins the regional spelling contest has studied the official word list. Tomás has studied the official word list. Therefore, Tomás will win the regional spelling contest.",
+    "stem": "The flawed reasoning in which one of the following is most similar to that in the argument above?",
+    "choices": {
+      "A": "Anyone who completes the marathon course receives a finisher's medal. Priya completed the marathon course. Therefore, Priya received a finisher's medal.",
+      "B": "Every musician who earns a seat in the symphony practices daily. Lena practices daily. Therefore, Lena will earn a seat in the symphony.",
+      "C": "Every tenant who pays rent late is charged a fee. Wen did not pay rent late. Therefore, Wen was not charged a fee.",
+      "D": "Every hiker who reaches the summit carries a permit. Jonas does not carry a permit. Therefore, Jonas did not reach the summit.",
+      "E": "Three of the shops on Elm Street sold out of umbrellas on Monday. Therefore, most shops in the city sold out of umbrellas on Monday."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Opposite: this argument starts from the sufficient condition (completing the course) and concludes the necessary result (the medal). That is valid, so it cannot parallel a flawed argument.",
+      "B": "Correct. The original runs Win -> Studied; Studied; therefore Win, treating a requirement as a guarantee. This choice runs Seat -> Practices; Practices; therefore Seat, with the same reversal and the same certain, predictive conclusion.",
+      "C": "Half right: it is also a conditional error, but it denies the sufficient condition (Late -> Fee; not Late; so no Fee). The original affirms the necessary condition, a different direction of error.",
+      "D": "Opposite: Summit -> Permit; no Permit; so no Summit is a valid contrapositive. A valid argument cannot share the original's flaw.",
+      "E": "Wrong part: the flaw here is generalizing from a small sample, not a conditional error. It has no rule of the form 'every X has Y' at all."
+    },
+    "trapPatterns": {
+      "A": "opposite",
+      "C": "half_right",
+      "D": "opposite",
+      "E": "wrong_part"
+    },
+    "keyTakeaway": "In Parallel Flaw, diagram the original's error and its direction, then keep only the choice that makes the same move.",
+    "predictionHint": "Winners all did X; this person did X; so this person will win. Match that reversal."
+  },
+  {
+    "id": "lr-t2-pf-fellowship-deadline",
+    "section": "LR",
+    "type": "parallel_flaw",
+    "logicTags": [
+      "conditional"
+    ],
+    "difficulty": 1,
+    "stimulus": "Every applicant who submits the form by the deadline is considered for the fellowship. Raúl did not submit the form by the deadline. Therefore, Raúl is not considered for the fellowship.",
+    "stem": "The flawed reasoning in which one of the following is most similar to that in the argument above?",
+    "choices": {
+      "A": "Every shipment that contains lithium is inspected at the border. The crate from Oslo was inspected at the border. Therefore, the crate from Oslo contains lithium.",
+      "B": "Every pilot who flies the northern route carries extra fuel. Hana carries no extra fuel. Therefore, Hana does not fly the northern route.",
+      "C": "No intern is allowed in the laboratory without supervision. Dev is an intern. Therefore, Dev is not allowed in the laboratory without supervision.",
+      "D": "Any vehicle that exceeds the posted weight limit is turned away at the bridge. The truck ahead of us does not exceed the posted weight limit. Therefore, the truck will not be turned away at the bridge.",
+      "E": "Neighborhoods with more coffee shops have higher home prices. Therefore, opening more coffee shops raises the price of homes in a neighborhood."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Half right: also a conditional error, but it affirms the necessary result (inspected, so lithium). The original denies the sufficient condition, which is the opposite move.",
+      "B": "Opposite: Northern -> Fuel; no Fuel; so no Northern is a valid contrapositive. Valid reasoning cannot parallel a flaw.",
+      "C": "Opposite: a universal rule plus a member of the group, concluding the rule applies. That is valid.",
+      "D": "Correct. The original runs Submit -> Considered; not Submit; so not Considered. This runs Exceeds -> Turned away; not Exceeds; so not Turned away. Both deny the sufficient condition and conclude the result will not occur.",
+      "E": "Wrong part: this is a correlation-to-cause flaw with no conditional rule in it."
+    },
+    "trapPatterns": {
+      "A": "half_right",
+      "B": "opposite",
+      "C": "opposite",
+      "E": "wrong_part"
+    },
+    "keyTakeaway": "Denying the sufficient condition ('not A, so not B') and affirming the necessary one ('B, so A') are different errors; match the direction.",
+    "predictionHint": "Rule A -> B, then 'not A, so not B.' Look for the same move."
+  },
+  {
+    "id": "lr-t2-pf-gym-sample",
+    "section": "LR",
+    "type": "parallel_flaw",
+    "logicTags": [
+      "sampling"
+    ],
+    "difficulty": 1,
+    "stimulus": "I asked the first twelve people who left the downtown fitness center on Saturday morning whether they enjoy vigorous exercise, and eleven said they do. Therefore, most residents of the city enjoy vigorous exercise.",
+    "stem": "The flawed reasoning in which one of the following is most similar to that in the argument above?",
+    "choices": {
+      "A": "The first ten shoppers leaving the organic market on Sunday said they prefer locally grown produce. Therefore, most people in the region prefer locally grown produce.",
+      "B": "A polling firm phoned 1,500 households chosen at random from the county's records, and 62 percent said they support the transit bond. Therefore, a majority of county households probably support the bond.",
+      "C": "Towns in the valley with more public libraries have higher average test scores. Therefore, building libraries is what raises a town's test scores.",
+      "D": "Each of the five committee members is a skilled negotiator. Therefore, the committee as a whole will negotiate skillfully.",
+      "E": "Everyone who wins the raffle holds a ticket. Sana holds a ticket. Therefore, Sana will win the raffle."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. Both argue about a whole population from people met at one place that favors the trait (an organic market, a fitness center). The sample is unrepresentative, and the conclusion is the same 'most' claim.",
+      "B": "Opposite: households chosen at random from the county's records form a representative sample, so the inference is reasonable. A sound argument cannot share the original's flaw.",
+      "C": "Wrong part: this confuses correlation with cause. It is not a sampling error.",
+      "D": "Wrong part: this assumes that what is true of each part is true of the whole. It involves no sample.",
+      "E": "Wrong part: this is a conditional error (affirming the necessary condition), not a sampling error."
+    },
+    "trapPatterns": {
+      "B": "opposite",
+      "C": "wrong_part",
+      "D": "wrong_part",
+      "E": "wrong_part"
+    },
+    "keyTakeaway": "A sample drawn from a place that selects for the trait cannot support a claim about the whole population.",
+    "predictionHint": "Unrepresentative handful of people, stretched to 'most people overall.'"
+  },
+  {
+    "id": "lr-t2-pf-engineers-team",
+    "section": "LR",
+    "type": "parallel_flaw",
+    "logicTags": [
+      "part_v_whole"
+    ],
+    "difficulty": 1,
+    "stimulus": "Each of the engineers on the Delta Bridge project is the most experienced in her specialty in the state. Therefore, the Delta Bridge engineering team must be the most experienced engineering team in the state.",
+    "stem": "The flawed reasoning in which one of the following is most similar to that in the argument above?",
+    "choices": {
+      "A": "Two of the cheeses sampled from the dairy's latest batch were sharper than the label advertises. Therefore, the dairy's cheese is generally sharper than advertised.",
+      "B": "Every orchard that is certified organic avoids synthetic pesticides. Greenfield Orchard is not certified organic. Therefore, Greenfield Orchard uses synthetic pesticides.",
+      "C": "Households that own more books tend to have children with larger vocabularies. So owning more books gives children larger vocabularies.",
+      "D": "Every goalkeeper on the team is over six feet tall. Marek is a goalkeeper on the team. Therefore, Marek is over six feet tall.",
+      "E": "Each of the dancers in the Aldous Company is the finest in the region at her style. Therefore, the Aldous Company must be the finest dance company in the region."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Wrong part: this generalizes from two samples to the whole batch. It does not move from members to a group.",
+      "B": "Half right: it is a flawed argument, but the flaw is denying the sufficient condition of a conditional. Nothing here concerns members versus a group.",
+      "C": "Wrong part: this takes a correlation to show cause, a different flaw.",
+      "D": "Opposite: a rule about every goalkeeper applied to one goalkeeper is valid.",
+      "E": "Correct. Each member of the group has a superlative quality, and the argument concludes the group has it too. That is the same part-to-whole error, with the same 'must be' conclusion."
+    },
+    "trapPatterns": {
+      "A": "wrong_part",
+      "B": "half_right",
+      "C": "wrong_part",
+      "D": "opposite"
+    },
+    "keyTakeaway": "Being the best at each part does not make the whole the best; a group can be more than, or less than, the sum of its members.",
+    "predictionHint": "Every member is the best, so the group is the best."
+  },
+  {
+    "id": "lr-t2-pf-finals-regional",
+    "section": "LR",
+    "type": "parallel_flaw",
+    "logicTags": [
+      "conditional"
+    ],
+    "difficulty": 2,
+    "stimulus": "A team advances to the national finals only if it wins its regional round. The Ridgemont Rockets won their regional round. Therefore, the Rockets will advance to the national finals.",
+    "stem": "The flawed reasoning in which one of the following is most similar to that in the argument above?",
+    "choices": {
+      "A": "A student may enroll in the advanced seminar only if she has completed the prerequisite course. Keiko has not completed the prerequisite course. Therefore, Keiko may not enroll in the advanced seminar.",
+      "B": "A flight is cleared for departure only if its crew has been certified by the medical office. The crew of Flight 214 has been certified by the medical office. Therefore, Flight 214 will probably be cleared for departure.",
+      "C": "A restaurant is permitted to reopen only if it passes a health inspection. The Alder Street Café passed its health inspection. Therefore, the Alder Street Café will be permitted to reopen.",
+      "D": "A contractor is hired for the project only if she is licensed. Mei was not hired for the project. Therefore, Mei is not licensed.",
+      "E": "The two apartments I toured in the Fairview building both had broken heaters. Therefore, most apartments in the Fairview building have broken heaters."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Opposite: Enroll -> Prerequisite; no Prerequisite; so no Enroll is a valid contrapositive of an 'only if' rule.",
+      "B": "Half right: it makes the same error (a necessary condition met, so the outcome follows), but it hedges with 'probably' where the original's conclusion is stated flatly. The matching conclusion type is in C.",
+      "C": "Correct. 'Only if' marks a necessary condition: Advance -> Win. The original treats the met requirement as enough to guarantee the outcome. This choice has Reopen -> Pass inspection, the same move, and the same flat prediction.",
+      "D": "Half right: it is a conditional error, but a different one. Hired -> Licensed, not Hired, so not Licensed denies the sufficient condition; the original affirms the necessary one.",
+      "E": "Wrong part: the flaw is an unrepresentative sample, not a conditional error."
+    },
+    "trapPatterns": {
+      "A": "opposite",
+      "B": "half_right",
+      "D": "half_right",
+      "E": "wrong_part"
+    },
+    "keyTakeaway": "'Only if' gives a requirement, not a guarantee; match the direction of the error, then the strength of the conclusion.",
+    "predictionHint": "Requirement met, so outcome certain, in an 'only if' frame."
+  },
+  {
+    "id": "lr-t2-pm-ferry-ice",
+    "section": "LR",
+    "type": "parallel_method",
+    "logicTags": [
+      "conditional"
+    ],
+    "difficulty": 1,
+    "stimulus": "The ferry runs only if the harbor is clear of ice. The harbor is not clear of ice today. Therefore, the ferry is not running today.",
+    "stem": "The pattern of reasoning in which one of the following is most similar to that in the argument above?",
+    "choices": {
+      "A": "The bridge is closed only if there is flooding upstream. There is flooding upstream today. Therefore, the bridge is closed today.",
+      "B": "The pool opens only if a lifeguard is on duty. The pool is not open today. Therefore, no lifeguard is on duty today.",
+      "C": "All of the museum's guides are certified. All certified guides know first aid. Therefore, all of the museum's guides know first aid.",
+      "D": "Both of the buses I happened to take this week during the busy morning commute were late. Therefore, most buses in the city run late on weekday mornings and evenings.",
+      "E": "Dried beans are safe to eat only if they have been boiled thoroughly. These beans have not been boiled thoroughly. Therefore, these beans are not safe to eat."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Necessary v. sufficient: the original denies the necessary condition; this one affirms it (flooding, so closed) and wrongly draws a conclusion. It is invalid.",
+      "B": "Reversal: this denies the sufficient condition (not open, so no lifeguard). The original denies the necessary condition and concludes the sufficient one fails, which is valid.",
+      "C": "Opposite structure: a chain of two universal rules is valid but has no 'only if' and no negative premise or conclusion.",
+      "D": "Wrong part: this generalizes from a small sample. It has no conditional rule.",
+      "E": "Correct. Ferry -> Clear; not Clear; so not Ferry. This runs Safe -> Boiled; not Boiled; so not Safe. Both deny the necessary condition and validly conclude the outcome fails."
+    },
+    "trapPatterns": {
+      "A": "necessary_v_sufficient",
+      "B": "reversal",
+      "C": "opposite",
+      "D": "wrong_part"
+    },
+    "keyTakeaway": "In a valid 'only if' argument, failing the requirement proves the outcome fails.",
+    "predictionHint": "X only if Y; not Y; so not X."
+  },
+  {
+    "id": "lr-t2-pm-welders-vision",
+    "section": "LR",
+    "type": "parallel_method",
+    "logicTags": [
+      "quantifiers"
+    ],
+    "difficulty": 1,
+    "stimulus": "Every certified welder at the shipyard has passed a vision test. Some of the shipyard's employees are certified welders. Therefore, some of the shipyard's employees have passed a vision test.",
+    "stem": "The pattern of reasoning in which one of the following is most similar to that in the argument above?",
+    "choices": {
+      "A": "Some of the nurses on the ward are trained in pediatrics. Some people trained in pediatrics work nights. Therefore, some of the nurses work nights.",
+      "B": "All of the licensed pilots in the club have logged night-flying hours. Some of the club's members are licensed pilots. Therefore, some of the club's members have logged night-flying hours.",
+      "C": "Every lighthouse keeper on the coast is trained in signaling. Everyone trained in signaling can read semaphore. Therefore, every lighthouse keeper on the coast can read semaphore.",
+      "D": "Most of the orchestra's players are string players. Every string player has been tested for hearing loss. Therefore, most of the orchestra's players have been tested for hearing loss.",
+      "E": "Every economist at the firm reads the quarterly report. Every analyst at the firm reads the quarterly report. Therefore, some economists at the firm are analysts."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Wrong part: two 'some' premises do not combine; the overlap may be empty. The original has one universal premise, which is what makes it valid.",
+      "B": "Correct. All Pilots -> Hours; some Members are Pilots; so some Members have Hours. One universal rule plus one 'some' premise gives a 'some' conclusion, exactly as in the original.",
+      "C": "Half right: valid, but it chains two universal rules and concludes with 'every.' The original has a 'some' premise and a 'some' conclusion.",
+      "D": "Half right: valid, but its premise and conclusion use 'most.' The original's quantifier is 'some.'",
+      "E": "Shell game: two groups sharing a trait are assumed to overlap with each other. That is invalid, and the original is valid."
+    },
+    "trapPatterns": {
+      "A": "wrong_part",
+      "C": "half_right",
+      "D": "half_right",
+      "E": "shell_game"
+    },
+    "keyTakeaway": "Match the quantifiers: one 'all' premise plus one 'some' premise yields 'some,' and the conclusion's quantifier must match too.",
+    "predictionHint": "All B are C. Some A are B. So some A are C."
+  },
+  {
+    "id": "lr-t2-pm-yeast-oven",
+    "section": "LR",
+    "type": "parallel_method",
+    "logicTags": [
+      "eliminating_options"
+    ],
+    "difficulty": 1,
+    "stimulus": "The shipment was delayed either by customs or by the carrier. Customs records show that the shipment cleared on schedule. Therefore, the carrier delayed the shipment.",
+    "stem": "The pattern of reasoning in which one of the following is most similar to that in the argument above?",
+    "choices": {
+      "A": "The widespread outage on Elm Avenue last night was caused either by the storm or by a failed transformer. Inspectors confirmed that the transformer had indeed failed. Therefore, the storm did not cause the outage.",
+      "B": "If the sensor had failed, the alarm would have sounded. The alarm did not sound. Therefore, the sensor did not fail.",
+      "C": "The loaf failed to rise because of either the oven temperature or the yeast. The oven thermometer showed that the temperature was correct. Therefore, the yeast caused the loaf to fail to rise.",
+      "D": "The signal interference comes from the radar, the tower, or the substation. Engineers cleared the radar. Therefore, the interference comes from the tower or the substation.",
+      "E": "The painting is either a forgery or a lost original. Experts could not prove that it is a forgery. Therefore, it is a lost original."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Half right: it starts from two possible causes, but it confirms one and concludes the other is ruled out. The original rules one out and confirms the other.",
+      "B": "Wrong part: this is a conditional argument. It is valid but has no list of alternatives to eliminate.",
+      "C": "Correct. Two possible causes; one is eliminated; the other is concluded. Customs or Carrier; not Customs; so Carrier. This choice has Temperature or Yeast; not Temperature; so Yeast.",
+      "D": "Half right: it eliminates one of three options but concludes only that one of the remaining two is the cause. The original narrows two options to one.",
+      "E": "Wrong force: 'could not prove' is not the same as ruling out. The original's second premise is that customs cleared the shipment, a definite elimination."
+    },
+    "trapPatterns": {
+      "A": "half_right",
+      "B": "shell_game",
+      "D": "half_right",
+      "E": "wrong_force"
+    },
+    "keyTakeaway": "Eliminating options only works when the other option is actually ruled out, not merely unproven.",
+    "predictionHint": "Either X or Y; not X; so Y."
+  },
+  {
+    "id": "lr-t2-pm-proposals-audit",
+    "section": "LR",
+    "type": "parallel_method",
+    "logicTags": [
+      "conditional",
+      "quantifiers"
+    ],
+    "difficulty": 2,
+    "stimulus": "Every proposal that includes a revenue forecast is subject to external audit. None of the proposals the board has approved is subject to external audit. Therefore, none of the proposals the board has approved includes a revenue forecast.",
+    "stem": "The pattern of reasoning in which one of the following is most similar to that in the argument above?",
+    "choices": {
+      "A": "Every ship carrying hazardous cargo is subject to inspection at port. None of the ships in the northern fleet is subject to inspection at port. Therefore, none of the ships in the northern fleet carries hazardous cargo.",
+      "B": "None of the novels on the course syllabus is a work of nonfiction. None of the works of nonfiction in the library collection was written before 1900. Therefore, none of the novels on the syllabus was written before 1900.",
+      "C": "Some of the volunteers are lifeguards. No lifeguard is under sixteen. Therefore, some of the volunteers are not under sixteen.",
+      "D": "Every course in the honors track requires a thesis. Every course that requires a thesis carries four credits. Therefore, every course in the honors track carries four credits.",
+      "E": "None of the pilots in the training group has flown solo. Some of the instructors have flown solo. Therefore, none of the instructors is in the training group."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. Forecast -> Audit; the board's proposals -> not Audit; so the board's proposals -> not Forecast. This choice has Hazardous -> Inspection; the northern fleet -> not Inspection; so the northern fleet -> not Hazardous. Same valid contrapositive chain, same 'none' conclusion.",
+      "B": "Shell game: two 'none' premises do not combine. Novels and nonfiction share nothing, but that says nothing about novels and pre-1900 works. It is invalid.",
+      "C": "Half right: valid, but one premise is 'some' and the conclusion is 'some are not.' The original is entirely universal, with a 'none' conclusion.",
+      "D": "Wrong part: valid, but it chains two positive universal rules to a positive conclusion. It has no negative premise and no negative conclusion.",
+      "E": "Extreme: the premises support only that some instructors are not in the training group. 'None' overreaches, so the argument is invalid."
+    },
+    "trapPatterns": {
+      "B": "shell_game",
+      "C": "half_right",
+      "D": "wrong_part",
+      "E": "extreme"
+    },
+    "keyTakeaway": "'All X are P' plus 'no Y are P' validly gives 'no Y are X'; check each choice for the same quantifiers and the same negative conclusion.",
+    "predictionHint": "X -> P. Y -> not P. So Y -> not X."
+  },
+  {
+    "id": "lr-t3-mc-orsolo-ledgers",
+    "section": "LR",
+    "type": "main_conclusion",
+    "logicTags": [],
+    "difficulty": 4,
+    "stimulus": "Archivist: The Orsolo ledger fragments show a systematic difference in letter formation between their earlier and later pages. Thus the fragments were probably written by at least two clerks. A household would seldom employ more than one clerk, whereas an institution commonly would. So the fragments were most likely kept by an institution.",
+    "stem": "Which one of the following most accurately expresses the main conclusion of the argument?",
+    "choices": {
+      "A": "The Orsolo ledger fragments were probably written by at least two clerks.",
+      "B": "The Orsolo ledger fragments were kept by an institution.",
+      "C": "A household would seldom employ more than one clerk, whereas an institution commonly would.",
+      "D": "The Orsolo ledger fragments were most likely kept by an institution rather than by a household.",
+      "E": "A systematic difference in letter formation is a reliable sign that a document had more than one author."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "This is the decoy \"thus\" claim: it is supported by the handwriting difference, but it is then used as a premise for the claim about who kept the fragments. It is a sub-conclusion, not the main conclusion.",
+      "B": "Right topic, wrong force. The archivist says \"most likely,\" and this choice drops the hedge and asserts certainty.",
+      "C": "This is the bridging premise that links the number of clerks to the kind of keeper. It supports the conclusion; it is not what the argument is trying to establish.",
+      "D": "Correct. The \"thus\" claim about two clerks is itself supported by the handwriting evidence and then used, with the claim about households and institutions, to reach the final \"so\" sentence. That last claim supports nothing further, and its hedge \"most likely\" is preserved.",
+      "E": "This is an assumption the argument leans on, not something it states, and \"reliable sign\" is stronger than the archivist's \"probably.\" The main conclusion is stated in the text, not implied by it."
+    },
+    "trapPatterns": {
+      "A": "wrong_part",
+      "B": "extreme",
+      "C": "premise_booster",
+      "E": "shell_game"
+    },
+    "keyTakeaway": "A mid-stimulus \"thus\" can mark a sub-conclusion; the main conclusion is the claim that supports nothing further.",
+    "predictionHint": "Follow the chain: handwriting, then two clerks, then institution. The last link is the point."
+  },
+  {
+    "id": "lr-t3-mc-bond-downgrade",
+    "section": "LR",
+    "type": "main_conclusion",
+    "logicTags": [
+      "lack_of_support_v_false"
+    ],
+    "difficulty": 4,
+    "stimulus": "Many commentators read the city's recent bond downgrade as a sign that its finances are collapsing. That reading is mistaken. The downgrade followed a change in the rating agency's methodology, which now penalizes every issuer carrying unfunded pension obligations, and over the same period the city's operating surplus grew in each of three consecutive years. A rating that moves with a methodology change while operating results improve is a poor indicator of an issuer's solvency.",
+    "stem": "Which one of the following most accurately expresses the main conclusion of the argument?",
+    "choices": {
+      "A": "The city's operating surplus grew in each of three consecutive years.",
+      "B": "The city's bond downgrade is not a sign that its finances are collapsing.",
+      "C": "The city's finances are not collapsing.",
+      "D": "Many commentators regard the bond downgrade as a sign that the city's finances are collapsing.",
+      "E": "A rating that shifts when an agency changes its methodology is a poor indicator of an issuer's solvency."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "This is evidence offered against the commentators' reading, not the point of the argument. Because-test: \"The reading is mistaken because the surplus grew\" works; the reverse does not.",
+      "B": "Correct. The author states the position first (\"That reading is mistaken\") and spends the rest of the passage supporting it. The final sentence is a general reason, and the commentators' reading is the view being rejected.",
+      "C": "The argument shows only that the downgrade is a poor indicator of collapse. Undermining the evidence for a claim does not establish that the claim is false; this choice overshoots.",
+      "D": "This is the attributed view the author argues against. The author does not assert it.",
+      "E": "This general claim is offered as a reason for the author's verdict on this city's downgrade. It supports the main conclusion rather than being it."
+    },
+    "trapPatterns": {
+      "A": "wrong_part",
+      "C": "extreme",
+      "D": "opposite",
+      "E": "wrong_part"
+    },
+    "keyTakeaway": "When the conclusion comes first and an opposing view is named, the conclusion rejects that view; match its exact scope, not a stronger one.",
+    "predictionHint": "The downgrade is not good evidence of collapse; the author does not claim the finances are fine."
+  },
+  {
+    "id": "lr-t3-mc-replanted-stands",
+    "section": "LR",
+    "type": "main_conclusion",
+    "logicTags": [],
+    "difficulty": 4,
+    "stimulus": "Naturalist: It is true that the replanted stands on the cleared slopes are less diverse than the forests they replaced. But diversity is only a proxy for what we actually care about, which is whether a stand performs the functions of its predecessor: holding soil, filtering runoff, and sheltering native wildlife. Monitoring shows that every replanted stand more than ten years old performs all three. Hence the stands' lower diversity is no reason to count the replanting program a failure.",
+    "stem": "Which one of the following most accurately expresses the main conclusion of the argument?",
+    "choices": {
+      "A": "The replanted stands are less diverse than the forests they replaced.",
+      "B": "The replanting program has succeeded in restoring the ecological functions of the original forests.",
+      "C": "Diversity is only a proxy for whether a stand performs the functions of its predecessor.",
+      "D": "Every replanted stand more than ten years old performs the functions of holding soil, filtering runoff, and sheltering native wildlife.",
+      "E": "The lower diversity of the replanted stands gives no reason to regard the replanting program as a failure."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "This is the concession (\"It is true that\"). The naturalist grants it and then argues it does not matter; it is not the point being defended.",
+      "B": "The monitoring covers only stands more than ten years old, and the conclusion is that low diversity is no reason to call the program a failure. Declaring a success is a stronger claim than the author makes.",
+      "C": "This is a premise: it explains why low diversity is not the relevant measure. It supports the conclusion without being it.",
+      "D": "This is the monitoring evidence. Because-test: \"The low diversity is no reason to call it a failure because the stands perform these functions\" reads naturally; reversed, it does not.",
+      "E": "Correct. The opening concession grants the lower diversity, and the rest of the passage explains why that fact does not count against the program. \"Hence\" flags the claim the evidence supports and that supports nothing further."
+    },
+    "trapPatterns": {
+      "A": "wrong_part",
+      "B": "extreme",
+      "C": "premise_booster",
+      "D": "wrong_part"
+    },
+    "keyTakeaway": "A concession is granted and then answered; the main conclusion is what the author says follows despite it.",
+    "predictionHint": "Low diversity does not count against the program; do not upgrade that to \"the program succeeded.\""
+  },
+  {
+    "id": "lr-t3-mc-poetry-translation",
+    "section": "LR",
+    "type": "main_conclusion",
+    "logicTags": [
+      "analogy"
+    ],
+    "difficulty": 4,
+    "stimulus": "Critic: Some say that translating poetry is pointless because a translated poem inevitably loses the sound patterns of the original. But no one regards performing a piano transcription of an orchestral work as pointless on the grounds that it loses the orchestra's timbres. A transcription preserves a work's structure, and a translated poem preserves much of its imagery and argument. The loss of sound patterns, then, is no reason to consider the translation of poetry pointless.",
+    "stem": "Which one of the following most accurately expresses the main conclusion of the argument?",
+    "choices": {
+      "A": "The inevitable loss of a poem's sound patterns in translation gives no reason to regard translating poetry as pointless.",
+      "B": "Translating poetry is a worthwhile activity.",
+      "C": "A translated poem preserves much of the imagery and argument of the original, even though its sound patterns are lost.",
+      "D": "Translating poetry is pointless because translations lose the sound patterns of the original.",
+      "E": "Piano transcriptions of orchestral works are not pointless even though they lose the orchestra's timbres."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. The critic answers a specific objection and ends by saying that objection is \"no reason.\" The analogy and the claim about what survives translation are both offered in support of that verdict.",
+      "B": "The critic shows that one objection fails; this does not establish that translation is worthwhile. The claim goes beyond the scope of the conclusion.",
+      "C": "This is a premise about what survives translation, used to support the verdict on the objection.",
+      "D": "This is the view of \"some\" that the critic is arguing against.",
+      "E": "This is the analogical premise. It is used to support the conclusion about poetry, which is the real subject of the argument."
+    },
+    "trapPatterns": {
+      "B": "extreme",
+      "C": "wrong_part",
+      "D": "opposite",
+      "E": "wrong_part"
+    },
+    "keyTakeaway": "Keep the conclusion at the author's scope: \"this objection gives no reason\" is weaker than \"the opposite is true.\"",
+    "predictionHint": "The loss of sound patterns is not a good reason to call poetry translation pointless."
+  },
+  {
+    "id": "lr-t3-flaw-sleep-certain",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "quantifiers",
+      "part_v_whole"
+    ],
+    "difficulty": 3,
+    "stimulus": "Sleep researcher: In each of the nine experiments we reviewed, the participants who slept at least eight hours before a memory test scored higher, on average, than the participants who slept less. Since the result was the same every time, it is certain that anyone who sleeps at least eight hours before a memory test will outperform anyone who sleeps less.",
+    "stem": "The reasoning in the argument is most vulnerable to criticism on the grounds that it",
+    "choices": {
+      "A": "relies on nine experiments, a number too small to support any generalization about sleep",
+      "B": "assumes that eight hours is the best amount of sleep for improving memory performance",
+      "C": "draws a conclusion of certainty about every individual from evidence that supports, at most, a tendency among groups",
+      "D": "overlooks the possibility that participants who slept less did so because of stress that also impaired their memory",
+      "E": "takes for granted that all nine experiments used the same memory test"
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Nine consistent experiments can support a tendency; \"any generalization\" is an overstatement. The real problem is the strength of the conclusion, not the count.",
+      "B": "The conclusion compares those who slept at least eight hours with those who slept less. It never claims eight is the best amount.",
+      "C": "Correct. The evidence concerns group averages, and it makes a general tendency likely. The conclusion says \"certain\" and covers \"anyone\" compared with \"anyone,\" which is far stronger than what the premises can deliver.",
+      "D": "The conclusion is a prediction about who will score higher, not a claim about what causes the difference, so this alternative cause does not explain why the argument fails.",
+      "E": "The argument needs only that each experiment found the same direction of result. Nothing in it depends on the tests being identical."
+    },
+    "trapPatterns": {
+      "A": "extreme",
+      "B": "shell_game",
+      "D": "true_but_irrelevant",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "Check the force of the conclusion against the force of the premises; \"certain\" and \"anyone\" cannot come from averages.",
+    "predictionHint": "Group averages, then a certainty claim about every individual."
+  },
+  {
+    "id": "lr-t3-mss-library-hours",
+    "section": "LR",
+    "type": "most_strongly_supported",
+    "logicTags": [
+      "conditional"
+    ],
+    "difficulty": 3,
+    "stimulus": "In an audit of the Hallam Library system's twelve branches, auditors found that every branch that extended its weekend hours saw its membership increase, and that no branch that left its weekend hours unchanged saw its membership increase. The audit also found that at exactly one branch, membership decreased.",
+    "stem": "Which one of the following is most strongly supported by the information above?",
+    "choices": {
+      "A": "The branch at which membership decreased did not extend its weekend hours.",
+      "B": "Extending weekend hours is an effective way for a branch to increase its membership.",
+      "C": "The branch at which membership decreased left its weekend hours unchanged.",
+      "D": "At least one of the twelve branches extended its weekend hours.",
+      "E": "Every branch that saw its membership increase had extended its weekend hours."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. Every branch that extended its hours saw membership increase. A branch whose membership decreased did not increase, so it cannot be one that extended its hours. This follows from the facts with certainty.",
+      "B": "The audit reports an association among branches; it says nothing about cause. A claim can be plausible in the world and still be unsupported by the information given.",
+      "C": "The branch did not extend its hours, but it could have shortened them. \"Left unchanged\" is one of two possibilities, so it is not supported.",
+      "D": "\"Every branch that extended\" is true even if none did. The statements do not guarantee that any branch extended its hours.",
+      "E": "This reverses the conditional. A branch that shortened its hours is not covered by the findings, so an increase does not guarantee an extension."
+    },
+    "trapPatterns": {
+      "B": "extreme",
+      "C": "half_right",
+      "D": "wrong_force",
+      "E": "reversal"
+    },
+    "keyTakeaway": "Contrapositives are safe, converses are not; and \"true in the world\" is not the same as \"supported by the passage.\"",
+    "predictionHint": "Extended hours leads to an increase; a decrease therefore rules out extended hours, but not unchanged hours."
+  },
+  {
+    "id": "lr-t3-flaw-reform-most-most",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "quantifiers"
+    ],
+    "difficulty": 4,
+    "stimulus": "Editorial: Most of the economists who reviewed the proposed pension reform judge it to be financially sustainable. Most of those same economists judge it to be fair to younger workers. It follows that most of the economists who reviewed the reform judge it to be both financially sustainable and fair to younger workers.",
+    "stem": "The reasoning in the argument is most vulnerable to criticism on the grounds that it",
+    "choices": {
+      "A": "infers that every reviewer holds both judgments from the premise that most reviewers hold each judgment",
+      "B": "treats the judgments of the reviewing economists as sufficient to establish that the reform is actually both sustainable and fair to younger workers",
+      "C": "overlooks the possibility that some reviewers judge the reform to be neither sustainable nor fair",
+      "D": "infers that at least some reviewers hold both judgments from the premise that most reviewers hold each judgment",
+      "E": "infers that most of a group hold two judgments together from the premise that most hold each separately"
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "The conclusion is about \"most,\" not \"every.\" This describes a different, stronger inference than the one made.",
+      "B": "The conclusion reports what the economists judge, not whether the reform actually is sustainable and fair, so no such leap is made.",
+      "C": "That possibility is compatible with both premises and does not bear on whether \"most\" hold the two judgments together.",
+      "D": "That inference would be valid, since two majorities of one group must overlap, and it is not what the editorial does. The editorial concludes \"most,\" not \"some.\"",
+      "E": "Correct. Two majorities must overlap, which guarantees only that some reviewers hold both judgments. The editorial concludes that most do, which is stronger than \"most\" plus \"most\" can support, since the two majorities may largely miss each other."
+    },
+    "trapPatterns": {
+      "A": "extreme",
+      "B": "shell_game",
+      "C": "true_but_irrelevant",
+      "D": "wrong_force"
+    },
+    "keyTakeaway": "\"Most A are B\" plus \"most A are C\" guarantees only that some A are both B and C.",
+    "predictionHint": "Two separate majorities do not add up to a majority holding both views."
+  },
+  {
+    "id": "lr-t3-mss-brenner-manuscripts",
+    "section": "LR",
+    "type": "most_strongly_supported",
+    "logicTags": [
+      "conditional",
+      "quantifiers"
+    ],
+    "difficulty": 4,
+    "stimulus": "The Brenner archive's catalogue records the ink used in every manuscript it holds. Every manuscript in the archive is written in iron-gall ink, carbon ink, or both. All of the archive's carbon-ink manuscripts date from 1700 or later. Most of its iron-gall manuscripts date from before 1700.",
+    "stem": "Which one of the following is most strongly supported by the information above?",
+    "choices": {
+      "A": "Most of the manuscripts held in the Brenner archive, taken as a whole and whatever their ink, date from before 1700.",
+      "B": "Some of the archive's iron-gall manuscripts date from 1700 or later.",
+      "C": "Every manuscript in the archive that dates from before 1700 is written in iron-gall ink.",
+      "D": "The iron-gall manuscripts in the archive are, on average, older than the carbon-ink manuscripts.",
+      "E": "The archive contains fewer carbon-ink manuscripts than iron-gall manuscripts."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "The \"most\" claim covers only the iron-gall manuscripts. The archive could hold many carbon-ink manuscripts, all from 1700 or later, outnumbering the older ones.",
+      "B": "\"Most\" leaves open that all of them predate 1700. Nothing guarantees any exceptions.",
+      "C": "Correct. A manuscript from before 1700 cannot be carbon ink, since all carbon-ink manuscripts are from 1700 or later. Every manuscript uses iron-gall, carbon, or both, so a pre-1700 manuscript must use iron-gall. The \"most\" claim is not needed.",
+      "D": "A majority being older does not fix an average age: a few very recent iron-gall manuscripts could pull the average below that of the carbon-ink ones. \"Most\" is a count, not an average.",
+      "E": "The passage gives no information about the relative numbers of the two kinds of ink."
+    },
+    "trapPatterns": {
+      "A": "shell_game",
+      "B": "wrong_force",
+      "D": "comparison_shift",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "Valid conclusions come from the \"all\" statements; a \"most\" statement is usually bait for a stronger claim.",
+    "predictionHint": "Before 1700 rules out carbon ink; every manuscript has at least one of the two inks."
+  },
+  {
+    "id": "lr-t3-ap-drainage-channel",
+    "section": "LR",
+    "type": "argument_part",
+    "logicTags": [],
+    "difficulty": 3,
+    "stimulus": "Naturalist: Frog numbers in the marsh have halved since the drainage channel was dug, and the losses were concentrated in the ponds nearest the channel. The channel is therefore probably responsible for the decline. Because it was built solely to serve the new housing development, the development's backers should fund restoration of the ponds.",
+    "stem": "The claim that the drainage channel is probably responsible for the decline in frog numbers plays which one of the following roles in the argument?",
+    "choices": {
+      "A": "It is the main conclusion of the argument, supported by the evidence about where the losses of frogs were concentrated in the marsh.",
+      "B": "It is an intermediate conclusion that is supported by evidence and that, together with another claim, supports the main conclusion.",
+      "C": "It is evidence offered in support of the claim that frog numbers in the marsh have halved.",
+      "D": "It is a view held by the development's backers that the argument attempts to refute.",
+      "E": "It is background information that introduces the topic, with nothing offered for or against it."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "The argument does not stop here: the claim is used to support the recommendation that the development's backers fund restoration, which is the main conclusion.",
+      "B": "Correct. The claim follows from the evidence about where the losses were concentrated (\"therefore\"), and it is then used, with the fact that the channel was built for the development, to reach the recommendation about funding.",
+      "C": "This reverses the direction of support. The halving of the frog numbers is the evidence; the claim about the channel is drawn from it.",
+      "D": "Nothing attributes the claim to the backers, and the naturalist asserts it rather than opposing it.",
+      "E": "The claim has support (the loss pattern) and itself supports a further claim, so it is not mere context."
+    },
+    "trapPatterns": {
+      "A": "wrong_part",
+      "C": "reversal",
+      "D": "opposite",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "Ask two questions: is it supported, and does it support something further? Yes to both marks a sub-conclusion.",
+    "predictionHint": "A \"therefore\" claim that is then used again is the hinge of a two-step argument."
+  },
+  {
+    "id": "lr-t3-ap-toll-concession",
+    "section": "LR",
+    "type": "argument_part",
+    "logicTags": [],
+    "difficulty": 4,
+    "stimulus": "Of course, the tolling system will cost the city several million dollars to install, and some commuters will pay more than they do now. But the revenue it raises will fund bus lines that carry more commuters per hour than the highway lanes it charges for. And because those bus riders would otherwise add to the traffic, even drivers who pay tolls end up with faster trips. So the city should adopt the system.",
+    "stem": "The claim that some commuters will pay more than they do now plays which one of the following roles in the argument?",
+    "choices": {
+      "A": "It is evidence offered in direct support of the claim that the city should adopt the system.",
+      "B": "It is a claim that the argument attempts to show is false.",
+      "C": "It is an intermediate conclusion drawn from the claim about the bus lines.",
+      "D": "It is an unfavorable consideration that the argument grants and then argues is outweighed.",
+      "E": "It is background information that the argument neither accepts nor responds to."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "The claim counts against adoption. The argument cites it only to answer it, so it does not support the conclusion.",
+      "B": "The argument never denies it. It concedes the point and argues that other considerations outweigh it, which is different from rebutting it.",
+      "C": "The bus-line claims are offered against this consideration, not as a basis for it. Nothing in the argument derives it.",
+      "D": "Correct. \"Of course\" signals a concession. The argument accepts that some commuters will pay more, and then the \"But\" and \"even drivers who pay tolls\" sentences answer it without denying it.",
+      "E": "The argument responds to it directly: the \"But\" sentence and the \"even drivers who pay tolls\" clause are aimed at it."
+    },
+    "trapPatterns": {
+      "A": "wrong_part",
+      "B": "opposite",
+      "C": "reversal",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "A concession is accepted and then outweighed; a rejected view is denied. The difference is whether the author grants the claim.",
+    "predictionHint": "\"Of course\" followed by \"But\" marks a point granted and then answered."
+  },
+  {
+    "id": "lr-t3-ap-fuel-tax-freight",
+    "section": "LR",
+    "type": "argument_part",
+    "logicTags": [],
+    "difficulty": 4,
+    "stimulus": "Many economists expect the new fuel tax to raise the price of freight. Since higher freight prices push shippers toward rail, the tax is likely to shift cargo from highways to rail. A shift of that kind would reduce highway wear. So the tax will probably bring a benefit that its critics have overlooked.",
+    "stem": "The claim that many economists expect the new fuel tax to raise the price of freight plays which one of the following roles in the argument?",
+    "choices": {
+      "A": "It is a claim that the argument accepts and uses, together with another claim, to support an intermediate conclusion.",
+      "B": "It is a position that the argument as a whole is directed against.",
+      "C": "It is a consideration that the argument grants but then treats as outweighed.",
+      "D": "It is the intermediate conclusion from which the main conclusion is drawn.",
+      "E": "It is evidence offered directly for the claim that the tax will bring a benefit its critics have overlooked."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. The argument builds on the expectation: \"Since higher freight prices push shippers toward rail\" leads to the claim that cargo will shift to rail. That shift is an intermediate step toward the final benefit claim.",
+      "B": "The attribution to \"many economists\" looks like a view to be rejected, but the argument relies on it. The critics who overlooked a benefit are not said to be the economists.",
+      "C": "A concession supports nothing and is answered. This claim is used as a premise in the next step, not answered.",
+      "D": "The intermediate conclusion is the claim that cargo is likely to shift from highways to rail. The economists' expectation is a premise supporting it.",
+      "E": "It supports the shift to rail first, and only through that claim and the claim about highway wear does it bear on the final benefit. \"Directly\" is the word that fails."
+    },
+    "trapPatterns": {
+      "B": "opposite",
+      "C": "half_right",
+      "D": "wrong_part",
+      "E": "wrong_part"
+    },
+    "keyTakeaway": "An attributed view is a premise if the author builds on it, and context only if the author argues against or around it.",
+    "predictionHint": "Does the author use the economists' expectation as a reason, or answer it?"
+  },
+  {
+    "id": "lr-t3-ap-school-closure",
+    "section": "LR",
+    "type": "argument_part",
+    "logicTags": [],
+    "difficulty": 4,
+    "stimulus": "Enrollment at the village school did shrink steadily, and it is tempting to conclude that the shrinkage explains the school's closure. Yet enrollment had been shrinking for a decade while the district kept the school open, and two schools in the district with smaller enrollments remain open today. The closure must instead have been prompted by the school's failed roof inspection last spring.",
+    "stem": "The claim that the shrinkage of enrollment explains the closure of the village school plays which one of the following roles in the argument?",
+    "choices": {
+      "A": "It is the main conclusion of the argument, which the facts about the district's other schools are meant to support.",
+      "B": "It is a consideration that the argument grants as true but treats as outweighed by other factors.",
+      "C": "It is a view that the argument opposes and that the cited facts about the district are used to undermine.",
+      "D": "It is an intermediate conclusion that, together with the history of the district, supports the claim about the roof inspection.",
+      "E": "It is a premise that the argument accepts and uses to support the claim that the roof inspection prompted the closure."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "The facts about the district are used against this claim. The main conclusion is the final sentence about the roof inspection.",
+      "B": "The author grants that enrollment shrank, but not that this explains the closure. The explanation is rejected, not outweighed.",
+      "C": "Correct. The \"Yet\" sentence presents a decade of shrinkage without closure and smaller schools staying open, both aimed against this explanation. The author concludes that a different cause \"instead\" prompted the closure.",
+      "D": "Nothing leads from this claim to the roof inspection; the inspection claim is reached by eliminating this explanation, not by building on it.",
+      "E": "The argument does not accept this explanation. It accepts only that enrollment shrank, which is a different claim from the one in the stem."
+    },
+    "trapPatterns": {
+      "A": "wrong_part",
+      "B": "half_right",
+      "D": "shell_game",
+      "E": "opposite"
+    },
+    "keyTakeaway": "Separate the fact conceded from the explanation rejected; the role of a claim depends on its exact wording.",
+    "predictionHint": "\"Tempting to conclude… Yet…\" introduces a view the author will take apart."
+  },
+  {
+    "id": "lr-t3-mr-library-funding",
+    "section": "LR",
+    "type": "method_of_reasoning",
+    "logicTags": [
+      "analogy"
+    ],
+    "difficulty": 4,
+    "stimulus": "Lobbyist: Public libraries reduce what people spend on books, which hurts publishers. The government should therefore stop funding public libraries.\n\nSenator: By that reasoning, the government should also close public parks, since parks reduce what people spend on gym memberships, and public schools, since they reduce what people spend on private tutoring.",
+    "stem": "The senator responds to the lobbyist by",
+    "choices": {
+      "A": "disputing the factual claim that public libraries reduce what people spend on books",
+      "B": "citing instances that conflict with a universal claim the lobbyist has explicitly stated",
+      "C": "arguing that libraries provide benefits to the public that outweigh whatever harm is done to publishers by reduced book sales",
+      "D": "extending the lobbyist's line of reasoning to further cases in which it would yield implausible conclusions",
+      "E": "demonstrating that the lobbyist's conclusion is false"
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "The senator never questions the lobbyist's premise. The response is aimed at the inference drawn from it.",
+      "B": "A counterexample targets a stated universal claim. The lobbyist states none, only a claim about libraries and an inference, so the referent fails on \"explicitly stated.\"",
+      "C": "The senator mentions no benefits of libraries and weighs nothing against the harm to publishers.",
+      "D": "Correct. \"By that reasoning\" refers to the lobbyist's inference (harm to an industry, so stop funding). The parks and schools are further cases to which that inference applies, and the conclusions it yields there are presented as unacceptable.",
+      "E": "The senator suggests the reasoning goes too far but does not demonstrate that the conclusion is false; a flawed argument can still have a true conclusion."
+    },
+    "trapPatterns": {
+      "A": "wrong_part",
+      "B": "half_right",
+      "C": "out_of_scope",
+      "E": "extreme"
+    },
+    "keyTakeaway": "In a method question, check every noun against the text: \"a universal claim the speaker stated\" must actually appear.",
+    "predictionHint": "Applies the same reasoning to parallel cases to show it proves too much."
+  },
+  {
+    "id": "lr-t3-fb-alder-quay-wetlands",
+    "section": "LR",
+    "type": "fill_in_blank",
+    "logicTags": [
+      "conditional",
+      "link_assumption"
+    ],
+    "difficulty": 4,
+    "stimulus": "Alder Quay lies on the coast, at the mouth of the Pell River. The flood agency claims that restoring the wetlands upstream of Alder Quay will protect the town from flooding. The town's flooding, however, comes solely from storm surges that arrive from the sea. The agency's claim is therefore mistaken, since ____.",
+    "stem": "Which one of the following most logically completes the argument?",
+    "choices": {
+      "A": "wetlands located upstream of a town can protect it from flooding that is caused by water arriving from upstream",
+      "B": "wetlands located upstream of a town can protect it only from flooding caused by water arriving from upstream",
+      "C": "storm surges from the sea have become more frequent in recent decades",
+      "D": "sea walls and similar coastal structures can protect a town from the storm surges that arrive from the sea",
+      "E": "restoring wetlands is more expensive than building defenses against storm surges"
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "This says what upstream wetlands can do, not what they cannot do. Without \"only,\" it leaves open that they also help against surges from the sea, so the conclusion does not follow.",
+      "B": "Correct. The blank follows \"since,\" so it must be the premise that makes the conclusion follow. If upstream wetlands help only against upstream-caused flooding, and Alder Quay's flooding comes solely from the sea, the wetlands cannot protect the town.",
+      "C": "More frequent surges make flooding worse, but they say nothing about whether upstream wetlands could stop it.",
+      "D": "Other measures may work, but this does not show that the wetlands will fail. It is a different question from the one the agency raised.",
+      "E": "The conclusion is about whether the wetlands will protect the town, not about the cost of options. Cost is a different dimension."
+    },
+    "trapPatterns": {
+      "A": "necessary_v_sufficient",
+      "C": "true_but_irrelevant",
+      "D": "true_but_irrelevant",
+      "E": "comparison_shift"
+    },
+    "keyTakeaway": "After \"since,\" supply the bridge; a \"can\" version of a bridge is the trap for the \"can only\" version that actually closes the gap.",
+    "predictionHint": "Wetlands help only with upstream water; the flooding is all from the sea."
+  },
+  {
+    "id": "lr-t3-fb-kessler-prize",
+    "section": "LR",
+    "type": "fill_in_blank",
+    "logicTags": [
+      "comparison",
+      "lack_of_support_v_false"
+    ],
+    "difficulty": 4,
+    "stimulus": "Admittedly, translated novels have won the Kessler Prize fewer times than novels originally written in English. But translated novels make up only a small share of the entries submitted, and the share of submitted novels that go on to win is the same for translated novels as for those originally written in English. Therefore, ____.",
+    "stem": "Which one of the following most logically completes the argument?",
+    "choices": {
+      "A": "the judges treat translated entries less favorably than entries originally written in English",
+      "B": "the prize's judging process is entirely free of bias",
+      "C": "translated novels are, on average, no less accomplished than novels originally written in English",
+      "D": "translated novels make up only a small share of the novels that have been submitted to the Kessler Prize over the years",
+      "E": "the smaller number of prizes won by translated novels does not indicate that the judges treat translated entries less favorably"
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "The equal share of entries that win points the other way. This is the inference the argument is meant to block.",
+      "B": "Equal win rates show that the lower count is not evidence of bias against translations. They do not prove the process is free of every kind of bias.",
+      "C": "The facts concern entries and wins, not literary quality. Nothing in the passage measures how accomplished the novels are.",
+      "D": "This restates a premise. A completion that repeats a fact already given does not draw a conclusion from it.",
+      "E": "Correct. The blank follows \"Therefore,\" so it is a modest conclusion. The concession is the lower number of wins; the \"But\" sentence explains it by the small number of entries, with equal win rates. The conclusion is that the count alone does not show unfavorable treatment."
+    },
+    "trapPatterns": {
+      "A": "opposite",
+      "B": "extreme",
+      "C": "shell_game",
+      "D": "premise_booster"
+    },
+    "keyTakeaway": "After a concession and a rebuttal, complete with the modest conclusion the rebuttal licenses, not a stronger one.",
+    "predictionHint": "Fewer wins reflect fewer entries; they do not show that judges disfavor translations."
+  },
+  {
+    "id": "lr-t3-fb-dunmore-curriculum",
+    "section": "LR",
+    "type": "fill_in_blank",
+    "logicTags": [
+      "causation",
+      "comparison"
+    ],
+    "difficulty": 4,
+    "stimulus": "The Dunmore school district's test scores rose by an average of six points in the year after it adopted a new reading curriculum. Over the same year, scores in the neighboring districts, which are similar to Dunmore in student population and which did not adopt the curriculum, rose by an average of six points as well. So the curriculum was not responsible for any of Dunmore's rise, since ____.",
+    "stem": "Which one of the following most logically completes the argument?",
+    "choices": {
+      "A": "any contribution by the curriculum would have put Dunmore's scores ahead of those of similar districts that lacked it",
+      "B": "a rise in a district's scores can be caused by factors that have nothing to do with the reading curriculum it uses",
+      "C": "some factor affecting every district in the region raised scores in each of them",
+      "D": "districts elsewhere that adopted the new curriculum also saw their scores rise by about six points",
+      "E": "Dunmore's scores rose by an average of six points in the year after the curriculum was adopted"
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. The blank follows \"since,\" so it is the premise that makes the stated conclusion follow. If any contribution from the curriculum would have put Dunmore ahead of similar districts, equal rises show there was none.",
+      "B": "That other causes are possible does not show the curriculum contributed nothing; Dunmore's rise could have had both.",
+      "C": "A shared factor could explain the neighbors' rise, but it would not exclude a further boost from the curriculum. Only the claim that any contribution would show up as a larger rise closes that gap.",
+      "D": "This is about other districts. It does not compare similar districts with and without the curriculum, so it cannot show the curriculum made no difference.",
+      "E": "This restates the first premise and adds nothing that connects equal rises to the lack of a contribution."
+    },
+    "trapPatterns": {
+      "B": "true_but_irrelevant",
+      "C": "half_right",
+      "D": "out_of_scope",
+      "E": "premise_booster"
+    },
+    "keyTakeaway": "After \"since,\" ask what would have to be true for the evidence to rule out the cause; a possible alternative cause is not enough.",
+    "predictionHint": "If the curriculum had added anything, Dunmore would have pulled ahead of its peers."
+  },
+  {
+    "id": "lr-t4-flaw-bridge-footings",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "sampling"
+    ],
+    "difficulty": 4,
+    "stimulus": "Heritage officer: Every one of the thirty-one timber bridges that still stand in the Calder Valley and date from before 1850 rests on stone footings. Clearly, stone footings were the standard way of building timber bridges in the Calder Valley before 1850.",
+    "stem": "The reasoning in the argument is most vulnerable to criticism on the grounds that it",
+    "choices": {
+      "A": "concludes that stone footings account for the bridges' survival from the mere fact that the two go together",
+      "B": "infers a property of each bridge from a property of its footings, ignoring how footings and timber interact",
+      "C": "generalizes about a whole class from members that may have survived because they had the feature in question",
+      "D": "assumes that timber bridges built outside the valley before 1850 were built the same way as those inside it",
+      "E": "treats the great age of the surviving bridges as evidence of the quality of their builders' craftsmanship"
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Shell game: the conclusion is about what was standard practice, not about what caused the bridges to survive. The officer never claims footings explain survival.",
+      "B": "Wrong part: nothing in the argument moves from properties of footings to properties of bridges; the claim is about how many bridges had stone footings.",
+      "C": "Correct. The only bridges examined are ones that still stand. If stone footings helped bridges last, survivors would have them even if many bridges of the period did not, so the sample is skewed on the very feature at issue.",
+      "D": "Out of scope: the conclusion is limited to the Calder Valley, so bridges elsewhere are irrelevant.",
+      "E": "Out of scope: craftsmanship and quality play no role in the argument."
+    },
+    "trapPatterns": {
+      "A": "shell_game",
+      "B": "wrong_part",
+      "D": "out_of_scope",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "When every member of a sample has survived, ask whether surviving could depend on the very property being generalized.",
+    "predictionHint": "Only survivors were checked, and the feature may be why they survived."
+  },
+  {
+    "id": "lr-t4-flaw-veldmark-orsett",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "part_v_whole",
+      "comparison"
+    ],
+    "difficulty": 4,
+    "stimulus": "Economic adviser: Over the past decade, the combined output of Veldmark's industries has grown more slowly than the combined output of neighboring Orsett's industries. So we can be sure that every one of Veldmark's industries has grown more slowly than the corresponding Orsett industry.",
+    "stem": "The argument is flawed in that it",
+    "choices": {
+      "A": "treats a difference in growth rates between two economies as though it were a difference in their absolute size",
+      "B": "compares two economies without establishing that Orsett's industries resemble those of other neighboring countries",
+      "C": "concludes that Veldmark's slower growth is explained by its industrial policies when other factors may account for it",
+      "D": "draws a conclusion about how Veldmark's industries will fare in the future from how they fared in the past decade",
+      "E": "infers that a relation between two wholes holds between each pair of their corresponding parts"
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Comparison shift: the premise compares rates and so does the conclusion; neither mentions absolute size.",
+      "B": "Out of scope: the conclusion concerns Orsett itself, not other countries, so whether Orsett is typical does not matter.",
+      "C": "Shell game: the adviser offers no explanation of Veldmark's growth, causal or otherwise.",
+      "D": "Out of scope: both premise and conclusion are about the past decade, so no prediction is made.",
+      "E": "Correct. The premise compares the two economies as wholes. The conclusion needs the comparison to hold industry by industry, but a slower total is compatible with some Veldmark industries outpacing their Orsett counterparts."
+    },
+    "trapPatterns": {
+      "A": "comparison_shift",
+      "B": "out_of_scope",
+      "C": "shell_game",
+      "D": "out_of_scope"
+    },
+    "keyTakeaway": "A relation that holds between two wholes need not hold between each pair of corresponding parts.",
+    "predictionHint": "Total beats total, so every part beats its counterpart: whole-to-part."
+  },
+  {
+    "id": "lr-t4-flaw-hale-letter",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [],
+    "difficulty": 4,
+    "stimulus": "Archivist: The letter was written by Corvin Hale. Its script matches the library's reference specimen of Hale's handwriting, and that specimen is known to be Hale's because it was authenticated years ago by comparison with this very letter.",
+    "stem": "The reasoning in the argument is most vulnerable to criticism on the grounds that it",
+    "choices": {
+      "A": "infers that the letter is old from the fact that the specimen was authenticated years ago",
+      "B": "relies on a premise whose own support depends on the truth of the conclusion it is offered to establish",
+      "C": "assumes that the reference specimen is the only surviving example of Hale's handwriting",
+      "D": "accepts without question that the library's records of the specimen's authentication are accurate",
+      "E": "draws a conclusion about every document in the library's collection from the status of one specimen"
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Out of scope: the argument is about who wrote the letter, not when it was written.",
+      "B": "Correct. The match to the specimen supports Hale's authorship only if the specimen is Hale's, and the specimen was certified by comparison with the letter, which presupposes that the letter is Hale's.",
+      "C": "Out of scope: the argument does not assume the specimen is unique; other examples would not remove the circularity.",
+      "D": "Wrong part: this attacks the reliability of a premise rather than the inference; accurate records would still leave the circle intact.",
+      "E": "Out of scope: the conclusion concerns a single letter, not the collection."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "C": "out_of_scope",
+      "D": "wrong_part",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "If a premise could be established only by first assuming the conclusion, the argument is circular.",
+    "predictionHint": "The specimen vouches for the letter, and the letter vouched for the specimen."
+  },
+  {
+    "id": "lr-t4-flaw-ortiz-bridge",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [],
+    "difficulty": 1,
+    "stimulus": "Mayor Ortiz claims that the new bridge is structurally unsafe. But Ortiz's family owns the ferry company that would lose business if the bridge opened. Therefore, the bridge must be safe.",
+    "stem": "The reasoning in the argument is most vulnerable to criticism on the grounds that it",
+    "choices": {
+      "A": "assumes that only a licensed engineer is in a position to judge whether a bridge is safe",
+      "B": "generalizes about all owners of ferry companies from the behavior of one family",
+      "C": "concludes that the bridge will be profitable from the claim that it is safe",
+      "D": "rejects a claim because of its source's personal stake rather than on its merits",
+      "E": "takes the absence of proof that the bridge is unsafe as proof that it is safe"
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Out of scope: the argument never says who is qualified to judge safety.",
+      "B": "Out of scope: Ortiz's family is the only ferry owner mentioned, and no claim about ferry owners in general is made.",
+      "C": "Out of scope: profit is never discussed.",
+      "D": "Correct. The only reason given for rejecting Ortiz's claim is Ortiz's financial interest, which does not show that the claim is false.",
+      "E": "Shell game: the argument does not discuss proof or its absence; it discredits the person making the claim."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "out_of_scope",
+      "C": "out_of_scope",
+      "E": "shell_game"
+    },
+    "keyTakeaway": "A source's motives are not evidence that the source's claim is false.",
+    "predictionHint": "Attacks the speaker's interest, not the safety claim."
+  },
+  {
+    "id": "lr-t4-flaw-dana-qualify",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "conditional"
+    ],
+    "difficulty": 1,
+    "stimulus": "Race official: To qualify for the regional final, a runner must complete a sanctioned qualifying race in under forty minutes. Dana completed a sanctioned qualifying race in thirty-eight minutes, so Dana will qualify for the regional final.",
+    "stem": "The argument is flawed in that it",
+    "choices": {
+      "A": "treats something required for an outcome as though it were enough to guarantee the outcome",
+      "B": "treats something sufficient for an outcome as though it were required for the outcome",
+      "C": "generalizes about all runners from the performance of a single runner",
+      "D": "accepts the official's statement of the rule without any independent confirmation",
+      "E": "assumes that Dana is faster than every other runner who has attempted to qualify"
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. Finishing under forty minutes is stated as a requirement. The argument treats meeting the requirement as ensuring qualification, though other conditions could also be needed.",
+      "B": "Reversal: this describes the opposite error. The argument never says that finishing under forty minutes is the only way to qualify.",
+      "C": "Out of scope: the conclusion is about Dana alone.",
+      "D": "Out of scope: the rule is offered as a premise, and doubting it is not the argument's flaw.",
+      "E": "Out of scope: no comparison with other runners is made."
+    },
+    "trapPatterns": {
+      "B": "reversal",
+      "C": "out_of_scope",
+      "D": "out_of_scope",
+      "E": "comparison_shift"
+    },
+    "keyTakeaway": "A stated requirement tells you what is necessary, not that meeting it is enough.",
+    "predictionHint": "Required becomes guaranteed."
+  },
+  {
+    "id": "lr-t4-flaw-marlow-symphony",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "math_percent"
+    ],
+    "difficulty": 1,
+    "stimulus": "Local reporter: The share of Marlow's residents who attend the municipal symphony fell from 12 percent ten years ago to 9 percent today. So fewer Marlow residents attend the symphony now than did ten years ago.",
+    "stem": "The reasoning in the argument is most vulnerable to criticism on the grounds that it",
+    "choices": {
+      "A": "infers that the symphony's quality has declined from the fact that fewer residents attend it",
+      "B": "draws a conclusion about all municipal arts organizations from the case of one symphony",
+      "C": "treats a decline in a proportion as though it were a decline in the corresponding number",
+      "D": "assumes that attendance is the best measure of a symphony's success",
+      "E": "confuses the cause of the decline in attendance with its effect"
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Out of scope: the argument says nothing about quality.",
+      "B": "Out of scope: only one symphony is discussed.",
+      "C": "Correct. If Marlow's population grew enough, a smaller share could still be a larger number of attendees.",
+      "D": "Out of scope: the argument does not evaluate success, only attendance.",
+      "E": "Out of scope: no cause is asserted at all."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "out_of_scope",
+      "D": "out_of_scope",
+      "E": "shell_game"
+    },
+    "keyTakeaway": "A falling percentage does not guarantee a falling count; ask what happened to the total.",
+    "predictionHint": "Share fell, so count fell: percent to number."
+  },
+  {
+    "id": "lr-t4-mbt-eastgate-tutoring",
+    "section": "LR",
+    "type": "must_be_true",
+    "logicTags": [
+      "conditional",
+      "definition_scope"
+    ],
+    "difficulty": 4,
+    "stimulus": "Every branch of the Harlow Public Library other than the Eastgate branch offers evening hours. Free tutoring is offered only at branches that offer evening hours. The Eastgate branch runs a free tutoring program.",
+    "stem": "If the statements above are true, which one of the following must also be true?",
+    "choices": {
+      "A": "The Eastgate branch is the only branch that offers free tutoring.",
+      "B": "Every branch of the Harlow Public Library offers evening hours.",
+      "C": "The Eastgate branch is the only branch that does not offer evening hours.",
+      "D": "At least one branch that offers evening hours does not offer free tutoring.",
+      "E": "Every branch other than the Eastgate branch offers free tutoring."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Extreme: the statements say nothing that rules out tutoring at other branches.",
+      "B": "Correct. Tutoring requires evening hours, and Eastgate offers tutoring, so Eastgate offers evening hours. 'Other than Eastgate' only exempted Eastgate from the first claim; it did not say Eastgate lacks evening hours. Every branch therefore offers them.",
+      "C": "Opposite: Eastgate's tutoring program requires that it offers evening hours, so it is not an exception.",
+      "D": "Wrong force: 'only at' makes evening hours necessary for tutoring, not sufficient, but that does not show that any branch actually lacks tutoring.",
+      "E": "Reversal: this turns 'tutoring only where there are evening hours' into 'evening hours guarantee tutoring'."
+    },
+    "trapPatterns": {
+      "A": "extreme",
+      "C": "opposite",
+      "D": "wrong_force",
+      "E": "reversal"
+    },
+    "keyTakeaway": "'Other than X' sets X aside without saying anything about X; 'only at' names a requirement, not a guarantee.",
+    "predictionHint": "Tutoring requires evening hours, so Eastgate has them too."
+  },
+  {
+    "id": "lr-t4-mss-shelter-orientation",
+    "section": "LR",
+    "type": "most_strongly_supported",
+    "logicTags": [
+      "quantifiers"
+    ],
+    "difficulty": 4,
+    "stimulus": "At the Larkspur shelter, most of the volunteers who completed the orientation and had volunteered elsewhere before are still active, whereas most of the volunteers who completed the orientation but had not volunteered elsewhere before have left. Every volunteer who did not complete the orientation has left.",
+    "stem": "Which one of the following is most strongly supported by the information above?",
+    "choices": {
+      "A": "Most volunteers who had volunteered elsewhere before are still active.",
+      "B": "Most volunteers who completed the orientation are still active.",
+      "C": "Volunteers who had not volunteered elsewhere before are more likely to leave than those who had.",
+      "D": "No volunteer who is still active skipped the orientation.",
+      "E": "Some volunteers who completed the orientation and had volunteered elsewhere before have left."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Wrong part: the 'most' claim is limited to experienced volunteers who also completed the orientation. Experienced volunteers who skipped it have all left, and their number is unknown.",
+      "B": "Wrong part: 'most' applies only within each subgroup of orientation completers; the sizes of the subgroups are unknown, and the other subgroup mostly left.",
+      "C": "Extreme: the contrast holds among orientation completers only. Overall rates also depend on how many volunteers skipped the orientation.",
+      "D": "Correct. Every volunteer who skipped the orientation has left, so anyone still active must have completed it.",
+      "E": "Wrong force: 'most' are still active is compatible with all of them being active."
+    },
+    "trapPatterns": {
+      "A": "wrong_part",
+      "B": "wrong_part",
+      "C": "extreme",
+      "E": "wrong_force"
+    },
+    "keyTakeaway": "Keep every modifier attached: a claim about 'those who did X and Y' is not a claim about 'those who did Y'.",
+    "predictionHint": "Everyone who skipped the orientation is gone, so the active ones all completed it."
+  },
+  {
+    "id": "lr-t4-mbt-audit-respectively",
+    "section": "LR",
+    "type": "must_be_true",
+    "logicTags": [
+      "math_percent",
+      "definition_scope"
+    ],
+    "difficulty": 4,
+    "stimulus": "An internal review audited a firm's invoices and its expense claims, in that order, and found improper documentation in 4 percent and 9 percent of the items audited, respectively. The audit that found the higher percentage examined 600 items; the other audit examined 1,000 items.",
+    "stem": "If the statements above are true, which one of the following must also be true?",
+    "choices": {
+      "A": "More expense claims than invoices were found to be improperly documented.",
+      "B": "More invoices than expense claims were found to be improperly documented.",
+      "C": "At least half of the improperly documented items found by the two audits were invoices.",
+      "D": "The invoice audit examined fewer items than the expense claim audit did.",
+      "E": "The expense claim audit found the higher percentage only because it examined fewer items."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. 'Respectively' pairs 4 percent with invoices and 9 percent with expense claims. The expense claim audit found the higher percentage, so it examined 600 items: 54 problem items. The invoice audit examined 1,000 items: 40 problem items.",
+      "B": "Reversal: this follows only if the percentages are paired with the wrong audits.",
+      "C": "Extreme: 40 of 94 improperly documented items were invoices, which is under half.",
+      "D": "Shell game: this too holds only if 'respectively' is misapplied; the invoice audit examined 1,000 items.",
+      "E": "Out of scope: nothing says why the percentages differ."
+    },
+    "trapPatterns": {
+      "B": "reversal",
+      "C": "extreme",
+      "D": "shell_game",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "With 'respectively', match the lists position by position before doing any arithmetic.",
+    "predictionHint": "Pair 4 percent with invoices and 9 percent with claims, then compute 54 versus 40."
+  },
+  {
+    "id": "lr-t4-mss-port-storms",
+    "section": "LR",
+    "type": "most_strongly_supported",
+    "logicTags": [
+      "quantifiers"
+    ],
+    "difficulty": 1,
+    "stimulus": "Port records show that it was not uncommon for ships to be held in harbor by storms for more than a week. No ship, however, was ever held in harbor for more than a month.",
+    "stem": "Which one of the following is most strongly supported by the information above?",
+    "choices": {
+      "A": "Most ships that entered the port were held in harbor by storms for more than a week.",
+      "B": "Some ships were held in harbor by storms for nearly a full month.",
+      "C": "Storms were the most frequent reason that ships were held in harbor at the port.",
+      "D": "Every ship that was held in harbor by storms was held for at least a week.",
+      "E": "At least some ships were held in harbor by storms for more than a week."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Extreme: 'not uncommon' means it happened fairly often, not that most ships were affected.",
+      "B": "Out of scope: the records rule out stays beyond a month but say nothing about stays that came close to it.",
+      "C": "Out of scope: nothing compares storms with other causes of delay.",
+      "D": "Extreme: some storm delays were over a week, but nothing says all were.",
+      "E": "Correct. 'Not uncommon' translates to 'it happened, and not rarely', so at least some ships were held for over a week."
+    },
+    "trapPatterns": {
+      "A": "extreme",
+      "B": "out_of_scope",
+      "C": "out_of_scope",
+      "D": "extreme"
+    },
+    "keyTakeaway": "A double negative like 'not uncommon' simply means it happens; translate it before comparing choices.",
+    "predictionHint": "Not uncommon means some did."
+  },
+  {
+    "id": "lr-t4-mss-trout-critics",
+    "section": "LR",
+    "type": "most_strongly_supported",
+    "logicTags": [],
+    "difficulty": 1,
+    "stimulus": "Critics claim that the planned reservoir will devastate the region's trout population. The state wildlife agency reports, however, that trout counts have held steady in each of the five comparable reservoirs it has monitored since they were built.",
+    "stem": "Which one of the following is most strongly supported by the information above?",
+    "choices": {
+      "A": "The planned reservoir will leave the region's trout population exactly as large as it is today.",
+      "B": "The agency's findings give some reason to doubt the critics' claim.",
+      "C": "The critics have not studied any of the reservoirs that the agency has monitored.",
+      "D": "Trout counts in the planned reservoir will hold steady, as they have in the five monitored reservoirs.",
+      "E": "The five reservoirs the agency has monitored are the only comparable reservoirs in the region."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Extreme: the agency reports on other reservoirs, so no certainty about the planned one follows.",
+      "B": "Correct. The critics' claim is attributed to them, and the agency's data on comparable reservoirs cut against it, which gives modest reason for doubt.",
+      "C": "Out of scope: nothing is said about the critics' research.",
+      "D": "Extreme: results at comparable reservoirs do not guarantee the same result at this one.",
+      "E": "Out of scope: 'each of the five it has monitored' leaves open that other comparable reservoirs exist."
+    },
+    "trapPatterns": {
+      "A": "extreme",
+      "C": "out_of_scope",
+      "D": "extreme",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "A claim attributed to critics is not the author's claim; evidence against it supports doubt, not its opposite.",
+    "predictionHint": "The agency's data cut against the critics, modestly."
+  },
+  {
+    "id": "lr-t4-mbt-chess-dues",
+    "section": "LR",
+    "type": "must_be_true",
+    "logicTags": [
+      "conditional"
+    ],
+    "difficulty": 1,
+    "stimulus": "The Riverside Chess Club's rules state that unless a member has paid the annual dues, she may not vote in the club's elections. Mara, a member, voted in this year's election, and no rule was broken.",
+    "stem": "If the statements above are true, which one of the following must also be true?",
+    "choices": {
+      "A": "Every member who has paid the annual dues voted in this year's election.",
+      "B": "Mara was the only member who voted in this year's election.",
+      "C": "Mara paid the annual dues.",
+      "D": "Mara has belonged to the club for more than a year.",
+      "E": "Mara paid her dues earlier than most members paid theirs."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Necessary v. sufficient: paying dues is required for voting, so it does not follow that everyone who paid actually voted.",
+      "B": "Extreme: nothing limits the number of voters.",
+      "C": "Correct. 'Unless' introduces a requirement: no dues, no vote. Mara voted without breaking a rule, so she paid.",
+      "D": "Out of scope: length of membership is never mentioned.",
+      "E": "Comparison shift: nothing is said about when anyone paid."
+    },
+    "trapPatterns": {
+      "A": "necessary_v_sufficient",
+      "B": "extreme",
+      "D": "out_of_scope",
+      "E": "comparison_shift"
+    },
+    "keyTakeaway": "'Unless' marks a requirement: no dues, no vote means vote implies dues.",
+    "predictionHint": "Mara voted lawfully, so she must have paid."
+  },
+  {
+    "id": "lr-t4-mss-bilingual-premature",
+    "section": "LR",
+    "type": "most_strongly_supported",
+    "logicTags": [
+      "lack_of_support_v_false",
+      "causation"
+    ],
+    "difficulty": 2,
+    "stimulus": "Although studies consistently link lifelong bilingualism to a later onset of dementia symptoms, it would be premature to conclude that learning a second language in adulthood will delay those symptoms, since most of the bilingual participants in these studies acquired both of their languages in early childhood.",
+    "stem": "Which one of the following is most strongly supported by the information above?",
+    "choices": {
+      "A": "The studies leave open whether learning a second language in adulthood delays dementia symptoms.",
+      "B": "Learning a second language in adulthood has no effect on the age at which dementia symptoms begin.",
+      "C": "Learning a second language in adulthood protects against dementia less well than learning one in early childhood.",
+      "D": "Acquiring two languages in early childhood brings about a later onset of dementia symptoms.",
+      "E": "Most people who learn a second language in adulthood develop dementia symptoms later than monolinguals do."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. 'Premature to conclude' translates to 'not yet shown'. Because most participants were early bilinguals, the studies give little evidence about adult learners.",
+      "B": "Opposite: 'premature to conclude that it will delay' says the effect is unproven, not that it is absent.",
+      "C": "Comparison shift: no comparison between adult and childhood learning is supported.",
+      "D": "Wrong force: the studies are said to 'link' bilingualism to later onset, which is not stated as causation.",
+      "E": "Opposite: this asserts the very conclusion the passage calls premature."
+    },
+    "trapPatterns": {
+      "B": "extreme",
+      "C": "comparison_shift",
+      "D": "wrong_force",
+      "E": "opposite"
+    },
+    "keyTakeaway": "'Premature to conclude X' means X is unproven, not that X is false.",
+    "predictionHint": "Unproven for adult learners, not disproven."
+  },
+  {
+    "id": "lr-t4-mss-zoning-rents",
+    "section": "LR",
+    "type": "most_strongly_supported",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 2,
+    "stimulus": "Proponents of the zoning change insist that it will not raise rents. The city's own housing data, however, show that rents rose in every district where a comparable change was adopted, though never by more than ten percent in a year.",
+    "stem": "Which one of the following is most strongly supported by the information above?",
+    "choices": {
+      "A": "The zoning change will raise rents by less than ten percent in its first year.",
+      "B": "Proponents of the zoning change have misrepresented the city's own housing data to the public.",
+      "C": "Rents in a district will rise only if a change like this one is adopted in that district.",
+      "D": "What happened in districts with comparable changes runs counter to the proponents' claim.",
+      "E": "Rents rose in every district because of the comparable zoning changes adopted there."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Extreme: the data concern other districts, so a prediction for this district, with a number, goes beyond them.",
+      "B": "Shell game: the proponents' claim is attributed to them, and nothing says they knew of or distorted the data.",
+      "C": "Necessary v. sufficient: the data show rents rising after such changes, not that such changes are the only cause of rises.",
+      "D": "Correct. Proponents say no rent increase; in comparable districts rents rose. The data do not settle the case but run against the claim.",
+      "E": "Wrong force: the data show rents rose where changes were adopted, not that the changes caused the rise."
+    },
+    "trapPatterns": {
+      "A": "extreme",
+      "B": "shell_game",
+      "C": "necessary_v_sufficient",
+      "E": "wrong_force"
+    },
+    "keyTakeaway": "Keep attributed claims attributed: evidence against what proponents say supports doubt about their claim, not a precise prediction.",
+    "predictionHint": "Comparable cases cut against the proponents."
+  },
+  {
+    "id": "lr-t4-mbt-lien-waiver",
+    "section": "LR",
+    "type": "must_be_true",
+    "logicTags": [
+      "conditional"
+    ],
+    "difficulty": 3,
+    "stimulus": "No contractor who has not filed a lien waiver is paid unless the owner has signed off in writing. Every contractor on the Alder Street project was paid, yet the owner signed off in writing on none of their invoices.",
+    "stem": "If the statements above are true, which one of the following must also be true?",
+    "choices": {
+      "A": "Every contractor who filed a lien waiver was paid.",
+      "B": "The owner refused to sign off on any of the Alder Street invoices.",
+      "C": "No contractor on any other project was paid without having filed a lien waiver.",
+      "D": "Some contractor on the Alder Street project was paid without having filed a lien waiver.",
+      "E": "Every contractor on the Alder Street project filed a lien waiver."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Necessary v. sufficient: a waiver is part of what lets a contractor be paid without sign-off, but filing does not guarantee payment.",
+      "B": "Out of scope: the owner may simply never have been asked; 'did not sign' is not 'refused'.",
+      "C": "Out of scope: other projects are not described, and the rule may not apply there.",
+      "D": "Opposite: with no written sign-off, a contractor who was paid cannot be a non-filer.",
+      "E": "Correct. Translate: a contractor with no waiver and no sign-off is not paid. Alder contractors were paid and had no sign-off, so each filed a waiver."
+    },
+    "trapPatterns": {
+      "A": "necessary_v_sufficient",
+      "B": "out_of_scope",
+      "C": "out_of_scope",
+      "D": "opposite"
+    },
+    "keyTakeaway": "Unpack 'no X unless Y' into 'X and not Y means not paid' before testing each choice.",
+    "predictionHint": "Paid with no sign-off means the waiver was filed."
+  },
+  {
+    "id": "lr-t5-ev-library-reminders",
+    "section": "LR",
+    "type": "evaluate",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 1,
+    "stimulus": "Librarian: Since the Dunmore Public Library began sending patrons text-message reminders a few days before their books are due, the share of books returned late has fallen from 22 percent to 9 percent. The reminders clearly deserve the credit for this improvement.",
+    "stem": "Which one of the following would be most useful to know in evaluating the argument?",
+    "choices": {
+      "A": "Whether the library raised its late fines at about the time it began sending the reminders",
+      "B": "Whether most patrons find text-message reminders more convenient than other kinds of reminders",
+      "C": "Whether the library's circulation records were kept accurately before the reminders began",
+      "D": "Whether other libraries in the region have also begun sending reminders to their patrons in recent years",
+      "E": "Whether the library spent more on setting up the reminder system than it collected in late fees last year"
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. If fines rose at the same time, the higher cost of lateness could explain the improvement and the reminders lose credit; if nothing else changed, the reminders are the likely cause. The answers swing the conclusion in opposite directions.",
+      "B": "True but irrelevant: convenience does not bear on whether the reminders, rather than something else, produced the drop. Either answer leaves the causal claim where it was.",
+      "C": "Premise booster: this questions the accuracy of the data the argument takes as given. Evaluate tests the step from evidence to conclusion, not the evidence itself.",
+      "D": "Out of scope: what other libraries are doing says nothing about why late returns fell at Dunmore.",
+      "E": "Comparison shift: cost against fee revenue concerns whether the program pays for itself, not whether it caused the improvement."
+    },
+    "trapPatterns": {
+      "B": "true_but_irrelevant",
+      "C": "premise_booster",
+      "D": "out_of_scope",
+      "E": "comparison_shift"
+    },
+    "keyTakeaway": "For a causal claim, ask about the most obvious simultaneous change; if Yes weakens and No strengthens, you have the answer.",
+    "predictionHint": "Did anything else change at the same time that could explain fewer late returns?"
+  },
+  {
+    "id": "lr-t5-ev-market-garage-poll",
+    "section": "LR",
+    "type": "evaluate",
+    "logicTags": [
+      "sampling"
+    ],
+    "difficulty": 1,
+    "stimulus": "Mayor: A survey of people leaving the Harbor Street farmers market found that 80 percent of them favor building a new parking garage near downtown. So a large majority of the city's residents favor building the garage.",
+    "stem": "Which one of the following would be most useful to know in evaluating the argument?",
+    "choices": {
+      "A": "Whether the new garage would be paid for entirely with public money",
+      "B": "Whether the survey's 80 percent figure was calculated correctly from the responses collected",
+      "C": "Whether market shoppers drive downtown more often than residents generally do",
+      "D": "Whether the garage would be larger than any other parking structure in the city",
+      "E": "Whether the farmers market has been held at the same location for more than ten years"
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Out of scope: how the garage is funded is not part of the claim about how many residents favor it.",
+      "B": "Premise booster: this challenges the arithmetic of the survey result, which the argument takes as given.",
+      "C": "Correct. If market shoppers drive downtown more than residents in general, the sample is skewed toward people who want parking and the conclusion is weakened; if they do not, the sample looks more representative.",
+      "D": "Comparison shift: the garage's relative size has no bearing on whether residents favor it.",
+      "E": "True but irrelevant: how long the market has been in place leaves the question of who was surveyed untouched."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "premise_booster",
+      "D": "comparison_shift",
+      "E": "true_but_irrelevant"
+    },
+    "keyTakeaway": "When a sample is the premise, evaluate whether the people sampled differ from the target group in a way that bears on the question asked.",
+    "predictionHint": "Are people leaving the market typical of all residents on this issue?"
+  },
+  {
+    "id": "lr-t5-ev-ladybug-orchard",
+    "section": "LR",
+    "type": "evaluate",
+    "logicTags": [
+      "causation",
+      "analogy"
+    ],
+    "difficulty": 1,
+    "stimulus": "Orchard owner: My neighbor began releasing ladybugs among his apple trees to control aphids, and this year his harvest was larger than mine. Since my trees are the same kind as his and grow on similar land, I should expect that releasing ladybugs in my orchard would increase my harvest too.",
+    "stem": "Which one of the following would be most useful to know in evaluating the argument?",
+    "choices": {
+      "A": "Whether ladybugs are more expensive than the other methods of controlling aphids that are available",
+      "B": "Whether the neighbor sells his apples at a higher price per bushel than the owner does",
+      "C": "Whether the neighbor's ladybugs came from a commercial supplier or were collected locally",
+      "D": "Whether the neighbor's harvests already exceeded the owner's before he began releasing ladybugs",
+      "E": "Whether aphids are the only pest that damages apple trees in orchards of this region"
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Comparison shift: cost versus other methods is about whether ladybugs are a good buy, not about whether they raise a harvest.",
+      "B": "Out of scope: the neighbor's selling price has no effect on whether ladybugs enlarge a harvest.",
+      "C": "True but irrelevant: where the ladybugs came from does not change whether they explain the larger harvest.",
+      "D": "Correct. If the neighbor always harvested more, ladybugs probably do not explain this year's difference and the owner's expectation is weakened; if the harvests were similar before, the ladybugs gain credit.",
+      "E": "Out of scope: whether other pests exist leaves untouched whether ladybugs made the difference."
+    },
+    "trapPatterns": {
+      "A": "comparison_shift",
+      "B": "out_of_scope",
+      "C": "true_but_irrelevant",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "In an argument from one case to another, ask whether the first case's advantage existed before the supposed cause was introduced.",
+    "predictionHint": "Was the neighbor already ahead before the ladybugs?"
+  },
+  {
+    "id": "lr-t5-ev-halvorsen-gym",
+    "section": "LR",
+    "type": "evaluate",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 1,
+    "stimulus": "Researcher: At Halvorsen Corporation, employees who regularly use the on-site gym miss fewer days of work each year than employees who do not use it. This pattern shows that using the gym leads to fewer absences among the company's employees.",
+    "stem": "Which one of the following would be most useful to know in evaluating the argument?",
+    "choices": {
+      "A": "Whether the gym is open during the lunch hour and on weekends as well as in the evening",
+      "B": "Whether absences at Halvorsen are lower than absences at other corporations of similar size",
+      "C": "Whether the number of days missed by each employee was recorded accurately",
+      "D": "Whether employees who use the gym are satisfied with its equipment",
+      "E": "Whether rarely absent employees were the ones likeliest to start using the gym"
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "True but irrelevant: the gym's hours do not help decide whether gym use causes fewer absences.",
+      "B": "Comparison shift: the argument compares gym users with non-users inside Halvorsen, not Halvorsen with other firms.",
+      "C": "Premise booster: this questions the reliability of the data rather than the inference drawn from it.",
+      "D": "True but irrelevant: satisfaction with equipment says nothing about whether gym use reduces absences.",
+      "E": "Correct. If rarely absent employees are the ones who start using the gym, the causation runs the other way and the conclusion is weakened; if not, the gym remains a plausible cause."
+    },
+    "trapPatterns": {
+      "A": "true_but_irrelevant",
+      "B": "comparison_shift",
+      "C": "premise_booster",
+      "D": "true_but_irrelevant"
+    },
+    "keyTakeaway": "A correlation between two groups invites the reverse-direction question: did the outcome come first and shape who is in the group?",
+    "predictionHint": "Do healthy, reliable people simply choose the gym?"
+  },
+  {
+    "id": "lr-t5-ev-route-nine-lane",
+    "section": "LR",
+    "type": "evaluate",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 2,
+    "stimulus": "Transit agency report: Ridership on the Route 9 bus rose 18 percent in the year after the agency added a dedicated bus lane that shortened the typical trip by eight minutes. The shorter trips were therefore responsible for the rise in ridership.",
+    "stem": "Which one of the following would be most useful to know in evaluating the argument?",
+    "choices": {
+      "A": "Whether the agency intends to build dedicated bus lanes on its other routes",
+      "B": "Whether ridership rose comparably during the same year on routes that got no new lane",
+      "C": "Whether Route 9 carried more riders than any other route before the lane was added",
+      "D": "Whether the time savings of eight minutes were measured during the morning rush hour on weekdays",
+      "E": "Whether the lane was paid for with city funds or with a federal grant"
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Out of scope: plans for other routes concern the future, while the conclusion concerns what caused a past increase.",
+      "B": "Correct. If ridership rose similarly on routes without a lane, something citywide explains the increase and the shorter trips lose credit; if it did not, the lane is a likelier cause.",
+      "C": "Comparison shift: Route 9's rank before the lane is a fixed comparison; the argument concerns a change over time.",
+      "D": "Premise booster: this probes the measurement of the time savings, which the argument takes as given.",
+      "E": "True but irrelevant: the funding source has no bearing on why riders used the route more."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "C": "comparison_shift",
+      "D": "premise_booster",
+      "E": "true_but_irrelevant"
+    },
+    "keyTakeaway": "A before-and-after claim is best tested against a comparison group that did not receive the change.",
+    "predictionHint": "Did similar routes without a lane also gain riders?"
+  },
+  {
+    "id": "lr-t5-ev-elm-grove-homework",
+    "section": "LR",
+    "type": "evaluate",
+    "logicTags": [
+      "causation",
+      "definition_scope"
+    ],
+    "difficulty": 2,
+    "stimulus": "Principal: Since Elm Grove Middle School introduced a mandatory homework-help hour each afternoon at the start of the school year, its students' average test scores have risen steadily. The homework-help hour has therefore improved the students' understanding of the material they are taught.",
+    "stem": "Which one of the following would be most useful to know in evaluating the argument?",
+    "choices": {
+      "A": "Whether most students enjoy the homework-help hour",
+      "B": "Whether students at nearby schools score higher on standardized tests than Elm Grove students do",
+      "C": "Whether teachers at the school are the ones who supervise the homework-help hour",
+      "D": "Whether the hour replaced a period that was previously used for physical education",
+      "E": "Whether the later tests were easier than the tests given before the hour began"
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "True but irrelevant: enjoyment does not decide whether scores rose because understanding improved.",
+      "B": "Comparison shift: how Elm Grove ranks against other schools is not the same as whether its own scores changed because of the hour.",
+      "C": "Out of scope: who supervises the hour does not help decide whether it raised understanding.",
+      "D": "True but irrelevant: whether physical education was displaced, either way, leaves the link between the hour and the scores untouched.",
+      "E": "Correct. If the later tests were easier, higher scores do not show better understanding and the conclusion is weakened; if the tests were comparable, the rise in scores better supports the conclusion."
+    },
+    "trapPatterns": {
+      "A": "true_but_irrelevant",
+      "B": "comparison_shift",
+      "C": "out_of_scope",
+      "D": "true_but_irrelevant"
+    },
+    "keyTakeaway": "When the evidence is a score and the conclusion is understanding, ask whether the measuring stick stayed the same.",
+    "predictionHint": "Were the later tests of equal difficulty?"
+  },
+  {
+    "id": "lr-t5-ev-downtown-shuttle",
+    "section": "LR",
+    "type": "evaluate",
+    "logicTags": [
+      "link_assumption"
+    ],
+    "difficulty": 2,
+    "stimulus": "City councilor: Downtown merchants are losing business because shoppers cannot find parking near the stores. A shuttle running between the city's large outlying lots and the downtown shopping district would solve this problem, so the city should fund such a shuttle.",
+    "stem": "Which one of the following would be most useful to know in evaluating the argument?",
+    "choices": {
+      "A": "Whether many shoppers who now avoid downtown over parking would use an outlying lot and a shuttle",
+      "B": "Whether downtown merchants would be willing to contribute part of the shuttle's operating costs if the city asked them to",
+      "C": "Whether other cities of comparable size operate shuttles in their downtown areas",
+      "D": "Whether parking fees downtown have risen in the last several years",
+      "E": "Whether the outlying lots together have more parking spaces than all of the downtown lots have"
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. If shoppers would use park-and-ride, the shuttle solves the parking problem and the plan is supported; if they would refuse, the shuttle leaves the lost business where it was.",
+      "B": "Out of scope: who shares the cost matters to financing, not to whether the shuttle solves the problem.",
+      "C": "Out of scope: what other cities do says nothing about whether this shuttle would work here.",
+      "D": "True but irrelevant: a history of fee increases leaves unanswered whether shoppers would use a shuttle.",
+      "E": "Comparison shift: the argument already calls the outlying lots large; their size relative to downtown lots is not the issue."
+    },
+    "trapPatterns": {
+      "B": "out_of_scope",
+      "C": "out_of_scope",
+      "D": "true_but_irrelevant",
+      "E": "comparison_shift"
+    },
+    "keyTakeaway": "For a proposal, ask whether the people it is meant to help would actually take it up.",
+    "predictionHint": "Would shoppers actually use a park-and-ride shuttle?"
+  },
+  {
+    "id": "lr-t5-ev-zendric-standard",
+    "section": "LR",
+    "type": "evaluate",
+    "logicTags": [
+      "causation"
+    ],
+    "difficulty": 3,
+    "stimulus": "Economist: Over the five years after adopting the Zendric accounting standard, the countries that adopted it saw foreign investment inflows rise by an average of 12 percent. Because the standard makes corporate finances more transparent, and foreign investors prefer transparent markets, adopting the standard must have caused the rise in inflows.",
+    "stem": "Which one of the following would be most useful to know in evaluating the argument?",
+    "choices": {
+      "A": "Whether foreign investors generally prefer markets in which corporate finances are transparent",
+      "B": "Whether implementing the standard is costly for the firms that must use it",
+      "C": "Whether the adopting countries' inflows were already rising at a similar rate before adoption",
+      "D": "Whether inflows rose more sharply in the fifth year after adoption than in the first",
+      "E": "Whether some of the adopting countries saw their inflows rise by more than 12 percent over those five years"
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Premise booster: the stimulus already states that investors prefer transparent markets, so this is information already given and no answer shifts the conclusion.",
+      "B": "True but irrelevant: the cost to firms does not bear on whether the standard raised foreign inflows.",
+      "C": "Correct. If inflows were already rising at a similar rate, the standard may deserve no credit; if inflows had been flat or falling, the standard gains support as the cause of the rise.",
+      "D": "True but irrelevant: the timing of the rise within the five years does not help decide whether adoption caused it.",
+      "E": "Extreme: an average of 12 percent is compatible with some countries exceeding it; learning that they did not change what explains the rise."
+    },
+    "trapPatterns": {
+      "A": "premise_booster",
+      "B": "true_but_irrelevant",
+      "D": "true_but_irrelevant",
+      "E": "extreme"
+    },
+    "keyTakeaway": "Discard any question whose answer the stimulus already supplies; the credited question targets the gap, usually a pre-existing trend.",
+    "predictionHint": "Were inflows already trending upward before adoption?"
+  },
+  {
+    "id": "lr-t5-ev-checklist-infections",
+    "section": "LR",
+    "type": "evaluate",
+    "logicTags": [
+      "math_percent",
+      "comparison"
+    ],
+    "difficulty": 4,
+    "stimulus": "Hospital administrator: Before we introduced the preoperative checklist, 6 percent of our surgical patients developed infections. Since then, only 4 percent have. So the number of our patients who suffer surgical infections each year is now lower than it was before the checklist.",
+    "stem": "Which one of the following would be most useful to know in evaluating the argument?",
+    "choices": {
+      "A": "Whether the infections that have occurred since the checklist have been less severe than those that occurred before it",
+      "B": "Whether the hospital's infection rate is now lower than the rates at comparable hospitals",
+      "C": "Whether the number of surgical patients treated each year has changed since the checklist was introduced",
+      "D": "Whether annual surgical volume is now at least one and a half times its level before the checklist",
+      "E": "Whether the proportion of surgical patients who develop infections fell by the same amount for every type of surgery"
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Shell game: severity is a neighbor of the measured quantity; the conclusion concerns the number of patients infected, not how bad each infection is.",
+      "B": "Comparison shift: the argument compares the hospital with its own past, not with other hospitals.",
+      "C": "Half right: a change in volume could go either way, so a Yes answer does not push the conclusion in one direction. The question must name a rise of a specific size.",
+      "D": "Correct. At 1.5 times the volume, 4 percent equals the old 6 percent, so the number infected would not be lower; below that factor it would be. The answers swing the conclusion in opposite directions.",
+      "E": "True but irrelevant: the overall rates are given, and how the drop is spread across surgery types does not change the number infected."
+    },
+    "trapPatterns": {
+      "A": "shell_game",
+      "B": "comparison_shift",
+      "C": "half_right",
+      "E": "true_but_irrelevant"
+    },
+    "keyTakeaway": "When a percentage falls and the conclusion is about a count, the unstated base is the gap; find the size of change in the base that cancels the drop.",
+    "predictionHint": "Rate fell from 6 to 4 percent; how much would the caseload have to grow to wipe out the gain?"
+  },
+  {
+    "id": "lr-t5-ev-department-spending",
+    "section": "LR",
+    "type": "evaluate",
+    "logicTags": [
+      "part_v_whole",
+      "quantifiers"
+    ],
+    "difficulty": 4,
+    "stimulus": "Dean: In last year's budget review, every one of the university's twelve academic departments reported lower per-student spending than in the year before. Because the university's overall per-student spending is just the combined result of what its departments spend on their students, it must have fallen last year as well.",
+    "stem": "Which one of the following would be most useful to know in evaluating the argument?",
+    "choices": {
+      "A": "Whether the university's total enrollment grew over the course of the year",
+      "B": "Whether, over the year, enrollment moved substantially toward the departments with the highest per-student spending",
+      "C": "Whether the reductions in per-student spending were larger in some departments than in others",
+      "D": "Whether the largest departments are also the departments with the highest per-student spending",
+      "E": "Whether the reductions in spending were large enough to affect the quality of instruction"
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Out of scope: growth in total enrollment need not change the average spent per student, so neither answer moves the conclusion.",
+      "B": "Correct. If students moved heavily toward the high-spending departments, the overall figure could rise even though each department's figure fell; if enrollment did not shift that way, the overall figure falls. The answers swing opposite ways.",
+      "C": "Half right: unequal cuts do not matter if the mix of students stays put, because every department is still spending less per student.",
+      "D": "Part versus whole: the static link between size and spending is tempting, but since every department cut spending, only a change in who enrolls where could offset the cuts.",
+      "E": "True but irrelevant: educational quality is a different topic from whether the overall per-student figure fell."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "C": "half_right",
+      "D": "half_right",
+      "E": "true_but_irrelevant"
+    },
+    "keyTakeaway": "When every part falls but the conclusion is about the whole, ask whether the weighting of the parts changed.",
+    "predictionHint": "Did students shift toward the departments that spend more?"
+  },
+  {
+    "id": "lr-t5-ev-discount-code",
+    "section": "LR",
+    "type": "evaluate",
+    "logicTags": [
+      "causation",
+      "sampling",
+      "math_percent"
+    ],
+    "difficulty": 4,
+    "stimulus": "Retailer: In March we emailed a discount code to our 5,000 most frequent customers and sent nothing to our other 20,000 customers. By the end of April, 40 percent of the code recipients had made a purchase, compared with 25 percent of the other customers. The code therefore increased the likelihood that a customer would make a purchase.",
+    "stem": "Which one of the following would be most useful to know in evaluating the argument?",
+    "choices": {
+      "A": "Whether the retailer's most frequent customers are more numerous than customers who buy only once a year",
+      "B": "Whether the retailer's records of which customers received the email were accurate",
+      "C": "Whether the 5,000 most frequent customers' usual two-month purchase rate was already close to 40 percent",
+      "D": "Whether the code recipients who made purchases spent more per purchase than the other customers who made purchases",
+      "E": "Whether the retailer plans to send discount codes to its other customers in the future"
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Out of scope: how many frequent customers exist compared with occasional ones does not bear on what caused the difference in purchase rates.",
+      "B": "Premise booster: this questions the accuracy of the data the argument starts from instead of the inference drawn from it.",
+      "C": "Correct. The recipients were chosen for being frequent buyers. If they already bought at close to 40 percent, the code did little and the conclusion is weakened; if their usual rate was far lower, the code likely raised it.",
+      "D": "Shell game: the amount spent per purchase is a neighbor of the likelihood of purchasing and does not bear on whether more customers bought.",
+      "E": "Out of scope: future mailings are irrelevant to what caused the results of this one."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "premise_booster",
+      "D": "shell_game",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "When the treated group was picked rather than randomized, the best question asks what that group's baseline was before treatment.",
+    "predictionHint": "Were the frequent customers already buying at about 40 percent?"
+  },
+  {
+    "id": "lr-t5-pr-fire-station",
+    "section": "LR",
+    "type": "principle",
+    "logicTags": [
+      "value_judgment"
+    ],
+    "difficulty": 1,
+    "stimulus": "Councilmember: The city should not sell the old fire station to the developer who made the highest bid. The station has served the neighborhood for ninety years, and the residents, who use it for meetings and events, overwhelmingly want it kept as a community center.",
+    "stem": "Which one of the following principles, if valid, most helps to justify the reasoning above?",
+    "choices": {
+      "A": "Public property should always be sold to whoever offers the highest price for it, whatever residents want.",
+      "B": "Publicly owned property that has long served a community should not be sold when the community overwhelmingly wants it kept.",
+      "C": "A city should never sell any building that it owns, whatever the circumstances or the wishes of residents.",
+      "D": "Cities should prefer buyers who plan to preserve historic buildings in their original condition.",
+      "E": "Decisions about the use of public property should be made by city officials rather than by the residents who are affected by them."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Opposite: this would require selling to the highest bidder, which is exactly what the councilmember rejects.",
+      "B": "Correct. Every element has a referent in the case: publicly owned, long served the community, the community overwhelmingly wants it kept, and the verdict is not to sell.",
+      "C": "Extreme: 'never sell any building' goes far beyond the one fire station, whose special features the councilmember emphasizes.",
+      "D": "Out of scope: the argument never mentions historic preservation or original condition.",
+      "E": "Reversal: the councilmember gives weight to what residents want, so a rule excluding them would undercut the reasoning."
+    },
+    "trapPatterns": {
+      "A": "opposite",
+      "C": "extreme",
+      "D": "out_of_scope",
+      "E": "reversal"
+    },
+    "keyTakeaway": "A conforming principle fits every element of the case and reaches the case's verdict, and is no more extreme than the case supports.",
+    "predictionHint": "Public property, long service, strong resident wish, so do not sell."
+  },
+  {
+    "id": "lr-t5-ap-airport-promise",
+    "section": "LR",
+    "type": "psa_application",
+    "logicTags": [
+      "rule_application",
+      "conditional"
+    ],
+    "difficulty": 1,
+    "stimulus": "Principle: A person who has promised to help someone with a task is obligated to follow through unless doing so would cause serious harm to a third party.",
+    "stem": "Which one of the following judgments conforms most closely to the principle stated above?",
+    "choices": {
+      "A": "Marisol promised a neighbor an airport ride. The drive will cost her an hour but harm no one, so she is obligated to give it.",
+      "B": "Dev promised to help a colleague move. Because helping would make him miss a dinner he had looked forward to all week, he is not obligated to help.",
+      "C": "Anita never promised to help her cousin study, but since helping would harm no one, she is obligated to help.",
+      "D": "Kofi promised to lend his car to a friend. Since the friend is unlicensed and would probably cause a serious accident, Kofi is obligated to lend it.",
+      "E": "Lena promised to help a neighbor paint a fence. She is not obligated to follow through because the neighbor never asked her to confirm."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. She made a promise, the only cost is an inconvenience, and no third party is seriously harmed, so the exception does not apply and the rule's verdict of obligation holds.",
+      "B": "Wrong force: missing a dinner is a minor cost to Dev, not serious harm to a third party, so the exception does not lift his obligation.",
+      "C": "Reversal: Anita made no promise, so the trigger is absent and the rule issues no verdict about her.",
+      "D": "Opposite: serious harm to a third party is exactly what lifts the obligation, so the rule does not say Kofi must lend the car.",
+      "E": "Out of scope: the rule's only exception is serious harm to a third party; a missing confirmation does not release a promise."
+    },
+    "trapPatterns": {
+      "B": "wrong_force",
+      "C": "reversal",
+      "D": "opposite",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "To apply a rule, fill its trigger, check its exception, and then confirm that the choice gives the rule's own verdict.",
+    "predictionHint": "Needed: a promise was made, no serious harm to a third party, so she must follow through."
+  },
+  {
+    "id": "lr-t5-ap-journalist-name",
+    "section": "LR",
+    "type": "psa_application",
+    "logicTags": [
+      "rule_application",
+      "conditional"
+    ],
+    "difficulty": 4,
+    "stimulus": "Principle: A journalist should refrain from publishing the name of a private individual who is suspected of a crime but has not been charged with it, unless publishing the name is necessary to avert an imminent threat to public safety.",
+    "stem": "Which one of the following judgments conforms most closely to the principle stated above?",
+    "choices": {
+      "A": "A journalist who published the name of a private individual charged with embezzlement was required to refrain, because publication could damage the individual's reputation.",
+      "B": "A journalist who withheld the name of an uncharged private individual suspected of a crime was wrong to do so, because the public wanted to know it.",
+      "C": "A journalist who published the name of an uncharged private individual suspected of repeated burglaries was not required to refrain, since further burglaries might occur.",
+      "D": "A journalist who published the name of an uncharged private individual suspected of planting a bomb that police had already defused was not required to refrain, since the bomb had endangered the public.",
+      "E": "A journalist who named an uncharged private individual suspected of poisoning food was not required to refrain, since only the name could warn residents before more tainted food reached stores."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Shell game: the individual here has been charged, so the rule's trigger is unmet and the rule does not say that the journalist was required to refrain.",
+      "B": "Opposite: the rule tells journalists to refrain in this situation, and the public's wish to know is not the exception.",
+      "C": "Half right: burglaries that merely might occur are not an imminent threat to public safety, and nothing says that publishing the name is necessary, so the exception is not filled.",
+      "D": "Wrong part: the bomb has already been defused, so the threat is no longer imminent and publication is not necessary to avert it.",
+      "E": "Correct. The individual is private, suspected and uncharged, so the trigger is met; but publishing is necessary to avert an imminent threat to public safety, so the exception fires and the duty to refrain is lifted."
+    },
+    "trapPatterns": {
+      "A": "shell_game",
+      "B": "opposite",
+      "C": "half_right",
+      "D": "wrong_part"
+    },
+    "keyTakeaway": "An exception lifts the duty only when every word of its condition is met; look for 'necessary' and 'imminent' to be satisfied, not merely suggested.",
+    "predictionHint": "Look for the case where the trigger is met and the exception's necessity and imminence are both stated."
+  },
+  {
+    "id": "lr-t5-pr-pension-board",
+    "section": "LR",
+    "type": "principle",
+    "logicTags": [
+      "value_judgment",
+      "conditional"
+    ],
+    "difficulty": 4,
+    "stimulus": "Ombudsman: The pension board acted improperly in denying Mr. Quill's claim. The board relied on an eligibility rule that it adopted only after Quill had retired, and Quill had retired in reliance on the eligibility rules then in force.",
+    "stem": "Which one of the following principles, if valid, most helps to justify the reasoning above?",
+    "choices": {
+      "A": "A board acts improperly if it denies a benefit under a rule that was adopted after the claim was filed.",
+      "B": "A board that adopts a new eligibility rule is obliged to give prior notice to everyone whom the rule could affect.",
+      "C": "A board acts improperly only if it denies a benefit under a rule adopted after the claimant acted in reliance on the rules then in force.",
+      "D": "A board acts improperly if it denies a benefit under a rule adopted after the claimant acted in reliance on the rules then in force.",
+      "E": "A board acts improperly if it denies a benefit to a claimant who has made a substantial contribution toward it."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Shell game: the stimulus says the rule was adopted after Quill retired, not after his claim was filed; nothing places the claim's filing date relative to the rule, so the case does not fill this principle.",
+      "B": "Wrong part: giving notice of a new rule is a different duty from the one broken here, and the ombudsman does not mention notice.",
+      "C": "Necessary versus sufficient: 'only if' gives a requirement for impropriety, so it cannot establish that the denial was improper even when the case meets that requirement.",
+      "D": "Correct. Every element has a referent: denial of a benefit, a rule adopted later, reliance by the claimant, and the verdict of impropriety. As a sufficient condition, it lets the conclusion follow.",
+      "E": "Out of scope: the stimulus says nothing about Quill's contributions, so no element of this principle appears in the case."
+    },
+    "trapPatterns": {
+      "A": "shell_game",
+      "B": "wrong_part",
+      "C": "necessary_v_sufficient",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "A principle that justifies a conclusion must be sufficient: if its conditions hold in the case, the verdict follows; 'only if' phrasing fails.",
+    "predictionHint": "If a rule is adopted after someone relied on the earlier rules, denying a benefit under it is improper."
+  },
+  {
+    "id": "lr-t5-pai-museum-donation",
+    "section": "LR",
+    "type": "point_at_issue",
+    "logicTags": [
+      "value_judgment"
+    ],
+    "difficulty": 4,
+    "stimulus": "Curator: The museum should accept the Brennan estate's donation of landscape paintings. Each painting is of genuine artistic merit, and a museum has a duty to preserve works of merit whenever it is able to do so.\n\nRegistrar: I agree that we should accept them, but not for that reason. A museum has no general duty to preserve works of merit, even when it has room to keep them. We should accept these paintings because we happen to have the storage space and because they will draw the visitors we badly need.",
+    "stem": "The curator and the registrar disagree over whether",
+    "choices": {
+      "A": "the museum should accept the Brennan estate's donation of landscape paintings",
+      "B": "the paintings in the donation are in fact of genuine artistic merit, as the curator says",
+      "C": "a museum has a duty to preserve works of merit whenever it can",
+      "D": "the paintings will draw visitors whom the museum badly needs to attract this year",
+      "E": "the museum has enough storage space to keep all of the paintings in the donation"
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Both speakers say the donation should be accepted. The registrar opens with 'I agree,' so this is a point of agreement, not disagreement.",
+      "B": "Question mark: the curator affirms it, but the registrar never disputes the merit of the paintings.",
+      "C": "Correct. The curator affirms that being able to preserve works of merit creates a duty; the registrar denies that any such general duty exists, even when the museum has room. One Yes and one No.",
+      "D": "Question mark: the registrar affirms it, but the curator says nothing about visitors.",
+      "E": "Question mark: the registrar affirms it, but the curator never mentions storage space."
+    },
+    "trapPatterns": {
+      "A": "wrong_part",
+      "B": "half_right",
+      "D": "out_of_scope",
+      "E": "true_but_irrelevant"
+    },
+    "keyTakeaway": "When speakers agree on the conclusion, the dispute lives in the reasoning; check which principle one affirms and the other denies.",
+    "predictionHint": "They agree to accept the paintings but disagree about the duty the curator uses as a reason."
+  },
+  {
+    "id": "lr-t6-weaken-orsk-parking-fee",
+    "section": "LR",
+    "type": "weaken",
+    "logicTags": [
+      "analogy"
+    ],
+    "difficulty": 4,
+    "stimulus": "Planner: The city of Orsk replaced its downtown parking minimums with a flat permit fee, and over the next three years the number of new cafes and shops downtown rose steadily. Talvane's downtown resembles Orsk's in size, in the age of its buildings, and in the number of vacant storefronts. Talvane should therefore adopt a flat permit fee, since doing so will likewise bring new businesses downtown.",
+    "stem": "Which one of the following, if true, most seriously weakens the planner's argument?",
+    "choices": {
+      "A": "Orsk's population is about twice that of Talvane.",
+      "B": "Some Orsk shop owners objected to the flat permit fee when it was first proposed.",
+      "C": "Orsk's strictly enforced parking minimums had been widely blamed for deterring new businesses, while Talvane's are routinely waived.",
+      "D": "Several other cities that replaced their parking minimums with flat fees also saw the number of new downtown businesses increase in the years that followed.",
+      "E": "The flat fee that Talvane would charge would be collected by a different city department than the one that collects it in Orsk."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "True but irrelevant: a difference in total population says nothing about whether the fee was what drew businesses, so the shared features the planner cites still stand.",
+      "B": "True but irrelevant: early objections from some owners do not bear on whether openings followed from the fee itself.",
+      "C": "Correct. The fee worked in Orsk, on this account, by lifting a binding burden. If Talvane's minimums are routinely waived, there is no comparable burden to lift, so the feature that produced the result in Orsk is missing in Talvane.",
+      "D": "Opposite: this adds further cases in which the same step was followed by openings, which strengthens the argument.",
+      "E": "Out of scope: which department collects the fee does not touch what makes the fee attract businesses."
+    },
+    "trapPatterns": {
+      "A": "true_but_irrelevant",
+      "B": "true_but_irrelevant",
+      "D": "opposite",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "An analogy is broken by a difference that touches the mechanism, not by any difference at all.",
+    "predictionHint": "Ask what the policy did in Orsk to produce the result, then look for a reason Talvane lacks that."
+  },
+  {
+    "id": "lr-t6-method-novelist-billboard",
+    "section": "LR",
+    "type": "method_of_reasoning",
+    "logicTags": [
+      "analogy"
+    ],
+    "difficulty": 4,
+    "stimulus": "Critic: Some defend novelists who draw on the private lives of real acquaintances without permission, saying that the details are merely raw material for fiction. But by that reasoning a portrait painter could put a stranger's face on a billboard without consent, since a face is merely raw material for art. Surely no one would say that the painter does nothing wrong.",
+    "stem": "The critic's argument proceeds by",
+    "choices": {
+      "A": "showing that a justification offered for one practice would equally justify a clearly objectionable parallel practice",
+      "B": "pointing out that the defenders' position conflicts with a law governing the profession of novelist",
+      "C": "arguing that novelists deserve less protection than painters because their work reaches more people",
+      "D": "inferring that a practice is wrong from the fact that most people who have considered it disapprove of it",
+      "E": "generalizing from the single case of a portrait painter to the claim that every use of a real person's likeness in any art form is wrong"
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. The critic takes the defenders' own rationale (the details are merely raw material) and applies it to a parallel case, the billboard, where the conclusion is plainly unacceptable, thereby discrediting the rationale.",
+      "B": "Out of scope: no law or professional rule is mentioned anywhere in the passage.",
+      "C": "Comparison shift: the critic never ranks novelists against painters or mentions how far their work travels; the painter is used as a parallel, not as a contrast.",
+      "D": "Wrong part: the critic cites no poll or majority opinion; the appeal is to a single case that 'no one would say' is acceptable.",
+      "E": "Half right: the painter case is used, but only to test the defenders' rationale. The critic does not conclude that every use of a likeness in art is wrong, which is far broader than anything claimed."
+    },
+    "trapPatterns": {
+      "B": "out_of_scope",
+      "C": "comparison_shift",
+      "D": "wrong_part",
+      "E": "extreme"
+    },
+    "keyTakeaway": "When an arguer says 'by that reasoning,' the method is a parallel built to show the original reasoning proves too much.",
+    "predictionHint": "The defenders' reason is turned onto a different case where everyone rejects the result."
+  },
+  {
+    "id": "lr-t6-strengthen-kell4-bedrest",
+    "section": "LR",
+    "type": "strengthen",
+    "logicTags": [
+      "analogy"
+    ],
+    "difficulty": 4,
+    "stimulus": "Pharmacologist: In experiments, a compound that suppresses the protein Kell-4 prevented the muscle wasting that normally follows prolonged bed rest in mice. The compound is known to suppress Kell-4 in human cells as well as in mouse cells, and prolonged bed rest also causes muscle wasting in humans. So the compound will probably prevent muscle wasting in bedridden humans.",
+    "stem": "Which one of the following, if true, most strengthens the pharmacologist's argument?",
+    "choices": {
+      "A": "Most of the genes found in mice have close counterparts in humans.",
+      "B": "The compound caused no harmful side effects in the mice that received it.",
+      "C": "Kell-4 is present in human muscle tissue at concentrations roughly similar to those found in mouse muscle tissue, and it is made by similar cells.",
+      "D": "In humans as in mice, the muscle wasting that follows prolonged bed rest is brought about chiefly by increased Kell-4 activity.",
+      "E": "Several compounds that prevent muscle wasting in mice have failed to do so in humans."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "True but irrelevant: overall genetic similarity does not show that the specific process behind wasting is shared.",
+      "B": "Out of scope: safety in the mice has no bearing on whether the compound works against wasting in humans.",
+      "C": "Half right: Kell-4 being present at similar levels shows the protein exists in humans, not that it plays the role in wasting that it plays in mice.",
+      "D": "Correct. The result in mice depended on Kell-4 driving the wasting. This says the same driver operates in humans, and the compound is already stated to suppress it there, so the shared mechanism is secured.",
+      "E": "Opposite: past failures to carry results from mice to humans make the analogy less trustworthy."
+    },
+    "trapPatterns": {
+      "A": "true_but_irrelevant",
+      "B": "out_of_scope",
+      "C": "half_right",
+      "E": "opposite"
+    },
+    "keyTakeaway": "Strengthen an analogy by confirming the shared mechanism, not by adding more similarities.",
+    "predictionHint": "The argument needs Kell-4 to be what causes wasting in humans too."
+  },
+  {
+    "id": "lr-t6-na-brightwell-merger",
+    "section": "LR",
+    "type": "necessary_assumption",
+    "logicTags": [
+      "analogy"
+    ],
+    "difficulty": 4,
+    "stimulus": "Consultant: After the Brightwell hospital group merged its three billing offices into one, its collection rate rose sharply. The Marlow school district likewise runs three separate transportation offices, so merging them into one will raise the district's on-time bus rate.",
+    "stem": "The consultant's argument depends on assuming which one of the following?",
+    "choices": {
+      "A": "The merged Brightwell billing office handled more accounts than any one of the three former offices had handled before the merger took place.",
+      "B": "The way in which merging the offices raised Brightwell's collection rate does not depend on a feature specific to billing work.",
+      "C": "No transportation office in the district has ever raised the district's on-time bus rate on its own.",
+      "D": "Brightwell's collection rate had been below the average for hospital groups before the merger.",
+      "E": "Merging offices is the only step that would raise the district's on-time bus rate."
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Out of scope: the number of accounts handled bears on Brightwell's size, not on whether the merger's effect would carry over to buses.",
+      "B": "Correct. If the improvement came from something peculiar to billing, the Marlow merger would not reproduce it. Denying this choice breaks the analogy, so the argument requires it.",
+      "C": "Extreme: the argument does not need a history of failure in the district; it needs only that the merger would help.",
+      "D": "Out of scope: Brightwell's rank before the merger does not bear on whether the same mechanism applies to school buses.",
+      "E": "Necessary versus sufficient: the argument says merging will raise the rate, not that merging is the only way to do so."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "C": "extreme",
+      "D": "out_of_scope",
+      "E": "necessary_v_sufficient"
+    },
+    "keyTakeaway": "An analogy's necessary assumption is that the mechanism behind the result is not specific to the original case.",
+    "predictionHint": "The consultant needs Marlow's offices to be susceptible to whatever helped Brightwell."
+  },
+  {
+    "id": "lr-t6-na-kellmar-spending",
+    "section": "LR",
+    "type": "necessary_assumption",
+    "logicTags": [
+      "comparison"
+    ],
+    "difficulty": 4,
+    "stimulus": "Tourism board: The average amount each visitor to Kellmar Island spent during a stay was fifteen percent higher this year than last year. Tourism revenue on the island therefore rose this year.",
+    "stem": "The tourism board's argument depends on assuming which one of the following?",
+    "choices": {
+      "A": "The number of visits to the island did not fall at all.",
+      "B": "Every visitor spent more this year than the same visitor spent last year.",
+      "C": "Visitors to Kellmar spent more per stay than visitors to neighboring islands did.",
+      "D": "The rise in spending was caused chiefly by higher prices on the island rather than by visitors buying more goods and services.",
+      "E": "The number of visits to the island did not fall by enough to cancel the rise in spending per visit."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Necessary versus sufficient: no decline would guarantee the conclusion, but a small decline is compatible with it, so 'at all' demands too much.",
+      "B": "Wrong part: the premise concerns an average, so some visitors may have spent less. The conclusion does not need every visitor to spend more.",
+      "C": "Comparison shift: the argument compares this year with last year on one island, not Kellmar with other islands.",
+      "D": "Out of scope: the reason for the higher spending does not affect whether total revenue rose.",
+      "E": "Correct. Revenue depends on spending per visit and the number of visits. A rise in the first yields a rise in revenue only if the second did not drop enough to wipe it out; if visits did fall that much, the conclusion fails."
+    },
+    "trapPatterns": {
+      "A": "necessary_v_sufficient",
+      "B": "wrong_part",
+      "C": "comparison_shift",
+      "D": "out_of_scope"
+    },
+    "keyTakeaway": "A change in an average or rate supports a change in a total only if the other factor in the product did not move enough to offset it.",
+    "predictionHint": "Revenue is visits times spending; the board has told us only about spending."
+  },
+  {
+    "id": "lr-t6-flaw-free-parks",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "definition_scope"
+    ],
+    "difficulty": 1,
+    "stimulus": "Mayor: Admission to the city's parks is free, since no one is ever charged an entry fee. It follows that running the parks costs the city nothing.",
+    "stem": "The mayor's reasoning is most vulnerable to criticism on the grounds that it",
+    "choices": {
+      "A": "relies on the unsupported claim of a single official rather than on the city's public financial records or any independent audit",
+      "B": "moves from the parks being free of charge to visitors to the parks being costless to the city",
+      "C": "treats the absence of an entry fee as proof that the parks are popular",
+      "D": "fails to consider that entry fees may be charged for special events, concerts, or guided tours held inside the parks",
+      "E": "assumes that the parks benefit every resident of the city equally"
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Out of scope: the problem lies in the logic from premise to conclusion, not in who states the premise.",
+      "B": "Correct. 'Free' in the premise means that visitors pay nothing; the conclusion needs the parks to cost the city nothing. The same word covers two different ideas, and the argument slides from one to the other.",
+      "C": "Shell game: popularity is not mentioned in the argument and plays no role in it.",
+      "D": "True but irrelevant: even if special-event fees exist, the leap from no entry fee to no cost to the city remains.",
+      "E": "Out of scope: how widely the parks benefit residents has nothing to do with who pays for them."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "C": "shell_game",
+      "D": "true_but_irrelevant",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "When a word like 'free' appears in the premise and the conclusion, check that it means the same thing both times.",
+    "predictionHint": "Free for whom?"
+  },
+  {
+    "id": "lr-t6-flaw-brandt-water",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "mental_state_v_reality"
+    ],
+    "difficulty": 1,
+    "stimulus": "Most residents of Brandt believe that the town's tap water is free of contaminants. Therefore, the tap water in Brandt is free of contaminants.",
+    "stem": "The argument is flawed in that it",
+    "choices": {
+      "A": "assumes that Brandt's residents are an unusually well-informed group",
+      "B": "confuses the water's being safe to drink with its being free of contaminants",
+      "C": "takes the fact that many people believe something as establishing that it is true",
+      "D": "overlooks that a minority of residents may hold a different belief about the water",
+      "E": "presumes that contaminants are the only threat to the quality of tap water"
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Out of scope: the flaw is present however well informed the residents are; belief is not the same as fact.",
+      "B": "Shell game: the argument never uses 'safe to drink' at all, so no confusion between the two is in play.",
+      "C": "Correct. The premise reports what residents believe; the conclusion states how the water actually is. What people believe can be false.",
+      "D": "Wrong force: even if every resident held the belief, the same gap between belief and fact would remain.",
+      "E": "Out of scope: other threats to water quality are not part of this argument."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "shell_game",
+      "D": "wrong_force",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "A claim about what people believe cannot, by itself, establish what is true.",
+    "predictionHint": "Belief in the premise, fact in the conclusion."
+  },
+  {
+    "id": "lr-t6-mbt-zoning-tower",
+    "section": "LR",
+    "type": "must_be_true",
+    "logicTags": [
+      "mental_state_v_reality"
+    ],
+    "difficulty": 1,
+    "stimulus": "Every member of the zoning board knows that the proposed tower would block the view from Harbor Park. Some members of the board hope the tower will be approved. Priya is a member of the zoning board.",
+    "stem": "If the statements above are true, which one of the following must also be true?",
+    "choices": {
+      "A": "Priya hopes that the tower will be approved.",
+      "B": "Priya wants to prevent the tower from being built.",
+      "C": "Every member of the zoning board opposes the tower.",
+      "D": "Priya has toured Harbor Park to see the view for herself.",
+      "E": "The proposed tower would block the view from Harbor Park."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Out of scope: only some members hope for approval, and Priya is not said to be one of them.",
+      "B": "Out of scope: knowing that the view would be blocked says nothing about whether she wants the tower stopped.",
+      "C": "Extreme: some members hope for approval, so not every member can oppose the tower.",
+      "D": "Out of scope: nothing says how Priya came to know what she knows.",
+      "E": "Correct. 'Knows' is factive: no one can know something false. Since every member, Priya included, knows the tower would block the view, it would."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "out_of_scope",
+      "C": "extreme",
+      "D": "out_of_scope"
+    },
+    "keyTakeaway": "'Knows' and 'realizes' carry the truth of what follows them; 'believes' and 'hopes' do not.",
+    "predictionHint": "Which verb in the stimulus guarantees its content?"
+  },
+  {
+    "id": "lr-t6-weaken-corvane-safety",
+    "section": "LR",
+    "type": "weaken",
+    "logicTags": [
+      "mental_state_v_reality"
+    ],
+    "difficulty": 1,
+    "stimulus": "Councilor: The city's safety program was designed to reduce workplace injuries at the Corvane plant. Therefore, the plant now has fewer workplace injuries than it did before the program began.",
+    "stem": "Which one of the following, if true, most seriously weakens the councilor's argument?",
+    "choices": {
+      "A": "The number of workplace injuries at the plant is higher this year than it was before the program began.",
+      "B": "The safety program cost the city considerably less than it was originally projected to cost when the council approved it.",
+      "C": "Most workers at the plant say that they support the safety program.",
+      "D": "Other cities have adopted safety programs similar to the one in Corvane.",
+      "E": "The designers of the program had previously worked on safety programs at other plants."
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. The argument moves from what the program was meant to do to what happened. Evidence that injuries are in fact higher shows the intention was not realized.",
+      "B": "Out of scope: the program's cost says nothing about whether injuries fell.",
+      "C": "True but irrelevant: worker support is not the same as results.",
+      "D": "Out of scope: what other cities did has no bearing on this plant's injuries.",
+      "E": "Out of scope: the designers' background might support the program, but does not weaken the claim."
+    },
+    "trapPatterns": {
+      "B": "out_of_scope",
+      "C": "true_but_irrelevant",
+      "D": "out_of_scope",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "Designed to, meant to, and intended to describe a goal, not an outcome.",
+    "predictionHint": "The councilor treats an aim as a result; show that the result did not follow."
+  },
+  {
+    "id": "lr-t6-na-meridian-confidence",
+    "section": "LR",
+    "type": "necessary_assumption",
+    "logicTags": [
+      "mental_state_v_reality",
+      "sampling"
+    ],
+    "difficulty": 3,
+    "stimulus": "Driving instructor: In a survey of drivers who have completed the Meridian defensive-driving course, a large majority said they feel more confident behind the wheel than they did before the course. This shows that the course makes its graduates safer drivers.",
+    "stem": "The instructor's argument depends on assuming which one of the following?",
+    "choices": {
+      "A": "Graduates of the course drive more often than drivers who have not taken it.",
+      "B": "Confidence behind the wheel is the most reliable single predictor of how safely a person will drive over the long term.",
+      "C": "Every graduate of the course feels more confident behind the wheel than before the course.",
+      "D": "Graduates' increased confidence is not, in the main, merely a matter of overestimating their driving ability.",
+      "E": "Before taking the course, its graduates were less safe drivers than other drivers were."
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Out of scope: how often graduates drive does not link their confidence to their safety.",
+      "B": "Extreme: the argument needs confidence to track safety here, not to be the single best predictor of it.",
+      "C": "Wrong part: the survey found a 'large majority', and the conclusion does not need every graduate to be more confident.",
+      "D": "Correct. The survey reports a feeling; the conclusion concerns actual safety. If the gain in confidence were chiefly an overestimate of skill, the survey would give no reason to think graduates drive more safely.",
+      "E": "Out of scope: graduates' earlier driving relative to others is irrelevant to whether the course improved them."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "extreme",
+      "C": "wrong_part",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "When the evidence is how people feel and the conclusion is how things are, the missing link is that the feeling is accurate.",
+    "predictionHint": "Confidence must reflect real improvement rather than overestimation."
+  },
+  {
+    "id": "lr-t6-flaw-callis-engine",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "part_v_whole"
+    ],
+    "difficulty": 1,
+    "stimulus": "Each part in the Callis X-9 engine has been rated the most durable part of its kind on the market. Therefore, the Callis X-9 is the most durable engine on the market.",
+    "stem": "The reasoning in the argument is most vulnerable to criticism on the grounds that it",
+    "choices": {
+      "A": "relies on ratings that were all supplied by a single source",
+      "B": "assumes that a whole must have a property merely because each of its parts has that property",
+      "C": "confuses the durability of an engine with its performance",
+      "D": "overlooks that some of the engine's parts may be rated lower than competing parts on features other than durability",
+      "E": "presumes that durability is the only feature buyers care about in an engine"
+    },
+    "answer": "B",
+    "explanations": {
+      "A": "Out of scope: the number of rating sources is not mentioned and is not the gap.",
+      "B": "Correct. Every part being the most durable of its kind does not guarantee that the engine they form is the most durable engine, since how the parts are combined also matters.",
+      "C": "Shell game: the argument never speaks of performance.",
+      "D": "True but irrelevant: ratings on other features do not touch a conclusion about durability.",
+      "E": "Out of scope: buyers' preferences are not part of the argument."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "C": "shell_game",
+      "D": "true_but_irrelevant",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "What holds of every part need not hold of the whole they form.",
+    "predictionHint": "Parts excellent, therefore whole excellent: composition."
+  },
+  {
+    "id": "lr-t6-na-vance-cellist",
+    "section": "LR",
+    "type": "necessary_assumption",
+    "logicTags": [
+      "part_v_whole"
+    ],
+    "difficulty": 1,
+    "stimulus": "The Vance Quartet is among the finest chamber ensembles in the country. So its cellist, Ira Dahl, must be among the finest cellists in the country.",
+    "stem": "The argument depends on assuming which one of the following?",
+    "choices": {
+      "A": "Ira Dahl has performed with other ensembles besides the Vance Quartet.",
+      "B": "The cello is more difficult to play than the other instruments in a quartet.",
+      "C": "Most of the finest chamber ensembles in the country have exactly four members.",
+      "D": "The Vance Quartet performs more often than other chamber ensembles in the country.",
+      "E": "A chamber ensemble cannot be among the finest in the country unless each of its members is among the finest players of the instrument he or she plays."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Out of scope: Dahl's other engagements do not connect the ensemble's quality to his own.",
+      "B": "Out of scope: the relative difficulty of instruments is not at issue.",
+      "C": "Out of scope: the number of members in other ensembles does not bear on Dahl's standing.",
+      "D": "Out of scope: how often the quartet performs does not link the group's ranking to its cellist's ranking.",
+      "E": "Correct. The argument passes from a quality of the whole to a quality of one part. It works only if a group of that standing needs every member to be of that standing."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "out_of_scope",
+      "C": "out_of_scope",
+      "D": "out_of_scope"
+    },
+    "keyTakeaway": "A conclusion about a part drawn from a fact about the whole needs a premise that the whole's quality passes down to each member.",
+    "predictionHint": "Whole to part: what bridges them?"
+  },
+  {
+    "id": "lr-t6-weaken-orion-payroll",
+    "section": "LR",
+    "type": "weaken",
+    "logicTags": [
+      "part_v_whole"
+    ],
+    "difficulty": 1,
+    "stimulus": "Each player on Orion FC earns more than the average player in the league. Therefore, Orion's total player payroll is larger than that of the typical club in the league.",
+    "stem": "Which one of the following, if true, most seriously weakens the argument?",
+    "choices": {
+      "A": "Orion's players are, on average, older than the players on most other clubs.",
+      "B": "The average salary paid to players in the league has risen sharply in recent years.",
+      "C": "Orion has far fewer players on its roster than the typical club in the league has.",
+      "D": "Orion's players receive large bonuses in addition to their salaries.",
+      "E": "Orion's ticket revenue is lower than that of most clubs in the league."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Out of scope: the age of the players does not affect how large the total payroll is.",
+      "B": "Out of scope: a league-wide rise in salaries does not distinguish Orion from other clubs.",
+      "C": "Correct. A total depends on how many players there are as well as how much each earns. A small roster could keep the total below the typical club's even if every player is well paid.",
+      "D": "Opposite: bonuses would raise Orion's payroll, which supports the conclusion.",
+      "E": "Out of scope: revenue from tickets is not part of the player payroll."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "out_of_scope",
+      "D": "opposite",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "A total depends on the number of parts as well as on the size of each.",
+    "predictionHint": "The conclusion is about a sum; the premise is about each member."
+  },
+  {
+    "id": "lr-t6-flaw-eastgate-collection",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "part_v_whole",
+      "comparison"
+    ],
+    "difficulty": 2,
+    "stimulus": "Critic: The Eastgate Museum's collection is worth more, in total, than the collection of any other museum in the country. Hence the typical work in Eastgate's collection is worth more than the typical work in any other museum's collection.",
+    "stem": "The critic's reasoning is flawed in that it",
+    "choices": {
+      "A": "treats a collection's total value as indicating the value of its typical work, though the total depends partly on the number of works",
+      "B": "assumes that monetary worth is the only legitimate measure of the value of a work of art, ignoring aesthetic and historical significance",
+      "C": "relies on the opinion of a critic rather than on that of professional appraisers",
+      "D": "fails to establish that Eastgate's works are better known than the works of other museums",
+      "E": "concludes that every work in the collection is valuable from the fact that some of its works are"
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. A collection can be worth the most in total simply by being large. The premise concerns the whole's total; the conclusion concerns the typical part.",
+      "B": "Out of scope: the argument and its premise already use monetary worth; whether it is the only measure is not the gap.",
+      "C": "Out of scope: who supplied the claim is not the problem; the inference fails regardless of the source.",
+      "D": "Shell game: how well known the works are is never mentioned.",
+      "E": "Wrong part: the conclusion is about the typical work, not about every work, and the premise is not about some works."
+    },
+    "trapPatterns": {
+      "B": "out_of_scope",
+      "C": "out_of_scope",
+      "D": "shell_game",
+      "E": "wrong_part"
+    },
+    "keyTakeaway": "A property of a total does not transfer to each member when the number of members could explain it.",
+    "predictionHint": "Total value versus value per work."
+  },
+  {
+    "id": "lr-t6-evaluate-bin-inspections",
+    "section": "LR",
+    "type": "evaluate",
+    "logicTags": [
+      "sampling"
+    ],
+    "difficulty": 4,
+    "stimulus": "County analyst: Our recycling program inspected the bins of 300 households. The households volunteered in response to a county mailing, and volunteers were recruited from each district in proportion to its population. Using a single written standard, inspectors judged that 85 percent of the volunteers' bins were sorted carefully. We can conclude that most households in the county sort their recycling carefully.",
+    "stem": "Which one of the following would be most useful to know in evaluating the analyst's argument?",
+    "choices": {
+      "A": "Whether the county's recycling program has more participants now than it had in previous years",
+      "B": "Whether 300 households is enough to permit an estimate of the county-wide rate that is accurate to within a few percentage points",
+      "C": "Whether the districts from which the volunteers came differ in the amount of recycling they generate",
+      "D": "Whether households that sort their recycling carefully were more likely than other households to volunteer for inspection",
+      "E": "Whether the households whose bins were judged careless were later told the results of the inspection"
+    },
+    "answer": "D",
+    "explanations": {
+      "A": "Out of scope: the number of participants over time says nothing about whether volunteers resemble nonvolunteers.",
+      "B": "Half right: sample size can matter, but a sample of 300 is not the weak point here; a sample that is large and self-selected remains unrepresentative.",
+      "C": "Out of scope: volume of recycling per district does not bear on how carefully households sort, and the volunteers were already spread by population.",
+      "D": "Correct. The volunteers chose to be inspected. If careful sorters were more inclined to volunteer, the 85 percent figure overstates the county rate; if volunteering was unrelated to sorting habits, it supports the conclusion.",
+      "E": "Out of scope: whether households were informed afterward does not affect the inspection results."
+    },
+    "trapPatterns": {
+      "A": "out_of_scope",
+      "B": "half_right",
+      "C": "out_of_scope",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "When people choose to be in the sample, ask whether choosing is related to the trait being measured.",
+    "predictionHint": "Volunteers: do they differ from non-volunteers in sorting?"
+  },
+  {
+    "id": "lr-t6-weaken-calloway-dredging",
+    "section": "LR",
+    "type": "weaken",
+    "logicTags": [
+      "weighing_factors"
+    ],
+    "difficulty": 4,
+    "stimulus": "Port authority: Dredging the Calloway channel would let larger cargo ships dock, raising the port's annual revenue by an estimated eight percent. A gain of that size makes dredging clearly worthwhile for the region.",
+    "stem": "Which one of the following, if true, most seriously weakens the port authority's argument?",
+    "choices": {
+      "A": "Dredging the channel would cost the port authority several million dollars in construction expenses and in later maintenance work.",
+      "B": "Dredging projects at other ports have raised those ports' revenue by more than eight percent.",
+      "C": "Several environmental groups have criticized the dredging proposal.",
+      "D": "The channel was last dredged more than thirty years ago.",
+      "E": "Dredging would destroy the oyster beds that sustain a regional fishing industry whose yearly earnings exceed the port's projected gain."
+    },
+    "answer": "E",
+    "explanations": {
+      "A": "Half right: a cost is another entry in the ledger, but no figure shows it exceeds the gain, so it does not establish that the project is not worthwhile.",
+      "B": "Opposite: larger gains elsewhere make the projected gain more believable.",
+      "C": "True but irrelevant: criticism by groups does not show what dredging would cost the region.",
+      "D": "Out of scope: the date of the last dredging has no bearing on whether the benefits outweigh the harms.",
+      "E": "Correct. The conclusion rests on one benefit. This puts a large harm on the other side of the scale, one stated to be bigger than the benefit, so the project may not be worthwhile for the region."
+    },
+    "trapPatterns": {
+      "A": "half_right",
+      "B": "opposite",
+      "C": "true_but_irrelevant",
+      "D": "out_of_scope"
+    },
+    "keyTakeaway": "A worth-it conclusion is weakened by a cost shown to be comparable to or larger than the benefit; a bare cost is not enough.",
+    "predictionHint": "Look for a harm that is at least as big as the revenue gain, and that falls on the region."
+  },
+  {
+    "id": "lr-t6-flaw-compost-emissions",
+    "section": "LR",
+    "type": "flaw",
+    "logicTags": [
+      "weighing_factors"
+    ],
+    "difficulty": 4,
+    "stimulus": "City official: The composting program was introduced solely to cut the city's greenhouse-gas emissions. Yet collecting food scraps requires trucks to make additional trips, and those trips add emissions. The program has therefore failed in its purpose and should be scrapped.",
+    "stem": "The official's reasoning is most vulnerable to criticism on the grounds that it",
+    "choices": {
+      "A": "treats an emissions cost of the program as decisive without weighing it against the emissions the program avoids",
+      "B": "relies on the claim that greenhouse-gas emissions are harmful without establishing that they actually damage the environment",
+      "C": "infers that a program has failed from the fact that it has not yet met every one of its goals",
+      "D": "ignores the financial cost of operating the composting program",
+      "E": "draws a conclusion about the whole city from the experience of only a few of the neighborhoods the program serves"
+    },
+    "answer": "A",
+    "explanations": {
+      "A": "Correct. The program's purpose is a net reduction. The official counts only the emissions it adds, with no look at the emissions it may prevent, so the claim that it has failed is unsupported.",
+      "B": "Out of scope: the argument takes the goal as given; whether the goal is worthwhile is not at issue.",
+      "C": "Shell game: the program has one stated goal, not several, so the argument is not about unmet goals.",
+      "D": "Out of scope: the argument judges the program by its stated purpose, emissions, so financial cost does not bear on it.",
+      "E": "Out of scope: nothing in the passage restricts the evidence to a few neighborhoods."
+    },
+    "trapPatterns": {
+      "B": "out_of_scope",
+      "C": "shell_game",
+      "D": "out_of_scope",
+      "E": "out_of_scope"
+    },
+    "keyTakeaway": "Counting one cost is not weighing; ask what sits on the other side of the ledger.",
+    "predictionHint": "Added emissions, but what about emissions avoided?"
+  },
+  {
+    "id": "lr-t6-na-wexley-records",
+    "section": "LR",
+    "type": "necessary_assumption",
+    "logicTags": [
+      "weighing_factors"
+    ],
+    "difficulty": 4,
+    "stimulus": "Consultant: Switching Wexley Clinic from paper records to an electronic system would free about 2,000 staff-hours of filing work each year. The clinic should therefore make the switch.",
+    "stem": "The consultant's argument depends on assuming which one of the following?",
+    "choices": {
+      "A": "No other change the clinic could make, whether to records or to scheduling, would free as many staff-hours each year as the electronic system would.",
+      "B": "The staff-hours that the electronic system freed would be spent on patient care.",
+      "C": "The cost of adopting and running the electronic system is not greater than the worth of the staff time it would free.",
+      "D": "Most clinics that have switched to electronic records have saved staff time.",
+      "E": "Staff time is the most valuable resource that a clinic has."
+    },
+    "answer": "C",
+    "explanations": {
+      "A": "Comparison shift: the conclusion is that the switch is worth making, not that it is the best of all possible changes, so no ranking is required.",
+      "B": "Half right: how the hours are used might matter, but if they were put to other worthwhile uses the conclusion would still hold.",
+      "C": "Correct. The consultant lists only a benefit. For 'should' to follow, the cost of the switch must not swamp that benefit; if it did, the clinic would be better off staying on paper.",
+      "D": "True but irrelevant: other clinics' experience is not required for the claim about this clinic.",
+      "E": "Extreme: the argument needs the freed time to be worth something against the cost, not to be a clinic's single most valuable resource."
+    },
+    "trapPatterns": {
+      "A": "comparison_shift",
+      "B": "half_right",
+      "D": "true_but_irrelevant",
+      "E": "extreme"
+    },
+    "keyTakeaway": "A recommendation that cites only a benefit needs the assumption that the costs do not outweigh it.",
+    "predictionHint": "The costs of switching are missing from the consultant's ledger."
+  }
+]

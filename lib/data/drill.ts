@@ -1,4 +1,5 @@
 import "server-only";
+import { checkPoolFor } from "@/lib/content/check-pools";
 import { and, desc, eq, inArray, isNull, sql } from "drizzle-orm";
 import { format } from "date-fns";
 import { getDb, schema } from "@/lib/db/client";
@@ -78,6 +79,7 @@ export async function pickNext(settings: DrillSettings, excludeIds: string[], la
     repeat: settings.repeat,
     sources: settings.sources,
     excludeIds,
+    ids: settings.lesson ? await checkPoolFor(settings.lesson) : null,
     lastType,
     rating: skill.rating,
     now: new Date(),

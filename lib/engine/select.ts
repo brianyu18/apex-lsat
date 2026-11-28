@@ -40,6 +40,8 @@ export interface SelectionContext {
   pair: LRPair | null;
   /** restrict to candidates carrying any of these tags */
   tags: string[] | null;
+  /** restrict to exactly these question ids (a lesson's curated check pool); wins over types and tags */
+  ids?: string[] | null;
   /** manual difficulty levels; null = auto */
   levels: Difficulty[] | null;
   /** 0–100: chance to serve one level above skill in auto mode */
@@ -85,10 +87,11 @@ export function filterCandidates(cands: Candidate[], ctx: SelectionContext, leve
   return cands.filter((c) => {
     if (c.section !== ctx.section) return false;
     if (exclude.has(c.id)) return false;
+    if (ctx.ids && !ctx.ids.includes(c.id)) return false;
     if (c.reservedForTimed) return false;
     if (!ctx.sources.includes(c.source)) return false;
-    if (types && !types.includes(c.type)) return false;
-    if (ctx.tags && ctx.tags.length && !c.logicTags.some((t) => ctx.tags!.includes(t))) return false;
+    if (!ctx.ids && types && !types.includes(c.type)) return false;
+    if (!ctx.ids && ctx.tags && ctx.tags.length && !c.logicTags.some((t) => ctx.tags!.includes(t))) return false;
     // due/inbox items ignore the difficulty band and the repeat rule — they're supposed to come back
     if (c.source === "due" || c.source === "inbox" || c.source === "missed") return true;
     if (!levels.includes(c.difficulty)) return false;

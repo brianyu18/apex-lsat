@@ -20,11 +20,23 @@ export const choiceEnum = z.enum(CHOICES);
 const difficultyEnum = z.union([z.literal(1), z.literal(2), z.literal(3), z.literal(4)]);
 
 const choicesRecord = z
-  .object({ A: z.string().min(1), B: z.string().min(1), C: z.string().min(1), D: z.string().min(1), E: z.string().min(1) })
+  .object({
+    A: z.string().min(1),
+    B: z.string().min(1),
+    C: z.string().min(1),
+    D: z.string().min(1),
+    E: z.string().min(1),
+  })
   .strict();
 
 const explanationsRecord = z
-  .object({ A: z.string().min(1), B: z.string().min(1), C: z.string().min(1), D: z.string().min(1), E: z.string().min(1) })
+  .object({
+    A: z.string().min(1),
+    B: z.string().min(1),
+    C: z.string().min(1),
+    D: z.string().min(1),
+    E: z.string().min(1),
+  })
   .strict();
 
 /** Wrong answers must each name the pattern that makes them tempting. */
@@ -52,18 +64,34 @@ export const LRQuestionSchema = z
     const wrong = CHOICES.filter((c) => c !== q.answer);
     for (const c of wrong) {
       if (!q.trapPatterns[c]) {
-        ctx.addIssue({ code: z.ZodIssueCode.custom, path: ["trapPatterns", c], message: `wrong answer ${c} needs a trap pattern` });
+        ctx.addIssue({
+          code: z.ZodIssueCode.custom,
+          path: ["trapPatterns", c],
+          message: `wrong answer ${c} needs a trap pattern`,
+        });
       }
     }
     if (q.trapPatterns[q.answer]) {
-      ctx.addIssue({ code: z.ZodIssueCode.custom, path: ["trapPatterns", q.answer], message: "correct answer must not have a trap pattern" });
+      ctx.addIssue({
+        code: z.ZodIssueCode.custom,
+        path: ["trapPatterns", q.answer],
+        message: "correct answer must not have a trap pattern",
+      });
     }
     const texts = Object.values(q.choices).map((s) => s.trim().toLowerCase());
     if (new Set(texts).size !== 5) {
-      ctx.addIssue({ code: z.ZodIssueCode.custom, path: ["choices"], message: "answer choices must be distinct" });
+      ctx.addIssue({
+        code: z.ZodIssueCode.custom,
+        path: ["choices"],
+        message: "answer choices must be distinct",
+      });
     }
     if (DIFFICULTY_LEVELS.indexOf(q.difficulty) === -1) {
-      ctx.addIssue({ code: z.ZodIssueCode.custom, path: ["difficulty"], message: "difficulty must be 1–4" });
+      ctx.addIssue({
+        code: z.ZodIssueCode.custom,
+        path: ["difficulty"],
+        message: "difficulty must be 1–4",
+      });
     }
   });
 export type LRQuestionInput = z.infer<typeof LRQuestionSchema>;
@@ -88,7 +116,11 @@ export const RCQuestionSchema = z
     const wrong = CHOICES.filter((c) => c !== q.answer);
     for (const c of wrong) {
       if (!q.trapPatterns[c]) {
-        ctx.addIssue({ code: z.ZodIssueCode.custom, path: ["trapPatterns", c], message: `wrong answer ${c} needs a trap pattern` });
+        ctx.addIssue({
+          code: z.ZodIssueCode.custom,
+          path: ["trapPatterns", c],
+          message: `wrong answer ${c} needs a trap pattern`,
+        });
       }
     }
   });
@@ -104,7 +136,9 @@ export const RCPassageSchema = z
     paragraphsB: z.array(z.string().min(80)).min(1).max(5).optional(),
     roleMap: z.object({
       paragraphs: z.array(z.enum(PARAGRAPH_ROLES)),
-      viewpoints: z.array(z.object({ who: z.string(), position: z.string(), authorAgrees: z.boolean().nullable() })),
+      viewpoints: z.array(
+        z.object({ who: z.string(), position: z.string(), authorAgrees: z.boolean().nullable() }),
+      ),
       tone: z.string().min(3).max(60),
     }),
     lowResSummary: z.string().min(10).max(160),
@@ -113,14 +147,26 @@ export const RCPassageSchema = z
   .strict()
   .superRefine((p, ctx) => {
     if (p.roleMap.paragraphs.length !== p.paragraphs.length) {
-      ctx.addIssue({ code: z.ZodIssueCode.custom, path: ["roleMap", "paragraphs"], message: "one role per paragraph" });
+      ctx.addIssue({
+        code: z.ZodIssueCode.custom,
+        path: ["roleMap", "paragraphs"],
+        message: "one role per paragraph",
+      });
     }
     if (p.comparative && !p.paragraphsB) {
-      ctx.addIssue({ code: z.ZodIssueCode.custom, path: ["paragraphsB"], message: "comparative passages need paragraphsB" });
+      ctx.addIssue({
+        code: z.ZodIssueCode.custom,
+        path: ["paragraphsB"],
+        message: "comparative passages need paragraphsB",
+      });
     }
     for (const q of p.questions) {
       if (!q.id.startsWith(p.id + "-q")) {
-        ctx.addIssue({ code: z.ZodIssueCode.custom, path: ["questions"], message: `question ${q.id} must be prefixed by ${p.id}` });
+        ctx.addIssue({
+          code: z.ZodIssueCode.custom,
+          path: ["questions"],
+          message: `question ${q.id} must be prefixed by ${p.id}`,
+        });
       }
     }
   });
@@ -136,10 +182,35 @@ export const LessonFrontmatterSchema = z
     /** bank tags (types or logic tags) the 5-question check draws from */
     checkTags: z.array(z.string()).min(1),
     checkSection: z.enum(["LR", "RC"]).default("LR"),
-    /** untimed = drill check (default); timed = short timed LR section; writing = argumentative-writing practice */
-    checkMode: z.enum(["untimed", "timed", "writing"]).default("untimed"),
+    /** untimed = drill check (default); timed = short timed LR section; writing = argumentative-writing practice;
+     *  quiz = five questions on the lesson itself (content/lessons/quizzes.json), for lessons that teach the program rather than an LSAT skill */
+    checkMode: z.enum(["untimed", "timed", "writing", "quiz"]).default("untimed"),
     diagram: z.string().optional(),
     minutes: z.number().int().min(3).max(40).default(10),
   })
   .strict();
 export type LessonFrontmatter = z.infer<typeof LessonFrontmatterSchema>;
+
+/** A lesson quiz question: checks the lesson's own content (Unit 0 lessons about the test and the program). */
+export const LessonQuizQuestionSchema = z
+  .object({
+    prompt: z.string().min(10),
+    choices: z.partialRecord(z.enum(["A", "B", "C", "D", "E"]), z.string().min(2)),
+    answer: z.enum(["A", "B", "C", "D", "E"]),
+    why: z.partialRecord(z.enum(["A", "B", "C", "D", "E"]), z.string().min(5)),
+  })
+  .strict()
+  .superRefine((q, ctx) => {
+    const letters = Object.keys(q.choices);
+    if (letters.length < 3) ctx.addIssue({ code: "custom", message: "at least three choices" });
+    if (!letters.includes(q.answer))
+      ctx.addIssue({ code: "custom", message: "answer must be one of the choices" });
+    for (const l of letters)
+      if (!q.why[l as keyof typeof q.why])
+        ctx.addIssue({ code: "custom", message: `why missing for ${l}` });
+  });
+export const LessonQuizzesSchema = z.record(
+  z.string().regex(/^u[0-6]\/[a-z0-9-]+$/),
+  z.array(LessonQuizQuestionSchema).min(3).max(10),
+);
+export type LessonQuizQuestion = z.infer<typeof LessonQuizQuestionSchema>;
